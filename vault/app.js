@@ -237,4 +237,11 @@ function formatNumber(v) {
 function escapeHtml(s) {
   return String(s ?? "")
     .replace(/&/g, "&amp;")
-    .replace(/
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+function escapeAttr(s) {
+  return String(s ?? "").replace(/'/g, "%27");
+}
