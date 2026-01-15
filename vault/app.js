@@ -40,15 +40,28 @@ async function api(action, payload = {}) {
 (async function init() {
   setStatus("Loading index…");
 
-  // local cache first
-  const cached = localStorage.getItem(LS_KEY);
-  if (cached) {
-    try {
-      INDEX = JSON.parse(cached) || [];
-      setStatus(`Index ready (${INDEX.length})`);
-      return;
-    } catch (_) {}
+  // Always fetch fresh during debugging (we'll re-enable cache after)
+  try {
+    const data = await api("index");
+    if (!data.ok) throw new Error(data.error || "Index load failed");
+    INDEX = data.index || [];
+
+    // show debug info
+    const dbg = document.getElementById("debug");
+    if (dbg) {
+      const sample = INDEX[0] ? Object.keys(INDEX[0]).slice(0, 10).join(", ") : "(none)";
+      dbg.textContent = `Index loaded: ${INDEX.length} items. Sample keys: ${sample}`;
+    }
+
+    setStatus(`Index ready (${INDEX.length})`);
+  } catch (err) {
+    showError(String(err));
+    setStatus("Index error");
+    const dbg = document.getElementById("debug");
+    if (dbg) dbg.textContent = `Index failed: ${String(err)}`;
   }
+})();
+
 
   // fetch index
   try {
