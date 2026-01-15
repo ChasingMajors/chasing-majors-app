@@ -12,301 +12,377 @@
 
   <style>
     :root{
+      --contentMax: 900px;
+      --navH: 62px;
+
       --bg:#0f0f10;
-      --card:#1c1d20;
-      --text:#f1f1f1;
-      --muted:rgba(241,241,241,.65);
-      --line:rgba(255,255,255,.12);
-      --shadow:0 12px 35px rgba(0,0,0,.45);
-      --btn:#ffffff;
-      --btnText:#111;
-      --radius:18px;
-      --radiusSm:12px;
+      --text:#ffffff;
+      --muted:rgba(255,255,255,0.72);
+
+      --cardBg:rgba(255,255,255,0.08);
+      --cardBorder:rgba(255,255,255,0.12);
+
+      --inputBg:#111;
+      --inputBorder:rgba(255,255,255,0.16);
+
+      --btnPrimaryBg:#ffffff;
+      --btnPrimaryText:#000000;
+
+      --btnClearBg:transparent;
+      --btnClearText:#ffffff;
+      --btnClearBorder:rgba(255,255,255,0.22);
+
+      --navBg:#0b0b0b;
+      --navBorder:rgba(255,255,255,0.12);
+
+      --navBtnBg:rgba(255,255,255,0.12);
+      --navBtnIcon:#ffffff;
+
+      --kvBorder:rgba(255,255,255,0.10);
     }
 
     body.light{
-      --bg:#f6f7f8;
-      --card:#f0f1f3;
-      --text:#111;
-      --muted:rgba(17,17,17,.6);
-      --line:rgba(17,17,17,.12);
-      --shadow:0 10px 25px rgba(0,0,0,.1);
-      --btn:#111;
-      --btnText:#fff;
+      --bg:#ffffff;
+      --text:#0b0b0b;
+      --muted:rgba(0,0,0,0.70);
+
+      --cardBg:rgba(0,0,0,0.05);
+      --cardBorder:rgba(0,0,0,0.10);
+
+      --inputBg:#ffffff;
+      --inputBorder:rgba(0,0,0,0.18);
+
+      --btnPrimaryBg:#111111;
+      --btnPrimaryText:#ffffff;
+
+      --btnClearBg:#E0E0E0;
+      --btnClearText:#000000;
+      --btnClearBorder:#E0E0E0;
+
+      --navBg:#ffffff;
+      --navBorder:rgba(0,0,0,0.10);
+
+      --navBtnBg:rgba(0,0,0,0.08);
+      --navBtnIcon:#0b0b0b;
+
+      --kvBorder:rgba(0,0,0,0.10);
     }
 
+    html, body { height:100%; }
     body{
       margin:0;
-      font-family:Arial,Helvetica,sans-serif;
+      font-family: Arial, sans-serif;
       background:var(--bg);
       color:var(--text);
       transition: background 160ms ease, color 160ms ease;
     }
 
-    .wrap{max-width:900px;margin:0 auto;padding:22px 14px 50px;}
-    .bangers{font-family:"Bangers",system-ui;letter-spacing:.8px;}
+    .content{
+      padding: 16px 16px calc(var(--navH) + 24px);
+      max-width: var(--contentMax);
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
 
     /* HEADER */
-    .header{
-      position:relative;
-      text-align:center;
-      margin-bottom:18px;
+    .headerRow{
+      position: relative;
+      max-width: var(--contentMax);
+      margin: 6px auto 12px;
+      text-align: center;
     }
 
-    .vaultLogo{
-      font-size:34px;
-      line-height:1;
+    .appTitle{
+      font-family: "Bangers", cursive;
+      font-size: 34px;
+      letter-spacing: 1px;
+      line-height: 1;
+      margin: 0;
     }
-    .vaultLogo .big{
-      font-size:46px;
-    }
+    .appTitle .big{ font-size: 42px; }
 
-    .tools{
+    .themeToggle{
       position:absolute;
       right:0;
       top:0;
-      display:flex;
-      align-items:center;
-      gap:10px;
-    }
-
-    .pill{ display:none; }
-
-    .themeToggle{
       width:44px;
       height:44px;
-      border-radius:14px;
-      border:1px solid var(--line);
-      background:rgba(255,255,255,0.08);
-      color:var(--text);
+      border-radius: 14px;
+      border:1px solid var(--cardBorder);
+      background: var(--cardBg);
+      color: var(--text);
       cursor:pointer;
       display:flex;
       align-items:center;
       justify-content:center;
+      transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+      z-index: 2;
     }
-    body.light .themeToggle{
-      background:rgba(0,0,0,0.05);
-    }
-    .themeIcon{width:22px;height:22px;}
+    .themeIcon{ width:22px; height:22px; display:block; }
 
-    .splashInner{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  gap:14px;
-  text-align:center;
-}
-
-.splashTitle{
-  font-family:"Bangers",system-ui;
-  font-size:48px;
-  letter-spacing:1px;
-}
-
-.splashSub{
-  color:var(--muted);
-  font-size:14px;
-}
-
-    /* CARD */
     .card{
-      background:var(--card);
-      border:1px solid var(--line);
-      border-radius:var(--radius);
-      box-shadow:var(--shadow);
-      padding:16px;
+      background: var(--cardBg);
+      border: 1px solid var(--cardBorder);
+      border-radius: 16px;
+      padding: 16px;
       transition: background 160ms ease, border-color 160ms ease;
     }
 
-    .heroText{
-      font-size:16px;
-      font-weight:700;
-      line-height:1.35;
-      margin-bottom:12px;
+    .searchCard{
+      max-width: var(--contentMax);
+      margin: 0 auto 14px;
     }
 
-    /* SEARCH */
-    .searchWrap{position:relative;margin-bottom:12px;}
+    .heroText{
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.35;
+      margin-bottom: 12px;
+    }
+
+    .searchWrap{ position: relative; width:100%; }
 
     .searchIcon{
       position:absolute;
-      left:14px;
+      left:12px;
       top:50%;
-      transform:translateY(-50%);
-      opacity:.75;
+      transform: translateY(-50%);
+      width:18px;
+      height:18px;
+      opacity: 0.7;
+      pointer-events:none;
+      color: var(--text);
     }
 
     input{
       width:100%;
       box-sizing:border-box;
-      padding:14px 14px 14px 42px;
-      font-size:16px;
-      border-radius:var(--radiusSm);
-      border:1px solid var(--line);
-      background:transparent;
-      color:var(--text);
+      padding: 12px 12px 12px 40px;
+      border-radius: 12px;
+      border: 1px solid var(--inputBorder);
+      background: var(--inputBg);
+      color: var(--text);
+      font-size: 16px;
       outline:none;
+      transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
     }
 
-    button{
+    button.primary{
       width:100%;
-      padding:14px;
-      font-weight:900;
-      border-radius:var(--radiusSm);
-      border:1px solid var(--line);
+      margin-top:10px;
+      padding: 12px;
+      border:0;
+      border-radius: 12px;
+      background: var(--btnPrimaryBg);
+      color: var(--btnPrimaryText);
+      font-weight:700;
       cursor:pointer;
+      transition: background 160ms ease, color 160ms ease;
     }
 
-    .primary{background:var(--btn);color:var(--btnText);}
-    .secondary{background:transparent;color:var(--text);}
-
-    /* DROPDOWN */
-    .dropdown{
-      position:absolute;
-      left:0;right:0;
-      top:56px;
-      background:var(--card);
-      border:1px solid var(--line);
-      border-radius:12px;
-      box-shadow:var(--shadow);
-      display:none;
-      max-height:280px;
-      overflow:auto;
-      z-index:20;
+    button.clearBtn{
+      width:100%;
+      margin-top:10px;
+      padding: 12px;
+      border-radius: 12px;
+      background: var(--btnClearBg);
+      color: var(--btnClearText);
+      border: 1px solid var(--btnClearBorder);
+      font-weight:700;
+      cursor:pointer;
+      transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
     }
 
-    .ddItem{padding:12px;border-bottom:1px solid var(--line);cursor:pointer;}
-    .ddItem:hover{background:rgba(255,255,255,.06);}
-    body.light .ddItem:hover{background:rgba(0,0,0,.05);}
-    .ddTitle{font-weight:900;}
-    .ddMeta{font-size:12px;color:var(--muted);}
+    .list{ margin-top: 12px; display:grid; gap: 10px; }
+    .suggestion{ cursor:pointer; }
+    .suggestion .title{ font-weight: 700; }
 
-    /* RESULTS */
-    .resultsTitle{margin:20px 0 8px;font-weight:900;}
-    .empty{color:var(--muted);font-size:13px;}
+    .resultsWrap{
+      max-width: var(--contentMax);
+      margin: 0 auto;
+    }
 
-    table{width:100%;border-collapse:collapse;margin-top:10px;}
-    th,td{padding:10px;border-top:1px solid var(--line);text-align:left;font-size:14px;}
-    th{font-size:12px;color:var(--muted);text-transform:uppercase;}
+    table{
+      width:100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    th, td{
+      padding: 10px 8px;
+      border-bottom: 1px solid var(--kvBorder);
+      text-align: left;
+    }
+    th{
+      opacity: 0.8;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+    }
 
+    /* BOTTOM NAV (WaxAlert parity) */
+    .bottomNav{
+      position: fixed;
+      left:0; right:0; bottom:0;
+      height: var(--navH);
+      background: var(--navBg);
+      border-top: 1px solid var(--navBorder);
+      z-index: 9999;
+      display:flex;
+      justify-content:center;
+      transition: background 160ms ease, border-color 160ms ease;
+    }
 
-    
-<!-- Bottom App Nav (WaxAlert-style) -->
-<nav class="bottomNav" aria-label="App Navigation">
-  <div class="bottomNavInner">
-    <button class="navBtn" id="btnHome" type="button" aria-label="Home">
-      <svg class="navIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <path d="M3 10.5L12 3l9 7.5"
-          stroke="currentColor" stroke-width="2"
-          stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M5 9.8V21h14V9.8"
-          stroke="currentColor" stroke-width="2"
-          stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M10 21v-7h4v7"
-          stroke="currentColor" stroke-width="2"
-          stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </button>
-  </div>
-</nav>
+    .bottomNavInner{
+      width:100%;
+      max-width: var(--contentMax);
+      padding: 10px 16px max(10px, env(safe-area-inset-bottom));
+      box-sizing:border-box;
+    }
 
-
-
-    
-    /* LOADING */
-    .overlay{
-      position:fixed;
-      inset:0;
-      background:var(--bg);
+    .navBtn{
+      width:100%;
+      height: 42px;
+      border:0;
+      border-radius: 14px;
+      background: var(--navBtnBg);
+      color: var(--navBtnIcon);
+      cursor:pointer;
       display:flex;
       align-items:center;
       justify-content:center;
-      z-index:9999;
+      transition: background 160ms ease, color 160ms ease;
+    }
+
+    .navIcon{
+      width: 22px;
+      height: 22px;
+      display:block;
+    }
+
+    /* SPLASH OVERLAY */
+    .overlay{
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      color: var(--text);
+      display: grid;
+      place-items: center;
+      z-index: 10000;
+      transition: opacity 260ms ease, background 160ms ease, color 160ms ease;
+    }
+    .overlay.hide{
+      opacity: 0;
+      pointer-events: none;
+    }
+    .splashInner{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap:14px;
+      text-align:center;
+      width: min(520px, 92vw);
+      padding: 34px 18px 18px;
+      box-sizing: border-box;
+      animation: splashIn 420ms ease forwards;
+    }
+    @keyframes splashIn{
+      from{ opacity: 0; transform: translateY(14px); }
+      to{ opacity: 1; transform: translateY(0); }
+    }
+    .splashTitle{
+      font-family: "Bangers", cursive;
+      font-size: 44px;
+      line-height: 1.05;
+      letter-spacing: 1px;
+      margin: 0;
+      position: relative;
+      display: inline-block;
+    }
+    .splashTitle .big{ font-size: 56px; }
+    .splashSub{
+      opacity: .75;
+      font-size: 14px;
+      margin-top: -8px;
     }
     .spinner{
-      width:44px;height:44px;
+      width:44px;
+      height:44px;
       border-radius:50%;
-      border:4px solid var(--line);
-      border-top-color:var(--text);
-      animation:spin 1s linear infinite;
+      border:4px solid var(--cardBorder);
+      border-top-color: var(--text);
+      animation: spin 1s linear infinite;
     }
-    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes spin{ to{ transform: rotate(360deg); } }
   </style>
 </head>
 
 <body>
-
-<div id="overlay" class="overlay">
-  <div class="splashInner">
-    <div class="bangers splashTitle">Chasing Majors</div>
-    <div class="splashSub">Loading Print Run Vault…</div>
-    <div class="spinner"></div>
-  </div>
-</div>
-
-<div class="wrap">
-
-  <div class="header">
-    <div class="vaultLogo bangers">
-      <span class="big">P</span>rint
-      <span class="big">R</span>un
-      <span class="big">V</span>ault
-    </div>
-
-    <div class="tools">
-      <div id="status" class="pill"></div>
-      <button id="themeToggle" class="themeToggle" aria-label="Toggle theme"></button>
+  <!-- SPLASH OVERLAY -->
+  <div class="overlay" id="overlay">
+    <div class="splashInner">
+      <h1 class="splashTitle">Chasing Majors</h1>
+      <div class="splashSub">Loading Print Run Vault…</div>
+      <div class="spinner" aria-hidden="true"></div>
     </div>
   </div>
 
-  <div class="card">
-    <div class="heroText">
-      Print run data, not guesses.
+  <main class="content">
+    <section>
+      <div class="headerRow">
+        <div class="appTitle">
+          <span class="big">P</span>rint
+          <span class="big">R</span>un
+          <span class="big">V</span>ault
+        </div>
+        <button class="themeToggle" id="themeToggle" type="button" aria-label="Toggle theme"></button>
+      </div>
+
+      <div class="card searchCard">
+        <div class="heroText">Print run data, not guesses.</div>
+
+        <div class="searchWrap">
+          <svg class="searchIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M16.8 16.8 21 21"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <input id="q" placeholder="Search the Vault" autocomplete="off" />
+          <div class="list" id="dropdown"></div>
+        </div>
+
+        <button class="primary" id="btnSearch" type="button">Search</button>
+        <button class="clearBtn" id="btnClear" type="button">Clear</button>
+      </div>
+
+      <div class="resultsWrap">
+        <div class="list" id="results">
+          <div class="card" style="opacity:.8;">No results yet. Run a search.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="bottomNav" aria-label="Primary">
+    <div class="bottomNavInner">
+      <button class="navBtn" id="btnHome" type="button" aria-label="Home">
+        <svg class="navIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3 10.5L12 3l9 7.5"
+            stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M5 9.8V21h14V9.8"
+            stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 21v-7h4v7"
+            stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
     </div>
+  </nav>
 
-    <div class="searchWrap">
-      <svg class="searchIcon" width="18" height="18" viewBox="0 0 24 24" fill="none">
-        <path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        <path d="M16.8 16.8 21 21"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-      </svg>
-      <input id="q" placeholder="Search the Vault" autocomplete="off"/>
-      <div id="dropdown" class="dropdown"></div>
-    </div>
-
-    <button id="btnSearch" class="primary">Search</button>
-    <div style="height:8px"></div>
-    <button id="btnClear" class="secondary">Clear</button>
-  </div>
-
-  <div class="resultsTitle">Results</div>
-  <div class="card">
-    <div id="results" class="empty">No results yet. Run a search.</div>
-  </div>
-
-</div>
-
-<script src="./app.js"></script>
-  <!-- Bottom App Nav (WaxAlert-style) -->
-<nav class="bottomNav" aria-label="App Navigation">
-  <div class="bottomNavInner">
-    <button class="navBtn" id="btnHome" type="button" aria-label="Home">
-      <svg class="navIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <path d="M3 10.5L12 3l9 7.5"
-          stroke="currentColor" stroke-width="2"
-          stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M5 9.8V21h14V9.8"
-          stroke="currentColor" stroke-width="2"
-          stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M10 21v-7h4v7"
-          stroke="currentColor" stroke-width="2"
-          stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </button>
-  </div>
-</nav>
-
+  <script src="./app.js"></script>
 </body>
 </html>
