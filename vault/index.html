@@ -48,9 +48,8 @@
 
     /* HEADER */
     .header{
-      display:flex;
-      justify-content:space-between;
-      align-items:flex-start;
+      position:relative;
+      text-align:center;
       margin-bottom:18px;
     }
 
@@ -64,6 +63,9 @@
     }
 
     .tools{
+      position:absolute;
+      right:0;
+      top:0;
       display:flex;
       align-items:center;
       gap:10px;
@@ -201,6 +203,7 @@
       <span class="big">R</span>un
       <span class="big">V</span>ault
     </div>
+
     <div class="tools">
       <div id="status" class="pill">Loading…</div>
       <button id="themeToggle" class="iconBtn">🌙</button>
@@ -231,6 +234,6 @@
 
 </div>
 
-<script src="./app.js?v=final"></script>
+<script src="./app.js?v=headercenter"></script>
 </body>
 </html>
