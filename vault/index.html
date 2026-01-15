@@ -4,30 +4,100 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Print Run Vault</title>
+
   <style>
-    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#0f0f10;color:#f1f1f1;}
-    .wrap{max-width:960px;margin:0 auto;padding:20px;}
-    .card{background:#17181a;border:1px solid #2a2a2a;border-radius:14px;padding:16px;margin-top:14px;}
-    input{width:100%;padding:12px;font-size:16px;box-sizing:border-box;}
-    button{padding:12px 16px;font-weight:700;cursor:pointer;margin-top:10px;}
-    a{color:#fff;}
+    :root{
+      --bg:#0f0f10; --card:#17181a; --text:#f1f1f1; --muted:rgba(241,241,241,.72);
+      --line:rgba(255,255,255,.12); --chip:rgba(255,255,255,.08);
+      --btn:#ffffff; --btnText:#111;
+      --shadow:0 10px 30px rgba(0,0,0,.35);
+      --radius:14px;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f6f7f8; --card:#ffffff; --text:#111111; --muted:rgba(17,17,17,.68);
+        --line:rgba(17,17,17,.12); --chip:rgba(17,17,17,.06);
+        --btn:#111111; --btnText:#ffffff;
+        --shadow:0 10px 25px rgba(0,0,0,.10);
+      }
+    }
+
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);}
+    .wrap{max-width:980px;margin:0 auto;padding:18px 14px 40px;}
+
+    .topbar{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:12px;}
+    .brand{font-weight:900;font-size:20px;letter-spacing:.2px;}
+    .sub{font-size:12px;color:var(--muted);margin-top:4px;}
+    a{color:inherit}
+
+    .pill{display:inline-block;padding:4px 10px;border-radius:999px;background:var(--chip);border:1px solid var(--line);font-size:12px;color:var(--muted);}
+
+    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;}
+    .pad{padding:14px;}
+
+    .searchRow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;}
+    .searchWrap{position:relative;flex:1 1 420px;min-width:240px;}
+
+    input[type="text"]{
+      width:100%;padding:12px;font-size:16px; /* prevents iOS zoom */
+      border-radius:12px;border:1px solid var(--line);
+      outline:none;background:transparent;color:var(--text);box-sizing:border-box;
+    }
+
+    button{
+      padding:12px 14px;border-radius:12px;border:1px solid var(--line);
+      background:var(--btn);color:var(--btnText);
+      font-weight:800;cursor:pointer;user-select:none;
+    }
+    button.secondary{background:transparent;color:var(--text);}
+
+    .hint{font-size:12px;color:var(--muted);margin-top:10px;line-height:1.4;}
+
+    /* dropdown */
+    .dropdown{
+      position:absolute;left:0;right:0;top:46px;z-index:50;
+      background:var(--card);border:1px solid var(--line);border-radius:12px;
+      overflow:hidden;box-shadow:var(--shadow);
+      display:none;max-height:320px;overflow-y:auto;
+    }
+    .ddItem{padding:10px 12px;border-bottom:1px solid var(--line);cursor:pointer;}
+    .ddItem:last-child{border-bottom:none;}
+    .ddItem:hover{background:var(--chip);}
+    .ddTitle{font-weight:800;font-size:14px;}
+    .ddMeta{font-size:12px;color:var(--muted);margin-top:2px;}
+
+    .sectionTitle{font-weight:900;margin:14px 0 8px;}
+
+    .selected{font-weight:900;font-size:18px;margin:0;}
+    .metaRow{margin-top:6px;color:var(--muted);font-size:13px;}
+    .actionsRow{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;}
+
+    .table{width:100%;border-collapse:collapse;margin-top:10px;font-size:14px;}
+    .table th,.table td{padding:10px 8px;border-top:1px solid var(--line);vertical-align:top;text-align:left;}
+    .table th{color:var(--muted);font-size:12px;letter-spacing:.2px;text-transform:uppercase;}
+
+    .error{color:#ffb3b3;font-weight:800;margin-top:10px;display:none;}
+    @media (prefers-color-scheme: light){ .error{color:#b00020;} }
   </style>
 </head>
+
 <body>
   <div class="wrap">
-    <h1>Print Run Vault</h1>
-    <p><a href="../">← Back to App Home</a></p>
-
-    <div class="card">
-      <div style="font-weight:700;margin-bottom:8px;">Search</div>
-      <input id="q" placeholder="Type keywords (e.g. ginter x)" autocomplete="off" />
-      <button id="btnSearch">Search</button>
-      <button id="btnClear">Clear</button>
+    <div class="topbar">
+      <div>
+        <div class="brand">Print Run Vault</div>
+        <div class="sub"><a href="../">← Back to App Home</a></div>
+      </div>
+      <div class="pill" id="statusPill">Loading index…</div>
     </div>
 
-    <div class="card" id="results">No search yet.</div>
-  </div>
-
-  <script src="./app.js"></script>
-</body>
-</html>
+    <div class="card">
+      <div class="pad">
+        <div class="searchRow">
+          <div class="searchWrap">
+            <input id="q" type="text" placeholder="Search a product… (e.g., ginter x hobby)" autocomplete="off" />
+            <div id="dropdown" class="dropdown"></div>
+          </div>
+          <button id="btnSearch">Search</button>
+          <button id="btnClear" class="secondary">Clear</button>
+        </div>
