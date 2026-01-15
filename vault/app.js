@@ -1,16 +1,32 @@
+// ====== CONFIG ======
 const EXEC_URL = "https://script.google.com/macros/s/AKfycbxFfMn0bc5Q7WIUQwo0RijoeKOQWAZX_RsipvYlFrvPAmo392ql9fSSgq_G_mgJGeBRSQ/exec";
+const LS_KEY = "prv_index_v1";
+const MAX_SUGGESTIONS = 10;
 
+// ====== STATE ======
+let INDEX = [];
+let selectedItem = null;
+
+// ====== DOM ======
 const elQ = document.getElementById("q");
+const elDD = document.getElementById("dropdown");
 const elResults = document.getElementById("results");
-const btnSearch = document.getElementById("btnSearch");
-const btnClear = document.getElementById("btnClear");
+const elError = document.getElementById("error");
+const elStatus = document.getElementById("statusPill");
 
-btnSearch.addEventListener("click", run);
-btnClear.addEventListener("click", () => {
-  elQ.value = "";
-  elResults.textContent = "Cleared. No search yet.";
+document.getElementById("btnSearch").addEventListener("click", onSearchClick);
+document.getElementById("btnClear").addEventListener("click", onClear);
+
+elQ.addEventListener("input", onType);
+elQ.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") onSearchClick();
 });
 
+document.addEventListener("click", (e) => {
+  if (!elDD.contains(e.target) && e.target !== elQ) hideDropdown();
+});
+
+// ====== API ======
 async function api(action, payload = {}) {
   const res = await fetch(EXEC_URL, {
     method: "POST",
@@ -20,50 +36,205 @@ async function api(action, payload = {}) {
   return res.json();
 }
 
-async function run() {
-  const q = (elQ.value || "").trim().toLowerCase();
-  if (!q) return;
+// ====== INIT ======
+(async function init() {
+  setStatus("Loading index…");
 
-  elResults.textContent = "Loading index…";
+  // local cache first
+  const cached = localStorage.getItem(LS_KEY);
+  if (cached) {
+    try {
+      INDEX = JSON.parse(cached) || [];
+      setStatus(`Index ready (${INDEX.length})`);
+      return;
+    } catch (_) {}
+  }
 
-  // 1) load index
-  const idx = await api("index");
-  if (!idx.ok) {
-    elResults.textContent = "Error loading index: " + (idx.error || "unknown error");
+  // fetch index
+  try {
+    const data = await api("index");
+    if (!data.ok) throw new Error(data.error || "Index load failed");
+    INDEX = data.index || [];
+    localStorage.setItem(LS_KEY, JSON.stringify(INDEX));
+    setStatus(`Index ready (${INDEX.length})`);
+  } catch (err) {
+    showError(String(err));
+    setStatus("Index error");
+  }
+})();
+
+// ====== SEARCH UX ======
+function normalize(s) {
+  return (s || "").toString().toLowerCase().trim();
+}
+
+function buildHay(item) {
+  return normalize([
+    item.DisplayName,
+    item.Keywords,
+    item.year,
+    item.sport,
+    item.manufacturer,
+    item.product
+  ].join(" "));
+}
+
+function onType() {
+  hideError();
+  selectedItem = null;
+
+  const q = normalize(elQ.value);
+  if (!q || q.length < 2) {
+    hideDropdown();
     return;
   }
 
-  // 2) find first match (V0)
-  const match = (idx.index || []).find(i => {
-    const hay = ((i.DisplayName || "") + " " + (i.Keywords || "")).toLowerCase();
-    return hay.includes(q);
+  const hits = [];
+  for (const item of INDEX) {
+    if (buildHay(item).includes(q)) hits.push(item);
+    if (hits.length >= MAX_SUGGESTIONS) break;
+  }
+  renderDropdown(hits);
+}
+
+function renderDropdown(items) {
+  if (!items.length) return hideDropdown();
+
+  elDD.innerHTML = items.map(i => {
+    const meta = [i.year, i.sport, i.manufacturer, i.product].filter(Boolean).join(" • ");
+    return `
+      <div class="ddItem" data-code="${escapeHtml(i.Code)}">
+        <div class="ddTitle">${escapeHtml(i.DisplayName || "")}</div>
+        <div class="ddMeta">${escapeHtml(meta)}</div>
+      </div>
+    `;
+  }).join("");
+
+  Array.from(elDD.querySelectorAll(".ddItem")).forEach(node => {
+    node.addEventListener("click", () => {
+      const code = node.getAttribute("data-code");
+      const item = INDEX.find(x => String(x.Code) === String(code));
+      if (!item) return;
+      selectedItem = item;
+      elQ.value = item.DisplayName || "";
+      hideDropdown();
+      runSearchByCode(item.Code);
+    });
   });
 
-  if (!match) {
-    elResults.textContent = "No match found. Try different keywords.";
-    return;
-  }
-
-  elResults.textContent = "Found: " + (match.DisplayName || match.Code) + " — fetching rows…";
-
-  // 3) fetch rows for that code
-  const rowsData = await api("getRowsByCode", { code: match.Code });
-  if (!rowsData.ok) {
-    elResults.textContent = "Error fetching rows: " + (rowsData.error || "unknown error");
-    return;
-  }
-
-  const rows = rowsData.rows || [];
-  const meta = rowsData.meta || {};
-  const title = meta.displayName || match.DisplayName || "Selected";
-
-  // 4) render basic output
-  let out = `${title}\n\n`;
-  out += `Rows: ${rows.length}\n\n`;
-
-  for (const r of rows) {
-    out += `${r.setType || ""} | ${r.setLine || ""} | ${r.printRun || ""} | ${r.serial || ""}\n`;
-  }
-
-  elResults.textContent = out;
+  elDD.style.display = "block";
 }
+
+function hideDropdown() {
+  elDD.style.display = "none";
+  elDD.innerHTML = "";
+}
+
+function onSearchClick() {
+  hideError();
+  hideDropdown();
+
+  const q = normalize(elQ.value);
+  if (!q) return;
+
+  // Exact DisplayName match first
+  let match = INDEX.find(i => normalize(i.DisplayName) === q);
+
+  // fallback includes match
+  if (!match) match = INDEX.find(i => buildHay(i).includes(q));
+
+  if (!match) {
+    showError("No matching product found. Try different keywords or pick from the dropdown.");
+    return;
+  }
+
+  selectedItem = match;
+  runSearchByCode(match.Code);
+}
+
+function onClear() {
+  hideError();
+  hideDropdown();
+  selectedItem = null;
+  elQ.value = "";
+  elResults.innerHTML = `<div class="metaRow">Cleared. Search above.</div>`;
+}
+
+// ====== RESULTS ======
+async function runSearchByCode(code) {
+  elResults.innerHTML = `<div class="metaRow">Loading results…</div>`;
+
+  try {
+    const data = await api("getRowsByCode", { code });
+    if (!data.ok) throw new Error(data.error || "Search failed");
+
+    renderResults(data.meta || {}, data.rows || []);
+  } catch (err) {
+    showError(String(err));
+    elResults.innerHTML = `<div class="metaRow">No results.</div>`;
+  }
+}
+
+function renderResults(meta, rows) {
+  const title = meta.displayName || selectedItem?.DisplayName || "Selected Product";
+  const metaLine = [meta.year, meta.sport, meta.manufacturer, meta.product].filter(Boolean).join(" • ");
+  const cmURL = meta.cmURL || selectedItem?.cmURL || "";
+
+  const btn = cmURL
+    ? `<button onclick="window.open('${escapeAttr(cmURL)}','_blank')">View on ChasingMajors</button>`
+    : "";
+
+  const table = rows.length ? `
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Set Type</th>
+          <th>Set Line</th>
+          <th>Print Run</th>
+          <th>Serial</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${rows.map(r => `
+          <tr>
+            <td>${escapeHtml(r.setType || "")}</td>
+            <td>${escapeHtml(r.setLine || "")}</td>
+            <td>${formatNumber(r.printRun)}</td>
+            <td>${escapeHtml(r.serial || "")}</td>
+          </tr>
+        `).join("")}
+      </tbody>
+    </table>
+  ` : `<div class="metaRow">No rows found for this product.</div>`;
+
+  elResults.innerHTML = `
+    <p class="selected">${escapeHtml(title)}</p>
+    <div class="metaRow">${escapeHtml(metaLine)}</div>
+    <div class="actionsRow">${btn}</div>
+    ${table}
+  `;
+}
+
+// ====== UI HELPERS ======
+function setStatus(text) { elStatus.textContent = text; }
+
+function showError(msg) {
+  elError.textContent = msg;
+  elError.style.display = "block";
+}
+function hideError() {
+  elError.textContent = "";
+  elError.style.display = "none";
+}
+
+function formatNumber(v) {
+  if (v === null || v === undefined || v === "") return "";
+  const n = Number(String(v).replace(/,/g, ""));
+  if (Number.isFinite(n)) return n.toLocaleString();
+  return escapeHtml(String(v));
+}
+
+function escapeHtml(s) {
+  return String(s ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/
