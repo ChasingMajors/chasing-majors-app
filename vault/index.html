@@ -89,6 +89,26 @@
     }
     .themeIcon{width:22px;height:22px;}
 
+    .splashInner{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+  text-align:center;
+}
+
+.splashTitle{
+  font-family:"Bangers",system-ui;
+  font-size:48px;
+  letter-spacing:1px;
+}
+
+.splashSub{
+  color:var(--muted);
+  font-size:14px;
+}
+
     /* CARD */
     .card{
       background:var(--card);
@@ -194,9 +214,9 @@
 <body>
 
 <div id="overlay" class="overlay">
-  <div style="text-align:center;">
-    <div class="bangers" style="font-size:48px;">Chasing Majors</div>
-    <div style="color:var(--muted);margin:8px 0 14px;">Loading Print Run Vault…</div>
+  <div class="splashInner">
+    <div class="bangers splashTitle">Chasing Majors</div>
+    <div class="splashSub">Loading Print Run Vault…</div>
     <div class="spinner"></div>
   </div>
 </div>
