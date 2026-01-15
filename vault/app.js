@@ -77,68 +77,83 @@ async function api(action, payload){
 
 /* SEARCH UX */
 elQ.oninput = ()=>{
-  const q = elQ.value.toLowerCase().trim();
-  if(q.length<2){ elDD.style.display="none"; return; }
+  const q = String(elQ.value || "").toLowerCase().trim();
+  if(q.length < 2){ elDD.style.display="none"; return; }
 
   const hits = INDEX.filter(i =>
-    `${i.DisplayName} ${i.Keywords}`.toLowerCase().includes(q)
-  ).slice(0,8);
+    `${i.DisplayName || ""} ${i.Keywords || ""}`.toLowerCase().includes(q)
+  ).slice(0, 8);
 
-  elDD.innerHTML = hits.map(i=>`
-    <div class="ddItem" data-code="${i.Code}">
-      <div class="ddTitle">${escapeHTML(i.DisplayName)}</div>
-      <div class="ddMeta">${escapeHTML(i.year)} • ${escapeHTML(i.sport)} • ${escapeHTML(i.manufacturer)}</div>
+  elDD.innerHTML = hits.map(i => `
+    <div class="ddItem" data-code="${escapeHTML(i.Code)}">
+      <div class="ddTitle">${escapeHTML(i.DisplayName || "")}</div>
+      <div class="ddMeta">${escapeHTML(i.year || "")} • ${escapeHTML(i.sport || "")} • ${escapeHTML(i.manufacturer || "")}</div>
     </div>
   `).join("");
 
   elDD.style.display = hits.length ? "block" : "none";
 
-  [...elDD.children].forEach(n=>{
-    n.onclick = ()=>{
-      selected = INDEX.find(x => x.Code === n.dataset.code);
-      elQ.value = selected.DisplayName;
+  [...elDD.children].forEach(n => {
+    n.onclick = () => {
+      const code = n.dataset.code;
+      selected = INDEX.find(x => String(x.Code) === String(code)) || null;
+      if (!selected) return;
+      elQ.value = selected.DisplayName || "";
       elDD.style.display = "none";
       runSearch();
     };
   });
 };
 
-document.getElementById("btnSearch").onclick = runSearch;
+document.getElementById("btnSearch").addEventListener("click", runSearch);
 
-document.getElementById("btnClear").onclick = ()=>{
+document.getElementById("btnClear").addEventListener("click", ()=>{
   elQ.value="";
   selected=null;
-  elResults.textContent="No results yet. Run a search.";
   elDD.style.display="none";
-};
+  elResults.textContent="No results yet. Run a search.";
+});
 
+/* run search */
 async function runSearch(){
   if(!selected) return;
   elOverlay.style.display="flex";
-  const d = await api("getRowsByCode",{code:selected.Code});
-  render(d.meta,d.rows);
-  elOverlay.style.display="none";
+
+  try {
+    const d = await api("getRowsByCode", { code: selected.Code });
+    if (!d || !d.ok) throw new Error((d && d.error) ? d.error : "Search failed");
+
+    render(d.meta || {}, Array.isArray(d.rows) ? d.rows : []);
+  } catch (err) {
+    elResults.innerHTML = `<div style="opacity:.8;font-weight:700;">Error</div><div style="opacity:.75;margin-top:6px;">${escapeHTML(String(err))}</div>`;
+  } finally {
+    elOverlay.style.display="none";
+  }
 }
 
-function render(meta,rows){
+function render(meta, rows){
+  const title = meta.displayName || selected?.DisplayName || "Selected Product";
+  const metaLine = [meta.year, meta.sport, meta.manufacturer].filter(Boolean).join(" • ");
+
   elResults.innerHTML = `
-    <strong>${escapeHTML(meta.displayName)}</strong><br/>
-    <span style="color:var(--muted)">${escapeHTML(meta.year)} • ${escapeHTML(meta.sport)} • ${escapeHTML(meta.manufacturer)}</span>
+    <strong>${escapeHTML(title)}</strong><br/>
+    <span style="color:var(--muted)">${escapeHTML(metaLine)}</span>
     <table>
       <thead><tr><th>Set Type</th><th>Set Line</th><th>Print Run</th><th>Serial</th></tr></thead>
       <tbody>
         ${rows.map(r=>`
           <tr>
-            <td>${escapeHTML(r.setType)}</td>
-            <td>${escapeHTML(r.setLine)}</td>
+            <td>${escapeHTML(r.setType || "")}</td>
+            <td>${escapeHTML(r.setLine || "")}</td>
             <td>${formatNumber(r.printRun)}</td>
-            <td>${escapeHTML(r.serial||"")}</td>
+            <td>${escapeHTML(r.serial || "")}</td>
           </tr>`).join("")}
       </tbody>
     </table>
   `;
 }
 
+/* helpers */
 function escapeHTML(s){
   return String(s ?? "").replace(/[&<>"']/g, m => ({
     "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
