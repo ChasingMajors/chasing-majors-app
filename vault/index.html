@@ -14,8 +14,8 @@
     :root{
       --navH: 62px;
       --contentMax: 900px;
-      --radius: 14px;
 
+      /* DARK */
       --bg:#0b0b0b;
       --text:#ffffff;
       --muted:rgba(255,255,255,0.78);
@@ -40,9 +40,16 @@
       --navBtnIcon:#ffffff;
 
       --kvBorder:rgba(255,255,255,0.10);
+
+      /* DROPDOWN CONTRAST FIX */
+      --ddBg:#111;                         /* solid background so text is readable */
+      --ddBorder:rgba(255,255,255,0.18);
+      --ddHover:rgba(255,255,255,0.10);
+      --ddActive:rgba(255,255,255,0.16);
     }
 
     body.light{
+      /* LIGHT */
       --bg:#ffffff;
       --text:#0b0b0b;
       --muted:rgba(0,0,0,0.70);
@@ -67,6 +74,12 @@
       --navBtnIcon:#0b0b0b;
 
       --kvBorder:rgba(0,0,0,0.10);
+
+      /* DROPDOWN CONTRAST FIX */
+      --ddBg:#ffffff;
+      --ddBorder:rgba(0,0,0,0.16);
+      --ddHover:rgba(0,0,0,0.06);
+      --ddActive:rgba(0,0,0,0.10);
     }
 
     html, body { height:100%; }
@@ -117,7 +130,7 @@
       align-items:center;
       justify-content:center;
       transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
-      z-index: 2;
+      z-index: 5;
     }
     .themeIcon{ width:22px; height:22px; display:block; }
 
@@ -151,10 +164,10 @@
       transform: translateY(-50%);
       width:18px;
       height:18px;
-      opacity: 0.7;
+      opacity: 0.75;
       pointer-events:none;
       color: var(--text);
-      z-index: 2;
+      z-index: 3;
     }
 
     input{
@@ -170,37 +183,42 @@
       transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
     }
 
-    /* ✅ REAL DROPDOWN (fix) */
+    /* ✅ DROPDOWN (high contrast, readable) */
     .dropdown{
       position:absolute;
       left:0;
       right:0;
       top: calc(100% + 8px);
-      background: var(--cardBg);
-      border: 1px solid var(--cardBorder);
+      background: var(--ddBg);
+      border: 1px solid var(--ddBorder);
       border-radius: 12px;
-      overflow: hidden;
+      overflow: auto;
+      max-height: 280px;
       display:none;
       z-index: 50;
-      backdrop-filter: blur(8px);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.55);
     }
 
     .ddItem{
-      padding: 12px;
+      padding: 12px 12px;
       border-bottom: 1px solid var(--kvBorder);
       cursor: pointer;
+      background: transparent;
     }
     .ddItem:last-child{ border-bottom: 0; }
 
-    .ddItem:hover{
-      background: rgba(255,255,255,0.06);
-    }
-    body.light .ddItem:hover{
-      background: rgba(0,0,0,0.05);
-    }
+    .ddItem:hover{ background: var(--ddHover); }
+    .ddItem:active{ background: var(--ddActive); }
 
-    .ddTitle{ font-weight: 800; }
-    .ddMeta{ font-size: 12px; opacity: 0.75; margin-top: 4px; }
+    .ddTitle{
+      font-weight: 800;
+      color: var(--text);
+    }
+    .ddMeta{
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
 
     button.primary{
       width:100%;
@@ -381,7 +399,6 @@
           </svg>
 
           <input id="q" placeholder="Search the Vault" autocomplete="off" />
-          <!-- ✅ REAL DROPDOWN -->
           <div id="dropdown" class="dropdown"></div>
         </div>
 
