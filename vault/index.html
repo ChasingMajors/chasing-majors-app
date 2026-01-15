@@ -12,12 +12,13 @@
 
   <style>
     :root{
-      --contentMax: 900px;
       --navH: 62px;
+      --contentMax: 900px;
+      --radius: 14px;
 
-      --bg:#0f0f10;
+      --bg:#0b0b0b;
       --text:#ffffff;
-      --muted:rgba(255,255,255,0.72);
+      --muted:rgba(255,255,255,0.78);
 
       --cardBg:rgba(255,255,255,0.08);
       --cardBorder:rgba(255,255,255,0.12);
@@ -140,6 +141,7 @@
       margin-bottom: 12px;
     }
 
+    /* SEARCH */
     .searchWrap{ position: relative; width:100%; }
 
     .searchIcon{
@@ -152,6 +154,7 @@
       opacity: 0.7;
       pointer-events:none;
       color: var(--text);
+      z-index: 2;
     }
 
     input{
@@ -166,6 +169,38 @@
       outline:none;
       transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
     }
+
+    /* ✅ REAL DROPDOWN (fix) */
+    .dropdown{
+      position:absolute;
+      left:0;
+      right:0;
+      top: calc(100% + 8px);
+      background: var(--cardBg);
+      border: 1px solid var(--cardBorder);
+      border-radius: 12px;
+      overflow: hidden;
+      display:none;
+      z-index: 50;
+      backdrop-filter: blur(8px);
+    }
+
+    .ddItem{
+      padding: 12px;
+      border-bottom: 1px solid var(--kvBorder);
+      cursor: pointer;
+    }
+    .ddItem:last-child{ border-bottom: 0; }
+
+    .ddItem:hover{
+      background: rgba(255,255,255,0.06);
+    }
+    body.light .ddItem:hover{
+      background: rgba(0,0,0,0.05);
+    }
+
+    .ddTitle{ font-weight: 800; }
+    .ddMeta{ font-size: 12px; opacity: 0.75; margin-top: 4px; }
 
     button.primary{
       width:100%;
@@ -193,14 +228,12 @@
       transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
     }
 
-    .list{ margin-top: 12px; display:grid; gap: 10px; }
-    .suggestion{ cursor:pointer; }
-    .suggestion .title{ font-weight: 700; }
-
     .resultsWrap{
       max-width: var(--contentMax);
       margin: 0 auto;
     }
+
+    .list{ margin-top: 12px; display:grid; gap: 10px; }
 
     table{
       width:100%;
@@ -220,7 +253,7 @@
       letter-spacing: .4px;
     }
 
-    /* BOTTOM NAV (WaxAlert parity) */
+    /* BOTTOM NAV */
     .bottomNav{
       position: fixed;
       left:0; right:0; bottom:0;
@@ -297,10 +330,7 @@
       line-height: 1.05;
       letter-spacing: 1px;
       margin: 0;
-      position: relative;
-      display: inline-block;
     }
-    .splashTitle .big{ font-size: 56px; }
     .splashSub{
       opacity: .75;
       font-size: 14px;
@@ -349,8 +379,10 @@
             <path d="M16.8 16.8 21 21"
               stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
+
           <input id="q" placeholder="Search the Vault" autocomplete="off" />
-          <div class="list" id="dropdown"></div>
+          <!-- ✅ REAL DROPDOWN -->
+          <div id="dropdown" class="dropdown"></div>
         </div>
 
         <button class="primary" id="btnSearch" type="button">Search</button>
