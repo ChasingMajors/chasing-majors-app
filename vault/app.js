@@ -1,6 +1,7 @@
 // ====== CONFIG ======
 const EXEC_URL = "https://script.google.com/macros/s/AKfycbxFfMn0bc5Q7WIUQwo0RijoeKOQWAZX_RsipvYlFrvPAmo392ql9fSSgq_G_mgJGeBRSQ/exec";
 const MAX_SUGGESTIONS = 10;
+const LS_KEY = "prv_index_v1";
 
 // ====== STATE ======
 let INDEX = [];
@@ -69,24 +70,31 @@ async function api(action, payload = {}) {
 
 // ====== INIT ======
 (async function init(){
-  // Prove JS loaded
-  setStatus("JS loaded… fetching index");
-  dbg("JS loaded ✅ Trying to fetch index…");
+  setStatus("Loading index…");
 
+  // Try browser cache first
+  const cached = localStorage.getItem(LS_KEY);
+  if (cached) {
+    try {
+      INDEX = JSON.parse(cached) || [];
+      setStatus(`Index ready (${INDEX.length})`);
+      return;
+    } catch (_) {}
+  }
+
+  // Fetch fresh
   try {
     const data = await api("index");
     if (!data.ok) throw new Error(data.error || "Index load failed");
-
     INDEX = data.index || [];
+    localStorage.setItem(LS_KEY, JSON.stringify(INDEX));
     setStatus(`Index ready (${INDEX.length})`);
-    dbg(`Index loaded ✅ Count: ${INDEX.length}`);
-
   } catch (err) {
     setStatus("Index error");
-    dbg(`Index failed ❌ ${String(err)}`);
     showError(`Index failed: ${String(err)}`);
   }
 })();
+
 
 // ====== DROPDOWN ======
 function onType(){
