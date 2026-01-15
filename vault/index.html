@@ -1,117 +1,256 @@
-const EXEC_URL = "https://script.google.com/macros/s/AKfycbxFfMn0bc5Q7WIUQwo0RijoeKOQWAZX_RsipvYlFrvPAmo392ql9fSSgq_G_mgJGeBRSQ/exec";
-const LS_KEY = "prv_index_v1";
-const THEME_KEY = "cm_theme";
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Print Run Vault</title>
 
-const elQ = document.getElementById("q");
-const elDD = document.getElementById("dropdown");
-const elResults = document.getElementById("results");
-const elStatus = document.getElementById("status");
-const elOverlay = document.getElementById("overlay");
-const elTheme = document.getElementById("themeToggle");
-const iconMoon = document.getElementById("iconMoon");
-const iconSun = document.getElementById("iconSun");
+  <!-- Bangers Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
-let INDEX = [];
-let selected = null;
+  <style>
+    :root{
+      --bg:#0f0f10;
+      --card:#1c1d20;
+      --text:#f1f1f1;
+      --muted:rgba(241,241,241,.65);
+      --line:rgba(255,255,255,.12);
+      --shadow:0 12px 35px rgba(0,0,0,.45);
+      --btn:#ffffff;
+      --btnText:#111;
+      --radius:18px;
+      --radiusSm:12px;
+    }
 
-/* THEME */
-function applyTheme(t){
-  document.documentElement.setAttribute("data-theme", t);
-  localStorage.setItem(THEME_KEY, t);
-  iconMoon.style.display = t === "light" ? "block" : "none";
-  iconSun.style.display = t === "light" ? "none" : "block";
-}
+    /* Light theme (WaxAlert-style via body.light) */
+    body.light{
+      --bg:#f6f7f8;
+      --card:#f0f1f3;
+      --text:#111;
+      --muted:rgba(17,17,17,.6);
+      --line:rgba(17,17,17,.12);
+      --shadow:0 10px 25px rgba(0,0,0,.1);
+      --btn:#111;
+      --btnText:#fff;
+    }
 
-applyTheme(localStorage.getItem(THEME_KEY) || "dark");
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      transition: background 160ms ease, color 160ms ease;
+    }
 
-elTheme.onclick = () => {
-  const cur = document.documentElement.getAttribute("data-theme");
-  applyTheme(cur === "dark" ? "light" : "dark");
-};
+    .wrap{max-width:900px;margin:0 auto;padding:22px 14px 50px;}
+    .bangers{font-family:"Bangers",system-ui;letter-spacing:.8px;}
 
-/* API */
-async function api(action, payload){
-  const r = await fetch(EXEC_URL,{
-    method:"POST",
-    headers:{"Content-Type":"text/plain;charset=utf-8"},
-    body:JSON.stringify({action,payload})
-  });
-  return r.json();
-}
+    /* HEADER */
+    .header{
+      position:relative;
+      text-align:center;
+      margin-bottom:18px;
+    }
 
-/* INIT */
-(async ()=>{
-  const cached = localStorage.getItem(LS_KEY);
-  if(cached){
-    INDEX = JSON.parse(cached);
-    elStatus.textContent = `Index ready (${INDEX.length})`;
-    elOverlay.style.display="none";
-    return;
-  }
+    .vaultLogo{
+      font-size:34px;
+      line-height:1;
+    }
+    .vaultLogo .big{
+      font-size:46px;
+      vertical-align:baseline;
+    }
 
-  const d = await api("index");
-  INDEX = d.index || [];
-  localStorage.setItem(LS_KEY, JSON.stringify(INDEX));
-  elStatus.textContent = `Index ready (${INDEX.length})`;
-  elOverlay.style.display="none";
-})();
+    .tools{
+      position:absolute;
+      right:0;
+      top:0;
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
 
-/* SEARCH UX */
-elQ.oninput = ()=>{
-  const q = elQ.value.toLowerCase().trim();
-  if(q.length<2){elDD.style.display="none";return;}
-  const hits = INDEX.filter(i =>
-    `${i.DisplayName} ${i.Keywords}`.toLowerCase().includes(q)
-  ).slice(0,8);
+    .pill{
+      padding:6px 12px;
+      border-radius:999px;
+      border:1px solid var(--line);
+      font-size:12px;
+      color:var(--muted);
+      display:none; /* hidden for users, kept for debugging */
+    }
 
-  elDD.innerHTML = hits.map(i=>`
-    <div class="ddItem" data-code="${i.Code}">
-      <div class="ddTitle">${i.DisplayName}</div>
-      <div class="ddMeta">${i.year} • ${i.sport} • ${i.manufacturer}</div>
+    /* WaxAlert-style theme button visuals */
+    .themeToggle{
+      width:44px;
+      height:44px;
+      border-radius:14px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,0.08);
+      color: var(--text);
+      cursor:pointer;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+    }
+    body.light .themeToggle{
+      background: rgba(0,0,0,0.05);
+    }
+    .themeIcon{ width:22px; height:22px; display:block; }
+
+    /* CARD */
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:16px;
+      transition: background 160ms ease, border-color 160ms ease;
+    }
+
+    /* SEARCH */
+    .searchWrap{position:relative;margin-bottom:12px;}
+    .searchIcon{
+      position:absolute;
+      left:14px;
+      top:50%;
+      transform:translateY(-50%);
+      opacity:.75;
+      color: var(--text);
+    }
+
+    input{
+      width:100%;
+      box-sizing:border-box;
+      padding:14px 14px 14px 42px;
+      font-size:16px;
+      border-radius:var(--radiusSm);
+      border:1px solid var(--line);
+      background:transparent;
+      color:var(--text);
+      transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+      outline:none;
+    }
+
+    button{
+      width:100%;
+      padding:14px;
+      font-weight:900;
+      border-radius:var(--radiusSm);
+      border:1px solid var(--line);
+      cursor:pointer;
+      transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
+    }
+
+    .primary{background:var(--btn);color:var(--btnText);}
+    .secondary{background:transparent;color:var(--text);}
+
+    .hint{font-size:13px;color:var(--muted);margin-top:8px;}
+
+    /* DROPDOWN */
+    .dropdown{
+      position:absolute;
+      left:0;right:0;
+      top:56px;
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:12px;
+      box-shadow:var(--shadow);
+      display:none;
+      max-height:280px;
+      overflow:auto;
+      z-index:20;
+    }
+
+    .ddItem{padding:12px;border-bottom:1px solid var(--line);cursor:pointer;}
+    .ddItem:hover{background:rgba(255,255,255,.06);}
+    body.light .ddItem:hover{background:rgba(0,0,0,.05);}
+    .ddTitle{font-weight:900;}
+    .ddMeta{font-size:12px;color:var(--muted);}
+
+    /* RESULTS */
+    .resultsTitle{margin:20px 0 8px;font-weight:900;}
+    .empty{color:var(--muted);font-size:13px;}
+
+    table{width:100%;border-collapse:collapse;margin-top:10px;}
+    th,td{padding:10px;border-top:1px solid var(--line);text-align:left;font-size:14px;}
+    th{font-size:12px;color:var(--muted);text-transform:uppercase;}
+
+    /* LOADING */
+    .overlay{
+      position:fixed;inset:0;
+      background:var(--bg);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      z-index:9999;
+      transition: background 160ms ease, color 160ms ease;
+    }
+
+    .spinner{
+      width:44px;height:44px;
+      border-radius:50%;
+      border:4px solid var(--line);
+      border-top-color:var(--text);
+      animation:spin 1s linear infinite;
+      margin:auto;
+    }
+
+    @keyframes spin{to{transform:rotate(360deg)}}
+  </style>
+</head>
+
+<body>
+  <!-- LOADING OVERLAY -->
+  <div id="overlay" class="overlay">
+    <div style="text-align:center;">
+      <div class="bangers" style="font-size:48px;">Chasing Majors</div>
+      <div style="color:var(--muted);margin:8px 0 14px;">Loading Print Run Vault…</div>
+      <div class="spinner"></div>
     </div>
-  `).join("");
+  </div>
 
-  elDD.style.display = hits.length?"block":"none";
-  [...elDD.children].forEach(n=>{
-    n.onclick=()=>{
-      selected = INDEX.find(x=>x.Code===n.dataset.code);
-      elQ.value = selected.DisplayName;
-      elDD.style.display="none";
-      runSearch();
-    };
-  });
-};
+  <div class="wrap">
+    <div class="header">
+      <div class="vaultLogo bangers">
+        <span class="big">P</span>rint
+        <span class="big">R</span>un
+        <span class="big">V</span>ault
+      </div>
 
-document.getElementById("btnSearch").onclick = runSearch;
-document.getElementById("btnClear").onclick = ()=>{
-  elQ.value="";
-  selected=null;
-  elResults.textContent="No results yet. Run a search.";
-};
+      <div class="tools">
+        <div id="status" class="pill">Loading…</div>
+        <button class="themeToggle" id="themeToggle" type="button" aria-label="Toggle theme"></button>
+      </div>
+    </div>
 
-async function runSearch(){
-  if(!selected) return;
-  elOverlay.style.display="flex";
-  const d = await api("getRowsByCode",{code:selected.Code});
-  render(d.meta,d.rows);
-  elOverlay.style.display="none";
-}
+    <div class="card">
+      <div class="searchWrap">
+        <svg class="searchIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M16.8 16.8 21 21"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input id="q" placeholder="Search the Vault" autocomplete="off"/>
+        <div id="dropdown" class="dropdown"></div>
+      </div>
 
-function render(meta,rows){
-  elResults.innerHTML = `
-    <strong>${meta.displayName}</strong><br/>
-    <span style="color:var(--muted)">${meta.year} • ${meta.sport} • ${meta.manufacturer}</span>
-    <table>
-      <thead><tr><th>Set Type</th><th>Set Line</th><th>Print Run</th><th>Serial</th></tr></thead>
-      <tbody>
-        ${rows.map(r=>`
-          <tr>
-            <td>${r.setType}</td>
-            <td>${r.setLine}</td>
-            <td>${Number(r.printRun).toLocaleString()}</td>
-            <td>${r.serial||""}</td>
-          </tr>`).join("")}
-      </tbody>
-    </table>
-  `;
-}
+      <button id="btnSearch" class="primary">Search</button>
+      <div style="height:8px"></div>
+      <button id="btnClear" class="secondary">Clear</button>
+
+      <div class="hint">Never wonder how rare a card is ever again.</div>
+    </div>
+
+    <div class="resultsTitle">Results</div>
+    <div class="card">
+      <div id="results" class="empty">No results yet. Run a search.</div>
+    </div>
+  </div>
+
+  <script src="./app.js?v=wa-icons"></script>
+</body>
+</html>
