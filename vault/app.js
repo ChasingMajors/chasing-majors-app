@@ -1,6 +1,5 @@
 // ====== CONFIG ======
 const EXEC_URL = "https://script.google.com/macros/s/AKfycbxFfMn0bc5Q7WIUQwo0RijoeKOQWAZX_RsipvYlFrvPAmo392ql9fSSgq_G_mgJGeBRSQ/exec";
-const LS_KEY = "prv_index_v1";
 const MAX_SUGGESTIONS = 10;
 
 // ====== STATE ======
@@ -13,6 +12,7 @@ const elDD = document.getElementById("dropdown");
 const elResults = document.getElementById("results");
 const elError = document.getElementById("error");
 const elStatus = document.getElementById("statusPill");
+const elDebug = document.getElementById("debug");
 
 document.getElementById("btnSearch").addEventListener("click", onSearchClick);
 document.getElementById("btnClear").addEventListener("click", onClear);
@@ -26,81 +26,75 @@ document.addEventListener("click", (e) => {
   if (!elDD.contains(e.target) && e.target !== elQ) hideDropdown();
 });
 
-// ====== API ======
+// ====== HELPERS ======
+function setStatus(t){ elStatus.textContent = t; }
+function dbg(t){ if (elDebug) elDebug.textContent = t; }
+function showError(msg){ elError.textContent = msg; elError.style.display = "block"; }
+function hideError(){ elError.textContent = ""; elError.style.display = "none"; }
+
+function normalize(s){ return (s || "").toString().toLowerCase().trim(); }
+function buildHay(item){
+  return normalize([item.DisplayName, item.Keywords, item.year, item.sport, item.manufacturer, item.product].join(" "));
+}
+function escapeHtml(s){
+  return String(s ?? "")
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;").replace(/'/g,"&#039;");
+}
+function escapeAttr(s){ return String(s ?? "").replace(/'/g,"%27"); }
+function formatNumber(v){
+  if (v === null || v === undefined || v === "") return "";
+  const n = Number(String(v).replace(/,/g,""));
+  if (Number.isFinite(n)) return n.toLocaleString();
+  return escapeHtml(String(v));
+}
+
+// ====== API with timeout ======
 async function api(action, payload = {}) {
-  const res = await fetch(EXEC_URL, {
-    method: "POST",
-    headers: { "Content-Type": "text/plain;charset=utf-8" },
-    body: JSON.stringify({ action, payload })
-  });
-  return res.json();
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 12000); // 12s timeout
+
+  try {
+    const res = await fetch(EXEC_URL, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify({ action, payload }),
+      signal: controller.signal
+    });
+    return await res.json();
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 // ====== INIT ======
-(async function init() {
-  setStatus("Loading index…");
+(async function init(){
+  // Prove JS loaded
+  setStatus("JS loaded… fetching index");
+  dbg("JS loaded ✅ Trying to fetch index…");
 
-  // Always fetch fresh during debugging (we'll re-enable cache after)
   try {
     const data = await api("index");
     if (!data.ok) throw new Error(data.error || "Index load failed");
+
     INDEX = data.index || [];
-
-    // show debug info
-    const dbg = document.getElementById("debug");
-    if (dbg) {
-      const sample = INDEX[0] ? Object.keys(INDEX[0]).slice(0, 10).join(", ") : "(none)";
-      dbg.textContent = `Index loaded: ${INDEX.length} items. Sample keys: ${sample}`;
-    }
-
     setStatus(`Index ready (${INDEX.length})`);
+    dbg(`Index loaded ✅ Count: ${INDEX.length}`);
+
   } catch (err) {
-    showError(String(err));
     setStatus("Index error");
-    const dbg = document.getElementById("debug");
-    if (dbg) dbg.textContent = `Index failed: ${String(err)}`;
+    dbg(`Index failed ❌ ${String(err)}`);
+    showError(`Index failed: ${String(err)}`);
   }
 })();
 
-
-  // fetch index
-  try {
-    const data = await api("index");
-    if (!data.ok) throw new Error(data.error || "Index load failed");
-    INDEX = data.index || [];
-    localStorage.setItem(LS_KEY, JSON.stringify(INDEX));
-    setStatus(`Index ready (${INDEX.length})`);
-  } catch (err) {
-    showError(String(err));
-    setStatus("Index error");
-  }
-})();
-
-// ====== SEARCH UX ======
-function normalize(s) {
-  return (s || "").toString().toLowerCase().trim();
-}
-
-function buildHay(item) {
-  return normalize([
-    item.DisplayName,
-    item.Keywords,
-    item.year,
-    item.sport,
-    item.manufacturer,
-    item.product
-  ].join(" "));
-}
-
-function onType() {
+// ====== DROPDOWN ======
+function onType(){
   hideError();
   selectedItem = null;
 
   const q = normalize(elQ.value);
-  if (!q || q.length < 2) {
-    hideDropdown();
-    return;
-  }
+  if (!q || q.length < 2) return hideDropdown();
 
   const hits = [];
   for (const item of INDEX) {
@@ -110,7 +104,7 @@ function onType() {
   renderDropdown(hits);
 }
 
-function renderDropdown(items) {
+function renderDropdown(items){
   if (!items.length) return hideDropdown();
 
   elDD.innerHTML = items.map(i => {
@@ -138,22 +132,20 @@ function renderDropdown(items) {
   elDD.style.display = "block";
 }
 
-function hideDropdown() {
+function hideDropdown(){
   elDD.style.display = "none";
   elDD.innerHTML = "";
 }
 
-function onSearchClick() {
+// ====== SEARCH ======
+function onSearchClick(){
   hideError();
   hideDropdown();
 
   const q = normalize(elQ.value);
   if (!q) return;
 
-  // Exact DisplayName match first
   let match = INDEX.find(i => normalize(i.DisplayName) === q);
-
-  // fallback includes match
   if (!match) match = INDEX.find(i => buildHay(i).includes(q));
 
   if (!match) {
@@ -165,7 +157,7 @@ function onSearchClick() {
   runSearchByCode(match.Code);
 }
 
-function onClear() {
+function onClear(){
   hideError();
   hideDropdown();
   selectedItem = null;
@@ -173,14 +165,12 @@ function onClear() {
   elResults.innerHTML = `<div class="metaRow">Cleared. Search above.</div>`;
 }
 
-// ====== RESULTS ======
-async function runSearchByCode(code) {
+async function runSearchByCode(code){
   elResults.innerHTML = `<div class="metaRow">Loading results…</div>`;
 
   try {
     const data = await api("getRowsByCode", { code });
     if (!data.ok) throw new Error(data.error || "Search failed");
-
     renderResults(data.meta || {}, data.rows || []);
   } catch (err) {
     showError(String(err));
@@ -188,7 +178,7 @@ async function runSearchByCode(code) {
   }
 }
 
-function renderResults(meta, rows) {
+function renderResults(meta, rows){
   const title = meta.displayName || selectedItem?.DisplayName || "Selected Product";
   const metaLine = [meta.year, meta.sport, meta.manufacturer, meta.product].filter(Boolean).join(" • ");
   const cmURL = meta.cmURL || selectedItem?.cmURL || "";
@@ -200,12 +190,7 @@ function renderResults(meta, rows) {
   const table = rows.length ? `
     <table class="table">
       <thead>
-        <tr>
-          <th>Set Type</th>
-          <th>Set Line</th>
-          <th>Print Run</th>
-          <th>Serial</th>
-        </tr>
+        <tr><th>Set Type</th><th>Set Line</th><th>Print Run</th><th>Serial</th></tr>
       </thead>
       <tbody>
         ${rows.map(r => `
@@ -226,35 +211,4 @@ function renderResults(meta, rows) {
     <div class="actionsRow">${btn}</div>
     ${table}
   `;
-}
-
-// ====== UI HELPERS ======
-function setStatus(text) { elStatus.textContent = text; }
-
-function showError(msg) {
-  elError.textContent = msg;
-  elError.style.display = "block";
-}
-function hideError() {
-  elError.textContent = "";
-  elError.style.display = "none";
-}
-
-function formatNumber(v) {
-  if (v === null || v === undefined || v === "") return "";
-  const n = Number(String(v).replace(/,/g, ""));
-  if (Number.isFinite(n)) return n.toLocaleString();
-  return escapeHtml(String(v));
-}
-
-function escapeHtml(s) {
-  return String(s ?? "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
-}
-function escapeAttr(s) {
-  return String(s ?? "").replace(/'/g, "%27");
 }
