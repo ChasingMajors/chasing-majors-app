@@ -25,7 +25,7 @@ let selected = null;
 ================================ */
 function iconMoon(){
   return `
-    <svg class="themeIcon" viewBox="0 0 24 24" fill="none">
+    <svg class="themeIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <path d="M21 14.5A8.5 8.5 0 0 1 9.5 3a7 7 0 1 0 11.5 11.5Z"
         stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round"/>
@@ -33,7 +33,7 @@ function iconMoon(){
 }
 function iconSun(){
   return `
-    <svg class="themeIcon" viewBox="0 0 24 24" fill="none">
+    <svg class="themeIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"
         stroke="currentColor" stroke-width="2"
         stroke-linecap="round"/>
@@ -71,12 +71,22 @@ async function api(action, payload = {}) {
 }
 
 /* ================================
+   SPLASH
+================================ */
+function hideOverlay(){
+  setTimeout(() => {
+    elOverlay.classList.add("hide");
+    setTimeout(() => elOverlay.style.display = "none", 320);
+  }, 500);
+}
+
+/* ================================
    INIT INDEX
 ================================ */
 (async function init(){
   const cached = localStorage.getItem(INDEX_KEY);
   if (cached) {
-    INDEX = JSON.parse(cached);
+    try { INDEX = JSON.parse(cached) || []; } catch(e) { INDEX = []; }
     hideOverlay();
     return;
   }
@@ -87,96 +97,140 @@ async function api(action, payload = {}) {
     localStorage.setItem(INDEX_KEY, JSON.stringify(INDEX));
   } catch (e) {
     console.error("Index load failed", e);
+    INDEX = [];
   }
 
   hideOverlay();
 })();
 
-function hideOverlay(){
-  setTimeout(() => {
-    elOverlay.style.opacity = "0";
-    setTimeout(() => elOverlay.style.display = "none", 300);
-  }, 500);
+/* ================================
+   DROPDOWN HELPERS
+================================ */
+function openDropdown(html){
+  elDD.innerHTML = html;
+  elDD.style.display = "block";
+}
+function closeDropdown(){
+  elDD.style.display = "none";
+  elDD.innerHTML = "";
 }
 
 /* ================================
-   SEARCH DROPDOWN
+   TYPEAHEAD (AUTO SEARCH ON SELECT ✅)
 ================================ */
 elQ.addEventListener("input", () => {
   const q = elQ.value.toLowerCase().trim();
   selected = null;
 
   if (q.length < 2) {
-    elDD.style.display = "none";
+    closeDropdown();
     return;
   }
 
   const hits = INDEX.filter(i =>
-    `${i.DisplayName} ${i.Keywords}`.toLowerCase().includes(q)
-  ).slice(0, 8);
+    `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase().includes(q)
+  ).slice(0, 10);
 
   if (!hits.length) {
-    elDD.style.display = "none";
+    closeDropdown();
     return;
   }
 
-  elDD.innerHTML = hits.map(i => `
+  openDropdown(hits.map(i => `
     <div class="ddItem" data-code="${i.Code}">
       <div class="ddTitle">${i.DisplayName}</div>
       <div class="ddMeta">${i.year} • ${i.sport} • ${i.manufacturer}</div>
     </div>
-  `).join("");
-
-  elDD.style.display = "block";
+  `).join(""));
 
   [...elDD.children].forEach(node => {
-    node.onclick = () => {
-      selected = INDEX.find(x => x.Code === node.dataset.code);
+    node.onclick = async () => {
+      selected = INDEX.find(x => x.Code === node.dataset.code) || null;
+      if (!selected) return;
+
       elQ.value = selected.DisplayName;
-      elDD.style.display = "none";
+      closeDropdown();
+
+      // ✅ AUTO-SEARCH as soon as the user picks an item
+      await runSearch();
     };
   });
 });
 
-/* ================================
-   SEARCH ACTION
-================================ */
+/* Click outside closes dropdown */
+document.addEventListener("click", (e) => {
+  const inSearch = e.target.closest(".searchWrap");
+  if (!inSearch) closeDropdown();
+});
+
+/* Enter triggers search */
+elQ.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    e.preventDefault();
+    runSearch();
+  }
+});
+
+/* Buttons */
 document.getElementById("btnSearch").onclick = runSearch;
 document.getElementById("btnClear").onclick = () => {
   elQ.value = "";
   selected = null;
-  elResults.innerHTML = `<div class="empty">No results yet. Run a search.</div>`;
+  closeDropdown();
+  elResults.innerHTML = `<div class="card" style="opacity:.8;">No results yet. Run a search.</div>`;
 };
 
+/* ================================
+   SEARCH
+================================ */
 async function runSearch(){
-  if (!selected) return;
+  // If user typed and didn't click dropdown, try to best-match
+  if (!selected) {
+    const q = elQ.value.toLowerCase().trim();
+    if (!q) return;
 
-  elResults.innerHTML = `<div class="empty">Loading…</div>`;
+    const best = INDEX.find(i =>
+      `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase().includes(q)
+    );
+    if (best) selected = best;
+    else return;
+  }
+
+  elResults.innerHTML = `<div class="card" style="opacity:.8;">Loading…</div>`;
 
   try {
     const data = await api("getRowsByCode", { code: selected.Code });
     renderResults(data.meta, data.rows || []);
   } catch (e) {
-    elResults.innerHTML = `<div class="empty">Error loading data.</div>`;
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading data.</div>`;
   }
 }
 
 /* ================================
    RENDER
 ================================ */
+function esc(s){
+  return String(s ?? "").replace(/[&<>"']/g, m => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  }[m]));
+}
+function fmtNum(x){
+  const n = Number(String(x ?? "").replace(/,/g,""));
+  return Number.isFinite(n) ? n.toLocaleString() : esc(x);
+}
+
 function renderResults(meta, rows){
   if (!rows.length) {
-    elResults.innerHTML = `<div class="empty">No print run rows found.</div>`;
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">No print run rows found.</div>`;
     return;
   }
 
-  elResults.innerHTML = `
-    <div style="font-weight:900;margin-bottom:6px;">
-      ${meta.displayName}
-    </div>
-    <div style="opacity:.7;font-size:13px;margin-bottom:10px;">
-      ${meta.year} • ${meta.sport} • ${meta.manufacturer}
-    </div>
+  const title = esc(meta?.displayName || selected?.DisplayName || "Results");
+  const sub = `${esc(meta?.year || "")}${meta?.year ? " • " : ""}${esc(meta?.sport || "")}${meta?.sport ? " • " : ""}${esc(meta?.manufacturer || "")}`.trim();
+
+  const table = `
+    <div style="font-weight:800;margin-bottom:6px;">${title}</div>
+    <div style="opacity:.75;font-size:13px;margin-bottom:10px;">${sub}</div>
 
     <table>
       <thead>
@@ -190,15 +244,17 @@ function renderResults(meta, rows){
       <tbody>
         ${rows.map(r => `
           <tr>
-            <td>${r.setType || ""}</td>
-            <td>${r.setLine || ""}</td>
-            <td>${Number(r.printRun || 0).toLocaleString()}</td>
-            <td>${r.serial || ""}</td>
+            <td>${esc(r.setType || "")}</td>
+            <td>${esc(r.setLine || "")}</td>
+            <td>${fmtNum(r.printRun)}</td>
+            <td>${esc(r.serial || "")}</td>
           </tr>
         `).join("")}
       </tbody>
     </table>
   `;
+
+  elResults.innerHTML = `<div class="card">${table}</div>`;
 }
 
 /* ================================
@@ -208,5 +264,6 @@ const homeBtn = document.getElementById("btnHome");
 if (homeBtn) {
   homeBtn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+    elQ.focus();
   });
 }
