@@ -1,11 +1,13 @@
 // ====== CONFIG ======
 const EXEC_URL = "https://script.google.com/macros/s/AKfycbxFfMn0bc5Q7WIUQwo0RijoeKOQWAZX_RsipvYlFrvPAmo392ql9fSSgq_G_mgJGeBRSQ/exec";
-const MAX_SUGGESTIONS = 10;
 const LS_KEY = "prv_index_v1";
+const THEME_KEY = "cm_app_theme";
+const MAX_SUGGESTIONS = 10;
 
 // ====== STATE ======
 let INDEX = [];
 let selectedItem = null;
+let hasSearched = false;
 
 // ====== DOM ======
 const elQ = document.getElementById("q");
@@ -13,7 +15,9 @@ const elDD = document.getElementById("dropdown");
 const elResults = document.getElementById("results");
 const elError = document.getElementById("error");
 const elStatus = document.getElementById("statusPill");
-const elDebug = document.getElementById("debug");
+const elOverlay = document.getElementById("loadingOverlay");
+const elEmpty = document.getElementById("emptyState");
+const elThemeToggle = document.getElementById("themeToggle");
 
 document.getElementById("btnSearch").addEventListener("click", onSearchClick);
 document.getElementById("btnClear").addEventListener("click", onClear);
@@ -27,33 +31,35 @@ document.addEventListener("click", (e) => {
   if (!elDD.contains(e.target) && e.target !== elQ) hideDropdown();
 });
 
-// ====== HELPERS ======
-function setStatus(t){ elStatus.textContent = t; }
-function dbg(t){ if (elDebug) elDebug.textContent = t; }
-function showError(msg){ elError.textContent = msg; elError.style.display = "block"; }
-function hideError(){ elError.textContent = ""; elError.style.display = "none"; }
+elThemeToggle.addEventListener("click", toggleTheme);
 
-function normalize(s){ return (s || "").toString().toLowerCase().trim(); }
-function buildHay(item){
-  return normalize([item.DisplayName, item.Keywords, item.year, item.sport, item.manufacturer, item.product].join(" "));
-}
-function escapeHtml(s){
-  return String(s ?? "")
-    .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
-    .replace(/"/g,"&quot;").replace(/'/g,"&#039;");
-}
-function escapeAttr(s){ return String(s ?? "").replace(/'/g,"%27"); }
-function formatNumber(v){
-  if (v === null || v === undefined || v === "") return "";
-  const n = Number(String(v).replace(/,/g,""));
-  if (Number.isFinite(n)) return n.toLocaleString();
-  return escapeHtml(String(v));
+// ====== THEME ======
+function applyTheme(theme) {
+  document.documentElement.setAttribute("data-theme", theme);
+  localStorage.setItem(THEME_KEY, theme);
+  elThemeToggle.textContent = theme === "light" ? "Dark" : "Light";
 }
 
-// ====== API with timeout ======
+function toggleTheme() {
+  const cur = document.documentElement.getAttribute("data-theme") || "dark";
+  applyTheme(cur === "dark" ? "light" : "dark");
+}
+
+(function initTheme(){
+  const saved = localStorage.getItem(THEME_KEY);
+  if (saved === "light" || saved === "dark") {
+    applyTheme(saved);
+  } else {
+    // default: use system preference
+    const prefersLight = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+    applyTheme(prefersLight ? "light" : "dark");
+  }
+})();
+
+// ====== API (with timeout) ======
 async function api(action, payload = {}) {
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 12000); // 12s timeout
+  const timeout = setTimeout(() => controller.abort(), 12000);
 
   try {
     const res = await fetch(EXEC_URL, {
@@ -69,8 +75,9 @@ async function api(action, payload = {}) {
 }
 
 // ====== INIT ======
-(async function init(){
+(async function init() {
   setStatus("Loading index…");
+  showOverlay(true);
 
   // Try browser cache first
   const cached = localStorage.getItem(LS_KEY);
@@ -78,6 +85,7 @@ async function api(action, payload = {}) {
     try {
       INDEX = JSON.parse(cached) || [];
       setStatus(`Index ready (${INDEX.length})`);
+      showOverlay(false);
       return;
     } catch (_) {}
   }
@@ -92,28 +100,51 @@ async function api(action, payload = {}) {
   } catch (err) {
     setStatus("Index error");
     showError(`Index failed: ${String(err)}`);
+  } finally {
+    showOverlay(false);
   }
 })();
 
+// ====== SEARCH UX ======
+function normalize(s) {
+  return (s || "").toString().toLowerCase().trim();
+}
 
-// ====== DROPDOWN ======
-function onType(){
+function buildHay(item) {
+  return normalize([
+    item.DisplayName,
+    item.Keywords,
+    item.year,
+    item.sport,
+    item.manufacturer,
+    item.product
+  ].join(" "));
+}
+
+function onType() {
   hideError();
   selectedItem = null;
 
   const q = normalize(elQ.value);
-  if (!q || q.length < 2) return hideDropdown();
+  if (!q || q.length < 2) {
+    hideDropdown();
+    return;
+  }
 
   const hits = [];
   for (const item of INDEX) {
     if (buildHay(item).includes(q)) hits.push(item);
     if (hits.length >= MAX_SUGGESTIONS) break;
   }
+
   renderDropdown(hits);
 }
 
-function renderDropdown(items){
-  if (!items.length) return hideDropdown();
+function renderDropdown(items) {
+  if (!items.length) {
+    hideDropdown();
+    return;
+  }
 
   elDD.innerHTML = items.map(i => {
     const meta = [i.year, i.sport, i.manufacturer, i.product].filter(Boolean).join(" • ");
@@ -130,9 +161,12 @@ function renderDropdown(items){
       const code = node.getAttribute("data-code");
       const item = INDEX.find(x => String(x.Code) === String(code));
       if (!item) return;
+
       selectedItem = item;
       elQ.value = item.DisplayName || "";
       hideDropdown();
+
+      // selecting a dropdown item should run the search (WaxAlert feel)
       runSearchByCode(item.Code);
     });
   });
@@ -140,19 +174,19 @@ function renderDropdown(items){
   elDD.style.display = "block";
 }
 
-function hideDropdown(){
+function hideDropdown() {
   elDD.style.display = "none";
   elDD.innerHTML = "";
 }
 
-// ====== SEARCH ======
-function onSearchClick(){
+function onSearchClick() {
   hideError();
   hideDropdown();
 
   const q = normalize(elQ.value);
   if (!q) return;
 
+  // Exact DisplayName match first
   let match = INDEX.find(i => normalize(i.DisplayName) === q);
   if (!match) match = INDEX.find(i => buildHay(i).includes(q));
 
@@ -165,15 +199,23 @@ function onSearchClick(){
   runSearchByCode(match.Code);
 }
 
-function onClear(){
+function onClear() {
   hideError();
   hideDropdown();
   selectedItem = null;
+  hasSearched = false;
+
   elQ.value = "";
-  elResults.innerHTML = `<div class="metaRow">Cleared. Search above.</div>`;
+  elResults.innerHTML = `<div class="metaRow" id="emptyState">No results yet. Run a search to view print run rows.</div>`;
 }
 
-async function runSearchByCode(code){
+// ====== RESULTS ======
+async function runSearchByCode(code) {
+  hasSearched = true;
+  hideError();
+  showOverlay(true);
+
+  // wipe results area and show “loading…”
   elResults.innerHTML = `<div class="metaRow">Loading results…</div>`;
 
   try {
@@ -183,10 +225,12 @@ async function runSearchByCode(code){
   } catch (err) {
     showError(String(err));
     elResults.innerHTML = `<div class="metaRow">No results.</div>`;
+  } finally {
+    showOverlay(false);
   }
 }
 
-function renderResults(meta, rows){
+function renderResults(meta, rows) {
   const title = meta.displayName || selectedItem?.DisplayName || "Selected Product";
   const metaLine = [meta.year, meta.sport, meta.manufacturer, meta.product].filter(Boolean).join(" • ");
   const cmURL = meta.cmURL || selectedItem?.cmURL || "";
@@ -198,7 +242,12 @@ function renderResults(meta, rows){
   const table = rows.length ? `
     <table class="table">
       <thead>
-        <tr><th>Set Type</th><th>Set Line</th><th>Print Run</th><th>Serial</th></tr>
+        <tr>
+          <th>Set Type</th>
+          <th>Set Line</th>
+          <th>Print Run</th>
+          <th>Serial</th>
+        </tr>
       </thead>
       <tbody>
         ${rows.map(r => `
@@ -219,4 +268,44 @@ function renderResults(meta, rows){
     <div class="actionsRow">${btn}</div>
     ${table}
   `;
+}
+
+// ====== UI HELPERS ======
+function setStatus(text) {
+  elStatus.textContent = text;
+}
+
+function showError(msg) {
+  elError.textContent = msg;
+  elError.style.display = "block";
+}
+
+function hideError() {
+  elError.textContent = "";
+  elError.style.display = "none";
+}
+
+function showOverlay(show) {
+  if (!elOverlay) return;
+  elOverlay.style.display = show ? "flex" : "none";
+}
+
+function formatNumber(v) {
+  if (v === null || v === undefined || v === "") return "";
+  const n = Number(String(v).replace(/,/g, ""));
+  if (Number.isFinite(n)) return n.toLocaleString();
+  return escapeHtml(String(v));
+}
+
+function escapeHtml(s) {
+  return String(s ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function escapeAttr(s) {
+  return String(s ?? "").replace(/'/g, "%27");
 }
