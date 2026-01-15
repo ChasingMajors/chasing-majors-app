@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Chasing Majors • Print Run Vault</title>
+  <title>Print Run Vault</title>
 
   <!-- Bangers Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,377 +11,226 @@
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
   <style>
-    /* =======================
-       THEME TOKENS (WaxAlert-ish)
-       ======================= */
     :root{
-      --bg: #0f0f10;
-      --card: #17181a;
-      --text: #f1f1f1;
-      --muted: rgba(241,241,241,.72);
-      --line: rgba(255,255,255,.12);
-      --chip: rgba(255,255,255,.08);
-      --shadow: 0 12px 35px rgba(0,0,0,.35);
-
-      --btn: #ffffff;
-      --btnText: #111;
-
-      --radius: 16px;
-      --radiusSm: 12px;
-
-      --accent: #ffffff; /* keep neutral like WaxAlert */
-      --focus: rgba(255,255,255,.20);
+      --bg:#0f0f10;
+      --card:#1c1d20;
+      --text:#f1f1f1;
+      --muted:rgba(241,241,241,.65);
+      --line:rgba(255,255,255,.12);
+      --shadow:0 12px 35px rgba(0,0,0,.45);
+      --btn:#ffffff;
+      --btnText:#111;
+      --radius:18px;
+      --radiusSm:12px;
     }
 
     [data-theme="light"]{
-      --bg: #f6f7f8;
-      --card: #ffffff;
-      --text: #111111;
-      --muted: rgba(17,17,17,.65);
-      --line: rgba(17,17,17,.12);
-      --chip: rgba(17,17,17,.06);
-      --shadow: 0 10px 25px rgba(0,0,0,.10);
-
-      --btn: #111111;
-      --btnText: #ffffff;
-
-      --focus: rgba(17,17,17,.16);
+      --bg:#f6f7f8;
+      --card:#f0f1f3;
+      --text:#111;
+      --muted:rgba(17,17,17,.6);
+      --line:rgba(17,17,17,.12);
+      --shadow:0 10px 25px rgba(0,0,0,.1);
+      --btn:#111;
+      --btnText:#fff;
     }
 
-    /* =======================
-       BASE
-       ======================= */
-    html,body{height:100%;}
     body{
       margin:0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: var(--bg);
-      color: var(--text);
+      font-family:Arial,Helvetica,sans-serif;
+      background:var(--bg);
+      color:var(--text);
     }
 
-    .wrap{
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 18px 14px 40px;
-    }
+    .wrap{max-width:900px;margin:0 auto;padding:22px 14px 50px;}
 
-    .bangers{
-      font-family: "Bangers", system-ui, -apple-system, Segoe UI, Arial, sans-serif;
-      letter-spacing: .8px;
-      font-weight: 400;
-    }
+    .bangers{font-family:"Bangers",system-ui;letter-spacing:.8px;}
 
-    .topbar{
+    /* HEADER */
+    .header{
       display:flex;
-      align-items:center;
       justify-content:space-between;
-      gap: 12px;
-      margin-bottom: 12px;
+      align-items:flex-start;
+      margin-bottom:18px;
     }
 
-    .brandBlock{display:flex;flex-direction:column;gap:4px;}
-    .brand{
-      font-size: 34px; /* matches the “hero” feel */
-      line-height: 1;
+    .vaultLogo{
+      font-size:34px;
+      line-height:1;
+    }
+    .vaultLogo .big{
+      font-size:46px;
+      vertical-align:baseline;
     }
 
-    .pageTitle{
-      font-size: 26px; /* “Print Run Vault” header */
-      line-height: 1;
-      margin-top: 2px;
-    }
-
-    .sub{
-      font-size: 12px;
-      color: var(--muted);
-      line-height: 1.35;
-    }
-
-    .rightTools{
+    .tools{
       display:flex;
       align-items:center;
-      gap: 10px;
-      flex-wrap: wrap;
-      justify-content:flex-end;
+      gap:10px;
     }
 
     .pill{
-      display:inline-flex;
-      align-items:center;
-      gap: 8px;
-      padding: 6px 10px;
-      border-radius: 999px;
-      background: var(--chip);
-      border: 1px solid var(--line);
-      color: var(--muted);
-      font-size: 12px;
-      user-select:none;
-      white-space:nowrap;
-    }
-
-    .toggleBtn{
+      padding:6px 12px;
+      border-radius:999px;
       border:1px solid var(--line);
-      background: transparent;
-      color: var(--text);
-      border-radius: 999px;
-      padding: 8px 10px;
+      font-size:12px;
+      color:var(--muted);
+    }
+
+    .iconBtn{
+      border:1px solid var(--line);
+      background:transparent;
+      color:var(--text);
+      border-radius:999px;
+      padding:8px 10px;
       cursor:pointer;
-      font-weight: 800;
+      font-size:16px;
     }
 
+    /* CARD */
     .card{
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      overflow: hidden;
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:16px;
     }
 
-    .pad{padding: 14px;}
-
-    /* =======================
-       SEARCH (WaxAlert-ish)
-       ======================= */
-    .searchRow{
-      display:flex;
-      align-items:center;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-
-    .searchWrap{
-      position: relative;
-      flex: 1 1 440px;
-      min-width: 240px;
-    }
+    /* SEARCH */
+    .searchWrap{position:relative;margin-bottom:12px;}
 
     .searchIcon{
       position:absolute;
-      left: 12px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 18px;
-      height: 18px;
-      opacity: .75;
-      pointer-events:none;
+      left:14px;
+      top:50%;
+      transform:translateY(-50%);
+      opacity:.75;
     }
 
-    input[type="text"]{
-      width: 100%;
-      padding: 12px 12px 12px 40px; /* room for icon */
-      font-size: 16px; /* prevent iOS zoom */
-      border-radius: var(--radiusSm);
-      border: 1px solid var(--line);
-      outline: none;
-      background: transparent;
-      color: var(--text);
-      box-sizing: border-box;
-    }
-
-    input[type="text"]:focus{
-      box-shadow: 0 0 0 3px var(--focus);
+    input{
+      width:100%;
+      padding:14px 14px 14px 42px;
+      font-size:16px;
+      border-radius:var(--radiusSm);
+      border:1px solid var(--line);
+      background:transparent;
+      color:var(--text);
     }
 
     button{
-      padding: 12px 14px;
-      border-radius: var(--radiusSm);
-      border: 1px solid var(--line);
-      background: var(--btn);
-      color: var(--btnText);
-      font-weight: 900;
+      width:100%;
+      padding:14px;
+      font-weight:900;
+      border-radius:var(--radiusSm);
+      border:1px solid var(--line);
       cursor:pointer;
-      user-select:none;
     }
 
-    button.secondary{
-      background: transparent;
-      color: var(--text);
-    }
+    .primary{background:var(--btn);color:var(--btnText);}
+    .secondary{background:transparent;color:var(--text);}
 
-    .hint{
-      font-size: 12px;
-      color: var(--muted);
-      margin-top: 10px;
-      line-height: 1.4;
-    }
+    .hint{font-size:13px;color:var(--muted);margin-top:8px;}
 
-    .error{
-      display:none;
-      margin-top: 10px;
-      font-weight: 800;
-      color: #ffb3b3;
-    }
-    [data-theme="light"] .error{ color: #b00020; }
-
-    /* =======================
-       DROPDOWN
-       ======================= */
+    /* DROPDOWN */
     .dropdown{
       position:absolute;
-      left:0; right:0;
-      top: 46px;
-      z-index: 50;
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      overflow:hidden;
-      box-shadow: var(--shadow);
+      left:0;right:0;
+      top:56px;
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:12px;
+      box-shadow:var(--shadow);
       display:none;
-      max-height: 320px;
-      overflow-y:auto;
+      max-height:280px;
+      overflow:auto;
+      z-index:20;
     }
 
-    .ddItem{
-      padding: 10px 12px;
-      border-bottom: 1px solid var(--line);
-      cursor:pointer;
-    }
-    .ddItem:last-child{border-bottom:none;}
-    .ddItem:hover{background: var(--chip);}
-    .ddTitle{font-weight: 900; font-size: 14px;}
-    .ddMeta{font-size: 12px; color: var(--muted); margin-top: 2px;}
+    .ddItem{padding:12px;border-bottom:1px solid var(--line);cursor:pointer;}
+    .ddItem:hover{background:rgba(255,255,255,.06);}
+    .ddTitle{font-weight:900;}
+    .ddMeta{font-size:12px;color:var(--muted);}
 
-    /* =======================
-       RESULTS
-       ======================= */
-    .sectionTitle{
-      font-weight: 900;
-      margin: 14px 0 8px;
-    }
-    .selected{
-      font-weight: 900;
-      font-size: 18px;
-      margin: 0;
-    }
-    .metaRow{
-      margin-top: 6px;
-      color: var(--muted);
-      font-size: 13px;
-    }
-    .actionsRow{
-      display:flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 10px;
-    }
+    /* RESULTS */
+    .resultsTitle{margin:20px 0 8px;font-weight:900;}
+    .empty{color:var(--muted);font-size:13px;}
 
-    .table{
-      width:100%;
-      border-collapse: collapse;
-      margin-top: 10px;
-      font-size: 14px;
-    }
-    .table th, .table td{
-      text-align:left;
-      padding: 10px 8px;
-      border-top: 1px solid var(--line);
-      vertical-align: top;
-    }
-    .table th{
-      color: var(--muted);
-      font-size: 12px;
-      letter-spacing: .2px;
-      text-transform: uppercase;
-    }
+    table{width:100%;border-collapse:collapse;margin-top:10px;}
+    th,td{padding:10px;border-top:1px solid var(--line);text-align:left;font-size:14px;}
+    th{font-size:12px;color:var(--muted);text-transform:uppercase;}
 
-    /* =======================
-       LOADING OVERLAY
-       ======================= */
+    /* LOADING */
     .overlay{
-      position: fixed;
-      inset: 0;
-      background: var(--bg);
+      position:fixed;inset:0;
+      background:var(--bg);
       display:flex;
       align-items:center;
       justify-content:center;
-      z-index: 9999;
+      z-index:9999;
     }
-    .overlayInner{
-      text-align:center;
-      padding: 20px;
-    }
-    .overlayBrand{
-      font-size: 48px;
-      line-height: 1;
-      margin-bottom: 10px;
-    }
-    .overlaySub{
-      color: var(--muted);
-      font-size: 13px;
-      margin-bottom: 14px;
-    }
+
     .spinner{
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      border: 4px solid var(--line);
-      border-top-color: var(--text);
-      margin: 0 auto;
-      animation: spin 1s linear infinite;
+      width:44px;height:44px;
+      border-radius:50%;
+      border:4px solid var(--line);
+      border-top-color:var(--text);
+      animation:spin 1s linear infinite;
+      margin:auto;
     }
-    @keyframes spin{ to { transform: rotate(360deg); } }
+
+    @keyframes spin{to{transform:rotate(360deg)}}
   </style>
 </head>
 
 <body>
-  <!-- Loading overlay (WaxAlert-style) -->
-  <div id="loadingOverlay" class="overlay">
-    <div class="overlayInner">
-      <div class="overlayBrand bangers">Chasing Majors</div>
-      <div class="overlaySub">Loading Print Run Vault…</div>
-      <div class="spinner" aria-label="Loading"></div>
+
+<!-- LOADING OVERLAY -->
+<div id="overlay" class="overlay">
+  <div style="text-align:center;">
+    <div class="bangers" style="font-size:48px;">Chasing Majors</div>
+    <div style="color:var(--muted);margin:8px 0 14px;">Loading Print Run Vault…</div>
+    <div class="spinner"></div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="header">
+    <div class="vaultLogo bangers">
+      <span class="big">P</span>rint
+      <span class="big">R</span>un
+      <span class="big">V</span>ault
+    </div>
+    <div class="tools">
+      <div id="status" class="pill">Loading…</div>
+      <button id="themeToggle" class="iconBtn">🌙</button>
     </div>
   </div>
 
-  <div class="wrap">
-    <div class="topbar">
-      <div class="brandBlock">
-        <div class="brand bangers">Chasing Majors</div>
-        <div class="pageTitle bangers">Print Run Vault</div>
-        <div class="sub"><a href="../" style="color:inherit;text-decoration:none;">← Back to App Home</a></div>
-      </div>
-
-      <div class="rightTools">
-        <div class="pill" id="statusPill">Loading index…</div>
-        <button class="toggleBtn" id="themeToggle" title="Toggle light/dark">Toggle</button>
-      </div>
+  <div class="card">
+    <div class="searchWrap">
+      <svg class="searchIcon" width="18" height="18" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" fill="none"/>
+        <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <input id="q" placeholder="Search the Vault" autocomplete="off"/>
+      <div id="dropdown" class="dropdown"></div>
     </div>
 
-    <div class="card">
-      <div class="pad">
-        <div class="searchRow">
-          <div class="searchWrap">
-            <!-- magnifying glass -->
-            <svg class="searchIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" stroke="currentColor" stroke-width="2"/>
-              <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
+    <button id="btnSearch" class="primary">Search</button>
+    <div style="height:8px"></div>
+    <button id="btnClear" class="secondary">Clear</button>
 
-            <input id="q" type="text" placeholder="Search the Vault" autocomplete="off" />
-            <div id="dropdown" class="dropdown"></div>
-          </div>
-
-          <button id="btnSearch">Search</button>
-          <button id="btnClear" class="secondary">Clear</button>
-        </div>
-
-        <div class="hint">
-          Tip: Start typing and pick from the dropdown. Results populate after you select or press Search.
-        </div>
-
-        <div id="error" class="error"></div>
-      </div>
-    </div>
-
-    <div class="sectionTitle">Results</div>
-    <div class="card">
-      <div class="pad" id="results">
-        <div class="metaRow" id="emptyState">No results yet. Run a search to view print run rows.</div>
-      </div>
-    </div>
+    <div class="hint">Never wonder how rare a card is ever again.</div>
   </div>
 
-  <!-- cache-bust JS if needed by changing v= -->
-  <script src="./app.js?v=1"></script>
+  <div class="resultsTitle">Results</div>
+  <div class="card">
+    <div id="results" class="empty">No results yet. Run a search.</div>
+  </div>
+
+</div>
+
+<script src="./app.js?v=final"></script>
 </body>
 </html>
