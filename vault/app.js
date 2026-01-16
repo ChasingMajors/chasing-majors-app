@@ -1,8 +1,13 @@
 /* ================================
    CONFIG
 ================================ */
-const EXEC_URL = "https://script.google.com/macros/s/AKfycbxFfMn0bc5Q7WIUQwo0RijoeKOQWAZX_RsipvYlFrvPAmo392ql9fSSgq_G_mgJGeBRSQ/exec";
-const INDEX_KEY = "prv_index_v1";
+const EXEC_URL = "https://script.google.com/macros/s/AKfycbz9TuWEJ1FEcGc5VOs5hVaRBg42MzYaLdFpfX2oR_EyncV29C_pecSmEwj13CYbVAjYmQ/exec";
+
+// Index cache (list used for dropdown)
+const INDEX_KEY = "prv_index_v1";            // stores array
+const INDEX_VER_KEY = "prv_index_ver_v1";    // stores string version
+
+// Theme
 const THEME_KEY = "cm_theme";
 
 /* ================================
@@ -50,7 +55,6 @@ function applyTheme(t){
   localStorage.setItem(THEME_KEY, t);
   elThemeBtn.innerHTML = (t === "light") ? iconSun() : iconMoon();
 }
-
 applyTheme(localStorage.getItem(THEME_KEY) || "dark");
 
 elThemeBtn.addEventListener("click", () => {
@@ -76,30 +80,57 @@ async function api(action, payload = {}) {
 function hideOverlay(){
   setTimeout(() => {
     elOverlay.classList.add("hide");
-    setTimeout(() => elOverlay.style.display = "none", 320);
+    setTimeout(() => { elOverlay.style.display = "none"; }, 320);
   }, 500);
 }
 
 /* ================================
-   INIT INDEX
+   INDEX CACHE (Option A)
+   - Ask server for meta.indexVersion
+   - If changed, refresh index and overwrite localStorage
 ================================ */
-(async function init(){
+function loadCachedIndex_(){
   const cached = localStorage.getItem(INDEX_KEY);
-  if (cached) {
-    try { INDEX = JSON.parse(cached) || []; } catch(e) { INDEX = []; }
-    hideOverlay();
-    return;
-  }
+  if (!cached) return [];
+  try { return JSON.parse(cached) || []; }
+  catch(e){ return []; }
+}
+
+function storeIndex_(indexArr, versionStr){
+  INDEX = Array.isArray(indexArr) ? indexArr : [];
+  localStorage.setItem(INDEX_KEY, JSON.stringify(INDEX));
+  if (versionStr) localStorage.setItem(INDEX_VER_KEY, String(versionStr));
+}
+
+async function ensureFreshIndex_(){
+  // Always start with whatever is cached so app feels instant
+  INDEX = loadCachedIndex_();
+
+  // Optional manual override: add ?refresh=1 to URL
+  const forceRefresh = new URLSearchParams(location.search).get("refresh") === "1";
 
   try {
-    const data = await api("index");
-    INDEX = data.index || [];
-    localStorage.setItem(INDEX_KEY, JSON.stringify(INDEX));
-  } catch (e) {
-    console.error("Index load failed", e);
-    INDEX = [];
-  }
+    const meta = await api("meta");
+    const remoteVer = meta && meta.ok ? String(meta.indexVersion || "") : "";
+    const localVer = localStorage.getItem(INDEX_VER_KEY) || "";
 
+    // If force refresh OR version changed OR no cached index, refresh
+    if (forceRefresh || !INDEX.length || (remoteVer && remoteVer !== localVer)) {
+      const d = await api("index");
+      const fresh = (d && d.ok && Array.isArray(d.index)) ? d.index : (d.index || []);
+      storeIndex_(fresh, remoteVer || localVer);
+    }
+  } catch (e) {
+    // If meta or index fails, just keep cached (no hard failure)
+    console.warn("Index freshness check failed, using cache.", e);
+  }
+}
+
+/* ================================
+   INIT
+================================ */
+(async function init(){
+  await ensureFreshIndex_();
   hideOverlay();
 })();
 
@@ -116,7 +147,7 @@ function closeDropdown(){
 }
 
 /* ================================
-   TYPEAHEAD (AUTO SEARCH ON SELECT ✅)
+   TYPEAHEAD (AUTO SEARCH ON SELECT)
 ================================ */
 elQ.addEventListener("input", () => {
   const q = elQ.value.toLowerCase().trim();
@@ -127,9 +158,9 @@ elQ.addEventListener("input", () => {
     return;
   }
 
-  const hits = INDEX.filter(i =>
-    `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase().includes(q)
-  ).slice(0, 10);
+  const hits = INDEX
+    .filter(i => `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase().includes(q))
+    .slice(0, 10);
 
   if (!hits.length) {
     closeDropdown();
@@ -151,7 +182,7 @@ elQ.addEventListener("input", () => {
       elQ.value = selected.DisplayName;
       closeDropdown();
 
-      // ✅ AUTO-SEARCH as soon as the user picks an item
+      // Auto-search immediately when selected
       await runSearch();
     };
   });
@@ -184,14 +215,12 @@ document.getElementById("btnClear").onclick = () => {
    SEARCH
 ================================ */
 async function runSearch(){
-  // If user typed and didn't click dropdown, try to best-match
+  // If user typed but didn't pick from dropdown, best-match
   if (!selected) {
     const q = elQ.value.toLowerCase().trim();
     if (!q) return;
 
-    const best = INDEX.find(i =>
-      `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase().includes(q)
-    );
+    const best = INDEX.find(i => `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase().includes(q));
     if (best) selected = best;
     else return;
   }
@@ -226,7 +255,8 @@ function renderResults(meta, rows){
   }
 
   const title = esc(meta?.displayName || selected?.DisplayName || "Results");
-  const sub = `${esc(meta?.year || "")}${meta?.year ? " • " : ""}${esc(meta?.sport || "")}${meta?.sport ? " • " : ""}${esc(meta?.manufacturer || "")}`.trim();
+  const subParts = [meta?.year, meta?.sport, meta?.manufacturer].filter(Boolean).map(esc);
+  const sub = subParts.join(" • ");
 
   const table = `
     <div style="font-weight:800;margin-bottom:6px;">${title}</div>
