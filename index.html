@@ -4,23 +4,23 @@
   <meta charset="utf-8" />
   <title>ChasingMajors App</title>
 
-  <!-- Immediate redirect to Print Run Vault -->
-  <meta http-equiv="refresh" content="0; url=/chasing-majors-app/vault/" />
+  <!-- Redirect root → Print Run Vault -->
+  <meta http-equiv="refresh" content="0; url=/vault/" />
 
-  <!-- Fallback for JS-enabled browsers -->
   <script>
-    window.location.replace("/chasing-majors-app/vault/");
+    // JS fallback (covers browsers that ignore meta refresh)
+    window.location.replace("/vault/");
   </script>
 
   <style>
-    body {
+    html, body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      height: 100%;
       background: #0b0b0b;
-      color: #fff;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
       display: grid;
       place-items: center;
-      height: 100vh;
     }
   </style>
 </head>
