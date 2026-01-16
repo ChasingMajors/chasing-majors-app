@@ -265,10 +265,10 @@ function renderResults(meta, rows){
     <table>
       <thead>
         <tr>
-          <th>Set Type</th>
-          <th>Set Line</th>
+          <th>Set</th>
+          <th>Subset</th>
           <th>Print Run</th>
-          <th>Serial</th>
+          <th>Cards in Set</th>
         </tr>
       </thead>
       <tbody>
@@ -277,7 +277,7 @@ function renderResults(meta, rows){
             <td>${esc(r.setType || "")}</td>
             <td>${esc(r.setLine || "")}</td>
             <td>${fmtNum(r.printRun)}</td>
-            <td>${esc(r.serial || "")}</td>
+            <td>${fmtNum(r.subSetSize)}</td>
           </tr>
         `).join("")}
       </tbody>
