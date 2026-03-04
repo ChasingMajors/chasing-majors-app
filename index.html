@@ -3,194 +3,217 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0b0b" />
   <title>Chasing Majors App</title>
 
-  <!-- Match PRV vibe: Bangers -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
   <style>
-    html, body {
-  height: 100%;
-  overflow: hidden;
-}
     :root{
-      --bg:#0b0f14;
-      --panel:#111826;
-      --panel2:#0f1623;
-      --text:#e8eef7;
-      --muted:#9bb0c8;
-      --border:rgba(255,255,255,.10);
-      --shadow:0 10px 30px rgba(0,0,0,.35);
-      --radius:18px;
-      --navH: 74px;
+      --navH: 62px;
+      --contentMax: 900px;
+
+      /* DARK (PRV) */
+      --bg:#0b0b0b;
+      --text:#ffffff;
+      --muted:rgba(255,255,255,0.78);
+
+      --cardBg:rgba(255,255,255,0.08);
+      --cardBorder:rgba(255,255,255,0.12);
+
+      --btnPrimaryBg:#ffffff;
+      --btnPrimaryText:#000000;
+
+      --navBg:#0b0b0b;
+      --navBorder:rgba(255,255,255,0.12);
+
+      --navBtnBg:rgba(255,255,255,0.12);
+      --navBtnIcon:#ffffff;
     }
 
+    body.light{
+      /* LIGHT (PRV) */
+      --bg:#ffffff;
+      --text:#0b0b0b;
+      --muted:rgba(0,0,0,0.70);
+
+      --cardBg:rgba(0,0,0,0.05);
+      --cardBorder:rgba(0,0,0,0.10);
+
+      --btnPrimaryBg:#111111;
+      --btnPrimaryText:#ffffff;
+
+      --navBg:#ffffff;
+      --navBorder:rgba(0,0,0,0.10);
+
+      --navBtnBg:rgba(0,0,0,0.08);
+      --navBtnIcon:#0b0b0b;
+    }
+
+    html, body { height:100%; }
     body{
       margin:0;
+      font-family: Arial, sans-serif;
       background:var(--bg);
       color:var(--text);
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
+      transition: background 160ms ease, color 160ms ease;
     }
 
-    /* ---------- SPLASH OVERLAY (legacy feel) ---------- */
-    .overlay{
-      position: fixed;
-      inset: 0;
-      z-index: 9999;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      background: radial-gradient(1200px 600px at 50% 20%, rgba(255,255,255,.06), rgba(0,0,0,0)),
-                  var(--bg);
-      transition: opacity .25s ease;
-    }
-    .overlay.hidden{
-      opacity:0;
-      pointer-events:none;
-    }
-    .splashInner{
-      width: min(520px, 92vw);
-      padding: 22px 18px;
-      border-radius: 20px;
-      border: 1px solid var(--border);
-      background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
-      box-shadow: var(--shadow);
-      text-align:center;
-    }
-    .splashTitle{
-      margin: 0 0 6px 0;
-      font-family: "Bangers", system-ui, sans-serif;
-      letter-spacing: 1px;
-      font-size: 40px;
-      line-height: 1;
-    }
-    .splashSub{
-      color: var(--muted);
-      font-weight: 800;
-      font-size: 14px;
-      margin-bottom: 14px;
-    }
-    .spinner{
-      width: 26px;
-      height: 26px;
-      border-radius: 50%;
-      border: 3px solid rgba(255,255,255,.16);
-      border-top-color: rgba(255,255,255,.70);
-      margin: 0 auto;
-      animation: spin 0.9s linear infinite;
-    }
-    @keyframes spin{ to{ transform: rotate(360deg); } }
-
-    /* ---------- PAGE LAYOUT ---------- */
-    .wrap{
-      min-height: 100dvh;
-      padding: 14px 14px calc(var(--navH) + env(safe-area-inset-bottom) + 12px);
-      display:flex;
-      justify-content:center;
-      overflow-x: hidden;
-    }
-    .stack{
-      width: min(720px, 100%);
+    /* PRV content wrapper */
+    .content{
+      padding: 16px 16px calc(var(--navH) + 24px);
+      max-width: var(--contentMax);
       margin: 0 auto;
       box-sizing: border-box;
     }
-    { box-sizing: border-box; }
 
-    /* Top brand like PRV */
-    .topBrand{
-      padding: 10px 6px 12px;
+    /* PRV header */
+    .headerRow{
+      position: relative;
+      max-width: var(--contentMax);
+      margin: 6px auto 12px;
       text-align: center;
     }
-    .brandWordmark{
-      font-family: "Bangers", system-ui, sans-serif;
+    .appTitle{
+      font-family: "Bangers", cursive;
+      font-size: 34px;
       letter-spacing: 1px;
-      font-size: 44px;
       line-height: 1;
       margin: 0;
     }
+    .appTitle .big{ font-size: 42px; }
 
-    /* Card */
+    /* PRV card */
     .card{
-      width: 100%;
-      background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015));
-      border:1px solid var(--border);
-      border-radius: 22px;
-      box-shadow: var(--shadow);
-      padding: 18px;
+      background: var(--cardBg);
+      border: 1px solid var(--cardBorder);
+      border-radius: 16px;
+      padding: 16px;
+      transition: background 160ms ease, border-color 160ms ease;
     }
 
-    /* Make "Choose a Tool" match the old "Chasing Majors" style in your screenshot */
-    .chooseTitle{
-      margin:0 0 14px 0;
-      font-weight: 900;
-      font-size: 22px;
-      color: var(--text);
+    .heroText{
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.35;
+      margin-bottom: 12px;
     }
 
-    .btn{
+    .toolBtn{
       width:100%;
-      text-align:left;
-      padding:16px;
-      margin-top:12px;
-      border-radius:16px;
-      border:1px solid var(--border);
-      background: rgba(255,255,255,.02);
-      color: var(--text);
-      cursor:pointer;
-      box-shadow: var(--shadow);
-    }
-    .btn h3{
-      margin:0 0 6px 0;
-      font-size:18px;
-      font-weight:900;
-    }
-    .btn p{
-      margin:0;
-      color:var(--muted);
+      margin-top:10px;
+      padding: 12px;
+      border:0;
+      border-radius: 12px;
+      background: var(--btnPrimaryBg);
+      color: var(--btnPrimaryText);
       font-weight:700;
-      font-size:13px;
-      line-height:1.35;
+      cursor:pointer;
+      transition: background 160ms ease, color 160ms ease;
+      text-align:left;
     }
+    .toolBtn .t{ font-weight:800; }
+    .toolBtn .s{ display:block; margin-top:6px; opacity:.75; font-size:13px; line-height:1.35; }
 
-    /* ---------- BOTTOM NAV (preloaded on Home too) ---------- */
+    /* PRV bottom nav shell (3 buttons) */
     .bottomNav{
       position: fixed;
       left:0; right:0; bottom:0;
-      z-index: 50;
-      padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
-      background: linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,.30)), var(--bg);
-      backdrop-filter: blur(10px);
-      border-top: 1px solid var(--border);
+      height: var(--navH);
+      background: var(--navBg);
+      border-top: 1px solid var(--navBorder);
+      z-index: 9999;
+      display:flex;
+      justify-content:center;
+      transition: background 160ms ease, border-color 160ms ease;
+    }
+    .bottomNavInner{
+      width:100%;
+      max-width: var(--contentMax);
+      padding: 10px 16px max(10px, env(safe-area-inset-bottom));
+      box-sizing:border-box;
     }
     .navRow{
       display:flex;
       gap:10px;
-      max-width: 720px;
-      margin: 0 auto;
     }
     .navBtn{
       flex:1;
-      border:1px solid var(--border);
-        background: rgba(255,255,255,.02);
-      color: var(--text);
+      height: 42px;
+      border:0;
       border-radius: 14px;
-      padding: 12px 10px;
-      font-weight: 900;
+      background: var(--navBtnBg);
+      color: var(--navBtnIcon);
       cursor:pointer;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight:800;
+      transition: background 160ms ease, color 160ms ease;
     }
     .navBtn.active{
-      outline: 2px solid rgba(245,197,66,.25);
-      border-color: rgba(245,197,66,.35);
+      outline: 2px solid rgba(255,255,255,0.18);
     }
+
+    /* SPLASH OVERLAY (same as PRV) */
+    .overlay{
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      color: var(--text);
+      display: grid;
+      place-items: center;
+      z-index: 10000;
+      transition: opacity 260ms ease, background 160ms ease, color 160ms ease;
+    }
+    .overlay.hide{
+      opacity: 0;
+      pointer-events: none;
+    }
+    .splashInner{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap:14px;
+      text-align:center;
+      width: min(520px, 92vw);
+      padding: 34px 18px 18px;
+      box-sizing: border-box;
+      animation: splashIn 420ms ease forwards;
+    }
+    @keyframes splashIn{
+      from{ opacity: 0; transform: translateY(14px); }
+      to{ opacity: 1; transform: translateY(0); }
+    }
+    .splashTitle{
+      font-family: "Bangers", cursive;
+      font-size: 44px;
+      line-height: 1.05;
+      letter-spacing: 1px;
+      margin: 0;
+    }
+    .splashSub{
+      opacity: .75;
+      font-size: 14px;
+      margin-top: -8px;
+    }
+    .spinner{
+      width:44px;
+      height:44px;
+      border-radius:50%;
+      border:4px solid var(--cardBorder);
+      border-top-color: var(--text);
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin{ to{ transform: rotate(360deg); } }
   </style>
 </head>
 
 <body>
-  <!-- Legacy-style loading overlay (first thing user sees) -->
+  <!-- Splash -->
   <div class="overlay" id="overlay">
     <div class="splashInner">
       <h1 class="splashTitle">Chasing Majors</h1>
@@ -199,47 +222,44 @@
     </div>
   </div>
 
-  <div class="wrap">
-    <div class="stack">
-      <!-- Branding moved to top like PRV -->
-      <div class="topBrand">
-        <h1 class="brandWordmark">Chasing Majors</h1>
-      </div>
+  <div class="content">
+    <div class="headerRow">
+      <h1 class="appTitle"><span class="big">C</span>hasing <span class="big">M</span>ajors</h1>
+    </div>
 
-      <!-- Container sits immediately below brand -->
-      <div class="card">
-        <div class="chooseTitle">Choose a Tool</div>
+    <div class="card">
+      <div class="heroText">Choose a tool</div>
 
-        <button class="btn" onclick="location.href='/checklists/'">
-          <h3>Checklist Vault</h3>
-          <p>Search a set or player. Browse Base, Inserts, Autos, Relics, Variations.</p>
-        </button>
+      <button class="toolBtn" onclick="location.href='/checklists/'">
+        <span class="t">Checklist Vault</span>
+        <span class="s">Search a set or player. Browse Base, Inserts, Autos, Relics, Variations.</span>
+      </button>
 
-        <button class="btn" onclick="location.href='/vault/'">
-          <h3>Print Run Vault</h3>
-          <p>Calculated production estimates. Print run data, not guesses.</p>
-        </button>
+      <button class="toolBtn" onclick="location.href='/vault/'">
+        <span class="t">Print Run Vault</span>
+        <span class="s">Production estimates and print run data.</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="bottomNav" aria-label="Primary">
+    <div class="bottomNavInner">
+      <div class="navRow">
+        <button class="navBtn active" type="button" onclick="location.href='/'">Home</button>
+        <button class="navBtn" type="button" onclick="location.href='/checklists/'">Checklist Vault</button>
+        <button class="navBtn" type="button" onclick="location.href='/vault/'">Print Run Vault</button>
       </div>
     </div>
   </div>
 
-  <!-- Bottom footer/nav preloaded on Home -->
-  <nav class="bottomNav" aria-label="Primary">
-    <div class="navRow">
-      <button class="navBtn active" type="button" onclick="location.href='/'">Home</button>
-      <button class="navBtn" type="button" onclick="location.href='/checklists/'">Checklist Vault</button>
-      <button class="navBtn" type="button" onclick="location.href='/vault/'">Print Run Vault</button>
-    </div>
-  </nav>
-
   <script>
-    // Show splash immediately, hide once page is ready (keeps "app" feel)
+    // PRV-style splash hide
     window.addEventListener("load", () => {
-      const overlay = document.getElementById("overlay");
-      // short minimum display so it feels intentional, not a flash
-      setTimeout(() => overlay.classList.add("hidden"), 350);
-      // remove from layout after fade
-      setTimeout(() => overlay.remove(), 900);
+      const el = document.getElementById("overlay");
+      setTimeout(() => {
+        el.classList.add("hide");
+        setTimeout(() => { el.style.display = "none"; }, 320);
+      }, 500);
     });
   </script>
 </body>
