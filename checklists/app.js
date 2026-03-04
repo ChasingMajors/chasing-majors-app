@@ -960,7 +960,6 @@ function wire() {
     closeTypeahead();
   });
 
-  $("clearBtn").onclick = clearUI;
 
   $("browse").onclick = openBrowse;
   $("browseClose").onclick = hideBrowseModal;
