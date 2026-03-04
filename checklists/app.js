@@ -282,7 +282,7 @@ function scheduleTypeahead() {
     } catch {
       closeTypeahead();
     }
-  }, 90);
+  }, 60);
 }
 
 async function warmTypeaheadOnce() {
