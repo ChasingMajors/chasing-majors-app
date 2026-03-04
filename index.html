@@ -2,29 +2,92 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>ChasingMajors App</title>
-
-  <!-- Redirect root → Print Run Vault -->
-  <meta http-equiv="refresh" content="0; url=/vault/" />
-
-  <script>
-    // JS fallback (covers browsers that ignore meta refresh)
-    window.location.replace("/vault/");
-  </script>
-
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Chasing Majors App</title>
   <style>
-    html, body {
-      margin: 0;
-      height: 100%;
-      background: #0b0b0b;
-      color: #ffffff;
-      font-family: Arial, sans-serif;
-      display: grid;
-      place-items: center;
+    :root{
+      --bg:#0b0f14;
+      --panel:#111826;
+      --text:#e8eef7;
+      --muted:#9bb0c8;
+      --border:rgba(255,255,255,.10);
+      --shadow:0 10px 30px rgba(0,0,0,.35);
+      --radius:18px;
+    }
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    }
+    .wrap{
+      min-height:100dvh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:18px;
+    }
+    .card{
+      width:min(720px, 100%);
+      background:var(--panel);
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:18px;
+    }
+    .title{
+      font-weight:900;
+      font-size:22px;
+      margin:0 0 4px 0;
+    }
+    .sub{
+      margin:0 0 16px 0;
+      color:var(--muted);
+      font-weight:700;
+      font-size:13px;
+    }
+    .btn{
+      width:100%;
+      text-align:left;
+      padding:16px;
+      margin-top:12px;
+      border-radius:16px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.02);
+      color:var(--text);
+      cursor:pointer;
+      box-shadow:var(--shadow);
+    }
+    .btn h3{
+      margin:0 0 6px 0;
+      font-size:18px;
+      font-weight:900;
+    }
+    .btn p{
+      margin:0;
+      color:var(--muted);
+      font-weight:700;
+      font-size:13px;
+      line-height:1.35;
     }
   </style>
 </head>
 <body>
-  Redirecting to Print Run Vault…
+  <div class="wrap">
+    <div class="card">
+      <h1 class="title">Chasing Majors</h1>
+      <p class="sub">Choose a tool</p>
+
+      <button class="btn" onclick="location.href='/checklists/'">
+        <h3>Checklist Vault</h3>
+        <p>Search a set or player. Browse Base, Inserts, Autos, Relics, Variations.</p>
+      </button>
+
+      <button class="btn" onclick="location.href='/vault/'">
+        <h3>Print Run Vault</h3>
+        <p>Calculated production estimates. Print run data, not guesses.</p>
+      </button>
+    </div>
+  </div>
 </body>
 </html>
