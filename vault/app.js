@@ -274,11 +274,11 @@ function renderResults(meta, rows){
   `;
 }
 
-// ---------------- BOTTOM NAV (placeholder home) ----------------
+// ---------------- BOTTOM NAV (Home) ----------------
 const homeBtn = document.getElementById("btnHome");
 if (homeBtn) {
   homeBtn.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    elQ.focus();
+    // Always return to the app home screen
+    window.location.href = "/";
   });
 }
