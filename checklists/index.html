@@ -2,13 +2,14 @@
 <html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#0b0f19" />
-  <title>Checklist Viewer (Beta)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0f14" />
+  <title>Checklist Vault • Chasing Majors</title>
+
+  <!-- No manifest here for now (single-PWA later) -->
   <!-- <link rel="manifest" href="./manifest.webmanifest" /> -->
 
-
-  <!-- Bangers font (matches Print Run Vault vibe) -->
+  <!-- Bangers font (matches PRV vibe) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
@@ -16,87 +17,76 @@
   <style>
     * { box-sizing: border-box; }
 
-   html[data-theme="light"]{
-  --bg:#f6f7fb;
-  --panel:#ffffff;
-  --panel2:#ffffff;
-  --border:rgba(10,20,40,.12);
-  --border2:rgba(10,20,40,.14);
-  --text:#0b0f14;
-  --muted:#52657a;
-  --shadow:rgba(10,20,40,.12);
+    :root{
+      --bg:#0b0f14;
+      --panel:#111826;
+      --panel2:#0f1623;
+      --text:#e8eef7;
+      --muted:#9bb0c8;
+      --border:rgba(255,255,255,.10);
+      --border2:rgba(255,255,255,.14);
+      --shadow: rgba(0,0,0,.35);
 
-  --btnPrimaryBg:#111827;
-  --btnPrimaryText:#ffffff;
-  --btnGhostBg:transparent;
-  --btnGhostBorder:rgba(10,20,40,.14);
+      --btnPrimaryBg:#ffffff;
+      --btnPrimaryText:#0b0f14;
+      --btnGhostBg:transparent;
+      --btnGhostBorder:rgba(255,255,255,.14);
 
-  --homeBarBg:rgba(255,255,255,.85);
-  --homeBarBorder:rgba(10,20,40,.12);
+      --pillBg: rgba(255,255,255,.02);
+      --pillBorder: rgba(255,255,255,.10);
 
-  --pillBg:#ffffff;
-  --pillBorder:rgba(10,20,40,.12);
+      --inputBg: rgba(255,255,255,.02);
+      --inputBorder: rgba(255,255,255,.10);
 
-  --inputBg:#ffffff;
-  --inputBorder:rgba(10,20,40,.12);
+      --icon:#cbd5e1;
+      --accent:#ffffff;
 
-  --icon:#111827;
-  --accent:#111827;
-}
+      --navH: 74px;
+      --radius: 18px;
+    }
 
-    /* Light theme mirrors PRV */
     html[data-theme="light"]{
-      --bg: #f3f4f6;
-      --panel: #ffffff;
-      --panel2: #f8fafc;
-      --border: #e5e7eb;
-      --border2: #d1d5db;
-      --text: #111827;
-      --muted: #6b7280;
-      --shadow: rgba(0,0,0,.08);
+      --bg:#f6f7fb;
+      --panel:#ffffff;
+      --panel2:#ffffff;
+      --text:#0b0f14;
+      --muted:#52657a;
+      --border:rgba(10,20,40,.12);
+      --border2:rgba(10,20,40,.14);
+      --shadow: rgba(10,20,40,.12);
 
-      --btnPrimaryBg: #111827;
-      --btnPrimaryText: #ffffff;
-      --btnGhostBg: transparent;
-      --btnGhostBorder: #d1d5db;
+      --btnPrimaryBg:#111827;
+      --btnPrimaryText:#ffffff;
+      --btnGhostBg:transparent;
+      --btnGhostBorder:rgba(10,20,40,.14);
 
-      --homeBarBg: rgba(255,255,255,.85);
-      --homeBarBorder: rgba(229,231,235,.95);
+      --pillBg:#ffffff;
+      --pillBorder:rgba(10,20,40,.12);
 
-      --pillBg: #ffffff;
-      --pillBorder: #d1d5db;
+      --inputBg:#ffffff;
+      --inputBorder:rgba(10,20,40,.12);
 
-      --inputBg: #ffffff;
-      --inputBorder: #d1d5db;
-
-      --icon: #111827;
-      --accent: #111827;
+      --icon:#111827;
+      --accent:#111827;
     }
 
     body{
       margin:0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
       background: var(--bg);
       color: var(--text);
-      padding-bottom: 74px; /* space for bottom home bar */
+      padding-bottom: calc(var(--navH) + env(safe-area-inset-bottom) + 12px);
     }
 
-   .wrap{
-  width: min(720px, 100%);
-  margin: 0 auto;
-  padding: 14px;
-}
-
-    /* Top header like Print Run Vault */
+    /* Top header like PRV */
     .topbar{
       position: sticky;
       top: 0;
       z-index: 20;
       padding: 12px 14px 10px 14px;
       background: linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,0));
-      backdrop-filter: blur(6px);
+      backdrop-filter: blur(8px);
     }
-
     html[data-theme="light"] .topbar{
       background: linear-gradient(to bottom, rgba(255,255,255,.75), rgba(255,255,255,0));
     }
@@ -106,10 +96,9 @@
       align-items:center;
       justify-content:center;
       position: relative;
+      max-width: 720px;
+      margin: 0 auto;
     }
-    @media (max-width: 560px){
-  .topRight .pill{ display:none; }
-}
 
     .brand{
       font-family: "Bangers", system-ui, sans-serif;
@@ -121,11 +110,9 @@
       color: var(--accent);
       text-transform: uppercase;
       user-select: none;
+      white-space: nowrap;
     }
-    .brand .cap{
-      font-size: 1.25em;
-      line-height: 1;
-    }
+    .brand .cap{ font-size: 1.25em; }
 
     .topRight{
       position:absolute;
@@ -133,6 +120,25 @@
       display:flex;
       gap: 10px;
       align-items:center;
+    }
+
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--pillBorder);
+      background: var(--pillBg);
+      font-size: 12px;
+      color: var(--muted);
+      white-space: nowrap;
+      font-weight: 800;
+    }
+
+    /* Quick mobile fix: avoid pill overlapping brand */
+    @media (max-width: 560px){
+      .topRight .pill{ display:none; }
+      .brand{ font-size: 40px; }
     }
 
     .iconBtn{
@@ -147,10 +153,8 @@
       cursor: pointer;
       box-shadow: 0 6px 18px var(--shadow);
     }
-    html[data-theme="light"] .iconBtn{
-      background: rgba(0,0,0,.02);
-    }
-    .iconBtn:hover{ border-color: #3b82f6; }
+    html[data-theme="light"] .iconBtn{ background: rgba(0,0,0,.02); }
+    .iconBtn:hover{ border-color: rgba(245,197,66,.35); }
 
     .icon{
       width: 18px; height: 18px;
@@ -161,10 +165,17 @@
       stroke-linejoin: round;
     }
 
+    /* Match Home proportions */
+    .wrap{
+      width: min(720px, 100%);
+      margin: 0 auto;
+      padding: 14px;
+    }
+
     .card{
       background: var(--panel);
       border: 1px solid var(--border);
-      border-radius: 16px;
+      border-radius: 22px;
       padding: 14px;
       box-shadow: 0 10px 24px var(--shadow);
     }
@@ -173,22 +184,11 @@
       color: var(--muted);
       font-size: 14px;
       margin: 0 0 10px 0;
-      font-weight: 600;
+      font-weight: 700;
+      line-height: 1.35;
     }
 
-    .row{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
-
-    .pill{
-      display:inline-flex;
-      align-items:center;
-      padding: 6px 10px;
-      border-radius: 999px;
-      border: 1px solid var(--pillBorder);
-      background: var(--pillBg);
-      font-size: 12px;
-      color: var(--muted);
-      white-space: nowrap;
-    }
+    .row{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:space-between; }
 
     input, select, button{
       font-family: inherit;
@@ -200,10 +200,11 @@
     }
 
     select{
-      background: var(--inputBg);
-      border: 1px solid var(--inputBorder);
+      background: transparent;
+      border: none;
       color: var(--text);
-      padding-right: 34px;
+      padding: 0;
+      height: auto;
     }
 
     /* Search input with magnifying glass */
@@ -240,21 +241,18 @@
       border-radius: 12px;
       border: 1px solid var(--border2);
       cursor: pointer;
-      font-weight: 800;
+      font-weight: 900;
     }
-
     .btnPrimary{
       background: var(--btnPrimaryBg);
       color: var(--btnPrimaryText);
       border-color: transparent;
     }
-
     .btnGhost{
       background: var(--btnGhostBg);
       color: var(--text);
       border-color: var(--btnGhostBorder);
     }
-
     .btn:active{ transform: translateY(1px); }
 
     .divider{
@@ -283,8 +281,9 @@
       font-size: 13px;
       flex: 0 0 auto;
       color: var(--text);
+      font-weight: 800;
     }
-    .tab.active{ border-color:#3b82f6; }
+    .tab.active{ border-color: rgba(245,197,66,.45); }
 
     /* Results */
     .resultsBox{
@@ -299,6 +298,7 @@
       border-bottom: 1px solid var(--border);
     }
     .resultsBox .r:last-child{ border-bottom:none; }
+
     .rTop{ font-size: 14px; }
     .rSub{ font-size: 12px; color: var(--muted); margin-top: 3px; }
 
@@ -307,10 +307,11 @@
       padding:2px 7px;
       border-radius: 999px;
       border:1px solid var(--border2);
-      background: var(--panel2);
+      background: rgba(255,255,255,.02);
       font-size: 11px;
       margin-left: 8px;
       color: var(--text);
+      font-weight: 800;
     }
 
     .btnRow{
@@ -355,39 +356,47 @@
       cursor: pointer;
     }
     .typeaheadItem:last-child{ border-bottom: none; }
-    .typeaheadItem:hover{ background: rgba(59,130,246,.10); }
+    .typeaheadItem:hover{ background: rgba(245,197,66,.10); }
     .typeaheadTitle{ font-size: 14px; font-weight: 900; }
     .typeaheadSub{ font-size: 12px; color: var(--muted); margin-top: 2px; }
 
-    /* Bottom Nav (uniform) */
-.bottomNav{
-  position: fixed;
-  left: 0; right: 0; bottom: 0;
-  z-index: 40;
-  padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
-  background: linear-gradient(to top, var(--bg), rgba(0,0,0,0));
-}
-html[data-theme="light"] .bottomNav{
-  background: linear-gradient(to top, var(--bg), rgba(255,255,255,0));
-}
-.navRow{
-  max-width: 980px;
-  margin: 0 auto;
-  display: flex;
-  gap: 10px;
-}
-.navBtn{
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-  font-size: 14px;
-  font-weight: 900;
-}
-.navBtn.active{
-  outline: 2px solid rgba(245,197,66,.25);
-  border-color: rgba(245,197,66,.35);
-}
-
-    @media (max-width: 560px){
-      .brand{ font-size: 40px; }
+    /* Uniform bottom nav (same style as Home) */
+    .bottomNav{
+      position: fixed;
+      left:0; right:0; bottom:0;
+      z-index: 50;
+      padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+      background: linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,.30)), var(--bg);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid var(--border);
+    }
+    html[data-theme="light"] .bottomNav{
+      background: linear-gradient(180deg, rgba(255,255,255,0), rgba(10,20,40,.06)), var(--bg);
+    }
+    .navRow{
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      max-width: 720px;
+      margin:0 auto;
+    }
+    .navBtn{
+      flex:1;
+      height: 46px;
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.02);
+      color: var(--text);
+      border-radius: 14px;
+      padding: 12px 10px;
+      font-weight: 900;
+      font-size: 14px;
+      cursor:pointer;
+      box-shadow: 0 10px 24px var(--shadow);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    }
+    .navBtn.active{
+      outline: 2px solid rgba(245,197,66,.25);
+      border-color: rgba(245,197,66,.35);
     }
   </style>
 </head>
@@ -403,7 +412,6 @@ html[data-theme="light"] .bottomNav{
         <div class="pill" id="apiPill">API: checking…</div>
 
         <button class="iconBtn" id="themeToggle" aria-label="Toggle theme">
-          <!-- moon/sun icon swaps in JS -->
           <svg class="icon" viewBox="0 0 24 24" id="themeIcon">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
@@ -414,14 +422,14 @@ html[data-theme="light"] .bottomNav{
 
   <div class="wrap">
 
-    <!-- Search card (PRV-style layout) -->
+    <!-- Search card -->
     <div class="card">
       <div class="sub">Search a set (e.g., “2026 Topps Series 1”) or a player (e.g., “Aaron Judge”).</div>
 
-      <div class="row" style="justify-content:space-between;">
+      <div class="row">
         <div class="pill" id="sportPillWrap">
           <span style="margin-right:8px;">Sport</span>
-          <select id="sport" style="border:none; padding:0; height:auto; background:transparent;">
+          <select id="sport">
             <option value="baseball">Baseball</option>
             <option value="basketball">Basketball</option>
             <option value="football">Football</option>
@@ -448,20 +456,17 @@ html[data-theme="light"] .bottomNav{
 
       <div style="height:10px;"></div>
 
-      <!-- Buttons below input (PRV consistency) -->
       <button id="go" class="btn btnPrimary">Search</button>
 
       <div style="height:10px;"></div>
 
       <button id="browse" class="btn btnGhost">Browse</button>
 
-      <div style="height:10px;"></div>
+      <!-- Search results -->
+      <div class="btnRow">
+        <button id="moreSearch" class="btn btnGhost" style="display:none; width:auto; padding: 10px 14px; height:auto;">Show more</button>
+      </div>
 
-    <div class="btnRow">
-  <button id="moreSearch" class="btn btnGhost" style="display:none; width:auto; padding: 10px 14px; height:auto;">Show more</button>
-</div>
-
-      <!-- Search results (player/subset search mode) -->
       <div id="searchResults" class="resultsBox" style="display:none;"></div>
     </div>
 
@@ -469,7 +474,7 @@ html[data-theme="light"] .bottomNav{
 
     <!-- Set viewer card -->
     <div class="card" id="setView" style="display:none;">
-      <div class="row" style="justify-content:space-between;">
+      <div class="row">
         <div>
           <div class="setHeaderTitle" id="setTitle">Base Checklist</div>
           <div class="setHeaderSub" id="setMeta">Loading…</div>
@@ -490,7 +495,7 @@ html[data-theme="light"] .bottomNav{
   <div id="browseModal" style="display:none; position:fixed; inset:0; z-index:100; background:rgba(0,0,0,.55);">
     <div style="max-width:820px; margin:8vh auto; padding:14px;">
       <div class="card">
-        <div class="row" style="justify-content:space-between;">
+        <div class="row">
           <div>
             <div style="font-size:18px; font-weight:950;">Loaded Checklists</div>
             <div class="sub" style="margin-top:6px;">Browse what’s currently in the tool.</div>
@@ -518,15 +523,16 @@ html[data-theme="light"] .bottomNav{
     </div>
   </div>
 
-  <!-- Bottom Nav (uniform across app) -->
-<nav class="bottomNav" aria-label="Primary">
-  <div class="navRow">
-    <button class="navBtn" type="button" onclick="location.href='/'">Home</button>
-    <button class="navBtn active" type="button" onclick="location.href='/checklists/'">Checklist Vault</button>
-    <button class="navBtn" type="button" onclick="location.href='/vault/'">Print Run Vault</button>
-  </div>
-</nav>
+  <!-- Uniform Bottom Nav -->
+  <nav class="bottomNav" aria-label="Primary">
+    <div class="navRow">
+      <button class="navBtn" type="button" onclick="location.href='/'">Home</button>
+      <button class="navBtn active" type="button" onclick="location.href='/checklists/'">Checklist Vault</button>
+      <button class="navBtn" type="button" onclick="location.href='/vault/'">Print Run Vault</button>
+    </div>
+  </nav>
 
-  <script src="/checklists/app.js?v=1"></script>
+  <!-- Checklist app logic -->
+  <script src="/checklists/app.js?v=4"></script>
 </body>
 </html>
