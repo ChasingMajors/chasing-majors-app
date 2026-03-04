@@ -781,8 +781,16 @@ async function tryOpenSetFromProducts(q) {
    Browse modal (loaded checklists)
 ---------------------------- */
 
-function showBrowseModal() { $("browseModal").style.display = "block"; }
-function hideBrowseModal() { $("browseModal").style.display = "none"; }
+function showBrowseModal() {
+  $("browseModal").style.display = "block";
+  document.body.style.overflow = "hidden"; // stop background scroll
+}
+
+function hideBrowseModal() {
+  $("browseModal").style.display = "none";
+  document.body.style.overflow = ""; // restore
+}
+
 
 function renderBrowseItems(items, append) {
   const box = $("browseList");
