@@ -976,9 +976,10 @@ function wire() {
   $("themeToggle").onclick = () => setTheme(state.theme === "dark" ? "light" : "dark");
 
   // Home button (future navigation)
-  $("homeBtn").onclick = () => {
-    window.location.href = "/";
-  };
+  const hb = $("homeBtn");
+if (hb) {
+  hb.onclick = () => window.location.href = "/";
+}
 }
 
 async function registerSW() {
