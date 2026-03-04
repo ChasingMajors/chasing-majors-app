@@ -1,284 +1,365 @@
-/* ================================
-   Print Run Vault — app.js (FULL)
-   - Updates EXEC_URL to new deployment
-   - Adds minimal logging: ts, selectedName, year, sport
-   - Logs ONLY when a product is selected (dropdown click or best-match on Search)
-   - Fire-and-forget (never blocks UX)
-================================ */
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0b0b" />
+  <title>Print Run Vault • Chasing Majors</title>
 
-// ---------------- CONFIG ----------------
-const EXEC_URL = "https://script.google.com/macros/s/AKfycbx_1rqxgSCu6aqDc7jEnETYC-KcNxHEf208GWXM23FR7hDT0ey8Y1SZ2i4U1VmXOZgpAg/exec";
-const INDEX_KEY = "prv_index_v1";
-const INDEX_VER_KEY = "prv_index_ver_v1";
-const THEME_KEY = "cm_theme";
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
-// ---------------- DOM ----------------
-const elQ = document.getElementById("q");
-const elDD = document.getElementById("dropdown");
-const elResults = document.getElementById("results");
-const elOverlay = document.getElementById("overlay");
-const elThemeBtn = document.getElementById("themeToggle");
+  <style>
+    :root{
+      --navH: 62px;
+      --contentMax: 900px;
 
-// ---------------- STATE ----------------
-let INDEX = [];
-let selected = null;
+      /* DARK */
+      --bg:#0b0b0b;
+      --text:#ffffff;
+      --muted:rgba(255,255,255,0.78);
 
-// ---------------- THEME (WaxAlert parity) ----------------
-function iconMoon(){
-  return `
-    <svg class="themeIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M21 14.5A8.5 8.5 0 0 1 9.5 3a7 7 0 1 0 11.5 11.5Z"
-        stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>`;
-}
-function iconSun(){
-  return `
-    <svg class="themeIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"
-        stroke="currentColor" stroke-width="2"
-        stroke-linecap="round"/>
-      <path d="M12 2v2M12 20v2M4 12H2M22 12h-2
-               M5 5l1.5 1.5M17.5 17.5 19 19
-               M19 5l-1.5 1.5M6.5 17.5 5 19"
-        stroke="currentColor" stroke-width="2"
-        stroke-linecap="round"/>
-    </svg>`;
-}
+      --cardBg:rgba(255,255,255,0.08);
+      --cardBorder:rgba(255,255,255,0.12);
 
-function applyTheme(t){
-  document.body.classList.toggle("light", t === "light");
-  localStorage.setItem(THEME_KEY, t);
-  elThemeBtn.innerHTML = (t === "light") ? iconSun() : iconMoon();
-}
-applyTheme(localStorage.getItem(THEME_KEY) || "dark");
+      --inputBg:#111;
+      --inputBorder:rgba(255,255,255,0.16);
 
-elThemeBtn.addEventListener("click", () => {
-  const isLight = document.body.classList.contains("light");
-  applyTheme(isLight ? "dark" : "light");
-});
+      --btnPrimaryBg:#ffffff;
+      --btnPrimaryText:#000000;
 
-// ---------------- API ----------------
-async function api(action, payload = {}) {
-  const res = await fetch(EXEC_URL, {
-    method: "POST",
-    headers: { "Content-Type": "text/plain;charset=utf-8" },
-    body: JSON.stringify({ action, payload })
-  });
-  return res.json();
-}
+      --btnClearBg:transparent;
+      --btnClearText:#ffffff;
+      --btnClearBorder:rgba(255,255,255,0.22);
 
-// ---------------- SPLASH ----------------
-function hideOverlay(){
-  setTimeout(() => {
-    // overlay element supports .hide in your CSS; if not, this still works
-    elOverlay.classList.add("hide");
-    setTimeout(() => { elOverlay.style.display = "none"; }, 320);
-  }, 500);
-}
+      --navBg:#0b0b0b;
+      --navBorder:rgba(255,255,255,0.12);
 
-// ---------------- INDEX CACHE (Option A meta-version) ----------------
-function loadCachedIndex_(){
-  const cached = localStorage.getItem(INDEX_KEY);
-  if (!cached) return [];
-  try { return JSON.parse(cached) || []; } catch(e) { return []; }
-}
+      --navBtnBg:rgba(255,255,255,0.12);
+      --navBtnIcon:#ffffff;
 
-function storeIndex_(indexArr, versionStr){
-  INDEX = Array.isArray(indexArr) ? indexArr : [];
-  localStorage.setItem(INDEX_KEY, JSON.stringify(INDEX));
-  if (versionStr) localStorage.setItem(INDEX_VER_KEY, String(versionStr));
-}
+      --kvBorder:rgba(255,255,255,0.10);
 
-async function ensureFreshIndex_(){
-  INDEX = loadCachedIndex_();
-  const forceRefresh = new URLSearchParams(location.search).get("refresh") === "1";
-
-  try {
-    const meta = await api("meta");
-    const remoteVer = meta && meta.ok ? String(meta.indexVersion || "") : "";
-    const localVer = localStorage.getItem(INDEX_VER_KEY) || "";
-
-    if (forceRefresh || !INDEX.length || (remoteVer && remoteVer !== localVer)) {
-      const d = await api("index");
-      const fresh = (d && d.ok && Array.isArray(d.index)) ? d.index : (d.index || []);
-      storeIndex_(fresh, remoteVer || localVer);
+      /* DROPDOWN CONTRAST FIX */
+      --ddBg:#111;
+      --ddBorder:rgba(255,255,255,0.18);
+      --ddHover:rgba(255,255,255,0.10);
+      --ddActive:rgba(255,255,255,0.16);
     }
-  } catch (e) {
-    console.warn("Index freshness check failed, using cache.", e);
-  }
-}
 
-// ---------------- INIT ----------------
-(async function init(){
-  await ensureFreshIndex_();
-  hideOverlay();
-})();
+    body.light{
+      /* LIGHT */
+      --bg:#ffffff;
+      --text:#0b0b0b;
+      --muted:rgba(0,0,0,0.70);
 
-// ---------------- DROPDOWN HELPERS ----------------
-function openDropdown(html){
-  elDD.innerHTML = html;
-  elDD.style.display = "block";
-}
-function closeDropdown(){
-  elDD.style.display = "none";
-  elDD.innerHTML = "";
-}
+      --cardBg:rgba(0,0,0,0.05);
+      --cardBorder:rgba(0,0,0,0.10);
 
-// ---------------- ESCAPE/FORMAT HELPERS ----------------
-function esc(s){
-  return String(s ?? "").replace(/[&<>"']/g, m => ({
-    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-  }[m]));
-}
-function fmtNum(x){
-  const n = Number(String(x ?? "").replace(/,/g,""));
-  return Number.isFinite(n) ? n.toLocaleString() : esc(x);
-}
+      --inputBg:#ffffff;
+      --inputBorder:rgba(0,0,0,0.18);
 
-// ---------------- MINIMAL LOGGING (selected only) ----------------
-function logSelectionFireAndForget_(sel){
-  if (!sel) return;
+      --btnPrimaryBg:#111111;
+      --btnPrimaryText:#ffffff;
 
-  api("logSearch", {
-    selectedName: sel.DisplayName || "",
-    year: sel.year || "",
-    sport: sel.sport || ""
-  }).catch(() => {});
-}
+      --btnClearBg:#E0E0E0;
+      --btnClearText:#000000;
+      --btnClearBorder:#E0E0E0;
 
-// ---------------- TYPEAHEAD (AUTO SEARCH ON SELECT) ----------------
-elQ.addEventListener("input", () => {
-  const q = elQ.value.toLowerCase().trim();
-  selected = null;
+      --navBg:#ffffff;
+      --navBorder:rgba(0,0,0,0.10);
 
-  if (q.length < 2) { closeDropdown(); return; }
+      --navBtnBg:rgba(0,0,0,0.08);
+      --navBtnIcon:#0b0b0b;
 
-  const hits = INDEX
-    .filter(i => `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase().includes(q))
-    .slice(0, 10);
+      --kvBorder:rgba(0,0,0,0.10);
 
-  if (!hits.length) { closeDropdown(); return; }
-
-  openDropdown(hits.map(i => `
-    <div class="ddItem" data-code="${esc(i.Code)}">
-      <div class="ddTitle">${esc(i.DisplayName)}</div>
-      <div class="ddMeta">${esc(i.year)} • ${esc(i.sport)} • ${esc(i.manufacturer)}</div>
-    </div>
-  `).join(""));
-
-  [...elDD.children].forEach(node => {
-    node.onclick = async () => {
-      selected = INDEX.find(x => String(x.Code) === String(node.dataset.code)) || null;
-      if (!selected) return;
-
-      elQ.value = selected.DisplayName;
-      closeDropdown();
-
-      // ✅ log selected product (minimal) + auto-search
-      logSelectionFireAndForget_(selected);
-      await runSearch();
-    };
-  });
-});
-
-// Click outside closes dropdown
-document.addEventListener("click", (e) => {
-  // If your HTML wraps search input in .searchWrap (WaxAlert style), this keeps dropdown stable.
-  const inSearch = e.target.closest(".searchWrap") || e.target.closest("#dropdown");
-  if (!inSearch) closeDropdown();
-});
-
-// Enter triggers search
-elQ.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") {
-    e.preventDefault();
-    runSearch();
-  }
-});
-
-// Buttons
-document.getElementById("btnSearch").onclick = runSearch;
-document.getElementById("btnClear").onclick = () => {
-  elQ.value = "";
-  selected = null;
-  closeDropdown();
-  elResults.innerHTML = `<div class="card" style="opacity:.8;">No results yet. Run a search.</div>`;
-};
-
-// ---------------- SEARCH ----------------
-async function runSearch(){
-  // If user typed but didn't click a dropdown result, best-match
-  if (!selected) {
-    const q = elQ.value.toLowerCase().trim();
-    if (!q) return;
-
-    const best = INDEX.find(i => `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase().includes(q));
-    if (best) {
-      selected = best;
-
-      // ✅ log selected product (minimal) when search resolves to best match
-      logSelectionFireAndForget_(selected);
-    } else {
-      return;
+      /* DROPDOWN CONTRAST FIX */
+      --ddBg:#ffffff;
+      --ddBorder:rgba(0,0,0,0.16);
+      --ddHover:rgba(0,0,0,0.06);
+      --ddActive:rgba(0,0,0,0.10);
     }
-  }
 
-  elResults.innerHTML = `<div class="card" style="opacity:.8;">Loading…</div>`;
+    html, body { height:100%; }
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      transition: background 160ms ease, color 160ms ease;
+    }
 
-  try {
-    const data = await api("getRowsByCode", { code: selected.Code });
-    renderResults(data.meta, data.rows || []);
-  } catch (e) {
-    elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading data.</div>`;
-  }
-}
+    .content{
+      padding: 16px 16px calc(var(--navH) + 24px);
+      max-width: var(--contentMax);
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
 
-// ---------------- RENDER ----------------
-function renderResults(meta, rows){
-  if (!rows.length) {
-    elResults.innerHTML = `<div class="card" style="opacity:.8;">No print run rows found.</div>`;
-    return;
-  }
+    /* HEADER */
+    .headerRow{
+      position: relative;
+      max-width: var(--contentMax);
+      margin: 6px auto 12px;
+      text-align: center;
+    }
 
-  const title = esc(meta?.displayName || selected?.DisplayName || "Results");
-  const subParts = [meta?.year, meta?.sport, meta?.manufacturer].filter(Boolean).map(esc);
-  const sub = subParts.join(" • ");
+    .appTitle{
+      font-family: "Bangers", cursive;
+      font-size: 34px;
+      letter-spacing: 1px;
+      line-height: 1;
+      margin: 0;
+    }
+    .appTitle .big{ font-size: 42px; }
 
-  elResults.innerHTML = `
-    <div class="card">
-      <div style="font-weight:800;margin-bottom:6px;">${title}</div>
-      <div style="opacity:.75;font-size:13px;margin-bottom:10px;">${sub}</div>
+    .themeToggle{
+      position:absolute;
+      right:0;
+      top:0;
+      width:44px;
+      height:44px;
+      border-radius: 14px;
+      border:1px solid var(--cardBorder);
+      background: var(--cardBg);
+      color: var(--text);
+      cursor:pointer;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+      z-index: 5;
+    }
+    .themeIcon{ width:22px; height:22px; display:block; }
 
-      <table>
-        <thead>
-          <tr>
-            <th>Set</th>
-            <th>Subset</th>
-            <th>Print Run</th>
-            <th>Cards in Set</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${rows.map(r => `
-            <tr>
-              <td>${esc(r.setType || "")}</td>
-              <td>${esc(r.setLine || "")}</td>
-              <td>${fmtNum(r.printRun)}</td>
-              <td>${fmtNum(r.subSetSize)}</td>
-            </tr>
-          `).join("")}
-        </tbody>
-      </table>
+    .card{
+      background: var(--cardBg);
+      border: 1px solid var(--cardBorder);
+      border-radius: 16px;
+      padding: 16px;
+      transition: background 160ms ease, border-color 160ms ease;
+    }
+
+    .searchCard{
+      max-width: var(--contentMax);
+      margin: 0 auto 14px;
+    }
+
+    .heroText{
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.35;
+      margin-bottom: 12px;
+    }
+
+    /* SEARCH */
+    .searchWrap{ position: relative; width:100%; }
+
+    .searchIcon{
+      position:absolute;
+      left:12px;
+      top:50%;
+      transform: translateY(-50%);
+      width:18px;
+      height:18px;
+      opacity: 0.75;
+      pointer-events:none;
+      color: var(--text);
+      z-index: 3;
+    }
+
+    input{
+      width:100%;
+      box-sizing:border-box;
+      padding: 12px 12px 12px 40px;
+      border-radius: 12px;
+      border: 1px solid var(--inputBorder);
+      background: var(--inputBg);
+      color: var(--text);
+      font-size: 16px;
+      outline:none;
+      transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+    }
+
+    /* ✅ DROPDOWN (high contrast, readable) */
+    .dropdown{
+      position:absolute;
+      left:0;
+      right:0;
+      top: calc(100% + 8px);
+      background: var(--ddBg);
+      border: 1px solid var(--ddBorder);
+      border-radius: 12px;
+      overflow: auto;
+      max-height: 280px;
+      display:none;
+      z-index: 50;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.55);
+    }
+
+    .ddItem{
+      padding: 12px 12px;
+      border-bottom: 1px solid var(--kvBorder);
+      cursor: pointer;
+      background: transparent;
+    }
+    .ddItem:last-child{ border-bottom: 0; }
+
+    .ddItem:hover{ background: var(--ddHover); }
+    .ddItem:active{ background: var(--ddActive); }
+
+    .ddTitle{
+      font-weight: 800;
+      color: var(--text);
+    }
+    .ddMeta{
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    button.primary{
+      width:100%;
+      margin-top:10px;
+      padding: 12px;
+      border:0;
+      border-radius: 12px;
+      background: var(--btnPrimaryBg);
+      color: var(--btnPrimaryText);
+      font-weight:700;
+      cursor:pointer;
+      transition: background 160ms ease, color 160ms ease;
+    }
+
+    button.clearBtn{
+      width:100%;
+      margin-top:10px;
+      padding: 12px;
+      border-radius: 12px;
+      background: var(--btnClearBg);
+      color: var(--btnClearText);
+      border: 1px solid var(--btnClearBorder);
+      font-weight:700;
+      cursor:pointer;
+      transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
+    }
+
+    .resultsWrap{
+      max-width: var(--contentMax);
+      margin: 0 auto;
+    }
+
+    table{
+      width:100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    th, td{
+      padding: 10px 8px;
+      border-bottom: 1px solid var(--kvBorder);
+      text-align: left;
+    }
+    th{
+      opacity: 0.8;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+    }
+
+    /* BOTTOM NAV (3 buttons, uniform across app) */
+    .bottomNav{
+      position: fixed;
+      left:0; right:0; bottom:0;
+      height: var(--navH);
+      background: var(--navBg);
+      border-top: 1px solid var(--navBorder);
+      z-index: 9999;
+      display:flex;
+      justify-content:center;
+      transition: background 160ms ease, border-color 160ms ease;
+    }
+
+    .bottomNavInner{
+      width:100%;
+      max-width: var(--contentMax);
+      padding: 10px 16px max(10px, env(safe-area-inset-bottom));
+      box-sizing:border-box;
+    }
+
+    .navRow{
+      display:flex;
+      gap:10px;
+    }
+
+    .navBtn{
+      flex:1;
+      height: 42px;
+      border:0;
+      border-radius: 14px;
+      background: var(--navBtnBg);
+      color: var(--navBtnIcon);
+      cursor:pointer;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight:800;
+      transition: background 160ms ease, color 160ms ease;
+    }
+
+    .navBtn.active{
+      outline: 2px solid rgba(255,255,255,0.18);
+    }
+    body.light .navBtn.active{
+      outline: 2px solid rgba(0,0,0,0.14);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <div class="headerRow">
+      <h1 class="appTitle"><span class="big">P</span>rint <span class="big">R</span>un <span class="big">V</span>ault</h1>
+
+      <button id="themeToggle" class="themeToggle" aria-label="Toggle theme"></button>
     </div>
-  `;
-}
 
-// ---------------- BOTTOM NAV (Home) ----------------
-const homeBtn = document.getElementById("btnHome");
-if (homeBtn) {
-  homeBtn.addEventListener("click", () => {
-    // Always return to the app home screen
-    window.location.href = "/";
-  });
-}
+    <div class="card searchCard">
+      <div class="heroText">Search a product (e.g., “2026 Topps Series 1”).</div>
+
+      <div class="searchWrap">
+        <svg class="searchIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"></circle>
+          <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2"></path>
+        </svg>
+
+        <input id="q" placeholder="Let's search something" autocomplete="off" />
+        <div id="dropdown" class="dropdown"></div>
+      </div>
+
+      <button id="btnSearch" class="primary">Search</button>
+      <button id="btnClear" class="clearBtn">Clear</button>
+    </div>
+
+    <div class="resultsWrap">
+      <div id="results">
+        <div class="card" style="opacity:.8;">No results yet. Run a search.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottomNav" aria-label="Primary">
+    <div class="bottomNavInner">
+      <div class="navRow">
+        <button class="navBtn" type="button" onclick="location.href='/'">Home</button>
+        <button class="navBtn" type="button" onclick="location.href='/checklists/'">Checklist Vault</button>
+        <button class="navBtn active" type="button" onclick="location.href='/vault/'">Print Run Vault</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/vault/app.js?v=2"></script>
+</body>
+</html>
