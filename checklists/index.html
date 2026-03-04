@@ -16,33 +16,33 @@
   <style>
     * { box-sizing: border-box; }
 
-    :root{
-      --bg: #0b0f19;
-      --panel: #0f172a;
-      --panel2: #0b1222;
-      --border: #1f2937;
-      --border2: #263244;
-      --text: #e5e7eb;
-      --muted: #9ca3af;
-      --shadow: rgba(0,0,0,.25);
+   html[data-theme="light"]{
+  --bg:#f6f7fb;
+  --panel:#ffffff;
+  --panel2:#ffffff;
+  --border:rgba(10,20,40,.12);
+  --border2:rgba(10,20,40,.14);
+  --text:#0b0f14;
+  --muted:#52657a;
+  --shadow:rgba(10,20,40,.12);
 
-      --btnPrimaryBg: #ffffff;
-      --btnPrimaryText: #0b0f19;
-      --btnGhostBg: transparent;
-      --btnGhostBorder: #2b3448;
+  --btnPrimaryBg:#111827;
+  --btnPrimaryText:#ffffff;
+  --btnGhostBg:transparent;
+  --btnGhostBorder:rgba(10,20,40,.14);
 
-      --homeBarBg: rgba(15,23,42,.85);
-      --homeBarBorder: rgba(31,41,55,.9);
+  --homeBarBg:rgba(255,255,255,.85);
+  --homeBarBorder:rgba(10,20,40,.12);
 
-      --pillBg: #0b1222;
-      --pillBorder: #263244;
+  --pillBg:#ffffff;
+  --pillBorder:rgba(10,20,40,.12);
 
-      --inputBg: #0b1222;
-      --inputBorder: #263244;
+  --inputBg:#ffffff;
+  --inputBorder:rgba(10,20,40,.12);
 
-      --icon: #cbd5e1;
-      --accent: #ffffff;
-    }
+  --icon:#111827;
+  --accent:#111827;
+}
 
     /* Light theme mirrors PRV */
     html[data-theme="light"]{
@@ -81,11 +81,11 @@
       padding-bottom: 74px; /* space for bottom home bar */
     }
 
-    .wrap{
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 14px;
-    }
+   .wrap{
+  width: min(720px, 100%);
+  margin: 0 auto;
+  padding: 14px;
+}
 
     /* Top header like Print Run Vault */
     .topbar{
@@ -107,6 +107,9 @@
       justify-content:center;
       position: relative;
     }
+    @media (max-width: 560px){
+  .topRight .pill{ display:none; }
+}
 
     .brand{
       font-family: "Bangers", system-ui, sans-serif;
@@ -374,15 +377,9 @@ html[data-theme="light"] .bottomNav{
   gap: 10px;
 }
 .navBtn{
-  flex: 1;
-  height: 46px;
-  border-radius: 14px;
-  border: 1px solid var(--homeBarBorder);
-  background: rgba(255,255,255,.02);
-  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  font-size: 14px;
   font-weight: 900;
-  cursor: pointer;
-  box-shadow: 0 10px 24px var(--shadow);
 }
 .navBtn.active{
   outline: 2px solid rgba(245,197,66,.25);
