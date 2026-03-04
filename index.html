@@ -11,6 +11,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
   <style>
+    html, body {
+  height: 100%;
+  overflow: hidden;
+}
     :root{
       --bg:#0b0f14;
       --panel:#111826;
@@ -87,10 +91,14 @@
       padding: 14px 14px calc(var(--navH) + env(safe-area-inset-bottom) + 12px);
       display:flex;
       justify-content:center;
+      overflow-x: hidden;
     }
     .stack{
       width: min(720px, 100%);
+      margin: 0 auto;
+      box-sizing: border-box;
     }
+    { box-sizing: border-box; }
 
     /* Top brand like PRV */
     .topBrand{
