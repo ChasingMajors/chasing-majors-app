@@ -360,6 +360,6 @@
     </div>
   </div>
 
-  <script src="/vault/app.js?v=2"></script>
+  <script src="/vault/app.js?v=3"></script>
 </body>
 </html>
