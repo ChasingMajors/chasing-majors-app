@@ -1,1 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Checklist Vault • Chasing Majors</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#0b0f14;
+      --panel:#111826;
+      --text:#e8eef7;
+      --muted:#9bb0c8;
+      --border:rgba(255,255,255,.10);
+      --shadow:0 10px 30px rgba(0,0,0,.35);
+      --radius:18px;
+      --navH: 74px;
+    }
+    *{ box-sizing:border-box; }
+    html, body { height:100%; overflow:hidden; }
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .wrap{
+      height:100dvh;
+      padding: 14px 14px calc(var(--navH) + env(safe-area-inset-bottom) + 12px);
+      display:flex;
+      justify-content:center;
+      overflow-x:hidden;
+    }
+    .stack{
+      width:min(720px, 100%);
+      margin:0 auto;
+    }
+    .topBrand{
+      padding: 10px 6px 12px;
+      text-align:center;
+    }
+    .brandWordmark{
+      font-family:"Bangers", system-ui, sans-serif;
+      letter-spacing:1px;
+      font-size:44px;
+      line-height:1;
+      margin:0;
+    }
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015));
+      border:1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      padding: 18px;
+    }
+    .title{
+      margin:0 0 8px 0;
+      font-weight:900;
+      font-size:22px;
+      color:var(--text);
+    }
+    .sub{
+      margin:0;
+      color:var(--muted);
+      font-weight:800;
+      font-size:14px;
+      line-height:1.45;
+    }
+    .bottomNav{
+      position: fixed;
+      left:0; right:0; bottom:0;
+      z-index: 50;
+      padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+      background: linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,.30)), var(--bg);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid var(--border);
+    }
+    .navRow{
+      display:flex;
+      gap:10px;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .navBtn{
+      flex:1;
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.02);
+      color: var(--text);
+      border-radius: 14px;
+      padding: 12px 10px;
+      font-weight: 900;
+      cursor:pointer;
+    }
+    .navBtn.active{
+      outline: 2px solid rgba(245,197,66,.25);
+      border-color: rgba(245,197,66,.35);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="stack">
+      <div class="topBrand">
+        <h1 class="brandWordmark">Chasing Majors</h1>
+      </div>
+
+      <div class="card">
+        <div class="title">Checklist Vault</div>
+        <p class="sub">Work in progress…</p>
+      </div>
+    </div>
+  </div>
+
+  <nav class="bottomNav" aria-label="Primary">
+    <div class="navRow">
+      <button class="navBtn" type="button" onclick="location.href='/'">Home</button>
+      <button class="navBtn active" type="button" onclick="location.href='/checklists/'">Checklist Vault</button>
+      <button class="navBtn" type="button" onclick="location.href='/vault/'">Print Run Vault</button>
+    </div>
+  </nav>
+</body>
+</html>
