@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Print Run Vault</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0b0b" />
+  <title>Print Run Vault • Chasing Majors</title>
 
   <!-- Bangers Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,15 +42,15 @@
 
       --kvBorder:rgba(255,255,255,0.10);
 
-      /* DROPDOWN CONTRAST FIX */
-      --ddBg:#111;                         /* solid background so text is readable */
+      /* dropdown */
+      --ddBg:#111;
       --ddBorder:rgba(255,255,255,0.18);
       --ddHover:rgba(255,255,255,0.10);
       --ddActive:rgba(255,255,255,0.16);
     }
 
-    body.light{
-      /* LIGHT */
+    /* Match Checklist Vault light style */
+    html[data-theme="light"]{
       --bg:#ffffff;
       --text:#0b0b0b;
       --muted:rgba(0,0,0,0.70);
@@ -75,14 +76,15 @@
 
       --kvBorder:rgba(0,0,0,0.10);
 
-      /* DROPDOWN CONTRAST FIX */
       --ddBg:#ffffff;
       --ddBorder:rgba(0,0,0,0.16);
       --ddHover:rgba(0,0,0,0.06);
       --ddActive:rgba(0,0,0,0.10);
     }
 
+    *{ box-sizing:border-box; }
     html, body { height:100%; }
+
     body{
       margin:0;
       font-family: Arial, sans-serif;
@@ -98,7 +100,7 @@
       box-sizing: border-box;
     }
 
-    /* HEADER */
+    /* Header like Checklist Vault */
     .headerRow{
       position: relative;
       max-width: var(--contentMax);
@@ -115,10 +117,17 @@
     }
     .appTitle .big{ font-size: 42px; }
 
-    .themeToggle{
+    /* Right controls */
+    .topRight{
       position:absolute;
       right:0;
       top:0;
+      display:flex;
+      gap:10px;
+      align-items:center;
+    }
+
+    .iconBtn{
       width:44px;
       height:44px;
       border-radius: 14px;
@@ -132,7 +141,17 @@
       transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
       z-index: 5;
     }
-    .themeIcon{ width:22px; height:22px; display:block; }
+
+    .icon{
+      width:22px;
+      height:22px;
+      display:block;
+      fill:none;
+      stroke: currentColor;
+      stroke-width:2;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+    }
 
     .card{
       background: var(--cardBg);
@@ -183,7 +202,7 @@
       transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
     }
 
-    /* ✅ DROPDOWN (high contrast, readable) */
+    /* Dropdown */
     .dropdown{
       position:absolute;
       left:0;
@@ -271,7 +290,7 @@
       letter-spacing: .4px;
     }
 
-    /* BOTTOM NAV */
+    /* Bottom nav EXACT Checklist Vault style (3 buttons) */
     .bottomNav{
       position: fixed;
       left:0; right:0; bottom:0;
@@ -283,16 +302,18 @@
       justify-content:center;
       transition: background 160ms ease, border-color 160ms ease;
     }
-
     .bottomNavInner{
       width:100%;
       max-width: var(--contentMax);
       padding: 10px 16px max(10px, env(safe-area-inset-bottom));
       box-sizing:border-box;
     }
-
+    .navRow{
+      display:flex;
+      gap:10px;
+    }
     .navBtn{
-      width:100%;
+      flex:1;
       height: 42px;
       border:0;
       border-radius: 14px;
@@ -302,89 +323,32 @@
       display:flex;
       align-items:center;
       justify-content:center;
+      font-weight:800;
       transition: background 160ms ease, color 160ms ease;
     }
-
-    .navIcon{
-      width: 22px;
-      height: 22px;
-      display:block;
+    .navBtn.active{
+      outline: 2px solid rgba(255,255,255,0.18);
     }
-
-    /* SPLASH OVERLAY */
-    .overlay{
-      position: fixed;
-      inset: 0;
-      background: var(--bg);
-      color: var(--text);
-      display: grid;
-      place-items: center;
-      z-index: 10000;
-      transition: opacity 260ms ease, background 160ms ease, color 160ms ease;
-    }
-    .overlay.hide{
-      opacity: 0;
-      pointer-events: none;
-    }
-    .splashInner{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      gap:14px;
-      text-align:center;
-      width: min(520px, 92vw);
-      padding: 34px 18px 18px;
-      box-sizing: border-box;
-      animation: splashIn 420ms ease forwards;
-    }
-    @keyframes splashIn{
-      from{ opacity: 0; transform: translateY(14px); }
-      to{ opacity: 1; transform: translateY(0); }
-    }
-    .splashTitle{
-      font-family: "Bangers", cursive;
-      font-size: 44px;
-      line-height: 1.05;
-      letter-spacing: 1px;
-      margin: 0;
-    }
-    .splashSub{
-      opacity: .75;
-      font-size: 14px;
-      margin-top: -8px;
-    }
-    .spinner{
-      width:44px;
-      height:44px;
-      border-radius:50%;
-      border:4px solid var(--cardBorder);
-      border-top-color: var(--text);
-      animation: spin 1s linear infinite;
-    }
-    @keyframes spin{ to{ transform: rotate(360deg); } }
   </style>
 </head>
 
 <body>
-  <!-- SPLASH OVERLAY -->
-  <div class="overlay" id="overlay">
-    <div class="splashInner">
-      <h1 class="splashTitle">Chasing Majors</h1>
-      <div class="splashSub">Loading…</div>
-      <div class="spinner" aria-hidden="true"></div>
-    </div>
-  </div>
-
   <main class="content">
     <section>
       <div class="headerRow">
-        <div class="appTitle">
+        <h1 class="appTitle">
           <span class="big">P</span>rint
           <span class="big">R</span>un
           <span class="big">V</span>ault
+        </h1>
+
+        <div class="topRight">
+          <button class="iconBtn" id="themeToggle" aria-label="Toggle theme">
+            <svg class="icon" viewBox="0 0 24 24" id="themeIcon">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
         </div>
-        <button class="themeToggle" id="themeToggle" type="button" aria-label="Toggle theme"></button>
       </div>
 
       <div class="card searchCard">
@@ -414,23 +378,16 @@
     </section>
   </main>
 
-  <nav class="bottomNav" aria-label="Primary">
+  <!-- Bottom nav -->
+  <div class="bottomNav" aria-label="Primary">
     <div class="bottomNavInner">
-      <button class="navBtn" id="btnHome" type="button" aria-label="Home">
-        <svg class="navIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M3 10.5L12 3l9 7.5"
-            stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M5 9.8V21h14V9.8"
-            stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M10 21v-7h4v7"
-            stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
+      <div class="navRow">
+        <button class="navBtn" type="button" onclick="location.href='/'">Home</button>
+        <button class="navBtn" type="button" onclick="location.href='/checklists/'">Checklist Vault</button>
+        <button class="navBtn active" type="button" onclick="location.href='/vault/'">Print Run Vault</button>
+      </div>
     </div>
-  </nav>
+  </div>
 
   <script src="./app.js"></script>
 </body>
