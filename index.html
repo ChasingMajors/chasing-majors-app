@@ -194,70 +194,71 @@
     }
     @keyframes spin{ to{ transform: rotate(360deg); } }
 
-   /* Homepage tool buttons (old-button vibe) */
-.toolBtns{
-  display:flex;
-  flex-direction:column;
-  gap:14px;
-  margin-top:12px;
-  align-items:center;   
-}
+    /* Homepage tool buttons (old-button vibe) */
+    .toolBtns{
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+      margin-top:12px;
+    }
 
-.toolBtn{
-  display:block;
-  text-decoration:none;
-  color: var(--text);
+    .toolBtn{
+      display:block;
+      text-decoration:none;
+      color: var(--text);
+      padding:16px 18px;
+      border-radius:16px;
 
-  padding:16px 18px;
-  border-radius:16px;
+      background: var(--navBtnBg);
+      border: 1px solid var(--cardBorder);
+      box-shadow: 0 10px 28px rgba(0,0,0,0.28);
 
-  background: var(--navBtnBg);
-  border: 1px solid var(--cardBorder);
-  box-shadow: 0 10px 28px rgba(0,0,0,0.28);
+      width:100%;
+      max-width: 640px;
+      margin:0 auto;
 
-  width: min(620px, 100%); 
-  transition: transform 120ms ease, background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
-}
+      transition: transform 120ms ease, background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+    }
 
-.toolBtn:hover{
-  transform: translateY(-1px);
-  border-color: rgba(255,255,255,0.22);
-  box-shadow: 0 14px 34px rgba(0,0,0,0.34);
-}
+    .toolBtn:hover{
+      transform: translateY(-1px);
+      border-color: rgba(255,255,255,0.22);
+      box-shadow: 0 14px 34px rgba(0,0,0,0.34);
+    }
 
-/* ✅ you use body.light, not html[data-theme="light"] */
-body.light .toolBtn:hover{
-  border-color: rgba(0,0,0,0.18);
-}
+    body.light .toolBtn:hover{
+      border-color: rgba(0,0,0,0.18);
+    }
 
-.toolBtn:active{
-  transform: translateY(0px) scale(0.99);
-}
+    .toolBtn:active{
+      transform: translateY(0px) scale(0.99);
+    }
 
-.toolBtnTop{
-  font-weight:900;
-  font-size:18px;
-  letter-spacing:0.2px;
-}
+    .toolBtnTop{
+      font-weight:900;
+      font-size:18px;
+      letter-spacing:0.2px;
+    }
 
-.toolBtnSub{
-  margin-top:6px;
-  font-size:13px;
-  line-height:1.35;
-  color: var(--muted);
-}
+    .toolBtnSub{
+      margin-top:6px;
+      font-size:13px;
+      line-height:1.35;
+      color: var(--muted);
+    }
 
-/* Mobile spacing */
-@media (max-width: 560px){
-  .toolBtn{
-    padding:15px 16px;
-    border-radius:16px;
-    width: 100% -28px;
-    margin: 0 auto;
-  }
-  .toolBtnTop{ font-size:17px; }
-}
-
+    /* Mobile: narrower feel without overflow */
+    @media (max-width: 560px){
+      .toolBtns{
+        padding: 0 14px;
+      }
+      .toolBtn{
+        max-width: 100%;
+        padding:15px 16px;
+        border-radius:16px;
+      }
+      .toolBtnTop{ font-size:17px; }
+    }
   </style>
 </head>
 
@@ -280,21 +281,21 @@ body.light .toolBtn:hover{
       <div class="heroText">Choose a tool</div>
 
       <div class="toolBtns">
-  <a class="toolBtn" href="/checklists/">
-    <div class="toolBtnTop">Checklist Vault</div>
-    <div class="toolBtnSub">Search a set or player. Browse Base, Inserts, Autos, Relics, Variations.</div>
-  </a>
+        <a class="toolBtn" href="/checklists/">
+          <div class="toolBtnTop">Checklist Vault</div>
+          <div class="toolBtnSub">Search a set or player. Browse Base, Inserts, Autos, Relics, Variations.</div>
+        </a>
 
-  <a class="toolBtn" href="/vault/">
-    <div class="toolBtnTop">Print Run Vault</div>
-    <div class="toolBtnSub">Calculated production estimates. Print run data, not guesses.</div>
-  </a>
+        <a class="toolBtn" href="/vault/">
+          <div class="toolBtnTop">Print Run Vault</div>
+          <div class="toolBtnSub">Calculated production estimates. Print run data, not guesses.</div>
+        </a>
 
-  <a class="toolBtn" href="/release-schedule/">
-    <div class="toolBtnTop">Release Schedule</div>
-    <div class="toolBtnSub">What’s dropping next. Filters by sport, date, and brand.</div>
-  </a>
-</div>
+        <a class="toolBtn" href="/release-schedule/">
+          <div class="toolBtnTop">Release Schedule</div>
+          <div class="toolBtnSub">What’s dropping next. Filters by sport, date, and brand.</div>
+        </a>
+      </div>
     </div>
   </div>
 
