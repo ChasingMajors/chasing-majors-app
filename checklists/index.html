@@ -6,9 +6,6 @@
   <meta name="theme-color" content="#0b0b0b" />
   <title>Checklist Vault • Chasing Majors</title>
 
-  <!-- No manifest here for now -->
-  <!-- <link rel="manifest" href="./manifest.webmanifest" /> -->
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
@@ -18,7 +15,7 @@
       --navH: 62px;
       --contentMax: 900px;
 
-      /* DARK (PRV) */
+      /* DARK */
       --bg:#0b0b0b;
       --text:#ffffff;
       --muted:rgba(255,255,255,0.78);
@@ -49,9 +46,15 @@
       --ddBorder:rgba(255,255,255,0.18);
       --ddHover:rgba(255,255,255,0.10);
       --ddActive:rgba(255,255,255,0.16);
+
+      /* MODAL (dark) - IMPORTANT: SOLID surfaces */
+      --modalOverlay: rgba(0,0,0,0.72);
+      --modalCardBg: #111111;
+      --modalCardBorder: rgba(255,255,255,0.14);
+      --modalListBg: rgba(255,255,255,0.04);
+      --modalListRowHover: rgba(255,255,255,0.08);
     }
 
-    /* Match PRV light style, but keep your data-theme system */
     html[data-theme="light"]{
       --bg:#ffffff;
       --text:#0b0b0b;
@@ -82,6 +85,13 @@
       --ddBorder:rgba(0,0,0,0.16);
       --ddHover:rgba(0,0,0,0.06);
       --ddActive:rgba(0,0,0,0.10);
+
+      /* MODAL (light) - IMPORTANT: SOLID surfaces */
+      --modalOverlay: rgba(0,0,0,0.35);
+      --modalCardBg: #ffffff;
+      --modalCardBorder: rgba(0,0,0,0.14);
+      --modalListBg: #ffffff;
+      --modalListRowHover: rgba(0,0,0,0.05);
     }
 
     *{ box-sizing:border-box; }
@@ -95,7 +105,13 @@
       transition: background 160ms ease, color 160ms ease;
     }
 
-    /* PRV content wrapper */
+    /* lock background when modal open */
+    body.modalOpen{
+      overflow: hidden;
+      height: 100%;
+      touch-action: none;
+    }
+
     .content{
       padding: 16px 16px calc(var(--navH) + 24px);
       max-width: var(--contentMax);
@@ -103,7 +119,6 @@
       box-sizing: border-box;
     }
 
-    /* Header like PRV */
     .headerRow{
       position: relative;
       max-width: var(--contentMax);
@@ -120,7 +135,6 @@
     }
     .appTitle .big{ font-size: 42px; }
 
-    /* Right controls */
     .topRight{
       position:absolute;
       right:0;
@@ -169,7 +183,6 @@
       stroke-linejoin:round;
     }
 
-    /* PRV card */
     .card{
       background: var(--cardBg);
       border: 1px solid var(--cardBorder);
@@ -185,7 +198,6 @@
       margin-bottom: 12px;
     }
 
-    /* Sport pill row */
     .row{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:space-between; }
 
     select{
@@ -199,7 +211,6 @@
       outline:none;
     }
 
-    /* Search */
     .searchWrap{ position: relative; width:100%; }
 
     .searchIcon{
@@ -250,7 +261,6 @@
       border: 1px solid var(--btnGhostBorder);
     }
 
-    /* Results box */
     .resultsBox{
       margin-top: 12px;
       border: 1px solid var(--kvBorder);
@@ -279,12 +289,12 @@
       font-weight:700;
     }
 
-    /* Tabs */
     .divider{
       height: 1px;
       background: var(--kvBorder);
       margin: 12px 0;
     }
+
     .tabs{
       display:flex;
       gap:8px;
@@ -308,7 +318,6 @@
     }
     .tab.active{ border-color: rgba(255,255,255,0.30); }
 
-    /* Set view typography */
     .setHeaderTitle{ font-size: 18px; font-weight: 800; margin:0; }
     .setHeaderSub{ color: var(--muted); font-size: 13px; margin-top: 4px; }
 
@@ -321,7 +330,6 @@
       justify-content: space-between;
     }
 
-    /* Typeahead dropdown uses PRV variables */
     .typeaheadList{
       position: absolute;
       left: 0; right: 0;
@@ -347,7 +355,7 @@
     .typeaheadTitle{ font-size: 14px; font-weight: 800; color: var(--text); }
     .typeaheadSub{ font-size: 12px; color: var(--muted); margin-top: 4px; }
 
-    /* Bottom nav EXACT PRV style (3 buttons) */
+    /* Bottom nav */
     .bottomNav{
       position: fixed;
       left:0; right:0; bottom:0;
@@ -365,10 +373,7 @@
       padding: 10px 16px max(10px, env(safe-area-inset-bottom));
       box-sizing:border-box;
     }
-    .navRow{
-      display:flex;
-      gap:10px;
-    }
+    .navRow{ display:flex; gap:10px; }
     .navBtn{
       flex:1;
       height: 42px;
@@ -387,9 +392,60 @@
       outline: 2px solid rgba(255,255,255,0.18);
     }
 
-    /* Mobile: hide API pill so it doesn't collide */
     @media (max-width: 560px){
       .topRight .pill{ display:none; }
+    }
+
+    /* -------------------------
+       MODAL FIXES (READABILITY + SCROLL + Z-INDEX)
+       ------------------------- */
+    #browseModal{
+      display:none;
+      position:fixed;
+      inset:0;
+      z-index: 25000; /* must be > bottom nav */
+      background: var(--modalOverlay);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .modalWrap{
+      height:100%;
+      display:flex;
+      justify-content:center;
+      align-items:flex-start;
+      padding:14px;
+      box-sizing:border-box;
+      padding-bottom: calc(14px + env(safe-area-inset-bottom));
+    }
+
+    .modalCard{
+      width:min(820px, 100%);
+      max-height: calc(100dvh - 28px);
+      overflow:hidden;
+      display:flex;
+      flex-direction:column;
+
+      /* SOLID modal surface */
+      background: var(--modalCardBg);
+      border: 1px solid var(--modalCardBorder);
+    }
+
+    /* Make modal list readable (no bleed-through) */
+    #browseList.resultsBox{
+      background: var(--modalListBg);
+      overflow-y:auto;
+      -webkit-overflow-scrolling:touch;
+      touch-action: pan-y;
+      flex:1;
+      min-height:0;
+    }
+
+    #browseList .r{
+      cursor:pointer;
+    }
+    #browseList .r:hover{
+      background: var(--modalListRowHover);
     }
   </style>
 </head>
@@ -410,7 +466,6 @@
       </div>
     </div>
 
-    <!-- Search card -->
     <div class="card">
       <div class="heroText">Search a set (e.g., “2026 Topps Series 1”) or a player (e.g., “Aaron Judge”).</div>
 
@@ -453,7 +508,6 @@
 
     <div style="height:12px;"></div>
 
-    <!-- Set viewer card -->
     <div class="card" id="setView" style="display:none;">
       <div class="row">
         <div>
@@ -470,11 +524,10 @@
     </div>
   </div>
 
-  <!-- Browse Modal (kept functional; styling stays OK) -->
-<div id="browseModal" style="display:none; position:fixed; inset:0; z-index:1000; background:rgba(0,0,0,.72); backdrop-filter: blur(6px);">
-<div style="height:100%; display:flex; justify-content:center; align-items:flex-start; padding:14px; box-sizing:border-box;">
-  <div class="card" style="width:min(820px, 100%); max-height: calc(100dvh - 28px); overflow:hidden; display:flex; flex-direction:column;">
-
+  <!-- Browse Modal -->
+  <div id="browseModal" aria-hidden="true">
+    <div class="modalWrap">
+      <div class="card modalCard">
         <div class="row">
           <div>
             <div style="font-size:18px; font-weight:800;">Loaded Checklists</div>
@@ -493,8 +546,8 @@
           <input id="browseFilter" placeholder="Filter loaded checklists…" />
         </div>
 
-<div id="browseList" class="resultsBox" style="margin-top:12px; overflow:auto; -webkit-overflow-scrolling:touch; flex:1; min-height:0;"></div>
-    
+        <div id="browseList" class="resultsBox" style="margin-top:12px;"></div>
+
         <div class="btnRow">
           <button id="browseMore" class="btn btnGhost" style="display:none; width:auto;">Load more</button>
           <div class="pill" id="browsePill" style="display:none;">0</div>
@@ -514,6 +567,6 @@
     </div>
   </div>
 
-  <script src="/checklists/app.js?v=6"></script>
+  <script src="/checklists/app.js?v=7"></script>
 </body>
 </html>
