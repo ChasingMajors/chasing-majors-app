@@ -1,9 +1,8 @@
 /* ================================
    Print Run Vault — app.js (FULL)
-   - Updates EXEC_URL to new deployment
-   - Adds minimal logging: ts, selectedName, year, sport
-   - Logs ONLY when a product is selected (dropdown click or best-match on Search)
-   - Fire-and-forget (never blocks UX)
+   - Removes splash overlay logic
+   - Uses Checklist Vault theme system (html[data-theme], icons)
+   - Bottom nav handled in HTML (3 buttons)
 ================================ */
 
 // ---------------- CONFIG ----------------
@@ -16,47 +15,48 @@ const THEME_KEY = "cm_theme";
 const elQ = document.getElementById("q");
 const elDD = document.getElementById("dropdown");
 const elResults = document.getElementById("results");
-const elOverlay = document.getElementById("overlay");
 const elThemeBtn = document.getElementById("themeToggle");
 
 // ---------------- STATE ----------------
 let INDEX = [];
 let selected = null;
 
-// ---------------- THEME (WaxAlert parity) ----------------
-function iconMoon(){
-  return `
-    <svg class="themeIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M21 14.5A8.5 8.5 0 0 1 9.5 3a7 7 0 1 0 11.5 11.5Z"
-        stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>`;
-}
-function iconSun(){
-  return `
-    <svg class="themeIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"
-        stroke="currentColor" stroke-width="2"
-        stroke-linecap="round"/>
-      <path d="M12 2v2M12 20v2M4 12H2M22 12h-2
-               M5 5l1.5 1.5M17.5 17.5 19 19
-               M19 5l-1.5 1.5M6.5 17.5 5 19"
-        stroke="currentColor" stroke-width="2"
-        stroke-linecap="round"/>
-    </svg>`;
-}
-
-function applyTheme(t){
-  document.body.classList.toggle("light", t === "light");
+// ---------------- THEME (Checklist Vault parity) ----------------
+function setTheme(theme) {
+  const t = theme === "light" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", t);
   localStorage.setItem(THEME_KEY, t);
-  elThemeBtn.innerHTML = (t === "light") ? iconSun() : iconMoon();
-}
-applyTheme(localStorage.getItem(THEME_KEY) || "dark");
 
-elThemeBtn.addEventListener("click", () => {
-  const isLight = document.body.classList.contains("light");
-  applyTheme(isLight ? "dark" : "light");
-});
+  const icon = document.getElementById("themeIcon");
+  if (!icon) return;
+
+  if (t === "dark") {
+    // moon
+    icon.innerHTML = `<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>`;
+  } else {
+    // sun
+    icon.innerHTML = `
+      <circle cx="12" cy="12" r="4"></circle>
+      <path d="M12 2v2"></path><path d="M12 20v2"></path>
+      <path d="M4.93 4.93l1.41 1.41"></path><path d="M17.66 17.66l1.41 1.41"></path>
+      <path d="M2 12h2"></path><path d="M20 12h2"></path>
+      <path d="M4.93 19.07l1.41-1.41"></path><path d="M17.66 6.34l1.41-1.41"></path>
+    `;
+  }
+}
+
+function loadTheme() {
+  const saved = localStorage.getItem(THEME_KEY);
+  if (saved === "light" || saved === "dark") setTheme(saved);
+  else setTheme("dark");
+}
+
+if (elThemeBtn) {
+  elThemeBtn.addEventListener("click", () => {
+    const cur = document.documentElement.getAttribute("data-theme") || "dark";
+    setTheme(cur === "dark" ? "light" : "dark");
+  });
+}
 
 // ---------------- API ----------------
 async function api(action, payload = {}) {
@@ -66,15 +66,6 @@ async function api(action, payload = {}) {
     body: JSON.stringify({ action, payload })
   });
   return res.json();
-}
-
-// ---------------- SPLASH ----------------
-function hideOverlay(){
-  setTimeout(() => {
-    // overlay element supports .hide in your CSS; if not, this still works
-    elOverlay.classList.add("hide");
-    setTimeout(() => { elOverlay.style.display = "none"; }, 320);
-  }, 500);
 }
 
 // ---------------- INDEX CACHE (Option A meta-version) ----------------
@@ -111,8 +102,8 @@ async function ensureFreshIndex_(){
 
 // ---------------- INIT ----------------
 (async function init(){
+  loadTheme();
   await ensureFreshIndex_();
-  hideOverlay();
 })();
 
 // ---------------- DROPDOWN HELPERS ----------------
@@ -175,7 +166,6 @@ elQ.addEventListener("input", () => {
       elQ.value = selected.DisplayName;
       closeDropdown();
 
-      // ✅ log selected product (minimal) + auto-search
       logSelectionFireAndForget_(selected);
       await runSearch();
     };
@@ -184,7 +174,6 @@ elQ.addEventListener("input", () => {
 
 // Click outside closes dropdown
 document.addEventListener("click", (e) => {
-  // If your HTML wraps search input in .searchWrap (WaxAlert style), this keeps dropdown stable.
   const inSearch = e.target.closest(".searchWrap") || e.target.closest("#dropdown");
   if (!inSearch) closeDropdown();
 });
@@ -208,7 +197,6 @@ document.getElementById("btnClear").onclick = () => {
 
 // ---------------- SEARCH ----------------
 async function runSearch(){
-  // If user typed but didn't click a dropdown result, best-match
   if (!selected) {
     const q = elQ.value.toLowerCase().trim();
     if (!q) return;
@@ -216,8 +204,6 @@ async function runSearch(){
     const best = INDEX.find(i => `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase().includes(q));
     if (best) {
       selected = best;
-
-      // ✅ log selected product (minimal) when search resolves to best match
       logSelectionFireAndForget_(selected);
     } else {
       return;
@@ -272,13 +258,4 @@ function renderResults(meta, rows){
       </table>
     </div>
   `;
-}
-
-// ---------------- BOTTOM NAV (Home) ----------------
-const homeBtn = document.getElementById("btnHome");
-if (homeBtn) {
-  homeBtn.addEventListener("click", () => {
-    // Always return to the app home screen
-    window.location.href = "/";
-  });
 }
