@@ -52,7 +52,10 @@
       --navBtnIcon:#0b0b0b;
     }
 
+    /* ✅ Fix the “askew / overflow” issue */
+    *{ box-sizing: border-box; }
     html, body { height:100%; }
+
     body{
       margin:0;
       font-family: Arial, sans-serif;
@@ -66,7 +69,6 @@
       padding: 16px 16px calc(var(--navH) + 24px);
       max-width: var(--contentMax);
       margin: 0 auto;
-      box-sizing: border-box;
     }
 
     /* PRV header */
@@ -101,6 +103,71 @@
       margin-bottom: 12px;
     }
 
+    /* Homepage tool buttons */
+    .toolBtns{
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+      margin-top:12px;
+    }
+
+    .toolBtn{
+      display:block;
+      text-decoration:none;
+      color: var(--text);
+
+      padding:16px 18px;
+      border-radius:16px;
+
+      background: var(--navBtnBg);
+      border: 1px solid var(--cardBorder);
+      box-shadow: 0 10px 28px rgba(0,0,0,0.28);
+
+      width: 100%;
+      margin: 0 auto;
+
+      transition: transform 120ms ease, background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+    }
+
+    .toolBtn:hover{
+      transform: translateY(-1px);
+      border-color: rgba(255,255,255,0.22);
+      box-shadow: 0 14px 34px rgba(0,0,0,0.34);
+    }
+
+    body.light .toolBtn:hover{
+      border-color: rgba(0,0,0,0.18);
+    }
+
+    .toolBtn:active{
+      transform: translateY(0px) scale(0.99);
+    }
+
+    .toolBtnTop{
+      font-weight:900;
+      font-size:18px;
+      letter-spacing:0.2px;
+    }
+
+    .toolBtnSub{
+      margin-top:6px;
+      font-size:13px;
+      line-height:1.35;
+      color: var(--muted);
+    }
+
+    /* ✅ Mobile: make buttons feel a touch narrower WITHOUT overflow */
+    @media (max-width: 560px){
+      .toolBtns{
+        padding: 0 10px;   /* creates that “slightly less wide” look */
+      }
+      .toolBtn{
+        padding:15px 16px;
+        border-radius:16px;
+      }
+      .toolBtnTop{ font-size:17px; }
+    }
+
     /* PRV bottom nav shell (3 buttons) */
     .bottomNav{
       position: fixed;
@@ -117,7 +184,6 @@
       width:100%;
       max-width: var(--contentMax);
       padding: 10px 16px max(10px, env(safe-area-inset-bottom));
-      box-sizing:border-box;
     }
     .navRow{
       display:flex;
@@ -165,7 +231,6 @@
       text-align:center;
       width: min(520px, 92vw);
       padding: 34px 18px 18px;
-      box-sizing: border-box;
       animation: splashIn 420ms ease forwards;
     }
     @keyframes splashIn{
@@ -193,72 +258,6 @@
       animation: spin 1s linear infinite;
     }
     @keyframes spin{ to{ transform: rotate(360deg); } }
-
-    /* Homepage tool buttons (old-button vibe) */
-    .toolBtns{
-      display:flex;
-      flex-direction:column;
-      gap:14px;
-      margin-top:12px;
-    }
-
-    .toolBtn{
-      display:block;
-      text-decoration:none;
-      color: var(--text);
-      padding:16px 18px;
-      border-radius:16px;
-
-      background: var(--navBtnBg);
-      border: 1px solid var(--cardBorder);
-      box-shadow: 0 10px 28px rgba(0,0,0,0.28);
-
-      width:100%;
-      max-width: 640px;
-      margin:0 auto;
-
-      transition: transform 120ms ease, background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
-    }
-
-    .toolBtn:hover{
-      transform: translateY(-1px);
-      border-color: rgba(255,255,255,0.22);
-      box-shadow: 0 14px 34px rgba(0,0,0,0.34);
-    }
-
-    body.light .toolBtn:hover{
-      border-color: rgba(0,0,0,0.18);
-    }
-
-    .toolBtn:active{
-      transform: translateY(0px) scale(0.99);
-    }
-
-    .toolBtnTop{
-      font-weight:900;
-      font-size:18px;
-      letter-spacing:0.2px;
-    }
-
-    .toolBtnSub{
-      margin-top:6px;
-      font-size:13px;
-      line-height:1.35;
-      color: var(--muted);
-    }
-
-    /* Mobile: narrower feel without overflow */
-    @media (max-width: 560px){
-      .toolBtns{
-        padding: 0 14px;
-      }
-      .toolBtn{
-        max-width: 100%;
-        padding:15px 16px;
-        border-radius:16px;
-      }
-      .toolBtnTop{ font-size:17px; }
-    }
   </style>
 </head>
 
