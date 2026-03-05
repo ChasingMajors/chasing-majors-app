@@ -396,6 +396,20 @@
       .topRight .pill{ display:none; }
     }
 
+    /* Mobile: make tab pills wrap (no hidden/scroll cut-off) */
+@media (max-width: 560px){
+  .tabs{
+    flex-wrap: wrap;
+    overflow-x: visible;
+    padding-bottom: 0;
+    gap: 10px;
+  }
+
+  .tab{
+    flex: 0 1 auto;     /* allow wrap */
+  }
+}
+
     /* -------------------------
        MODAL FIXES (READABILITY + SCROLL + Z-INDEX)
        ------------------------- */
