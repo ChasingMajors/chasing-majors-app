@@ -1,1 +1,130 @@
-Coming soon!
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>Release Schedule</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+<style>
+
+*{box-sizing:border-box}
+
+:root{
+  --bg:#0b0b0b;
+  --text:#ffffff;
+  --muted:rgba(255,255,255,.75);
+  --cardBg:rgba(255,255,255,.08);
+  --cardBorder:rgba(255,255,255,.12);
+  --navBtnBg:rgba(255,255,255,.12);
+}
+
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+
+.content{
+  max-width:900px;
+  margin:auto;
+  padding:20px 16px 100px;
+}
+
+.header{
+  text-align:center;
+  margin-top:10px;
+}
+
+.title{
+  font-family:"Bangers",cursive;
+  font-size:38px;
+}
+
+.card{
+  margin-top:18px;
+  padding:22px;
+  border-radius:16px;
+  background:var(--cardBg);
+  border:1px solid var(--cardBorder);
+  text-align:center;
+}
+
+.coming{
+  font-size:22px;
+  font-weight:800;
+  margin-bottom:10px;
+}
+
+.sub{
+  font-size:14px;
+  color:var(--muted);
+}
+
+/* bottom nav */
+
+.bottomNav{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:12px 16px;
+}
+
+.navRow{
+  max-width:900px;
+  margin:auto;
+  display:flex;
+  gap:10px;
+}
+
+.navBtn{
+  flex:1;
+  height:42px;
+  border-radius:14px;
+  border:none;
+  background:var(--navBtnBg);
+  color:var(--text);
+  font-weight:800;
+  cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="content">
+
+<div class="header">
+<div class="title">Release Schedule</div>
+</div>
+
+<div class="card">
+
+<div class="coming">
+Coming Soon
+</div>
+
+<div class="sub">
+We're building a release calendar that tracks upcoming hobby launches across sports and brands.
+</div>
+
+</div>
+
+</div>
+
+<div class="bottomNav">
+<div class="navRow">
+<button class="navBtn" onclick="location.href='/'">Home</button>
+<button class="navBtn" onclick="location.href='/checklists/'">Checklist Vault</button>
+<button class="navBtn" onclick="location.href='/vault/'">Print Run Vault</button>
+</div>
+</div>
+
+</body>
+</html>
