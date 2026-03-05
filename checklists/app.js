@@ -91,7 +91,7 @@ function tagsToBadges(tagsCell) {
 }
 
 /* ---------------------------
-   Theme toggle (mirrors Print Run Vault)
+   Theme toggle
 ---------------------------- */
 
 function setTheme(theme) {
@@ -99,15 +99,12 @@ function setTheme(theme) {
   document.documentElement.setAttribute("data-theme", state.theme);
   localStorage.setItem("cm_theme", state.theme);
 
-  // swap icon
   const icon = $("themeIcon");
   if (!icon) return;
 
   if (state.theme === "dark") {
-    // moon
     icon.innerHTML = `<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>`;
   } else {
-    // sun
     icon.innerHTML = `
       <circle cx="12" cy="12" r="4"></circle>
       <path d="M12 2v2"></path><path d="M12 20v2"></path>
@@ -121,13 +118,11 @@ function setTheme(theme) {
 function loadTheme() {
   const saved = localStorage.getItem("cm_theme");
   if (saved === "light" || saved === "dark") return setTheme(saved);
-
-  // default dark
   setTheme("dark");
 }
 
 /* ---------------------------
-   NATURAL SORTING
+   NATURAL SORT
 ---------------------------- */
 
 function naturalCompare(a, b) {
@@ -206,7 +201,7 @@ function loadLocal() {
 }
 
 /* ---------------------------
-   Typeahead (snappy)
+   Typeahead
 ---------------------------- */
 
 function closeTypeahead() {
@@ -292,7 +287,7 @@ async function warmTypeaheadOnce() {
 }
 
 /* ---------------------------
-   Search results UX (grouped)
+   Search grouped
 ---------------------------- */
 
 function setSearchPills() {
@@ -408,7 +403,7 @@ async function doMoreSearch() {
 }
 
 /* ---------------------------
-   Set view + tabs (hide empty)
+   Set view + tabs
 ---------------------------- */
 
 function secCountFromSummary(sectionName) {
@@ -582,7 +577,6 @@ function renderSubsetBlock(subsetName, cards, parallels, opts = {}) {
   `;
 }
 
-/* Base: fetch all -> sort -> client paginate */
 function renderBaseChunk(body) {
   const start = state.baseOffset;
   const end = Math.min(start + state.baseLimit, state.baseAll.length);
@@ -778,19 +772,32 @@ async function tryOpenSetFromProducts(q) {
 }
 
 /* ---------------------------
-   Browse modal (loaded checklists)
+   Browse modal (FIXED)
 ---------------------------- */
 
 function showBrowseModal() {
-  $("browseModal").style.display = "block";
-  document.body.style.overflow = "hidden"; // stop background scroll
+  const m = $("browseModal");
+  if (!m) return;
+  m.style.display = "block";
+  m.setAttribute("aria-hidden", "false");
+  document.body.classList.add("modalOpen");
+
+  // allow modal content to still scroll
+  // (body locked, modal list scrolls)
+  const list = $("browseList");
+  if (list) list.scrollTop = 0;
+
+  const f = $("browseFilter");
+  if (f) setTimeout(() => f.focus(), 50);
 }
 
 function hideBrowseModal() {
-  $("browseModal").style.display = "none";
-  document.body.style.overflow = ""; // restore
+  const m = $("browseModal");
+  if (!m) return;
+  m.style.display = "none";
+  m.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("modalOpen");
 }
-
 
 function renderBrowseItems(items, append) {
   const box = $("browseList");
@@ -800,7 +807,7 @@ function renderBrowseItems(items, append) {
     const title = escapeHtml(p.release_name || p.product || p.code || "Unknown");
     const sub = escapeHtml([p.year, p.manufacturer, p.code].filter(Boolean).join(" • "));
     return `
-      <div class="r" style="cursor:pointer;" data-code="${escapeHtml(p.code)}">
+      <div class="r" data-code="${escapeHtml(p.code)}">
         <div class="rTop" style="font-weight:950;">${title}</div>
         <div class="rSub">${sub}</div>
       </div>
@@ -922,23 +929,6 @@ async function doSearch() {
 }
 
 /* ---------------------------
-   Clear button (PRV behavior)
----------------------------- */
-
-function clearUI() {
-  closeTypeahead();
-  $("search").value = "";
-
-  $("searchResults").style.display = "none";
-  $("searchResults").innerHTML = "";
-
-  $("setView").style.display = "none";
-
-  $("moreSearch").style.display = "none";
-  $("countPill").style.display = "none";
-}
-
-/* ---------------------------
    Wire up
 ---------------------------- */
 
@@ -968,30 +958,26 @@ function wire() {
     closeTypeahead();
   });
 
-
   $("browse").onclick = openBrowse;
   $("browseClose").onclick = hideBrowseModal;
+
   $("browseModal").addEventListener("click", (e) => {
+    // click outside card closes
     if (e.target && e.target.id === "browseModal") hideBrowseModal();
   });
+
   $("browseFilter").addEventListener("input", scheduleBrowseFilter);
   $("browseFilter").addEventListener("keydown", (e) => {
     if (e.key === "Escape") hideBrowseModal();
   });
+
   $("browseMore").onclick = browseMore;
 
   $("themeToggle").onclick = () => setTheme(state.theme === "dark" ? "light" : "dark");
 
-  // Home button (future navigation)
-  const hb = $("homeBtn");
-if (hb) {
-  hb.onclick = () => window.location.href = "/";
-}
-}
-
-async function registerSW() {
-  if (!("serviceWorker" in navigator)) return;
-  try { await navigator.serviceWorker.register("./sw.js"); } catch {}
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && $("browseModal")?.style.display === "block") hideBrowseModal();
+  });
 }
 
 (async function init() {
@@ -999,5 +985,4 @@ async function registerSW() {
   loadLocal();
   wire();
   await checkHealth();
-  //await registerSW();
 })();
