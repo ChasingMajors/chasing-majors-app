@@ -258,8 +258,7 @@ async function fetchProductSuggestions(q) {
   try { state.taAbort?.abort(); } catch {}
   state.taAbort = new AbortController();
 
-  const j = await fetchJson("products", { sport: state.sport, q }, { signal: state.taAbort.signal });
-  const items = j?.ok ? (j.items || []) : [];
+const j = await fetchJson("products", { sport: state.sport, q, limit: 10 }, { signal: state.taAbort.signal });  const items = j?.ok ? (j.items || []) : [];
   state.taCache.set(key, items);
   return items;
 }
