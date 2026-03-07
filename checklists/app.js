@@ -1,4 +1,4 @@
-const DEFAULT_API_BASE = "https://script.google.com/macros/s/AKfycbzEI5ri427OHKiZPlyU4-2R8J3cSepteKFCbFXLEg_OFVgsQNt_FotMIQMmKoGyRksN/exec";
+const DEFAULT_API_BASE = "https://script.google.com/macros/s/AKfycbymbgUrN1_9zX2lYRCvgqJetLGJkpMjeoWpKuN5VHXOsAyLBS6xAfU5X1rOKOOyPWFJ/exec";
 
 const state = {
   apiBase: DEFAULT_API_BASE,
@@ -72,6 +72,17 @@ async function fetchJson(route, params, opts = {}) {
   const res = await fetch(url, { cache: "no-store", signal: opts.signal });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return await res.json();
+}
+
+function logProductView(selectedName, code) {
+  const url = `${state.apiBase}?${qs({
+    route: "log_view",
+    selectedName,
+    code,
+    sport: state.sport
+  })}`;
+
+  fetch(url, { cache: "no-store" }).catch(() => {});
 }
 
 function escapeHtml(s) {
@@ -258,7 +269,8 @@ async function fetchProductSuggestions(q) {
   try { state.taAbort?.abort(); } catch {}
   state.taAbort = new AbortController();
 
-const j = await fetchJson("products", { sport: state.sport, q, limit: 10 }, { signal: state.taAbort.signal });  const items = j?.ok ? (j.items || []) : [];
+  const j = await fetchJson("products", { sport: state.sport, q, limit: 10 }, { signal: state.taAbort.signal });
+  const items = j?.ok ? (j.items || []) : [];
   state.taCache.set(key, items);
   return items;
 }
@@ -732,6 +744,9 @@ async function openSetByCode(code) {
 
   state.setSummary = j;
 
+  const selectedName = String(j.display_name || code).trim();
+  logProductView(selectedName, code);
+
   try {
     const bp = await fetchParallelsFor("Base", "[Base]");
     state.hasBaseParallels = (bp && bp.length > 0);
@@ -753,7 +768,7 @@ function looksLikeCode(q) {
 }
 
 async function tryOpenSetFromProducts(q) {
-  const j = await fetchJson("products", { sport: state.sport, q });
+  const j = await fetchJson("products", { sport: state.sport, q, limit: 10 });
   if (!j.ok) return false;
 
   const items = j.items || [];
@@ -781,8 +796,6 @@ function showBrowseModal() {
   m.setAttribute("aria-hidden", "false");
   document.body.classList.add("modalOpen");
 
-  // allow modal content to still scroll
-  // (body locked, modal list scrolls)
   const list = $("browseList");
   if (list) list.scrollTop = 0;
 
@@ -939,6 +952,7 @@ function wire() {
     state.sport = $("sport").value;
     saveLocal();
     closeTypeahead();
+    state.taCache.clear();
   });
 
   $("search").addEventListener("focus", warmTypeaheadOnce);
@@ -961,7 +975,6 @@ function wire() {
   $("browseClose").onclick = hideBrowseModal;
 
   $("browseModal").addEventListener("click", (e) => {
-    // click outside card closes
     if (e.target && e.target.id === "browseModal") hideBrowseModal();
   });
 
