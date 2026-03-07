@@ -1,4 +1,4 @@
-const DEFAULT_API_BASE = "https://script.google.com/macros/s/AKfycbymbgUrN1_9zX2lYRCvgqJetLGJkpMjeoWpKuN5VHXOsAyLBS6xAfU5X1rOKOOyPWFJ/exec";
+const DEFAULT_API_BASE = "https://script.google.com/macros/s/AKfycbxBQAG6Mw_9CBNMDWdkxdiNieVDAYwvkA-KQ9qD9oEviitwkMcmykTHmuBrzGXp5fB8/exec";
 
 const state = {
   apiBase: DEFAULT_API_BASE,
@@ -29,7 +29,10 @@ const state = {
   taItems: [],
   taCache: new Map(),
   taAbort: null,
-  taWarmStarted: false,
+
+  // local product index
+  productIndexBySport: {},
+  productIndexPromises: {},
 
   // browse modal
   browse: {
@@ -74,6 +77,50 @@ async function fetchJson(route, params, opts = {}) {
   return await res.json();
 }
 
+function productIndexStorageKey(sport) {
+  return `cm_product_index_${sport}`;
+}
+
+async function ensureProductIndexLoaded(sport = state.sport) {
+  if (state.productIndexBySport[sport]?.length) return state.productIndexBySport[sport];
+
+  if (state.productIndexPromises[sport]) {
+    return state.productIndexPromises[sport];
+  }
+
+  state.productIndexPromises[sport] = (async () => {
+    const storageKey = productIndexStorageKey(sport);
+
+    try {
+      const cached = localStorage.getItem(storageKey);
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        if (Array.isArray(parsed) && parsed.length) {
+          state.productIndexBySport[sport] = parsed;
+          return parsed;
+        }
+      }
+    } catch (_) {}
+
+    const j = await fetchJson("product_index", { sport });
+    const items = j?.ok ? (j.items || []) : [];
+
+    state.productIndexBySport[sport] = items;
+
+    try {
+      localStorage.setItem(storageKey, JSON.stringify(items));
+    } catch (_) {}
+
+    return items;
+  })();
+
+  try {
+    return await state.productIndexPromises[sport];
+  } finally {
+    delete state.productIndexPromises[sport];
+  }
+}
+
 function logProductView(selectedName, code) {
   const url = `${state.apiBase}?${qs({
     route: "log_view",
@@ -92,6 +139,17 @@ function escapeHtml(s) {
     .replaceAll(">","&gt;")
     .replaceAll('"',"&quot;")
     .replaceAll("'","&#039;");
+}
+
+function normalizeSearchLocal(s) {
+  return String(s || "")
+    .toLowerCase()
+    .replace(/[_-]+/g, " ")
+    .replace(/([a-z])(\d)/g, "$1 $2")
+    .replace(/(\d)([a-z])/g, "$1 $2")
+    .replace(/[^\w\s]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function tagsToBadges(tagsCell) {
@@ -266,13 +324,45 @@ async function fetchProductSuggestions(q) {
   const key = `${state.sport}|${q.toLowerCase()}`;
   if (state.taCache.has(key)) return state.taCache.get(key);
 
-  try { state.taAbort?.abort(); } catch {}
-  state.taAbort = new AbortController();
+  const index = await ensureProductIndexLoaded(state.sport);
+  const qNorm = normalizeSearchLocal(q);
 
-  const j = await fetchJson("products", { sport: state.sport, q, limit: 10 }, { signal: state.taAbort.signal });
-  const items = j?.ok ? (j.items || []) : [];
-  state.taCache.set(key, items);
-  return items;
+  const scored = index
+    .map(item => {
+      const release = normalizeSearchLocal(item.release_name || "");
+      const product = normalizeSearchLocal(item.product || "");
+      const code = normalizeSearchLocal(item.code || "");
+      const keywords = normalizeSearchLocal(item.keywords || "");
+      const manufacturer = normalizeSearchLocal(item.manufacturer || "");
+
+      const blob = `${release} ${product} ${code} ${keywords} ${manufacturer}`.trim();
+
+      let score = 999;
+
+      if (release === qNorm) score = 0;
+      else if (product === qNorm) score = 1;
+      else if (release.startsWith(qNorm)) score = 2;
+      else if (product.startsWith(qNorm)) score = 3;
+      else if (keywords.includes(qNorm)) score = 4;
+      else if (blob.startsWith(qNorm)) score = 5;
+      else if (blob.includes(qNorm)) score = 6;
+      else return null;
+
+      return { item, score };
+    })
+    .filter(Boolean)
+    .sort((a, b) => {
+      if (a.score !== b.score) return a.score - b.score;
+      const ay = Number(a.item.year || 0);
+      const by = Number(b.item.year || 0);
+      if (ay !== by) return by - ay;
+      return String(a.item.release_name || "").localeCompare(String(b.item.release_name || ""));
+    })
+    .slice(0, 10)
+    .map(x => x.item);
+
+  state.taCache.set(key, scored);
+  return scored;
 }
 
 function scheduleTypeahead() {
@@ -288,13 +378,13 @@ function scheduleTypeahead() {
     } catch {
       closeTypeahead();
     }
-  }, 250);
+  }, 80);
 }
 
 async function warmTypeaheadOnce() {
-  if (state.taWarmStarted) return;
-  state.taWarmStarted = true;
-  try { await fetchProductSuggestions("topps"); } catch {}
+  try {
+    await ensureProductIndexLoaded(state.sport);
+  } catch {}
 }
 
 /* ---------------------------
@@ -768,14 +858,13 @@ function looksLikeCode(q) {
 }
 
 async function tryOpenSetFromProducts(q) {
-  const j = await fetchJson("products", { sport: state.sport, q, limit: 10 });
-  if (!j.ok) return false;
-
-  const items = j.items || [];
+  const items = await fetchProductSuggestions(q);
   if (!items.length) return false;
 
-  const qNorm = String(q).trim().toLowerCase();
-  const exact = items.find(x => String(x.release_name || x.product || "").trim().toLowerCase() === qNorm);
+  const qNorm = normalizeSearchLocal(q);
+  const exact = items.find(x =>
+    normalizeSearchLocal(x.release_name || x.product || "") === qNorm
+  );
   const best = exact || items[0];
 
   const code = String(best.code || "").trim();
@@ -786,7 +875,7 @@ async function tryOpenSetFromProducts(q) {
 }
 
 /* ---------------------------
-   Browse modal (FIXED)
+   Browse modal
 ---------------------------- */
 
 function showBrowseModal() {
@@ -948,11 +1037,12 @@ function wire() {
   $("go").onclick = doSearch;
   $("moreSearch").onclick = doMoreSearch;
 
-  $("sport").addEventListener("change", () => {
+  $("sport").addEventListener("change", async () => {
     state.sport = $("sport").value;
     saveLocal();
     closeTypeahead();
     state.taCache.clear();
+    await ensureProductIndexLoaded(state.sport).catch(() => {});
   });
 
   $("search").addEventListener("focus", warmTypeaheadOnce);
@@ -997,4 +1087,5 @@ function wire() {
   loadLocal();
   wire();
   await checkHealth();
+  await ensureProductIndexLoaded(state.sport).catch(() => {});
 })();
