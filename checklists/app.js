@@ -541,7 +541,17 @@ function clearHomepageHandoff() {
 function applyIncomingQueryToInput() {
   const incoming = norm(URL_Q);
   if (!incoming || !elQ) return;
+
   elQ.value = incoming;
+
+  if (elResults) {
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(incoming)}"…</div>`;
+  }
+
+  if (elBtnSearch) {
+    elBtnSearch.disabled = true;
+    elBtnSearch.textContent = "Loading...";
+  }
 }
 function runHomepageHandoffIfPresent() {
   if (!initDone) return;
@@ -557,12 +567,20 @@ function runHomepageHandoffIfPresent() {
 
   const incomingQuery = urlQuery || savedQuery;
 
-  if (!incomingQuery) return;
-  if (!elQ) return;
+  if (!incomingQuery) {
+    setLoadingState(false);
+    return;
+  }
 
-  // If query came from URL, trust it.
-  // Only use savedTarget when falling back to sessionStorage.
-  if (!urlQuery && savedTarget && savedTarget !== "checklists") return;
+  if (!elQ) {
+    setLoadingState(false);
+    return;
+  }
+
+  if (!urlQuery && savedTarget && savedTarget !== "checklists") {
+    setLoadingState(false);
+    return;
+  }
 
   elQ.value = incomingQuery;
   closeDropdown();
