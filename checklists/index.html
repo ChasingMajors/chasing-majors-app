@@ -15,7 +15,6 @@
       --navH: 62px;
       --contentMax: 900px;
 
-      /* DARK */
       --bg:#0b0b0b;
       --text:#ffffff;
       --muted:rgba(255,255,255,0.78);
@@ -29,9 +28,9 @@
       --btnPrimaryBg:#ffffff;
       --btnPrimaryText:#000000;
 
-      --btnGhostBg:transparent;
-      --btnGhostText:#ffffff;
-      --btnGhostBorder:rgba(255,255,255,0.22);
+      --btnClearBg:transparent;
+      --btnClearText:#ffffff;
+      --btnClearBorder:rgba(255,255,255,0.22);
 
       --navBg:#0b0b0b;
       --navBorder:rgba(255,255,255,0.12);
@@ -41,18 +40,10 @@
 
       --kvBorder:rgba(255,255,255,0.10);
 
-      /* dropdown */
       --ddBg:#111;
       --ddBorder:rgba(255,255,255,0.18);
       --ddHover:rgba(255,255,255,0.10);
       --ddActive:rgba(255,255,255,0.16);
-
-      /* MODAL (dark) - IMPORTANT: SOLID surfaces */
-      --modalOverlay: rgba(0,0,0,0.72);
-      --modalCardBg: #111111;
-      --modalCardBorder: rgba(255,255,255,0.14);
-      --modalListBg: rgba(255,255,255,0.04);
-      --modalListRowHover: rgba(255,255,255,0.08);
     }
 
     html[data-theme="light"]{
@@ -69,9 +60,9 @@
       --btnPrimaryBg:#111111;
       --btnPrimaryText:#ffffff;
 
-      --btnGhostBg:#E0E0E0;
-      --btnGhostText:#000000;
-      --btnGhostBorder:#E0E0E0;
+      --btnClearBg:#E0E0E0;
+      --btnClearText:#000000;
+      --btnClearBorder:#E0E0E0;
 
       --navBg:#ffffff;
       --navBorder:rgba(0,0,0,0.10);
@@ -85,13 +76,6 @@
       --ddBorder:rgba(0,0,0,0.16);
       --ddHover:rgba(0,0,0,0.06);
       --ddActive:rgba(0,0,0,0.10);
-
-      /* MODAL (light) - IMPORTANT: SOLID surfaces */
-      --modalOverlay: rgba(0,0,0,0.35);
-      --modalCardBg: #ffffff;
-      --modalCardBorder: rgba(0,0,0,0.14);
-      --modalListBg: #ffffff;
-      --modalListRowHover: rgba(0,0,0,0.05);
     }
 
     *{ box-sizing:border-box; }
@@ -103,13 +87,6 @@
       background:var(--bg);
       color:var(--text);
       transition: background 160ms ease, color 160ms ease;
-    }
-
-    /* lock background when modal open */
-    body.modalOpen{
-      overflow: hidden;
-      height: 100%;
-      touch-action: none;
     }
 
     .content{
@@ -144,19 +121,6 @@
       align-items:center;
     }
 
-    .pill{
-      display:inline-flex;
-      align-items:center;
-      padding: 6px 10px;
-      border-radius: 999px;
-      border: 1px solid var(--cardBorder);
-      background: var(--cardBg);
-      font-size: 12px;
-      color: var(--muted);
-      white-space: nowrap;
-      font-weight:700;
-    }
-
     .iconBtn{
       width:44px;
       height:44px;
@@ -189,6 +153,14 @@
       border-radius: 16px;
       padding: 16px;
       transition: background 160ms ease, border-color 160ms ease;
+      width:100%;
+      max-width:100%;
+    }
+
+    .searchCard{
+      max-width: var(--contentMax);
+      margin: 0 auto 14px;
+      width:100%;
     }
 
     .heroText{
@@ -198,20 +170,40 @@
       margin-bottom: 12px;
     }
 
-    .row{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:space-between; }
+    .sportRow{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      flex-wrap:wrap;
+      margin-bottom:12px;
+    }
 
-    select{
+    .sportWrap{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--cardBorder);
+      background: var(--cardBg);
+      font-size: 13px;
+      font-weight:700;
+    }
+
+    .sportWrap select{
       background: transparent;
       border: none;
       color: var(--text);
-      padding: 0;
-      height: auto;
-      font-size: 14px;
+      font-size: 13px;
       font-weight:700;
       outline:none;
     }
 
-    .searchWrap{ position: relative; width:100%; }
+    .searchWrap{
+      position: relative;
+      width:100%;
+    }
 
     .searchIcon{
       position:absolute;
@@ -239,123 +231,120 @@
       transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
     }
 
-    button.btn{
-      width:100%;
-      margin-top:10px;
-      padding: 12px;
-      border-radius: 12px;
-      font-weight:700;
-      cursor:pointer;
-      transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
-    }
-
-    button.btnPrimary{
-      border:0;
-      background: var(--btnPrimaryBg);
-      color: var(--btnPrimaryText);
-    }
-
-    button.btnGhost{
-      background: var(--btnGhostBg);
-      color: var(--btnGhostText);
-      border: 1px solid var(--btnGhostBorder);
-    }
-
-    .resultsBox{
-      margin-top: 12px;
-      border: 1px solid var(--kvBorder);
-      border-radius: 14px;
-      overflow:hidden;
-      background: transparent;
-    }
-    .resultsBox .r{
-      padding: 10px 12px;
-      border-bottom: 1px solid var(--kvBorder);
-    }
-    .resultsBox .r:last-child{ border-bottom:none; }
-
-    .rTop{ font-size: 14px; }
-    .rSub{ font-size: 12px; color: var(--muted); margin-top: 3px; }
-
-    .badge{
-      display:inline-flex;
-      padding:2px 7px;
-      border-radius: 999px;
-      border:1px solid var(--cardBorder);
-      background: transparent;
-      font-size: 11px;
-      margin-left: 8px;
-      color: var(--text);
-      font-weight:700;
-    }
-
-    .divider{
-      height: 1px;
-      background: var(--kvBorder);
-      margin: 12px 0;
-    }
-
-    .tabs{
-      display:flex;
-      gap:8px;
-      flex-wrap: nowrap;
-      overflow-x: auto;
-      padding-bottom: 4px;
-      -webkit-overflow-scrolling: touch;
-      margin-top: 6px;
-    }
-    .tab{
-      white-space: nowrap;
-      padding: 7px 12px;
-      border-radius: 999px;
-      border: 1px solid var(--cardBorder);
-      background: transparent;
-      cursor:pointer;
-      font-size: 13px;
-      flex: 0 0 auto;
-      color: var(--text);
-      font-weight:700;
-    }
-    .tab.active{ border-color: rgba(255,255,255,0.30); }
-
-    .setHeaderTitle{ font-size: 18px; font-weight: 800; margin:0; }
-    .setHeaderSub{ color: var(--muted); font-size: 13px; margin-top: 4px; }
-
-    .btnRow{
-      display:flex;
-      gap:10px;
-      flex-wrap:wrap;
-      margin-top: 10px;
-      align-items:center;
-      justify-content: space-between;
-    }
-
-    .typeaheadList{
-      position: absolute;
-      left: 0; right: 0;
+    .dropdown{
+      position:absolute;
+      left:0;
+      right:0;
       top: calc(100% + 8px);
-      z-index: 50;
-      border: 1px solid var(--ddBorder);
       background: var(--ddBg);
+      border: 1px solid var(--ddBorder);
       border-radius: 12px;
       overflow: auto;
       max-height: 280px;
-      display: none;
+      display:none;
+      z-index: 50;
       box-shadow: 0 16px 40px rgba(0,0,0,0.55);
     }
-    .typeaheadItem{
+
+    .ddItem{
       padding: 12px 12px;
       border-bottom: 1px solid var(--kvBorder);
       cursor: pointer;
       background: transparent;
     }
-    .typeaheadItem:last-child{ border-bottom: none; }
-    .typeaheadItem:hover{ background: var(--ddHover); }
-    .typeaheadItem:active{ background: var(--ddActive); }
-    .typeaheadTitle{ font-size: 14px; font-weight: 800; color: var(--text); }
-    .typeaheadSub{ font-size: 12px; color: var(--muted); margin-top: 4px; }
+    .ddItem:last-child{ border-bottom: 0; }
 
-    /* Bottom nav */
+    .ddItem:hover{ background: var(--ddHover); }
+    .ddItem:active{ background: var(--ddActive); }
+
+    .ddTitle{
+      font-weight: 800;
+      color: var(--text);
+    }
+    .ddMeta{
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    button.primary{
+      width:100%;
+      margin-top:10px;
+      padding: 12px;
+      border:0;
+      border-radius: 12px;
+      background: var(--btnPrimaryBg);
+      color: var(--btnPrimaryText);
+      font-weight:700;
+      cursor:pointer;
+      transition: background 160ms ease, color 160ms ease;
+    }
+
+    button.clearBtn{
+      width:100%;
+      margin-top:10px;
+      padding: 12px;
+      border-radius: 12px;
+      background: var(--btnClearBg);
+      color: var(--btnClearText);
+      border: 1px solid var(--btnClearBorder);
+      font-weight:700;
+      cursor:pointer;
+      transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
+    }
+
+    .resultsWrap{
+      max-width: var(--contentMax);
+      margin: 0 auto;
+      width:100%;
+    }
+
+    .list{ margin-top: 12px; display:grid; gap: 10px; }
+
+    table{
+      width:100%;
+      border-collapse: collapse;
+      margin-top: 0;
+      font-size: 14px;
+    }
+    th, td{
+      padding: 10px 8px;
+      border-bottom: 1px solid var(--kvBorder);
+      text-align: left;
+      vertical-align: top;
+    }
+    th{
+      opacity: 0.8;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+    }
+
+    .tableScroller{
+      width:100%;
+      max-width:100%;
+      overflow-x:auto;
+      -webkit-overflow-scrolling:touch;
+    }
+
+    .playerStatsGrid{
+      display:grid;
+      grid-template-columns:repeat(5,minmax(0,1fr));
+      gap:10px;
+    }
+
+    .playerUpdated{
+      display:inline-flex;
+    }
+
+    .mobileHide{
+      display:table-cell;
+    }
+
+    .desktopOnly{
+      display:block;
+    }
+
     .bottomNav{
       position: fixed;
       left:0; right:0; bottom:0;
@@ -373,7 +362,10 @@
       padding: 10px 16px max(10px, env(safe-area-inset-bottom));
       box-sizing:border-box;
     }
-    .navRow{ display:flex; gap:10px; }
+    .navRow{
+      display:flex;
+      gap:10px;
+    }
     .navBtn{
       flex:1;
       height: 42px;
@@ -392,191 +384,95 @@
       outline: 2px solid rgba(255,255,255,0.18);
     }
 
-    @media (max-width: 560px){
-      .topRight .pill{ display:none; }
-    }
+    @media (max-width: 640px){
+      .playerUpdated{
+        display:none !important;
+      }
 
-    /* Mobile: make tab pills wrap (no hidden/scroll cut-off) */
-@media (max-width: 560px){
-  .tabs{
-    flex-wrap: wrap;
-    overflow-x: visible;
-    padding-bottom: 0;
-    gap: 10px;
-  }
+      .playerStatsGrid{
+        grid-template-columns:repeat(4,minmax(0,1fr));
+      }
 
-  .tab{
-    flex: 0 1 auto;     /* allow wrap */
-  }
-}
-    @media (max-width: 560px){
-  .tab{
-    padding: 6px 10px;
-    font-size: 12px;
-  }
-}
+      .desktopOnly{
+        display:none !important;
+      }
 
-    /* -------------------------
-       MODAL FIXES (READABILITY + SCROLL + Z-INDEX)
-       ------------------------- */
-    #browseModal{
-      display:none;
-      position:fixed;
-      inset:0;
-      z-index: 25000; /* must be > bottom nav */
-      background: var(--modalOverlay);
-      backdrop-filter: blur(6px);
-      -webkit-backdrop-filter: blur(6px);
-    }
+      .mobileHide{
+        display:none !important;
+      }
 
-    .modalWrap{
-      height:100%;
-      display:flex;
-      justify-content:center;
-      align-items:flex-start;
-      padding:14px;
-      box-sizing:border-box;
-      padding-bottom: calc(14px + env(safe-area-inset-bottom));
-    }
+      .content{
+        padding-left:12px;
+        padding-right:12px;
+      }
 
-    .modalCard{
-      width:min(820px, 100%);
-      max-height: calc(100dvh - 28px);
-      overflow:hidden;
-      display:flex;
-      flex-direction:column;
-
-      /* SOLID modal surface */
-      background: var(--modalCardBg);
-      border: 1px solid var(--modalCardBorder);
-    }
-
-    /* Make modal list readable (no bleed-through) */
-    #browseList.resultsBox{
-      background: var(--modalListBg);
-      overflow-y:auto;
-      -webkit-overflow-scrolling:touch;
-      touch-action: pan-y;
-      flex:1;
-      min-height:0;
-    }
-
-    #browseList .r{
-      cursor:pointer;
-    }
-    #browseList .r:hover{
-      background: var(--modalListRowHover);
+      th, td{
+        padding:8px 6px;
+        font-size:13px;
+      }
     }
   </style>
 </head>
 
 <body>
-  <div class="content">
-    <div class="headerRow">
-      <h1 class="appTitle"><span class="big">C</span>hecklist <span class="big">V</span>ault</h1>
+  <main class="content">
+    <section>
+      <div class="headerRow">
+        <h1 class="appTitle">
+          <span class="big">C</span>hecklist
+          <span class="big">V</span>ault
+        </h1>
 
-      <div class="topRight">
-        <div class="pill" id="apiPill">API: checking…</div>
-
-        <button class="iconBtn" id="themeToggle" aria-label="Toggle theme">
-          <svg class="icon" viewBox="0 0 24 24" id="themeIcon">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-          </svg>
-        </button>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="heroText">Search a set (e.g., “2026 Topps Series 1”) or a player (e.g., “Aaron Judge”).</div>
-
-      <div class="row">
-        <div class="pill" id="sportPillWrap">
-          <span style="margin-right:8px;">Sport</span>
-          <select id="sport">
-            <option value="baseball">Baseball</option>
-            <option value="basketball">Basketball</option>
-            <option value="football">Football</option>
-            <option value="soccer">Soccer</option>
-            <option value="hockey">Hockey</option>
-          </select>
+        <div class="topRight">
+          <button class="iconBtn" id="themeToggle" aria-label="Toggle theme">
+            <svg class="icon" viewBox="0 0 24 24" id="themeIcon">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
         </div>
-
-        <div class="pill" id="countPill" style="display:none;">0 results</div>
       </div>
 
-      <div style="height:10px;"></div>
+      <div class="card searchCard">
+        <div class="heroText">Searchable Checklist &amp; Player Data.</div>
 
-      <div class="searchWrap" id="searchWrap">
-        <svg class="searchIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"></circle>
-          <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2"></path>
-        </svg>
-
-        <input id="search" placeholder="Let's search something" autocomplete="off" />
-        <div id="typeahead" class="typeaheadList"></div>
-      </div>
-
-      <button id="go" class="btn btnPrimary">Search</button>
-      <button id="browse" class="btn btnGhost">Browse</button>
-
-      <div class="btnRow">
-        <button id="moreSearch" class="btn btnGhost" style="display:none; width:auto;">Show more</button>
-      </div>
-
-      <div id="searchResults" class="resultsBox" style="display:none;"></div>
-    </div>
-
-    <div style="height:12px;"></div>
-
-    <div class="card" id="setView" style="display:none;">
-      <div class="row">
-        <div>
-          <div class="setHeaderTitle" id="setTitle">Base Checklist</div>
-          <div class="setHeaderSub" id="setMeta">Loading…</div>
-        </div>
-        <div class="pill" id="setCode">code</div>
-      </div>
-
-      <div class="divider"></div>
-
-      <div class="tabs" id="setTabs"></div>
-      <div id="setBody"></div>
-    </div>
-  </div>
-
-  <!-- Browse Modal -->
-  <div id="browseModal" aria-hidden="true">
-    <div class="modalWrap">
-      <div class="card modalCard">
-        <div class="row">
-          <div>
-            <div style="font-size:18px; font-weight:800;">Loaded Checklists</div>
-            <div style="opacity:.8; font-size:13px; margin-top:6px;">Browse what’s currently in the tool.</div>
+        <div class="sportRow">
+          <div class="sportWrap">
+            <span>Sport</span>
+            <select id="sport">
+              <option value="">All Sports</option>
+              <option value="baseball">Baseball</option>
+              <option value="basketball">Basketball</option>
+              <option value="football">Football</option>
+              <option value="hockey">Hockey</option>
+              <option value="soccer">Soccer</option>
+            </select>
           </div>
-          <button id="browseClose" class="btn btnGhost" style="width:auto;">Close</button>
         </div>
-
-        <div class="divider"></div>
 
         <div class="searchWrap">
           <svg class="searchIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"></circle>
-            <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2"></path>
+            <path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M16.8 16.8 21 21"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
-          <input id="browseFilter" placeholder="Filter loaded checklists…" />
+
+          <input id="q" placeholder="Let's search something" autocomplete="off" />
+          <div id="dropdown" class="dropdown"></div>
         </div>
 
-        <div id="browseList" class="resultsBox" style="margin-top:12px;"></div>
+        <button class="primary" id="btnSearch" type="button">Search</button>
+        <button class="clearBtn" id="btnClear" type="button">Clear</button>
+      </div>
 
-        <div class="btnRow">
-          <button id="browseMore" class="btn btnGhost" style="display:none; width:auto;">Load more</button>
-          <div class="pill" id="browsePill" style="display:none;">0</div>
+      <div class="resultsWrap">
+        <div class="list" id="results">
+          <div class="card" style="opacity:.8;">No results yet. Run a search.</div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
+  </main>
 
-  <!-- Bottom nav -->
   <div class="bottomNav" aria-label="Primary">
     <div class="bottomNavInner">
       <div class="navRow">
@@ -587,6 +483,6 @@
     </div>
   </div>
 
-  <script src="/checklists/app.js?v=7"></script>
+  <script src="/checklists/app.js?v=12"></script>
 </body>
 </html>
