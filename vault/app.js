@@ -17,10 +17,22 @@ const elDD = document.getElementById("dropdown");
 const elResults = document.getElementById("results");
 const elThemeBtn = document.getElementById("themeToggle");
 
+// ---------------- URL PARAM ----------------
+const URL_Q = new URLSearchParams(location.search).get("q") || "";
+
+// ---------------- APPLY QUERY TO INPUT ----------------
+function applyIncomingQueryToInput() {
+  const incoming = String(URL_Q || "").trim();
+  if (!incoming || !elQ) return;
+  elQ.value = incoming;
+}
+
 // ---------------- STATE ----------------
 let INDEX = [];
 let selected = null;
 let initDone = false;
+
+const URL_Q = new URLSearchParams(location.search).get("q") || "";
 
 // ---------------- THEME (Checklist Vault parity) ----------------
 function setTheme(theme) {
@@ -102,6 +114,7 @@ async function ensureFreshIndex_(){
 // ---------------- INIT ----------------
 (async function init(){
   loadTheme();
+  applyIncomingQueryToInput();
   await ensureFreshIndex_();
   initDone = true;
   runHomepageHandoffIfPresent();
@@ -171,6 +184,7 @@ function findBestMatch(query) {
 function runHomepageHandoffIfPresent() {
   if (!initDone || !INDEX.length) return;
 
+  const urlQuery = String(URL_Q || "").trim();
   let savedQuery = "";
   let savedTarget = "";
 
@@ -179,14 +193,17 @@ function runHomepageHandoffIfPresent() {
     savedTarget = sessionStorage.getItem("cm_home_target") || "";
   } catch (e) {}
 
-  if (!savedQuery || savedTarget !== "vault") return;
+  const incomingQuery = urlQuery || savedQuery;
+  const usingVaultTarget = !savedTarget || savedTarget === "vault";
+
+  if (!incomingQuery || !usingVaultTarget) return;
 
   if (!elQ) return;
 
-  elQ.value = savedQuery;
+  elQ.value = incomingQuery;
   closeDropdown();
 
-  const best = findBestMatch(savedQuery);
+  const best = findBestMatch(incomingQuery);
   if (!best) {
     try {
       sessionStorage.removeItem("cm_home_search");
@@ -198,6 +215,7 @@ function runHomepageHandoffIfPresent() {
   selected = best;
   elQ.value = best.DisplayName;
   logSelectionFireAndForget_(selected);
+
   runSearch().finally(() => {
     try {
       sessionStorage.removeItem("cm_home_search");
