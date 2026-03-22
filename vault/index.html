@@ -390,5 +390,53 @@
   </div>
 
   <script src="./app.js"></script>
+  <script>
+    (function () {
+      function runHomepageHandoff() {
+        var savedQuery = "";
+        var savedTarget = "";
+
+        try {
+          savedQuery = sessionStorage.getItem("cm_home_search") || "";
+          savedTarget = sessionStorage.getItem("cm_home_target") || "";
+        } catch (e) {}
+
+        if (!savedQuery || savedTarget !== "vault") return;
+
+        var input = document.getElementById("q");
+        var searchBtn = document.getElementById("btnSearch");
+        var dropdown = document.getElementById("dropdown");
+
+        if (!input || !searchBtn) return;
+
+        input.value = savedQuery;
+
+        input.dispatchEvent(new Event("input", { bubbles: true }));
+        input.dispatchEvent(new Event("keyup", { bubbles: true }));
+        input.dispatchEvent(new Event("change", { bubbles: true }));
+
+        if (dropdown) {
+          dropdown.style.display = "none";
+        }
+
+        setTimeout(function () {
+          searchBtn.click();
+
+          try {
+            sessionStorage.removeItem("cm_home_search");
+            sessionStorage.removeItem("cm_home_target");
+          } catch (e) {}
+        }, 120);
+      }
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", function () {
+          setTimeout(runHomepageHandoff, 80);
+        });
+      } else {
+        setTimeout(runHomepageHandoff, 80);
+      }
+    })();
+  </script>
 </body>
 </html>
