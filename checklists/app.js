@@ -504,7 +504,7 @@ function renderPlayerStatsCard(player) {
 
 function findBestLocalProductMatch(query, sport) {
   const q = lower(query);
-  if (!q || !INDEX.length) return null;
+  if (!initDone) return;
 
   const rows = INDEX.filter(i => {
     return !sport || lower(i.sport) === lower(sport);
