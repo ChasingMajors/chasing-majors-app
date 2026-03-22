@@ -13,6 +13,7 @@
    - Broad search paging
    - Parallels support from Google Sheets Parallels tab
    - Baseball hitter player stat card support
+   - Homepage search handoff support
 ========================================= */
 
 // ---------------- CONFIG ----------------
@@ -37,6 +38,7 @@ let INDEX = [];
 let selected = null;
 let searchTimer = null;
 let activeTypeaheadToken = 0;
+let initDone = false;
 
 let currentProductMeta = null;
 let currentProductRows = [];
@@ -498,6 +500,86 @@ function renderPlayerStatsCard(player) {
   `;
 }
 
+function findBestLocalProductMatch(query, sport) {
+  const q = lower(query);
+  if (!q || !INDEX.length) return null;
+
+  const rows = INDEX.filter(i => {
+    return !sport || lower(i.sport) === lower(sport);
+  });
+
+  const exactDisplay = rows.find(i => lower(i.DisplayName) === q);
+  if (exactDisplay) return exactDisplay;
+
+  const exactCode = rows.find(i => lower(i.Code) === q);
+  if (exactCode) return exactCode;
+
+  const startsDisplay = rows.find(i => lower(i.DisplayName).startsWith(q));
+  if (startsDisplay) return startsDisplay;
+
+  const startsKeywords = rows.find(i => lower(i.Keywords).startsWith(q));
+  if (startsKeywords) return startsKeywords;
+
+  const includesAny = rows.find(i => {
+    const hay = `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase();
+    return hay.includes(q);
+  });
+  if (includesAny) return includesAny;
+
+  return null;
+}
+
+function clearHomepageHandoff() {
+  try {
+    sessionStorage.removeItem("cm_home_search");
+    sessionStorage.removeItem("cm_home_target");
+  } catch (e) {}
+}
+
+function runHomepageHandoffIfPresent() {
+  if (!initDone || !INDEX.length) return;
+
+  let savedQuery = "";
+  let savedTarget = "";
+
+  try {
+    savedQuery = sessionStorage.getItem("cm_home_search") || "";
+    savedTarget = sessionStorage.getItem("cm_home_target") || "";
+  } catch (e) {}
+
+  if (!savedQuery || savedTarget !== "checklists") return;
+
+  if (!elQ) return;
+
+  elQ.value = savedQuery;
+  closeDropdown();
+
+  const sport = getSportValue();
+  const best = findBestLocalProductMatch(savedQuery, sport);
+
+  if (best) {
+    selected = {
+      type: "product",
+      code: best.Code,
+      sport: best.sport,
+      displayName: best.DisplayName,
+      term: best.DisplayName,
+      year: best.year
+    };
+
+    logSelectionFireAndForget_({
+      DisplayName: best.DisplayName || "",
+      year: best.year || "",
+      sport: best.sport || ""
+    });
+
+    runProductSearch(best.Code, best.sport).finally(clearHomepageHandoff);
+    return;
+  }
+
+  runBroadSearch(savedQuery, sport, 1).finally(clearHomepageHandoff);
+}
+
 // ---------------- API ----------------
 async function api(action, payload = {}) {
   const res = await fetch(EXEC_URL, {
@@ -555,6 +637,8 @@ async function ensureFreshIndex_() {
 (async function init() {
   loadTheme();
   await ensureFreshIndex_();
+  initDone = true;
+  runHomepageHandoffIfPresent();
 })();
 
 // ---------------- DROPDOWN ----------------
@@ -790,6 +874,11 @@ if (elSport) {
 
 // ---------------- SEARCH ROUTER ----------------
 async function runSearch() {
+  if (!initDone) {
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">Loading…</div>`;
+    return;
+  }
+
   const q = norm(elQ.value);
   const sport = getSportValue();
 
@@ -800,13 +889,7 @@ async function runSearch() {
     return;
   }
 
-  const localMatch = INDEX.find(i => {
-    const sameSport = !sport || lower(i.sport) === lower(sport);
-    if (!sameSport) return false;
-
-    const hay = `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase();
-    return hay.includes(q.toLowerCase());
-  });
+  const localMatch = findBestLocalProductMatch(q, sport);
 
   if (localMatch) {
     selected = {
@@ -935,8 +1018,7 @@ function renderCurrentProductTab() {
   const filteredRows = filterRowsForTab(currentProductRows, currentProductTab);
   const rowCountLabel = `${filteredRows.length.toLocaleString()} Card${filteredRows.length === 1 ? "" : "s"}`;
 
-  const groupedView = currentProductTab !== "Base";
-  const subsetBlocks = groupedView ? groupRowsBySubset(filteredRows, currentProductTab) : [];
+  const subsetBlocks = currentProductTab !== "Base" ? groupRowsBySubset(filteredRows, currentProductTab) : [];
 
   elResults.innerHTML = `
     <div class="card">
