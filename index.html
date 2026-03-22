@@ -823,16 +823,24 @@
       }
 
       function goToChecklist() {
-        var query = cleanQuery(input ? input.value : "");
-        if (query) saveRecentSearch(query, "checklists");
-        location.href = "/checklists/";
-      }
+  var query = cleanQuery(input ? input.value : "");
+  if (query) {
+    saveRecentSearch(query, "checklists");
+    location.href = "/checklists/?q=" + encodeURIComponent(query);
+    return;
+  }
+  location.href = "/checklists/";
+}
 
-      function goToPrintRun() {
-        var query = cleanQuery(input ? input.value : "");
-        if (query) saveRecentSearch(query, "vault");
-        location.href = "/vault/";
-      }
+function goToPrintRun() {
+  var query = cleanQuery(input ? input.value : "");
+  if (query) {
+    saveRecentSearch(query, "vault");
+    location.href = "/vault/?q=" + encodeURIComponent(query);
+    return;
+  }
+  location.href = "/vault/";
+}
 
       if (checklistBtn) checklistBtn.addEventListener("click", goToChecklist);
       if (printRunBtn) printRunBtn.addEventListener("click", goToPrintRun);
