@@ -39,6 +39,30 @@
       --radius:18px;
     }
 
+    body.light{
+      --bg:#ffffff;
+      --bg2:#f5f5f5;
+      --text:#0b0b0b;
+      --muted:rgba(0,0,0,0.70);
+
+      --cardBg:rgba(0,0,0,0.05);
+      --cardBg2:rgba(0,0,0,0.035);
+      --cardBorder:rgba(0,0,0,0.10);
+
+      --btnPrimaryBg:#111111;
+      --btnPrimaryText:#ffffff;
+
+      --navBg:#ffffff;
+      --navBorder:rgba(0,0,0,0.10);
+
+      --navBtnBg:rgba(0,0,0,0.08);
+      --navBtnIcon:#0b0b0b;
+
+      --blue:#0b6fe3;
+      --blueSoft:rgba(11,111,227,0.12);
+      --shadow:0 12px 28px rgba(0,0,0,0.10);
+    }
+
     *{ box-sizing:border-box; }
     html, body { height:100%; }
 
@@ -49,6 +73,7 @@
         radial-gradient(circle at top center, rgba(30,144,255,0.10), transparent 30%),
         var(--bg);
       color:var(--text);
+      transition: background 160ms ease, color 160ms ease;
     }
 
     .content{
@@ -86,6 +111,7 @@
       border: 1px solid var(--cardBorder);
       border-radius: 16px;
       padding: 16px;
+      transition: background 160ms ease, border-color 160ms ease;
       box-shadow: var(--shadow);
     }
 
@@ -139,11 +165,13 @@
       gap:10px;
       margin-bottom:12px;
       flex-wrap:wrap;
+      align-items:stretch;
     }
 
     .searchInput{
       flex:1 1 380px;
       min-width:0;
+      min-height:50px;
       height:50px;
       border-radius:14px;
       border:1px solid var(--cardBorder);
@@ -160,6 +188,7 @@
 
     .primaryBtn,
     .ghostBtn{
+      min-height:50px;
       height:50px;
       padding:0 16px;
       border-radius:14px;
@@ -167,7 +196,8 @@
       cursor:pointer;
       font-weight:800;
       font-size:14px;
-      transition: transform 120ms ease, opacity 120ms ease;
+      transition: transform 120ms ease, opacity 120ms ease, background 160ms ease, color 160ms ease;
+      white-space:nowrap;
     }
 
     .primaryBtn{
@@ -183,6 +213,11 @@
     .primaryBtn:hover,
     .ghostBtn:hover{
       transform: translateY(-1px);
+    }
+
+    .primaryBtn:active,
+    .ghostBtn:active{
+      transform: translateY(0) scale(.99);
     }
 
     .searchNote{
@@ -241,7 +276,18 @@
       background: var(--navBtnBg);
       border:1px solid var(--cardBorder);
       box-shadow: var(--shadow);
+      transition: transform 120ms ease, background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
       min-height: 122px;
+    }
+
+    .quickCard:hover{
+      transform: translateY(-1px);
+      border-color: rgba(255,255,255,0.22);
+      box-shadow: 0 14px 34px rgba(0,0,0,0.34);
+    }
+
+    body.light .quickCard:hover{
+      border-color: rgba(0,0,0,0.18);
     }
 
     .quickIcon{
@@ -259,6 +305,7 @@
     .quickTitle{
       font-weight:900;
       font-size:18px;
+      letter-spacing:0.2px;
       margin-bottom:6px;
     }
 
@@ -279,6 +326,7 @@
       font-size:20px;
       font-weight:900;
       margin:0 0 12px;
+      letter-spacing:-0.3px;
     }
 
     .list{
@@ -297,6 +345,16 @@
       border:1px solid var(--cardBorder);
       text-decoration:none;
       color: var(--text);
+      transition: transform 120ms ease, border-color 160ms ease;
+    }
+
+    .listItem:hover{
+      transform: translateY(-1px);
+      border-color: rgba(255,255,255,0.18);
+    }
+
+    body.light .listItem:hover{
+      border-color: rgba(0,0,0,0.14);
     }
 
     .listBadge{
@@ -358,6 +416,7 @@
       font-size:24px;
       font-weight:900;
       margin:0 0 8px;
+      letter-spacing:-0.4px;
     }
 
     .featureSub{
@@ -523,12 +582,24 @@
 
       .searchWrap{
         flex-direction:column;
+        gap:10px;
       }
 
       .searchInput,
       .primaryBtn,
       .ghostBtn{
         width:100%;
+      }
+
+      .searchInput{
+        height:48px;
+        min-height:48px;
+      }
+
+      .primaryBtn,
+      .ghostBtn{
+        height:48px;
+        min-height:48px;
       }
 
       .quickGrid{
@@ -560,7 +631,7 @@
     <section class="hero">
       <div class="heroMain">
         <div class="eyebrow">Live data platform</div>
-        <div class="heroHeadline">The home base for sports card checklist and print run data.</div>
+        <div class="heroHeadline">Your home base for sports card checklist and print run data.</div>
         <div class="heroCopy">
           Search a set or player, jump into Checklist Vault or Print Run Vault, and keep up with new releases and the sets collectors are searching right now.
         </div>
@@ -585,21 +656,21 @@
 
       <div class="heroAside">
         <div class="miniCard">
-          <div class="miniLabel">Trending now</div>
+          <div class="miniLabel">Trending</div>
           <div class="miniValue">2026 Topps Series 1</div>
-          <div class="miniSub">A strong homepage module for live trending sets makes the app feel active and worth reopening.</div>
+          <div class="miniSub">Most searched by collectors right now.</div>
         </div>
 
         <div class="miniCard">
-          <div class="miniLabel">Just added</div>
+          <div class="miniLabel">Just Added</div>
           <div class="miniValue">2026 Bowman’s Best</div>
-          <div class="miniSub">This will later become a live data block driven by your Products sheet.</div>
+          <div class="miniSub">New checklist and data now available.</div>
         </div>
 
         <div class="miniCard">
-          <div class="miniLabel">Featured value</div>
-          <div class="miniValue">Checklist + Print Run</div>
-          <div class="miniSub">This layout positions Chasing Majors as a platform, not just a lookup page.</div>
+          <div class="miniLabel">Checklist + Print Run</div>
+          <div class="miniValue">Search both in one place</div>
+          <div class="miniSub">Search full checklists and estimated print runs in one place.</div>
         </div>
       </div>
     </section>
@@ -623,10 +694,10 @@
         <div class="quickSub">What’s dropping next. Filters by sport, date, and brand.</div>
       </a>
 
-      <a class="quickCard" href="/checklists/">
+      <a class="quickCard" href="/checklists/?q=2026%20Topps%20Series%201">
         <div class="quickIcon">🔥</div>
-        <div class="quickTitle">Trending</div>
-        <div class="quickSub">Highlight hot searches, rising products, and player interest from your logs.</div>
+        <div class="quickTitle">Featured Search</div>
+        <div class="quickSub">Jump into checklist and print run data for one of the hobby’s most searched products.</div>
       </a>
     </section>
 
@@ -634,7 +705,7 @@
       <div class="card">
         <div class="sectionTitle">Continue Exploring</div>
         <div class="list" id="continueExploringList">
-          <a class="listItem" href="/checklists/">
+          <a class="listItem" href="/checklists/?q=2026%20Topps%20Series%201">
             <div class="listBadge">26</div>
             <div class="listCopy">
               <div class="listTop">2026 Topps Series 1</div>
@@ -642,19 +713,19 @@
             </div>
             <div class="listArrow">›</div>
           </a>
-          <a class="listItem" href="/checklists/">
+          <a class="listItem" href="/checklists/?q=2025%20Bowman%20Chrome">
             <div class="listBadge">BC</div>
             <div class="listCopy">
               <div class="listTop">2025 Bowman Chrome</div>
-              <div class="listSub">Recent search placeholder</div>
+              <div class="listSub">Recent search</div>
             </div>
             <div class="listArrow">›</div>
           </a>
-          <a class="listItem" href="/checklists/">
+          <a class="listItem" href="/checklists/?q=Aaron%20Judge">
             <div class="listBadge">AJ</div>
             <div class="listCopy">
               <div class="listTop">Aaron Judge</div>
-              <div class="listSub">Player search placeholder</div>
+              <div class="listSub">Player search</div>
             </div>
             <div class="listArrow">›</div>
           </a>
@@ -662,29 +733,29 @@
       </div>
 
       <div class="card">
-        <div class="sectionTitle">Trending Now</div>
+        <div class="sectionTitle">Trending</div>
         <div class="list">
-          <a class="listItem" href="/checklists/">
+          <a class="listItem" href="/checklists/?q=2026%20Topps%20Series%201">
             <div class="listBadge">TS1</div>
             <div class="listCopy">
               <div class="listTop">2026 Topps Series 1</div>
-              <div class="listSub">Hot search placeholder that can later be driven by Logs data.</div>
+              <div class="listSub">Most searched by collectors right now.</div>
             </div>
             <div class="listArrow">›</div>
           </a>
-          <a class="listItem" href="/vault/">
+          <a class="listItem" href="/vault/?q=2025%20Prizm%20Black">
             <div class="listBadge">PB</div>
             <div class="listCopy">
               <div class="listTop">2025 Prizm Black</div>
-              <div class="listSub">A strong candidate for print run + checklist crossover traffic.</div>
+              <div class="listSub">A popular search for checklist and print run research.</div>
             </div>
             <div class="listArrow">›</div>
           </a>
-          <a class="listItem" href="/checklists/">
+          <a class="listItem" href="/checklists/?q=2024%20Bowman%20Draft">
             <div class="listBadge">BD</div>
             <div class="listCopy">
               <div class="listTop">2024 Bowman Draft</div>
-              <div class="listSub">Another placeholder module you can later power dynamically.</div>
+              <div class="listSub">A go-to search for collectors tracking recent releases.</div>
             </div>
             <div class="listArrow">›</div>
           </a>
@@ -694,27 +765,27 @@
       <div class="card">
         <div class="sectionTitle">Just Added</div>
         <div class="list">
-          <a class="listItem" href="/checklists/">
+          <a class="listItem" href="/checklists/?q=2026%20Bowman%E2%80%99s%20Best">
             <div class="listBadge">BB</div>
             <div class="listCopy">
               <div class="listTop">2026 Bowman’s Best</div>
-              <div class="listSub">Recently added checklist or print run entry.</div>
+              <div class="listSub">New checklist and data now available.</div>
             </div>
             <div class="listArrow">›</div>
           </a>
-          <a class="listItem" href="/checklists/">
+          <a class="listItem" href="/checklists/?q=2025%20Topps%20Chrome%20Sapphire">
             <div class="listBadge">CS</div>
             <div class="listCopy">
               <div class="listTop">2025 Topps Chrome Sapphire</div>
-              <div class="listSub">Freshly added data block placeholder.</div>
+              <div class="listSub">Freshly added and ready to search.</div>
             </div>
             <div class="listArrow">›</div>
           </a>
-          <a class="listItem" href="/checklists/">
+          <a class="listItem" href="/checklists/?q=2024%20Heritage%20High%20Number">
             <div class="listBadge">HN</div>
             <div class="listCopy">
               <div class="listTop">2024 Heritage High Number</div>
-              <div class="listSub">Another strong use case for recency-driven discovery.</div>
+              <div class="listSub">Now available in the database.</div>
             </div>
             <div class="listArrow">›</div>
           </a>
@@ -823,24 +894,24 @@
       }
 
       function goToChecklist() {
-  var query = cleanQuery(input ? input.value : "");
-  if (query) {
-    saveRecentSearch(query, "checklists");
-    location.href = "/checklists/?q=" + encodeURIComponent(query);
-    return;
-  }
-  location.href = "/checklists/";
-}
+        var query = cleanQuery(input ? input.value : "");
+        if (query) {
+          saveRecentSearch(query, "checklists");
+          location.href = "/checklists/?q=" + encodeURIComponent(query);
+          return;
+        }
+        location.href = "/checklists/";
+      }
 
-function goToPrintRun() {
-  var query = cleanQuery(input ? input.value : "");
-  if (query) {
-    saveRecentSearch(query, "vault");
-    location.href = "/vault/?q=" + encodeURIComponent(query);
-    return;
-  }
-  location.href = "/vault/";
-}
+      function goToPrintRun() {
+        var query = cleanQuery(input ? input.value : "");
+        if (query) {
+          saveRecentSearch(query, "vault");
+          location.href = "/vault/?q=" + encodeURIComponent(query);
+          return;
+        }
+        location.href = "/vault/";
+      }
 
       if (checklistBtn) checklistBtn.addEventListener("click", goToChecklist);
       if (printRunBtn) printRunBtn.addEventListener("click", goToPrintRun);
@@ -862,7 +933,10 @@ function goToPrintRun() {
 
           top3.forEach(function (item) {
             var query = escapeHtml(item.query || "");
-            var href = item.target === "vault" ? "/vault/" : "/checklists/";
+            var href = item.target === "vault"
+              ? "/vault/?q=" + encodeURIComponent(item.query || "")
+              : "/checklists/?q=" + encodeURIComponent(item.query || "");
+
             var badge = (item.query || "")
               .split(" ")
               .map(function (w) { return w ? w.charAt(0) : ""; })
