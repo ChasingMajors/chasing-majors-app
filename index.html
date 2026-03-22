@@ -149,6 +149,853 @@
       padding: 0 14px;
       outline:none;
       font-size:15px;
+      line-height:1;
+      -webkit-appearance:none;
+      appearance:none;
+    }
+
+    .searchInput::placeholder{
+      color: var(--muted);
+    }
+
+    .primaryBtn,
+    .ghostBtn{
+      height:50px;
+      padding:0 16px;
+      border-radius:14px;
+      border:1px solid var(--cardBorder);
+      cursor:pointer;
+      font-weight:800;
+      font-size:14px;
+      white-space:nowrap;
+      -webkit-appearance:none;
+      appearance:none;
+      transition: transform 120ms ease, opacity 120ms ease, border-color 120ms ease, background 120ms ease;
+    }
+
+    .primaryBtn{
+      background: var(--btnPrimaryBg);
+      color: var(--btnPrimaryText);
+    }
+
+    .ghostBtn{
+      background: var(--navBtnBg);
+      color: var(--text);
+    }
+
+    .primaryBtn:hover,
+    .ghostBtn:hover{
+      transform: translateY(-1px);
+    }
+
+    .searchNote{
+      font-size:12px;
+      color:var(--muted);
+    }
+
+    .heroAside{
+      display:grid;
+      gap:12px;
+    }
+
+    .miniCard{
+      background: var(--cardBg);
+      border:1px solid var(--cardBorder);
+      border-radius:16px;
+      padding:14px;
+      box-shadow: var(--shadow);
+    }
+
+    .miniLabel{
+      font-size:12px;
+      color:var(--muted);
+      text-transform:uppercase;
+      letter-spacing:.5px;
+      margin-bottom:8px;
+      font-weight:700;
+    }
+
+    .miniValue{
+      font-size:20px;
+      line-height:1.15;
+      font-weight:900;
+    }
+
+    .miniSub{
+      margin-top:6px;
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.35;
+    }
+
+    .quickGrid{
+      display:grid;
+      grid-template-columns: repeat(4, minmax(0,1fr));
+      gap:14px;
+      margin-bottom:16px;
+    }
+
+    .quickCard{
+      display:block;
+      text-decoration:none;
+      color: var(--text);
+      padding:16px;
+      border-radius:16px;
+      background: var(--navBtnBg);
+      border:1px solid var(--cardBorder);
+      box-shadow: var(--shadow);
+      min-height: 122px;
+      transition: transform 120ms ease, border-color 120ms ease;
+    }
+
+    .quickCard:hover{
+      transform: translateY(-1px);
+      border-color: rgba(255,255,255,0.18);
+    }
+
+    .quickIcon{
+      width:42px;
+      height:42px;
+      border-radius:12px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background: var(--blueSoft);
+      font-size:20px;
+      margin-bottom:12px;
+    }
+
+    .quickTitle{
+      font-weight:900;
+      font-size:18px;
+      margin-bottom:6px;
+    }
+
+    .quickSub{
+      font-size:13px;
+      line-height:1.4;
+      color: var(--muted);
+    }
+
+    .infoGrid{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap:14px;
+      margin-bottom:16px;
+    }
+
+    .sectionTitle{
+      font-size:20px;
+      font-weight:900;
+      margin:0 0 12px;
+    }
+
+    .list{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+    }
+
+    .listItem{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:12px;
+      border-radius:14px;
+      background: var(--cardBg2);
+      border:1px solid var(--cardBorder);
+      text-decoration:none;
+      color: var(--text);
+      transition: transform 120ms ease, border-color 120ms ease;
+    }
+
+    .listItem:hover{
+      transform: translateY(-1px);
+      border-color: rgba(255,255,255,0.18);
+    }
+
+    .listBadge{
+      width:40px;
+      height:40px;
+      border-radius:12px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background: var(--blueSoft);
+      font-weight:900;
+      font-size:13px;
+      flex:0 0 auto;
+    }
+
+    .listCopy{
+      min-width:0;
+      flex:1;
+    }
+
+    .listTop{
+      font-size:15px;
+      font-weight:800;
+      line-height:1.25;
+      margin-bottom:3px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+
+    .listSub{
+      font-size:12px;
+      color:var(--muted);
+      line-height:1.35;
+    }
+
+    .listArrow{
+      flex:0 0 auto;
+      font-size:18px;
+      color:var(--muted);
+    }
+
+    .featureGrid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:14px;
+      margin-bottom: 10px;
+    }
+
+    .featureCard{
+      background: var(--cardBg);
+      border:1px solid var(--cardBorder);
+      border-radius:16px;
+      padding:18px;
+      box-shadow: var(--shadow);
+    }
+
+    .featureTitle{
+      font-size:24px;
+      font-weight:900;
+      margin:0 0 8px;
+    }
+
+    .featureSub{
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.45;
+      margin-bottom:14px;
+    }
+
+    .toolBtn{
+      display:block;
+      text-decoration:none;
+      color: var(--text);
+      padding:16px 18px;
+      border-radius:16px;
+      background: var(--navBtnBg);
+      border: 1px solid var(--cardBorder);
+      box-shadow: 0 10px 28px rgba(0,0,0,0.28);
+      width: 100%;
+      transition: transform 120ms ease, border-color 120ms ease;
+    }
+
+    .toolBtn:hover{
+      transform: translateY(-1px);
+      border-color: rgba(255,255,255,0.18);
+    }
+
+    .toolBtnTop{
+      font-weight:900;
+      font-size:18px;
+    }
+
+    .toolBtnSub{
+      margin-top:6px;
+      font-size:13px;
+      line-height:1.35;
+      color: var(--muted);
+    }
+
+    .bottomNav{
+      position: fixed;
+      left:0; right:0; bottom:0;
+      height: var(--navH);
+      background: var(--navBg);
+      border-top: 1px solid var(--navBorder);
+      z-index: 9999;
+      display:flex;
+      justify-content:center;
+    }
+
+    .bottomNavInner{
+      width:100%;
+      max-width: var(--contentMax);
+      padding: 10px 16px max(10px, env(safe-area-inset-bottom));
+    }
+
+    .navRow{
+      display:flex;
+      gap:10px;
+    }
+
+    .navBtn{
+      flex:1;
+      height: 42px;
+      border:0;
+      border-radius: 14px;
+      background: var(--navBtnBg);
+      color: var(--navBtnIcon);
+      cursor:pointer;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight:800;
+    }
+
+    .navBtn.active{
+      outline: 2px solid rgba(255,255,255,0.18);
+    }
+
+    .overlay{
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      color: var(--text);
+      display: grid;
+      place-items: center;
+      z-index: 10000;
+      transition: opacity 260ms ease;
+    }
+
+    .overlay.hide{
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .splashInner{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap:14px;
+      text-align:center;
+      width: min(520px, 92vw);
+      padding: 34px 18px 18px;
+    }
+
+    .splashTitle{
+      font-family: "Bangers", cursive;
+      font-size: 44px;
+      line-height: 1.05;
+      letter-spacing: 1px;
+      margin: 0;
+    }
+
+    .splashSub{
+      opacity: .75;
+      font-size: 14px;
+      margin-top: -8px;
+    }
+
+    .spinner{
+      width:44px;
+      height:44px;
+      border-radius:50%;
+      border:4px solid var(--cardBorder);
+      border-top-color: var(--text);
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin{ to{ transform: rotate(360deg); } }
+
+    @media (max-width: 980px){
+      .hero{ grid-template-columns: 1fr; }
+      .quickGrid{ grid-template-columns: repeat(2, minmax(0,1fr)); }
+      .infoGrid{ grid-template-columns: 1fr; }
+      .featureGrid{ grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 560px){
+      .content{
+        padding: 14px 14px calc(var(--navH) + 24px);
+      }
+
+      .appTitle{
+        font-size: 32px;
+      }
+
+      .appTitle .big{
+        font-size: 40px;
+      }
+
+      .heroMain,
+      .miniCard,
+      .featureCard{
+        padding:16px;
+      }
+
+      .heroHeadline{
+        font-size: 26px;
+      }
+
+      .searchWrap{
+        flex-direction:column;
+        align-items:stretch;
+        gap:8px;
+      }
+
+      .searchInput{
+        width:100%;
+        height:38px !important;
+        min-height:38px !important;
+        max-height:38px !important;
+        font-size:14px;
+        padding:0 12px !important;
+        border-radius:10px;
+        line-height:38px !important;
+        box-sizing:border-box !important;
+      }
+
+      .primaryBtn,
+      .ghostBtn{
+        width:100%;
+        height:38px !important;
+        min-height:38px !important;
+        max-height:38px !important;
+        font-size:13px;
+        border-radius:10px;
+      }
+
+      .quickGrid{
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .quickCard{
+        min-height:auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="overlay" id="overlay">
+    <div class="splashInner">
+      <h1 class="splashTitle">Chasing Majors</h1>
+      <div class="splashSub">Loading…</div>
+      <div class="spinner" aria-hidden="true"></div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="headerRow">
+      <h1 class="appTitle"><span class="big">C</span>hasing <span class="big">M</span>ajors</h1>
+      <div class="subTitle">Checklist data, print run data, and release tracking built for collectors.</div>
+    </div>
+
+    <section class="hero">
+      <div class="heroMain">
+        <div class="eyebrow">Live data platform</div>
+        <div class="heroHeadline">Your home base for sports card checklist and print run data.</div>
+        <div class="heroCopy">
+          Search a set or player, jump into Checklist Vault or Print Run Vault, and keep up with new releases and the sets collectors are searching right now.
+        </div>
+
+        <div class="searchWrap">
+          <input
+            id="homeSearch"
+            class="searchInput"
+            type="text"
+            placeholder="Search a set or player…"
+            autocomplete="off"
+            enterkeyhint="search"
+          />
+          <button class="primaryBtn" type="button" id="searchChecklistBtn">Search Checklist Vault</button>
+          <button class="ghostBtn" type="button" id="searchPrintRunBtn">Search Print Run Vault</button>
+        </div>
+
+        <div class="searchNote">
+          Search from the homepage and jump directly into the tool you want to use.
+        </div>
+      </div>
+
+      <div class="heroAside">
+        <div class="miniCard">
+          <div class="miniLabel">Trending</div>
+          <div class="miniValue">2026 Topps Series 1</div>
+          <div class="miniSub">Most searched by collectors right now.</div>
+        </div>
+
+        <div class="miniCard">
+          <div class="miniLabel">Just Added</div>
+          <div class="miniValue">2026 Bowman’s Best</div>
+          <div class="miniSub">New checklist and data now available.</div>
+        </div>
+
+        <div class="miniCard">
+          <div class="miniLabel">Checklist + Print Run</div>
+          <div class="miniValue">Search both in one place</div>
+          <div class="miniSub">Search full checklists and estimated print runs in one place.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quickGrid">
+      <a class="quickCard" href="/checklists/">
+        <div class="quickIcon">📋</div>
+        <div class="quickTitle">Checklist Vault</div>
+        <div class="quickSub">Search a set or player. Browse Base, Inserts, Autos, Relics, Variations.</div>
+      </a>
+
+      <a class="quickCard" href="/vault/">
+        <div class="quickIcon">📊</div>
+        <div class="quickTitle">Print Run Vault</div>
+        <div class="quickSub">Calculated production estimates. Print run data, not guesses.</div>
+      </a>
+
+      <a class="quickCard" href="/schedule/">
+        <div class="quickIcon">🗓️</div>
+        <div class="quickTitle">Release Schedule</div>
+        <div class="quickSub">What’s dropping next. Filters by sport, date, and brand.</div>
+      </a>
+
+      <a class="quickCard" href="/checklists/?q=2026%20Topps%20Series%201">
+        <div class="quickIcon">🔥</div>
+        <div class="quickTitle">Featured Search</div>
+        <div class="quickSub">Jump into checklist and print run data for one of the hobby’s most searched products.</div>
+      </a>
+    </section>
+
+    <section class="infoGrid">
+      <div class="card">
+        <div class="sectionTitle">Continue Exploring</div>
+        <div class="list" id="continueExploringList">
+          <a class="listItem" href="/checklists/?q=2026%20Topps%20Series%201">
+            <div class="listBadge">26</div>
+            <div class="listCopy">
+              <div class="listTop">2026 Topps Series 1</div>
+              <div class="listSub">Last viewed set or recent homepage search</div>
+            </div>
+            <div class="listArrow">›</div>
+          </a>
+          <a class="listItem" href="/checklists/?q=2025%20Bowman%20Chrome">
+            <div class="listBadge">BC</div>
+            <div class="listCopy">
+              <div class="listTop">2025 Bowman Chrome</div>
+              <div class="listSub">Recent search</div>
+            </div>
+            <div class="listArrow">›</div>
+          </a>
+          <a class="listItem" href="/checklists/?q=Aaron%20Judge">
+            <div class="listBadge">AJ</div>
+            <div class="listCopy">
+              <div class="listTop">Aaron Judge</div>
+              <div class="listSub">Player search</div>
+            </div>
+            <div class="listArrow">›</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="sectionTitle">Trending</div>
+        <div class="list">
+          <a class="listItem" href="/checklists/?q=2026%20Topps%20Series%201">
+            <div class="listBadge">TS1</div>
+            <div class="listCopy">
+              <div class="listTop">2026 Topps Series 1</div>
+              <div class="listSub">Most searched by collectors right now.</div>
+            </div>
+            <div class="listArrow">›</div>
+          </a>
+          <a class="listItem" href="/vault/?q=2025%20Prizm%20Black">
+            <div class="listBadge">PB</div>
+            <div class="listCopy">
+              <div class="listTop">2025 Prizm Black</div>
+              <div class="listSub">A popular search for checklist and print run research.</div>
+            </div>
+            <div class="listArrow">›</div>
+          </a>
+          <a class="listItem" href="/checklists/?q=2024%20Bowman%20Draft">
+            <div class="listBadge">BD</div>
+            <div class="listCopy">
+              <div class="listTop">2024 Bowman Draft</div>
+              <div class="listSub">A go-to search for collectors tracking recent releases.</div>
+            </div>
+            <div class="listArrow">›</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="sectionTitle">Just Added</div>
+        <div class="list">
+          <a class="listItem" href="/checklists/?q=2026%20Bowman%E2%80%99s%20Best">
+            <div class="listBadge">BB</div>
+            <div class="listCopy">
+              <div class="listTop">2026 Bowman’s Best</div>
+              <div class="listSub">New checklist and data now available.</div>
+            </div>
+            <div class="listArrow">›</div>
+          </a>
+          <a class="listItem" href="/checklists/?q=2025%20Topps%20Chrome%20Sapphire">
+            <div class="listBadge">CS</div>
+            <div class="listCopy">
+              <div class="listTop">2025 Topps Chrome Sapphire</div>
+              <div class="listSub">Freshly added and ready to search.</div>
+            </div>
+            <div class="listArrow">›</div>
+          </a>
+          <a class="listItem" href="/checklists/?q=2024%20Heritage%20High%20Number">
+            <div class="listBadge">HN</div>
+            <div class="listCopy">
+              <div class="listTop">2024 Heritage High Number</div>
+              <div class="listSub">Now available in the database.</div>
+            </div>
+            <div class="listArrow">›</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="featureGrid">
+      <div class="featureCard">
+        <div class="featureTitle">Checklist Vault</div>
+        <div class="featureSub">Searchable checklist data built for real use, with faster lookup and better browsing than screenshot-based checklist pages.</div>
+        <a class="toolBtn" href="/checklists/">
+          <div class="toolBtnTop">Open Checklist Vault</div>
+          <div class="toolBtnSub">Search by set, player, or section.</div>
+        </a>
+      </div>
+
+      <div class="featureCard">
+        <div class="featureTitle">Print Run Vault</div>
+        <div class="featureSub">Estimated production, anchor parallels, pack odds context, and a more useful way to understand modern releases.</div>
+        <a class="toolBtn" href="/vault/">
+          <div class="toolBtnTop">Open Print Run Vault</div>
+          <div class="toolBtnSub">Explore pack odds and print run estimates.</div>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <div class="bottomNav" aria-label="Primary">
+    <div class="bottomNavInner">
+      <div class="navRow">
+        <button class="navBtn active" type="button" onclick="location.href='/'">Home</button>
+        <button class="navBtn" type="button" onclick="location.href='/checklists/'">Checklist Vault</button>
+        <button class="navBtn" type="button" onclick="location.href='/vault/'">Print Run Vault</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      function hideOverlay() {
+        var el = document.getElementById("overlay");
+        if (!el) return;
+        el.classList.add("hide");
+        setTimeout(function () {
+          if (el) el.style.display = "none";
+        }, 320);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(hideOverlay, 300);
+      });
+
+      window.addEventListener("load", function () {
+        setTimeout(hideOverlay, 300);
+      });
+
+      setTimeout(hideOverlay, 1800);
+
+      var input = document.getElementById("homeSearch");
+      var checklistBtn = document.getElementById("searchChecklistBtn");
+      var printRunBtn = document.getElementById("searchPrintRunBtn");
+      var continueList = document.getElementById("continueExploringList");
+
+      function cleanQuery(value) {
+        return (value || "").replace(/\s+/g, " ").trim();
+      }
+
+      function escapeHtml(str) {
+        return String(str || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/\"/g, "&quot;")
+          .replace(/'/g, "&#39;");
+      }
+
+      function saveRecentSearch(query, target) {
+        if (!query) return;
+
+        try {
+          sessionStorage.setItem("cm_home_search", query);
+          sessionStorage.setItem("cm_home_target", target || "checklists");
+        } catch (e) {}
+
+        var items = [];
+        try {
+          items = JSON.parse(localStorage.getItem("cm_recent_searches") || "[]");
+        } catch (e) {
+          items = [];
+        }
+
+        items = items.filter(function (item) {
+          return item && item.query !== query;
+        });
+
+        items.unshift({
+          query: query,
+          target: target || "checklists",
+          ts: Date.now()
+        });
+
+        try {
+          localStorage.setItem("cm_recent_searches", JSON.stringify(items.slice(0, 6)));
+        } catch (e) {}
+      }
+
+      function goToChecklist() {
+        var query = cleanQuery(input ? input.value : "");
+        if (query) {
+          saveRecentSearch(query, "checklists");
+          location.href = "/checklists/?q=" + encodeURIComponent(query);
+          return;
+        }
+        location.href = "/checklists/";
+      }
+
+      function goToPrintRun() {
+        var query = cleanQuery(input ? input.value : "");
+        if (query) {
+          saveRecentSearch(query, "vault");
+          location.href = "/vault/?q=" + encodeURIComponent(query);
+          return;
+        }
+        location.href = "/vault/";
+      }
+
+      if (checklistBtn) checklistBtn.addEventListener("click", goToChecklist);
+      if (printRunBtn) printRunBtn.addEventListener("click", goToPrintRun);
+
+      if (input) {
+        input.addEventListener("keydown", function (e) {
+          if (e.key === "Enter") {
+            e.preventDefault();
+            goToChecklist();
+          }
+        });
+      }
+
+      try {
+        var recents = JSON.parse(localStorage.getItem("cm_recent_searches") || "[]");
+        if (Array.isArray(recents) && recents.length && continueList) {
+          var top3 = recents.slice(0, 3);
+          var html = "";
+
+          top3.forEach(function (item) {
+            var query = escapeHtml(item.query || "");
+            var href = item.target === "vault"
+              ? "/vault/?q=" + encodeURIComponent(item.query || "")
+              : "/checklists/?q=" + encodeURIComponent(item.query || "");
+
+            var badge = (item.query || "")
+              .split(" ")
+              .map(function (w) { return w ? w.charAt(0) : ""; })
+              .join("")
+              .slice(0, 3)
+              .toUpperCase();
+
+            if (!badge) badge = "CM";
+
+            html +=
+              '<a class="listItem" href="' + href + '">' +
+                '<div class="listBadge">' + badge + '</div>' +
+                '<div class="listCopy">' +
+                  '<div class="listTop">' + query + '</div>' +
+                  '<div class="listSub">Recent homepage search</div>' +
+                '</div>' +
+                '<div class="listArrow">›</div>' +
+              '</a>';
+          });
+
+          continueList.innerHTML = html;
+        }
+      } catch (e) {}
+    })();
+  </script>
+</body>
+</html>
+    .card{
+      background: var(--cardBg);
+      border: 1px solid var(--cardBorder);
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero{
+      display:grid;
+      grid-template-columns: 1.25fr 0.95fr;
+      gap:16px;
+      margin-bottom:16px;
+    }
+
+    .heroMain{
+      padding: 18px;
+      border-radius: 18px;
+      background:
+        radial-gradient(circle at top left, var(--blueSoft), transparent 36%),
+        var(--cardBg);
+      border: 1px solid var(--cardBorder);
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow{
+      display:inline-block;
+      padding:6px 10px;
+      border-radius:999px;
+      background: var(--blueSoft);
+      border:1px solid rgba(255,255,255,0.10);
+      font-size:12px;
+      font-weight:800;
+      letter-spacing:.4px;
+      margin-bottom:12px;
+    }
+
+    .heroHeadline{
+      font-size: 31px;
+      line-height: 1.05;
+      font-weight: 900;
+      margin: 0 0 10px;
+      letter-spacing: -0.5px;
+    }
+
+    .heroCopy{
+      font-size: 15px;
+      line-height: 1.5;
+      color: var(--muted);
+      max-width: 680px;
+      margin-bottom: 16px;
+    }
+
+    .searchWrap{
+      display:flex;
+      gap:10px;
+      margin-bottom:12px;
+      flex-wrap:wrap;
+      align-items:stretch;
+    }
+
+    .searchInput{
+      flex:1 1 380px;
+      min-width:0;
+      height:50px;
+      border-radius:14px;
+      border:1px solid var(--cardBorder);
+      background: rgba(255,255,255,0.06);
+      color: var(--text);
+      padding: 0 14px;
+      outline:none;
+      font-size:15px;
     }
 
     .searchInput::placeholder{
