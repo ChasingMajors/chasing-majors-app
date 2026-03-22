@@ -39,30 +39,6 @@
       --radius:18px;
     }
 
-    body.light{
-      --bg:#ffffff;
-      --bg2:#f5f5f5;
-      --text:#0b0b0b;
-      --muted:rgba(0,0,0,0.70);
-
-      --cardBg:rgba(0,0,0,0.05);
-      --cardBg2:rgba(0,0,0,0.035);
-      --cardBorder:rgba(0,0,0,0.10);
-
-      --btnPrimaryBg:#111111;
-      --btnPrimaryText:#ffffff;
-
-      --navBg:#ffffff;
-      --navBorder:rgba(0,0,0,0.10);
-
-      --navBtnBg:rgba(0,0,0,0.08);
-      --navBtnIcon:#0b0b0b;
-
-      --blue:#0b6fe3;
-      --blueSoft:rgba(11,111,227,0.12);
-      --shadow:0 12px 28px rgba(0,0,0,0.10);
-    }
-
     *{ box-sizing:border-box; }
     html, body { height:100%; }
 
@@ -73,7 +49,6 @@
         radial-gradient(circle at top center, rgba(30,144,255,0.10), transparent 30%),
         var(--bg);
       color:var(--text);
-      transition: background 160ms ease, color 160ms ease;
     }
 
     .content{
@@ -111,7 +86,6 @@
       border: 1px solid var(--cardBorder);
       border-radius: 16px;
       padding: 16px;
-      transition: background 160ms ease, border-color 160ms ease;
       box-shadow: var(--shadow);
     }
 
@@ -193,7 +167,7 @@
       cursor:pointer;
       font-weight:800;
       font-size:14px;
-      transition: transform 120ms ease, opacity 120ms ease, background 160ms ease, color 160ms ease;
+      transition: transform 120ms ease, opacity 120ms ease;
     }
 
     .primaryBtn{
@@ -209,11 +183,6 @@
     .primaryBtn:hover,
     .ghostBtn:hover{
       transform: translateY(-1px);
-    }
-
-    .primaryBtn:active,
-    .ghostBtn:active{
-      transform: translateY(0) scale(.99);
     }
 
     .searchNote{
@@ -272,18 +241,7 @@
       background: var(--navBtnBg);
       border:1px solid var(--cardBorder);
       box-shadow: var(--shadow);
-      transition: transform 120ms ease, background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
       min-height: 122px;
-    }
-
-    .quickCard:hover{
-      transform: translateY(-1px);
-      border-color: rgba(255,255,255,0.22);
-      box-shadow: 0 14px 34px rgba(0,0,0,0.34);
-    }
-
-    body.light .quickCard:hover{
-      border-color: rgba(0,0,0,0.18);
     }
 
     .quickIcon{
@@ -301,7 +259,6 @@
     .quickTitle{
       font-weight:900;
       font-size:18px;
-      letter-spacing:0.2px;
       margin-bottom:6px;
     }
 
@@ -322,7 +279,6 @@
       font-size:20px;
       font-weight:900;
       margin:0 0 12px;
-      letter-spacing:-0.3px;
     }
 
     .list{
@@ -341,16 +297,6 @@
       border:1px solid var(--cardBorder);
       text-decoration:none;
       color: var(--text);
-      transition: transform 120ms ease, border-color 160ms ease;
-    }
-
-    .listItem:hover{
-      transform: translateY(-1px);
-      border-color: rgba(255,255,255,0.18);
-    }
-
-    body.light .listItem:hover{
-      border-color: rgba(0,0,0,0.14);
     }
 
     .listBadge{
@@ -412,7 +358,6 @@
       font-size:24px;
       font-weight:900;
       margin:0 0 8px;
-      letter-spacing:-0.4px;
     }
 
     .featureSub{
@@ -420,13 +365,6 @@
       font-size:14px;
       line-height:1.45;
       margin-bottom:14px;
-    }
-
-    .toolBtns{
-      display:flex;
-      flex-direction:column;
-      gap:14px;
-      margin-top:12px;
     }
 
     .toolBtn{
@@ -439,28 +377,11 @@
       border: 1px solid var(--cardBorder);
       box-shadow: 0 10px 28px rgba(0,0,0,0.28);
       width: 100%;
-      margin: 0 auto;
-      transition: transform 120ms ease, background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
-    }
-
-    .toolBtn:hover{
-      transform: translateY(-1px);
-      border-color: rgba(255,255,255,0.22);
-      box-shadow: 0 14px 34px rgba(0,0,0,0.34);
-    }
-
-    body.light .toolBtn:hover{
-      border-color: rgba(0,0,0,0.18);
-    }
-
-    .toolBtn:active{
-      transform: translateY(0px) scale(0.99);
     }
 
     .toolBtnTop{
       font-weight:900;
       font-size:18px;
-      letter-spacing:0.2px;
     }
 
     .toolBtnSub{
@@ -479,7 +400,6 @@
       z-index: 9999;
       display:flex;
       justify-content:center;
-      transition: background 160ms ease, border-color 160ms ease;
     }
 
     .bottomNavInner{
@@ -505,7 +425,6 @@
       align-items:center;
       justify-content:center;
       font-weight:800;
-      transition: background 160ms ease, color 160ms ease;
     }
 
     .navBtn.active{
@@ -520,7 +439,7 @@
       display: grid;
       place-items: center;
       z-index: 10000;
-      transition: opacity 260ms ease, background 160ms ease, color 160ms ease;
+      transition: opacity 260ms ease;
     }
 
     .overlay.hide{
@@ -537,12 +456,6 @@
       text-align:center;
       width: min(520px, 92vw);
       padding: 34px 18px 18px;
-      animation: splashIn 420ms ease forwards;
-    }
-
-    @keyframes splashIn{
-      from{ opacity: 0; transform: translateY(14px); }
-      to{ opacity: 1; transform: translateY(0); }
     }
 
     .splashTitle{
@@ -624,19 +537,6 @@
 
       .quickCard{
         min-height:auto;
-      }
-
-      .toolBtns{
-        padding: 0 4px;
-      }
-
-      .toolBtn{
-        padding:15px 16px;
-        border-radius:16px;
-      }
-
-      .toolBtnTop{
-        font-size:17px;
       }
     }
   </style>
@@ -854,342 +754,131 @@
   </div>
 
   <script>
-    window.addEventListener("load", () => {
-      const el = document.getElementById("overlay");
-      setTimeout(() => {
-        el.classList.add("hide");
-        setTimeout(() => { el.style.display = "none"; }, 320);
-      }, 500);
-    });
-
     (function () {
-      const input = document.getElementById("homeSearch");
-      const checklistBtn = document.getElementById("searchChecklistBtn");
-      const printRunBtn = document.getElementById("searchPrintRunBtn");
-      const continueList = document.getElementById("continueExploringList");
+      function hideOverlay() {
+        var el = document.getElementById("overlay");
+        if (!el) return;
+        el.classList.add("hide");
+        setTimeout(function () {
+          if (el) el.style.display = "none";
+        }, 320);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(hideOverlay, 300);
+      });
+
+      window.addEventListener("load", function () {
+        setTimeout(hideOverlay, 300);
+      });
+
+      setTimeout(hideOverlay, 1800);
+
+      var input = document.getElementById("homeSearch");
+      var checklistBtn = document.getElementById("searchChecklistBtn");
+      var printRunBtn = document.getElementById("searchPrintRunBtn");
+      var continueList = document.getElementById("continueExploringList");
 
       function cleanQuery(value) {
         return (value || "").replace(/\s+/g, " ").trim();
       }
 
+      function escapeHtml(str) {
+        return String(str || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/\"/g, "&quot;")
+          .replace(/'/g, "&#39;");
+      }
+
       function saveRecentSearch(query, target) {
         if (!query) return;
-        sessionStorage.setItem("cm_home_search", query);
-        sessionStorage.setItem("cm_home_target", target || "checklists");
 
-        let items = [];
+        try {
+          sessionStorage.setItem("cm_home_search", query);
+          sessionStorage.setItem("cm_home_target", target || "checklists");
+        } catch (e) {}
+
+        var items = [];
         try {
           items = JSON.parse(localStorage.getItem("cm_recent_searches") || "[]");
         } catch (e) {
           items = [];
         }
 
-        items = items.filter(item => item && item.query !== query);
+        items = items.filter(function (item) {
+          return item && item.query !== query;
+        });
+
         items.unshift({
           query: query,
           target: target || "checklists",
           ts: Date.now()
         });
 
-        localStorage.setItem("cm_recent_searches", JSON.stringify(items.slice(0, 6)));
+        try {
+          localStorage.setItem("cm_recent_searches", JSON.stringify(items.slice(0, 6)));
+        } catch (e) {}
       }
 
       function goToChecklist() {
-        const query = cleanQuery(input.value);
+        var query = cleanQuery(input ? input.value : "");
         if (query) saveRecentSearch(query, "checklists");
         location.href = "/checklists/";
       }
 
       function goToPrintRun() {
-        const query = cleanQuery(input.value);
+        var query = cleanQuery(input ? input.value : "");
         if (query) saveRecentSearch(query, "vault");
         location.href = "/vault/";
       }
 
-      checklistBtn.addEventListener("click", goToChecklist);
-      printRunBtn.addEventListener("click", goToPrintRun);
+      if (checklistBtn) checklistBtn.addEventListener("click", goToChecklist);
+      if (printRunBtn) printRunBtn.addEventListener("click", goToPrintRun);
 
-      input.addEventListener("keydown", function (e) {
-        if (e.key === "Enter") {
-          e.preventDefault();
-          goToChecklist();
-        }
-      });
+      if (input) {
+        input.addEventListener("keydown", function (e) {
+          if (e.key === "Enter") {
+            e.preventDefault();
+            goToChecklist();
+          }
+        });
+      }
 
       try {
-        const recents = JSON.parse(localStorage.getItem("cm_recent_searches") || "[]");
-        if (Array.isArray(recents) && recents.length) {
-          const top3 = recents.slice(0, 3);
-          continueList.innerHTML = top3.map(function (item) {
-            const query = (item.query || "").replace(/[&<>"']/g, function (m) {
-              return ({
-                "&": "&amp;",
-                "<": "&lt;",
-                ">": "&gt;",
-                "\"": "&quot;",
-                "'": "&#39;"
-              })[m];
-            });
+        var recents = JSON.parse(localStorage.getItem("cm_recent_searches") || "[]");
+        if (Array.isArray(recents) && recents.length && continueList) {
+          var top3 = recents.slice(0, 3);
+          var html = "";
 
-            const href = item.target === "vault" ? "/vault/" : "/checklists/";
-            const badge = query.split(" ").map(w => w[0]).join("").slice(0, 3).toUpperCase();
+          top3.forEach(function (item) {
+            var query = escapeHtml(item.query || "");
+            var href = item.target === "vault" ? "/vault/" : "/checklists/";
+            var badge = (item.query || "")
+              .split(" ")
+              .map(function (w) { return w ? w.charAt(0) : ""; })
+              .join("")
+              .slice(0, 3)
+              .toUpperCase();
 
-            return `
-              <a class="listItem" href="${href}">
-                <div class="listBadge">${badge || "CM"}</div>
-                <div class="listCopy">
-                  <div class="listTop">${query}</div>
-                  <div class="listSub">Recent homepage search</div>
-                </div>
-                <div class="listArrow">›</div>
-              </a>
-            `;
-          }).join("");
+            if (!badge) badge = "CM";
+
+            html +=
+              '<a class="listItem" href="' + href + '">' +
+                '<div class="listBadge">' + badge + '</div>' +
+                '<div class="listCopy">' +
+                  '<div class="listTop">' + query + '</div>' +
+                  '<div class="listSub">Recent homepage search</div>' +
+                '</div>' +
+                '<div class="listArrow">›</div>' +
+              '</a>';
+          });
+
+          continueList.innerHTML = html;
         }
       } catch (e) {}
     })();
-  </script>
-</body>
-</html>    }
-    .appTitle{
-      font-family: "Bangers", cursive;
-      font-size: 34px;
-      letter-spacing: 1px;
-      line-height: 1;
-      margin: 0;
-    }
-    .appTitle .big{ font-size: 42px; }
-
-    /* PRV card */
-    .card{
-      background: var(--cardBg);
-      border: 1px solid var(--cardBorder);
-      border-radius: 16px;
-      padding: 16px;
-      transition: background 160ms ease, border-color 160ms ease;
-    }
-
-    .heroText{
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 1.35;
-      margin-bottom: 12px;
-    }
-
-    /* Homepage tool buttons */
-    .toolBtns{
-      display:flex;
-      flex-direction:column;
-      gap:14px;
-      margin-top:12px;
-    }
-
-    .toolBtn{
-      display:block;
-      text-decoration:none;
-      color: var(--text);
-
-      padding:16px 18px;
-      border-radius:16px;
-
-      background: var(--navBtnBg);
-      border: 1px solid var(--cardBorder);
-      box-shadow: 0 10px 28px rgba(0,0,0,0.28);
-
-      width: 100%;
-      margin: 0 auto;
-
-      transition: transform 120ms ease, background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
-    }
-
-    .toolBtn:hover{
-      transform: translateY(-1px);
-      border-color: rgba(255,255,255,0.22);
-      box-shadow: 0 14px 34px rgba(0,0,0,0.34);
-    }
-
-    body.light .toolBtn:hover{
-      border-color: rgba(0,0,0,0.18);
-    }
-
-    .toolBtn:active{
-      transform: translateY(0px) scale(0.99);
-    }
-
-    .toolBtnTop{
-      font-weight:900;
-      font-size:18px;
-      letter-spacing:0.2px;
-    }
-
-    .toolBtnSub{
-      margin-top:6px;
-      font-size:13px;
-      line-height:1.35;
-      color: var(--muted);
-    }
-
-    /* ✅ Mobile: make buttons feel a touch narrower WITHOUT overflow */
-    @media (max-width: 560px){
-      .toolBtns{
-        padding: 0 10px;   /* creates that “slightly less wide” look */
-      }
-      .toolBtn{
-        padding:15px 16px;
-        border-radius:16px;
-      }
-      .toolBtnTop{ font-size:17px; }
-    }
-
-    /* PRV bottom nav shell (3 buttons) */
-    .bottomNav{
-      position: fixed;
-      left:0; right:0; bottom:0;
-      height: var(--navH);
-      background: var(--navBg);
-      border-top: 1px solid var(--navBorder);
-      z-index: 9999;
-      display:flex;
-      justify-content:center;
-      transition: background 160ms ease, border-color 160ms ease;
-    }
-    .bottomNavInner{
-      width:100%;
-      max-width: var(--contentMax);
-      padding: 10px 16px max(10px, env(safe-area-inset-bottom));
-    }
-    .navRow{
-      display:flex;
-      gap:10px;
-    }
-    .navBtn{
-      flex:1;
-      height: 42px;
-      border:0;
-      border-radius: 14px;
-      background: var(--navBtnBg);
-      color: var(--navBtnIcon);
-      cursor:pointer;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      font-weight:800;
-      transition: background 160ms ease, color 160ms ease;
-    }
-    .navBtn.active{
-      outline: 2px solid rgba(255,255,255,0.18);
-    }
-
-    /* SPLASH OVERLAY (same as PRV) */
-    .overlay{
-      position: fixed;
-      inset: 0;
-      background: var(--bg);
-      color: var(--text);
-      display: grid;
-      place-items: center;
-      z-index: 10000;
-      transition: opacity 260ms ease, background 160ms ease, color 160ms ease;
-    }
-    .overlay.hide{
-      opacity: 0;
-      pointer-events: none;
-    }
-    .splashInner{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      gap:14px;
-      text-align:center;
-      width: min(520px, 92vw);
-      padding: 34px 18px 18px;
-      animation: splashIn 420ms ease forwards;
-    }
-    @keyframes splashIn{
-      from{ opacity: 0; transform: translateY(14px); }
-      to{ opacity: 1; transform: translateY(0); }
-    }
-    .splashTitle{
-      font-family: "Bangers", cursive;
-      font-size: 44px;
-      line-height: 1.05;
-      letter-spacing: 1px;
-      margin: 0;
-    }
-    .splashSub{
-      opacity: .75;
-      font-size: 14px;
-      margin-top: -8px;
-    }
-    .spinner{
-      width:44px;
-      height:44px;
-      border-radius:50%;
-      border:4px solid var(--cardBorder);
-      border-top-color: var(--text);
-      animation: spin 1s linear infinite;
-    }
-    @keyframes spin{ to{ transform: rotate(360deg); } }
-  </style>
-</head>
-
-<body>
-  <!-- Splash -->
-  <div class="overlay" id="overlay">
-    <div class="splashInner">
-      <h1 class="splashTitle">Chasing Majors</h1>
-      <div class="splashSub">Loading…</div>
-      <div class="spinner" aria-hidden="true"></div>
-    </div>
-  </div>
-
-  <div class="content">
-    <div class="headerRow">
-      <h1 class="appTitle"><span class="big">C</span>hasing <span class="big">M</span>ajors</h1>
-    </div>
-
-    <div class="card">
-      <div class="heroText">Choose a tool</div>
-
-      <div class="toolBtns">
-        <a class="toolBtn" href="/checklists/">
-          <div class="toolBtnTop">Checklist Vault</div>
-          <div class="toolBtnSub">Search a set or player. Browse Base, Inserts, Autos, Relics, Variations.</div>
-        </a>
-
-        <a class="toolBtn" href="/vault/">
-          <div class="toolBtnTop">Print Run Vault</div>
-          <div class="toolBtnSub">Calculated production estimates. Print run data, not guesses.</div>
-        </a>
-
-        <a class="toolBtn" href="/schedule/">
-          <div class="toolBtnTop">Release Schedule</div>
-          <div class="toolBtnSub">What’s dropping next. Filters by sport, date, and brand.</div>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class="bottomNav" aria-label="Primary">
-    <div class="bottomNavInner">
-      <div class="navRow">
-        <button class="navBtn active" type="button" onclick="location.href='/'">Home</button>
-        <button class="navBtn" type="button" onclick="location.href='/checklists/'">Checklist Vault</button>
-        <button class="navBtn" type="button" onclick="location.href='/vault/'">Print Run Vault</button>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    // PRV-style splash hide
-    window.addEventListener("load", () => {
-      const el = document.getElementById("overlay");
-      setTimeout(() => {
-        el.classList.add("hide");
-        setTimeout(() => { el.style.display = "none"; }, 320);
-      }, 500);
-    });
   </script>
 </body>
 </html>
