@@ -506,9 +506,7 @@ function findBestLocalProductMatch(query, sport) {
   const q = lower(query);
   if (!q || !INDEX.length) return null;
 
-  const rows = INDEX.filter(i => {
-    return !sport || lower(i.sport) === lower(sport);
-  });
+  const rows = INDEX.filter(i => !sport || lower(i.sport) === lower(sport));
 
   const exactDisplay = rows.find(i => lower(i.DisplayName) === q);
   if (exactDisplay) return exactDisplay;
@@ -553,6 +551,7 @@ function applyIncomingQueryToInput() {
     elBtnSearch.textContent = "Loading...";
   }
 }
+
 function runHomepageHandoffIfPresent() {
   if (!initDone) return;
 
@@ -894,6 +893,7 @@ if (elBtnClear) {
       totalPages: 0
     };
     closeDropdown();
+    setLoadingState(false);
     elResults.innerHTML = `<div class="card" style="opacity:.8;">No results yet. Run a search.</div>`;
   };
 }
@@ -918,7 +918,10 @@ async function runSearch() {
   const q = norm(elQ.value);
   const sport = getSportValue();
 
-  if (!q) return;
+  if (!q) {
+    setLoadingState(false);
+    return;
+  }
 
   if (selected && lower(selected.type) === "product" && selected.code) {
     await runProductSearch(selected.code, selected.sport || sport);
@@ -965,8 +968,9 @@ async function runProductSearch(code, sport) {
     totalPages: 0
   };
 
+  const handoffQuery = norm(URL_Q) || norm(elQ ? elQ.value : "");
   setLoadingState(true);
-  elResults.innerHTML = `<div class="card" style="opacity:.8;">Loading…</div>`;
+  elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(handoffQuery || "your query")}"…</div>`;
 
   try {
     const data = await api("getRowsByCode", { code, sport });
@@ -1005,7 +1009,7 @@ async function runBroadSearch(q, sport, page = 1) {
   broadSearchState.pageSize = BROAD_PAGE_SIZE;
 
   setLoadingState(true);
-  elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching…</div>`;
+  elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(q)}"…</div>`;
 
   try {
     const [cardsData, playerData] = await Promise.all([
