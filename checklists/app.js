@@ -543,9 +543,8 @@ function applyIncomingQueryToInput() {
   if (!incoming || !elQ) return;
   elQ.value = incoming;
 }
-
 function runHomepageHandoffIfPresent() {
-  if (!initDone || !INDEX.length) return;
+  if (!initDone) return;
 
   const urlQuery = norm(URL_Q);
   let savedQuery = "";
@@ -557,11 +556,13 @@ function runHomepageHandoffIfPresent() {
   } catch (e) {}
 
   const incomingQuery = urlQuery || savedQuery;
-  const usingChecklistTarget = !savedTarget || savedTarget === "checklists";
 
-  if (!incomingQuery || !usingChecklistTarget) return;
-
+  if (!incomingQuery) return;
   if (!elQ) return;
+
+  // If query came from URL, trust it.
+  // Only use savedTarget when falling back to sessionStorage.
+  if (!urlQuery && savedTarget && savedTarget !== "checklists") return;
 
   elQ.value = incomingQuery;
   closeDropdown();
@@ -585,9 +586,13 @@ function runHomepageHandoffIfPresent() {
       sport: best.sport || ""
     });
 
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(incomingQuery)}"…</div>`;
+
     runProductSearch(best.Code, best.sport).finally(clearHomepageHandoff);
     return;
   }
+
+  elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(incomingQuery)}"…</div>`;
 
   runBroadSearch(incomingQuery, sport, 1).finally(clearHomepageHandoff);
 }
