@@ -40,6 +40,8 @@ let searchTimer = null;
 let activeTypeaheadToken = 0;
 let initDone = false;
 
+const URL_Q = new URLSearchParams(location.search).get("q") || "";
+
 let currentProductMeta = null;
 let currentProductRows = [];
 let currentProductParallels = [];
@@ -536,9 +538,16 @@ function clearHomepageHandoff() {
   } catch (e) {}
 }
 
+function applyIncomingQueryToInput() {
+  const incoming = norm(URL_Q);
+  if (!incoming || !elQ) return;
+  elQ.value = incoming;
+}
+
 function runHomepageHandoffIfPresent() {
   if (!initDone || !INDEX.length) return;
 
+  const urlQuery = norm(URL_Q);
   let savedQuery = "";
   let savedTarget = "";
 
@@ -547,15 +556,18 @@ function runHomepageHandoffIfPresent() {
     savedTarget = sessionStorage.getItem("cm_home_target") || "";
   } catch (e) {}
 
-  if (!savedQuery || savedTarget !== "checklists") return;
+  const incomingQuery = urlQuery || savedQuery;
+  const usingChecklistTarget = !savedTarget || savedTarget === "checklists";
+
+  if (!incomingQuery || !usingChecklistTarget) return;
 
   if (!elQ) return;
 
-  elQ.value = savedQuery;
+  elQ.value = incomingQuery;
   closeDropdown();
 
   const sport = getSportValue();
-  const best = findBestLocalProductMatch(savedQuery, sport);
+  const best = findBestLocalProductMatch(incomingQuery, sport);
 
   if (best) {
     selected = {
@@ -577,7 +589,7 @@ function runHomepageHandoffIfPresent() {
     return;
   }
 
-  runBroadSearch(savedQuery, sport, 1).finally(clearHomepageHandoff);
+  runBroadSearch(incomingQuery, sport, 1).finally(clearHomepageHandoff);
 }
 
 // ---------------- API ----------------
@@ -636,6 +648,7 @@ async function ensureFreshIndex_() {
 // ---------------- INIT ----------------
 (async function init() {
   loadTheme();
+  applyIncomingQueryToInput();
   await ensureFreshIndex_();
   initDone = true;
   runHomepageHandoffIfPresent();
