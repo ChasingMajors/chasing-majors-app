@@ -1,5 +1,5 @@
 /* ================================
-   Print Run Vault — app.js (FULL)
+   Print Run Vault — app.js
    - Homepage search handoff support
    - Uses Checklist Vault theme system (html[data-theme], icons)
    - Bottom nav handled in HTML (3 buttons)
@@ -20,19 +20,17 @@ const elThemeBtn = document.getElementById("themeToggle");
 // ---------------- URL PARAM ----------------
 const URL_Q = new URLSearchParams(location.search).get("q") || "";
 
+// ---------------- STATE ----------------
+let INDEX = [];
+let selected = null;
+let initDone = false;
+
 // ---------------- APPLY QUERY TO INPUT ----------------
 function applyIncomingQueryToInput() {
   const incoming = String(URL_Q || "").trim();
   if (!incoming || !elQ) return;
   elQ.value = incoming;
 }
-
-// ---------------- STATE ----------------
-let INDEX = [];
-let selected = null;
-let initDone = false;
-
-const URL_Q = new URLSearchParams(location.search).get("q") || "";
 
 // ---------------- THEME (Checklist Vault parity) ----------------
 function setTheme(theme) {
@@ -80,19 +78,23 @@ async function api(action, payload = {}) {
 }
 
 // ---------------- INDEX CACHE ----------------
-function loadCachedIndex_(){
+function loadCachedIndex_() {
   const cached = localStorage.getItem(INDEX_KEY);
   if (!cached) return [];
-  try { return JSON.parse(cached) || []; } catch(e) { return []; }
+  try {
+    return JSON.parse(cached) || [];
+  } catch (e) {
+    return [];
+  }
 }
 
-function storeIndex_(indexArr, versionStr){
+function storeIndex_(indexArr, versionStr) {
   INDEX = Array.isArray(indexArr) ? indexArr : [];
   localStorage.setItem(INDEX_KEY, JSON.stringify(INDEX));
   if (versionStr) localStorage.setItem(INDEX_VER_KEY, String(versionStr));
 }
 
-async function ensureFreshIndex_(){
+async function ensureFreshIndex_() {
   INDEX = loadCachedIndex_();
   const forceRefresh = new URLSearchParams(location.search).get("refresh") === "1";
 
@@ -112,7 +114,7 @@ async function ensureFreshIndex_(){
 }
 
 // ---------------- INIT ----------------
-(async function init(){
+(async function init() {
   loadTheme();
   applyIncomingQueryToInput();
   await ensureFreshIndex_();
@@ -121,28 +123,34 @@ async function ensureFreshIndex_(){
 })();
 
 // ---------------- DROPDOWN HELPERS ----------------
-function openDropdown(html){
+function openDropdown(html) {
   elDD.innerHTML = html;
   elDD.style.display = "block";
 }
-function closeDropdown(){
+
+function closeDropdown() {
   elDD.style.display = "none";
   elDD.innerHTML = "";
 }
 
 // ---------------- ESCAPE/FORMAT HELPERS ----------------
-function esc(s){
+function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, m => ({
-    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+    "&":"&amp;",
+    "<":"&lt;",
+    ">":"&gt;",
+    '"':"&quot;",
+    "'":"&#39;"
   }[m]));
 }
-function fmtNum(x){
-  const n = Number(String(x ?? "").replace(/,/g,""));
+
+function fmtNum(x) {
+  const n = Number(String(x ?? "").replace(/,/g, ""));
   return Number.isFinite(n) ? n.toLocaleString() : esc(x);
 }
 
 // ---------------- MINIMAL LOGGING ----------------
-function logSelectionFireAndForget_(sel){
+function logSelectionFireAndForget_(sel) {
   if (!sel) return;
 
   api("logSearch", {
@@ -180,9 +188,16 @@ function findBestMatch(query) {
   return null;
 }
 
+function clearHomepageHandoff() {
+  try {
+    sessionStorage.removeItem("cm_home_search");
+    sessionStorage.removeItem("cm_home_target");
+  } catch (e) {}
+}
+
 // ---------------- HOMEPAGE HANDOFF ----------------
 function runHomepageHandoffIfPresent() {
-  if (!initDone || !INDEX.length) return;
+  if (!initDone) return;
 
   const urlQuery = String(URL_Q || "").trim();
   let savedQuery = "";
@@ -194,34 +209,30 @@ function runHomepageHandoffIfPresent() {
   } catch (e) {}
 
   const incomingQuery = urlQuery || savedQuery;
-  const usingVaultTarget = !savedTarget || savedTarget === "vault";
 
-  if (!incomingQuery || !usingVaultTarget) return;
-
+  if (!incomingQuery) return;
   if (!elQ) return;
+
+  // If query came from URL, trust it.
+  // Only use savedTarget when falling back to sessionStorage.
+  if (!urlQuery && savedTarget && savedTarget !== "vault") return;
 
   elQ.value = incomingQuery;
   closeDropdown();
 
   const best = findBestMatch(incomingQuery);
   if (!best) {
-    try {
-      sessionStorage.removeItem("cm_home_search");
-      sessionStorage.removeItem("cm_home_target");
-    } catch (e) {}
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">No matching product found for "${esc(incomingQuery)}".</div>`;
+    clearHomepageHandoff();
     return;
   }
 
   selected = best;
   elQ.value = best.DisplayName;
   logSelectionFireAndForget_(selected);
+  elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(incomingQuery)}"…</div>`;
 
-  runSearch().finally(() => {
-    try {
-      sessionStorage.removeItem("cm_home_search");
-      sessionStorage.removeItem("cm_home_target");
-    } catch (e) {}
-  });
+  runSearch().finally(clearHomepageHandoff);
 }
 
 // ---------------- TYPEAHEAD (AUTO SEARCH ON SELECT) ----------------
@@ -229,13 +240,19 @@ elQ.addEventListener("input", () => {
   const q = elQ.value.toLowerCase().trim();
   selected = null;
 
-  if (q.length < 2) { closeDropdown(); return; }
+  if (q.length < 2) {
+    closeDropdown();
+    return;
+  }
 
   const hits = INDEX
     .filter(i => `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase().includes(q))
     .slice(0, 10);
 
-  if (!hits.length) { closeDropdown(); return; }
+  if (!hits.length) {
+    closeDropdown();
+    return;
+  }
 
   openDropdown(hits.map(i => `
     <div class="ddItem" data-code="${esc(i.Code)}">
@@ -282,7 +299,7 @@ document.getElementById("btnClear").onclick = () => {
 };
 
 // ---------------- SEARCH ----------------
-async function runSearch(){
+async function runSearch() {
   if (!initDone) {
     elResults.innerHTML = `<div class="card" style="opacity:.8;">Loading…</div>`;
     return;
@@ -314,188 +331,7 @@ async function runSearch(){
 }
 
 // ---------------- RENDER ----------------
-function renderResults(meta, rows){
-  if (!rows.length) {
-    elResults.innerHTML = `<div class="card" style="opacity:.8;">No print run rows found.</div>`;
-    return;
-  }
-
-  const title = esc(meta?.displayName || selected?.DisplayName || "Results");
-  const subParts = [meta?.year, meta?.sport, meta?.manufacturer].filter(Boolean).map(esc);
-  const sub = subParts.join(" • ");
-
-  elResults.innerHTML = `
-    <div class="card">
-      <div style="font-weight:800;margin-bottom:6px;">${title}</div>
-      <div style="opacity:.75;font-size:13px;margin-bottom:10px;">${sub}</div>
-
-      <table>
-        <thead>
-          <tr>
-            <th>Set</th>
-            <th>Subset</th>
-            <th>Print Run</th>
-            <th>Cards in Set</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${rows.map(r => `
-            <tr>
-              <td>${esc(r.setType || "")}</td>
-              <td>${esc(r.setLine || "")}</td>
-              <td>${fmtNum(r.printRun)}</td>
-              <td>${fmtNum(r.subSetSize)}</td>
-            </tr>
-          `).join("")}
-        </tbody>
-      </table>
-    </div>
-  `;
-}  localStorage.setItem(INDEX_KEY, JSON.stringify(INDEX));
-  if (versionStr) localStorage.setItem(INDEX_VER_KEY, String(versionStr));
-}
-
-async function ensureFreshIndex_(){
-  INDEX = loadCachedIndex_();
-  const forceRefresh = new URLSearchParams(location.search).get("refresh") === "1";
-
-  try {
-    const meta = await api("meta");
-    const remoteVer = meta && meta.ok ? String(meta.indexVersion || "") : "";
-    const localVer = localStorage.getItem(INDEX_VER_KEY) || "";
-
-    if (forceRefresh || !INDEX.length || (remoteVer && remoteVer !== localVer)) {
-      const d = await api("index");
-      const fresh = (d && d.ok && Array.isArray(d.index)) ? d.index : (d.index || []);
-      storeIndex_(fresh, remoteVer || localVer);
-    }
-  } catch (e) {
-    console.warn("Index freshness check failed, using cache.", e);
-  }
-}
-
-// ---------------- INIT ----------------
-(async function init(){
-  loadTheme();
-  await ensureFreshIndex_();
-})();
-
-// ---------------- DROPDOWN HELPERS ----------------
-function openDropdown(html){
-  elDD.innerHTML = html;
-  elDD.style.display = "block";
-}
-function closeDropdown(){
-  elDD.style.display = "none";
-  elDD.innerHTML = "";
-}
-
-// ---------------- ESCAPE/FORMAT HELPERS ----------------
-function esc(s){
-  return String(s ?? "").replace(/[&<>"']/g, m => ({
-    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-  }[m]));
-}
-function fmtNum(x){
-  const n = Number(String(x ?? "").replace(/,/g,""));
-  return Number.isFinite(n) ? n.toLocaleString() : esc(x);
-}
-
-// ---------------- MINIMAL LOGGING (selected only) ----------------
-function logSelectionFireAndForget_(sel){
-  if (!sel) return;
-
-  api("logSearch", {
-    selectedName: sel.DisplayName || "",
-    year: sel.year || "",
-    sport: sel.sport || ""
-  }).catch(() => {});
-}
-
-// ---------------- TYPEAHEAD (AUTO SEARCH ON SELECT) ----------------
-elQ.addEventListener("input", () => {
-  const q = elQ.value.toLowerCase().trim();
-  selected = null;
-
-  if (q.length < 2) { closeDropdown(); return; }
-
-  const hits = INDEX
-    .filter(i => `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase().includes(q))
-    .slice(0, 10);
-
-  if (!hits.length) { closeDropdown(); return; }
-
-  openDropdown(hits.map(i => `
-    <div class="ddItem" data-code="${esc(i.Code)}">
-      <div class="ddTitle">${esc(i.DisplayName)}</div>
-      <div class="ddMeta">${esc(i.year)} • ${esc(i.sport)} • ${esc(i.manufacturer)}</div>
-    </div>
-  `).join(""));
-
-  [...elDD.children].forEach(node => {
-    node.onclick = async () => {
-      selected = INDEX.find(x => String(x.Code) === String(node.dataset.code)) || null;
-      if (!selected) return;
-
-      elQ.value = selected.DisplayName;
-      closeDropdown();
-
-      logSelectionFireAndForget_(selected);
-      await runSearch();
-    };
-  });
-});
-
-// Click outside closes dropdown
-document.addEventListener("click", (e) => {
-  const inSearch = e.target.closest(".searchWrap") || e.target.closest("#dropdown");
-  if (!inSearch) closeDropdown();
-});
-
-// Enter triggers search
-elQ.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") {
-    e.preventDefault();
-    runSearch();
-  }
-});
-
-// Buttons
-document.getElementById("btnSearch").onclick = runSearch;
-document.getElementById("btnClear").onclick = () => {
-  elQ.value = "";
-  selected = null;
-  closeDropdown();
-  elResults.innerHTML = `<div class="card" style="opacity:.8;">No results yet. Run a search.</div>`;
-};
-
-// ---------------- SEARCH ----------------
-async function runSearch(){
-  if (!selected) {
-    const q = elQ.value.toLowerCase().trim();
-    if (!q) return;
-
-    const best = INDEX.find(i => `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase().includes(q));
-    if (best) {
-      selected = best;
-      logSelectionFireAndForget_(selected);
-    } else {
-      return;
-    }
-  }
-
-  elResults.innerHTML = `<div class="card" style="opacity:.8;">Loading…</div>`;
-
-  try {
-    const data = await api("getRowsByCode", { code: selected.Code });
-    renderResults(data.meta, data.rows || []);
-  } catch (e) {
-    elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading data.</div>`;
-  }
-}
-
-// ---------------- RENDER ----------------
-function renderResults(meta, rows){
+function renderResults(meta, rows) {
   if (!rows.length) {
     elResults.innerHTML = `<div class="card" style="opacity:.8;">No print run rows found.</div>`;
     return;
