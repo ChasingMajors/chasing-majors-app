@@ -28,7 +28,6 @@
 
       --navBg:#0b0b0b;
       --navBorder:rgba(255,255,255,0.12);
-
       --navBtnBg:rgba(255,255,255,0.12);
       --navBtnIcon:#ffffff;
 
@@ -130,6 +129,40 @@
       margin-bottom: 16px;
     }
 
+    .toggleWrap{
+      display:flex;
+      margin-bottom:10px;
+    }
+
+    .toggleBar{
+      display:inline-flex;
+      gap:6px;
+      padding:6px;
+      border-radius:14px;
+      background: var(--navBtnBg);
+      border:1px solid var(--cardBorder);
+      width:auto;
+      max-width:100%;
+    }
+
+    .toggleBtn{
+      border:0;
+      background:transparent;
+      color:var(--text);
+      height:34px;
+      padding:0 14px;
+      border-radius:10px;
+      font-size:13px;
+      font-weight:800;
+      cursor:pointer;
+      white-space:nowrap;
+    }
+
+    .toggleBtn.active{
+      background: var(--btnPrimaryBg);
+      color: var(--btnPrimaryText);
+    }
+
     .searchWrap{
       display:flex;
       gap:10px;
@@ -158,10 +191,9 @@
       color: var(--muted);
     }
 
-    .primaryBtn,
-    .ghostBtn{
+    .primaryBtn{
       height:50px;
-      padding:0 16px;
+      padding:0 18px;
       border-radius:14px;
       border:1px solid var(--cardBorder);
       cursor:pointer;
@@ -171,20 +203,11 @@
       -webkit-appearance:none;
       appearance:none;
       transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
-    }
-
-    .primaryBtn{
       background: var(--btnPrimaryBg);
       color: var(--btnPrimaryText);
     }
 
-    .ghostBtn{
-      background: var(--navBtnBg);
-      color: var(--text);
-    }
-
-    .primaryBtn:hover,
-    .ghostBtn:hover{
+    .primaryBtn:hover{
       transform: translateY(-1px);
     }
 
@@ -199,11 +222,20 @@
     }
 
     .miniCard{
+      display:block;
+      text-decoration:none;
+      color: var(--text);
       background: var(--cardBg);
       border:1px solid var(--cardBorder);
       border-radius:16px;
       padding:14px;
       box-shadow: var(--shadow);
+      transition: transform 120ms ease, border-color 120ms ease;
+    }
+
+    .miniCard:hover{
+      transform: translateY(-1px);
+      border-color: rgba(255,255,255,0.18);
     }
 
     .miniLabel{
@@ -534,6 +566,17 @@
         font-size: 26px;
       }
 
+      .toggleBar{
+        width:100%;
+        display:grid;
+        grid-template-columns:1fr 1fr;
+      }
+
+      .toggleBtn{
+        width:100%;
+        padding:0 10px;
+      }
+
       .searchWrap{
         flex-direction:column;
         align-items:stretch;
@@ -542,22 +585,21 @@
 
       .searchInput{
         width:100%;
-        height:38px !important;
-        min-height:38px !important;
-        max-height:38px !important;
+        height:38px;
+        min-height:38px;
+        max-height:38px;
         font-size:14px;
-        padding:0 12px !important;
+        padding:0 12px;
         border-radius:10px;
-        line-height:38px !important;
-        box-sizing:border-box !important;
+        line-height:38px;
+        box-sizing:border-box;
       }
 
-      .primaryBtn,
-      .ghostBtn{
+      .primaryBtn{
         width:100%;
-        height:38px !important;
-        min-height:38px !important;
-        max-height:38px !important;
+        height:38px;
+        min-height:38px;
+        max-height:38px;
         font-size:13px;
         border-radius:10px;
       }
@@ -596,6 +638,13 @@
           Search a set or player, jump into Checklist Vault or Print Run Vault, and keep up with new releases and the sets collectors are searching right now.
         </div>
 
+        <div class="toggleWrap">
+          <div class="toggleBar" role="tablist" aria-label="Search target">
+            <button class="toggleBtn active" type="button" id="toggleChecklist" aria-selected="true">Checklist Vault</button>
+            <button class="toggleBtn" type="button" id="togglePrintRun" aria-selected="false">Print Run Vault</button>
+          </div>
+        </div>
+
         <div class="searchWrap">
           <input
             id="homeSearch"
@@ -605,33 +654,32 @@
             autocomplete="off"
             enterkeyhint="search"
           />
-          <button class="primaryBtn" type="button" id="searchChecklistBtn">Search Checklist Vault</button>
-          <button class="ghostBtn" type="button" id="searchPrintRunBtn">Search Print Run Vault</button>
+          <button class="primaryBtn" type="button" id="searchPrimaryBtn">Search</button>
         </div>
 
-        <div class="searchNote">
-          Search from the homepage and jump directly into the tool you want to use.
+        <div class="searchNote" id="searchNote">
+          Search from the homepage and jump directly into Checklist Vault.
         </div>
       </div>
 
       <div class="heroAside">
-        <div class="miniCard">
+        <a class="miniCard" href="/checklists/?q=2026%20Topps%20Series%201">
           <div class="miniLabel">Trending</div>
           <div class="miniValue">2026 Topps Series 1</div>
           <div class="miniSub">Most searched by collectors right now.</div>
-        </div>
+        </a>
 
-        <div class="miniCard">
+        <a class="miniCard" href="/checklists/?q=2026%20Bowman%E2%80%99s%20Best">
           <div class="miniLabel">Just Added</div>
           <div class="miniValue">2026 Bowman’s Best</div>
           <div class="miniSub">New checklist and data now available.</div>
-        </div>
+        </a>
 
-        <div class="miniCard">
+        <a class="miniCard" href="/vault/?q=2026%20Topps%20Series%201">
           <div class="miniLabel">Checklist + Print Run</div>
           <div class="miniValue">Search both in one place</div>
           <div class="miniSub">Search full checklists and estimated print runs in one place.</div>
-        </div>
+        </a>
       </div>
     </section>
 
@@ -806,9 +854,30 @@
       setTimeout(hideOverlay, 1800);
 
       var input = document.getElementById("homeSearch");
-      var checklistBtn = document.getElementById("searchChecklistBtn");
-      var printRunBtn = document.getElementById("searchPrintRunBtn");
+      var primaryBtn = document.getElementById("searchPrimaryBtn");
       var continueList = document.getElementById("continueExploringList");
+      var toggleChecklist = document.getElementById("toggleChecklist");
+      var togglePrintRun = document.getElementById("togglePrintRun");
+      var searchNote = document.getElementById("searchNote");
+
+      var activeTarget = "checklists";
+
+      function setTarget(target) {
+        activeTarget = target === "vault" ? "vault" : "checklists";
+
+        if (toggleChecklist && togglePrintRun) {
+          toggleChecklist.classList.toggle("active", activeTarget === "checklists");
+          togglePrintRun.classList.toggle("active", activeTarget === "vault");
+          toggleChecklist.setAttribute("aria-selected", activeTarget === "checklists" ? "true" : "false");
+          togglePrintRun.setAttribute("aria-selected", activeTarget === "vault" ? "true" : "false");
+        }
+
+        if (searchNote) {
+          searchNote.textContent = activeTarget === "vault"
+            ? "Search from the homepage and jump directly into Print Run Vault."
+            : "Search from the homepage and jump directly into Checklist Vault.";
+        }
+      }
 
       function cleanQuery(value) {
         return (value || "").replace(/\s+/g, " ").trim();
@@ -853,37 +922,48 @@
         } catch (e) {}
       }
 
-      function goToChecklist() {
+      function runSearch() {
         var query = cleanQuery(input ? input.value : "");
-        if (query) {
-          saveRecentSearch(query, "checklists");
-          location.href = "/checklists/?q=" + encodeURIComponent(query);
+        if (!query) {
+          location.href = activeTarget === "vault" ? "/vault/" : "/checklists/";
           return;
         }
-        location.href = "/checklists/";
-      }
 
-      function goToPrintRun() {
-        var query = cleanQuery(input ? input.value : "");
-        if (query) {
-          saveRecentSearch(query, "vault");
+        saveRecentSearch(query, activeTarget);
+
+        if (activeTarget === "vault") {
           location.href = "/vault/?q=" + encodeURIComponent(query);
-          return;
+        } else {
+          location.href = "/checklists/?q=" + encodeURIComponent(query);
         }
-        location.href = "/vault/";
       }
 
-      if (checklistBtn) checklistBtn.addEventListener("click", goToChecklist);
-      if (printRunBtn) printRunBtn.addEventListener("click", goToPrintRun);
+      if (toggleChecklist) {
+        toggleChecklist.addEventListener("click", function () {
+          setTarget("checklists");
+        });
+      }
+
+      if (togglePrintRun) {
+        togglePrintRun.addEventListener("click", function () {
+          setTarget("vault");
+        });
+      }
+
+      if (primaryBtn) {
+        primaryBtn.addEventListener("click", runSearch);
+      }
 
       if (input) {
         input.addEventListener("keydown", function (e) {
           if (e.key === "Enter") {
             e.preventDefault();
-            goToChecklist();
+            runSearch();
           }
         });
       }
+
+      setTarget("checklists");
 
       try {
         var recents = JSON.parse(localStorage.getItem("cm_recent_searches") || "[]");
