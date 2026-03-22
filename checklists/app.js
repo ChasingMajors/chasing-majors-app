@@ -1,177 +1,68 @@
-const DEFAULT_API_BASE = "https://script.google.com/macros/s/AKfycbxBQAG6Mw_9CBNMDWdkxdiNieVDAYwvkA-KQ9qD9oEviitwkMcmykTHmuBrzGXp5fB8/exec";
+/* =========================================
+   Checklist Vault — app.js
+   Mirrors Print Run Vault UX
+   Adds:
+   - Sport picker
+   - Instant local product autocomplete
+   - Remote SearchIndex enrichment
+   - Broader checklist search
+   - Product section tabs
+   - Base default view
+   - Card No sorting
+   - Subset grouping for Inserts/Autographs/Relics/Variations
+   - Broad search paging
+   - Parallels support from Google Sheets Parallels tab
+   - Baseball hitter player stat card support
+========================================= */
 
-const state = {
-  apiBase: DEFAULT_API_BASE,
-  sport: "baseball",
+// ---------------- CONFIG ----------------
+const EXEC_URL = "https://script.google.com/macros/s/AKfycbykZNU_6ePqR6vLOiM86TIN6xE4I-mOhS9Jg3YVEJPndr_19LNLv1SW0LC3wMLX37n5/exec";
 
-  // search
+const INDEX_KEY = "cv_index_v1";
+const INDEX_VER_KEY = "cv_index_ver_v1";
+const THEME_KEY = "cm_theme";
+const BROAD_PAGE_SIZE = 50;
+
+// ---------------- DOM ----------------
+const elQ = document.getElementById("q");
+const elDD = document.getElementById("dropdown");
+const elResults = document.getElementById("results");
+const elThemeBtn = document.getElementById("themeToggle");
+const elSport = document.getElementById("sport");
+const elBtnSearch = document.getElementById("btnSearch");
+const elBtnClear = document.getElementById("btnClear");
+
+// ---------------- STATE ----------------
+let INDEX = [];
+let selected = null;
+let searchTimer = null;
+let activeTypeaheadToken = 0;
+
+let currentProductMeta = null;
+let currentProductRows = [];
+let currentProductParallels = [];
+let currentProductTab = "Base";
+let currentPlayerStats = null;
+
+let broadSearchState = {
   q: "",
-  searchOffset: 0,
-  searchLimit: 25,
-  searchHasMore: false,
-  searchShown: 0,
-
-  // set view
-  setCode: "",
-  setSummary: null,
-  activeTab: "Base",
-
-  // base paging (client-side)
-  baseOffset: 0,
-  baseLimit: 150,
-  baseAll: [],
-
-  // tab visibility
-  hasBaseParallels: true,
-
-  // typeahead
-  taTimer: null,
-  taItems: [],
-  taCache: new Map(),
-  taAbort: null,
-
-  // local product index
-  productIndexBySport: {},
-  productIndexPromises: {},
-
-  // browse modal
-  browse: {
-    q: "",
-    offset: 0,
-    limit: 50,
-    hasMore: false,
-    shown: 0,
-    debounce: null,
-  },
-
-  theme: "dark",
+  sport: "",
+  page: 1,
+  pageSize: BROAD_PAGE_SIZE,
+  total: 0,
+  totalPages: 0
 };
 
-const TAB_ORDER = ["Base", "Base Parallels", "Inserts", "Autographs", "Relics", "Variations"];
-
-const TAB_TO_SECTIONS = {
-  "Base": ["Base"],
-  "Inserts": ["Insert"],
-  "Autographs": ["Autograph", "Auto Relic"],
-  "Relics": ["Relic"],
-  "Variations": ["Variation"],
-};
-
-const $ = (id) => document.getElementById(id);
-
-function qs(params) {
-  const sp = new URLSearchParams();
-  Object.entries(params).forEach(([k, v]) => {
-    if (v === null || v === undefined) return;
-    const s = String(v);
-    if (s === "") return;
-    sp.set(k, s);
-  });
-  return sp.toString();
-}
-
-async function fetchJson(route, params, opts = {}) {
-  const url = `${state.apiBase}?${qs({ route, ...params })}`;
-  const res = await fetch(url, { cache: "no-store", signal: opts.signal });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return await res.json();
-}
-
-function productIndexStorageKey(sport) {
-  return `cm_product_index_${sport}`;
-}
-
-async function ensureProductIndexLoaded(sport = state.sport) {
-  if (state.productIndexBySport[sport]?.length) return state.productIndexBySport[sport];
-
-  if (state.productIndexPromises[sport]) {
-    return state.productIndexPromises[sport];
-  }
-
-  state.productIndexPromises[sport] = (async () => {
-    const storageKey = productIndexStorageKey(sport);
-
-    try {
-      const cached = localStorage.getItem(storageKey);
-      if (cached) {
-        const parsed = JSON.parse(cached);
-        if (Array.isArray(parsed) && parsed.length) {
-          state.productIndexBySport[sport] = parsed;
-          return parsed;
-        }
-      }
-    } catch (_) {}
-
-    const j = await fetchJson("product_index", { sport });
-    const items = j?.ok ? (j.items || []) : [];
-
-    state.productIndexBySport[sport] = items;
-
-    try {
-      localStorage.setItem(storageKey, JSON.stringify(items));
-    } catch (_) {}
-
-    return items;
-  })();
-
-  try {
-    return await state.productIndexPromises[sport];
-  } finally {
-    delete state.productIndexPromises[sport];
-  }
-}
-
-function logProductView(selectedName, code) {
-  const url = `${state.apiBase}?${qs({
-    route: "log_view",
-    selectedName,
-    code,
-    sport: state.sport
-  })}`;
-
-  fetch(url, { cache: "no-store" }).catch(() => {});
-}
-
-function escapeHtml(s) {
-  return String(s || "")
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;")
-    .replaceAll('"',"&quot;")
-    .replaceAll("'","&#039;");
-}
-
-function normalizeSearchLocal(s) {
-  return String(s || "")
-    .toLowerCase()
-    .replace(/[_-]+/g, " ")
-    .replace(/([a-z])(\d)/g, "$1 $2")
-    .replace(/(\d)([a-z])/g, "$1 $2")
-    .replace(/[^\w\s]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function tagsToBadges(tagsCell) {
-  const t = String(tagsCell || "").trim();
-  if (!t) return "";
-  const tags = t.split("|").map(x => x.trim().toUpperCase()).filter(Boolean);
-  return tags.map(x => `<span class="badge">${escapeHtml(x)}</span>`).join("");
-}
-
-/* ---------------------------
-   Theme toggle
----------------------------- */
-
+// ---------------- THEME ----------------
 function setTheme(theme) {
-  state.theme = theme === "light" ? "light" : "dark";
-  document.documentElement.setAttribute("data-theme", state.theme);
-  localStorage.setItem("cm_theme", state.theme);
+  const t = theme === "light" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", t);
+  localStorage.setItem(THEME_KEY, t);
 
-  const icon = $("themeIcon");
+  const icon = document.getElementById("themeIcon");
   if (!icon) return;
 
-  if (state.theme === "dark") {
+  if (t === "dark") {
     icon.innerHTML = `<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>`;
   } else {
     icon.innerHTML = `
@@ -185,907 +76,1157 @@ function setTheme(theme) {
 }
 
 function loadTheme() {
-  const saved = localStorage.getItem("cm_theme");
-  if (saved === "light" || saved === "dark") return setTheme(saved);
-  setTheme("dark");
+  const saved = localStorage.getItem(THEME_KEY);
+  if (saved === "light" || saved === "dark") setTheme(saved);
+  else setTheme("dark");
 }
 
-/* ---------------------------
-   NATURAL SORT
----------------------------- */
+if (elThemeBtn) {
+  elThemeBtn.addEventListener("click", () => {
+    const cur = document.documentElement.getAttribute("data-theme") || "dark";
+    setTheme(cur === "dark" ? "light" : "dark");
 
-function naturalCompare(a, b) {
-  const ax = String(a || "").toUpperCase().match(/(\d+|\D+)/g) || [];
-  const bx = String(b || "").toUpperCase().match(/(\d+|\D+)/g) || [];
-  const n = Math.max(ax.length, bx.length);
-
-  for (let i = 0; i < n; i++) {
-    const x = ax[i] ?? "";
-    const y = bx[i] ?? "";
-    const xNum = /^\d+$/.test(x);
-    const yNum = /^\d+$/.test(y);
-
-    if (xNum && yNum) {
-      const xi = parseInt(x, 10);
-      const yi = parseInt(y, 10);
-      if (xi !== yi) return xi - yi;
-      if (x.length !== y.length) return x.length - y.length;
-    } else {
-      if (x !== y) return x < y ? -1 : 1;
+    if (currentProductMeta && currentProductRows.length) {
+      renderCurrentProductTab();
+    } else if (broadSearchState.q) {
+      runBroadSearch(
+        broadSearchState.q,
+        broadSearchState.sport,
+        broadSearchState.page
+      );
     }
+  });
+}
+
+// ---------------- HELPERS ----------------
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, m => ({
+    "&":"&amp;",
+    "<":"&lt;",
+    ">":"&gt;",
+    '"':"&quot;",
+    "'":"&#39;"
+  }[m]));
+}
+
+function norm(s) {
+  return String(s ?? "").trim();
+}
+
+function lower(s) {
+  return norm(s).toLowerCase();
+}
+
+function fmtType(type) {
+  const t = lower(type);
+  if (!t) return "Result";
+  return t.charAt(0).toUpperCase() + t.slice(1);
+}
+
+function getSportValue() {
+  return elSport ? elSport.value : "";
+}
+
+function debounce(fn, wait = 80) {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(fn, wait);
+}
+
+function setLoadingState(isLoading) {
+  if (elBtnSearch) {
+    elBtnSearch.disabled = !!isLoading;
+    elBtnSearch.textContent = isLoading ? "Loading..." : "Search";
   }
-  return 0;
 }
 
-function compareCardsByCardNo(a, b) {
-  const ac = String(a?.card_no || "").trim();
-  const bc = String(b?.card_no || "").trim();
+function sortByDisplayPriority(items) {
+  const typeRank = {
+    product: 1,
+    player: 2,
+    team: 3,
+    subset: 4,
+    section: 5,
+    tag: 6
+  };
 
-  if (!ac && !bc) return 0;
-  if (!ac) return 1;
-  if (!bc) return -1;
+  return items.slice().sort((a, b) => {
+    const aRank = typeRank[lower(a.type)] || 99;
+    const bRank = typeRank[lower(b.type)] || 99;
+    if (aRank !== bRank) return aRank - bRank;
 
-  const c = naturalCompare(ac, bc);
-  if (c !== 0) return c;
+    const aYear = Number(a.year) || 0;
+    const bYear = Number(b.year) || 0;
+    if (bYear !== aYear) return bYear - aYear;
 
-  const ap = String(a?.player || "").toUpperCase();
-  const bp = String(b?.player || "").toUpperCase();
-  if (ap !== bp) return ap < bp ? -1 : 1;
-
-  return 0;
+    return String(a.term || a.displayName || "").localeCompare(String(b.term || b.displayName || ""));
+  });
 }
 
-/* ---------------------------
-   API status
----------------------------- */
+function getThemeVars() {
+  const isLight = document.documentElement.getAttribute("data-theme") === "light";
 
-function setApi(ok, text) {
-  const el = $("apiPill");
-  if (!el) return;
-  el.textContent = text;
-  el.style.borderColor = ok ? "#10b981" : "#ef4444";
+  return {
+    pillBg: isLight ? "rgba(0,0,0,0.04)" : "rgba(255,255,255,0.04)",
+    pillBorder: isLight ? "rgba(0,0,0,0.12)" : "rgba(255,255,255,0.12)",
+    pillText: isLight ? "#0b0b0b" : "#ffffff",
+    pillActiveBg: isLight ? "#111111" : "rgba(255,255,255,0.96)",
+    pillActiveText: isLight ? "#ffffff" : "#000000",
+    badgeBg: isLight ? "rgba(0,0,0,0.04)" : "rgba(255,255,255,0.08)",
+    badgeBorder: isLight ? "rgba(0,0,0,0.12)" : "rgba(255,255,255,0.14)",
+    badgeText: isLight ? "rgba(0,0,0,0.78)" : "rgba(255,255,255,0.86)",
+    subText: isLight ? "rgba(0,0,0,0.70)" : "rgba(255,255,255,0.78)",
+    divider: isLight ? "rgba(0,0,0,0.10)" : "rgba(255,255,255,0.10)"
+  };
 }
 
-async function checkHealth() {
-  try {
-    const j = await fetchJson("health", {});
-    setApi(!!j.ok, j.ok ? "API: OK" : "API: error");
-  } catch {
-    setApi(false, "API: offline");
+function fmtUpdatedDate(value) {
+  if (!value) return "";
+
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return esc(value);
+
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  return `Updated ${months[d.getMonth()]} ${d.getDate()} ${d.getFullYear()}`;
+}
+
+function fmtBaseballRateStat(value) {
+  const s = norm(value);
+  if (!s) return "—";
+
+  const n = Number(s);
+  if (!Number.isFinite(n)) return s;
+
+  const fixed = n.toFixed(3);
+  if (n >= 1) return fixed;
+  return fixed.replace(/^0/, "");
+}
+
+function toCardNoSortValue(v) {
+  const s = norm(v);
+  if (!s) return [2, "", ""];
+
+  const n = Number(s);
+  if (Number.isFinite(n)) return [0, n, s];
+
+  const m = s.match(/^(\d+)(.*)$/);
+  if (m) {
+    return [1, Number(m[1]), s.toLowerCase()];
   }
+
+  return [2, s.toLowerCase(), s.toLowerCase()];
 }
 
-/* ---------------------------
-   Local storage (sport only)
----------------------------- */
+function sortRowsByCardNo(rows) {
+  return rows.slice().sort((a, b) => {
+    const av = toCardNoSortValue(a.card_no);
+    const bv = toCardNoSortValue(b.card_no);
 
-function saveLocal() {
-  localStorage.setItem("cm_sport", state.sport);
+    if (av[0] !== bv[0]) return av[0] - bv[0];
+    if (av[1] < bv[1]) return -1;
+    if (av[1] > bv[1]) return 1;
+
+    const ap = lower(a.player);
+    const bp = lower(b.player);
+    if (ap < bp) return -1;
+    if (ap > bp) return 1;
+
+    return 0;
+  });
 }
 
-function loadLocal() {
-  state.sport = localStorage.getItem("cm_sport") || "baseball";
-  const sportEl = $("sport");
-  if (sportEl) sportEl.value = state.sport;
+function normalizeSectionName(section) {
+  return lower(section).replace(/\s+/g, " ").trim();
 }
 
-/* ---------------------------
-   Typeahead
----------------------------- */
+function getParallelSectionKeys(tabKey) {
+  const t = lower(tabKey);
 
-function closeTypeahead() {
-  const box = $("typeahead");
-  if (!box) return;
-  box.style.display = "none";
-  box.innerHTML = "";
-  state.taItems = [];
+  if (t === "base") return ["base"];
+  if (t === "inserts") return ["insert"];
+  if (t === "autographs") return ["autograph", "auto relic"];
+  if (t === "relics") return ["relic"];
+  if (t === "variations") return ["variation"];
+
+  return [t];
 }
 
-function openTypeahead(items) {
-  const box = $("typeahead");
-  if (!box) return;
-
-  if (!items || !items.length) return closeTypeahead();
-
-  state.taItems = items;
-
-  const html = items.slice(0, 8).map((p, idx) => {
-    const release = escapeHtml(p.release_name || p.product || p.code || "Unknown set");
-    const year = escapeHtml(p.year || "");
-    const manu = escapeHtml(p.manufacturer || "");
-    const code = escapeHtml(p.code || "");
-    const sub = [year, manu, code].filter(Boolean).join(" • ");
-    return `
-      <div class="typeaheadItem" data-idx="${idx}">
-        <div class="typeaheadTitle">${release}</div>
-        <div class="typeaheadSub">${sub}</div>
-      </div>
-    `;
-  }).join("");
-
-  box.innerHTML = html;
-  box.style.display = "block";
-
-  box.querySelectorAll(".typeaheadItem").forEach(el => {
-    el.addEventListener("mousedown", async (e) => {
-      const idx = parseInt(el.getAttribute("data-idx") || "0", 10);
-      const item = state.taItems[idx];
-      closeTypeahead();
-      if (item?.code) {
-        await openSetByCode(item.code);
-        $("search").value = "";
+function getTabConfig() {
+  return [
+    {
+      key: "Base",
+      match: row => normalizeSectionName(row.section) === "base"
+    },
+    {
+      key: "Inserts",
+      match: row => normalizeSectionName(row.section) === "insert"
+    },
+    {
+      key: "Autographs",
+      match: row => {
+        const s = normalizeSectionName(row.section);
+        return s === "autograph" || s === "auto relic";
       }
-      e.preventDefault();
-    });
-  });
-}
-
-async function fetchProductSuggestions(q) {
-  const key = `${state.sport}|${q.toLowerCase()}`;
-  if (state.taCache.has(key)) return state.taCache.get(key);
-
-  const index = await ensureProductIndexLoaded(state.sport);
-  const qNorm = normalizeSearchLocal(q);
-
-  const scored = index
-    .map(item => {
-      const release = normalizeSearchLocal(item.release_name || "");
-      const product = normalizeSearchLocal(item.product || "");
-      const code = normalizeSearchLocal(item.code || "");
-      const keywords = normalizeSearchLocal(item.keywords || "");
-      const manufacturer = normalizeSearchLocal(item.manufacturer || "");
-
-      const blob = `${release} ${product} ${code} ${keywords} ${manufacturer}`.trim();
-
-      let score = 999;
-
-      if (release === qNorm) score = 0;
-      else if (product === qNorm) score = 1;
-      else if (release.startsWith(qNorm)) score = 2;
-      else if (product.startsWith(qNorm)) score = 3;
-      else if (keywords.includes(qNorm)) score = 4;
-      else if (blob.startsWith(qNorm)) score = 5;
-      else if (blob.includes(qNorm)) score = 6;
-      else return null;
-
-      return { item, score };
-    })
-    .filter(Boolean)
-    .sort((a, b) => {
-      if (a.score !== b.score) return a.score - b.score;
-      const ay = Number(a.item.year || 0);
-      const by = Number(b.item.year || 0);
-      if (ay !== by) return by - ay;
-      return String(a.item.release_name || "").localeCompare(String(b.item.release_name || ""));
-    })
-    .slice(0, 10)
-    .map(x => x.item);
-
-  state.taCache.set(key, scored);
-  return scored;
-}
-
-function scheduleTypeahead() {
-  clearTimeout(state.taTimer);
-  state.taTimer = setTimeout(async () => {
-    const q = ($("search").value || "").trim();
-    if (q.length < 2) return closeTypeahead();
-    if (q.includes("_")) return closeTypeahead();
-
-    try {
-      const items = await fetchProductSuggestions(q);
-      openTypeahead(items);
-    } catch {
-      closeTypeahead();
+    },
+    {
+      key: "Relics",
+      match: row => normalizeSectionName(row.section) === "relic"
+    },
+    {
+      key: "Variations",
+      match: row => normalizeSectionName(row.section) === "variation"
     }
-  }, 80);
+  ];
 }
 
-async function warmTypeaheadOnce() {
-  try {
-    await ensureProductIndexLoaded(state.sport);
-  } catch {}
+function getAvailableTabs(rows) {
+  return getTabConfig()
+    .filter(tab => rows.some(tab.match))
+    .map(tab => ({ key: tab.key }));
 }
 
-/* ---------------------------
-   Search grouped
----------------------------- */
-
-function setSearchPills() {
-  const pill = $("countPill");
-  if (!pill) return;
-  pill.style.display = "inline-flex";
-  pill.textContent = `${state.searchShown} results`;
-  $("moreSearch").style.display = state.searchHasMore ? "inline-flex" : "none";
+function filterRowsForTab(rows, tabKey) {
+  const tab = getTabConfig().find(t => t.key === tabKey);
+  if (!tab) return [];
+  return sortRowsByCardNo(rows.filter(tab.match));
 }
 
-function groupSearchItems(items) {
-  const byCode = new Map();
+function makeTagBubble(tag) {
+  const t = norm(tag);
+  if (!t) return "";
 
-  items.forEach(it => {
-    const code = String(it.code || "").trim() || "[Unknown set]";
-    const subset = String(it.subset || "").trim() || "[Unspecified]";
-    if (!byCode.has(code)) byCode.set(code, new Map());
-    const bySubset = byCode.get(code);
-    if (!bySubset.has(subset)) bySubset.set(subset, []);
-    bySubset.get(subset).push(it);
+  const vars = getThemeVars();
+
+  return `
+    <span style="
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:2px 8px;
+      min-height:22px;
+      border-radius:999px;
+      font-size:12px;
+      font-weight:700;
+      line-height:1;
+      background:${vars.badgeBg};
+      border:1px solid ${vars.badgeBorder};
+      color:${vars.badgeText};
+      white-space:nowrap;
+    ">${esc(t)}</span>
+  `;
+}
+
+function normalizeSubsetName(subset, fallbackLabel) {
+  const s = norm(subset);
+  return s || fallbackLabel;
+}
+
+function groupRowsBySubset(rows, fallbackLabel) {
+  const map = new Map();
+
+  rows.forEach(row => {
+    const subsetName = normalizeSubsetName(row.subset, fallbackLabel);
+    if (!map.has(subsetName)) {
+      map.set(subsetName, []);
+    }
+    map.get(subsetName).push(row);
   });
 
-  const codes = Array.from(byCode.keys()).sort((a,b) => a.localeCompare(b));
+  const groups = Array.from(map.entries()).map(([subset, groupRows]) => ({
+    subset,
+    rows: sortRowsByCardNo(groupRows)
+  }));
+
+  groups.sort((a, b) => {
+    const aIsBase = lower(a.subset) === "[base]" || lower(a.subset) === "base";
+    const bIsBase = lower(b.subset) === "[base]" || lower(b.subset) === "base";
+
+    if (aIsBase && !bIsBase) return -1;
+    if (!aIsBase && bIsBase) return 1;
+
+    return lower(a.subset).localeCompare(lower(b.subset));
+  });
+
+  return groups;
+}
+
+function getSerialSortValue(serialNo) {
+  const s = norm(serialNo);
+  if (!s) return null;
+
+  const m = s.match(/\/\s*(\d+)/);
+  if (!m) return null;
+
+  const n = Number(m[1]);
+  return Number.isFinite(n) ? n : null;
+}
+
+function sortParallels(parallels) {
+  const nonSerial = [];
+  const serial = [];
+
+  parallels.forEach(p => {
+    const serialVal = getSerialSortValue(p.serial_no);
+
+    if (serialVal === null) {
+      nonSerial.push(p);
+    } else {
+      serial.push({
+        ...p,
+        _serialVal: serialVal
+      });
+    }
+  });
+
+  nonSerial.sort((a, b) => lower(a.parallel_name).localeCompare(lower(b.parallel_name)));
+
+  serial.sort((a, b) => {
+    if (b._serialVal !== a._serialVal) return b._serialVal - a._serialVal;
+    return lower(a.parallel_name).localeCompare(lower(b.parallel_name));
+  });
+
+  return [...nonSerial, ...serial];
+}
+
+function getParallelsForSectionSubset(section, subset) {
+  const targetSections = Array.isArray(section)
+    ? section.map(lower)
+    : [lower(section)];
+  const targetSubset = lower(subset);
+
+  return currentProductParallels.filter(p => {
+    const sec = lower(p.applies_to_section);
+    const sub = lower(p.applies_to_subset);
+
+    const secMatch = !sec || targetSections.includes(sec);
+    const subsetMatch = !sub || sub === targetSubset;
+
+    return secMatch && subsetMatch;
+  });
+}
+
+function renderParallelsList(parallels) {
+  if (!parallels || !parallels.length) return "";
+
+  const sorted = sortParallels(parallels);
+
+  return `
+    <div style="margin-bottom:12px;">
+      <div style="font-weight:700;margin-bottom:4px;">Parallels:</div>
+      <ul style="margin:0;padding-left:18px;">
+        ${sorted.map(p => `
+          <li>
+            ${esc(p.parallel_name)}
+            ${p.serial_no ? ` ${esc(p.serial_no)}` : ""}
+          </li>
+        `).join("")}
+      </ul>
+    </div>
+  `;
+}
+
+function renderMiniStat(label, value, extraClass = "") {
+  const vars = getThemeVars();
+
+  return `
+    <div class="${extraClass}" style="
+      border:1px solid ${vars.divider};
+      border-radius:14px;
+      padding:10px 12px;
+      min-width:0;
+    ">
+      <div style="font-size:11px;letter-spacing:.4px;text-transform:uppercase;color:${vars.subText};margin-bottom:4px;">
+        ${esc(label)}
+      </div>
+      <div style="font-size:18px;font-weight:800;line-height:1;">
+        ${esc(value || "—")}
+      </div>
+    </div>
+  `;
+}
+
+function renderPlayerStatsCard(player) {
+  if (!player) return "";
+
+  const vars = getThemeVars();
+
+  return `
+    <div class="card" style="margin-bottom:12px;">
+      <div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap;">
+        <div>
+          <div style="font-weight:800;font-size:20px;line-height:1.15;margin-bottom:4px;">${esc(player.player)}</div>
+          <div style="color:${vars.subText};font-size:13px;">
+            Baseball Player Snapshot
+          </div>
+        </div>
+
+        <div class="playerUpdated" style="
+          align-items:center;
+          justify-content:center;
+          padding:6px 12px;
+          border-radius:999px;
+          font-size:13px;
+          font-weight:700;
+          background:${vars.badgeBg};
+          border:1px solid ${vars.badgeBorder};
+          color:${vars.badgeText};
+          white-space:nowrap;
+        ">
+          ${fmtUpdatedDate(player.updated_at)}
+        </div>
+      </div>
+
+      <div style="margin-top:14px;">
+        <div style="font-weight:700;margin-bottom:8px;">Current Season</div>
+        <div class="playerStatsGrid" style="margin-bottom:16px;">
+          ${renderMiniStat("WAR", player.season.war)}
+          ${renderMiniStat("H", player.season.h)}
+          ${renderMiniStat("HR", player.season.hr)}
+          ${renderMiniStat("BA", fmtBaseballRateStat(player.season.ba))}
+          ${renderMiniStat("OPS", fmtBaseballRateStat(player.season.ops), "desktopOnly")}
+        </div>
+
+        <div style="font-weight:700;margin-bottom:8px;">Career</div>
+        <div class="playerStatsGrid">
+          ${renderMiniStat("WAR", player.career.war)}
+          ${renderMiniStat("H", player.career.h)}
+          ${renderMiniStat("HR", player.career.hr)}
+          ${renderMiniStat("BA", fmtBaseballRateStat(player.career.ba))}
+          ${renderMiniStat("OPS", fmtBaseballRateStat(player.career.ops), "desktopOnly")}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// ---------------- API ----------------
+async function api(action, payload = {}) {
+  const res = await fetch(EXEC_URL, {
+    method: "POST",
+    headers: { "Content-Type": "text/plain;charset=utf-8" },
+    body: JSON.stringify({ action, payload })
+  });
+
+  const data = await res.json();
+
+  if (!data || data.ok === false) {
+    throw new Error(data?.error || "Request failed");
+  }
+
+  return data;
+}
+
+// ---------------- INDEX CACHE ----------------
+function loadCachedIndex_() {
+  const cached = localStorage.getItem(INDEX_KEY);
+  if (!cached) return [];
+  try {
+    return JSON.parse(cached) || [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function storeIndex_(indexArr, versionStr) {
+  INDEX = Array.isArray(indexArr) ? indexArr : [];
+  localStorage.setItem(INDEX_KEY, JSON.stringify(INDEX));
+  if (versionStr) localStorage.setItem(INDEX_VER_KEY, String(versionStr));
+}
+
+async function ensureFreshIndex_() {
+  INDEX = loadCachedIndex_();
+  const forceRefresh = new URLSearchParams(location.search).get("refresh") === "1";
+
+  try {
+    const meta = await api("meta");
+    const remoteVer = meta && meta.ok ? String(meta.indexVersion || "") : "";
+    const localVer = localStorage.getItem(INDEX_VER_KEY) || "";
+
+    if (forceRefresh || !INDEX.length || (remoteVer && remoteVer !== localVer)) {
+      const d = await api("index");
+      const fresh = (d && d.ok && Array.isArray(d.index)) ? d.index : [];
+      storeIndex_(fresh, remoteVer || localVer);
+    }
+  } catch (e) {
+    console.warn("Index freshness check failed, using cache.", e);
+  }
+}
+
+// ---------------- INIT ----------------
+(async function init() {
+  loadTheme();
+  await ensureFreshIndex_();
+})();
+
+// ---------------- DROPDOWN ----------------
+function openDropdown(html) {
+  elDD.innerHTML = html;
+  elDD.style.display = "block";
+}
+
+function closeDropdown() {
+  elDD.style.display = "none";
+  elDD.innerHTML = "";
+}
+
+function dropdownItemHtml(item) {
+  const typeLabel = fmtType(item.type || "product");
+
+  return `
+    <div class="ddItem"
+         data-code="${esc(item.code || "")}"
+         data-sport="${esc(item.sport || "")}"
+         data-type="${esc(item.type || "product")}"
+         data-term="${esc(item.term || item.displayName || "")}">
+      <div class="ddTitle">${esc(item.term || item.displayName || "")}</div>
+      <div class="ddMeta">
+        ${esc(typeLabel)}
+        ${item.sport ? ` • ${esc(item.sport)}` : ""}
+        ${item.displayName && lower(item.term) !== lower(item.displayName) ? ` • ${esc(item.displayName)}` : ""}
+      </div>
+    </div>
+  `;
+}
+
+function bindDropdownItems(items) {
+  [...elDD.children].forEach((node, idx) => {
+    node.onclick = async () => {
+      const item = items[idx];
+      if (!item) return;
+
+      selected = item;
+      elQ.value = item.term || item.displayName || "";
+      closeDropdown();
+
+      if (lower(item.type) === "product" && item.code) {
+        logSelectionFireAndForget_({
+          DisplayName: item.displayName || item.term || "",
+          year: item.year || "",
+          sport: item.sport || ""
+        });
+
+        await runProductSearch(item.code, item.sport);
+      } else {
+        await runBroadSearch(item.term || elQ.value, item.sport || getSportValue(), 1);
+      }
+    };
+  });
+}
+
+function renderDropdownItems(items) {
+  if (!items || !items.length) {
+    closeDropdown();
+    return;
+  }
+
+  const sorted = sortByDisplayPriority(items);
+  openDropdown(sorted.map(dropdownItemHtml).join(""));
+  bindDropdownItems(sorted);
+}
+
+// ---------------- LOGGING ----------------
+function logSelectionFireAndForget_(sel) {
+  if (!sel) return;
+
+  api("logSearch", {
+    selectedName: sel.DisplayName || "",
+    year: sel.year || "",
+    sport: sel.sport || ""
+  }).catch(() => {});
+}
+
+// ---------------- LOCAL TYPEAHEAD ----------------
+function dedupeTypeaheadResults(rows) {
+  const seen = {};
   const out = [];
 
-  for (const code of codes) {
-    const bySubset = byCode.get(code);
-    const subsets = Array.from(bySubset.keys()).sort((a,b) => a.localeCompare(b));
-    for (const subset of subsets) {
-      const arr = bySubset.get(subset) || [];
-      arr.sort(compareCardsByCardNo);
-      out.push({ code, subset, items: arr });
-    }
-  }
+  rows.forEach(r => {
+    const key = [
+      lower(r.type),
+      lower(r.sport),
+      lower(r.code),
+      lower(r.term)
+    ].join("||");
+
+    if (seen[key]) return;
+    seen[key] = true;
+    out.push(r);
+  });
 
   return out;
 }
 
-function renderSearchGrouped(items, append) {
-  const box = $("searchResults");
-  if (!append) box.innerHTML = "";
+function makeProductHitsFromLocalIndex(q, sport, limit = 8) {
+  const needle = lower(q);
 
-  const groups = groupSearchItems(items);
+  let rows = INDEX.slice();
 
-  const html = groups.map(g => {
-    const headerTitle = escapeHtml(g.subset === "[Unspecified]" ? g.code : `${g.code} • ${g.subset}`);
-    const sec = String(g.items?.[0]?.section || "").trim();
-    const meta = escapeHtml([sec, `${g.items.length} cards`].filter(Boolean).join(" • "));
-
-    const rows = g.items.map(r => {
-      const cardNo = escapeHtml(r.card_no || "");
-      const player = escapeHtml(r.player || "");
-      const team = escapeHtml(r.team || "");
-      const tags = tagsToBadges(r.tags);
-      return `<div class="r"><div class="rTop">${cardNo} ${player} — ${team}${tags}</div></div>`;
-    }).join("");
-
-    return `
-      <div class="r">
-        <div class="rTop" style="font-weight:950;">${headerTitle}</div>
-        <div class="rSub">${meta}</div>
-      </div>
-      ${rows}
-    `;
-  }).join("");
-
-  if (append) box.insertAdjacentHTML("beforeend", html);
-  else box.innerHTML = html;
-}
-
-async function searchCardsPage(append) {
-  const j = await fetchJson("search_cards", {
-    sport: state.sport,
-    q: state.q,
-    limit: state.searchLimit,
-    offset: state.searchOffset
-  });
-
-  if (!j.ok) {
-    $("searchResults").style.display = "block";
-    $("searchResults").innerHTML =
-      `<div class="r"><div class="rTop">Search failed</div><div class="rSub">${escapeHtml(j.error || "Unknown error")}</div></div>`;
-    state.searchHasMore = false;
-    $("moreSearch").style.display = "none";
-    return;
+  if (sport) {
+    rows = rows.filter(r => lower(r.sport) === lower(sport));
   }
 
-  const items = (j.items || []).slice();
+  const exact = [];
+  const starts = [];
+  const contains = [];
 
-  if (!append) state.searchShown = 0;
+  rows.forEach(r => {
+    const displayName = lower(r.DisplayName);
+    const keywords = lower(r.Keywords);
+    const code = lower(r.Code);
+    const hay = `${displayName} | ${keywords} | ${code}`;
 
-  if (!items.length && !append) {
-    $("searchResults").style.display = "block";
-    $("searchResults").innerHTML =
-      `<div class="r"><div class="rTop">No results yet. Run a search.</div></div>`;
-    state.searchHasMore = false;
-    $("countPill").style.display = "none";
-    $("moreSearch").style.display = "none";
-    return;
-  }
+    if (!hay.includes(needle)) return;
 
-  $("searchResults").style.display = "block";
-  renderSearchGrouped(items, append);
-
-  state.searchShown += items.length;
-  state.searchHasMore = !!j.has_more;
-  setSearchPills();
-}
-
-async function doMoreSearch() {
-  state.searchOffset += state.searchLimit;
-  await searchCardsPage(true);
-}
-
-/* ---------------------------
-   Set view + tabs
----------------------------- */
-
-function secCountFromSummary(sectionName) {
-  const sec = (state.setSummary?.sections || []).find(x => x.section === sectionName);
-  return sec ? (sec.count || 0) : 0;
-}
-
-function countForTab(tabName) {
-  if (tabName === "Base") return secCountFromSummary("Base");
-  if (tabName === "Inserts") return secCountFromSummary("Insert");
-  if (tabName === "Relics") return secCountFromSummary("Relic");
-  if (tabName === "Variations") return secCountFromSummary("Variation");
-  if (tabName === "Autographs") return secCountFromSummary("Autograph") + secCountFromSummary("Auto Relic");
-  if (tabName === "Base Parallels") return state.hasBaseParallels ? 1 : 0;
-  return 1;
-}
-
-function isTabVisible(tabName) {
-  if (tabName === "Base") return true;
-  if (tabName === "Base Parallels") return countForTab(tabName) > 0;
-  if (tabName === "Inserts" || tabName === "Autographs" || tabName === "Relics" || tabName === "Variations") {
-    return countForTab(tabName) > 0;
-  }
-  return true;
-}
-
-function setSetHeader(countOverride) {
-  $("setCode").textContent = state.setCode;
-
-  const title = (state.activeTab === "Base") ? "Base Checklist"
-              : (state.activeTab === "Base Parallels") ? "Base Parallels"
-              : `${state.activeTab}`;
-
-  $("setTitle").textContent = title;
-
-  if (typeof countOverride === "number") {
-    $("setMeta").textContent = `${countOverride} Cards`;
-    return;
-  }
-
-  if (state.activeTab === "Base Parallels") {
-    $("setMeta").textContent = state.hasBaseParallels ? "Parallels" : "No parallels";
-    return;
-  }
-
-  $("setMeta").textContent = `${countForTab(state.activeTab)} Cards`;
-}
-
-function renderSetTabs() {
-  const el = $("setTabs");
-  el.innerHTML = "";
-
-  const visibleTabs = TAB_ORDER.filter(isTabVisible);
-  if (!visibleTabs.includes(state.activeTab)) state.activeTab = "Base";
-
-  visibleTabs.forEach(t => {
-    const b = document.createElement("button");
-    b.className = "tab" + (t === state.activeTab ? " active" : "");
-    b.textContent = t;
-    b.onclick = async () => {
-      state.activeTab = t;
-      renderSetTabs();
-      $("setBody").innerHTML = `<div class="r"><div class="rTop">Loading…</div></div>`;
-      await renderActiveTab();
+    const out = {
+      term: r.DisplayName,
+      type: "product",
+      sport: r.sport,
+      code: r.Code,
+      displayName: r.DisplayName,
+      year: r.year,
+      manufacturer: r.manufacturer,
+      product: r.product
     };
-    el.appendChild(b);
-  });
-}
 
-function formatParallelLine(p) {
-  const name = String(p.parallel_name || "").trim();
-  const sn = String(p.serial_no || "").trim();
-  return sn ? `${name} ${sn}` : name;
-}
-
-async function fetchParallelsFor(section, subset) {
-  const j = await fetchJson("parallels", {
-    sport: state.sport,
-    code: state.setCode,
-    section,
-    subset: subset || ""
-  });
-  if (!j.ok) return [];
-  return j.items || [];
-}
-
-async function fetchAllCardsForSection(sectionValue) {
-  const all = [];
-  let offset = 0;
-  const limit = 500;
-
-  while (true) {
-    const j = await fetchJson("cards", {
-      sport: state.sport,
-      code: state.setCode,
-      section: sectionValue,
-      limit,
-      offset
-    });
-
-    if (!j.ok) break;
-
-    const items = j.items || [];
-    all.push(...items);
-
-    const total = j.total || 0;
-    offset += limit;
-    if (all.length >= total) break;
-    if (offset > 30000) break;
-  }
-
-  return all;
-}
-
-function getTabSections(tabName) {
-  if (tabName === "Base Parallels") return ["Base"];
-  return TAB_TO_SECTIONS[tabName] || [tabName];
-}
-
-function groupBySubset(items) {
-  const map = new Map();
-  items.forEach(it => {
-    const subset = String(it.subset || "[Unspecified]").trim() || "[Unspecified]";
-    if (!map.has(subset)) map.set(subset, []);
-    map.get(subset).push(it);
+    if (displayName === needle || code === needle) exact.push(out);
+    else if (displayName.indexOf(needle) === 0 || keywords.indexOf(needle) === 0 || code.indexOf(needle) === 0) starts.push(out);
+    else contains.push(out);
   });
 
-  const keys = Array.from(map.keys()).sort((a,b) => a.localeCompare(b));
-  return keys.map(k => {
-    const arr = map.get(k) || [];
-    arr.sort(compareCardsByCardNo);
-    return { subset: k, items: arr };
-  });
+  return dedupeTypeaheadResults(exact.concat(starts, contains)).slice(0, limit);
 }
 
-function renderSubsetBlock(subsetName, cards, parallels, opts = {}) {
-  const count = cards.length;
-  const isAutoTab = !!opts.isAutoTab;
-  const subsetTitleSize = isAutoTab ? 18 : 16;
-
-  const parallelsHtml = parallels.length
-    ? `<div class="parTitle" style="margin-top:10px;">Parallels:</div>
-       <ul class="par" style="margin-top:6px;">${parallels.map(p => `<li>${escapeHtml(formatParallelLine(p))}</li>`).join("")}</ul>`
-    : `<div class="parTitle" style="margin-top:10px;">Parallels:</div>
-       <ul class="par" style="margin-top:6px;"><li>None listed.</li></ul>`;
-
-  const checklistHtml = (cards || []).map(c => {
-    const cardNo = String(c.card_no || "").trim();
-    const player = String(c.player || "").trim();
-    const team = String(c.team || "").trim();
-    const tags = tagsToBadges(c.tags);
-    const left = cardNo ? `${escapeHtml(cardNo)} ` : "";
-    const mid = player ? escapeHtml(player) : "";
-    const right = team ? ` — ${escapeHtml(team)}` : "";
-    return `<div class="r"><div class="rTop">${left}${mid}${right}${tags}</div></div>`;
-  }).join("");
-
-  return `
-    <div class="sectionBlock">
-      <div class="subsetTitle" style="font-size:${subsetTitleSize}px; font-weight:950; margin-top:12px;">${escapeHtml(subsetName)}</div>
-      <div class="subsetMeta">${count} Cards</div>
-
-      <div style="height:10px;"></div>
-      ${parallelsHtml}
-      <div style="height:12px;"></div>
-
-      <div class="resultsBox">
-        ${checklistHtml || `<div class="r"><div class="rTop">No cards found.</div></div>`}
-      </div>
-    </div>
-  `;
+function mergeTypeaheadResults(localHits, remoteHits, limit = 10) {
+  return dedupeTypeaheadResults([...(localHits || []), ...(remoteHits || [])]).slice(0, limit);
 }
 
-function renderBaseChunk(body) {
-  const start = state.baseOffset;
-  const end = Math.min(start + state.baseLimit, state.baseAll.length);
-  const slice = state.baseAll.slice(start, end);
+// ---------------- FAST AUTOCOMPLETE ----------------
+async function runTypeahead() {
+  const token = ++activeTypeaheadToken;
+  const q = norm(elQ.value);
+  const sport = getSportValue();
+  selected = null;
 
-  const listHtml = slice.map(it => {
-    const cardNo = escapeHtml(it.card_no || "");
-    const player = escapeHtml(it.player || "");
-    const team = escapeHtml(it.team || "");
-    const tags = tagsToBadges(it.tags);
-    return `<div class="r"><div class="rTop">${cardNo} ${player} — ${team}${tags}</div></div>`;
-  }).join("");
-
-  const shown = end;
-  const total = state.baseAll.length;
-
-  const box = body.querySelector(".resultsBox");
-  if (box) {
-    if (start === 0) box.innerHTML = listHtml || `<div class="r"><div class="rTop">No cards found.</div></div>`;
-    else box.insertAdjacentHTML("beforeend", listHtml);
-  }
-
-  const pill = body.querySelector(".btnRow .pill");
-  if (pill) pill.textContent = `${shown} / ${total}`;
-
-  const btn = document.getElementById("moreBase");
-  if (btn) {
-    if (shown >= total) btn.remove();
-    else btn.onclick = () => { state.baseOffset += state.baseLimit; renderBaseChunk(body); };
-  }
-}
-
-async function renderBaseChecklist() {
-  const body = $("setBody");
-  body.innerHTML = `<div class="r"><div class="rTop">Loading Base checklist…</div></div>`;
-
-  state.baseOffset = 0;
-  state.baseAll = [];
-
-  const all = await fetchAllCardsForSection("Base");
-  all.sort(compareCardsByCardNo);
-  state.baseAll = all;
-
-  setSetHeader(state.baseAll.length);
-
-  const parallels = await fetchParallelsFor("Base", "[Base]");
-  const parallelsHtml = parallels.length
-    ? `<div class="parTitle">Parallels:</div><ul class="par">${parallels.map(p => `<li>${escapeHtml(formatParallelLine(p))}</li>`).join("")}</ul>`
-    : `<div class="parTitle">Parallels:</div><ul class="par"><li>None listed.</li></ul>`;
-
-  body.innerHTML = `
-    ${parallelsHtml}
-    <div style="height:10px;"></div>
-    <div class="resultsBox"></div>
-    <div class="btnRow">
-      <button id="moreBase" class="btn btnGhost" style="display:${state.baseAll.length > state.baseLimit ? "inline-flex" : "none"}; width:auto; height:auto; padding:10px 14px;">Show more</button>
-      <div class="pill">${Math.min(state.baseLimit, state.baseAll.length)} / ${state.baseAll.length}</div>
-    </div>
-  `;
-
-  renderBaseChunk(body);
-}
-
-async function renderBaseParallelsOnly() {
-  const body = $("setBody");
-  body.innerHTML = `<div class="r"><div class="rTop">Loading Base parallels…</div></div>`;
-
-  const parallels = await fetchParallelsFor("Base", "[Base]");
-  setSetHeader();
-
-  body.innerHTML = parallels.length
-    ? `<div class="parTitle">Parallels:</div><ul class="par">${parallels.map(p => `<li>${escapeHtml(formatParallelLine(p))}</li>`).join("")}</ul>`
-    : `<div class="parTitle">Parallels:</div><ul class="par"><li>None listed.</li></ul>`;
-}
-
-async function renderRolledUpSection(tabName) {
-  const body = $("setBody");
-  body.innerHTML = `<div class="r"><div class="rTop">Loading ${escapeHtml(tabName)}…</div></div>`;
-
-  const sections = getTabSections(tabName);
-
-  const allCards = [];
-  for (const sec of sections) {
-    const items = await fetchAllCardsForSection(sec);
-    allCards.push(...items.map(x => ({ ...x, __source_section: sec })));
-  }
-
-  setSetHeader(allCards.length);
-
-  if (!allCards.length) {
-    body.innerHTML = `<div class="r"><div class="rTop">No cards found.</div></div>`;
+  if (q.length < 2) {
+    closeDropdown();
     return;
   }
 
-  const allPars = [];
-  for (const sec of sections) {
-    const pars = await fetchParallelsFor(sec, "");
-    allPars.push(...pars.map(p => ({ ...p, __source_section: sec })));
-  }
-
-  const grouped = groupBySubset(allCards);
-
-  const parBySubset = new Map();
-  allPars.forEach(p => {
-    const subset = String(p.applies_to_subset || p.subset || "[Unspecified]").trim() || "[Unspecified]";
-    if (!parBySubset.has(subset)) parBySubset.set(subset, []);
-    parBySubset.get(subset).push(p);
-  });
-
-  const isAutoTab = tabName === "Autographs";
-
-  const html = grouped.map(g => {
-    const pars = parBySubset.get(g.subset) || [];
-    return renderSubsetBlock(g.subset, g.items, pars, { isAutoTab });
-  }).join("");
-
-  body.innerHTML = html;
-}
-
-async function renderActiveTab() {
-  if (!state.setCode) return;
-  if (state.activeTab === "Base") return renderBaseChecklist();
-  if (state.activeTab === "Base Parallels") return renderBaseParallelsOnly();
-  return renderRolledUpSection(state.activeTab);
-}
-
-/* ---------------------------
-   Open set
----------------------------- */
-
-async function openSetByCode(code) {
-  closeTypeahead();
-
-  state.setCode = code;
-  state.activeTab = "Base";
-  state.baseAll = [];
-  state.baseOffset = 0;
-
-  $("setView").style.display = "block";
-  $("searchResults").style.display = "none";
-  $("moreSearch").style.display = "none";
-  $("countPill").style.display = "none";
-
-  $("setTitle").textContent = "Loading…";
-  $("setMeta").textContent = "Loading…";
-  $("setCode").textContent = code;
-  $("setBody").innerHTML = "";
-
-  const j = await fetchJson("summary", { sport: state.sport, code: state.setCode });
-  if (!j.ok) {
-    $("setBody").innerHTML = `<div class="r"><div class="rTop">Set load failed</div><div class="rSub">${escapeHtml(j.error || "")}</div></div>`;
-    return;
-  }
-
-  state.setSummary = j;
-
-  const selectedName = String(j.display_name || code).trim();
-  logProductView(selectedName, code);
+  const localHits = makeProductHitsFromLocalIndex(q, sport, 8);
+  renderDropdownItems(localHits);
 
   try {
-    const bp = await fetchParallelsFor("Base", "[Base]");
-    state.hasBaseParallels = (bp && bp.length > 0);
-  } catch {
-    state.hasBaseParallels = true;
+    const data = await api("searchIndex", {
+      q,
+      sport,
+      limit: 10
+    });
+
+    if (token !== activeTypeaheadToken) return;
+
+    const remoteHits = Array.isArray(data.results) ? data.results : [];
+    const merged = mergeTypeaheadResults(localHits, remoteHits, 10);
+
+    renderDropdownItems(merged);
+  } catch (e) {
+    console.warn("Remote SearchIndex typeahead failed; local suggestions still shown.", e);
+  }
+}
+
+elQ.addEventListener("input", () => {
+  debounce(() => {
+    runTypeahead();
+  }, 80);
+});
+
+document.addEventListener("click", (e) => {
+  const inSearch = e.target.closest(".searchWrap") || e.target.closest("#dropdown");
+  if (!inSearch) closeDropdown();
+});
+
+elQ.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    e.preventDefault();
+    closeDropdown();
+    runSearch();
+  }
+});
+
+// ---------------- BUTTONS ----------------
+if (elBtnSearch) {
+  elBtnSearch.onclick = runSearch;
+}
+
+if (elBtnClear) {
+  elBtnClear.onclick = () => {
+    elQ.value = "";
+    selected = null;
+    currentProductMeta = null;
+    currentProductRows = [];
+    currentProductParallels = [];
+    currentProductTab = "Base";
+    currentPlayerStats = null;
+    broadSearchState = {
+      q: "",
+      sport: "",
+      page: 1,
+      pageSize: BROAD_PAGE_SIZE,
+      total: 0,
+      totalPages: 0
+    };
+    closeDropdown();
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">No results yet. Run a search.</div>`;
+  };
+}
+
+if (elSport) {
+  elSport.addEventListener("change", () => {
+    selected = null;
+    closeDropdown();
+    if (norm(elQ.value).length >= 2) {
+      runTypeahead();
+    }
+  });
+}
+
+// ---------------- SEARCH ROUTER ----------------
+async function runSearch() {
+  const q = norm(elQ.value);
+  const sport = getSportValue();
+
+  if (!q) return;
+
+  if (selected && lower(selected.type) === "product" && selected.code) {
+    await runProductSearch(selected.code, selected.sport || sport);
+    return;
   }
 
-  renderSetTabs();
-  await renderActiveTab();
+  const localMatch = INDEX.find(i => {
+    const sameSport = !sport || lower(i.sport) === lower(sport);
+    if (!sameSport) return false;
+
+    const hay = `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase();
+    return hay.includes(q.toLowerCase());
+  });
+
+  if (localMatch) {
+    selected = {
+      type: "product",
+      code: localMatch.Code,
+      sport: localMatch.sport,
+      displayName: localMatch.DisplayName,
+      term: localMatch.DisplayName,
+      year: localMatch.year
+    };
+
+    logSelectionFireAndForget_({
+      DisplayName: localMatch.DisplayName || "",
+      year: localMatch.year || "",
+      sport: localMatch.sport || ""
+    });
+
+    await runProductSearch(localMatch.Code, localMatch.sport);
+    return;
+  }
+
+  await runBroadSearch(q, sport, 1);
 }
 
-/* ---------------------------
-   Product detection
----------------------------- */
+// ---------------- PRODUCT SEARCH ----------------
+async function runProductSearch(code, sport) {
+  currentProductMeta = null;
+  currentProductRows = [];
+  currentProductParallels = [];
+  currentPlayerStats = null;
+  broadSearchState = {
+    q: "",
+    sport: "",
+    page: 1,
+    pageSize: BROAD_PAGE_SIZE,
+    total: 0,
+    totalPages: 0
+  };
 
-function looksLikeCode(q) {
-  const s = String(q || "").trim();
-  return s.includes("_") && s.length >= 8;
+  setLoadingState(true);
+  elResults.innerHTML = `<div class="card" style="opacity:.8;">Loading…</div>`;
+
+  try {
+    const data = await api("getRowsByCode", { code, sport });
+    currentProductMeta = data.meta || null;
+    currentProductRows = Array.isArray(data.rows) ? data.rows : [];
+    currentProductParallels = Array.isArray(data.parallels) ? data.parallels : [];
+
+    const availableTabs = getAvailableTabs(currentProductRows);
+    if (availableTabs.some(t => t.key === "Base")) {
+      currentProductTab = "Base";
+    } else if (availableTabs.length) {
+      currentProductTab = availableTabs[0].key;
+    } else {
+      currentProductTab = "Base";
+    }
+
+    renderCurrentProductTab();
+  } catch (e) {
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading checklist data.</div>`;
+  } finally {
+    setLoadingState(false);
+  }
 }
 
-async function tryOpenSetFromProducts(q) {
-  const items = await fetchProductSuggestions(q);
-  if (!items.length) return false;
+// ---------------- BROADER SEARCH ----------------
+async function runBroadSearch(q, sport, page = 1) {
+  currentProductMeta = null;
+  currentProductRows = [];
+  currentProductParallels = [];
+  currentProductTab = "Base";
+  currentPlayerStats = null;
 
-  const qNorm = normalizeSearchLocal(q);
-  const exact = items.find(x =>
-    normalizeSearchLocal(x.release_name || x.product || "") === qNorm
-  );
-  const best = exact || items[0];
+  broadSearchState.q = q;
+  broadSearchState.sport = sport || "";
+  broadSearchState.page = page;
+  broadSearchState.pageSize = BROAD_PAGE_SIZE;
 
-  const code = String(best.code || "").trim();
-  if (!code) return false;
+  setLoadingState(true);
+  elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching…</div>`;
 
-  await openSetByCode(code);
-  return true;
+  try {
+    const [cardsData, playerData] = await Promise.all([
+      api("searchCards", {
+        q,
+        sport,
+        limit: BROAD_PAGE_SIZE,
+        page
+      }),
+      api("getPlayerStats", {
+        q,
+        sport
+      }).catch(() => ({ found: false }))
+    ]);
+
+    broadSearchState.total = Number(cardsData.total) || 0;
+    broadSearchState.totalPages = Number(cardsData.totalPages) || 0;
+    broadSearchState.page = Number(cardsData.page) || 1;
+    broadSearchState.pageSize = Number(cardsData.pageSize) || BROAD_PAGE_SIZE;
+
+    currentPlayerStats = playerData && playerData.found ? playerData.player : null;
+
+    renderBroadResults(q, cardsData.results || [], sport, {
+      total: broadSearchState.total,
+      page: broadSearchState.page,
+      pageSize: broadSearchState.pageSize,
+      totalPages: broadSearchState.totalPages
+    });
+  } catch (e) {
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading search results.</div>`;
+  } finally {
+    setLoadingState(false);
+  }
 }
 
-/* ---------------------------
-   Browse modal
----------------------------- */
+// ---------------- PRODUCT TAB RENDERING ----------------
+function renderCurrentProductTab() {
+  if (!currentProductMeta || !currentProductRows.length) {
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">No checklist rows found.</div>`;
+    return;
+  }
 
-function showBrowseModal() {
-  const m = $("browseModal");
-  if (!m) return;
-  m.style.display = "block";
-  m.setAttribute("aria-hidden", "false");
-  document.body.classList.add("modalOpen");
+  const vars = getThemeVars();
+  const displayBadge = esc(currentProductMeta?.displayName || "");
+  const availableTabs = getAvailableTabs(currentProductRows);
+  const filteredRows = filterRowsForTab(currentProductRows, currentProductTab);
+  const rowCountLabel = `${filteredRows.length.toLocaleString()} Card${filteredRows.length === 1 ? "" : "s"}`;
 
-  const list = $("browseList");
-  if (list) list.scrollTop = 0;
+  const groupedView = currentProductTab !== "Base";
+  const subsetBlocks = groupedView ? groupRowsBySubset(filteredRows, currentProductTab) : [];
 
-  const f = $("browseFilter");
-  if (f) setTimeout(() => f.focus(), 50);
+  elResults.innerHTML = `
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap;">
+        <div>
+          <div style="font-weight:800;font-size:20px;line-height:1.15;margin-bottom:4px;">${esc(currentProductTab)} Checklist</div>
+          <div style="color:${vars.subText};font-size:13px;">${esc(rowCountLabel)}</div>
+        </div>
+
+        ${displayBadge ? `
+          <div style="
+            display:inline-flex;
+            align-items:center;
+            justify-content:center;
+            padding:6px 12px;
+            border-radius:999px;
+            font-size:13px;
+            font-weight:700;
+            background:${vars.badgeBg};
+            border:1px solid ${vars.badgeBorder};
+            color:${vars.badgeText};
+            white-space:nowrap;
+          ">${displayBadge}</div>
+        ` : ""}
+      </div>
+
+      ${availableTabs.length ? `
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;margin-bottom:14px;">
+          ${availableTabs.map(tab => {
+            const isActive = tab.key === currentProductTab;
+            return `
+              <button
+                type="button"
+                class="cv-tab-btn"
+                data-tab="${esc(tab.key)}"
+                style="
+                  border:1px solid ${isActive ? vars.pillActiveBg : vars.pillBorder};
+                  background:${isActive ? vars.pillActiveBg : vars.pillBg};
+                  color:${isActive ? vars.pillActiveText : vars.pillText};
+                  border-radius:999px;
+                  padding:8px 14px;
+                  font-size:14px;
+                  font-weight:700;
+                  cursor:pointer;
+                "
+              >${esc(tab.key)}</button>
+            `;
+          }).join("")}
+        </div>
+      ` : ""}
+
+      ${
+        currentProductTab === "Base"
+          ? renderSingleChecklistTable(filteredRows, vars, "Base")
+          : renderSubsetBlocks(subsetBlocks, vars)
+      }
+    </div>
+  `;
+
+  bindProductTabButtons();
 }
 
-function hideBrowseModal() {
-  const m = $("browseModal");
-  if (!m) return;
-  m.style.display = "none";
-  m.setAttribute("aria-hidden", "true");
-  document.body.classList.remove("modalOpen");
+function renderSingleChecklistTable(rows, vars, emptyLabel) {
+  const baseParallels = getParallelsForSectionSubset(["base"], "[Base]");
+
+  return `
+    ${renderParallelsList(baseParallels)}
+
+    <div class="tableScroller" style="
+      border:1px solid ${vars.divider};
+      border-radius:16px;
+      margin-top:8px;
+    ">
+      <table>
+        <thead>
+          <tr>
+            <th>Card No.</th>
+            <th>Player</th>
+            <th>Team</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.length ? rows.map(r => `
+            <tr>
+              <td>${esc(r.card_no || "")}</td>
+              <td>${esc(r.player || "")}</td>
+              <td>${esc(r.team || "")}</td>
+              <td>${makeTagBubble(r.tag)}</td>
+            </tr>
+          `).join("") : `
+            <tr>
+              <td colspan="4" style="padding:16px 12px;color:${vars.subText};">No cards found in ${esc(emptyLabel)}.</td>
+            </tr>
+          `}
+        </tbody>
+      </table>
+    </div>
+  `;
 }
 
-function renderBrowseItems(items, append) {
-  const box = $("browseList");
-  if (!append) box.innerHTML = "";
-
-  const html = items.map(p => {
-    const title = escapeHtml(p.release_name || p.product || p.code || "Unknown");
-    const sub = escapeHtml([p.year, p.manufacturer, p.code].filter(Boolean).join(" • "));
+function renderSubsetBlocks(groups, vars) {
+  if (!groups.length) {
     return `
-      <div class="r" data-code="${escapeHtml(p.code)}">
-        <div class="rTop" style="font-weight:950;">${title}</div>
-        <div class="rSub">${sub}</div>
+      <div class="tableScroller" style="
+        border:1px solid ${vars.divider};
+        border-radius:16px;
+        margin-top:8px;
+      ">
+        <table>
+          <tbody>
+            <tr>
+              <td style="padding:16px 12px;color:${vars.subText};">No cards found in ${esc(currentProductTab)}.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  return groups.map(group => {
+    const sectionForParallels = getParallelSectionKeys(currentProductTab);
+    const parallels = getParallelsForSectionSubset(sectionForParallels, group.subset);
+
+    return `
+      <div style="margin-top:18px;">
+        <div style="font-weight:800;font-size:18px;line-height:1.15;margin-bottom:2px;">${esc(group.subset)}</div>
+        <div style="color:${vars.subText};font-size:13px;margin-bottom:12px;">${esc(group.rows.length.toLocaleString())} Card${group.rows.length === 1 ? "" : "s"}</div>
+
+        ${renderParallelsList(parallels)}
+
+        <div class="tableScroller" style="
+          border:1px solid ${vars.divider};
+          border-radius:16px;
+        ">
+          <table>
+            <thead>
+              <tr>
+                <th>Card No.</th>
+                <th>Player</th>
+                <th>Team</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              ${group.rows.map(r => `
+                <tr>
+                  <td>${esc(r.card_no || "")}</td>
+                  <td>${esc(r.player || "")}</td>
+                  <td>${esc(r.team || "")}</td>
+                  <td>${makeTagBubble(r.tag)}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
       </div>
     `;
   }).join("");
+}
 
-  if (append) box.insertAdjacentHTML("beforeend", html);
-  else box.innerHTML = html;
-
-  box.querySelectorAll(".r[data-code]").forEach(el => {
-    el.addEventListener("click", async () => {
-      const code = el.getAttribute("data-code");
-      if (!code) return;
-      hideBrowseModal();
-      await openSetByCode(code);
-      $("search").value = "";
+function bindProductTabButtons() {
+  const buttons = elResults.querySelectorAll(".cv-tab-btn");
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      currentProductTab = btn.getAttribute("data-tab") || "Base";
+      renderCurrentProductTab();
     });
   });
 }
 
-async function loadBrowsePage(append) {
-  const q = (state.browse.q || "").trim();
+// ---------------- BROAD SEARCH RESULTS ----------------
+function renderBroadResults(q, rows, sport, pageInfo) {
+  const vars = getThemeVars();
+  const titleBits = ["Search Results"];
+  const playerCardHtml = currentPlayerStats ? renderPlayerStatsCard(currentPlayerStats) : "";
 
-  const j = await fetchJson("products", {
-    sport: state.sport,
-    q,
-    limit: state.browse.limit,
-    offset: state.browse.offset
-  });
-
-  if (!j.ok) {
-    $("browseList").innerHTML = `<div class="r"><div class="rTop">Failed to load</div><div class="rSub">${escapeHtml(j.error || "")}</div></div>`;
-    $("browseMore").style.display = "none";
-    $("browsePill").style.display = "none";
+  if (!rows.length) {
+    elResults.innerHTML = `
+      ${playerCardHtml}
+      <div class="card">
+        <div style="font-weight:800;margin-bottom:6px;">${titleBits.join(" • ")}</div>
+        <div style="opacity:.75;font-size:13px;margin-bottom:10px;">Query: ${esc(q)}</div>
+        <div style="opacity:.8;">No results found for "${esc(q)}".</div>
+      </div>
+    `;
     return;
   }
 
-  const items = j.items || [];
-  if (!append) state.browse.shown = 0;
+  const sortedRows = sortRowsByCardNo(rows);
+  const total = Number(pageInfo?.total) || sortedRows.length;
+  const page = Number(pageInfo?.page) || 1;
+  const totalPages = Number(pageInfo?.totalPages) || 1;
+  const pageSize = Number(pageInfo?.pageSize) || BROAD_PAGE_SIZE;
+  const start = total ? ((page - 1) * pageSize) + 1 : 0;
+  const end = Math.min(page * pageSize, total);
 
-  renderBrowseItems(items, append);
+  elResults.innerHTML = `
+    ${playerCardHtml}
 
-  state.browse.shown += items.length;
-  state.browse.hasMore = !!j.has_more;
+    <div class="card">
+      <div style="font-weight:800;margin-bottom:6px;">${titleBits.join(" • ")}</div>
+      <div style="opacity:.75;font-size:13px;margin-bottom:6px;">Query: ${esc(q)}</div>
+      <div style="opacity:.75;font-size:13px;margin-bottom:12px;">Showing ${start.toLocaleString()}-${end.toLocaleString()} of ${total.toLocaleString()}</div>
 
-  $("browseMore").style.display = state.browse.hasMore ? "inline-flex" : "none";
-  $("browsePill").style.display = "inline-flex";
-  $("browsePill").textContent = `${state.browse.shown}${j.total ? " / " + j.total : ""}`;
+      <div class="tableScroller" style="
+        border:1px solid ${vars.divider};
+        border-radius:16px;
+      ">
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Subset</th>
+              <th>Card No.</th>
+              <th class="mobileHide">Player</th>
+              <th class="mobileHide">Team</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            ${sortedRows.map(r => `
+              <tr>
+                <td>${esc(r.displayName || "")}</td>
+                <td>${esc(r.subset || "")}</td>
+                <td>${esc(r.card_no || "")}</td>
+                <td class="mobileHide">${esc(r.player || "")}</td>
+                <td class="mobileHide">${esc(r.team || "")}</td>
+                <td>${makeTagBubble(r.tag)}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+
+      ${totalPages > 1 ? `
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:14px;">
+          <div style="color:${vars.subText};font-size:13px;">Page ${page.toLocaleString()} of ${totalPages.toLocaleString()}</div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;">
+            <button
+              type="button"
+              class="cv-page-btn"
+              data-page="${page - 1}"
+              ${page <= 1 ? "disabled" : ""}
+              style="
+                border:1px solid ${vars.pillBorder};
+                background:${vars.pillBg};
+                color:${vars.pillText};
+                border-radius:999px;
+                padding:8px 14px;
+                font-size:14px;
+                font-weight:700;
+                cursor:${page <= 1 ? "not-allowed" : "pointer"};
+                opacity:${page <= 1 ? ".45" : "1"};
+              "
+            >Previous</button>
+
+            <button
+              type="button"
+              class="cv-page-btn"
+              data-page="${page + 1}"
+              ${page >= totalPages ? "disabled" : ""}
+              style="
+                border:1px solid ${vars.pillBorder};
+                background:${vars.pillBg};
+                color:${vars.pillText};
+                border-radius:999px;
+                padding:8px 14px;
+                font-size:14px;
+                font-weight:700;
+                cursor:${page >= totalPages ? "not-allowed" : "pointer"};
+                opacity:${page >= totalPages ? ".45" : "1"};
+              "
+            >Next</button>
+          </div>
+        </div>
+      ` : ``}
+    </div>
+  `;
+
+  bindBroadPagingButtons();
 }
 
-async function openBrowse() {
-  state.browse.q = "";
-  state.browse.offset = 0;
-  state.browse.shown = 0;
-
-  $("browseFilter").value = "";
-  $("browseList").innerHTML = `<div class="r"><div class="rTop">Loading…</div></div>`;
-  $("browseMore").style.display = "none";
-  $("browsePill").style.display = "none";
-
-  showBrowseModal();
-  await loadBrowsePage(false);
-}
-
-function scheduleBrowseFilter() {
-  clearTimeout(state.browse.debounce);
-  state.browse.debounce = setTimeout(async () => {
-    state.browse.q = ($("browseFilter").value || "").trim();
-    state.browse.offset = 0;
-    await loadBrowsePage(false);
-  }, 120);
-}
-
-async function browseMore() {
-  state.browse.offset += state.browse.limit;
-  await loadBrowsePage(true);
-}
-
-/* ---------------------------
-   Search orchestrator
----------------------------- */
-
-async function doSearch() {
-  closeTypeahead();
-
-  state.sport = $("sport").value;
-  saveLocal();
-
-  state.q = ($("search").value || "").trim();
-  if (!state.q) return;
-
-  await checkHealth();
-
-  state.searchOffset = 0;
-  state.searchShown = 0;
-  state.searchHasMore = false;
-  $("moreSearch").style.display = "none";
-  $("countPill").style.display = "none";
-
-  const opened = await tryOpenSetFromProducts(state.q);
-
-  if (!opened && looksLikeCode(state.q)) {
-    await openSetByCode(state.q);
-    $("search").value = "";
-    return;
-  }
-
-  if (opened) {
-    $("search").value = "";
-    return;
-  }
-
-  $("setView").style.display = "none";
-  $("searchResults").style.display = "block";
-  $("searchResults").innerHTML = `<div class="r"><div class="rTop">Searching…</div><div class="rSub">${escapeHtml(state.q)}</div></div>`;
-
-  await searchCardsPage(false);
-  $("search").value = "";
-}
-
-/* ---------------------------
-   Wire up
----------------------------- */
-
-function wire() {
-  $("go").onclick = doSearch;
-  $("moreSearch").onclick = doMoreSearch;
-
-  $("sport").addEventListener("change", async () => {
-    state.sport = $("sport").value;
-    saveLocal();
-    closeTypeahead();
-    state.taCache.clear();
-    await ensureProductIndexLoaded(state.sport).catch(() => {});
-  });
-
-  $("search").addEventListener("focus", warmTypeaheadOnce);
-  $("search").addEventListener("input", scheduleTypeahead);
-  $("search").addEventListener("keydown", (e) => {
-    if (e.key === "Enter") doSearch();
-    if (e.key === "Escape") closeTypeahead();
-  });
-  $("search").addEventListener("blur", () => setTimeout(closeTypeahead, 120));
-
-  document.addEventListener("click", (e) => {
-    const box = $("typeahead");
-    const inp = $("search");
-    if (!box || !inp) return;
-    if (e.target === inp || box.contains(e.target)) return;
-    closeTypeahead();
-  });
-
-  $("browse").onclick = openBrowse;
-  $("browseClose").onclick = hideBrowseModal;
-
-  $("browseModal").addEventListener("click", (e) => {
-    if (e.target && e.target.id === "browseModal") hideBrowseModal();
-  });
-
-  $("browseFilter").addEventListener("input", scheduleBrowseFilter);
-  $("browseFilter").addEventListener("keydown", (e) => {
-    if (e.key === "Escape") hideBrowseModal();
-  });
-
-  $("browseMore").onclick = browseMore;
-
-  $("themeToggle").onclick = () => setTheme(state.theme === "dark" ? "light" : "dark");
-
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && $("browseModal")?.style.display === "block") hideBrowseModal();
+function bindBroadPagingButtons() {
+  const buttons = elResults.querySelectorAll(".cv-page-btn");
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      if (btn.disabled) return;
+      const nextPage = Number(btn.getAttribute("data-page")) || 1;
+      runBroadSearch(broadSearchState.q, broadSearchState.sport, nextPage);
+    });
   });
 }
-
-(async function init() {
-  loadTheme();
-  loadLocal();
-  wire();
-  await checkHealth();
-  await ensureProductIndexLoaded(state.sport).catch(() => {});
-})();
