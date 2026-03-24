@@ -17,7 +17,7 @@
 ========================================= */
 
 // ---------------- CONFIG ----------------
-const EXEC_URL = "https://script.google.com/macros/s/AKfycbykZNU_6ePqR6vLOiM86TIN6xE4I-mOhS9Jg3YVEJPndr_19LNLv1SW0LC3wMLX37n5/exec";
+const EXEC_URL = "https://script.google.com/macros/s/AKfycbxlnl1QZFh1u49Io-9aknwaFUQr8g_xE7wC62xCK6ClCknJ4WnLLZzZXnEM9R8JRY_x/exec";
 
 const INDEX_KEY = "cv_index_v1";
 const INDEX_VER_KEY = "cv_index_ver_v1";
