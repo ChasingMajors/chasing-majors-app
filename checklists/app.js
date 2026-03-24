@@ -988,8 +988,9 @@ async function runProductSearch(code, sport) {
     }
 
     renderCurrentProductTab();
-  } catch (e) {
-    elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading checklist data.</div>`;
+     } catch (e) {
+    console.error("runProductSearch error:", e);
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading checklist data: ${esc(e?.message || String(e))}</div>`;
   } finally {
     setLoadingState(false);
   }
@@ -1038,8 +1039,9 @@ async function runBroadSearch(q, sport, page = 1) {
       pageSize: broadSearchState.pageSize,
       totalPages: broadSearchState.totalPages
     });
-  } catch (e) {
-    elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading search results.</div>`;
+   } catch (e) {
+    console.error("runBroadSearch error:", e);
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading search results: ${esc(e?.message || String(e))}</div>`;
   } finally {
     setLoadingState(false);
   }
