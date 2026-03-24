@@ -1248,7 +1248,7 @@ function renderBroadResults(q, rows, sport, pageInfo) {
     return;
   }
 
-  const sortedRows = sortRowsByCardNo(rows);
+  const sortedRows = rows.slice();
   const total = Number(pageInfo?.total) || sortedRows.length;
   const page = Number(pageInfo?.page) || 1;
   const totalPages = Number(pageInfo?.totalPages) || 1;
