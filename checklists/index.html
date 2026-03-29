@@ -384,6 +384,71 @@
       outline: 2px solid rgba(255,255,255,0.18);
     }
 
+    .cmBootOverlay{
+      position:fixed;
+      inset:0;
+      background:var(--bg);
+      color:var(--text);
+      display:none;
+      place-items:center;
+      z-index:10050;
+      opacity:0;
+      transition:opacity 220ms ease;
+    }
+
+    .cmBootOverlay.show{
+      display:grid;
+      opacity:1;
+    }
+
+    .cmBootOverlayInner{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap:14px;
+      text-align:center;
+      width:min(520px, 92vw);
+      padding:34px 18px 18px;
+    }
+
+    .cmBootOverlayTitle{
+      font-family:"Bangers", cursive;
+      font-size:44px;
+      line-height:1.05;
+      letter-spacing:1px;
+      margin:0;
+    }
+
+    .cmBootOverlaySub{
+      opacity:.78;
+      font-size:14px;
+      margin-top:-8px;
+    }
+
+    .cmBootOverlaySpinner{
+      width:44px;
+      height:44px;
+      border-radius:50%;
+      border:4px solid rgba(255,255,255,0.14);
+      border-top-color:currentColor;
+      animation:cmBootSpin 1s linear infinite;
+    }
+
+    html[data-theme="light"] .cmBootOverlaySpinner{
+      border-color:rgba(0,0,0,0.14);
+      border-top-color:currentColor;
+    }
+
+    @keyframes cmBootSpin{
+      to{ transform:rotate(360deg); }
+    }
+
+    body.cm-handoff-loading .content,
+    body.cm-handoff-loading .bottomNav{
+      visibility:hidden;
+    }
+
     @media (max-width: 640px){
       .playerUpdated{
         display:none !important;
@@ -412,9 +477,52 @@
       }
     }
   </style>
+
+  <script>
+    (function () {
+      try {
+        var savedTheme = localStorage.getItem("cm_theme");
+        if (savedTheme === "light" || savedTheme === "dark") {
+          document.documentElement.setAttribute("data-theme", savedTheme);
+        }
+      } catch (e) {}
+
+      var showOverlay = false;
+
+      try {
+        var params = new URLSearchParams(location.search);
+        var urlQ = (params.get("q") || "").trim();
+        var savedQuery = sessionStorage.getItem("cm_home_search") || "";
+        var savedTarget = sessionStorage.getItem("cm_home_target") || "";
+        var handoff = sessionStorage.getItem("cm_handoff_active") || "";
+        var incoming = urlQ || savedQuery;
+
+        if (handoff === "1" && incoming && (!savedTarget || savedTarget === "checklists" || urlQ)) {
+          showOverlay = true;
+        }
+      } catch (e) {}
+
+      window.__CM_SHOW_BOOT_OVERLAY__ = showOverlay;
+
+      if (showOverlay) {
+        document.documentElement.classList.add("cm-handoff-loading-html");
+        document.addEventListener("DOMContentLoaded", function () {
+          document.body.classList.add("cm-handoff-loading");
+        });
+      }
+    })();
+  </script>
 </head>
 
 <body>
+  <div id="cmBootOverlay" class="cmBootOverlay" aria-hidden="true">
+    <div class="cmBootOverlayInner">
+      <h1 class="cmBootOverlayTitle">Chasing Majors</h1>
+      <div class="cmBootOverlaySub">Searching the Vault…</div>
+      <div class="cmBootOverlaySpinner" aria-hidden="true"></div>
+    </div>
+  </div>
+
   <main class="content">
     <section>
       <div class="headerRow">
@@ -483,6 +591,15 @@
     </div>
   </div>
 
-  <script src="/checklists/app.js?v=25"></script>
+  <script>
+    (function () {
+      if (window.__CM_SHOW_BOOT_OVERLAY__) {
+        var el = document.getElementById("cmBootOverlay");
+        if (el) el.classList.add("show");
+      }
+    })();
+  </script>
+
+  <script src="/checklists/app.js?v=26"></script>
 </body>
 </html>
