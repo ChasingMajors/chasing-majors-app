@@ -663,19 +663,19 @@
       </div>
 
       <div class="heroAside">
-        <a class="miniCard" href="/checklists/?q=2026%20Topps%20Series%201">
+        <a class="miniCard" id="homeTrendingMini" href="/checklists/?q=2026%20Topps%20Series%201">
           <div class="miniLabel">Trending</div>
           <div class="miniValue">2026 Topps Series 1</div>
           <div class="miniSub">Most searched by collectors right now.</div>
         </a>
 
-        <a class="miniCard" href="/checklists/?q=2026%20Bowman%E2%80%99s%20Best">
+        <a class="miniCard" id="homeJustAddedMini" href="/checklists/?q=2026%20Bowman%E2%80%99s%20Best">
           <div class="miniLabel">Just Added</div>
           <div class="miniValue">2026 Bowman’s Best</div>
           <div class="miniSub">New checklist and data now available.</div>
         </a>
 
-        <a class="miniCard" href="/vault/?q=2026%20Topps%20Series%201">
+        <a class="miniCard" id="homeDualMini" href="/vault/?q=2026%20Topps%20Series%201">
           <div class="miniLabel">Checklist + Print Run</div>
           <div class="miniValue">Search both in one place</div>
           <div class="miniSub">Search full checklists and estimated print runs in one place.</div>
@@ -742,7 +742,7 @@
 
       <div class="card">
         <div class="sectionTitle">Trending</div>
-        <div class="list">
+        <div class="list" id="homeTrendingList">
           <a class="listItem" href="/checklists/?q=2026%20Topps%20Series%201">
             <div class="listBadge">TS1</div>
             <div class="listCopy">
@@ -772,7 +772,7 @@
 
       <div class="card">
         <div class="sectionTitle">Just Added</div>
-        <div class="list">
+        <div class="list" id="homeJustAddedList">
           <a class="listItem" href="/checklists/?q=2026%20Bowman%E2%80%99s%20Best">
             <div class="listBadge">BB</div>
             <div class="listCopy">
@@ -834,6 +834,8 @@
 
   <script>
     (function () {
+      const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbwzmm9rEr4pIN1-JNwn5Sp0Wma2u8-Q4GrxgAtiLQzrKjCHrPAwLi8D1SxPqg5f3X7u/exec";
+
       function hideOverlay() {
         var el = document.getElementById("overlay");
         if (!el) return;
@@ -843,8 +845,195 @@
         }, 320);
       }
 
+      function cleanQuery(value) {
+        return (value || "").replace(/\s+/g, " ").trim();
+      }
+
+      function normalizeQuery(value) {
+        return cleanQuery(value)
+          .toLowerCase()
+          .replace(/\u2019/g, "'")
+          .replace(/[^\w\s']/g, " ")
+          .replace(/\s+/g, " ")
+          .trim();
+      }
+
+      function escapeHtml(str) {
+        return String(str || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/\"/g, "&quot;")
+          .replace(/'/g, "&#39;");
+      }
+
+      function getSessionId() {
+        try {
+          var key = "cm_session_id";
+          var val = localStorage.getItem(key);
+          if (!val) {
+            val = "cm_" + Date.now() + "_" + Math.random().toString(36).slice(2, 10);
+            localStorage.setItem(key, val);
+          }
+          return val;
+        } catch (e) {
+          return "cm_" + Date.now();
+        }
+      }
+
+      function fireAndForgetLog(payload) {
+        var body = JSON.stringify({
+          action: "logEvent",
+          payload: payload
+        });
+
+        try {
+          if (navigator.sendBeacon) {
+            var blob = new Blob([body], { type: "text/plain;charset=utf-8" });
+            navigator.sendBeacon(LOG_EXEC_URL, blob);
+            return;
+          }
+        } catch (e) {}
+
+        fetch(LOG_EXEC_URL, {
+          method: "POST",
+          headers: { "Content-Type": "text/plain;charset=utf-8" },
+          body: body,
+          keepalive: true
+        }).catch(function(){});
+      }
+
+      function logHomeEvent(eventType, extra) {
+        fireAndForgetLog(Object.assign({
+          app: "home",
+          page: "home",
+          event_type: eventType,
+          query: "",
+          normalized_query: "",
+          search_kind: "",
+          selected_name: "",
+          selected_code: "",
+          selected_type: "",
+          sport: "",
+          year: "",
+          route_target: "",
+          source: "",
+          session_id: getSessionId(),
+          result_count: "",
+          page_number: "",
+          status: "ok",
+          referrer: document.referrer || "",
+          url: location.href,
+          user_agent: navigator.userAgent || ""
+        }, extra || {}));
+      }
+
+      function saveRecentSearch(query, target) {
+        if (!query) return;
+
+        try {
+          sessionStorage.setItem("cm_home_search", query);
+          sessionStorage.setItem("cm_home_target", target || "checklists");
+        } catch (e) {}
+
+        var items = [];
+        try {
+          items = JSON.parse(localStorage.getItem("cm_recent_searches") || "[]");
+        } catch (e) {
+          items = [];
+        }
+
+        items = items.filter(function (item) {
+          return item && item.query !== query;
+        });
+
+        items.unshift({
+          query: query,
+          target: target || "checklists",
+          ts: Date.now()
+        });
+
+        try {
+          localStorage.setItem("cm_recent_searches", JSON.stringify(items.slice(0, 6)));
+        } catch (e) {}
+      }
+
+      function badgeFromText(text) {
+        var parts = String(text || "").replace(/[^\w\s]/g, " ").trim().split(/\s+/).filter(Boolean);
+        if (!parts.length) return "CM";
+        return parts.slice(0, 3).map(function (w) { return w.charAt(0); }).join("").toUpperCase();
+      }
+
+      function makeListHtml(items) {
+        return items.map(function (item) {
+          return ''
+            + '<a class="listItem" href="' + escapeHtml(item.url || "#") + '">'
+            +   '<div class="listBadge">' + escapeHtml(item.badge || badgeFromText(item.label || item.query || "")) + '</div>'
+            +   '<div class="listCopy">'
+            +     '<div class="listTop">' + escapeHtml(item.label || item.query || "") + '</div>'
+            +     '<div class="listSub">' + escapeHtml(item.sub || "") + '</div>'
+            +   '</div>'
+            +   '<div class="listArrow">›</div>'
+            + '</a>';
+        }).join("");
+      }
+
+      function hydrateMiniCard(el, label, item) {
+        if (!el || !item) return;
+        el.href = item.url || "#";
+        el.innerHTML = ''
+          + '<div class="miniLabel">' + escapeHtml(label) + '</div>'
+          + '<div class="miniValue">' + escapeHtml(item.label || item.query || "") + '</div>'
+          + '<div class="miniSub">' + escapeHtml(item.sub || "") + '</div>';
+      }
+
+      function hydrateHomeFeed() {
+        fetch(LOG_EXEC_URL + "?action=getHomeFeed&daysTrending=7&trendingLimit=3&addedLimit=3", {
+          method: "GET"
+        })
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          if (!data || !data.ok) return;
+
+          var trending = Array.isArray(data.trending) ? data.trending : [];
+          var justAdded = Array.isArray(data.justAdded) ? data.justAdded : [];
+
+          var trendingList = document.getElementById("homeTrendingList");
+          var justAddedList = document.getElementById("homeJustAddedList");
+          var trendingMini = document.getElementById("homeTrendingMini");
+          var justAddedMini = document.getElementById("homeJustAddedMini");
+          var dualMini = document.getElementById("homeDualMini");
+
+          if (trending.length && trendingList) {
+            trendingList.innerHTML = makeListHtml(trending);
+          }
+
+          if (justAdded.length && justAddedList) {
+            justAddedList.innerHTML = makeListHtml(justAdded);
+          }
+
+          if (trending.length) {
+            hydrateMiniCard(trendingMini, "Trending", trending[0]);
+          }
+
+          if (justAdded.length) {
+            hydrateMiniCard(justAddedMini, "Just Added", justAdded[0]);
+          }
+
+          if (trending.length && dualMini) {
+            dualMini.href = "/vault/?q=" + encodeURIComponent(trending[0].query || trending[0].label || "");
+            dualMini.innerHTML = ''
+              + '<div class="miniLabel">Checklist + Print Run</div>'
+              + '<div class="miniValue">' + escapeHtml(trending[0].label || trending[0].query || "Search both in one place") + '</div>'
+              + '<div class="miniSub">Open the same product in Print Run Vault.</div>';
+          }
+        })
+        .catch(function(){});
+      }
+
       document.addEventListener("DOMContentLoaded", function () {
         setTimeout(hideOverlay, 300);
+        hydrateHomeFeed();
       });
 
       window.addEventListener("load", function () {
@@ -879,50 +1068,7 @@
         }
       }
 
-      function cleanQuery(value) {
-        return (value || "").replace(/\s+/g, " ").trim();
-      }
-
-      function escapeHtml(str) {
-        return String(str || "")
-          .replace(/&/g, "&amp;")
-          .replace(/</g, "&lt;")
-          .replace(/>/g, "&gt;")
-          .replace(/\"/g, "&quot;")
-          .replace(/'/g, "&#39;");
-      }
-
-      function saveRecentSearch(query, target) {
-        if (!query) return;
-
-        try {
-          sessionStorage.setItem("cm_home_search", query);
-          sessionStorage.setItem("cm_home_target", target || "checklists");
-        } catch (e) {}
-
-        var items = [];
-        try {
-          items = JSON.parse(localStorage.getItem("cm_recent_searches") || "[]");
-        } catch (e) {
-          items = [];
-        }
-
-        items = items.filter(function (item) {
-          return item && item.query !== query;
-        });
-
-        items.unshift({
-          query: query,
-          target: target || "checklists",
-          ts: Date.now()
-        });
-
-        try {
-          localStorage.setItem("cm_recent_searches", JSON.stringify(items.slice(0, 6)));
-        } catch (e) {}
-      }
-
-      function runSearch() {
+      function runSearch(source) {
         var query = cleanQuery(input ? input.value : "");
         if (!query) {
           location.href = activeTarget === "vault" ? "/vault/" : "/checklists/";
@@ -930,6 +1076,14 @@
         }
 
         saveRecentSearch(query, activeTarget);
+
+        logHomeEvent("search_submit", {
+          query: query,
+          normalized_query: normalizeQuery(query),
+          search_kind: /^\d{4}/.test(query) ? "product" : "query",
+          route_target: activeTarget,
+          source: source || "button"
+        });
 
         if (activeTarget === "vault") {
           location.href = "/vault/?q=" + encodeURIComponent(query);
@@ -951,14 +1105,16 @@
       }
 
       if (primaryBtn) {
-        primaryBtn.addEventListener("click", runSearch);
+        primaryBtn.addEventListener("click", function () {
+          runSearch("button");
+        });
       }
 
       if (input) {
         input.addEventListener("keydown", function (e) {
           if (e.key === "Enter") {
             e.preventDefault();
-            runSearch();
+            runSearch("enter");
           }
         });
       }
@@ -1000,6 +1156,34 @@
           continueList.innerHTML = html;
         }
       } catch (e) {}
+
+      document.addEventListener("click", function (e) {
+        var a = e.target.closest("a[href]");
+        if (!a) return;
+
+        var href = a.getAttribute("href") || "";
+        if (!href) return;
+
+        var target = "";
+        if (href.indexOf("/vault/") === 0) target = "vault";
+        if (href.indexOf("/checklists/") === 0) target = "checklists";
+        if (!target) return;
+
+        var parsed = "";
+        try {
+          var u = new URL(href, location.origin);
+          parsed = u.searchParams.get("q") || "";
+        } catch (err) {}
+
+        logHomeEvent("homepage_link_click", {
+          query: parsed,
+          normalized_query: normalizeQuery(parsed),
+          search_kind: parsed ? (/^\d{4}/.test(parsed) ? "product" : "query") : "",
+          route_target: target,
+          source: "link_click",
+          selected_name: parsed
+        });
+      });
     })();
   </script>
 </body>
