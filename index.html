@@ -768,22 +768,6 @@
             </div>
             <div class="listArrow">›</div>
           </a>
-          <a class="listItem" href="/vault/?q=2025%20Prizm%20Black">
-            <div class="listBadge">PB</div>
-            <div class="listCopy">
-              <div class="listTop">2025 Prizm Black</div>
-              <div class="listSub">A popular search for checklist and print run research.</div>
-            </div>
-            <div class="listArrow">›</div>
-          </a>
-          <a class="listItem" href="/checklists/?q=2024%20Bowman%20Draft">
-            <div class="listBadge">BD</div>
-            <div class="listCopy">
-              <div class="listTop">2024 Bowman Draft</div>
-              <div class="listSub">A go-to search for collectors tracking recent releases.</div>
-            </div>
-            <div class="listArrow">›</div>
-          </a>
         </div>
       </div>
 
@@ -795,22 +779,6 @@
             <div class="listCopy">
               <div class="listTop">2026 Bowman’s Best</div>
               <div class="listSub">New checklist and data now available.</div>
-            </div>
-            <div class="listArrow">›</div>
-          </a>
-          <a class="listItem" href="/checklists/?q=2025%20Topps%20Chrome%20Sapphire">
-            <div class="listBadge">CS</div>
-            <div class="listCopy">
-              <div class="listTop">2025 Topps Chrome Sapphire</div>
-              <div class="listSub">Freshly added and ready to search.</div>
-            </div>
-            <div class="listArrow">›</div>
-          </a>
-          <a class="listItem" href="/checklists/?q=2024%20Heritage%20High%20Number">
-            <div class="listBadge">HN</div>
-            <div class="listCopy">
-              <div class="listTop">2024 Heritage High Number</div>
-              <div class="listSub">Now available in the database.</div>
             </div>
             <div class="listArrow">›</div>
           </a>
@@ -1093,6 +1061,10 @@
         }
 
         saveRecentSearch(query, activeTarget);
+
+        try {
+          sessionStorage.setItem("cm_handoff_active", "1");
+        } catch (e) {}
 
         logHomeEvent("search_submit", {
           query: query,
