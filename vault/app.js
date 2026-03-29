@@ -3,10 +3,12 @@
    - Homepage search handoff support
    - Uses Checklist Vault theme system (html[data-theme], icons)
    - Bottom nav handled in HTML (3 buttons)
+   - Master logger support
 ================================ */
 
 // ---------------- CONFIG ----------------
 const EXEC_URL = "https://script.google.com/macros/s/AKfycbx_1rqxgSCu6aqDc7jEnETYC-KcNxHEf208GWXM23FR7hDT0ey8Y1SZ2i4U1VmXOZgpAg/exec";
+const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbwzmm9rEr4pIN1-JNwn5Sp0Wma2u8-Q4GrxgAtiLQzrKjCHrPAwLi8D1SxPqg5f3X7u/exec";
 const INDEX_KEY = "prv_index_v1";
 const INDEX_VER_KEY = "prv_index_ver_v1";
 const THEME_KEY = "cm_theme";
@@ -16,6 +18,8 @@ const elQ = document.getElementById("q");
 const elDD = document.getElementById("dropdown");
 const elResults = document.getElementById("results");
 const elThemeBtn = document.getElementById("themeToggle");
+const elBtnSearch = document.getElementById("btnSearch");
+const elBtnClear = document.getElementById("btnClear");
 
 // ---------------- URL PARAM ----------------
 const URL_Q = new URLSearchParams(location.search).get("q") || "";
@@ -74,7 +78,69 @@ async function api(action, payload = {}) {
     headers: { "Content-Type": "text/plain;charset=utf-8" },
     body: JSON.stringify({ action, payload })
   });
-  return res.json();
+
+  const data = await res.json();
+
+  if (!data || data.ok === false) {
+    throw new Error(data?.error || "Request failed");
+  }
+
+  return data;
+}
+
+// ---------------- MASTER LOGGER ----------------
+function getSessionId_() {
+  try {
+    const key = "cm_session_id";
+    let val = localStorage.getItem(key);
+    if (!val) {
+      val = "cm_" + Date.now() + "_" + Math.random().toString(36).slice(2, 10);
+      localStorage.setItem(key, val);
+    }
+    return val;
+  } catch (e) {
+    return "cm_" + Date.now();
+  }
+}
+
+function normalizeQuery_(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/\u2019/g, "'")
+    .replace(/[^\w\s']/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function logEventFireAndForget_(payload) {
+  const body = JSON.stringify({
+    action: "logEvent",
+    payload: Object.assign({
+      app: "prv",
+      page: "vault",
+      session_id: getSessionId_(),
+      referrer: document.referrer || "",
+      url: location.href,
+      user_agent: navigator.userAgent || "",
+      status: "ok"
+    }, payload || {})
+  });
+
+  try {
+    if (navigator.sendBeacon) {
+      const blob = new Blob([body], { type: "text/plain;charset=utf-8" });
+      navigator.sendBeacon(LOG_EXEC_URL, blob);
+      return;
+    }
+  } catch (e) {}
+
+  fetch(LOG_EXEC_URL, {
+    method: "POST",
+    headers: { "Content-Type": "text/plain;charset=utf-8" },
+    body,
+    keepalive: true
+  }).catch(() => {});
 }
 
 // ---------------- INDEX CACHE ----------------
@@ -149,15 +215,23 @@ function fmtNum(x) {
   return Number.isFinite(n) ? n.toLocaleString() : esc(x);
 }
 
-// ---------------- MINIMAL LOGGING ----------------
+// ---------------- LOGGING ----------------
 function logSelectionFireAndForget_(sel) {
   if (!sel) return;
 
-  api("logSearch", {
-    selectedName: sel.DisplayName || "",
+  logEventFireAndForget_({
+    event_type: "typeahead_select",
+    query: sel.DisplayName || "",
+    normalized_query: normalizeQuery_(sel.DisplayName || ""),
+    search_kind: "product",
+    selected_name: sel.DisplayName || "",
+    selected_code: sel.Code || "",
+    selected_type: "product",
+    sport: sel.sport || "",
     year: sel.year || "",
-    sport: sel.sport || ""
-  }).catch(() => {});
+    route_target: "vault",
+    source: "dropdown"
+  });
 }
 
 // ---------------- SEARCH HELPERS ----------------
@@ -213,8 +287,6 @@ function runHomepageHandoffIfPresent() {
   if (!incomingQuery) return;
   if (!elQ) return;
 
-  // If query came from URL, trust it.
-  // Only use savedTarget when falling back to sessionStorage.
   if (!urlQuery && savedTarget && savedTarget !== "vault") return;
 
   elQ.value = incomingQuery;
@@ -222,6 +294,21 @@ function runHomepageHandoffIfPresent() {
 
   const best = findBestMatch(incomingQuery);
   if (!best) {
+    logEventFireAndForget_({
+      event_type: "search_submit",
+      query: incomingQuery,
+      normalized_query: normalizeQuery_(incomingQuery),
+      search_kind: "product",
+      selected_name: "",
+      selected_code: "",
+      selected_type: "",
+      sport: "",
+      year: "",
+      route_target: "vault",
+      source: "homepage_handoff",
+      status: "error"
+    });
+
     elResults.innerHTML = `<div class="card" style="opacity:.8;">No matching product found for "${esc(incomingQuery)}".</div>`;
     clearHomepageHandoff();
     return;
@@ -229,7 +316,9 @@ function runHomepageHandoffIfPresent() {
 
   selected = best;
   elQ.value = best.DisplayName;
+
   logSelectionFireAndForget_(selected);
+
   elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(incomingQuery)}"…</div>`;
 
   runSearch().finally(clearHomepageHandoff);
@@ -290,13 +379,18 @@ elQ.addEventListener("keydown", (e) => {
 });
 
 // Buttons
-document.getElementById("btnSearch").onclick = runSearch;
-document.getElementById("btnClear").onclick = () => {
-  elQ.value = "";
-  selected = null;
-  closeDropdown();
-  elResults.innerHTML = `<div class="card" style="opacity:.8;">No results yet. Run a search.</div>`;
-};
+if (elBtnSearch) {
+  elBtnSearch.onclick = runSearch;
+}
+
+if (elBtnClear) {
+  elBtnClear.onclick = () => {
+    elQ.value = "";
+    selected = null;
+    closeDropdown();
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">No results yet. Run a search.</div>`;
+  };
+}
 
 // ---------------- SEARCH ----------------
 async function runSearch() {
@@ -305,16 +399,46 @@ async function runSearch() {
     return;
   }
 
-  if (!selected) {
-    const q = elQ.value.toLowerCase().trim();
-    if (!q) return;
+  const rawQuery = String(elQ.value || "").trim();
+  if (!rawQuery) return;
 
-    const best = findBestMatch(q);
+  logEventFireAndForget_({
+    event_type: "search_submit",
+    query: rawQuery,
+    normalized_query: normalizeQuery_(rawQuery),
+    search_kind: "product",
+    selected_name: selected ? (selected.DisplayName || "") : "",
+    selected_code: selected ? (selected.Code || "") : "",
+    selected_type: "product",
+    sport: selected ? (selected.sport || "") : "",
+    year: selected ? (selected.year || "") : "",
+    route_target: "vault",
+    source: "button_or_enter"
+  });
+
+  if (!selected) {
+    const best = findBestMatch(rawQuery);
     if (best) {
       selected = best;
       elQ.value = best.DisplayName;
       logSelectionFireAndForget_(selected);
     } else {
+      logEventFireAndForget_({
+        event_type: "search_results",
+        query: rawQuery,
+        normalized_query: normalizeQuery_(rawQuery),
+        search_kind: "product",
+        selected_name: "",
+        selected_code: "",
+        selected_type: "",
+        sport: "",
+        year: "",
+        route_target: "vault",
+        source: "results_load",
+        result_count: 0,
+        status: "error"
+      });
+
       elResults.innerHTML = `<div class="card" style="opacity:.8;">No matching product found.</div>`;
       return;
     }
@@ -325,7 +449,38 @@ async function runSearch() {
   try {
     const data = await api("getRowsByCode", { code: selected.Code });
     renderResults(data.meta, data.rows || []);
+
+    logEventFireAndForget_({
+      event_type: "product_view",
+      query: rawQuery || (selected && selected.DisplayName) || "",
+      normalized_query: normalizeQuery_(rawQuery || (selected && selected.DisplayName) || ""),
+      search_kind: "product",
+      selected_name: (data.meta && data.meta.displayName) || (selected && selected.DisplayName) || "",
+      selected_code: selected ? (selected.Code || "") : "",
+      selected_type: "product",
+      sport: (data.meta && data.meta.sport) || (selected && selected.sport) || "",
+      year: (data.meta && data.meta.year) || (selected && selected.year) || "",
+      route_target: "vault",
+      source: "results_load",
+      result_count: Array.isArray(data.rows) ? data.rows.length : 0
+    });
   } catch (e) {
+    logEventFireAndForget_({
+      event_type: "product_view",
+      query: rawQuery || "",
+      normalized_query: normalizeQuery_(rawQuery || ""),
+      search_kind: "product",
+      selected_name: selected ? (selected.DisplayName || "") : "",
+      selected_code: selected ? (selected.Code || "") : "",
+      selected_type: "product",
+      sport: selected ? (selected.sport || "") : "",
+      year: selected ? (selected.year || "") : "",
+      route_target: "vault",
+      source: "results_load",
+      result_count: 0,
+      status: "error"
+    });
+
     elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading data.</div>`;
   }
 }
