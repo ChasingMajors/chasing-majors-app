@@ -6,7 +6,6 @@
   <meta name="theme-color" content="#0b0b0b" />
   <title>Print Run Vault • Chasing Majors</title>
 
-  <!-- Bangers Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
@@ -16,7 +15,6 @@
       --navH: 62px;
       --contentMax: 900px;
 
-      /* DARK */
       --bg:#0b0b0b;
       --text:#ffffff;
       --muted:rgba(255,255,255,0.78);
@@ -42,14 +40,12 @@
 
       --kvBorder:rgba(255,255,255,0.10);
 
-      /* dropdown */
       --ddBg:#111;
       --ddBorder:rgba(255,255,255,0.18);
       --ddHover:rgba(255,255,255,0.10);
       --ddActive:rgba(255,255,255,0.16);
     }
 
-    /* Match Checklist Vault light style */
     html[data-theme="light"]{
       --bg:#ffffff;
       --text:#0b0b0b;
@@ -100,7 +96,6 @@
       box-sizing: border-box;
     }
 
-    /* Header like Checklist Vault */
     .headerRow{
       position: relative;
       max-width: var(--contentMax);
@@ -117,7 +112,6 @@
     }
     .appTitle .big{ font-size: 42px; }
 
-    /* Right controls */
     .topRight{
       position:absolute;
       right:0;
@@ -173,8 +167,10 @@
       margin-bottom: 12px;
     }
 
-    /* SEARCH */
-    .searchWrap{ position: relative; width:100%; }
+    .searchWrap{
+      position: relative;
+      width:100%;
+    }
 
     .searchIcon{
       position:absolute;
@@ -202,7 +198,6 @@
       transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
     }
 
-    /* Dropdown */
     .dropdown{
       position:absolute;
       left:0;
@@ -290,7 +285,6 @@
       letter-spacing: .4px;
     }
 
-    /* Bottom nav EXACT Checklist Vault style (3 buttons) */
     .bottomNav{
       position: fixed;
       left:0; right:0; bottom:0;
@@ -329,10 +323,118 @@
     .navBtn.active{
       outline: 2px solid rgba(255,255,255,0.18);
     }
+
+    .cmBootOverlay{
+      position:fixed;
+      inset:0;
+      background:var(--bg);
+      color:var(--text);
+      display:none;
+      place-items:center;
+      z-index:10050;
+      opacity:0;
+      transition:opacity 220ms ease;
+    }
+
+    .cmBootOverlay.show{
+      display:grid;
+      opacity:1;
+    }
+
+    .cmBootOverlayInner{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap:14px;
+      text-align:center;
+      width:min(520px, 92vw);
+      padding:34px 18px 18px;
+    }
+
+    .cmBootOverlayTitle{
+      font-family:"Bangers", cursive;
+      font-size:44px;
+      line-height:1.05;
+      letter-spacing:1px;
+      margin:0;
+    }
+
+    .cmBootOverlaySub{
+      opacity:.78;
+      font-size:14px;
+      margin-top:-8px;
+    }
+
+    .cmBootOverlaySpinner{
+      width:44px;
+      height:44px;
+      border-radius:50%;
+      border:4px solid rgba(255,255,255,0.14);
+      border-top-color:currentColor;
+      animation:cmBootSpin 1s linear infinite;
+    }
+
+    html[data-theme="light"] .cmBootOverlaySpinner{
+      border-color:rgba(0,0,0,0.14);
+      border-top-color:currentColor;
+    }
+
+    @keyframes cmBootSpin{
+      to{ transform:rotate(360deg); }
+    }
+
+    body.cm-handoff-loading .content,
+    body.cm-handoff-loading .bottomNav{
+      visibility:hidden;
+    }
   </style>
+
+  <script>
+    (function () {
+      try {
+        var savedTheme = localStorage.getItem("cm_theme");
+        if (savedTheme === "light" || savedTheme === "dark") {
+          document.documentElement.setAttribute("data-theme", savedTheme);
+        }
+      } catch (e) {}
+
+      var showOverlay = false;
+
+      try {
+        var params = new URLSearchParams(location.search);
+        var urlQ = (params.get("q") || "").trim();
+        var savedQuery = sessionStorage.getItem("cm_home_search") || "";
+        var savedTarget = sessionStorage.getItem("cm_home_target") || "";
+        var handoff = sessionStorage.getItem("cm_handoff_active") || "";
+        var incoming = urlQ || savedQuery;
+
+        if (handoff === "1" && incoming && (!savedTarget || savedTarget === "vault" || urlQ)) {
+          showOverlay = true;
+        }
+      } catch (e) {}
+
+      window.__CM_SHOW_BOOT_OVERLAY__ = showOverlay;
+
+      if (showOverlay) {
+        document.documentElement.classList.add("cm-handoff-loading-html");
+        document.addEventListener("DOMContentLoaded", function () {
+          document.body.classList.add("cm-handoff-loading");
+        });
+      }
+    })();
+  </script>
 </head>
 
 <body>
+  <div id="cmBootOverlay" class="cmBootOverlay" aria-hidden="true">
+    <div class="cmBootOverlayInner">
+      <h1 class="cmBootOverlayTitle">Chasing Majors</h1>
+      <div class="cmBootOverlaySub">Searching the Vault…</div>
+      <div class="cmBootOverlaySpinner" aria-hidden="true"></div>
+    </div>
+  </div>
+
   <main class="content">
     <section>
       <div class="headerRow">
@@ -378,7 +480,6 @@
     </section>
   </main>
 
-  <!-- Bottom nav -->
   <div class="bottomNav" aria-label="Primary">
     <div class="bottomNavInner">
       <div class="navRow">
@@ -389,6 +490,15 @@
     </div>
   </div>
 
-  <script src="./app.js"?v=3"></script>
+  <script>
+    (function () {
+      if (window.__CM_SHOW_BOOT_OVERLAY__) {
+        var el = document.getElementById("cmBootOverlay");
+        if (el) el.classList.add("show");
+      }
+    })();
+  </script>
+
+  <script src="./app.js?v=4"></script>
 </body>
 </html>
