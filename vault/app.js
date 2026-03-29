@@ -4,6 +4,7 @@
    - Uses Checklist Vault theme system (html[data-theme], icons)
    - Bottom nav handled in HTML (3 buttons)
    - Master logger support
+   - Branded transition overlay
 ================================ */
 
 // ---------------- CONFIG ----------------
@@ -12,6 +13,9 @@ const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbwzmm9rEr4pIN1-JNw
 const INDEX_KEY = "prv_index_v1";
 const INDEX_VER_KEY = "prv_index_ver_v1";
 const THEME_KEY = "cm_theme";
+
+const HANDOFF_FLAG_KEY = "cm_handoff_active";
+const OVERLAY_MIN_MS = 1400;
 
 // ---------------- DOM ----------------
 const elQ = document.getElementById("q");
@@ -36,7 +40,7 @@ function applyIncomingQueryToInput() {
   elQ.value = incoming;
 }
 
-// ---------------- THEME (Checklist Vault parity) ----------------
+// ---------------- THEME ----------------
 function setTheme(theme) {
   const t = theme === "light" ? "light" : "dark";
   document.documentElement.setAttribute("data-theme", t);
@@ -143,6 +147,121 @@ function logEventFireAndForget_(payload) {
   }).catch(() => {});
 }
 
+// ---------------- BRANDED OVERLAY ----------------
+let cmOverlayEl = null;
+let cmOverlayShownAt = 0;
+let cmOverlayVisible = false;
+
+function ensureOverlayStyles_() {
+  if (document.getElementById("cmTransitionOverlayStyles")) return;
+
+  const style = document.createElement("style");
+  style.id = "cmTransitionOverlayStyles";
+  style.textContent = `
+    .cm-transition-overlay{
+      position:fixed;
+      inset:0;
+      background:var(--bg, #0b0b0b);
+      color:var(--text, #ffffff);
+      display:grid;
+      place-items:center;
+      z-index:10001;
+      opacity:0;
+      pointer-events:none;
+      transition:opacity 260ms ease;
+    }
+    .cm-transition-overlay.show{
+      opacity:1;
+      pointer-events:auto;
+    }
+    .cm-transition-overlay__inner{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap:14px;
+      text-align:center;
+      width:min(520px, 92vw);
+      padding:34px 18px 18px;
+    }
+    .cm-transition-overlay__title{
+      font-family:"Bangers", cursive;
+      font-size:44px;
+      line-height:1.05;
+      letter-spacing:1px;
+      margin:0;
+    }
+    .cm-transition-overlay__sub{
+      opacity:.78;
+      font-size:14px;
+      margin-top:-8px;
+    }
+    .cm-transition-overlay__spinner{
+      width:44px;
+      height:44px;
+      border-radius:50%;
+      border:4px solid rgba(255,255,255,0.14);
+      border-top-color:currentColor;
+      animation:cmSpin 1s linear infinite;
+    }
+    html[data-theme="light"] .cm-transition-overlay__spinner{
+      border-color:rgba(0,0,0,0.14);
+      border-top-color:currentColor;
+    }
+    @keyframes cmSpin{ to{ transform:rotate(360deg); } }
+  `;
+  document.head.appendChild(style);
+}
+
+function ensureOverlayEl_() {
+  if (cmOverlayEl) return cmOverlayEl;
+
+  ensureOverlayStyles_();
+
+  const el = document.createElement("div");
+  el.className = "cm-transition-overlay";
+  el.id = "cmTransitionOverlay";
+  el.innerHTML = `
+    <div class="cm-transition-overlay__inner">
+      <h1 class="cm-transition-overlay__title">Chasing Majors</h1>
+      <div class="cm-transition-overlay__sub" id="cmTransitionOverlaySub">Searching the Vault…</div>
+      <div class="cm-transition-overlay__spinner" aria-hidden="true"></div>
+    </div>
+  `;
+  document.body.appendChild(el);
+  cmOverlayEl = el;
+  return cmOverlayEl;
+}
+
+function overlayShow(subText) {
+  const el = ensureOverlayEl_();
+  const sub = document.getElementById("cmTransitionOverlaySub");
+  if (sub) sub.textContent = subText || "Searching the Vault…";
+
+  cmOverlayShownAt = Date.now();
+  cmOverlayVisible = true;
+  requestAnimationFrame(() => {
+    el.classList.add("show");
+  });
+}
+
+function overlayHide() {
+  const el = ensureOverlayEl_();
+  el.classList.remove("show");
+  cmOverlayVisible = false;
+}
+
+function overlayMaybeHide(force) {
+  if (!cmOverlayVisible && !force) return;
+
+  const elapsed = Date.now() - cmOverlayShownAt;
+  const remaining = Math.max(0, OVERLAY_MIN_MS - elapsed);
+
+  setTimeout(() => {
+    overlayHide();
+  }, force ? 0 : remaining);
+}
+
 // ---------------- INDEX CACHE ----------------
 function loadCachedIndex_() {
   const cached = localStorage.getItem(INDEX_KEY);
@@ -182,6 +301,7 @@ async function ensureFreshIndex_() {
 // ---------------- INIT ----------------
 (async function init() {
   loadTheme();
+  ensureOverlayEl_();
   applyIncomingQueryToInput();
   await ensureFreshIndex_();
   initDone = true;
@@ -266,6 +386,7 @@ function clearHomepageHandoff() {
   try {
     sessionStorage.removeItem("cm_home_search");
     sessionStorage.removeItem("cm_home_target");
+    sessionStorage.removeItem(HANDOFF_FLAG_KEY);
   } catch (e) {}
 }
 
@@ -276,21 +397,36 @@ function runHomepageHandoffIfPresent() {
   const urlQuery = String(URL_Q || "").trim();
   let savedQuery = "";
   let savedTarget = "";
+  let handoffActive = "";
 
   try {
     savedQuery = sessionStorage.getItem("cm_home_search") || "";
     savedTarget = sessionStorage.getItem("cm_home_target") || "";
+    handoffActive = sessionStorage.getItem(HANDOFF_FLAG_KEY) || "";
   } catch (e) {}
 
   const incomingQuery = urlQuery || savedQuery;
 
-  if (!incomingQuery) return;
-  if (!elQ) return;
+  if (!incomingQuery) {
+    overlayMaybeHide(true);
+    return;
+  }
+  if (!elQ) {
+    overlayMaybeHide(true);
+    return;
+  }
 
-  if (!urlQuery && savedTarget && savedTarget !== "vault") return;
+  if (!urlQuery && savedTarget && savedTarget !== "vault") {
+    overlayMaybeHide(true);
+    return;
+  }
 
   elQ.value = incomingQuery;
   closeDropdown();
+
+  if (handoffActive === "1") {
+    overlayShow("Searching the Vault…");
+  }
 
   const best = findBestMatch(incomingQuery);
   if (!best) {
@@ -310,6 +446,7 @@ function runHomepageHandoffIfPresent() {
     });
 
     elResults.innerHTML = `<div class="card" style="opacity:.8;">No matching product found for "${esc(incomingQuery)}".</div>`;
+    overlayMaybeHide();
     clearHomepageHandoff();
     return;
   }
@@ -324,7 +461,7 @@ function runHomepageHandoffIfPresent() {
   runSearch().finally(clearHomepageHandoff);
 }
 
-// ---------------- TYPEAHEAD (AUTO SEARCH ON SELECT) ----------------
+// ---------------- TYPEAHEAD ----------------
 elQ.addEventListener("input", () => {
   const q = elQ.value.toLowerCase().trim();
   selected = null;
@@ -358,6 +495,7 @@ elQ.addEventListener("input", () => {
       elQ.value = selected.DisplayName;
       closeDropdown();
 
+      overlayShow("Searching the Vault…");
       logSelectionFireAndForget_(selected);
       await runSearch();
     };
@@ -388,6 +526,7 @@ if (elBtnClear) {
     elQ.value = "";
     selected = null;
     closeDropdown();
+    overlayMaybeHide(true);
     elResults.innerHTML = `<div class="card" style="opacity:.8;">No results yet. Run a search.</div>`;
   };
 }
@@ -400,7 +539,12 @@ async function runSearch() {
   }
 
   const rawQuery = String(elQ.value || "").trim();
-  if (!rawQuery) return;
+  if (!rawQuery) {
+    overlayMaybeHide(true);
+    return;
+  }
+
+  overlayShow("Searching the Vault…");
 
   logEventFireAndForget_({
     event_type: "search_submit",
@@ -440,6 +584,7 @@ async function runSearch() {
       });
 
       elResults.innerHTML = `<div class="card" style="opacity:.8;">No matching product found.</div>`;
+      overlayMaybeHide();
       return;
     }
   }
@@ -482,6 +627,8 @@ async function runSearch() {
     });
 
     elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading data.</div>`;
+  } finally {
+    overlayMaybeHide();
   }
 }
 
