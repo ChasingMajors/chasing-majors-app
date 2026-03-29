@@ -15,7 +15,7 @@
    - Baseball hitter player stat card support
    - Homepage search handoff support
    - Master logger support
-   - Branded transition overlay
+   - Boot overlay integration
 ========================================= */
 
 // ---------------- CONFIG ----------------
@@ -27,9 +27,8 @@ const INDEX_KEY = "cv_index_v1";
 const INDEX_VER_KEY = "cv_index_ver_v1";
 const THEME_KEY = "cm_theme";
 const BROAD_PAGE_SIZE = 50;
-
 const HANDOFF_FLAG_KEY = "cm_handoff_active";
-const OVERLAY_MIN_MS = 1400;
+const OVERLAY_MIN_MS = 1200;
 
 // ---------------- DOM ----------------
 const elQ = document.getElementById("q");
@@ -39,6 +38,7 @@ const elThemeBtn = document.getElementById("themeToggle");
 const elSport = document.getElementById("sport");
 const elBtnSearch = document.getElementById("btnSearch");
 const elBtnClear = document.getElementById("btnClear");
+const elBootOverlay = document.getElementById("cmBootOverlay");
 
 // ---------------- STATE ----------------
 let INDEX = [];
@@ -46,6 +46,7 @@ let selected = null;
 let searchTimer = null;
 let activeTypeaheadToken = 0;
 let initDone = false;
+let bootOverlayShownAt = window.__CM_SHOW_BOOT_OVERLAY__ ? Date.now() : 0;
 
 const URL_Q = new URLSearchParams(location.search).get("q") || "";
 
@@ -547,17 +548,23 @@ function clearHomepageHandoff() {
 function applyIncomingQueryToInput() {
   const incoming = norm(URL_Q);
   if (!incoming || !elQ) return;
-
   elQ.value = incoming;
+}
 
-  if (elResults) {
-    elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(incoming)}"…</div>`;
-  }
+function hideBootOverlay(force) {
+  if (!elBootOverlay) return;
 
-  if (elBtnSearch) {
-    elBtnSearch.disabled = true;
-    elBtnSearch.textContent = "Loading...";
-  }
+  const elapsed = Date.now() - bootOverlayShownAt;
+  const remaining = Math.max(0, OVERLAY_MIN_MS - elapsed);
+
+  setTimeout(() => {
+    elBootOverlay.classList.remove("show");
+    document.body.classList.remove("cm-handoff-loading");
+
+    setTimeout(() => {
+      elBootOverlay.style.display = "none";
+    }, 240);
+  }, force ? 0 : remaining);
 }
 
 function runHomepageHandoffIfPresent() {
@@ -566,40 +573,34 @@ function runHomepageHandoffIfPresent() {
   const urlQuery = norm(URL_Q);
   let savedQuery = "";
   let savedTarget = "";
-  let handoffActive = "";
 
   try {
     savedQuery = sessionStorage.getItem("cm_home_search") || "";
     savedTarget = sessionStorage.getItem("cm_home_target") || "";
-    handoffActive = sessionStorage.getItem(HANDOFF_FLAG_KEY) || "";
   } catch (e) {}
 
   const incomingQuery = urlQuery || savedQuery;
 
   if (!incomingQuery) {
     setLoadingState(false);
-    overlayMaybeHide(true);
+    hideBootOverlay(true);
     return;
   }
 
   if (!elQ) {
     setLoadingState(false);
-    overlayMaybeHide(true);
+    hideBootOverlay(true);
     return;
   }
 
   if (!urlQuery && savedTarget && savedTarget !== "checklists") {
     setLoadingState(false);
-    overlayMaybeHide(true);
+    hideBootOverlay(true);
     return;
   }
 
   elQ.value = incomingQuery;
   closeDropdown();
-
-  if (handoffActive === "1") {
-    overlayShow("Searching the Vault…");
-  }
 
   const sport = getSportValue();
   const best = findBestLocalProductMatch(incomingQuery, sport);
@@ -623,35 +624,14 @@ function runHomepageHandoffIfPresent() {
       term: best.DisplayName || ""
     });
 
-    elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(incomingQuery)}"…</div>`;
-
     runProductSearch(best.Code, best.sport).finally(clearHomepageHandoff);
     return;
   }
 
-  elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(incomingQuery)}"…</div>`;
-
   runBroadSearch(incomingQuery, sport, 1).finally(clearHomepageHandoff);
 }
 
-// ---------------- API ----------------
-async function api(action, payload = {}) {
-  const res = await fetch(EXEC_URL, {
-    method: "POST",
-    headers: { "Content-Type": "text/plain;charset=utf-8" },
-    body: JSON.stringify({ action, payload })
-  });
-
-  const data = await res.json();
-
-  if (!data || data.ok === false) {
-    throw new Error(data?.error || "Request failed");
-  }
-
-  return data;
-}
-
-// ---------------- MASTER LOGGER ----------------
+// ---------------- LOGGER ----------------
 function getSessionId_() {
   try {
     const key = "cm_session_id";
@@ -723,119 +703,21 @@ function logEventFireAndForget_(payload) {
   }).catch(() => {});
 }
 
-// ---------------- BRANDED OVERLAY ----------------
-let cmOverlayEl = null;
-let cmOverlayShownAt = 0;
-let cmOverlayVisible = false;
-
-function ensureOverlayStyles_() {
-  if (document.getElementById("cmTransitionOverlayStyles")) return;
-
-  const style = document.createElement("style");
-  style.id = "cmTransitionOverlayStyles";
-  style.textContent = `
-    .cm-transition-overlay{
-      position:fixed;
-      inset:0;
-      background:var(--bg, #0b0b0b);
-      color:var(--text, #ffffff);
-      display:grid;
-      place-items:center;
-      z-index:10001;
-      opacity:0;
-      pointer-events:none;
-      transition:opacity 260ms ease;
-    }
-    .cm-transition-overlay.show{
-      opacity:1;
-      pointer-events:auto;
-    }
-    .cm-transition-overlay__inner{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      gap:14px;
-      text-align:center;
-      width:min(520px, 92vw);
-      padding:34px 18px 18px;
-    }
-    .cm-transition-overlay__title{
-      font-family:"Bangers", cursive;
-      font-size:44px;
-      line-height:1.05;
-      letter-spacing:1px;
-      margin:0;
-    }
-    .cm-transition-overlay__sub{
-      opacity:.78;
-      font-size:14px;
-      margin-top:-8px;
-    }
-    .cm-transition-overlay__spinner{
-      width:44px;
-      height:44px;
-      border-radius:50%;
-      border:4px solid rgba(255,255,255,0.14);
-      border-top-color:currentColor;
-      animation:cmSpin 1s linear infinite;
-    }
-    html[data-theme="light"] .cm-transition-overlay__spinner{
-      border-color:rgba(0,0,0,0.14);
-      border-top-color:currentColor;
-    }
-    @keyframes cmSpin{ to{ transform:rotate(360deg); } }
-  `;
-  document.head.appendChild(style);
-}
-
-function ensureOverlayEl_() {
-  if (cmOverlayEl) return cmOverlayEl;
-
-  ensureOverlayStyles_();
-
-  const el = document.createElement("div");
-  el.className = "cm-transition-overlay";
-  el.id = "cmTransitionOverlay";
-  el.innerHTML = `
-    <div class="cm-transition-overlay__inner">
-      <h1 class="cm-transition-overlay__title">Chasing Majors</h1>
-      <div class="cm-transition-overlay__sub" id="cmTransitionOverlaySub">Searching the Vault…</div>
-      <div class="cm-transition-overlay__spinner" aria-hidden="true"></div>
-    </div>
-  `;
-  document.body.appendChild(el);
-  cmOverlayEl = el;
-  return cmOverlayEl;
-}
-
-function overlayShow(subText) {
-  const el = ensureOverlayEl_();
-  const sub = document.getElementById("cmTransitionOverlaySub");
-  if (sub) sub.textContent = subText || "Searching the Vault…";
-
-  cmOverlayShownAt = Date.now();
-  cmOverlayVisible = true;
-  requestAnimationFrame(() => {
-    el.classList.add("show");
+// ---------------- API ----------------
+async function api(action, payload = {}) {
+  const res = await fetch(EXEC_URL, {
+    method: "POST",
+    headers: { "Content-Type": "text/plain;charset=utf-8" },
+    body: JSON.stringify({ action, payload })
   });
-}
 
-function overlayHide() {
-  const el = ensureOverlayEl_();
-  el.classList.remove("show");
-  cmOverlayVisible = false;
-}
+  const data = await res.json();
 
-function overlayMaybeHide(force) {
-  if (!cmOverlayVisible && !force) return;
+  if (!data || data.ok === false) {
+    throw new Error(data?.error || "Request failed");
+  }
 
-  const elapsed = Date.now() - cmOverlayShownAt;
-  const remaining = Math.max(0, OVERLAY_MIN_MS - elapsed);
-
-  setTimeout(() => {
-    overlayHide();
-  }, force ? 0 : remaining);
+  return data;
 }
 
 // ---------------- INDEX CACHE ----------------
@@ -877,7 +759,6 @@ async function ensureFreshIndex_() {
 // ---------------- INIT ----------------
 (async function init() {
   loadTheme();
-  ensureOverlayEl_();
   applyIncomingQueryToInput();
   await ensureFreshIndex_();
   initDone = true;
@@ -923,7 +804,6 @@ function bindDropdownItems(items) {
       selected = item;
       elQ.value = item.term || item.displayName || "";
       closeDropdown();
-      overlayShow("Searching the Vault…");
 
       if (lower(item.type) === "product" && item.code) {
         logSelectionFireAndForget_({
@@ -1128,7 +1008,7 @@ if (elBtnClear) {
     };
     closeDropdown();
     setLoadingState(false);
-    overlayMaybeHide(true);
+    hideBootOverlay(true);
     elResults.innerHTML = `<div class="card" style="opacity:.8;">No results yet. Run a search.</div>`;
   };
 }
@@ -1155,11 +1035,9 @@ async function runSearch() {
 
   if (!q) {
     setLoadingState(false);
-    overlayMaybeHide(true);
+    hideBootOverlay(true);
     return;
   }
-
-  overlayShow("Searching the Vault…");
 
   logEventFireAndForget_({
     event_type: "search_submit",
@@ -1280,7 +1158,7 @@ async function runProductSearch(code, sport) {
     elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading checklist data: ${esc(e?.message || String(e))}</div>`;
   } finally {
     setLoadingState(false);
-    overlayMaybeHide();
+    hideBootOverlay();
   }
 }
 
@@ -1366,7 +1244,7 @@ async function runBroadSearch(q, sport, page = 1) {
     elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading search results: ${esc(e?.message || String(e))}</div>`;
   } finally {
     setLoadingState(false);
-    overlayMaybeHide();
+    hideBootOverlay();
   }
 }
 
@@ -1673,7 +1551,6 @@ function bindBroadPagingButtons() {
     btn.addEventListener("click", () => {
       if (btn.disabled) return;
       const nextPage = Number(btn.getAttribute("data-page")) || 1;
-      overlayShow("Searching the Vault…");
       runBroadSearch(broadSearchState.q, broadSearchState.sport, nextPage);
     });
   });
