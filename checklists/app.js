@@ -14,11 +14,13 @@
    - Parallels support from Google Sheets Parallels tab
    - Baseball hitter player stat card support
    - Homepage search handoff support
+   - Master logger support
 ========================================= */
 
 // ---------------- CONFIG ----------------
 
 const EXEC_URL = "https://script.google.com/macros/s/AKfycbzRke6mbxg5B3XyV-wVRna5tREXohAB3TficDgz-EjJKN2Bapf7NvCw5mFT5scQpHU/exec";
+const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbwzmm9rEr4pIN1-JNwn5Sp0Wma2u8-Q4GrxgAtiLQzrKjCHrPAwLi8D1SxPqg5f3X7u/exec";
 
 const INDEX_KEY = "cv_index_v1";
 const INDEX_VER_KEY = "cv_index_ver_v1";
@@ -601,7 +603,10 @@ function runHomepageHandoffIfPresent() {
     logSelectionFireAndForget_({
       DisplayName: best.DisplayName || "",
       year: best.year || "",
-      sport: best.sport || ""
+      sport: best.sport || "",
+      code: best.Code || "",
+      type: "product",
+      term: best.DisplayName || ""
     });
 
     elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(incomingQuery)}"…</div>`;
@@ -630,6 +635,78 @@ async function api(action, payload = {}) {
   }
 
   return data;
+}
+
+// ---------------- MASTER LOGGER ----------------
+function getSessionId_() {
+  try {
+    const key = "cm_session_id";
+    let val = localStorage.getItem(key);
+    if (!val) {
+      val = "cm_" + Date.now() + "_" + Math.random().toString(36).slice(2, 10);
+      localStorage.setItem(key, val);
+    }
+    return val;
+  } catch (e) {
+    return "cm_" + Date.now();
+  }
+}
+
+function normalizeQuery_(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/\u2019/g, "'")
+    .replace(/[^\w\s']/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function inferSearchKind_(value, selectedType) {
+  const st = String(selectedType || "").trim().toLowerCase();
+  if (st) return st;
+
+  const q = String(value || "").trim();
+  if (!q) return "";
+
+  if (/^\d{4}/.test(q)) return "product";
+
+  const words = q.split(/\s+/).filter(Boolean);
+  if (words.length === 2 && /^[A-Za-z'.-]+$/.test(words[0]) && /^[A-Za-z'.-]+$/.test(words[1])) {
+    return "player";
+  }
+
+  return "query";
+}
+
+function logEventFireAndForget_(payload) {
+  const body = JSON.stringify({
+    action: "logEvent",
+    payload: Object.assign({
+      app: "cv",
+      page: "checklists",
+      session_id: getSessionId_(),
+      referrer: document.referrer || "",
+      url: location.href,
+      user_agent: navigator.userAgent || "",
+      status: "ok"
+    }, payload || {})
+  });
+
+  try {
+    if (navigator.sendBeacon) {
+      const blob = new Blob([body], { type: "text/plain;charset=utf-8" });
+      navigator.sendBeacon(LOG_EXEC_URL, blob);
+      return;
+    }
+  } catch (e) {}
+
+  fetch(LOG_EXEC_URL, {
+    method: "POST",
+    headers: { "Content-Type": "text/plain;charset=utf-8" },
+    body,
+    keepalive: true
+  }).catch(() => {});
 }
 
 // ---------------- INDEX CACHE ----------------
@@ -721,11 +798,28 @@ function bindDropdownItems(items) {
         logSelectionFireAndForget_({
           DisplayName: item.displayName || item.term || "",
           year: item.year || "",
-          sport: item.sport || ""
+          sport: item.sport || "",
+          code: item.code || "",
+          type: item.type || "product",
+          term: item.term || item.displayName || ""
         });
 
         await runProductSearch(item.code, item.sport);
       } else {
+        logEventFireAndForget_({
+          event_type: "typeahead_select",
+          query: item.term || item.displayName || elQ.value || "",
+          normalized_query: normalizeQuery_(item.term || item.displayName || elQ.value || ""),
+          search_kind: lower(item.type || inferSearchKind_(item.term || item.displayName || "")),
+          selected_name: item.term || item.displayName || "",
+          selected_code: item.code || "",
+          selected_type: item.type || "",
+          sport: item.sport || getSportValue() || "",
+          year: item.year || "",
+          route_target: "checklists",
+          source: "dropdown"
+        });
+
         await runBroadSearch(item.term || elQ.value, item.sport || getSportValue(), 1);
       }
     };
@@ -747,11 +841,19 @@ function renderDropdownItems(items) {
 function logSelectionFireAndForget_(sel) {
   if (!sel) return;
 
-  api("logSearch", {
-    selectedName: sel.DisplayName || "",
+  logEventFireAndForget_({
+    event_type: "typeahead_select",
+    query: sel.term || sel.DisplayName || sel.displayName || "",
+    normalized_query: normalizeQuery_(sel.term || sel.DisplayName || sel.displayName || ""),
+    search_kind: lower(sel.type || "product"),
+    selected_name: sel.DisplayName || sel.displayName || sel.term || "",
+    selected_code: sel.code || "",
+    selected_type: sel.type || "product",
+    sport: sel.sport || "",
     year: sel.year || "",
-    sport: sel.sport || ""
-  }).catch(() => {});
+    route_target: "checklists",
+    source: "dropdown"
+  });
 }
 
 // ---------------- LOCAL TYPEAHEAD ----------------
@@ -924,6 +1026,20 @@ async function runSearch() {
     return;
   }
 
+  logEventFireAndForget_({
+    event_type: "search_submit",
+    query: q,
+    normalized_query: normalizeQuery_(q),
+    search_kind: inferSearchKind_(q, selected && selected.type),
+    selected_name: selected ? (selected.displayName || selected.term || "") : "",
+    selected_code: selected ? (selected.code || "") : "",
+    selected_type: selected ? (selected.type || "") : "",
+    sport: sport || "",
+    year: selected ? (selected.year || "") : "",
+    route_target: "checklists",
+    source: "button_or_enter"
+  });
+
   if (selected && lower(selected.type) === "product" && selected.code) {
     await runProductSearch(selected.code, selected.sport || sport);
     return;
@@ -944,7 +1060,10 @@ async function runSearch() {
     logSelectionFireAndForget_({
       DisplayName: localMatch.DisplayName || "",
       year: localMatch.year || "",
-      sport: localMatch.sport || ""
+      sport: localMatch.sport || "",
+      code: localMatch.Code || "",
+      type: "product",
+      term: localMatch.DisplayName || ""
     });
 
     await runProductSearch(localMatch.Code, localMatch.sport);
@@ -979,6 +1098,21 @@ async function runProductSearch(code, sport) {
     currentProductRows = Array.isArray(data.rows) ? data.rows : [];
     currentProductParallels = Array.isArray(data.parallels) ? data.parallels : [];
 
+    logEventFireAndForget_({
+      event_type: "product_view",
+      query: handoffQuery || (currentProductMeta && currentProductMeta.displayName) || "",
+      normalized_query: normalizeQuery_(handoffQuery || (currentProductMeta && currentProductMeta.displayName) || ""),
+      search_kind: "product",
+      selected_name: (currentProductMeta && currentProductMeta.displayName) || "",
+      selected_code: code || "",
+      selected_type: "product",
+      sport: sport || (currentProductMeta && currentProductMeta.sport) || "",
+      year: (currentProductMeta && currentProductMeta.year) || "",
+      route_target: "checklists",
+      source: "results_load",
+      result_count: currentProductRows.length || 0
+    });
+
     const availableTabs = getAvailableTabs(currentProductRows);
     if (availableTabs.some(t => t.key === "Base")) {
       currentProductTab = "Base";
@@ -989,8 +1123,25 @@ async function runProductSearch(code, sport) {
     }
 
     renderCurrentProductTab();
-     } catch (e) {
+  } catch (e) {
     console.error("runProductSearch error:", e);
+
+    logEventFireAndForget_({
+      event_type: "product_view",
+      query: handoffQuery || "",
+      normalized_query: normalizeQuery_(handoffQuery || ""),
+      search_kind: "product",
+      selected_name: "",
+      selected_code: code || "",
+      selected_type: "product",
+      sport: sport || "",
+      year: "",
+      route_target: "checklists",
+      source: "results_load",
+      result_count: 0,
+      status: "error"
+    });
+
     elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading checklist data: ${esc(e?.message || String(e))}</div>`;
   } finally {
     setLoadingState(false);
@@ -1034,14 +1185,48 @@ async function runBroadSearch(q, sport, page = 1) {
 
     currentPlayerStats = playerData && playerData.found ? playerData.player : null;
 
+    logEventFireAndForget_({
+      event_type: "search_results",
+      query: q,
+      normalized_query: normalizeQuery_(q),
+      search_kind: currentPlayerStats ? "player" : inferSearchKind_(q),
+      selected_name: currentPlayerStats ? (currentPlayerStats.player || "") : "",
+      selected_code: "",
+      selected_type: currentPlayerStats ? "player" : "",
+      sport: sport || "",
+      year: "",
+      route_target: "checklists",
+      source: page > 1 ? "paging" : "results_load",
+      result_count: Number(cardsData.total) || 0,
+      page_number: Number(cardsData.page) || 1
+    });
+
     renderBroadResults(q, cardsData.results || [], sport, {
       total: broadSearchState.total,
       page: broadSearchState.page,
       pageSize: broadSearchState.pageSize,
       totalPages: broadSearchState.totalPages
     });
-   } catch (e) {
+  } catch (e) {
     console.error("runBroadSearch error:", e);
+
+    logEventFireAndForget_({
+      event_type: "search_results",
+      query: q,
+      normalized_query: normalizeQuery_(q),
+      search_kind: inferSearchKind_(q),
+      selected_name: "",
+      selected_code: "",
+      selected_type: "",
+      sport: sport || "",
+      year: "",
+      route_target: "checklists",
+      source: page > 1 ? "paging" : "results_load",
+      result_count: 0,
+      page_number: page || 1,
+      status: "error"
+    });
+
     elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading search results: ${esc(e?.message || String(e))}</div>`;
   } finally {
     setLoadingState(false);
