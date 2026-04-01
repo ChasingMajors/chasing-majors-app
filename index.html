@@ -174,8 +174,14 @@
       align-items:stretch;
     }
 
-    .searchInput{
+    .searchBox{
+      position:relative;
       flex:1 1 380px;
+      min-width:0;
+    }
+
+    .searchInput{
+      width:100%;
       min-width:0;
       height:50px;
       border-radius:14px;
@@ -217,6 +223,47 @@
     .searchNote{
       font-size:12px;
       color:var(--muted);
+    }
+
+    .homeDropdown{
+      position:absolute;
+      left:0;
+      right:0;
+      top:calc(100% + 8px);
+      display:none;
+      z-index:30;
+      background:#111;
+      border:1px solid rgba(255,255,255,0.15);
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow: 0 18px 36px rgba(0,0,0,0.36);
+    }
+
+    .homeDdItem{
+      padding:12px 14px;
+      border-bottom:1px solid rgba(255,255,255,0.08);
+      cursor:pointer;
+      background:transparent;
+    }
+
+    .homeDdItem:last-child{
+      border-bottom:0;
+    }
+
+    .homeDdItem:hover{
+      background:rgba(255,255,255,0.08);
+    }
+
+    .homeDdTitle{
+      font-weight:800;
+      font-size:14px;
+      line-height:1.25;
+    }
+
+    .homeDdMeta{
+      font-size:12px;
+      opacity:.72;
+      margin-top:4px;
     }
 
     .heroAside{
@@ -596,6 +643,10 @@
         gap:8px;
       }
 
+      .searchBox{
+        width:100%;
+      }
+
       .searchInput{
         width:100%;
         height:38px;
@@ -663,14 +714,17 @@
         </div>
 
         <div class="searchWrap">
-          <input
-            id="homeSearch"
-            class="searchInput"
-            type="text"
-            placeholder="Search a set or player…"
-            autocomplete="off"
-            enterkeyhint="search"
-          />
+          <div class="searchBox">
+            <input
+              id="homeSearch"
+              class="searchInput"
+              type="text"
+              placeholder="Search a set or player…"
+              autocomplete="off"
+              enterkeyhint="search"
+            />
+            <div id="homeDropdown" class="homeDropdown"></div>
+          </div>
           <button class="primaryBtn" type="button" id="searchPrimaryBtn">Search</button>
         </div>
 
@@ -680,22 +734,22 @@
       </div>
 
       <div class="heroAside">
-        <a class="miniCard" id="homeTrendingMini" href="/checklists/?q=2026%20Topps%20Series%201">
+        <a class="miniCard" id="homeTrendingMini" href="/checklists/">
           <div class="miniLabel">Trending</div>
-          <div class="miniValue">2026 Topps Series 1</div>
-          <div class="miniSub">Most searched by collectors right now.</div>
+          <div class="miniValue">Loading results...</div>
+          <div class="miniSub">Updating now.</div>
         </a>
 
-        <a class="miniCard" id="homeJustAddedMini" href="/checklists/?q=2026%20Bowman%E2%80%99s%20Best">
+        <a class="miniCard" id="homeJustAddedMini" href="/checklists/">
           <div class="miniLabel">Just Added</div>
-          <div class="miniValue">2026 Bowman’s Best</div>
-          <div class="miniSub">New checklist and data now available.</div>
+          <div class="miniValue">Loading results...</div>
+          <div class="miniSub">Updating now.</div>
         </a>
 
-        <a class="miniCard" id="homeDualMini" href="/vault/?q=2026%20Topps%20Series%201">
+        <a class="miniCard" id="homeDualMini" href="/vault/">
           <div class="miniLabel">Checklist + Print Run</div>
-          <div class="miniValue">Search both in one place</div>
-          <div class="miniSub">Search full checklists and estimated print runs in one place.</div>
+          <div class="miniValue">Loading results...</div>
+          <div class="miniSub">Updating now.</div>
         </a>
       </div>
     </section>
@@ -730,27 +784,11 @@
       <div class="card">
         <div class="sectionTitle">Continue Exploring</div>
         <div class="list" id="continueExploringList">
-          <a class="listItem" href="/checklists/?q=2026%20Topps%20Series%201">
-            <div class="listBadge">26</div>
+          <a class="listItem" href="/checklists/">
+            <div class="listBadge">CM</div>
             <div class="listCopy">
-              <div class="listTop">2026 Topps Series 1</div>
-              <div class="listSub">Last viewed set or recent homepage search</div>
-            </div>
-            <div class="listArrow">›</div>
-          </a>
-          <a class="listItem" href="/checklists/?q=2025%20Bowman%20Chrome">
-            <div class="listBadge">BC</div>
-            <div class="listCopy">
-              <div class="listTop">2025 Bowman Chrome</div>
-              <div class="listSub">Recent search</div>
-            </div>
-            <div class="listArrow">›</div>
-          </a>
-          <a class="listItem" href="/checklists/?q=Aaron%20Judge">
-            <div class="listBadge">AJ</div>
-            <div class="listCopy">
-              <div class="listTop">Aaron Judge</div>
-              <div class="listSub">Player search</div>
+              <div class="listTop">Loading results...</div>
+              <div class="listSub">Recent homepage searches will appear here.</div>
             </div>
             <div class="listArrow">›</div>
           </a>
@@ -760,11 +798,11 @@
       <div class="card">
         <div class="sectionTitle">Trending</div>
         <div class="list" id="homeTrendingList">
-          <a class="listItem" href="/checklists/?q=2026%20Topps%20Series%201">
-            <div class="listBadge">TS1</div>
+          <a class="listItem" href="/checklists/">
+            <div class="listBadge">...</div>
             <div class="listCopy">
-              <div class="listTop">2026 Topps Series 1</div>
-              <div class="listSub">Most searched by collectors right now.</div>
+              <div class="listTop">Loading results...</div>
+              <div class="listSub">Updating now.</div>
             </div>
             <div class="listArrow">›</div>
           </a>
@@ -774,11 +812,11 @@
       <div class="card">
         <div class="sectionTitle">Just Added</div>
         <div class="list" id="homeJustAddedList">
-          <a class="listItem" href="/checklists/?q=2026%20Bowman%E2%80%99s%20Best">
-            <div class="listBadge">BB</div>
+          <a class="listItem" href="/checklists/">
+            <div class="listBadge">...</div>
             <div class="listCopy">
-              <div class="listTop">2026 Bowman’s Best</div>
-              <div class="listSub">New checklist and data now available.</div>
+              <div class="listTop">Loading results...</div>
+              <div class="listSub">Updating now.</div>
             </div>
             <div class="listArrow">›</div>
           </a>
@@ -820,6 +858,12 @@
   <script>
     (function () {
       const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbwzmm9rEr4pIN1-JNwn5Sp0Wma2u8-Q4GrxgAtiLQzrKjCHrPAwLi8D1SxPqg5f3X7u/exec";
+      const CHECKLIST_EXEC_URL = "https://script.google.com/macros/s/AKfycbxX4EDvrzzazimuPL20nKyVRD19E_3dFR7d0s5E1V4Xp4MeJT0HUOGSKW_Wmx-u8Vgi/exec";
+      const HOME_INDEX_KEY = "cm_home_index_v1";
+
+      let activeTarget = "checklists";
+      let homeIndex = [];
+      let activeSuggestions = [];
 
       function hideOverlay() {
         var el = document.getElementById("overlay");
@@ -972,7 +1016,65 @@
           + '<div class="miniSub">' + escapeHtml(item.sub || "") + '</div>';
       }
 
+      function setLoadingCards() {
+        var trendingList = document.getElementById("homeTrendingList");
+        var justAddedList = document.getElementById("homeJustAddedList");
+        var trendingMini = document.getElementById("homeTrendingMini");
+        var justAddedMini = document.getElementById("homeJustAddedMini");
+        var dualMini = document.getElementById("homeDualMini");
+
+        if (trendingMini) {
+          trendingMini.href = "/checklists/";
+          trendingMini.innerHTML = ''
+            + '<div class="miniLabel">Trending</div>'
+            + '<div class="miniValue">Loading results...</div>'
+            + '<div class="miniSub">Updating now.</div>';
+        }
+
+        if (justAddedMini) {
+          justAddedMini.href = "/checklists/";
+          justAddedMini.innerHTML = ''
+            + '<div class="miniLabel">Just Added</div>'
+            + '<div class="miniValue">Loading results...</div>'
+            + '<div class="miniSub">Updating now.</div>';
+        }
+
+        if (dualMini) {
+          dualMini.href = "/vault/";
+          dualMini.innerHTML = ''
+            + '<div class="miniLabel">Checklist + Print Run</div>'
+            + '<div class="miniValue">Loading results...</div>'
+            + '<div class="miniSub">Updating now.</div>';
+        }
+
+        if (trendingList) {
+          trendingList.innerHTML = ''
+            + '<a class="listItem" href="/checklists/">'
+            +   '<div class="listBadge">...</div>'
+            +   '<div class="listCopy">'
+            +     '<div class="listTop">Loading results...</div>'
+            +     '<div class="listSub">Updating now.</div>'
+            +   '</div>'
+            +   '<div class="listArrow">›</div>'
+            + '</a>';
+        }
+
+        if (justAddedList) {
+          justAddedList.innerHTML = ''
+            + '<a class="listItem" href="/checklists/">'
+            +   '<div class="listBadge">...</div>'
+            +   '<div class="listCopy">'
+            +     '<div class="listTop">Loading results...</div>'
+            +     '<div class="listSub">Updating now.</div>'
+            +   '</div>'
+            +   '<div class="listArrow">›</div>'
+            + '</a>';
+        }
+      }
+
       function hydrateHomeFeed() {
+        setLoadingCards();
+
         fetch(LOG_EXEC_URL + "?action=getHomeFeed&daysTrending=7&trendingLimit=3&addedLimit=3", {
           method: "GET"
         })
@@ -1016,28 +1118,114 @@
         .catch(function(){});
       }
 
-      document.addEventListener("DOMContentLoaded", function () {
-        setTimeout(hideOverlay, 300);
-        hydrateHomeFeed();
-      });
+      function closeHomeDropdown() {
+        var dd = document.getElementById("homeDropdown");
+        if (!dd) return;
+        dd.style.display = "none";
+        dd.innerHTML = "";
+        activeSuggestions = [];
+      }
 
-      window.addEventListener("load", function () {
-        setTimeout(hideOverlay, 300);
-      });
+      function renderHomeDropdown(items) {
+        var dd = document.getElementById("homeDropdown");
+        if (!dd) return;
 
-      setTimeout(hideOverlay, 1800);
+        activeSuggestions = items || [];
 
-      var input = document.getElementById("homeSearch");
-      var primaryBtn = document.getElementById("searchPrimaryBtn");
-      var continueList = document.getElementById("continueExploringList");
-      var toggleChecklist = document.getElementById("toggleChecklist");
-      var togglePrintRun = document.getElementById("togglePrintRun");
-      var searchNote = document.getElementById("searchNote");
+        if (!activeSuggestions.length) {
+          closeHomeDropdown();
+          return;
+        }
 
-      var activeTarget = "checklists";
+        dd.innerHTML = activeSuggestions.map(function(item, idx) {
+          return ''
+            + '<div class="homeDdItem" data-idx="' + idx + '">'
+            +   '<div class="homeDdTitle">' + escapeHtml(item.DisplayName || "") + '</div>'
+            +   '<div class="homeDdMeta">' + escapeHtml((item.year || "") + (item.sport ? " • " + item.sport : "") + (item.manufacturer ? " • " + item.manufacturer : "")) + '</div>'
+            + '</div>';
+        }).join("");
+
+        dd.style.display = "block";
+
+        Array.prototype.forEach.call(dd.children, function(node) {
+          node.addEventListener("click", function() {
+            var idx = Number(node.getAttribute("data-idx")) || 0;
+            var item = activeSuggestions[idx];
+            if (!item) return;
+
+            var input = document.getElementById("homeSearch");
+            if (input) input.value = item.DisplayName || "";
+            closeHomeDropdown();
+            runSearch("suggestion_click", item);
+          });
+        });
+      }
+
+      function getHomeSuggestions(query) {
+        var q = normalizeQuery(query);
+        if (!q || q.length < 2) return [];
+
+        var exact = [];
+        var starts = [];
+        var contains = [];
+
+        homeIndex.forEach(function(item) {
+          var displayName = String(item.DisplayName || "").toLowerCase();
+          var keywords = String(item.Keywords || "").toLowerCase();
+          var code = String(item.Code || "").toLowerCase();
+          var hay = displayName + " | " + keywords + " | " + code;
+
+          if (!hay.includes(q)) return;
+
+          if (displayName === q || code === q) exact.push(item);
+          else if (displayName.indexOf(q) === 0 || keywords.indexOf(q) === 0 || code.indexOf(q) === 0) starts.push(item);
+          else contains.push(item);
+        });
+
+        var out = exact.concat(starts, contains);
+        var seen = {};
+        return out.filter(function(item) {
+          var key = String(item.Code || "") + "|" + String(item.DisplayName || "");
+          if (seen[key]) return false;
+          seen[key] = true;
+          return true;
+        }).slice(0, 8);
+      }
+
+      async function loadHomeIndex() {
+        try {
+          var cached = localStorage.getItem(HOME_INDEX_KEY);
+          if (cached) {
+            homeIndex = JSON.parse(cached) || [];
+          }
+        } catch (e) {}
+
+        try {
+          var res = await fetch(CHECKLIST_EXEC_URL, {
+            method: "POST",
+            headers: { "Content-Type": "text/plain;charset=utf-8" },
+            body: JSON.stringify({
+              action: "index",
+              payload: {}
+            })
+          });
+
+          var data = await res.json();
+          if (data && data.ok && Array.isArray(data.index)) {
+            homeIndex = data.index;
+            try {
+              localStorage.setItem(HOME_INDEX_KEY, JSON.stringify(homeIndex));
+            } catch (e) {}
+          }
+        } catch (e) {}
+      }
 
       function setTarget(target) {
         activeTarget = target === "vault" ? "vault" : "checklists";
+
+        var toggleChecklist = document.getElementById("toggleChecklist");
+        var togglePrintRun = document.getElementById("togglePrintRun");
+        var searchNote = document.getElementById("searchNote");
 
         if (toggleChecklist && togglePrintRun) {
           toggleChecklist.classList.toggle("active", activeTarget === "checklists");
@@ -1053,8 +1241,10 @@
         }
       }
 
-      function runSearch(source) {
-        var query = cleanQuery(input ? input.value : "");
+      function runSearch(source, selectedItem) {
+        var input = document.getElementById("homeSearch");
+        var query = cleanQuery(selectedItem && selectedItem.DisplayName ? selectedItem.DisplayName : (input ? input.value : ""));
+
         if (!query) {
           location.href = activeTarget === "vault" ? "/vault/" : "/checklists/";
           return;
@@ -1069,9 +1259,14 @@
         logHomeEvent("search_submit", {
           query: query,
           normalized_query: normalizeQuery(query),
-          search_kind: /^\d{4}/.test(query) ? "product" : "query",
+          search_kind: selectedItem ? "product" : (/^\d{4}/.test(query) ? "product" : "query"),
           route_target: activeTarget,
-          source: source || "button"
+          source: source || "button",
+          selected_name: selectedItem ? (selectedItem.DisplayName || "") : "",
+          selected_code: selectedItem ? (selectedItem.Code || "") : "",
+          selected_type: selectedItem ? "product" : "",
+          sport: selectedItem ? (selectedItem.sport || "") : "",
+          year: selectedItem ? (selectedItem.year || "") : ""
         });
 
         if (activeTarget === "vault") {
@@ -1081,70 +1276,102 @@
         }
       }
 
-      if (toggleChecklist) {
-        toggleChecklist.addEventListener("click", function () {
-          setTarget("checklists");
-        });
-      }
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(hideOverlay, 300);
+        hydrateHomeFeed();
+        loadHomeIndex();
 
-      if (togglePrintRun) {
-        togglePrintRun.addEventListener("click", function () {
-          setTarget("vault");
-        });
-      }
+        var input = document.getElementById("homeSearch");
+        var primaryBtn = document.getElementById("searchPrimaryBtn");
+        var continueList = document.getElementById("continueExploringList");
+        var toggleChecklist = document.getElementById("toggleChecklist");
+        var togglePrintRun = document.getElementById("togglePrintRun");
 
-      if (primaryBtn) {
-        primaryBtn.addEventListener("click", function () {
-          runSearch("button");
-        });
-      }
+        if (toggleChecklist) {
+          toggleChecklist.addEventListener("click", function () {
+            setTarget("checklists");
+          });
+        }
 
-      if (input) {
-        input.addEventListener("keydown", function (e) {
-          if (e.key === "Enter") {
-            e.preventDefault();
-            runSearch("enter");
-          }
-        });
-      }
+        if (togglePrintRun) {
+          togglePrintRun.addEventListener("click", function () {
+            setTarget("vault");
+          });
+        }
 
-      setTarget("checklists");
+        if (primaryBtn) {
+          primaryBtn.addEventListener("click", function () {
+            runSearch("button");
+          });
+        }
 
-      try {
-        var recents = JSON.parse(localStorage.getItem("cm_recent_searches") || "[]");
-        if (Array.isArray(recents) && recents.length && continueList) {
-          var top3 = recents.slice(0, 3);
-          var html = "";
-
-          top3.forEach(function (item) {
-            var query = escapeHtml(item.query || "");
-            var href = item.target === "vault"
-              ? "/vault/?q=" + encodeURIComponent(item.query || "")
-              : "/checklists/?q=" + encodeURIComponent(item.query || "");
-
-            var badge = (item.query || "")
-              .split(" ")
-              .map(function (w) { return w ? w.charAt(0) : ""; })
-              .join("")
-              .slice(0, 3)
-              .toUpperCase();
-
-            if (!badge) badge = "CM";
-
-            html +=
-              '<a class="listItem" href="' + href + '">' +
-                '<div class="listBadge">' + badge + '</div>' +
-                '<div class="listCopy">' +
-                  '<div class="listTop">' + query + '</div>' +
-                  '<div class="listSub">Recent homepage search</div>' +
-                '</div>' +
-                '<div class="listArrow">›</div>' +
-              '</a>';
+        if (input) {
+          input.addEventListener("input", function (e) {
+            renderHomeDropdown(getHomeSuggestions(e.target.value));
           });
 
-          continueList.innerHTML = html;
+          input.addEventListener("keydown", function (e) {
+            if (e.key === "Enter") {
+              e.preventDefault();
+              closeHomeDropdown();
+              runSearch("enter");
+            }
+          });
+
+          input.addEventListener("focus", function () {
+            renderHomeDropdown(getHomeSuggestions(input.value));
+          });
         }
-      } catch (e) {}
+
+        document.addEventListener("click", function(e) {
+          var inside = e.target.closest(".searchBox");
+          if (!inside) closeHomeDropdown();
+        });
+
+        setTarget("checklists");
+
+        try {
+          var recents = JSON.parse(localStorage.getItem("cm_recent_searches") || "[]");
+          if (Array.isArray(recents) && recents.length && continueList) {
+            var top3 = recents.slice(0, 3);
+            var html = "";
+
+            top3.forEach(function (item) {
+              var query = escapeHtml(item.query || "");
+              var href = item.target === "vault"
+                ? "/vault/?q=" + encodeURIComponent(item.query || "")
+                : "/checklists/?q=" + encodeURIComponent(item.query || "");
+
+              var badge = (item.query || "")
+                .split(" ")
+                .map(function (w) { return w ? w.charAt(0) : ""; })
+                .join("")
+                .slice(0, 3)
+                .toUpperCase();
+
+              if (!badge) badge = "CM";
+
+              html +=
+                '<a class="listItem" href="' + href + '">'
+                  + '<div class="listBadge">' + badge + '</div>'
+                  + '<div class="listCopy">'
+                    + '<div class="listTop">' + query + '</div>'
+                    + '<div class="listSub">Recent homepage search</div>'
+                  + '</div>'
+                  + '<div class="listArrow">›</div>'
+                + '</a>';
+            });
+
+            continueList.innerHTML = html;
+          }
+        } catch (e) {}
+      });
+
+      window.addEventListener("load", function () {
+        setTimeout(hideOverlay, 300);
+      });
+
+      setTimeout(hideOverlay, 1800);
 
       document.addEventListener("click", function (e) {
         var a = e.target.closest("a[href]");
