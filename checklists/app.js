@@ -810,6 +810,28 @@ async function ensureFreshIndex_() {
 (async function init() {
   loadTheme();
   applyIncomingQueryToInput();
+
+  const hasDirectProductHandoff = !!(URL_CODE && URL_SPORT && lower(URL_TYPE) === "product");
+
+  if (hasDirectProductHandoff) {
+    initDone = true;
+
+    selected = {
+      type: "product",
+      code: URL_CODE,
+      sport: URL_SPORT,
+      displayName: URL_Q || URL_CODE,
+      term: URL_Q || URL_CODE,
+      year: ""
+    };
+
+    runProductSearch(URL_CODE, URL_SPORT)
+      .finally(clearHomepageHandoff);
+
+    ensureFreshIndex_().catch(() => {});
+    return;
+  }
+
   await ensureFreshIndex_();
   initDone = true;
   runHomepageHandoffIfPresent();
