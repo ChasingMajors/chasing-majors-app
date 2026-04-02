@@ -16,6 +16,7 @@
    - Homepage search handoff support
    - Master logger support
    - Boot overlay integration
+   - Direct URL product routing via ?code=&sport=&type=
 ========================================= */
 
 // ---------------- CONFIG ----------------
@@ -48,7 +49,11 @@ let activeTypeaheadToken = 0;
 let initDone = false;
 let bootOverlayShownAt = window.__CM_SHOW_BOOT_OVERLAY__ ? Date.now() : 0;
 
-const URL_Q = new URLSearchParams(location.search).get("q") || "";
+const URL_PARAMS = new URLSearchParams(location.search);
+const URL_Q = URL_PARAMS.get("q") || "";
+const URL_CODE = URL_PARAMS.get("code") || "";
+const URL_SPORT = URL_PARAMS.get("sport") || "";
+const URL_TYPE = URL_PARAMS.get("type") || "";
 
 let currentProductMeta = null;
 let currentProductRows = [];
@@ -537,6 +542,14 @@ function findBestLocalProductMatch(query, sport) {
   return null;
 }
 
+function findLocalProductByCode(code, sport) {
+  const c = norm(code);
+  if (!c || !INDEX.length) return null;
+
+  const rows = INDEX.filter(i => !sport || lower(i.sport) === lower(sport));
+  return rows.find(i => norm(i.Code) === c) || null;
+}
+
 function clearHomepageHandoff() {
   try {
     sessionStorage.removeItem("cm_home_search");
@@ -546,9 +559,19 @@ function clearHomepageHandoff() {
 }
 
 function applyIncomingQueryToInput() {
-  const incoming = norm(URL_Q);
-  if (!incoming || !elQ) return;
-  elQ.value = incoming;
+  if (!elQ) return;
+
+  const incomingCode = norm(URL_CODE);
+  const incomingQ = norm(URL_Q);
+
+  if (incomingQ) {
+    elQ.value = incomingQ;
+    return;
+  }
+
+  if (incomingCode) {
+    elQ.value = incomingCode;
+  }
 }
 
 function hideBootOverlay(force) {
@@ -569,6 +592,42 @@ function hideBootOverlay(force) {
 
 function runHomepageHandoffIfPresent() {
   if (!initDone) return;
+
+  const directCode = norm(URL_CODE);
+  const directSport = norm(URL_SPORT);
+  const directType = lower(URL_TYPE);
+
+  if (directCode && (!directType || directType === "product")) {
+    const bestByCode = findLocalProductByCode(directCode, directSport);
+
+    if (bestByCode) {
+      selected = {
+        type: "product",
+        code: bestByCode.Code,
+        sport: bestByCode.sport,
+        displayName: bestByCode.DisplayName,
+        term: bestByCode.DisplayName,
+        year: bestByCode.year
+      };
+
+      if (elQ) {
+        elQ.value = bestByCode.DisplayName || directCode;
+      }
+
+      closeDropdown();
+
+      runProductSearch(bestByCode.Code, bestByCode.sport).finally(clearHomepageHandoff);
+      return;
+    }
+
+    if (elQ) {
+      elQ.value = directCode;
+    }
+
+    closeDropdown();
+    runProductSearch(directCode, directSport).finally(clearHomepageHandoff);
+    return;
+  }
 
   const urlQuery = norm(URL_Q);
   let savedQuery = "";
@@ -602,7 +661,7 @@ function runHomepageHandoffIfPresent() {
   elQ.value = incomingQuery;
   closeDropdown();
 
-  const sport = getSportValue();
+  const sport = getSportValue() || directSport;
   const best = findBestLocalProductMatch(incomingQuery, sport);
 
   if (best) {
@@ -614,15 +673,6 @@ function runHomepageHandoffIfPresent() {
       term: best.DisplayName,
       year: best.year
     };
-
-    logSelectionFireAndForget_({
-      DisplayName: best.DisplayName || "",
-      year: best.year || "",
-      sport: best.sport || "",
-      code: best.Code || "",
-      type: "product",
-      term: best.DisplayName || ""
-    });
 
     runProductSearch(best.Code, best.sport).finally(clearHomepageHandoff);
     return;
@@ -1101,7 +1151,7 @@ async function runProductSearch(code, sport) {
     totalPages: 0
   };
 
-  const handoffQuery = norm(URL_Q) || norm(elQ ? elQ.value : "");
+  const handoffQuery = norm(URL_Q) || norm(elQ ? elQ.value : "") || norm(code);
   setLoadingState(true);
   elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(handoffQuery || "your query")}"…</div>`;
 
@@ -1110,6 +1160,10 @@ async function runProductSearch(code, sport) {
     currentProductMeta = data.meta || null;
     currentProductRows = Array.isArray(data.rows) ? data.rows : [];
     currentProductParallels = Array.isArray(data.parallels) ? data.parallels : [];
+
+    if (currentProductMeta && currentProductMeta.displayName && elQ) {
+      elQ.value = currentProductMeta.displayName;
+    }
 
     logEventFireAndForget_({
       event_type: "product_view",
