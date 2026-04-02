@@ -21,7 +21,7 @@
 
 // ---------------- CONFIG ----------------
 
-const EXEC_URL = "https://script.google.com/macros/s/AKfycbzyNZNf6HILb1newIB9vXv1Sc46Hn_a4BXDwmdQ3M0JMM2Ps-r3NwyNz4eh-J81Lt_k/exec";
+const EXEC_URL = "https://script.google.com/macros/s/AKfycbxl7w3Oak222ZfaN37mH_4JxmZ1cbAeNMULQHvhetuaJfTS3LImUgGkZPf0txb1fzM/exec";
 const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbwzmm9rEr4pIN1-JNwn5Sp0Wma2u8-Q4GrxgAtiLQzrKjCHrPAwLi8D1SxPqg5f3X7u/exec";
 
 const INDEX_KEY = "cv_index_v1";
