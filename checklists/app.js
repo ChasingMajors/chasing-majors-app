@@ -614,14 +614,21 @@ function runHomepageHandoffIfPresent() {
         elQ.value = bestByCode.DisplayName || directCode;
       }
 
-      closeDropdown();
+      if (elSport && bestByCode.sport) {
+        elSport.value = bestByCode.sport;
+      }
 
+      closeDropdown();
       runProductSearch(bestByCode.Code, bestByCode.sport).finally(clearHomepageHandoff);
       return;
     }
 
     if (elQ) {
       elQ.value = directCode;
+    }
+
+    if (elSport && directSport) {
+      elSport.value = directSport;
     }
 
     closeDropdown();
@@ -673,6 +680,10 @@ function runHomepageHandoffIfPresent() {
       term: best.DisplayName,
       year: best.year
     };
+
+    if (elSport && best.sport) {
+      elSport.value = best.sport;
+    }
 
     runProductSearch(best.Code, best.sport).finally(clearHomepageHandoff);
     return;
@@ -825,6 +836,10 @@ async function ensureFreshIndex_() {
       year: ""
     };
 
+    if (elSport && URL_SPORT) {
+      elSport.value = URL_SPORT;
+    }
+
     runProductSearch(URL_CODE, URL_SPORT)
       .finally(clearHomepageHandoff);
 
@@ -887,6 +902,10 @@ function bindDropdownItems(items) {
           term: item.term || item.displayName || ""
         });
 
+        if (elSport && item.sport) {
+          elSport.value = item.sport;
+        }
+
         await runProductSearch(item.code, item.sport);
       } else {
         logEventFireAndForget_({
@@ -902,6 +921,10 @@ function bindDropdownItems(items) {
           route_target: "checklists",
           source: "dropdown"
         });
+
+        if (elSport && item.sport) {
+          elSport.value = item.sport;
+        }
 
         await runBroadSearch(item.term || elQ.value, item.sport || getSportValue(), 1);
       }
@@ -1126,6 +1149,9 @@ async function runSearch() {
   });
 
   if (selected && lower(selected.type) === "product" && selected.code) {
+    if (elSport && selected.sport) {
+      elSport.value = selected.sport;
+    }
     await runProductSearch(selected.code, selected.sport || sport);
     return;
   }
@@ -1150,6 +1176,10 @@ async function runSearch() {
       type: "product",
       term: localMatch.DisplayName || ""
     });
+
+    if (elSport && localMatch.sport) {
+      elSport.value = localMatch.sport;
+    }
 
     await runProductSearch(localMatch.Code, localMatch.sport);
     return;
@@ -1183,19 +1213,26 @@ async function runProductSearch(code, sport) {
     currentProductRows = Array.isArray(data.rows) ? data.rows : [];
     currentProductParallels = Array.isArray(data.parallels) ? data.parallels : [];
 
-    if (currentProductMeta && currentProductMeta.displayName && elQ) {
-      elQ.value = currentProductMeta.displayName;
+    const resolvedSport = sport || (currentProductMeta && currentProductMeta.sport) || "";
+    const resolvedName = (currentProductMeta && currentProductMeta.displayName) || handoffQuery || code || "";
+
+    if (elSport && resolvedSport) {
+      elSport.value = resolvedSport;
+    }
+
+    if (elQ && resolvedName) {
+      elQ.value = resolvedName;
     }
 
     logEventFireAndForget_({
       event_type: "product_view",
-      query: handoffQuery || (currentProductMeta && currentProductMeta.displayName) || "",
-      normalized_query: normalizeQuery_(handoffQuery || (currentProductMeta && currentProductMeta.displayName) || ""),
+      query: resolvedName,
+      normalized_query: normalizeQuery_(resolvedName),
       search_kind: "product",
-      selected_name: (currentProductMeta && currentProductMeta.displayName) || "",
+      selected_name: resolvedName,
       selected_code: code || "",
       selected_type: "product",
-      sport: sport || (currentProductMeta && currentProductMeta.sport) || "",
+      sport: resolvedSport,
       year: (currentProductMeta && currentProductMeta.year) || "",
       route_target: "checklists",
       source: "results_load",
