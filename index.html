@@ -1269,11 +1269,27 @@
           year: selectedItem ? (selectedItem.year || "") : ""
         });
 
-        if (activeTarget === "vault") {
-          location.href = "/vault/?q=" + encodeURIComponent(query);
-        } else {
-          location.href = "/checklists/?q=" + encodeURIComponent(query);
-        }
+        if (selectedItem && selectedItem.Code) {
+  if (activeTarget === "vault") {
+    location.href =
+      "/vault/?q=" + encodeURIComponent(query) +
+      "&code=" + encodeURIComponent(selectedItem.Code || "") +
+      "&type=product";
+  } else {
+    location.href =
+      "/checklists/?q=" + encodeURIComponent(query) +
+      "&code=" + encodeURIComponent(selectedItem.Code || "") +
+      "&sport=" + encodeURIComponent(selectedItem.sport || "") +
+      "&type=product";
+  }
+  return;
+}
+
+if (activeTarget === "vault") {
+  location.href = "/vault/?q=" + encodeURIComponent(query);
+} else {
+  location.href = "/checklists/?q=" + encodeURIComponent(query);
+}
       }
 
       document.addEventListener("DOMContentLoaded", function () {
