@@ -874,13 +874,15 @@
     }
 
     function cleanQuery(value) {
-      return (value || "").replace(/\s+/g, " ").trim();
+      return String(value || "")
+        .replace(/\u2019/g, "'")
+        .replace(/\s+/g, " ")
+        .trim();
     }
 
     function normalizeQuery(value) {
       return cleanQuery(value)
         .toLowerCase()
-        .replace(/\u2019/g, "'")
         .replace(/[^\w\s']/g, " ")
         .replace(/\s+/g, " ")
         .trim();
@@ -992,13 +994,120 @@
       return parts.slice(0, 3).map(function (w) { return w.charAt(0); }).join("").toUpperCase();
     }
 
-    function makeListHtml(items) {
+    function getItemCode(item) {
+      return cleanQuery(
+        item && (
+          item.code ||
+          item.Code ||
+          item.selected_code ||
+          item.selectedCode
+        )
+      );
+    }
+
+    function getItemSport(item) {
+      return cleanQuery(
+        item && (
+          item.sport ||
+          item.selected_sport ||
+          item.selectedSport
+        )
+      ).toLowerCase();
+    }
+
+    function getItemType(item) {
+      return cleanQuery(
+        item && (
+          item.type ||
+          item.selected_type ||
+          "product"
+        )
+      ).toLowerCase();
+    }
+
+    function getItemQuery(item) {
+      return cleanQuery(
+        item && (
+          item.label ||
+          item.query ||
+          item.DisplayName ||
+          item.displayName ||
+          item.selected_name ||
+          item.selectedName ||
+          item.code ||
+          item.Code ||
+          ""
+        )
+      );
+    }
+
+    function isDirectProductItem(item) {
+      return !!(getItemCode(item) && getItemSport(item));
+    }
+
+    function buildChecklistUrl(item) {
+      var query = getItemQuery(item);
+      var code = getItemCode(item);
+      var sport = getItemSport(item);
+
+      if (code && sport) {
+        return "/checklists/?code=" + encodeURIComponent(code) +
+          "&sport=" + encodeURIComponent(sport) +
+          "&type=product" +
+          "&q=" + encodeURIComponent(query || code);
+      }
+
+      return "/checklists/" + (query ? ("?q=" + encodeURIComponent(query)) : "");
+    }
+
+    function buildVaultUrl(item) {
+      var query = getItemQuery(item);
+      var code = getItemCode(item);
+      var sport = getItemSport(item);
+
+      if (code && sport) {
+        return "/vault/?code=" + encodeURIComponent(code) +
+          "&sport=" + encodeURIComponent(sport) +
+          "&type=product" +
+          "&q=" + encodeURIComponent(query || code);
+      }
+
+      return "/vault/" + (query ? ("?q=" + encodeURIComponent(query)) : "");
+    }
+
+    function buildItemUrl(item, target) {
+      return target === "vault" ? buildVaultUrl(item) : buildChecklistUrl(item);
+    }
+
+    function stashHandoffFromItem(item, target) {
+      try {
+        sessionStorage.setItem("cm_handoff_active", "1");
+        sessionStorage.setItem("cm_home_search", getItemQuery(item));
+        sessionStorage.setItem("cm_home_target", target || "checklists");
+      } catch (e) {}
+    }
+
+    function stashHandoffFromHref(href, fallbackTarget) {
+      try {
+        var u = new URL(href, location.origin);
+        var target = fallbackTarget || (u.pathname.indexOf("/vault/") === 0 ? "vault" : "checklists");
+        var q = cleanQuery(u.searchParams.get("q") || "");
+        sessionStorage.setItem("cm_handoff_active", "1");
+        sessionStorage.setItem("cm_home_search", q);
+        sessionStorage.setItem("cm_home_target", target);
+      } catch (e) {}
+    }
+
+    function makeListHtml(items, target) {
       return items.map(function (item) {
+        var href = buildItemUrl(item, target || "checklists");
+        var text = getItemQuery(item);
+
         return ''
-          + '<a class="listItem" href="' + escapeHtml(item.url || "#") + '">'
-          +   '<div class="listBadge">' + escapeHtml(item.badge || badgeFromText(item.label || item.query || "")) + '</div>'
+          + '<a class="listItem" href="' + escapeHtml(href) + '">'
+          +   '<div class="listBadge">' + escapeHtml(item.badge || badgeFromText(text)) + '</div>'
           +   '<div class="listCopy">'
-          +     '<div class="listTop">' + escapeHtml(item.label || item.query || "") + '</div>'
+          +     '<div class="listTop">' + escapeHtml(text) + '</div>'
           +     '<div class="listSub">' + escapeHtml(item.sub || "") + '</div>'
           +   '</div>'
           +   '<div class="listArrow">›</div>'
@@ -1006,12 +1115,12 @@
       }).join("");
     }
 
-    function hydrateMiniCard(el, label, item) {
+    function hydrateMiniCard(el, label, item, target) {
       if (!el || !item) return;
-      el.href = item.url || "#";
+      el.href = buildItemUrl(item, target || "checklists");
       el.innerHTML = ''
         + '<div class="miniLabel">' + escapeHtml(label) + '</div>'
-        + '<div class="miniValue">' + escapeHtml(item.label || item.query || "") + '</div>'
+        + '<div class="miniValue">' + escapeHtml(getItemQuery(item)) + '</div>'
         + '<div class="miniSub">' + escapeHtml(item.sub || "") + '</div>';
     }
 
@@ -1091,26 +1200,26 @@
         var dualMini = document.getElementById("homeDualMini");
 
         if (trending.length && trendingList) {
-          trendingList.innerHTML = makeListHtml(trending);
+          trendingList.innerHTML = makeListHtml(trending, "checklists");
         }
 
         if (justAdded.length && justAddedList) {
-          justAddedList.innerHTML = makeListHtml(justAdded);
+          justAddedList.innerHTML = makeListHtml(justAdded, "checklists");
         }
 
         if (trending.length) {
-          hydrateMiniCard(trendingMini, "Trending", trending[0]);
+          hydrateMiniCard(trendingMini, "Trending", trending[0], "checklists");
         }
 
         if (justAdded.length) {
-          hydrateMiniCard(justAddedMini, "Just Added", justAdded[0]);
+          hydrateMiniCard(justAddedMini, "Just Added", justAdded[0], "checklists");
         }
 
         if (trending.length && dualMini) {
-          dualMini.href = "/vault/?q=" + encodeURIComponent(trending[0].query || trending[0].label || "");
+          dualMini.href = buildItemUrl(trending[0], "vault");
           dualMini.innerHTML = ''
             + '<div class="miniLabel">Checklist + Print Run</div>'
-            + '<div class="miniValue">' + escapeHtml(trending[0].label || trending[0].query || "Search both in one place") + '</div>'
+            + '<div class="miniValue">' + escapeHtml(getItemQuery(trending[0]) || "Search both in one place") + '</div>'
             + '<div class="miniSub">Open the same product in Print Run Vault.</div>';
         }
       })
@@ -1247,12 +1356,7 @@
       var type = "product";
 
       saveRecentSearch(query || code, activeTarget);
-
-      try {
-        sessionStorage.setItem("cm_handoff_active", "1");
-        sessionStorage.setItem("cm_home_search", query || code);
-        sessionStorage.setItem("cm_home_target", activeTarget);
-      } catch (e) {}
+      stashHandoffFromItem(selectedItem, activeTarget);
 
       logHomeEvent("search_submit", {
         query: query || code,
@@ -1268,7 +1372,11 @@
       });
 
       if (activeTarget === "vault") {
-        location.href = "/vault/?q=" + encodeURIComponent(query || code);
+        location.href =
+          "/vault/?code=" + encodeURIComponent(code) +
+          "&sport=" + encodeURIComponent(sport) +
+          "&type=" + encodeURIComponent(type) +
+          "&q=" + encodeURIComponent(query || code);
         return;
       }
 
@@ -1425,19 +1533,31 @@
       if (href.indexOf("/checklists/") === 0) target = "checklists";
       if (!target) return;
 
+      stashHandoffFromHref(href, target);
+
       var parsed = "";
+      var code = "";
+      var sport = "";
+      var type = "";
+
       try {
         var u = new URL(href, location.origin);
         parsed = u.searchParams.get("q") || "";
+        code = u.searchParams.get("code") || "";
+        sport = u.searchParams.get("sport") || "";
+        type = u.searchParams.get("type") || "";
       } catch (err) {}
 
       logHomeEvent("homepage_link_click", {
         query: parsed,
         normalized_query: normalizeQuery(parsed),
-        search_kind: parsed ? (/^\d{4}/.test(parsed) ? "product" : "query") : "",
+        search_kind: code ? "product" : (parsed ? (/^\d{4}/.test(parsed) ? "product" : "query") : ""),
         route_target: target,
         source: "link_click",
-        selected_name: parsed
+        selected_name: parsed,
+        selected_code: code,
+        selected_type: type,
+        sport: sport
       });
     });
   })();
