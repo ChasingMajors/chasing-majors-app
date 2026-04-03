@@ -5,6 +5,7 @@
    - Bottom nav handled in HTML
    - Master logger support
    - Boot overlay integration
+   - Normalized query matching for homepage/trending links
 ================================ */
 
 // ---------------- CONFIG ----------------
@@ -34,9 +35,17 @@ let selected = null;
 let initDone = false;
 let bootOverlayShownAt = window.__CM_SHOW_BOOT_OVERLAY__ ? Date.now() : 0;
 
+// ---------------- QUERY HELPERS ----------------
+function cleanQuery(value) {
+  return String(value || "")
+    .replace(/\u2019/g, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 // ---------------- APPLY QUERY TO INPUT ----------------
 function applyIncomingQueryToInput() {
-  const incoming = String(URL_Q || "").trim();
+  const incoming = cleanQuery(URL_Q || "");
   if (!incoming || !elQ) return;
   elQ.value = incoming;
 }
@@ -132,10 +141,8 @@ function getSessionId_() {
 }
 
 function normalizeQuery_(value) {
-  return String(value || "")
-    .trim()
+  return cleanQuery(value)
     .toLowerCase()
-    .replace(/\u2019/g, "'")
     .replace(/[^\w\s']/g, " ")
     .replace(/\s+/g, " ")
     .trim();
@@ -244,26 +251,26 @@ async function ensureFreshIndex_() {
 
 // ---------------- SEARCH HELPERS ----------------
 function findBestMatch(query) {
-  const q = String(query || "").toLowerCase().trim();
+  const q = normalizeQuery_(query);
   if (!q || !INDEX.length) return null;
 
   const exactDisplay = INDEX.find(i =>
-    String(i.DisplayName || "").toLowerCase() === q
+    normalizeQuery_(i.DisplayName || "") === q
   );
   if (exactDisplay) return exactDisplay;
 
   const exactCode = INDEX.find(i =>
-    String(i.Code || "").toLowerCase() === q
+    normalizeQuery_(i.Code || "") === q
   );
   if (exactCode) return exactCode;
 
   const startsWithDisplay = INDEX.find(i =>
-    String(i.DisplayName || "").toLowerCase().startsWith(q)
+    normalizeQuery_(i.DisplayName || "").startsWith(q)
   );
   if (startsWithDisplay) return startsWithDisplay;
 
   const includesMatch = INDEX.find(i =>
-    `${i.DisplayName || ""} ${i.Keywords || ""} ${i.Code || ""}`.toLowerCase().includes(q)
+    normalizeQuery_(`${i.DisplayName || ""} ${i.Keywords || ""} ${i.Code || ""}`).includes(q)
   );
   if (includesMatch) return includesMatch;
 
@@ -274,12 +281,12 @@ function findBestMatch(query) {
 function runHomepageHandoffIfPresent() {
   if (!initDone) return;
 
-  const urlQuery = String(URL_Q || "").trim();
+  const urlQuery = cleanQuery(URL_Q || "");
   let savedQuery = "";
   let savedTarget = "";
 
   try {
-    savedQuery = sessionStorage.getItem("cm_home_search") || "";
+    savedQuery = cleanQuery(sessionStorage.getItem("cm_home_search") || "");
     savedTarget = sessionStorage.getItem("cm_home_target") || "";
   } catch (e) {}
 
@@ -354,7 +361,7 @@ function closeDropdown() {
 
 // ---------------- TYPEAHEAD ----------------
 elQ.addEventListener("input", () => {
-  const q = elQ.value.toLowerCase().trim();
+  const q = normalizeQuery_(elQ.value);
   selected = null;
 
   if (q.length < 2) {
@@ -363,7 +370,7 @@ elQ.addEventListener("input", () => {
   }
 
   const hits = INDEX
-    .filter(i => `${i.DisplayName} ${i.Keywords} ${i.Code}`.toLowerCase().includes(q))
+    .filter(i => normalizeQuery_(`${i.DisplayName || ""} ${i.Keywords || ""} ${i.Code || ""}`).includes(q))
     .slice(0, 10);
 
   if (!hits.length) {
@@ -426,7 +433,7 @@ async function runSearch() {
     return;
   }
 
-  const rawQuery = String(elQ.value || "").trim();
+  const rawQuery = cleanQuery(elQ.value || "");
   if (!rawQuery) {
     hideBootOverlay(true);
     return;
