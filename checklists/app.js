@@ -5,14 +5,15 @@
    - Bottom nav handled in HTML
    - Master logger support
    - Boot overlay integration
-   - Normalized matching for homepage, PRV search, and quick links
+   - Normalized query matching fallback
+   - Direct URL product routing via ?code=&sport=&type=
 ================================ */
 
 // ---------------- CONFIG ----------------
 const EXEC_URL = "https://script.google.com/macros/s/AKfycbx_1rqxgSCu6aqDc7jEnETYC-KcNxHEf208GWXM23FR7hDT0ey8Y1SZ2i4U1VmXOZgpAg/exec";
 const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbwzmm9rEr4pIN1-JNwn5Sp0Wma2u8-Q4GrxgAtiLQzrKjCHrPAwLi8D1SxPqg5f3X7u/exec";
-const INDEX_KEY = "prv_index_v1";
-const INDEX_VER_KEY = "prv_index_ver_v1";
+const INDEX_KEY = "prv_index_v2";
+const INDEX_VER_KEY = "prv_index_ver_v2";
 const THEME_KEY = "cm_theme";
 const HANDOFF_FLAG_KEY = "cm_handoff_active";
 const OVERLAY_MIN_MS = 1200;
@@ -29,6 +30,9 @@ const elBootOverlay = document.getElementById("cmBootOverlay");
 // ---------------- URL PARAMS ----------------
 const URL_PARAMS = new URLSearchParams(location.search);
 const URL_Q = URL_PARAMS.get("q") || "";
+const URL_CODE = URL_PARAMS.get("code") || "";
+const URL_SPORT = URL_PARAMS.get("sport") || "";
+const URL_TYPE = URL_PARAMS.get("type") || "";
 
 // ---------------- STATE ----------------
 let INDEX = [];
@@ -36,11 +40,37 @@ let selected = null;
 let initDone = false;
 let bootOverlayShownAt = window.__CM_SHOW_BOOT_OVERLAY__ ? Date.now() : 0;
 
+// ---------------- QUERY HELPERS ----------------
+function cleanQuery(value) {
+  return String(value || "")
+    .replace(/\u2019/g, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function normalizeQuery_(value) {
+  return cleanQuery(value)
+    .toLowerCase()
+    .replace(/[^\w\s']/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 // ---------------- APPLY QUERY TO INPUT ----------------
 function applyIncomingQueryToInput() {
-  const incoming = String(URL_Q || "").trim();
-  if (!incoming || !elQ) return;
-  elQ.value = incoming;
+  if (!elQ) return;
+
+  const incomingQ = cleanQuery(URL_Q || "");
+  const incomingCode = cleanQuery(URL_CODE || "");
+
+  if (incomingQ) {
+    elQ.value = incomingQ;
+    return;
+  }
+
+  if (incomingCode) {
+    elQ.value = incomingCode;
+  }
 }
 
 // ---------------- THEME ----------------
@@ -94,19 +124,6 @@ function fmtNum(x) {
   return Number.isFinite(n) ? n.toLocaleString() : esc(x);
 }
 
-function cleanQuery(value) {
-  return String(value || "").replace(/\s+/g, " ").trim();
-}
-
-function normalizeSearchText(value) {
-  return String(value || "")
-    .toLowerCase()
-    .replace(/\u2019/g, "'")
-    .replace(/[^\w\s]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
 function clearHomepageHandoff() {
   try {
     sessionStorage.removeItem("cm_home_search");
@@ -144,16 +161,6 @@ function getSessionId_() {
   } catch (e) {
     return "cm_" + Date.now();
   }
-}
-
-function normalizeQuery_(value) {
-  return String(value || "")
-    .trim()
-    .toLowerCase()
-    .replace(/\u2019/g, "'")
-    .replace(/[^\w\s']/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
 }
 
 function logEventFireAndForget_(payload) {
@@ -258,97 +265,89 @@ async function ensureFreshIndex_() {
 }
 
 // ---------------- SEARCH HELPERS ----------------
-function makeNormalizedHaystack(item) {
-  const displayName = normalizeSearchText(item.DisplayName || "");
-  const keywords = normalizeSearchText(item.Keywords || "");
-  const code = normalizeSearchText(item.Code || "");
-  return {
-    displayName,
-    keywords,
-    code,
-    hay: `${displayName} | ${keywords} | ${code}`
-  };
+function findLocalProductByCode(code, sport) {
+  const cleanCode = cleanQuery(code);
+  const cleanSport = cleanQuery(sport).toLowerCase();
+
+  if (!cleanCode || !INDEX.length) return null;
+
+  let rows = INDEX.slice();
+
+  if (cleanSport) {
+    rows = rows.filter(i => String(i.sport || "").toLowerCase() === cleanSport);
+  }
+
+  return rows.find(i => cleanQuery(i.Code || "") === cleanCode) || null;
 }
 
 function findBestMatch(query) {
-  const q = normalizeSearchText(query);
+  const q = normalizeQuery_(query);
   if (!q || !INDEX.length) return null;
 
-  const exactDisplay = INDEX.find(i => {
-    const n = makeNormalizedHaystack(i);
-    return n.displayName === q;
-  });
+  const exactDisplay = INDEX.find(i =>
+    normalizeQuery_(i.DisplayName || "") === q
+  );
   if (exactDisplay) return exactDisplay;
 
-  const exactCode = INDEX.find(i => {
-    const n = makeNormalizedHaystack(i);
-    return n.code === q;
-  });
+  const exactCode = INDEX.find(i =>
+    normalizeQuery_(i.Code || "") === q
+  );
   if (exactCode) return exactCode;
 
-  const startsWithDisplay = INDEX.find(i => {
-    const n = makeNormalizedHaystack(i);
-    return n.displayName.startsWith(q);
-  });
+  const startsWithDisplay = INDEX.find(i =>
+    normalizeQuery_(i.DisplayName || "").startsWith(q)
+  );
   if (startsWithDisplay) return startsWithDisplay;
 
-  const startsWithKeywords = INDEX.find(i => {
-    const n = makeNormalizedHaystack(i);
-    return n.keywords.startsWith(q);
-  });
-  if (startsWithKeywords) return startsWithKeywords;
-
-  const includesMatch = INDEX.find(i => {
-    const n = makeNormalizedHaystack(i);
-    return n.hay.includes(q);
-  });
+  const includesMatch = INDEX.find(i =>
+    normalizeQuery_(`${i.DisplayName || ""} ${i.Keywords || ""} ${i.Code || ""}`).includes(q)
+  );
   if (includesMatch) return includesMatch;
 
   return null;
-}
-
-function getTypeaheadHits(query) {
-  const q = normalizeSearchText(query);
-  if (q.length < 2) return [];
-
-  const exact = [];
-  const starts = [];
-  const contains = [];
-
-  INDEX.forEach(i => {
-    const n = makeNormalizedHaystack(i);
-    if (!n.hay.includes(q)) return;
-
-    if (n.displayName === q || n.code === q) {
-      exact.push(i);
-    } else if (n.displayName.startsWith(q) || n.keywords.startsWith(q) || n.code.startsWith(q)) {
-      starts.push(i);
-    } else {
-      contains.push(i);
-    }
-  });
-
-  const out = exact.concat(starts, contains);
-  const seen = new Set();
-
-  return out.filter(i => {
-    const key = String(i.Code || "") + "|" + String(i.DisplayName || "");
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  }).slice(0, 10);
 }
 
 // ---------------- HOMEPAGE HANDOFF ----------------
 function runHomepageHandoffIfPresent() {
   if (!initDone) return;
 
+  const directCode = cleanQuery(URL_CODE || "");
+  const directSport = cleanQuery(URL_SPORT || "");
+  const directType = cleanQuery(URL_TYPE || "").toLowerCase();
+
+  if (directCode && (!directType || directType === "product")) {
+    const directHit = findLocalProductByCode(directCode, directSport);
+
+    if (directHit) {
+      selected = directHit;
+      if (elQ) elQ.value = cleanQuery(directHit.DisplayName || directCode);
+      closeDropdown();
+      runSearch().finally(clearHomepageHandoff);
+      return;
+    }
+
+    const fallbackSelected = {
+      Code: directCode,
+      DisplayName: cleanQuery(URL_Q || directCode),
+      sport: directSport,
+      year: "",
+      manufacturer: "",
+      product: ""
+    };
+
+    selected = fallbackSelected;
+    if (elQ) elQ.value = cleanQuery(URL_Q || directCode);
+    closeDropdown();
+    runSearch().finally(clearHomepageHandoff);
+    return;
+  }
+
   const urlQuery = cleanQuery(URL_Q || "");
   let savedQuery = "";
   let savedTarget = "";
 
   try {
-    savedQuery = sessionStorage.getItem("cm_home_search") || "";
+    savedQuery = cleanQuery(sessionStorage.getItem("cm_home_search") || "");
     savedTarget = sessionStorage.getItem("cm_home_target") || "";
   } catch (e) {}
 
@@ -388,7 +387,7 @@ function runHomepageHandoffIfPresent() {
       status: "error"
     });
 
-    elResults.innerHTML = `<div class="card" style="opacity:.8;">No matching product found for "${esc(cleanQuery(incomingQuery))}".</div>`;
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">No matching product found for "${esc(incomingQuery)}".</div>`;
     hideBootOverlay();
     clearHomepageHandoff();
     return;
@@ -423,15 +422,17 @@ function closeDropdown() {
 
 // ---------------- TYPEAHEAD ----------------
 elQ.addEventListener("input", () => {
-  const raw = cleanQuery(elQ.value);
+  const q = normalizeQuery_(elQ.value);
   selected = null;
 
-  if (normalizeSearchText(raw).length < 2) {
+  if (q.length < 2) {
     closeDropdown();
     return;
   }
 
-  const hits = getTypeaheadHits(raw);
+  const hits = INDEX
+    .filter(i => normalizeQuery_(`${i.DisplayName || ""} ${i.Keywords || ""} ${i.Code || ""}`).includes(q))
+    .slice(0, 10);
 
   if (!hits.length) {
     closeDropdown();
