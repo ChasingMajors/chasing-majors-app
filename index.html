@@ -820,11 +820,11 @@
               <div class="justAddedTop">Loading results...</div>
               <div class="justAddedSub">Updating now.</div>
             </a>
-            <a class="justAddedItem desktop-only" href="/checklists/">
+            <a class="justAddedItem" href="/checklists/">
               <div class="justAddedTop">Loading results...</div>
               <div class="justAddedSub">Updating now.</div>
             </a>
-            <a class="justAddedItem desktop-only" href="/checklists/">
+            <a class="justAddedItem" href="/checklists/">
               <div class="justAddedTop">Loading results...</div>
               <div class="justAddedSub">Updating now.</div>
             </a>
@@ -1189,9 +1189,13 @@
       var mobileItems = (items || []).slice(0, 3);
       var desktopExtra = (items || []).slice(3, 4);
 
+      function getTarget(item) {
+        return (item && item.target === "vault") ? "vault" : "checklists";
+      }
+
       var html = mobileItems.map(function (item) {
         return ''
-          + '<a class="justAddedItem" href="' + escapeHtml(buildChecklistUrl(item)) + '">'
+          + '<a class="justAddedItem" href="' + escapeHtml(buildItemUrl(item, getTarget(item))) + '">'
           +   '<div class="justAddedTop">' + escapeHtml(getItemQuery(item)) + '</div>'
           +   '<div class="justAddedSub">' + escapeHtml(item.sub || "Update is now live") + '</div>'
           + '</a>';
@@ -1199,7 +1203,7 @@
 
       desktopExtra.forEach(function (item) {
         html += ''
-          + '<a class="justAddedItem desktop-only" href="' + escapeHtml(buildChecklistUrl(item)) + '">'
+          + '<a class="justAddedItem desktop-only" href="' + escapeHtml(buildItemUrl(item, getTarget(item))) + '">'
           +   '<div class="justAddedTop">' + escapeHtml(getItemQuery(item)) + '</div>'
           +   '<div class="justAddedSub">' + escapeHtml(item.sub || "Update is now live") + '</div>'
           + '</a>';
@@ -1211,12 +1215,14 @@
     function formatJustAddedItems(items) {
       return (items || []).map(function (item) {
         var q = getItemQuery(item);
+        var target = cleanQuery((item && item.target) || "");
         var targetTool = cleanQuery(item && (item.target_tool || item.targetTool || item.tool || ""));
         var routeTarget = cleanQuery(item && (item.route_target || item.routeTarget || ""));
         var labelLower = q.toLowerCase();
         var sub = "Checklist is now live";
 
         if (
+          target === "vault" ||
           targetTool === "vault" ||
           routeTarget === "vault" ||
           /print run/.test(labelLower) ||
@@ -1244,11 +1250,11 @@
           +   '<div class="justAddedTop">Loading results...</div>'
           +   '<div class="justAddedSub">Updating now.</div>'
           + '</a>'
-          + '<a class="justAddedItem desktop-only" href="/checklists/">'
+          + '<a class="justAddedItem" href="/checklists/">'
           +   '<div class="justAddedTop">Loading results...</div>'
           +   '<div class="justAddedSub">Updating now.</div>'
           + '</a>'
-          + '<a class="justAddedItem desktop-only" href="/checklists/">'
+          + '<a class="justAddedItem" href="/checklists/">'
           +   '<div class="justAddedTop">Loading results...</div>'
           +   '<div class="justAddedSub">Updating now.</div>'
           + '</a>'
@@ -1293,12 +1299,11 @@
       .then(function (data) {
         if (!data || !data.ok) return;
 
-        var trending = Array.isArray(data.trending) ? data.trending : [];
+        var trendingChecklists = Array.isArray(data.trendingChecklists) ? data.trendingChecklists : [];
+        var trendingPrintRuns = Array.isArray(data.trendingPrintRuns) ? data.trendingPrintRuns : [];
         var justAddedRaw = Array.isArray(data.justAdded) ? data.justAdded : [];
 
         var justAdded = formatJustAddedItems(justAddedRaw);
-        var trendingChecklists = trending.slice(0, 3);
-        var trendingPrintRuns = trending.slice(0, 3);
 
         var heroJustAddedList = document.getElementById("heroJustAddedList");
         var trendingChecklistList = document.getElementById("homeTrendingChecklistList");
