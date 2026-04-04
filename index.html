@@ -1169,21 +1169,28 @@
     }
 
     function makeListHtml(items, target) {
-      return items.map(function (item) {
-        var href = buildItemUrl(item, target || "checklists");
-        var text = getItemQuery(item);
+  var rankLabels = [
+    "Most searched",
+    "Second most searched",
+    "Third most searched"
+  ];
 
-        return ''
-          + '<a class="listItem" href="' + escapeHtml(href) + '">'
-          +   '<div class="listBadge">' + escapeHtml(item.badge || badgeFromText(text)) + '</div>'
-          +   '<div class="listCopy">'
-          +     '<div class="listTop">' + escapeHtml(text) + '</div>'
-          +     '<div class="listSub">' + escapeHtml(item.sub || "") + '</div>'
-          +   '</div>'
-          +   '<div class="listArrow">›</div>'
-          + '</a>';
-      }).join("");
-    }
+  return (items || []).slice(0, 3).map(function (item, idx) {
+    var href = buildItemUrl(item, target || "checklists");
+    var text = getItemQuery(item);
+    var subLabel = rankLabels[idx] || "Trending";
+
+    return ''
+      + '<a class="listItem" href="' + escapeHtml(href) + '">'
+      +   '<div class="listBadge">' + escapeHtml(item.badge || badgeFromText(text)) + '</div>'
+      +   '<div class="listCopy">'
+      +     '<div class="listTop">' + escapeHtml(text) + '</div>'
+      +     '<div class="listSub">' + escapeHtml(subLabel) + '</div>'
+      +   '</div>'
+      +   '<div class="listArrow">›</div>'
+      + '</a>';
+  }).join("");
+}
 
     function makeHeroJustAddedHtml(items) {
       var mobileItems = (items || []).slice(0, 3);
@@ -1292,7 +1299,7 @@
     function hydrateHomeFeed() {
       setLoadingCards();
 
-      fetch(LOG_EXEC_URL + "?action=getHomeFeed&daysTrending=7&trendingLimit=6&addedLimit=4", {
+      fetch(LOG_EXEC_URL + "?action=getHomeFeed&daysTrending=7&trendingLimit=3&addedLimit=4", {
         method: "GET"
       })
       .then(function (r) { return r.json(); })
