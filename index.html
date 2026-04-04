@@ -23,8 +23,10 @@
       --cardBg2:rgba(255,255,255,0.05);
       --cardBorder:rgba(255,255,255,0.12);
 
-      --btnPrimaryBg:#ffffff;
-      --btnPrimaryText:#000000;
+      --btnPrimaryBg:#1e90ff;
+      --btnPrimaryText:#ffffff;
+      --btnBlue:#1e90ff;
+      --btnBlueHover:#1577d4;
 
       --navBg:#0b0b0b;
       --navBorder:rgba(255,255,255,0.12);
@@ -142,8 +144,8 @@
       gap:6px;
       padding:6px;
       border-radius:14px;
-      background: var(--navBtnBg);
-      border:1px solid var(--cardBorder);
+      background: rgba(30,144,255,0.14);
+      border:1px solid rgba(30,144,255,0.30);
       width:auto;
       max-width:100%;
     }
@@ -152,18 +154,24 @@
       border:0;
       background:transparent;
       color:var(--text);
-      height:34px;
-      padding:0 14px;
+      height:36px;
+      padding:0 16px;
       border-radius:10px;
       font-size:13px;
       font-weight:800;
       cursor:pointer;
       white-space:nowrap;
+      transition: background 120ms ease, color 120ms ease, transform 120ms ease;
     }
 
     .toggleBtn.active{
-      background: var(--btnPrimaryBg);
+      background: var(--btnBlue);
       color: var(--btnPrimaryText);
+      box-shadow: 0 6px 14px rgba(30,144,255,0.28);
+    }
+
+    .toggleBtn:hover{
+      transform: translateY(-1px);
     }
 
     .searchWrap{
@@ -204,7 +212,7 @@
       height:50px;
       padding:0 18px;
       border-radius:14px;
-      border:1px solid var(--cardBorder);
+      border:1px solid rgba(30,144,255,0.34);
       cursor:pointer;
       font-weight:800;
       font-size:14px;
@@ -212,12 +220,14 @@
       -webkit-appearance:none;
       appearance:none;
       transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
-      background: var(--btnPrimaryBg);
+      background: var(--btnBlue);
       color: var(--btnPrimaryText);
+      box-shadow: 0 8px 18px rgba(30,144,255,0.22);
     }
 
     .primaryBtn:hover{
       transform: translateY(-1px);
+      background: var(--btnBlueHover);
     }
 
     .searchNote{
@@ -267,54 +277,83 @@
     }
 
     .heroAside{
-      display:grid;
-      gap:12px;
-      min-width: 0;
+      display:flex;
+      flex-direction:column;
+      min-width:0;
     }
 
-    .miniCard{
-      display:block;
-      text-decoration:none;
-      color: var(--text);
+    .justAddedPanel{
       background: var(--cardBg);
       border:1px solid var(--cardBorder);
-      border-radius:16px;
-      padding:14px;
+      border-radius:18px;
+      padding:16px;
       box-shadow: var(--shadow);
-      transition: transform 120ms ease, border-color 120ms ease;
-      min-width: 0;
+      min-width:0;
+      height:100%;
     }
 
-    .miniCard:hover{
+    .panelHeader{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      margin-bottom:12px;
+    }
+
+    .panelTitle{
+      font-size:18px;
+      font-weight:900;
+      line-height:1.1;
+    }
+
+    .panelKicker{
+      font-size:11px;
+      font-weight:800;
+      letter-spacing:.5px;
+      text-transform:uppercase;
+      color:var(--muted);
+    }
+
+    .justAddedList{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+    }
+
+    .justAddedItem{
+      display:block;
+      text-decoration:none;
+      color:var(--text);
+      padding:12px 12px;
+      border-radius:14px;
+      background: var(--cardBg2);
+      border:1px solid var(--cardBorder);
+      transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
+      min-width:0;
+    }
+
+    .justAddedItem:hover{
       transform: translateY(-1px);
       border-color: rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.07);
     }
 
-    .miniLabel{
+    .justAddedTop{
+      font-size:14px;
+      font-weight:800;
+      line-height:1.28;
+      margin-bottom:5px;
+    }
+
+    .justAddedSub{
       font-size:12px;
       color:var(--muted);
-      text-transform:uppercase;
-      letter-spacing:.5px;
-      margin-bottom:8px;
-      font-weight:700;
-    }
-
-    .miniValue{
-      font-size:20px;
-      line-height:1.15;
-      font-weight:900;
-    }
-
-    .miniSub{
-      margin-top:6px;
-      color:var(--muted);
-      font-size:13px;
       line-height:1.35;
     }
 
     .quickGrid{
       display:grid;
-      grid-template-columns: repeat(4, minmax(0,1fr));
+      grid-template-columns: repeat(3, minmax(0,1fr));
       gap:14px;
       margin-bottom:16px;
     }
@@ -364,7 +403,7 @@
 
     .infoGrid{
       display:grid;
-      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 0.84fr);
+      grid-template-columns: repeat(3, minmax(0,1fr));
       gap:14px;
       margin-bottom:16px;
       align-items:start;
@@ -445,63 +484,80 @@
       color:var(--muted);
     }
 
-    .featureGrid{
-      display:grid;
-      grid-template-columns: 1fr 1fr;
-      gap:14px;
+    .substackSection{
       margin-bottom: 10px;
     }
 
-    .featureCard{
-      background: var(--cardBg);
+    .substackCard{
+      display:grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+      gap:16px;
+      align-items:center;
+      padding:22px;
+      border-radius:20px;
+      background:
+        radial-gradient(circle at top left, rgba(30,144,255,0.20), transparent 34%),
+        var(--cardBg);
       border:1px solid var(--cardBorder);
-      border-radius:16px;
-      padding:18px;
       box-shadow: var(--shadow);
-      min-width: 0;
+      min-width:0;
     }
 
-    .featureTitle{
-      font-size:24px;
+    .substackEyebrow{
+      display:inline-block;
+      margin-bottom:10px;
+      padding:6px 10px;
+      border-radius:999px;
+      background:rgba(30,144,255,0.16);
+      border:1px solid rgba(30,144,255,0.28);
+      font-size:11px;
+      font-weight:800;
+      letter-spacing:.5px;
+      text-transform:uppercase;
+    }
+
+    .substackTitle{
+      font-size:28px;
+      line-height:1.05;
       font-weight:900;
-      margin:0 0 8px;
+      margin:0 0 10px;
+      letter-spacing:-0.5px;
     }
 
-    .featureSub{
-      color:var(--muted);
+    .substackCopy{
       font-size:14px;
-      line-height:1.45;
-      margin-bottom:14px;
+      line-height:1.5;
+      color:var(--muted);
+      max-width:650px;
     }
 
-    .toolBtn{
-      display:block;
+    .substackActions{
+      display:flex;
+      justify-content:flex-end;
+      align-items:center;
+    }
+
+    .substackBtn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-width:220px;
+      height:50px;
+      padding:0 18px;
+      border-radius:14px;
+      border:1px solid rgba(30,144,255,0.34);
+      background:var(--btnBlue);
+      color:var(--btnPrimaryText);
+      font-weight:800;
+      font-size:14px;
       text-decoration:none;
-      color: var(--text);
-      padding:16px 18px;
-      border-radius:16px;
-      background: var(--navBtnBg);
-      border: 1px solid var(--cardBorder);
-      box-shadow: 0 10px 28px rgba(0,0,0,0.28);
-      width: 100%;
-      transition: transform 120ms ease, border-color 120ms ease;
+      box-shadow: 0 8px 18px rgba(30,144,255,0.22);
+      transition: transform 120ms ease, background 120ms ease;
     }
 
-    .toolBtn:hover{
+    .substackBtn:hover{
       transform: translateY(-1px);
-      border-color: rgba(255,255,255,0.18);
-    }
-
-    .toolBtnTop{
-      font-weight:900;
-      font-size:18px;
-    }
-
-    .toolBtnSub{
-      margin-top:6px;
-      font-size:13px;
-      line-height:1.35;
-      color: var(--muted);
+      background: var(--btnBlueHover);
     }
 
     .bottomNav{
@@ -600,7 +656,8 @@
       .hero{ grid-template-columns: 1fr; }
       .quickGrid{ grid-template-columns: repeat(2, minmax(0,1fr)); }
       .infoGrid{ grid-template-columns: 1fr; }
-      .featureGrid{ grid-template-columns: 1fr; }
+      .substackCard{ grid-template-columns: 1fr; }
+      .substackActions{ justify-content:flex-start; }
     }
 
     @media (max-width: 560px){
@@ -617,8 +674,7 @@
       }
 
       .heroMain,
-      .miniCard,
-      .featureCard{
+      .justAddedPanel{
         padding:16px;
       }
 
@@ -669,7 +725,7 @@
       }
 
       .quickGrid{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
       }
 
       .quickCard{
@@ -678,6 +734,23 @@
 
       .listSub{
         white-space:normal;
+      }
+
+      .substackCard{
+        padding:18px;
+      }
+
+      .substackTitle{
+        font-size:24px;
+      }
+
+      .substackBtn{
+        width:100%;
+        min-width:0;
+      }
+
+      .desktop-only{
+        display:none !important;
       }
     }
   </style>
@@ -734,23 +807,33 @@
       </div>
 
       <div class="heroAside">
-        <a class="miniCard" id="homeTrendingMini" href="/checklists/">
-          <div class="miniLabel">Trending</div>
-          <div class="miniValue">Loading results...</div>
-          <div class="miniSub">Updating now.</div>
-        </a>
+        <div class="justAddedPanel">
+          <div class="panelHeader">
+            <div>
+              <div class="panelKicker">Latest updates</div>
+              <div class="panelTitle">Just Added</div>
+            </div>
+          </div>
 
-        <a class="miniCard" id="homeJustAddedMini" href="/checklists/">
-          <div class="miniLabel">Just Added</div>
-          <div class="miniValue">Loading results...</div>
-          <div class="miniSub">Updating now.</div>
-        </a>
-
-        <a class="miniCard" id="homeDualMini" href="/vault/">
-          <div class="miniLabel">Checklist + Print Run</div>
-          <div class="miniValue">Loading results...</div>
-          <div class="miniSub">Updating now.</div>
-        </a>
+          <div class="justAddedList" id="heroJustAddedList">
+            <a class="justAddedItem" href="/checklists/">
+              <div class="justAddedTop">Loading results...</div>
+              <div class="justAddedSub">Updating now.</div>
+            </a>
+            <a class="justAddedItem desktop-only" href="/checklists/">
+              <div class="justAddedTop">Loading results...</div>
+              <div class="justAddedSub">Updating now.</div>
+            </a>
+            <a class="justAddedItem desktop-only" href="/checklists/">
+              <div class="justAddedTop">Loading results...</div>
+              <div class="justAddedSub">Updating now.</div>
+            </a>
+            <a class="justAddedItem desktop-only" href="/checklists/">
+              <div class="justAddedTop">Loading results...</div>
+              <div class="justAddedSub">Updating now.</div>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -772,12 +855,6 @@
         <div class="quickTitle">Release Schedule</div>
         <div class="quickSub">What’s dropping next. Filters by sport, date, and brand.</div>
       </a>
-
-      <a class="quickCard" href="/checklists/?q=2026%20Topps%20Series%201">
-        <div class="quickIcon">🔥</div>
-        <div class="quickTitle">Featured Search</div>
-        <div class="quickSub">Jump into checklist and print run data for one of the hobby’s most searched products.</div>
-      </a>
     </section>
 
     <section class="infoGrid">
@@ -796,8 +873,8 @@
       </div>
 
       <div class="card">
-        <div class="sectionTitle">Trending</div>
-        <div class="list" id="homeTrendingList">
+        <div class="sectionTitle">Trending Checklists</div>
+        <div class="list" id="homeTrendingChecklistList">
           <a class="listItem" href="/checklists/">
             <div class="listBadge">...</div>
             <div class="listCopy">
@@ -810,9 +887,9 @@
       </div>
 
       <div class="card">
-        <div class="sectionTitle">Just Added</div>
-        <div class="list" id="homeJustAddedList">
-          <a class="listItem" href="/checklists/">
+        <div class="sectionTitle">Trending Print Runs</div>
+        <div class="list" id="homeTrendingPrintRunList">
+          <a class="listItem" href="/vault/">
             <div class="listBadge">...</div>
             <div class="listCopy">
               <div class="listTop">Loading results...</div>
@@ -824,23 +901,19 @@
       </div>
     </section>
 
-    <section class="featureGrid">
-      <div class="featureCard">
-        <div class="featureTitle">Checklist Vault</div>
-        <div class="featureSub">Searchable checklist data built for real use, with faster lookup and better browsing than screenshot-based checklist pages.</div>
-        <a class="toolBtn" href="/checklists/">
-          <div class="toolBtnTop">Open Checklist Vault</div>
-          <div class="toolBtnSub">Search by set, player, or section.</div>
-        </a>
-      </div>
+    <section class="substackSection">
+      <div class="substackCard">
+        <div>
+          <div class="substackEyebrow">Chasing Majors Substack</div>
+          <h2 class="substackTitle">Get deeper hobby analysis, print run breakdowns, and product-level insights.</h2>
+          <div class="substackCopy">
+            Subscribe to the Chasing Majors Substack for deeper dives into checklist trends, print run analysis, release reactions, and the bigger stories shaping the hobby.
+          </div>
+        </div>
 
-      <div class="featureCard">
-        <div class="featureTitle">Print Run Vault</div>
-        <div class="featureSub">Estimated production, anchor parallels, pack odds context, and a more useful way to understand modern releases.</div>
-        <a class="toolBtn" href="/vault/">
-          <div class="toolBtnTop">Open Print Run Vault</div>
-          <div class="toolBtnSub">Explore pack odds and print run estimates.</div>
-        </a>
+        <div class="substackActions">
+          <a class="substackBtn" href="https://chasingmajors.substack.com/" target="_blank" rel="noopener noreferrer">Visit the Substack</a>
+        </div>
       </div>
     </section>
   </div>
@@ -854,6 +927,7 @@
       </div>
     </div>
   </div>
+
 <script>
   (function () {
     const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbwzmm9rEr4pIN1-JNwn5Sp0Wma2u8-Q4GrxgAtiLQzrKjCHrPAwLi8D1SxPqg5f3X7u/exec";
@@ -1041,10 +1115,6 @@
       );
     }
 
-    function isDirectProductItem(item) {
-      return !!(getItemCode(item) && getItemSport(item));
-    }
-
     function buildChecklistUrl(item) {
       var query = getItemQuery(item);
       var code = getItemCode(item);
@@ -1115,48 +1185,81 @@
       }).join("");
     }
 
-    function hydrateMiniCard(el, label, item, target) {
-      if (!el || !item) return;
-      el.href = buildItemUrl(item, target || "checklists");
-      el.innerHTML = ''
-        + '<div class="miniLabel">' + escapeHtml(label) + '</div>'
-        + '<div class="miniValue">' + escapeHtml(getItemQuery(item)) + '</div>'
-        + '<div class="miniSub">' + escapeHtml(item.sub || "") + '</div>';
+    function makeHeroJustAddedHtml(items) {
+      var mobileItems = (items || []).slice(0, 3);
+      var desktopExtra = (items || []).slice(3, 4);
+
+      var html = mobileItems.map(function (item) {
+        return ''
+          + '<a class="justAddedItem" href="' + escapeHtml(buildChecklistUrl(item)) + '">'
+          +   '<div class="justAddedTop">' + escapeHtml(getItemQuery(item)) + '</div>'
+          +   '<div class="justAddedSub">' + escapeHtml(item.sub || "Update is now live") + '</div>'
+          + '</a>';
+      }).join("");
+
+      desktopExtra.forEach(function (item) {
+        html += ''
+          + '<a class="justAddedItem desktop-only" href="' + escapeHtml(buildChecklistUrl(item)) + '">'
+          +   '<div class="justAddedTop">' + escapeHtml(getItemQuery(item)) + '</div>'
+          +   '<div class="justAddedSub">' + escapeHtml(item.sub || "Update is now live") + '</div>'
+          + '</a>';
+      });
+
+      return html;
+    }
+
+    function formatJustAddedItems(items) {
+      return (items || []).map(function (item) {
+        var q = getItemQuery(item);
+        var targetTool = cleanQuery(item && (item.target_tool || item.targetTool || item.tool || ""));
+        var routeTarget = cleanQuery(item && (item.route_target || item.routeTarget || ""));
+        var labelLower = q.toLowerCase();
+        var sub = "Checklist is now live";
+
+        if (
+          targetTool === "vault" ||
+          routeTarget === "vault" ||
+          /print run/.test(labelLower) ||
+          /vault/.test(labelLower)
+        ) {
+          sub = "Print run data is now live";
+        }
+
+        return Object.assign({}, item, {
+          label: q,
+          query: q,
+          sub: sub
+        });
+      });
     }
 
     function setLoadingCards() {
-      var trendingList = document.getElementById("homeTrendingList");
-      var justAddedList = document.getElementById("homeJustAddedList");
-      var trendingMini = document.getElementById("homeTrendingMini");
-      var justAddedMini = document.getElementById("homeJustAddedMini");
-      var dualMini = document.getElementById("homeDualMini");
+      var heroJustAddedList = document.getElementById("heroJustAddedList");
+      var trendingChecklistList = document.getElementById("homeTrendingChecklistList");
+      var trendingPrintRunList = document.getElementById("homeTrendingPrintRunList");
 
-      if (trendingMini) {
-        trendingMini.href = "/checklists/";
-        trendingMini.innerHTML = ''
-          + '<div class="miniLabel">Trending</div>'
-          + '<div class="miniValue">Loading results...</div>'
-          + '<div class="miniSub">Updating now.</div>';
+      if (heroJustAddedList) {
+        heroJustAddedList.innerHTML = ''
+          + '<a class="justAddedItem" href="/checklists/">'
+          +   '<div class="justAddedTop">Loading results...</div>'
+          +   '<div class="justAddedSub">Updating now.</div>'
+          + '</a>'
+          + '<a class="justAddedItem desktop-only" href="/checklists/">'
+          +   '<div class="justAddedTop">Loading results...</div>'
+          +   '<div class="justAddedSub">Updating now.</div>'
+          + '</a>'
+          + '<a class="justAddedItem desktop-only" href="/checklists/">'
+          +   '<div class="justAddedTop">Loading results...</div>'
+          +   '<div class="justAddedSub">Updating now.</div>'
+          + '</a>'
+          + '<a class="justAddedItem desktop-only" href="/checklists/">'
+          +   '<div class="justAddedTop">Loading results...</div>'
+          +   '<div class="justAddedSub">Updating now.</div>'
+          + '</a>';
       }
 
-      if (justAddedMini) {
-        justAddedMini.href = "/checklists/";
-        justAddedMini.innerHTML = ''
-          + '<div class="miniLabel">Just Added</div>'
-          + '<div class="miniValue">Loading results...</div>'
-          + '<div class="miniSub">Updating now.</div>';
-      }
-
-      if (dualMini) {
-        dualMini.href = "/vault/";
-        dualMini.innerHTML = ''
-          + '<div class="miniLabel">Checklist + Print Run</div>'
-          + '<div class="miniValue">Loading results...</div>'
-          + '<div class="miniSub">Updating now.</div>';
-      }
-
-      if (trendingList) {
-        trendingList.innerHTML = ''
+      if (trendingChecklistList) {
+        trendingChecklistList.innerHTML = ''
           + '<a class="listItem" href="/checklists/">'
           +   '<div class="listBadge">...</div>'
           +   '<div class="listCopy">'
@@ -1167,9 +1270,9 @@
           + '</a>';
       }
 
-      if (justAddedList) {
-        justAddedList.innerHTML = ''
-          + '<a class="listItem" href="/checklists/">'
+      if (trendingPrintRunList) {
+        trendingPrintRunList.innerHTML = ''
+          + '<a class="listItem" href="/vault/">'
           +   '<div class="listBadge">...</div>'
           +   '<div class="listCopy">'
           +     '<div class="listTop">Loading results...</div>'
@@ -1183,7 +1286,7 @@
     function hydrateHomeFeed() {
       setLoadingCards();
 
-      fetch(LOG_EXEC_URL + "?action=getHomeFeed&daysTrending=7&trendingLimit=3&addedLimit=3", {
+      fetch(LOG_EXEC_URL + "?action=getHomeFeed&daysTrending=7&trendingLimit=6&addedLimit=4", {
         method: "GET"
       })
       .then(function (r) { return r.json(); })
@@ -1191,36 +1294,26 @@
         if (!data || !data.ok) return;
 
         var trending = Array.isArray(data.trending) ? data.trending : [];
-        var justAdded = Array.isArray(data.justAdded) ? data.justAdded : [];
+        var justAddedRaw = Array.isArray(data.justAdded) ? data.justAdded : [];
 
-        var trendingList = document.getElementById("homeTrendingList");
-        var justAddedList = document.getElementById("homeJustAddedList");
-        var trendingMini = document.getElementById("homeTrendingMini");
-        var justAddedMini = document.getElementById("homeJustAddedMini");
-        var dualMini = document.getElementById("homeDualMini");
+        var justAdded = formatJustAddedItems(justAddedRaw);
+        var trendingChecklists = trending.slice(0, 3);
+        var trendingPrintRuns = trending.slice(0, 3);
 
-        if (trending.length && trendingList) {
-          trendingList.innerHTML = makeListHtml(trending, "checklists");
+        var heroJustAddedList = document.getElementById("heroJustAddedList");
+        var trendingChecklistList = document.getElementById("homeTrendingChecklistList");
+        var trendingPrintRunList = document.getElementById("homeTrendingPrintRunList");
+
+        if (heroJustAddedList && justAdded.length) {
+          heroJustAddedList.innerHTML = makeHeroJustAddedHtml(justAdded);
         }
 
-        if (justAdded.length && justAddedList) {
-          justAddedList.innerHTML = makeListHtml(justAdded, "checklists");
+        if (trendingChecklistList && trendingChecklists.length) {
+          trendingChecklistList.innerHTML = makeListHtml(trendingChecklists, "checklists");
         }
 
-        if (trending.length) {
-          hydrateMiniCard(trendingMini, "Trending", trending[0], "checklists");
-        }
-
-        if (justAdded.length) {
-          hydrateMiniCard(justAddedMini, "Just Added", justAdded[0], "checklists");
-        }
-
-        if (trending.length && dualMini) {
-          dualMini.href = buildItemUrl(trending[0], "vault");
-          dualMini.innerHTML = ''
-            + '<div class="miniLabel">Checklist + Print Run</div>'
-            + '<div class="miniValue">' + escapeHtml(getItemQuery(trending[0]) || "Search both in one place") + '</div>'
-            + '<div class="miniSub">Open the same product in Print Run Vault.</div>';
+        if (trendingPrintRunList && trendingPrintRuns.length) {
+          trendingPrintRunList.innerHTML = makeListHtml(trendingPrintRuns, "vault");
         }
       })
       .catch(function(){});
@@ -1511,6 +1604,16 @@
           });
 
           continueList.innerHTML = html;
+        } else if (continueList) {
+          continueList.innerHTML = ''
+            + '<a class="listItem" href="/checklists/">'
+            +   '<div class="listBadge">CM</div>'
+            +   '<div class="listCopy">'
+            +     '<div class="listTop">Start exploring</div>'
+            +     '<div class="listSub">Your recent homepage searches will appear here.</div>'
+            +   '</div>'
+            +   '<div class="listArrow">›</div>'
+            + '</a>';
         }
       } catch (e) {}
     });
@@ -1562,6 +1665,6 @@
     });
   })();
 </script>
-  
+
 </body>
 </html>
