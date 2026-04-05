@@ -947,175 +947,198 @@
     </div>
   </div>
 
-<script>
+
+
+
+
+
+  <script>
 (function () {
 
-  function hideOverlay() {
-    var el = document.getElementById("overlay");
-    if (!el) return;
-    el.style.display = "none";
-  }
-
-  const CHECKLIST_EXEC_URL = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcGVqTa0KciCO_w23GCHzVXp4dQrUE-4hx1Uut5o_KrCLXYL/exec";
   const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbyiDXs5T6CH9zqnD5Y4Z7hoqyNCKs5ex52opczi1Fn6zoQJISEVeZDGNpgkzhhf81m9/exec";
+  const CHECKLIST_EXEC_URL = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcGVqTa0KciCO_w23GCHzVXp4dQrUE-4hx1Uut5o_KrCLXYL/exec";
+  const HOME_INDEX_KEY = "cm_home_index_v2";
+  const HOME_FEED_CACHE = "cm_home_feed_cache";
 
+  let activeTarget = "checklists";
   let homeIndex = [];
+  let activeSuggestions = [];
 
-  /* =============================
-     LOAD SEARCH INDEX
-  ============================== */
-
-  async function loadIndex() {
-    try {
-      const res = await fetch(CHECKLIST_EXEC_URL, {
-        method: "POST",
-        headers: { "Content-Type": "text/plain;charset=utf-8" },
-        body: JSON.stringify({ action: "index", payload: {} })
-      });
-
-      const data = await res.json();
-      if (data.ok) homeIndex = data.index || [];
-
-    } catch (e) {
-      console.error("INDEX FAIL", e);
-    }
+  function hideOverlay() {
+    const el = document.getElementById("overlay");
+    if (!el) return;
+    el.classList.add("hide");
+    setTimeout(() => el.style.display = "none", 300);
   }
 
-  function getSuggestions(q) {
-    q = (q || "").toLowerCase().trim();
-    if (q.length < 2) return [];
+  function clean(v){ return String(v||"").trim(); }
+  function lower(v){ return clean(v).toLowerCase(); }
 
-    return homeIndex
-      .filter(x => {
-        const hay = (x.DisplayName + " " + x.Keywords + " " + x.Code).toLowerCase();
-        return hay.includes(q);
-      })
-      .slice(0, 6);
+  function normalizeQuery(q){
+    return lower(q).replace(/[^\w\s]/g," ").replace(/\s+/g," ").trim();
   }
 
-  function renderDropdown(list) {
-    const dd = document.getElementById("homeDropdown");
-    if (!dd) return;
+  function escapeHtml(str){
+    return String(str||"")
+      .replace(/&/g,"&amp;")
+      .replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;");
+  }
 
-    if (!list.length) {
-      dd.style.display = "none";
-      dd.innerHTML = "";
+  function badge(t){
+    return (t||"").split(" ").map(w=>w[0]).join("").slice(0,3).toUpperCase() || "CM";
+  }
+
+  function buildChecklistUrl(item){
+    return "/checklists/?q=" + encodeURIComponent(item.label || "");
+  }
+
+  function buildVaultUrl(item){
+    return "/vault/?q=" + encodeURIComponent(item.label || "");
+  }
+
+  function renderTrending(id, items, target){
+    const el = document.getElementById(id);
+    if (!el) return;
+
+    if (!items || !items.length){
+      el.innerHTML = '<div style="opacity:.6">No data yet</div>';
       return;
     }
 
-    dd.innerHTML = list.map(item => `
-      <div class="homeDdItem"
-        onclick="window.location.href='/checklists/?code=${item.Code}&sport=${item.sport}&q=${encodeURIComponent(item.DisplayName)}'">
-        <div class="homeDdTitle">${item.DisplayName}</div>
-        <div class="homeDdMeta">${item.year || ""} ${item.sport || ""}</div>
-      </div>
+    el.innerHTML = items.slice(0,3).map(item => {
+      const url = target === "vault" ? buildVaultUrl(item) : buildChecklistUrl(item);
+      return `
+        <a class="listItem" href="${url}">
+          <div class="listBadge">${badge(item.label)}</div>
+          <div class="listCopy">
+            <div class="listTop">${escapeHtml(item.label)}</div>
+            <div class="listSub">Trending</div>
+          </div>
+          <div class="listArrow">›</div>
+        </a>
+      `;
+    }).join("");
+  }
+
+  function renderJustAdded(items){
+    const el = document.getElementById("heroJustAddedList");
+    if (!el) return;
+
+    if (!items || !items.length){
+      el.innerHTML = '<div style="opacity:.6">No updates yet</div>';
+      return;
+    }
+
+    el.innerHTML = items.map(item => `
+      <a class="justAddedItem" href="${item.url}">
+        <div class="justAddedTop">${escapeHtml(item.label)}</div>
+        <div class="justAddedSub">Now live</div>
+      </a>
     `).join("");
-
-    dd.style.display = "block";
   }
 
-  function runSearch() {
-    const input = document.getElementById("homeSearch");
-    const val = (input.value || "").trim();
-    if (!val) return;
+  // 🚀 FIXED HOME FEED
+  async function loadHomeFeed(){
 
-    window.location.href = "/checklists/?q=" + encodeURIComponent(val);
-  }
+    // ⚡ LOAD CACHE FIRST
+    try{
+      const cached = localStorage.getItem(HOME_FEED_CACHE);
+      if (cached){
+        const data = JSON.parse(cached);
+        renderTrending("homeTrendingChecklistList", data.trendingChecklists, "checklists");
+        renderTrending("homeTrendingPrintRunList", data.trendingPrintRuns, "vault");
+        renderJustAdded(data.justAdded);
+      }
+    } catch(e){}
 
-  /* =============================
-     🔥 HOME FEED (FIXED)
-  ============================== */
-
-  async function loadHomeFeed() {
-    try {
+    // 🔄 FETCH FRESH
+    try{
       const res = await fetch(LOG_EXEC_URL + "?action=getHomeFeed");
       const data = await res.json();
 
-      console.log("HOME FEED:", data);
+      if (!data || !data.ok) return;
+
+      localStorage.setItem(HOME_FEED_CACHE, JSON.stringify(data));
 
       renderTrending("homeTrendingChecklistList", data.trendingChecklists, "checklists");
       renderTrending("homeTrendingPrintRunList", data.trendingPrintRuns, "vault");
       renderJustAdded(data.justAdded);
 
-    } catch (e) {
-      console.error("HOME FEED FAIL", e);
+    } catch(e){
+      console.error("Home feed failed", e);
     }
   }
 
-  function renderTrending(elId, items, target) {
-    const el = document.getElementById(elId);
-    if (!el) return;
+  // 🔍 SEARCH INDEX
+  async function loadHomeIndex(){
+    try{
+      const res = await fetch(CHECKLIST_EXEC_URL, {
+        method:"POST",
+        headers:{ "Content-Type":"text/plain" },
+        body: JSON.stringify({ action:"index" })
+      });
 
-    if (!items || !items.length) {
-      el.innerHTML = "<div style='opacity:.6'>No data yet</div>";
+      const data = await res.json();
+      if (data.ok) homeIndex = data.index;
+
+    } catch(e){}
+  }
+
+  function getSuggestions(q){
+    q = normalizeQuery(q);
+    if (!q || q.length < 2) return [];
+
+    return homeIndex
+      .filter(i => (i.DisplayName || "").toLowerCase().includes(q))
+      .slice(0,6);
+  }
+
+  function renderDropdown(items){
+    const dd = document.getElementById("homeDropdown");
+    if (!dd) return;
+
+    if (!items.length){
+      dd.style.display = "none";
       return;
     }
 
-    el.innerHTML = items.map(item => `
-      <a class="listItem" href="/${target}/?q=${encodeURIComponent(item.label)}">
-        <div class="listBadge">🔥</div>
-        <div class="listCopy">
-          <div class="listTop">${item.label}</div>
-          <div class="listSub">${item.count || ""} searches</div>
-        </div>
-        <div class="listArrow">›</div>
-      </a>
+    dd.innerHTML = items.map(item => `
+      <div class="homeDdItem" data-code="${item.Code}">
+        <div class="homeDdTitle">${escapeHtml(item.DisplayName)}</div>
+        <div class="homeDdMeta">${item.sport}</div>
+      </div>
     `).join("");
+
+    dd.style.display = "block";
+
+    dd.querySelectorAll(".homeDdItem").forEach(el=>{
+      el.onclick = () => {
+        location.href = "/checklists/?q=" + encodeURIComponent(el.innerText);
+      };
+    });
   }
 
-  function renderJustAdded(items) {
-    const el = document.getElementById("heroJustAddedList");
-    if (!el) return;
-
-    if (!items || !items.length) {
-      el.innerHTML = "<div style='opacity:.6'>No updates yet</div>";
-      return;
-    }
-
-    el.innerHTML = items.map(item => `
-      <a class="justAddedItem" href="${item.url || '/checklists/?q=' + encodeURIComponent(item.query)}">
-        <div class="justAddedTop">${item.display_name || item.query}</div>
-        <div class="justAddedSub">New checklist added</div>
-      </a>
-    `).join("");
-  }
-
-  /* =============================
-     INIT
-  ============================== */
-
-  document.addEventListener("DOMContentLoaded", function () {
-
-    hideOverlay();
-
-    loadIndex();
-    loadHomeFeed(); // 🔥 THIS FIXES YOUR ISSUE
-
+  function initSearch(){
     const input = document.getElementById("homeSearch");
-    const btn = document.getElementById("searchPrimaryBtn");
 
-    input.addEventListener("input", e => {
+    input.addEventListener("input", e=>{
       renderDropdown(getSuggestions(e.target.value));
     });
 
-    input.addEventListener("keydown", e => {
-      if (e.key === "Enter") {
-        e.preventDefault();
-        runSearch();
+    input.addEventListener("keydown", e=>{
+      if (e.key === "Enter"){
+        location.href = "/checklists/?q=" + encodeURIComponent(input.value);
       }
     });
+  }
 
-    btn.addEventListener("click", runSearch);
-
-    document.addEventListener("click", e => {
-      if (!e.target.closest(".searchBox")) {
-        renderDropdown([]);
-      }
-    });
-
+  document.addEventListener("DOMContentLoaded", function(){
+    hideOverlay();
+    loadHomeFeed();   // 🔥 FIXED
+    loadHomeIndex();
+    initSearch();
   });
-
-  setTimeout(hideOverlay, 2000);
 
 })();
 </script>
