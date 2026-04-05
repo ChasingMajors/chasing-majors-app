@@ -1306,82 +1306,73 @@
     }
 
     function hydrateHomeFeed() {
-      setLoadingCards();
+  setLoadingCards();
 
-      fetch(LOG_EXEC_URL + "?action=getHomeFeed&daysTrending=7&trendingLimit=3&addedLimit=4", {
-        method: "GET"
-      })
-      .then(function (r) { return r.json(); })
-      .then(function (data) {
-        if (!data || !data.ok) return;
+  fetch(LOG_EXEC_URL + "?action=getHomeFeed&daysTrending=7&trendingLimit=3&addedLimit=4")
+    .then(function (r) {
+      if (!r.ok) throw new Error("Network error");
+      return r.json();
+    })
+    .then(function (data) {
 
-        var trendingChecklists = Array.isArray(data.trendingChecklists) ? data.trendingChecklists : [];
-        var trendingPrintRuns = Array.isArray(data.trendingPrintRuns) ? data.trendingPrintRuns : [];
-        var justAddedRaw = Array.isArray(data.justAdded) ? data.justAdded : [];
+      console.log("HOME FEED RESPONSE:", data); // 🔥 DEBUG
 
-        var justAdded = formatJustAddedItems(justAddedRaw);
-
-        var heroJustAddedList = document.getElementById("heroJustAddedList");
-        var trendingChecklistList = document.getElementById("homeTrendingChecklistList");
-        var trendingPrintRunList = document.getElementById("homeTrendingPrintRunList");
-
-        if (heroJustAddedList && justAdded.length) {
-          heroJustAddedList.innerHTML = makeHeroJustAddedHtml(justAdded);
-        }
-
-        if (trendingChecklistList && trendingChecklists.length) {
-          trendingChecklistList.innerHTML = makeListHtml(trendingChecklists, "checklists");
-        }
-
-        if (trendingPrintRunList && trendingPrintRuns.length) {
-          trendingPrintRunList.innerHTML = makeListHtml(trendingPrintRuns, "vault");
-        }
-      })
-      .catch(function(){});
-    }
-
-    function closeHomeDropdown() {
-      var dd = document.getElementById("homeDropdown");
-      if (!dd) return;
-      dd.style.display = "none";
-      dd.innerHTML = "";
-      activeSuggestions = [];
-    }
-
-    function renderHomeDropdown(items) {
-      var dd = document.getElementById("homeDropdown");
-      if (!dd) return;
-
-      activeSuggestions = items || [];
-
-      if (!activeSuggestions.length) {
-        closeHomeDropdown();
+      if (!data || !data.ok) {
+        console.warn("Home feed failed");
         return;
       }
 
-      dd.innerHTML = activeSuggestions.map(function(item, idx) {
-        return ''
-          + '<div class="homeDdItem" data-idx="' + idx + '">'
-          +   '<div class="homeDdTitle">' + escapeHtml(item.DisplayName || "") + '</div>'
-          +   '<div class="homeDdMeta">' + escapeHtml((item.year || "") + (item.sport ? " • " + item.sport : "") + (item.manufacturer ? " • " + item.manufacturer : "")) + '</div>'
-          + '</div>';
-      }).join("");
+      var trendingChecklists = Array.isArray(data.trendingChecklists) ? data.trendingChecklists : [];
+      var trendingPrintRuns = Array.isArray(data.trendingPrintRuns) ? data.trendingPrintRuns : [];
+      var justAddedRaw = Array.isArray(data.justAdded) ? data.justAdded : [];
 
-      dd.style.display = "block";
+      var justAdded = formatJustAddedItems(justAddedRaw);
 
-      Array.prototype.forEach.call(dd.children, function(node) {
-        node.addEventListener("click", function() {
-          var idx = Number(node.getAttribute("data-idx")) || 0;
-          var item = activeSuggestions[idx];
-          if (!item) return;
+      var heroJustAddedList = document.getElementById("heroJustAddedList");
+      var trendingChecklistList = document.getElementById("homeTrendingChecklistList");
+      var trendingPrintRunList = document.getElementById("homeTrendingPrintRunList");
 
-          var input = document.getElementById("homeSearch");
-          if (input) input.value = item.DisplayName || "";
-          closeHomeDropdown();
-          runSearch("suggestion_click", item);
-        });
-      });
-    }
+      // ✅ FORCE RENDER EVEN IF EMPTY
+      if (heroJustAddedList) {
+        heroJustAddedList.innerHTML = justAdded.length
+          ? makeHeroJustAddedHtml(justAdded)
+          : '<div style="opacity:.6;font-size:13px;">No recent updates yet</div>';
+      }
+
+      if (trendingChecklistList) {
+        trendingChecklistList.innerHTML = trendingChecklists.length
+          ? makeListHtml(trendingChecklists, "checklists")
+          : '<div style="opacity:.6;font-size:13px;">No trending data yet</div>';
+      }
+
+      if (trendingPrintRunList) {
+        trendingPrintRunList.innerHTML = trendingPrintRuns.length
+          ? makeListHtml(trendingPrintRuns, "vault")
+          : '<div style="opacity:.6;font-size:13px;">No trending data yet</div>';
+      }
+
+    })
+    .catch(function (err) {
+      console.error("HOME FEED ERROR:", err);
+
+      // 🔥 HARD FAILBACK UI
+      var heroJustAddedList = document.getElementById("heroJustAddedList");
+      var trendingChecklistList = document.getElementById("homeTrendingChecklistList");
+      var trendingPrintRunList = document.getElementById("homeTrendingPrintRunList");
+
+      if (heroJustAddedList) {
+        heroJustAddedList.innerHTML = '<div style="opacity:.6;">Unable to load updates</div>';
+      }
+
+      if (trendingChecklistList) {
+        trendingChecklistList.innerHTML = '<div style="opacity:.6;">Unable to load trending</div>';
+      }
+
+      if (trendingPrintRunList) {
+        trendingPrintRunList.innerHTML = '<div style="opacity:.6;">Unable to load trending</div>';
+      }
+    });
+}
 
     function getHomeSuggestions(query) {
       var q = normalizeQuery(query);
