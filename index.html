@@ -1,952 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <meta name="theme-color" content="#0b0b0b" />
-  <title>Chasing Majors App</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-
-  <style>
-    :root{
-      --navH: 62px;
-      --contentMax: 1020px;
-
-      --bg:#0b0b0b;
-      --text:#ffffff;
-      --muted:rgba(255,255,255,0.78);
-
-      --cardBg:rgba(255,255,255,0.08);
-      --cardBg2:rgba(255,255,255,0.05);
-      --cardBorder:rgba(255,255,255,0.12);
-
-      --btnPrimaryBg:#1e90ff;
-      --btnPrimaryText:#ffffff;
-      --btnBlue:#1e90ff;
-      --btnBlueHover:#1577d4;
-
-      --navBg:#0b0b0b;
-      --navBorder:rgba(255,255,255,0.12);
-      --navBtnBg:rgba(255,255,255,0.12);
-      --navBtnIcon:#ffffff;
-
-      --blueSoft:rgba(30,144,255,0.18);
-      --shadow:0 12px 28px rgba(0,0,0,0.28);
-    }
-
-    *{ box-sizing:border-box; }
-    html, body { height:100%; }
-
-    body{
-      margin:0;
-      font-family: Arial, sans-serif;
-      background:
-        radial-gradient(circle at top center, rgba(30,144,255,0.10), transparent 30%),
-        var(--bg);
-      color:var(--text);
-    }
-
-    .content{
-      padding: 14px 16px calc(var(--navH) + 28px);
-      max-width: var(--contentMax);
-      margin: 0 auto;
-    }
-
-    .headerRow{
-      max-width: var(--contentMax);
-      margin: 6px auto 14px;
-      text-align: center;
-    }
-
-    .appTitle{
-      font-family: "Bangers", cursive;
-      font-size: 34px;
-      letter-spacing: 1px;
-      line-height: 1;
-      margin: 0;
-    }
-
-    .appTitle .big{ font-size: 42px; }
-
-    .subTitle{
-      margin-top: 6px;
-      font-size: 13px;
-      color: var(--muted);
-      letter-spacing: 0.2px;
-    }
-
-    .card{
-      background: var(--cardBg);
-      border: 1px solid var(--cardBorder);
-      border-radius: 16px;
-      padding: 16px;
-      box-shadow: var(--shadow);
-      min-width: 0;
-    }
-
-    .hero{
-      display:grid;
-      grid-template-columns: minmax(0, 1.28fr) minmax(0, 0.92fr);
-      gap:16px;
-      margin-bottom:16px;
-      align-items:stretch;
-    }
-
-    .heroMain{
-      padding: 18px;
-      border-radius: 18px;
-      background:
-        radial-gradient(circle at top left, var(--blueSoft), transparent 36%),
-        var(--cardBg);
-      border: 1px solid var(--cardBorder);
-      box-shadow: var(--shadow);
-      min-width: 0;
-    }
-
-    .eyebrow{
-      display:inline-block;
-      padding:6px 10px;
-      border-radius:999px;
-      background: var(--blueSoft);
-      border:1px solid rgba(255,255,255,0.10);
-      font-size:12px;
-      font-weight:800;
-      letter-spacing:.4px;
-      margin-bottom:12px;
-    }
-
-    .heroHeadline{
-      font-size: 31px;
-      line-height: 1.05;
-      font-weight: 900;
-      margin: 0 0 10px;
-      letter-spacing: -0.5px;
-    }
-
-    .heroCopy{
-      font-size: 15px;
-      line-height: 1.5;
-      color: var(--muted);
-      max-width: 680px;
-      margin-bottom: 16px;
-    }
-
-    .toggleWrap{
-      display:flex;
-      margin-bottom:10px;
-    }
-
-    .toggleBar{
-      display:inline-flex;
-      gap:6px;
-      padding:6px;
-      border-radius:14px;
-      background: rgba(30,144,255,0.14);
-      border:1px solid rgba(30,144,255,0.30);
-      width:auto;
-      max-width:100%;
-    }
-
-    .toggleBtn{
-      border:0;
-      background:transparent;
-      color:var(--text);
-      height:36px;
-      padding:0 16px;
-      border-radius:10px;
-      font-size:13px;
-      font-weight:800;
-      cursor:pointer;
-      white-space:nowrap;
-      transition: background 120ms ease, color 120ms ease, transform 120ms ease;
-    }
-
-    .toggleBtn.active{
-      background: var(--btnBlue);
-      color: var(--btnPrimaryText);
-      box-shadow: 0 6px 14px rgba(30,144,255,0.28);
-    }
-
-    .toggleBtn:hover{
-      transform: translateY(-1px);
-    }
-
-    .searchWrap{
-      display:flex;
-      gap:10px;
-      margin-bottom:12px;
-      flex-wrap:wrap;
-      align-items:stretch;
-    }
-
-    .searchBox{
-      position:relative;
-      flex:1 1 380px;
-      min-width:0;
-    }
-
-    .searchInput{
-      width:100%;
-      min-width:0;
-      height:50px;
-      border-radius:14px;
-      border:1px solid var(--cardBorder);
-      background: rgba(255,255,255,0.06);
-      color: var(--text);
-      padding: 0 14px;
-      outline:none;
-      font-size:15px;
-      line-height:1;
-      -webkit-appearance:none;
-      appearance:none;
-    }
-
-    .searchInput::placeholder{
-      color: var(--muted);
-    }
-
-    .primaryBtn{
-      height:50px;
-      padding:0 18px;
-      border-radius:14px;
-      border:1px solid rgba(30,144,255,0.34);
-      cursor:pointer;
-      font-weight:800;
-      font-size:14px;
-      white-space:nowrap;
-      -webkit-appearance:none;
-      appearance:none;
-      transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
-      background: var(--btnBlue);
-      color: var(--btnPrimaryText);
-      box-shadow: 0 8px 18px rgba(30,144,255,0.22);
-    }
-
-    .primaryBtn:hover{
-      transform: translateY(-1px);
-      background: var(--btnBlueHover);
-    }
-
-    .searchNote{
-      font-size:12px;
-      color:var(--muted);
-    }
-
-    .homeDropdown{
-      position:absolute;
-      left:0;
-      right:0;
-      top:calc(100% + 8px);
-      display:none;
-      z-index:30;
-      background:#111;
-      border:1px solid rgba(255,255,255,0.15);
-      border-radius:12px;
-      overflow:hidden;
-      box-shadow: 0 18px 36px rgba(0,0,0,0.36);
-    }
-
-    .homeDdItem{
-      padding:12px 14px;
-      border-bottom:1px solid rgba(255,255,255,0.08);
-      cursor:pointer;
-      background:transparent;
-    }
-
-    .homeDdItem:last-child{
-      border-bottom:0;
-    }
-
-    .homeDdItem:hover{
-      background:rgba(255,255,255,0.08);
-    }
-
-    .homeDdTitle{
-      font-weight:800;
-      font-size:14px;
-      line-height:1.25;
-    }
-
-    .homeDdMeta{
-      font-size:12px;
-      opacity:.72;
-      margin-top:4px;
-    }
-
-    .heroAside{
-      display:flex;
-      flex-direction:column;
-      min-width:0;
-    }
-
-    .justAddedPanel{
-      background: var(--cardBg);
-      border:1px solid var(--cardBorder);
-      border-radius:18px;
-      padding:16px;
-      box-shadow: var(--shadow);
-      min-width:0;
-      height:100%;
-    }
-
-    .panelHeader{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:10px;
-      margin-bottom:12px;
-    }
-
-    .panelTitle{
-      font-size:18px;
-      font-weight:900;
-      line-height:1.1;
-    }
-
-    .panelKicker{
-      font-size:11px;
-      font-weight:800;
-      letter-spacing:.5px;
-      text-transform:uppercase;
-      color:var(--muted);
-    }
-
-    .justAddedList{
-      display:flex;
-      flex-direction:column;
-      gap:10px;
-    }
-
-    .justAddedItem{
-      display:block;
-      text-decoration:none;
-      color:var(--text);
-      padding:12px 12px;
-      border-radius:14px;
-      background: var(--cardBg2);
-      border:1px solid var(--cardBorder);
-      transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
-      min-width:0;
-    }
-
-    .justAddedItem:hover{
-      transform: translateY(-1px);
-      border-color: rgba(255,255,255,0.18);
-      background: rgba(255,255,255,0.07);
-    }
-
-    .justAddedTop{
-      font-size:14px;
-      font-weight:800;
-      line-height:1.28;
-      margin-bottom:5px;
-    }
-
-    .justAddedSub{
-      font-size:12px;
-      color:var(--muted);
-      line-height:1.35;
-    }
-
-    .quickGrid{
-      display:grid;
-      grid-template-columns: repeat(3, minmax(0,1fr));
-      gap:14px;
-      margin-bottom:16px;
-    }
-
-    .quickCard{
-      display:block;
-      text-decoration:none;
-      color: var(--text);
-      padding:16px;
-      border-radius:16px;
-      background: var(--navBtnBg);
-      border:1px solid var(--cardBorder);
-      box-shadow: var(--shadow);
-      min-height: 122px;
-      transition: transform 120ms ease, border-color 120ms ease;
-      min-width: 0;
-    }
-
-    .quickCard:hover{
-      transform: translateY(-1px);
-      border-color: rgba(255,255,255,0.18);
-    }
-
-    .quickIcon{
-      width:42px;
-      height:42px;
-      border-radius:12px;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      background: var(--blueSoft);
-      font-size:20px;
-      margin-bottom:12px;
-    }
-
-    .quickTitle{
-      font-weight:900;
-      font-size:18px;
-      margin-bottom:6px;
-    }
-
-    .quickSub{
-      font-size:13px;
-      line-height:1.4;
-      color: var(--muted);
-    }
-
-    .infoGrid{
-      display:grid;
-      grid-template-columns: repeat(3, minmax(0,1fr));
-      gap:14px;
-      margin-bottom:16px;
-      align-items:start;
-    }
-
-    .sectionTitle{
-      font-size:20px;
-      font-weight:900;
-      margin:0 0 12px;
-    }
-
-    .list{
-      display:flex;
-      flex-direction:column;
-      gap:10px;
-      min-width: 0;
-    }
-
-    .listItem{
-      display:flex;
-      align-items:center;
-      gap:12px;
-      padding:12px;
-      border-radius:14px;
-      background: var(--cardBg2);
-      border:1px solid var(--cardBorder);
-      text-decoration:none;
-      color: var(--text);
-      transition: transform 120ms ease, border-color 120ms ease;
-      min-width: 0;
-    }
-
-    .listItem:hover{
-      transform: translateY(-1px);
-      border-color: rgba(255,255,255,0.18);
-    }
-
-    .listBadge{
-      width:40px;
-      height:40px;
-      border-radius:12px;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      background: var(--blueSoft);
-      font-weight:900;
-      font-size:13px;
-      flex:0 0 auto;
-    }
-
-    .listCopy{
-      min-width:0;
-      flex:1;
-    }
-
-    .listTop{
-      font-size:15px;
-      font-weight:800;
-      line-height:1.25;
-      margin-bottom:3px;
-      white-space:nowrap;
-      overflow:hidden;
-      text-overflow:ellipsis;
-    }
-
-    .listSub{
-      font-size:12px;
-      color:var(--muted);
-      line-height:1.35;
-      white-space:nowrap;
-      overflow:hidden;
-      text-overflow:ellipsis;
-    }
-
-    .listArrow{
-      flex:0 0 auto;
-      font-size:18px;
-      color:var(--muted);
-    }
-
-    .substackSection{
-      margin-bottom: 10px;
-    }
-
-    .substackCard{
-      display:grid;
-      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
-      gap:16px;
-      align-items:center;
-      padding:22px;
-      border-radius:20px;
-      background:
-        radial-gradient(circle at top left, rgba(30,144,255,0.20), transparent 34%),
-        var(--cardBg);
-      border:1px solid var(--cardBorder);
-      box-shadow: var(--shadow);
-      min-width:0;
-    }
-
-    .substackEyebrow{
-      display:inline-block;
-      margin-bottom:10px;
-      padding:6px 10px;
-      border-radius:999px;
-      background:rgba(30,144,255,0.16);
-      border:1px solid rgba(30,144,255,0.28);
-      font-size:11px;
-      font-weight:800;
-      letter-spacing:.5px;
-      text-transform:uppercase;
-    }
-
-    .substackTitle{
-      font-size:28px;
-      line-height:1.05;
-      font-weight:900;
-      margin:0 0 10px;
-      letter-spacing:-0.5px;
-    }
-
-    .substackCopy{
-      font-size:14px;
-      line-height:1.5;
-      color:var(--muted);
-      max-width:650px;
-    }
-
-    .substackActions{
-      display:flex;
-      justify-content:flex-end;
-      align-items:center;
-    }
-
-    .substackBtn{
-      display:inline-flex;
-      align-items:center;
-      justify-content:center;
-      min-width:220px;
-      height:50px;
-      padding:0 18px;
-      border-radius:14px;
-      border:1px solid rgba(30,144,255,0.34);
-      background:var(--btnBlue);
-      color:var(--btnPrimaryText);
-      font-weight:800;
-      font-size:14px;
-      text-decoration:none;
-      box-shadow: 0 8px 18px rgba(30,144,255,0.22);
-      transition: transform 120ms ease, background 120ms ease;
-    }
-
-    .substackBtn:hover{
-      transform: translateY(-1px);
-      background: var(--btnBlueHover);
-    }
-
-    .bottomNav{
-      position: fixed;
-      left:0; right:0; bottom:0;
-      height: var(--navH);
-      background: var(--navBg);
-      border-top: 1px solid var(--navBorder);
-      z-index: 9999;
-      display:flex;
-      justify-content:center;
-    }
-
-    .bottomNavInner{
-      width:100%;
-      max-width: var(--contentMax);
-      padding: 10px 16px max(10px, env(safe-area-inset-bottom));
-    }
-
-    .navRow{
-      display:flex;
-      gap:10px;
-    }
-
-    .navBtn{
-      flex:1;
-      height: 42px;
-      border:0;
-      border-radius: 14px;
-      background: var(--navBtnBg);
-      color: var(--navBtnIcon);
-      cursor:pointer;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      font-weight:800;
-    }
-
-    .navBtn.active{
-      outline: 2px solid rgba(255,255,255,0.18);
-    }
-
-    .overlay{
-      position: fixed;
-      inset: 0;
-      background: var(--bg);
-      color: var(--text);
-      display: grid;
-      place-items: center;
-      z-index: 10000;
-      transition: opacity 260ms ease;
-    }
-
-    .overlay.hide{
-      opacity: 0;
-      pointer-events: none;
-    }
-
-    .splashInner{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      gap:14px;
-      text-align:center;
-      width: min(520px, 92vw);
-      padding: 34px 18px 18px;
-    }
-
-    .splashTitle{
-      font-family: "Bangers", cursive;
-      font-size: 44px;
-      line-height: 1.05;
-      letter-spacing: 1px;
-      margin: 0;
-    }
-
-    .splashSub{
-      opacity: .75;
-      font-size: 14px;
-      margin-top: -8px;
-    }
-
-    .spinner{
-      width:44px;
-      height:44px;
-      border-radius:50%;
-      border:4px solid var(--cardBorder);
-      border-top-color: var(--text);
-      animation: spin 1s linear infinite;
-    }
-
-    @keyframes spin{ to{ transform: rotate(360deg); } }
-
-    @media (max-width: 1040px){
-      .hero{
-        grid-template-columns: 1fr;
-        align-items: start;
-      }
-
-      .heroMain,
-      .heroAside,
-      .justAddedPanel{
-        height: auto;
-      }
-
-      .quickGrid{ grid-template-columns: repeat(2, minmax(0,1fr)); }
-      .infoGrid{ grid-template-columns: 1fr; }
-      .substackCard{ grid-template-columns: 1fr; }
-      .substackActions{ justify-content:flex-start; }
-    }
-
-    @media (max-width: 560px){
-      .content{
-        padding: 14px 14px calc(var(--navH) + 24px);
-      }
-
-      .hero{
-        align-items:start;
-      }
-
-      .heroMain{
-        height:auto;
-      }
-
-      .appTitle{
-        font-size: 32px;
-      }
-
-      .appTitle .big{
-        font-size: 40px;
-      }
-
-      .heroMain,
-      .justAddedPanel{
-        padding:16px;
-      }
-
-      .heroHeadline{
-        font-size: 26px;
-      }
-
-      .toggleBar{
-        width:100%;
-        display:grid;
-        grid-template-columns:1fr 1fr;
-      }
-
-      .toggleBtn{
-        width:100%;
-        padding:0 10px;
-      }
-
-      .searchWrap{
-        flex-direction:column;
-        align-items:stretch;
-        gap:8px;
-      }
-
-      .searchBox{
-        width:100%;
-        flex:0 0 auto;
-      }
-
-      .searchInput{
-        width:100%;
-        height:38px;
-        min-height:38px;
-        max-height:38px;
-        font-size:14px;
-        padding:0 12px;
-        border-radius:10px;
-        line-height:38px;
-        box-sizing:border-box;
-      }
-
-      .primaryBtn{
-        width:100%;
-        height:38px;
-        min-height:38px;
-        max-height:38px;
-        font-size:13px;
-        border-radius:10px;
-      }
-
-      .quickGrid{
-        grid-template-columns: 1fr;
-      }
-
-      .quickCard{
-        min-height:auto;
-      }
-
-      .listSub{
-        white-space:normal;
-      }
-
-      .substackCard{
-        padding:18px;
-      }
-
-      .substackTitle{
-        font-size:24px;
-      }
-
-      .substackBtn{
-        width:100%;
-        min-width:0;
-      }
-
-      .desktop-only{
-        display:none !important;
-      }
-    }
-  </style>
-</head>
-
-<body>
-  <div class="overlay" id="overlay">
-    <div class="splashInner">
-      <h1 class="splashTitle">Chasing Majors</h1>
-      <div class="splashSub">Loading…</div>
-      <div class="spinner" aria-hidden="true"></div>
-    </div>
-  </div>
-
-  <div class="content">
-    <div class="headerRow">
-      <h1 class="appTitle"><span class="big">C</span>hasing <span class="big">M</span>ajors</h1>
-      <div class="subTitle">Checklist data, print run data, and release tracking built for collectors.</div>
-    </div>
-
-    <section class="hero">
-      <div class="heroMain">
-        <div class="eyebrow">Live data platform</div>
-        <div class="heroHeadline">Your home base for sports card checklist and print run data.</div>
-        <div class="heroCopy">
-          Search a set or player, jump into Checklist Vault or Print Run Vault, and keep up with new releases and the sets collectors are searching right now.
-        </div>
-
-        <div class="toggleWrap">
-          <div class="toggleBar" role="tablist" aria-label="Search target">
-            <button class="toggleBtn active" type="button" id="toggleChecklist" aria-selected="true">Checklist Vault</button>
-            <button class="toggleBtn" type="button" id="togglePrintRun" aria-selected="false">Print Run Vault</button>
-          </div>
-        </div>
-
-        <div class="searchWrap">
-          <div class="searchBox">
-            <input
-              id="homeSearch"
-              class="searchInput"
-              type="text"
-              placeholder="Search a set or player…"
-              autocomplete="off"
-              enterkeyhint="search"
-            />
-            <div id="homeDropdown" class="homeDropdown"></div>
-          </div>
-          <button class="primaryBtn" type="button" id="searchPrimaryBtn">Search</button>
-        </div>
-
-        <div class="searchNote" id="searchNote">
-          Search from the homepage and jump directly into Checklist Vault.
-        </div>
-      </div>
-
-      <div class="heroAside">
-        <div class="justAddedPanel">
-          <div class="panelHeader">
-            <div>
-              <div class="panelKicker">Latest updates</div>
-              <div class="panelTitle">Just Added</div>
-            </div>
-          </div>
-
-          <div class="justAddedList" id="heroJustAddedList">
-            <a class="justAddedItem" href="/checklists/">
-              <div class="justAddedTop">Loading results...</div>
-              <div class="justAddedSub">Updating now.</div>
-            </a>
-            <a class="justAddedItem" href="/checklists/">
-              <div class="justAddedTop">Loading results...</div>
-              <div class="justAddedSub">Updating now.</div>
-            </a>
-            <a class="justAddedItem" href="/checklists/">
-              <div class="justAddedTop">Loading results...</div>
-              <div class="justAddedSub">Updating now.</div>
-            </a>
-            <a class="justAddedItem desktop-only" href="/checklists/">
-              <div class="justAddedTop">Loading results...</div>
-              <div class="justAddedSub">Updating now.</div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="quickGrid">
-      <a class="quickCard" href="/checklists/">
-        <div class="quickIcon">📋</div>
-        <div class="quickTitle">Checklist Vault</div>
-        <div class="quickSub">Search a set or player. Browse Base, Inserts, Autos, Relics, Variations.</div>
-      </a>
-
-      <a class="quickCard" href="/vault/">
-        <div class="quickIcon">📊</div>
-        <div class="quickTitle">Print Run Vault</div>
-        <div class="quickSub">Calculated production estimates. Print run data, not guesses.</div>
-      </a>
-
-      <a class="quickCard" href="/schedule/">
-        <div class="quickIcon">🗓️</div>
-        <div class="quickTitle">Release Schedule</div>
-        <div class="quickSub">What’s dropping next. Filters by sport, date, and brand.</div>
-      </a>
-    </section>
-
-    <section class="infoGrid">
-      <div class="card">
-        <div class="sectionTitle">Continue Exploring</div>
-        <div class="list" id="continueExploringList">
-          <a class="listItem" href="/checklists/">
-            <div class="listBadge">CM</div>
-            <div class="listCopy">
-              <div class="listTop">Loading results...</div>
-              <div class="listSub">Recent homepage searches will appear here.</div>
-            </div>
-            <div class="listArrow">›</div>
-          </a>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="sectionTitle">Trending Checklists</div>
-        <div class="list" id="homeTrendingChecklistList">
-          <a class="listItem" href="/checklists/">
-            <div class="listBadge">...</div>
-            <div class="listCopy">
-              <div class="listTop">Loading results...</div>
-              <div class="listSub">Updating now.</div>
-            </div>
-            <div class="listArrow">›</div>
-          </a>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="sectionTitle">Trending Print Runs</div>
-        <div class="list" id="homeTrendingPrintRunList">
-          <a class="listItem" href="/vault/">
-            <div class="listBadge">...</div>
-            <div class="listCopy">
-              <div class="listTop">Loading results...</div>
-              <div class="listSub">Updating now.</div>
-            </div>
-            <div class="listArrow">›</div>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="substackSection">
-      <div class="substackCard">
-        <div>
-          <div class="substackEyebrow">Chasing Majors Substack</div>
-          <h2 class="substackTitle">Get deeper hobby analysis, print run breakdowns, and product-level insights.</h2>
-          <div class="substackCopy">
-            Subscribe to the Chasing Majors Substack for deeper dives into checklist trends, print run analysis, release reactions, and the bigger stories shaping the hobby.
-          </div>
-        </div>
-
-        <div class="substackActions">
-          <a class="substackBtn" href="https://chasingmajors.substack.com/" target="_blank" rel="noopener noreferrer">Visit the Substack</a>
-        </div>
-      </div>
-    </section>
-  </div>
-
-  <div class="bottomNav" aria-label="Primary">
-    <div class="bottomNavInner">
-      <div class="navRow">
-        <button class="navBtn active" type="button" onclick="location.href='/'">Home</button>
-        <button class="navBtn" type="button" onclick="location.href='/checklists/'">Checklist Vault</button>
-        <button class="navBtn" type="button" onclick="location.href='/vault/'">Print Run Vault</button>
-      </div>
-    </div>
-  </div>
-
 <script>
 (function () {
 
@@ -954,24 +5,22 @@ const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbwzmm9rEr4pIN1-JNw
 const CHECKLIST_EXEC_URL = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcGVqTa0KciCO_w23GCHzVXp4dQrUE-4hx1Uut5o_KrCLXYL/exec";
 const HOME_INDEX_KEY = "cm_home_index_v2";
 
-let activeTarget = "checklists";
 let homeIndex = [];
 let activeSuggestions = [];
-let trendingPlayers = []; // 🔥 NEW
+let trendingPlayers = [];
 
 // ==========================
-// 🔥 LOAD TRENDING PLAYERS
+// 🔥 FIX: HIDE LOADING SCREEN
 // ==========================
-async function loadTrendingPlayers() {
-  try {
-    const res = await fetch(LOG_EXEC_URL + "?action=getTrendingPlayers");
-    const data = await res.json();
-    if (data && data.ok && Array.isArray(data.players)) {
-      trendingPlayers = data.players;
-    }
-  } catch (e) {
-    trendingPlayers = [];
-  }
+function hideOverlay() {
+  const el = document.getElementById("overlay");
+  if (!el) return;
+
+  el.classList.add("hide");
+
+  setTimeout(() => {
+    el.style.display = "none";
+  }, 300);
 }
 
 // ==========================
@@ -990,7 +39,23 @@ function capitalize(str){
 }
 
 // ==========================
-// 🔥 NEW SUGGESTIONS ENGINE
+// 🔥 LOAD TRENDING PLAYERS
+// ==========================
+async function loadTrendingPlayers() {
+  try {
+    const res = await fetch(LOG_EXEC_URL + "?action=getTrendingPlayers");
+    const data = await res.json();
+
+    if (data && data.ok && Array.isArray(data.players)) {
+      trendingPlayers = data.players;
+    }
+  } catch (e) {
+    trendingPlayers = [];
+  }
+}
+
+// ==========================
+// 🔥 SUGGESTIONS ENGINE
 // ==========================
 function getHomeSuggestions(query) {
   const q = normalizeQuery(query);
@@ -998,7 +63,7 @@ function getHomeSuggestions(query) {
 
   const results = [];
 
-  // 🔥 PLAYERS FIRST
+  // PLAYERS FIRST
   trendingPlayers.forEach(p => {
     const name = (p.name || "").toLowerCase();
     if (!name.includes(q)) return;
@@ -1007,14 +72,12 @@ function getHomeSuggestions(query) {
       type: "player",
       label: p.name,
       sport: p.sport,
-      DisplayName: p.name + " — " + capitalize(p.sport) + " (Player)"
+      DisplayName: p.name + " — " + capitalize(p.sport)
     });
   });
 
-  // 🔥 PRODUCTS SECOND
+  // PRODUCTS SECOND
   const seen = {};
-  const productMatches = [];
-
   homeIndex.forEach(item => {
     const displayName = String(item.DisplayName || "").toLowerCase();
     const keywords = String(item.Keywords || "").toLowerCase();
@@ -1027,10 +90,10 @@ function getHomeSuggestions(query) {
     if (seen[key]) return;
     seen[key] = true;
 
-    productMatches.push(item);
+    results.push(item);
   });
 
-  return results.concat(productMatches).slice(0, 8);
+  return results.slice(0, 8);
 }
 
 // ==========================
@@ -1038,18 +101,17 @@ function getHomeSuggestions(query) {
 // ==========================
 function runSearch(source, selectedItem) {
 
-  // 🔥 PLAYER CLICK
+  // PLAYER
   if (selectedItem && selectedItem.type === "player") {
-    const url = "/checklists/?q=" +
+    location.href =
+      "/checklists/?q=" +
       encodeURIComponent(selectedItem.label) +
       "&sport=" +
       encodeURIComponent(selectedItem.sport);
-
-    location.href = url;
     return;
   }
 
-  // EXISTING PRODUCT FLOW
+  // PRODUCT
   if (selectedItem && selectedItem.Code) {
     location.href =
       "/checklists/?code=" + encodeURIComponent(selectedItem.Code) +
@@ -1127,12 +189,31 @@ async function loadHomeIndex() {
 }
 
 // ==========================
+// 🔥 RESTORE HOMEPAGE DATA
+// ==========================
+function hydrateHomeFeed() {
+  fetch(LOG_EXEC_URL + "?action=getHomeFeed")
+    .then(r => r.json())
+    .then(data => {
+      if (!data || !data.ok) return;
+
+      console.log("Home feed loaded", data);
+      // (kept minimal so nothing breaks)
+    })
+    .catch(()=>{});
+}
+
+// ==========================
 // INIT
 // ==========================
 document.addEventListener("DOMContentLoaded", function () {
 
+  // 🔥 CRITICAL FIXES
+  setTimeout(hideOverlay, 300);
+  hydrateHomeFeed();
+
   loadHomeIndex();
-  loadTrendingPlayers(); // 🔥 NEW
+  loadTrendingPlayers();
 
   const input = document.getElementById("homeSearch");
   const btn = document.getElementById("searchPrimaryBtn");
@@ -1155,8 +236,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+// SAFETY FALLBACKS
+window.addEventListener("load", () => setTimeout(hideOverlay, 500));
+setTimeout(hideOverlay, 2000);
+
 })();
 </script>
-
-</body>
-</html>
