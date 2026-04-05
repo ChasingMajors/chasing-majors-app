@@ -950,193 +950,22 @@
 <script>
 (function () {
 
-  const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbyiDXs5T6CH9zqnD5Y4Z7hoqyNCKs5ex52opczi1Fn6zoQJISEVeZDGNpgkzhhf81m9/exec";
-  const CHECKLIST_EXEC_URL = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcGVqTa0KciCO_w23GCHzVXp4dQrUE-4hx1Uut5o_KrCLXYL/exec";
-
-  const HOME_INDEX_KEY = "cm_home_index_v2";
-
-  let activeTarget = "checklists";
-  let homeIndex = [];
-  let activeSuggestions = [];
-
-  /* =============================
-     🛑 OVERLAY (NEVER STUCK AGAIN)
-  ============================== */
-
   function hideOverlay() {
-    try {
-      const el = document.getElementById("overlay");
-      if (!el) return;
-      el.classList.add("hide");
-      setTimeout(() => el.style.display = "none", 300);
-    } catch(e){}
+    var el = document.getElementById("overlay");
+    if (!el) return;
+    el.style.display = "none";
   }
 
-  // failsafe no matter what
-  setTimeout(hideOverlay, 2000);
-
-  /* =============================
-     DROPDOWN
-  ============================== */
-
-  function renderHomeDropdown(items) {
-    const dd = document.getElementById("homeDropdown");
-    if (!dd) return;
-
-    activeSuggestions = items || [];
-
-    if (!items.length) {
-      dd.style.display = "none";
-      dd.innerHTML = "";
-      return;
-    }
-
-    dd.innerHTML = items.map((item, i) => `
-      <div class="homeDdItem" data-i="${i}">
-        <div class="homeDdTitle">${item.DisplayName || ""}</div>
-        <div class="homeDdMeta">${item.year || ""} ${item.sport || ""}</div>
-      </div>
-    `).join("");
-
-    dd.style.display = "block";
-
-    dd.querySelectorAll(".homeDdItem").forEach(el => {
-      el.onclick = () => {
-        const i = Number(el.getAttribute("data-i"));
-        const selected = activeSuggestions[i];
-        closeDropdown();
-        goToProduct(selected);
-      };
-    });
-  }
-
-  function closeDropdown() {
-    const dd = document.getElementById("homeDropdown");
-    if (!dd) return;
-    dd.style.display = "none";
-    dd.innerHTML = "";
-  }
-
-  /* =============================
-     SEARCH INDEX
-  ============================== */
-
-  function normalize(q){
-    return String(q||"").toLowerCase().trim();
-  }
-
-  function getSuggestions(q){
-    q = normalize(q);
-    if (q.length < 2) return [];
-
-    return homeIndex
-      .filter(x=>{
-        const hay = (x.DisplayName + " " + x.Keywords + " " + x.Code).toLowerCase();
-        return hay.includes(q);
-      })
-      .slice(0,8);
-  }
-
-  async function loadIndex(){
-    try{
-      const cached = localStorage.getItem(HOME_INDEX_KEY);
-      if (cached) homeIndex = JSON.parse(cached);
-    }catch(e){}
-
-    try{
-      const res = await fetch(CHECKLIST_EXEC_URL,{
-        method:"POST",
-        headers:{ "Content-Type":"text/plain;charset=utf-8"},
-        body: JSON.stringify({action:"index",payload:{}})
-      });
-
-      const data = await res.json();
-
-      if(data.ok){
-        homeIndex = data.index || [];
-        localStorage.setItem(HOME_INDEX_KEY, JSON.stringify(homeIndex));
-      }
-
-    }catch(e){
-      console.error("INDEX FAIL", e);
-    }
-  }
-
-  /* =============================
-     NAVIGATION
-  ============================== */
-
-  function goToProduct(item){
-    const q = item.DisplayName || "";
-    const code = item.Code || "";
-    const sport = item.sport || "";
-
-    if(activeTarget === "vault"){
-      location.href = `/vault/?code=${code}&sport=${sport}&q=${q}`;
-    }else{
-      location.href = `/checklists/?code=${code}&sport=${sport}&q=${q}`;
-    }
-  }
-
-  function runSearch(){
-    const val = document.getElementById("homeSearch").value.trim();
-    if(!val) return;
-
-    if(activeTarget === "vault"){
-      location.href = "/vault/?q=" + encodeURIComponent(val);
-    }else{
-      location.href = "/checklists/?q=" + encodeURIComponent(val);
-    }
-  }
-
-  function setTarget(t){
-    activeTarget = t;
-
-    document.getElementById("toggleChecklist").classList.toggle("active", t==="checklists");
-    document.getElementById("togglePrintRun").classList.toggle("active", t==="vault");
-  }
-
-  /* =============================
-     INIT
-  ============================== */
-
-  document.addEventListener("DOMContentLoaded", function(){
-
-    hideOverlay(); // 🔥 immediate
-
-    loadIndex();
-
-    const input = document.getElementById("homeSearch");
-
-    input.addEventListener("input", e=>{
-      renderHomeDropdown(getSuggestions(e.target.value));
-    });
-
-    input.addEventListener("focus", ()=>{
-      renderHomeDropdown(getSuggestions(input.value));
-    });
-
-    input.addEventListener("keydown", e=>{
-      if(e.key === "Enter"){
-        e.preventDefault();
-        closeDropdown();
-        runSearch();
-      }
-    });
-
-    document.addEventListener("click", e=>{
-      if(!e.target.closest(".searchBox")) closeDropdown();
-    });
-
-    document.getElementById("searchPrimaryBtn").onclick = runSearch;
-
-    document.getElementById("toggleChecklist").onclick = ()=>setTarget("checklists");
-    document.getElementById("togglePrintRun").onclick = ()=>setTarget("vault");
-
+  document.addEventListener("DOMContentLoaded", function () {
+    hideOverlay();
   });
+
+  // failsafe
+  setTimeout(hideOverlay, 1500);
 
 })();
 </script>
+
 
 
 </body>
