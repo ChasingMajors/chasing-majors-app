@@ -22,7 +22,7 @@
 // ---------------- CONFIG ----------------
 
 const EXEC_URL = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcGVqTa0KciCO_w23GCHzVXp4dQrUE-4hx1Uut5o_KrCLXYL/exec";
-const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbwzmm9rEr4pIN1-JNwn5Sp0Wma2u8-Q4GrxgAtiLQzrKjCHrPAwLi8D1SxPqg5f3X7u/exec";
+const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbyiDXs5T6CH9zqnD5Y4Z7hoqyNCKs5ex52opczi1Fn6zoQJISEVeZDGNpgkzhhf81m9/exec";
 
 const INDEX_KEY = "cv_index_v1";
 const INDEX_VER_KEY = "cv_index_ver_v1";
