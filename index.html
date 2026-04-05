@@ -952,23 +952,34 @@
 
 
 
+
+
+
   <script>
 (function () {
 
   const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbyiDXs5T6CH9zqnD5Y4Z7hoqyNCKs5ex52opczi1Fn6zoQJISEVeZDGNpgkzhhf81m9/exec";
   const CHECKLIST_EXEC_URL = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcGVqTa0KciCO_w23GCHzVXp4dQrUE-4hx1Uut5o_KrCLXYL/exec";
   const HOME_INDEX_KEY = "cm_home_index_v2";
-  const HOME_FEED_CACHE = "cm_home_feed_cache";
+  const HOME_FEED_CACHE = "cm_home_feed_cache_v1";
 
   let activeTarget = "checklists";
   let homeIndex = [];
-  let activeSuggestions = [];
 
   function hideOverlay() {
     const el = document.getElementById("overlay");
     if (!el) return;
     el.classList.add("hide");
     setTimeout(() => el.style.display = "none", 300);
+  }
+
+  function showTransitionLoader(msg) {
+    const el = document.getElementById("overlay");
+    if (!el) return;
+    el.style.display = "grid";
+    el.classList.remove("hide");
+    const sub = el.querySelector(".splashSub");
+    if (sub) sub.textContent = msg || "Loading...";
   }
 
   function clean(v){ return String(v||"").trim(); }
@@ -1038,10 +1049,9 @@
     `).join("");
   }
 
-  // 🚀 FIXED HOME FEED
   async function loadHomeFeed(){
 
-    // ⚡ LOAD CACHE FIRST
+    // LOAD CACHE FIRST (instant)
     try{
       const cached = localStorage.getItem(HOME_FEED_CACHE);
       if (cached){
@@ -1052,7 +1062,7 @@
       }
     } catch(e){}
 
-    // 🔄 FETCH FRESH
+    // FETCH FRESH (slow but background)
     try{
       const res = await fetch(LOG_EXEC_URL + "?action=getHomeFeed");
       const data = await res.json();
@@ -1070,8 +1080,12 @@
     }
   }
 
-  // 🔍 SEARCH INDEX
   async function loadHomeIndex(){
+    try{
+      const cached = localStorage.getItem(HOME_INDEX_KEY);
+      if (cached) homeIndex = JSON.parse(cached) || [];
+    } catch(e){}
+
     try{
       const res = await fetch(CHECKLIST_EXEC_URL, {
         method:"POST",
@@ -1080,7 +1094,10 @@
       });
 
       const data = await res.json();
-      if (data.ok) homeIndex = data.index;
+      if (data.ok){
+        homeIndex = data.index;
+        localStorage.setItem(HOME_INDEX_KEY, JSON.stringify(homeIndex));
+      }
 
     } catch(e){}
   }
@@ -1114,13 +1131,17 @@
 
     dd.querySelectorAll(".homeDdItem").forEach(el=>{
       el.onclick = () => {
-        location.href = "/checklists/?q=" + encodeURIComponent(el.innerText);
+        showTransitionLoader("Chasing Majors searching the vault...");
+        setTimeout(()=>{
+          location.href = "/checklists/?q=" + encodeURIComponent(el.innerText);
+        },150);
       };
     });
   }
 
   function initSearch(){
     const input = document.getElementById("homeSearch");
+    const btn = document.getElementById("searchPrimaryBtn");
 
     input.addEventListener("input", e=>{
       renderDropdown(getSuggestions(e.target.value));
@@ -1128,14 +1149,42 @@
 
     input.addEventListener("keydown", e=>{
       if (e.key === "Enter"){
-        location.href = "/checklists/?q=" + encodeURIComponent(input.value);
+        showTransitionLoader("Chasing Majors searching the vault...");
+        setTimeout(()=>{
+          location.href = "/checklists/?q=" + encodeURIComponent(input.value);
+        },150);
       }
+    });
+
+    btn.addEventListener("click", ()=>{
+      showTransitionLoader("Chasing Majors searching the vault...");
+      setTimeout(()=>{
+        location.href = "/checklists/?q=" + encodeURIComponent(input.value);
+      },150);
     });
   }
 
+  document.addEventListener("click", function (e) {
+    const a = e.target.closest("a[href]");
+    if (!a) return;
+
+    const href = a.getAttribute("href");
+    if (!href) return;
+
+    if (href.includes("/checklists/") || href.includes("/vault/")) {
+      e.preventDefault();
+
+      showTransitionLoader("Chasing Majors searching the vault...");
+
+      setTimeout(() => {
+        window.location.href = href;
+      }, 150);
+    }
+  });
+
   document.addEventListener("DOMContentLoaded", function(){
     hideOverlay();
-    loadHomeFeed();   // 🔥 FIXED
+    loadHomeFeed();
     loadHomeIndex();
     initSearch();
   });
