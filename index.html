@@ -960,7 +960,23 @@
   let activeSuggestions = [];
 
   /* =============================
-     🔥 DROPDOWN FIX (THE MISSING PIECE)
+     🛑 OVERLAY (NEVER STUCK AGAIN)
+  ============================== */
+
+  function hideOverlay() {
+    try {
+      const el = document.getElementById("overlay");
+      if (!el) return;
+      el.classList.add("hide");
+      setTimeout(() => el.style.display = "none", 300);
+    } catch(e){}
+  }
+
+  // failsafe no matter what
+  setTimeout(hideOverlay, 2000);
+
+  /* =============================
+     DROPDOWN
   ============================== */
 
   function renderHomeDropdown(items) {
@@ -969,125 +985,80 @@
 
     activeSuggestions = items || [];
 
-    if (!items || !items.length) {
+    if (!items.length) {
       dd.style.display = "none";
       dd.innerHTML = "";
       return;
     }
 
-    dd.innerHTML = items.map((item, i) => {
-      const name = item.DisplayName || "";
-      const meta = (item.year || "") + " " + (item.sport || "");
-
-      return `
-        <div class="homeDdItem" data-index="${i}">
-          <div class="homeDdTitle">${name}</div>
-          <div class="homeDdMeta">${meta}</div>
-        </div>
-      `;
-    }).join("");
+    dd.innerHTML = items.map((item, i) => `
+      <div class="homeDdItem" data-i="${i}">
+        <div class="homeDdTitle">${item.DisplayName || ""}</div>
+        <div class="homeDdMeta">${item.year || ""} ${item.sport || ""}</div>
+      </div>
+    `).join("");
 
     dd.style.display = "block";
 
     dd.querySelectorAll(".homeDdItem").forEach(el => {
-      el.addEventListener("click", function () {
-        const i = Number(this.getAttribute("data-index"));
+      el.onclick = () => {
+        const i = Number(el.getAttribute("data-i"));
         const selected = activeSuggestions[i];
-        closeHomeDropdown();
-        goToProductTarget(selected, "dropdown");
-      });
+        closeDropdown();
+        goToProduct(selected);
+      };
     });
   }
 
-  function closeHomeDropdown() {
+  function closeDropdown() {
     const dd = document.getElementById("homeDropdown");
     if (!dd) return;
     dd.style.display = "none";
     dd.innerHTML = "";
-    activeSuggestions = [];
-  }
-
-  /* =============================
-     CORE UTILS
-  ============================== */
-
-  function cleanQuery(value) {
-    return String(value || "").replace(/\s+/g, " ").trim();
-  }
-
-  function normalizeQuery(value) {
-    return cleanQuery(value).toLowerCase();
-  }
-
-  function getSessionId() {
-    try {
-      let key = "cm_session_id";
-      let val = localStorage.getItem(key);
-      if (!val) {
-        val = "cm_" + Date.now();
-        localStorage.setItem(key, val);
-      }
-      return val;
-    } catch {
-      return "cm_" + Date.now();
-    }
-  }
-
-  function fireAndForgetLog(payload) {
-    fetch(LOG_EXEC_URL, {
-      method: "POST",
-      headers: { "Content-Type": "text/plain;charset=utf-8" },
-      body: JSON.stringify({ action: "logEvent", payload }),
-      keepalive: true
-    }).catch(()=>{});
-  }
-
-  function logHomeEvent(type, extra) {
-    fireAndForgetLog(Object.assign({
-      app: "home",
-      page: "home",
-      event_type: type,
-      session_id: getSessionId()
-    }, extra || {}));
   }
 
   /* =============================
      SEARCH INDEX
   ============================== */
 
-  function getHomeSuggestions(query) {
-    const q = normalizeQuery(query);
-    if (!q || q.length < 2) return [];
-
-    return homeIndex
-      .filter(item => {
-        const hay = (item.DisplayName + " " + item.Keywords + " " + item.Code).toLowerCase();
-        return hay.includes(q);
-      })
-      .slice(0, 8);
+  function normalize(q){
+    return String(q||"").toLowerCase().trim();
   }
 
-  async function loadHomeIndex() {
-    try {
+  function getSuggestions(q){
+    q = normalize(q);
+    if (q.length < 2) return [];
+
+    return homeIndex
+      .filter(x=>{
+        const hay = (x.DisplayName + " " + x.Keywords + " " + x.Code).toLowerCase();
+        return hay.includes(q);
+      })
+      .slice(0,8);
+  }
+
+  async function loadIndex(){
+    try{
       const cached = localStorage.getItem(HOME_INDEX_KEY);
       if (cached) homeIndex = JSON.parse(cached);
-    } catch {}
+    }catch(e){}
 
-    try {
-      const res = await fetch(CHECKLIST_EXEC_URL, {
-        method: "POST",
-        headers: { "Content-Type": "text/plain;charset=utf-8" },
-        body: JSON.stringify({ action: "index", payload: {} })
+    try{
+      const res = await fetch(CHECKLIST_EXEC_URL,{
+        method:"POST",
+        headers:{ "Content-Type":"text/plain;charset=utf-8"},
+        body: JSON.stringify({action:"index",payload:{}})
       });
 
       const data = await res.json();
 
-      if (data.ok && Array.isArray(data.index)) {
-        homeIndex = data.index;
+      if(data.ok){
+        homeIndex = data.index || [];
         localStorage.setItem(HOME_INDEX_KEY, JSON.stringify(homeIndex));
       }
-    } catch (e) {
-      console.error("Index load failed", e);
+
+    }catch(e){
+      console.error("INDEX FAIL", e);
     }
   }
 
@@ -1095,94 +1066,78 @@
      NAVIGATION
   ============================== */
 
-  function goToProductTarget(item, source) {
-    const query = cleanQuery(item.DisplayName);
-    const code = item.Code;
-    const sport = item.sport;
+  function goToProduct(item){
+    const q = item.DisplayName || "";
+    const code = item.Code || "";
+    const sport = item.sport || "";
 
-    logHomeEvent("search_submit", {
-      query,
-      selected_code: code,
-      sport,
-      route_target: activeTarget,
-      source
-    });
-
-    if (activeTarget === "vault") {
-      location.href = `/vault/?code=${code}&sport=${sport}&q=${query}`;
-    } else {
-      location.href = `/checklists/?code=${code}&sport=${sport}&q=${query}`;
+    if(activeTarget === "vault"){
+      location.href = `/vault/?code=${code}&sport=${sport}&q=${q}`;
+    }else{
+      location.href = `/checklists/?code=${code}&sport=${sport}&q=${q}`;
     }
   }
 
-  function runSearch() {
-    const input = document.getElementById("homeSearch");
-    const query = cleanQuery(input.value);
+  function runSearch(){
+    const val = document.getElementById("homeSearch").value.trim();
+    if(!val) return;
 
-    if (!query) return;
-
-    logHomeEvent("search_submit", {
-      query,
-      route_target: activeTarget
-    });
-
-    if (activeTarget === "vault") {
-      location.href = "/vault/?q=" + encodeURIComponent(query);
-    } else {
-      location.href = "/checklists/?q=" + encodeURIComponent(query);
+    if(activeTarget === "vault"){
+      location.href = "/vault/?q=" + encodeURIComponent(val);
+    }else{
+      location.href = "/checklists/?q=" + encodeURIComponent(val);
     }
   }
 
-  function setTarget(target) {
-    activeTarget = target;
+  function setTarget(t){
+    activeTarget = t;
 
-    document.getElementById("toggleChecklist").classList.toggle("active", target === "checklists");
-    document.getElementById("togglePrintRun").classList.toggle("active", target === "vault");
+    document.getElementById("toggleChecklist").classList.toggle("active", t==="checklists");
+    document.getElementById("togglePrintRun").classList.toggle("active", t==="vault");
   }
 
   /* =============================
      INIT
   ============================== */
 
-  document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function(){
 
-    loadHomeIndex();
+    hideOverlay(); // 🔥 immediate
+
+    loadIndex();
 
     const input = document.getElementById("homeSearch");
 
-    input.addEventListener("input", function (e) {
-      renderHomeDropdown(getHomeSuggestions(e.target.value));
+    input.addEventListener("input", e=>{
+      renderHomeDropdown(getSuggestions(e.target.value));
     });
 
-    input.addEventListener("focus", function () {
-      renderHomeDropdown(getHomeSuggestions(input.value));
+    input.addEventListener("focus", ()=>{
+      renderHomeDropdown(getSuggestions(input.value));
     });
 
-    input.addEventListener("keydown", function (e) {
-      if (e.key === "Enter") {
+    input.addEventListener("keydown", e=>{
+      if(e.key === "Enter"){
         e.preventDefault();
-        closeHomeDropdown();
+        closeDropdown();
         runSearch();
       }
     });
 
-    document.addEventListener("click", function (e) {
-      if (!e.target.closest(".searchBox")) closeHomeDropdown();
+    document.addEventListener("click", e=>{
+      if(!e.target.closest(".searchBox")) closeDropdown();
     });
 
-    document.getElementById("searchPrimaryBtn")
-      .addEventListener("click", runSearch);
+    document.getElementById("searchPrimaryBtn").onclick = runSearch;
 
-    document.getElementById("toggleChecklist")
-      .addEventListener("click", () => setTarget("checklists"));
-
-    document.getElementById("togglePrintRun")
-      .addEventListener("click", () => setTarget("vault"));
+    document.getElementById("toggleChecklist").onclick = ()=>setTarget("checklists");
+    document.getElementById("togglePrintRun").onclick = ()=>setTarget("vault");
 
   });
 
 })();
 </script>
+
 
 </body>
 </html>
