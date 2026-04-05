@@ -87,152 +87,236 @@ body{
 </div>
 
 <script>
-(function(){
+(function () {
 
-const LOG_API = "https://script.google.com/macros/s/AKfycbwzmm9rEr4pIN1-JNwn5Sp0Wma2u8-Q4GrxgAtiLQzrKjCHrPAwLi8D1SxPqg5f3X7u/exec";
-const CHECKLIST_API = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcGVqTa0KciCO_w23GCHzVXp4dQrUE-4hx1Uut5o_KrCLXYL/exec";
+const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbwzmm9rEr4pIN1-JNwn5Sp0Wma2u8-Q4GrxgAtiLQzrKjCHrPAwLi8D1SxPqg5f3X7u/exec";
+const CHECKLIST_EXEC_URL = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcGVqTa0KciCO_w23GCHzVXp4dQrUE-4hx1Uut5o_KrCLXYL/exec";
+const HOME_INDEX_KEY = "cm_home_index_v2";
 
-let players = [];
-let index = [];
-let suggestions = [];
+let activeTarget = "checklists";
+let homeIndex = [];
+let activeSuggestions = [];
+let trendingPlayers = [];
 
-// =================
-// FIX LOADING SCREEN
-// =================
-function hideOverlay(){
+// ==========================
+// FIX: HIDE LOADING SCREEN
+// ==========================
+function hideOverlay() {
   const el = document.getElementById("overlay");
-  if(!el) return;
-  el.style.display = "none";
+  if (!el) return;
+
+  el.classList.add("hide");
+
+  setTimeout(() => {
+    el.style.display = "none";
+  }, 300);
 }
 
-// =================
-// LOAD PLAYERS
-// =================
-async function loadPlayers(){
-  try{
-    const r = await fetch(LOG_API + "?action=getTrendingPlayers");
-    const d = await r.json();
-    if(d.ok) players = d.players;
-  }catch(e){}
+// ==========================
+// HELPERS
+// ==========================
+function cleanQuery(v){
+  return String(v||"").replace(/\u2019/g,"'").replace(/\s+/g," ").trim();
 }
 
-// =================
-// LOAD PRODUCT INDEX
-// =================
-async function loadIndex(){
-  try{
-    const r = await fetch(CHECKLIST_API,{
-      method:"POST",
-      body:JSON.stringify({action:"index"})
+function normalizeQuery(v){
+  return cleanQuery(v).toLowerCase().replace(/[^\w\s']/g," ").replace(/\s+/g," ").trim();
+}
+
+function capitalize(str){
+  return str ? str.charAt(0).toUpperCase() + str.slice(1) : "";
+}
+
+// ==========================
+// LOAD PLAYERS (SAFE)
+// ==========================
+async function loadTrendingPlayers() {
+  try {
+    const res = await fetch(LOG_EXEC_URL + "?action=getTrendingPlayers");
+    const data = await res.json();
+
+    if (data && data.ok && Array.isArray(data.players)) {
+      trendingPlayers = data.players;
+    }
+  } catch (e) {
+    trendingPlayers = [];
+  }
+}
+
+// ==========================
+// SUGGESTIONS
+// ==========================
+function getHomeSuggestions(query) {
+  const q = normalizeQuery(query);
+  if (!q || q.length < 2) return [];
+
+  const results = [];
+
+  // PLAYERS FIRST
+  trendingPlayers.forEach(p => {
+    if (!p.name) return;
+
+    const name = p.name.toLowerCase();
+    if (!name.includes(q)) return;
+
+    results.push({
+      type: "player",
+      label: p.name,
+      sport: p.sport,
+      DisplayName: p.name + " — " + capitalize(p.sport)
     });
-    const d = await r.json();
-    if(d.ok) index = d.index;
-  }catch(e){}
-}
-
-// =================
-// SEARCH SUGGESTIONS
-// =================
-function getSuggestions(q){
-  q = q.toLowerCase();
-  if(q.length < 2) return [];
-
-  const out = [];
-
-  // players
-  players.forEach(p=>{
-    if(p.name.toLowerCase().includes(q)){
-      out.push({
-        type:"player",
-        label:p.name,
-        sport:p.sport,
-        display:p.name + " - " + p.sport
-      });
-    }
   });
 
-  // products
-  index.forEach(i=>{
-    if(i.DisplayName.toLowerCase().includes(q)){
-      out.push({
-        type:"product",
-        ...i
-      });
-    }
+  // PRODUCTS
+  homeIndex.forEach(item => {
+    const displayName = String(item.DisplayName || "").toLowerCase();
+    if (!displayName.includes(q)) return;
+
+    results.push(item);
   });
 
-  return out.slice(0,8);
+  return results.slice(0, 8);
 }
 
-// =================
-// RENDER DROPDOWN
-// =================
-function render(list){
+// ==========================
+// DROPDOWN
+// ==========================
+function renderHomeDropdown(items) {
   const dd = document.getElementById("homeDropdown");
+  if (!dd) return;
 
-  if(!list.length){
-    dd.innerHTML="";
+  activeSuggestions = items || [];
+
+  if (!items.length) {
+    dd.style.display = "none";
+    dd.innerHTML = "";
     return;
   }
 
-  dd.innerHTML = list.map((x,i)=>`
-    <div class="homeDdItem" data-i="${i}">
-      ${x.display || x.DisplayName}
+  dd.innerHTML = items.map((item, idx) => `
+    <div class="homeDdItem" data-idx="${idx}">
+      <div class="homeDdTitle">${item.DisplayName || ""}</div>
+      <div class="homeDdMeta">${item.sport || ""}</div>
     </div>
   `).join("");
 
-  suggestions = list;
+  dd.style.display = "block";
 
-  [...dd.children].forEach(el=>{
-    el.onclick = ()=>{
-      const item = suggestions[el.dataset.i];
-      go(item);
-    };
+  Array.from(dd.children).forEach(node => {
+    node.addEventListener("click", () => {
+      const idx = Number(node.dataset.idx);
+      const item = activeSuggestions[idx];
+      runSearch("suggestion_click", item);
+    });
   });
 }
 
-// =================
-// ROUTE
-// =================
-function go(item){
+// ==========================
+// ROUTING
+// ==========================
+function runSearch(source, selectedItem) {
 
-  if(item.type === "player"){
-    location.href = "/checklists/?q=" +
-      encodeURIComponent(item.label) +
-      "&sport=" + item.sport;
+  if (selectedItem && selectedItem.type === "player") {
+    location.href =
+      "/checklists/?q=" +
+      encodeURIComponent(selectedItem.label) +
+      "&sport=" +
+      encodeURIComponent(selectedItem.sport);
     return;
   }
 
-  location.href = "/checklists/?code=" + item.Code +
-    "&sport=" + item.sport +
-    "&q=" + encodeURIComponent(item.DisplayName);
-}
-
-// =================
-// INIT
-// =================
-document.addEventListener("DOMContentLoaded",()=>{
-
-  loadPlayers();
-  loadIndex();
+  if (selectedItem && selectedItem.Code) {
+    location.href =
+      "/checklists/?code=" + encodeURIComponent(selectedItem.Code) +
+      "&sport=" + encodeURIComponent(selectedItem.sport || "") +
+      "&type=product&q=" + encodeURIComponent(selectedItem.DisplayName);
+    return;
+  }
 
   const input = document.getElementById("homeSearch");
-  const btn = document.getElementById("searchBtn");
+  const query = cleanQuery(input ? input.value : "");
 
-  input.addEventListener("input",e=>{
-    render(getSuggestions(e.target.value));
-  });
+  if (!query) {
+    location.href = "/checklists/";
+    return;
+  }
 
-  input.addEventListener("keydown",e=>{
-    if(e.key==="Enter") go({label:input.value,type:"player"});
-  });
+  location.href = "/checklists/?q=" + encodeURIComponent(query);
+}
 
-  btn.onclick = ()=>{
-    location.href = "/checklists/?q=" + encodeURIComponent(input.value);
-  };
+// ==========================
+// LOAD INDEX (SAFE)
+// ==========================
+async function loadHomeIndex() {
+  try {
+    const cached = localStorage.getItem(HOME_INDEX_KEY);
+    if (cached) homeIndex = JSON.parse(cached);
+  } catch(e){}
 
-  setTimeout(hideOverlay,500);
+  try {
+    const res = await fetch(CHECKLIST_EXEC_URL, {
+      method:"POST",
+      headers:{ "Content-Type":"text/plain;charset=utf-8" },
+      body: JSON.stringify({ action:"index", payload:{} })
+    });
+
+    const data = await res.json();
+
+    if (data && data.ok && Array.isArray(data.index)) {
+      homeIndex = data.index;
+      localStorage.setItem(HOME_INDEX_KEY, JSON.stringify(homeIndex));
+    }
+  } catch(e){}
+}
+
+// ==========================
+// HOMEPAGE FEED (SAFE)
+// ==========================
+function hydrateHomeFeed() {
+  fetch(LOG_EXEC_URL + "?action=getHomeFeed")
+    .then(r => r.json())
+    .then(data => {
+      if (!data || !data.ok) return;
+      console.log("Home feed loaded");
+    })
+    .catch(()=>{});
+}
+
+// ==========================
+// INIT
+// ==========================
+document.addEventListener("DOMContentLoaded", function () {
+
+  setTimeout(hideOverlay, 300);
+  hydrateHomeFeed();
+
+  loadHomeIndex();
+  loadTrendingPlayers();
+
+  const input = document.getElementById("homeSearch");
+  const btn = document.getElementById("searchPrimaryBtn");
+
+  if (input) {
+    input.addEventListener("input", e => {
+      renderHomeDropdown(getHomeSuggestions(e.target.value));
+    });
+
+    input.addEventListener("keydown", e => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        runSearch("enter");
+      }
+    });
+  }
+
+  if (btn) {
+    btn.addEventListener("click", () => runSearch("button"));
+  }
 });
+
+// FAILSAFE
+window.addEventListener("load", () => setTimeout(hideOverlay, 500));
+setTimeout(hideOverlay, 2000);
 
 })();
 </script>
