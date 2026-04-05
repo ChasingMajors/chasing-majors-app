@@ -1308,70 +1308,76 @@
     function hydrateHomeFeed() {
   setLoadingCards();
 
-  fetch(LOG_EXEC_URL + "?action=getHomeFeed&daysTrending=7&trendingLimit=3&addedLimit=4")
-    .then(function (r) {
-      if (!r.ok) throw new Error("Network error");
-      return r.json();
-    })
-    .then(function (data) {
+  fetch(LOG_EXEC_URL + "?action=getHomeFeed&daysTrending=7&trendingLimit=3&addedLimit=4", {
+    method: "GET",
+    redirect: "follow"
+  })
+  .then(function (r) {
+    return r.text(); // 👈 ALWAYS SAFE
+  })
+  .then(function (text) {
 
-      console.log("HOME FEED RESPONSE:", data); // 🔥 DEBUG
+    console.log("RAW RESPONSE:", text); // 👈 DEBUG
 
-      if (!data) {
-  console.warn("Home feed failed");
-  return;
-}
+    let data;
+    try {
+      data = JSON.parse(text);
+    } catch (e) {
+      console.error("❌ NOT JSON:", text);
+      return;
+    }
 
-      var trendingChecklists = Array.isArray(data.trendingChecklists) ? data.trendingChecklists : [];
-      var trendingPrintRuns = Array.isArray(data.trendingPrintRuns) ? data.trendingPrintRuns : [];
-      var justAddedRaw = Array.isArray(data.justAdded) ? data.justAdded : [];
+    console.log("PARSED DATA:", data);
 
-      var justAdded = formatJustAddedItems(justAddedRaw);
+    if (!data) {
+      console.warn("Home feed failed");
+      return;
+    }
 
-      var heroJustAddedList = document.getElementById("heroJustAddedList");
-      var trendingChecklistList = document.getElementById("homeTrendingChecklistList");
-      var trendingPrintRunList = document.getElementById("homeTrendingPrintRunList");
+    var trendingChecklists = Array.isArray(data.trendingChecklists) ? data.trendingChecklists : [];
+    var trendingPrintRuns = Array.isArray(data.trendingPrintRuns) ? data.trendingPrintRuns : [];
+    var justAddedRaw = Array.isArray(data.justAdded) ? data.justAdded : [];
 
-      // ✅ FORCE RENDER EVEN IF EMPTY
-      if (heroJustAddedList) {
-        heroJustAddedList.innerHTML = justAdded.length
-          ? makeHeroJustAddedHtml(justAdded)
-          : '<div style="opacity:.6;font-size:13px;">No recent updates yet</div>';
-      }
+    var justAdded = formatJustAddedItems(justAddedRaw);
 
-      if (trendingChecklistList) {
-        trendingChecklistList.innerHTML = trendingChecklists.length
-          ? makeListHtml(trendingChecklists, "checklists")
-          : '<div style="opacity:.6;font-size:13px;">No trending data yet</div>';
-      }
+    var heroJustAddedList = document.getElementById("heroJustAddedList");
+    var trendingChecklistList = document.getElementById("homeTrendingChecklistList");
+    var trendingPrintRunList = document.getElementById("homeTrendingPrintRunList");
 
-      if (trendingPrintRunList) {
-        trendingPrintRunList.innerHTML = trendingPrintRuns.length
-          ? makeListHtml(trendingPrintRuns, "vault")
-          : '<div style="opacity:.6;font-size:13px;">No trending data yet</div>';
-      }
+    // Just Added
+    if (heroJustAddedList) {
+      heroJustAddedList.innerHTML = justAdded.length
+        ? makeHeroJustAddedHtml(justAdded)
+        : '<div style="opacity:.6;font-size:13px;">No recent updates yet</div>';
+    }
 
-    })
-    .catch(function (err) {
-      console.error("HOME FEED ERROR:", err);
+    // Trending Checklists
+    if (trendingChecklistList) {
+      trendingChecklistList.innerHTML = trendingChecklists.length
+        ? makeListHtml(trendingChecklists, "checklists")
+        : '<div style="opacity:.6;font-size:13px;">No trending data yet</div>';
+    }
 
-      // 🔥 HARD FAILBACK UI
-      var heroJustAddedList = document.getElementById("heroJustAddedList");
-      var trendingChecklistList = document.getElementById("homeTrendingChecklistList");
-      var trendingPrintRunList = document.getElementById("homeTrendingPrintRunList");
+    // Trending Print Runs
+    if (trendingPrintRunList) {
+      trendingPrintRunList.innerHTML = trendingPrintRuns.length
+        ? makeListHtml(trendingPrintRuns, "vault")
+        : '<div style="opacity:.6;font-size:13px;">No trending data yet</div>';
+    }
 
-      if (heroJustAddedList) {
-        heroJustAddedList.innerHTML = '<div style="opacity:.6;">Unable to load updates</div>';
-      }
+  })
+  .catch(function (err) {
+    console.error("❌ HOME FEED ERROR:", err);
 
-      if (trendingChecklistList) {
-        trendingChecklistList.innerHTML = '<div style="opacity:.6;">Unable to load trending</div>';
-      }
+    document.getElementById("heroJustAddedList").innerHTML =
+      '<div style="opacity:.6;">Unable to load updates</div>';
 
-      if (trendingPrintRunList) {
-        trendingPrintRunList.innerHTML = '<div style="opacity:.6;">Unable to load trending</div>';
-      }
-    });
+    document.getElementById("homeTrendingChecklistList").innerHTML =
+      '<div style="opacity:.6;">Unable to load trending</div>';
+
+    document.getElementById("homeTrendingPrintRunList").innerHTML =
+      '<div style="opacity:.6;">Unable to load trending</div>';
+  });
 }
 
     function getHomeSuggestions(query) {
