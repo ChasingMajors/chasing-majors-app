@@ -652,23 +652,23 @@
 
     @keyframes spin{ to{ transform: rotate(360deg); } }
 
-   @media (max-width: 1040px){
-  .hero{
-    grid-template-columns: 1fr;
-    align-items: start;
-  }
+    @media (max-width: 1040px){
+      .hero{
+        grid-template-columns: 1fr;
+        align-items: start;
+      }
 
-  .heroMain,
-  .heroAside,
-  .justAddedPanel{
-    height: auto;
-  }
+      .heroMain,
+      .heroAside,
+      .justAddedPanel{
+        height: auto;
+      }
 
-  .quickGrid{ grid-template-columns: repeat(2, minmax(0,1fr)); }
-  .infoGrid{ grid-template-columns: 1fr; }
-  .substackCard{ grid-template-columns: 1fr; }
-  .substackActions{ justify-content:flex-start; }
-}
+      .quickGrid{ grid-template-columns: repeat(2, minmax(0,1fr)); }
+      .infoGrid{ grid-template-columns: 1fr; }
+      .substackCard{ grid-template-columns: 1fr; }
+      .substackActions{ justify-content:flex-start; }
+    }
 
     @media (max-width: 560px){
       .content{
@@ -676,12 +676,12 @@
       }
 
       .hero{
-  align-items:start;
-}
+        align-items:start;
+      }
 
-.heroMain{
-  height:auto;
-}
+      .heroMain{
+        height:auto;
+      }
 
       .appTitle{
         font-size: 32px;
@@ -719,6 +719,7 @@
 
       .searchBox{
         width:100%;
+        flex:0 0 auto;
       }
 
       .searchInput{
@@ -1107,16 +1108,6 @@
       ).toLowerCase();
     }
 
-    function getItemType(item) {
-      return cleanQuery(
-        item && (
-          item.type ||
-          item.selected_type ||
-          "product"
-        )
-      ).toLowerCase();
-    }
-
     function getItemQuery(item) {
       return cleanQuery(
         item && (
@@ -1187,28 +1178,28 @@
     }
 
     function makeListHtml(items, target) {
-  var rankLabels = [
-    "Most searched",
-    "Second most searched",
-    "Third most searched"
-  ];
+      var rankLabels = [
+        "Most searched",
+        "Second most searched",
+        "Third most searched"
+      ];
 
-  return (items || []).slice(0, 3).map(function (item, idx) {
-    var href = buildItemUrl(item, target || "checklists");
-    var text = getItemQuery(item);
-    var subLabel = rankLabels[idx] || "Trending";
+      return (items || []).slice(0, 3).map(function (item, idx) {
+        var href = buildItemUrl(item, target || "checklists");
+        var text = getItemQuery(item);
+        var subLabel = rankLabels[idx] || "Trending";
 
-    return ''
-      + '<a class="listItem" href="' + escapeHtml(href) + '">'
-      +   '<div class="listBadge">' + escapeHtml(item.badge || badgeFromText(text)) + '</div>'
-      +   '<div class="listCopy">'
-      +     '<div class="listTop">' + escapeHtml(text) + '</div>'
-      +     '<div class="listSub">' + escapeHtml(subLabel) + '</div>'
-      +   '</div>'
-      +   '<div class="listArrow">›</div>'
-      + '</a>';
-  }).join("");
-}
+        return ''
+          + '<a class="listItem" href="' + escapeHtml(href) + '">'
+          +   '<div class="listBadge">' + escapeHtml(item.badge || badgeFromText(text)) + '</div>'
+          +   '<div class="listCopy">'
+          +     '<div class="listTop">' + escapeHtml(text) + '</div>'
+          +     '<div class="listSub">' + escapeHtml(subLabel) + '</div>'
+          +   '</div>'
+          +   '<div class="listArrow">›</div>'
+          + '</a>';
+      }).join("");
+    }
 
     function makeHeroJustAddedHtml(items) {
       var mobileItems = (items || []).slice(0, 3);
