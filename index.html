@@ -957,34 +957,32 @@
   }
 
   const CHECKLIST_EXEC_URL = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcGVqTa0KciCO_w23GCHzVXp4dQrUE-4hx1Uut5o_KrCLXYL/exec";
+  const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbyiDXs5T6CH9zqnD5Y4Z7hoqyNCKs5ex52opczi1Fn6zoQJISEVeZDGNpgkzhhf81m9/exec";
 
   let homeIndex = [];
+
+  /* =============================
+     LOAD SEARCH INDEX
+  ============================== */
 
   async function loadIndex() {
     try {
       const res = await fetch(CHECKLIST_EXEC_URL, {
         method: "POST",
         headers: { "Content-Type": "text/plain;charset=utf-8" },
-        body: JSON.stringify({
-          action: "index",
-          payload: {}
-        })
+        body: JSON.stringify({ action: "index", payload: {} })
       });
 
       const data = await res.json();
-
-      if (data.ok && Array.isArray(data.index)) {
-        homeIndex = data.index;
-        console.log("INDEX LOADED:", homeIndex.length);
-      }
+      if (data.ok) homeIndex = data.index || [];
 
     } catch (e) {
-      console.error("INDEX FAILED", e);
+      console.error("INDEX FAIL", e);
     }
   }
 
   function getSuggestions(q) {
-    q = String(q || "").toLowerCase().trim();
+    q = (q || "").toLowerCase().trim();
     if (q.length < 2) return [];
 
     return homeIndex
@@ -1019,26 +1017,88 @@
   function runSearch() {
     const input = document.getElementById("homeSearch");
     const val = (input.value || "").trim();
-
     if (!val) return;
 
     window.location.href = "/checklists/?q=" + encodeURIComponent(val);
   }
 
+  /* =============================
+     🔥 HOME FEED (FIXED)
+  ============================== */
+
+  async function loadHomeFeed() {
+    try {
+      const res = await fetch(LOG_EXEC_URL + "?action=getHomeFeed");
+      const data = await res.json();
+
+      console.log("HOME FEED:", data);
+
+      renderTrending("homeTrendingChecklistList", data.trendingChecklists, "checklists");
+      renderTrending("homeTrendingPrintRunList", data.trendingPrintRuns, "vault");
+      renderJustAdded(data.justAdded);
+
+    } catch (e) {
+      console.error("HOME FEED FAIL", e);
+    }
+  }
+
+  function renderTrending(elId, items, target) {
+    const el = document.getElementById(elId);
+    if (!el) return;
+
+    if (!items || !items.length) {
+      el.innerHTML = "<div style='opacity:.6'>No data yet</div>";
+      return;
+    }
+
+    el.innerHTML = items.map(item => `
+      <a class="listItem" href="/${target}/?q=${encodeURIComponent(item.label)}">
+        <div class="listBadge">🔥</div>
+        <div class="listCopy">
+          <div class="listTop">${item.label}</div>
+          <div class="listSub">${item.count || ""} searches</div>
+        </div>
+        <div class="listArrow">›</div>
+      </a>
+    `).join("");
+  }
+
+  function renderJustAdded(items) {
+    const el = document.getElementById("heroJustAddedList");
+    if (!el) return;
+
+    if (!items || !items.length) {
+      el.innerHTML = "<div style='opacity:.6'>No updates yet</div>";
+      return;
+    }
+
+    el.innerHTML = items.map(item => `
+      <a class="justAddedItem" href="${item.url || '/checklists/?q=' + encodeURIComponent(item.query)}">
+        <div class="justAddedTop">${item.display_name || item.query}</div>
+        <div class="justAddedSub">New checklist added</div>
+      </a>
+    `).join("");
+  }
+
+  /* =============================
+     INIT
+  ============================== */
+
   document.addEventListener("DOMContentLoaded", function () {
 
-    hideOverlay(); // ✅ always removes loading screen
-    loadIndex();   // load search data
+    hideOverlay();
+
+    loadIndex();
+    loadHomeFeed(); // 🔥 THIS FIXES YOUR ISSUE
 
     const input = document.getElementById("homeSearch");
     const btn = document.getElementById("searchPrimaryBtn");
 
-    input.addEventListener("input", function (e) {
-      const results = getSuggestions(e.target.value);
-      renderDropdown(results);
+    input.addEventListener("input", e => {
+      renderDropdown(getSuggestions(e.target.value));
     });
 
-    input.addEventListener("keydown", function (e) {
+    input.addEventListener("keydown", e => {
       if (e.key === "Enter") {
         e.preventDefault();
         runSearch();
@@ -1047,7 +1107,7 @@
 
     btn.addEventListener("click", runSearch);
 
-    document.addEventListener("click", function (e) {
+    document.addEventListener("click", e => {
       if (!e.target.closest(".searchBox")) {
         renderDropdown([]);
       }
@@ -1055,11 +1115,11 @@
 
   });
 
-  // fallback safety
   setTimeout(hideOverlay, 2000);
 
 })();
 </script>
+
 
 
 
