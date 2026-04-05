@@ -1317,10 +1317,10 @@
 
       console.log("HOME FEED RESPONSE:", data); // 🔥 DEBUG
 
-      if (!data || !data.ok) {
-        console.warn("Home feed failed");
-        return;
-      }
+      if (!data) {
+  console.warn("Home feed failed");
+  return;
+}
 
       var trendingChecklists = Array.isArray(data.trendingChecklists) ? data.trendingChecklists : [];
       var trendingPrintRuns = Array.isArray(data.trendingPrintRuns) ? data.trendingPrintRuns : [];
