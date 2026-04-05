@@ -956,15 +956,111 @@
     el.style.display = "none";
   }
 
+  const CHECKLIST_EXEC_URL = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcGVqTa0KciCO_w23GCHzVXp4dQrUE-4hx1Uut5o_KrCLXYL/exec";
+
+  let homeIndex = [];
+
+  async function loadIndex() {
+    try {
+      const res = await fetch(CHECKLIST_EXEC_URL, {
+        method: "POST",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify({
+          action: "index",
+          payload: {}
+        })
+      });
+
+      const data = await res.json();
+
+      if (data.ok && Array.isArray(data.index)) {
+        homeIndex = data.index;
+        console.log("INDEX LOADED:", homeIndex.length);
+      }
+
+    } catch (e) {
+      console.error("INDEX FAILED", e);
+    }
+  }
+
+  function getSuggestions(q) {
+    q = String(q || "").toLowerCase().trim();
+    if (q.length < 2) return [];
+
+    return homeIndex
+      .filter(x => {
+        const hay = (x.DisplayName + " " + x.Keywords + " " + x.Code).toLowerCase();
+        return hay.includes(q);
+      })
+      .slice(0, 6);
+  }
+
+  function renderDropdown(list) {
+    const dd = document.getElementById("homeDropdown");
+    if (!dd) return;
+
+    if (!list.length) {
+      dd.style.display = "none";
+      dd.innerHTML = "";
+      return;
+    }
+
+    dd.innerHTML = list.map(item => `
+      <div class="homeDdItem"
+        onclick="window.location.href='/checklists/?code=${item.Code}&sport=${item.sport}&q=${encodeURIComponent(item.DisplayName)}'">
+        <div class="homeDdTitle">${item.DisplayName}</div>
+        <div class="homeDdMeta">${item.year || ""} ${item.sport || ""}</div>
+      </div>
+    `).join("");
+
+    dd.style.display = "block";
+  }
+
+  function runSearch() {
+    const input = document.getElementById("homeSearch");
+    const val = (input.value || "").trim();
+
+    if (!val) return;
+
+    window.location.href = "/checklists/?q=" + encodeURIComponent(val);
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
-    hideOverlay();
+
+    hideOverlay(); // ✅ always removes loading screen
+    loadIndex();   // load search data
+
+    const input = document.getElementById("homeSearch");
+    const btn = document.getElementById("searchPrimaryBtn");
+
+    input.addEventListener("input", function (e) {
+      const results = getSuggestions(e.target.value);
+      renderDropdown(results);
+    });
+
+    input.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        runSearch();
+      }
+    });
+
+    btn.addEventListener("click", runSearch);
+
+    document.addEventListener("click", function (e) {
+      if (!e.target.closest(".searchBox")) {
+        renderDropdown([]);
+      }
+    });
+
   });
 
-  // failsafe
-  setTimeout(hideOverlay, 1500);
+  // fallback safety
+  setTimeout(hideOverlay, 2000);
 
 })();
 </script>
+
 
 
 
