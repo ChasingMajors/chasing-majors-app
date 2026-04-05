@@ -652,18 +652,36 @@
 
     @keyframes spin{ to{ transform: rotate(360deg); } }
 
-    @media (max-width: 1040px){
-      .hero{ grid-template-columns: 1fr; }
-      .quickGrid{ grid-template-columns: repeat(2, minmax(0,1fr)); }
-      .infoGrid{ grid-template-columns: 1fr; }
-      .substackCard{ grid-template-columns: 1fr; }
-      .substackActions{ justify-content:flex-start; }
-    }
+   @media (max-width: 1040px){
+  .hero{
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .heroMain,
+  .heroAside,
+  .justAddedPanel{
+    height: auto;
+  }
+
+  .quickGrid{ grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .infoGrid{ grid-template-columns: 1fr; }
+  .substackCard{ grid-template-columns: 1fr; }
+  .substackActions{ justify-content:flex-start; }
+}
 
     @media (max-width: 560px){
       .content{
         padding: 14px 14px calc(var(--navH) + 24px);
       }
+
+      .hero{
+  align-items:start;
+}
+
+.heroMain{
+  height:auto;
+}
 
       .appTitle{
         font-size: 32px;
