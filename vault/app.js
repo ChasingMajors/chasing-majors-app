@@ -9,7 +9,7 @@
 ================================ */
 
 // ---------------- CONFIG ----------------
-const EXEC_URL = "https://script.google.com/macros/s/AKfycbx_1rqxgSCu6aqDc7jEnETYC-KcNxHEf208GWXM23FR7hDT0ey8Y1SZ2i4U1VmXOZgpAg/exec";
+const EXEC_URL = "https://script.google.com/macros/s/AKfycbz2GrNPpgls5Q2cwt8IkTGrtbged7J4pxIvec5F0r1JoTo-9m2OMkYvDFFz_MM0LEjOHA/exec";
 const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbyuTmGksD9ZF89Ij0VmnUeJqP0OcFL5qCe-MUjN0JonJ8QTlfpMsf0XRKZzCwLdFdiF/exec";
 const INDEX_KEY = "prv_index_v1";
 const INDEX_VER_KEY = "prv_index_ver_v1";
