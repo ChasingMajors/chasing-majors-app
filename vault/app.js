@@ -7,6 +7,8 @@
    - Boot overlay integration
    - Normalized query matching for homepage/trending links
    - POP Insights support
+   - Jump to POP button
+   - Scroll to top button
 ================================ */
 
 // ---------------- CONFIG ----------------
@@ -403,6 +405,7 @@ function runHomepageHandoffIfPresent() {
   await ensureFreshIndex_();
   initDone = true;
   runHomepageHandoffIfPresent();
+  injectScrollTopButton();
 })();
 
 // ---------------- DROPDOWN ----------------
@@ -618,8 +621,9 @@ function renderInsightMiniStat(label, value) {
 
 function renderTopList(title, items) {
   const vars = getThemeVars();
+  const topItems = (items || []).slice(0, 5);
 
-  if (!items || !items.length) {
+  if (!topItems.length) {
     return `
       <div style="
         border:1px solid ${vars.divider};
@@ -640,14 +644,14 @@ function renderTopList(title, items) {
     ">
       <div style="font-weight:800;margin-bottom:10px;">${esc(title)}</div>
       <div style="display:grid;gap:8px;">
-        ${items.slice(0, 5).map((item, idx) => `
+        ${topItems.map((item, idx) => `
           <div style="
             display:flex;
             justify-content:space-between;
             gap:12px;
             align-items:flex-start;
-            border-bottom:${idx === items.slice(0, 5).length - 1 ? "0" : `1px solid ${vars.divider}`};
-            padding-bottom:${idx === items.slice(0, 5).length - 1 ? "0" : "8px"};
+            border-bottom:${idx === topItems.length - 1 ? "0" : `1px solid ${vars.divider}`};
+            padding-bottom:${idx === topItems.length - 1 ? "0" : "8px"};
           ">
             <div style="font-size:14px;line-height:1.3;">${esc(item[0] || "—")}</div>
             <div style="
@@ -734,6 +738,67 @@ function renderPopInsights(popData) {
   `;
 }
 
+// ---------------- JUMP HELPERS ----------------
+function bindPopJumpButton() {
+  const btn = document.getElementById("jumpToPopBtn");
+  const target = document.getElementById("popInsightsCard");
+  if (!btn || !target) return;
+
+  btn.addEventListener("click", () => {
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+}
+
+function injectScrollTopButton() {
+  if (document.getElementById("cmScrollTopBtn")) return;
+
+  const btn = document.createElement("button");
+  btn.id = "cmScrollTopBtn";
+  btn.type = "button";
+  btn.setAttribute("aria-label", "Scroll to top");
+  btn.innerHTML = "↑";
+
+  btn.style.cssText = `
+    position: fixed;
+    right: 16px;
+    bottom: 82px;
+    width: 44px;
+    height: 44px;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,0.18);
+    background: rgba(255,255,255,0.92);
+    color: #000;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10020;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.22);
+  `;
+
+  btn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  document.body.appendChild(btn);
+
+  const updateBtn = () => {
+    const isLight = document.documentElement.getAttribute("data-theme") === "light";
+
+    btn.style.display = window.scrollY > 500 ? "flex" : "none";
+    btn.style.border = isLight ? "1px solid rgba(0,0,0,0.12)" : "1px solid rgba(255,255,255,0.18)";
+    btn.style.background = isLight ? "rgba(17,17,17,0.92)" : "rgba(255,255,255,0.92)";
+    btn.style.color = isLight ? "#fff" : "#000";
+  };
+
+  window.addEventListener("scroll", updateBtn, { passive: true });
+  window.addEventListener("resize", updateBtn);
+  updateBtn();
+}
+
 // ---------------- RENDER ----------------
 function renderResults(meta, rows, popData) {
   if (!rows.length) {
@@ -745,11 +810,39 @@ function renderResults(meta, rows, popData) {
   const title = esc(meta?.displayName || selected?.DisplayName || "Results");
   const subParts = [meta?.year, meta?.sport, meta?.manufacturer].filter(Boolean).map(esc);
   const sub = subParts.join(" • ");
+  const hasPop = !!popData;
 
   elResults.innerHTML = `
     <div class="card">
-      <div style="font-weight:800;margin-bottom:6px;">${title}</div>
-      <div style="opacity:.75;font-size:13px;margin-bottom:10px;">${sub}</div>
+      <div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap;margin-bottom:6px;">
+        <div>
+          <div style="font-weight:800;margin-bottom:6px;">${title}</div>
+          <div style="opacity:.75;font-size:13px;margin-bottom:6px;">${sub}</div>
+          ${hasPop ? `
+            <div style="color:${vars.subText};font-size:13px;">
+              Includes grading trends and POP insights
+            </div>
+          ` : ``}
+        </div>
+
+        ${hasPop ? `
+          <button
+            type="button"
+            id="jumpToPopBtn"
+            style="
+              border:1px solid ${vars.badgeBorder};
+              background:${vars.badgeBg};
+              color:${vars.badgeText};
+              border-radius:999px;
+              padding:8px 12px;
+              font-size:13px;
+              font-weight:700;
+              cursor:pointer;
+              white-space:nowrap;
+            "
+          >See POP Data</button>
+        ` : ``}
+      </div>
 
       <div style="
         border:1px solid ${vars.divider};
@@ -779,6 +872,121 @@ function renderResults(meta, rows, popData) {
       </div>
     </div>
 
-    ${renderPopInsights(popData)}
+    <div id="popInsightsCard">
+      ${renderPopInsights(popData)}
+    </div>
   `;
+
+  bindPopJumpButton();
+}
+
+// ---------------- RUN SEARCH ----------------
+async function runSearch() {
+  if (!initDone) {
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">Loading…</div>`;
+    return;
+  }
+
+  const rawQuery = cleanQuery(elQ.value || "");
+  if (!rawQuery) {
+    hideBootOverlay(true);
+    return;
+  }
+
+  logEventFireAndForget_({
+    event_type: "search_submit",
+    query: rawQuery,
+    normalized_query: normalizeQuery_(rawQuery),
+    search_kind: "product",
+    selected_name: selected ? (selected.DisplayName || "") : "",
+    selected_code: selected ? (selected.Code || "") : "",
+    selected_type: "product",
+    sport: selected ? (selected.sport || "") : "",
+    year: selected ? (selected.year || "") : "",
+    route_target: "vault",
+    source: "button_or_enter"
+  });
+
+  if (!selected) {
+    const best = findBestMatch(rawQuery);
+    if (best) {
+      selected = best;
+      elQ.value = best.DisplayName;
+      logSelectionFireAndForget_(selected);
+    } else {
+      logEventFireAndForget_({
+        event_type: "search_results",
+        query: rawQuery,
+        normalized_query: normalizeQuery_(rawQuery),
+        search_kind: "product",
+        selected_name: "",
+        selected_code: "",
+        selected_type: "",
+        sport: "",
+        year: "",
+        route_target: "vault",
+        source: "results_load",
+        result_count: 0,
+        status: "error"
+      });
+
+      elResults.innerHTML = `<div class="card" style="opacity:.8;">No matching product found.</div>`;
+      hideBootOverlay();
+      return;
+    }
+  }
+
+  elResults.innerHTML = `<div class="card" style="opacity:.8;">Loading…</div>`;
+
+  try {
+    const prvData = await api("getRowsByCode", { code: selected.Code });
+
+    let popData = null;
+    try {
+      const popRes = await api("getPopSummary", {
+        sport: (prvData.meta && prvData.meta.sport) || selected.sport || "",
+        code: selected.Code
+      });
+      popData = popRes && popRes.data ? popRes.data : null;
+    } catch (popErr) {
+      popData = null;
+    }
+
+    renderResults(prvData.meta, prvData.rows || [], popData);
+
+    logEventFireAndForget_({
+      event_type: "product_view",
+      query: rawQuery || (selected && selected.DisplayName) || "",
+      normalized_query: normalizeQuery_(rawQuery || (selected && selected.DisplayName) || ""),
+      search_kind: "product",
+      selected_name: (prvData.meta && prvData.meta.displayName) || (selected && selected.DisplayName) || "",
+      selected_code: selected ? (selected.Code || "") : "",
+      selected_type: "product",
+      sport: (prvData.meta && prvData.meta.sport) || (selected && selected.sport) || "",
+      year: (prvData.meta && prvData.meta.year) || (selected && selected.year) || "",
+      route_target: "vault",
+      source: "results_load",
+      result_count: Array.isArray(prvData.rows) ? prvData.rows.length : 0
+    });
+  } catch (e) {
+    logEventFireAndForget_({
+      event_type: "product_view",
+      query: rawQuery || "",
+      normalized_query: normalizeQuery_(rawQuery || ""),
+      search_kind: "product",
+      selected_name: selected ? (selected.DisplayName || "") : "",
+      selected_code: selected ? (selected.Code || "") : "",
+      selected_type: "product",
+      sport: selected ? (selected.sport || "") : "",
+      year: selected ? (selected.year || "") : "",
+      route_target: "vault",
+      source: "results_load",
+      result_count: 0,
+      status: "error"
+    });
+
+    elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading data.</div>`;
+  } finally {
+    hideBootOverlay();
+  }
 }
