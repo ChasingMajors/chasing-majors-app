@@ -6,6 +6,7 @@
    - Master logger support
    - Boot overlay integration
    - Normalized query matching for homepage/trending links
+   - POP Insights support
 ================================ */
 
 // ---------------- CONFIG ----------------
@@ -82,6 +83,10 @@ if (elThemeBtn) {
   elThemeBtn.addEventListener("click", () => {
     const cur = document.documentElement.getAttribute("data-theme") || "dark";
     setTheme(cur === "dark" ? "light" : "dark");
+
+    if (selected && selected.Code) {
+      runSearch();
+    }
   });
 }
 
@@ -99,6 +104,21 @@ function esc(s) {
 function fmtNum(x) {
   const n = Number(String(x ?? "").replace(/,/g, ""));
   return Number.isFinite(n) ? n.toLocaleString() : esc(x);
+}
+
+function fmtPct(value) {
+  const s = String(value ?? "").trim();
+  if (!s) return "—";
+  return esc(s);
+}
+
+function fmtDateShort(value) {
+  if (!value) return "";
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return esc(value);
+
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
 }
 
 function clearHomepageHandoff() {
@@ -123,6 +143,43 @@ function hideBootOverlay(force) {
       elBootOverlay.style.display = "none";
     }, 240);
   }, force ? 0 : remaining);
+}
+
+function getThemeVars() {
+  const isLight = document.documentElement.getAttribute("data-theme") === "light";
+
+  return {
+    subText: isLight ? "rgba(0,0,0,0.70)" : "rgba(255,255,255,0.78)",
+    divider: isLight ? "rgba(0,0,0,0.10)" : "rgba(255,255,255,0.10)",
+    badgeBg: isLight ? "rgba(0,0,0,0.04)" : "rgba(255,255,255,0.08)",
+    badgeBorder: isLight ? "rgba(0,0,0,0.12)" : "rgba(255,255,255,0.14)",
+    badgeText: isLight ? "rgba(0,0,0,0.78)" : "rgba(255,255,255,0.86)",
+    softBg: isLight ? "rgba(0,0,0,0.03)" : "rgba(255,255,255,0.04)"
+  };
+}
+
+function safeJsonArray(value) {
+  if (!value) return [];
+  try {
+    const parsed = typeof value === "string" ? JSON.parse(value) : value;
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function calcMomentumLabel(currentVal, priorVal) {
+  const current = Number(currentVal || 0);
+  const prior = Number(priorVal || 0);
+
+  if (!Number.isFinite(current) || !Number.isFinite(prior)) return "—";
+  if (prior <= 0) return current > 0 ? "New" : "—";
+
+  const pct = ((current / prior) - 1) * 100;
+  const rounded = Math.round(pct);
+
+  if (rounded > 0) return `+${rounded}%`;
+  return `${rounded}%`;
 }
 
 // ---------------- LOGGER ----------------
@@ -485,22 +542,34 @@ async function runSearch() {
   elResults.innerHTML = `<div class="card" style="opacity:.8;">Loading…</div>`;
 
   try {
-    const data = await api("getRowsByCode", { code: selected.Code });
-    renderResults(data.meta, data.rows || []);
+    const prvData = await api("getRowsByCode", { code: selected.Code });
+
+    let popData = null;
+    try {
+      const popRes = await api("getPopSummary", {
+        sport: (prvData.meta && prvData.meta.sport) || selected.sport || "",
+        code: selected.Code
+      });
+      popData = popRes && popRes.data ? popRes.data : null;
+    } catch (popErr) {
+      popData = null;
+    }
+
+    renderResults(prvData.meta, prvData.rows || [], popData);
 
     logEventFireAndForget_({
       event_type: "product_view",
       query: rawQuery || (selected && selected.DisplayName) || "",
       normalized_query: normalizeQuery_(rawQuery || (selected && selected.DisplayName) || ""),
       search_kind: "product",
-      selected_name: (data.meta && data.meta.displayName) || (selected && selected.DisplayName) || "",
+      selected_name: (prvData.meta && prvData.meta.displayName) || (selected && selected.DisplayName) || "",
       selected_code: selected ? (selected.Code || "") : "",
       selected_type: "product",
-      sport: (data.meta && data.meta.sport) || (selected && selected.sport) || "",
-      year: (data.meta && data.meta.year) || (selected && selected.year) || "",
+      sport: (prvData.meta && prvData.meta.sport) || (selected && selected.sport) || "",
+      year: (prvData.meta && prvData.meta.year) || (selected && selected.year) || "",
       route_target: "vault",
       source: "results_load",
-      result_count: Array.isArray(data.rows) ? data.rows.length : 0
+      result_count: Array.isArray(prvData.rows) ? prvData.rows.length : 0
     });
   } catch (e) {
     logEventFireAndForget_({
@@ -525,13 +594,154 @@ async function runSearch() {
   }
 }
 
+// ---------------- POP RENDER HELPERS ----------------
+function renderInsightMiniStat(label, value) {
+  const vars = getThemeVars();
+
+  return `
+    <div style="
+      border:1px solid ${vars.divider};
+      border-radius:14px;
+      padding:10px 12px;
+      min-width:0;
+      background:${vars.softBg};
+    ">
+      <div style="font-size:11px;letter-spacing:.4px;text-transform:uppercase;color:${vars.subText};margin-bottom:4px;">
+        ${esc(label)}
+      </div>
+      <div style="font-size:18px;font-weight:800;line-height:1;">
+        ${esc(value || "—")}
+      </div>
+    </div>
+  `;
+}
+
+function renderTopList(title, items) {
+  const vars = getThemeVars();
+
+  if (!items || !items.length) {
+    return `
+      <div style="
+        border:1px solid ${vars.divider};
+        border-radius:16px;
+        padding:14px;
+      ">
+        <div style="font-weight:800;margin-bottom:8px;">${esc(title)}</div>
+        <div style="color:${vars.subText};font-size:13px;">No data yet.</div>
+      </div>
+    `;
+  }
+
+  return `
+    <div style="
+      border:1px solid ${vars.divider};
+      border-radius:16px;
+      padding:14px;
+    ">
+      <div style="font-weight:800;margin-bottom:10px;">${esc(title)}</div>
+      <div style="display:grid;gap:8px;">
+        ${items.slice(0, 5).map((item, idx) => `
+          <div style="
+            display:flex;
+            justify-content:space-between;
+            gap:12px;
+            align-items:flex-start;
+            border-bottom:${idx === items.slice(0, 5).length - 1 ? "0" : `1px solid ${vars.divider}`};
+            padding-bottom:${idx === items.slice(0, 5).length - 1 ? "0" : "8px"};
+          ">
+            <div style="font-size:14px;line-height:1.3;">${esc(item[0] || "—")}</div>
+            <div style="
+              flex:0 0 auto;
+              padding:4px 8px;
+              border-radius:999px;
+              background:${vars.badgeBg};
+              border:1px solid ${vars.badgeBorder};
+              color:${vars.badgeText};
+              font-size:12px;
+              font-weight:700;
+              white-space:nowrap;
+            ">${fmtNum(item[1] || 0)}</div>
+          </div>
+        `).join("")}
+      </div>
+    </div>
+  `;
+}
+
+function renderPopInsights(popData) {
+  const vars = getThemeVars();
+
+  if (!popData) {
+    return `
+      <div class="card">
+        <div style="font-weight:800;margin-bottom:6px;">POP Insights</div>
+        <div style="color:${vars.subText};font-size:13px;">No POP data available for this set yet.</div>
+      </div>
+    `;
+  }
+
+  const topPlayers = safeJsonArray(popData.top_players_json);
+  const topParallels = safeJsonArray(popData.top_parallels_json);
+  const momentumLabel = calcMomentumLabel(popData.graded_past_month, popData.graded_prior_month);
+  const updatedLabel = fmtDateShort(popData.run_ts);
+
+  return `
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap;margin-bottom:12px;">
+        <div>
+          <div style="font-weight:800;font-size:20px;line-height:1.15;margin-bottom:4px;">POP Insights</div>
+          <div style="color:${vars.subText};font-size:13px;">How this set is grading right now.</div>
+        </div>
+
+        ${updatedLabel ? `
+          <div style="
+            display:inline-flex;
+            align-items:center;
+            justify-content:center;
+            padding:6px 12px;
+            border-radius:999px;
+            font-size:13px;
+            font-weight:700;
+            background:${vars.badgeBg};
+            border:1px solid ${vars.badgeBorder};
+            color:${vars.badgeText};
+            white-space:nowrap;
+          ">Updated ${esc(updatedLabel)}</div>
+        ` : ""}
+      </div>
+
+      <div style="
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+        gap:10px;
+        margin-bottom:14px;
+      ">
+        ${renderInsightMiniStat("Total Graded", fmtNum(popData.total_graded))}
+        ${renderInsightMiniStat("Gem Rate", fmtPct(popData.weighted_gem_rate))}
+        ${renderInsightMiniStat("Graded Past Month", fmtNum(popData.graded_past_month))}
+        ${renderInsightMiniStat("30 Day Momentum", momentumLabel)}
+      </div>
+
+      <div style="
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+        gap:12px;
+      ">
+        ${renderTopList("Top Graded Players", topPlayers)}
+        ${renderTopList("Top Graded Parallels", topParallels)}
+      </div>
+    </div>
+  `;
+}
+
 // ---------------- RENDER ----------------
-function renderResults(meta, rows) {
+function renderResults(meta, rows, popData) {
   if (!rows.length) {
     elResults.innerHTML = `<div class="card" style="opacity:.8;">No print run rows found.</div>`;
     return;
   }
 
+  const vars = getThemeVars();
   const title = esc(meta?.displayName || selected?.DisplayName || "Results");
   const subParts = [meta?.year, meta?.sport, meta?.manufacturer].filter(Boolean).map(esc);
   const sub = subParts.join(" • ");
@@ -541,26 +751,34 @@ function renderResults(meta, rows) {
       <div style="font-weight:800;margin-bottom:6px;">${title}</div>
       <div style="opacity:.75;font-size:13px;margin-bottom:10px;">${sub}</div>
 
-      <table>
-        <thead>
-          <tr>
-            <th>Set</th>
-            <th>Subset</th>
-            <th>Print Run</th>
-            <th>Cards in Set</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${rows.map(r => `
+      <div style="
+        border:1px solid ${vars.divider};
+        border-radius:16px;
+        overflow-x:auto;
+      ">
+        <table style="margin-top:0;">
+          <thead>
             <tr>
-              <td>${esc(r.setType || "")}</td>
-              <td>${esc(r.setLine || "")}</td>
-              <td>${fmtNum(r.printRun)}</td>
-              <td>${fmtNum(r.subSetSize)}</td>
+              <th>Set</th>
+              <th>Subset</th>
+              <th>Print Run</th>
+              <th>Cards in Set</th>
             </tr>
-          `).join("")}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            ${rows.map(r => `
+              <tr>
+                <td>${esc(r.setType || "")}</td>
+                <td>${esc(r.setLine || "")}</td>
+                <td>${fmtNum(r.printRun)}</td>
+                <td>${fmtNum(r.subSetSize)}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
     </div>
+
+    ${renderPopInsights(popData)}
   `;
 }
