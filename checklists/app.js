@@ -498,7 +498,7 @@ function renderPlayerStatGrid_(player, scope) {
   return `
     ${renderMiniStat("H", statValue_(group, ["h", "hits"]))}
     ${renderMiniStat("HR", statValue_(group, ["hr", "homeRuns"]))}
-    ${renderMiniStat("RBI", statValue_(group, ["rbi"]))}
+    ${renderMiniStat("RBI", statValue_(group, ["rbi"]), "desktopOnly")}
     ${renderMiniStat("BA", statValue_(group, ["ba", "avg"], fmtBaseballRateStat))}
     ${renderMiniStat("OPS", statValue_(group, ["ops"], fmtBaseballRateStat))}
   `;
