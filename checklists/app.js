@@ -32,6 +32,7 @@ const BROAD_PAGE_SIZE = 50;
 const HANDOFF_FLAG_KEY = "cm_handoff_active";
 const OVERLAY_MIN_MS = 1200;
 const STATIC_FETCH_TIMEOUT_MS = 3500;
+const STATIC_SPORTS = ["baseball", "basketball", "football", "hockey", "soccer"];
 
 // ---------------- DOM ----------------
 const elQ = document.getElementById("q");
@@ -911,6 +912,12 @@ function normalizeSearchRows_(rows) {
 
 async function loadStaticChecklistSearchRows_(sport) {
   const sportKey = lower(sport || "all") || "all";
+
+  if (sportKey === "all") {
+    const rowGroups = await Promise.all(STATIC_SPORTS.map(s => loadStaticChecklistSearchRows_(s).catch(() => [])));
+    return rowGroups.reduce((out, rows) => out.concat(rows), []);
+  }
+
   const data = await loadStaticJsonCached_(
     `checklist_search_${sportKey}`,
     `${STATIC_DATA_BASE}/checklists/search-index/${encodeURIComponent(sportKey)}.json`
