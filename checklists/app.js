@@ -23,6 +23,7 @@
 
 const EXEC_URL = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcGVqTa0KciCO_w23GCHzVXp4dQrUE-4hx1Uut5o_KrCLXYL/exec";
 const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbyuTmGksD9ZF89Ij0VmnUeJqP0OcFL5qCe-MUjN0JonJ8QTlfpMsf0XRKZzCwLdFdiF/exec";
+const STATIC_DATA_BASE = "/data/v1";
 
 const INDEX_KEY = "cv_index_v1";
 const INDEX_VER_KEY = "cv_index_ver_v1";
@@ -30,6 +31,7 @@ const THEME_KEY = "cm_theme";
 const BROAD_PAGE_SIZE = 50;
 const HANDOFF_FLAG_KEY = "cm_handoff_active";
 const OVERLAY_MIN_MS = 1200;
+const STATIC_FETCH_TIMEOUT_MS = 3500;
 
 // ---------------- DOM ----------------
 const elQ = document.getElementById("q");
@@ -60,6 +62,8 @@ let currentProductRows = [];
 let currentProductParallels = [];
 let currentProductTab = "Base";
 let currentPlayerStats = null;
+let STATIC_MANIFEST = null;
+const STATIC_CACHE = {};
 
 let broadSearchState = {
   q: "",
@@ -781,6 +785,207 @@ async function api(action, payload = {}) {
   return data;
 }
 
+// ---------------- STATIC DATA ----------------
+// Static JSON is the fast path. Apps Script remains the fallback so live users
+// are protected while data files are rolled out sport by sport.
+async function fetchJsonWithTimeout_(url, timeoutMs = STATIC_FETCH_TIMEOUT_MS) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    const res = await fetch(url, {
+      method: "GET",
+      cache: "force-cache",
+      signal: controller.signal
+    });
+
+    if (!res.ok) throw new Error(`Static file unavailable: ${res.status}`);
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function loadStaticManifest_() {
+  if (STATIC_MANIFEST) return STATIC_MANIFEST;
+
+  try {
+    STATIC_MANIFEST = await fetchJsonWithTimeout_(`${STATIC_DATA_BASE}/manifest.json`);
+  } catch (e) {
+    STATIC_MANIFEST = { ok: false };
+  }
+
+  return STATIC_MANIFEST;
+}
+
+function staticVersion_(key, fallback = "") {
+  const manifest = STATIC_MANIFEST || {};
+  return String(manifest[key] || manifest.version || fallback || "");
+}
+
+async function loadStaticJsonCached_(cacheKey, url) {
+  if (STATIC_CACHE[cacheKey]) return STATIC_CACHE[cacheKey];
+  const data = await fetchJsonWithTimeout_(url);
+  STATIC_CACHE[cacheKey] = data;
+  return data;
+}
+
+function normalizeIndexRows_(rows) {
+  return (Array.isArray(rows) ? rows : []).map(r => ({
+    Code: r.Code || r.code || "",
+    DisplayName: r.DisplayName || r.displayName || r.display_name || "",
+    Keywords: r.Keywords || r.keywords || "",
+    year: r.year || "",
+    sport: r.sport || "",
+    manufacturer: r.manufacturer || "",
+    product: r.product || ""
+  })).filter(r => r.Code && r.DisplayName);
+}
+
+async function loadStaticChecklistIndex_() {
+  await loadStaticManifest_();
+  const data = await loadStaticJsonCached_("checklist_index", `${STATIC_DATA_BASE}/checklists/index.json`);
+  return normalizeIndexRows_(Array.isArray(data) ? data : (data.index || data.rows || []));
+}
+
+function normalizeProductPayload_(data, code, sport) {
+  if (!data) return null;
+  const rows = Array.isArray(data.rows) ? data.rows : [];
+  const parallels = Array.isArray(data.parallels) ? data.parallels : [];
+  const meta = data.meta || {};
+
+  if (!rows.length && !meta.displayName && !meta.DisplayName) return null;
+
+  return {
+    ok: true,
+    meta: {
+      code: meta.code || code || "",
+      displayName: meta.displayName || meta.DisplayName || "",
+      year: meta.year || "",
+      manufacturer: meta.manufacturer || "",
+      product: meta.product || "",
+      sport: meta.sport || sport || ""
+    },
+    rows,
+    parallels
+  };
+}
+
+async function getStaticChecklistProduct_(code, sport) {
+  const sportKey = lower(sport || "");
+  if (!code || !sportKey) return null;
+
+  const url = `${STATIC_DATA_BASE}/checklists/products/${encodeURIComponent(sportKey)}/${encodeURIComponent(code)}.json`;
+  const data = await loadStaticJsonCached_(`checklist_product_${sportKey}_${code}`, url);
+  return normalizeProductPayload_(data, code, sportKey);
+}
+
+function normalizeSearchRows_(rows) {
+  return (Array.isArray(rows) ? rows : []).map(r => ({
+    term: r.term || r.displayName || r.display_name || r.player || "",
+    type: r.type || "product",
+    sport: r.sport || "",
+    code: r.code || r.Code || "",
+    displayName: r.displayName || r.DisplayName || r.display_name || "",
+    year: r.year || "",
+    manufacturer: r.manufacturer || "",
+    product: r.product || "",
+    section: r.section || "",
+    subset: r.subset || "",
+    card_no: r.card_no || r.cardNo || "",
+    player: r.player || "",
+    team: r.team || "",
+    tag: r.tag || r.tags || "",
+    search_blob: r.search_blob || r.searchBlob || ""
+  }));
+}
+
+async function loadStaticChecklistSearchRows_(sport) {
+  const sportKey = lower(sport || "all") || "all";
+  const data = await loadStaticJsonCached_(
+    `checklist_search_${sportKey}`,
+    `${STATIC_DATA_BASE}/checklists/search-index/${encodeURIComponent(sportKey)}.json`
+  );
+  return normalizeSearchRows_(Array.isArray(data) ? data : (data.results || data.rows || data.index || []));
+}
+
+async function searchStaticTypeahead_(q, sport, limit = 10) {
+  const needle = lower(q);
+  if (!needle || needle.length < 2) return [];
+
+  const rows = await loadStaticChecklistSearchRows_(sport || "all");
+  return sortByDisplayPriority(rows.filter(r => {
+    const hay = lower(`${r.term} ${r.displayName} ${r.player} ${r.team} ${r.code} ${r.search_blob}`);
+    return hay.includes(needle);
+  })).slice(0, limit);
+}
+
+async function searchStaticCards_(q, sport, page = 1, pageSize = BROAD_PAGE_SIZE) {
+  const tokens = normalizeQuery_(q).split(/\s+/).filter(Boolean);
+  if (!tokens.length) {
+    return { ok: true, results: [], total: 0, page: 1, pageSize, totalPages: 0 };
+  }
+
+  const rows = await loadStaticChecklistSearchRows_(sport || "all");
+  const filtered = rows.filter(r => {
+    if (sport && lower(r.sport) !== lower(sport)) return false;
+    const hay = lower(`${r.displayName} ${r.product} ${r.section} ${r.subset} ${r.card_no} ${r.player} ${r.team} ${r.tag} ${r.search_blob}`);
+    return tokens.every(t => hay.includes(t));
+  });
+
+  const total = filtered.length;
+  const totalPages = total ? Math.ceil(total / pageSize) : 0;
+  const safePage = totalPages ? Math.min(Math.max(1, Number(page) || 1), totalPages) : 1;
+  const start = (safePage - 1) * pageSize;
+
+  return {
+    ok: true,
+    results: filtered.slice(start, start + pageSize),
+    total,
+    page: safePage,
+    pageSize,
+    totalPages
+  };
+}
+
+function normalizeStaticPlayer_(r) {
+  if (!r) return null;
+  return {
+    player: r.player || r.fullName || r.full_name || "",
+    url: r.url || "",
+    sport: "baseball",
+    player_type: r.player_type || r.playerType || "hitter",
+    season: r.season || {
+      war: r.season_war || "",
+      h: r.season_h || r.h || "",
+      hr: r.season_hr || r.hr || "",
+      ba: r.season_ba || r.avg || r.ba || "",
+      ops: r.season_ops || r.ops || ""
+    },
+    career: r.career || {
+      war: r.career_war || "",
+      h: r.career_h || "",
+      hr: r.career_hr || "",
+      ba: r.career_ba || "",
+      ops: r.career_ops || ""
+    },
+    updated_at: r.updated_at || r.updatedAt || ""
+  };
+}
+
+async function getStaticPlayerStats_(q, sport) {
+  if (sport && lower(sport) !== "baseball") return { found: false };
+
+  const needle = normalizeQuery_(q);
+  if (!needle) return { found: false };
+
+  const data = await loadStaticJsonCached_("mlb_player_stats", `${STATIC_DATA_BASE}/players/mlb-stats.json`);
+  const rows = Array.isArray(data) ? data : (data.players || data.rows || []);
+  const hit = rows.find(r => normalizeQuery_(r.player || r.fullName || r.full_name || "").includes(needle));
+
+  return hit ? { found: true, player: normalizeStaticPlayer_(hit) } : { found: false };
+}
+
 // ---------------- INDEX CACHE ----------------
 function loadCachedIndex_() {
   const cached = localStorage.getItem(INDEX_KEY);
@@ -801,6 +1006,23 @@ function storeIndex_(indexArr, versionStr) {
 async function ensureFreshIndex_() {
   INDEX = loadCachedIndex_();
   const forceRefresh = new URLSearchParams(location.search).get("refresh") === "1";
+
+  try {
+    await loadStaticManifest_();
+    const staticVer = staticVersion_("checklists_version", "");
+
+    if (staticVer && !forceRefresh && INDEX.length && localStorage.getItem(INDEX_VER_KEY) === staticVer) {
+      return;
+    }
+
+    const staticIndex = await loadStaticChecklistIndex_();
+    if (staticIndex.length) {
+      storeIndex_(staticIndex, staticVer || `static_${Date.now()}`);
+      return;
+    }
+  } catch (e) {
+    console.warn("Static checklist index unavailable, using Apps Script fallback.", e);
+  }
 
   try {
     const meta = await api("meta");
@@ -1043,11 +1265,18 @@ async function runTypeahead() {
   renderDropdownItems(localHits);
 
   try {
-    const data = await api("searchIndex", {
-      q,
-      sport,
-      limit: 10
-    });
+    let data = null;
+
+    try {
+      const staticResults = await searchStaticTypeahead_(q, sport, 10);
+      data = { ok: true, results: staticResults };
+    } catch (staticErr) {
+      data = await api("searchIndex", {
+        q,
+        sport,
+        limit: 10
+      });
+    }
 
     if (token !== activeTypeaheadToken) return;
 
@@ -1208,7 +1437,18 @@ async function runProductSearch(code, sport) {
   elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(handoffQuery || "your query")}"…</div>`;
 
   try {
-    const data = await api("getRowsByCode", { code, sport });
+    let data = null;
+
+    try {
+      data = await getStaticChecklistProduct_(code, sport);
+    } catch (staticErr) {
+      data = null;
+    }
+
+    if (!data) {
+      data = await api("getRowsByCode", { code, sport });
+    }
+
     currentProductMeta = data.meta || null;
     currentProductRows = Array.isArray(data.rows) ? data.rows : [];
     currentProductParallels = Array.isArray(data.parallels) ? data.parallels : [];
@@ -1292,18 +1532,21 @@ async function runBroadSearch(q, sport, page = 1) {
   elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(q)}"…</div>`;
 
   try {
-    const [cardsData, playerData] = await Promise.all([
-      api("searchCards", {
+    const cardsPromise = searchStaticCards_(q, sport, page, BROAD_PAGE_SIZE)
+      .catch(() => api("searchCards", {
         q,
         sport,
         limit: BROAD_PAGE_SIZE,
         page
-      }),
-      api("getPlayerStats", {
+      }));
+
+    const playerPromise = getStaticPlayerStats_(q, sport)
+      .catch(() => api("getPlayerStats", {
         q,
         sport
-      }).catch(() => ({ found: false }))
-    ]);
+      }).catch(() => ({ found: false })));
+
+    const [cardsData, playerData] = await Promise.all([cardsPromise, playerPromise]);
 
     broadSearchState.total = Number(cardsData.total) || 0;
     broadSearchState.totalPages = Number(cardsData.totalPages) || 0;
