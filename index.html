@@ -947,6 +947,7 @@
   (function () {
     const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbyuTmGksD9ZF89Ij0VmnUeJqP0OcFL5qCe-MUjN0JonJ8QTlfpMsf0XRKZzCwLdFdiF/exec";
     const CHECKLIST_EXEC_URL = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcGVqTa0KciCO_w23GCHzVXp4dQrUE-4hx1Uut5o_KrCLXYL/exec";
+    const STATIC_DATA_BASE = "/data/v1";
 
     const HOME_INDEX_KEY = "cm_home_index_v2";
     const HOME_FEED_CACHE_KEY = "cm_home_feed_cache_v1";
@@ -1008,6 +1009,41 @@
         .replace(/>/g, "&gt;")
         .replace(/\"/g, "&quot;")
         .replace(/'/g, "&#39;");
+    }
+
+    async function fetchJsonWithTimeout(url, timeoutMs) {
+      var controller = new AbortController();
+      var timer = setTimeout(function () {
+        controller.abort();
+      }, timeoutMs || 3500);
+
+      try {
+        var res = await fetch(url, {
+          method: "GET",
+          cache: "force-cache",
+          signal: controller.signal
+        });
+        if (!res.ok) throw new Error("Static file unavailable: " + res.status);
+        return await res.json();
+      } finally {
+        clearTimeout(timer);
+      }
+    }
+
+    function normalizeIndexRows(rows) {
+      return (Array.isArray(rows) ? rows : []).map(function (r) {
+        return {
+          Code: r.Code || r.code || "",
+          DisplayName: r.DisplayName || r.displayName || r.display_name || "",
+          Keywords: r.Keywords || r.keywords || "",
+          year: r.year || "",
+          sport: r.sport || "",
+          manufacturer: r.manufacturer || "",
+          product: r.product || ""
+        };
+      }).filter(function (r) {
+        return r.Code && r.DisplayName;
+      });
     }
 
     function getSessionId() {
@@ -1481,6 +1517,18 @@
         var cached = localStorage.getItem(HOME_INDEX_KEY);
         if (cached) {
           homeIndex = JSON.parse(cached) || [];
+        }
+      } catch (e) {}
+
+      try {
+        var staticData = await fetchJsonWithTimeout(STATIC_DATA_BASE + "/checklists/index.json", 3500);
+        var staticIndex = normalizeIndexRows(Array.isArray(staticData) ? staticData : (staticData.index || staticData.rows || []));
+        if (staticIndex.length) {
+          homeIndex = staticIndex;
+          try {
+            localStorage.setItem(HOME_INDEX_KEY, JSON.stringify(homeIndex));
+          } catch (e) {}
+          return;
         }
       } catch (e) {}
 
