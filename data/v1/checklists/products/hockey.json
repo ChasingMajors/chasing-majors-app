@@ -1,1 +1,12 @@
-{"ok":true,"sport":"hockey","kind":"checklist_products","sharded":true,"shards":["hockey-001.json"],"product_map":{"2025_26_Upper_Deck_Series_2_Hockey":"hockey-001.json","2025-26-skybox-metal-universe-hockey":"hockey-001.json","2025-26-flair-hockey":"hockey-001.json"}}
+{
+  "ok": true,
+  "sport": "hockey",
+  "kind": "checklist_products",
+  "source": "Checklist DB map",
+  "generated_at": "2026-04-27T22:09:10.001Z",
+  "sharded": true,
+  "shards": [
+    "hockey-001.json"
+  ],
+  "product_map": {}
+}
