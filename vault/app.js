@@ -14,11 +14,13 @@
 // ---------------- CONFIG ----------------
 const EXEC_URL = "https://script.google.com/macros/s/AKfycbz2GrNPpgls5Q2cwt8IkTGrtbged7J4pxIvec5F0r1JoTo-9m2OMkYvDFFz_MM0LEjOHA/exec";
 const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbyuTmGksD9ZF89Ij0VmnUeJqP0OcFL5qCe-MUjN0JonJ8QTlfpMsf0XRKZzCwLdFdiF/exec";
+const STATIC_DATA_BASE = "/data/v1";
 const INDEX_KEY = "prv_index_v1";
 const INDEX_VER_KEY = "prv_index_ver_v1";
 const THEME_KEY = "cm_theme";
 const HANDOFF_FLAG_KEY = "cm_handoff_active";
 const OVERLAY_MIN_MS = 1200;
+const STATIC_FETCH_TIMEOUT_MS = 3500;
 
 // ---------------- DOM ----------------
 const elQ = document.getElementById("q");
@@ -37,6 +39,8 @@ let INDEX = [];
 let selected = null;
 let initDone = false;
 let bootOverlayShownAt = window.__CM_SHOW_BOOT_OVERLAY__ ? Date.now() : 0;
+let STATIC_MANIFEST = null;
+const STATIC_CACHE = {};
 
 // ---------------- QUERY HELPERS ----------------
 function cleanQuery(value) {
@@ -272,6 +276,115 @@ async function api(action, payload = {}) {
   return data;
 }
 
+// ---------------- STATIC DATA ----------------
+// Static JSON is the fast path. The existing Apps Script calls remain as a
+// fallback so the live app still works while data files are being deployed.
+async function fetchJsonWithTimeout_(url, timeoutMs = STATIC_FETCH_TIMEOUT_MS) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    const res = await fetch(url, {
+      method: "GET",
+      cache: "force-cache",
+      signal: controller.signal
+    });
+
+    if (!res.ok) throw new Error(`Static file unavailable: ${res.status}`);
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function loadStaticManifest_() {
+  if (STATIC_MANIFEST) return STATIC_MANIFEST;
+
+  try {
+    STATIC_MANIFEST = await fetchJsonWithTimeout_(`${STATIC_DATA_BASE}/manifest.json`);
+  } catch (e) {
+    STATIC_MANIFEST = { ok: false };
+  }
+
+  return STATIC_MANIFEST;
+}
+
+function staticVersion_(key, fallback = "") {
+  const manifest = STATIC_MANIFEST || {};
+  return String(manifest[key] || manifest.version || fallback || "");
+}
+
+async function loadStaticJsonCached_(cacheKey, url) {
+  if (STATIC_CACHE[cacheKey]) return STATIC_CACHE[cacheKey];
+  const data = await fetchJsonWithTimeout_(url);
+  STATIC_CACHE[cacheKey] = data;
+  return data;
+}
+
+function normalizeIndexRows_(rows) {
+  return (Array.isArray(rows) ? rows : []).map(r => ({
+    Code: r.Code || r.code || "",
+    DisplayName: r.DisplayName || r.displayName || r.display_name || "",
+    Keywords: r.Keywords || r.keywords || "",
+    year: r.year || "",
+    sport: r.sport || "",
+    manufacturer: r.manufacturer || "",
+    product: r.product || "",
+    cmURL: r.cmURL || r.cm_url || ""
+  })).filter(r => r.Code && r.DisplayName);
+}
+
+async function loadStaticVaultIndex_() {
+  await loadStaticManifest_();
+  const data = await loadStaticJsonCached_("vault_index", `${STATIC_DATA_BASE}/vault/index.json`);
+  return normalizeIndexRows_(Array.isArray(data) ? data : (data.index || data.rows || []));
+}
+
+function normalizeVaultProduct_(data, code) {
+  if (!data) return null;
+  const rows = Array.isArray(data.rows) ? data.rows : [];
+  const meta = data.meta || {};
+
+  if (!rows.length && !meta.displayName && !meta.DisplayName) return null;
+
+  return {
+    ok: true,
+    meta: {
+      code: meta.code || code || "",
+      displayName: meta.displayName || meta.DisplayName || "",
+      year: meta.year || "",
+      sport: meta.sport || "",
+      manufacturer: meta.manufacturer || "",
+      product: meta.product || "",
+      cmURL: meta.cmURL || meta.cm_url || ""
+    },
+    rows
+  };
+}
+
+async function getStaticVaultProduct_(code) {
+  if (!code) return null;
+
+  const data = await loadStaticJsonCached_(
+    `vault_product_${code}`,
+    `${STATIC_DATA_BASE}/vault/products/${encodeURIComponent(code)}.json`
+  );
+
+  return normalizeVaultProduct_(data, code);
+}
+
+async function getStaticPopSummary_(sport, code) {
+  const sportKey = cleanQuery(sport || "").toLowerCase();
+  if (!sportKey || !code) return null;
+
+  const data = await loadStaticJsonCached_(
+    `vault_pop_${sportKey}_${code}`,
+    `${STATIC_DATA_BASE}/vault/pop/${encodeURIComponent(sportKey)}/${encodeURIComponent(code)}.json`
+  );
+
+  return data && data.data ? data.data : data;
+}
+
 // ---------------- INDEX CACHE ----------------
 function loadCachedIndex_() {
   const cached = localStorage.getItem(INDEX_KEY);
@@ -292,6 +405,23 @@ function storeIndex_(indexArr, versionStr) {
 async function ensureFreshIndex_() {
   INDEX = loadCachedIndex_();
   const forceRefresh = new URLSearchParams(location.search).get("refresh") === "1";
+
+  try {
+    await loadStaticManifest_();
+    const staticVer = staticVersion_("vault_version", "");
+
+    if (staticVer && !forceRefresh && INDEX.length && localStorage.getItem(INDEX_VER_KEY) === staticVer) {
+      return;
+    }
+
+    const staticIndex = await loadStaticVaultIndex_();
+    if (staticIndex.length) {
+      storeIndex_(staticIndex, staticVer || `static_${Date.now()}`);
+      return;
+    }
+  } catch (e) {
+    console.warn("Static vault index unavailable, using Apps Script fallback.", e);
+  }
 
   try {
     const meta = await api("meta");
@@ -545,17 +675,34 @@ async function runSearch() {
   elResults.innerHTML = `<div class="card" style="opacity:.8;">Loading…</div>`;
 
   try {
-    const prvData = await api("getRowsByCode", { code: selected.Code });
+    let prvData = null;
+
+    try {
+      prvData = await getStaticVaultProduct_(selected.Code);
+    } catch (staticErr) {
+      prvData = null;
+    }
+
+    if (!prvData) {
+      prvData = await api("getRowsByCode", { code: selected.Code });
+    }
 
     let popData = null;
     try {
-      const popRes = await api("getPopSummary", {
-        sport: (prvData.meta && prvData.meta.sport) || selected.sport || "",
-        code: selected.Code
-      });
-      popData = popRes && popRes.data ? popRes.data : null;
+      popData = await getStaticPopSummary_(
+        (prvData.meta && prvData.meta.sport) || selected.sport || "",
+        selected.Code
+      );
     } catch (popErr) {
-      popData = null;
+      try {
+        const popRes = await api("getPopSummary", {
+          sport: (prvData.meta && prvData.meta.sport) || selected.sport || "",
+          code: selected.Code
+        });
+        popData = popRes && popRes.data ? popRes.data : null;
+      } catch (apiPopErr) {
+        popData = null;
+      }
     }
 
     renderResults(prvData.meta, prvData.rows || [], popData);
