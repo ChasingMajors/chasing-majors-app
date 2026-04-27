@@ -466,6 +466,44 @@ function renderMiniStat(label, value, extraClass = "") {
   `;
 }
 
+function isPitcherPlayer_(player) {
+  const t = lower(player && (player.player_type || player.playerType || player.position || ""));
+  return t.includes("pitch");
+}
+
+function statValue_(group, keys, formatter) {
+  const obj = group || {};
+  for (let i = 0; i < keys.length; i++) {
+    const value = obj[keys[i]];
+    if (value !== undefined && value !== null && String(value).trim() !== "") {
+      return formatter ? formatter(value) : value;
+    }
+  }
+  return "";
+}
+
+function renderPlayerStatGrid_(player, scope) {
+  const group = player && player[scope] ? player[scope] : {};
+
+  if (isPitcherPlayer_(player)) {
+    return `
+      ${renderMiniStat("ERA", statValue_(group, ["era"]))}
+      ${renderMiniStat("SV", statValue_(group, ["sv", "saves"]), "desktopOnly")}
+      ${renderMiniStat("IP", statValue_(group, ["ip", "inningsPitched"]))}
+      ${renderMiniStat("SO", statValue_(group, ["so", "strikeOuts", "strikeouts"]))}
+      ${renderMiniStat("WHIP", statValue_(group, ["whip"], fmtBaseballRateStat))}
+    `;
+  }
+
+  return `
+    ${renderMiniStat("H", statValue_(group, ["h", "hits"]))}
+    ${renderMiniStat("HR", statValue_(group, ["hr", "homeRuns"]))}
+    ${renderMiniStat("RBI", statValue_(group, ["rbi"]))}
+    ${renderMiniStat("BA", statValue_(group, ["ba", "avg"], fmtBaseballRateStat))}
+    ${renderMiniStat("OPS", statValue_(group, ["ops"], fmtBaseballRateStat))}
+  `;
+}
+
 function renderPlayerStatsCard(player) {
   if (!player) return "";
 
@@ -500,20 +538,12 @@ function renderPlayerStatsCard(player) {
       <div style="margin-top:14px;">
         <div style="font-weight:700;margin-bottom:8px;">Current Season</div>
         <div class="playerStatsGrid" style="margin-bottom:16px;">
-          ${renderMiniStat("WAR", player.season.war)}
-          ${renderMiniStat("H", player.season.h)}
-          ${renderMiniStat("HR", player.season.hr)}
-          ${renderMiniStat("BA", fmtBaseballRateStat(player.season.ba))}
-          ${renderMiniStat("OPS", fmtBaseballRateStat(player.season.ops), "desktopOnly")}
+          ${renderPlayerStatGrid_(player, "season")}
         </div>
 
         <div style="font-weight:700;margin-bottom:8px;">Career</div>
         <div class="playerStatsGrid">
-          ${renderMiniStat("WAR", player.career.war)}
-          ${renderMiniStat("H", player.career.h)}
-          ${renderMiniStat("HR", player.career.hr)}
-          ${renderMiniStat("BA", fmtBaseballRateStat(player.career.ba))}
-          ${renderMiniStat("OPS", fmtBaseballRateStat(player.career.ops), "desktopOnly")}
+          ${renderPlayerStatGrid_(player, "career")}
         </div>
       </div>
     </div>
@@ -993,18 +1023,28 @@ function normalizeStaticPlayer_(r) {
     sport: "baseball",
     player_type: r.player_type || r.playerType || "hitter",
     season: r.season || {
-      war: r.season_war || "",
       h: r.season_h || r.h || "",
       hr: r.season_hr || r.hr || "",
+      rbi: r.season_rbi || r.rbi || "",
       ba: r.season_ba || r.avg || r.ba || "",
-      ops: r.season_ops || r.ops || ""
+      ops: r.season_ops || r.ops || "",
+      era: r.season_era || r.era || "",
+      sv: r.season_sv || r.sv || r.saves || "",
+      ip: r.season_ip || r.ip || r.inningsPitched || "",
+      so: r.season_so || r.so || r.strikeOuts || "",
+      whip: r.season_whip || r.whip || ""
     },
     career: r.career || {
-      war: r.career_war || "",
       h: r.career_h || "",
       hr: r.career_hr || "",
+      rbi: r.career_rbi || "",
       ba: r.career_ba || "",
-      ops: r.career_ops || ""
+      ops: r.career_ops || "",
+      era: r.career_era || "",
+      sv: r.career_sv || "",
+      ip: r.career_ip || "",
+      so: r.career_so || "",
+      whip: r.career_whip || ""
     },
     updated_at: r.updated_at || r.updatedAt || ""
   };
