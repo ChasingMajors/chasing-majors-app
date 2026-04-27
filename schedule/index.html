@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<meta name="theme-color" content="#0b0b0b" />
 <title>Release Schedule</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,16 +11,32 @@
 <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
 <style>
-
 *{box-sizing:border-box}
 
 :root{
   --bg:#0b0b0b;
   --text:#ffffff;
-  --muted:rgba(255,255,255,.75);
-  --cardBg:rgba(255,255,255,.08);
-  --cardBorder:rgba(255,255,255,.12);
-  --navBtnBg:rgba(255,255,255,.12);
+  --muted:rgba(255,255,255,.76);
+  --soft:rgba(255,255,255,.08);
+  --soft2:rgba(255,255,255,.05);
+  --border:rgba(255,255,255,.12);
+  --border2:rgba(255,255,255,.18);
+  --accent:#ffffff;
+  --accentText:#0b0b0b;
+  --shadow:0 18px 40px rgba(0,0,0,.28);
+}
+
+[data-theme="light"]{
+  --bg:#f6f6f3;
+  --text:#101010;
+  --muted:rgba(0,0,0,.68);
+  --soft:rgba(0,0,0,.045);
+  --soft2:rgba(0,0,0,.025);
+  --border:rgba(0,0,0,.12);
+  --border2:rgba(0,0,0,.18);
+  --accent:#101010;
+  --accentText:#ffffff;
+  --shadow:0 14px 34px rgba(0,0,0,.10);
 }
 
 body{
@@ -29,54 +46,216 @@ body{
   color:var(--text);
 }
 
+button,input,select{font:inherit}
+
 .content{
-  max-width:900px;
+  width:min(1060px,100%);
   margin:auto;
-  padding:20px 16px 100px;
+  padding:22px 16px 112px;
 }
 
-.header{
-  text-align:center;
-  margin-top:10px;
+.topbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:14px;
+  margin:4px 0 18px;
 }
 
 .title{
   font-family:"Bangers",cursive;
-  font-size:38px;
+  font-size:42px;
+  line-height:1;
+  letter-spacing:0;
 }
 
-.card{
-  margin-top:18px;
-  padding:22px;
+.themeBtn{
+  width:48px;
+  height:48px;
+  display:grid;
+  place-items:center;
   border-radius:16px;
-  background:var(--cardBg);
-  border:1px solid var(--cardBorder);
-  text-align:center;
+  border:1px solid var(--border);
+  background:var(--soft);
+  color:var(--text);
+  cursor:pointer;
 }
 
-.coming{
-  font-size:22px;
-  font-weight:800;
-  margin-bottom:10px;
+.panel{
+  border:1px solid var(--border);
+  border-radius:18px;
+  background:var(--soft2);
+  box-shadow:var(--shadow);
+  padding:18px;
 }
 
-.sub{
-  font-size:14px;
+.controls{
+  display:grid;
+  grid-template-columns:1fr 170px 170px;
+  gap:10px;
+  align-items:center;
+}
+
+.searchBox,.selectBox{
+  min-width:0;
+  height:48px;
+  border-radius:14px;
+  border:1px solid var(--border);
+  background:rgba(0,0,0,.18);
+  color:var(--text);
+  padding:0 14px;
+  outline:none;
+}
+
+[data-theme="light"] .searchBox,
+[data-theme="light"] .selectBox{
+  background:rgba(255,255,255,.72);
+}
+
+.summaryRow{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  flex-wrap:wrap;
+  margin:14px 0 0;
   color:var(--muted);
+  font-size:13px;
 }
 
-/* bottom nav */
+.refreshBtn{
+  height:36px;
+  border-radius:12px;
+  border:1px solid var(--border);
+  background:var(--soft);
+  color:var(--text);
+  font-weight:800;
+  padding:0 12px;
+  cursor:pointer;
+}
+
+.scheduleList{
+  display:grid;
+  gap:10px;
+  margin-top:14px;
+}
+
+.releaseItem{
+  display:grid;
+  grid-template-columns:128px 1fr auto;
+  gap:14px;
+  align-items:center;
+  border:1px solid var(--border);
+  border-radius:16px;
+  background:var(--soft);
+  padding:14px;
+}
+
+.dateBox{
+  display:grid;
+  gap:3px;
+}
+
+.dateMain{
+  font-size:15px;
+  font-weight:900;
+}
+
+.dateSub{
+  font-size:12px;
+  color:var(--muted);
+  font-weight:700;
+}
+
+.releaseMain{
+  min-width:0;
+}
+
+.releaseName{
+  font-size:17px;
+  line-height:1.25;
+  font-weight:900;
+  overflow-wrap:anywhere;
+}
+
+.releaseMeta{
+  margin-top:6px;
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  color:var(--muted);
+  font-size:13px;
+}
+
+.pill{
+  display:inline-flex;
+  align-items:center;
+  min-height:26px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background:var(--soft2);
+  padding:4px 9px;
+  font-size:12px;
+  font-weight:800;
+  color:var(--text);
+}
+
+.pill.upcoming{background:rgba(64,180,124,.18)}
+.pill.released{background:rgba(255,255,255,.10)}
+.pill.announced{background:rgba(226,180,70,.18)}
+
+.actions{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
+
+.actionBtn{
+  min-height:38px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:13px;
+  border:1px solid var(--border);
+  background:var(--soft2);
+  color:var(--text);
+  font-size:13px;
+  font-weight:900;
+  text-decoration:none;
+  padding:0 12px;
+}
+
+.actionBtn.primary{
+  background:var(--accent);
+  color:var(--accentText);
+  border-color:var(--accent);
+}
+
+.empty{
+  border:1px solid var(--border);
+  border-radius:16px;
+  background:var(--soft);
+  padding:18px;
+  color:var(--muted);
+  font-weight:700;
+}
 
 .bottomNav{
   position:fixed;
   bottom:0;
   left:0;
   right:0;
-  padding:12px 16px;
+  padding:12px 16px calc(12px + env(safe-area-inset-bottom));
+  background:linear-gradient(to top,var(--bg),rgba(11,11,11,.82),rgba(11,11,11,0));
+}
+
+[data-theme="light"] .bottomNav{
+  background:linear-gradient(to top,var(--bg),rgba(246,246,243,.82),rgba(246,246,243,0));
 }
 
 .navRow{
-  max-width:900px;
+  width:min(1060px,100%);
   margin:auto;
   display:flex;
   gap:10px;
@@ -84,47 +263,261 @@ body{
 
 .navBtn{
   flex:1;
-  height:42px;
+  min-width:0;
+  height:44px;
   border-radius:14px;
-  border:none;
-  background:var(--navBtnBg);
+  border:1px solid var(--border);
+  background:var(--soft);
   color:var(--text);
-  font-weight:800;
+  font-weight:900;
   cursor:pointer;
 }
 
+.navBtn.active{
+  background:var(--accent);
+  color:var(--accentText);
+  border-color:var(--accent);
+}
+
+@media(max-width:760px){
+  .content{padding:18px 12px 112px}
+  .topbar{align-items:flex-start}
+  .title{font-size:36px}
+  .controls{grid-template-columns:1fr}
+  .releaseItem{
+    grid-template-columns:1fr;
+    align-items:start;
+  }
+  .actions{justify-content:flex-start}
+  .actionBtn{flex:1}
+}
 </style>
 </head>
 
 <body>
-
 <div class="content">
+  <div class="topbar">
+    <div class="title">Release Schedule</div>
+    <button class="themeBtn" id="themeToggle" type="button" aria-label="Toggle theme">
+      <svg id="themeIcon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg>
+    </button>
+  </div>
 
-<div class="header">
-<div class="title">Release Schedule</div>
-</div>
+  <section class="panel">
+    <div class="controls">
+      <input class="searchBox" id="q" type="search" placeholder="Search releases" autocomplete="off" />
+      <select class="selectBox" id="sport">
+        <option value="">All Sports</option>
+        <option>Baseball</option>
+        <option>Football</option>
+        <option>Basketball</option>
+        <option>Soccer</option>
+        <option>Hockey</option>
+      </select>
+      <select class="selectBox" id="status">
+        <option value="">All Statuses</option>
+        <option>Upcoming</option>
+        <option>Released</option>
+        <option>Announced</option>
+      </select>
+    </div>
+    <div class="summaryRow">
+      <div id="summary">Loading releases...</div>
+      <button class="refreshBtn" id="refreshBtn" type="button">Refresh</button>
+    </div>
+  </section>
 
-<div class="card">
-
-<div class="coming">
-Coming Soon
-</div>
-
-<div class="sub">
-We're building a release calendar that tracks upcoming hobby launches across sports and brands.
-</div>
-
-</div>
-
+  <main class="scheduleList" id="scheduleList">
+    <div class="empty">Loading releases...</div>
+  </main>
 </div>
 
 <div class="bottomNav">
-<div class="navRow">
-<button class="navBtn" onclick="location.href='/'">Home</button>
-<button class="navBtn" onclick="location.href='/checklists/'">Checklist Vault</button>
-<button class="navBtn" onclick="location.href='/vault/'">Print Run Vault</button>
+  <div class="navRow">
+    <button class="navBtn" type="button" onclick="location.href='/'">Home</button>
+    <button class="navBtn" type="button" onclick="location.href='/checklists/'">Checklist Vault</button>
+    <button class="navBtn" type="button" onclick="location.href='/vault/'">Print Run Vault</button>
+    <button class="navBtn active" type="button" onclick="location.href='/schedule/'">Schedule</button>
+  </div>
 </div>
-</div>
+
+<script>
+(function(){
+  const DATA_URL = "/data/v2/releases/schedule.json";
+  const THEME_KEY = "cm_theme";
+  const elQ = document.getElementById("q");
+  const elSport = document.getElementById("sport");
+  const elStatus = document.getElementById("status");
+  const elList = document.getElementById("scheduleList");
+  const elSummary = document.getElementById("summary");
+  const elRefresh = document.getElementById("refreshBtn");
+  const elThemeBtn = document.getElementById("themeToggle");
+
+  let rows = [];
+  let generatedAt = "";
+
+  function esc(s){
+    return String(s ?? "").replace(/[&<>"']/g, m => ({
+      "&":"&amp;",
+      "<":"&lt;",
+      ">":"&gt;",
+      '"':"&quot;",
+      "'":"&#39;"
+    }[m]));
+  }
+
+  function norm(s){
+    return String(s ?? "").trim();
+  }
+
+  function lower(s){
+    return norm(s).toLowerCase();
+  }
+
+  function setTheme(theme){
+    const t = theme === "light" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", t);
+    localStorage.setItem(THEME_KEY, t);
+
+    const icon = document.getElementById("themeIcon");
+    if (!icon) return;
+
+    icon.innerHTML = t === "dark"
+      ? '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>'
+      : '<circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="M4.93 4.93l1.41 1.41"></path><path d="M17.66 17.66l1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="M4.93 19.07l1.41-1.41"></path><path d="M17.66 6.34l1.41-1.41"></path>';
+  }
+
+  function loadTheme(){
+    const saved = localStorage.getItem(THEME_KEY);
+    setTheme(saved === "light" ? "light" : "dark");
+  }
+
+  function formatDate(value){
+    const raw = norm(value);
+    if (!raw) return { main:"TBD", sub:"Announced" };
+    if (lower(raw) === "announced" || lower(raw) === "tbd") return { main:raw, sub:"Date" };
+
+    const d = new Date(raw + "T12:00:00");
+    if (Number.isNaN(d.getTime())) return { main:raw, sub:"Date" };
+
+    const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    return {
+      main: months[d.getMonth()] + " " + d.getDate(),
+      sub: String(d.getFullYear())
+    };
+  }
+
+  function statusClass(status){
+    const s = lower(status);
+    if (s === "upcoming") return "upcoming";
+    if (s === "released") return "released";
+    if (s === "announced") return "announced";
+    return "";
+  }
+
+  function releaseMatches(row){
+    const q = lower(elQ.value);
+    const sport = lower(elSport.value);
+    const status = lower(elStatus.value);
+
+    if (sport && lower(row.sport) !== sport) return false;
+    if (status && lower(row.status) !== status) return false;
+
+    if (q) {
+      const hay = [
+        row.releaseDate,
+        row.sport,
+        row.manufacturer,
+        row.product,
+        row.setName,
+        row.format,
+        row.status
+      ].join(" ").toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+
+    return true;
+  }
+
+  function render(){
+    const filtered = rows.filter(releaseMatches);
+
+    elSummary.textContent = filtered.length.toLocaleString() + " of " + rows.length.toLocaleString() + " releases"
+      + (generatedAt ? " • Updated " + formatGeneratedAt(generatedAt) : "");
+
+    if (!filtered.length) {
+      elList.innerHTML = '<div class="empty">No releases found.</div>';
+      return;
+    }
+
+    elList.innerHTML = filtered.map(row => {
+      const d = formatDate(row.releaseDate);
+      const status = norm(row.status) || "Announced";
+      const meta = [row.sport, row.manufacturer, row.product, row.format].filter(Boolean);
+
+      return `
+        <article class="releaseItem">
+          <div class="dateBox">
+            <div class="dateMain">${esc(d.main)}</div>
+            <div class="dateSub">${esc(d.sub)}</div>
+          </div>
+          <div class="releaseMain">
+            <div class="releaseName">${esc(row.setName || row.product || "Untitled Release")}</div>
+            <div class="releaseMeta">
+              ${meta.map(x => `<span>${esc(x)}</span>`).join("")}
+              <span class="pill ${esc(statusClass(status))}">${esc(status)}</span>
+            </div>
+          </div>
+          <div class="actions">
+            ${row.checklistUrl ? `<a class="actionBtn primary" href="${esc(row.checklistUrl)}">Checklist</a>` : ""}
+            ${row.vaultUrl ? `<a class="actionBtn" href="${esc(row.vaultUrl)}">Print Run</a>` : ""}
+          </div>
+        </article>
+      `;
+    }).join("");
+  }
+
+  function formatGeneratedAt(value){
+    const d = new Date(value);
+    if (Number.isNaN(d.getTime())) return "";
+    const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    return months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+  }
+
+  async function loadSchedule(){
+    elSummary.textContent = "Loading releases...";
+    try {
+      const res = await fetch(DATA_URL + "?ts=" + Date.now(), { cache:"no-store" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const data = await res.json();
+      rows = Array.isArray(data.rows) ? data.rows : [];
+      generatedAt = data.generated_at || "";
+      render();
+    } catch (err) {
+      console.warn("Release schedule failed", err);
+      elSummary.textContent = "Release schedule unavailable.";
+      elList.innerHTML = '<div class="empty">Release schedule unavailable.</div>';
+    }
+  }
+
+  [elQ, elSport, elStatus].forEach(el => {
+    el.addEventListener("input", render);
+    el.addEventListener("change", render);
+  });
+
+  elRefresh.addEventListener("click", loadSchedule);
+
+  if (elThemeBtn) {
+    elThemeBtn.addEventListener("click", () => {
+      const cur = document.documentElement.getAttribute("data-theme") || "dark";
+      setTheme(cur === "dark" ? "light" : "dark");
+    });
+  }
+
+  loadTheme();
+  loadSchedule();
+})();
+</script>
 
 </body>
 </html>
