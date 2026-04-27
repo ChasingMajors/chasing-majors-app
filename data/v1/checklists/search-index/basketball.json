@@ -1,1 +1,14 @@
-{"ok":true,"sport":"basketball","kind":"checklist_search","sharded":true,"shards":["basketball-001.json","basketball-002.json","basketball-003.json"]}
+{
+  "ok": true,
+  "sport": "basketball",
+  "kind": "checklist_search",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-04-27T22:25:26.593Z",
+  "sharded": true,
+  "shards": [
+    "basketball-001.json",
+    "basketball-002.json",
+    "basketball-003.json",
+    "basketball-004.json"
+  ]
+}
