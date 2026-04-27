@@ -365,22 +365,41 @@ function normalizeVaultProduct_(data, code) {
 async function getStaticVaultProduct_(code) {
   if (!code) return null;
 
-  const data = await loadStaticJsonCached_(
-    `vault_product_${code}`,
-    `${STATIC_DATA_BASE}/vault/products/${encodeURIComponent(code)}.json`
-  );
+  try {
+    const data = await loadStaticJsonCached_(
+      `vault_product_${code}`,
+      `${STATIC_DATA_BASE}/vault/products/${encodeURIComponent(code)}.json`
+    );
 
-  return normalizeVaultProduct_(data, code);
+    return normalizeVaultProduct_(data, code);
+  } catch (perProductErr) {
+    const bundle = await loadStaticJsonCached_(
+      "vault_product_bundle_all",
+      `${STATIC_DATA_BASE}/vault/products/all.json`
+    );
+    const product = bundle && bundle.products ? bundle.products[code] : null;
+    return normalizeVaultProduct_(product, code);
+  }
 }
 
 async function getStaticPopSummary_(sport, code) {
   const sportKey = cleanQuery(sport || "").toLowerCase();
   if (!sportKey || !code) return null;
 
-  const data = await loadStaticJsonCached_(
-    `vault_pop_${sportKey}_${code}`,
-    `${STATIC_DATA_BASE}/vault/pop/${encodeURIComponent(sportKey)}/${encodeURIComponent(code)}.json`
-  );
+  let data = null;
+
+  try {
+    data = await loadStaticJsonCached_(
+      `vault_pop_${sportKey}_${code}`,
+      `${STATIC_DATA_BASE}/vault/pop/${encodeURIComponent(sportKey)}/${encodeURIComponent(code)}.json`
+    );
+  } catch (perProductErr) {
+    const bundle = await loadStaticJsonCached_(
+      `vault_pop_bundle_${sportKey}`,
+      `${STATIC_DATA_BASE}/vault/pop/${encodeURIComponent(sportKey)}.json`
+    );
+    data = bundle && bundle.products ? bundle.products[code] : null;
+  }
 
   return data && data.data ? data.data : data;
 }
