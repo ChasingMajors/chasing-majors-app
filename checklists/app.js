@@ -885,7 +885,17 @@ async function getStaticChecklistProduct_(code, sport) {
       `checklist_product_bundle_${sportKey}`,
       `${STATIC_DATA_BASE}/checklists/products/${encodeURIComponent(sportKey)}.json`
     );
-    const product = bundle && bundle.products ? bundle.products[code] : null;
+    let product = bundle && bundle.products ? bundle.products[code] : null;
+
+    if (!product && bundle && bundle.sharded && bundle.product_map && bundle.product_map[code]) {
+      const shardFile = bundle.product_map[code];
+      const shard = await loadStaticJsonCached_(
+        `checklist_product_shard_${sportKey}_${shardFile}`,
+        `${STATIC_DATA_BASE}/checklists/products/${encodeURIComponent(shardFile)}`
+      );
+      product = shard && shard.products ? shard.products[code] : null;
+    }
+
     return normalizeProductPayload_(product, code, sportKey);
   }
 }
@@ -922,6 +932,17 @@ async function loadStaticChecklistSearchRows_(sport) {
     `checklist_search_${sportKey}`,
     `${STATIC_DATA_BASE}/checklists/search-index/${encodeURIComponent(sportKey)}.json`
   );
+
+  if (data && data.sharded && Array.isArray(data.shards)) {
+    const rowGroups = await Promise.all(data.shards.map(fileName => {
+      return loadStaticJsonCached_(
+        `checklist_search_shard_${fileName}`,
+        `${STATIC_DATA_BASE}/checklists/search-index/${encodeURIComponent(fileName)}`
+      ).then(shard => normalizeSearchRows_(shard.rows || []));
+    }));
+    return rowGroups.reduce((out, rows) => out.concat(rows), []);
+  }
+
   return normalizeSearchRows_(Array.isArray(data) ? data : (data.results || data.rows || data.index || []));
 }
 
