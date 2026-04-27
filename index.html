@@ -950,7 +950,7 @@
     const STATIC_DATA_BASE = "/data/v1";
 
     const HOME_INDEX_KEY = "cm_home_index_v2";
-    const HOME_FEED_CACHE_KEY = "cm_home_feed_cache_v1";
+    const HOME_FEED_CACHE_KEY = "cm_home_feed_cache_v2";
     const HOME_FEED_CACHE_TTL_MS = 5 * 60 * 1000;
 
     let activeTarget = "checklists";
@@ -1355,7 +1355,57 @@
       }
     }
 
+    function normalizeHomeFeedRows(rows) {
+      var out = {
+        ok: true,
+        trendingChecklists: [],
+        trendingPrintRuns: [],
+        justAdded: []
+      };
+
+      (rows || []).forEach(function(row) {
+        if (!Array.isArray(row)) return;
+
+        var section = cleanQuery(row[0]);
+        var item = {
+          label: cleanQuery(row[2]),
+          query: cleanQuery(row[3] || row[2]),
+          code: cleanQuery(row[4]),
+          sport: cleanQuery(row[5]),
+          year: cleanQuery(row[6]),
+          type: cleanQuery(row[7]) || "product",
+          target: cleanQuery(row[8]),
+          url: cleanQuery(row[9]),
+          badge: cleanQuery(row[10]) || "CM",
+          sub: cleanQuery(row[11]),
+          count: row[12] || ""
+        };
+
+        if (section === "trending_checklists") out.trendingChecklists.push(item);
+        else if (section === "trending_print_runs") out.trendingPrintRuns.push(item);
+        else if (section === "just_added") out.justAdded.push(item);
+      });
+
+      return out;
+    }
+
+    function normalizeHomeFeedData(data) {
+      if (!data || !data.ok) return data;
+
+      if (Array.isArray(data.rows)) {
+        return normalizeHomeFeedRows(data.rows);
+      }
+
+      return {
+        ok: true,
+        trendingChecklists: Array.isArray(data.trendingChecklists) ? data.trendingChecklists : [],
+        trendingPrintRuns: Array.isArray(data.trendingPrintRuns) ? data.trendingPrintRuns : [],
+        justAdded: Array.isArray(data.justAdded) ? data.justAdded : []
+      };
+    }
+
     function renderHomeFeed(data) {
+      data = normalizeHomeFeedData(data);
       if (!data || !data.ok) return;
 
       var trendingChecklists = Array.isArray(data.trendingChecklists) ? data.trendingChecklists : [];
