@@ -837,6 +837,25 @@ async function fetchJsonWithTimeout_(url, timeoutMs = STATIC_FETCH_TIMEOUT_MS) {
   }
 }
 
+async function fetchFreshJsonWithTimeout_(url, timeoutMs = STATIC_FETCH_TIMEOUT_MS) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    const separator = url.includes("?") ? "&" : "?";
+    const res = await fetch(`${url}${separator}ts=${Date.now()}`, {
+      method: "GET",
+      cache: "no-store",
+      signal: controller.signal
+    });
+
+    if (!res.ok) throw new Error(`Static file unavailable: ${res.status}`);
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function loadStaticManifest_() {
   if (STATIC_MANIFEST) return STATIC_MANIFEST;
 
@@ -1056,7 +1075,7 @@ async function getStaticPlayerStats_(q, sport) {
   const needle = normalizeQuery_(q);
   if (!needle) return { found: false };
 
-  const data = await loadStaticJsonCached_("mlb_player_stats", `${STATIC_DATA_BASE}/players/mlb-stats.json`);
+  const data = await fetchFreshJsonWithTimeout_(`${STATIC_DATA_BASE}/players/mlb-stats.json`);
   const rows = Array.isArray(data) ? data : (data.players || data.rows || []);
   const hit = rows.find(r => normalizeQuery_(r.player || r.fullName || r.full_name || "").includes(needle));
 
