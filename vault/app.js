@@ -377,7 +377,17 @@ async function getStaticVaultProduct_(code) {
       "vault_product_bundle_all",
       `${STATIC_DATA_BASE}/vault/products/all.json`
     );
-    const product = bundle && bundle.products ? bundle.products[code] : null;
+    let product = bundle && bundle.products ? bundle.products[code] : null;
+
+    if (!product && bundle && bundle.sharded && bundle.product_map && bundle.product_map[code]) {
+      const shardFile = bundle.product_map[code];
+      const shard = await loadStaticJsonCached_(
+        `vault_product_shard_${shardFile}`,
+        `${STATIC_DATA_BASE}/vault/products/${encodeURIComponent(shardFile)}`
+      );
+      product = shard && shard.products ? shard.products[code] : null;
+    }
+
     return normalizeVaultProduct_(product, code);
   }
 }
