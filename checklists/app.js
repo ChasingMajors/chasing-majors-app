@@ -875,9 +875,18 @@ async function getStaticChecklistProduct_(code, sport) {
   const sportKey = lower(sport || "");
   if (!code || !sportKey) return null;
 
-  const url = `${STATIC_DATA_BASE}/checklists/products/${encodeURIComponent(sportKey)}/${encodeURIComponent(code)}.json`;
-  const data = await loadStaticJsonCached_(`checklist_product_${sportKey}_${code}`, url);
-  return normalizeProductPayload_(data, code, sportKey);
+  try {
+    const url = `${STATIC_DATA_BASE}/checklists/products/${encodeURIComponent(sportKey)}/${encodeURIComponent(code)}.json`;
+    const data = await loadStaticJsonCached_(`checklist_product_${sportKey}_${code}`, url);
+    return normalizeProductPayload_(data, code, sportKey);
+  } catch (perProductErr) {
+    const bundle = await loadStaticJsonCached_(
+      `checklist_product_bundle_${sportKey}`,
+      `${STATIC_DATA_BASE}/checklists/products/${encodeURIComponent(sportKey)}.json`
+    );
+    const product = bundle && bundle.products ? bundle.products[code] : null;
+    return normalizeProductPayload_(product, code, sportKey);
+  }
 }
 
 function normalizeSearchRows_(rows) {
