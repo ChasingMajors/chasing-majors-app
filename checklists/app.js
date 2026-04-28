@@ -25,8 +25,8 @@ const EXEC_URL = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcG
 const LOG_EXEC_URL = "https://script.google.com/macros/s/AKfycbyuTmGksD9ZF89Ij0VmnUeJqP0OcFL5qCe-MUjN0JonJ8QTlfpMsf0XRKZzCwLdFdiF/exec";
 const STATIC_DATA_BASE = "/data/v1";
 
-const INDEX_KEY = "cv_index_v1";
-const INDEX_VER_KEY = "cv_index_ver_v1";
+const INDEX_KEY = "cv_index_v2";
+const INDEX_VER_KEY = "cv_index_ver_v2";
 const THEME_KEY = "cm_theme";
 const BROAD_PAGE_SIZE = 50;
 const HANDOFF_FLAG_KEY = "cm_handoff_active";
@@ -996,12 +996,12 @@ async function loadStaticChecklistSearchRows_(sport) {
 }
 
 async function searchStaticTypeahead_(q, sport, limit = 10) {
-  const needle = lower(q);
+  const needle = normalizeQuery_(q);
   if (!needle || needle.length < 2) return [];
 
   const rows = await loadStaticChecklistSearchRows_(sport || "all");
   return sortByDisplayPriority(rows.filter(r => {
-    const hay = lower(`${r.term} ${r.displayName} ${r.player} ${r.team} ${r.code} ${r.search_blob}`);
+    const hay = normalizeQuery_(`${r.term} ${r.displayName} ${r.player} ${r.team} ${r.code} ${r.search_blob}`);
     return hay.includes(needle);
   })).slice(0, limit);
 }
@@ -1302,12 +1302,12 @@ function dedupeTypeaheadResults(rows) {
 }
 
 function makeProductHitsFromLocalIndex(q, sport, limit = 8) {
-  const needle = lower(q);
+  const needle = normalizeQuery_(q);
 
   let rows = INDEX.slice();
 
   if (sport) {
-    rows = rows.filter(r => lower(r.sport) === lower(sport));
+    rows = rows.filter(r => normalizeQuery_(r.sport) === normalizeQuery_(sport));
   }
 
   const exact = [];
@@ -1315,9 +1315,9 @@ function makeProductHitsFromLocalIndex(q, sport, limit = 8) {
   const contains = [];
 
   rows.forEach(r => {
-    const displayName = lower(r.DisplayName);
-    const keywords = lower(r.Keywords);
-    const code = lower(r.Code);
+    const displayName = normalizeQuery_(r.DisplayName);
+    const keywords = normalizeQuery_(r.Keywords);
+    const code = normalizeQuery_(r.Code);
     const hay = `${displayName} | ${keywords} | ${code}`;
 
     if (!hay.includes(needle)) return;
