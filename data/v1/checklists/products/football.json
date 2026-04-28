@@ -2,8 +2,9 @@
   "ok": true,
   "sport": "football",
   "kind": "checklist_products",
-  "source": "Checklist DB map current merge",
-  "generated_at": "2026-04-28T21:11:53.442Z",
+  "source": "Checklist DB map targeted source merge",
+  "source_key": "2025",
+  "generated_at": "2026-04-28T23:04:32.413Z",
   "sharded": true,
   "shards": [
     "football-001.json"
