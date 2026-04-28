@@ -1,1 +1,56 @@
-{"ok":true,"sport":"basketball","products":{"2025_26_topps_basketball":{"ok":true,"data":{"cm_product_code":"2025_26_topps_basketball","sport":"basketball","run_ts":"2026-04-07T13:56:14.685Z","row_count":3049,"total_graded":12257,"total_gems":4353,"weighted_gem_rate":"35.51%","graded_past_month":6497,"graded_prior_month":4999,"top_players_json":"[[\"Cooper Flagg\",2761],[\"Dylan Harper\",1162],[\"VJ Edgecombe\",804],[\"Victor Wembanyama\",645],[\"Kon Knueppel\",640],[\"Ace Bailey\",592],[\"LeBron James\",579],[\"Derik Queen\",318],[\"Stephen Curry\",310],[\"Cedric Coward\",297]]","top_parallels_json":"[[\"Base\",2212],[\"Blackout\",1252],[\"Rainbow Foilboard\",1173],[\"Gold\",768],[\"Holo Foil\",693],[\"Season Tip Off\",661],[\"Golden Mirror\",496],[\"Diamante\",413],[\"Sandglitter\",288],[\"Crackleboard Foil\",286]]"}},"2025_26_topps_chrome_basketball":{"ok":true,"data":{"cm_product_code":"2025_26_topps_chrome_basketball","sport":"basketball","run_ts":"2026-04-07T13:56:51.523Z","row_count":4590,"total_graded":16335,"total_gems":6589,"weighted_gem_rate":"40.34%","graded_past_month":9824,"graded_prior_month":6743,"top_players_json":"[[\"Cooper Flagg\",2326],[\"Kon Knueppel\",1699],[\"VJ Edgecombe\",1341],[\"Dylan Harper\",901],[\"LeBron James\",725],[\"Victor Wembanyama\",698],[\"Ace Bailey\",594],[\"Derik Queen\",585],[\"Stephen Curry\",502],[\"Cedric Coward\",497]]","top_parallels_json":"[[\"Refractor\",1824],[\"X-Fractor\",1650],[\"Base\",1448],[\"Red White and Blue Refractor\",806],[\"Prism Refractor\",744],[\"Basketball Refractor\",531],[\"Raywave\",484],[\"Pulsar\",477],[\"Gold Refractor\",435],[\"Gold Geometric\",419]]"}},"2526TFinNBA":{"ok":true,"data":{"cm_product_code":"2526TFinNBA","sport":"basketball","run_ts":"2026-04-07T20:25:32.072Z","row_count":1614,"total_graded":2931,"total_gems":1525,"weighted_gem_rate":"52.03%","graded_past_month":2732,"graded_prior_month":199,"top_players_json":"[[\"Cooper Flagg\",214],[\"Kon Knueppel\",183],[\"Stephen Curry\",85],[\"Victor Wembanyama\",83],[\"VJ Edgecombe\",82],[\"LeBron James\",75],[\"Jeremiah Fears\",55],[\"Dylan Harper\",54],[\"Shai Gilgeous-Alexander\",54],[\"Anthony Edwards\",54]]","top_parallels_json":"[[\"Sky Blue Refractor\",370],[\"Purple Geometric\",286],[\"Oil Spill Refractor\",270],[\"Blue Refractor\",258],[\"Purple Refractor\",246],[\"Blue Geometric\",205],[\"Base\",173],[\"Purple X-Fractor\",171],[\"Gold Geometric\",143],[\"Blue X-Fractor\",122]]"}}}}
+{
+  "ok": true,
+  "sport": "basketball",
+  "products": {
+    "2025_26_topps_basketball": {
+      "ok": true,
+      "data": {
+        "cm_product_code": "2025_26_topps_basketball",
+        "sport": "basketball",
+        "run_ts": "2026-04-07T13:56:14.685Z",
+        "row_count": 3049,
+        "total_graded": 12257,
+        "total_gems": 4353,
+        "weighted_gem_rate": "35.51%",
+        "graded_past_month": 6497,
+        "graded_prior_month": 4999,
+        "top_players_json": "[[\"Cooper Flagg\",2761],[\"Dylan Harper\",1162],[\"VJ Edgecombe\",804],[\"Victor Wembanyama\",645],[\"Kon Knueppel\",640],[\"Ace Bailey\",592],[\"LeBron James\",579],[\"Derik Queen\",318],[\"Stephen Curry\",310],[\"Cedric Coward\",297]]",
+        "top_parallels_json": "[[\"Base\",2212],[\"Blackout\",1252],[\"Rainbow Foilboard\",1173],[\"Gold\",768],[\"Holo Foil\",693],[\"Season Tip Off\",661],[\"Golden Mirror\",496],[\"Diamante\",413],[\"Sandglitter\",288],[\"Crackleboard Foil\",286]]"
+      }
+    },
+    "2025_26_topps_chrome_basketball": {
+      "ok": true,
+      "data": {
+        "cm_product_code": "2025_26_topps_chrome_basketball",
+        "sport": "basketball",
+        "run_ts": "2026-04-07T13:56:51.523Z",
+        "row_count": 4590,
+        "total_graded": 16335,
+        "total_gems": 6589,
+        "weighted_gem_rate": "40.34%",
+        "graded_past_month": 9824,
+        "graded_prior_month": 6743,
+        "top_players_json": "[[\"Cooper Flagg\",2326],[\"Kon Knueppel\",1699],[\"VJ Edgecombe\",1341],[\"Dylan Harper\",901],[\"LeBron James\",725],[\"Victor Wembanyama\",698],[\"Ace Bailey\",594],[\"Derik Queen\",585],[\"Stephen Curry\",502],[\"Cedric Coward\",497]]",
+        "top_parallels_json": "[[\"Refractor\",1824],[\"X-Fractor\",1650],[\"Base\",1448],[\"Red White and Blue Refractor\",806],[\"Prism Refractor\",744],[\"Basketball Refractor\",531],[\"Raywave\",484],[\"Pulsar\",477],[\"Gold Refractor\",435],[\"Gold Geometric\",419]]"
+      }
+    },
+    "2526TFinNBA": {
+      "ok": true,
+      "data": {
+        "cm_product_code": "2526TFinNBA",
+        "sport": "basketball",
+        "run_ts": "2026-04-07T20:25:32.072Z",
+        "row_count": 1614,
+        "total_graded": 2931,
+        "total_gems": 1525,
+        "weighted_gem_rate": "52.03%",
+        "graded_past_month": 2732,
+        "graded_prior_month": 199,
+        "top_players_json": "[[\"Cooper Flagg\",214],[\"Kon Knueppel\",183],[\"Stephen Curry\",85],[\"Victor Wembanyama\",83],[\"VJ Edgecombe\",82],[\"LeBron James\",75],[\"Jeremiah Fears\",55],[\"Dylan Harper\",54],[\"Shai Gilgeous-Alexander\",54],[\"Anthony Edwards\",54]]",
+        "top_parallels_json": "[[\"Sky Blue Refractor\",370],[\"Purple Geometric\",286],[\"Oil Spill Refractor\",270],[\"Blue Refractor\",258],[\"Purple Refractor\",246],[\"Blue Geometric\",205],[\"Base\",173],[\"Purple X-Fractor\",171],[\"Gold Geometric\",143],[\"Blue X-Fractor\",122]]"
+      }
+    }
+  },
+  "source": "Print Run Vault pop spreadsheet",
+  "generated_at": "2026-04-28T17:53:09.743Z"
+}
