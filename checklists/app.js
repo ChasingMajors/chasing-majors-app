@@ -826,7 +826,7 @@ async function fetchJsonWithTimeout_(url, timeoutMs = STATIC_FETCH_TIMEOUT_MS) {
   try {
     const res = await fetch(url, {
       method: "GET",
-      cache: "force-cache",
+      cache: "no-cache",
       signal: controller.signal
     });
 
