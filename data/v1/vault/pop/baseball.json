@@ -1,1 +1,120 @@
-{"ok":true,"sport":"baseball","products":{"2026_topps_series1":{"ok":true,"data":{"cm_product_code":"2026_topps_series1","sport":"baseball","run_ts":"2026-04-07T13:55:53.049Z","row_count":177,"total_graded":290,"total_gems":110,"weighted_gem_rate":"37.93%","graded_past_month":283,"graded_prior_month":7,"top_players_json":"[[\"Roman Anthony\",68],[\"Shohei Ohtani\",40],[\"Jac Caglianone\",25],[\"Yoshinobu Yamamoto\",14],[\"Jacob Misiorowski\",14],[\"Shohei Ohtani/Yoshinobu Yamamoto\",12],[\"Aaron Judge\",11],[\"Clayton Kershaw\",10],[\"Paul Skenes\",8],[\"Nick Kurtz\",8]]","top_parallels_json":"[[\"Base\",78],[\"Golden Mirror\",24],[\"Team Color Border\",14],[\"Autograph\",12],[\"Funko Base Card\",6],[\"1952 Topps Rookie Variation\",6],[\"Autograph-Orange Foil\",6],[\"Player Number Variation\",6],[\"Autograph-75th Anniversary\",6],[\"Gold\",6]]"}},"2026_Topps_Heritage":{"ok":true,"data":{"cm_product_code":"2026_Topps_Heritage","sport":"baseball","run_ts":"2026-04-07T14:11:13.370Z","row_count":1,"total_graded":1,"total_gems":0,"weighted_gem_rate":"0.00%","graded_past_month":1,"graded_prior_month":0,"top_players_json":"[[\"Ben Rice\",1]]","top_parallels_json":"[[\"Chrome-Superfractor 1/1\",1]]"}},"2025 Bowmans Best Baseball":{"ok":true,"data":{"cm_product_code":"2025 Bowmans Best Baseball","sport":"baseball","run_ts":"2026-04-07T20:25:13.922Z","row_count":143,"total_graded":184,"total_gems":93,"weighted_gem_rate":"50.54%","graded_past_month":184,"graded_prior_month":0,"top_players_json":"[[\"Shohei Ohtani\",27],[\"Roki Sasaki\",17],[\"Marcelo Mayer\",10],[\"Nick Kurtz\",10],[\"Paul Skenes\",9],[\"Aaron Judge\",8],[\"Hyeseong Kim\",7],[\"Jacob Wilson\",7],[\"Cam Smith\",6],[\"Drake Baldwin\",6]]","top_parallels_json":"[[\"Refractor\",26],[\"Lazer Refractor\",12],[\"Mini Diamond\",11],[\"Purple Lazer\",11],[\"Green Refractor\",10],[\"Blue X-Fractor\",10],[\"Aqua Refractor\",9],[\"Aqua Lava\",9],[\"Purple Mojo\",9],[\"Gold Refractor\",9]]"}},"2025_Topps_Baseball_Update_Series":{"ok":true,"data":{"cm_product_code":"2025_Topps_Baseball_Update_Series","sport":"baseball","run_ts":"2026-04-07T20:26:14.991Z","row_count":842,"total_graded":1793,"total_gems":354,"weighted_gem_rate":"19.74%","graded_past_month":929,"graded_prior_month":604,"top_players_json":"[[\"Nick Kurtz\",446],[\"Shohei Ohtani\",133],[\"Roki Sasaki/Shohei Ohtani\",125],[\"Roki Sasaki\",109],[\"Drake Baldwin\",82],[\"Marcelo Mayer\",57],[\"Cam Smith\",50],[\"Kristian Campbell\",49],[\"Aaron Judge\",39],[\"James Wood\",38]]","top_parallels_json":"[[\"Base\",553],[\"Gold\",114],[\"Golden Mirror\",80],[\"Purple Rainbow Foil\",62],[\"Golden Mirror-Autograph\",57],[\"Holiday\",55],[\"Rainbow Foil\",53],[\"Blue Rainbow Foil\",51],[\"True Photo\",47],[\"Green Rainbow Foil\",42]]"}},"2025_Topps_Baseball_Allen_&_Ginter":{"ok":true,"data":{"cm_product_code":"2025_Topps_Baseball_Allen_&_Ginter","sport":"baseball","run_ts":"2026-04-08T03:08:45.418Z","row_count":820,"total_graded":1720,"total_gems":1054,"weighted_gem_rate":"61.28%","graded_past_month":1000,"graded_prior_month":531,"top_players_json":"[[\"Shohei Ohtani\",300],[\"Nick Kurtz\",145],[\"Roki Sasaki\",134],[\"Livvy Dunne\",64],[\"Paul Skenes\",63],[\"Aaron Judge\",53],[\"James Wood\",46],[\"Babe Ruth\",42],[\"Jacob Wilson\",33],[\"Yoshinobu Yamamoto\",29]]","top_parallels_json":"[[\"Base\",426],[\"Chrome-Refractor\",117],[\"Chrome\",99],[\"Mini\",92],[\"Mini-Rip Card-Stained Glass\",86],[\"Silver Portrait\",83],[\"Gold Foil Filigree\",69],[\"Foil Filigree\",60],[\"Orange Foil Filigree\",60],[\"Mini-Allen & Ginter\",55]]"}},"2025_Allen_&_Ginter_X":{"ok":true,"data":{"cm_product_code":"2025_Allen_&_Ginter_X","sport":"baseball","run_ts":"2026-04-08T03:09:08.280Z","row_count":13,"total_graded":16,"total_gems":4,"weighted_gem_rate":"25.00%","graded_past_month":11,"graded_prior_month":5,"top_players_json":"[[\"Shohei Ohtani\",3],[\"Nick Kurtz\",3],[\"Hank Aaron\",2],[\"Bobby Witt Jr.\",1],[\"Big Sean\",1],[\"Kenan Thompson\",1],[\"Jim Rice\",1],[\"Ron Santo\",1],[\"Ty Cobb\",1],[\"Nolan Ryan\",1]]","top_parallels_json":"[[\"Mini-Red\",9],[\"Mini\",5],[\"Chrome-Refractor\",1],[\"Base\",1]]"}},"2025_Topps_Baseball_Chrome":{"ok":true,"data":{"cm_product_code":"2025_Topps_Baseball_Chrome","sport":"baseball","run_ts":"2026-04-08T03:10:30.202Z","row_count":773,"total_graded":3214,"total_gems":1070,"weighted_gem_rate":"33.29%","graded_past_month":158,"graded_prior_month":187,"top_players_json":"[[\"Ben Rice\",172],[\"James Wood\",139],[\"Dylan Crews\",109],[\"Paul Skenes\",99],[\"Jackson Holliday\",90],[\"Jackson Merrill\",80],[\"Jackson Chourio\",63],[\"Bobby Witt Jr.\",63],[\"Bo Jackson\",62],[\"Coby Mayo\",61]]","top_parallels_json":"[[\"Base\",629],[\"Green Refractor\",472],[\"Gold Refractor\",442],[\"Blue Refractor\",421],[\"Gold Mini Diamond\",330],[\"Refractor\",310],[\"Orange Refractor\",239],[\"Rose Gold Wave\",162],[\"White Refractor\",110],[\"Red Refractor\",79]]"}}}}
+{
+  "ok": true,
+  "sport": "baseball",
+  "products": {
+    "2026_topps_series1": {
+      "ok": true,
+      "data": {
+        "cm_product_code": "2026_topps_series1",
+        "sport": "baseball",
+        "run_ts": "2026-04-07T13:55:53.049Z",
+        "row_count": 177,
+        "total_graded": 290,
+        "total_gems": 110,
+        "weighted_gem_rate": "37.93%",
+        "graded_past_month": 283,
+        "graded_prior_month": 7,
+        "top_players_json": "[[\"Roman Anthony\",68],[\"Shohei Ohtani\",40],[\"Jac Caglianone\",25],[\"Yoshinobu Yamamoto\",14],[\"Jacob Misiorowski\",14],[\"Shohei Ohtani/Yoshinobu Yamamoto\",12],[\"Aaron Judge\",11],[\"Clayton Kershaw\",10],[\"Paul Skenes\",8],[\"Nick Kurtz\",8]]",
+        "top_parallels_json": "[[\"Base\",78],[\"Golden Mirror\",24],[\"Team Color Border\",14],[\"Autograph\",12],[\"Funko Base Card\",6],[\"1952 Topps Rookie Variation\",6],[\"Autograph-Orange Foil\",6],[\"Player Number Variation\",6],[\"Autograph-75th Anniversary\",6],[\"Gold\",6]]"
+      }
+    },
+    "2026_Topps_Heritage": {
+      "ok": true,
+      "data": {
+        "cm_product_code": "2026_Topps_Heritage",
+        "sport": "baseball",
+        "run_ts": "2026-04-07T14:11:13.370Z",
+        "row_count": 1,
+        "total_graded": 1,
+        "total_gems": 0,
+        "weighted_gem_rate": "0.00%",
+        "graded_past_month": 1,
+        "graded_prior_month": 0,
+        "top_players_json": "[[\"Ben Rice\",1]]",
+        "top_parallels_json": "[[\"Chrome-Superfractor 1/1\",1]]"
+      }
+    },
+    "2025 Bowmans Best Baseball": {
+      "ok": true,
+      "data": {
+        "cm_product_code": "2025 Bowmans Best Baseball",
+        "sport": "baseball",
+        "run_ts": "2026-04-07T20:25:13.922Z",
+        "row_count": 143,
+        "total_graded": 184,
+        "total_gems": 93,
+        "weighted_gem_rate": "50.54%",
+        "graded_past_month": 184,
+        "graded_prior_month": 0,
+        "top_players_json": "[[\"Shohei Ohtani\",27],[\"Roki Sasaki\",17],[\"Marcelo Mayer\",10],[\"Nick Kurtz\",10],[\"Paul Skenes\",9],[\"Aaron Judge\",8],[\"Hyeseong Kim\",7],[\"Jacob Wilson\",7],[\"Cam Smith\",6],[\"Drake Baldwin\",6]]",
+        "top_parallels_json": "[[\"Refractor\",26],[\"Lazer Refractor\",12],[\"Mini Diamond\",11],[\"Purple Lazer\",11],[\"Green Refractor\",10],[\"Blue X-Fractor\",10],[\"Aqua Refractor\",9],[\"Aqua Lava\",9],[\"Purple Mojo\",9],[\"Gold Refractor\",9]]"
+      }
+    },
+    "2025_Topps_Baseball_Update_Series": {
+      "ok": true,
+      "data": {
+        "cm_product_code": "2025_Topps_Baseball_Update_Series",
+        "sport": "baseball",
+        "run_ts": "2026-04-07T20:26:14.991Z",
+        "row_count": 842,
+        "total_graded": 1793,
+        "total_gems": 354,
+        "weighted_gem_rate": "19.74%",
+        "graded_past_month": 929,
+        "graded_prior_month": 604,
+        "top_players_json": "[[\"Nick Kurtz\",446],[\"Shohei Ohtani\",133],[\"Roki Sasaki/Shohei Ohtani\",125],[\"Roki Sasaki\",109],[\"Drake Baldwin\",82],[\"Marcelo Mayer\",57],[\"Cam Smith\",50],[\"Kristian Campbell\",49],[\"Aaron Judge\",39],[\"James Wood\",38]]",
+        "top_parallels_json": "[[\"Base\",553],[\"Gold\",114],[\"Golden Mirror\",80],[\"Purple Rainbow Foil\",62],[\"Golden Mirror-Autograph\",57],[\"Holiday\",55],[\"Rainbow Foil\",53],[\"Blue Rainbow Foil\",51],[\"True Photo\",47],[\"Green Rainbow Foil\",42]]"
+      }
+    },
+    "2025_Topps_Baseball_Allen_&_Ginter": {
+      "ok": true,
+      "data": {
+        "cm_product_code": "2025_Topps_Baseball_Allen_&_Ginter",
+        "sport": "baseball",
+        "run_ts": "2026-04-08T03:08:45.418Z",
+        "row_count": 820,
+        "total_graded": 1720,
+        "total_gems": 1054,
+        "weighted_gem_rate": "61.28%",
+        "graded_past_month": 1000,
+        "graded_prior_month": 531,
+        "top_players_json": "[[\"Shohei Ohtani\",300],[\"Nick Kurtz\",145],[\"Roki Sasaki\",134],[\"Livvy Dunne\",64],[\"Paul Skenes\",63],[\"Aaron Judge\",53],[\"James Wood\",46],[\"Babe Ruth\",42],[\"Jacob Wilson\",33],[\"Yoshinobu Yamamoto\",29]]",
+        "top_parallels_json": "[[\"Base\",426],[\"Chrome-Refractor\",117],[\"Chrome\",99],[\"Mini\",92],[\"Mini-Rip Card-Stained Glass\",86],[\"Silver Portrait\",83],[\"Gold Foil Filigree\",69],[\"Foil Filigree\",60],[\"Orange Foil Filigree\",60],[\"Mini-Allen & Ginter\",55]]"
+      }
+    },
+    "2025_Allen_&_Ginter_X": {
+      "ok": true,
+      "data": {
+        "cm_product_code": "2025_Allen_&_Ginter_X",
+        "sport": "baseball",
+        "run_ts": "2026-04-08T03:09:08.280Z",
+        "row_count": 13,
+        "total_graded": 16,
+        "total_gems": 4,
+        "weighted_gem_rate": "25.00%",
+        "graded_past_month": 11,
+        "graded_prior_month": 5,
+        "top_players_json": "[[\"Shohei Ohtani\",3],[\"Nick Kurtz\",3],[\"Hank Aaron\",2],[\"Bobby Witt Jr.\",1],[\"Big Sean\",1],[\"Kenan Thompson\",1],[\"Jim Rice\",1],[\"Ron Santo\",1],[\"Ty Cobb\",1],[\"Nolan Ryan\",1]]",
+        "top_parallels_json": "[[\"Mini-Red\",9],[\"Mini\",5],[\"Chrome-Refractor\",1],[\"Base\",1]]"
+      }
+    },
+    "2025_Topps_Baseball_Chrome": {
+      "ok": true,
+      "data": {
+        "cm_product_code": "2025_Topps_Baseball_Chrome",
+        "sport": "baseball",
+        "run_ts": "2026-04-08T03:10:30.202Z",
+        "row_count": 773,
+        "total_graded": 3214,
+        "total_gems": 1070,
+        "weighted_gem_rate": "33.29%",
+        "graded_past_month": 158,
+        "graded_prior_month": 187,
+        "top_players_json": "[[\"Ben Rice\",172],[\"James Wood\",139],[\"Dylan Crews\",109],[\"Paul Skenes\",99],[\"Jackson Holliday\",90],[\"Jackson Merrill\",80],[\"Jackson Chourio\",63],[\"Bobby Witt Jr.\",63],[\"Bo Jackson\",62],[\"Coby Mayo\",61]]",
+        "top_parallels_json": "[[\"Base\",629],[\"Green Refractor\",472],[\"Gold Refractor\",442],[\"Blue Refractor\",421],[\"Gold Mini Diamond\",330],[\"Refractor\",310],[\"Orange Refractor\",239],[\"Rose Gold Wave\",162],[\"White Refractor\",110],[\"Red Refractor\",79]]"
+      }
+    }
+  },
+  "source": "Print Run Vault pop spreadsheet",
+  "generated_at": "2026-04-28T17:53:09.743Z"
+}
