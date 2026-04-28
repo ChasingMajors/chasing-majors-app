@@ -1,1 +1,40 @@
-{"ok":true,"sport":"soccer","products":{"2025_26_Topps_Chrome_Sapphire_Premier_League_Soccer":{"ok":true,"data":{"cm_product_code":"2025_26_Topps_Chrome_Sapphire_Premier_League_Soccer","sport":"soccer","run_ts":"2026-04-07T20:24:45.803Z","row_count":30,"total_graded":35,"total_gems":11,"weighted_gem_rate":"31.43%","graded_past_month":35,"graded_prior_month":0,"top_players_json":"[[\"Estevao Willian\",16],[\"Max Dowman\",4],[\"Rio Ngumoha\",3],[\"Shea Lacey\",2],[\"Anton Stach\",1],[\"Virgil Van Dijk\",1],[\"Phil Foden\",1],[\"Bukayo Saka\",1],[\"Bruno Guimaraes\",1],[\"Gabriel Magalhaes\",1]]","top_parallels_json":"[[\"Red Geometric\",7],[\"Premier League Retrofractor\",3],[\"Orange Rainbow\",2],[\"Rainbow\",2],[\"Gold Refractor\",2],[\"Superfractor 1/1\",2],[\"Frozenfractor\",1],[\"Orange Geometric\",1],[\"Black Geometric\",1],[\"Black Wave\",1]]"}},"2025_Topps_Chrome_MLS_Soccer":{"ok":true,"data":{"cm_product_code":"2025_Topps_Chrome_MLS_Soccer","sport":"soccer","run_ts":"2026-04-08T00:42:39.920Z","row_count":8,"total_graded":9,"total_gems":0,"weighted_gem_rate":"0.00%","graded_past_month":8,"graded_prior_month":1,"top_players_json":"[[\"Heung-Min Son\",3],[\"Bob Marley\",2],[\"Lionel Messi\",1],[\"Thierry Henry\",1],[\"Cavan Sullivan\",1],[\"Benjamin Cremaschi\",1]]","top_parallels_json":"[[\"Ssp\",2],[\"Red Wave\",1],[\"Gold Wave\",1],[\"Frozenfractor\",1],[\"Ssp-Black Refractor\",1],[\"Ssp-Red Refractor\",1],[\"Ssp-Superfractor 1/1\",1],[\"Superfractor 1/1\",1]]"}}}}
+{
+  "ok": true,
+  "sport": "soccer",
+  "products": {
+    "2025_26_Topps_Chrome_Sapphire_Premier_League_Soccer": {
+      "ok": true,
+      "data": {
+        "cm_product_code": "2025_26_Topps_Chrome_Sapphire_Premier_League_Soccer",
+        "sport": "soccer",
+        "run_ts": "2026-04-07T20:24:45.803Z",
+        "row_count": 30,
+        "total_graded": 35,
+        "total_gems": 11,
+        "weighted_gem_rate": "31.43%",
+        "graded_past_month": 35,
+        "graded_prior_month": 0,
+        "top_players_json": "[[\"Estevao Willian\",16],[\"Max Dowman\",4],[\"Rio Ngumoha\",3],[\"Shea Lacey\",2],[\"Anton Stach\",1],[\"Virgil Van Dijk\",1],[\"Phil Foden\",1],[\"Bukayo Saka\",1],[\"Bruno Guimaraes\",1],[\"Gabriel Magalhaes\",1]]",
+        "top_parallels_json": "[[\"Red Geometric\",7],[\"Premier League Retrofractor\",3],[\"Orange Rainbow\",2],[\"Rainbow\",2],[\"Gold Refractor\",2],[\"Superfractor 1/1\",2],[\"Frozenfractor\",1],[\"Orange Geometric\",1],[\"Black Geometric\",1],[\"Black Wave\",1]]"
+      }
+    },
+    "2025_Topps_Chrome_MLS_Soccer": {
+      "ok": true,
+      "data": {
+        "cm_product_code": "2025_Topps_Chrome_MLS_Soccer",
+        "sport": "soccer",
+        "run_ts": "2026-04-08T00:42:39.920Z",
+        "row_count": 8,
+        "total_graded": 9,
+        "total_gems": 0,
+        "weighted_gem_rate": "0.00%",
+        "graded_past_month": 8,
+        "graded_prior_month": 1,
+        "top_players_json": "[[\"Heung-Min Son\",3],[\"Bob Marley\",2],[\"Lionel Messi\",1],[\"Thierry Henry\",1],[\"Cavan Sullivan\",1],[\"Benjamin Cremaschi\",1]]",
+        "top_parallels_json": "[[\"Ssp\",2],[\"Red Wave\",1],[\"Gold Wave\",1],[\"Frozenfractor\",1],[\"Ssp-Black Refractor\",1],[\"Ssp-Red Refractor\",1],[\"Ssp-Superfractor 1/1\",1],[\"Superfractor 1/1\",1]]"
+      }
+    }
+  },
+  "source": "Print Run Vault pop spreadsheet",
+  "generated_at": "2026-04-28T17:53:09.743Z"
+}
