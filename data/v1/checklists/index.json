@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist product bundle rebuild",
-  "generated_at": "2026-04-28T21:45:50.012Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-04-28T22:58:32.910Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -3354,7 +3354,7 @@
     {
       "Code": "2025_26_bowman_basketball",
       "DisplayName": "2025-26 Bowman Basketball",
-      "Keywords": "",
+      "Keywords": "2025-26 Bowman Basketball, 2025 Bowman Basketball, 2026 Bowman Basketball, Bowman Basketball 2025-26, Bowman Basketball 2025, Bowman Basketball 2026, 2025-26 Bowman cards, Bowman basketball cards 2025, Bowman basketball cards 2026, Bowman basketball rookies 2025, Bowman rookie cards basketball 2025-26, Bowman chrome basketball 2025-26, Bowman prospects basketball 2025-26, Bowman parallels basketball 2025-26, Bowman autos basketball 2025-26, Bowman Basketball checklist 2025-26, Bowman basketball checklist",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
@@ -3363,16 +3363,25 @@
     {
       "Code": "2025_26_bowman_best_u_basketball",
       "DisplayName": "2025-26 Bowman Best U Basketball",
-      "Keywords": "",
+      "Keywords": "2025-26 Bowman Best University Basketball, 2025 Bowman Best U Basketball, 2026 Bowman Best U Basketball, Bowman Best University Basketball 2025-26, Bowman Best U Basketball 2025, Bowman Best U Basketball 2026, 2025-26 Bowman Best University cards, Bowman Best college basketball cards 2025-26, Bowman Best NCAA basketball cards 2025-26, Bowman Best U rookies 2025-26, Bowman Best University prospects 2025-26, Bowman Best U autos 2025-26, Bowman Best University autographs 2025-26, Bowman Best University refractors 2025-26, Bowman Best University parallels 2025-26, Bowman Best University Basketball checklist 2025-26, Bowman Best U checklist",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Bowman Best U"
     },
     {
+      "Code": "2025-26_Panini_Contenders EuroLeague_basketball",
+      "DisplayName": "2025-26 Panini Contenders EuroLeague Basketball",
+      "Keywords": "2025-26 Panini Contenders EuroLeague Basketball, 2025 26 Panini Contenders EuroLeague Basketball, 2025-26 Panini Contenders EuroLeague, 2025-26 Panini Contenders EuroLeague cards, 2025 Panini Contenders EuroLeague Basketball, 2026 Panini Contenders EuroLeague Basketball, 25-26 Panini Contenders EuroLeague Basketball, 25 26 Panini Contenders EuroLeague Basketball, Panini Contenders EuroLeague Basketball, Panini Contenders EuroLeague, Contenders EuroLeague Basketball, Contenders EuroLeague, EuroLeague Contenders Basketball, Panini Contenders EuroLeague checklist, Contenders EuroLeague checklist, EuroLeague checklist, 2025-26 Panini Contenders EuroLeague checklist, 2025 Panini Contenders EuroLeague checklist, 2026 Panini Contenders EuroLeague checklist",
+      "year": "2025-26",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Contenders EuroLeague"
+    },
+    {
       "Code": "2025_26_topps_basketball",
       "DisplayName": "2025-26 Topps Basketball",
-      "Keywords": "",
+      "Keywords": "2025-26 Topps Basketball, 2025 Topps Basketball, 2026 Topps Basketball, Topps Basketball 2025-26, Topps Basketball 2025, Topps Basketball 2026, 2025-26 Topps basketball cards, Topps basketball cards 2025, Topps basketball cards 2026, Topps NBA basketball cards 2025-26, Topps rookies basketball 2025-26, Topps rookie cards basketball 2025, Topps autos basketball 2025-26, Topps inserts basketball 2025-26, Topps parallels basketball 2025-26, Topps Basketball checklist 2025-26, Topps basketball checklist",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
@@ -3381,7 +3390,7 @@
     {
       "Code": "2025_26_topps_chrome_basketball",
       "DisplayName": "2025-26 Topps Chrome Basketball",
-      "Keywords": "",
+      "Keywords": "2025-26 Topps Chrome Basketball, 2025 Topps Chrome Basketball, 2026 Topps Chrome Basketball, Topps Chrome Basketball 2025-26, Topps Chrome Basketball 2025, Topps Chrome Basketball 2026, 2025-26 Topps Chrome cards, Topps Chrome basketball cards 2025, Topps Chrome basketball cards 2026, Chrome basketball cards 2025-26, Topps Chrome rookies basketball 2025-26, Topps Chrome rookie cards basketball 2025, Topps Chrome autos basketball 2025-26, Topps Chrome parallels basketball 2025-26, Topps Chrome refractors basketball 2025-26, Topps Chrome Basketball checklist 2025-26, Topps Chrome checklist",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
@@ -3390,7 +3399,7 @@
     {
       "Code": "2025_26_topps_chrome_cactus_jack_basketball_x_nba_all_star_game",
       "DisplayName": "2025-26 Topps Chrome Cactus Jack X NBA All Star Game Basketball",
-      "Keywords": "",
+      "Keywords": "2025-26 Topps Chrome Cactus Jack NBA All Star Game Basketball, 2025 Topps Chrome Cactus Jack NBA All Star, 2026 Topps Chrome Cactus Jack NBA All Star, Topps Chrome Cactus Jack NBA All Star Game 2025-26, Cactus Jack NBA All Star Game cards 2025-26, Travis Scott Topps Chrome NBA cards 2025-26, Topps Chrome Cactus Jack basketball cards, Cactus Jack NBA cards 2025, Topps Chrome NBA All Star Game cards 2025-26, NBA All Star Game basketball cards 2025-26, Cactus Jack rookies basketball 2025-26, Cactus Jack autos basketball 2025-26, Cactus Jack parallels basketball 2025-26, Cactus Jack refractors basketball 2025-26, Topps Chrome Cactus Jack NBA All Star Game checklist, Cactus Jack NBA checklist 2025-26",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
@@ -3399,7 +3408,7 @@
     {
       "Code": "2025_26_topps_chrome_sapphire_basketball",
       "DisplayName": "2025-26 Topps Chrome Sapphire Basketball",
-      "Keywords": "",
+      "Keywords": "2025-26 Topps Chrome Sapphire Basketball, 2025 Topps Chrome Sapphire Basketball, 2026 Topps Chrome Sapphire Basketball, Topps Chrome Sapphire Basketball 2025-26, Topps Chrome Sapphire Basketball 2025, Topps Chrome Sapphire Basketball 2026, 2025-26 Topps Chrome Sapphire cards, Topps Chrome Sapphire basketball cards 2025, Topps Chrome Sapphire basketball cards 2026, Chrome Sapphire basketball cards 2025-26, Topps Sapphire basketball cards 2025-26, Sapphire basketball rookies 2025-26, Sapphire basketball autos 2025-26, Sapphire basketball parallels 2025-26, Sapphire basketball refractors 2025-26, Topps Chrome Sapphire Basketball checklist 2025-26, Topps Sapphire checklist",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
@@ -3408,7 +3417,7 @@
     {
       "Code": "2025_26_topps_cosmic_chrome_basketball",
       "DisplayName": "2025-26 Topps Cosmic Chrome Basketball",
-      "Keywords": "",
+      "Keywords": "2025-26 Topps Cosmic Chrome Basketball, 2025 Topps Cosmic Chrome Basketball, 2026 Topps Cosmic Chrome Basketball, Topps Cosmic Chrome Basketball 2025-26, Topps Cosmic Chrome Basketball 2025, Topps Cosmic Chrome Basketball 2026, 2025-26 Cosmic Chrome Basketball cards, Cosmic Chrome Basketball cards 2025, Cosmic Chrome Basketball cards 2026, Topps Cosmic Chrome basketball cards, Cosmic Chrome basketball rookies 2025-26, Cosmic Chrome autos basketball 2025-26, Cosmic Chrome parallels basketball 2025-26, Cosmic Chrome refractors basketball 2025-26, Cosmic Chrome inserts basketball 2025-26, Topps Cosmic Chrome Basketball checklist, Cosmic Chrome Basketball checklist",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
@@ -3417,7 +3426,7 @@
     {
       "Code": "2025_26_topps_finest_basketball",
       "DisplayName": "2025-26 Topps Finest Basketball",
-      "Keywords": "",
+      "Keywords": "2025-26 Topps Finest Basketball, 2025 Topps Finest Basketball, 2026 Topps Finest Basketball, Topps Finest Basketball 2025-26, Topps Finest Basketball 2025, Topps Finest Basketball 2026, 2025-26 Topps Finest cards, Topps Finest basketball cards 2025, Topps Finest basketball cards 2026, Finest basketball cards 2025-26, Topps Finest rookies basketball 2025-26, Topps Finest rookie cards basketball 2025, Topps Finest autos basketball 2025-26, Topps Finest parallels basketball 2025-26, Topps Finest refractors basketball 2025-26, Topps Finest Basketball checklist 2025-26, Topps Finest checklist",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
@@ -3426,7 +3435,7 @@
     {
       "Code": "2025_26_topps_holiday_basketball",
       "DisplayName": "2025-26 Topps Holiday Basketball",
-      "Keywords": "",
+      "Keywords": "2025-26 Topps Holiday Basketball, 2025 Topps Holiday Basketball, 2026 Topps Holiday Basketball, Topps Holiday Basketball 2025-26, Topps Holiday Basketball 2025, Topps Holiday Basketball 2026, 2025-26 Topps Holiday cards, Topps Holiday basketball cards 2025, Topps Holiday basketball cards 2026, Holiday basketball cards 2025-26, Topps Holiday rookies basketball 2025-26, Topps Holiday rookie cards basketball 2025, Topps Holiday autos basketball 2025-26, Topps Holiday parallels basketball 2025-26, Topps Holiday inserts basketball 2025-26, Topps Holiday Basketball checklist 2025-26, Topps Holiday checklist",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
@@ -3435,7 +3444,7 @@
     {
       "Code": "2025_26_topps_midnight_basketball",
       "DisplayName": "2025-26 Topps Midnight Basketball",
-      "Keywords": "",
+      "Keywords": "2025-26 Topps Midnight Basketball, 2025 Topps Midnight Basketball, 2026 Topps Midnight Basketball, Topps Midnight Basketball 2025-26, Topps Midnight Basketball 2025, Topps Midnight Basketball 2026, 2025-26 Topps Midnight cards, Topps Midnight basketball cards 2025, Topps Midnight basketball cards 2026, Midnight basketball cards 2025-26, Topps Midnight rookies basketball 2025-26, Topps Midnight rookie cards basketball 2025, Topps Midnight autos basketball 2025-26, Topps Midnight parallels basketball 2025-26, Topps Midnight inserts basketball 2025-26, Topps Midnight Basketball checklist 2025-26, Topps Midnight checklist",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
@@ -3444,7 +3453,7 @@
     {
       "Code": "2025_26_topps_nba_hoops_basketball",
       "DisplayName": "2025-26 Topps NBA Hoops Basketball",
-      "Keywords": "",
+      "Keywords": "2025-26 Topps NBA Hoops Basketball, 2025 Topps NBA Hoops Basketball, 2026 Topps NBA Hoops Basketball, Topps NBA Hoops Basketball 2025-26, Topps NBA Hoops Basketball 2025, Topps NBA Hoops Basketball 2026, 2025-26 NBA Hoops basketball cards, NBA Hoops basketball cards 2025, NBA Hoops basketball cards 2026, Topps NBA Hoops cards, NBA Hoops rookies 2025-26, NBA Hoops rookie cards 2025, NBA Hoops autos 2025-26, NBA Hoops inserts 2025-26, NBA Hoops parallels 2025-26, Topps NBA Hoops Basketball checklist, NBA Hoops checklist 2025-26",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
@@ -3453,7 +3462,7 @@
     {
       "Code": "2025_26_topps_signature_class_basketball",
       "DisplayName": "2025-26 Topps Signature Class Basketball",
-      "Keywords": "",
+      "Keywords": "2025-26 Topps Signature Class Basketball, 2025 Topps Signature Class Basketball, 2026 Topps Signature Class Basketball, Topps Signature Class Basketball 2025-26, Topps Signature Class Basketball 2025, Topps Signature Class Basketball 2026, 2025-26 Topps Signature Class cards, Topps Signature Class basketball cards 2025, Topps Signature Class basketball cards 2026, Signature Class basketball cards 2025-26, Topps Signature Class rookies basketball 2025-26, Topps Signature Class rookie cards basketball 2025, Topps Signature Class autos basketball 2025-26, Topps Signature Class autographs basketball 2025-26, Topps Signature Class parallels basketball 2025-26, Topps Signature Class Basketball checklist 2025-26, Topps Signature Class checklist",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
@@ -3462,11 +3471,56 @@
     {
       "Code": "2025_26_topps_three_basketball",
       "DisplayName": "2025-26 Topps Three Basketball",
-      "Keywords": "",
+      "Keywords": "2025-26 Topps Three Basketball, 2025 Topps Three Basketball, 2026 Topps Three Basketball, Topps Three Basketball 2025-26, Topps Three Basketball 2025, Topps Three Basketball 2026, 2025-26 Topps Three cards, Topps Three basketball cards 2025, Topps Three basketball cards 2026, Topps Three basketball set 2025-26, Topps Three rookies basketball 2025-26, Topps Three rookie cards basketball 2025, Topps Three autos basketball 2025-26, Topps Three parallels basketball 2025-26, Topps Three inserts basketball 2025-26, Topps Three Basketball checklist 2025-26, Topps Three checklist",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Three"
+    },
+    {
+      "Code": "2025_Donruss_WNBA_basketball",
+      "DisplayName": "2025 Donruss WNBA Basketball",
+      "Keywords": "2025 Donruss WNBA Basketball, 2025 Donruss WNBA, 2025 Donruss WNBA cards, 2025 Donruss Basketball WNBA, 25 Donruss WNBA Basketball, 25 Donruss WNBA, Donruss WNBA Basketball 2025, Donruss WNBA 2025, Donruss WNBA Basketball, Donruss WNBA, WNBA Donruss Basketball, WNBA Donruss, Panini Donruss WNBA Basketball, Panini Donruss WNBA, Donruss WNBA checklist, WNBA checklist, 2025 Donruss WNBA checklist, 2025 WNBA checklist",
+      "year": "2025",
+      "sport": "basketball",
+      "manufacturer": "Donruss",
+      "product": "WNBA"
+    },
+    {
+      "Code": "2025_Panini_Impeccable WNBA_basketball",
+      "DisplayName": "2025 Panini Impeccable WNBA Basketball",
+      "Keywords": "2025 Panini Impeccable WNBA Basketball, 2025 Panini Impeccable WNBA, 2025 Panini Impeccable WNBA cards, 2025 Impeccable WNBA Basketball, 2025 Impeccable WNBA, 25 Panini Impeccable WNBA Basketball, 25 Panini Impeccable WNBA, Panini Impeccable WNBA Basketball 2025, Panini Impeccable WNBA 2025, Panini Impeccable WNBA Basketball, Panini Impeccable WNBA, Impeccable WNBA Basketball, Impeccable WNBA, Panini Impeccable WNBA checklist, Impeccable WNBA checklist, 2025 Panini Impeccable WNBA checklist, 2025 Impeccable WNBA checklist",
+      "year": "2025",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Impeccable WNBA"
+    },
+    {
+      "Code": "2025_Panini_One_and_One_WNBA",
+      "DisplayName": "2025 Panini One and One WNBA",
+      "Keywords": "2025 Panini One and One WNBA, 2025 Panini One & One WNBA, 2025 Panini One and One Basketball WNBA, 2025 Panini One & One Basketball WNBA, 2025 One and One WNBA, 2025 One & One WNBA, 25 Panini One and One WNBA, 25 Panini One & One WNBA, Panini One and One WNBA, Panini One & One WNBA, One and One WNBA, One & One WNBA, Panini One and One checklist, Panini One & One checklist, One and One checklist, One & One checklist, 2025 Panini One and One checklist, 2025 Panini One & One checklist",
+      "year": "2025",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "One and One"
+    },
+    {
+      "Code": "2025_Panini_Prizm WNBA_basketball",
+      "DisplayName": "2025 Panini Prizm WNBA Basketball",
+      "Keywords": "2025 Panini Prizm WNBA Basketball, 2025 Panini Prizm WNBA, 2025 Panini Prizm WNBA cards, 2025 Prizm WNBA Basketball, 2025 Prizm WNBA, 25 Panini Prizm WNBA Basketball, 25 Panini Prizm WNBA, Panini Prizm WNBA Basketball 2025, Panini Prizm WNBA 2025, Panini Prizm WNBA Basketball, Panini Prizm WNBA, Prizm WNBA Basketball, Prizm WNBA, Panini Prizm WNBA checklist, Prizm WNBA checklist, 2025 Panini Prizm WNBA checklist, 2025 Prizm WNBA checklist",
+      "year": "2025",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Prizm WNBA"
+    },
+    {
+      "Code": "2025_Topps_Chrome_McDonalds_All_American_Basketball",
+      "DisplayName": "2025 Topps Chrome McDonalds All American Basketball",
+      "Keywords": "2025 Topps Chrome McDonalds All American Basketball, 2025 Topps Chrome McDonald’s All American Basketball, 2025 Topps Chrome McDonalds All American, 2025 Topps Chrome McDonald’s All American, 2025 Topps Chrome McDonalds Basketball, 2025 Topps Chrome McDonald’s Basketball, 2025 McDonalds All American Basketball, 2025 McDonald’s All American Basketball, 25 Topps Chrome McDonalds All American Basketball, 25 Topps Chrome McDonald’s All American Basketball, Topps Chrome McDonalds All American Basketball, Topps Chrome McDonald’s All American Basketball, McDonalds All American Basketball, McDonald’s All American Basketball, Topps Chrome McDonalds checklist, Topps Chrome McDonald’s checklist, McDonalds All American checklist, McDonald’s All American checklist, 2025 Topps Chrome McDonalds checklist",
+      "year": "2025",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Chrome McDonalds All American"
     },
     {
       "Code": "2025_Panini_Absolute Countdown Calendar_football",
