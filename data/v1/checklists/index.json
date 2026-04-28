@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-04-28T23:06:27.870Z",
+  "generated_at": "2026-04-28T23:06:45.857Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -4171,6 +4171,105 @@
       "product": "CFL"
     },
     {
+      "Code": "2026_Topps_Finest_Premier_League_Soccer",
+      "DisplayName": "2026 Topps Finest Premier League Soccer",
+      "Keywords": "2026 Topps Finest Premier League Soccer, 2026 Topps Finest EPL Soccer, 2026 Topps Finest Premier League, 2026 Topps Finest EPL, 2026 Topps Finest Soccer, 26 Topps Finest Premier League Soccer, 26 Topps Finest EPL Soccer, 26 Topps Finest Premier League, 26 Topps Finest EPL, Topps Finest Premier League Soccer, Topps Finest EPL Soccer, Topps Finest Premier League, Topps Finest EPL, Premier League Finest Soccer, EPL Finest Soccer, Topps Finest checklist, Finest checklist, Topps Finest Premier League checklist, 2026 Topps Finest checklist",
+      "year": "2026",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Finest Premier League"
+    },
+    {
+      "Code": "2025-26-panini-select-la-liga-soccer",
+      "DisplayName": "2025 26 Panini Select La Liga Soccer",
+      "Keywords": "2025-26 Panini Select La Liga Soccer, 2025-26 Panini Select LaLiga Soccer, 2025-26 Select La Liga Soccer, 2025-26 Select LaLiga Soccer, 2025-26 Panini Select La Liga cards, 25-26 Panini Select La Liga Soccer, 25-26 Select La Liga Soccer, Panini Select La Liga Soccer 2025-26, Panini Select LaLiga Soccer 2025-26, Select La Liga Soccer cards, Select LaLiga Soccer cards, Panini Select La Liga Soccer, Panini Select LaLiga, Select La Liga soccer cards, Select LaLiga soccer cards, Panini Select La Liga Soccer checklist, Select La Liga checklist, 2025-26 Panini Select La Liga checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Select La Liga"
+    },
+    {
+      "Code": "2025-26-donruss-road-to-world-cup",
+      "DisplayName": "2025-26 Donruss Road To World Cup",
+      "Keywords": "2025-26 Donruss Road To World Cup Soccer, 2025-26 Donruss Road to the World Cup Soccer, 2025-26 Donruss World Cup Soccer, 2025-26 Road To World Cup Soccer cards, 2025-26 Donruss RTWC Soccer, 25-26 Donruss Road To World Cup Soccer, 25-26 Road To World Cup Soccer, Donruss Road To World Cup Soccer 2025-26, Donruss World Cup Soccer 2025-26, Road To World Cup Soccer cards, Road To World Cup Soccer, Donruss Road To World Cup Soccer, Donruss RTWC Soccer, World Cup Donruss Soccer cards, Donruss Road To World Cup Soccer checklist, Road To World Cup checklist, 2025-26 Donruss Road To World Cup checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Donruss",
+      "product": "Road To World Cup 26"
+    },
+    {
+      "Code": "2025_26_Topps_Arsenal_Team_Set_Soccer",
+      "DisplayName": "2025-26 Topps Arsenal Team Set Soccer",
+      "Keywords": "arsenal team set topps arsenal team set arsenal",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Arsenal Team Set"
+    },
+    {
+      "Code": "2025_26_Topps_Bundesliga_International_Stars_Soccer",
+      "DisplayName": "2025-26 Topps Bundesliga International Stars Soccer",
+      "Keywords": "bundesliga international topps bundesliga 2025 topps bundesliga 2026 topps bundesliga",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Bundesliga International Stars"
+    },
+    {
+      "Code": "2025_26_Topps_Chrome_Sapphire_Premier_League_Soccer",
+      "DisplayName": "2025-26 Topps Chrome Sapphire Premier League Soccer",
+      "Keywords": "chrome sapphire premier league sapphire premier league premier league sapphire premier league topps chrome sapphire",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Chrome Sapphire Premier League"
+    },
+    {
+      "Code": "2025_26_Topps_Chrome_UEFA_Club_Competitions_Soccer",
+      "DisplayName": "2025-26 Topps Chrome UEFA Club Competitions Soccer",
+      "Keywords": "2025-26 Topps Chrome UEFA Club Competitions Soccer, 2025 26 Topps Chrome UEFA Club Competitions Soccer, 2025-26 Topps Chrome UEFA Soccer, 2025-26 Topps Chrome UEFA, 2025 Topps Chrome UEFA Club Competitions Soccer, 2026 Topps Chrome UEFA Club Competitions Soccer, 25-26 Topps Chrome UEFA Club Competitions Soccer, 25 26 Topps Chrome UEFA Club Competitions Soccer, Topps Chrome UEFA Club Competitions Soccer, Topps Chrome UEFA Soccer, Topps Chrome UEFA, UEFA Chrome Soccer, UEFA Club Competitions Soccer, UEFA Soccer cards, Topps Chrome UEFA checklist, UEFA checklist, Topps Chrome UEFA soccer checklist, 2025-26 Topps Chrome UEFA checklist, 2025 Topps Chrome UEFA checklist, 2026 Topps Chrome UEFA checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Chrome UEFA"
+    },
+    {
+      "Code": "2025_26_Topp_FC_Barcelona_Forever_Soccer",
+      "DisplayName": "2025-26 Topps FC Barcelona Forever Soccer",
+      "Keywords": "Topps FC Barcelona Forever FC Barcelona Forever Barcelona Forever 2025 FC Barcelona Forever 2026 FC Barcelona Forever",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "FC Barcelona Forever"
+    },
+    {
+      "Code": "2025_26_Topps_Gold_UEFA_Club_Competitions_Soccer",
+      "DisplayName": "2025-26 Topps Gold UEFA Club Competitions Soccer",
+      "Keywords": "2025-26 Topps Gold UEFA Club Competitions Soccer, 2025 26 Topps Gold UEFA Club Competitions Soccer, 2025-26 Topps Gold UEFA Soccer, 2025-26 Topps Gold UEFA, 2025 Topps Gold UEFA Club Competitions Soccer, 2026 Topps Gold UEFA Club Competitions Soccer, 25-26 Topps Gold UEFA Club Competitions Soccer, 25 26 Topps Gold UEFA Club Competitions Soccer, Topps Gold UEFA Club Competitions Soccer, Topps Gold UEFA Soccer, Topps Gold UEFA, UEFA Gold Soccer, UEFA Club Competitions Soccer, UEFA Soccer cards, Topps Gold UEFA checklist, UEFA Gold checklist, Topps Gold UEFA soccer checklist, 2025-26 Topps Gold UEFA checklist, 2025 Topps Gold UEFA checklist, 2026 Topps Gold UEFA checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Gold UEFA Club Competition"
+    },
+    {
+      "Code": "2025_26_Topps_Los_Blancos_Real_Madrid_Soccer",
+      "DisplayName": "2025-26 Topps Los Blancos Real Madrid Soccer",
+      "Keywords": "los blancos real madrid topps los blancos real madrid real madrid",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Los Blancos Real Madrid"
+    },
+    {
+      "Code": "2025_26_Topps_Real_Madrid_Team_Set_Soccer",
+      "DisplayName": "2025-26 Topps Real Madrid Team Set Soccer",
+      "Keywords": "real madrid team set topps real madrid team set",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Real Madrid Team Set"
+    },
+    {
       "Code": "2025_panini_absolute_k_league_soccer",
       "DisplayName": "2025 Panini Absolute K League Soccer",
       "Keywords": "",
@@ -4178,6 +4277,42 @@
       "sport": "soccer",
       "manufacturer": "Panini",
       "product": "Absolute K Leauge"
+    },
+    {
+      "Code": "2025-panini-absolute-k-league-soccer",
+      "DisplayName": "2025 Panini Absolute K League Soccer",
+      "Keywords": "2025 Panini Absolute K League Soccer, 2025 Panini Absolute K League, 2025 Panini Absolute K League cards, 2025 Absolute K League Soccer, 2025 Absolute K League, 25 Panini Absolute K League Soccer, 25 Panini Absolute K League, Panini Absolute K League Soccer 2025, Panini Absolute K League 2025, Panini Absolute K League Soccer, Panini Absolute K League, Absolute K League Soccer, Absolute K League, K League Soccer cards Panini, Panini K League Soccer, Panini Absolute K League checklist, Absolute K League checklist, K League checklist, 2025 Panini Absolute K League checklist",
+      "year": "2025",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Absolute K League"
+    },
+    {
+      "Code": "2025-panini-prizm-k-league-soccer",
+      "DisplayName": "2025 Panini Prizm K League Soccer",
+      "Keywords": "2025 Panini Prizm K League Soccer, 2025 Panini Prizm K League, 2025 Panini Prizm K League cards, 2025 Prizm K League Soccer, 2025 Prizm K League, 25 Panini Prizm K League Soccer, 25 Panini Prizm K League, Panini Prizm K League Soccer 2025, Panini Prizm K League 2025, Panini Prizm K League Soccer, Panini Prizm K League, Prizm K League Soccer, Prizm K League, K League Soccer cards Prizm, Panini K League Soccer, Panini Prizm K League checklist, Prizm K League checklist, K League checklist, 2025 Panini Prizm K League checklist",
+      "year": "2025",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Prizm K League"
+    },
+    {
+      "Code": "2025_Topps_Chrome_MLS_Soccer",
+      "DisplayName": "2025 Topps Chrome MLS Soccer",
+      "Keywords": "Chrome MLS Soccer topps chrome mls mls chrome mls",
+      "year": "2025",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Chrome MLS Soccer"
+    },
+    {
+      "Code": "2025-topps-chrome-sapphire-mls",
+      "DisplayName": "2025 Topps Chrome Sapphire MLS",
+      "Keywords": "2025 Topps Chrome Sapphire MLS, 2025 Topps Chrome Sapphire MLS Soccer, 2025 Topps Chrome Sapphire Major League Soccer, 2025 Topps Sapphire MLS, 2025 Topps Chrome Sapphire MLS cards, 25 Topps Chrome Sapphire MLS, 25 Topps Sapphire MLS, Topps Chrome Sapphire MLS 2025, Topps Sapphire MLS 2025, Topps Chrome Sapphire MLS Soccer, Topps Chrome Sapphire MLS, Topps Sapphire MLS, Chrome Sapphire MLS, MLS Sapphire cards, MLS Chrome Sapphire, Topps Chrome Sapphire MLS checklist, Topps Sapphire MLS checklist, MLS checklist, 2025 Topps Chrome Sapphire MLS checklist",
+      "year": "2025",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Chrome Sapphire MLS"
     }
   ]
 }
