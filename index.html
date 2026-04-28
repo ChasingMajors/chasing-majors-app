@@ -949,7 +949,7 @@
     const CHECKLIST_EXEC_URL = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcGVqTa0KciCO_w23GCHzVXp4dQrUE-4hx1Uut5o_KrCLXYL/exec";
     const STATIC_DATA_BASE = "/data/v1";
 
-    const HOME_INDEX_KEY = "cm_home_index_v2";
+    const HOME_INDEX_KEY = "cm_home_index_v3";
     const HOME_FEED_CACHE_KEY = "cm_home_feed_cache_v2";
     const HOME_FEED_CACHE_TTL_MS = 5 * 60 * 1000;
 
@@ -1020,7 +1020,7 @@
       try {
         var res = await fetch(url, {
           method: "GET",
-          cache: "force-cache",
+          cache: "no-cache",
           signal: controller.signal
         });
         if (!res.ok) throw new Error("Static file unavailable: " + res.status);
@@ -1540,9 +1540,9 @@
       var contains = [];
 
       homeIndex.forEach(function(item) {
-        var displayName = String(item.DisplayName || "").toLowerCase();
-        var keywords = String(item.Keywords || "").toLowerCase();
-        var code = String(item.Code || "").toLowerCase();
+        var displayName = normalizeQuery(item.DisplayName || "");
+        var keywords = normalizeQuery(item.Keywords || "");
+        var code = normalizeQuery(item.Code || "");
         var hay = displayName + " | " + keywords + " | " + code;
 
         if (!hay.includes(q)) return;
