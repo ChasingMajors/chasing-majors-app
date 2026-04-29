@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-04-29T18:01:52.271Z",
+  "generated_at": "2026-04-29T21:32:16.892Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -17552,6 +17552,538 @@
           "printRun": 2190,
           "serial": "",
           "subSetSize": 38,
+          "notes": "",
+          "cmURL": ""
+        }
+      ]
+    },
+    "2026_Topps_Chrome_Black": {
+      "ok": true,
+      "meta": {
+        "code": "2026_Topps_Chrome_Black",
+        "displayName": "2026 Topps Chrome Black Baseball",
+        "year": "",
+        "sport": "Baseball",
+        "manufacturer": "Topps",
+        "product": "Chrome Black",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "setType": "Base",
+          "setLine": "Base",
+          "printRun": 4430,
+          "serial": "",
+          "subSetSize": 200,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "setType": "Variation",
+          "setLine": "Rookie Design Variation",
+          "printRun": 300,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "setType": "Insert",
+          "setLine": "Damascus",
+          "printRun": 80,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "setType": "Insert",
+          "setLine": "Depth of Darkness",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "setType": "Insert",
+          "setLine": "Home Field",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "setType": "Insert",
+          "setLine": "Nocturnal",
+          "printRun": 90,
+          "serial": "",
+          "subSetSize": 40,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "setType": "Autograph",
+          "setLine": "Base Autographs",
+          "printRun": 275,
+          "serial": "",
+          "subSetSize": 111,
+          "notes": "",
+          "cmURL": ""
+        }
+      ]
+    },
+    "2025_26_bowman_basketball": {
+      "ok": true,
+      "meta": {
+        "code": "2025_26_bowman_basketball",
+        "displayName": "2026 Bowman Baseball",
+        "year": "",
+        "sport": "Baseball",
+        "manufacturer": "Topps",
+        "product": "Bowman",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Base",
+          "setLine": "Base",
+          "printRun": "TBD",
+          "serial": "",
+          "subSetSize": 200,
+          "notes": "",
+          "cmURL": ""
+        }
+      ]
+    },
+    "2025_26_topps_signature_class_basketball": {
+      "ok": true,
+      "meta": {
+        "code": "2025_26_topps_signature_class_basketball",
+        "displayName": "2025-26 Topps Signature Class Basketball",
+        "year": "",
+        "sport": "Basketball",
+        "manufacturer": "Topps",
+        "product": "Signature Class",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Base",
+          "setLine": "Base",
+          "printRun": 385000,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Base",
+          "setLine": "Base Rookie",
+          "printRun": 27000,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Base - Parallel",
+          "setLine": "Blue & Orange",
+          "printRun": 14500,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Base - Parallel",
+          "setLine": "Bronze",
+          "printRun": 7500,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Base - Parallel",
+          "setLine": "Bronze Yellow",
+          "printRun": 400,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Base Rookie - Parallel",
+          "setLine": "Blue & Orange",
+          "printRun": 5800,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Base Rookie - Parallel",
+          "setLine": "Bronze",
+          "printRun": 2000,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Base Rookie - Parallel",
+          "setLine": "Bronze Yellow",
+          "printRun": 400,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Variation",
+          "setLine": "Base Chrome Variation",
+          "printRun": 25000,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Variation - Parallel",
+          "setLine": "Base Chrome Variation - Pandora",
+          "printRun": 7500,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Variation - Parallel",
+          "setLine": "Base Chrome Variation - Pandora Yellow",
+          "printRun": 5000,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Variation",
+          "setLine": "Base Chrome Rookie",
+          "printRun": 15000,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Variation - Parallel",
+          "setLine": "Base Chrome Rookie - Pandora",
+          "printRun": 7900,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Variation - Parallel",
+          "setLine": "Base Chrome Rookie - Pandora Yellow",
+          "printRun": 6500,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Insert",
+          "setLine": "After Image",
+          "printRun": 18350,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Insert",
+          "setLine": "High Fidelity",
+          "printRun": 17600,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Insert",
+          "setLine": "Pure",
+          "printRun": 18325,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Insert",
+          "setLine": "Unfazed",
+          "printRun": 17850,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Insert",
+          "setLine": "Star Cast",
+          "printRun": 450,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Insert",
+          "setLine": "Algorithm",
+          "printRun": 450,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Insert",
+          "setLine": "Roses",
+          "printRun": 300,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Insert",
+          "setLine": "Fluidity",
+          "printRun": 375,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Insert",
+          "setLine": "Monarchs Of The Game",
+          "printRun": 145,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Insert",
+          "setLine": "Leviathans",
+          "printRun": 145,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Insert",
+          "setLine": "Aristocrats",
+          "printRun": 1170,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Insert",
+          "setLine": "Odyssey",
+          "printRun": 1170,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Insert",
+          "setLine": "Pressure Points",
+          "printRun": 1170,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Autograph",
+          "setLine": "Veteran Class Autographs",
+          "printRun": 400,
+          "serial": "",
+          "subSetSize": 46,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Autograph",
+          "setLine": "Veteran Class Chrome Autographs",
+          "printRun": 125,
+          "serial": "",
+          "subSetSize": 46,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Autograph",
+          "setLine": "Veteran Class Crystal Clear Autographs",
+          "printRun": 30,
+          "serial": "",
+          "subSetSize": 37,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Autograph",
+          "setLine": "Rookie Class Autographs",
+          "printRun": 775,
+          "serial": "",
+          "subSetSize": 46,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Autograph",
+          "setLine": "Rookie Class Chrome Autographs",
+          "printRun": 785,
+          "serial": "",
+          "subSetSize": 46,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Autograph",
+          "setLine": "Rookie Class Crystal Clear Autographs",
+          "printRun": 70,
+          "serial": "",
+          "subSetSize": 45,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Autograph",
+          "setLine": "Legends Of Their Class Crystal Clear Autographs",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Autograph",
+          "setLine": "Signature Blend",
+          "printRun": 335,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Autograph",
+          "setLine": "Shadow Scripts",
+          "printRun": 455,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Autograph",
+          "setLine": "Penstroke Signatures",
+          "printRun": 560,
+          "serial": "",
+          "subSetSize": 2,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Autograph",
+          "setLine": "Eternal Marks",
+          "printRun": 200,
+          "serial": "",
+          "subSetSize": 19,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Autograph",
+          "setLine": "Manuscripts",
+          "printRun": 750,
+          "serial": "",
+          "subSetSize": 70,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Autograph",
+          "setLine": "Dual Autographs",
+          "printRun": 20,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_signature_class_basketball",
+          "setType": "Autograph",
+          "setLine": "Triple Autographs",
+          "printRun": 15,
+          "serial": "",
+          "subSetSize": 10,
           "notes": "",
           "cmURL": ""
         }
