@@ -3,7 +3,7 @@
   "sport": "hockey",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-04-29T03:44:30.344Z",
+  "generated_at": "2026-04-29T20:15:30.591Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -10221,7 +10221,295 @@
           "tag": "SN: 40"
         }
       ],
-      "parallels": []
+      "parallels": [
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Outburst Silver",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Clear Cut",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Deluxe",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "UD Exclusives",
+          "serial_no": "/100"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Outburst Red",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "High Gloss",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Outburst Gold",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Printing Plates",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "1994-95 Rookie Die-Cuts",
+          "parallel_name": "Red",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Boomtown",
+          "parallel_name": "Speckle",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Boomtown",
+          "parallel_name": "Red",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Boomtown",
+          "parallel_name": "Gold",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Encore",
+          "parallel_name": "Blue",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Encore",
+          "parallel_name": "Red",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Encore",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Glow-Up",
+          "parallel_name": "Speckle",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Glow-Up",
+          "parallel_name": "Red",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Glow-Up",
+          "parallel_name": "Gold",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "IYKYK",
+          "parallel_name": "Speckle",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "IYKYK",
+          "parallel_name": "Red",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "IYKYK",
+          "parallel_name": "Gold",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Let Them Cook",
+          "parallel_name": "Speckle",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Let Them Cook",
+          "parallel_name": "Red",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Let Them Cook",
+          "parallel_name": "Gold",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "OPC Glossy",
+          "parallel_name": "Gold",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Outburst Retro Young Guns",
+          "parallel_name": "Red",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Outburst Retro Young Guns",
+          "parallel_name": "Gold",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Rookie Class Commemorations",
+          "parallel_name": "Red",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Sizzle Reel",
+          "parallel_name": "Speckle",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Sizzle Reel",
+          "parallel_name": "Red",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Sizzle Reel",
+          "parallel_name": "Gold",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Slaps",
+          "parallel_name": "Speckle",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Slaps",
+          "parallel_name": "Red",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Slaps",
+          "parallel_name": "Gold",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "UD Canvas",
+          "parallel_name": "Black & White",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "UD Portraits",
+          "parallel_name": "Speckle",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "UD Portraits",
+          "parallel_name": "Red",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "UD Portraits",
+          "parallel_name": "Gold",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Vibing",
+          "parallel_name": "Speckle",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Vibing",
+          "parallel_name": "Red",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_Upper_Deck_Series_2_Hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Vibing",
+          "parallel_name": "Gold",
+          "serial_no": "/25"
+        }
+      ]
     },
     "2025-26-flair-hockey": {
       "ok": true,
@@ -26773,295 +27061,7 @@
           "tag": ""
         }
       ],
-      "parallels": [
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Base",
-          "applies_to_subset": "[Base]",
-          "parallel_name": "Purple Spectrum FX",
-          "serial_no": "/199"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Base",
-          "applies_to_subset": "[Base]",
-          "parallel_name": "Red PMG",
-          "serial_no": "/100"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Base",
-          "applies_to_subset": "[Base]",
-          "parallel_name": "Blue PMG",
-          "serial_no": "/50"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Base",
-          "applies_to_subset": "[Base]",
-          "parallel_name": "Green PMG",
-          "serial_no": "/10"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Base",
-          "applies_to_subset": "[Base]",
-          "parallel_name": "Gold PMG",
-          "serial_no": "/1"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Base",
-          "applies_to_subset": "Base Rookies",
-          "parallel_name": "Purple Spectrum FX",
-          "serial_no": "/199"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Base",
-          "applies_to_subset": "Base Rookies",
-          "parallel_name": "Red PMG",
-          "serial_no": "/100"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Base",
-          "applies_to_subset": "Base Rookies",
-          "parallel_name": "Blue PMG",
-          "serial_no": "/50"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Base",
-          "applies_to_subset": "Base Rookies",
-          "parallel_name": "Green PMG",
-          "serial_no": "/10"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Base",
-          "applies_to_subset": "Base Rookies",
-          "parallel_name": "Gold PMG",
-          "serial_no": "/1"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Autograph",
-          "applies_to_subset": "Base Auto",
-          "parallel_name": "Green",
-          "serial_no": "/10"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Autograph",
-          "applies_to_subset": "Base Auto",
-          "parallel_name": "Gold",
-          "serial_no": "/1"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Autograph",
-          "applies_to_subset": "Base Rookies Auto",
-          "parallel_name": "Green",
-          "serial_no": "/10"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Autograph",
-          "applies_to_subset": "Base Rookies Auto",
-          "parallel_name": "Gold",
-          "serial_no": "/1"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Autograph",
-          "applies_to_subset": "Skybox Premium Prospects Auto",
-          "parallel_name": "Star Blue",
-          "serial_no": ""
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Autograph",
-          "applies_to_subset": "Skybox Premium Prospects Auto",
-          "parallel_name": "Star Emerald",
-          "serial_no": "/25"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "2013 Retro",
-          "parallel_name": "Red PMG",
-          "serial_no": "/90"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "2013 Retro",
-          "parallel_name": "Blue PMG",
-          "serial_no": "/50"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "2013 Retro",
-          "parallel_name": "Green PMG",
-          "serial_no": "/10"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "2013 Retro",
-          "parallel_name": "Gold PMG",
-          "serial_no": "/1"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "All-Galactic Team",
-          "parallel_name": "Purple",
-          "serial_no": "/349"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "All-Galactic Team",
-          "parallel_name": "Red",
-          "serial_no": "/99"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "All-Galactic Team",
-          "parallel_name": "Gold",
-          "serial_no": "/10"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Championship Galaxy",
-          "parallel_name": "Purple",
-          "serial_no": "/349"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Championship Galaxy",
-          "parallel_name": "Red",
-          "serial_no": "/99"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Championship Galaxy",
-          "parallel_name": "Gold",
-          "serial_no": "/10"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Circle Button",
-          "parallel_name": "Red",
-          "serial_no": "/100"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Circle Button",
-          "parallel_name": "Gold",
-          "serial_no": "/10"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Fresh Foundation",
-          "parallel_name": "Purple",
-          "serial_no": "/349"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Fresh Foundation",
-          "parallel_name": "Red",
-          "serial_no": "/99"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Fresh Foundation",
-          "parallel_name": "Gold",
-          "serial_no": "/10"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Lethal Weapon",
-          "parallel_name": "Red",
-          "serial_no": "/100"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Lethal Weapon",
-          "parallel_name": "Gold",
-          "serial_no": "/10"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Lunar Cycle",
-          "parallel_name": "Purple",
-          "serial_no": "/349"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Lunar Cycle",
-          "parallel_name": "Red",
-          "serial_no": "/99"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Lunar Cycle",
-          "parallel_name": "Gold",
-          "serial_no": "/10"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Outer Limits",
-          "parallel_name": "Blue",
-          "serial_no": "/199"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Outer Limits",
-          "parallel_name": "Gold",
-          "serial_no": "/99"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Skybox Premium Prospects",
-          "parallel_name": "Star Rubies",
-          "serial_no": "/50"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Skybox Premium Prospects",
-          "parallel_name": "Star Emerald",
-          "serial_no": "/10"
-        },
-        {
-          "code": "2025-26-skybox-metal-universe-hockey",
-          "applies_to_section": "Insert",
-          "applies_to_subset": "Skybox Premium Prospects",
-          "parallel_name": "Star Diamonds",
-          "serial_no": "/1"
-        }
-      ]
+      "parallels": []
     }
   }
 }
