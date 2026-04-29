@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Checklist product bundle rebuild",
-  "generated_at": "2026-04-29T02:42:16.972Z",
+  "generated_at": "2026-04-29T03:07:35.286Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -4166,6 +4166,438 @@
       "DisplayName": "2025 Upper Deck CFL Football",
       "Keywords": "2025 Upper Deck CFL Football 2025 Upper Deck CFL 2025 CFL Football cards Upper Deck 2025 Upper Deck Canadian Football League cards 2025 Upper Deck CFL cards 25 Upper Deck CFL Football 25 CFL Football Upper Deck Upper Deck CFL Football 2025 Upper Deck CFL 2025 CFL Football cards CFL Football Upper Deck Upper Deck CFL Football Upper Deck CFL CFL trading cards Upper Deck CFL checklist CFL checklist 2025 Upper Deck CFL checklist",
       "year": "2025",
+      "sport": "football",
+      "manufacturer": "Upper Deck",
+      "product": "CFL"
+    },
+    {
+      "Code": "2024-bowman-university-best-football",
+      "DisplayName": "2024 Bowman University Best Football",
+      "Keywords": "2024 Bowman University Best Football, 2024 Bowman Best U Football, 2024 Bowman Best University Football, Bowman University Best Football 2024, Bowman Best U Football 2024, Bowman Best University Football 2024, 2024 Bowman Best college football cards, Bowman Best NCAA football cards 2024, Bowman Best U football cards 2024, Bowman University football cards 2024, Bowman Best U rookies 2024, Bowman Best University prospects football 2024, Bowman Best U autos 2024, Bowman Best University autographs 2024, Bowman Best University refractors football 2024, Bowman Best University parallels football 2024, Bowman University Best Football checklist 2024, Bowman Best U checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Bowman U Best"
+    },
+    {
+      "Code": "2024-bowman-university-chrome-football",
+      "DisplayName": "2024 Bowman University Chrome Football",
+      "Keywords": "2024 Bowman University Chrome Football, 2024 Bowman Chrome University Football, 2024 Bowman U Chrome Football, Bowman University Chrome Football 2024, Bowman Chrome University Football 2024, Bowman U Chrome Football 2024, 2024 Bowman Chrome college football cards, Bowman Chrome NCAA football cards 2024, Bowman University football cards 2024, Bowman Chrome U football cards 2024, Bowman Chrome U rookies 2024, Bowman Chrome University prospects football 2024, Bowman Chrome U autos 2024, Bowman Chrome University autographs 2024, Bowman Chrome University refractors football 2024, Bowman Chrome University parallels football 2024, Bowman University Chrome Football checklist 2024, Bowman Chrome U checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Bowman University Chrome"
+    },
+    {
+      "Code": "2024-bowman-university-chrome-sapphire-football",
+      "DisplayName": "2024 Bowman University Chrome Sapphire Football",
+      "Keywords": "2024 Bowman University Chrome Sapphire Football, 2024 Bowman Chrome Sapphire University Football, 2024 Bowman U Chrome Sapphire Football, Bowman University Chrome Sapphire Football 2024, Bowman Chrome Sapphire University Football 2024, Bowman U Chrome Sapphire Football 2024, 2024 Bowman Chrome Sapphire college football cards, Bowman Chrome Sapphire NCAA football cards 2024, Bowman University Sapphire football cards 2024, Bowman Chrome Sapphire U football cards 2024, Bowman Chrome Sapphire U rookies 2024, Bowman Chrome Sapphire University prospects football 2024, Bowman Chrome Sapphire U autos 2024, Bowman Chrome Sapphire University autographs 2024, Bowman Chrome Sapphire University parallels football 2024, Bowman University Chrome Sapphire Football checklist 2024, Bowman Chrome Sapphire U checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Bowman University Chrome Sapphire"
+    },
+    {
+      "Code": "2024-clearly-donruss-football",
+      "DisplayName": "2024 Clearly Donruss Football",
+      "Keywords": "2024 Clearly Donruss Football, 2024 Panini Clearly Donruss Football, Clearly Donruss Football 2024, Panini Clearly Donruss Football 2024, 2024 Clearly Donruss cards, Clearly Donruss football cards 2024, Panini Clearly Donruss cards 2024, Clearly Donruss NFL cards 2024, Clearly Donruss rookies 2024, Clearly Donruss rookie cards 2024, Clearly Donruss autos 2024, Clearly Donruss autographs 2024, Clearly Donruss parallels 2024, Clearly Donruss acetate cards 2024, Clearly Donruss inserts 2024, Clearly Donruss Football checklist 2024, Clearly Donruss checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Clearly Donruss"
+    },
+    {
+      "Code": "2024-donruss-elite-football",
+      "DisplayName": "2024 Donruss Elite Football",
+      "Keywords": "2024 Donruss Elite Football, 2024 Panini Donruss Elite Football, Donruss Elite Football 2024, Panini Donruss Elite Football 2024, 2024 Donruss Elite cards, Donruss Elite football cards 2024, Panini Elite football cards 2024, Donruss Elite NFL cards 2024, Donruss Elite rookies 2024, Donruss Elite rookie cards 2024, Donruss Elite autos 2024, Donruss Elite autographs 2024, Donruss Elite parallels 2024, Donruss Elite inserts 2024, Donruss Elite numbered cards 2024, Donruss Elite Football checklist 2024, Donruss Elite checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Donruss Elite"
+    },
+    {
+      "Code": "2024-donruss-football",
+      "DisplayName": "2024 Donruss Football",
+      "Keywords": "2024 Donruss Football, 2024 Panini Donruss Football, Donruss Football 2024, Panini Donruss Football 2024, 2024 Donruss cards, Donruss football cards 2024, Panini Donruss cards 2024, Donruss NFL cards 2024, Donruss rookies 2024, Donruss rookie cards 2024, Donruss Rated Rookie 2024, Rated Rookie football cards 2024, Donruss autos 2024, Donruss autographs 2024, Donruss parallels 2024, Donruss inserts 2024, Donruss Football checklist 2024, Donruss checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Donruss"
+    },
+    {
+      "Code": "2024-donruss-optic-football",
+      "DisplayName": "2024 Donruss Optic Football",
+      "Keywords": "2024 Donruss Optic Football, 2024 Panini Donruss Optic Football, Donruss Optic Football 2024, Panini Donruss Optic Football 2024, 2024 Donruss Optic cards, Donruss Optic football cards 2024, Optic football cards 2024, Panini Optic football cards 2024, Donruss Optic NFL cards 2024, Optic Rated Rookie 2024, Donruss Optic rookies 2024, Donruss Optic rookie cards 2024, Donruss Optic autos 2024, Donruss Optic autographs 2024, Donruss Optic parallels 2024, Donruss Optic holo cards 2024, Donruss Optic Football checklist 2024, Donruss Optic checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Donruss Optic"
+    },
+    {
+      "Code": "2024-panini-absolute-football",
+      "DisplayName": "2024 Panini Absolute Football",
+      "Keywords": "2024 Panini Absolute Football, 2024 Absolute Football, Panini Absolute Football 2024, Absolute Football 2024, 2024 Panini Absolute cards, Absolute football cards 2024, Panini Absolute NFL cards 2024, Absolute football hobby box 2024, Absolute football mega box 2024, Absolute football blaster 2024, Absolute rookies 2024, Absolute rookie cards 2024, Absolute autos 2024, Absolute autographs 2024, Absolute kaboom 2024, Kaboom football cards 2024, Absolute parallels 2024, Absolute inserts 2024, Panini Absolute Football checklist 2024, Absolute checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Absolute"
+    },
+    {
+      "Code": "2024-panini-black-football",
+      "DisplayName": "2024 Panini Black Football",
+      "Keywords": "2024 Panini Black Football, 2024 Black Football, Panini Black Football 2024, Black Football 2024, 2024 Panini Black cards, Black football cards 2024, Panini Black NFL cards 2024, Black football hobby box 2024, Black football cards Panini 2024, Panini Black rookies 2024, Black rookie cards 2024, Panini Black autos 2024, Black autographs football 2024, Panini Black patch autos 2024, Black football parallels 2024, Black inserts football 2024, Panini Black Football checklist 2024, Black checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Black"
+    },
+    {
+      "Code": "2024-panini-certified-football",
+      "DisplayName": "2024 Panini Certified Football",
+      "Keywords": "2024 Panini Certified Football, 2024 Certified Football, Panini Certified Football 2024, Certified Football 2024, 2024 Panini Certified cards, Certified football cards 2024, Panini Certified NFL cards 2024, Certified football hobby box 2024, Certified football blaster 2024, Certified football mega box 2024, Certified rookies 2024, Certified rookie cards 2024, Certified autos 2024, Certified autographs 2024, Certified patch autos 2024, Certified parallels 2024, Certified inserts 2024, Certified mirror parallels 2024, Panini Certified Football checklist 2024, Certified checklis",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Certified"
+    },
+    {
+      "Code": "2024-panini-contenders-football",
+      "DisplayName": "2024 Panini Contenders Football",
+      "Keywords": "2024 Panini Contenders Football, 2024 Contenders Football, Panini Contenders Football 2024, Contenders Football 2024, 2024 Panini Contenders cards, Contenders football cards 2024, Panini Contenders NFL cards 2024, Contenders football hobby box 2024, Contenders rookie ticket 2024, Rookie Ticket football cards 2024, Contenders rookies 2024, Contenders rookie cards 2024, Contenders autos 2024, Contenders autographs 2024, Contenders rookie ticket autos 2024, Contenders parallels 2024, Contenders inserts 2024, Panini Contenders Football checklist 2024, Contenders checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Contenders"
+    },
+    {
+      "Code": "2024-panini-contenders-optic-football",
+      "DisplayName": "2024 Panini Contenders Optic Football",
+      "Keywords": "2024 Panini Contenders Optic Football, 2024 Contenders Optic Football, Panini Contenders Optic Football 2024, Contenders Optic Football 2024, 2024 Panini Contenders Optic cards, Contenders Optic football cards 2024, Panini Contenders Optic NFL cards 2024, Contenders Optic football hobby box 2024, Contenders Optic rookie ticket 2024, Optic Rookie Ticket football cards 2024, Contenders Optic rookies 2024, Contenders Optic rookie cards 2024, Contenders Optic autos 2024, Contenders Optic autographs 2024, Contenders Optic rookie ticket autos 2024, Contenders Optic parallels 2024, Contenders Optic holo cards 2024, Panini Contenders Optic Football checklist 2024, Contenders Optic checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Contenders Optic"
+    },
+    {
+      "Code": "2024-panini-eminence-football",
+      "DisplayName": "2024 Panini Eminence Football",
+      "Keywords": "2024 Panini Eminence Football, 2024 Eminence Football, Panini Eminence Football 2024, Eminence Football 2024, 2024 Panini Eminence cards, Eminence football cards 2024, Panini Eminence NFL cards 2024, Eminence football high end cards 2024, Eminence football premium cards 2024, Panini Eminence rookies 2024, Eminence rookie cards 2024, Panini Eminence autos 2024, Eminence autographs football 2024, Eminence patch autos 2024, Eminence 1 of 1 football cards 2024, Eminence parallels football 2024, Panini Eminence Football checklist 2024, Eminence checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Eminence"
+    },
+    {
+      "Code": "2024-panini-encore-football",
+      "DisplayName": "2024 Panini Encore Football",
+      "Keywords": "2024 Panini Encore Football, 2024 Encore Football, Panini Encore Football 2024, Encore Football 2024, 2024 Panini Encore cards, Encore football cards 2024, Panini Encore NFL cards 2024, Encore football hobby box 2024, Encore football cards Panini 2024, Panini Encore rookies 2024, Encore rookie cards 2024, Panini Encore autos 2024, Encore autographs football 2024, Encore patch autos 2024, Encore parallels football 2024, Encore inserts football 2024, Panini Encore Football checklist 2024, Encore checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Encore"
+    },
+    {
+      "Code": "2024-panini-flawless-football",
+      "DisplayName": "2024 Panini Flawless Football",
+      "Keywords": "2024 Panini Flawless Football, 2024 Flawless Football, Panini Flawless Football 2024, Flawless Football 2024, 2024 Panini Flawless cards, Flawless football cards 2024, Panini Flawless NFL cards 2024, Flawless football high end cards 2024, Flawless football premium cards 2024, Panini Flawless rookies 2024, Flawless rookie cards 2024, Panini Flawless autos 2024, Flawless autographs football 2024, Flawless patch autos 2024, Flawless 1 of 1 football cards 2024, Flawless diamond cards 2024, Flawless parallels football 2024, Panini Flawless Football checklist 2024, Flawless checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Flawless"
+    },
+    {
+      "Code": "2024-panini-gold-standard-football",
+      "DisplayName": "2024 Panini Gold Standard Football",
+      "Keywords": "2024 Panini Gold Standard Football, 2024 Gold Standard Football, Panini Gold Standard Football 2024, Gold Standard Football 2024, 2024 Panini Gold Standard cards, Gold Standard football cards 2024, Panini Gold Standard NFL cards 2024, Gold Standard football hobby box 2024, Gold Standard football premium cards 2024, Panini Gold Standard rookies 2024, Gold Standard rookie cards 2024, Panini Gold Standard autos 2024, Gold Standard autographs football 2024, Gold Standard patch autos 2024, Gold Standard parallels 2024, Gold Standard inserts 2024, Gold Standard rookie jersey autos 2024, Panini Gold Standard Football checklist 2024, Gold Standard checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Gold Standard"
+    },
+    {
+      "Code": "2024-panini-illusions-football",
+      "DisplayName": "2024 Panini Illusions Football",
+      "Keywords": "2024 Panini Illusions Football, 2024 Illusions Football, Panini Illusions Football 2024, Illusions Football 2024, 2024 Panini Illusions cards, Illusions football cards 2024, Panini Illusions NFL cards 2024, Illusions football hobby box 2024, Illusions football mega box 2024, Illusions football blaster 2024, Illusions rookies 2024, Illusions rookie cards 2024, Illusions autos 2024, Illusions autographs 2024, Illusions patch autos 2024, Illusions parallels 2024, Illusions acetate cards 2024, Illusions inserts 2024, Panini Illusions Football checklist 2024, Illusions checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Illusions"
+    },
+    {
+      "Code": "2024-panini-immaculate-collection-football",
+      "DisplayName": "2024 Panini Immaculate Collection Football",
+      "Keywords": "2024 Panini Immaculate Collection Football, 2024 Immaculate Collection Football, Panini Immaculate Collection Football 2024, Immaculate Collection Football 2024, 2024 Panini Immaculate cards, Immaculate football cards 2024, Panini Immaculate NFL cards 2024, Immaculate football high end cards 2024, Immaculate football premium cards 2024, Panini Immaculate rookies 2024, Immaculate rookie cards 2024, Panini Immaculate autos 2024, Immaculate autographs football 2024, Immaculate patch autos 2024, Immaculate RPA football cards 2024, Immaculate 1 of 1 football cards 2024, Immaculate parallels football 2024, Panini Immaculate Collection Football checklist 2024, Immaculate checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Immaculate Collection"
+    },
+    {
+      "Code": "2024-panini-impeccable-football",
+      "DisplayName": "2024 Panini Impeccable Football",
+      "Keywords": "2024 Panini Impeccable Football, 2024 Impeccable Football, Panini Impeccable Football 2024, Impeccable Football 2024, 2024 Panini Impeccable cards, Impeccable football cards 2024, Panini Impeccable NFL cards 2024, Impeccable football high end cards 2024, Impeccable football premium cards 2024, Panini Impeccable rookies 2024, Impeccable rookie cards 2024, Panini Impeccable autos 2024, Impeccable autographs football 2024, Impeccable patch autos 2024, Impeccable silver bar cards 2024, Impeccable gold bar cards 2024, Impeccable parallels football 2024, Panini Impeccable Football checklist 2024, Impeccable checklis",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Impeccable"
+    },
+    {
+      "Code": "2024-panini-mosaic-football",
+      "DisplayName": "2024 Panini Mosaic Football",
+      "Keywords": "2024 Panini Mosaic Football, 2024 Mosaic Football, Panini Mosaic Football 2024, Mosaic Football 2024, 2024 Panini Mosaic cards, Mosaic football cards 2024, Panini Mosaic NFL cards 2024, Mosaic football hobby box 2024, Mosaic football blaster 2024, Mosaic football mega box 2024, Mosaic football retail 2024, Mosaic rookies 2024, Mosaic rookie cards 2024, Mosaic autos 2024, Mosaic autographs 2024, Mosaic parallels 2024, Mosaic prizm parallels football 2024, Mosaic inserts 2024, Panini Mosaic Football checklist 2024, Mosaic checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Mosaic"
+    },
+    {
+      "Code": "2024-panini-national-treasures-collegiate-football",
+      "DisplayName": "2024 Panini National Treasures Collegiate Football",
+      "Keywords": "2024 Panini National Treasures Collegiate Football, 2024 National Treasures Collegiate Football, Panini National Treasures Collegiate Football 2024, National Treasures Collegiate Football 2024, 2024 Panini National Treasures Collegiate cards, National Treasures college football cards 2024, Panini NT Collegiate football cards 2024, NT Collegiate football cards 2024, National Treasures collegiate rookies 2024, National Treasures collegiate rookie patch autos 2024, NT Collegiate RPA football cards 2024, National Treasures collegiate autos 2024, National Treasures collegiate autographs 2024, NT Collegiate patch autos 2024, National Treasures collegiate 1 of 1 football cards 2024, NT Collegiate parallels 2024, Panini National Treasures Collegiate Football checklist 2024, NT Collegiate checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "National Treasures Collegiate"
+    },
+    {
+      "Code": "2024-panini-national-treasures-football",
+      "DisplayName": "2024 Panini National Treasures Football",
+      "Keywords": "2024 Panini National Treasures Football, 2024 National Treasures Football, Panini National Treasures Football 2024, National Treasures Football 2024, 2024 Panini National Treasures cards, National Treasures football cards 2024, Panini NT football cards 2024, NT football cards 2024, National Treasures rookies 2024, National Treasures rookie patch autos 2024, NT RPA football cards 2024, National Treasures autos 2024, National Treasures autographs 2024, NT patch autos 2024, National Treasures 1 of 1 football cards 2024, NT shields football cards 2024, National Treasures parallels 2024, Panini National Treasures Football checklist 2024, NT checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "National Treasures"
+    },
+    {
+      "Code": "2024-panini-obsidian-football",
+      "DisplayName": "2024 Panini Obsidian Football",
+      "Keywords": "2024 Panini Obsidian Football, 2024 Obsidian Football, Panini Obsidian Football 2024, Obsidian Football 2024, 2024 Panini Obsidian cards, Obsidian football cards 2024, Panini Obsidian NFL cards 2024, Obsidian football hobby box 2024, Obsidian football cards Panini 2024, Panini Obsidian rookies 2024, Obsidian rookie cards 2024, Panini Obsidian autos 2024, Obsidian autographs football 2024, Obsidian patch autos 2024, Obsidian parallels football 2024, Obsidian electric etch parallels 2024, Obsidian inserts football 2024, Panini Obsidian Football checklist 2024, Obsidian checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Obsidian"
+    },
+    {
+      "Code": "2024-panini-one-football",
+      "DisplayName": "2024 Panini One Football",
+      "Keywords": "2024 Panini One Football, 2024 Panini One and One Football, 2024 Panini One Football cards, Panini One Football 2024, Panini One and One Football 2024, 2024 Panini One cards, Panini One football cards 2024, Panini One NFL cards 2024, Panini One hobby box 2024, one card per box football 2024, Panini One rookies 2024, Panini One rookie patch autos 2024, Panini One RPA football cards 2024, Panini One autos 2024, Panini One autographs 2024, Panini One patch autos 2024, Panini One 1 of 1 football cards 2024, Panini One parallels 2024, Panini One Football checklist 2024, Panini One checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "One"
+    },
+    {
+      "Code": "2024-panini-origins-football",
+      "DisplayName": "2024 Panini Origins Football",
+      "Keywords": "2024 Panini Origins Football, 2024 Origins Football, Panini Origins Football 2024, Origins Football 2024, 2024 Panini Origins cards, Origins football cards 2024, Panini Origins NFL cards 2024, Origins football hobby box 2024, Origins football cards Panini 2024, Panini Origins rookies 2024, Origins rookie cards 2024, Panini Origins autos 2024, Origins autographs football 2024, Origins rookie patch autos 2024, Origins RPA football cards 2024, Origins parallels 2024, Origins inserts 2024, Panini Origins Football checklist 2024, Origins checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Origins"
+    },
+    {
+      "Code": "2024-panini-phoenix-football",
+      "DisplayName": "2024 Panini Phoenix Football",
+      "Keywords": "2024 Panini Phoenix Football, 2024 Phoenix Football, Panini Phoenix Football 2024, Phoenix Football 2024, 2024 Panini Phoenix cards, Phoenix football cards 2024, Panini Phoenix NFL cards 2024, Phoenix football hobby box 2024, Phoenix football blaster 2024, Phoenix football mega box 2024, Phoenix rookies 2024, Phoenix rookie cards 2024, Phoenix autos 2024, Phoenix autographs 2024, Phoenix parallels 2024, Phoenix color burst football 2024, Phoenix inserts 2024, Panini Phoenix Football checklist 2024, Phoenix checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Phoenix"
+    },
+    {
+      "Code": "2024-panini-photogenic-football",
+      "DisplayName": "2024 Panini Photogenic Football",
+      "Keywords": "2024 Panini Photogenic Football, 2024 Photogenic Football, Panini Photogenic Football 2024, Photogenic Football 2024, 2024 Panini Photogenic cards, Photogenic football cards 2024, Panini Photogenic NFL cards 2024, Photogenic football hobby box 2024, Photogenic football cards Panini 2024, Panini Photogenic rookies 2024, Photogenic rookie cards 2024, Panini Photogenic autos 2024, Photogenic autographs football 2024, Photogenic parallels 2024, Photogenic inserts football 2024, Panini Photogenic Football checklist 2024, Photogenic checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Photogenic"
+    },
+    {
+      "Code": "2024-panini-prestige-football",
+      "DisplayName": "2024 Panini Prestige Football",
+      "Keywords": "2024 Panini Prestige Football, 2024 Prestige Football, Panini Prestige Football 2024, Prestige Football 2024, 2024 Panini Prestige cards, Prestige football cards 2024, Panini Prestige NFL cards 2024, Prestige football hobby box 2024, Prestige football mega box 2024, Prestige football blaster 2024, Prestige football retail 2024, Prestige rookies 2024, Prestige rookie cards 2024, Prestige autos 2024, Prestige autographs 2024, Prestige parallels 2024, Prestige inserts 2024, Prestige xtra points parallels 2024, Panini Prestige Football checklist 2024, Prestige checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Prestige"
+    },
+    {
+      "Code": "2024-panini-prizm-deca-football",
+      "DisplayName": "2024 Panini Prizm Deca Football",
+      "Keywords": "2024 Panini Prizm Deca Football, 2024 Prizm Deca Football, Panini Prizm Deca Football 2024, Prizm Deca Football 2024, 2024 Panini Prizm Deca cards, Prizm Deca football cards 2024, Panini Prizm Deca NFL cards 2024, Prizm Deca football hobby box 2024, Prizm Deca football cards Panini 2024, Panini Prizm Deca rookies 2024, Prizm Deca rookie cards 2024, Panini Prizm Deca autos 2024, Prizm Deca autographs football 2024, Prizm Deca parallels 2024, Prizm Deca silver football cards 2024, Prizm Deca inserts football 2024, Prizm Deca prizms 2024, Panini Prizm Deca Football checklist 2024, Prizm Deca checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Prizm Deca"
+    },
+    {
+      "Code": "2024-panini-prizm-draft-picks-football",
+      "DisplayName": "2024 Panini Prizm Draft Picks Football",
+      "Keywords": "2024 Panini Prizm Draft Picks Football, 2024 Prizm Draft Picks Football, Panini Prizm Draft Picks Football 2024, Prizm Draft Picks Football 2024, 2024 Panini Prizm Draft Picks cards, Prizm Draft Picks football cards 2024, Panini Prizm Draft Picks NCAA football cards 2024, Prizm Draft Picks college football cards 2024, Prizm Draft Picks hobby box 2024, Prizm Draft Picks rookies 2024, Prizm Draft Picks rookie cards 2024, Prizm Draft Picks autos 2024, Prizm Draft Picks autographs 2024, Prizm Draft Picks parallels 2024, Prizm Draft Picks silver football cards 2024, Prizm Draft Picks prizms 2024, Prizm Draft Picks inserts 2024, Panini Prizm Draft Picks Football checklist 2024, Prizm Draft Picks checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Prizm Draft Picks"
+    },
+    {
+      "Code": "2024-panini-prizm-football",
+      "DisplayName": "2024 Panini Prizm Football",
+      "Keywords": "2024 Panini Prizm Football, 2024 Prizm Football, Panini Prizm Football 2024, Prizm Football 2024, 2024 Panini Prizm cards, Prizm football cards 2024, Panini Prizm NFL cards 2024, Prizm football hobby box 2024, Prizm football blaster 2024, Prizm football mega box 2024, Prizm football retail 2024, Prizm rookies 2024, Prizm rookie cards 2024, Prizm autos 2024, Prizm autographs 2024, Prizm parallels 2024, Prizm silver football cards 2024, Prizm prizms 2024, Prizm inserts 2024, Panini Prizm Football checklist 2024, Prizm checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Prizm"
+    },
+    {
+      "Code": "2024-panini-rookies-stars-football",
+      "DisplayName": "2024 Panini Rookies Stars Football",
+      "Keywords": "2024 Panini Rookies & Stars Football, 2024 Rookies and Stars Football, Panini Rookies and Stars Football 2024, Rookies and Stars Football 2024, 2024 Panini Rookies and Stars cards, Rookies and Stars football cards 2024, Panini Rookies and Stars NFL cards 2024, Rookies and Stars football hobby box 2024, Rookies and Stars football blaster 2024, Rookies and Stars rookies 2024, Rookies and Stars rookie cards 2024, Rookies and Stars autos 2024, Rookies and Stars autographs 2024, Rookies and Stars patch autos 2024, Rookies and Stars parallels 2024, Rookies and Stars inserts 2024, Rookies and Stars longevity parallels 2024, Panini Rookies and Stars Football checklist 2024, Rookies and Stars checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Rookies & Stars"
+    },
+    {
+      "Code": "2024-panini-select-football",
+      "DisplayName": "2024 Panini Select Football",
+      "Keywords": "2024 Panini Select Football, 2024 Select Football, Panini Select Football 2024, Select Football 2024, 2024 Panini Select cards, Select football cards 2024, Panini Select NFL cards 2024, Select football hobby box 2024, Select football blaster 2024, Select football mega box 2024, Select football retail 2024, Select rookies 2024, Select rookie cards 2024, Select autos 2024, Select autographs 2024, Select patch autos 2024, Select parallels 2024, Select prizm parallels football 2024, Select inserts 2024, Panini Select Football checklist 2024, Select checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Select"
+    },
+    {
+      "Code": "2024-panini-spectra-football",
+      "DisplayName": "2024 Panini Spectra Football",
+      "Keywords": "2024 Panini Spectra Football, 2024 Spectra Football, Panini Spectra Football 2024, Spectra Football 2024, 2024 Panini Spectra cards, Spectra football cards 2024, Panini Spectra NFL cards 2024, Spectra football hobby box 2024, Spectra football premium cards 2024, Panini Spectra rookies 2024, Spectra rookie cards 2024, Panini Spectra autos 2024, Spectra autographs football 2024, Spectra patch autos 2024, Spectra RPA football cards 2024, Spectra parallels 2024, Spectra color blast football 2024, Spectra inserts 2024, Panini Spectra Football checklist 2024, Spectra checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Spectra"
+    },
+    {
+      "Code": "2024-panini-totally-certified-football",
+      "DisplayName": "2024 Panini Totally Certified Football",
+      "Keywords": "2024 Panini Totally Certified Football, 2024 Totally Certified Football, Panini Totally Certified Football 2024, Totally Certified Football 2024, 2024 Panini Totally Certified cards, Totally Certified football cards 2024, Panini Totally Certified NFL cards 2024, Totally Certified football hobby box 2024, Totally Certified football cards Panini 2024, Panini Totally Certified rookies 2024, Totally Certified rookie cards 2024, Panini Totally Certified autos 2024, Totally Certified autographs football 2024, Totally Certified parallels 2024, Totally Certified mirror parallels 2024, Totally Certified inserts football 2024, Panini Totally Certified Football checklist 2024, Totally Certified checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Totally Certified"
+    },
+    {
+      "Code": "2024-panini-zenith-football",
+      "DisplayName": "2024 Panini Zenith Football",
+      "Keywords": "2024 Panini Zenith Football, 2024 Zenith Football, Panini Zenith Football 2024, Zenith Football 2024, 2024 Panini Zenith cards, Zenith football cards 2024, Panini Zenith NFL cards 2024, Zenith football hobby box 2024, Zenith football cards Panini 2024, Panini Zenith rookies 2024, Zenith rookie cards 2024, Panini Zenith autos 2024, Zenith autographs football 2024, Zenith patch autos 2024, Zenith rookie patch autos 2024, Zenith RPA football cards 2024, Zenith parallels 2024, Zenith inserts football 2024, Panini Zenith Football checklist 2024, Zenith checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Zenith"
+    },
+    {
+      "Code": "2024-score-a-treat-football",
+      "DisplayName": "2024 Score A Treat Football",
+      "Keywords": "2024 Score A Treat Football, 2024 Score A Treat NFL Football, Score A Treat Football 2024, Panini Score A Treat Football 2024, 2024 Score A Treat cards, Score A Treat football cards 2024, Score A Treat NFL cards 2024, Score A Treat Halloween football cards 2024, Score A Treat candy pack football cards 2024, Score A Treat rookies 2024, Score A Treat rookie cards 2024, Score A Treat parallels 2024, Score A Treat inserts 2024, Score A Treat pumpkin parallels 2024, Score A Treat trick or treat football cards 2024, Score A Treat Football checklist 2024, Score A Treat checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Score A Treat"
+    },
+    {
+      "Code": "2024-score-football",
+      "DisplayName": "2024 Score Football",
+      "Keywords": "2024 Score Football, 2024 Panini Score Football, Score Football 2024, Panini Score Football 2024, 2024 Score cards, Score football cards 2024, Panini Score NFL cards 2024, Score football hobby box 2024, Score football blaster 2024, Score football retail 2024, Score rookies 2024, Score rookie cards 2024, Score autos 2024, Score autographs 2024, Score parallels 2024, Score red zone football cards 2024, Score inserts 2024, Panini Score Football checklist 2024, Score checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Score"
+    },
+    {
+      "Code": "2024-topps-chrome-football",
+      "DisplayName": "2024 Topps Chrome Football",
+      "Keywords": "2024 Topps Chrome Football, Topps Chrome Football 2024, 2024 Topps Chrome NFL cards, Topps Chrome football cards 2024, 2024 Topps Chrome cards, Topps Chrome football hobby box 2024, Topps Chrome football blaster 2024, Topps Chrome football mega box 2024, Topps Chrome football retail 2024, Topps Chrome rookies 2024, Topps Chrome rookie cards 2024, Topps Chrome autos 2024, Topps Chrome autographs 2024, Topps Chrome parallels 2024, Topps Chrome refractors 2024, Topps Chrome superfractor 2024, Topps Chrome inserts 2024, Topps Chrome Football checklist 2024, Topps Chrome checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Chrome"
+    },
+    {
+      "Code": "2024-topps-chrome-sapphire-football",
+      "DisplayName": "2024 Topps Chrome Sapphire Football",
+      "Keywords": "2024 Topps Chrome Sapphire Football, Topps Chrome Sapphire Football 2024, 2024 Topps Chrome Sapphire NFL cards, Topps Chrome Sapphire football cards 2024, 2024 Topps Sapphire Football cards, Topps Sapphire football cards 2024, Topps Chrome Sapphire football hobby box 2024, Topps Chrome Sapphire football box 2024, Topps Chrome Sapphire rookies 2024, Topps Chrome Sapphire rookie cards 2024, Topps Chrome Sapphire autos 2024, Topps Chrome Sapphire autographs 2024, Topps Chrome Sapphire parallels 2024, Topps Chrome Sapphire refractors 2024, Topps Chrome Sapphire superfractor 2024, Topps Chrome Sapphire inserts 2024, Topps Chrome Sapphire Football checklist 2024, Topps Chrome Sapphire checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Chrome Sapphire"
+    },
+    {
+      "Code": "2024-topps-cosmic-chrome-football",
+      "DisplayName": "2024 Topps Cosmic Chrome Football",
+      "Keywords": "2024 Topps Cosmic Chrome Football, Topps Cosmic Chrome Football 2024, 2024 Topps Cosmic Chrome NFL cards, Topps Cosmic Chrome football cards 2024, 2024 Topps Cosmic Chrome cards, Cosmic Chrome football cards 2024, Topps Cosmic Chrome hobby box 2024, Topps Cosmic Chrome football box 2024, Topps Cosmic Chrome rookies 2024, Topps Cosmic Chrome rookie cards 2024, Topps Cosmic Chrome autos 2024, Topps Cosmic Chrome autographs 2024, Topps Cosmic Chrome parallels 2024, Topps Cosmic Chrome refractors 2024, Cosmic Chrome orbit parallels 2024, Topps Cosmic Chrome inserts 2024, Topps Cosmic Chrome Football checklist 2024, Cosmic Chrome checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Cosmic Chrome"
+    },
+    {
+      "Code": "2024-topps-finest-football",
+      "DisplayName": "2024 Topps Finest Football",
+      "Keywords": "2024 Topps Finest Football, Topps Finest Football 2024, 2024 Topps Finest NFL cards, Topps Finest football cards 2024, 2024 Topps Finest cards, Finest football cards 2024, Topps Finest football hobby box 2024, Topps Finest football box 2024, Topps Finest rookies 2024, Topps Finest rookie cards 2024, Topps Finest autos 2024, Topps Finest autographs 2024, Topps Finest parallels 2024, Topps Finest refractors 2024, Topps Finest superfractor 2024, Topps Finest inserts 2024, Topps Finest Football checklist 2024, Topps Finest checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Finest"
+    },
+    {
+      "Code": "2024-topps-inception-football",
+      "DisplayName": "2024 Topps Inception Football",
+      "Keywords": "2024 Topps Inception Football, Topps Inception Football 2024, 2024 Topps Inception NFL cards, Topps Inception football cards 2024, 2024 Topps Inception cards, Inception football cards 2024, Topps Inception football hobby box 2024, Topps Inception football box 2024, Topps Inception rookies 2024, Topps Inception rookie cards 2024, Topps Inception autos 2024, Topps Inception autographs 2024, Topps Inception patch autos 2024, Inception RPA football cards 2024, Topps Inception parallels 2024, Topps Inception jumbo patch autos 2024, Topps Inception inserts 2024, Topps Inception Football checklist 2024, Topps Inception checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Inception"
+    },
+    {
+      "Code": "2024-topps-midnight-football",
+      "DisplayName": "2024 Topps Midnight Football",
+      "Keywords": "2024 Topps Midnight Football, Topps Midnight Football 2024, 2024 Topps Midnight NFL cards, Topps Midnight football cards 2024, 2024 Topps Midnight cards, Midnight football cards 2024, Topps Midnight football hobby box 2024, Topps Midnight football box 2024, Topps Midnight rookies 2024, Topps Midnight rookie cards 2024, Topps Midnight autos 2024, Topps Midnight autographs 2024, Topps Midnight parallels 2024, Topps Midnight refractors 2024, Topps Midnight inserts 2024, Midnight football parallels 2024, Topps Midnight Football checklist 2024, Topps Midnight checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Midnight"
+    },
+    {
+      "Code": "2024-topps-now-rookie-campaign-quarterbacks-football",
+      "DisplayName": "2024 Topps Now Rookie Campaign Quarterbacks Football",
+      "Keywords": "2024 Topps Now Rookie Campaign Quarterbacks Football, Topps Now Rookie Campaign Quarterbacks 2024, 2024 Topps Now Rookie Campaign QBs Football, Topps Now rookie quarterbacks 2024, Topps Now QB rookie cards 2024, 2024 Topps Now football cards, Topps Now football cards 2024, Topps Now on demand football cards 2024, Topps Now rookie campaign quarterbacks checklist 2024, Topps Now rookie QBs 2024, Topps Now rookie quarterback cards 2024, Topps Now limited print football cards 2024, Topps Now parallels football 2024, Topps Now autos football 2024, Topps Now autographs football 2024, Topps Now inserts football 2024, Topps Now Rookie Campaign Football checklist 2024, Topps Now checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Now Rookie Campaign Quarterbacks"
+    },
+    {
+      "Code": "2024-topps-resurgence-football",
+      "DisplayName": "2024 Topps Resurgence Football",
+      "Keywords": "2024 Topps Resurgence Football, Topps Resurgence Football 2024, 2024 Topps Resurgence NFL cards, Topps Resurgence football cards 2024, 2024 Topps Resurgence cards, Resurgence football cards 2024, Topps Resurgence football hobby box 2024, Topps Resurgence football box 2024, Topps Resurgence rookies 2024, Topps Resurgence rookie cards 2024, Topps Resurgence autos 2024, Topps Resurgence autographs 2024, Topps Resurgence parallels 2024, Topps Resurgence refractors 2024, Topps Resurgence inserts 2024, Resurgence football parallels 2024, Topps Resurgence Football checklist 2024, Topps Resurgence checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Resurgence"
+    },
+    {
+      "Code": "2024-topps-signature-class-football",
+      "DisplayName": "2024 Topps Signature Class Football",
+      "Keywords": "2024 Topps Signature Class Football, Topps Signature Class Football 2024, 2024 Topps Signature Class NFL cards, Topps Signature Class football cards 2024, 2024 Topps Signature Class cards, Signature Class football cards 2024, Topps Signature Class football hobby box 2024, Topps Signature Class football box 2024, Topps Signature Class rookies 2024, Topps Signature Class rookie cards 2024, Topps Signature Class autos 2024, Topps Signature Class autographs 2024, Topps Signature Class parallels 2024, Topps Signature Class inserts 2024, Signature Class football parallels 2024, Signature Class football autos 2024, Topps Signature Class Football checklist 2024, Topps Signature Class checklist",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Topps Signature Class"
+    },
+    {
+      "Code": "2024-upper-deck-cfl-football",
+      "DisplayName": "2024 Upper Deck CFL Football",
+      "Keywords": "2024 Upper Deck CFL Football, Upper Deck CFL Football 2024, 2024 Upper Deck CFL cards, Upper Deck CFL football cards 2024, 2024 CFL football cards, CFL football cards 2024 Upper Deck, Upper Deck Canadian Football League cards 2024, CFL football hobby box 2024, Upper Deck CFL rookies 2024, CFL rookie cards 2024, Upper Deck CFL autos 2024, CFL autographs 2024, Upper Deck CFL parallels 2024, CFL inserts 2024, Canadian Football League cards 2024, CFL stars football cards 2024, Upper Deck CFL Football checklist 2024, CFL checklist",
+      "year": "2024",
       "sport": "football",
       "manufacturer": "Upper Deck",
       "product": "CFL"
