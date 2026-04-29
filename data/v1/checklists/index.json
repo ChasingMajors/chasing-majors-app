@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist product bundle rebuild",
-  "generated_at": "2026-04-29T03:36:31.172Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-04-29T03:42:14.299Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -4655,6 +4655,33 @@
       "sport": "football",
       "manufacturer": "Upper Deck",
       "product": "CFL"
+    },
+    {
+      "Code": "2025-26-flair-hockey",
+      "DisplayName": "2025-26 Flair Hockey",
+      "Keywords": "2025-26 Flair Hockey, 2025-26 Upper Deck Flair Hockey, 2025-26 Flair Hockey cards, 2025-26 Flair NHL, 2025-26 Upper Deck Flair cards, 25-26 Flair Hockey, 25-26 Upper Deck Flair Hockey, Upper Deck Flair Hockey 2025-26, Upper Deck Flair 2025-26, Flair Hockey cards, Flair Hockey, Upper Deck Flair Hockey, Upper Deck Flair, Flair NHL cards, Upper Deck Flair hockey cards, Upper Deck Flair Hockey checklist, Flair checklist, 2025-26 Flair checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Flair",
+      "product": "Hockey"
+    },
+    {
+      "Code": "2025-26-skybox-metal-universe-hockey",
+      "DisplayName": "2025-26 Skybox Metal Universe Hockey",
+      "Keywords": "2025-26 SkyBox Metal Universe Hockey, 2025-26 Skybox Metal Universe Hockey, 2025-26 Metal Universe Hockey, 2025-26 SkyBox Metal Universe cards, 2025-26 Upper Deck SkyBox Metal Universe Hockey, 25-26 SkyBox Metal Universe Hockey, 25-26 Metal Universe Hockey, SkyBox Metal Universe Hockey 2025-26, Upper Deck Metal Universe Hockey 2025-26, Metal Universe Hockey cards, SkyBox Metal Universe Hockey, Metal Universe Hockey, SkyBox Metal Universe, Metal Universe NHL, SkyBox Metal Universe hockey cards, SkyBox Metal Universe Hockey, Metal Universe, 2025-26 SkyBox Metal Universe",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Skybox",
+      "product": "Metal Universe"
+    },
+    {
+      "Code": "2025_26_Upper_Deck_Series_2_Hockey",
+      "DisplayName": "2025-26 Upper Deck Series 2 Hockey",
+      "Keywords": "2025-26 Series 2 Hockey, Upper Deck Series 2 Hockey,  Series 2 Hockey, 2025 Upper Deck Series 2 Hockey, 2026 Upper Deck Series 2 Hockey",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Series 2"
     },
     {
       "Code": "2026_Topps_Finest_Premier_League_Soccer",
