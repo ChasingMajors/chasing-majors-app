@@ -752,6 +752,49 @@ function normalizeQuery_(value) {
     .trim();
 }
 
+function searchTokens_(value) {
+  return normalizeQuery_(value)
+    .split(/\s+/)
+    .map(t => t.trim())
+    .filter(t => t.length >= 2);
+}
+
+function buildSearchHaystack_(parts) {
+  return normalizeQuery_((parts || []).filter(Boolean).join(" "));
+}
+
+function scoreProductMatch_(query, item) {
+  const needle = normalizeQuery_(query);
+  if (!needle) return -1;
+
+  const displayName = normalizeQuery_(item.DisplayName || item.displayName || item.term || "");
+  const keywords = normalizeQuery_(item.Keywords || item.keywords || item.search_blob || "");
+  const code = normalizeQuery_(item.Code || item.code || "");
+  const product = normalizeQuery_(item.product || "");
+  const manufacturer = normalizeQuery_(item.manufacturer || "");
+  const sport = normalizeQuery_(item.sport || "");
+  const year = normalizeQuery_(item.year || "");
+  const hay = buildSearchHaystack_([displayName, keywords, code, product, manufacturer, sport, year]);
+  const tokens = searchTokens_(needle);
+
+  if (!hay || !tokens.length) return -1;
+  if (displayName === needle || code === needle) return 10000;
+  if (displayName.startsWith(needle) || code.startsWith(needle)) return 9000;
+  if (hay.includes(needle)) return 8000 - Math.max(0, displayName.length - needle.length);
+  if (!tokens.every(t => hay.includes(t))) return -1;
+
+  let score = 5000;
+  tokens.forEach(t => {
+    if (displayName.includes(t)) score += 90;
+    else if (keywords.includes(t)) score += 45;
+    else if (code.includes(t)) score += 35;
+    else score += 10;
+  });
+
+  if (year && tokens.some(t => year.includes(t))) score += 120;
+  return score - Math.min(displayName.length, 300);
+}
+
 function inferSearchKind_(value, selectedType) {
   const st = String(selectedType || "").trim().toLowerCase();
   if (st) return st;
@@ -1000,10 +1043,11 @@ async function searchStaticTypeahead_(q, sport, limit = 10) {
   if (!needle || needle.length < 2) return [];
 
   const rows = await loadStaticChecklistSearchRows_(sport || "all");
-  return sortByDisplayPriority(rows.filter(r => {
-    const hay = normalizeQuery_(`${r.term} ${r.displayName} ${r.player} ${r.team} ${r.code} ${r.search_blob}`);
-    return hay.includes(needle);
-  })).slice(0, limit);
+  return sortByDisplayPriority(rows
+    .map(r => Object.assign({}, r, { _score: scoreProductMatch_(needle, r) }))
+    .filter(r => r._score >= 0)
+    .sort((a, b) => b._score - a._score)
+  ).slice(0, limit);
 }
 
 async function searchStaticCards_(q, sport, page = 1, pageSize = BROAD_PAGE_SIZE) {
@@ -1303,6 +1347,7 @@ function dedupeTypeaheadResults(rows) {
 
 function makeProductHitsFromLocalIndex(q, sport, limit = 8) {
   const needle = normalizeQuery_(q);
+  if (!needle || needle.length < 2) return [];
 
   let rows = INDEX.slice();
 
@@ -1310,19 +1355,8 @@ function makeProductHitsFromLocalIndex(q, sport, limit = 8) {
     rows = rows.filter(r => normalizeQuery_(r.sport) === normalizeQuery_(sport));
   }
 
-  const exact = [];
-  const starts = [];
-  const contains = [];
-
-  rows.forEach(r => {
-    const displayName = normalizeQuery_(r.DisplayName);
-    const keywords = normalizeQuery_(r.Keywords);
-    const code = normalizeQuery_(r.Code);
-    const hay = `${displayName} | ${keywords} | ${code}`;
-
-    if (!hay.includes(needle)) return;
-
-    const out = {
+  return dedupeTypeaheadResults(rows
+    .map(r => ({
       term: r.DisplayName,
       type: "product",
       sport: r.sport,
@@ -1330,15 +1364,13 @@ function makeProductHitsFromLocalIndex(q, sport, limit = 8) {
       displayName: r.DisplayName,
       year: r.year,
       manufacturer: r.manufacturer,
-      product: r.product
-    };
-
-    if (displayName === needle || code === needle) exact.push(out);
-    else if (displayName.indexOf(needle) === 0 || keywords.indexOf(needle) === 0 || code.indexOf(needle) === 0) starts.push(out);
-    else contains.push(out);
-  });
-
-  return dedupeTypeaheadResults(exact.concat(starts, contains)).slice(0, limit);
+      product: r.product,
+      Keywords: r.Keywords,
+      _score: scoreProductMatch_(needle, r)
+    }))
+    .filter(r => r._score >= 0)
+    .sort((a, b) => b._score - a._score)
+  ).slice(0, limit);
 }
 
 function mergeTypeaheadResults(localHits, remoteHits, limit = 10) {
