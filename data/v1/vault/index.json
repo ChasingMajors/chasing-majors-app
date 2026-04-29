@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-04-29T18:01:52.271Z",
+  "generated_at": "2026-04-29T21:32:16.892Z",
   "index": [
     {
       "Code": "19TFmbl",
@@ -661,6 +661,36 @@
       "sport": "Football",
       "manufacturer": "Topps",
       "product": "Chrome",
+      "cmURL": ""
+    },
+    {
+      "Code": "2026_Topps_Chrome_Black",
+      "DisplayName": "2026 Topps Chrome Black Baseball",
+      "Keywords": "2026 Topps Chrome Black Baseball, 2026 Topps Chrome Black, 26 Topps Chrome Black, Topps Chrome Black Baseball, Topps Chrome Black",
+      "year": "",
+      "sport": "Baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Black",
+      "cmURL": ""
+    },
+    {
+      "Code": "2025_26_bowman_basketball",
+      "DisplayName": "2026 Bowman Baseball",
+      "Keywords": "2025-26 Bowman Basketball, 2025 Bowman Basketball, 2026 Bowman Basketball, Bowman Basketball 2025-26, Bowman Basketball 2025, Bowman Basketball 2026, 2025-26 Bowman cards, Bowman basketball cards 2025, Bowman basketball cards 2026, Bowman basketball rookies 2025, Bowman rookie cards basketball 2025-26, Bowman chrome basketball 2025-26, Bowman prospects basketball 2025-26, Bowman parallels basketball 2025-26, Bowman autos basketball 2025-26, Bowman Basketball checklist 2025-26, Bowman basketball checklist",
+      "year": "",
+      "sport": "Baseball",
+      "manufacturer": "Topps",
+      "product": "Bowman",
+      "cmURL": ""
+    },
+    {
+      "Code": "2025_26_topps_signature_class_basketball",
+      "DisplayName": "2025-26 Topps Signature Class Basketball",
+      "Keywords": "2025-26 Topps Signature Class Basketball, 2025 Topps Signature Class Basketball, 2026 Topps Signature Class Basketball, Topps Signature Class Basketball 2025-26, Topps Signature Class Basketball 2025, Topps Signature Class Basketball 2026, 2025-26 Topps Signature Class cards, Topps Signature Class basketball cards 2025, Topps Signature Class basketball cards 2026, Signature Class basketball cards 2025-26, Topps Signature Class rookies basketball 2025-26, Topps Signature Class rookie cards basketball 2025, Topps Signature Class autos basketball 2025-26, Topps Signature Class autographs basketball 2025-26, Topps Signature Class parallels basketball 2025-26, Topps Signature Class Basketball checklist 2025-26, Topps Signature Class checklist",
+      "year": "",
+      "sport": "Basketball",
+      "manufacturer": "Topps",
+      "product": "Signature Class",
       "cmURL": ""
     }
   ]
