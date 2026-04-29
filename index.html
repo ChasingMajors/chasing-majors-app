@@ -949,7 +949,7 @@
     const CHECKLIST_EXEC_URL = "https://script.google.com/macros/s/AKfycbxVsOvACvcgwf8igVdlRcGVqTa0KciCO_w23GCHzVXp4dQrUE-4hx1Uut5o_KrCLXYL/exec";
     const STATIC_DATA_BASE = "/data/v1";
 
-    const HOME_INDEX_KEY = "cm_home_index_v3";
+    const HOME_INDEX_KEY = "cm_home_index_v4";
     const HOME_FEED_CACHE_KEY = "cm_home_feed_cache_v2";
     const HOME_FEED_CACHE_TTL_MS = 5 * 60 * 1000;
 
@@ -1000,6 +1000,53 @@
         .replace(/[^\w\s']/g, " ")
         .replace(/\s+/g, " ")
         .trim();
+    }
+
+    function searchTokens(value) {
+      return normalizeQuery(value)
+        .split(/\s+/)
+        .map(function (t) { return t.trim(); })
+        .filter(function (t) { return t.length >= 2; });
+    }
+
+    function buildSearchHaystack(parts) {
+      return normalizeQuery((parts || []).filter(Boolean).join(" "));
+    }
+
+    function scoreHomeProductMatch(query, item) {
+      var needle = normalizeQuery(query);
+      if (!needle) return -1;
+
+      var displayName = normalizeQuery(item.DisplayName || item.displayName || item.term || "");
+      var keywords = normalizeQuery(item.Keywords || item.keywords || item.search_blob || "");
+      var code = normalizeQuery(item.Code || item.code || "");
+      var product = normalizeQuery(item.product || "");
+      var manufacturer = normalizeQuery(item.manufacturer || "");
+      var sport = normalizeQuery(item.sport || "");
+      var year = normalizeQuery(item.year || "");
+      var hay = buildSearchHaystack([displayName, keywords, code, product, manufacturer, sport, year]);
+      var tokens = searchTokens(needle);
+
+      if (!hay || !tokens.length) return -1;
+      if (displayName === needle || code === needle) return 10000;
+      if (displayName.indexOf(needle) === 0 || code.indexOf(needle) === 0) return 9000;
+      if (hay.indexOf(needle) !== -1) return 8000 - Math.max(0, displayName.length - needle.length);
+
+      var allTokensMatch = tokens.every(function (t) {
+        return hay.indexOf(t) !== -1;
+      });
+      if (!allTokensMatch) return -1;
+
+      var score = 5000;
+      tokens.forEach(function (t) {
+        if (displayName.indexOf(t) !== -1) score += 90;
+        else if (keywords.indexOf(t) !== -1) score += 45;
+        else if (code.indexOf(t) !== -1) score += 35;
+        else score += 10;
+      });
+
+      if (year && tokens.some(function (t) { return year.indexOf(t) !== -1; })) score += 120;
+      return score - Math.min(displayName.length, 300);
     }
 
     function escapeHtml(str) {
@@ -1535,26 +1582,27 @@
       var q = normalizeQuery(query);
       if (!q || q.length < 2) return [];
 
-      var exact = [];
-      var starts = [];
-      var contains = [];
+      var scored = [];
 
       homeIndex.forEach(function(item) {
-        var displayName = normalizeQuery(item.DisplayName || "");
-        var keywords = normalizeQuery(item.Keywords || "");
-        var code = normalizeQuery(item.Code || "");
-        var hay = displayName + " | " + keywords + " | " + code;
-
-        if (!hay.includes(q)) return;
-
-        if (displayName === q || code === q) exact.push(item);
-        else if (displayName.indexOf(q) === 0 || keywords.indexOf(q) === 0 || code.indexOf(q) === 0) starts.push(item);
-        else contains.push(item);
+        var score = scoreHomeProductMatch(q, item);
+        if (score < 0) return;
+        scored.push({
+          item: item,
+          score: score,
+          name: String(item.DisplayName || item.displayName || "")
+        });
       });
 
-      var out = exact.concat(starts, contains);
+      scored.sort(function (a, b) {
+        if (b.score !== a.score) return b.score - a.score;
+        return a.name.localeCompare(b.name);
+      });
+
       var seen = {};
-      return out.filter(function(item) {
+      return scored.map(function (entry) {
+        return entry.item;
+      }).filter(function(item) {
         var key = String(item.Code || "") + "|" + String(item.DisplayName || "");
         if (seen[key]) return false;
         seen[key] = true;
