@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-04-30T16:36:36.372Z",
+  "generated_at": "2026-04-30T17:18:28.821Z",
   "shard": 8,
   "shard_count": 8,
   "products": {
@@ -4078,7 +4078,7 @@
           "card_no": "FP-1",
           "player": "Shad Mayfield",
           "team": "Texas Rangers",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -4088,7 +4088,7 @@
           "card_no": "FP-2",
           "player": "Kelvin Sampson",
           "team": "Houston Astros",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -4098,7 +4098,7 @@
           "card_no": "FP-3",
           "player": "Caroline Marks",
           "team": "Angels",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -4108,7 +4108,7 @@
           "card_no": "FP-4",
           "player": "Kevin Negandhi",
           "team": "Seattle Mariners",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -4118,7 +4118,7 @@
           "card_no": "FP-5",
           "player": "Jesse Eisenberg",
           "team": "Cincinnati Reds",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -4128,7 +4128,7 @@
           "card_no": "FP-6",
           "player": "Tony Hawk",
           "team": "San Diego Padres",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -4138,7 +4138,7 @@
           "card_no": "FP-7",
           "player": "Jackie Hornung",
           "team": "New York Mets",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -4148,7 +4148,7 @@
           "card_no": "FP-8",
           "player": "Alysha Newman",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -4158,7 +4158,7 @@
           "card_no": "FP-9",
           "player": "Mannie Fresh",
           "team": "Cleveland Guardians",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -5268,7 +5268,7 @@
           "card_no": "MLMA-AB",
           "player": "Alex Bregman",
           "team": "Boston Red Sox",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5278,7 +5278,7 @@
           "card_no": "MLMA-AG",
           "player": "Adolis García",
           "team": "Texas Rangers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5288,7 +5288,7 @@
           "card_no": "MLMA-AK",
           "player": "Alejandro Kirk",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5298,7 +5298,7 @@
           "card_no": "MLMA-AN",
           "player": "Aaron Nola",
           "team": "Philadelphia Phillies",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5308,7 +5308,7 @@
           "card_no": "MLMA-ARI",
           "player": "Austin Riley",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5318,7 +5318,7 @@
           "card_no": "MLMA-ARU",
           "player": "Adley Rutschman",
           "team": "Baltimore Orioles",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5328,7 +5328,7 @@
           "card_no": "MLMA-AV",
           "player": "Anthony Volpe",
           "team": "New York Yankees",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5338,7 +5338,7 @@
           "card_no": "MLMA-AW",
           "player": "Austin Wells",
           "team": "New York Yankees",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5348,7 +5348,7 @@
           "card_no": "MLMA-BBX",
           "player": "Byron Buxton",
           "team": "Minnesota Twins",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5358,7 +5358,7 @@
           "card_no": "MLMA-BC",
           "player": "Bubba Chandler",
           "team": "Pittsburgh Pirates",
-          "tag": "RC"
+          "tag": "RC /50"
         },
         {
           "code": "2026_topps_series1",
@@ -5368,7 +5368,7 @@
           "card_no": "MLMA-BH",
           "player": "Brady House",
           "team": "Washington Nationals",
-          "tag": "RC"
+          "tag": "RC /50"
         },
         {
           "code": "2026_topps_series1",
@@ -5378,7 +5378,7 @@
           "card_no": "MLMA-BL",
           "player": "Brooks Lee",
           "team": "Minnesota Twins",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5388,7 +5388,7 @@
           "card_no": "MLMA-BMA",
           "player": "Brice Matthews",
           "team": "Houston Astros",
-          "tag": "RC"
+          "tag": "RC /50"
         },
         {
           "code": "2026_topps_series1",
@@ -5398,7 +5398,7 @@
           "card_no": "MLMA-BN",
           "player": "Brandon Nimmo",
           "team": "New York Mets",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5408,7 +5408,7 @@
           "card_no": "MLMA-BR",
           "player": "Bryan Reynolds",
           "team": "Pittsburgh Pirates",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5418,7 +5418,7 @@
           "card_no": "MLMA-BRI",
           "player": "Ben Rice",
           "team": "New York Yankees",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5428,7 +5428,7 @@
           "card_no": "MLMA-BRO",
           "player": "Brent Rooker",
           "team": "Athletics",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5438,7 +5438,7 @@
           "card_no": "MLMA-BS",
           "player": "Bryson Stott",
           "team": "Philadelphia Phillies",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5448,7 +5448,7 @@
           "card_no": "MLMA-BW",
           "player": "Bobby Witt Jr.",
           "team": "Kansas City Royals",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5458,7 +5458,7 @@
           "card_no": "MLMA-CA",
           "player": "CJ Abrams",
           "team": "Washington Nationals",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5468,7 +5468,7 @@
           "card_no": "MLMA-CB",
           "player": "Chase Burns",
           "team": "Cincinnati Reds",
-          "tag": "RC"
+          "tag": "RC /50"
         },
         {
           "code": "2026_topps_series1",
@@ -5478,7 +5478,7 @@
           "card_no": "MLMA-CC",
           "player": "Corbin Carroll",
           "team": "Arizona Diamondbacks",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5488,7 +5488,7 @@
           "card_no": "MLMA-CMO",
           "player": "Colson Montgomery",
           "team": "Chicago White Sox",
-          "tag": "RC"
+          "tag": "RC /50"
         },
         {
           "code": "2026_topps_series1",
@@ -5498,7 +5498,7 @@
           "card_no": "MLMA-COL",
           "player": "Colby Thomas",
           "team": "Athletics",
-          "tag": "RC"
+          "tag": "RC /50"
         },
         {
           "code": "2026_topps_series1",
@@ -5508,7 +5508,7 @@
           "card_no": "MLMA-CRO",
           "player": "Carlos Rodón",
           "team": "New York Yankees",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5518,7 +5518,7 @@
           "card_no": "MLMA-CW",
           "player": "Carson Williams",
           "team": "Tampa Bay Rays",
-          "tag": "RC"
+          "tag": "RC /50"
         },
         {
           "code": "2026_topps_series1",
@@ -5528,7 +5528,7 @@
           "card_no": "MLMA-DS",
           "player": "Dansby Swanson",
           "team": "Chicago Cubs",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5538,7 +5538,7 @@
           "card_no": "MLMA-DV",
           "player": "Daulton Varsho",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5548,7 +5548,7 @@
           "card_no": "MLMA-EC",
           "player": "Evan Carter",
           "team": "Texas Rangers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5558,7 +5558,7 @@
           "card_no": "MLMA-FF",
           "player": "Freddie Freeman",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5568,7 +5568,7 @@
           "card_no": "MLMA-FP",
           "player": "Freddy Peralta",
           "team": "Milwaukee Brewers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5578,7 +5578,7 @@
           "card_no": "MLMA-FRE",
           "player": "Alex Freeland",
           "team": "Los Angeles Dodgers",
-          "tag": "RC"
+          "tag": "RC /50"
         },
         {
           "code": "2026_topps_series1",
@@ -5588,7 +5588,7 @@
           "card_no": "MLMA-FT",
           "player": "Fernando Tatis Jr.",
           "team": "San Diego Padres",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5598,7 +5598,7 @@
           "card_no": "MLMA-GH",
           "player": "Gunnar Henderson",
           "team": "Baltimore Orioles",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5608,7 +5608,7 @@
           "card_no": "MLMA-GS",
           "player": "George Springer",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5618,7 +5618,7 @@
           "card_no": "MLMA-HK",
           "player": "Hyeseong Kim",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5628,7 +5628,7 @@
           "card_no": "MLMA-JA",
           "player": "Jose Altuve",
           "team": "Houston Astros",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5638,7 +5638,7 @@
           "card_no": "MLMA-JC",
           "player": "Junior Caminero",
           "team": "Tampa Bay Rays",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5648,7 +5648,7 @@
           "card_no": "MLMA-JCA",
           "player": "Jac Caglianone",
           "team": "Kansas City Royals",
-          "tag": "RC"
+          "tag": "RC /50"
         },
         {
           "code": "2026_topps_series1",
@@ -5658,7 +5658,7 @@
           "card_no": "MLMA-JCH",
           "player": "Jackson Chourio",
           "team": "Milwaukee Brewers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5668,7 +5668,7 @@
           "card_no": "MLMA-JCJ",
           "player": "Jazz Chisholm Jr.",
           "team": "New York Yankees",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5678,7 +5678,7 @@
           "card_no": "MLMA-JD",
           "player": "Jasson Domínguez",
           "team": "New York Yankees",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5688,7 +5688,7 @@
           "card_no": "MLMA-JHL",
           "player": "Jung Hoo Lee",
           "team": "San Francisco Giants",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5698,7 +5698,7 @@
           "card_no": "MLMA-JL",
           "player": "Josh Lowe",
           "team": "Tampa Bay Rays",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5708,7 +5708,7 @@
           "card_no": "MLMA-JM",
           "player": "Jackson Merrill",
           "team": "San Diego Padres",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5718,7 +5718,7 @@
           "card_no": "MLMA-JMI",
           "player": "Jacob Misiorowski",
           "team": "Milwaukee Brewers",
-          "tag": "RC"
+          "tag": "RC /50"
         },
         {
           "code": "2026_topps_series1",
@@ -5728,7 +5728,7 @@
           "card_no": "MLMA-JR",
           "player": "Julio Rodríguez",
           "team": "Seattle Mariners",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5738,7 +5738,7 @@
           "card_no": "MLMA-KT",
           "player": "Kyle Teel",
           "team": "Chicago White Sox",
-          "tag": "RC"
+          "tag": "RC /50"
         },
         {
           "code": "2026_topps_series1",
@@ -5748,7 +5748,7 @@
           "card_no": "MLMA-KTU",
           "player": "Kyle Tucker",
           "team": "Chicago Cubs",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5758,7 +5758,7 @@
           "card_no": "MLMA-LA",
           "player": "Luis Arraez",
           "team": "San Diego Padres",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5768,7 +5768,7 @@
           "card_no": "MLMA-LB",
           "player": "Lawrence Butler",
           "team": "Athletics",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5778,7 +5778,7 @@
           "card_no": "MLMA-LC",
           "player": "Luis Castillo",
           "team": "Seattle Mariners",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5788,7 +5788,7 @@
           "card_no": "MLMA-LN",
           "player": "Lars Nootbaar",
           "team": "St. Louis Cardinals",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5798,7 +5798,7 @@
           "card_no": "MLMA-LW",
           "player": "Logan Webb",
           "team": "San Francisco Giants",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5808,7 +5808,7 @@
           "card_no": "MLMA-MC",
           "player": "Matt Chapman",
           "team": "San Francisco Giants",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5818,7 +5818,7 @@
           "card_no": "MLMA-MH",
           "player": "Michael Harris II",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5828,7 +5828,7 @@
           "card_no": "MLMA-MM",
           "player": "Manny Machado",
           "team": "San Diego Padres",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5838,7 +5838,7 @@
           "card_no": "MLMA-MT",
           "player": "Mike Trout",
           "team": "Angels",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5848,7 +5848,7 @@
           "card_no": "MLMA-MW",
           "player": "Masyn Winn",
           "team": "St. Louis Cardinals",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5858,7 +5858,7 @@
           "card_no": "MLMA-NH",
           "player": "Nico Hoerner",
           "team": "Chicago Cubs",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5868,7 +5868,7 @@
           "card_no": "MLMA-NK",
           "player": "Nick Kurtz",
           "team": "Athletics",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5878,7 +5878,7 @@
           "card_no": "MLMA-NS",
           "player": "Nolan Schanuel",
           "team": "Angels",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5888,7 +5888,7 @@
           "card_no": "MLMA-OA",
           "player": "Ozzie Albies",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5898,7 +5898,7 @@
           "card_no": "MLMA-PA",
           "player": "Pete Alonso",
           "team": "New York Mets",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5908,7 +5908,7 @@
           "card_no": "MLMA-PB",
           "player": "Patrick Bailey",
           "team": "San Francisco Giants",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5918,7 +5918,7 @@
           "card_no": "MLMA-PS",
           "player": "Paul Skenes",
           "team": "Pittsburgh Pirates",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5928,7 +5928,7 @@
           "card_no": "MLMA-RA",
           "player": "Randy Arozarena",
           "team": "Seattle Mariners",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5938,7 +5938,7 @@
           "card_no": "MLMA-RAJ",
           "player": "Ronald Acuña Jr.",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5948,7 +5948,7 @@
           "card_no": "MLMA-RG",
           "player": "Riley Greene",
           "team": "Detroit Tigers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5958,7 +5958,7 @@
           "card_no": "MLMA-RL",
           "player": "Royce Lewis",
           "team": "Minnesota Twins",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5968,7 +5968,7 @@
           "card_no": "MLMA-RS",
           "player": "Roki Sasaki",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5978,7 +5978,7 @@
           "card_no": "MLMA-RY",
           "player": "Ryan Ritter",
           "team": "Colorado Rockies",
-          "tag": "RC"
+          "tag": "RC /50"
         },
         {
           "code": "2026_topps_series1",
@@ -5988,7 +5988,7 @@
           "card_no": "MLMA-SF",
           "player": "Sal Frelick",
           "team": "Milwaukee Brewers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -5998,7 +5998,7 @@
           "card_no": "MLMA-SI",
           "player": "Shota Imanaga",
           "team": "Chicago Cubs",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6008,7 +6008,7 @@
           "card_no": "MLMA-SS",
           "player": "Spencer Strider",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6018,7 +6018,7 @@
           "card_no": "MLMA-SSC",
           "player": "Spencer Schwellenbach",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6028,7 +6028,7 @@
           "card_no": "MLMA-TH",
           "player": "Teoscar Hernández",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6038,7 +6038,7 @@
           "card_no": "MLMA-TM",
           "player": "Troy Melton",
           "team": "Detroit Tigers",
-          "tag": "RC"
+          "tag": "RC /50"
         },
         {
           "code": "2026_topps_series1",
@@ -6048,7 +6048,7 @@
           "card_no": "MLMA-TS",
           "player": "Tarik Skubal",
           "team": "Detroit Tigers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6058,7 +6058,7 @@
           "card_no": "MLMA-TSO",
           "player": "Tyler Soderstrom",
           "team": "Athletics",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6068,7 +6068,7 @@
           "card_no": "MLMA-VG",
           "player": "Vladimir Guerrero Jr.",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6078,7 +6078,7 @@
           "card_no": "MLMA-WC",
           "player": "William Contreras",
           "team": "Milwaukee Brewers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6088,7 +6088,7 @@
           "card_no": "MLMA-WHI",
           "player": "Carson Whisenhunt",
           "team": "San Francisco Giants",
-          "tag": "RC"
+          "tag": "RC /50"
         },
         {
           "code": "2026_topps_series1",
@@ -6098,7 +6098,7 @@
           "card_no": "MLMA-WL",
           "player": "Wyatt Langford",
           "team": "Texas Rangers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6108,7 +6108,7 @@
           "card_no": "MLMA-WS",
           "player": "Will Smith",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6118,7 +6118,7 @@
           "card_no": "MLMA-YY",
           "player": "Yoshinobu Yamamoto",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6126,19 +6126,9 @@
           "section": "Autograph",
           "subset": "Major League Material Dual Auto",
           "card_no": "MLMDA-CAW",
-          "player": "Junior Caminero",
+          "player": "Junior Caminero/Carson Williams",
           "team": "Tampa Bay Rays",
-          "tag": ""
-        },
-        {
-          "code": "2026_topps_series1",
-          "sport": "baseball",
-          "section": "Autograph",
-          "subset": "Major League Material Dual Auto",
-          "card_no": "MLMDA-CAW",
-          "player": "Carson Williams",
-          "team": "Tampa Bay Rays",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6146,19 +6136,9 @@
           "section": "Autograph",
           "subset": "Major League Material Dual Auto",
           "card_no": "MLMDA-CY",
-          "player": "Jackson Chourio",
+          "player": "Jackson Chourio/Christian Yelich",
           "team": "Milwaukee Brewers",
-          "tag": ""
-        },
-        {
-          "code": "2026_topps_series1",
-          "sport": "baseball",
-          "section": "Autograph",
-          "subset": "Major League Material Dual Auto",
-          "card_no": "MLMDA-CY",
-          "player": "Christian Yelich",
-          "team": "Milwaukee Brewers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6166,19 +6146,9 @@
           "section": "Autograph",
           "subset": "Major League Material Dual Auto",
           "card_no": "MLMDA-IR",
-          "player": "Julio Rodríguez",
+          "player": "Julio Rodríguez/Ichiro",
           "team": "Seattle Mariners",
-          "tag": ""
-        },
-        {
-          "code": "2026_topps_series1",
-          "sport": "baseball",
-          "section": "Autograph",
-          "subset": "Major League Material Dual Auto",
-          "card_no": "MLMDA-IR",
-          "player": "Ichiro",
-          "team": "Seattle Mariners",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6186,19 +6156,9 @@
           "section": "Autograph",
           "subset": "Major League Material Dual Auto",
           "card_no": "MLMDA-JJ",
-          "player": "Aaron Judge",
+          "player": "Aaron Judge/Derek Jeter",
           "team": "New York Yankees",
-          "tag": ""
-        },
-        {
-          "code": "2026_topps_series1",
-          "sport": "baseball",
-          "section": "Autograph",
-          "subset": "Major League Material Dual Auto",
-          "card_no": "MLMDA-JJ",
-          "player": "Derek Jeter",
-          "team": "New York Yankees",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -6206,19 +6166,9 @@
           "section": "Autograph",
           "subset": "Major League Material Dual Auto",
           "card_no": "MLMDA-TJ",
-          "player": "Reggie Jackson",
+          "player": "Reggie Jackson/Mike Trout",
           "team": "California Angels",
-          "tag": ""
-        },
-        {
-          "code": "2026_topps_series1",
-          "sport": "baseball",
-          "section": "Autograph",
-          "subset": "Major League Material Dual Auto",
-          "card_no": "MLMDA-TJ",
-          "player": "Mike Trout",
-          "team": "Angels",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7118,7 +7068,7 @@
           "card_no": "TFAP-AJU",
           "player": "Aaron Judge",
           "team": "New York Yankees",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7128,7 +7078,7 @@
           "card_no": "TFAP-BHA",
           "player": "Bryce Harper",
           "team": "Philadelphia Phillies",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7138,7 +7088,7 @@
           "card_no": "TFAP-BLE",
           "player": "Brooks Lee",
           "team": "Minnesota Twins",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7148,7 +7098,7 @@
           "card_no": "TFAP-CRH",
           "player": "Cal Raleigh",
           "team": "Seattle Mariners",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7158,7 +7108,7 @@
           "card_no": "TFAP-CYE",
           "player": "Christian Yelich",
           "team": "Milwaukee Brewers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7168,7 +7118,7 @@
           "card_no": "TFAP-GSR",
           "player": "George Springer",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7178,7 +7128,7 @@
           "card_no": "TFAP-ICH",
           "player": "Ichiro",
           "team": "Miami Marlins",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7188,7 +7138,7 @@
           "card_no": "TFAP-JPO",
           "player": "Jorge Posada",
           "team": "New York Yankees",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7198,7 +7148,7 @@
           "card_no": "TFAP-JTR",
           "player": "J.T. Realmuto",
           "team": "Philadelphia Phillies",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7208,7 +7158,7 @@
           "card_no": "TFAP-JWO",
           "player": "James Wood",
           "team": "Washington Nationals",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7218,7 +7168,7 @@
           "card_no": "TFAP-KSE",
           "player": "Kodai Senga",
           "team": "New York Mets",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7228,7 +7178,7 @@
           "card_no": "TFAP-LBU",
           "player": "Lawrence Butler",
           "team": "Athletics",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7238,7 +7188,7 @@
           "card_no": "TFAP-LWE",
           "player": "Logan Webb",
           "team": "San Francisco Giants",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7248,7 +7198,7 @@
           "card_no": "TFAP-MMO",
           "player": "Manny Machado",
           "team": "San Diego Padres",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7258,7 +7208,7 @@
           "card_no": "TFAP-OAL",
           "player": "Ozzie Albies",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7268,7 +7218,7 @@
           "card_no": "TFAP-RLE",
           "player": "Royce Lewis",
           "team": "Minnesota Twins",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -7278,7 +7228,7 @@
           "card_no": "TFAP-SFR",
           "player": "Sal Frelick",
           "team": "Milwaukee Brewers",
-          "tag": ""
+          "tag": "/50"
         },
         {
           "code": "2026_topps_series1",
@@ -17438,7 +17388,7 @@
           "card_no": "ITN-AA",
           "player": "Andrew Abbott",
           "team": "Cincinnati Reds",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17448,7 +17398,7 @@
           "card_no": "ITN-AC",
           "player": "Aroldis Chapman",
           "team": "Boston Red Sox",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17458,7 +17408,7 @@
           "card_no": "ITN-AK",
           "player": "Alejandro Kirk",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17468,7 +17418,7 @@
           "card_no": "ITN-AM",
           "player": "Adrian Morejon",
           "team": "San Diego Padres",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17718,7 +17668,7 @@
           "card_no": "ITN-JM",
           "player": "Jacob Misiorowski",
           "team": "Milwaukee Brewers",
-          "tag": "RC"
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17728,7 +17678,7 @@
           "card_no": "ITN-JR",
           "player": "Joe Ryan",
           "team": "Minnesota Twins",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17738,7 +17688,7 @@
           "card_no": "ITN-JW",
           "player": "James Wood",
           "team": "Washington Nationals",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17748,7 +17698,7 @@
           "card_no": "ITN-JWI",
           "player": "Jacob Wilson",
           "team": "Athletics",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17758,7 +17708,7 @@
           "card_no": "ITN-KB",
           "player": "Kris Bubic",
           "team": "Kansas City Royals",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17768,7 +17718,7 @@
           "card_no": "ITN-KM",
           "player": "Ketel Marte",
           "team": "Arizona Diamondbacks",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17778,7 +17728,7 @@
           "card_no": "ITN-KS",
           "player": "Kyle Stowers",
           "team": "Miami Marlins",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17788,7 +17738,7 @@
           "card_no": "ITN-KSC",
           "player": "Kyle Schwarber",
           "team": "Philadelphia Phillies",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17798,7 +17748,7 @@
           "card_no": "ITN-KT",
           "player": "Kyle Tucker",
           "team": "Chicago Cubs",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17808,7 +17758,7 @@
           "card_no": "ITN-LW",
           "player": "Logan Webb",
           "team": "San Francisco Giants",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17818,7 +17768,7 @@
           "card_no": "ITN-MG",
           "player": "Maikel Garcia",
           "team": "Kansas City Royals",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17828,7 +17778,7 @@
           "card_no": "ITN-MGO",
           "player": "MacKenzie Gore",
           "team": "Washington Nationals",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17838,7 +17788,7 @@
           "card_no": "ITN-MM",
           "player": "Manny Machado",
           "team": "San Diego Padres",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17848,7 +17798,7 @@
           "card_no": "ITN-MO",
           "player": "Matt Olson",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17858,7 +17808,7 @@
           "card_no": "ITN-PA",
           "player": "Pete Alonso",
           "team": "New York Mets",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17868,7 +17818,7 @@
           "card_no": "ITN-PC",
           "player": "Pete Crow-Armstrong",
           "team": "Chicago Cubs",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17878,7 +17828,7 @@
           "card_no": "ITN-PS",
           "player": "Paul Skenes",
           "team": "Pittsburgh Pirates",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17888,7 +17838,7 @@
           "card_no": "ITN-RA",
           "player": "Randy Arozarena",
           "team": "Seattle Mariners",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17898,7 +17848,7 @@
           "card_no": "ITN-RAJ",
           "player": "Ronald Acuña Jr.",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17908,7 +17858,7 @@
           "card_no": "ITN-RG",
           "player": "Riley Greene",
           "team": "Detroit Tigers",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17918,7 +17868,7 @@
           "card_no": "ITN-RO",
           "player": "Ryan O'Hearn",
           "team": "Baltimore Orioles",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17928,7 +17878,7 @@
           "card_no": "ITN-RR",
           "player": "Randy Rodriguez",
           "team": "San Francisco Giants",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17938,7 +17888,7 @@
           "card_no": "ITN-RS",
           "player": "Robert Suarez",
           "team": "San Diego Padres",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17948,7 +17898,7 @@
           "card_no": "ITN-SK",
           "player": "Steven Kwan",
           "team": "Cleveland Guardians",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17958,7 +17908,7 @@
           "card_no": "ITN-SO",
           "player": "Shohei Ohtani",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17968,7 +17918,7 @@
           "card_no": "ITN-SS",
           "player": "Shane Smith",
           "team": "Chicago White Sox",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17978,7 +17928,7 @@
           "card_no": "ITN-TM",
           "player": "Trevor Megill",
           "team": "Milwaukee Brewers",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17988,7 +17938,7 @@
           "card_no": "ITN-TS",
           "player": "Tarik Skubal",
           "team": "Detroit Tigers",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -17998,7 +17948,7 @@
           "card_no": "ITN-WS",
           "player": "Will Smith",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -18008,7 +17958,7 @@
           "card_no": "ITN-ZM",
           "player": "Zach McKinstry",
           "team": "Detroit Tigers",
-          "tag": ""
+          "tag": "/1"
         },
         {
           "code": "2026_topps_series1",
@@ -19688,7 +19638,7 @@
           "card_no": "2",
           "player": "Daulton Varsho",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/67"
         },
         {
           "code": "2026_topps_series1",
@@ -19698,7 +19648,7 @@
           "card_no": "20",
           "player": "Vladimir Guerrero Jr.",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/67"
         },
         {
           "code": "2026_topps_series1",
@@ -19708,7 +19658,7 @@
           "card_no": "113",
           "player": "Toronto Blue Jays",
           "team": "Toronto Blue Jays",
-          "tag": "TC"
+          "tag": "/67"
         },
         {
           "code": "2026_topps_series1",
@@ -19718,7 +19668,7 @@
           "card_no": "175",
           "player": "Eric Lauer",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/67"
         },
         {
           "code": "2026_topps_series1",
@@ -19728,7 +19678,7 @@
           "card_no": "241",
           "player": "Addison Barger",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/67"
         },
         {
           "code": "2026_topps_series1",
@@ -19738,7 +19688,7 @@
           "card_no": "263",
           "player": "Joey Loperfido",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/67"
         },
         {
           "code": "2026_topps_series1",
@@ -19748,7 +19698,7 @@
           "card_no": "272",
           "player": "Jose Berrios",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/67"
         },
         {
           "code": "2026_topps_series1",
@@ -19758,7 +19708,7 @@
           "card_no": "299",
           "player": "Lazaro Estrada",
           "team": "Toronto Blue Jays",
-          "tag": "RC"
+          "tag": "RC /67"
         },
         {
           "code": "2026_topps_series1",
@@ -19768,7 +19718,7 @@
           "card_no": "301",
           "player": "Alejandro Kirk",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/67"
         },
         {
           "code": "2026_topps_series1",
@@ -19778,7 +19728,7 @@
           "card_no": "311",
           "player": "Kevin Fausman",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/67"
         },
         {
           "code": "2026_topps_series1",
@@ -19788,7 +19738,7 @@
           "card_no": "1",
           "player": "Aaron Judge",
           "team": "New York Yankees",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -19798,7 +19748,7 @@
           "card_no": "4",
           "player": "Jonah Tong",
           "team": "New York Mets",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -19808,7 +19758,7 @@
           "card_no": "10",
           "player": "Jacob Misiorowski",
           "team": "Milwaukee Brewers",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -19818,7 +19768,7 @@
           "card_no": "15",
           "player": "Payton Tolle",
           "team": "Boston Red Sox",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -19828,7 +19778,7 @@
           "card_no": "18",
           "player": "Ryan Ritter",
           "team": "Colorado Rockies",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -19838,7 +19788,7 @@
           "card_no": "20",
           "player": "Vladimir Guerrero Jr.",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -19848,7 +19798,7 @@
           "card_no": "22",
           "player": "Clayton Kershaw",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -19858,7 +19808,7 @@
           "card_no": "24",
           "player": "Nathan Church",
           "team": "St. Louis Cardinals",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -19868,7 +19818,7 @@
           "card_no": "25",
           "player": "Carson Williams",
           "team": "Tampa Bay Rays",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -19878,7 +19828,7 @@
           "card_no": "32",
           "player": "Shinnosuke Ogasawara",
           "team": "Washington Nationals",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -19888,7 +19838,7 @@
           "card_no": "35",
           "player": "C.J. Kayfus",
           "team": "Cleveland Guardians",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -19898,7 +19848,7 @@
           "card_no": "37",
           "player": "Jakob Marsee",
           "team": "Miami Marlins",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -19908,7 +19858,7 @@
           "card_no": "39",
           "player": "Matt Olson",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -19918,7 +19868,7 @@
           "card_no": "40",
           "player": "Sonny Gray",
           "team": "St. Louis Cardinals",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -19928,7 +19878,7 @@
           "card_no": "41",
           "player": "Mookie Betts",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -19938,7 +19888,7 @@
           "card_no": "46",
           "player": "Gunnar Henderson",
           "team": "Baltimore Orioles",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -19948,7 +19898,7 @@
           "card_no": "49",
           "player": "Grant Taylor",
           "team": "Chicago White Sox",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -19958,7 +19908,7 @@
           "card_no": "50",
           "player": "Ronald Acuña Jr.",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -19968,7 +19918,7 @@
           "card_no": "53",
           "player": "Garrett Crochet",
           "team": "Boston Red Sox",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -19978,7 +19928,7 @@
           "card_no": "55",
           "player": "Warming Bernabel",
           "team": "Colorado Rockies",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -19988,7 +19938,7 @@
           "card_no": "67",
           "player": "Parker Messick",
           "team": "Cleveland Guardians",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -19998,7 +19948,7 @@
           "card_no": "70",
           "player": "Bob Seymour",
           "team": "Tampa Bay Rays",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20008,7 +19958,7 @@
           "card_no": "73",
           "player": "Jimmy Crooks",
           "team": "St. Louis Cardinals",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20018,7 +19968,7 @@
           "card_no": "74",
           "player": "Alex Freeland",
           "team": "Los Angeles Dodgers",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20028,7 +19978,7 @@
           "card_no": "90",
           "player": "Yoshinobu Yamamoto",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20038,7 +19988,7 @@
           "card_no": "92",
           "player": "Jackson Holliday",
           "team": "Baltimore Orioles",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20048,7 +19998,7 @@
           "card_no": "96",
           "player": "Corey Seager",
           "team": "Texas Rangers",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20058,7 +20008,7 @@
           "card_no": "97",
           "player": "Nick Kurtz",
           "team": "Athletics",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20068,7 +20018,7 @@
           "card_no": "99",
           "player": "Jacob deGrom",
           "team": "Texas Rangers",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20078,7 +20028,7 @@
           "card_no": "100",
           "player": "Paul Skenes",
           "team": "Pittsburgh Pirates",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20088,7 +20038,7 @@
           "card_no": "101",
           "player": "Ceddanne Rafaela",
           "team": "Boston Red Sox",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20098,7 +20048,7 @@
           "card_no": "104",
           "player": "Samuel Basallo",
           "team": "Baltimore Orioles",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20108,7 +20058,7 @@
           "card_no": "111",
           "player": "Cam Schlittler",
           "team": "New York Yankees",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20118,7 +20068,7 @@
           "card_no": "115",
           "player": "Royce Lewis",
           "team": "Minnesota Twins",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20128,7 +20078,7 @@
           "card_no": "116",
           "player": "Yanquiel Fernández",
           "team": "Colorado Rockies",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20138,7 +20088,7 @@
           "card_no": "123",
           "player": "Francisco Lindor",
           "team": "New York Mets",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20148,7 +20098,7 @@
           "card_no": "129",
           "player": "Cole Young",
           "team": "Seattle Mariners",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20158,7 +20108,7 @@
           "card_no": "131",
           "player": "Andrew McCutchen",
           "team": "Pittsburgh Pirates",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20168,7 +20118,7 @@
           "card_no": "132",
           "player": "Brice Matthews",
           "team": "Houston Astros",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20178,7 +20128,7 @@
           "card_no": "135",
           "player": "Alex Bregman",
           "team": "Boston Red Sox",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20188,7 +20138,7 @@
           "card_no": "138",
           "player": "Jac Caglianone",
           "team": "Kansas City Royals",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20198,7 +20148,7 @@
           "card_no": "140",
           "player": "Cal Raleigh",
           "team": "Seattle Mariners",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20208,7 +20158,7 @@
           "card_no": "146",
           "player": "Julio Rodríguez",
           "team": "Seattle Mariners",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20218,7 +20168,7 @@
           "card_no": "147",
           "player": "Christian Moore",
           "team": "Angels",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20228,7 +20178,7 @@
           "card_no": "148",
           "player": "Jacob Melton",
           "team": "Houston Astros",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20238,7 +20188,7 @@
           "card_no": "150",
           "player": "Elly De La Cruz",
           "team": "Cincinnati Reds",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20248,7 +20198,7 @@
           "card_no": "154",
           "player": "Christian Yelich",
           "team": "Milwaukee Brewers",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20258,7 +20208,7 @@
           "card_no": "155",
           "player": "Drew Gilbert",
           "team": "San Francisco Giants",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20268,7 +20218,7 @@
           "card_no": "157",
           "player": "Colson Montgomery",
           "team": "Chicago White Sox",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20278,7 +20228,7 @@
           "card_no": "165",
           "player": "Ian Seymour",
           "team": "Tampa Bay Rays",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20288,7 +20238,7 @@
           "card_no": "170",
           "player": "Brady House",
           "team": "Washington Nationals",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20298,7 +20248,7 @@
           "card_no": "172",
           "player": "Maximo Acosta",
           "team": "Miami Marlins",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20308,7 +20258,7 @@
           "card_no": "178",
           "player": "Shota Imanaga",
           "team": "Chicago Cubs",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20318,7 +20268,7 @@
           "card_no": "184",
           "player": "Carson Whisenhunt",
           "team": "San Francisco Giants",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20328,7 +20278,7 @@
           "card_no": "187",
           "player": "Otto Kemp",
           "team": "Philadelphia Phillies",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20338,7 +20288,7 @@
           "card_no": "189",
           "player": "Roman Anthony",
           "team": "Boston Red Sox",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20348,7 +20298,7 @@
           "card_no": "193",
           "player": "Nolan Arenado",
           "team": "St. Louis Cardinals",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20358,7 +20308,7 @@
           "card_no": "196",
           "player": "Pete Crow-Armstrong",
           "team": "Chicago Cubs",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20368,7 +20318,7 @@
           "card_no": "200",
           "player": "Shohei Ohtani",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20378,7 +20328,7 @@
           "card_no": "201",
           "player": "Kyle Teel",
           "team": "Chicago White Sox",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20388,7 +20338,7 @@
           "card_no": "205",
           "player": "Bobby Witt Jr.",
           "team": "Kansas City Royals",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20398,7 +20348,7 @@
           "card_no": "206",
           "player": "Jack Perkins",
           "team": "Athletics",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20408,7 +20358,7 @@
           "card_no": "209",
           "player": "Riley Greene",
           "team": "Detroit Tigers",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20418,7 +20368,7 @@
           "card_no": "212",
           "player": "Troy Melton",
           "team": "Detroit Tigers",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20428,7 +20378,7 @@
           "card_no": "213",
           "player": "Colby Thomas",
           "team": "Athletics",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20438,7 +20388,7 @@
           "card_no": "214",
           "player": "Nolan McLean",
           "team": "New York Mets",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20448,7 +20398,7 @@
           "card_no": "219",
           "player": "Rafael Devers",
           "team": "San Francisco Giants",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20458,7 +20408,7 @@
           "card_no": "224",
           "player": "Cody Freeman",
           "team": "Texas Rangers",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20468,7 +20418,7 @@
           "card_no": "229",
           "player": "Jackson Merrill",
           "team": "San Diego Padres",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20478,7 +20428,7 @@
           "card_no": "230",
           "player": "Zach Neto",
           "team": "Angels",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20488,7 +20438,7 @@
           "card_no": "233",
           "player": "Owen Caissie",
           "team": "Chicago Cubs",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20498,7 +20448,7 @@
           "card_no": "238",
           "player": "Austin Riley",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20508,7 +20458,7 @@
           "card_no": "240",
           "player": "Jacob Wilson",
           "team": "Athletics",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20518,7 +20468,7 @@
           "card_no": "243",
           "player": "Didier Fuentes",
           "team": "Atlanta Braves",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20528,7 +20478,7 @@
           "card_no": "249",
           "player": "Carlos Cortes",
           "team": "Athletics",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20538,7 +20488,7 @@
           "card_no": "250",
           "player": "Bryce Harper",
           "team": "Philadelphia Phillies",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20548,7 +20498,7 @@
           "card_no": "255",
           "player": "Byron Buxton",
           "team": "Minnesota Twins",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20558,7 +20508,7 @@
           "card_no": "259",
           "player": "Luis Morales",
           "team": "Athletics",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20568,7 +20518,7 @@
           "card_no": "273",
           "player": "Mason Barnett",
           "team": "Athletics",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20578,7 +20528,7 @@
           "card_no": "277",
           "player": "Jeremiah Jackson",
           "team": "Baltimore Orioles",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20588,7 +20538,7 @@
           "card_no": "278",
           "player": "Jose Altuve",
           "team": "Houston Astros",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20598,7 +20548,7 @@
           "card_no": "283",
           "player": "Bubba Chandler",
           "team": "Pittsburgh Pirates",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20608,7 +20558,7 @@
           "card_no": "284",
           "player": "José Ramírez",
           "team": "Cleveland Guardians",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20618,7 +20568,7 @@
           "card_no": "286",
           "player": "Anthony Seigler",
           "team": "Milwaukee Brewers",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20628,7 +20578,7 @@
           "card_no": "293",
           "player": "Kyle Stowers",
           "team": "Miami Marlins",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20638,7 +20588,7 @@
           "card_no": "300",
           "player": "Tarik Skubal",
           "team": "Detroit Tigers",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20648,7 +20598,7 @@
           "card_no": "308",
           "player": "Anthony Volpe",
           "team": "New York Yankees",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20658,7 +20608,7 @@
           "card_no": "310",
           "player": "Michael Harris II",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20668,7 +20618,7 @@
           "card_no": "312",
           "player": "Chase Burns",
           "team": "Cincinnati Reds",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20678,7 +20628,7 @@
           "card_no": "314",
           "player": "Corbin Carroll",
           "team": "Arizona Diamondbacks",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20688,7 +20638,7 @@
           "card_no": "316",
           "player": "Jhostynxon Garcia",
           "team": "Boston Red Sox",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20698,7 +20648,7 @@
           "card_no": "317",
           "player": "Troy Johnston",
           "team": "Miami Marlins",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20708,7 +20658,7 @@
           "card_no": "322",
           "player": "Trea Turner",
           "team": "Philadelphia Phillies",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20718,7 +20668,7 @@
           "card_no": "324",
           "player": "Lawrence Butler",
           "team": "Athletics",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20728,7 +20678,7 @@
           "card_no": "328",
           "player": "Junior Caminero",
           "team": "Tampa Bay Rays",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20738,7 +20688,7 @@
           "card_no": "333",
           "player": "Fernando Tatis Jr.",
           "team": "San Diego Padres",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20748,7 +20698,7 @@
           "card_no": "334",
           "player": "Kyle Karros",
           "team": "Colorado Rockies",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20758,7 +20708,7 @@
           "card_no": "339",
           "player": "Dylan Beavers",
           "team": "Baltimore Orioles",
-          "tag": "RC"
+          "tag": "RC /10"
         },
         {
           "code": "2026_topps_series1",
@@ -20768,7 +20718,7 @@
           "card_no": "349",
           "player": "James Wood",
           "team": "Washington Nationals",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -20778,7 +20728,7 @@
           "card_no": "350",
           "player": "Mike Trout",
           "team": "Angels",
-          "tag": ""
+          "tag": "/10"
         },
         {
           "code": "2026_topps_series1",
@@ -25358,7 +25308,7 @@
           "card_no": "1",
           "player": "Aaron Judge",
           "team": "New York Yankees",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25368,7 +25318,7 @@
           "card_no": "4",
           "player": "Jonah Tong",
           "team": "New York Mets",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25378,7 +25328,7 @@
           "card_no": "10",
           "player": "Jacob Misiorowski",
           "team": "Milwaukee Brewers",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25388,7 +25338,7 @@
           "card_no": "15",
           "player": "Payton Tolle",
           "team": "Boston Red Sox",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25398,7 +25348,7 @@
           "card_no": "18",
           "player": "Ryan Ritter",
           "team": "Colorado Rockies",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25408,7 +25358,7 @@
           "card_no": "20",
           "player": "Vladimir Guerrero Jr.",
           "team": "Toronto Blue Jays",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25418,7 +25368,7 @@
           "card_no": "22",
           "player": "Clayton Kershaw",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25428,7 +25378,7 @@
           "card_no": "24",
           "player": "Nathan Church",
           "team": "St. Louis Cardinals",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25438,7 +25388,7 @@
           "card_no": "25",
           "player": "Carson Williams",
           "team": "Tampa Bay Rays",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25448,7 +25398,7 @@
           "card_no": "32",
           "player": "Shinnosuke Ogasawara",
           "team": "Washington Nationals",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25458,7 +25408,7 @@
           "card_no": "35",
           "player": "C.J. Kayfus",
           "team": "Cleveland Guardians",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25468,7 +25418,7 @@
           "card_no": "37",
           "player": "Jakob Marsee",
           "team": "Miami Marlins",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25478,7 +25428,7 @@
           "card_no": "39",
           "player": "Matt Olson",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25488,7 +25438,7 @@
           "card_no": "40",
           "player": "Sonny Gray",
           "team": "St. Louis Cardinals",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25498,7 +25448,7 @@
           "card_no": "41",
           "player": "Mookie Betts",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25508,7 +25458,7 @@
           "card_no": "46",
           "player": "Gunnar Henderson",
           "team": "Baltimore Orioles",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25518,7 +25468,7 @@
           "card_no": "49",
           "player": "Grant Taylor",
           "team": "Chicago White Sox",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25528,7 +25478,7 @@
           "card_no": "50",
           "player": "Ronald Acuña Jr.",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25538,7 +25488,7 @@
           "card_no": "53",
           "player": "Garrett Crochet",
           "team": "Boston Red Sox",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25548,7 +25498,7 @@
           "card_no": "55",
           "player": "Warming Bernabel",
           "team": "Colorado Rockies",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25558,7 +25508,7 @@
           "card_no": "67",
           "player": "Parker Messick",
           "team": "Cleveland Guardians",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25568,7 +25518,7 @@
           "card_no": "70",
           "player": "Bob Seymour",
           "team": "Tampa Bay Rays",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25578,7 +25528,7 @@
           "card_no": "73",
           "player": "Jimmy Crooks",
           "team": "St. Louis Cardinals",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25588,7 +25538,7 @@
           "card_no": "74",
           "player": "Alex Freeland",
           "team": "Los Angeles Dodgers",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25598,7 +25548,7 @@
           "card_no": "90",
           "player": "Yoshinobu Yamamoto",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25608,7 +25558,7 @@
           "card_no": "92",
           "player": "Jackson Holliday",
           "team": "Baltimore Orioles",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25618,7 +25568,7 @@
           "card_no": "96",
           "player": "Corey Seager",
           "team": "Texas Rangers",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25628,7 +25578,7 @@
           "card_no": "97",
           "player": "Nick Kurtz",
           "team": "Athletics",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25638,7 +25588,7 @@
           "card_no": "99",
           "player": "Jacob deGrom",
           "team": "Texas Rangers",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25648,7 +25598,7 @@
           "card_no": "100",
           "player": "Paul Skenes",
           "team": "Pittsburgh Pirates",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25658,7 +25608,7 @@
           "card_no": "101",
           "player": "Ceddanne Rafaela",
           "team": "Boston Red Sox",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25668,7 +25618,7 @@
           "card_no": "104",
           "player": "Samuel Basallo",
           "team": "Baltimore Orioles",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25678,7 +25628,7 @@
           "card_no": "111",
           "player": "Cam Schlittler",
           "team": "New York Yankees",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25688,7 +25638,7 @@
           "card_no": "115",
           "player": "Royce Lewis",
           "team": "Minnesota Twins",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25698,7 +25648,7 @@
           "card_no": "116",
           "player": "Yanquiel Fernández",
           "team": "Colorado Rockies",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25708,7 +25658,7 @@
           "card_no": "123",
           "player": "Francisco Lindor",
           "team": "New York Mets",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25718,7 +25668,7 @@
           "card_no": "129",
           "player": "Cole Young",
           "team": "Seattle Mariners",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25728,7 +25678,7 @@
           "card_no": "131",
           "player": "Andrew McCutchen",
           "team": "Pittsburgh Pirates",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25738,7 +25688,7 @@
           "card_no": "132",
           "player": "Brice Matthews",
           "team": "Houston Astros",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25748,7 +25698,7 @@
           "card_no": "135",
           "player": "Alex Bregman",
           "team": "Boston Red Sox",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25758,7 +25708,7 @@
           "card_no": "138",
           "player": "Jac Caglianone",
           "team": "Kansas City Royals",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25768,7 +25718,7 @@
           "card_no": "140",
           "player": "Cal Raleigh",
           "team": "Seattle Mariners",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25778,7 +25728,7 @@
           "card_no": "146",
           "player": "Julio Rodríguez",
           "team": "Seattle Mariners",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25788,7 +25738,7 @@
           "card_no": "147",
           "player": "Christian Moore",
           "team": "Angels",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25798,7 +25748,7 @@
           "card_no": "148",
           "player": "Jacob Melton",
           "team": "Houston Astros",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25808,7 +25758,7 @@
           "card_no": "150",
           "player": "Elly De La Cruz",
           "team": "Cincinnati Reds",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25818,7 +25768,7 @@
           "card_no": "154",
           "player": "Christian Yelich",
           "team": "Milwaukee Brewers",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25828,7 +25778,7 @@
           "card_no": "155",
           "player": "Drew Gilbert",
           "team": "San Francisco Giants",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25838,7 +25788,7 @@
           "card_no": "157",
           "player": "Colson Montgomery",
           "team": "Chicago White Sox",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25848,7 +25798,7 @@
           "card_no": "165",
           "player": "Ian Seymour",
           "team": "Tampa Bay Rays",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25858,7 +25808,7 @@
           "card_no": "170",
           "player": "Brady House",
           "team": "Washington Nationals",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25868,7 +25818,7 @@
           "card_no": "172",
           "player": "Maximo Acosta",
           "team": "Miami Marlins",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25878,7 +25828,7 @@
           "card_no": "178",
           "player": "Shota Imanaga",
           "team": "Chicago Cubs",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25888,7 +25838,7 @@
           "card_no": "184",
           "player": "Carson Whisenhunt",
           "team": "San Francisco Giants",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25898,7 +25848,7 @@
           "card_no": "187",
           "player": "Otto Kemp",
           "team": "Philadelphia Phillies",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25908,7 +25858,7 @@
           "card_no": "189",
           "player": "Roman Anthony",
           "team": "Boston Red Sox",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25918,7 +25868,7 @@
           "card_no": "193",
           "player": "Nolan Arenado",
           "team": "St. Louis Cardinals",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25928,7 +25878,7 @@
           "card_no": "196",
           "player": "Pete Crow-Armstrong",
           "team": "Chicago Cubs",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25938,7 +25888,7 @@
           "card_no": "200",
           "player": "Shohei Ohtani",
           "team": "Los Angeles Dodgers",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25948,7 +25898,7 @@
           "card_no": "201",
           "player": "Kyle Teel",
           "team": "Chicago White Sox",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25958,7 +25908,7 @@
           "card_no": "205",
           "player": "Bobby Witt Jr.",
           "team": "Kansas City Royals",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25968,7 +25918,7 @@
           "card_no": "206",
           "player": "Jack Perkins",
           "team": "Athletics",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25978,7 +25928,7 @@
           "card_no": "209",
           "player": "Riley Greene",
           "team": "Detroit Tigers",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -25988,7 +25938,7 @@
           "card_no": "212",
           "player": "Troy Melton",
           "team": "Detroit Tigers",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -25998,7 +25948,7 @@
           "card_no": "213",
           "player": "Colby Thomas",
           "team": "Athletics",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26008,7 +25958,7 @@
           "card_no": "214",
           "player": "Nolan McLean",
           "team": "New York Mets",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26018,7 +25968,7 @@
           "card_no": "219",
           "player": "Rafael Devers",
           "team": "San Francisco Giants",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26028,7 +25978,7 @@
           "card_no": "224",
           "player": "Cody Freeman",
           "team": "Texas Rangers",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26038,7 +25988,7 @@
           "card_no": "229",
           "player": "Jackson Merrill",
           "team": "San Diego Padres",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26048,7 +25998,7 @@
           "card_no": "230",
           "player": "Zach Neto",
           "team": "Angels",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26058,7 +26008,7 @@
           "card_no": "233",
           "player": "Owen Caissie",
           "team": "Chicago Cubs",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26068,7 +26018,7 @@
           "card_no": "238",
           "player": "Austin Riley",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26078,7 +26028,7 @@
           "card_no": "240",
           "player": "Jacob Wilson",
           "team": "Athletics",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26088,7 +26038,7 @@
           "card_no": "243",
           "player": "Didier Fuentes",
           "team": "Atlanta Braves",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26098,7 +26048,7 @@
           "card_no": "249",
           "player": "Carlos Cortes",
           "team": "Athletics",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26108,7 +26058,7 @@
           "card_no": "250",
           "player": "Bryce Harper",
           "team": "Philadelphia Phillies",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26118,7 +26068,7 @@
           "card_no": "255",
           "player": "Byron Buxton",
           "team": "Minnesota Twins",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26128,7 +26078,7 @@
           "card_no": "259",
           "player": "Luis Morales",
           "team": "Athletics",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26138,7 +26088,7 @@
           "card_no": "273",
           "player": "Mason Barnett",
           "team": "Athletics",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26148,7 +26098,7 @@
           "card_no": "277",
           "player": "Jeremiah Jackson",
           "team": "Baltimore Orioles",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26158,7 +26108,7 @@
           "card_no": "278",
           "player": "Jose Altuve",
           "team": "Houston Astros",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26168,7 +26118,7 @@
           "card_no": "283",
           "player": "Bubba Chandler",
           "team": "Pittsburgh Pirates",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26178,7 +26128,7 @@
           "card_no": "284",
           "player": "José Ramírez",
           "team": "Cleveland Guardians",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26188,7 +26138,7 @@
           "card_no": "286",
           "player": "Anthony Seigler",
           "team": "Milwaukee Brewers",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26198,7 +26148,7 @@
           "card_no": "293",
           "player": "Kyle Stowers",
           "team": "Miami Marlins",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26208,7 +26158,7 @@
           "card_no": "300",
           "player": "Tarik Skubal",
           "team": "Detroit Tigers",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26218,7 +26168,7 @@
           "card_no": "308",
           "player": "Anthony Volpe",
           "team": "New York Yankees",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26228,7 +26178,7 @@
           "card_no": "310",
           "player": "Michael Harris II",
           "team": "Atlanta Braves",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26238,7 +26188,7 @@
           "card_no": "312",
           "player": "Chase Burns",
           "team": "Cincinnati Reds",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26248,7 +26198,7 @@
           "card_no": "314",
           "player": "Corbin Carroll",
           "team": "Arizona Diamondbacks",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26258,7 +26208,7 @@
           "card_no": "316",
           "player": "Jhostynxon Garcia",
           "team": "Boston Red Sox",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26268,7 +26218,7 @@
           "card_no": "317",
           "player": "Troy Johnston",
           "team": "Miami Marlins",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26278,7 +26228,7 @@
           "card_no": "322",
           "player": "Trea Turner",
           "team": "Philadelphia Phillies",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26288,7 +26238,7 @@
           "card_no": "324",
           "player": "Lawrence Butler",
           "team": "Athletics",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26298,7 +26248,7 @@
           "card_no": "328",
           "player": "Junior Caminero",
           "team": "Tampa Bay Rays",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26308,7 +26258,7 @@
           "card_no": "333",
           "player": "Fernando Tatis Jr.",
           "team": "San Diego Padres",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26318,7 +26268,7 @@
           "card_no": "334",
           "player": "Kyle Karros",
           "team": "Colorado Rockies",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26328,7 +26278,7 @@
           "card_no": "339",
           "player": "Dylan Beavers",
           "team": "Baltimore Orioles",
-          "tag": "RC"
+          "tag": "RC /99"
         },
         {
           "code": "2026_topps_series1",
@@ -26338,7 +26288,7 @@
           "card_no": "349",
           "player": "James Wood",
           "team": "Washington Nationals",
-          "tag": ""
+          "tag": "/99"
         },
         {
           "code": "2026_topps_series1",
@@ -26348,7 +26298,7 @@
           "card_no": "350",
           "player": "Mike Trout",
           "team": "Angels",
-          "tag": ""
+          "tag": "/99"
         }
       ],
       "parallels": [
