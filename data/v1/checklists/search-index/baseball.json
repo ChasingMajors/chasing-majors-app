@@ -2,9 +2,8 @@
   "ok": true,
   "sport": "baseball",
   "kind": "checklist_search",
-  "source": "Checklist DB map targeted source merge",
-  "source_key": "2025",
-  "generated_at": "2026-04-30T04:14:23.288Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-04-30T05:53:43.025Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
