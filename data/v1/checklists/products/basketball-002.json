@@ -3,7 +3,7 @@
   "sport": "basketball",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-04-30T14:45:59.802Z",
+  "generated_at": "2026-04-30T15:59:34.285Z",
   "shard": 2,
   "shard_count": 2,
   "products": {
@@ -42442,7 +42442,7 @@
           "applies_to_section": "Base",
           "applies_to_subset": "Base",
           "parallel_name": "Golden Glitter Holiday",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_holiday_basketball",
@@ -42505,7 +42505,7 @@
           "applies_to_section": "Autograph",
           "applies_to_subset": "Base Autographs",
           "parallel_name": "Golden Glitter Holiday",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_holiday_basketball",
@@ -42526,7 +42526,7 @@
           "applies_to_section": "Memorabilia",
           "applies_to_subset": "Dual Player Relics",
           "parallel_name": "Golden Glitter Holiday",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_holiday_basketball",
@@ -42547,7 +42547,7 @@
           "applies_to_section": "Memorabilia",
           "applies_to_subset": "Holiday Relics",
           "parallel_name": "Golden Glitter Holiday",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_holiday_basketball",
@@ -42568,7 +42568,7 @@
           "applies_to_section": "Memorabilia",
           "applies_to_subset": "Player Holiday Shaped Relics",
           "parallel_name": "Golden Glitter Holiday",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_holiday_basketball",
@@ -42603,7 +42603,7 @@
           "applies_to_section": "Memorabilia",
           "applies_to_subset": "Player Relics",
           "parallel_name": "Golden Glitter Holiday",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         }
       ]
     },
@@ -42623,7 +42623,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "1",
           "player": "Jayson Tatum",
@@ -42633,7 +42633,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "2",
           "player": "Jaylen Brown",
@@ -42643,7 +42643,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "3",
           "player": "Cam Thomas",
@@ -42653,7 +42653,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "4",
           "player": "Cameron Johnson",
@@ -42663,7 +42663,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "5",
           "player": "Scottie Barnes",
@@ -42673,7 +42673,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "6",
           "player": "Gradey Dick",
@@ -42683,7 +42683,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "7",
           "player": "Joel Embiid",
@@ -42693,7 +42693,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "8",
           "player": "Tyrese Maxey",
@@ -42703,7 +42703,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "9",
           "player": "Karl-Anthony Towns",
@@ -42713,7 +42713,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "10",
           "player": "Jalen Brunson",
@@ -42723,7 +42723,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "11",
           "player": "Josh Giddey",
@@ -42733,7 +42733,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "12",
           "player": "Lonzo Ball",
@@ -42743,7 +42743,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "13",
           "player": "Damian Lillard",
@@ -42753,7 +42753,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "14",
           "player": "Giannis Antetokounmpo",
@@ -42763,7 +42763,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "15",
           "player": "Tyrese Haliburton",
@@ -42773,7 +42773,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "16",
           "player": "Pascal Siakam",
@@ -42783,7 +42783,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "17",
           "player": "Cade Cunningham",
@@ -42793,7 +42793,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "18",
           "player": "Ausar Thompson",
@@ -42803,7 +42803,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "19",
           "player": "Donovan Mitchell",
@@ -42813,7 +42813,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "20",
           "player": "Evan Mobley",
@@ -42823,7 +42823,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "21",
           "player": "Trae Young",
@@ -42833,7 +42833,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "22",
           "player": "Zaccharie Risacher",
@@ -42843,7 +42843,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "23",
           "player": "Kawhi Leonard",
@@ -42853,7 +42853,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "24",
           "player": "James Harden",
@@ -42863,7 +42863,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "25",
           "player": "Jordan Poole",
@@ -42873,7 +42873,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "26",
           "player": "Alex Sarr",
@@ -42883,7 +42883,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "27",
           "player": "LaMelo Ball",
@@ -42893,7 +42893,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "28",
           "player": "Brandon Miller",
@@ -42903,7 +42903,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "29",
           "player": "Jimmy Butler III",
@@ -42913,7 +42913,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "30",
           "player": "Stephen Curry",
@@ -42923,7 +42923,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "31",
           "player": "Tyler Herro",
@@ -42933,7 +42933,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "32",
           "player": "Kel'el Ware",
@@ -42943,7 +42943,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "33",
           "player": "Franz Wagner",
@@ -42953,7 +42953,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "34",
           "player": "Paolo Banchero",
@@ -42963,7 +42963,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "35",
           "player": "Kevin Durant",
@@ -42973,7 +42973,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "36",
           "player": "Devin Booker",
@@ -42983,7 +42983,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "37",
           "player": "Zach Lavine",
@@ -42993,7 +42993,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "38",
           "player": "Domantas Sabonis",
@@ -43003,7 +43003,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "39",
           "player": "Austin Reaves",
@@ -43013,7 +43013,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "40",
           "player": "LeBron James",
@@ -43023,7 +43023,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "41",
           "player": "Victor Wembanyama",
@@ -43033,7 +43033,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "42",
           "player": "Stephon Castle",
@@ -43043,7 +43043,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "43",
           "player": "Ja Morant",
@@ -43053,7 +43053,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "44",
           "player": "Desmond Bane",
@@ -43063,7 +43063,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "45",
           "player": "Jalen Green",
@@ -43073,7 +43073,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "46",
           "player": "Amen Thompson",
@@ -43083,7 +43083,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "47",
           "player": "Anthony Davis",
@@ -43093,7 +43093,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "48",
           "player": "Kyrie Irving",
@@ -43103,7 +43103,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "49",
           "player": "Dejounte Murray",
@@ -43113,7 +43113,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "50",
           "player": "CJ McCollum",
@@ -43123,7 +43123,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "51",
           "player": "Walker Kessler",
@@ -43133,7 +43133,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "52",
           "player": "Collin Sexton",
@@ -43143,7 +43143,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "53",
           "player": "Scoot Henderson",
@@ -43153,7 +43153,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "54",
           "player": "Anfernee Simons",
@@ -43163,7 +43163,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "55",
           "player": "Chet Holmgren",
@@ -43173,7 +43173,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "56",
           "player": "Shai Gilgeous-Alexander",
@@ -43183,7 +43183,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "57",
           "player": "Julius Randle",
@@ -43193,7 +43193,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "58",
           "player": "Anthony Edwards",
@@ -43203,7 +43203,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "59",
           "player": "Jamal Murray",
@@ -43213,7 +43213,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "60",
           "player": "Nikola Jokić",
@@ -43223,7 +43223,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "61",
           "player": "Cooper Flagg",
@@ -43233,7 +43233,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "62",
           "player": "Dylan Harper",
@@ -43243,7 +43243,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "63",
           "player": "VJ Edgecombe",
@@ -43253,7 +43253,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "64",
           "player": "Kon Knueppel",
@@ -43263,7 +43263,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "65",
           "player": "Ace Bailey",
@@ -43273,7 +43273,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "66",
           "player": "Tre Johnson III",
@@ -43283,7 +43283,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "67",
           "player": "Jeremiah Fears",
@@ -43293,7 +43293,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "68",
           "player": "Egor Dëmin",
@@ -43303,7 +43303,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "69",
           "player": "Collin Murray-Boyles",
@@ -43313,7 +43313,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "70",
           "player": "Khaman Maluach",
@@ -43323,7 +43323,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "71",
           "player": "Cedric Coward",
@@ -43333,7 +43333,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "72",
           "player": "Noa Essengue",
@@ -43343,7 +43343,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "73",
           "player": "Derik Queen",
@@ -43353,7 +43353,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "74",
           "player": "Carter Bryant",
@@ -43363,7 +43363,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "75",
           "player": "Thomas Sorber",
@@ -43373,7 +43373,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "76",
           "player": "Yang Hansen",
@@ -43383,7 +43383,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "77",
           "player": "Joan Beringer",
@@ -43393,7 +43393,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "78",
           "player": "Walter Clayton Jr.",
@@ -43403,7 +43403,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "79",
           "player": "Nolan Traore",
@@ -43413,7 +43413,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "80",
           "player": "Kasparas Jakučionis",
@@ -43423,7 +43423,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "81",
           "player": "Will Riley",
@@ -43433,7 +43433,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "82",
           "player": "Drake Powell",
@@ -43443,7 +43443,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "83",
           "player": "Asa Newell",
@@ -43453,7 +43453,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "84",
           "player": "Nique Clifford",
@@ -43463,7 +43463,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "85",
           "player": "Jase Richardson",
@@ -43473,7 +43473,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "86",
           "player": "Ben Saraf",
@@ -43483,7 +43483,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "87",
           "player": "Danny Wolf",
@@ -43493,7 +43493,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "88",
           "player": "Hugo González",
@@ -43503,7 +43503,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "89",
           "player": "Liam McNeeley",
@@ -43513,7 +43513,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "90",
           "player": "Yanic Konan-Niederhäuser",
@@ -43523,7 +43523,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "91",
           "player": "Rasheer Fleming",
@@ -43533,7 +43533,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "92",
           "player": "Adou Thiero",
@@ -43543,7 +43543,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "93",
           "player": "Noah Penda",
@@ -43553,7 +43553,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "94",
           "player": "Ryan Kalkbrenner",
@@ -43563,7 +43563,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "95",
           "player": "Johni Broome",
@@ -43573,7 +43573,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "96",
           "player": "Alijah Martin",
@@ -43583,7 +43583,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "97",
           "player": "Maxime Raynaud",
@@ -43593,7 +43593,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "98",
           "player": "Tyrese Proctor",
@@ -43603,7 +43603,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "99",
           "player": "Kam Jones",
@@ -43613,7 +43613,7 @@
         {
           "code": "2025_26_topps_midnight_basketball",
           "sport": "basketball",
-          "section": "",
+          "section": "Base",
           "subset": "Base",
           "card_no": "100",
           "player": "Chaz Lanier",
@@ -43628,7 +43628,7 @@
           "card_no": "RJA-AB",
           "player": "Ace Bailey",
           "team": "Utah Jazz",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43638,7 +43638,7 @@
           "card_no": "RJA-AM",
           "player": "Alijah Martin",
           "team": "Toronto Raptors",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43648,7 +43648,7 @@
           "card_no": "RJA-AN",
           "player": "Asa Newell",
           "team": "Atlanta Hawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43658,7 +43658,7 @@
           "card_no": "RJA-AT",
           "player": "Adou Thiero",
           "team": "Los Angeles Lakers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43668,7 +43668,7 @@
           "card_no": "RJA-BB",
           "player": "Brooks Barnhizer",
           "team": "Oklahoma City Thunder",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43678,7 +43678,7 @@
           "card_no": "RJA-BS",
           "player": "Ben Saraf",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43688,7 +43688,7 @@
           "card_no": "RJA-CC",
           "player": "Cedric Coward",
           "team": "Memphis Grizzlies",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43698,7 +43698,7 @@
           "card_no": "RJA-CF",
           "player": "Cooper Flagg",
           "team": "Dallas Mavericks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43708,7 +43708,7 @@
           "card_no": "RJA-CM",
           "player": "Collin Murray-Boyles",
           "team": "Toronto Raptors",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43718,7 +43718,7 @@
           "card_no": "RJA-DH",
           "player": "Dylan Harper",
           "team": "San Antonio Spurs",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43728,7 +43728,7 @@
           "card_no": "RJA-DP",
           "player": "Drake Powell",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43738,7 +43738,7 @@
           "card_no": "RJA-DQ",
           "player": "Derik Queen",
           "team": "New Orleans Pelicans",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43748,7 +43748,7 @@
           "card_no": "RJA-DW",
           "player": "Danny Wolf",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43758,7 +43758,7 @@
           "card_no": "RJA-ED",
           "player": "Egor Dëmin",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43768,7 +43768,7 @@
           "card_no": "RJA-JB",
           "player": "Joan Beringer",
           "team": "Minnesota Timberwolves",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43778,7 +43778,7 @@
           "card_no": "RJA-JBR",
           "player": "Johni Broome",
           "team": "Philadelphia 76ers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43788,7 +43788,7 @@
           "card_no": "RJA-JR",
           "player": "Jase Richardson",
           "team": "Orlando Magic",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43798,7 +43798,7 @@
           "card_no": "RJA-KJ",
           "player": "Kasparas Jakučionis",
           "team": "Miami Heat",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43808,7 +43808,7 @@
           "card_no": "RJA-KJO",
           "player": "Kam Jones",
           "team": "Indiana Pacers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43818,7 +43818,7 @@
           "card_no": "RJA-KK",
           "player": "Kon Knueppel",
           "team": "Charlotte Hornets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43828,7 +43828,7 @@
           "card_no": "RJA-KM",
           "player": "Khaman Maluach",
           "team": "Phoenix Suns",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43838,7 +43838,7 @@
           "card_no": "RJA-LM",
           "player": "Liam McNeeley",
           "team": "Charlotte Hornets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43848,7 +43848,7 @@
           "card_no": "RJA-MR",
           "player": "Maxime Raynaud",
           "team": "Sacramento Kings",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43858,7 +43858,7 @@
           "card_no": "RJA-NC",
           "player": "Nique Clifford",
           "team": "Sacramento Kings",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43868,7 +43868,7 @@
           "card_no": "RJA-NE",
           "player": "Noa Essengue",
           "team": "Chicago Bulls",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43878,7 +43878,7 @@
           "card_no": "RJA-NP",
           "player": "Noah Penda",
           "team": "Orlando Magic",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43888,7 +43888,7 @@
           "card_no": "RJA-NT",
           "player": "Nolan Traore",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43898,7 +43898,7 @@
           "card_no": "RJA-RF",
           "player": "Rasheer Fleming",
           "team": "Phoenix Suns",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43908,7 +43908,7 @@
           "card_no": "RJA-RK",
           "player": "Ryan Kalkbrenner",
           "team": "Charlotte Hornets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43918,7 +43918,7 @@
           "card_no": "RJA-TP",
           "player": "Tyrese Proctor",
           "team": "Cleveland Cavaliers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43928,7 +43928,7 @@
           "card_no": "RJA-TS",
           "player": "Thomas Sorber",
           "team": "Oklahoma City Thunder",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43938,7 +43938,7 @@
           "card_no": "RJA-WC",
           "player": "Walter Clayton Jr.",
           "team": "Utah Jazz",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43948,7 +43948,7 @@
           "card_no": "RJA-WR",
           "player": "Will Riley",
           "team": "Washington Wizards",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43958,7 +43958,7 @@
           "card_no": "RJA-YH",
           "player": "Yang Hansen",
           "team": "Portland Trail Blazers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -43968,7 +43968,7 @@
           "card_no": "RJA-YK",
           "player": "Yanic Konan-Niederhäuser",
           "team": "Los Angeles Clippers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44388,7 +44388,7 @@
           "card_no": "SMR-AN",
           "player": "Asa Newell",
           "team": "Atlanta Hawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44398,7 +44398,7 @@
           "card_no": "SMR-AT",
           "player": "Adou Thiero",
           "team": "Los Angeles Lakers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44408,7 +44408,7 @@
           "card_no": "SMR-BB",
           "player": "Brooks Barnhizer",
           "team": "Oklahoma City Thunder",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44418,7 +44418,7 @@
           "card_no": "SMR-BS",
           "player": "Ben Saraf",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44428,7 +44428,7 @@
           "card_no": "SMR-CC",
           "player": "Cedric Coward",
           "team": "Memphis Grizzlies",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44438,7 +44438,7 @@
           "card_no": "SMR-CL",
           "player": "Chaz Lanier",
           "team": "Detroit Pistons",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44448,7 +44448,7 @@
           "card_no": "SMR-DH",
           "player": "Dylan Harper",
           "team": "San Antonio Spurs",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44458,7 +44458,7 @@
           "card_no": "SMR-DP",
           "player": "Drake Powell",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44468,7 +44468,7 @@
           "card_no": "SMR-DW",
           "player": "Danny Wolf",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44478,7 +44478,7 @@
           "card_no": "SMR-JB",
           "player": "Joan Beringer",
           "team": "Minnesota Timberwolves",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44488,7 +44488,7 @@
           "card_no": "SMR-JBR",
           "player": "Johni Broome",
           "team": "Philadelphia 76ers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44498,7 +44498,7 @@
           "card_no": "SMR-JR",
           "player": "Jase Richardson",
           "team": "Orlando Magic",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44508,7 +44508,7 @@
           "card_no": "SMR-KB",
           "player": "Koby Brea",
           "team": "Phoenix Suns",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44518,7 +44518,7 @@
           "card_no": "SMR-KJ",
           "player": "Kam Jones",
           "team": "Indiana Pacers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44528,7 +44528,7 @@
           "card_no": "SMR-KM",
           "player": "Khaman Maluach",
           "team": "Phoenix Suns",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44538,7 +44538,7 @@
           "card_no": "SMR-LM",
           "player": "Liam McNeeley",
           "team": "Charlotte Hornets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44548,7 +44548,7 @@
           "card_no": "SMR-MP",
           "player": "Micah Peavy",
           "team": "New Orleans Pelicans",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44558,7 +44558,7 @@
           "card_no": "SMR-RK",
           "player": "Ryan Kalkbrenner",
           "team": "Charlotte Hornets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44568,7 +44568,7 @@
           "card_no": "SMR-SJ",
           "player": "Sion James",
           "team": "Charlotte Hornets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44578,7 +44578,7 @@
           "card_no": "SMR-WC",
           "player": "Walter Clayton Jr.",
           "team": "Utah Jazz",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44588,7 +44588,7 @@
           "card_no": "SMR-WR",
           "player": "Will Riley",
           "team": "Washington Wizards",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44598,7 +44598,7 @@
           "card_no": "RHS-AB",
           "player": "Ace Bailey",
           "team": "Utah Jazz",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44608,7 +44608,7 @@
           "card_no": "RHS-AM",
           "player": "Alijah Martin",
           "team": "Toronto Raptors",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44618,7 +44618,7 @@
           "card_no": "RHS-AN",
           "player": "Asa Newell",
           "team": "Atlanta Hawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44628,7 +44628,7 @@
           "card_no": "RHS-AT",
           "player": "Adou Thiero",
           "team": "Los Angeles Lakers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44638,7 +44638,7 @@
           "card_no": "RHS-BB",
           "player": "Brooks Barnhizer",
           "team": "Oklahoma City Thunder",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44648,7 +44648,7 @@
           "card_no": "RHS-BS",
           "player": "Ben Saraf",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44658,7 +44658,7 @@
           "card_no": "RHS-CC",
           "player": "Cedric Coward",
           "team": "Memphis Grizzlies",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44668,7 +44668,7 @@
           "card_no": "RHS-CF",
           "player": "Cooper Flagg",
           "team": "Dallas Mavericks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44678,7 +44678,7 @@
           "card_no": "RHS-CL",
           "player": "Chaz Lanier",
           "team": "Detroit Pistons",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44688,7 +44688,7 @@
           "card_no": "RHS-CM",
           "player": "Collin Murray-Boyles",
           "team": "Toronto Raptors",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44698,7 +44698,7 @@
           "card_no": "RHS-DH",
           "player": "Dylan Harper",
           "team": "San Antonio Spurs",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44708,7 +44708,7 @@
           "card_no": "RHS-DP",
           "player": "Drake Powell",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44718,7 +44718,7 @@
           "card_no": "RHS-DQ",
           "player": "Derik Queen",
           "team": "New Orleans Pelicans",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44728,7 +44728,7 @@
           "card_no": "RHS-DW",
           "player": "Danny Wolf",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44738,7 +44738,7 @@
           "card_no": "RHS-ED",
           "player": "Egor Dëmin",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44748,7 +44748,7 @@
           "card_no": "RHS-JB",
           "player": "Joan Beringer",
           "team": "Minnesota Timberwolves",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44758,7 +44758,7 @@
           "card_no": "RHS-JBR",
           "player": "Johni Broome",
           "team": "Philadelphia 76ers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44768,7 +44768,7 @@
           "card_no": "RHS-JR",
           "player": "Jase Richardson",
           "team": "Orlando Magic",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44778,7 +44778,7 @@
           "card_no": "RHS-JW",
           "player": "Jamir Watkins",
           "team": "Washington Wizards",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44788,7 +44788,7 @@
           "card_no": "RHS-KB",
           "player": "Koby Brea",
           "team": "Phoenix Suns",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44798,7 +44798,7 @@
           "card_no": "RHS-KJ",
           "player": "Kasparas Jakučionis",
           "team": "Miami Heat",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44808,7 +44808,7 @@
           "card_no": "RHS-KJO",
           "player": "Kam Jones",
           "team": "Indiana Pacers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44818,7 +44818,7 @@
           "card_no": "RHS-KK",
           "player": "Kon Knueppel",
           "team": "Charlotte Hornets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44828,7 +44828,7 @@
           "card_no": "RHS-KM",
           "player": "Khaman Maluach",
           "team": "Phoenix Suns",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44838,7 +44838,7 @@
           "card_no": "RHS-LM",
           "player": "Liam McNeeley",
           "team": "Charlotte Hornets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44848,7 +44848,7 @@
           "card_no": "RHS-MP",
           "player": "Micah Peavy",
           "team": "New Orleans Pelicans",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44858,7 +44858,7 @@
           "card_no": "RHS-MR",
           "player": "Maxime Raynaud",
           "team": "Sacramento Kings",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44868,7 +44868,7 @@
           "card_no": "RHS-NC",
           "player": "Nique Clifford",
           "team": "Sacramento Kings",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44878,7 +44878,7 @@
           "card_no": "RHS-NE",
           "player": "Noa Essengue",
           "team": "Chicago Bulls",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44888,7 +44888,7 @@
           "card_no": "RHS-NP",
           "player": "Noah Penda",
           "team": "Orlando Magic",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44898,7 +44898,7 @@
           "card_no": "RHS-NT",
           "player": "Nolan Traore",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44908,7 +44908,7 @@
           "card_no": "RHS-RF",
           "player": "Rasheer Fleming",
           "team": "Phoenix Suns",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44918,7 +44918,7 @@
           "card_no": "RHS-RK",
           "player": "Ryan Kalkbrenner",
           "team": "Charlotte Hornets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44928,7 +44928,7 @@
           "card_no": "RHS-SJ",
           "player": "Sion James",
           "team": "Charlotte Hornets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44938,7 +44938,7 @@
           "card_no": "RHS-TP",
           "player": "Tyrese Proctor",
           "team": "Cleveland Cavaliers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44948,7 +44948,7 @@
           "card_no": "RHS-TS",
           "player": "Thomas Sorber",
           "team": "Oklahoma City Thunder",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44958,7 +44958,7 @@
           "card_no": "RHS-WC",
           "player": "Walter Clayton Jr.",
           "team": "Utah Jazz",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44968,7 +44968,7 @@
           "card_no": "RHS-WR",
           "player": "Will Riley",
           "team": "Washington Wizards",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44978,7 +44978,7 @@
           "card_no": "RHS-YH",
           "player": "Yang Hansen",
           "team": "Portland Trail Blazers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -44988,7 +44988,7 @@
           "card_no": "RHS-YK",
           "player": "Yanic Konan-Niederhäuser",
           "team": "Los Angeles Clippers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45388,7 +45388,7 @@
           "card_no": "MSR-AM",
           "player": "Alijah Martin",
           "team": "Toronto Raptors",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45398,7 +45398,7 @@
           "card_no": "MSR-BS",
           "player": "Ben Saraf",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45408,7 +45408,7 @@
           "card_no": "MSR-CC",
           "player": "Cedric Coward",
           "team": "Memphis Grizzlies",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45418,7 +45418,7 @@
           "card_no": "MSR-DQ",
           "player": "Derik Queen",
           "team": "New Orleans Pelicans",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45428,7 +45428,7 @@
           "card_no": "MSR-ED",
           "player": "Egor Dëmin",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45438,7 +45438,7 @@
           "card_no": "MSR-JB",
           "player": "Joan Beringer",
           "team": "Minnesota Timberwolves",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45448,7 +45448,7 @@
           "card_no": "MSR-JW",
           "player": "Jamir Watkins",
           "team": "Washington Wizards",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45458,7 +45458,7 @@
           "card_no": "MSR-KB",
           "player": "Koby Brea",
           "team": "Phoenix Suns",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45468,7 +45468,7 @@
           "card_no": "MSR-KJ",
           "player": "Kasparas Jakučionis",
           "team": "Miami Heat",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45478,7 +45478,7 @@
           "card_no": "MSR-KJO",
           "player": "Kam Jones",
           "team": "Indiana Pacers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45488,7 +45488,7 @@
           "card_no": "MSR-KM",
           "player": "Khaman Maluach",
           "team": "Phoenix Suns",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45498,7 +45498,7 @@
           "card_no": "MSR-MP",
           "player": "Micah Peavy",
           "team": "New Orleans Pelicans",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45508,7 +45508,7 @@
           "card_no": "MSR-MR",
           "player": "Maxime Raynaud",
           "team": "Sacramento Kings",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45518,7 +45518,7 @@
           "card_no": "MSR-NE",
           "player": "Noa Essengue",
           "team": "Chicago Bulls",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45528,7 +45528,7 @@
           "card_no": "MSR-NP",
           "player": "Noah Penda",
           "team": "Orlando Magic",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45538,7 +45538,7 @@
           "card_no": "MSR-NT",
           "player": "Nolan Traore",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45548,7 +45548,7 @@
           "card_no": "MSR-RF",
           "player": "Rasheer Fleming",
           "team": "Phoenix Suns",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45558,7 +45558,7 @@
           "card_no": "MSR-SJ",
           "player": "Sion James",
           "team": "Charlotte Hornets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45568,7 +45568,7 @@
           "card_no": "MSR-TS",
           "player": "Thomas Sorber",
           "team": "Oklahoma City Thunder",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45578,7 +45578,7 @@
           "card_no": "MSR-YH",
           "player": "Yang Hansen",
           "team": "Portland Trail Blazers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45828,7 +45828,7 @@
           "card_no": "DMR-BB",
           "player": "Brooks Barnhizer",
           "team": "Oklahoma City Thunder",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45838,7 +45838,7 @@
           "card_no": "DMR-CF",
           "player": "Cooper Flagg",
           "team": "Dallas Mavericks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45848,7 +45848,7 @@
           "card_no": "DMR-CL",
           "player": "Chaz Lanier",
           "team": "Detroit Pistons",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45858,7 +45858,7 @@
           "card_no": "DMR-CM",
           "player": "Collin Murray-Boyles",
           "team": "Toronto Raptors",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45868,7 +45868,7 @@
           "card_no": "DMR-DP",
           "player": "Drake Powell",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45878,7 +45878,7 @@
           "card_no": "DMR-JW",
           "player": "Jamir Watkins",
           "team": "Washington Wizards",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45888,7 +45888,7 @@
           "card_no": "DMR-KJ",
           "player": "Kasparas Jakučionis",
           "team": "Miami Heat",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45898,7 +45898,7 @@
           "card_no": "DMR-NE",
           "player": "Noa Essengue",
           "team": "Chicago Bulls",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45908,7 +45908,7 @@
           "card_no": "DMR-NT",
           "player": "Nolan Traore",
           "team": "Brooklyn Nets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -45918,7 +45918,7 @@
           "card_no": "DMR-TP",
           "player": "Tyrese Proctor",
           "team": "Cleveland Cavaliers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -46148,7 +46148,7 @@
           "card_no": "DMAR-AB",
           "player": "Ace Bailey",
           "team": "Utah Jazz",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -46158,7 +46158,7 @@
           "card_no": "DMAR-DQ",
           "player": "Derik Queen",
           "team": "New Orleans Pelicans",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -46168,7 +46168,7 @@
           "card_no": "DMAR-JB",
           "player": "Joan Beringer",
           "team": "Minnesota Timberwolves",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -46178,7 +46178,7 @@
           "card_no": "DMAR-JW",
           "player": "Jamir Watkins",
           "team": "Washington Wizards",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -46188,7 +46188,7 @@
           "card_no": "DMAR-LM",
           "player": "Liam McNeeley",
           "team": "Charlotte Hornets",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -46198,7 +46198,7 @@
           "card_no": "DMAR-NC",
           "player": "Nique Clifford",
           "team": "Sacramento Kings",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -46208,7 +46208,7 @@
           "card_no": "DMAR-TS",
           "player": "Thomas Sorber",
           "team": "Oklahoma City Thunder",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -46218,7 +46218,7 @@
           "card_no": "DMAR-WR",
           "player": "Will Riley",
           "team": "Washington Wizards",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -46228,7 +46228,7 @@
           "card_no": "DMAR-YH",
           "player": "Yang Hansen",
           "team": "Portland Trail Blazers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -46238,7 +46238,7 @@
           "card_no": "DMAR-YK",
           "player": "Yanic Konan-Niederhäuser",
           "team": "Los Angeles Clippers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -46289,6 +46289,56 @@
           "player": "Tyrese Proctor",
           "team": "Cleveland Cavaliers",
           "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Midnight Oil Marks Rookies",
+          "card_no": "MOR-JR",
+          "player": "Jase Richardson",
+          "team": "Orlando Magic",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Midnight Oil Marks Rookies",
+          "card_no": "MOR-KJ",
+          "player": "Kasparas Jakucionis",
+          "team": "Miami Heat",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Midnight Oil Marks Rookies",
+          "card_no": "MOR-KK",
+          "player": "Kon Knueppel",
+          "team": "Charlotte Hornets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Midnight Oil Marks Rookies",
+          "card_no": "MOR-NE",
+          "player": "Noa Essengue",
+          "team": "Chicago Bulls",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Midnight Oil Marks Rookies",
+          "card_no": "MOR-TP",
+          "player": "Tyrese Proctor",
+          "team": "Cleveland Cavaliers",
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -47309,6 +47359,256 @@
           "player": "Yanic Konan-Niederhäuser",
           "team": "Los Angeles Clippers",
           "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-1",
+          "player": "LeBron James",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-2",
+          "player": "Anthony Davis",
+          "team": "Dallas Mavericks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-3",
+          "player": "Anthony Edwards",
+          "team": "Minnesota Timberwolves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-4",
+          "player": "Shai Gilgeous-Alexander",
+          "team": "Oklahoma City Thunder",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-5",
+          "player": "Paolo Banchero",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-6",
+          "player": "Kevin Durant",
+          "team": "Phoenix Suns",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-7",
+          "player": "Stephen Curry",
+          "team": "Golden State Warriors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-8",
+          "player": "Jayson Tatum",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-9",
+          "player": "Trae Young",
+          "team": "Atlanta Hawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-10",
+          "player": "Jalen Brunson",
+          "team": "New York Knicks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-11",
+          "player": "Ja Morant",
+          "team": "Memphis Grizzlies",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-12",
+          "player": "Amen Thompson",
+          "team": "Houston Rockets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-13",
+          "player": "Giannis Antetokounmpo",
+          "team": "Milwaukee Bucks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-14",
+          "player": "Shaquille O'Neal",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-15",
+          "player": "Dwyane Wade",
+          "team": "Miami Heat",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-16",
+          "player": "Cooper Flagg",
+          "team": "Dallas Mavericks",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-17",
+          "player": "Dylan Harper",
+          "team": "San Antonio Spurs",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-18",
+          "player": "VJ Edgecombe",
+          "team": "Philadelphia 76ers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-19",
+          "player": "Kon Knueppel",
+          "team": "Charlotte Hornets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-20",
+          "player": "Ace Bailey",
+          "team": "Utah Jazz",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-21",
+          "player": "Tre Johnson III",
+          "team": "Washington Wizards",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-22",
+          "player": "Jeremiah Fears",
+          "team": "New Orleans Pelicans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-23",
+          "player": "Khaman Maluach",
+          "team": "Phoenix Suns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-24",
+          "player": "Walter Clayton Jr.",
+          "team": "Utah Jazz",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Night Owls",
+          "card_no": "NO-25",
+          "player": "Asa Newell",
+          "team": "Atlanta Hawks",
+          "tag": "RC"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -48401,154 +48701,154 @@
           "applies_to_section": "Base",
           "applies_to_subset": "Base",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Signatures",
+          "applies_to_subset": "Dark Marks",
           "parallel_name": "Dusk",
           "serial_no": "/75"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Signatures",
+          "applies_to_subset": "Dark Marks",
           "parallel_name": "Summer Solstice",
           "serial_no": "/50"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Signatures",
+          "applies_to_subset": "Dark Marks",
           "parallel_name": "Winter Solstice",
           "serial_no": "/35"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Signatures",
+          "applies_to_subset": "Dark Marks",
           "parallel_name": "Moon Beam",
           "serial_no": ""
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Signatures",
+          "applies_to_subset": "Dark Marks",
           "parallel_name": "Moonrise",
           "serial_no": "/25"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Signatures",
+          "applies_to_subset": "Dark Marks",
           "parallel_name": "Equinox",
           "serial_no": "/20"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Signatures",
+          "applies_to_subset": "Dark Marks",
           "parallel_name": "Midnight",
           "serial_no": "/12"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Signatures",
+          "applies_to_subset": "Dark Marks",
           "parallel_name": "Daybreak",
           "serial_no": "/5"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Signatures",
+          "applies_to_subset": "Dark Marks",
           "parallel_name": "Witching Hour",
           "serial_no": "/3"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Signatures",
+          "applies_to_subset": "Dark Marks",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Rookies Signatures",
+          "applies_to_subset": "Dark Marks Rookies",
           "parallel_name": "Twilight",
           "serial_no": "/199"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Rookies Signatures",
+          "applies_to_subset": "Dark Marks Rookies",
           "parallel_name": "Dusk",
           "serial_no": "/75"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Rookies Signatures",
+          "applies_to_subset": "Dark Marks Rookies",
           "parallel_name": "Summer Solstice",
           "serial_no": "/50"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Rookies Signatures",
+          "applies_to_subset": "Dark Marks Rookies",
           "parallel_name": "Winter Solstice",
           "serial_no": "/35"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Rookies Signatures",
+          "applies_to_subset": "Dark Marks Rookies",
           "parallel_name": "Moon Beam",
           "serial_no": ""
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Rookies Signatures",
+          "applies_to_subset": "Dark Marks Rookies",
           "parallel_name": "Moonrise",
           "serial_no": "/25"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Rookies Signatures",
+          "applies_to_subset": "Dark Marks Rookies",
           "parallel_name": "Equinox",
           "serial_no": "/20"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Rookies Signatures",
+          "applies_to_subset": "Dark Marks Rookies",
           "parallel_name": "Midnight",
           "serial_no": "/12"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Rookies Signatures",
+          "applies_to_subset": "Dark Marks Rookies",
           "parallel_name": "Daybreak",
           "serial_no": "/5"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Rookies Signatures",
+          "applies_to_subset": "Dark Marks Rookies",
           "parallel_name": "Witching Hour",
           "serial_no": "/3"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Marks Rookies Signatures",
+          "applies_to_subset": "Dark Marks Rookies",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -48618,154 +48918,154 @@
           "applies_to_section": "Autograph",
           "applies_to_subset": "Dark Matter Autographs",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Matter Autographs Rookies",
+          "applies_to_subset": "Dark Matter Rookie Autographs",
           "parallel_name": "Twilight",
           "serial_no": "/199"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Matter Autographs Rookies",
+          "applies_to_subset": "Dark Matter Rookie Autographs",
           "parallel_name": "Dusk",
           "serial_no": "/75"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Matter Autographs Rookies",
+          "applies_to_subset": "Dark Matter Rookie Autographs",
           "parallel_name": "Summer Solstice",
           "serial_no": "/50"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Matter Autographs Rookies",
+          "applies_to_subset": "Dark Matter Rookie Autographs",
           "parallel_name": "Winter Solstice",
           "serial_no": "/35"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Matter Autographs Rookies",
+          "applies_to_subset": "Dark Matter Rookie Autographs",
           "parallel_name": "Moon Beam",
           "serial_no": ""
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Matter Autographs Rookies",
+          "applies_to_subset": "Dark Matter Rookie Autographs",
           "parallel_name": "Moonrise",
           "serial_no": "/25"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Matter Autographs Rookies",
+          "applies_to_subset": "Dark Matter Rookie Autographs",
           "parallel_name": "Equinox",
           "serial_no": "/20"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Matter Autographs Rookies",
+          "applies_to_subset": "Dark Matter Rookie Autographs",
           "parallel_name": "Midnight",
           "serial_no": "/12"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Matter Autographs Rookies",
+          "applies_to_subset": "Dark Matter Rookie Autographs",
           "parallel_name": "Daybreak",
           "serial_no": "/5"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Matter Autographs Rookies",
+          "applies_to_subset": "Dark Matter Rookie Autographs",
           "parallel_name": "Witching Hour",
           "serial_no": "/3"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Dark Matter Autographs Rookies",
+          "applies_to_subset": "Dark Matter Rookie Autographs",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Oil Marks",
+          "applies_to_subset": "Midngiht Oil Marks",
           "parallel_name": "Dusk",
           "serial_no": "/75"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Oil Marks",
+          "applies_to_subset": "Midngiht Oil Marks",
           "parallel_name": "Summer Solstice",
           "serial_no": "/50"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Oil Marks",
+          "applies_to_subset": "Midngiht Oil Marks",
           "parallel_name": "Winter Solstice",
           "serial_no": "/35"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Oil Marks",
+          "applies_to_subset": "Midngiht Oil Marks",
           "parallel_name": "Moon Beam",
           "serial_no": ""
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Oil Marks",
+          "applies_to_subset": "Midngiht Oil Marks",
           "parallel_name": "Moonrise",
           "serial_no": "/25"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Oil Marks",
+          "applies_to_subset": "Midngiht Oil Marks",
           "parallel_name": "Equinox",
           "serial_no": "/20"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Oil Marks",
+          "applies_to_subset": "Midngiht Oil Marks",
           "parallel_name": "Midnight",
           "serial_no": "/12"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Oil Marks",
+          "applies_to_subset": "Midngiht Oil Marks",
           "parallel_name": "Daybreak",
           "serial_no": "/5"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Oil Marks",
+          "applies_to_subset": "Midngiht Oil Marks",
           "parallel_name": "Witching Hour",
           "serial_no": "/3"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Oil Marks",
+          "applies_to_subset": "Midngiht Oil Marks",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -48842,7 +49142,7 @@
           "applies_to_section": "Autograph",
           "applies_to_subset": "Midnight Oil Marks Rookies",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -48898,84 +49198,84 @@
           "applies_to_section": "Autograph",
           "applies_to_subset": "Midnight Sun Signatures",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Sun Signatures Rookies",
+          "applies_to_subset": "Midnight Sun Rookie Signatures",
           "parallel_name": "Twilight",
           "serial_no": "/199"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Sun Signatures Rookies",
+          "applies_to_subset": "Midnight Sun Rookie Signatures",
           "parallel_name": "Dusk",
           "serial_no": "/75"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Sun Signatures Rookies",
+          "applies_to_subset": "Midnight Sun Rookie Signatures",
           "parallel_name": "Summer Solstice",
           "serial_no": "/50"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Sun Signatures Rookies",
+          "applies_to_subset": "Midnight Sun Rookie Signatures",
           "parallel_name": "Winter Solstice",
           "serial_no": "/35"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Sun Signatures Rookies",
+          "applies_to_subset": "Midnight Sun Rookie Signatures",
           "parallel_name": "Moon Beam",
           "serial_no": ""
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Sun Signatures Rookies",
+          "applies_to_subset": "Midnight Sun Rookie Signatures",
           "parallel_name": "Moonrise",
           "serial_no": "/25"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Sun Signatures Rookies",
+          "applies_to_subset": "Midnight Sun Rookie Signatures",
           "parallel_name": "Equinox",
           "serial_no": "/20"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Sun Signatures Rookies",
+          "applies_to_subset": "Midnight Sun Rookie Signatures",
           "parallel_name": "Midnight",
           "serial_no": "/12"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Sun Signatures Rookies",
+          "applies_to_subset": "Midnight Sun Rookie Signatures",
           "parallel_name": "Daybreak",
           "serial_no": "/5"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Sun Signatures Rookies",
+          "applies_to_subset": "Midnight Sun Rookie Signatures",
           "parallel_name": "Witching Hour",
           "serial_no": "/3"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Midnight Sun Signatures Rookies",
+          "applies_to_subset": "Midnight Sun Rookie Signatures",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -49045,161 +49345,224 @@
           "applies_to_section": "Autograph",
           "applies_to_subset": "Rookie Horizon Signatures",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs",
+          "applies_to_subset": "Stroke Of Midnight Autographs",
           "parallel_name": "Twilight",
           "serial_no": "/199"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs",
+          "applies_to_subset": "Stroke Of Midnight Autographs",
           "parallel_name": "Dusk",
           "serial_no": "/75"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs",
+          "applies_to_subset": "Stroke Of Midnight Autographs",
           "parallel_name": "Summer Solstice",
           "serial_no": "/50"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs",
+          "applies_to_subset": "Stroke Of Midnight Autographs",
           "parallel_name": "Winter Solstice",
           "serial_no": "/35"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs",
+          "applies_to_subset": "Stroke Of Midnight Autographs",
           "parallel_name": "Moon Beam",
           "serial_no": ""
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs",
+          "applies_to_subset": "Stroke Of Midnight Autographs",
           "parallel_name": "Moonrise",
           "serial_no": "/25"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs",
+          "applies_to_subset": "Stroke Of Midnight Autographs",
           "parallel_name": "Equinox",
           "serial_no": "/20"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs",
+          "applies_to_subset": "Stroke Of Midnight Autographs",
           "parallel_name": "Midnight",
           "serial_no": "/12"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs",
+          "applies_to_subset": "Stroke Of Midnight Autographs",
           "parallel_name": "Daybreak",
           "serial_no": "/5"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs",
+          "applies_to_subset": "Stroke Of Midnight Autographs",
           "parallel_name": "Witching Hour",
           "serial_no": "/3"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs",
+          "applies_to_subset": "Stroke Of Midnight Autographs",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs Rookies",
+          "applies_to_subset": "Stroke Of Midnight Autographs II",
+          "parallel_name": "Summer Solstice",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Stroke Of Midnight Autographs II",
+          "parallel_name": "Winter Solstice",
+          "serial_no": "/35"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Stroke Of Midnight Autographs II",
+          "parallel_name": "Moon Beam",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Stroke Of Midnight Autographs II",
+          "parallel_name": "Moonrise",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Stroke Of Midnight Autographs II",
+          "parallel_name": "Equinox",
+          "serial_no": "/20"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Stroke Of Midnight Autographs II",
+          "parallel_name": "Midnight",
+          "serial_no": "/12"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Stroke Of Midnight Autographs II",
+          "parallel_name": "Daybreak",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Stroke Of Midnight Autographs II",
+          "parallel_name": "Witching Hour",
+          "serial_no": "/3"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Stroke Of Midnight Autographs II",
+          "parallel_name": "Black Light",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_topps_midnight_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Stroke Of Midnight Rookie Autographs",
           "parallel_name": "Twilight",
           "serial_no": "/199"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs Rookies",
+          "applies_to_subset": "Stroke Of Midnight Rookie Autographs",
           "parallel_name": "Dusk",
           "serial_no": "/75"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs Rookies",
+          "applies_to_subset": "Stroke Of Midnight Rookie Autographs",
           "parallel_name": "Summer Solstice",
           "serial_no": "/50"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs Rookies",
+          "applies_to_subset": "Stroke Of Midnight Rookie Autographs",
           "parallel_name": "Winter Solstice",
           "serial_no": "/35"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs Rookies",
+          "applies_to_subset": "Stroke Of Midnight Rookie Autographs",
           "parallel_name": "Moon Beam",
           "serial_no": ""
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs Rookies",
+          "applies_to_subset": "Stroke Of Midnight Rookie Autographs",
           "parallel_name": "Moonrise",
           "serial_no": "/25"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs Rookies",
+          "applies_to_subset": "Stroke Of Midnight Rookie Autographs",
           "parallel_name": "Equinox",
           "serial_no": "/20"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs Rookies",
+          "applies_to_subset": "Stroke Of Midnight Rookie Autographs",
           "parallel_name": "Midnight",
           "serial_no": "/12"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs Rookies",
+          "applies_to_subset": "Stroke Of Midnight Rookie Autographs",
           "parallel_name": "Daybreak",
           "serial_no": "/5"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs Rookies",
+          "applies_to_subset": "Stroke Of Midnight Rookie Autographs",
           "parallel_name": "Witching Hour",
           "serial_no": "/3"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Autograph",
-          "applies_to_subset": "Stroke of Midnight Autographs Rookies",
+          "applies_to_subset": "Stroke Of Midnight Rookie Autographs",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -49276,7 +49639,7 @@
           "applies_to_section": "Autograph",
           "applies_to_subset": "Rookie Jersey Autographs",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -49360,14 +49723,14 @@
           "applies_to_section": "Insert",
           "applies_to_subset": "Daydreamers",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Insert",
-          "applies_to_subset": "Dreamland",
+          "applies_to_subset": "Daydreamers",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -49451,7 +49814,7 @@
           "applies_to_section": "Insert",
           "applies_to_subset": "Insomnia",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -49535,7 +49898,7 @@
           "applies_to_section": "Insert",
           "applies_to_subset": "Moonfall",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
@@ -49619,28 +49982,28 @@
           "applies_to_section": "Insert",
           "applies_to_subset": "Night Owls",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Insert",
           "applies_to_subset": "Night Shade",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Insert",
           "applies_to_subset": "Night Vision",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         },
         {
           "code": "2025_26_topps_midnight_basketball",
           "applies_to_section": "Insert",
           "applies_to_subset": "Twilight",
           "parallel_name": "Black Light",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
         }
       ]
     },
