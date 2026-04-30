@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-04-30T18:01:50.699Z",
+  "generated_at": "2026-04-30T20:47:14.485Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -20711,6 +20711,130 @@
           "printRun": 250,
           "serial": "",
           "subSetSize": 50,
+          "notes": "",
+          "cmURL": ""
+        }
+      ]
+    },
+    "2026-bowman-mega-box-baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026-bowman-mega-box-baseball",
+        "displayName": "2026 Bowman Mega Box Baseball",
+        "year": "2026",
+        "sport": "Baseball",
+        "manufacturer": "Topps",
+        "product": "Bowman Mega Box",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "setType": "Base",
+          "setLine": "Base Mega Chrome Mojo",
+          "printRun": 43500,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "setType": "Variation",
+          "setLine": "Base Image Variations",
+          "printRun": 150,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "setType": "Base",
+          "setLine": "Prospects Mega Chrome Mojo",
+          "printRun": 43500,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "setType": "Variation",
+          "setLine": "Prospects Image Variation",
+          "printRun": 150,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "setType": "Autograph",
+          "setLine": "Bowman Prospects Mega Autographs Chrome Mojo",
+          "printRun": 1700,
+          "serial": "",
+          "subSetSize": 60,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "setType": "Autograph",
+          "setLine": "Prospects Image Variation Autographs",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": 7,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "setType": "Autograph",
+          "setLine": "Bowman Rookies Mega Autographs Chrome Mojo",
+          "printRun": 115,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "setType": "Autograph",
+          "setLine": "Rookie Image Variation Autographs",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": 6,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "setType": "Insert",
+          "setLine": "Bowman Sterling Chrome Mojo",
+          "printRun": 48500,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "setType": "Insert",
+          "setLine": "Mega Futures Chrome Mojo",
+          "printRun": 2000,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "setType": "Insert",
+          "setLine": "Electric Sluggers Chrome Mojo",
+          "printRun": 9450,
+          "serial": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         }
