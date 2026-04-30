@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-04-30T18:52:02.347Z",
+  "generated_at": "2026-04-30T23:17:40.417Z",
   "shard": 8,
   "shard_count": 8,
   "products": {
@@ -43843,7 +43843,505 @@
           "tag": ""
         }
       ],
-      "parallels": []
+      "parallels": [
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Sky Blue Mojo Refractor",
+          "serial_no": "/499"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Neon Green Mojo Refractor",
+          "serial_no": "/399"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Fuchsia Mojo Refractor",
+          "serial_no": "/299"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Burgundy Mojo Refractor",
+          "serial_no": "/275"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Purple Mojo Refractor",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Pink Mojo Refractor",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Navy Mojo Refractor",
+          "serial_no": "/175"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Blue Mojo Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Aqua Mojo Refractor",
+          "serial_no": "/125"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Green Mojo Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Yellow Mojo Refractor",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Gold Mojo Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Orange Mojo Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Black & White Mojo Refractor",
+          "serial_no": "/15"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Black Mojo Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Red Mojo Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Mega Chrome Mojo",
+          "parallel_name": "Rose Gold Mojo Refractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Base Image Variations",
+          "parallel_name": "Rose Gold",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Sky Blue Mojo Refractor",
+          "serial_no": "/499"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Neon Green Mojo Refractor",
+          "serial_no": "/399"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Fuchsia Mojo Refractor",
+          "serial_no": "/299"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Burgundy Mojo Refractor",
+          "serial_no": "/275"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Purple Mojo Refractor",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Pink Mojo Refractor",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Navy Mojo Refractor",
+          "serial_no": "/175"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Blue Mojo Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Aqua Mojo Refractor",
+          "serial_no": "/125"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Green Mojo Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Yellow Mojo Refractor",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Gold Mojo Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Orange Mojo Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Black & White Mojo Refractor",
+          "serial_no": "/15"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Black Mojo Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Red Mojo Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Prospects Mega Chrome Mojo",
+          "parallel_name": "Rose Gold Mojo Refractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Prospects Image Variation",
+          "parallel_name": "Rose Gold",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Prospects Mega Autographs Chrome Mojo",
+          "parallel_name": "Purple Mojo Refractor",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Prospects Mega Autographs Chrome Mojo",
+          "parallel_name": "Blue Mojo Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Prospects Mega Autographs Chrome Mojo",
+          "parallel_name": "Aqua Mojo Refractor",
+          "serial_no": "/125"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Prospects Mega Autographs Chrome Mojo",
+          "parallel_name": "Green Mojo Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Prospects Mega Autographs Chrome Mojo",
+          "parallel_name": "Gold Mojo Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Prospects Mega Autographs Chrome Mojo",
+          "parallel_name": "Orange Mojo Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Prospects Mega Autographs Chrome Mojo",
+          "parallel_name": "Black & White Mojo Refractor",
+          "serial_no": "/15"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Prospects Mega Autographs Chrome Mojo",
+          "parallel_name": "Black Mojo Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Prospects Mega Autographs Chrome Mojo",
+          "parallel_name": "Red Mojo Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Prospects Mega Autographs Chrome Mojo",
+          "parallel_name": "Rose Gold Mojo Refractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Rookies Mega Autographs Chrome Mojo",
+          "parallel_name": "Gold Mojo Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Rookies Mega Autographs Chrome Mojo",
+          "parallel_name": "Orange Mojo Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Rookies Mega Autographs Chrome Mojo",
+          "parallel_name": "Black & White Mojo Refractor",
+          "serial_no": "/15"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Rookies Mega Autographs Chrome Mojo",
+          "parallel_name": "Black Mojo Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Rookies Mega Autographs Chrome Mojo",
+          "parallel_name": "Red Mojo Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Rookies Mega Autographs Chrome Mojo",
+          "parallel_name": "Rose Gold Mojo Refractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling Chrome Mojo",
+          "parallel_name": "Purple Mojo Refractor",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling Chrome Mojo",
+          "parallel_name": "Pink Mojo Refractor",
+          "serial_no": "/200"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling Chrome Mojo",
+          "parallel_name": "Blue Mojo Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling Chrome Mojo",
+          "parallel_name": "Green Mojo Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling Chrome Mojo",
+          "parallel_name": "Gold Mojo Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling Chrome Mojo",
+          "parallel_name": "Orange Mojo Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling Chrome Mojo",
+          "parallel_name": "Black Mojo Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling Chrome Mojo",
+          "parallel_name": "Red Mojo Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling Chrome Mojo",
+          "parallel_name": "Rose Gold Mojo Refractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers Chrome Mojo",
+          "parallel_name": "Burgundy Mojo Refractor",
+          "serial_no": "/275"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers Chrome Mojo",
+          "parallel_name": "Purple Mojo Refractor",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers Chrome Mojo",
+          "parallel_name": "Pink Mojo Refractor",
+          "serial_no": "/200"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers Chrome Mojo",
+          "parallel_name": "Blue Mojo Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers Chrome Mojo",
+          "parallel_name": "Green Mojo Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers Chrome Mojo",
+          "parallel_name": "Gold Mojo Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers Chrome Mojo",
+          "parallel_name": "Orange Mojo Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers Chrome Mojo",
+          "parallel_name": "Black Mojo Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers Chrome Mojo",
+          "parallel_name": "Red Mojo Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-mega-box-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers Chrome Mojo",
+          "parallel_name": "Rose Gold Mojo Refractor",
+          "serial_no": "/1"
+        }
+      ]
     }
   }
 }
