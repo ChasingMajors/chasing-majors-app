@@ -3,13 +3,14 @@
   "sport": "soccer",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-04-28T23:06:45.857Z",
+  "generated_at": "2026-04-30T15:37:22.808Z",
   "sharded": true,
   "shards": [
     "soccer-001.json"
   ],
   "product_map": {
     "2025_panini_absolute_k_league_soccer": "soccer-001.json",
+    "2025_26_panini_prizm_fifa_soccer": "soccer-001.json",
     "2025_26_Topp_FC_Barcelona_Forever_Soccer": "soccer-001.json",
     "2025_26_Topps_Arsenal_Team_Set_Soccer": "soccer-001.json",
     "2025_26_Topps_Bundesliga_International_Stars_Soccer": "soccer-001.json",
