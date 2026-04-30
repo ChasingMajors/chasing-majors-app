@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-04-29T21:32:16.892Z",
+  "generated_at": "2026-04-30T03:09:13.212Z",
   "index": [
     {
       "Code": "19TFmbl",
@@ -667,18 +667,28 @@
       "Code": "2026_Topps_Chrome_Black",
       "DisplayName": "2026 Topps Chrome Black Baseball",
       "Keywords": "2026 Topps Chrome Black Baseball, 2026 Topps Chrome Black, 26 Topps Chrome Black, Topps Chrome Black Baseball, Topps Chrome Black",
-      "year": "",
+      "year": "2026",
       "sport": "Baseball",
       "manufacturer": "Topps",
       "product": "Chrome Black",
       "cmURL": ""
     },
     {
+      "Code": "2025_26_topps_nba_hoops_basketball",
+      "DisplayName": "2025-26 Topps NBA Hoops Basketball",
+      "Keywords": "2025-26 Topps NBA Hoops Basketball, 2025 Topps NBA Hoops Basketball, 2026 Topps NBA Hoops Basketball, Topps NBA Hoops Basketball 2025-26, Topps NBA Hoops Basketball 2025, Topps NBA Hoops Basketball 2026, 2025-26 NBA Hoops basketball cards, NBA Hoops basketball cards 2025, NBA Hoops basketball cards 2026, Topps NBA Hoops cards, NBA Hoops rookies 2025-26, NBA Hoops rookie cards 2025, NBA Hoops autos 2025-26, NBA Hoops inserts 2025-26, NBA Hoops parallels 2025-26, Topps NBA Hoops Basketball checklist, NBA Hoops checklist 2025-26",
+      "year": "2025-26",
+      "sport": "Basketball",
+      "manufacturer": "Topps",
+      "product": "NBA Hoops",
+      "cmURL": ""
+    },
+    {
       "Code": "2025_26_bowman_basketball",
-      "DisplayName": "2026 Bowman Baseball",
+      "DisplayName": "2026 Bowman Basketball",
       "Keywords": "2025-26 Bowman Basketball, 2025 Bowman Basketball, 2026 Bowman Basketball, Bowman Basketball 2025-26, Bowman Basketball 2025, Bowman Basketball 2026, 2025-26 Bowman cards, Bowman basketball cards 2025, Bowman basketball cards 2026, Bowman basketball rookies 2025, Bowman rookie cards basketball 2025-26, Bowman chrome basketball 2025-26, Bowman prospects basketball 2025-26, Bowman parallels basketball 2025-26, Bowman autos basketball 2025-26, Bowman Basketball checklist 2025-26, Bowman basketball checklist",
-      "year": "",
-      "sport": "Baseball",
+      "year": "2025-26",
+      "sport": "Basketball",
       "manufacturer": "Topps",
       "product": "Bowman",
       "cmURL": ""
@@ -687,10 +697,30 @@
       "Code": "2025_26_topps_signature_class_basketball",
       "DisplayName": "2025-26 Topps Signature Class Basketball",
       "Keywords": "2025-26 Topps Signature Class Basketball, 2025 Topps Signature Class Basketball, 2026 Topps Signature Class Basketball, Topps Signature Class Basketball 2025-26, Topps Signature Class Basketball 2025, Topps Signature Class Basketball 2026, 2025-26 Topps Signature Class cards, Topps Signature Class basketball cards 2025, Topps Signature Class basketball cards 2026, Signature Class basketball cards 2025-26, Topps Signature Class rookies basketball 2025-26, Topps Signature Class rookie cards basketball 2025, Topps Signature Class autos basketball 2025-26, Topps Signature Class autographs basketball 2025-26, Topps Signature Class parallels basketball 2025-26, Topps Signature Class Basketball checklist 2025-26, Topps Signature Class checklist",
-      "year": "",
+      "year": "2025-26",
       "sport": "Basketball",
       "manufacturer": "Topps",
       "product": "Signature Class",
+      "cmURL": ""
+    },
+    {
+      "Code": "2025_26_topps_three_basketball",
+      "DisplayName": "2025-26 Topps Three Basketball",
+      "Keywords": "2025-26 Topps Three Basketball, 2025 Topps Three Basketball, 2026 Topps Three Basketball, Topps Three Basketball 2025-26, Topps Three Basketball 2025, Topps Three Basketball 2026, 2025-26 Topps Three cards, Topps Three basketball cards 2025, Topps Three basketball cards 2026, Topps Three basketball set 2025-26, Topps Three rookies basketball 2025-26, Topps Three rookie cards basketball 2025, Topps Three autos basketball 2025-26, Topps Three parallels basketball 2025-26, Topps Three inserts basketball 2025-26, Topps Three Basketball checklist 2025-26, Topps Three checklist",
+      "year": "2025-26",
+      "sport": "Basketball",
+      "manufacturer": "Topps",
+      "product": "Three",
+      "cmURL": ""
+    },
+    {
+      "Code": "2026-bowman-baseball",
+      "DisplayName": "2026 Bowman Baseball",
+      "Keywords": "2026 Bowman Baseball, 2026 Bowman, 2026 Bowman Baseball cards, 2026 Topps Bowman Baseball, 2026 Bowman MLB, 26 Bowman Baseball, 26 Bowman, Bowman Baseball 2026, Topps Bowman Baseball 2026, Bowman Baseball cards, Bowman Baseball, Topps Bowman Baseball, Bowman prospects baseball cards, Bowman 1st cards 2026, Bowman Chrome prospects 2026, Bowman Baseball checklist, Bowman checklist, 2026 Bowman checklist",
+      "year": "",
+      "sport": "",
+      "manufacturer": "Topps",
+      "product": "Bowman",
       "cmURL": ""
     }
   ]
