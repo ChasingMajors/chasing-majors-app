@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-04-30T03:09:13.212Z",
+  "generated_at": "2026-04-30T05:08:53.551Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -18349,7 +18349,7 @@
       "ok": true,
       "meta": {
         "code": "2025_26_bowman_basketball",
-        "displayName": "2026 Bowman Basketball",
+        "displayName": "2025-26 Bowman Basketball Bowman Basketball",
         "year": "2025-26",
         "sport": "Basketball",
         "manufacturer": "Topps",
@@ -19453,7 +19453,7 @@
         "code": "2026-bowman-baseball",
         "displayName": "2026 Bowman Baseball",
         "year": "",
-        "sport": "",
+        "sport": "Baseball",
         "manufacturer": "Topps",
         "product": "Bowman",
         "cmURL": ""
