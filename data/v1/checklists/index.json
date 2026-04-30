@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist Google Sheets Products rebuild",
-  "generated_at": "2026-04-30T14:47:16.371Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-04-30T15:37:22.808Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -4331,6 +4331,15 @@
       "sport": "soccer",
       "manufacturer": "Donruss",
       "product": "Road To World Cup 26"
+    },
+    {
+      "Code": "2025_26_panini_prizm_fifa_soccer",
+      "DisplayName": "2025-26 Panini Prizm FIFA Soccer",
+      "Keywords": "2025-26 Panini Prizm FIFA Soccer, 2025-26 Prizm FIFA Soccer, Panini Prizm FIFA Soccer 2025-26, Prizm FIFA Soccer 2025-26, 2025-26 Panini Prizm FIFA cards, Prizm FIFA soccer cards 2025-26, Panini Prizm World Cup soccer cards 2025-26, Prizm soccer hobby box 2025-26, Prizm soccer blaster 2025-26, Prizm soccer retail 2025-26, Prizm FIFA rookies 2025-26, Prizm FIFA rookie cards 2025-26, Prizm FIFA autos 2025-26, Prizm FIFA autographs 2025-26, Prizm FIFA parallels 2025-26, Prizm FIFA silver cards 2025-26, Prizm FIFA inserts 2025-26, Panini Prizm FIFA Soccer checklist 2025-26, Prizm FIFA checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Prizm FIFA"
     },
     {
       "Code": "2025-26-panini-select-la-liga-soccer",
