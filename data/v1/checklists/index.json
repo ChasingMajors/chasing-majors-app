@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist Google Sheets Products rebuild",
-  "generated_at": "2026-04-30T18:56:23.268Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-04-30T21:20:09.666Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -3521,6 +3521,15 @@
       "sport": "basketball",
       "manufacturer": "Panini",
       "product": "Prizm WNBA"
+    },
+    {
+      "Code": "2025_panini_select_wnba_basketball",
+      "DisplayName": "2025 Panini Select WNBA Basketball",
+      "Keywords": "2025 Panini Select WNBA Basketball, 2025 Select WNBA Basketball, Panini Select WNBA Basketball 2025, Select WNBA Basketball 2025, 2025 Panini Select WNBA cards, Select WNBA basketball cards 2025, Panini Select WNBA cards 2025, Select WNBA hobby box 2025, Select WNBA retail 2025, Select WNBA rookies 2025, Select WNBA rookie cards 2025, Select WNBA autos 2025, Select WNBA autographs 2025, Select WNBA patch autos 2025, Select WNBA parallels 2025, Select WNBA prizm parallels 2025, Select WNBA inserts 2025, Panini Select WNBA Basketball checklist 2025, Select WNBA checklist",
+      "year": "2025",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Select WNBA"
     },
     {
       "Code": "2025_Topps_Chrome_McDonalds_All_American_Basketball",
