@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-04-30T17:18:28.821Z",
+  "generated_at": "2026-04-30T18:52:02.347Z",
   "shard": 8,
   "shard_count": 8,
   "products": {
@@ -39599,7 +39599,1555 @@
           "tag": ""
         }
       ],
-      "parallels": []
+      "parallels": [
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Bowman Logo Pattern",
+          "serial_no": ""
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Sky Blue Border",
+          "serial_no": "/499"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Neon Green Border",
+          "serial_no": "/399"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Fuchsia Border",
+          "serial_no": "/299"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Purple Border",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Purple Pattern",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Pink Border",
+          "serial_no": "/175"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Blue Border",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Blue Pattern",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Green Border",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Breen Border Pattern",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Yellow Border",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Yellow Pattern",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Gold Border Pattern",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Gold Border",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Orange Border",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Orange Border Pattern",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Black Border",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Black Border Pattern",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Red Border",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Platinum Border",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Printing Plates",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Bowman Logo Pattern",
+          "serial_no": ""
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Sky Blue Border",
+          "serial_no": "/499"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Neon Green Border",
+          "serial_no": "/399"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Fuchsia Border",
+          "serial_no": "/299"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Purple Border",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Purple Pattern",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Pink Border",
+          "serial_no": "/175"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Blue Border",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Blue Pattern",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Green Border",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Breen Border Pattern",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Yellow Border",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Yellow Pattern",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Gold Border Pattern",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Gold Border",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Orange Border",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Orange Border Pattern",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Black Border",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Black Border Pattern",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Red Border",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Platinum Border",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Paper Prospects",
+          "parallel_name": "Printing Plates",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Reptilian Refractor",
+          "serial_no": ""
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Refractor",
+          "serial_no": "/499"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Lava Refractor",
+          "serial_no": "/399"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Speckle Refractor",
+          "serial_no": "/299"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Purple Refractor",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Purple RayWave Refractor",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Fuchsia Refractor",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Fuchsia Wave",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Reptilian Fuchsia Refractor",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Blue Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Blue Shimmer Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Reptilian Blue Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Aqua X-Fractor Refractor",
+          "serial_no": "/125"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Aqua Shimmer Refractor",
+          "serial_no": "/125"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Steel Metal Refractor",
+          "serial_no": "/100"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Green Grass Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Yellow Refractor",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Yellow X-Fractor",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Yellow Wave",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Gold Shimmer Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Reptilian Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Bowman LogoFractor",
+          "serial_no": "/35"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Rose Gold Refractor",
+          "serial_no": "/15"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Rose Gold Mini-Diamond Refractor",
+          "serial_no": "/15"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Black Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Black X-Fractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Red Lava Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Reptilian Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Printing Plates",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "League Logofractor",
+          "serial_no": ""
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Mini-Diamond Refractor",
+          "serial_no": ""
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "X-Fractor",
+          "serial_no": ""
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Wave Refractor",
+          "serial_no": "/350"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Blue RayWave Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Orange Shimmer Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Reptilian Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Purple Geometric",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Blue Geometric",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Aqua Geometric",
+          "serial_no": "/125"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Green Geometric",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Yellow Geometric",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Gold Geometric",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Orange Geometric",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Black Geometric",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Red Geometric",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Green Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Green Shimmer Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "Green Reptilian Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Chrome Prospects",
+          "parallel_name": "FireFractor",
+          "serial_no": "/3"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Black & White Shimmer Refractor",
+          "serial_no": ""
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Refractor",
+          "serial_no": "/499"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Speckle Refractor",
+          "serial_no": "/299"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Purple Refractor",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Blue Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Blue X-Fractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Aqua Refractor",
+          "serial_no": "/125"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Mini-Diamond Refractor",
+          "serial_no": "/100"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Green Grass Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Yellow Refractor",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Yellow X-Fractor",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Gold Shimmer Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Bowman LogoFractor",
+          "serial_no": "/35"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Black Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Black X-Fractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Red Lava Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Printing Plates",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Orange Shimmer Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Orange X-Fractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "HTA Choice",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Green Lava Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Gold Lava Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Orange Wave Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Red X-Fractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Green Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Green Shimmer Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Green Reptilian Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Prospects Autographs",
+          "parallel_name": "Firefractor",
+          "serial_no": "/3"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Rookie Autographs",
+          "parallel_name": "Refractor",
+          "serial_no": "/499"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Rookie Autographs",
+          "parallel_name": "Blue Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Rookie Autographs",
+          "parallel_name": "Mini-Diamond Refractor",
+          "serial_no": "/100"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Rookie Autographs",
+          "parallel_name": "Green Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Rookie Autographs",
+          "parallel_name": "Yellow Refractor",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Rookie Autographs",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Rookie Autographs",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Rookie Autographs",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Rookie Autographs",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Chrome Rookie Autographs",
+          "parallel_name": "Printing Plates",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "All America Game Autographs",
+          "parallel_name": "Red Ink",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Sterling Autographs",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Sterling Autographs",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Sterling Autographs",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Bowman Sterling Autographs",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Draft Pick Pairings Autographs",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Draft Pick Pairings Autographs",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Electric Sluggers Autographs",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Electric Sluggers Autographs",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Electric Sluggers Autographs",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Electric Sluggers Autographs",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paper Prospect Retail Autographs",
+          "parallel_name": "Purple Border",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paper Prospect Retail Autographs",
+          "parallel_name": "Blue Border",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paper Prospect Retail Autographs",
+          "parallel_name": "Green Border",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paper Prospect Retail Autographs",
+          "parallel_name": "Gold Border",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paper Prospect Retail Autographs",
+          "parallel_name": "Orange Border",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paper Prospect Retail Autographs",
+          "parallel_name": "Red Border",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paper Prospect Retail Autographs",
+          "parallel_name": "Platinum",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paper Rookies & Veterans Retail Autographs",
+          "parallel_name": "Purple Border",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paper Rookies & Veterans Retail Autographs",
+          "parallel_name": "Blue Border",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paper Rookies & Veterans Retail Autographs",
+          "parallel_name": "Green Border",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paper Rookies & Veterans Retail Autographs",
+          "parallel_name": "Gold Border",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paper Rookies & Veterans Retail Autographs",
+          "parallel_name": "Orange Border",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paper Rookies & Veterans Retail Autographs",
+          "parallel_name": "Red Border",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paper Rookies & Veterans Retail Autographs",
+          "parallel_name": "Platinum",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Power Chords Autographs",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Power Chords Autographs",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Power Chords Autographs",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Power Chords Autographs",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Under the Radar Autographs",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Under the Radar Autographs",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Under the Radar Autographs",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Under the Radar Autographs",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Anime",
+          "parallel_name": "Black Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Anime",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Anime",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Scouts Top 100",
+          "parallel_name": "Mini-Diamond Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Scouts Top 100",
+          "parallel_name": "Aqua Refractor",
+          "serial_no": "/125"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Scouts Top 100",
+          "parallel_name": "Green Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Scouts Top 100",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Scouts Top 100",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Scouts Top 100",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Scouts Top 100",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Spotlights",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Spotlights",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling",
+          "parallel_name": "Mini-Diamond Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling",
+          "parallel_name": "Aqua Refractor",
+          "serial_no": "/125"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling",
+          "parallel_name": "Green Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Bowman Sterling",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Crystallized",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Crystallized",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Crystallized",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Crystallized",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers",
+          "parallel_name": "Mini-Diamond Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers",
+          "parallel_name": "Aqua Refractor",
+          "serial_no": "/125"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers",
+          "parallel_name": "Green Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Electric Sluggers",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Final Draft",
+          "parallel_name": "Black Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Final Draft",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Final Draft",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Patchwork",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Patchwork",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Power Chords",
+          "parallel_name": "Mini-Diamond Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Power Chords",
+          "parallel_name": "Aqua Refractor",
+          "serial_no": "/125"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Power Chords",
+          "parallel_name": "Green Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Power Chords",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Power Chords",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Power Chords",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Power Chords",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Under the Radar",
+          "parallel_name": "Mini-Diamond Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Under the Radar",
+          "parallel_name": "Aqua Refractor",
+          "serial_no": "/125"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Under the Radar",
+          "parallel_name": "Green Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Under the Radar",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Under the Radar",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Under the Radar",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026-bowman-baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Under the Radar",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        }
+      ]
     },
     "2026-bowman-mega-box-baseball": {
       "ok": true,
