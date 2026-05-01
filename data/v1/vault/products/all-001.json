@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-05-01T05:08:50.076Z",
+  "generated_at": "2026-05-01T15:28:16.159Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -20835,6 +20835,90 @@
           "printRun": 9450,
           "serial": "",
           "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        }
+      ]
+    },
+    "2023_Topps_Chrome_Baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2023_Topps_Chrome_Baseball",
+        "displayName": "2023 Topps Chrome Baseball",
+        "year": "2023",
+        "sport": "Baseball",
+        "manufacturer": "Topps",
+        "product": "Chrome",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Base",
+          "setLine": "[Base]",
+          "printRun": "TBA",
+          "serial": "",
+          "subSetSize": 220,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Base - Parallel",
+          "setLine": "Refractor",
+          "printRun": 13700,
+          "serial": "",
+          "subSetSize": 220,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Base - Parallel",
+          "setLine": "X-Fractor",
+          "printRun": 9000,
+          "serial": "",
+          "subSetSize": 220,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Base - Parallel",
+          "setLine": "Prism",
+          "printRun": 6900,
+          "serial": "",
+          "subSetSize": 220,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Base - Parallel",
+          "setLine": "Sepia",
+          "printRun": 6400,
+          "serial": "",
+          "subSetSize": 220,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Base - Parallel",
+          "setLine": "Pink Refractor",
+          "printRun": 6400,
+          "serial": "",
+          "subSetSize": 220,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Base - Parallel",
+          "setLine": "Negative Refractor",
+          "printRun": 400,
+          "serial": "",
+          "subSetSize": 220,
           "notes": "",
           "cmURL": ""
         }
