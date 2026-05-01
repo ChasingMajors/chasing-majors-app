@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-05-01T05:08:50.076Z",
+  "generated_at": "2026-05-01T15:28:16.159Z",
   "index": [
     {
       "Code": "19TFmbl",
@@ -741,6 +741,16 @@
       "sport": "Baseball",
       "manufacturer": "Topps",
       "product": "Bowman Mega Box",
+      "cmURL": ""
+    },
+    {
+      "Code": "2023_Topps_Chrome_Baseball",
+      "DisplayName": "2023 Topps Chrome Baseball",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome",
       "cmURL": ""
     }
   ]
