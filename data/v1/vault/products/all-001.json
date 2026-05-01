@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-04-30T21:32:17.008Z",
+  "generated_at": "2026-05-01T05:08:50.076Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -14476,10 +14476,10 @@
         }
       ]
     },
-    "23BSmlb": {
+    "2023_Bowman_Sapphire_Baseball": {
       "ok": true,
       "meta": {
-        "code": "23BSmlb",
+        "code": "2023_Bowman_Sapphire_Baseball",
         "displayName": "2023 Bowman Sapphire Baseball",
         "year": "2023",
         "sport": "Baseball",
@@ -14489,7 +14489,7 @@
       },
       "rows": [
         {
-          "code": "23BSmlb",
+          "code": "2023_Bowman_Sapphire_Baseball",
           "setType": "Autograph",
           "setLine": "Prospects Autograph",
           "printRun": 200,
@@ -14499,7 +14499,7 @@
           "cmURL": ""
         },
         {
-          "code": "23BSmlb",
+          "code": "2023_Bowman_Sapphire_Baseball",
           "setType": "Base",
           "setLine": "[Base]",
           "printRun": 1900,
