@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist Google Sheets Products rebuild",
-  "generated_at": "2026-05-02T14:41:32.683Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-05-02T14:59:52.419Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -3359,6 +3359,15 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Series 6"
+    },
+    {
+      "Code": "2025_26_panini_select_euroleague_basketball",
+      "DisplayName": "2025 26 Panini Select Euroleague Basketball",
+      "Keywords": "2025-26 Panini Select EuroLeague Basketball, 2025-26 Select EuroLeague Basketball, Panini Select EuroLeague Basketball 2025-26, Select EuroLeague Basketball 2025-26, 2025-26 Panini Select EuroLeague cards, Select EuroLeague basketball cards 2025-26, Panini EuroLeague cards 2025-26 Select, EuroLeague basketball cards 2025-26, Select EuroLeague hobby box 2025-26, Select EuroLeague retail 2025-26, Select EuroLeague rookies 2025-26, Select EuroLeague rookie cards 2025-26, Select EuroLeague autos 2025-26, Select EuroLeague autographs 2025-26, Select EuroLeague patch autos 2025-26, Select EuroLeague parallels 2025-26, Select EuroLeague prizm parallels 2025-26, Select EuroLeague inserts 2025-26, Panini Select EuroLeague Basketball checklist 2025-26, Select EuroLeague checklist",
+      "year": "2025-26",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Select Euroleague"
     },
     {
       "Code": "2025_26_bowman_basketball",
