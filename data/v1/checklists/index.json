@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist product bundle rebuild",
-  "generated_at": "2026-05-02T15:52:27.562Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-05-02T15:53:05.809Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -4684,15 +4684,6 @@
       "product": "CFL"
     },
     {
-      "Code": "2025_26_upper_deck_credentials_hockey",
-      "DisplayName": "2025 26 Upper Deck Credentials Hockey",
-      "Keywords": "2025-26 Upper Deck Credentials Hockey, Upper Deck Credentials Hockey 2025-26, 2025-26 UD Credentials Hockey, UD Credentials Hockey 2025-26, 2025-26 Upper Deck Credentials cards, Credentials hockey cards 2025-26, Upper Deck NHL cards 2025-26 Credentials, Credentials hockey hobby box 2025-26, Credentials hockey blaster 2025-26, Credentials hockey retail 2025-26, Credentials rookies hockey 2025-26, Credentials rookie cards hockey 2025-26, Credentials autos hockey 2025-26, Credentials autographs hockey 2025-26, Credentials parallels hockey 2025-26, Credentials ticket access cards hockey 2025-26, Credentials inserts hockey 2025-26, Upper Deck Credentials Hockey checklist 2025-26, Credentials checklist",
-      "year": "2025-26",
-      "sport": "hockey",
-      "manufacturer": "Upper Deck",
-      "product": "Credentials"
-    },
-    {
       "Code": "2025-26-flair-hockey",
       "DisplayName": "2025-26 Flair Hockey",
       "Keywords": "2025-26 Flair Hockey, 2025-26 Upper Deck Flair Hockey, 2025-26 Flair Hockey cards, 2025-26 Flair NHL, 2025-26 Upper Deck Flair cards, 25-26 Flair Hockey, 25-26 Upper Deck Flair Hockey, Upper Deck Flair Hockey 2025-26, Upper Deck Flair 2025-26, Flair Hockey cards, Flair Hockey, Upper Deck Flair Hockey, Upper Deck Flair, Flair NHL cards, Upper Deck Flair hockey cards, Upper Deck Flair Hockey checklist, Flair checklist, 2025-26 Flair checklist",
@@ -4709,6 +4700,24 @@
       "sport": "hockey",
       "manufacturer": "Skybox",
       "product": "Metal Universe"
+    },
+    {
+      "Code": "2025_26_spx_hockey",
+      "DisplayName": "2025-26 SPx Hockey",
+      "Keywords": "2025-26 SPx Hockey, SPx Hockey 2025-26, 2025-26 Upper Deck SPx Hockey, Upper Deck SPx Hockey 2025-26, 2025-26 SPx cards, SPx hockey cards 2025-26, Upper Deck SPx NHL cards 2025-26, SPx hockey hobby box 2025-26, SPx hockey retail 2025-26, SPx rookies hockey 2025-26, SPx rookie cards hockey 2025-26, SPx autos hockey 2025-26, SPx autographs hockey 2025-26, SPx patch autos hockey 2025-26, SPx jersey cards hockey 2025-26, SPx parallels hockey 2025-26, SPx inserts hockey 2025-26, Upper Deck SPx Hockey checklist 2025-26, SPx checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "SPx"
+    },
+    {
+      "Code": "2025_26_upper_deck_credentials_hockey",
+      "DisplayName": "2025-26 Upper Deck Credentials Hockey",
+      "Keywords": "2025-26 Upper Deck Credentials Hockey, Upper Deck Credentials Hockey 2025-26, 2025-26 UD Credentials Hockey, UD Credentials Hockey 2025-26, 2025-26 Upper Deck Credentials cards, Credentials hockey cards 2025-26, Upper Deck NHL cards 2025-26 Credentials, Credentials hockey hobby box 2025-26, Credentials hockey blaster 2025-26, Credentials hockey retail 2025-26, Credentials rookies hockey 2025-26, Credentials rookie cards hockey 2025-26, Credentials autos hockey 2025-26, Credentials autographs hockey 2025-26, Credentials parallels hockey 2025-26, Credentials ticket access cards hockey 2025-26, Credentials inserts hockey 2025-26, Upper Deck Credentials Hockey checklist 2025-26, Credentials checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Credentials"
     },
     {
       "Code": "2025_26_Upper_Deck_Series_2_Hockey",
