@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist Google Sheets Products rebuild",
-  "generated_at": "2026-05-02T16:29:23.222Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-05-02T16:44:50.983Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -4448,6 +4448,15 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "FC Barcelona Forever"
+    },
+    {
+      "Code": "2025_26_topps_finest_premier_league",
+      "DisplayName": "2025-26 Topps Finest Premier League Soccer",
+      "Keywords": "2025-26 Topps Finest Premier League Soccer, 2025-26 Topps Finest Soccer, Topps Finest Premier League 2025-26, Finest Premier League Soccer 2025-26, 2025-26 Topps Finest cards, Finest soccer cards 2025-26, Topps Finest EPL cards 2025-26, Finest soccer hobby box 2025-26, Finest soccer blaster 2025-26, Finest soccer retail 2025-26, Finest rookies 2025-26, Finest rookie cards soccer 2025-26, Finest autos 2025-26, Finest autographs soccer 2025-26, Finest parallels 2025-26, Finest refractors soccer 2025-26, Finest inserts soccer 2025-26, Topps Finest Premier League checklist 2025-26, Finest checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Finest Premier League"
     },
     {
       "Code": "2025_26_Topps_Gold_UEFA_Club_Competitions_Soccer",
