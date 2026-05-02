@@ -3,7 +3,7 @@
   "sport": "soccer",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-05-02T16:28:45.452Z",
+  "generated_at": "2026-05-02T16:44:50.983Z",
   "sharded": true,
   "shards": [
     "soccer-001.json"
@@ -18,6 +18,7 @@
     "2025_26_Topps_Bundesliga_International_Stars_Soccer": "soccer-001.json",
     "2025_26_Topps_Chrome_Sapphire_Premier_League_Soccer": "soccer-001.json",
     "2025_26_Topps_Chrome_UEFA_Club_Competitions_Soccer": "soccer-001.json",
+    "2025_26_topps_finest_premier_league": "soccer-001.json",
     "2025_26_Topps_Gold_UEFA_Club_Competitions_Soccer": "soccer-001.json",
     "2025_26_Topps_Los_Blancos_Real_Madrid_Soccer": "soccer-001.json",
     "2025_26_topps_merlin_premier_league": "soccer-001.json",
