@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist Google Sheets Products rebuild",
-  "generated_at": "2026-05-02T15:53:25.491Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-05-02T16:16:22.916Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -4360,26 +4360,8 @@
       "product": "Finest Premier League"
     },
     {
-      "Code": "2025_26_panini_select_serie_a_soccer",
-      "DisplayName": "2025 26 Panini Select Serie A Soccer",
-      "Keywords": "2025-26 Panini Select Serie A Soccer, 2025-26 Select Serie A Soccer, Panini Select Serie A Soccer 2025-26, Select Serie A Soccer 2025-26, 2025-26 Panini Select Serie A cards, Select Serie A soccer cards 2025-26, Panini Select Italy Serie A cards 2025-26, Select Serie A hobby box 2025-26, Select Serie A blaster 2025-26, Select Serie A retail 2025-26, Select Serie A rookies 2025-26, Select Serie A rookie cards 2025-26, Select Serie A autos 2025-26, Select Serie A autographs 2025-26, Select Serie A patch autos 2025-26, Select Serie A parallels 2025-26, Select Serie A prizm parallels 2025-26, Select Serie A inserts 2025-26, Panini Select Serie A Soccer checklist 2025-26, Select Serie A checklist",
-      "year": "2025-26",
-      "sport": "soccer",
-      "manufacturer": "Panini",
-      "product": "Select Serie A"
-    },
-    {
-      "Code": "2025_26_topps_merlin_premier_league",
-      "DisplayName": "2025 26 Topps Merlin Premier League Soccer",
-      "Keywords": "2025-26 Topps Merlin Premier League Soccer, 2025-26 Topps Merlin Soccer, Topps Merlin Premier League 2025-26, Merlin Premier League Soccer 2025-26, 2025-26 Topps Merlin cards, Merlin soccer cards 2025-26, Topps Merlin EPL cards 2025-26, Merlin soccer hobby box 2025-26, Merlin soccer blaster 2025-26, Merlin soccer retail 2025-26, Merlin rookies 2025-26, Merlin rookie cards soccer 2025-26, Merlin autos 2025-26, Merlin autographs soccer 2025-26, Merlin parallels 2025-26, Merlin refractors soccer 2025-26, Merlin inserts soccer 2025-26, Topps Merlin Premier League checklist 2025-26, Merlin checklist",
-      "year": "2025-26",
-      "sport": "soccer",
-      "manufacturer": "Topps",
-      "product": "Merlin Premier League"
-    },
-    {
       "Code": "2025-26-donruss-road-to-world-cup",
-      "DisplayName": "2025-26 Donruss Road To World Cup",
+      "DisplayName": "2025-26 Donruss Road To World Cup Soccer",
       "Keywords": "2025-26 Donruss Road To World Cup Soccer, 2025-26 Donruss Road to the World Cup Soccer, 2025-26 Donruss World Cup Soccer, 2025-26 Road To World Cup Soccer cards, 2025-26 Donruss RTWC Soccer, 25-26 Donruss Road To World Cup Soccer, 25-26 Road To World Cup Soccer, Donruss Road To World Cup Soccer 2025-26, Donruss World Cup Soccer 2025-26, Road To World Cup Soccer cards, Road To World Cup Soccer, Donruss Road To World Cup Soccer, Donruss RTWC Soccer, World Cup Donruss Soccer cards, Donruss Road To World Cup Soccer checklist, Road To World Cup checklist, 2025-26 Donruss Road To World Cup checklist",
       "year": "2025-26",
       "sport": "soccer",
@@ -4412,6 +4394,15 @@
       "sport": "soccer",
       "manufacturer": "Panini",
       "product": "Select La Liga"
+    },
+    {
+      "Code": "2025_26_panini_select_serie_a_soccer",
+      "DisplayName": "2025-26 Panini Select Serie A Soccer",
+      "Keywords": "2025-26 Panini Select Serie A Soccer, 2025-26 Select Serie A Soccer, Panini Select Serie A Soccer 2025-26, Select Serie A Soccer 2025-26, 2025-26 Panini Select Serie A cards, Select Serie A soccer cards 2025-26, Panini Select Italy Serie A cards 2025-26, Select Serie A hobby box 2025-26, Select Serie A blaster 2025-26, Select Serie A retail 2025-26, Select Serie A rookies 2025-26, Select Serie A rookie cards 2025-26, Select Serie A autos 2025-26, Select Serie A autographs 2025-26, Select Serie A patch autos 2025-26, Select Serie A parallels 2025-26, Select Serie A prizm parallels 2025-26, Select Serie A inserts 2025-26, Panini Select Serie A Soccer checklist 2025-26, Select Serie A checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Select Serie A"
     },
     {
       "Code": "2025_26_Topps_Arsenal_Team_Set_Soccer",
@@ -4477,6 +4468,15 @@
       "product": "Los Blancos Real Madrid"
     },
     {
+      "Code": "2025_26_topps_merlin_premier_league",
+      "DisplayName": "2025-26 Topps Merlin Premier League Soccer",
+      "Keywords": "2025-26 Topps Merlin Premier League Soccer, 2025-26 Topps Merlin Soccer, Topps Merlin Premier League 2025-26, Merlin Premier League Soccer 2025-26, 2025-26 Topps Merlin cards, Merlin soccer cards 2025-26, Topps Merlin EPL cards 2025-26, Merlin soccer hobby box 2025-26, Merlin soccer blaster 2025-26, Merlin soccer retail 2025-26, Merlin rookies 2025-26, Merlin rookie cards soccer 2025-26, Merlin autos 2025-26, Merlin autographs soccer 2025-26, Merlin parallels 2025-26, Merlin refractors soccer 2025-26, Merlin inserts soccer 2025-26, Topps Merlin Premier League checklist 2025-26, Merlin checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Merlin Premier League"
+    },
+    {
       "Code": "2025_26_Topps_Real_Madrid_Team_Set_Soccer",
       "DisplayName": "2025-26 Topps Real Madrid Team Set Soccer",
       "Keywords": "real madrid team set topps real madrid team set",
@@ -4484,6 +4484,15 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Real Madrid Team Set"
+    },
+    {
+      "Code": "2025_26_topps_uefa_japan_edition",
+      "DisplayName": "2025-26 Topps UEFA Japan Edition Soccer",
+      "Keywords": "2025-26 Topps UEFA Japan Edition Soccer, Topps UEFA Japan Edition Soccer 2025-26, 2025-26 Topps UEFA Japan Edition cards, UEFA Japan Edition soccer cards 2025-26, Topps UEFA Japan Edition cards 2025-26, Topps UEFA soccer cards Japan Edition 2025-26, UEFA Japan Edition hobby box 2025-26, Topps UEFA Japan Edition box 2025-26, Topps UEFA Japan Edition rookies 2025-26, Topps UEFA Japan Edition rookie cards 2025-26, Topps UEFA Japan Edition autos 2025-26, Topps UEFA Japan Edition autographs 2025-26, Topps UEFA Japan Edition parallels 2025-26, Topps UEFA Japan Edition refractors 2025-26, UEFA Japan Edition inserts 2025-26, Topps UEFA Japan Edition exclusive cards 2025-26, Topps UEFA Japan Edition checklist 2025-26, UEFA Japan Edition checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "UEFA Japan Edition"
     },
     {
       "Code": "2025-panini-absolute-k-league-soccer",
@@ -4514,7 +4523,7 @@
     },
     {
       "Code": "2025-topps-chrome-sapphire-mls",
-      "DisplayName": "2025 Topps Chrome Sapphire MLS",
+      "DisplayName": "2025 Topps Chrome Sapphire MLS Soccer",
       "Keywords": "2025 Topps Chrome Sapphire MLS, 2025 Topps Chrome Sapphire MLS Soccer, 2025 Topps Chrome Sapphire Major League Soccer, 2025 Topps Sapphire MLS, 2025 Topps Chrome Sapphire MLS cards, 25 Topps Chrome Sapphire MLS, 25 Topps Sapphire MLS, Topps Chrome Sapphire MLS 2025, Topps Sapphire MLS 2025, Topps Chrome Sapphire MLS Soccer, Topps Chrome Sapphire MLS, Topps Sapphire MLS, Chrome Sapphire MLS, MLS Sapphire cards, MLS Chrome Sapphire, Topps Chrome Sapphire MLS checklist, Topps Sapphire MLS checklist, MLS checklist, 2025 Topps Chrome Sapphire MLS checklist",
       "year": "2025",
       "sport": "soccer",
