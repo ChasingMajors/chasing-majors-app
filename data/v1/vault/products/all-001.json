@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-05-03T21:32:16.690Z",
+  "generated_at": "2026-05-04T05:08:50.127Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -20919,6 +20919,136 @@
           "printRun": 400,
           "serial": "",
           "subSetSize": 220,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Variation",
+          "setLine": "Base Image Variation",
+          "printRun": 850,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Variation",
+          "setLine": "Base Image Variation SSP",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Insert",
+          "setLine": "Radiating Rookies",
+          "printRun": 340,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Insert",
+          "setLine": "1988 Topps Baseball",
+          "printRun": 105000,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Insert",
+          "setLine": "Topps Chrome Titans",
+          "printRun": 76500,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Insert",
+          "setLine": "Future Stars",
+          "printRun": 33000,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Insert",
+          "setLine": "Topps in Technicolor",
+          "printRun": 17000,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Insert",
+          "setLine": "Ultra Violet All Stars",
+          "printRun": 1700,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Insert",
+          "setLine": "Topps Chorme Youthquake",
+          "printRun": 125,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Insert",
+          "setLine": "Lets Go",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Autograph",
+          "setLine": "Rookie Autograph",
+          "printRun": 1500,
+          "serial": "",
+          "subSetSize": 129,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Autograph",
+          "setLine": "Rookie Auto - Black & White Mini-Diamond",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": 129,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_Topps_Chrome_Baseball",
+          "setType": "Relic",
+          "setLine": "Topps Chrome Authentics",
+          "printRun": 190,
+          "serial": "",
+          "subSetSize": 42,
           "notes": "",
           "cmURL": ""
         }
