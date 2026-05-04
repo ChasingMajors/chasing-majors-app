@@ -3,7 +3,7 @@
   "sport": "basketball",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-05-02T14:59:52.419Z",
+  "generated_at": "2026-05-04T03:18:11.788Z",
   "sharded": true,
   "shards": [
     "basketball-001.json",
@@ -54,6 +54,7 @@
     "2024-25_Topps_Inception_basketball": "basketball-001.json",
     "2025_26_bowman_basketball": "basketball-001.json",
     "2025_26_bowman_best_u_basketball": "basketball-001.json",
+    "2025_26_panini_contenders_euroleague_basketball": "basketball-001.json",
     "2025_26_panini_select_euroleague_basketball": "basketball-001.json",
     "2025_26_topps_basketball": "basketball-002.json",
     "2025_26_topps_chrome_basketball": "basketball-002.json",
@@ -71,7 +72,6 @@
     "2025_Panini_One_and_One_WNBA": "basketball-002.json",
     "2025_Panini_Prizm WNBA_basketball": "basketball-002.json",
     "2025_panini_select_wnba_basketball": "basketball-002.json",
-    "2025_Topps_Chrome_McDonalds_All_American_Basketball": "basketball-002.json",
-    "2025-26_Panini_Contenders EuroLeague_basketball": "basketball-002.json"
+    "2025_Topps_Chrome_McDonalds_All_American_Basketball": "basketball-002.json"
   }
 }
