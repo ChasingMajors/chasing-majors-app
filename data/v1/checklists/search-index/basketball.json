@@ -4,7 +4,7 @@
   "kind": "checklist_search",
   "source": "Checklist DB map targeted source merge",
   "source_key": "2023-24",
-  "generated_at": "2026-05-04T16:54:25.783Z",
+  "generated_at": "2026-05-04T17:07:10.638Z",
   "sharded": true,
   "shards": [
     "basketball-001.json",
@@ -14,6 +14,8 @@
     "basketball-005.json",
     "basketball-006.json",
     "basketball-007.json",
-    "basketball-008.json"
+    "basketball-008.json",
+    "basketball-009.json",
+    "basketball-010.json"
   ]
 }
