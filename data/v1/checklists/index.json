@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Checklist product bundle rebuild",
-  "generated_at": "2026-05-04T16:56:16.970Z",
+  "generated_at": "2026-05-04T20:53:16.836Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -3899,6 +3899,384 @@
       "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Chrome McDonalds All-American"
+    },
+    {
+      "Code": "2023_24_panini_black_basketball",
+      "DisplayName": "2023-24 Black Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Black"
+    },
+    {
+      "Code": "2023_24_bowman_university_chrome_sapphire_basketball",
+      "DisplayName": "2023-24 Bowman U Chrome Sapphire Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Bowman U Chrome Sapphire"
+    },
+    {
+      "Code": "2023_24_bowman_university_best_basketball",
+      "DisplayName": "2023-24 Bowman University Best Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Bowman University Best"
+    },
+    {
+      "Code": "2023_24_topps_chrome_basketball",
+      "DisplayName": "2023-24 Chrome Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Chrome"
+    },
+    {
+      "Code": "2023_24_topps_chrome_nbl_basketball",
+      "DisplayName": "2023-24 Chrome NBL Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Chrome NBL"
+    },
+    {
+      "Code": "2023_24_topps_chrome_ote_basketball",
+      "DisplayName": "2023-24 Chrome OTE Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Chrome OTE"
+    },
+    {
+      "Code": "2023_24_topps_chrome_sapphire_basketball",
+      "DisplayName": "2023-24 Chrome Sapphire Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Chrome Sapphire"
+    },
+    {
+      "Code": "2023_24_panini_contenders_basketball",
+      "DisplayName": "2023-24 Contenders Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Contenders"
+    },
+    {
+      "Code": "2023_24_panini_contenders_optic_basketball",
+      "DisplayName": "2023-24 Contenders Optic Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Contenders Optic"
+    },
+    {
+      "Code": "2023_24_panini_court_kings_basketball",
+      "DisplayName": "2023-24 Court Kings Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Court Kings"
+    },
+    {
+      "Code": "2023_24_panini_crown_royale_basketball",
+      "DisplayName": "2023-24 Crown Royale Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Crown Royale"
+    },
+    {
+      "Code": "2023_24_panini_crown_royale_euroleague_basketball",
+      "DisplayName": "2023-24 Crown Royale EuroLeague Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Crown Royale EuroLeague"
+    },
+    {
+      "Code": "2023_24_donruss_elite_basketball",
+      "DisplayName": "2023-24 Donruss Elite Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Donruss Elite"
+    },
+    {
+      "Code": "2023_24_donruss_euroleague_basketball",
+      "DisplayName": "2023-24 Donruss EuroLeague Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Donruss EuroLeague"
+    },
+    {
+      "Code": "2023_24_donruss_optic_basketball",
+      "DisplayName": "2023-24 Donruss Optic Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Donruss Optic"
+    },
+    {
+      "Code": "2023_24_topps_finest_basketball",
+      "DisplayName": "2023-24 Finest Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Finest"
+    },
+    {
+      "Code": "2023_24_panini_flawless_basketball",
+      "DisplayName": "2023-24 Flawless Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Flawless"
+    },
+    {
+      "Code": "2023_24_topps_g_league_basketball",
+      "DisplayName": "2023-24 G Leauge Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "G Leauge"
+    },
+    {
+      "Code": "2023_24_panini_haunted_hoops_basketball",
+      "DisplayName": "2023-24 Haunted Hoops Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Haunted Hoops"
+    },
+    {
+      "Code": "2023_24_panini_immaculate_collection_basketball",
+      "DisplayName": "2023-24 Immaculate Collection Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Immaculate Collection"
+    },
+    {
+      "Code": "2023_24_panini_impeccable_basketball",
+      "DisplayName": "2023-24 Impeccable Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Impeccable"
+    },
+    {
+      "Code": "2023_24_topps_mercury",
+      "DisplayName": "2023-24 Mercury Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Mercury"
+    },
+    {
+      "Code": "2023_24_topps_midnight_basketball",
+      "DisplayName": "2023-24 Midnight Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Midnight"
+    },
+    {
+      "Code": "2023_24_topps_motif_basketball",
+      "DisplayName": "2023-24 Motif Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Motif"
+    },
+    {
+      "Code": "2023_24_panini_national_treasures_basketball",
+      "DisplayName": "2023-24 National Treasures Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "National Treasures"
+    },
+    {
+      "Code": "2023_24_nba_hoops_premium_stock_basketball",
+      "DisplayName": "2023-24 NBA Hoops Premium Stock Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "NBA Hoops Premium Stock"
+    },
+    {
+      "Code": "2023_24_panini_noir_basketball",
+      "DisplayName": "2023-24 Noir Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Noir"
+    },
+    {
+      "Code": "2023_24_panini_obsidian_basketball",
+      "DisplayName": "2023-24 Obsidian Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Obsidian"
+    },
+    {
+      "Code": "2023_24_panini_one_and_one_basketball",
+      "DisplayName": "2023-24 One and One Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "One and One"
+    },
+    {
+      "Code": "2023_24_panini_origins_basketball",
+      "DisplayName": "2023-24 Origins Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Origins"
+    },
+    {
+      "Code": "2023_24_panini_mosaic_basketball",
+      "DisplayName": "2023-24 Panini Mosaic Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Mosaic"
+    },
+    {
+      "Code": "2023_24_panini_phoenix_basketball",
+      "DisplayName": "2023-24 Phoenix Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Phoenix"
+    },
+    {
+      "Code": "2023_24_panini_photogenic_basketball",
+      "DisplayName": "2023-24 Photogenic Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Photogenic"
+    },
+    {
+      "Code": "2023_24_panini_prizm_basketball",
+      "DisplayName": "2023-24 Prizm Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Prizm"
+    },
+    {
+      "Code": "2023_24_panini_prizm_deca_basketball",
+      "DisplayName": "2023-24 Prizm Deca Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Prizm Deca"
+    },
+    {
+      "Code": "2023_24_panini_prizm_monopoly_basketball",
+      "DisplayName": "2023-24 Prizm Monopoly Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Prizm Monopoly"
+    },
+    {
+      "Code": "2023_24_panini_recon_basketball",
+      "DisplayName": "2023-24 Recon Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Recon"
+    },
+    {
+      "Code": "2023_24_panini_revolution_basketball",
+      "DisplayName": "2023-24 Revolution Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Revolution"
+    },
+    {
+      "Code": "2023_24_topps_royalty_basketball",
+      "DisplayName": "2023-24 Royalty Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Royalty"
+    },
+    {
+      "Code": "2023_24_panini_select_basketball",
+      "DisplayName": "2023-24 Select Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Select"
+    },
+    {
+      "Code": "2023_24_panini_spectra_basketball",
+      "DisplayName": "2023-24 Spectra Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Spectra"
+    },
+    {
+      "Code": "2023_24_topps_3_basketball",
+      "DisplayName": "2023-24 Three Basketball",
+      "Keywords": "",
+      "year": "2023-24",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Three"
     },
     {
       "Code": "2025_Panini_Absolute Countdown Calendar_football",
