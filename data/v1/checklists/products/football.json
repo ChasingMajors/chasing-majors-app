@@ -4,7 +4,7 @@
   "kind": "checklist_products",
   "source": "Checklist DB map targeted source merge",
   "source_key": "2025",
-  "generated_at": "2026-05-04T03:37:26.901Z",
+  "generated_at": "2026-05-05T00:19:11.242Z",
   "sharded": true,
   "shards": [
     "football-001.json",
@@ -96,6 +96,7 @@
     "2025_Score_Football_football": "football-005.json",
     "2025_topps_chrome_football": "football-005.json",
     "2025_topps_finest_football": "football-005.json",
+    "2025_topps_signature_class_football": "football-005.json",
     "2025_Upper Deck_CFL_football": "football-005.json",
     "2025_Upper Deck_SP Game Used CFL_football": "football-005.json"
   }
