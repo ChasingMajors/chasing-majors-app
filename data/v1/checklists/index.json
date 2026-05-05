@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist DB map current merge",
-  "generated_at": "2026-05-05T18:57:04.846Z",
+  "source": "Checklist Google Sheets Products rebuild",
+  "generated_at": "2026-05-05T18:57:46.273Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -4914,6 +4914,411 @@
       "Keywords": "2024 Upper Deck CFL Football, Upper Deck CFL Football 2024, 2024 Upper Deck CFL cards, Upper Deck CFL football cards 2024, 2024 CFL football cards, CFL football cards 2024 Upper Deck, Upper Deck Canadian Football League cards 2024, CFL football hobby box 2024, Upper Deck CFL rookies 2024, CFL rookie cards 2024, Upper Deck CFL autos 2024, CFL autographs 2024, Upper Deck CFL parallels 2024, CFL inserts 2024, Canadian Football League cards 2024, CFL stars football cards 2024, Upper Deck CFL Football checklist 2024, CFL checklist",
       "year": "2024",
       "sport": "football",
+      "manufacturer": "Upper Deck",
+      "product": "CFL"
+    },
+    {
+      "Code": "2023_bowman_best_university_football_card",
+      "DisplayName": "2023 Bowman Best University Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Topps",
+      "product": "Bowmans Best University"
+    },
+    {
+      "Code": "2023_bowman_university_chrome_football_card",
+      "DisplayName": "2023 Bowman University Chrome Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Topps",
+      "product": "Bowman University Chrome"
+    },
+    {
+      "Code": "2023_bowman_university_chrome_sapphire_football_card",
+      "DisplayName": "2023 Bowman University Chrome Sapphire Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Topps",
+      "product": "Bowman University Chrome Sapphire"
+    },
+    {
+      "Code": "2023_clearly_donruss_football_card",
+      "DisplayName": "2023 Clearly Donruss  Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Clearly Donruss"
+    },
+    {
+      "Code": "2023_donruss_football_card",
+      "DisplayName": "2023 Donruss  Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Donruss"
+    },
+    {
+      "Code": "2023_donruss_elite_football_card",
+      "DisplayName": "2023 Donruss Elite Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Donruss",
+      "product": "Elite"
+    },
+    {
+      "Code": "2023_donruss_optic_football_card",
+      "DisplayName": "2023 Donruss Optic Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Donruss",
+      "product": "Optic"
+    },
+    {
+      "Code": "2023_panini_absolute_football_card",
+      "DisplayName": "2023 Panini Absolute Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Absolute"
+    },
+    {
+      "Code": "2023_panini_black_football_card",
+      "DisplayName": "2023 Panini Black Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Black"
+    },
+    {
+      "Code": "2023_panini_certified_football_card",
+      "DisplayName": "2023 Panini Certified Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Certified"
+    },
+    {
+      "Code": "2023_panini_chronicles_draft_picks_football_card",
+      "DisplayName": "2023 Panini Chromicles Draft Picks Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Chromicles Draft Picks"
+    },
+    {
+      "Code": "2023_panini_contenders_football_card",
+      "DisplayName": "2023 Panini Conteders Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Conteders"
+    },
+    {
+      "Code": "2023_panini_contenders_optic_football_card",
+      "DisplayName": "2023 Panini Contenders Optic Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Contenders Optic"
+    },
+    {
+      "Code": "2023_panini_flawless_collegiate_football_card",
+      "DisplayName": "2023 Panini Flawless Collegiate Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Flawless Collegiate"
+    },
+    {
+      "Code": "2023_panini_flawless_football_card",
+      "DisplayName": "2023 Panini Flawless Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Flawless"
+    },
+    {
+      "Code": "2023_panini_gold_standard_football_card",
+      "DisplayName": "2023 Panini Gold Standard Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Gold Standard"
+    },
+    {
+      "Code": "2023_panini_illusions_football_card",
+      "DisplayName": "2023 Panini Illusions Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Illusions"
+    },
+    {
+      "Code": "2023_panini_immaculate_collection_football_card",
+      "DisplayName": "2023 Panini Immaculate Collection Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Immaculate Collection"
+    },
+    {
+      "Code": "2023_panini_immaculate_collegiate_football_card",
+      "DisplayName": "2023 Panini Immaculate Collegiate Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Immaculate Collegiate"
+    },
+    {
+      "Code": "2023_panini_impeccable_football_card",
+      "DisplayName": "2023 Panini Impeccable Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Impeccable"
+    },
+    {
+      "Code": "2023_panini_legacy_football_card",
+      "DisplayName": "2023 Panini Legacy Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Legacy"
+    },
+    {
+      "Code": "2023_panini_limited_football_card",
+      "DisplayName": "2023 Panini Limited Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Limited"
+    },
+    {
+      "Code": "2023_panini_luminance_football_card",
+      "DisplayName": "2023 Panini Luminance Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Luminance"
+    },
+    {
+      "Code": "2023_panini_mosaic_football_card",
+      "DisplayName": "2023 Panini Moaic Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Moaic"
+    },
+    {
+      "Code": "2023_panini_mosaic_draft_picks_football_card",
+      "DisplayName": "2023 Panini Mosaic Draft Picks Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Mosaic Draft Picks"
+    },
+    {
+      "Code": "2023_panini_national_treasures_collegiate_football_card",
+      "DisplayName": "2023 Panini National Treasures Collegiate Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "National Treasures Collegiate"
+    },
+    {
+      "Code": "2023_panini_national_treasures_football_card",
+      "DisplayName": "2023 Panini National Treasures Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "National Treasures"
+    },
+    {
+      "Code": "2023_panini_obsidian_football_card",
+      "DisplayName": "2023 Panini Obsidian Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Obsidian"
+    },
+    {
+      "Code": "2023_panini_one_football_card",
+      "DisplayName": "2023 Panini One Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "One"
+    },
+    {
+      "Code": "2023_panini_origins_football_card",
+      "DisplayName": "2023 Panini Origines Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Origines"
+    },
+    {
+      "Code": "2023_panini_phoenix_nfl_football_card",
+      "DisplayName": "2023 Panini Phoenix Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Phoenix"
+    },
+    {
+      "Code": "2023_panini_plates_patches_football_card",
+      "DisplayName": "2023 Panini Plates & Patches Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Plates & Patches"
+    },
+    {
+      "Code": "2023_panini_prestige_football_card",
+      "DisplayName": "2023 Panini Prestige Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Prestige"
+    },
+    {
+      "Code": "2023_panini_prizm_draft_picks_football_card",
+      "DisplayName": "2023 Panini Prizm Draft Picks Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Prizm Draft Picks"
+    },
+    {
+      "Code": "2023_panini_prizm_football_card",
+      "DisplayName": "2023 Panini Prizm Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Prizm"
+    },
+    {
+      "Code": "2023_panini_rookies_stars_football_card",
+      "DisplayName": "2023 Panini Rookies & Starts Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Rookies & Starts"
+    },
+    {
+      "Code": "2023_panini_select_draft_picks_football_card",
+      "DisplayName": "2023 Panini Select Draft Picks Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Select Draft Picks"
+    },
+    {
+      "Code": "2023_panini_select_football_card",
+      "DisplayName": "2023 Panini Select Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Select"
+    },
+    {
+      "Code": "2023_panini_spectra_football_card",
+      "DisplayName": "2023 Panini Spectra Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Spectra"
+    },
+    {
+      "Code": "2023_panini_zenith_football_card",
+      "DisplayName": "2023 Panini Zenith Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Zenith"
+    },
+    {
+      "Code": "2023_score_football_card",
+      "DisplayName": "2023 Score  Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Panini",
+      "product": "Score"
+    },
+    {
+      "Code": "2023_sp_game_used_cfl_football_card",
+      "DisplayName": "2023 SP Game Used CFL Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Upper Deck",
+      "product": "SP Game Used CFL"
+    },
+    {
+      "Code": "2023_topps_composite_football_card",
+      "DisplayName": "2023 Topps Composite Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Topps",
+      "product": "Composite"
+    },
+    {
+      "Code": "2023_topps_motif_football_card",
+      "DisplayName": "2023 Topps Motif Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
+      "manufacturer": "Topps",
+      "product": "Motif"
+    },
+    {
+      "Code": "2023_upper_deck_cfl_football_card",
+      "DisplayName": "2023 Upper Deck CFL Football",
+      "Keywords": "",
+      "year": "2023",
+      "sport": "Football",
       "manufacturer": "Upper Deck",
       "product": "CFL"
     },
