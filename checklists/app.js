@@ -65,6 +65,8 @@ let currentProductTab = "Base";
 let currentPlayerStats = null;
 let STATIC_MANIFEST = null;
 const STATIC_CACHE = {};
+let MLB_PLAYER_TYPEAHEAD_CACHE = null;
+let MLB_PLAYER_TYPEAHEAD_PROMISE = null;
 
 let broadSearchState = {
   q: "",
@@ -120,6 +122,48 @@ if (elThemeBtn) {
   });
 }
 
+function scrollChecklistTop_() {
+  const target = elResults && elResults.innerHTML.trim() ? elResults : document.body;
+  const top = target === document.body
+    ? 0
+    : Math.max(0, target.getBoundingClientRect().top + window.pageYOffset - 14);
+
+  window.scrollTo({ top, behavior: "smooth" });
+}
+
+function installFloatingTopButton_() {
+  if (document.getElementById("cvTopButton")) return;
+
+  const btn = document.createElement("button");
+  btn.id = "cvTopButton";
+  btn.type = "button";
+  btn.textContent = "Top";
+  btn.setAttribute("aria-label", "Back to top");
+  btn.style.cssText = [
+    "position:fixed",
+    "right:16px",
+    "bottom:82px",
+    "z-index:9998",
+    "border:1px solid rgba(255,255,255,0.18)",
+    "background:rgba(20,20,20,0.92)",
+    "color:#fff",
+    "border-radius:999px",
+    "padding:10px 14px",
+    "font-size:13px",
+    "font-weight:800",
+    "box-shadow:0 10px 24px rgba(0,0,0,0.26)",
+    "cursor:pointer",
+    "display:none"
+  ].join(";");
+
+  btn.addEventListener("click", scrollChecklistTop_);
+  document.body.appendChild(btn);
+
+  window.addEventListener("scroll", () => {
+    btn.style.display = window.scrollY > 520 ? "block" : "none";
+  }, { passive: true });
+}
+
 // ---------------- HELPERS ----------------
 function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, m => ({
@@ -163,8 +207,10 @@ function setLoadingState(isLoading) {
 
 function sortByDisplayPriority(items) {
   const typeRank = {
-    product: 1,
+    search: 1,
+    query: 1,
     player: 2,
+    product: 3,
     team: 3,
     subset: 4,
     section: 5,
@@ -795,6 +841,35 @@ function scoreProductMatch_(query, item) {
   return score - Math.min(displayName.length, 300);
 }
 
+function stripYearTokens_(tokens) {
+  return (tokens || []).filter(t => !/^(19|20)\d{2}$/.test(t) && !/^\d{2}$/.test(t));
+}
+
+function scorePlayerNameMatch_(query, playerName) {
+  const needle = normalizeQuery_(query);
+  const name = normalizeQuery_(playerName);
+  const qTokens = stripYearTokens_(searchTokens_(needle));
+  const nameTokens = searchTokens_(name);
+
+  if (!needle || !name || !qTokens.length || !nameTokens.length) return -1;
+  if (name === needle) return 10000;
+  if (name.startsWith(needle)) return 9000;
+  if (name.includes(needle)) return 8000 - Math.max(0, name.length - needle.length);
+
+  if (!qTokens.every(t => nameTokens.some(nt => nt.startsWith(t) || t.startsWith(nt)))) {
+    return -1;
+  }
+
+  let score = 6000;
+  qTokens.forEach(t => {
+    if (nameTokens.includes(t)) score += 120;
+    else if (nameTokens.some(nt => nt.startsWith(t))) score += 80;
+    else score += 35;
+  });
+
+  return score - Math.min(name.length, 120);
+}
+
 function inferSearchKind_(value, selectedType) {
   const st = String(selectedType || "").trim().toLowerCase();
   if (st) return st;
@@ -1121,9 +1196,66 @@ async function getStaticPlayerStats_(q, sport) {
 
   const data = await fetchFreshJsonWithTimeout_(`${STATIC_DATA_BASE}/players/mlb-stats.json`);
   const rows = Array.isArray(data) ? data : (data.players || data.rows || []);
-  const hit = rows.find(r => normalizeQuery_(r.player || r.fullName || r.full_name || "").includes(needle));
+  const hit = rows
+    .map(r => Object.assign({}, r, {
+      _score: scorePlayerNameMatch_(needle, r.player || r.fullName || r.full_name || "")
+    }))
+    .filter(r => r._score >= 0)
+    .sort((a, b) => b._score - a._score)[0];
 
   return hit ? { found: true, player: normalizeStaticPlayer_(hit) } : { found: false };
+}
+
+async function loadMlbPlayerTypeaheadRows_() {
+  if (MLB_PLAYER_TYPEAHEAD_CACHE) return MLB_PLAYER_TYPEAHEAD_CACHE;
+  if (MLB_PLAYER_TYPEAHEAD_PROMISE) return MLB_PLAYER_TYPEAHEAD_PROMISE;
+
+  MLB_PLAYER_TYPEAHEAD_PROMISE = fetchFreshJsonWithTimeout_(`${STATIC_DATA_BASE}/players/mlb-stats.json`)
+    .then(data => {
+      const rows = Array.isArray(data) ? data : (data.players || data.rows || []);
+      const seen = {};
+
+      MLB_PLAYER_TYPEAHEAD_CACHE = rows
+        .map(normalizeStaticPlayer_)
+        .filter(player => player && player.player)
+        .filter(player => {
+          const key = normalizeQuery_(player.player);
+          if (!key || seen[key]) return false;
+          seen[key] = true;
+          return true;
+        });
+
+      return MLB_PLAYER_TYPEAHEAD_CACHE;
+    })
+    .catch(err => {
+      MLB_PLAYER_TYPEAHEAD_PROMISE = null;
+      throw err;
+    });
+
+  return MLB_PLAYER_TYPEAHEAD_PROMISE;
+}
+
+async function makeMlbPlayerTypeaheadHits_(q, sport, limit = 4) {
+  if (sport && lower(sport) !== "baseball") return [];
+
+  const needle = normalizeQuery_(q);
+  if (!needle || needle.length < 2) return [];
+
+  const players = await loadMlbPlayerTypeaheadRows_();
+  return players
+    .map(player => ({
+      term: player.player,
+      type: "player",
+      sport: "baseball",
+      code: "",
+      displayName: player.player,
+      year: "",
+      player: player.player,
+      _score: scorePlayerNameMatch_(needle, player.player)
+    }))
+    .filter(item => item._score >= 0)
+    .sort((a, b) => b._score - a._score)
+    .slice(0, limit);
 }
 
 // ---------------- INDEX CACHE ----------------
@@ -1182,6 +1314,7 @@ async function ensureFreshIndex_() {
 // ---------------- INIT ----------------
 (async function init() {
   loadTheme();
+  installFloatingTopButton_();
   applyIncomingQueryToInput();
 
   const hasDirectProductHandoff = !!(URL_CODE && URL_SPORT && lower(URL_TYPE) === "product");
@@ -1226,7 +1359,10 @@ function closeDropdown() {
 }
 
 function dropdownItemHtml(item) {
-  const typeLabel = fmtType(item.type || "product");
+  const type = lower(item.type || "product");
+  const typeLabel = type === "search" || type === "query"
+    ? "Search"
+    : fmtType(item.type || "product");
 
   return `
     <div class="ddItem"
@@ -1242,6 +1378,22 @@ function dropdownItemHtml(item) {
       </div>
     </div>
   `;
+}
+
+function makeExactSearchSuggestion_(q, sport) {
+  const term = norm(q);
+  if (!term || term.length < 2) return null;
+
+  return {
+    term: `Search for "${term}"`,
+    searchTerm: term,
+    type: "search",
+    sport: sport || "",
+    code: "",
+    displayName: term,
+    year: "",
+    _score: 99999
+  };
 }
 
 function bindDropdownItems(items) {
@@ -1288,7 +1440,7 @@ function bindDropdownItems(items) {
           elSport.value = item.sport;
         }
 
-        await runBroadSearch(item.term || elQ.value, item.sport || getSportValue(), 1);
+        await runBroadSearch(item.searchTerm || item.displayName || item.term || elQ.value, item.sport || getSportValue(), 1);
       }
     };
   });
@@ -1345,6 +1497,19 @@ function dedupeTypeaheadResults(rows) {
   return out;
 }
 
+function prioritizeTypeaheadResults_(rows, limit = 10) {
+  return sortByDisplayPriority(dedupeTypeaheadResults(rows || []))
+    .sort((a, b) => {
+      if (lower(a.type) === "search" && lower(b.type) !== "search") return -1;
+      if (lower(b.type) === "search" && lower(a.type) !== "search") return 1;
+      const aScore = Number(a._score) || 0;
+      const bScore = Number(b._score) || 0;
+      if (bScore !== aScore) return bScore - aScore;
+      return String(a.term || a.displayName || "").localeCompare(String(b.term || b.displayName || ""));
+    })
+    .slice(0, limit);
+}
+
 function makeProductHitsFromLocalIndex(q, sport, limit = 8) {
   const needle = normalizeQuery_(q);
   if (!needle || needle.length < 2) return [];
@@ -1374,7 +1539,7 @@ function makeProductHitsFromLocalIndex(q, sport, limit = 8) {
 }
 
 function mergeTypeaheadResults(localHits, remoteHits, limit = 10) {
-  return dedupeTypeaheadResults([...(localHits || []), ...(remoteHits || [])]).slice(0, limit);
+  return prioritizeTypeaheadResults_([...(localHits || []), ...(remoteHits || [])], limit);
 }
 
 // ---------------- FAST AUTOCOMPLETE ----------------
@@ -1389,38 +1554,30 @@ async function runTypeahead() {
     return;
   }
 
-  const localHits = makeProductHitsFromLocalIndex(q, sport, 8);
-  renderDropdownItems(localHits);
+  const exactHit = makeExactSearchSuggestion_(q, sport);
+  const localHits = [
+    ...(exactHit ? [exactHit] : []),
+    ...makeProductHitsFromLocalIndex(q, sport, 6)
+  ];
+  renderDropdownItems(prioritizeTypeaheadResults_(localHits, 10));
 
   try {
-    let data = null;
-
-    try {
-      const staticResults = await searchStaticTypeahead_(q, sport, 10);
-      data = { ok: true, results: staticResults };
-    } catch (staticErr) {
-      data = await api("searchIndex", {
-        q,
-        sport,
-        limit: 10
-      });
-    }
+    const playerHits = await makeMlbPlayerTypeaheadHits_(q, sport, 4);
 
     if (token !== activeTypeaheadToken) return;
 
-    const remoteHits = Array.isArray(data.results) ? data.results : [];
-    const merged = mergeTypeaheadResults(localHits, remoteHits, 10);
+    const merged = mergeTypeaheadResults(localHits, playerHits, 10);
 
     renderDropdownItems(merged);
   } catch (e) {
-    console.warn("Remote SearchIndex typeahead failed; local suggestions still shown.", e);
+    console.warn("Player typeahead enrichment failed; local suggestions still shown.", e);
   }
 }
 
 elQ.addEventListener("input", () => {
   debounce(() => {
     runTypeahead();
-  }, 80);
+  }, 140);
 });
 
 document.addEventListener("click", (e) => {
