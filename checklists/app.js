@@ -846,28 +846,73 @@ function stripYearTokens_(tokens) {
 }
 
 function scorePlayerNameMatch_(query, playerName) {
-  const needle = normalizeQuery_(query);
-  const name = normalizeQuery_(playerName);
-  const qTokens = stripYearTokens_(searchTokens_(needle));
-  const nameTokens = searchTokens_(name);
+  const score = scoreNameLikeMatch_(query, playerName);
+  return score < 0 ? -1 : score + 800;
+}
 
-  if (!needle || !name || !qTokens.length || !nameTokens.length) return -1;
-  if (name === needle) return 10000;
-  if (name.startsWith(needle)) return 9000;
-  if (name.includes(needle)) return 8000 - Math.max(0, name.length - needle.length);
+function editDistance_(a, b) {
+  a = String(a || "");
+  b = String(b || "");
 
-  if (!qTokens.every(t => nameTokens.some(nt => nt.startsWith(t) || t.startsWith(nt)))) {
-    return -1;
+  const al = a.length;
+  const bl = b.length;
+  if (!al) return bl;
+  if (!bl) return al;
+
+  const dp = [];
+  for (let i = 0; i <= al; i++) dp[i] = [i];
+  for (let j = 1; j <= bl; j++) dp[0][j] = j;
+
+  for (let i = 1; i <= al; i++) {
+    for (let j = 1; j <= bl; j++) {
+      const cost = a.charAt(i - 1) === b.charAt(j - 1) ? 0 : 1;
+      dp[i][j] = Math.min(
+        dp[i - 1][j] + 1,
+        dp[i][j - 1] + 1,
+        dp[i - 1][j - 1] + cost
+      );
+    }
   }
 
-  let score = 6000;
-  qTokens.forEach(t => {
-    if (nameTokens.includes(t)) score += 120;
-    else if (nameTokens.some(nt => nt.startsWith(t))) score += 80;
-    else score += 35;
-  });
+  return dp[al][bl];
+}
 
-  return score - Math.min(name.length, 120);
+function canFuzzyTokenMatch_(queryToken, nameToken) {
+  const q = String(queryToken || "");
+  const n = String(nameToken || "");
+  if (!q || !n) return false;
+  if (n.startsWith(q) || q.startsWith(n)) return true;
+
+  const minLen = Math.min(q.length, n.length);
+  const maxLen = Math.max(q.length, n.length);
+  const dist = editDistance_(q, n.slice(0, q.length));
+
+  if (minLen >= 4 && dist <= 1) return true;
+  if (maxLen >= 7 && dist <= 2) return true;
+  return false;
+}
+
+function scoreNameLikeMatch_(query, name) {
+  const needle = normalizeQuery_(query);
+  const normalizedName = normalizeQuery_(name);
+  const qTokens = stripYearTokens_(searchTokens_(needle));
+  const nameTokens = searchTokens_(normalizedName);
+
+  if (!needle || !normalizedName || !qTokens.length || !nameTokens.length) return -1;
+  if (normalizedName === needle) return 10000;
+  if (normalizedName.startsWith(needle)) return 9200;
+  if (normalizedName.includes(needle)) return 8200 - Math.max(0, normalizedName.length - needle.length);
+
+  let score = 5200;
+  for (const qt of qTokens) {
+    const exact = nameTokens.includes(qt);
+    const fuzzy = nameTokens.some(nt => canFuzzyTokenMatch_(qt, nt));
+    if (exact) score += 140;
+    else if (fuzzy) score += 80;
+    else return -1;
+  }
+
+  return score - Math.min(normalizedName.length, 160);
 }
 
 function inferSearchKind_(value, selectedType) {
@@ -1111,6 +1156,59 @@ async function loadStaticChecklistSearchRows_(sport) {
   }
 
   return normalizeSearchRows_(Array.isArray(data) ? data : (data.results || data.rows || data.index || []));
+}
+
+function looksLikeHelpfulPlayerSuggestion_(query, row) {
+  const player = norm(row && row.player);
+  if (!player) return false;
+  if (player.length > 60) return false;
+
+  const playerLower = lower(player);
+  const comboMarkers = [" / ", " & ", " and ", " with ", " vs ", " versus "];
+  if (comboMarkers.some(marker => playerLower.includes(marker))) return false;
+
+  const nameParts = player.replace(/[."']/g, "").split(/\s+/).filter(Boolean);
+  if (nameParts.length < 2 || nameParts.length > 4) return false;
+
+  return scoreNameLikeMatch_(query, player) >= 0;
+}
+
+async function makeChecklistPlayerTypeaheadHits_(q, sport, limit = 5) {
+  const needle = normalizeQuery_(q);
+  if (!needle || needle.length < 3) return [];
+
+  const rows = await loadStaticChecklistSearchRows_(sport || "all");
+  const seen = {};
+  const hits = [];
+
+  for (const row of rows) {
+    if (!looksLikeHelpfulPlayerSuggestion_(needle, row)) continue;
+
+    const key = [
+      normalizeQuery_(row.player),
+      normalizeQuery_(row.sport)
+    ].join("||");
+
+    if (seen[key]) continue;
+    seen[key] = true;
+
+    hits.push({
+      term: row.player,
+      type: "player",
+      sport: row.sport || sport || "",
+      code: "",
+      displayName: row.player,
+      year: "",
+      player: row.player,
+      _score: scoreNameLikeMatch_(needle, row.player)
+    });
+
+    if (hits.length >= limit * 3) break;
+  }
+
+  return hits
+    .sort((a, b) => b._score - a._score)
+    .slice(0, limit);
 }
 
 async function searchStaticTypeahead_(q, sport, limit = 10) {
@@ -1562,11 +1660,14 @@ async function runTypeahead() {
   renderDropdownItems(prioritizeTypeaheadResults_(localHits, 10));
 
   try {
-    const playerHits = await makeMlbPlayerTypeaheadHits_(q, sport, 4);
+    const [mlbPlayerHits, checklistPlayerHits] = await Promise.all([
+      makeMlbPlayerTypeaheadHits_(q, sport, 4).catch(() => []),
+      makeChecklistPlayerTypeaheadHits_(q, sport, 5).catch(() => [])
+    ]);
 
     if (token !== activeTypeaheadToken) return;
 
-    const merged = mergeTypeaheadResults(localHits, playerHits, 10);
+    const merged = mergeTypeaheadResults(localHits, [...mlbPlayerHits, ...checklistPlayerHits], 10);
 
     renderDropdownItems(merged);
   } catch (e) {
