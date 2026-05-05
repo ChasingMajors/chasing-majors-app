@@ -4,7 +4,7 @@
   "kind": "checklist_products",
   "source": "Checklist DB map targeted source merge",
   "source_key": "2022",
-  "generated_at": "2026-05-05T18:41:05.655Z",
+  "generated_at": "2026-05-05T18:50:24.120Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
