@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist product bundle rebuild",
-  "generated_at": "2026-05-05T15:14:04.832Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-05-05T16:20:01.869Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -5053,6 +5053,24 @@
       "product": "Hockey"
     },
     {
+      "Code": "2025_26_upper_deck_flair_hockey_card",
+      "DisplayName": "2025-26 Flair Hockey",
+      "Keywords": "2025-26 Flair Hockey, 2025-26 Upper Deck Flair Hockey, 2025-26 Flair Hockey cards, 2025-26 Flair NHL, 2025-26 Upper Deck Flair cards, 25-26 Flair Hockey, 25-26 Upper Deck Flair Hockey, Upper Deck Flair Hockey 2025-26, Upper Deck Flair 2025-26, Flair Hockey cards, Flair Hockey, Upper Deck Flair Hockey, Upper Deck Flair, Flair NHL cards, Upper Deck Flair hockey cards, Upper Deck Flair Hockey checklist, Flair checklist, 2025-26 Flair checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Flair",
+      "product": "Hockey"
+    },
+    {
+      "Code": "2025_26_o_pee_chee_hockey_card",
+      "DisplayName": "2025-26 O-Pee-Chee Hockey",
+      "Keywords": "2025-26 O-Pee-Chee Hockey, O-Pee-Chee Hockey 2025-26, 2025-26 OPC Hockey, OPC Hockey 2025-26, 2025-26 Upper Deck O-Pee-Chee cards, O-Pee-Chee hockey cards 2025-26, Upper Deck NHL O-Pee-Chee cards 2025-26, OPC hockey hobby box 2025-26, OPC hockey retail 2025-26, O-Pee-Chee rookies hockey 2025-26, OPC rookie cards hockey 2025-26, O-Pee-Chee autos hockey 2025-26, OPC autographs hockey 2025-26, O-Pee-Chee retro cards hockey 2025-26, OPC parallels hockey 2025-26, O-Pee-Chee inserts hockey 2025-26, O-Pee-Chee vintage style hockey cards 2025-26, Upper Deck O-Pee-Chee Hockey checklist 2025-26, OPC checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "O-Pee-Chee",
+      "product": "O-Pee-Chee"
+    },
+    {
       "Code": "2025-26-skybox-metal-universe-hockey",
       "DisplayName": "2025-26 Skybox Metal Universe Hockey",
       "Keywords": "2025-26 SkyBox Metal Universe Hockey, 2025-26 Skybox Metal Universe Hockey, 2025-26 Metal Universe Hockey, 2025-26 SkyBox Metal Universe cards, 2025-26 Upper Deck SkyBox Metal Universe Hockey, 25-26 SkyBox Metal Universe Hockey, 25-26 Metal Universe Hockey, SkyBox Metal Universe Hockey 2025-26, Upper Deck Metal Universe Hockey 2025-26, Metal Universe Hockey cards, SkyBox Metal Universe Hockey, Metal Universe Hockey, SkyBox Metal Universe, Metal Universe NHL, SkyBox Metal Universe hockey cards, SkyBox Metal Universe Hockey, Metal Universe, 2025-26 SkyBox Metal Universe",
@@ -5060,6 +5078,33 @@
       "sport": "hockey",
       "manufacturer": "Skybox",
       "product": "Metal Universe"
+    },
+    {
+      "Code": "2025_26_skybox_metal_universe_hockey_card",
+      "DisplayName": "2025-26 Skybox Metal Universe Hockey",
+      "Keywords": "2025-26 SkyBox Metal Universe Hockey, SkyBox Metal Universe Hockey 2025-26, 2025-26 Metal Universe Hockey, Metal Universe Hockey 2025-26, 2025-26 Upper Deck SkyBox Metal Universe cards, Metal Universe hockey cards 2025-26, SkyBox Metal Universe NHL cards 2025-26, Metal Universe hockey hobby box 2025-26, Metal Universe hockey retail 2025-26, Metal Universe rookies hockey 2025-26, Metal Universe rookie cards hockey 2025-26, Metal Universe autos hockey 2025-26, Metal Universe autographs hockey 2025-26, Metal Universe PMG hockey 2025-26, Metal Universe Precious Metal Gems hockey 2025-26, Metal Universe parallels hockey 2025-26, Metal Universe inserts hockey 2025-26, Upper Deck SkyBox Metal Universe Hockey checklist 2025-26, Metal Universe checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Skybox",
+      "product": "Metal Universe"
+    },
+    {
+      "Code": "2025_26_sp_game_used_hockey_card",
+      "DisplayName": "2025-26 SP Game Used Hockey",
+      "Keywords": "2025-26 SP Game Used Hockey, SP Game Used Hockey 2025-26, 2025-26 Upper Deck SP Game Used Hockey, Upper Deck SP Game Used Hockey 2025-26, 2025-26 SPGU Hockey, SPGU Hockey 2025-26, SP Game Used hockey cards 2025-26, Upper Deck NHL SP Game Used cards 2025-26, SP Game Used hockey hobby box 2025-26, SP Game Used rookies hockey 2025-26, SP Game Used rookie cards hockey 2025-26, SP Game Used autos hockey 2025-26, SP Game Used autographs hockey 2025-26, SP Game Used patch cards hockey 2025-26, SP Game Used jersey cards hockey 2025-26, SP Game Used memorabilia cards hockey 2025-26, SP Game Used parallels hockey 2025-26, Upper Deck SP Game Used Hockey checklist 2025-26, SP Game Used checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "SP Game Used"
+    },
+    {
+      "Code": "2025_26_upper_deck_sp_hockey_hockey_card",
+      "DisplayName": "2025-26 SP Hockey",
+      "Keywords": "2025-26 SP Hockey, SP Hockey 2025-26, 2025-26 Upper Deck SP Hockey, Upper Deck SP Hockey 2025-26, 2025-26 SP cards, SP hockey cards 2025-26, Upper Deck NHL SP cards 2025-26, SP hockey hobby box 2025-26, SP hockey retail 2025-26, SP rookies hockey 2025-26, SP rookie cards hockey 2025-26, SP autos hockey 2025-26, SP autographs hockey 2025-26, SP parallels hockey 2025-26, SP inserts hockey 2025-26, SP Authentic style hockey cards 2025-26, SP base set hockey 2025-26, Upper Deck SP Hockey checklist 2025-26, SP checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "SP"
     },
     {
       "Code": "2025_26_spx_hockey",
@@ -5071,6 +5116,42 @@
       "product": "SPx"
     },
     {
+      "Code": "2025_26_upper_deck_spx_hockey_card",
+      "DisplayName": "2025-26 SPx Hockey",
+      "Keywords": "2025-26 SPx Hockey, SPx Hockey 2025-26, 2025-26 Upper Deck SPx Hockey, Upper Deck SPx Hockey 2025-26, 2025-26 SPx cards, SPx hockey cards 2025-26, Upper Deck SPx NHL cards 2025-26, SPx hockey hobby box 2025-26, SPx hockey retail 2025-26, SPx rookies hockey 2025-26, SPx rookie cards hockey 2025-26, SPx autos hockey 2025-26, SPx autographs hockey 2025-26, SPx patch autos hockey 2025-26, SPx jersey cards hockey 2025-26, SPx parallels hockey 2025-26, SPx inserts hockey 2025-26, Upper Deck SPx Hockey checklist 2025-26, SPx checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "SPx"
+    },
+    {
+      "Code": "2025_26_upper_deck_allure_hockey_card",
+      "DisplayName": "2025-26 Upper Deck Allure Hockey",
+      "Keywords": "2025-26 Upper Deck Allure Hockey, Upper Deck Allure Hockey 2025-26, 2025-26 Allure Hockey, Allure Hockey 2025-26, 2025-26 Upper Deck Allure cards, Allure hockey cards 2025-26, Upper Deck NHL Allure cards 2025-26, Allure hockey hobby box 2025-26, Allure hockey retail 2025-26, Allure rookies hockey 2025-26, Allure rookie cards hockey 2025-26, Allure autos hockey 2025-26, Allure autographs hockey 2025-26, Allure parallels hockey 2025-26, Allure rainbow parallels hockey 2025-26, Allure inserts hockey 2025-26, Allure color flow cards hockey 2025-26, Upper Deck Allure Hockey checklist 2025-26, Allure checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Allure"
+    },
+    {
+      "Code": "2025_26_upper_deck_artifacts_hockey_card",
+      "DisplayName": "2025-26 Upper Deck Artifacts Hockey",
+      "Keywords": "2025-26 Upper Deck Artifacts Hockey, Upper Deck Artifacts Hockey 2025-26, 2025-26 Artifacts Hockey, Artifacts Hockey 2025-26, 2025-26 Upper Deck Artifacts cards, Artifacts hockey cards 2025-26, Upper Deck NHL Artifacts cards 2025-26, Artifacts hockey hobby box 2025-26, Artifacts hockey blaster 2025-26, Artifacts hockey retail 2025-26, Artifacts rookies hockey 2025-26, Artifacts rookie cards hockey 2025-26, Artifacts autos hockey 2025-26, Artifacts autographs hockey 2025-26, Artifacts patch cards hockey 2025-26, Artifacts jersey cards hockey 2025-26, Artifacts parallels hockey 2025-26, Artifacts inserts hockey 2025-26, Upper Deck Artifacts Hockey checklist 2025-26, Artifacts checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Artifacts"
+    },
+    {
+      "Code": "2025_26_upper_deck_black_diamond_hockey_card",
+      "DisplayName": "2025-26 Upper Deck Black Diamond Hockey",
+      "Keywords": "2025-26 Upper Deck Black Diamond Hockey, Upper Deck Black Diamond Hockey 2025-26, 2025-26 Black Diamond Hockey, Black Diamond Hockey 2025-26, 2025-26 Upper Deck Black Diamond cards, Black Diamond hockey cards 2025-26, Upper Deck NHL Black Diamond cards 2025-26, Black Diamond hockey hobby box 2025-26, Black Diamond premium hockey cards 2025-26, Black Diamond rookies hockey 2025-26, Black Diamond rookie cards hockey 2025-26, Black Diamond autos hockey 2025-26, Black Diamond autographs hockey 2025-26, Black Diamond gem cards hockey 2025-26, Black Diamond relic cards hockey 2025-26, Black Diamond parallels hockey 2025-26, Black Diamond inserts hockey 2025-26, Upper Deck Black Diamond Hockey checklist 2025-26, Black Diamond checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Black Diamond"
+    },
+    {
       "Code": "2025_26_upper_deck_credentials_hockey",
       "DisplayName": "2025-26 Upper Deck Credentials Hockey",
       "Keywords": "2025-26 Upper Deck Credentials Hockey, Upper Deck Credentials Hockey 2025-26, 2025-26 UD Credentials Hockey, UD Credentials Hockey 2025-26, 2025-26 Upper Deck Credentials cards, Credentials hockey cards 2025-26, Upper Deck NHL cards 2025-26 Credentials, Credentials hockey hobby box 2025-26, Credentials hockey blaster 2025-26, Credentials hockey retail 2025-26, Credentials rookies hockey 2025-26, Credentials rookie cards hockey 2025-26, Credentials autos hockey 2025-26, Credentials autographs hockey 2025-26, Credentials parallels hockey 2025-26, Credentials ticket access cards hockey 2025-26, Credentials inserts hockey 2025-26, Upper Deck Credentials Hockey checklist 2025-26, Credentials checklist",
@@ -5080,6 +5161,42 @@
       "product": "Credentials"
     },
     {
+      "Code": "2025_26_upper_deck_credentials_hockey_card",
+      "DisplayName": "2025-26 Upper Deck Credentials Hockey",
+      "Keywords": "2025-26 Upper Deck Credentials Hockey, Upper Deck Credentials Hockey 2025-26, 2025-26 UD Credentials Hockey, UD Credentials Hockey 2025-26, 2025-26 Upper Deck Credentials cards, Credentials hockey cards 2025-26, Upper Deck NHL cards 2025-26 Credentials, Credentials hockey hobby box 2025-26, Credentials hockey blaster 2025-26, Credentials hockey retail 2025-26, Credentials rookies hockey 2025-26, Credentials rookie cards hockey 2025-26, Credentials autos hockey 2025-26, Credentials autographs hockey 2025-26, Credentials parallels hockey 2025-26, Credentials ticket access cards hockey 2025-26, Credentials inserts hockey 2025-26, Upper Deck Credentials Hockey checklist 2025-26, Credentials checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Credentials"
+    },
+    {
+      "Code": "2025_26_upper_deck_fleer_ultra_hockey_card",
+      "DisplayName": "2025-26 Upper Deck Fleer Ultra Hockey",
+      "Keywords": "2025-26 Upper Deck Fleer Ultra Hockey, Upper Deck Fleer Ultra Hockey 2025-26, 2025-26 Fleer Ultra Hockey, Fleer Ultra Hockey 2025-26, 2025-26 Upper Deck Fleer Ultra cards, Fleer Ultra hockey cards 2025-26, Upper Deck NHL Fleer Ultra cards 2025-26, Fleer Ultra hockey hobby box 2025-26, Fleer Ultra hockey retail 2025-26, Fleer Ultra rookies hockey 2025-26, Fleer Ultra rookie cards hockey 2025-26, Fleer Ultra autos hockey 2025-26, Fleer Ultra autographs hockey 2025-26, Fleer Ultra parallels hockey 2025-26, Fleer Ultra inserts hockey 2025-26, Ultra Stars hockey cards 2025-26, Fleer Ultra gold medallion parallels 2025-26, Upper Deck Fleer Ultra Hockey checklist 2025-26, Fleer Ultra checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Fleer Ultra"
+    },
+    {
+      "Code": "2025_26_upper_deck_mvp_hockey_card",
+      "DisplayName": "2025-26 Upper Deck MVP Hockey",
+      "Keywords": "2025-26 Upper Deck MVP Hockey, Upper Deck MVP Hockey 2025-26, 2025-26 MVP Hockey, MVP Hockey 2025-26, 2025-26 Upper Deck MVP cards, MVP hockey cards 2025-26, Upper Deck NHL MVP cards 2025-26, MVP hockey hobby box 2025-26, MVP hockey retail 2025-26, MVP rookies hockey 2025-26, MVP rookie cards hockey 2025-26, MVP autos hockey 2025-26, MVP autographs hockey 2025-26, MVP parallels hockey 2025-26, MVP colors and contours hockey 2025-26, MVP inserts hockey 2025-26, MVP silver script hockey 2025-26, Upper Deck MVP Hockey checklist 2025-26, MVP checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "MVP"
+    },
+    {
+      "Code": "2025_26_upper_deck_series_1_hockey_card",
+      "DisplayName": "2025-26 Upper Deck Series 1 Hockey",
+      "Keywords": "2025-26 Upper Deck Series 1 Hockey, Upper Deck Series 1 Hockey 2025-26, 2025-26 UD Series 1 Hockey, UD Series 1 Hockey 2025-26, 2025-26 Upper Deck Series 1 cards, Series 1 hockey cards 2025-26, Upper Deck NHL Series 1 cards 2025-26, Series 1 hockey hobby box 2025-26, Series 1 hockey blaster 2025-26, Series 1 hockey retail 2025-26, Series 1 Young Guns 2025-26, Young Guns rookie cards 2025-26, Upper Deck Series 1 rookies 2025-26, Series 1 autos hockey 2025-26, Series 1 autographs hockey 2025-26, Series 1 parallels hockey 2025-26, Series 1 inserts hockey 2025-26, Upper Deck Series 1 Hockey checklist 2025-26, Series 1 checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Series 1"
+    },
+    {
       "Code": "2025_26_Upper_Deck_Series_2_Hockey",
       "DisplayName": "2025-26 Upper Deck Series 2 Hockey",
       "Keywords": "2025-26 Series 2 Hockey, Upper Deck Series 2 Hockey,  Series 2 Hockey, 2025 Upper Deck Series 2 Hockey, 2026 Upper Deck Series 2 Hockey",
@@ -5087,6 +5204,42 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "Series 2"
+    },
+    {
+      "Code": "2025_26_upper_deck_series_2_hockey_card",
+      "DisplayName": "2025-26 Upper Deck Series 2 Hockey",
+      "Keywords": "2025-26 Upper Deck Series 2 Hockey, Upper Deck Series 2 Hockey 2025-26, 2025-26 UD Series 2 Hockey, UD Series 2 Hockey 2025-26, 2025-26 Upper Deck Series 2 cards, Series 2 hockey cards 2025-26, Upper Deck NHL Series 2 cards 2025-26, Series 2 hockey hobby box 2025-26, Series 2 hockey blaster 2025-26, Series 2 hockey retail 2025-26, Series 2 Young Guns 2025-26, Young Guns rookie cards 2025-26, Upper Deck Series 2 rookies 2025-26, Series 2 autos hockey 2025-26, Series 2 autographs hockey 2025-26, Series 2 parallels hockey 2025-26, Series 2 inserts hockey 2025-26, Upper Deck Series 2 Hockey checklist 2025-26, Series 2 checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Series 2"
+    },
+    {
+      "Code": "2025_26_upper_deck_star_rookies_hockey_card",
+      "DisplayName": "2025-26 Upper Deck Star Rookies Hockey",
+      "Keywords": "2025-26 Upper Deck Star Rookies Hockey, Upper Deck Star Rookies Hockey 2025-26, 2025-26 Star Rookies Hockey, Star Rookies Hockey 2025-26, 2025-26 Upper Deck Star Rookies cards, Star Rookies hockey cards 2025-26, Upper Deck NHL Star Rookies cards 2025-26, Star Rookies rookie cards hockey 2025-26, Star Rookies prospects hockey 2025-26, Upper Deck Star Rookies checklist 2025-26, Star Rookies checklist, hockey rookie cards 2025-26 Upper Deck, NHL rookie cards 2025-26, Upper Deck rookie insert hockey 2025-26, Star Rookies parallels hockey 2025-26, Star Rookies inserts hockey 2025-26, Upper Deck young prospects hockey 2025-26, NHL future stars hockey cards 2025-26",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Star Rookies"
+    },
+    {
+      "Code": "2025_26_upper_deck_tim_hortons_hockey_card",
+      "DisplayName": "2025-26 Upper Deck Tim Hortons Hockey",
+      "Keywords": "2025-26 Upper Deck Tim Hortons Hockey, Upper Deck Tim Hortons Hockey 2025-26, 2025-26 Tim Hortons Hockey cards, Tim Hortons hockey cards 2025-26, Upper Deck Tim Hortons NHL cards 2025-26, Tim Hortons NHL hockey cards Canada 2025-26, Tim Hortons hockey set 2025-26 Upper Deck, Tim Hortons hockey packs 2025-26, Tim Hortons hockey rookies 2025-26, Tim Hortons rookie cards hockey 2025-26, Tim Hortons autos hockey 2025-26, Tim Hortons autographs hockey 2025-26, Tim Hortons parallels hockey 2025-26, Tim Hortons inserts hockey 2025-26, Tim Hortons red parallels hockey 2025-26, Tim Hortons gold etchings hockey 2025-26, Upper Deck Tim Hortons Hockey checklist 2025-26, Tim Hortons checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Tim Hortons"
+    },
+    {
+      "Code": "2025_26_upper_deck_tim_hortons_team_canada_olympic_hockey_card",
+      "DisplayName": "2025-26 Upper Deck Tim Hortons Team Canada Olympic Hockey",
+      "Keywords": "2025-26 Upper Deck Tim Hortons Team Canada Olympic Hockey, Upper Deck Tim Hortons Team Canada Hockey 2025-26, 2025-26 Tim Hortons Team Canada Hockey cards, Tim Hortons Team Canada Olympic hockey cards 2025-26, Upper Deck Team Canada hockey cards 2025-26, Team Canada Olympic hockey cards 2025-26, Tim Hortons hockey cards Canada 2025-26, Team Canada hockey set 2025-26 Upper Deck, Tim Hortons Team Canada rookies 2025-26, Team Canada rookie cards hockey 2025-26, Tim Hortons Team Canada autos 2025-26, Team Canada autographs hockey 2025-26, Team Canada parallels hockey 2025-26, Team Canada inserts hockey 2025-26, Tim Hortons Team Canada inserts 2025-26, Upper Deck Team Canada checklist 2025-26, Tim Hortons Team Canada checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Tim Hortons Team Canada Olympic"
     },
     {
       "Code": "2026_Topps_Finest_Premier_League_Soccer",
