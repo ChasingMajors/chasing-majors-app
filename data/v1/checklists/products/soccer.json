@@ -3,7 +3,7 @@
   "sport": "soccer",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-05-02T16:44:50.983Z",
+  "generated_at": "2026-05-05T18:57:04.846Z",
   "sharded": true,
   "shards": [
     "soccer-001.json"
