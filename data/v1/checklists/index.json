@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist DB map current merge",
-  "generated_at": "2026-05-05T16:20:01.869Z",
+  "source": "Checklist Google Sheets Products rebuild",
+  "generated_at": "2026-05-05T16:20:40.709Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -490,15 +490,6 @@
       "product": "Baseball"
     },
     {
-      "Code": "2024_Bowman_Chorme_Baseball",
-      "DisplayName": "2024 Bowman Chrome Baseball",
-      "Keywords": "",
-      "year": "2024",
-      "sport": "baseball",
-      "manufacturer": "Bowman",
-      "product": "Chrome"
-    },
-    {
       "Code": "2024_bowman_chrome_baseball",
       "DisplayName": "2024 Bowman Chrome Baseball",
       "Keywords": "2024 Bowman Chrome Baseball, 2024 Bowman Chrome, 2024 Topps Bowman Chrome Baseball, 2024 Topps Bowman Chrome, 24 Bowman Chrome Baseball, 24 Bowman Chrome, Bowman Chrome 2024, Bowman Chrome Baseball 2024, Bowman Chrome Baseball, Bowman Chrome, Topps Bowman Chrome Baseball, Topps Bowman Chrome, Bowman Chrome checklist, Bowman Chrome baseball checklist, 2024 Bowman Chrome checklist, Bowman Chrome 2024 checklist, 24 Bowman Chrome checklist",
@@ -704,15 +695,6 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome"
-    },
-    {
-      "Code": "2024_Topps_Chrome_Black",
-      "DisplayName": "2024 Topps Chrome Black",
-      "Keywords": "",
-      "year": "2024",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Chrome Black"
     },
     {
       "Code": "2024_topps_chrome_black_baseball",
@@ -931,15 +913,6 @@
       "product": "Pristine"
     },
     {
-      "Code": "2024_Topp_Pro_Debut_Baseball",
-      "DisplayName": "2024 Topps Pro Debut Baseball",
-      "Keywords": "",
-      "year": "2024",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Pro Debut"
-    },
-    {
       "Code": "2024_topps_pro_debut_baseball",
       "DisplayName": "2024 Topps Pro Debut Baseball",
       "Keywords": "2024 Topps Pro Debut Baseball, 2024 Topps Pro Debut, 2024 Pro Debut Baseball, 2024 Topps Pro Debut cards, 24 Topps Pro Debut Baseball, 24 Pro Debut Baseball, Topps Pro Debut Baseball 2024, Topps Pro Debut 2024, Pro Debut Baseball cards, Pro Debut Baseball, Topps Pro Debut Baseball, Topps Pro Debut, Pro Debut prospects, Topps Pro Debut minor league cards, Topps Pro Debut Baseball checklist, Pro Debut checklist, 2024 Topps Pro Debut checklist",
@@ -949,15 +922,6 @@
       "product": "Pro Debut"
     },
     {
-      "Code": "2024_Topps_Baseball_Series_1",
-      "DisplayName": "2024 Topps Series 1 Baseball",
-      "Keywords": "",
-      "year": "2024",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Series 1"
-    },
-    {
       "Code": "2024_topps_series_1_baseball",
       "DisplayName": "2024 Topps Series 1 Baseball",
       "Keywords": "2024 Topps Series 1 Baseball, 2024 Topps Series 1, 2024 Series 1 Baseball, 2024 Series 1, 24 Topps Series 1 Baseball, 24 Topps Series 1, 24 Series 1 Baseball, 24 Series 1, Topps Series 1 Baseball, Topps Series 1, Series 1 Baseball, Series 1, Topps Series 1 checklist, Series 1 checklist, 2024 Topps Series 1 checklist, 2024 Series 1 checklist, Topps Series 1 2024 checklist, Topps Series One Baseball, 2024 Topps Series One, 2024 Series One, Series One Baseball, Series One",
@@ -965,15 +929,6 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Series 1"
-    },
-    {
-      "Code": "2024_Topps_Baseball_Series_2",
-      "DisplayName": "2024 Topps Series 2 Baseball",
-      "Keywords": "",
-      "year": "2024",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Series 2"
     },
     {
       "Code": "2024_topps_series_2_baseball",
@@ -1066,15 +1021,6 @@
       "product": "X Chris Berman Boomers"
     },
     {
-      "Code": "2023_Bowman_Inception_Baseball",
-      "DisplayName": "2023 Bowman Inception Baseball",
-      "Keywords": "",
-      "year": "2023",
-      "sport": "baseball",
-      "manufacturer": "Bowman",
-      "product": "Inception"
-    },
-    {
       "Code": "2023_bowman_inception_baseball",
       "DisplayName": "2023 Bowman Inception Baseball",
       "Keywords": "2023 Bowman Inception Baseball, 2023 Bowman Inception, 2023 Bowman Inception cards, 2023 Bowman Inception MLB, 23 Bowman Inception Baseball, 23 Bowman Inception, Bowman Inception Baseball 2023, Bowman Inception 2023, Bowman Inception Baseball cards, Bowman Inception Baseball, Bowman Inception MLB, Bowman Inception prospects, Topps Bowman Inception Baseball 2023, Topps Bowman Inception 2023, Bowman Inception Baseball checklist, Bowman Inception checklist, 2023 Bowman Inception checklist",
@@ -1084,15 +1030,6 @@
       "product": "Inception"
     },
     {
-      "Code": "2023_Panini_Elite_Extra_Edition_Baseball",
-      "DisplayName": "2023 Panini Elite Extra Edition Baseball",
-      "Keywords": "",
-      "year": "2023",
-      "sport": "baseball",
-      "manufacturer": "Panini",
-      "product": "Elite Extra Edition"
-    },
-    {
       "Code": "2023_panini_elite_extra_edition_baseball",
       "DisplayName": "2023 Panini Elite Extra Edition Baseball",
       "Keywords": "2023 Panini Elite Extra Edition Baseball, 2023 Panini Elite Extra Edition, 2023 Elite Extra Edition Baseball, 2023 Panini Elite Extra Edition cards, 23 Panini Elite Extra Edition Baseball, 23 Elite Extra Edition Baseball, Panini Elite Extra Edition Baseball 2023, Panini Elite Extra Edition 2023, Elite Extra Edition Baseball cards, Elite Extra Edition Baseball, Panini Elite Extra Edition Baseball, Panini Elite Extra Edition, Elite Extra Edition prospects, Elite Extra Edition MLB draft prospects, Panini Elite Extra Edition checklist, Elite Extra Edition checklist, 2023 Panini Elite Extra Edition checklist",
@@ -1100,15 +1037,6 @@
       "sport": "baseball",
       "manufacturer": "Panini",
       "product": "Elite Extra Edition"
-    },
-    {
-      "Code": "2023_Panini_Flawless_Baseball",
-      "DisplayName": "2023 Panini Flawless Baseball",
-      "Keywords": "",
-      "year": "2023",
-      "sport": "baseball",
-      "manufacturer": "Panini",
-      "product": "Flawless"
     },
     {
       "Code": "2023_panini_flawless_baseball",
@@ -1138,15 +1066,6 @@
       "product": "Chrome Black"
     },
     {
-      "Code": "2023_Topps_Chrome_Platinum_Baseball",
-      "DisplayName": "2023 Topps Chrome Platinum Baseball",
-      "Keywords": "",
-      "year": "2023",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Chrome Platinum"
-    },
-    {
       "Code": "2023_topps_chrome_platinum_baseball",
       "DisplayName": "2023 Topps Chrome Platinum Baseball",
       "Keywords": "2023 Topps Chrome Platinum Baseball, 2023 Topps Chrome Platinum, 2023 Chrome Platinum Baseball, 2023 Topps Chrome Platinum cards, 23 Topps Chrome Platinum Baseball, 23 Chrome Platinum Baseball, Topps Chrome Platinum Baseball 2023, Topps Chrome Platinum 2023, Chrome Platinum Baseball cards, Chrome Platinum Baseball, Topps Chrome Platinum Baseball, Topps Chrome Platinum, Chrome Platinum MLB, Topps Chrome Platinum Anniversary Baseball, Topps Chrome Platinum Baseball checklist, Chrome Platinum checklist, 2023 Topps Chrome Platinum checklist",
@@ -1165,15 +1084,6 @@
       "product": "Chrome Update"
     },
     {
-      "Code": "2023_Topps_Dynasty_Baseball",
-      "DisplayName": "2023 Topps Dynasty Baseball",
-      "Keywords": "",
-      "year": "2023",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Dynasty"
-    },
-    {
       "Code": "2023_topps_dynasty_baseball",
       "DisplayName": "2023 Topps Dynasty Baseball",
       "Keywords": "2023 Topps Dynasty Baseball, 2023 Topps Dynasty, 2023 Dynasty Baseball, 2023 Topps Dynasty cards, 23 Topps Dynasty Baseball, 23 Dynasty Baseball, Topps Dynasty Baseball 2023, Topps Dynasty 2023, Dynasty Baseball cards, Dynasty Baseball, Topps Dynasty Baseball, Topps Dynasty, Dynasty MLB, Topps Dynasty ultra high end baseball cards, Topps Dynasty Baseball checklist, Dynasty checklist, 2023 Topps Dynasty checklist",
@@ -1183,15 +1093,6 @@
       "product": "Dynasty"
     },
     {
-      "Code": "2023_Topps_Five_Star_Baseball",
-      "DisplayName": "2023 Topps Five Star Baseball",
-      "Keywords": "",
-      "year": "2023",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Five Star"
-    },
-    {
       "Code": "2023_topps_five_star_baseball",
       "DisplayName": "2023 Topps Five Star Baseball",
       "Keywords": "2023 Topps Five Star Baseball, 2023 Topps Five Star, 2023 Five Star Baseball, 2023 Topps Five Star cards, 23 Topps Five Star Baseball, 23 Five Star Baseball, Topps Five Star Baseball 2023, Topps Five Star 2023, Five Star Baseball cards, Five Star Baseball, Topps Five Star Baseball, Topps Five Star, Five Star MLB, Topps Five Star high end baseball cards, Topps Five Star Baseball checklist, Five Star checklist, 2023 Topps Five Star checklist",
@@ -1199,15 +1100,6 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Five Star"
-    },
-    {
-      "Code": "2023_Topps_Garbage_Pail_Kids_X_Baseball",
-      "DisplayName": "2023 Topps Garbage Pail Kids X Baseball",
-      "Keywords": "",
-      "year": "2023",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Garbage Pail Kids X"
     },
     {
       "Code": "2023_topps_garbage_pail_kids_x_mlb",
@@ -1237,15 +1129,6 @@
       "product": "Heritage High Number"
     },
     {
-      "Code": "2023_Topps_Luminaries_Baseball",
-      "DisplayName": "2023 Topps Luminaries Baseball",
-      "Keywords": "",
-      "year": "2023",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Luminaries"
-    },
-    {
       "Code": "2023_topps_luminaries_baseball",
       "DisplayName": "2023 Topps Luminaries Baseball",
       "Keywords": "2023 Topps Luminaries Baseball, 2023 Topps Luminaries, 2023 Luminaries Baseball, 2023 Topps Luminaries cards, 23 Topps Luminaries Baseball, 23 Luminaries Baseball, Topps Luminaries Baseball 2023, Topps Luminaries 2023, Luminaries Baseball cards, Luminaries Baseball, Topps Luminaries Baseball, Topps Luminaries, Luminaries MLB, Topps Luminaries high end baseball cards, Topps Luminaries Baseball checklist, Luminaries checklist, 2023 Topps Luminaries checklist",
@@ -1273,15 +1156,6 @@
       "product": "Series 2"
     },
     {
-      "Code": "2023_Topps_Transcendent_Collection_Baseball",
-      "DisplayName": "2023 Topps Transcendent Collection Baseball",
-      "Keywords": "",
-      "year": "2023",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Transcendent Collection"
-    },
-    {
       "Code": "2023_topps_transcendent_collection_baseball",
       "DisplayName": "2023 Topps Transcendent Collection Baseball",
       "Keywords": "2023 Topps Transcendent Collection Baseball, 2023 Topps Transcendent Baseball, 2023 Topps Transcendent Collection, 2023 Topps Transcendent cards, 23 Topps Transcendent Collection Baseball, 23 Topps Transcendent Baseball, Topps Transcendent Collection Baseball 2023, Topps Transcendent Baseball 2023, Topps Transcendent Collection 2023, Topps Transcendent Baseball, Topps Transcendent Collection, Transcendent Collection Baseball cards, Transcendent Baseball cards, Topps Transcendent ultra high end baseball cards, Topps Transcendent Collection checklist, Topps Transcendent checklist, 2023 Topps Transcendent checklist",
@@ -1293,7 +1167,7 @@
     {
       "Code": "2022_Topps_Chrome_baseball",
       "DisplayName": "2022 Topps Chrome Baseball",
-      "Keywords": "",
+      "Keywords": "2022 Topps Chrome Baseball, 2022 Topps Chrome, 2022 Chrome Baseball, 2022 Chrome, 22 Topps Chrome Baseball, 22 Topps Chrome, 22 Chrome Baseball, 22 Chrome, Topps Chrome Baseball, Topps Chrome, Chrome Baseball, Chrome, Topps Chrome checklist, Chrome checklist, Topps Chrome baseball checklist, 2022 Topps Chrome checklist, 2022 Chrome checklist",
       "year": "2022",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1302,7 +1176,7 @@
     {
       "Code": "2022_Topps_Chrome_Update_baseball",
       "DisplayName": "2022 Topps Chrome Update Baseball",
-      "Keywords": "",
+      "Keywords": "2022 Topps Chrome Update Baseball, 2022 Topps Chrome Update, 2022 Chrome Update Baseball, 2022 Chrome Update, 22 Topps Chrome Update Baseball, 22 Topps Chrome Update, 22 Chrome Update Baseball, 22 Chrome Update, Topps Chrome Update Baseball, Topps Chrome Update, Chrome Update Baseball, Chrome Update, Topps Chrome Update checklist, Chrome Update checklist, Topps Chrome Update baseball checklist, 2022 Topps Chrome Update checklist, 2022 Chrome Update checklist",
       "year": "2022",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1311,7 +1185,7 @@
     {
       "Code": "2022_Topps_Heritage_baseball",
       "DisplayName": "2022 Topps Heritage Baseball",
-      "Keywords": "",
+      "Keywords": "2022 Topps Heritage Baseball, 2022 Topps Heritage, 2022 Heritage Baseball, 2022 Heritage, 22 Topps Heritage Baseball, 22 Topps Heritage, 22 Heritage Baseball, 22 Heritage, Topps Heritage Baseball, Topps Heritage, Heritage Baseball, Heritage, Topps Heritage checklist, Heritage checklist, Topps Heritage baseball checklist, 2022 Topps Heritage checklist, 2022 Heritage checklist",
       "year": "2022",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1320,7 +1194,7 @@
     {
       "Code": "2022_Topps_Heritage_HighNumber_baseball",
       "DisplayName": "2022 Topps Heritage High Number Baseball",
-      "Keywords": "",
+      "Keywords": "2022 Topps Heritage High Number Baseball, 2022 Topps Heritage High Number, 2022 Heritage High Number Baseball, 2022 Heritage High Number, 22 Topps Heritage High Number Baseball, 22 Topps Heritage High Number, 22 Heritage High Number Baseball, 22 Heritage High Number, Topps Heritage High Number Baseball, Topps Heritage High Number, Heritage High Number Baseball, Heritage High Number, Topps Heritage High Number checklist, Heritage High Number checklist, Topps Heritage High Number baseball checklist, 2022 Topps Heritage High Number checklist, 2022 Heritage High Number checklist",
       "year": "2022",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1329,7 +1203,7 @@
     {
       "Code": "2022_Topps_Baseball_Series_1",
       "DisplayName": "2022 Topps Series 1 Baseball",
-      "Keywords": "",
+      "Keywords": "2022 Topps Series 1 Baseball, 2022 Topps Series 1, 2022 Series 1 Baseball, 2022 Series 1, 22 Topps Series 1 Baseball, 22 Topps Series 1, 22 Series 1 Baseball, 22 Series 1, Topps Series 1 Baseball, Topps Series 1, Series 1 Baseball, Series 1, Topps Series 1 checklist, Series 1 checklist, 2022 Topps Series 1 checklist, 2022 Series 1 checklist, Topps Series 1 2022 checklist, Topps Series One Baseball, 2022 Topps Series One, 2022 Series One, Series One Baseball, Series One",
       "year": "2022",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1338,7 +1212,7 @@
     {
       "Code": "2022_Topps_Baseball_Series_2",
       "DisplayName": "2022 Topps Series 2 Baseball",
-      "Keywords": "",
+      "Keywords": "2022 Topps Series 2 Baseball, 2022 Topps Series 2, 2022 Series 2 Baseball, 2022 Series 2, 22 Topps Series 2 Baseball, 22 Topps Series 2, 22 Series 2 Baseball, 22 Series 2, Topps Series 2 Baseball, Topps Series 2, Series 2 Baseball, Series 2, Topps Series Two Baseball, Topps Series Two, Series Two Baseball, Series Two, Topps Series 2 checklist, Series 2 checklist, 2022 Topps Series 2 checklist, 2022 Series 2 checklist",
       "year": "2022",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1347,7 +1221,7 @@
     {
       "Code": "2021_Topps_Chrome_baseball",
       "DisplayName": "2021 Topps Chrome Baseball",
-      "Keywords": "",
+      "Keywords": "2021 Topps Chrome Baseball, 2021 Topps Chrome, 2021 Chrome Baseball, 2021 Chrome, 21 Topps Chrome Baseball, 21 Topps Chrome, 21 Chrome Baseball, 21 Chrome, Topps Chrome Baseball, Topps Chrome, Chrome Baseball, Chrome, Topps Chrome checklist, Chrome checklist, Topps Chrome baseball checklist, 2021 Topps Chrome checklist, 2021 Chrome checklist",
       "year": "2021",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1356,7 +1230,7 @@
     {
       "Code": "2021_Topps_Chrome_Update_baseball",
       "DisplayName": "2021 Topps Chrome Update Baseball",
-      "Keywords": "",
+      "Keywords": "2021 Topps Chrome Update Baseball, 2021 Topps Chrome Update, 2021 Chrome Update Baseball, 2021 Chrome Update, 21 Topps Chrome Update Baseball, 21 Topps Chrome Update, 21 Chrome Update Baseball, 21 Chrome Update, Topps Chrome Update Baseball, Topps Chrome Update, Chrome Update Baseball, Chrome Update, Topps Chrome Update checklist, Chrome Update checklist, Topps Chrome Update baseball checklist, 2021 Topps Chrome Update checklist, 2021 Chrome Update checklist",
       "year": "2021",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1365,7 +1239,7 @@
     {
       "Code": "2021_Topps_Heritage_baseball",
       "DisplayName": "2021 Topps Heritage Baseball",
-      "Keywords": "",
+      "Keywords": "2021 Topps Heritage Baseball, 2021 Topps Heritage, 2021 Heritage Baseball, 2021 Heritage, 21 Topps Heritage Baseball, 21 Topps Heritage, 21 Heritage Baseball, 21 Heritage, Topps Heritage Baseball, Topps Heritage, Heritage Baseball, Heritage, Topps Heritage checklist, Heritage checklist, Topps Heritage baseball checklist, 2021 Topps Heritage checklist, 2021 Heritage checklist",
       "year": "2021",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1374,7 +1248,7 @@
     {
       "Code": "2021_Topps_Heritage_HighNumber_baseball",
       "DisplayName": "2021 Topps Heritage High Number Baseball",
-      "Keywords": "",
+      "Keywords": "2021 Topps Heritage High Number Baseball, 2021 Topps Heritage High Number, 2021 Heritage High Number Baseball, 2021 Heritage High Number, 21 Topps Heritage High Number Baseball, 21 Topps Heritage High Number, 21 Heritage High Number Baseball, 21 Heritage High Number, Topps Heritage High Number Baseball, Topps Heritage High Number, Heritage High Number Baseball, Heritage High Number, Topps Heritage High Number checklist, Heritage High Number checklist, Topps Heritage High Number baseball checklist, 2021 Topps Heritage High Number checklist, 2021 Heritage High Number checklist",
       "year": "2021",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1383,7 +1257,7 @@
     {
       "Code": "2021_Topps_Baseball_Series_1",
       "DisplayName": "2021 Topps Series 1 Baseball",
-      "Keywords": "",
+      "Keywords": "2021 Topps Series 1 Baseball, 2021 Topps Series 1, 2021 Series 1 Baseball, 2021 Series 1, 21 Topps Series 1 Baseball, 21 Topps Series 1, 21 Series 1 Baseball, 21 Series 1, Topps Series 1 Baseball, Topps Series 1, Series 1 Baseball, Series 1, Topps Series One Baseball, Topps Series One, Series One Baseball, Series One, Topps Series 1 checklist, Series 1 checklist, 2021 Topps Series 1 checklist, 2021 Series 1 checklist",
       "year": "2021",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1392,7 +1266,7 @@
     {
       "Code": "2021_Topps_Baseball_Series_2",
       "DisplayName": "2021 Topps Series 2 Baseball",
-      "Keywords": "",
+      "Keywords": "2021 Topps Series 2 Baseball, 2021 Topps Series 2, 2021 Series 2 Baseball, 2021 Series 2, 21 Topps Series 2 Baseball, 21 Topps Series 2, 21 Series 2 Baseball, 21 Series 2, Topps Series 2 Baseball, Topps Series 2, Series 2 Baseball, Series 2, Topps Series Two Baseball, Topps Series Two, Series Two Baseball, Series Two, Topps Series 2 checklist, Series 2 checklist, 2021 Topps Series 2 checklist, 2021 Series 2 checklist",
       "year": "2021",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1401,7 +1275,7 @@
     {
       "Code": "2020_Topps_Chrome_baseball",
       "DisplayName": "2020 Topps Chrome Baseball",
-      "Keywords": "",
+      "Keywords": "2020 Topps Chrome Baseball, 2020 Topps Chrome, 2020 Chrome Baseball, 2020 Chrome, 20 Topps Chrome Baseball, 20 Topps Chrome, 20 Chrome Baseball, 20 Chrome, Topps Chrome Baseball, Topps Chrome, Chrome Baseball, Chrome, Topps Chrome checklist, Chrome checklist, Topps Chrome baseball checklist, 2020 Topps Chrome checklist, 2020 Chrome checklist",
       "year": "2020",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1410,7 +1284,7 @@
     {
       "Code": "2020_Topps_Chrome_Update_baseball",
       "DisplayName": "2020 Topps Chrome Update Baseball",
-      "Keywords": "",
+      "Keywords": "2020 Topps Chrome Update Baseball, 2020 Topps Chrome Update, 2020 Chrome Update Baseball, 2020 Chrome Update, 20 Topps Chrome Update Baseball, 20 Topps Chrome Update, 20 Chrome Update Baseball, 20 Chrome Update, Topps Chrome Update Baseball, Topps Chrome Update, Chrome Update Baseball, Chrome Update, Topps Chrome Update checklist, Chrome Update checklist, Topps Chrome Update baseball checklist, 2020 Topps Chrome Update checklist, 2020 Chrome Update checklist",
       "year": "2020",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1419,7 +1293,7 @@
     {
       "Code": "2020_Topps_Chrome_Update_Sapphire_baseball",
       "DisplayName": "2020 Topps Chrome Update Sapphire Baseball",
-      "Keywords": "",
+      "Keywords": "2020 Topps Chrome Update Sapphire Baseball, 2020 Topps Chrome Update Sapphire, 2020 Chrome Update Sapphire Baseball, 2020 Chrome Update Sapphire, 20 Topps Chrome Update Sapphire Baseball, 20 Topps Chrome Update Sapphire, 20 Chrome Update Sapphire Baseball, 20 Chrome Update Sapphire, Topps Chrome Update Sapphire Baseball, Topps Chrome Update Sapphire, Chrome Update Sapphire Baseball, Chrome Update Sapphire, Topps Chrome Sapphire Update Baseball, Topps Chrome Sapphire Update, Chrome Sapphire Update Baseball, Topps Chrome Update Sapphire checklist, Chrome Update Sapphire checklist, Topps Chrome Update Sapphire baseball checklist, 2020 Topps Chrome Update Sapphire checklist, 2020 Chrome Update Sapphire checklist",
       "year": "2020",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1428,7 +1302,7 @@
     {
       "Code": "2020_Topps_Heritage_HighNumber_baseball",
       "DisplayName": "2020 Topps Heritage High Number Baseball",
-      "Keywords": "",
+      "Keywords": "2020 Topps Heritage High Number Baseball, 2020 Topps Heritage High Number, 2020 Heritage High Number Baseball, 2020 Heritage High Number, 20 Topps Heritage High Number Baseball, 20 Topps Heritage High Number, 20 Heritage High Number Baseball, 20 Heritage High Number, Topps Heritage High Number Baseball, Topps Heritage High Number, Heritage High Number Baseball, Heritage High Number, Topps Heritage High Number checklist, Heritage High Number checklist, Topps Heritage High Number baseball checklist, 2020 Topps Heritage High Number checklist, 2020 Heritage High Number checklist",
       "year": "2020",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1437,7 +1311,7 @@
     {
       "Code": "2020_Topps_Update_Series_baseball",
       "DisplayName": "2020 Topps Update Series Baseball",
-      "Keywords": "",
+      "Keywords": "2020 Topps Update Series Baseball, 2020 Topps Update Series, 2020 Topps Update, 2020 Update Series Baseball, 2020 Update Series, 2020 Update, 20 Topps Update Series Baseball, 20 Topps Update Series, 20 Topps Update, 20 Update Series Baseball, 20 Update Series, 20 Update, Topps Update Series Baseball, Topps Update Series, Topps Update, Update Series Baseball, Update Series, Update, Topps Update checklist, Update checklist, 2020 Topps Update checklist, 2020 Update checklist",
       "year": "2020",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -4423,18 +4297,18 @@
       "product": "Absolute"
     },
     {
-      "Code": "2025_panini_black_football",
+      "Code": "2025_Panini_Prizm_Black_Football",
       "DisplayName": "2025 Panini Black Football",
-      "Keywords": "2025 Panini Black Football 2025 Panini Black NFL 2025 Panini Black 2025 Black Football 2025 Black NFL 25 Panini Black Football 25 Panini Black NFL 25 Panini Black 25 Black Football Panini Black Football Panini Black NFL Panini Black Black Football Black NFL Black Panini Black checklist Black checklist Black football checklist 2025 Panini Black checklist 2025 Black checklist",
+      "Keywords": "panini black football 2025 black football black football",
       "year": "2025",
       "sport": "football",
       "manufacturer": "Panini",
       "product": "Black"
     },
     {
-      "Code": "2025_Panini_Prizm_Black_Football",
+      "Code": "2025_panini_black_football",
       "DisplayName": "2025 Panini Black Football",
-      "Keywords": "panini black football 2025 black football black football",
+      "Keywords": "2025 Panini Black Football 2025 Panini Black NFL 2025 Panini Black 2025 Black Football 2025 Black NFL 25 Panini Black Football 25 Panini Black NFL 25 Panini Black 25 Black Football Panini Black Football Panini Black NFL Panini Black Black Football Black NFL Black Panini Black checklist Black checklist Black football checklist 2025 Panini Black checklist 2025 Black checklist",
       "year": "2025",
       "sport": "football",
       "manufacturer": "Panini",
@@ -5044,15 +4918,6 @@
       "product": "CFL"
     },
     {
-      "Code": "2025-26-flair-hockey",
-      "DisplayName": "2025-26 Flair Hockey",
-      "Keywords": "2025-26 Flair Hockey, 2025-26 Upper Deck Flair Hockey, 2025-26 Flair Hockey cards, 2025-26 Flair NHL, 2025-26 Upper Deck Flair cards, 25-26 Flair Hockey, 25-26 Upper Deck Flair Hockey, Upper Deck Flair Hockey 2025-26, Upper Deck Flair 2025-26, Flair Hockey cards, Flair Hockey, Upper Deck Flair Hockey, Upper Deck Flair, Flair NHL cards, Upper Deck Flair hockey cards, Upper Deck Flair Hockey checklist, Flair checklist, 2025-26 Flair checklist",
-      "year": "2025-26",
-      "sport": "hockey",
-      "manufacturer": "Flair",
-      "product": "Hockey"
-    },
-    {
       "Code": "2025_26_upper_deck_flair_hockey_card",
       "DisplayName": "2025-26 Flair Hockey",
       "Keywords": "2025-26 Flair Hockey, 2025-26 Upper Deck Flair Hockey, 2025-26 Flair Hockey cards, 2025-26 Flair NHL, 2025-26 Upper Deck Flair cards, 25-26 Flair Hockey, 25-26 Upper Deck Flair Hockey, Upper Deck Flair Hockey 2025-26, Upper Deck Flair 2025-26, Flair Hockey cards, Flair Hockey, Upper Deck Flair Hockey, Upper Deck Flair, Flair NHL cards, Upper Deck Flair hockey cards, Upper Deck Flair Hockey checklist, Flair checklist, 2025-26 Flair checklist",
@@ -5069,15 +4934,6 @@
       "sport": "hockey",
       "manufacturer": "O-Pee-Chee",
       "product": "O-Pee-Chee"
-    },
-    {
-      "Code": "2025-26-skybox-metal-universe-hockey",
-      "DisplayName": "2025-26 Skybox Metal Universe Hockey",
-      "Keywords": "2025-26 SkyBox Metal Universe Hockey, 2025-26 Skybox Metal Universe Hockey, 2025-26 Metal Universe Hockey, 2025-26 SkyBox Metal Universe cards, 2025-26 Upper Deck SkyBox Metal Universe Hockey, 25-26 SkyBox Metal Universe Hockey, 25-26 Metal Universe Hockey, SkyBox Metal Universe Hockey 2025-26, Upper Deck Metal Universe Hockey 2025-26, Metal Universe Hockey cards, SkyBox Metal Universe Hockey, Metal Universe Hockey, SkyBox Metal Universe, Metal Universe NHL, SkyBox Metal Universe hockey cards, SkyBox Metal Universe Hockey, Metal Universe, 2025-26 SkyBox Metal Universe",
-      "year": "2025-26",
-      "sport": "hockey",
-      "manufacturer": "Skybox",
-      "product": "Metal Universe"
     },
     {
       "Code": "2025_26_skybox_metal_universe_hockey_card",
@@ -5105,15 +4961,6 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "SP"
-    },
-    {
-      "Code": "2025_26_spx_hockey",
-      "DisplayName": "2025-26 SPx Hockey",
-      "Keywords": "2025-26 SPx Hockey, SPx Hockey 2025-26, 2025-26 Upper Deck SPx Hockey, Upper Deck SPx Hockey 2025-26, 2025-26 SPx cards, SPx hockey cards 2025-26, Upper Deck SPx NHL cards 2025-26, SPx hockey hobby box 2025-26, SPx hockey retail 2025-26, SPx rookies hockey 2025-26, SPx rookie cards hockey 2025-26, SPx autos hockey 2025-26, SPx autographs hockey 2025-26, SPx patch autos hockey 2025-26, SPx jersey cards hockey 2025-26, SPx parallels hockey 2025-26, SPx inserts hockey 2025-26, Upper Deck SPx Hockey checklist 2025-26, SPx checklist",
-      "year": "2025-26",
-      "sport": "hockey",
-      "manufacturer": "Upper Deck",
-      "product": "SPx"
     },
     {
       "Code": "2025_26_upper_deck_spx_hockey_card",
@@ -5152,15 +4999,6 @@
       "product": "Black Diamond"
     },
     {
-      "Code": "2025_26_upper_deck_credentials_hockey",
-      "DisplayName": "2025-26 Upper Deck Credentials Hockey",
-      "Keywords": "2025-26 Upper Deck Credentials Hockey, Upper Deck Credentials Hockey 2025-26, 2025-26 UD Credentials Hockey, UD Credentials Hockey 2025-26, 2025-26 Upper Deck Credentials cards, Credentials hockey cards 2025-26, Upper Deck NHL cards 2025-26 Credentials, Credentials hockey hobby box 2025-26, Credentials hockey blaster 2025-26, Credentials hockey retail 2025-26, Credentials rookies hockey 2025-26, Credentials rookie cards hockey 2025-26, Credentials autos hockey 2025-26, Credentials autographs hockey 2025-26, Credentials parallels hockey 2025-26, Credentials ticket access cards hockey 2025-26, Credentials inserts hockey 2025-26, Upper Deck Credentials Hockey checklist 2025-26, Credentials checklist",
-      "year": "2025-26",
-      "sport": "hockey",
-      "manufacturer": "Upper Deck",
-      "product": "Credentials"
-    },
-    {
       "Code": "2025_26_upper_deck_credentials_hockey_card",
       "DisplayName": "2025-26 Upper Deck Credentials Hockey",
       "Keywords": "2025-26 Upper Deck Credentials Hockey, Upper Deck Credentials Hockey 2025-26, 2025-26 UD Credentials Hockey, UD Credentials Hockey 2025-26, 2025-26 Upper Deck Credentials cards, Credentials hockey cards 2025-26, Upper Deck NHL cards 2025-26 Credentials, Credentials hockey hobby box 2025-26, Credentials hockey blaster 2025-26, Credentials hockey retail 2025-26, Credentials rookies hockey 2025-26, Credentials rookie cards hockey 2025-26, Credentials autos hockey 2025-26, Credentials autographs hockey 2025-26, Credentials parallels hockey 2025-26, Credentials ticket access cards hockey 2025-26, Credentials inserts hockey 2025-26, Upper Deck Credentials Hockey checklist 2025-26, Credentials checklist",
@@ -5195,15 +5033,6 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "Series 1"
-    },
-    {
-      "Code": "2025_26_Upper_Deck_Series_2_Hockey",
-      "DisplayName": "2025-26 Upper Deck Series 2 Hockey",
-      "Keywords": "2025-26 Series 2 Hockey, Upper Deck Series 2 Hockey,  Series 2 Hockey, 2025 Upper Deck Series 2 Hockey, 2026 Upper Deck Series 2 Hockey",
-      "year": "2025-26",
-      "sport": "hockey",
-      "manufacturer": "Upper Deck",
-      "product": "Series 2"
     },
     {
       "Code": "2025_26_upper_deck_series_2_hockey_card",
@@ -5393,15 +5222,6 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "UEFA Japan Edition"
-    },
-    {
-      "Code": "2025_panini_absolute_k_league_soccer",
-      "DisplayName": "2025 Panini Absolute K League Soccer",
-      "Keywords": "",
-      "year": "2025",
-      "sport": "soccer",
-      "manufacturer": "Panini",
-      "product": "Absolute K Leauge"
     },
     {
       "Code": "2025-panini-absolute-k-league-soccer",
