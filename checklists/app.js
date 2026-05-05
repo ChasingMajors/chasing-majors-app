@@ -302,6 +302,31 @@ function sortRowsByCardNo(rows) {
   });
 }
 
+function comparableYearValue_(value) {
+  const raw = String(value || "");
+  const m = raw.match(/\b(19|20)\d{2}\b/);
+  return m ? (Number(m[0]) || 9999) : 9999;
+}
+
+function compareBroadSearchRows_(a, b) {
+  const yearCompare = comparableYearValue_(a.year || a.displayName) - comparableYearValue_(b.year || b.displayName);
+  if (yearCompare !== 0) return yearCompare;
+
+  const productCompare = String(a.displayName || "").localeCompare(String(b.displayName || ""));
+  if (productCompare !== 0) return productCompare;
+
+  const subsetCompare = String(a.subset || "").localeCompare(String(b.subset || ""));
+  if (subsetCompare !== 0) return subsetCompare;
+
+  const cardCompare = toCardNoSortValue(a.card_no);
+  const otherCardCompare = toCardNoSortValue(b.card_no);
+  if (cardCompare[0] !== otherCardCompare[0]) return cardCompare[0] - otherCardCompare[0];
+  if (cardCompare[1] < otherCardCompare[1]) return -1;
+  if (cardCompare[1] > otherCardCompare[1]) return 1;
+
+  return String(a.player || "").localeCompare(String(b.player || ""));
+}
+
 function normalizeSectionName(section) {
   return lower(section).replace(/\s+/g, " ").trim();
 }
@@ -1234,7 +1259,7 @@ async function searchStaticCards_(q, sport, page = 1, pageSize = BROAD_PAGE_SIZE
     if (sport && lower(r.sport) !== lower(sport)) return false;
     const hay = lower(`${r.displayName} ${r.product} ${r.section} ${r.subset} ${r.card_no} ${r.player} ${r.team} ${r.tag} ${r.search_blob}`);
     return tokens.every(t => hay.includes(t));
-  });
+  }).sort(compareBroadSearchRows_);
 
   const total = filtered.length;
   const totalPages = total ? Math.ceil(total / pageSize) : 0;
@@ -2193,7 +2218,7 @@ function renderBroadResults(q, rows, sport, pageInfo) {
     return;
   }
 
-  const sortedRows = rows.slice();
+  const sortedRows = rows.slice().sort(compareBroadSearchRows_);
   const total = Number(pageInfo?.total) || sortedRows.length;
   const page = Number(pageInfo?.page) || 1;
   const totalPages = Number(pageInfo?.totalPages) || 1;
