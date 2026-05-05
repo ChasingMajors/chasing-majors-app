@@ -3,7 +3,7 @@
   "sport": "hockey",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-05-02T17:08:11.199Z",
+  "generated_at": "2026-05-05T16:20:01.869Z",
   "sharded": true,
   "shards": [
     "hockey-001.json"
@@ -13,6 +13,23 @@
     "2025_26_upper_deck_credentials_hockey": "hockey-001.json",
     "2025_26_Upper_Deck_Series_2_Hockey": "hockey-001.json",
     "2025-26-flair-hockey": "hockey-001.json",
-    "2025-26-skybox-metal-universe-hockey": "hockey-001.json"
+    "2025-26-skybox-metal-universe-hockey": "hockey-001.json",
+    "2025_26_o_pee_chee_hockey_card": "hockey-001.json",
+    "2025_26_skybox_metal_universe_hockey_card": "hockey-001.json",
+    "2025_26_sp_game_used_hockey_card": "hockey-001.json",
+    "2025_26_upper_deck_allure_hockey_card": "hockey-001.json",
+    "2025_26_upper_deck_artifacts_hockey_card": "hockey-001.json",
+    "2025_26_upper_deck_black_diamond_hockey_card": "hockey-001.json",
+    "2025_26_upper_deck_credentials_hockey_card": "hockey-001.json",
+    "2025_26_upper_deck_flair_hockey_card": "hockey-001.json",
+    "2025_26_upper_deck_fleer_ultra_hockey_card": "hockey-001.json",
+    "2025_26_upper_deck_mvp_hockey_card": "hockey-001.json",
+    "2025_26_upper_deck_series_1_hockey_card": "hockey-001.json",
+    "2025_26_upper_deck_series_2_hockey_card": "hockey-001.json",
+    "2025_26_upper_deck_sp_hockey_hockey_card": "hockey-001.json",
+    "2025_26_upper_deck_spx_hockey_card": "hockey-001.json",
+    "2025_26_upper_deck_star_rookies_hockey_card": "hockey-001.json",
+    "2025_26_upper_deck_tim_hortons_hockey_card": "hockey-001.json",
+    "2025_26_upper_deck_tim_hortons_team_canada_olympic_hockey_card": "hockey-001.json"
   }
 }
