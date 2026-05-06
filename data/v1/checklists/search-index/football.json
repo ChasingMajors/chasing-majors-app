@@ -3,14 +3,17 @@
   "sport": "football",
   "kind": "checklist_search",
   "source": "Checklist DB map targeted source merge",
-  "source_key": "2024",
-  "generated_at": "2026-05-06T16:58:41.986Z",
+  "source_key": "2023",
+  "generated_at": "2026-05-06T17:02:57.972Z",
   "sharded": true,
   "shards": [
     "football-001.json",
     "football-002.json",
     "football-003.json",
     "football-004.json",
-    "football-005.json"
+    "football-005.json",
+    "football-006.json",
+    "football-007.json",
+    "football-008.json"
   ]
 }
