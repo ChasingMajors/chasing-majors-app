@@ -1,0 +1,2628 @@
+{
+  "ok": true,
+  "sport": "baseball",
+  "kind": "checklist_products",
+  "source": "Checklist DB map targeted source merge",
+  "source_key": "2024",
+  "generated_at": "2026-05-07T04:43:29.279Z",
+  "shard": 17,
+  "shard_count": 17,
+  "products": {
+    "2024_Topps-X_Chris_Berman_Boomers_Baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+        "displayName": "2024 Topps X Chris Berman Boomers Baseball",
+        "keywords": "2024 Topps X Chris Berman Boomers Baseball, 2024 Topps Chris Berman Boomers Baseball, 2024 Topps X Berman Boomers Baseball, 2024 Topps Boomers Baseball, 2024 Topps X Chris Berman cards, 24 Topps X Chris Berman Boomers Baseball, 24 Topps Boomers Baseball, Topps X Chris Berman Boomers Baseball 2024, Topps Chris Berman Boomers Baseball 2024, Topps Boomers Baseball 2024, Topps X Chris Berman Baseball, Topps Chris Berman Boomers, Chris Berman Boomers Baseball cards, Topps Boomers Baseball cards, Topps X Chris Berman checklist, Topps Boomers checklist, 2024 Topps X Chris Berman checklist",
+        "source_key": "2024",
+        "year": "2024",
+        "manufacturer": "Topps",
+        "product": "X Chris Berman Boomers",
+        "sport": "baseball"
+      },
+      "rows": [
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "1",
+          "player": "Mike Trout",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "2",
+          "player": "Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "3",
+          "player": "Aaron Judge",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "4",
+          "player": "Ronald Acuña Jr.",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "5",
+          "player": "Juan Soto",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "6",
+          "player": "Pete Alonso",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "7",
+          "player": "Mookie Betts",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "8",
+          "player": "Bryce Harper",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "9",
+          "player": "Gunnar Henderson",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "10",
+          "player": "Bobby Witt Jr.",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "11",
+          "player": "Ken Griffey Jr.",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "12",
+          "player": "Paul Skenes",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "13",
+          "player": "Yoshinobu Yamamoto",
+          "team": "Los Angeles Dodgers",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "14",
+          "player": "Shota Imanaga",
+          "team": "Chicago Cubs",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "15",
+          "player": "Wyatt Langford",
+          "team": "Texas Rangers",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "16",
+          "player": "Jackson Merrill",
+          "team": "San Diego Padres",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "17",
+          "player": "Jackson Holliday",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "18",
+          "player": "Elly De La Cruz",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "19",
+          "player": "Jasson Domínguez",
+          "team": "New York Yankees",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "20",
+          "player": "Bert Blyleven",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "21",
+          "player": "Wade Boggs",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "22",
+          "player": "Will Clark",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "23",
+          "player": "David Cone",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "24",
+          "player": "Eric Davis",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "25",
+          "player": "Cecil Fielder",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "26",
+          "player": "Tom Glavine",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "27",
+          "player": "Dwight Gooden",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "28",
+          "player": "Mark Grace",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "29",
+          "player": "David Justice",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "30",
+          "player": "John Kruk",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "31",
+          "player": "Greg Maddux",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "32",
+          "player": "Juan Marichal",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "33",
+          "player": "Don Mattingly",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "34",
+          "player": "Fred McGriff",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "35",
+          "player": "Mark McGwire",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "36",
+          "player": "Eddie Murray",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "37",
+          "player": "Dave Parker",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "38",
+          "player": "Jim Rice",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "39",
+          "player": "Ryne Sandberg",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "40",
+          "player": "Sammy Sosa",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "41",
+          "player": "Darryl Strawberry",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "42",
+          "player": "Alan Trammell",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "43",
+          "player": "Bill Madlock",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "44",
+          "player": "Bo Jackson",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "45",
+          "player": "Rollie Fingers",
+          "team": "Oakland Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "46",
+          "player": "Tim Raines",
+          "team": "Montreal Expos",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "47",
+          "player": "Jeff Bagwell",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "48",
+          "player": "Jim Thome",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "49",
+          "player": "Jay Buhner",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "50",
+          "player": "Andy Pages",
+          "team": "Los Angeles Dodgers",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "51",
+          "player": "Nick Loftin",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "52",
+          "player": "Austin Wells",
+          "team": "New York Yankees",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "53",
+          "player": "Masyn Winn",
+          "team": "St. Louis Cardinals",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "54",
+          "player": "Nick Gonzales",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "55",
+          "player": "Marco Luciano",
+          "team": "San Francisco Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "56",
+          "player": "Emerson Hancock",
+          "team": "Seattle Mariners",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "57",
+          "player": "Jung Hoo Lee",
+          "team": "San Francisco Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "58",
+          "player": "Zack Gelof",
+          "team": "Oakland Athletics",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "59",
+          "player": "Jared Jones",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "60",
+          "player": "Chris Sale",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "61",
+          "player": "Luis Arraez",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "62",
+          "player": "Manny Machado",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "63",
+          "player": "Kyle Schwarber",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "64",
+          "player": "Marcell Ozuna",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "65",
+          "player": "Ketel Marte",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "66",
+          "player": "Corbin Carroll",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "67",
+          "player": "Jarren Duran",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "68",
+          "player": "Willy Adames",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "69",
+          "player": "Seth Lugo",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "70",
+          "player": "Pete Crow-Armstrong",
+          "team": "Chicago Cubs",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "71",
+          "player": "Jackson Chourio",
+          "team": "Milwaukee Brewers",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "72",
+          "player": "Jordan Westburg",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "73",
+          "player": "Adley Rutschman",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "74",
+          "player": "Julio Rodríguez",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "75",
+          "player": "Kyle Tucker",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "76",
+          "player": "José Ramírez",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "77",
+          "player": "Freddie Freeman",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "78",
+          "player": "Rafael Devers",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "79",
+          "player": "Vladimir Guerrero Jr.",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "80",
+          "player": "Triston Casas",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "81",
+          "player": "Steven Kwan",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "82",
+          "player": "Trea Turner",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "83",
+          "player": "Tarik Skubal",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "84",
+          "player": "Gerrit Cole",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "85",
+          "player": "Zack Wheeler",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "86",
+          "player": "Harold Baines",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "87",
+          "player": "Nolan Schanuel",
+          "team": "Los Angeles Angels",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "88",
+          "player": "Ceddanne Rafaela",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "89",
+          "player": "Jordan Lawlar",
+          "team": "Arizona Diamondbacks",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "90",
+          "player": "Mark Vientos",
+          "team": "New York Mets",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "91",
+          "player": "Heston Kjerstad",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "92",
+          "player": "Kyle Harrison",
+          "team": "San Francisco Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "93",
+          "player": "Nomar Garciaparra",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "94",
+          "player": "Colton Cowser",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "95",
+          "player": "Lawrence Butler",
+          "team": "Oakland Athletics",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "96",
+          "player": "Junior Caminero",
+          "team": "Tampa Bay Rays",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "97",
+          "player": "Evan Carter",
+          "team": "Texas Rangers",
+          "tag": "RC"
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "98",
+          "player": "CJ Abrams",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "99",
+          "player": "Brice Turang",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "100",
+          "player": "Juan Gonzalez",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "1",
+          "player": "Mike \"Rainbow\" Trout",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "2",
+          "player": "Shohei \"My Oh My\" Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "3",
+          "player": "Aaron \"Here Comes Da\" Judge",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "4",
+          "player": "Ronald Acuña \"Matata\" Jr.",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "7",
+          "player": "Mookie \"You Better You Better You\" Betts",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "9",
+          "player": "Gunnar \"and Roses\" Henderson",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "10",
+          "player": "Bobby \"Sharp\" Witt Jr.",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "12",
+          "player": "Paul \"Diabolical\" Skenes",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "13",
+          "player": "Yoshinobu Yamamoto \"Rising\"",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "14",
+          "player": "Shota Imanaga \"Da Vida\"",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "15",
+          "player": "Wyatt \"Earp\" Langford",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "16",
+          "player": "Jackson Merrill \"Lynch\"",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "17",
+          "player": "Jackson Holliday \"Greeting\"",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "18",
+          "player": "Elly De La \"Caribbean\" Cruz",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "20",
+          "player": "Bert \"Be Home\" Blyleven",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "21",
+          "player": "Wade \"Cranberry\" Boggs",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "22",
+          "player": "Will \"The Natural\" Clark",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "23",
+          "player": "David \"Sili-\" Cone",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "24",
+          "player": "Eric \"The Red\" Davis",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "25",
+          "player": "Cecil \"Is No\" Fielder",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "26",
+          "player": "Tom \"Heard It Through The\" Glavine",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "27",
+          "player": "Dwight \"Johnny Be\" Gooden",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "28",
+          "player": "Mark \"Amazing\" Grace",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "29",
+          "player": "David \"Supreme Court\" Justice",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "30",
+          "player": "John \"I Am Not a\" Kruk",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "31",
+          "player": "Greg \"Appa\" Maddux",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "32",
+          "player": "Juan \"Field\" Marichal",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "33",
+          "player": "Don \"Welcome Home\" Mattingly",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "34",
+          "player": "Fred \"Crime Dog\" McGriff",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "35",
+          "player": "Mark \"Eve of Destruction\" McGwire",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "36",
+          "player": "Eddie \"Eat, Drink, and Be\" Murray",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "37",
+          "player": "Dave \"Parallel\" Parker",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "38",
+          "player": "Jim \"Fried\" Rice",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "39",
+          "player": "Ryne \"Carl\" Sandberg",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "40",
+          "player": "Sammy \"Say It Ain't\" Sosa",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "41",
+          "player": "Darryl \"Strawberry Shortcake\"",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "42",
+          "player": "Alan \"Have Gun, Will\" Trammell",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "43",
+          "player": "Bill Madlock \"D.A.\"",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "44",
+          "player": "Bo \"Diddley\" Jackson",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "45",
+          "player": "Rollie \"Chicken\" Fingers",
+          "team": "Oakland Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "46",
+          "player": "Tim \"Purple\" Raines",
+          "team": "Montreal Expos",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "47",
+          "player": "Jeff \"Brown Paper\" Bagwell",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "48",
+          "player": "Jim \"Home Sweet\" Thome",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Berman's Nickname Nameplate Variation",
+          "card_no": "49",
+          "player": "Jay \"Ferris\" Buhner",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "1A",
+          "player": "Mike Trout",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "2A",
+          "player": "Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "4A",
+          "player": "Ronald Acuña Jr.",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "10A",
+          "player": "Bobby Witt Jr.",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "11A",
+          "player": "Ken Griffey Jr.",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "15A",
+          "player": "Wyatt Langford",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "16A",
+          "player": "Jackson Merrill",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "18A",
+          "player": "Elly De La Cruz",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "19A",
+          "player": "Jasson Domínguez",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "20A",
+          "player": "Bert Blyleven",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "21A",
+          "player": "Wade Boggs",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "22A",
+          "player": "Will Clark",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "23A",
+          "player": "David Cone",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "24A",
+          "player": "Eric Davis",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "25A",
+          "player": "Cecil Fielder",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "26A",
+          "player": "Tom Glavine",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "27A",
+          "player": "Dwight Gooden",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "28A",
+          "player": "Mark Grace",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "29A",
+          "player": "David Justice",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "30A",
+          "player": "John Kruk",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "31A",
+          "player": "Greg Maddux",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "32A",
+          "player": "Juan Marichal",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "33A",
+          "player": "Don Mattingly",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "34A",
+          "player": "Fred McGriff",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "35A",
+          "player": "Mark McGwire",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "36A",
+          "player": "Eddie Murray",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "37A",
+          "player": "Dave Parker",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "38A",
+          "player": "Jim Rice",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "39A",
+          "player": "Ryne Sandberg",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "40A",
+          "player": "Sammy Sosa",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "41A",
+          "player": "Darryl Strawberry",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "42A",
+          "player": "Alan Trammell",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "50A",
+          "player": "Andy Pages",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "72A",
+          "player": "Jordan Westburg",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "73A",
+          "player": "Adley Rutschman",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "76A",
+          "player": "José Ramírez",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "79A",
+          "player": "Vladimir Guerrero Jr.",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "80A",
+          "player": "Triston Casas",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "87A",
+          "player": "Nolan Schanuel",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "88A",
+          "player": "Ceddanne Rafaela",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "89A",
+          "player": "Jordan Lawlar",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "90A",
+          "player": "Mark Vientos",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "91A",
+          "player": "Heston Kjerstad",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "92A",
+          "player": "Kyle Harrison",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "93A",
+          "player": "Nomar Garciaparra",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "94A",
+          "player": "Colton Cowser",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "95A",
+          "player": "Lawrence Butler",
+          "team": "Oakland Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "96A",
+          "player": "Junior Caminero",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "97A",
+          "player": "Evan Carter",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "98A",
+          "player": "CJ Abrams",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "99A",
+          "player": "Brice Turang",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "100A",
+          "player": "Juan Gonzalez",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "1979 Topps On-Card Autographs",
+          "card_no": "CB-AU",
+          "player": "Chris Berman",
+          "team": "",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "1979 Topps Super Short Print",
+          "card_no": "CBSSP",
+          "player": "Chris Berman SSP -",
+          "team": "",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-1",
+          "player": "Darryl Strawberry",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-2",
+          "player": "Andre Dawson",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-3",
+          "player": "Eric Davis",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-4",
+          "player": "Ryne Sandberg",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-5",
+          "player": "Cal Ripken Jr.",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-6",
+          "player": "Mark McGwire",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-7",
+          "player": "Juan Gonzalez",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-8",
+          "player": "Ken Griffey Jr.",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-9",
+          "player": "Frank Thomas",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-10",
+          "player": "Sammy Sosa",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-11",
+          "player": "Ryan Howard",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-12",
+          "player": "Vladimir Guerrero",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-13",
+          "player": "David Ortiz",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-14",
+          "player": "Giancarlo Stanton",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-15",
+          "player": "Mike Trout",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-16",
+          "player": "Aaron Judge",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-17",
+          "player": "Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-18",
+          "player": "Bryce Harper",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-19",
+          "player": "Juan Soto",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Back, Back, Back...Gone",
+          "card_no": "BG-20",
+          "player": "Pete Alonso",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-1",
+          "player": "Elly De La Cruz",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-2",
+          "player": "Wyatt Langford",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-3",
+          "player": "Jackson Chourio",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-4",
+          "player": "Lawrence Butler",
+          "team": "Oakland Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-5",
+          "player": "Jackson Merrill",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-6",
+          "player": "Jung Hoo Lee",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-7",
+          "player": "Jasson Domínguez",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-8",
+          "player": "Evan Carter",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-9",
+          "player": "Jackson Holliday",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-10",
+          "player": "Austin Wells",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-11",
+          "player": "Yoshinobu Yamamoto",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-12",
+          "player": "Jordan Westburg",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-13",
+          "player": "Junior Caminero",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-14",
+          "player": "Masyn Winn",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-15",
+          "player": "Pete Crow-Armstrong",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-16",
+          "player": "Kyle Harrison",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-17",
+          "player": "Paul Skenes",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-18",
+          "player": "Jordan Lawlar",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-19",
+          "player": "Shota Imanaga",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Best",
+          "card_no": "BB-20",
+          "player": "Colton Cowser",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-1",
+          "player": "Mike \"Rainbow\" Trout",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-2",
+          "player": "Aaron \"Here Comes Da\" Judge",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-3",
+          "player": "Gunnar \"and Roses\" Henderson",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-4",
+          "player": "Yoshinobu Yamamoto \"Rising\"",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-5",
+          "player": "Wyatt \"Earp\" Langford",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-6",
+          "player": "Jackson Holliday \"Greeting\"",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-7",
+          "player": "Elly De La \"Caribbean\" Cruz",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-8",
+          "player": "Wade \"Cranberry\" Boggs",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-9",
+          "player": "Eric \"The Red\" Davis",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-10",
+          "player": "Tom \"Heard It Through The\" Glavine",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-11",
+          "player": "Dwight \"Johnny Be\" Gooden",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-12",
+          "player": "Mark \"Amazing\" Grace",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-13",
+          "player": "David \"Supreme Court\" Justice",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-14",
+          "player": "Don \"Welcome Home\" Mattingly",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-15",
+          "player": "Fred \"Crime Dog\" McGriff",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-16",
+          "player": "Eddie \"Eat, Drink, and Be\" Murray",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-17",
+          "player": "Dave \"Parallel\" Parker",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-18",
+          "player": "Darryl \"Strawberry Shortcake\"",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-19",
+          "player": "Rollie \"Chicken\" Fingers",
+          "team": "Oakland Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-20",
+          "player": "Tim \"Purple\" Raines",
+          "team": "Montréal Expos",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-21",
+          "player": "Jeff \"Brown Paper\" Bagwell",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2024_Topps-X_Chris_Berman_Boomers_Baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Berman's Illustrious Nicknames",
+          "card_no": "BIN-22",
+          "player": "Jay \"Ferris\" Buhner",
+          "team": "Seattle Mariners",
+          "tag": ""
+        }
+      ],
+      "parallels": []
+    }
+  }
+}
