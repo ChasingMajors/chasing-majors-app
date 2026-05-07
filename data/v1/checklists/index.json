@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist product bundle rebuild",
-  "generated_at": "2026-05-06T17:10:04.335Z",
+  "source": "Checklist Google Sheets Products rebuild",
+  "generated_at": "2026-05-07T05:04:37.528Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -490,15 +490,6 @@
       "product": "Baseball"
     },
     {
-      "Code": "2024_Bowman_Chorme_Baseball",
-      "DisplayName": "2024 Bowman Chrome Baseball",
-      "Keywords": "",
-      "year": "2024",
-      "sport": "baseball",
-      "manufacturer": "Bowman",
-      "product": "Chrome"
-    },
-    {
       "Code": "2024_bowman_chrome_baseball",
       "DisplayName": "2024 Bowman Chrome Baseball",
       "Keywords": "2024 Bowman Chrome Baseball, 2024 Bowman Chrome, 2024 Topps Bowman Chrome Baseball, 2024 Topps Bowman Chrome, 24 Bowman Chrome Baseball, 24 Bowman Chrome, Bowman Chrome 2024, Bowman Chrome Baseball 2024, Bowman Chrome Baseball, Bowman Chrome, Topps Bowman Chrome Baseball, Topps Bowman Chrome, Bowman Chrome checklist, Bowman Chrome baseball checklist, 2024 Bowman Chrome checklist, Bowman Chrome 2024 checklist, 24 Bowman Chrome checklist",
@@ -704,15 +695,6 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome"
-    },
-    {
-      "Code": "2024_Topps_Chrome_Black",
-      "DisplayName": "2024 Topps Chrome Black",
-      "Keywords": "",
-      "year": "2024",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Chrome Black"
     },
     {
       "Code": "2024_topps_chrome_black_baseball",
@@ -931,15 +913,6 @@
       "product": "Pristine"
     },
     {
-      "Code": "2024_Topp_Pro_Debut_Baseball",
-      "DisplayName": "2024 Topps Pro Debut Baseball",
-      "Keywords": "",
-      "year": "2024",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Pro Debut"
-    },
-    {
       "Code": "2024_topps_pro_debut_baseball",
       "DisplayName": "2024 Topps Pro Debut Baseball",
       "Keywords": "2024 Topps Pro Debut Baseball, 2024 Topps Pro Debut, 2024 Pro Debut Baseball, 2024 Topps Pro Debut cards, 24 Topps Pro Debut Baseball, 24 Pro Debut Baseball, Topps Pro Debut Baseball 2024, Topps Pro Debut 2024, Pro Debut Baseball cards, Pro Debut Baseball, Topps Pro Debut Baseball, Topps Pro Debut, Pro Debut prospects, Topps Pro Debut minor league cards, Topps Pro Debut Baseball checklist, Pro Debut checklist, 2024 Topps Pro Debut checklist",
@@ -949,15 +922,6 @@
       "product": "Pro Debut"
     },
     {
-      "Code": "2024_Topps_Baseball_Series_1",
-      "DisplayName": "2024 Topps Series 1 Baseball",
-      "Keywords": "",
-      "year": "2024",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Series 1"
-    },
-    {
       "Code": "2024_topps_series_1_baseball",
       "DisplayName": "2024 Topps Series 1 Baseball",
       "Keywords": "2024 Topps Series 1 Baseball, 2024 Topps Series 1, 2024 Series 1 Baseball, 2024 Series 1, 24 Topps Series 1 Baseball, 24 Topps Series 1, 24 Series 1 Baseball, 24 Series 1, Topps Series 1 Baseball, Topps Series 1, Series 1 Baseball, Series 1, Topps Series 1 checklist, Series 1 checklist, 2024 Topps Series 1 checklist, 2024 Series 1 checklist, Topps Series 1 2024 checklist, Topps Series One Baseball, 2024 Topps Series One, 2024 Series One, Series One Baseball, Series One",
@@ -965,15 +929,6 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Series 1"
-    },
-    {
-      "Code": "2024_Topps_Baseball_Series_2",
-      "DisplayName": "2024 Topps Series 2 Baseball",
-      "Keywords": "",
-      "year": "2024",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Series 2"
     },
     {
       "Code": "2024_topps_series_2_baseball",
@@ -1066,13 +1021,58 @@
       "product": "X Chris Berman Boomers"
     },
     {
-      "Code": "2023_Bowman_Inception_Baseball",
-      "DisplayName": "2023 Bowman Inception Baseball",
-      "Keywords": "",
+      "Code": "2023_bowman_1st_edition_baseball",
+      "DisplayName": "2023 Bowman 1st Edition baseball",
+      "Keywords": "2023 Bowman 1st Edition Baseball, Bowman 1st Edition Baseball 2023, 2023 Bowman First Edition cards, Bowman First Edition baseball cards 2023, 2023 Bowman 1st Edition prospects, Bowman 1st Edition MLB prospects 2023, 2023 Bowman 1st Edition rookie cards, Bowman 1st Edition 1st Bowman cards 2023, First Edition Bowman prospects 2023, Bowman 1st Edition autos 2023, Bowman 1st Edition autographs 2023, Bowman 1st Edition parallels 2023, Bowman 1st Edition refractors 2023, limited edition Bowman cards 2023, Bowman 1st Edition chrome prospects 2023, premium prospect baseball cards 2023 Bowman, Bowman 1st Edition inserts 2023, Bowman 1st Edition Baseball checklist 2023, Bowman First Edition checklist",
       "year": "2023",
       "sport": "baseball",
       "manufacturer": "Bowman",
-      "product": "Inception"
+      "product": "1st Edition"
+    },
+    {
+      "Code": "2023_bowman_baseball",
+      "DisplayName": "2023 Bowman Baseball",
+      "Keywords": "2023 Bowman Baseball, Bowman Baseball 2023, 2023 Bowman cards, Bowman baseball cards 2023, 2023 Bowman MLB prospects, Bowman prospects 2023, 2023 Bowman rookie cards, Bowman rookie cards 2023, 2023 Bowman 1st cards, 1st Bowman cards 2023, Bowman Chrome prospects 2023, Bowman autos 2023, Bowman autographs 2023, Bowman parallels 2023, Bowman refractors 2023, Bowman prospect autos 2023, Bowman inserts 2023, top MLB prospects cards 2023 Bowman, Bowman Baseball checklist 2023, Bowman checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": ""
+    },
+    {
+      "Code": "2023_bowman_chrome_baseball",
+      "DisplayName": "2023 Bowman Chrome baseball",
+      "Keywords": "2023 Bowman Chrome Baseball, Bowman Chrome Baseball 2023, 2023 Bowman Chrome cards, Bowman Chrome baseball cards 2023, 2023 Bowman Chrome prospects, Bowman Chrome MLB prospects 2023, Bowman Chrome rookie cards 2023, Bowman Chrome rookies 2023, Bowman Chrome 1st Bowman cards 2023, 1st Bowman Chrome cards 2023, Bowman Chrome autos 2023, Bowman Chrome autographs 2023, Bowman Chrome prospect autos 2023, Bowman Chrome parallels 2023, Bowman Chrome refractors 2023, Bowman Chrome mega box 2023, Bowman Chrome inserts 2023, top MLB prospect cards 2023 Bowman Chrome, Bowman Chrome Baseball checklist 2023, Bowman Chrome checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome"
+    },
+    {
+      "Code": "2023_bowman_chrome_sapphire_edition_baseball",
+      "DisplayName": "2023 Bowman Chrome Sapphire baseball",
+      "Keywords": "2023 Bowman Chrome Sapphire Baseball, Bowman Chrome Sapphire Baseball 2023, 2023 Bowman Chrome Sapphire cards, Bowman Chrome Sapphire baseball cards 2023, 2023 Bowman Sapphire Chrome, Bowman Chrome Sapphire prospects 2023, Bowman Chrome Sapphire MLB prospects 2023, Bowman Chrome Sapphire hobby box 2023, Bowman Chrome Sapphire rookie cards 2023, Bowman Chrome Sapphire rookies 2023, Bowman Chrome Sapphire autos 2023, Bowman Chrome Sapphire autographs 2023, Bowman Chrome Sapphire parallels 2023, Bowman Chrome Sapphire refractors 2023, Sapphire edition prospect cards 2023 Bowman, Bowman Chrome Sapphire inserts 2023, Bowman Chrome Sapphire superfractor 2023, Bowman Chrome Sapphire Baseball checklist 2023, Bowman Chrome Sapphire checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome Sapphire"
+    },
+    {
+      "Code": "2023_bowman_draft_baseball",
+      "DisplayName": "2023 Bowman Draft baseball",
+      "Keywords": "2023 Bowman Draft Baseball, Bowman Draft Baseball 2023, 2023 Bowman Draft cards, Bowman Draft baseball cards 2023, 2023 Bowman Draft MLB prospects, Bowman Draft prospects 2023, Bowman Draft chrome cards 2023, 2023 Bowman Draft hobby box, Bowman Draft rookie cards 2023, Bowman Draft 1st Bowman cards 2023, 1st Bowman autos 2023, Bowman Draft autographs 2023, Bowman Draft parallels 2023, Bowman Draft refractors 2023, Bowman Draft Sapphire 2023, Bowman Draft inserts 2023, Top MLB prospects cards 2023 Bowman Draft, Bowman Draft superfractor 2023, Bowman Draft Baseball checklist 2023, Bowman Draft checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Draft"
+    },
+    {
+      "Code": "2023_bowman_draft_sapphire_baseball",
+      "DisplayName": "2023 Bowman Draft Sapphire baseball",
+      "Keywords": "2023 Bowman Draft Sapphire Baseball, Bowman Draft Sapphire Baseball 2023, 2023 Bowman Draft Sapphire cards, Bowman Draft Sapphire baseball cards 2023, 2023 Bowman Sapphire Draft, Bowman Draft Sapphire prospects 2023, Bowman Draft Sapphire chrome cards 2023, 2023 Bowman Draft Sapphire MLB prospects, Bowman Draft Sapphire hobby box 2023, Bowman Draft Sapphire rookie cards 2023, Bowman Draft Sapphire autos 2023, Bowman Draft Sapphire autographs 2023, Bowman Draft Sapphire parallels 2023, Bowman Draft Sapphire refractors 2023, Bowman Draft Sapphire prospect autos 2023, Sapphire edition baseball cards 2023 Bowman, Bowman Draft Sapphire inserts 2023, Bowman Draft Sapphire Baseball checklist 2023, Bowman Draft Sapphire checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Draft Sapphire"
     },
     {
       "Code": "2023_bowman_inception_baseball",
@@ -1084,13 +1084,67 @@
       "product": "Inception"
     },
     {
-      "Code": "2023_Panini_Elite_Extra_Edition_Baseball",
-      "DisplayName": "2023 Panini Elite Extra Edition Baseball",
-      "Keywords": "",
+      "Code": "2023_bowman_mega_box_baseball",
+      "DisplayName": "2023 Bowman Mega Box baseball",
+      "Keywords": "2023 Bowman Mega Box Baseball, Bowman Mega Box Baseball 2023, 2023 Bowman Mega Box cards, Bowman Mega Box baseball cards 2023, 2023 Bowman Mega Box prospects, Bowman Mega Box MLB prospects 2023, Bowman Mega Box chrome cards 2023, Bowman Mega Box rookie cards 2023, Bowman Mega Box rookies 2023, Bowman Mega Box mojo refractors 2023, Mojo refractor prospects 2023 Bowman, Bowman Mega Box autos 2023, Bowman Mega Box autographs 2023, Bowman Mega Box parallels 2023, Bowman Mega Box inserts 2023, retail exclusive Bowman cards 2023, top MLB prospects cards 2023 Bowman Mega Box, Bowman Mega Box Baseball checklist 2023, Bowman Mega Box checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Mega Box"
+    },
+    {
+      "Code": "2023_bowman_platinum_baseball",
+      "DisplayName": "2023 Bowman Platinum baseball",
+      "Keywords": "2023 Bowman Platinum Baseball, Bowman Platinum Baseball 2023, 2023 Bowman Platinum cards, Bowman Platinum baseball cards 2023, 2023 Bowman Platinum prospects, Bowman Platinum MLB prospects 2023, Bowman Platinum rookie cards 2023, Bowman Platinum rookies 2023, Bowman Platinum autos 2023, Bowman Platinum autographs 2023, Bowman Platinum parallels 2023, Bowman Platinum ice foil cards 2023, Bowman Platinum refractors 2023, Bowman Platinum chrome cards 2023, retail exclusive Bowman cards 2023, top MLB prospect cards 2023 Bowman Platinum, Bowman Platinum inserts 2023, premium prospect baseball cards 2023, Bowman Platinum Baseball checklist 2023, Bowman Platinum checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Platinum"
+    },
+    {
+      "Code": "2023_bowman_sapphire_edition_baseball",
+      "DisplayName": "2023 Bowman Sapphire baseball",
+      "Keywords": "2023 Bowman Sapphire Baseball, Bowman Sapphire Baseball 2023, 2023 Bowman Sapphire cards, Bowman Sapphire baseball cards 2023, 2023 Bowman Sapphire MLB prospects, Bowman Sapphire prospects 2023, Bowman Sapphire chrome cards 2023, 2023 Bowman Sapphire rookie cards, Bowman Sapphire rookies 2023, Bowman Sapphire 1st Bowman cards 2023, Bowman Sapphire autos 2023, Bowman Sapphire autographs 2023, Bowman Sapphire parallels 2023, Bowman Sapphire refractors 2023, Sapphire edition prospect cards 2023 Bowman, Bowman Sapphire inserts 2023, Bowman Sapphire superfractor 2023, premium prospect baseball cards 2023 Bowman, Bowman Sapphire Baseball checklist 2023, Bowman Sapphire checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Sapphire"
+    },
+    {
+      "Code": "2023_bowman_sterling_baseball",
+      "DisplayName": "2023 Bowman Sterling baseball",
+      "Keywords": "2023 Bowman Sterling Baseball, Bowman Sterling Baseball 2023, 2023 Bowman Sterling cards, Bowman Sterling baseball cards 2023, 2023 Bowman Sterling prospects, Bowman Sterling MLB prospects 2023, Bowman Sterling rookie cards 2023, Bowman Sterling rookies 2023, Bowman Sterling autos 2023, Bowman Sterling autographs 2023, Bowman Sterling chrome prospect cards 2023, Bowman Sterling parallels 2023, Bowman Sterling refractors 2023, Bowman Sterling inserts 2023, premium prospect baseball cards 2023, Bowman Sterling hobby box 2023, top MLB prospect autos 2023 Bowman Sterling, Bowman Sterling superfractor 2023, Bowman Sterling Baseball checklist 2023, Bowman Sterling checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Sterling"
+    },
+    {
+      "Code": "2023_bowmans_best_baseball",
+      "DisplayName": "2023 Bowmans Best baseball",
+      "Keywords": "2023 Bowman’s Best Baseball, Bowman’s Best Baseball 2023, 2023 Bowmans Best Baseball, Bowmans Best Baseball 2023, 2023 Bowman’s Best cards, Bowman’s Best baseball cards 2023, 2023 Bowman’s Best MLB cards, Bowman’s Best hobby box 2023, Bowman’s Best rookie cards 2023, Bowman’s Best prospects 2023, Bowman’s Best autos 2023, Bowman’s Best autographs 2023, Bowman’s Best parallels 2023, Bowman’s Best refractors 2023, Bowman’s Best prospect autos 2023, Bowman’s Best inserts 2023, Bowman’s Best atomic refractors 2023, Top MLB prospects cards 2023 Bowman’s Best, Bowman’s Best Baseball checklist 2023, Bowman’s Best checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Bowmans",
+      "product": "Best"
+    },
+    {
+      "Code": "2023_donruss_baseball",
+      "DisplayName": "2023 Donruss Baseball",
+      "Keywords": "2023 Donruss Baseball, Donruss Baseball 2023, 2023 Donruss cards, Donruss baseball cards 2023, 2023 Panini Donruss Baseball, Panini Donruss baseball cards 2023, Donruss rookie cards 2023, Donruss rookies baseball 2023, Donruss prospects baseball 2023, Donruss autos 2023, Donruss autographs baseball 2023, Donruss optic previews 2023, Donruss parallels 2023, Donruss holo cards 2023, Donruss inserts 2023, Rated Prospects baseball cards 2023, Rated Rookie baseball cards 2023, retro baseball cards Panini 2023, Donruss Baseball checklist 2023, Donruss checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Donruss",
+      "product": ""
+    },
+    {
+      "Code": "2023_panini_chronicles_baseball",
+      "DisplayName": "2023 Panini Chronicles baseball",
+      "Keywords": "2023 Panini Chronicles Baseball, Panini Chronicles Baseball 2023, 2023 Chronicles Baseball, Chronicles baseball cards 2023, 2023 Panini Chronicles cards, Panini Chronicles MLBPA cards 2023, Chronicles hobby box 2023, Chronicles rookie cards 2023, Chronicles prospects baseball 2023, Panini Chronicles autos 2023, Chronicles autographs baseball 2023, Chronicles patch autos 2023, Chronicles parallels 2023, Chronicles optic cards 2023, Chronicles titanium baseball 2023, Chronicles revolution baseball 2023, Chronicles inserts 2023, multi-brand baseball cards Panini 2023, Panini Chronicles Baseball checklist 2023, Chronicles checklist",
       "year": "2023",
       "sport": "baseball",
       "manufacturer": "Panini",
-      "product": "Elite Extra Edition"
+      "product": "Chronicles"
     },
     {
       "Code": "2023_panini_elite_extra_edition_baseball",
@@ -1102,15 +1156,6 @@
       "product": "Elite Extra Edition"
     },
     {
-      "Code": "2023_Panini_Flawless_Baseball",
-      "DisplayName": "2023 Panini Flawless Baseball",
-      "Keywords": "",
-      "year": "2023",
-      "sport": "baseball",
-      "manufacturer": "Panini",
-      "product": "Flawless"
-    },
-    {
       "Code": "2023_panini_flawless_baseball",
       "DisplayName": "2023 Panini Flawless Baseball",
       "Keywords": "2023 Panini Flawless Baseball, 2023 Panini Flawless, 2023 Flawless Baseball, 2023 Panini Flawless cards, 23 Panini Flawless Baseball, 23 Flawless Baseball, Panini Flawless Baseball 2023, Panini Flawless 2023, Flawless Baseball cards, Flawless Baseball, Panini Flawless Baseball, Panini Flawless, Flawless MLB, Flawless Baseball high end cards, Panini Flawless Baseball checklist, Flawless checklist, 2023 Panini Flawless checklist",
@@ -1120,7 +1165,124 @@
       "product": "Flawless"
     },
     {
-      "Code": "2023_Topps_Chrome_baseball",
+      "Code": "2023_panini_immaculate_collection_baseball",
+      "DisplayName": "2023 Panini Immaculate Collection baseball",
+      "Keywords": "2023 Panini Immaculate Collection Baseball, Panini Immaculate Collection Baseball 2023, 2023 Panini Immaculate cards, Immaculate Collection baseball cards 2023, 2023 Panini Immaculate MLBPA cards, Panini Immaculate hobby box 2023, Immaculate rookie cards 2023, Immaculate rookies baseball 2023, Panini Immaculate autos 2023, Immaculate autographs baseball 2023, Panini Immaculate patch autos 2023, Immaculate jumbo relics baseball 2023, Panini Immaculate booklet cards 2023, Immaculate logo patch cards 2023, premium baseball cards Panini 2023, high end baseball cards Panini 2023, Panini Immaculate parallels 2023, luxury baseball cards Panini 2023, Panini Immaculate Collection Baseball checklist 2023, Immaculate checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Immaculate Collection"
+    },
+    {
+      "Code": "2023_panini_national_treasures_baseball",
+      "DisplayName": "2023 Panini National Treasures baseball",
+      "Keywords": "2023 Panini National Treasures Baseball, Panini National Treasures Baseball 2023, 2023 National Treasures Baseball, National Treasures baseball cards 2023, 2023 Panini National Treasures cards, National Treasures MLB cards 2023, Panini National Treasures hobby box 2023, National Treasures rookie cards 2023, National Treasures rookies baseball 2023, National Treasures autos 2023, National Treasures autographs baseball 2023, National Treasures patch autos 2023, National Treasures booklet cards 2023, National Treasures relic cards 2023, National Treasures one of one cards 2023, National Treasures parallels 2023, luxury baseball cards Panini 2023, Panini National Treasures Baseball checklist 2023, National Treasures checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "National Treasures"
+    },
+    {
+      "Code": "2023_panini_prizm_baseball",
+      "DisplayName": "2023 Panini Prizm baseball",
+      "Keywords": "2023 Panini Prizm Baseball, Panini Prizm Baseball 2023, 2023 Prizm Baseball, Prizm baseball cards 2023, 2023 Panini Prizm cards, Panini Prizm MLBPA cards 2023, Prizm hobby box 2023, Prizm rookie cards 2023, Prizm rookies baseball 2023, Prizm prospects baseball 2023, Prizm autos 2023, Prizm autographs baseball 2023, Prizm parallels 2023, Prizm refractors baseball 2023, Color Blast baseball 2023, Prizm snake skin parallels 2023, Prizm inserts 2023, chromium baseball cards Panini 2023, Panini Prizm Baseball checklist 2023, Prizm checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Prizm"
+    },
+    {
+      "Code": "2023_panini_select_baseball",
+      "DisplayName": "2023 Panini Select baseball",
+      "Keywords": "2023 Panini Select Baseball, Panini Select Baseball 2023, 2023 Select Baseball, Select baseball cards 2023, 2023 Panini Select cards, Panini Select MLBPA cards 2023, Select hobby box 2023, Select rookie cards 2023, Select rookies baseball 2023, Select prospects baseball 2023, Select autos 2023, Select autographs baseball 2023, Select parallels 2023, Select refractors baseball 2023, Select zebra parallels 2023, Select elephant parallels 2023, Select inserts 2023, chromium baseball cards Panini 2023, Panini Select Baseball checklist 2023, Select checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Select"
+    },
+    {
+      "Code": "2023_panini_stars_stripes_usa_baseball",
+      "DisplayName": "2023 Panini Stars & Stripes USA baseball",
+      "Keywords": "2023 Panini Stars & Stripes USA Baseball, Panini Stars & Stripes USA Baseball 2023, 2023 Stars and Stripes USA Baseball, Stars & Stripes baseball cards 2023, 2023 Panini USA Baseball cards, USA Baseball cards 2023 Panini, Team USA baseball cards 2023, USA Baseball prospects 2023, USA Baseball rookie cards 2023, Panini Stars & Stripes autos 2023, Stars & Stripes autographs baseball 2023, USA Baseball patch cards 2023, Stars & Stripes memorabilia cards 2023, Panini Stars & Stripes parallels 2023, Team USA prospect cards 2023, amateur baseball cards Panini 2023, collegiate baseball cards USA Baseball 2023, Panini Stars & Stripes USA Baseball checklist 2023, Stars & Stripes checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Stars & Stripes USA"
+    },
+    {
+      "Code": "2023_panini_three_and_two_baseball",
+      "DisplayName": "2023 Panini Three & Two baseball",
+      "Keywords": "2023 Panini Three & Two Baseball, Panini Three & Two Baseball 2023, 2023 Three and Two Baseball, Three & Two baseball cards 2023, 2023 Panini Three & Two cards, Panini Three & Two MLBPA cards 2023, Three & Two hobby box 2023, Three & Two rookie cards 2023, Three & Two rookies baseball 2023, Three & Two autos 2023, Three & Two autographs baseball 2023, Three & Two patch autos 2023, Three & Two relic cards 2023, Three & Two booklet cards 2023, Three & Two parallels 2023, premium baseball cards Panini 2023, high end baseball cards Panini 2023, Panini Three & Two Baseball checklist 2023, Three & Two checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Three & Two"
+    },
+    {
+      "Code": "2023_topps_allen_ginter_baseball",
+      "DisplayName": "2023 Topps Allen & Ginter baseball",
+      "Keywords": "2023 Topps Allen & Ginter Baseball, Topps Allen & Ginter Baseball 2023, 2023 Allen and Ginter cards, Allen & Ginter baseball cards 2023, 2023 Topps Allen & Ginter MLB cards, Topps Allen & Ginter hobby box 2023, Allen & Ginter rookie cards 2023, Topps Allen & Ginter rookies 2023, Allen & Ginter autos 2023, Allen & Ginter autographs baseball 2023, Topps Allen & Ginter relics 2023, Allen & Ginter mini cards 2023, quirky baseball cards Topps 2023, non sports cards Allen & Ginter 2023, Topps Allen & Ginter parallels 2023, rip cards baseball 2023, Allen & Ginter inserts 2023, vintage style baseball cards Topps 2023, Topps Allen & Ginter Baseball checklist 2023, Allen & Ginter checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Allen & Ginter"
+    },
+    {
+      "Code": "2023_topps_allen_ginter_x_baseball",
+      "DisplayName": "2023 Topps Allen & Ginter X baseball",
+      "Keywords": "2023 Topps Allen & Ginter X Baseball, Topps Allen & Ginter X Baseball 2023, 2023 Allen and Ginter X cards, Allen & Ginter X baseball cards 2023, 2023 Topps Allen & Ginter X MLB cards, Topps Allen & Ginter X hobby box 2023, Allen & Ginter X rookie cards 2023, Topps Allen & Ginter X rookies 2023, Allen & Ginter X autos 2023, Allen & Ginter X autographs baseball 2023, Topps Allen & Ginter X parallels 2023, black border baseball cards Topps 2023, online exclusive baseball cards Topps 2023, Allen & Ginter X mini cards 2023, quirky baseball cards Topps 2023, Allen & Ginter X inserts 2023, premium Allen & Ginter cards 2023, Topps Allen & Ginter X Baseball checklist 2023, Allen & Ginter X checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Allen & Ginter X"
+    },
+    {
+      "Code": "2023_topps_archives_baseball",
+      "DisplayName": "2023 Topps Archives baseball",
+      "Keywords": "2023 Topps Archives Baseball, Topps Archives Baseball 2023, 2023 Topps Archives cards, Archives baseball cards 2023, 2023 Topps Archives MLB cards, Topps Archives hobby box 2023, Archives rookie cards 2023, Topps Archives rookies 2023, Topps Archives autos 2023, Archives autographs baseball 2023, Topps Archives signature series 2023, Archives retro baseball cards 2023, throwback baseball cards Topps 2023, Topps Archives parallels 2023, Archives inserts 2023, Topps Archives fan favorites autos 2023, vintage style baseball cards Topps 2023, Topps Archives Baseball checklist 2023, Archives checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Archives"
+    },
+    {
+      "Code": "2023_topps_archives_signature_series_retired_player_edition_baseball",
+      "DisplayName": "2023 Topps Archives Signature Series Retired Player baseball",
+      "Keywords": "2023 Topps Archives Signature Series Retired Player Baseball, Topps Archives Signature Series Retired Player Baseball 2023, 2023 Topps Archives Signature Series Retired Player cards, Archives Signature Series Retired Player baseball cards 2023, 2023 Topps Archives Signature Series retired players, retired player autographs Topps 2023, buyback autograph baseball cards 2023, Topps Archives Signature Series autos 2023, retired legends autographs baseball 2023, one encased autograph per box Topps 2023, Topps buyback autos 2023, Archives Signature Series retired stars 2023, Topps certified autograph baseball cards 2023, serial numbered autograph baseball cards 2023, Topps Archives Signature Series parallels 2023, vintage signed baseball cards Topps 2023, Topps Archives Signature Series Retired Player checklist 2023, Archives Signature Series Retired checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Archives Signature Series Retired Player"
+    },
+    {
+      "Code": "2023_topps_big_league_baseball",
+      "DisplayName": "2023 Topps Big League baseball",
+      "Keywords": "2023 Topps Big League Baseball, Topps Big League Baseball 2023, 2023 Topps Big League cards, Big League baseball cards 2023, 2023 Topps Big League MLB cards, Topps Big League hobby box 2023, Big League rookie cards 2023, Topps Big League rookies 2023, Topps Big League autos 2023, Big League autographs baseball 2023, Topps Big League mascots 2023, Big League fun inserts 2023, kid friendly baseball cards Topps 2023, Topps Big League parallels 2023, Big League blue foil cards 2023, Topps Big League inserts 2023, affordable baseball cards Topps 2023, Topps Big League Baseball checklist 2023, Big League checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Big League"
+    },
+    {
+      "Code": "2023_topps_black_white_baseball",
+      "DisplayName": "2023 Topps Black & White baseball",
+      "Keywords": "2023 Topps Black & White Baseball, Topps Black & White Baseball 2023, 2023 Topps Black and White cards, Black and White baseball cards 2023, 2023 Topps Black & White MLB cards, Topps Black & White hobby box 2023, Black & White rookie cards 2023, Topps Black & White rookies 2023, Topps Black & White autos 2023, Black & White autographs baseball 2023, Topps Black & White parallels 2023, monochrome baseball cards Topps 2023, artistic baseball cards Topps 2023, Topps Black & White inserts 2023, Topps Black & White photo variation cards 2023, premium photography baseball cards 2023, Topps Black & White Baseball checklist 2023, Black & White checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Black & White"
+    },
+    {
+      "Code": "2023_topps_brooklyn_collection_baseball",
+      "DisplayName": "2023 Topps Brooklyn Collection baseball",
+      "Keywords": "2023 Topps Brooklyn Collection Baseball, Topps Brooklyn Collection Baseball 2023, 2023 Topps Brooklyn Collection cards, Brooklyn Collection baseball cards 2023, 2023 Topps Brooklyn Collection MLB cards, Topps Brooklyn Collection hobby box 2023, Brooklyn Collection rookie cards 2023, Brooklyn Collection rookies baseball 2023, Topps Brooklyn Collection autos 2023, Brooklyn Collection autographs 2023, Topps Brooklyn Collection parallels 2023, Brooklyn Collection refractors 2023, Topps Brooklyn Collection inserts 2023, Brooklyn Collection prospect cards 2023, premium Topps baseball cards 2023, online exclusive Topps cards 2023, Brooklyn Collection chrome cards 2023, Topps Brooklyn Collection Baseball checklist 2023, Brooklyn Collection checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Brooklyn Collection"
+    },
+    {
+      "Code": "2023_topps_chrome_baseball",
       "DisplayName": "2023 Topps Chrome Baseball",
       "Keywords": "2023 Topps Chrome Baseball, 2023 Topps Chrome, 2023 Chrome Baseball, 2023 Chrome, 23 Topps Chrome Baseball, 23 Topps Chrome, 23 Chrome Baseball, 23 Chrome, Topps Chrome Baseball, Topps Chrome, Chrome Baseball, Chrome, Topps Chrome checklist, Chrome checklist, Topps Chrome baseball checklist, 2023 Topps Chrome checklist, 2023 Chrome checklist",
       "year": "2023",
@@ -1129,7 +1291,7 @@
       "product": "Chrome"
     },
     {
-      "Code": "2023_Topps_Chrome_Black",
+      "Code": "2023_topps_chrome_black_baseball",
       "DisplayName": "2023 Topps Chrome Black",
       "Keywords": "2023 Topps Chrome Black Baseball, 2023 Topps Chrome Black, 2023 Chrome Black , 23 Topps Chrome Black, 23 Chrome Black, chrome black, Topps chrome black, black",
       "year": "2023",
@@ -1138,16 +1300,16 @@
       "product": "Chrome Black"
     },
     {
-      "Code": "2023_Topps_Chrome_Platinum_Baseball",
-      "DisplayName": "2023 Topps Chrome Platinum Baseball",
-      "Keywords": "",
+      "Code": "2023_topps_chrome_logofractor_edition_baseball",
+      "DisplayName": "2023 Topps Chrome Logofractor baseball",
+      "Keywords": "2023 Topps Chrome Logofractor Baseball, Topps Chrome Logofractor Baseball 2023, 2023 Topps Chrome Logofractor cards, Logofractor baseball cards 2023, 2023 Topps Chrome Logofractor MLB cards, Topps Chrome Logofractor hobby box 2023, Logofractor rookie cards 2023, Topps Chrome Logofractor rookies 2023, Topps Chrome Logofractor autos 2023, Logofractor autographs baseball 2023, Topps Chrome Logofractor parallels 2023, Logofractor refractors 2023, Topps Chrome Logofractor inserts 2023, Logofractor exclusive parallels 2023, Topps Chrome MVP Buyback cards 2023, Logofractor superfractor 2023, exclusive Topps Chrome baseball cards 2023, Topps Chrome Logofractor Baseball checklist 2023, Logofractor checklist",
       "year": "2023",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": "Chrome Platinum"
+      "product": "Chrome Logofractor"
     },
     {
-      "Code": "2023_topps_chrome_platinum_baseball",
+      "Code": "2023_topps_chrome_platinum_anniversary_baseball",
       "DisplayName": "2023 Topps Chrome Platinum Baseball",
       "Keywords": "2023 Topps Chrome Platinum Baseball, 2023 Topps Chrome Platinum, 2023 Chrome Platinum Baseball, 2023 Topps Chrome Platinum cards, 23 Topps Chrome Platinum Baseball, 23 Chrome Platinum Baseball, Topps Chrome Platinum Baseball 2023, Topps Chrome Platinum 2023, Chrome Platinum Baseball cards, Chrome Platinum Baseball, Topps Chrome Platinum Baseball, Topps Chrome Platinum, Chrome Platinum MLB, Topps Chrome Platinum Anniversary Baseball, Topps Chrome Platinum Baseball checklist, Chrome Platinum checklist, 2023 Topps Chrome Platinum checklist",
       "year": "2023",
@@ -1156,7 +1318,7 @@
       "product": "Chrome Platinum"
     },
     {
-      "Code": "2023_Topps_Chrome_Update_baseball",
+      "Code": "2023_topps_chrome_update_series_baseball",
       "DisplayName": "2023 Topps Chrome Update Baseball",
       "Keywords": "2023 Topps Chrome Update Baseball, 2023 Topps Chrome Update, 2023 Chrome Update Baseball, 2023 Chrome Update, 23 Topps Chrome Update Baseball, 23 Topps Chrome Update, 23 Chrome Update Baseball, 23 Chrome Update, Topps Chrome Update Baseball, Topps Chrome Update, Chrome Update Baseball, Chrome Update, Topps Chrome Update checklist, Chrome Update checklist, Topps Chrome Update baseball checklist, 2023 Topps Chrome Update checklist, 2023 Chrome Update checklist",
       "year": "2023",
@@ -1165,13 +1327,49 @@
       "product": "Chrome Update"
     },
     {
-      "Code": "2023_Topps_Dynasty_Baseball",
-      "DisplayName": "2023 Topps Dynasty Baseball",
-      "Keywords": "",
+      "Code": "2023_topps_chrome_update_sapphire_edition_baseball",
+      "DisplayName": "2023 Topps Chrome Update Sapphire baseball",
+      "Keywords": "2023 Topps Chrome Update Sapphire Baseball, Topps Chrome Update Sapphire Baseball 2023, 2023 Topps Chrome Update Sapphire cards, Chrome Update Sapphire baseball cards 2023, 2023 Topps Chrome Sapphire Update, Topps Chrome Update Sapphire MLB cards 2023, Chrome Update Sapphire hobby box 2023, Topps Chrome Update Sapphire rookie cards 2023, Chrome Update Sapphire rookies 2023, Topps Chrome Update Sapphire autos 2023, Chrome Update Sapphire autographs 2023, Topps Chrome Update Sapphire parallels 2023, Chrome Update Sapphire refractors 2023, Sapphire edition baseball cards 2023 Topps Update, Topps Chrome Update Sapphire inserts 2023, Chrome Update Sapphire prospect cards 2023, Topps Chrome Update Sapphire Baseball checklist 2023, Chrome Update Sapphire checklist",
       "year": "2023",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": "Dynasty"
+      "product": "Chrome Update Sapphire"
+    },
+    {
+      "Code": "2023_topps_cosmic_chrome_baseball",
+      "DisplayName": "2023 Topps Cosmic Chrome baseball",
+      "Keywords": "2023 Topps Cosmic Chrome Baseball, Topps Cosmic Chrome Baseball 2023, 2023 Topps Cosmic Chrome cards, Cosmic Chrome baseball cards 2023, 2023 Topps Cosmic Chrome MLB cards, Topps Cosmic Chrome hobby box 2023, Cosmic Chrome rookie cards 2023, Topps Cosmic Chrome rookies 2023, Topps Cosmic Chrome autos 2023, Cosmic Chrome autographs baseball 2023, Topps Cosmic Chrome parallels 2023, Cosmic Chrome refractors 2023, galactic parallels 2023 Topps Cosmic Chrome, Cosmic Chrome inserts 2023, space themed baseball cards Topps 2023, Supernova inserts 2023, extraterrestrial talent inserts 2023, premium chrome baseball cards 2023, Topps Cosmic Chrome Baseball checklist 2023, Cosmic Chrome checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Cosmic Chrome"
+    },
+    {
+      "Code": "2023_topps_definitive_collection_baseball",
+      "DisplayName": "2023 Topps Definitive Collection baseball",
+      "Keywords": "2023 Topps Definitive Collection Baseball, Topps Definitive Collection Baseball 2023, 2023 Topps Definitive cards, Definitive Collection baseball cards 2023, 2023 Topps Definitive MLB cards, Topps Definitive hobby box 2023, Definitive rookie cards 2023, Topps Definitive rookies 2023, Topps Definitive autos 2023, Definitive autographs baseball 2023, Topps Definitive patch autos 2023, Definitive relic cards 2023, Topps Definitive booklet cards 2023, Definitive one of one cards 2023, luxury baseball cards Topps 2023, premium autograph baseball cards 2023, Topps Definitive parallels 2023, Topps Definitive Collection Baseball checklist 2023, Definitive checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Definitive Collection"
+    },
+    {
+      "Code": "2023_topps_diamond_icons_baseball",
+      "DisplayName": "2023 Topps Diamond Icons baseball",
+      "Keywords": "2023 Topps Diamond Icons Baseball, Topps Diamond Icons Baseball 2023, 2023 Topps Diamond Icons cards, Diamond Icons baseball cards 2023, Topps Diamond Icons hobby box 2023, Diamond Icons premium baseball cards 2023, 2023 Topps Diamond Icons MLB cards, Topps Diamond Icons autographs 2023, Diamond Icons autos baseball 2023, Topps Diamond Icons patch autos 2023, Diamond Icons relic cards 2023, Topps Diamond Icons cut signatures 2023, Diamond Icons rookie cards 2023, Diamond Icons parallels 2023, Diamond Icons one of one cards 2023, Topps Diamond Icons inserts 2023, luxury baseball cards Topps 2023, Topps Diamond Icons Baseball checklist 2023, Diamond Icons checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Diamond Icons"
+    },
+    {
+      "Code": "2023_topps_dynamic_duals_baseball",
+      "DisplayName": "2023 Topps Dynamic Duals baseball",
+      "Keywords": "2023 Topps Dynamic Duals Baseball, Topps Dynamic Duals Baseball 2023, 2023 Topps Dynamic Duals cards, Dynamic Duals baseball cards 2023, 2023 Topps Dynamic Duals MLB cards, Topps Dynamic Duals dual player cards 2023, Dynamic Duals rookie cards 2023, Topps Dynamic Duals autos 2023, Dynamic Duals autographs baseball 2023, Topps Dynamic Duals parallels 2023, Dynamic Duals inserts 2023, dual autograph baseball cards Topps 2023, Topps online exclusive baseball cards 2023, premium dual player baseball cards 2023, Topps Dynamic Duals checklist 2023, Dynamic Duals checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Dynamic Duals"
     },
     {
       "Code": "2023_topps_dynasty_baseball",
@@ -1183,13 +1381,22 @@
       "product": "Dynasty"
     },
     {
-      "Code": "2023_Topps_Five_Star_Baseball",
-      "DisplayName": "2023 Topps Five Star Baseball",
-      "Keywords": "",
+      "Code": "2023_topps_finest_baseball",
+      "DisplayName": "2023 Topps Finest baseball",
+      "Keywords": "2023 Topps Finest Baseball, Topps Finest Baseball 2023, 2023 Topps Finest cards, Finest baseball cards 2023, 2023 Topps Finest MLB cards, Topps Finest hobby box 2023, Finest rookie cards 2023, Topps Finest rookies 2023, Topps Finest autos 2023, Finest autographs baseball 2023, Topps Finest refractors 2023, Finest parallels 2023, Topps Finest inserts 2023, Finest flashbacks 2023, Finest superfractor 2023, chrome baseball cards Topps 2023, premium chrome baseball cards 2023, Topps Finest Baseball checklist 2023, Finest checklist",
       "year": "2023",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": "Five Star"
+      "product": "Finest"
+    },
+    {
+      "Code": "2023_topps_finest_flashbacks_baseball",
+      "DisplayName": "2023 Topps Finest Flashbacks baseball",
+      "Keywords": "2023 Topps Finest Flashbacks Baseball, Topps Finest Flashbacks Baseball 2023, 2023 Topps Finest Flashbacks cards, Finest Flashbacks baseball cards 2023, 2023 Topps Finest retro cards, Topps Finest Flashbacks hobby box 2023, Finest Flashbacks rookie cards 2023, Topps Finest Flashbacks rookies 2023, Topps Finest Flashbacks autos 2023, Finest Flashbacks autographs baseball 2023, Topps Finest Flashbacks refractors 2023, Finest Flashbacks parallels 2023, retro chrome baseball cards Topps 2023, throwback Finest baseball cards 2023, Topps online exclusive baseball cards 2023, Finest Flashbacks inserts 2023, nostalgic baseball cards Topps 2023, Topps Finest Flashbacks Baseball checklist 2023, Finest Flashbacks checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Finest Flashbacks"
     },
     {
       "Code": "2023_topps_five_star_baseball",
@@ -1201,15 +1408,6 @@
       "product": "Five Star"
     },
     {
-      "Code": "2023_Topps_Garbage_Pail_Kids_X_Baseball",
-      "DisplayName": "2023 Topps Garbage Pail Kids X Baseball",
-      "Keywords": "",
-      "year": "2023",
-      "sport": "baseball",
-      "manufacturer": "Topps",
-      "product": "Garbage Pail Kids X"
-    },
-    {
       "Code": "2023_topps_garbage_pail_kids_x_mlb",
       "DisplayName": "2023 Topps Garbage Pail Kids X Baseball",
       "Keywords": "2023 Topps Garbage Pail Kids X Baseball, 2023 Topps GPK X Baseball, 2023 Garbage Pail Kids X Baseball, 2023 GPK X Baseball, 2023 Topps Garbage Pail Kids X cards, 23 Topps Garbage Pail Kids X Baseball, 23 GPK X Baseball, Topps Garbage Pail Kids X Baseball 2023, Topps GPK X Baseball 2023, Garbage Pail Kids X Baseball cards, GPK X Baseball cards, Topps Garbage Pail Kids X Baseball, Topps GPK X Baseball, Garbage Pail Kids X Baseball, GPK X Baseball, Topps GPK X checklist, Garbage Pail Kids X checklist, 2023 Topps Garbage Pail Kids X checklist",
@@ -1219,7 +1417,16 @@
       "product": "Garbage Pail Kids X"
     },
     {
-      "Code": "2023_Topps_Heritage_baseball",
+      "Code": "2023_topps_gilded_collection_baseball",
+      "DisplayName": "2023 Topps Gilded Collection baseball",
+      "Keywords": "2023 Topps Gilded Collection Baseball, Topps Gilded Collection Baseball 2023, 2023 Topps Gilded Collection cards, Gilded Collection baseball cards 2023, 2023 Topps Gilded MLB cards, Topps Gilded Collection hobby box 2023, Gilded rookie cards 2023, Topps Gilded rookies 2023, Topps Gilded autos 2023, Gilded autographs baseball 2023, Topps Gilded gold framed autos 2023, Gilded chrome cards 2023, Topps Gilded parallels 2023, luxury baseball cards Topps 2023, premium autograph baseball cards 2023, high end baseball cards Topps 2023, Topps Gilded inserts 2023, gold themed baseball cards Topps 2023, Topps Gilded Collection Baseball checklist 2023, Gilded Collection checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Gilded Collection"
+    },
+    {
+      "Code": "2023_topps_heritage_baseball",
       "DisplayName": "2023 Topps Heritage Baseball",
       "Keywords": "2023 Topps Heritage Baseball, 2023 Topps Heritage, 2023 Heritage Baseball, 2023 Heritage, 23 Topps Heritage Baseball, 23 Topps Heritage, 23 Heritage Baseball, 23 Heritage, Topps Heritage Baseball, Topps Heritage, Heritage Baseball, Heritage, Topps Heritage checklist, Heritage checklist, Topps Heritage baseball checklist, 2023 Topps Heritage checklist, 2023 Heritage checklist",
       "year": "2023",
@@ -1228,7 +1435,7 @@
       "product": "Heritage"
     },
     {
-      "Code": "2023_Topps_Heritage_HighNumber_baseball",
+      "Code": "2023_topps_heritage_high_number_baseball",
       "DisplayName": "2023 Topps Heritage High Number Baseball",
       "Keywords": "2023 Topps Heritage High Number Baseball, 2023 Topps Heritage High Number, 2023 Heritage High Number Baseball, 2023 Heritage High Number, 23 Topps Heritage High Number Baseball, 23 Topps Heritage High Number, 23 Heritage High Number Baseball, 23 Heritage High Number, Topps Heritage High Number Baseball, Topps Heritage High Number, Heritage High Number Baseball, Heritage High Number, Topps Heritage High Number checklist, Heritage High Number checklist, Topps Heritage High Number baseball checklist, 2023 Topps Heritage High Number checklist, 2023 Heritage High Number checklist",
       "year": "2023",
@@ -1237,13 +1444,31 @@
       "product": "Heritage High Number"
     },
     {
-      "Code": "2023_Topps_Luminaries_Baseball",
-      "DisplayName": "2023 Topps Luminaries Baseball",
-      "Keywords": "",
+      "Code": "2023_topps_holiday_baseball",
+      "DisplayName": "2023 Topps Holiday baseball",
+      "Keywords": "2023 Topps Holiday Baseball, Topps Holiday Baseball 2023, 2023 Topps Holiday cards, Holiday baseball cards 2023, 2023 Topps Holiday MLB cards, Topps Holiday mega box 2023, Holiday rookie cards 2023, Topps Holiday rookies 2023, Topps Holiday relics 2023, Holiday autographs baseball 2023, Topps Holiday parallels 2023, Holiday short prints 2023, Topps Holiday ornament relics 2023, Christmas baseball cards Topps 2023, festive baseball cards 2023, Topps Holiday metallic snowflake cards 2023, winter themed baseball cards Topps 2023, Topps Holiday Baseball checklist 2023, Holiday checklist",
       "year": "2023",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": "Luminaries"
+      "product": "Holiday"
+    },
+    {
+      "Code": "2023_topps_inception_baseball",
+      "DisplayName": "2023 Topps Inception baseball",
+      "Keywords": "2023 Topps Inception Baseball, Topps Inception Baseball 2023, 2023 Topps Inception cards, Inception baseball cards 2023, 2023 Topps Inception MLB cards, Topps Inception hobby box 2023, Inception rookie cards 2023, Topps Inception rookies 2023, Topps Inception autos 2023, Inception autographs baseball 2023, Topps Inception patch autos 2023, Inception relic cards 2023, Topps Inception parallels 2023, Inception green parallels 2023, Topps Inception booklet cards 2023, premium baseball cards Topps 2023, Topps Inception inserts 2023, Topps Inception Baseball checklist 2023, Inception checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Inception"
+    },
+    {
+      "Code": "2023_topps_baseball_japan_edition_baseball",
+      "DisplayName": "2023 Topps Japan Edition baseball",
+      "Keywords": "2023 Topps Japan Edition Baseball, Topps Japan Edition Baseball 2023, 2023 Topps Japan Edition cards, Topps Japan Edition baseball cards 2023, 2023 Topps MLB Japan Edition, Topps Japan Edition MLB cards 2023, Japan Edition baseball cards 2023, Topps Japan Edition hobby box 2023, Topps Japan Edition rookie cards 2023, Topps Japan Edition rookies 2023, Topps Japan Edition autos 2023, Topps Japan Edition autographs 2023, Topps Japan Edition parallels 2023, Topps Japan Edition cherry blossom parallels 2023, Topps Japan Edition inserts 2023, Japanese exclusive baseball cards Topps 2023, Topps Japan Edition variation cards 2023, Topps Japan Edition Baseball checklist 2023, Japan Edition checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Japan Edition"
     },
     {
       "Code": "2023_topps_luminaries_baseball",
@@ -1255,7 +1480,61 @@
       "product": "Luminaries"
     },
     {
-      "Code": "2023_Topps_Baseball_Series_1",
+      "Code": "2023_topps_museum_collection_baseball",
+      "DisplayName": "2023 Topps Museum Collection baseball",
+      "Keywords": "2023 Topps Museum Collection Baseball, Topps Museum Collection Baseball 2023, 2023 Topps Museum Collection cards, Museum Collection baseball cards 2023, 2023 Topps Museum Collection MLB cards, Topps Museum Collection hobby box 2023, Museum Collection rookie cards 2023, Topps Museum Collection rookies 2023, Topps Museum Collection autos 2023, Museum Collection autographs baseball 2023, Topps Museum Collection patch autos 2023, Museum Collection relic cards 2023, framed autograph cards Topps 2023, Topps Museum Collection parallels 2023, premium baseball cards Topps 2023, high end baseball cards Topps 2023, Topps Museum Collection inserts 2023, luxury baseball cards Topps 2023, Topps Museum Collection Baseball checklist 2023, Museum Collection checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Museum Collection"
+    },
+    {
+      "Code": "2023_topps_npb_nippon_professional_baseball",
+      "DisplayName": "2023 Topps NPB Nippon Professional baseball",
+      "Keywords": "2023 Topps NPB Nippon Professional Baseball, Topps NPB Baseball 2023, 2023 Topps NPB cards, Nippon Professional Baseball cards 2023, 2023 Topps Japan baseball cards, Topps Japanese baseball cards 2023, NPB baseball cards 2023, Japanese baseball cards Topps 2023, 2023 Topps NPB rookies, Topps NPB rookie cards 2023, Topps NPB autos 2023, NPB autographs baseball 2023, Topps NPB parallels 2023, NPB inserts 2023, Japanese league baseball cards 2023, Topps NPB stars 2023, Topps Nippon Professional Baseball checklist 2023, NPB checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "NPB Nippon Professional"
+    },
+    {
+      "Code": "2023_topps_pristine_baseball",
+      "DisplayName": "2023 Topps Pristine baseball",
+      "Keywords": "2023 Topps Pristine Baseball, Topps Pristine Baseball 2023, 2023 Topps Pristine cards, Pristine baseball cards 2023, 2023 Topps Pristine MLB cards, Topps Pristine hobby box 2023, Pristine rookie cards 2023, Topps Pristine rookies 2023, Topps Pristine autos 2023, Pristine autographs baseball 2023, Topps Pristine refractors 2023, Pristine parallels 2023, Topps Pristine inserts 2023, encased baseball cards Topps 2023, premium chrome baseball cards 2023, Topps Pristine autograph relics 2023, Topps Pristine superfractor 2023, high end baseball cards Topps 2023, Topps Pristine Baseball checklist 2023, Pristine checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Pristine"
+    },
+    {
+      "Code": "2023_topps_pro_debut_baseball",
+      "DisplayName": "2023 Topps Pro Debut baseball",
+      "Keywords": "2023 Topps Pro Debut Baseball, Topps Pro Debut Baseball 2023, 2023 Topps Pro Debut cards, Pro Debut baseball cards 2023, 2023 Topps Pro Debut prospects, Topps Pro Debut MLB prospects 2023, minor league baseball cards 2023, MiLB baseball cards Topps 2023, Pro Debut rookie cards 2023, Topps Pro Debut autos 2023, Pro Debut autographs baseball 2023, Topps Pro Debut chrome cards 2023, Pro Debut parallels 2023, Topps Pro Debut inserts 2023, top MLB prospect cards 2023, future stars baseball cards Topps 2023, Pro Debut patch cards 2023, Topps Pro Debut Baseball checklist 2023, Pro Debut checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Pro Debut"
+    },
+    {
+      "Code": "2023_topps_rip_baseball",
+      "DisplayName": "2023 Topps RIP baseball",
+      "Keywords": "2023 Topps RIP Baseball, Topps RIP Baseball 2023, 2023 Topps RIP cards, RIP baseball cards 2023, 2023 Topps RIP MLB cards, Topps RIP hobby box 2023, RIP rookie cards 2023, Topps RIP rookies 2023, Topps RIP autos 2023, RIP autographs baseball 2023, Topps RIP parallels 2023, RIP mini cards 2023, Topps RIP inserts 2023, RIP exclusive cards 2023, Topps RIP rip cards 2023, baseball rip cards Topps 2023, hidden mini cards Topps RIP 2023, Topps RIP Baseball checklist 2023, RIP checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "RIP"
+    },
+    {
+      "Code": "2023_topps_series_1_baseball_1st_edition_baseball",
+      "DisplayName": "2023 Topps Series 1 1st Edition baseball",
+      "Keywords": "2023 Topps Series 1 1st Edition Baseball, Topps Series 1 1st Edition Baseball 2023, 2023 Topps Series 1 First Edition, Topps First Edition baseball cards 2023, 2023 Topps Series 1 1st Edition cards, Topps Series 1 first print baseball cards 2023, 2023 Topps Series 1 MLB cards, Topps Series 1 1st Edition hobby box 2023, Series 1 1st Edition rookie cards 2023, Topps Series 1 rookies 2023, Topps Series 1 1st Edition parallels 2023, First Edition foil parallels 2023, Topps Series 1 inserts 2023, Topps flagship baseball cards 2023, limited edition Topps baseball cards 2023, Topps Series 1 stars of MLB 2023, Topps Series 1 1st Edition Baseball checklist 2023, Topps First Edition checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Series 1 1st Edition"
+    },
+    {
+      "Code": "2023_topps_series_1_baseball",
       "DisplayName": "2023 Topps Series 1 Baseball",
       "Keywords": "2023 Topps Series 1 Baseball, 2023 Topps Series 1, 2023 Series 1 Baseball, 2023 Series 1, 23 Topps Series 1 Baseball, 23 Topps Series 1, 23 Series 1 Baseball, 23 Series 1, Topps Series 1 Baseball, Topps Series 1, Series 1 Baseball, Series 1, Topps Series 1 checklist, Series 1 checklist, 2024 Topps Series 1 checklist, 2023 Series 1 checklist, Topps Series 1 2023 checklist, Topps Series One Baseball, 2023 Topps Series One, 2023 Series One, Series One Baseball, Series One",
       "year": "2023",
@@ -1264,7 +1543,7 @@
       "product": "Series 1"
     },
     {
-      "Code": "2023_Topps_Baseball_Series_2",
+      "Code": "2023_topps_series_2_baseball",
       "DisplayName": "2023 Topps Series 2 Baseball",
       "Keywords": "2023 Topps Series 2 Baseball, 2023 Topps Series 2, 2023 Series 2 Baseball, 2023 Series 2, 23 Topps Series 2 Baseball, 23 Topps Series 2, 23 Series 2 Baseball, 23 Series 2, Topps Series 2 Baseball, Topps Series 2, Series 2 Baseball, Series 2, Topps Series Two Baseball, Topps Series Two, Series Two Baseball, Series Two, Topps Series 2 checklist, Series 2 checklist, 2023 Topps Series 2 checklist, 2023 Series 2 checklist",
       "year": "2023",
@@ -1273,22 +1552,112 @@
       "product": "Series 2"
     },
     {
-      "Code": "2023_Topps_Transcendent_Collection_Baseball",
-      "DisplayName": "2023 Topps Transcendent Collection Baseball",
-      "Keywords": "",
+      "Code": "2023_topps_stadium_club_baseball",
+      "DisplayName": "2023 Topps Stadium Club baseball",
+      "Keywords": "2023 Topps Stadium Club Baseball, Topps Stadium Club Baseball 2023, 2023 Topps Stadium Club cards, Stadium Club baseball cards 2023, 2023 Topps Stadium Club MLB cards, Topps Stadium Club hobby box 2023, Stadium Club rookie cards 2023, Topps Stadium Club rookies 2023, Topps Stadium Club autos 2023, Stadium Club autographs baseball 2023, Topps Stadium Club chrome cards 2023, Stadium Club parallels 2023, Stadium Club photo variation cards 2023, Stadium Club inserts 2023, premium photography baseball cards 2023, full bleed baseball cards Topps 2023, Stadium Club beam team inserts 2023, Topps Stadium Club Baseball checklist 2023, Stadium Club checklist",
       "year": "2023",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": "Transcendent Collection"
+      "product": "Stadium Club"
     },
     {
-      "Code": "2023_topps_transcendent_collection_baseball",
+      "Code": "2023_topps_sterling_baseball",
+      "DisplayName": "2023 Topps Sterling baseball",
+      "Keywords": "2023 Topps Sterling Baseball, Topps Sterling Baseball 2023, 2023 Topps Sterling cards, Sterling baseball cards 2023, 2023 Topps Sterling MLB cards, Topps Sterling hobby box 2023, Sterling rookie cards 2023, Topps Sterling rookies 2023, Topps Sterling autos 2023, Sterling autographs baseball 2023, Topps Sterling patch autos 2023, Sterling relic cards 2023, Topps Sterling one of one cards 2023, luxury baseball cards Topps 2023, premium autograph baseball cards 2023, Topps Sterling parallels 2023, Topps Sterling inserts 2023, high end baseball cards Topps 2023, Topps Sterling Baseball checklist 2023, Sterling checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Sterling"
+    },
+    {
+      "Code": "2023_topps_206_high_series_baseball",
+      "DisplayName": "2023 Topps T206 High Series baseball",
+      "Keywords": "2023 Topps T206 High Series Baseball, Topps T206 High Series Baseball 2023, 2023 Topps T206 High Series cards, T206 High Series baseball cards 2023, 2023 Topps T206 baseball cards, Topps T206 tobacco cards 2023, vintage style baseball cards Topps 2023, Topps T206 rookie cards 2023, T206 rookie cards 2023, Topps T206 autos 2023, T206 autographs baseball 2023, Topps T206 parallels 2023, T206 wood stock cards 2023, T206 piedmont back cards 2023, T206 sweet caporal backs 2023, Topps online exclusive baseball cards 2023, retro baseball cards Topps 2023, Topps T206 High Series checklist 2023, T206 High Series checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "T206 High Series"
+    },
+    {
+      "Code": "2023_topps_206_low_series_baseball",
+      "DisplayName": "2023 Topps T206 Low Series baseball",
+      "Keywords": "2023 Topps T206 Low Series Baseball, Topps T206 Low Series Baseball 2023, 2023 Topps T206 Low Series cards, T206 Low Series baseball cards 2023, 2023 Topps T206 baseball cards, Topps T206 tobacco cards 2023, vintage style baseball cards Topps 2023, Topps T206 rookie cards 2023, T206 rookie cards 2023, Topps T206 autos 2023, T206 autographs baseball 2023, Topps T206 parallels 2023, T206 wood stock cards 2023, T206 piedmont back cards 2023, T206 sweet caporal backs 2023, Topps online exclusive baseball cards 2023, retro baseball cards Topps 2023, Topps T206 Low Series checklist 2023, T206 Low Series checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "T206 Low Series"
+    },
+    {
+      "Code": "2023_topps_tier_one_baseball",
+      "DisplayName": "2023 Topps Tier One baseball",
+      "Keywords": "2023 Topps Tier One Baseball, Topps Tier One Baseball 2023, 2023 Topps Tier One cards, Tier One baseball cards 2023, 2023 Topps Tier One MLB cards, Topps Tier One hobby box 2023, Tier One rookie cards 2023, Topps Tier One rookies 2023, Topps Tier One autos 2023, Tier One autographs baseball 2023, Topps Tier One relics 2023, Tier One autograph relics 2023, Topps Tier One breakout autos 2023, premium autograph baseball cards 2023, high end baseball cards Topps 2023, Topps Tier One parallels 2023, luxury baseball cards Topps 2023, Topps Tier One Baseball checklist 2023, Tier One checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Tier One"
+    },
+    {
+      "Code": "2023_topps_transcendent_baseball",
       "DisplayName": "2023 Topps Transcendent Collection Baseball",
       "Keywords": "2023 Topps Transcendent Collection Baseball, 2023 Topps Transcendent Baseball, 2023 Topps Transcendent Collection, 2023 Topps Transcendent cards, 23 Topps Transcendent Collection Baseball, 23 Topps Transcendent Baseball, Topps Transcendent Collection Baseball 2023, Topps Transcendent Baseball 2023, Topps Transcendent Collection 2023, Topps Transcendent Baseball, Topps Transcendent Collection, Transcendent Collection Baseball cards, Transcendent Baseball cards, Topps Transcendent ultra high end baseball cards, Topps Transcendent Collection checklist, Topps Transcendent checklist, 2023 Topps Transcendent checklist",
       "year": "2023",
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Transcendent Collection"
+    },
+    {
+      "Code": "2023_topps_tribute_baseball",
+      "DisplayName": "2023 Topps Tribute baseball",
+      "Keywords": "2023 Topps Tribute Baseball, Topps Tribute Baseball 2023, 2023 Topps Tribute cards, Tribute baseball cards 2023, 2023 Topps Tribute MLB cards, Topps Tribute hobby box 2023, Tribute rookie cards 2023, Topps Tribute rookies 2023, Topps Tribute autos 2023, Tribute autographs baseball 2023, Topps Tribute patch autos 2023, Tribute relic cards 2023, Topps Tribute parallels 2023, premium baseball cards Topps 2023, high end baseball cards Topps 2023, Tribute inserts 2023, Topps Tribute legends cards 2023, luxury baseball cards Topps 2023, Topps Tribute Baseball checklist 2023, Tribute checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Tribute"
+    },
+    {
+      "Code": "2023_topps_update_series_baseball",
+      "DisplayName": "2023 Topps Update Series baseball",
+      "Keywords": "2023 Topps Update Series Baseball, Topps Update Series Baseball 2023, 2023 Topps Update cards, Update Series baseball cards 2023, 2023 Topps Update MLB cards, Topps Update hobby box 2023, Update Series rookie cards 2023, Topps Update rookies 2023, Topps Update debut cards 2023, MLB All Star Game cards 2023, Topps Update autos 2023, Update autographs baseball 2023, Topps Update parallels 2023, rainbow foil baseball cards 2023, gold parallel baseball cards Topps 2023, Topps Update inserts 2023, Topps Update short prints 2023, flagship baseball cards Topps 2023, Topps Update Series Baseball checklist 2023, Update Series checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Update Series"
+    },
+    {
+      "Code": "2023_topps_world_baseball_classic_baseball",
+      "DisplayName": "2023 Topps World Baseball Classic baseball",
+      "Keywords": "2023 Topps World Baseball Classic Baseball, Topps World Baseball Classic Baseball 2023, 2023 Topps WBC Baseball, Topps WBC cards 2023, World Baseball Classic baseball cards 2023, 2023 Topps World Baseball Classic cards, WBC baseball cards 2023, Topps international baseball cards 2023, Team USA baseball cards 2023 WBC, Shohei Ohtani WBC cards 2023, World Baseball Classic rookie cards 2023, Topps WBC autos 2023, Topps WBC autographs 2023, World Baseball Classic parallels 2023, WBC inserts 2023, international stars baseball cards 2023, Topps World Baseball Classic checklist 2023, WBC checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "World Baseball Classic"
+    },
+    {
+      "Code": "2023_topps_world_baseball_classic_global_stars_baseball",
+      "DisplayName": "2023 Topps World Baseball Classic Global Stars baseball",
+      "Keywords": "2023 Topps World Baseball Classic Global Stars Baseball, Topps World Baseball Classic Global Stars Baseball 2023, 2023 Topps WBC Global Stars, WBC Global Stars baseball cards 2023, 2023 Topps World Baseball Classic Global Stars cards, Global Stars baseball cards 2023, World Baseball Classic international baseball cards 2023, Topps WBC stars cards 2023, Shohei Ohtani WBC cards 2023, Team Japan WBC cards 2023, Team USA WBC cards 2023, World Baseball Classic rookie cards 2023, Topps WBC autos 2023, WBC autographs baseball 2023, WBC parallels 2023, Global Stars inserts 2023, international stars baseball cards Topps 2023, Topps WBC Global Stars checklist 2023, Global Stars checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "World Baseball Classic Global Stars"
+    },
+    {
+      "Code": "2023_topps_x_bob_ross_the_joy_of_baseball",
+      "DisplayName": "2023 Topps X Bob Ross The Joy of baseball",
+      "Keywords": "2023 Topps X Bob Ross The Joy of Baseball, Topps X Bob Ross The Joy of Baseball 2023, 2023 Topps Bob Ross baseball cards, Bob Ross baseball cards 2023, 2023 Topps Joy of Baseball cards, Topps Bob Ross MLB cards 2023, artistic baseball cards Topps 2023, Bob Ross themed baseball cards 2023, happy little trees baseball cards 2023, Topps Bob Ross rookie cards 2023, Topps Bob Ross autos 2023, Bob Ross autographs baseball 2023, Topps Bob Ross parallels 2023, painted landscape baseball cards 2023, creative baseball cards Topps 2023, online exclusive baseball cards Topps 2023, Topps Joy of Baseball inserts 2023, collectible art baseball cards 2023, Topps X Bob Ross The Joy of Baseball checklist 2023, Bob Ross checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "X Bob Ross The Joy of"
+    },
+    {
+      "Code": "2023_topps_xpectations_baseball",
+      "DisplayName": "2023 Topps Xpectations baseball",
+      "Keywords": "2023 Topps Xpectations Baseball, Topps Xpectations Baseball 2023, 2023 Topps Xpectations cards, Xpectations baseball cards 2023, 2023 Topps Xpectations MLB cards, Topps Xpectations rookie cards 2023, Topps Xpectations prospects 2023, Xpectations prospect cards 2023, Topps Xpectations autos 2023, Topps Xpectations autographs 2023, Topps Xpectations parallels 2023, Topps Xpectations inserts 2023, Topps Xpectations chrome cards 2023, Xpectations baseball hobby box 2023, Topps prospect baseball cards 2023, Top MLB prospects cards 2023 Topps, Topps Xpectations Baseball checklist 2023, Xpectations checklist",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Xpectations"
     },
     {
       "Code": "2022_Topps_Chrome_baseball",
@@ -1347,7 +1716,7 @@
     {
       "Code": "2021_Topps_Chrome_baseball",
       "DisplayName": "2021 Topps Chrome Baseball",
-      "Keywords": "",
+      "Keywords": "2021 Topps Chrome Baseball, 2021 Topps Chrome, 2021 Chrome Baseball, 2021 Chrome, 21 Topps Chrome Baseball, 21 Topps Chrome, 21 Chrome Baseball, 21 Chrome, Topps Chrome Baseball, Topps Chrome, Chrome Baseball, Chrome, Topps Chrome checklist, Chrome checklist, Topps Chrome baseball checklist, 2021 Topps Chrome checklist, 2021 Chrome checklist",
       "year": "2021",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1356,7 +1725,7 @@
     {
       "Code": "2021_Topps_Chrome_Update_baseball",
       "DisplayName": "2021 Topps Chrome Update Baseball",
-      "Keywords": "",
+      "Keywords": "2021 Topps Chrome Update Baseball, 2021 Topps Chrome Update, 2021 Chrome Update Baseball, 2021 Chrome Update, 21 Topps Chrome Update Baseball, 21 Topps Chrome Update, 21 Chrome Update Baseball, 21 Chrome Update, Topps Chrome Update Baseball, Topps Chrome Update, Chrome Update Baseball, Chrome Update, Topps Chrome Update checklist, Chrome Update checklist, Topps Chrome Update baseball checklist, 2021 Topps Chrome Update checklist, 2021 Chrome Update checklist",
       "year": "2021",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1365,7 +1734,7 @@
     {
       "Code": "2021_Topps_Heritage_baseball",
       "DisplayName": "2021 Topps Heritage Baseball",
-      "Keywords": "",
+      "Keywords": "2021 Topps Heritage Baseball, 2021 Topps Heritage, 2021 Heritage Baseball, 2021 Heritage, 21 Topps Heritage Baseball, 21 Topps Heritage, 21 Heritage Baseball, 21 Heritage, Topps Heritage Baseball, Topps Heritage, Heritage Baseball, Heritage, Topps Heritage checklist, Heritage checklist, Topps Heritage baseball checklist, 2021 Topps Heritage checklist, 2021 Heritage checklist",
       "year": "2021",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1374,7 +1743,7 @@
     {
       "Code": "2021_Topps_Heritage_HighNumber_baseball",
       "DisplayName": "2021 Topps Heritage High Number Baseball",
-      "Keywords": "",
+      "Keywords": "2021 Topps Heritage High Number Baseball, 2021 Topps Heritage High Number, 2021 Heritage High Number Baseball, 2021 Heritage High Number, 21 Topps Heritage High Number Baseball, 21 Topps Heritage High Number, 21 Heritage High Number Baseball, 21 Heritage High Number, Topps Heritage High Number Baseball, Topps Heritage High Number, Heritage High Number Baseball, Heritage High Number, Topps Heritage High Number checklist, Heritage High Number checklist, Topps Heritage High Number baseball checklist, 2021 Topps Heritage High Number checklist, 2021 Heritage High Number checklist",
       "year": "2021",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1383,7 +1752,7 @@
     {
       "Code": "2021_Topps_Baseball_Series_1",
       "DisplayName": "2021 Topps Series 1 Baseball",
-      "Keywords": "",
+      "Keywords": "2021 Topps Series 1 Baseball, 2021 Topps Series 1, 2021 Series 1 Baseball, 2021 Series 1, 21 Topps Series 1 Baseball, 21 Topps Series 1, 21 Series 1 Baseball, 21 Series 1, Topps Series 1 Baseball, Topps Series 1, Series 1 Baseball, Series 1, Topps Series One Baseball, Topps Series One, Series One Baseball, Series One, Topps Series 1 checklist, Series 1 checklist, 2021 Topps Series 1 checklist, 2021 Series 1 checklist",
       "year": "2021",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1392,7 +1761,7 @@
     {
       "Code": "2021_Topps_Baseball_Series_2",
       "DisplayName": "2021 Topps Series 2 Baseball",
-      "Keywords": "",
+      "Keywords": "2021 Topps Series 2 Baseball, 2021 Topps Series 2, 2021 Series 2 Baseball, 2021 Series 2, 21 Topps Series 2 Baseball, 21 Topps Series 2, 21 Series 2 Baseball, 21 Series 2, Topps Series 2 Baseball, Topps Series 2, Series 2 Baseball, Series 2, Topps Series Two Baseball, Topps Series Two, Series Two Baseball, Series Two, Topps Series 2 checklist, Series 2 checklist, 2021 Topps Series 2 checklist, 2021 Series 2 checklist",
       "year": "2021",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1401,7 +1770,7 @@
     {
       "Code": "2020_Topps_Chrome_baseball",
       "DisplayName": "2020 Topps Chrome Baseball",
-      "Keywords": "",
+      "Keywords": "2020 Topps Chrome Baseball, 2020 Topps Chrome, 2020 Chrome Baseball, 2020 Chrome, 20 Topps Chrome Baseball, 20 Topps Chrome, 20 Chrome Baseball, 20 Chrome, Topps Chrome Baseball, Topps Chrome, Chrome Baseball, Chrome, Topps Chrome checklist, Chrome checklist, Topps Chrome baseball checklist, 2020 Topps Chrome checklist, 2020 Chrome checklist",
       "year": "2020",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1410,7 +1779,7 @@
     {
       "Code": "2020_Topps_Chrome_Update_baseball",
       "DisplayName": "2020 Topps Chrome Update Baseball",
-      "Keywords": "",
+      "Keywords": "2020 Topps Chrome Update Baseball, 2020 Topps Chrome Update, 2020 Chrome Update Baseball, 2020 Chrome Update, 20 Topps Chrome Update Baseball, 20 Topps Chrome Update, 20 Chrome Update Baseball, 20 Chrome Update, Topps Chrome Update Baseball, Topps Chrome Update, Chrome Update Baseball, Chrome Update, Topps Chrome Update checklist, Chrome Update checklist, Topps Chrome Update baseball checklist, 2020 Topps Chrome Update checklist, 2020 Chrome Update checklist",
       "year": "2020",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1419,7 +1788,7 @@
     {
       "Code": "2020_Topps_Chrome_Update_Sapphire_baseball",
       "DisplayName": "2020 Topps Chrome Update Sapphire Baseball",
-      "Keywords": "",
+      "Keywords": "2020 Topps Chrome Update Sapphire Baseball, 2020 Topps Chrome Update Sapphire, 2020 Chrome Update Sapphire Baseball, 2020 Chrome Update Sapphire, 20 Topps Chrome Update Sapphire Baseball, 20 Topps Chrome Update Sapphire, 20 Chrome Update Sapphire Baseball, 20 Chrome Update Sapphire, Topps Chrome Update Sapphire Baseball, Topps Chrome Update Sapphire, Chrome Update Sapphire Baseball, Chrome Update Sapphire, Topps Chrome Sapphire Update Baseball, Topps Chrome Sapphire Update, Chrome Sapphire Update Baseball, Topps Chrome Update Sapphire checklist, Chrome Update Sapphire checklist, Topps Chrome Update Sapphire baseball checklist, 2020 Topps Chrome Update Sapphire checklist, 2020 Chrome Update Sapphire checklist",
       "year": "2020",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1428,7 +1797,7 @@
     {
       "Code": "2020_Topps_Heritage_HighNumber_baseball",
       "DisplayName": "2020 Topps Heritage High Number Baseball",
-      "Keywords": "",
+      "Keywords": "2020 Topps Heritage High Number Baseball, 2020 Topps Heritage High Number, 2020 Heritage High Number Baseball, 2020 Heritage High Number, 20 Topps Heritage High Number Baseball, 20 Topps Heritage High Number, 20 Heritage High Number Baseball, 20 Heritage High Number, Topps Heritage High Number Baseball, Topps Heritage High Number, Heritage High Number Baseball, Heritage High Number, Topps Heritage High Number checklist, Heritage High Number checklist, Topps Heritage High Number baseball checklist, 2020 Topps Heritage High Number checklist, 2020 Heritage High Number checklist",
       "year": "2020",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -1437,7 +1806,7 @@
     {
       "Code": "2020_Topps_Update_Series_baseball",
       "DisplayName": "2020 Topps Update Series Baseball",
-      "Keywords": "",
+      "Keywords": "2020 Topps Update Series Baseball, 2020 Topps Update Series, 2020 Topps Update, 2020 Update Series Baseball, 2020 Update Series, 2020 Update, 20 Topps Update Series Baseball, 20 Topps Update Series, 20 Topps Update, 20 Update Series Baseball, 20 Update Series, 20 Update, Topps Update Series Baseball, Topps Update Series, Topps Update, Update Series Baseball, Update Series, Update, Topps Update checklist, Update checklist, 2020 Topps Update checklist, 2020 Update checklist",
       "year": "2020",
       "sport": "baseball",
       "manufacturer": "Topps",
@@ -4423,18 +4792,18 @@
       "product": "Absolute"
     },
     {
-      "Code": "2025_panini_black_football",
+      "Code": "2025_Panini_Prizm_Black_Football",
       "DisplayName": "2025 Panini Black Football",
-      "Keywords": "2025 Panini Black Football 2025 Panini Black NFL 2025 Panini Black 2025 Black Football 2025 Black NFL 25 Panini Black Football 25 Panini Black NFL 25 Panini Black 25 Black Football Panini Black Football Panini Black NFL Panini Black Black Football Black NFL Black Panini Black checklist Black checklist Black football checklist 2025 Panini Black checklist 2025 Black checklist",
+      "Keywords": "panini black football 2025 black football black football",
       "year": "2025",
       "sport": "football",
       "manufacturer": "Panini",
       "product": "Black"
     },
     {
-      "Code": "2025_Panini_Prizm_Black_Football",
+      "Code": "2025_panini_black_football",
       "DisplayName": "2025 Panini Black Football",
-      "Keywords": "panini black football 2025 black football black football",
+      "Keywords": "2025 Panini Black Football 2025 Panini Black NFL 2025 Panini Black 2025 Black Football 2025 Black NFL 25 Panini Black Football 25 Panini Black NFL 25 Panini Black 25 Black Football Panini Black Football Panini Black NFL Panini Black Black Football Black NFL Black Panini Black checklist Black checklist Black football checklist 2025 Panini Black checklist 2025 Black checklist",
       "year": "2025",
       "sport": "football",
       "manufacturer": "Panini",
@@ -5449,15 +5818,6 @@
       "product": "CFL"
     },
     {
-      "Code": "2025-26-flair-hockey",
-      "DisplayName": "2025-26 Flair Hockey",
-      "Keywords": "2025-26 Flair Hockey, 2025-26 Upper Deck Flair Hockey, 2025-26 Flair Hockey cards, 2025-26 Flair NHL, 2025-26 Upper Deck Flair cards, 25-26 Flair Hockey, 25-26 Upper Deck Flair Hockey, Upper Deck Flair Hockey 2025-26, Upper Deck Flair 2025-26, Flair Hockey cards, Flair Hockey, Upper Deck Flair Hockey, Upper Deck Flair, Flair NHL cards, Upper Deck Flair hockey cards, Upper Deck Flair Hockey checklist, Flair checklist, 2025-26 Flair checklist",
-      "year": "2025-26",
-      "sport": "hockey",
-      "manufacturer": "Flair",
-      "product": "Hockey"
-    },
-    {
       "Code": "2025_26_upper_deck_flair_hockey_card",
       "DisplayName": "2025-26 Flair Hockey",
       "Keywords": "2025-26 Flair Hockey, 2025-26 Upper Deck Flair Hockey, 2025-26 Flair Hockey cards, 2025-26 Flair NHL, 2025-26 Upper Deck Flair cards, 25-26 Flair Hockey, 25-26 Upper Deck Flair Hockey, Upper Deck Flair Hockey 2025-26, Upper Deck Flair 2025-26, Flair Hockey cards, Flair Hockey, Upper Deck Flair Hockey, Upper Deck Flair, Flair NHL cards, Upper Deck Flair hockey cards, Upper Deck Flair Hockey checklist, Flair checklist, 2025-26 Flair checklist",
@@ -5474,15 +5834,6 @@
       "sport": "hockey",
       "manufacturer": "O-Pee-Chee",
       "product": "O-Pee-Chee"
-    },
-    {
-      "Code": "2025-26-skybox-metal-universe-hockey",
-      "DisplayName": "2025-26 Skybox Metal Universe Hockey",
-      "Keywords": "2025-26 SkyBox Metal Universe Hockey, 2025-26 Skybox Metal Universe Hockey, 2025-26 Metal Universe Hockey, 2025-26 SkyBox Metal Universe cards, 2025-26 Upper Deck SkyBox Metal Universe Hockey, 25-26 SkyBox Metal Universe Hockey, 25-26 Metal Universe Hockey, SkyBox Metal Universe Hockey 2025-26, Upper Deck Metal Universe Hockey 2025-26, Metal Universe Hockey cards, SkyBox Metal Universe Hockey, Metal Universe Hockey, SkyBox Metal Universe, Metal Universe NHL, SkyBox Metal Universe hockey cards, SkyBox Metal Universe Hockey, Metal Universe, 2025-26 SkyBox Metal Universe",
-      "year": "2025-26",
-      "sport": "hockey",
-      "manufacturer": "Skybox",
-      "product": "Metal Universe"
     },
     {
       "Code": "2025_26_skybox_metal_universe_hockey_card",
@@ -5510,15 +5861,6 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "SP"
-    },
-    {
-      "Code": "2025_26_spx_hockey",
-      "DisplayName": "2025-26 SPx Hockey",
-      "Keywords": "2025-26 SPx Hockey, SPx Hockey 2025-26, 2025-26 Upper Deck SPx Hockey, Upper Deck SPx Hockey 2025-26, 2025-26 SPx cards, SPx hockey cards 2025-26, Upper Deck SPx NHL cards 2025-26, SPx hockey hobby box 2025-26, SPx hockey retail 2025-26, SPx rookies hockey 2025-26, SPx rookie cards hockey 2025-26, SPx autos hockey 2025-26, SPx autographs hockey 2025-26, SPx patch autos hockey 2025-26, SPx jersey cards hockey 2025-26, SPx parallels hockey 2025-26, SPx inserts hockey 2025-26, Upper Deck SPx Hockey checklist 2025-26, SPx checklist",
-      "year": "2025-26",
-      "sport": "hockey",
-      "manufacturer": "Upper Deck",
-      "product": "SPx"
     },
     {
       "Code": "2025_26_upper_deck_spx_hockey_card",
@@ -5557,15 +5899,6 @@
       "product": "Black Diamond"
     },
     {
-      "Code": "2025_26_upper_deck_credentials_hockey",
-      "DisplayName": "2025-26 Upper Deck Credentials Hockey",
-      "Keywords": "2025-26 Upper Deck Credentials Hockey, Upper Deck Credentials Hockey 2025-26, 2025-26 UD Credentials Hockey, UD Credentials Hockey 2025-26, 2025-26 Upper Deck Credentials cards, Credentials hockey cards 2025-26, Upper Deck NHL cards 2025-26 Credentials, Credentials hockey hobby box 2025-26, Credentials hockey blaster 2025-26, Credentials hockey retail 2025-26, Credentials rookies hockey 2025-26, Credentials rookie cards hockey 2025-26, Credentials autos hockey 2025-26, Credentials autographs hockey 2025-26, Credentials parallels hockey 2025-26, Credentials ticket access cards hockey 2025-26, Credentials inserts hockey 2025-26, Upper Deck Credentials Hockey checklist 2025-26, Credentials checklist",
-      "year": "2025-26",
-      "sport": "hockey",
-      "manufacturer": "Upper Deck",
-      "product": "Credentials"
-    },
-    {
       "Code": "2025_26_upper_deck_credentials_hockey_card",
       "DisplayName": "2025-26 Upper Deck Credentials Hockey",
       "Keywords": "2025-26 Upper Deck Credentials Hockey, Upper Deck Credentials Hockey 2025-26, 2025-26 UD Credentials Hockey, UD Credentials Hockey 2025-26, 2025-26 Upper Deck Credentials cards, Credentials hockey cards 2025-26, Upper Deck NHL cards 2025-26 Credentials, Credentials hockey hobby box 2025-26, Credentials hockey blaster 2025-26, Credentials hockey retail 2025-26, Credentials rookies hockey 2025-26, Credentials rookie cards hockey 2025-26, Credentials autos hockey 2025-26, Credentials autographs hockey 2025-26, Credentials parallels hockey 2025-26, Credentials ticket access cards hockey 2025-26, Credentials inserts hockey 2025-26, Upper Deck Credentials Hockey checklist 2025-26, Credentials checklist",
@@ -5600,15 +5933,6 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "Series 1"
-    },
-    {
-      "Code": "2025_26_Upper_Deck_Series_2_Hockey",
-      "DisplayName": "2025-26 Upper Deck Series 2 Hockey",
-      "Keywords": "2025-26 Series 2 Hockey, Upper Deck Series 2 Hockey,  Series 2 Hockey, 2025 Upper Deck Series 2 Hockey, 2026 Upper Deck Series 2 Hockey",
-      "year": "2025-26",
-      "sport": "hockey",
-      "manufacturer": "Upper Deck",
-      "product": "Series 2"
     },
     {
       "Code": "2025_26_upper_deck_series_2_hockey_card",
@@ -5798,15 +6122,6 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "UEFA Japan Edition"
-    },
-    {
-      "Code": "2025_panini_absolute_k_league_soccer",
-      "DisplayName": "2025 Panini Absolute K League Soccer",
-      "Keywords": "",
-      "year": "2025",
-      "sport": "soccer",
-      "manufacturer": "Panini",
-      "product": "Absolute K Leauge"
     },
     {
       "Code": "2025-panini-absolute-k-league-soccer",
