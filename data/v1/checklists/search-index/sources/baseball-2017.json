@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "sport": "baseball",
+  "kind": "checklist_search_source",
+  "source": "Checklist DB map standalone source search",
+  "source_key": "2017",
+  "generated_at": "2026-05-07T16:42:58.846Z",
+  "sharded": true,
+  "shards": [
+    "baseball-2017-001.json",
+    "baseball-2017-002.json",
+    "baseball-2017-003.json",
+    "baseball-2017-004.json",
+    "baseball-2017-005.json"
+  ]
+}
