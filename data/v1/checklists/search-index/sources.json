@@ -1,7 +1,7 @@
 {
   "ok": true,
   "kind": "checklist_search_source_registry",
-  "generated_at": "2026-05-07T15:10:48.856Z",
+  "generated_at": "2026-05-07T16:42:58.846Z",
   "sources": {
     "baseball": [
       {
@@ -13,6 +13,11 @@
         "source_key": "2016",
         "path": "sources/baseball-2016.json",
         "generated_at": "2026-05-07T15:10:48.856Z"
+      },
+      {
+        "source_key": "2017",
+        "path": "sources/baseball-2017.json",
+        "generated_at": "2026-05-07T16:42:58.846Z"
       }
     ]
   }
