@@ -1,7 +1,7 @@
 {
   "ok": true,
   "kind": "checklist_search_source_registry",
-  "generated_at": "2026-05-07T21:35:49.752Z",
+  "generated_at": "2026-05-07T21:38:16.184Z",
   "sources": {
     "baseball": [
       {
@@ -25,11 +25,6 @@
         "generated_at": "2026-05-07T16:51:49.878Z"
       },
       {
-        "source_key": "2021",
-        "path": "sources/baseball-2021.json",
-        "generated_at": "2026-05-07T21:35:49.752Z"
-      },
-      {
         "source_key": "2022",
         "path": "sources/baseball-2022.json",
         "generated_at": "2026-05-07T16:58:41.983Z"
@@ -47,7 +42,7 @@
       {
         "source_key": "2025",
         "path": "sources/baseball-2025.json",
-        "generated_at": "2026-05-07T19:20:04.113Z"
+        "generated_at": "2026-05-07T21:38:16.184Z"
       }
     ]
   }
