@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "kind": "checklist_search_source_registry",
+  "generated_at": "2026-05-07T14:40:06.833Z",
+  "sources": {
+    "baseball": [
+      {
+        "source_key": "1950s",
+        "path": "sources/baseball-1950s.json",
+        "generated_at": "2026-05-07T14:40:06.833Z"
+      }
+    ]
+  }
+}
