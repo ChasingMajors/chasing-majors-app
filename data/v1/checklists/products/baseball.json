@@ -3,8 +3,8 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Checklist DB map targeted source merge",
-  "source_key": "2022",
-  "generated_at": "2026-05-07T02:19:09.220Z",
+  "source_key": "2023",
+  "generated_at": "2026-05-07T02:25:35.992Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -365,6 +365,12 @@
     "2024_Topps_Triple_Thread_Baseball": "baseball-007.json",
     "2024_Topps_Update_Series_Baseball": "baseball-007.json",
     "2024_Topps-X_Chris_Berman_Boomers_Baseball": "baseball-007.json",
+    "2022_Topps_Baseball_Series_1": "baseball-007.json",
+    "2022_Topps_Baseball_Series_2": "baseball-007.json",
+    "2022_Topps_Chrome_baseball": "baseball-007.json",
+    "2022_Topps_Chrome_Update_baseball": "baseball-007.json",
+    "2022_Topps_Heritage_baseball": "baseball-007.json",
+    "2022_Topps_Heritage_HighNumber_baseball": "baseball-007.json",
     "2023_bowman_1st_edition_baseball": "baseball-007.json",
     "2023_bowman_baseball": "baseball-007.json",
     "2023_bowman_chrome_baseball": "baseball-007.json",
@@ -435,12 +441,6 @@
     "2023_topps_world_baseball_classic_baseball": "baseball-008.json",
     "2023_topps_world_baseball_classic_global_stars_baseball": "baseball-008.json",
     "2023_topps_x_bob_ross_the_joy_of_baseball": "baseball-008.json",
-    "2023_topps_xpectations_baseball": "baseball-008.json",
-    "2022_Topps_Baseball_Series_1": "baseball-008.json",
-    "2022_Topps_Baseball_Series_2": "baseball-008.json",
-    "2022_Topps_Chrome_baseball": "baseball-008.json",
-    "2022_Topps_Chrome_Update_baseball": "baseball-008.json",
-    "2022_Topps_Heritage_baseball": "baseball-008.json",
-    "2022_Topps_Heritage_HighNumber_baseball": "baseball-008.json"
+    "2023_topps_xpectations_baseball": "baseball-008.json"
   }
 }
