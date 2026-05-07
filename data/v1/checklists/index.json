@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Checklist Google Sheets Products rebuild",
-  "generated_at": "2026-05-07T12:41:46.358Z",
+  "generated_at": "2026-05-07T14:57:54.214Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -1660,7 +1660,376 @@
       "product": "Xpectations"
     },
     {
-      "Code": "2022_Topps_Chrome_baseball",
+      "Code": "2022_bowman_1st_edition_baseball",
+      "DisplayName": "2022 Bowman 1st Edition Baseball",
+      "Keywords": "2022 Bowman 1st Edition Baseball, Bowman 1st Edition Baseball 2022, 2022 Bowman 1st Edition cards, Bowman First Edition baseball cards 2022, 2022 Bowman 1st Edition MLB cards, 1st Bowman cards 2022, first Bowman prospect cards 2022, Bowman prospects 2022, Bowman rookie cards 2022, Bowman 1st Edition prospects 2022, Bowman 1st Edition autos 2022, Bowman 1st Edition autographs 2022, limited edition Bowman baseball cards 2022, collectible prospect baseball cards 2022, premium prospect baseball cards 2022, Bowman 1st Edition parallels 2022, chrome prospect baseball cards 2022, top MLB prospect cards 2022 Bowman 1st Edition, Bowman 1st Edition Baseball checklist 2022, Bowman 1st Edition checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "1st Edition"
+    },
+    {
+      "Code": "2022_bowman_baseball",
+      "DisplayName": "2022 Bowman Baseball",
+      "Keywords": "2022 Bowman Baseball, Bowman Baseball 2022, 2022 Bowman cards, Bowman baseball cards 2022, 2022 Bowman MLB cards, Bowman rookie cards 2022, Bowman rookies baseball 2022, 1st Bowman cards 2022, first Bowman prospect cards 2022, Bowman prospects 2022, top MLB prospect cards 2022, Bowman autos 2022, Bowman autographs 2022, prospect autograph baseball cards 2022, Bowman chrome prospect cards 2022, paper prospect baseball cards 2022, Bowman parallels 2022, collectible prospect baseball cards 2022, Bowman Baseball checklist 2022, Bowman checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Bowman"
+    },
+    {
+      "Code": "2022_bowman_chrome_baseball",
+      "DisplayName": "2022 Bowman Chrome Baseball",
+      "Keywords": "2022 Bowman Chrome Baseball, Bowman Chrome Baseball 2022, 2022 Bowman Chrome cards, Bowman Chrome baseball cards 2022, 2022 Bowman Chrome prospects, Bowman Chrome MLB prospects 2022, Bowman Chrome rookie cards 2022, Bowman Chrome rookies 2022, 1st Bowman Chrome cards 2022, Bowman Chrome 1st prospects 2022, Bowman Chrome autos 2022, Bowman Chrome autographs 2022, Bowman Chrome prospect autos 2022, Bowman Chrome refractors 2022, Sapphire and mojo Bowman Chrome cards 2022, chrome prospect baseball cards 2022, top MLB prospect cards 2022 Bowman Chrome, prospect superfractors 2022, Bowman Chrome Baseball checklist 2022, Bowman Chrome checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome"
+    },
+    {
+      "Code": "2022_bowman_chrome_mega_box_baseball",
+      "DisplayName": "2022 Bowman Chrome Mega Box Baseball",
+      "Keywords": "2022 Bowman Chrome Mega Box Baseball, Bowman Chrome Mega Box Baseball 2022, 2022 Bowman Chrome Mega Box cards, Bowman Mega Box baseball cards 2022, 2022 Bowman Chrome Mega Box prospects, Bowman Chrome Mega Box MLB prospects 2022, Bowman Chrome Mega Box rookie cards 2022, Bowman Chrome Mega Box rookies 2022, Bowman Mega Box mojo refractors 2022, mojo refractor baseball cards 2022, Bowman Chrome Mega Box autos 2022, Bowman Chrome Mega Box autographs 2022, Bowman Chrome Mega Box prospect autos 2022, 1st Bowman Chrome cards 2022, chrome prospect baseball cards 2022, Bowman Mega Box parallels 2022, retail exclusive Bowman cards 2022, top MLB prospect cards 2022 Bowman Mega Box, Bowman Chrome Mega Box Baseball checklist 2022, Bowman Mega Box checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome Mega Box"
+    },
+    {
+      "Code": "2022_bowman_chrome_sapphire_edition_baseball",
+      "DisplayName": "2022 Bowman Chrome Sapphire Baseball",
+      "Keywords": "2022 Bowman Chrome Sapphire Baseball, Bowman Chrome Sapphire Baseball 2022, 2022 Bowman Chrome Sapphire cards, Bowman Chrome Sapphire baseball cards 2022, 2022 Bowman Chrome Sapphire prospects, Bowman Chrome Sapphire MLB prospects 2022, Bowman Chrome Sapphire rookie cards 2022, Bowman Chrome Sapphire rookies 2022, Bowman Chrome Sapphire 1st Bowman cards 2022, 1st Bowman Sapphire cards 2022, Bowman Chrome Sapphire autos 2022, Bowman Chrome Sapphire autographs 2022, Bowman Chrome Sapphire prospect autos 2022, Sapphire refractors baseball 2022, Bowman Sapphire parallels 2022, chrome prospect baseball cards 2022, premium prospect baseball cards 2022, top MLB prospect cards 2022 Bowman Chrome Sapphire, Bowman Chrome Sapphire Baseball checklist 2022, Bowman Chrome Sapphire checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome Sapphire"
+    },
+    {
+      "Code": "2022_bowman_chrome_x_baseball",
+      "DisplayName": "2022 Bowman Chrome X Baseball",
+      "Keywords": "2022 Bowman Chrome X Baseball, Bowman Chrome X Baseball 2022, 2022 Bowman Chrome X cards, Bowman Chrome X baseball cards 2022, 2022 Bowman Chrome X prospects, Bowman Chrome X MLB prospects 2022, Bowman Chrome X rookie cards 2022, Bowman Chrome X rookies 2022, Bowman Chrome X 1st Bowman cards 2022, 1st Bowman Chrome X cards 2022, Bowman Chrome X autos 2022, Bowman Chrome X autographs 2022, Bowman Chrome X prospect autos 2022, online exclusive Bowman cards 2022, premium chrome prospect baseball cards 2022, Bowman Chrome X parallels 2022, chrome prospect baseball cards 2022, top MLB prospect cards 2022 Bowman Chrome X, Bowman Chrome X Baseball checklist 2022, Bowman Chrome X checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome X"
+    },
+    {
+      "Code": "2022_bowman_draft_1st_edition_baseball",
+      "DisplayName": "2022 Bowman Draft 1st Edition Baseball",
+      "Keywords": "2022 Bowman Draft 1st Edition Baseball, Bowman Draft 1st Edition Baseball 2022, 2022 Bowman Draft 1st Edition cards, Bowman Draft 1st Edition baseball cards 2022, 2022 Bowman Draft prospects, Bowman Draft MLB prospects 2022, Bowman Draft 1st Bowman cards 2022, 1st Bowman baseball cards 2022, Bowman Draft rookie cards 2022, Bowman Draft autos 2022, Bowman Draft autographs 2022, Bowman Draft prospect autos 2022, paper prospect baseball cards 2022, MLB draft baseball cards 2022, exclusive Bowman Draft cards 2022, top MLB prospect cards 2022 Bowman Draft, Bowman Draft parallels 2022, Bowman Draft 1st Edition Baseball checklist 2022, Bowman Draft 1st Edition checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Draft 1st Edition"
+    },
+    {
+      "Code": "2022_bowman_draft_baseball",
+      "DisplayName": "2022 Bowman Draft Baseball",
+      "Keywords": "2022 Bowman Draft Baseball, Bowman Draft Baseball 2022, 2022 Bowman Draft cards, Bowman Draft baseball cards 2022, 2022 Bowman Draft prospects, Bowman Draft MLB prospects 2022, Bowman Draft rookie cards 2022, Bowman Draft rookies 2022, Bowman Draft 1st Bowman cards 2022, 1st Bowman baseball cards 2022, Bowman Draft autos 2022, Bowman Draft autographs 2022, Bowman Draft prospect autos 2022, draft prospect baseball cards 2022, MLB draft baseball cards 2022, Bowman Draft chrome cards 2022, Bowman Draft refractors 2022, top MLB prospect cards 2022 Bowman Draft, Bowman Draft Baseball checklist 2022, Bowman Draft checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Draft"
+    },
+    {
+      "Code": "2022_bowman_draft_sapphire_edition_baseball",
+      "DisplayName": "2022 Bowman Draft Sapphire Baseball",
+      "Keywords": "2022 Bowman Draft Sapphire Baseball, Bowman Draft Sapphire Baseball 2022, 2022 Bowman Draft Sapphire cards, Bowman Draft Sapphire baseball cards 2022, 2022 Bowman Draft Sapphire prospects, Bowman Draft Sapphire MLB prospects 2022, Bowman Draft Sapphire rookie cards 2022, Bowman Draft Sapphire rookies 2022, Bowman Draft Sapphire 1st Bowman cards 2022, 1st Bowman Sapphire cards 2022, Bowman Draft Sapphire autos 2022, Bowman Draft Sapphire autographs 2022, Bowman Draft Sapphire prospect autos 2022, Sapphire refractors baseball 2022, Bowman Sapphire parallels 2022, chrome prospect baseball cards 2022, premium prospect baseball cards 2022, top MLB draft prospect cards 2022, Bowman Draft Sapphire Baseball checklist 2022, Bowman Draft Sapphire checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Draft Sapphire"
+    },
+    {
+      "Code": "2022_bowman_heritage_baseball",
+      "DisplayName": "2022 Bowman Heritage Baseball",
+      "Keywords": "2022 Bowman Heritage Baseball, Bowman Heritage Baseball 2022, 2022 Bowman Heritage cards, Bowman Heritage baseball cards 2022, 2022 Bowman Heritage prospects, Bowman Heritage MLB prospects 2022, Bowman Heritage rookie cards 2022, Bowman Heritage rookies 2022, Bowman Heritage 1st Bowman cards 2022, vintage Bowman baseball cards 2022, Bowman Heritage autos 2022, Bowman Heritage autographs 2022, Bowman Heritage parallels 2022, Bowman Heritage chrome cards 2022, retro prospect baseball cards 2022, Bowman Heritage inserts 2022, nostalgic baseball cards Bowman 2022, top MLB prospect cards 2022 Bowman Heritage, Bowman Heritage Baseball checklist 2022, Bowman Heritage checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Heritage"
+    },
+    {
+      "Code": "2022_bowman_inception_baseball",
+      "DisplayName": "2022 Bowman Inception Baseball",
+      "Keywords": "2022 Bowman Inception Baseball, Bowman Inception Baseball 2022, 2022 Bowman Inception cards, Bowman Inception baseball cards 2022, 2022 Bowman Inception prospects, Bowman Inception MLB prospects 2022, Bowman Inception rookie cards 2022, Bowman Inception rookies 2022, Bowman Inception autos 2022, Bowman Inception autographs 2022, Bowman Inception prospect autos 2022, Bowman Inception patch autos 2022, Bowman Inception parallels 2022, colorful prospect baseball cards 2022, premium prospect baseball cards 2022, top MLB prospect cards 2022 Bowman Inception, Bowman Inception inserts 2022, luxury prospect baseball cards 2022, Bowman Inception Baseball checklist 2022, Bowman Inception checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Inception"
+    },
+    {
+      "Code": "2022_bowman_mega_box_chrome_baseball",
+      "DisplayName": "2022 Bowman Mega Box Chrome Baseball",
+      "Keywords": "2022 Bowman Mega Box Chrome Baseball, Bowman Mega Box Chrome Baseball 2022, 2022 Bowman Mega Box Chrome cards, Bowman Mega Box baseball cards 2022, 2022 Bowman Chrome Mega Box MLB cards, Bowman Chrome Mega Box prospects 2022, Bowman Mega Box rookie cards 2022, Bowman Mega Box rookies 2022, 1st Bowman Mega Box cards 2022, Bowman mojo refractor cards 2022, Bowman Mega Box autos 2022, Bowman Chrome Mega Box autographs 2022, mojo refractor baseball cards 2022, chrome prospect baseball cards 2022, premium prospect baseball cards 2022, Bowman Mega Box parallels 2022, collectible mojo baseball cards 2022, top MLB prospect cards 2022 Bowman Mega Box, Bowman Mega Box Chrome Baseball checklist 2022, Bowman Mega Box checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Mega Box Chrome"
+    },
+    {
+      "Code": "2022_bowman_npb_baseball",
+      "DisplayName": "2022 Bowman NPB Baseball",
+      "Keywords": "2022 Bowman NPB Baseball, Bowman NPB Baseball 2022, 2022 Bowman NPB cards, Bowman Nippon Professional Baseball 2022, NPB baseball cards 2022, Japanese baseball cards Bowman 2022, 2022 Bowman Japan baseball cards, Nippon Professional Baseball cards 2022, Japanese prospect baseball cards 2022, Bowman NPB rookie cards 2022, Bowman NPB autos 2022, NPB autographs baseball 2022, Japanese baseball stars cards 2022, Bowman NPB parallels 2022, international baseball cards Bowman 2022, chrome Japanese baseball cards 2022, premium NPB baseball cards 2022, Bowman NPB Baseball checklist 2022, Bowman Japan checklist, NPB checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "NPB"
+    },
+    {
+      "Code": "2022_bowman_platinum_baseball",
+      "DisplayName": "2022 Bowman Platinum Baseball",
+      "Keywords": "2022 Bowman Platinum Baseball, Bowman Platinum Baseball 2022, 2022 Bowman Platinum cards, Bowman Platinum baseball cards 2022, 2022 Bowman Platinum prospects, Bowman Platinum MLB prospects 2022, Bowman Platinum rookie cards 2022, Bowman Platinum rookies 2022, Bowman Platinum autos 2022, Bowman Platinum autographs 2022, Bowman Platinum prospect autos 2022, Bowman Platinum parallels 2022, Bowman Platinum ice foil cards 2022, Bowman Platinum refractors 2022, chrome prospect baseball cards 2022, retail exclusive Bowman cards 2022, premium prospect baseball cards 2022, top MLB prospect cards 2022 Bowman Platinum, Bowman Platinum Baseball checklist 2022, Bowman Platinum checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Platinum"
+    },
+    {
+      "Code": "2022_bowman_sapphire_edition_baseball",
+      "DisplayName": "2022 Bowman Sapphire Baseball",
+      "Keywords": "2022 Bowman Sapphire Baseball, Bowman Sapphire Baseball 2022, 2022 Bowman Sapphire cards, Bowman Sapphire baseball cards 2022, 2022 Bowman Sapphire prospects, Bowman Sapphire MLB prospects 2022, Bowman Sapphire rookie cards 2022, Bowman Sapphire rookies 2022, 1st Bowman Sapphire cards 2022, Bowman Sapphire prospect cards 2022, Bowman Sapphire autos 2022, Bowman Sapphire autographs 2022, Sapphire refractor baseball cards 2022, chrome prospect baseball cards 2022, premium prospect baseball cards 2022, Bowman Sapphire parallels 2022, collectible sapphire baseball cards 2022, top MLB prospect cards 2022 Bowman Sapphire, Bowman Sapphire Baseball checklist 2022, Bowman Sapphire checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Sapphire"
+    },
+    {
+      "Code": "2022_bowman_sterling_baseball",
+      "DisplayName": "2022 Bowman Sterling Baseball",
+      "Keywords": "2022 Bowman Sterling Baseball, Bowman Sterling Baseball 2022, 2022 Bowman Sterling cards, Bowman Sterling baseball cards 2022, 2022 Bowman Sterling prospects, Bowman Sterling MLB prospects 2022, Bowman Sterling rookie cards 2022, Bowman Sterling rookies 2022, Bowman Sterling autos 2022, Bowman Sterling autographs 2022, Bowman Sterling prospect autos 2022, chrome prospect baseball cards 2022, premium prospect baseball cards 2022, Bowman Sterling refractors 2022, Bowman Sterling parallels 2022, top MLB prospect cards 2022 Bowman Sterling, 1st Bowman chrome prospect cards 2022, luxury prospect baseball cards 2022, Bowman Sterling Baseball checklist 2022, Bowman Sterling checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Sterling"
+    },
+    {
+      "Code": "2022_bowman_transcendent_collection_baseball",
+      "DisplayName": "2022 Bowman Transcendent Collection Baseball",
+      "Keywords": "2022 Bowman Transcendent Collection Baseball, Bowman Transcendent Collection Baseball 2022, 2022 Bowman Transcendent cards, Bowman Transcendent baseball cards 2022, 2022 Bowman Transcendent MLB cards, Bowman Transcendent prospects 2022, ultra premium prospect baseball cards 2022, luxury baseball cards Bowman 2022, Bowman Transcendent rookie cards 2022, Bowman Transcendent autos 2022, Bowman Transcendent autographs 2022, Bowman Transcendent patch autos 2022, one of one baseball cards Bowman 2022, top MLB prospect autos 2022, high end baseball cards Bowman 2022, Bowman Transcendent superfractor 2022, premium prospect autograph cards 2022, Bowman Transcendent Collection checklist 2022, Bowman Transcendent checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Transcendent Collection"
+    },
+    {
+      "Code": "2022_bowmans_best_baseball",
+      "DisplayName": "2022 Bowmans Best Baseball",
+      "Keywords": "2022 Bowmans Best Baseball, Bowmans Best Baseball 2022, 2022 Bowmans Best cards, Bowmans Best baseball cards 2022, 2022 Bowmans Best prospects, Bowmans Best MLB prospects 2022, Bowmans Best rookie cards 2022, Bowmans Best rookies 2022, Bowmans Best autos 2022, Bowmans Best autographs 2022, Bowmans Best prospect autos 2022, Bowmans Best parallels 2022, Bowmans Best refractors 2022, Bowmans Best inserts 2022, chrome prospect baseball cards 2022, premium prospect baseball cards 2022, top MLB prospect cards 2022 Bowmans Best, Bowmans Best superfractor 2022, Bowmans Best Baseball checklist 2022, Bowmans Best checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Bowmans",
+      "product": "Best"
+    },
+    {
+      "Code": "2022_donruss_baseball",
+      "DisplayName": "2022 Donruss Baseball",
+      "Keywords": "2022 Donruss Baseball, Donruss Baseball 2022, 2022 Donruss cards, Donruss baseball cards 2022, 2022 Donruss MLB cards, Donruss rookie cards 2022, Donruss rookies baseball 2022, Donruss autos 2022, Donruss autographs baseball 2022, Donruss parallels 2022, rated rookie baseball cards 2022, optic preview baseball cards 2022, retro baseball cards Donruss 2022, colorful baseball parallels 2022, unleashed baseball cards 2022, downtown baseball cards 2022, collectible baseball inserts 2022, Donruss Baseball checklist 2022, Donruss checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Donruss",
+      "product": "Donruss"
+    },
+    {
+      "Code": "2022_donruss_optic_baseball",
+      "DisplayName": "2022 Donruss Optic Baseball",
+      "Keywords": "2022 Donruss Optic Baseball, Donruss Optic Baseball 2022, 2022 Donruss Optic cards, Optic baseball cards 2022, 2022 Donruss Optic MLB cards, Donruss Optic rookie cards 2022, Optic rookies baseball 2022, Donruss Optic autos 2022, Optic autographs baseball 2022, Donruss Optic parallels 2022, Optic holo baseball cards 2022, chromium baseball cards Panini 2022, Rated Rookie baseball cards 2022, Donruss Optic Rated Rookies 2022, color blast baseball cards 2022, downtown baseball cards 2022, premium chrome baseball cards Panini 2022, Donruss Optic inserts 2022, Donruss Optic Baseball checklist 2022, Optic checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Donruss",
+      "product": "Optic"
+    },
+    {
+      "Code": "2022_panini_absolute_baseball",
+      "DisplayName": "2022 Panini Absolute Baseball",
+      "Keywords": "2022 Panini Absolute Baseball, Panini Absolute Baseball 2022, 2022 Panini Absolute cards, Absolute baseball cards 2022, 2022 Panini Absolute MLB cards, Panini Absolute rookie cards 2022, Absolute rookies baseball 2022, Panini Absolute autos 2022, Absolute autographs baseball 2022, Panini Absolute memorabilia cards 2022, tools of the trade baseball cards 2022, kaboom baseball cards 2022, premium memorabilia baseball cards 2022, Panini Absolute parallels 2022, rookie force baseball cards 2022, collectible baseball relic cards 2022, Panini Absolute inserts 2022, Panini Absolute Baseball checklist 2022, Absolute checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Absolute"
+    },
+    {
+      "Code": "2022_panini_capstone_baseball",
+      "DisplayName": "2022 Panini Capstone Baseball",
+      "Keywords": "2022 Panini Capstone Baseball, Panini Capstone Baseball 2022, 2022 Panini Capstone cards, Capstone baseball cards 2022, 2022 Panini Capstone MLB cards, Panini Capstone rookie cards 2022, Capstone rookies baseball 2022, Panini Capstone autos 2022, Capstone autographs baseball 2022, Panini Capstone patch autos 2022, Panini Capstone parallels 2022, Capstone inserts 2022, premium baseball cards Panini 2022, artistic baseball cards Panini 2022, modern baseball cards Panini 2022, Panini chromium baseball cards 2022, collectible baseball inserts 2022, Panini Capstone Baseball checklist 2022, Capstone checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Capstone"
+    },
+    {
+      "Code": "2022_panini_chronicles_baseball",
+      "DisplayName": "2022 Panini Chronicles Baseball",
+      "Keywords": "2022 Panini Chronicles Baseball, Panini Chronicles Baseball 2022, 2022 Panini Chronicles cards, Chronicles baseball cards 2022, 2022 Panini Chronicles MLB cards, Panini Chronicles rookie cards 2022, Chronicles rookies baseball 2022, Panini Chronicles autos 2022, Chronicles autographs baseball 2022, Panini Chronicles parallels 2022, chromium baseball cards Panini 2022, multiple brands baseball cards 2022, Spectra baseball cards 2022, Obsidian baseball cards 2022, Contenders baseball cards 2022, Titan baseball cards 2022, Mosaic baseball cards 2022, Panini Chronicles inserts 2022, Panini Chronicles Baseball checklist 2022, Chronicles checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Chronicles"
+    },
+    {
+      "Code": "2022_panini_diamond_kings_baseball",
+      "DisplayName": "2022 Panini Diamond Kings Baseball",
+      "Keywords": "2022 Panini Diamond Kings Baseball, Panini Diamond Kings Baseball 2022, 2022 Panini Diamond Kings cards, Diamond Kings baseball cards 2022, 2022 Panini Diamond Kings MLB cards, Panini Diamond Kings rookie cards 2022, Diamond Kings rookies baseball 2022, Panini Diamond Kings autos 2022, Diamond Kings autographs baseball 2022, artistic baseball cards Panini 2022, watercolor baseball cards 2022, vintage inspired baseball cards 2022, framed baseball cards Panini 2022, downtown baseball cards 2022, collectible art baseball cards 2022, Panini Diamond Kings parallels 2022, retro baseball card designs 2022, Panini Diamond Kings inserts 2022, Panini Diamond Kings Baseball checklist 2022, Diamond Kings checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Diamond Kings"
+    },
+    {
+      "Code": "2022_panini_elite_extra_edition_baseball",
+      "DisplayName": "2022 Panini Elite Edition Baseball",
+      "Keywords": "2022 Panini Elite Extra Edition Baseball, Panini Elite Extra Edition Baseball 2022, 2022 Elite Extra Edition baseball cards, Elite Extra Edition baseball 2022, 2022 Panini Elite prospects baseball, Panini Elite Extra Edition prospects 2022, Elite Extra Edition rookie cards 2022, Panini prospect baseball cards 2022, Elite Extra Edition autos 2022, Elite Extra Edition autographs baseball 2022, Panini Elite parallels 2022, college baseball cards Panini 2022, Dominican prospect baseball cards 2022, draft prospect baseball cards 2022, Elite Extra Edition status parallels 2022, Panini Elite inserts 2022, top MLB prospect cards 2022 Panini, future stars baseball cards 2022, Panini Elite Extra Edition Baseball checklist 2022, Elite Extra Edition checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Elite Edition"
+    },
+    {
+      "Code": "2022_panini_flawless_baseball",
+      "DisplayName": "2022 Panini Flawless Baseball",
+      "Keywords": "2022 Panini Flawless Baseball, Panini Flawless Baseball 2022, 2022 Flawless baseball cards, Flawless baseball 2022, 2022 Panini Flawless cards, Flawless rookie cards 2022, Panini Flawless rookies 2022, Flawless autos 2022, Flawless autographs baseball 2022, Flawless patch autos 2022, diamond baseball cards Panini 2022, gemstone baseball cards 2022, luxury baseball cards Panini 2022, ultra premium baseball cards 2022, high end baseball cards Panini 2022, one of one baseball cards Panini 2022, Flawless booklet autographs 2022, Panini Flawless inserts 2022, Panini Flawless Baseball checklist 2022, Flawless checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Flawless"
+    },
+    {
+      "Code": "2022_panini_immaculate_collection_baseball",
+      "DisplayName": "2022 Panini Immaculate Collection Baseball",
+      "Keywords": "2022 Panini Immaculate Collection Baseball, Panini Immaculate Collection Baseball 2022, 2022 Panini Immaculate cards, Immaculate Collection baseball cards 2022, 2022 Panini Immaculate MLB cards, Panini Immaculate rookie cards 2022, Immaculate rookies baseball 2022, Panini Immaculate autos 2022, Immaculate autographs baseball 2022, Panini Immaculate patch autos 2022, jumbo patch baseball cards 2022, luxury baseball cards Panini 2022, high end baseball cards Panini 2022, premium memorabilia baseball cards 2022, bat knob baseball cards 2022, logo patch baseball cards 2022, booklet baseball cards Panini 2022, Panini Immaculate Collection inserts 2022, Panini Immaculate Collection Baseball checklist 2022, Immaculate checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Immaculate Collection"
+    },
+    {
+      "Code": "2022_panini_mosaic_baseball",
+      "DisplayName": "2022 Panini Mosaic Baseball",
+      "Keywords": "2022 Panini Mosaic Baseball, Panini Mosaic Baseball 2022, 2022 Panini Mosaic cards, Mosaic baseball cards 2022, 2022 Panini Mosaic MLB cards, Panini Mosaic rookie cards 2022, Mosaic rookies baseball 2022, Panini Mosaic autos 2022, Mosaic autographs baseball 2022, Panini Mosaic parallels 2022, Mosaic silver prizm baseball cards 2022, Mosaic reactive parallels 2022, Mosaic genesis baseball cards 2022, Mosaic hobby baseball cards 2022, chromium baseball cards Panini 2022, colorful baseball parallels 2022, Panini Mosaic inserts 2022, collectible Mosaic baseball cards 2022, Panini Mosaic Baseball checklist 2022, Mosaic checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Mosaic"
+    },
+    {
+      "Code": "2022_panini_national_treasures_mlb_baseball",
+      "DisplayName": "2022 Panini National Treasures Baseball",
+      "Keywords": "2022 Panini National Treasures Baseball, Panini National Treasures Baseball 2022, 2022 National Treasures baseball cards, National Treasures baseball 2022, 2022 Panini National Treasures cards, National Treasures rookie cards 2022, Panini National Treasures rookies 2022, National Treasures autos 2022, National Treasures autographs baseball 2022, National Treasures patch autos 2022, RPAs baseball 2022, booklet autographs baseball 2022, premium baseball cards Panini 2022, luxury baseball cards 2022, high end baseball cards Panini 2022, National Treasures bat knob cards 2022, one of one baseball cards Panini 2022, Panini National Treasures inserts 2022, Panini National Treasures Baseball checklist 2022, National Treasures checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "National Treasures"
+    },
+    {
+      "Code": "2022_panini_prizm_baseball",
+      "DisplayName": "2022 Panini Prizm Baseball",
+      "Keywords": "2022 Panini Prizm Baseball, Panini Prizm Baseball 2022, 2022 Panini Prizm cards, Prizm baseball cards 2022, 2022 Panini Prizm MLB cards, Panini Prizm rookie cards 2022, Prizm rookies baseball 2022, Panini Prizm autos 2022, Prizm autographs baseball 2022, Panini Prizm parallels 2022, silver prizm baseball cards 2022, Prizm refractors baseball 2022, colorful baseball parallels 2022, chromium baseball cards Panini 2022, snake skin prizm baseball cards 2022, tiger stripe prizm baseball cards 2022, collectible Prizm baseball cards 2022, Panini Prizm inserts 2022, Panini Prizm Baseball checklist 2022, Prizm checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Prizm"
+    },
+    {
+      "Code": "2022_panini_prizm_draft_picks_baseball",
+      "DisplayName": "2022 Panini Prizm Draft Picks Baseball",
+      "Keywords": "2022 Panini Prizm Draft Picks Baseball, Panini Prizm Draft Picks Baseball 2022, 2022 Prizm Draft Picks baseball cards, Prizm Draft Picks baseball 2022, 2022 Panini Draft Picks baseball, Panini college baseball cards 2022, Prizm Draft Picks rookie cards 2022, MLB draft prospect cards 2022, Panini Prizm Draft Picks autos 2022, Draft Picks autographs baseball 2022, Panini Prizm Draft Picks parallels 2022, Draft Picks refractors baseball 2022, college prospect baseball cards 2022, Panini chromium baseball cards 2022, color blast baseball 2022 Panini, Prizm Draft Picks inserts 2022, top MLB draft prospects 2022, future stars baseball cards Panini 2022, Panini Prizm Draft Picks Baseball checklist 2022, Prizm Draft Picks checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Prizm Draft Picks"
+    },
+    {
+      "Code": "2022_panini_select_baseball",
+      "DisplayName": "2022 Panini Select Baseball",
+      "Keywords": "2022 Panini Select Baseball, Panini Select Baseball 2022, 2022 Panini Select cards, Select baseball cards 2022, 2022 Panini Select MLB cards, Panini Select rookie cards 2022, Select rookies baseball 2022, Panini Select autos 2022, Select autographs baseball 2022, Panini Select parallels 2022, Select silver prizm baseball cards 2022, tri color baseball parallels 2022, zebra prizm baseball cards 2022, elephant prizm baseball cards 2022, chromium baseball cards Panini 2022, premier level baseball cards 2022, diamond level baseball cards 2022, Panini Select inserts 2022, Panini Select Baseball checklist 2022, Select checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Select"
+    },
+    {
+      "Code": "2022_panini_three_and_two_debut_edition_baseball",
+      "DisplayName": "2022 Panini Three & Two Baseball",
+      "Keywords": "2022 Panini Three and Two Baseball, 2022 Panini Three & Two Baseball, Panini Three and Two Baseball 2022, Panini Three & Two Baseball 2022, 2022 Three and Two baseball cards, Three and Two baseball cards 2022, 2022 Panini Three and Two MLB cards, Panini Three and Two rookie cards 2022, Three and Two rookies baseball 2022, Panini Three and Two autos 2022, Three and Two autographs baseball 2022, Panini Three and Two patch autos 2022, premium baseball cards Panini 2022, luxury baseball cards Panini 2022, high end baseball cards Panini 2022, memorabilia baseball cards Panini 2022, booklet baseball cards Panini 2022, Panini Three and Two inserts 2022, Panini Three and Two Baseball checklist 2022, Three and Two checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Three & Two"
+    },
+    {
+      "Code": "2022_topps_mlb_3d_baseball",
+      "DisplayName": "2022 Topps 3D Baseball",
+      "Keywords": "2022 Topps 3D Baseball, Topps 3D Baseball 2022, 2022 Topps 3D cards, 3D baseball cards 2022, 2022 Topps 3D MLB cards, lenticular baseball cards Topps 2022, motion baseball cards 2022, Topps 3D rookie cards 2022, Julio Rodriguez 3D rookie cards 2022, Bobby Witt Jr 3D rookie cards 2022, Topps 3D parallels 2022, collectible lenticular baseball cards 2022, online exclusive baseball cards Topps 2022, unique baseball card technology 2022, modern baseball cards Topps 2022, Topps 3D inserts 2022, collectible rookie baseball cards 2022, Topps 3D Baseball checklist 2022, Topps 3D checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "3D"
+    },
+    {
+      "Code": "2022_topps_allen_ginter_baseball",
+      "DisplayName": "2022 Topps Allen & Ginter Baseball",
+      "Keywords": "2022 Topps Allen & Ginter Baseball, Topps Allen & Ginter Baseball 2022, 2022 Allen and Ginter cards, Allen & Ginter baseball cards 2022, 2022 Topps Allen & Ginter MLB cards, Topps Allen & Ginter rookie cards 2022, Allen & Ginter rookies 2022, Topps Allen & Ginter autos 2022, Allen & Ginter autographs baseball 2022, mini baseball cards Topps 2022, quirky baseball cards 2022, non sports cards Allen & Ginter 2022, celebrity cards Allen & Ginter 2022, relic cards Allen & Ginter 2022, rip cards Allen & Ginter 2022, Topps Allen & Ginter parallels 2022, collectible mini cards baseball 2022, vintage style baseball cards Topps 2022, Topps Allen & Ginter Baseball checklist 2022, Allen & Ginter checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Allen & Ginter"
+    },
+    {
+      "Code": "2022_topps_allen_ginter_chrome_baseball",
+      "DisplayName": "2022 Topps Allen & Ginter Chrome Baseball",
+      "Keywords": "2022 Topps Allen & Ginter Chrome Baseball, Topps Allen & Ginter Chrome Baseball 2022, 2022 Allen and Ginter Chrome cards, Allen & Ginter Chrome baseball cards 2022, 2022 Topps Allen & Ginter Chrome MLB cards, Topps Allen & Ginter Chrome hobby box 2022, Allen & Ginter Chrome rookie cards 2022, Topps Allen & Ginter Chrome rookies 2022, Allen & Ginter Chrome autos 2022, Allen & Ginter Chrome autographs baseball 2022, Topps Allen & Ginter Chrome parallels 2022, Allen & Ginter Chrome refractors 2022, chrome mini baseball cards 2022, quirky chrome baseball cards Topps 2022, non sports chrome cards Allen & Ginter 2022, Allen & Ginter Chrome inserts 2022, chromium baseball cards Topps 2022, Topps Allen & Ginter Chrome Baseball checklist 2022, Allen & Ginter Chrome checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Allen & Ginter Chrome"
+    },
+    {
+      "Code": "2022_topps_allen_ginter_x_baseball",
+      "DisplayName": "2022 Topps Allen & Ginter X Baseball",
+      "Keywords": "2022 Topps Allen & Ginter X Baseball, Topps Allen & Ginter X Baseball 2022, 2022 Allen and Ginter X cards, Allen & Ginter X baseball cards 2022, 2022 Topps Allen & Ginter X MLB cards, black border baseball cards Topps 2022, Topps Allen & Ginter X rookie cards 2022, Allen & Ginter X rookies 2022, Topps Allen & Ginter X autos 2022, Allen & Ginter X autographs baseball 2022, online exclusive baseball cards Topps 2022, mini baseball cards Topps 2022, quirky baseball cards 2022, non sports baseball cards Topps 2022, Topps Allen & Ginter X parallels 2022, collectible mini cards baseball 2022, dark themed baseball cards Topps 2022, Topps Allen & Ginter X Baseball checklist 2022, Allen & Ginter X checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Allen & Ginter X"
+    },
+    {
+      "Code": "2022_topps_archives_baseball",
+      "DisplayName": "2022 Topps Archives Baseball",
+      "Keywords": "2022 Topps Archives Baseball, Topps Archives Baseball 2022, 2022 Topps Archives cards, Archives baseball cards 2022, 2022 Topps Archives MLB cards, Topps Archives rookie cards 2022, Archives rookies baseball 2022, Topps Archives autos 2022, Archives autographs baseball 2022, retro baseball cards Topps 2022, vintage style baseball cards 2022, fan favorite autographs 2022, Topps Archives signatures 2022, nostalgic baseball cards Topps 2022, Topps Archives parallels 2022, classic baseball card designs 2022, collectible retro baseball cards 2022, Topps Archives inserts 2022, Topps Archives Baseball checklist 2022, Archives checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Archives"
+    },
+    {
+      "Code": "2022_topps_archives_snapshots_baseball",
+      "DisplayName": "2022 Topps Archives Snapshots Baseball",
+      "Keywords": "2022 Topps Archives Snapshots Baseball, Topps Archives Snapshots Baseball 2022, 2022 Topps Archives Snapshots cards, Archives Snapshots baseball cards 2022, 2022 Topps Snapshots MLB cards, Topps online exclusive baseball cards 2022, Archives Snapshots rookie cards 2022, Topps Archives Snapshots rookies 2022, Topps Archives Snapshots autos 2022, Snapshots autographs baseball 2022, black and white baseball cards Topps 2022, artistic baseball photography cards 2022, retro photography baseball cards 2022, Topps Archives Snapshots parallels 2022, premium photography baseball cards 2022, collectible baseball photo cards 2022, Archives Snapshots inserts 2022, Topps Archives Snapshots Baseball checklist 2022, Archives Snapshots checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Archives Snapshots"
+    },
+    {
+      "Code": "2022_topps_black_white_baseball",
+      "DisplayName": "2022 Topps Black & White Baseball",
+      "Keywords": "2022 Topps Black & White Baseball, Topps Black & White Baseball 2022, 2022 Topps Black and White cards, Black & White baseball cards 2022, 2022 Topps Black & White MLB cards, monochrome baseball cards Topps 2022, artistic baseball photography cards 2022, Topps Black & White rookie cards 2022, Black & White rookies baseball 2022, Topps Black & White autos 2022, Black & White autographs baseball 2022, online exclusive baseball cards Topps 2022, premium photography baseball cards 2022, collectible black and white baseball cards 2022, limited edition baseball cards Topps 2022, Topps Black & White parallels 2022, modern art baseball cards 2022, Topps Black & White Baseball checklist 2022, Black & White checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Black & White"
+    },
+    {
+      "Code": "2022_topps_brooklyn_collection_baseball",
+      "DisplayName": "2022 Topps Brooklyn Collection Baseball",
+      "Keywords": "2022 Topps Brooklyn Collection Baseball, Topps Brooklyn Collection Baseball 2022, 2022 Topps Brooklyn Collection cards, Brooklyn Collection baseball cards 2022, 2022 Topps Brooklyn MLB cards, Topps Brooklyn Collection rookie cards 2022, Brooklyn Collection rookies 2022, Topps Brooklyn Collection autos 2022, Brooklyn Collection autographs baseball 2022, premium autograph baseball cards 2022, luxury baseball cards Topps 2022, online exclusive baseball cards Topps 2022, high end baseball cards Topps 2022, Topps Brooklyn Collection parallels 2022, collectible baseball autograph cards 2022, modern baseball cards Topps 2022, Topps Brooklyn Collection inserts 2022, Topps Brooklyn Collection Baseball checklist 2022, Brooklyn Collection checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Brooklyn Collection"
+    },
+    {
+      "Code": "2022_topps_chrome_baseball",
       "DisplayName": "2022 Topps Chrome Baseball",
       "Keywords": "2022 Topps Chrome Baseball, 2022 Topps Chrome, 2022 Chrome Baseball, 2022 Chrome, 22 Topps Chrome Baseball, 22 Topps Chrome, 22 Chrome Baseball, 22 Chrome, Topps Chrome Baseball, Topps Chrome, Chrome Baseball, Chrome, Topps Chrome checklist, Chrome checklist, Topps Chrome baseball checklist, 2022 Topps Chrome checklist, 2022 Chrome checklist",
       "year": "2022",
@@ -1669,7 +2038,70 @@
       "product": "Chrome"
     },
     {
-      "Code": "2022_Topps_Chrome_Update_baseball",
+      "Code": "2022_topps_chrome_ben_baller_baseball",
+      "DisplayName": "2022 Topps Chrome Ben Baller Baseball",
+      "Keywords": "2022 Topps Chrome Ben Baller Baseball, Topps Chrome Ben Baller Baseball 2022, 2022 Topps Chrome Ben Baller cards, Ben Baller baseball cards 2022, 2022 Topps Chrome Ben Baller MLB cards, Ben Baller chrome baseball cards 2022, Topps online exclusive baseball cards 2022, Ben Baller rookie cards 2022, Topps Chrome Ben Baller rookies 2022, Topps Chrome Ben Baller autos 2022, Ben Baller autographs baseball 2022, Ben Baller parallels 2022, Ben Baller refractors 2022, flashy chrome baseball cards 2022, premium chrome baseball cards Topps 2022, Topps Chrome Ben Baller exclusive parallels 2022, Ben Baller inserts 2022, chromium baseball cards Topps 2022, Topps Chrome Ben Baller Baseball checklist 2022, Ben Baller checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Ben Baller"
+    },
+    {
+      "Code": "2022_topps_chrome_black_baseball",
+      "DisplayName": "2022 Topps Chrome Black Baseball",
+      "Keywords": "2022 Topps Chrome Black Baseball, Topps Chrome Black Baseball 2022, 2022 Topps Chrome Black cards, Chrome Black baseball cards 2022, 2022 Topps Chrome Black MLB cards, Topps Chrome Black hobby box 2022, Chrome Black rookie cards 2022, Topps Chrome Black rookies 2022, Topps Chrome Black autos 2022, Chrome Black autographs baseball 2022, encased autograph baseball cards 2022, Topps Chrome Black parallels 2022, black chrome baseball cards Topps 2022, premium chrome baseball cards 2022, chromium baseball cards Topps 2022, luxury baseball cards Topps 2022, Topps Chrome Black inserts 2022, collectible encased autos baseball 2022, Topps Chrome Black Baseball checklist 2022, Chrome Black checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Black"
+    },
+    {
+      "Code": "2022_topps_chrome_logofractor_edition_baseball",
+      "DisplayName": "2022 Topps Chrome Logofractor Baseball",
+      "Keywords": "2022 Topps Chrome Logofractor Baseball, Topps Chrome Logofractor Baseball 2022, 2022 Topps Chrome Logofractor cards, Logofractor baseball cards 2022, 2022 Topps Chrome Logofractor MLB cards, Topps Chrome Logofractor rookie cards 2022, Logofractor rookies baseball 2022, Julio Rodriguez Logofractor rookie cards 2022, Bobby Witt Jr Logofractor rookie cards 2022, Topps Chrome Logofractor autos 2022, Logofractor autographs baseball 2022, Logofractor parallels 2022, exclusive chrome baseball cards Topps 2022, chromium baseball cards Topps 2022, premium chrome baseball cards 2022, collectible Logofractor baseball cards 2022, retail exclusive baseball cards Topps 2022, Topps Chrome Logofractor Baseball checklist 2022, Logofractor checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Logofractor"
+    },
+    {
+      "Code": "2022_topps_chrome_npb_baseball",
+      "DisplayName": "2022 Topps Chrome NPB Baseball",
+      "Keywords": "2022 Topps Chrome NPB Baseball, Topps Chrome NPB Baseball 2022, 2022 Topps Chrome NPB cards, Topps Chrome Nippon Professional Baseball 2022, NPB chrome baseball cards 2022, Japanese baseball chrome cards Topps 2022, 2022 Topps Chrome Japan baseball cards, Nippon Professional Baseball chrome cards 2022, Japanese baseball stars cards 2022, Topps Chrome NPB rookie cards 2022, Topps Chrome NPB autos 2022, NPB autographs baseball 2022, Topps Chrome NPB parallels 2022, Japanese refractor baseball cards 2022, international baseball cards Topps 2022, chromium Japanese baseball cards 2022, premium NPB baseball cards 2022, Topps Chrome NPB Baseball checklist 2022, Topps Chrome Japan checklist, NPB checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome NPB"
+    },
+    {
+      "Code": "2022_topps_chrome_platinum_anniversary_baseball",
+      "DisplayName": "2022 Topps Chrome Platinum Anniversary Baseball",
+      "Keywords": "2022 Topps Chrome Platinum Anniversary Baseball, Topps Chrome Platinum Anniversary Baseball 2022, 2022 Topps Chrome Platinum Anniversary cards, Chrome Platinum Anniversary baseball cards 2022, 2022 Topps Chrome Platinum MLB cards, Topps Chrome Platinum hobby box 2022, Chrome Platinum rookie cards 2022, Topps Chrome Platinum rookies 2022, Topps Chrome Platinum autos 2022, Chrome Platinum autographs baseball 2022, Topps Chrome Platinum parallels 2022, Chrome Platinum refractors 2022, Topps Chrome Platinum superfractor 2022, retro chrome baseball cards Topps 2022, anniversary baseball cards Topps 2022, Topps Chrome Platinum inserts 2022, vintage design chrome baseball cards 2022, chromium baseball cards Topps 2022, Topps Chrome Platinum Anniversary Baseball checklist 2022, Chrome Platinum Anniversary checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Platinum Anniversary"
+    },
+    {
+      "Code": "2022_topps_chrome_sapphire_edition_baseball",
+      "DisplayName": "2022 Topps Chrome Sapphire Baseball",
+      "Keywords": "2022 Topps Chrome Sapphire Baseball, Topps Chrome Sapphire Baseball 2022, 2022 Topps Chrome Sapphire cards, Chrome Sapphire baseball cards 2022, 2022 Topps Chrome Sapphire MLB cards, Topps Chrome Sapphire rookie cards 2022, Chrome Sapphire rookies 2022, Julio Rodriguez Sapphire rookie cards 2022, Bobby Witt Jr Sapphire rookie cards 2022, Topps Chrome Sapphire autos 2022, Chrome Sapphire autographs baseball 2022, Sapphire refractors baseball 2022, Topps Chrome Sapphire parallels 2022, premium chrome baseball cards Topps 2022, chromium baseball cards Topps 2022, online exclusive baseball cards Topps 2022, Topps Chrome Sapphire inserts 2022, collectible sapphire baseball cards 2022, Topps Chrome Sapphire Baseball checklist 2022, Chrome Sapphire checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Sapphire"
+    },
+    {
+      "Code": "2022_topps_chrome_sonic_lite_baseball",
+      "DisplayName": "2022 Topps Chrome Sonic Lite Baseball",
+      "Keywords": "2022 Topps Chrome Sonic Lite Baseball, Topps Chrome Sonic Lite Baseball 2022, 2022 Topps Chrome Sonic Lite cards, Chrome Sonic Lite baseball cards 2022, 2022 Topps Chrome Sonic MLB cards, Topps Chrome Sonic Lite box 2022, Sonic Lite rookie cards 2022, Topps Chrome Sonic rookies 2022, Topps Chrome Sonic autos 2022, Sonic autographs baseball 2022, Topps Chrome Sonic parallels 2022, Sonic wave refractors 2022, Topps Chrome Sonic lite exclusive parallels 2022, chromium baseball cards Topps 2022, Topps Chrome Sonic inserts 2022, short print chrome baseball cards 2022, premium chrome baseball cards 2022, Topps Chrome Sonic Lite Baseball checklist 2022, Chrome Sonic Lite checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Sonic Lite"
+    },
+    {
+      "Code": "2022_topps_chrome_update_baseball",
       "DisplayName": "2022 Topps Chrome Update Baseball",
       "Keywords": "2022 Topps Chrome Update Baseball, 2022 Topps Chrome Update, 2022 Chrome Update Baseball, 2022 Chrome Update, 22 Topps Chrome Update Baseball, 22 Topps Chrome Update, 22 Chrome Update Baseball, 22 Chrome Update, Topps Chrome Update Baseball, Topps Chrome Update, Chrome Update Baseball, Chrome Update, Topps Chrome Update checklist, Chrome Update checklist, Topps Chrome Update baseball checklist, 2022 Topps Chrome Update checklist, 2022 Chrome Update checklist",
       "year": "2022",
@@ -1678,7 +2110,142 @@
       "product": "Chrome Update"
     },
     {
-      "Code": "2022_Topps_Heritage_baseball",
+      "Code": "2022_topps_chrome_update_sapphire_edition_baseball",
+      "DisplayName": "2022 Topps Chrome Update Sapphire Baseball",
+      "Keywords": "2022 Topps Chrome Update Sapphire Baseball, Topps Chrome Update Sapphire Baseball 2022, 2022 Topps Chrome Update Sapphire cards, Chrome Update Sapphire baseball cards 2022, 2022 Topps Chrome Update Sapphire MLB cards, Topps Chrome Update Sapphire rookie cards 2022, Chrome Update Sapphire rookies 2022, Julio Rodriguez rookie cards 2022 Sapphire, Bobby Witt Jr rookie cards Sapphire 2022, Topps Chrome Update Sapphire autos 2022, Chrome Update Sapphire autographs baseball 2022, Sapphire refractors baseball 2022, Topps Chrome Update Sapphire parallels 2022, premium chrome baseball cards Topps 2022, chromium baseball cards Topps 2022, Topps online exclusive baseball cards 2022, Update Sapphire short prints 2022, flagship chrome update baseball cards 2022, Topps Chrome Update Sapphire Baseball checklist 2022, Chrome Update Sapphire checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Update Sapphire"
+    },
+    {
+      "Code": "2022_topps_clearly_authentic_baseball",
+      "DisplayName": "2022 Topps Clearly Authentic Baseball",
+      "Keywords": "2022 Topps Clearly Authentic Baseball, Topps Clearly Authentic Baseball 2022, 2022 Topps Clearly Authentic cards, Clearly Authentic baseball cards 2022, 2022 Topps Clearly Authentic MLB cards, acetate baseball cards Topps 2022, clear baseball cards 2022, Topps Clearly Authentic rookie cards 2022, Clearly Authentic rookies baseball 2022, Topps Clearly Authentic autos 2022, Clearly Authentic autographs baseball 2022, encased autograph baseball cards 2022, premium autograph baseball cards Topps 2022, one hit baseball cards Topps 2022, luxury baseball cards Topps 2022, collectible acetate baseball cards 2022, Topps Clearly Authentic parallels 2022, Topps Clearly Authentic Baseball checklist 2022, Clearly Authentic checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Clearly Authentic"
+    },
+    {
+      "Code": "2022_topps_cosmic_chrome_baseball",
+      "DisplayName": "2022 Topps Cosmic Chrome Baseball",
+      "Keywords": "2022 Topps Cosmic Chrome Baseball, Topps Cosmic Chrome Baseball 2022, 2022 Topps Cosmic Chrome cards, Cosmic Chrome baseball cards 2022, 2022 Topps Cosmic Chrome MLB cards, Topps Cosmic Chrome rookie cards 2022, Cosmic Chrome rookies baseball 2022, Julio Rodriguez Cosmic Chrome rookie cards 2022, Bobby Witt Jr Cosmic Chrome rookie cards 2022, Topps Cosmic Chrome autos 2022, Cosmic Chrome autographs baseball 2022, galactic baseball cards Topps 2022, space themed baseball cards 2022, chromium baseball cards Topps 2022, premium chrome baseball cards 2022, Topps Cosmic Chrome parallels 2022, planet refractors baseball 2022, collectible cosmic baseball cards 2022, Topps Cosmic Chrome Baseball checklist 2022, Cosmic Chrome checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Cosmic Chrome"
+    },
+    {
+      "Code": "2022_topps_definitive_collection_baseball",
+      "DisplayName": "2022 Topps Definitive Collection Baseball",
+      "Keywords": "2022 Topps Definitive Collection Baseball, Topps Definitive Collection Baseball 2022, 2022 Topps Definitive cards, Definitive Collection baseball cards 2022, 2022 Topps Definitive MLB cards, Topps Definitive rookie cards 2022, Definitive rookies baseball 2022, Topps Definitive autos 2022, Definitive autographs baseball 2022, Topps Definitive patch autos 2022, luxury baseball cards Topps 2022, high end baseball cards Topps 2022, premium autograph baseball cards 2022, jumbo patch baseball cards 2022, cut signature baseball cards 2022, collectible memorabilia baseball cards 2022, framed autograph baseball cards 2022, Topps Definitive Collection Baseball checklist 2022, Definitive checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Definitive Collection"
+    },
+    {
+      "Code": "2022_topps_diamond_icons_baseball",
+      "DisplayName": "2022 Topps Diamond Icons Baseball",
+      "Keywords": "2022 Topps Diamond Icons Baseball, Topps Diamond Icons Baseball 2022, 2022 Topps Diamond Icons cards, Diamond Icons baseball cards 2022, 2022 Topps Diamond Icons MLB cards, Topps Diamond Icons rookie cards 2022, Diamond Icons rookies baseball 2022, Topps Diamond Icons autos 2022, Diamond Icons autographs baseball 2022, luxury baseball cards Topps 2022, high end baseball cards Topps 2022, premium autograph baseball cards 2022, cut signature baseball cards 2022, jumbo patch autograph baseball cards 2022, one of one baseball cards Topps 2022, collectible luxury baseball cards 2022, framed autograph baseball cards 2022, Topps Diamond Icons Baseball checklist 2022, Diamond Icons checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Diamond Icons"
+    },
+    {
+      "Code": "2022_topps_dynamic_duals_baseball",
+      "DisplayName": "2022 Topps Dynamic Duals Baseball",
+      "Keywords": "2022 Topps Dynamic Duals Baseball, Topps Dynamic Duals Baseball 2022, 2022 Topps Dynamic Duals cards, Dynamic Duals baseball cards 2022, 2022 Topps Dynamic Duals MLB cards, dual player baseball cards 2022, paired baseball stars cards 2022, Topps Dynamic Duals rookie cards 2022, Dynamic Duals rookies baseball 2022, Topps Dynamic Duals autos 2022, Dynamic Duals autographs baseball 2022, online exclusive baseball cards Topps 2022, collectible duo baseball cards 2022, modern baseball inserts Topps 2022, parallel baseball cards Topps 2022, superstar pairing baseball cards 2022, collectible themed baseball cards 2022, Topps Dynamic Duals Baseball checklist 2022, Dynamic Duals checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Dynamic Duals"
+    },
+    {
+      "Code": "2022_topps_dynasty_baseball",
+      "DisplayName": "2022 Topps Dynasty Baseball",
+      "Keywords": "2022 Topps Dynasty Baseball, Topps Dynasty Baseball 2022, 2022 Topps Dynasty cards, Dynasty baseball cards 2022, 2022 Topps Dynasty MLB cards, Topps Dynasty hobby box 2022, Dynasty rookie cards 2022, Topps Dynasty rookies 2022, Topps Dynasty autos 2022, Dynasty autographs baseball 2022, Topps Dynasty patch autos 2022, Dynasty one of one cards 2022, Topps Dynasty cut signatures 2022, luxury baseball cards Topps 2022, premium autograph baseball cards 2022, high end baseball cards Topps 2022, Topps Dynasty parallels 2022, ultra premium baseball cards 2022, Topps Dynasty Baseball checklist 2022, Dynasty checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Dynasty"
+    },
+    {
+      "Code": "2022_topps_finest_baseball",
+      "DisplayName": "2022 Topps Finest Baseball",
+      "Keywords": "2022 Topps Finest Baseball, Topps Finest Baseball 2022, 2022 Topps Finest cards, Finest baseball cards 2022, 2022 Topps Finest MLB cards, Topps Finest hobby box 2022, Finest rookie cards 2022, Topps Finest rookies 2022, Julio Rodriguez rookie cards Finest 2022, Bobby Witt Jr Finest rookie cards 2022, Topps Finest autos 2022, Finest autographs baseball 2022, Topps Finest refractors 2022, Finest parallels 2022, Finest flashbacks 2022, chromium baseball cards Topps 2022, premium chrome baseball cards 2022, Topps Finest inserts 2022, Topps Finest Baseball checklist 2022, Finest checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Finest"
+    },
+    {
+      "Code": "2022_topps_finest_flashbacks_baseball",
+      "DisplayName": "2022 Topps Finest Flashbacks Baseball",
+      "Keywords": "2022 Topps Finest Flashbacks Baseball, Topps Finest Flashbacks Baseball 2022, 2022 Topps Finest Flashbacks cards, Finest Flashbacks baseball cards 2022, 2022 Topps Finest Flashbacks MLB cards, retro chrome baseball cards 2022, vintage Finest baseball cards Topps 2022, Topps Finest Flashbacks rookie cards 2022, Finest Flashbacks rookies baseball 2022, Topps Finest Flashbacks autos 2022, Finest Flashbacks autographs baseball 2022, chromium baseball cards Topps 2022, refractor baseball cards Topps 2022, nostalgic baseball cards Topps 2022, retro style chrome baseball cards 2022, Topps Finest Flashbacks parallels 2022, collectible retro baseball cards 2022, Topps Finest Flashbacks Baseball checklist 2022, Finest Flashbacks checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Finest Flashbacks"
+    },
+    {
+      "Code": "2022_topps_fire_baseball",
+      "DisplayName": "2022 Topps Fire Baseball",
+      "Keywords": "2022 Topps Fire Baseball, Topps Fire Baseball 2022, 2022 Topps Fire cards, Fire baseball cards 2022, 2022 Topps Fire MLB cards, Topps Fire rookie cards 2022, Fire rookies baseball 2022, Julio Rodriguez Fire rookie cards 2022, Bobby Witt Jr Fire rookie cards 2022, Topps Fire autos 2022, Fire autographs baseball 2022, colorful baseball cards Topps 2022, flame design baseball cards 2022, artistic baseball cards Topps 2022, retail exclusive baseball cards Topps 2022, Topps Fire parallels 2022, collectible modern baseball cards 2022, Topps Fire inserts 2022, Topps Fire Baseball checklist 2022, Fire checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Fire"
+    },
+    {
+      "Code": "2022_topps_five_star_baseball",
+      "DisplayName": "2022 Topps Five Star Baseball",
+      "Keywords": "2022 Topps Five Star Baseball, Topps Five Star Baseball 2022, 2022 Topps Five Star cards, Five Star baseball cards 2022, 2022 Topps Five Star MLB cards, Topps Five Star hobby box 2022, Five Star rookie cards 2022, Topps Five Star rookies 2022, Topps Five Star autos 2022, Five Star autographs baseball 2022, Topps Five Star patch autos 2022, premium autograph baseball cards 2022, luxury baseball cards Topps 2022, high end baseball cards Topps 2022, silver signature baseball cards 2022, one of one autograph baseball cards 2022, Topps Five Star inserts 2022, collectible framed autos baseball 2022, Topps Five Star Baseball checklist 2022, Five Star checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Five Star"
+    },
+    {
+      "Code": "2022_topps_gallery_baseball",
+      "DisplayName": "2022 Topps Gallery Baseball",
+      "Keywords": "2022 Topps Gallery Baseball, Topps Gallery Baseball 2022, 2022 Topps Gallery cards, Gallery baseball cards 2022, 2022 Topps Gallery MLB cards, Topps Gallery rookie cards 2022, Gallery rookies baseball 2022, Julio Rodriguez Gallery rookie cards 2022, Bobby Witt Jr Gallery rookie cards 2022, Topps Gallery autos 2022, Gallery autographs baseball 2022, artistic baseball cards Topps 2022, retail exclusive baseball cards Topps 2022, modern art baseball cards 2022, collectible baseball artwork cards 2022, Topps Gallery parallels 2022, premium baseball cards Topps 2022, Topps Gallery inserts 2022, Topps Gallery Baseball checklist 2022, Gallery checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Gallery"
+    },
+    {
+      "Code": "2022_topps_gilded_collection_baseball",
+      "DisplayName": "2022 Topps Gilded Collection Baseball",
+      "Keywords": "2022 Topps Gilded Collection Baseball, Topps Gilded Collection Baseball 2022, 2022 Topps Gilded Collection cards, Gilded Collection baseball cards 2022, 2022 Topps Gilded MLB cards, Topps Gilded rookie cards 2022, Gilded Collection rookies 2022, Topps Gilded autos 2022, Gilded Collection autographs baseball 2022, gold framed autograph baseball cards 2022, luxury baseball cards Topps 2022, high end baseball cards Topps 2022, premium chrome baseball cards 2022, Topps Gilded parallels 2022, collectible gold baseball cards 2022, encased baseball autograph cards 2022, Topps Gilded Collection inserts 2022, Topps Gilded Collection Baseball checklist 2022, Gilded Collection checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Gilded Collection"
+    },
+    {
+      "Code": "2022_topps_gold_label_baseball",
+      "DisplayName": "2022 Topps Gold Label Baseball",
+      "Keywords": "2022 Topps Gold Label Baseball, Topps Gold Label Baseball 2022, 2022 Topps Gold Label cards, Gold Label baseball cards 2022, 2022 Topps Gold Label MLB cards, Topps Gold Label hobby box 2022, Gold Label rookie cards 2022, Topps Gold Label rookies 2022, Topps Gold Label autos 2022, Gold Label autographs baseball 2022, framed autograph cards Topps 2022, Topps Gold Label parallels 2022, Class 1 Class 2 Class 3 cards 2022, premium baseball cards Topps 2022, high end baseball cards Topps 2022, Topps Gold Label inserts 2022, luxury baseball cards Topps 2022, collectible framed autos baseball 2022, Topps Gold Label Baseball checklist 2022, Gold Label checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Gold Label"
+    },
+    {
+      "Code": "2022_topps_gypsy_queen_baseball",
+      "DisplayName": "2022 Topps Gypsy Queen Baseball",
+      "Keywords": "2022 Topps Gypsy Queen Baseball, Topps Gypsy Queen Baseball 2022, 2022 Topps Gypsy Queen cards, Gypsy Queen baseball cards 2022, 2022 Topps Gypsy Queen MLB cards, Topps Gypsy Queen rookie cards 2022, Gypsy Queen rookies baseball 2022, Topps Gypsy Queen autos 2022, Gypsy Queen autographs baseball 2022, tarot card baseball designs 2022, vintage inspired baseball cards Topps 2022, fortune teller baseball cards 2022, artistic baseball cards Topps 2022, Topps Gypsy Queen parallels 2022, bazooka back baseball cards 2022, collectible retro baseball cards 2022, Topps Gypsy Queen inserts 2022, Topps Gypsy Queen Baseball checklist 2022, Gypsy Queen checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Gypsy Queen"
+    },
+    {
+      "Code": "2022_topps_heritage_baseball",
       "DisplayName": "2022 Topps Heritage Baseball",
       "Keywords": "2022 Topps Heritage Baseball, 2022 Topps Heritage, 2022 Heritage Baseball, 2022 Heritage, 22 Topps Heritage Baseball, 22 Topps Heritage, 22 Heritage Baseball, 22 Heritage, Topps Heritage Baseball, Topps Heritage, Heritage Baseball, Heritage, Topps Heritage checklist, Heritage checklist, Topps Heritage baseball checklist, 2022 Topps Heritage checklist, 2022 Heritage checklist",
       "year": "2022",
@@ -1687,7 +2254,7 @@
       "product": "Heritage"
     },
     {
-      "Code": "2022_Topps_Heritage_HighNumber_baseball",
+      "Code": "2022_topps_heritage_high_number_baseball",
       "DisplayName": "2022 Topps Heritage High Number Baseball",
       "Keywords": "2022 Topps Heritage High Number Baseball, 2022 Topps Heritage High Number, 2022 Heritage High Number Baseball, 2022 Heritage High Number, 22 Topps Heritage High Number Baseball, 22 Topps Heritage High Number, 22 Heritage High Number Baseball, 22 Heritage High Number, Topps Heritage High Number Baseball, Topps Heritage High Number, Heritage High Number Baseball, Heritage High Number, Topps Heritage High Number checklist, Heritage High Number checklist, Topps Heritage High Number baseball checklist, 2022 Topps Heritage High Number checklist, 2022 Heritage High Number checklist",
       "year": "2022",
@@ -1696,7 +2263,115 @@
       "product": "Heritage High Number"
     },
     {
-      "Code": "2022_Topps_Baseball_Series_1",
+      "Code": "2022_topps_heritage_minor_league_baseball",
+      "DisplayName": "2022 Topps Heritage Minor League Baseball",
+      "Keywords": "2022 Topps Heritage Minor League Baseball, Topps Heritage Minor League Baseball 2022, 2022 Topps Heritage Minors cards, Heritage Minor League baseball cards 2022, 2022 Topps MiLB cards, minor league baseball cards 2022, MiLB prospect cards 2022, Topps Heritage Minor League prospects 2022, Topps Heritage Minor League rookie cards 2022, Heritage Minors autos 2022, minor league autographs baseball 2022, top MLB prospect cards 2022 minors, retro prospect baseball cards 2022, vintage style prospect cards 2022, Topps Heritage Minor League parallels 2022, future stars baseball cards 2022, collectible MiLB baseball cards 2022, Topps Heritage Minor League Baseball checklist 2022, Heritage Minors checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Heritage Minor League"
+    },
+    {
+      "Code": "2022_topps_holiday_mega_box_baseball",
+      "DisplayName": "2022 Topps Holiday Mega Box Baseball",
+      "Keywords": "2022 Topps Holiday Mega Box Baseball, Topps Holiday Mega Box Baseball 2022, 2022 Topps Holiday cards, Topps Holiday baseball cards 2022, 2022 Topps Holiday MLB cards, Topps Holiday Mega Box rookie cards 2022, Topps Holiday rookies 2022, Julio Rodriguez Holiday rookie cards 2022, Bobby Witt Jr Holiday rookie cards 2022, Topps Holiday metallic snowflake parallels 2022, holiday baseball cards Topps 2022, Christmas baseball cards 2022, winter themed baseball cards 2022, festive baseball cards Topps 2022, Topps Holiday relics 2022, Topps Holiday autographs 2022, retail exclusive baseball cards Topps 2022, Topps Holiday Mega Box Baseball checklist 2022, Topps Holiday checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Holiday Mega Box"
+    },
+    {
+      "Code": "2022_topps_inception_baseball",
+      "DisplayName": "2022 Topps Inception Baseball",
+      "Keywords": "2022 Topps Inception Baseball, Topps Inception Baseball 2022, 2022 Topps Inception cards, Inception baseball cards 2022, 2022 Topps Inception MLB cards, Topps Inception rookie cards 2022, Inception rookies baseball 2022, Julio Rodriguez Inception rookie cards 2022, Bobby Witt Jr Inception rookie cards 2022, Topps Inception autos 2022, Inception autographs baseball 2022, Topps Inception patch autos 2022, colorful baseball cards Topps 2022, premium rookie autograph baseball cards 2022, artistic baseball cards Topps 2022, collectible patch autograph baseball cards 2022, Topps Inception parallels 2022, Topps Inception Baseball checklist 2022, Inception checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Inception"
+    },
+    {
+      "Code": "2022_topps_baseball_japan_edition_baseball",
+      "DisplayName": "2022 Topps Japan Edition Baseball",
+      "Keywords": "2022 Topps Japan Edition Baseball, Topps Japan Edition Baseball 2022, 2022 Topps Japan cards, Japan Edition baseball cards 2022, 2022 Topps Japan MLB cards, Japanese baseball cards Topps 2022, Topps Japan Edition rookie cards 2022, Japan Edition rookies 2022, Shohei Ohtani Japan Edition cards 2022, Seiya Suzuki Japan Edition rookie cards 2022, Topps Japan Edition parallels 2022, cherry blossom parallels 2022, international baseball cards Topps 2022, Japanese exclusive baseball cards 2022, Topps Japan Edition inserts 2022, collectible Japanese baseball cards 2022, flagship baseball cards Topps 2022, Topps Japan Edition Baseball checklist 2022, Japan Edition checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Japan Edition"
+    },
+    {
+      "Code": "2022_topps_luminaries_baseball",
+      "DisplayName": "2022 Topps Luminaries Baseball",
+      "Keywords": "2022 Topps Luminaries Baseball, Topps Luminaries Baseball 2022, 2022 Topps Luminaries cards, Luminaries baseball cards 2022, 2022 Topps Luminaries MLB cards, Topps Luminaries rookie cards 2022, Luminaries rookies baseball 2022, Topps Luminaries autos 2022, Luminaries autographs baseball 2022, book card autographs baseball 2022, one hit baseball cards Topps 2022, premium autograph baseball cards 2022, luxury baseball cards Topps 2022, high end baseball cards Topps 2022, cut signature baseball cards 2022, oversized patch autograph baseball cards 2022, collectible framed autos baseball 2022, Topps Luminaries Baseball checklist 2022, Luminaries checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Luminaries"
+    },
+    {
+      "Code": "2022_topps_mini_baseball",
+      "DisplayName": "2022 Topps Mini Baseball",
+      "Keywords": "2022 Topps Mini Baseball, Topps Mini Baseball 2022, 2022 Topps Mini cards, mini baseball cards Topps 2022, 2022 Topps Mini MLB cards, collectible mini baseball cards 2022, small format baseball cards 2022, Topps Mini rookie cards 2022, Topps Mini rookies baseball 2022, Topps Mini autos 2022, mini autographs baseball 2022, retro mini baseball cards 2022, novelty baseball cards Topps 2022, miniature baseball cards collectible 2022, Topps Mini parallels 2022, unique baseball card formats 2022, collectible baseball minis 2022, Topps Mini Baseball checklist 2022, Topps Mini checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Mini"
+    },
+    {
+      "Code": "2022_topps_museum_collection_baseball",
+      "DisplayName": "2022 Topps Museum Collection Baseball",
+      "Keywords": "2022 Topps Museum Collection Baseball, Topps Museum Collection Baseball 2022, 2022 Topps Museum Collection cards, Museum Collection baseball cards 2022, 2022 Topps Museum MLB cards, Topps Museum Collection rookie cards 2022, Museum Collection rookies baseball 2022, Topps Museum Collection autos 2022, Museum Collection autographs baseball 2022, Topps Museum Collection patch autos 2022, jumbo patch baseball cards 2022, premium baseball cards Topps 2022, luxury baseball cards Topps 2022, high end baseball cards Topps 2022, framed autograph baseball cards 2022, collectible memorabilia baseball cards 2022, Topps Museum Collection parallels 2022, Topps Museum Collection inserts 2022, Topps Museum Collection Baseball checklist 2022, Museum Collection checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Museum Collection"
+    },
+    {
+      "Code": "2022_topps_opening_day_baseball",
+      "DisplayName": "2022 Topps Opening Day Baseball",
+      "Keywords": "2022 Topps Opening Day Baseball, Topps Opening Day Baseball 2022, 2022 Topps Opening Day cards, Opening Day baseball cards 2022, 2022 Topps Opening Day MLB cards, Topps Opening Day rookie cards 2022, Opening Day rookies baseball 2022, affordable baseball cards Topps 2022, mascot baseball cards 2022, family friendly baseball cards 2022, Topps Opening Day inserts 2022, Opening Day autographs baseball 2022, stadium themed baseball cards 2022, collectible mascot cards 2022, entry level baseball cards 2022, fun baseball inserts Topps 2022, Topps Opening Day parallels 2022, collectible MLB baseball cards 2022, Topps Opening Day Baseball checklist 2022, Opening Day checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Opening Day"
+    },
+    {
+      "Code": "2022_topps_pristine_baseball",
+      "DisplayName": "2022 Topps Pristine Baseball",
+      "Keywords": "2022 Topps Pristine Baseball, Topps Pristine Baseball 2022, 2022 Topps Pristine cards, Pristine baseball cards 2022, 2022 Topps Pristine MLB cards, Topps Pristine rookie cards 2022, Pristine rookies baseball 2022, Julio Rodriguez Pristine rookie cards 2022, Bobby Witt Jr Pristine rookie cards 2022, Topps Pristine autos 2022, Pristine autographs baseball 2022, encased baseball cards Topps 2022, premium chrome baseball cards 2022, refractor baseball cards Topps 2022, luxury baseball cards Topps 2022, collectible chromium baseball cards 2022, Topps Pristine parallels 2022, Topps Pristine inserts 2022, Topps Pristine Baseball checklist 2022, Pristine checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Pristine"
+    },
+    {
+      "Code": "2022_topps_pro_debut_baseball",
+      "DisplayName": "2022 Topps Pro Debut Baseball",
+      "Keywords": "2022 Topps Pro Debut Baseball, Topps Pro Debut Baseball 2022, 2022 Topps Pro Debut cards, Pro Debut baseball cards 2022, 2022 Topps Pro Debut MLB cards, minor league baseball cards 2022, MiLB baseball cards 2022, Topps Pro Debut prospects 2022, Topps Pro Debut rookie cards 2022, Pro Debut autos 2022, minor league autographs baseball 2022, top MLB prospect cards 2022 minors, future stars baseball cards 2022, chrome prospect baseball cards 2022, Topps Pro Debut parallels 2022, collectible MiLB baseball cards 2022, prospect autograph baseball cards 2022, Topps Pro Debut inserts 2022, Topps Pro Debut Baseball checklist 2022, Pro Debut checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Pro Debut"
+    },
+    {
+      "Code": "2022_topps_rip_baseball",
+      "DisplayName": "2022 Topps RIP Baseball",
+      "Keywords": "2022 Topps RIP Baseball, Topps RIP Baseball 2022, 2022 Topps RIP cards, RIP baseball cards 2022, 2022 Topps RIP MLB cards, rip card baseball cards 2022, Topps rip cards 2022, hidden mini cards Topps 2022, Topps RIP rookie cards 2022, RIP rookies baseball 2022, Topps RIP autos 2022, RIP autographs baseball 2022, collectible rip cards 2022, mini baseball cards Topps 2022, box topper rip cards 2022, unusual baseball cards Topps 2022, Topps RIP parallels 2022, novelty baseball cards 2022, Topps RIP Baseball checklist 2022, RIP checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "RIP"
+    },
+    {
+      "Code": "2022_topps_series_1_1st_edition_baseball",
+      "DisplayName": "2022 Topps Series 1 1st Edition Baseball",
+      "Keywords": "2022 Topps Series 1 1st Edition Baseball, Topps Series 1 1st Edition Baseball 2022, 2022 Topps Series 1 1st Edition cards, Topps 1st Edition baseball cards 2022, 2022 Topps Series 1 MLB cards, Topps flagship baseball cards 2022, limited edition Topps baseball cards 2022, Topps Series 1 rookie cards 2022, Wander Franco rookie cards Topps Series 1 2022, Topps Series 1 parallels 2022, foilboard baseball cards Topps 2022, collectible flagship baseball cards 2022, premium paper baseball cards 2022, Topps Series 1 inserts 2022, 1st Edition baseball parallels 2022, collectible rookie baseball cards 2022, exclusive Topps baseball cards 2022, Topps Series 1 1st Edition Baseball checklist 2022, Topps Series 1 1st Edition checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Series 1 1st Edition"
+    },
+    {
+      "Code": "2022_topps_series_1_baseball",
       "DisplayName": "2022 Topps Series 1 Baseball",
       "Keywords": "2022 Topps Series 1 Baseball, 2022 Topps Series 1, 2022 Series 1 Baseball, 2022 Series 1, 22 Topps Series 1 Baseball, 22 Topps Series 1, 22 Series 1 Baseball, 22 Series 1, Topps Series 1 Baseball, Topps Series 1, Series 1 Baseball, Series 1, Topps Series 1 checklist, Series 1 checklist, 2022 Topps Series 1 checklist, 2022 Series 1 checklist, Topps Series 1 2022 checklist, Topps Series One Baseball, 2022 Topps Series One, 2022 Series One, Series One Baseball, Series One",
       "year": "2022",
@@ -1705,13 +2380,112 @@
       "product": "Series 1"
     },
     {
-      "Code": "2022_Topps_Baseball_Series_2",
+      "Code": "2022_topps_series_2_baseball",
       "DisplayName": "2022 Topps Series 2 Baseball",
       "Keywords": "2022 Topps Series 2 Baseball, 2022 Topps Series 2, 2022 Series 2 Baseball, 2022 Series 2, 22 Topps Series 2 Baseball, 22 Topps Series 2, 22 Series 2 Baseball, 22 Series 2, Topps Series 2 Baseball, Topps Series 2, Series 2 Baseball, Series 2, Topps Series Two Baseball, Topps Series Two, Series Two Baseball, Series Two, Topps Series 2 checklist, Series 2 checklist, 2022 Topps Series 2 checklist, 2022 Series 2 checklist",
       "year": "2022",
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Series 2"
+    },
+    {
+      "Code": "2022_topps_spotlight_70_ii_baseball",
+      "DisplayName": "2022 Topps Spotlight 70 Baseball",
+      "Keywords": "2022 Topps Spotlight 70 Baseball, Topps Spotlight 70 Baseball 2022, 2022 Topps Spotlight 70 cards, Spotlight 70 baseball cards 2022, 2022 Topps Spotlight 70 MLB cards, Topps online exclusive baseball cards 2022, artistic baseball cards Topps 2022, premium baseball inserts 2022, collectible modern baseball cards 2022, Topps Spotlight rookie cards 2022, Spotlight 70 rookies baseball 2022, Topps Spotlight parallels 2022, limited edition baseball cards Topps 2022, collector focused baseball cards 2022, stylized baseball photography cards 2022, unique Topps baseball releases 2022, collectible MLB star cards 2022, Topps Spotlight 70 Baseball checklist 2022, Spotlight 70 checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Spotlight 70"
+    },
+    {
+      "Code": "2022_topps_stadium_club_baseball",
+      "DisplayName": "2022 Topps Stadium Club Baseball",
+      "Keywords": "2022 Topps Stadium Club Baseball, Topps Stadium Club Baseball 2022, 2022 Topps Stadium Club cards, Stadium Club baseball cards 2022, 2022 Topps Stadium Club MLB cards, Topps Stadium Club hobby box 2022, Stadium Club rookie cards 2022, Topps Stadium Club rookies 2022, Julio Rodriguez Stadium Club rookie cards 2022, Bobby Witt Jr Stadium Club rookie cards 2022, Topps Stadium Club autos 2022, Stadium Club autographs baseball 2022, premium photography baseball cards 2022, full bleed baseball cards Topps 2022, Beam Team inserts 2022, Stadium Club parallels 2022, collectible baseball photography cards 2022, Topps Stadium Club inserts 2022, Topps Stadium Club Baseball checklist 2022, Stadium Club checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Stadium Club"
+    },
+    {
+      "Code": "2022_topps_stadium_club_chrome_baseball",
+      "DisplayName": "2022 Topps Stadium Club Chrome Baseball",
+      "Keywords": "2022 Topps Stadium Club Chrome Baseball, Topps Stadium Club Chrome Baseball 2022, 2022 Topps Stadium Club Chrome cards, Stadium Club Chrome baseball cards 2022, 2022 Topps Stadium Club Chrome MLB cards, Topps Stadium Club Chrome hobby box 2022, Stadium Club Chrome rookie cards 2022, Topps Stadium Club Chrome rookies 2022, Topps Stadium Club Chrome autos 2022, Stadium Club Chrome autographs baseball 2022, Topps Stadium Club Chrome parallels 2022, Stadium Club Chrome refractors 2022, premium photography baseball cards 2022, full bleed chrome baseball cards Topps 2022, Stadium Club Chrome inserts 2022, Beam Team chrome inserts 2022, chromium baseball cards Topps 2022, Topps Stadium Club Chrome Baseball checklist 2022, Stadium Club Chrome checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Stadium Club Chrome"
+    },
+    {
+      "Code": "2022_topps_sterling_baseball",
+      "DisplayName": "2022 Topps Sterling Baseball",
+      "Keywords": "2022 Topps Sterling Baseball, Topps Sterling Baseball 2022, 2022 Topps Sterling cards, Sterling baseball cards 2022, 2022 Topps Sterling MLB cards, Topps Sterling rookie cards 2022, Sterling rookies baseball 2022, Topps Sterling autos 2022, Sterling autographs baseball 2022, Topps Sterling patch autos 2022, luxury baseball cards Topps 2022, high end baseball cards Topps 2022, premium autograph baseball cards 2022, jumbo patch baseball cards 2022, cut signature baseball cards 2022, one of one baseball cards Topps 2022, collectible memorabilia baseball cards 2022, framed autograph baseball cards 2022, Topps Sterling Baseball checklist 2022, Sterling checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Sterling"
+    },
+    {
+      "Code": "2022_topps_tier_one_baseball",
+      "DisplayName": "2022 Topps Tier One Baseball",
+      "Keywords": "2022 Topps Tier One Baseball, Topps Tier One Baseball 2022, 2022 Topps Tier One cards, Tier One baseball cards 2022, 2022 Topps Tier One MLB cards, Topps Tier One rookie cards 2022, Tier One rookies baseball 2022, Topps Tier One autos 2022, Tier One autographs baseball 2022, premium autograph baseball cards Topps 2022, luxury baseball cards Topps 2022, high end baseball cards Topps 2022, relic autograph baseball cards 2022, breakout autograph baseball cards 2022, collectible memorabilia baseball cards 2022, Topps Tier One parallels 2022, encased baseball autograph cards 2022, Topps Tier One Baseball checklist 2022, Tier One checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Tier One"
+    },
+    {
+      "Code": "2022_topps_transcendent_collection_baseball",
+      "DisplayName": "2022 Topps Transcendent Collection Baseball",
+      "Keywords": "2022 Topps Transcendent Collection Baseball, Topps Transcendent Collection Baseball 2022, 2022 Topps Transcendent cards, Transcendent Collection baseball cards 2022, 2022 Topps Transcendent MLB cards, Topps Transcendent VIP party 2022, ultra high end baseball cards Topps 2022, Transcendent rookie cards 2022, Topps Transcendent autos 2022, Transcendent autographs baseball 2022, Topps Transcendent patch autos 2022, Transcendent one of one cards 2022, Topps Transcendent cut signatures 2022, luxury baseball cards Topps 2022, premium autograph baseball cards 2022, Topps Transcendent superfractor 2022, gold framed autograph cards 2022, Topps Transcendent Collection checklist 2022, Transcendent Collection checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Transcendent Collection"
+    },
+    {
+      "Code": "2022_topps_tribute_baseball",
+      "DisplayName": "2022 Topps Tribute Baseball",
+      "Keywords": "2022 Topps Tribute Baseball, Topps Tribute Baseball 2022, 2022 Topps Tribute cards, Tribute baseball cards 2022, 2022 Topps Tribute MLB cards, Topps Tribute rookie cards 2022, Tribute rookies baseball 2022, Topps Tribute autos 2022, Tribute autographs baseball 2022, Topps Tribute patch autos 2022, premium baseball cards Topps 2022, luxury baseball cards Topps 2022, high end baseball cards Topps 2022, collectible memorabilia baseball cards 2022, jumbo patch baseball cards 2022, framed autograph baseball cards 2022, Topps Tribute parallels 2022, Topps Tribute inserts 2022, Topps Tribute Baseball checklist 2022, Tribute checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Tribute"
+    },
+    {
+      "Code": "2022_topps_triple_threads_baseball",
+      "DisplayName": "2022 Topps Triple Threads Baseball",
+      "Keywords": "2022 Topps Triple Threads Baseball, Topps Triple Threads Baseball 2022, 2022 Topps Triple Threads cards, Triple Threads baseball cards 2022, 2022 Topps Triple Threads MLB cards, Topps Triple Threads hobby box 2022, Triple Threads rookie cards 2022, Topps Triple Threads rookies 2022, Topps Triple Threads autos 2022, Triple Threads autographs baseball 2022, Topps Triple Threads patch autos 2022, relic autograph baseball cards 2022, jumbo patch baseball cards 2022, luxury baseball cards Topps 2022, high end baseball cards Topps 2022, booklet baseball cards 2022, Topps Triple Threads parallels 2022, collectible memorabilia baseball cards 2022, Topps Triple Threads Baseball checklist 2022, Triple Threads checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Triple Threads"
+    },
+    {
+      "Code": "2022_topps_baseball_uk_edition_baseball",
+      "DisplayName": "2022 Topps UK Edition Baseball",
+      "Keywords": "2022 Topps UK Edition Baseball, Topps UK Edition Baseball 2022, 2022 Topps UK cards, UK Edition baseball cards 2022, 2022 Topps UK MLB cards, Topps UK Edition rookie cards 2022, UK Edition rookies 2022, Julio Rodriguez UK Edition rookie cards 2022, Bobby Witt Jr UK Edition rookie cards 2022, Topps UK Edition parallels 2022, British baseball cards Topps 2022, international baseball cards Topps 2022, Topps online exclusive baseball cards 2022, UK exclusive baseball cards 2022, Topps UK Edition inserts 2022, flagship baseball cards Topps 2022, collectible UK baseball cards 2022, Topps UK Edition Baseball checklist 2022, UK Edition checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "UK Edition"
+    },
+    {
+      "Code": "2022_topps_update_series_baseball",
+      "DisplayName": "2022 Topps Update Series Baseball",
+      "Keywords": "2022 Topps Update Series Baseball, Topps Update Series Baseball 2022, 2022 Topps Update cards, Update Series baseball cards 2022, 2022 Topps Update MLB cards, Topps Update rookie cards 2022, Julio Rodriguez rookie cards Topps Update 2022, Bobby Witt Jr rookie cards Topps Update 2022, Spencer Torkelson rookie cards Update 2022, Topps Update parallels 2022, rainbow foil Update cards 2022, gold foil baseball cards Topps 2022, Topps Update short prints 2022, Topps Update autos 2022, Update Series autographs baseball 2022, Topps Update relics 2022, flagship baseball cards Topps 2022, chrome update baseball cards 2022, Topps Update Series Baseball checklist 2022, Update Series checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Update Series"
+    },
+    {
+      "Code": "2022_topps_x_naturel_1952_topps_baseball",
+      "DisplayName": "2022 Topps X Naturel 1952 Topps Baseball",
+      "Keywords": "2022 Topps x Naturel 1952 Topps Baseball, Topps x Naturel 1952 Topps Baseball 2022, 2022 Topps Naturel cards, Naturel baseball cards 2022, 2022 Topps x Naturel MLB cards, artist collaboration baseball cards 2022, 1952 Topps inspired baseball cards 2022, retro art baseball cards Topps 2022, Topps Naturel rookie cards 2022, Naturel rookies baseball 2022, Topps x Naturel autos 2022, Naturel autographs baseball 2022, collectible art baseball cards 2022, vintage style baseball cards Topps 2022, online exclusive baseball cards Topps 2022, artistic baseball card designs 2022, Topps Naturel parallels 2022, limited edition baseball cards Topps 2022, Topps x Naturel 1952 Topps Baseball checklist 2022, Naturel checklist",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "X Naturel 1952 Topps"
     },
     {
       "Code": "2021_Topps_Chrome_baseball",
@@ -3259,7 +4033,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Bowman",
-      "product": ""
+      "product": "Bowman"
     },
     {
       "Code": "2016_Bowman_Chrome_Baseball",
@@ -3268,7 +4042,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Bowman",
-      "product": ""
+      "product": "Bowman Chrome"
     },
     {
       "Code": "2016_Bowman_Draft_Baseball",
@@ -3277,7 +4051,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Bowman",
-      "product": ""
+      "product": "Bowman Draft"
     },
     {
       "Code": "2016_Donruss_Baseball",
@@ -3286,7 +4060,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Panini",
-      "product": ""
+      "product": "Donruss"
     },
     {
       "Code": "2016_Donruss_Optic_Baseball",
@@ -3295,7 +4069,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Panini",
-      "product": ""
+      "product": "Donruss Optic"
     },
     {
       "Code": "2016_Panini_Diamond_Kings_Baseball",
@@ -3304,7 +4078,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Panini",
-      "product": ""
+      "product": "Diamond Kings"
     },
     {
       "Code": "2016_Panini_Flawless_Baseball",
@@ -3313,7 +4087,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Panini",
-      "product": ""
+      "product": "Flawless"
     },
     {
       "Code": "2016_Panini_National_Treasures_Baseball",
@@ -3322,7 +4096,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Panini",
-      "product": ""
+      "product": "National Treasures"
     },
     {
       "Code": "2016_Panini_Pantheon_Baseball",
@@ -3331,7 +4105,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Panini",
-      "product": ""
+      "product": "Pantheon"
     },
     {
       "Code": "2016_Panini_Prime_Cuts_Baseball",
@@ -3340,7 +4114,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Panini",
-      "product": ""
+      "product": "Prime Cuts"
     },
     {
       "Code": "2016_Topps_Archives_Baseball",
@@ -3349,16 +4123,16 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": ""
+      "product": "Archieves"
     },
     {
       "Code": "2016_Topps_Archives_Signature_Series_All_Star_Baseball",
-      "DisplayName": "2016 Topps Archives Signature Series All-Star Baseball Cards",
+      "DisplayName": "2016 Topps Archives Signature Series All-Star Baseball",
       "Keywords": "",
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": ""
+      "product": "Archives Signature Series All-Star"
     },
     {
       "Code": "2016_Topps_Chrome_Baseball",
@@ -3367,7 +4141,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": ""
+      "product": "Chrome"
     },
     {
       "Code": "2016_Topps_Dynasty_Baseball",
@@ -3376,7 +4150,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": ""
+      "product": "Dynasty"
     },
     {
       "Code": "2016_Topps_Heritage_Baseball",
@@ -3385,7 +4159,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": ""
+      "product": "Heritage"
     },
     {
       "Code": "2016_Topps_Heritage_High_Number_Baseball",
@@ -3394,7 +4168,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": ""
+      "product": "Heritage High Number"
     },
     {
       "Code": "2016_Topps_Series_1_Baseball",
@@ -3403,7 +4177,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": ""
+      "product": "Series 1"
     },
     {
       "Code": "2016_Topps_Series_2_Baseball",
@@ -3412,7 +4186,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": ""
+      "product": "Series 2"
     },
     {
       "Code": "2016_Topps_Stadium_Club_Baseball",
@@ -3421,16 +4195,16 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": ""
+      "product": "Stadium Club"
     },
     {
       "Code": "2016_Topps_Tier_One_Baseball",
-      "DisplayName": "2016 Topps Tier One Baseball Cards",
+      "DisplayName": "2016 Topps Tier One Baseball",
       "Keywords": "",
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": ""
+      "product": "Tier One"
     },
     {
       "Code": "2016_Topps_Tribute_Baseball",
@@ -3439,7 +4213,7 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": ""
+      "product": "Tribute"
     },
     {
       "Code": "2016_Topps_Update_Series_Baseball",
@@ -3448,7 +4222,70 @@
       "year": "2016",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": ""
+      "product": "Update Series"
+    },
+    {
+      "Code": "1959_Topps_Series_1_Baseball",
+      "DisplayName": "1959 Topps Series 1 Baseball",
+      "Keywords": "",
+      "year": "1959",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Series 1"
+    },
+    {
+      "Code": "1959_Topps_Series_2_Baseball",
+      "DisplayName": "1959 Topps Series 2 Baseball",
+      "Keywords": "",
+      "year": "1959",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Series 2"
+    },
+    {
+      "Code": "1959_Topps_Series_3_Baseball",
+      "DisplayName": "1959 Topps Series 3 Baseball",
+      "Keywords": "",
+      "year": "1959",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Series 3"
+    },
+    {
+      "Code": "1959_Topps_Series_4_Baseball",
+      "DisplayName": "1959 Topps Series 4 Baseball",
+      "Keywords": "",
+      "year": "1959",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Series 4"
+    },
+    {
+      "Code": "1959_Topps_Series_5_Baseball",
+      "DisplayName": "1959 Topps Series 5 Baseball",
+      "Keywords": "",
+      "year": "1959",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Series 5"
+    },
+    {
+      "Code": "1959_Topps_Series_6_Baseball",
+      "DisplayName": "1959 Topps Series 6 Baseball",
+      "Keywords": "",
+      "year": "1959",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Series 6"
+    },
+    {
+      "Code": "1959_Topps_Series_7_Baseball",
+      "DisplayName": "1959 Topps Series 7 Baseball",
+      "Keywords": "",
+      "year": "1959",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Series 7"
     },
     {
       "Code": "1958_Topps_Series_1_Baseball",
