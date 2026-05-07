@@ -1,7 +1,7 @@
 {
   "ok": true,
   "kind": "checklist_search_source_registry",
-  "generated_at": "2026-05-07T17:07:43.052Z",
+  "generated_at": "2026-05-07T17:32:53.180Z",
   "sources": {
     "baseball": [
       {
@@ -33,6 +33,11 @@
         "source_key": "2023",
         "path": "sources/baseball-2023.json",
         "generated_at": "2026-05-07T17:07:43.052Z"
+      },
+      {
+        "source_key": "2024",
+        "path": "sources/baseball-2024.json",
+        "generated_at": "2026-05-07T17:32:53.180Z"
       }
     ]
   }
