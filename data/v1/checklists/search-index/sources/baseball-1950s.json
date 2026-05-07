@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "sport": "baseball",
+  "kind": "checklist_search_source",
+  "source": "Checklist DB map standalone source search",
+  "source_key": "1950s",
+  "generated_at": "2026-05-07T14:40:06.833Z",
+  "sharded": true,
+  "shards": [
+    "baseball-1950s-001.json"
+  ]
+}
