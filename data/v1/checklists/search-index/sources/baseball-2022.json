@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "sport": "baseball",
+  "kind": "checklist_search_source",
+  "source": "Checklist DB map standalone source search",
+  "source_key": "2022",
+  "generated_at": "2026-05-07T16:58:41.983Z",
+  "sharded": true,
+  "shards": [
+    "baseball-2022-001.json",
+    "baseball-2022-002.json",
+    "baseball-2022-003.json",
+    "baseball-2022-004.json",
+    "baseball-2022-005.json",
+    "baseball-2022-006.json",
+    "baseball-2022-007.json",
+    "baseball-2022-008.json",
+    "baseball-2022-009.json",
+    "baseball-2022-010.json",
+    "baseball-2022-011.json",
+    "baseball-2022-012.json",
+    "baseball-2022-013.json",
+    "baseball-2022-014.json",
+    "baseball-2022-015.json",
+    "baseball-2022-016.json",
+    "baseball-2022-017.json",
+    "baseball-2022-018.json"
+  ]
+}
