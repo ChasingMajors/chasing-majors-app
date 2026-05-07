@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Checklist Google Sheets Products rebuild",
-  "generated_at": "2026-05-07T21:26:19.554Z",
+  "generated_at": "2026-05-07T21:36:53.548Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -2488,6 +2488,393 @@
       "product": "X Naturel 1952 Topps"
     },
     {
+      "Code": "2021_bowman_1st_edition_baseball",
+      "DisplayName": "2021 Bowman 1st Edition Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "1st Edition"
+    },
+    {
+      "Code": "2021_bowman_baseball",
+      "DisplayName": "2021 Bowman Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": ""
+    },
+    {
+      "Code": "2021_bowman_chrome_baseball",
+      "DisplayName": "2021 Bowman Chrome Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome"
+    },
+    {
+      "Code": "2021_bowman_chrome_mega_box_baseball",
+      "DisplayName": "2021 Bowman Chrome Mega Box Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome Mega Box"
+    },
+    {
+      "Code": "2021_bowman_mega_box_chrome_baseball",
+      "DisplayName": "2021 Bowman Chrome Mega Box Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome Mega Box"
+    },
+    {
+      "Code": "2021_bowman_chrome_sapphire_edition_baseball",
+      "DisplayName": "2021 Bowman Chrome Sapphire Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome Sapphire"
+    },
+    {
+      "Code": "2021_bowman_chrome_x_baseball",
+      "DisplayName": "2021 Bowman Chrome X Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome X"
+    },
+    {
+      "Code": "2021_bowman_draft_1st_edition_baseball",
+      "DisplayName": "2021 Bowman Draft 1st Edition Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Draft 1st Edition"
+    },
+    {
+      "Code": "2021_bowman_draft_baseball",
+      "DisplayName": "2021 Bowman Draft Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Draft"
+    },
+    {
+      "Code": "2021_bowman_draft_sapphire_baseball",
+      "DisplayName": "2021 Bowman Draft Sapphire Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Draft Sapphire"
+    },
+    {
+      "Code": "2021_bowman_heritage_baseball",
+      "DisplayName": "2021 Bowman Heritage Baseball",
+      "Keywords": "2021 Bowman Heritage Baseball, 2021 Bowman Heritage, 2021 Heritage Baseball, 2021 Heritage, 21 Bowman Heritage Baseball, 21 Bowman Heritage, 21 Heritage Baseball, 21 Heritage, Bowman Heritage Baseball, Bowman Heritage, Heritage Baseball, Heritage, Bowman Heritage checklist, Heritage checklist, Bowman Heritage baseball checklist, 2021 Bowman Heritage checklist, 2021 Heritage checklist",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Heritage"
+    },
+    {
+      "Code": "2021_bowman_inception_baseball",
+      "DisplayName": "2021 Bowman Inception Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Inception"
+    },
+    {
+      "Code": "2021_bowman_platinum_baseball",
+      "DisplayName": "2021 Bowman Platinum Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Platinum"
+    },
+    {
+      "Code": "2021_bowman_sapphire_edition_baseball",
+      "DisplayName": "2021 Bowman Sapphire Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Sapphire"
+    },
+    {
+      "Code": "2021_bowman_sterling_baseball",
+      "DisplayName": "2021 Bowman Sterling Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Sterling"
+    },
+    {
+      "Code": "2021_bowman_transcendent_collection_baseball",
+      "DisplayName": "2021 Bowman Transcendent Collection Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Transcendent Collection"
+    },
+    {
+      "Code": "2021_bowmans_best_baseball",
+      "DisplayName": "2021 Bowmans Best Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Bowmans",
+      "product": "Best"
+    },
+    {
+      "Code": "2021_donruss_baseball",
+      "DisplayName": "2021 Donruss Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Donruss",
+      "product": ""
+    },
+    {
+      "Code": "2021_donruss_optic_baseball",
+      "DisplayName": "2021 Donruss Optic Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Donruss",
+      "product": "Optic"
+    },
+    {
+      "Code": "2021_panini_absolute_baseball",
+      "DisplayName": "2021 Panini Absolute Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Absolute"
+    },
+    {
+      "Code": "2021_panini_chronicles_baseball",
+      "DisplayName": "2021 Panini Chronicles Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Chronicles"
+    },
+    {
+      "Code": "2021_panini_contenders_baseball",
+      "DisplayName": "2021 Panini Contenders Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Contenders"
+    },
+    {
+      "Code": "2021_panini_diamond_kings_baseball",
+      "DisplayName": "2021 Panini Diamond Kings Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Diamond Kings"
+    },
+    {
+      "Code": "2021_panini_elite_extra_edition_baseball",
+      "DisplayName": "2021 Panini Elite Extra Edition Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Elite Extra Edition"
+    },
+    {
+      "Code": "2021_panini_flawless_baseball",
+      "DisplayName": "2021 Panini Flawless Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Flawless"
+    },
+    {
+      "Code": "2021_panini_immaculate_collection_baseball",
+      "DisplayName": "2021 Panini Immaculate Collection Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Immaculate Collection"
+    },
+    {
+      "Code": "2021_panini_mosaic_baseball",
+      "DisplayName": "2021 Panini Mosaic Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Mosaic"
+    },
+    {
+      "Code": "2021_panini_national_treasures_baseball",
+      "DisplayName": "2021 Panini National Treasures Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "National Treasures"
+    },
+    {
+      "Code": "2021_panini_prizm_baseball",
+      "DisplayName": "2021 Panini Prizm Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Prizm"
+    },
+    {
+      "Code": "2021_panini_prizm_draft_picks_baseball",
+      "DisplayName": "2021 Panini Prizm Draft Picks Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Prizm Draft Picks"
+    },
+    {
+      "Code": "2021_panini_select_baseball",
+      "DisplayName": "2021 Panini Select Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Select"
+    },
+    {
+      "Code": "2021_panini_spectra_baseball",
+      "DisplayName": "2021 Panini Spectra Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Spectra"
+    },
+    {
+      "Code": "2021_panini_stars_stripes_usa_baseball",
+      "DisplayName": "2021 Panini Stars & Stripes USA Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Stars & Stripes USA"
+    },
+    {
+      "Code": "2021_topps_all_star_rookie_cup_baseball",
+      "DisplayName": "2021 Topps All Star Rookie Cup Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "All Star Rookie Cup"
+    },
+    {
+      "Code": "2021_topps_allen_ginter_baseball",
+      "DisplayName": "2021 Topps Allen & Ginter Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Allen & Ginter"
+    },
+    {
+      "Code": "2021_topps_allen_ginter_chrome_baseball",
+      "DisplayName": "2021 Topps Allen & Ginter Chrome Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Allen & Ginter Chrome"
+    },
+    {
+      "Code": "2021_topps_allen_ginter_x_baseball",
+      "DisplayName": "2021 Topps Allen & Ginter X Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Allen & Ginter X"
+    },
+    {
+      "Code": "2021_topps_archives_baseball",
+      "DisplayName": "2021 Topps Archives Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Archives"
+    },
+    {
+      "Code": "2020_topps_archives_signature_series_active_baseball_card_checklist_2",
+      "DisplayName": "2021 Topps Archives Signature Series Active Player Edition Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Archives Signature Series Active Player Edition"
+    },
+    {
+      "Code": "2021_topps_archives_signature_series_retired_player_edition_baseball",
+      "DisplayName": "2021 Topps Archives Signature Series Retired Player Edition Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Archives Signature Series Retired Player Edition"
+    },
+    {
+      "Code": "2021_topps_archives_snapshots_baseball",
+      "DisplayName": "2021 Topps Archives Snapshots Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Archives Snapshots"
+    },
+    {
+      "Code": "2021_topps_big_league_baseball",
+      "DisplayName": "2021 Topps Big League Baseball",
+      "Keywords": "2021 Topps Big League Baseball, 2021 Topps Big League, 2021 Big League Baseball, 2021 Big League, 21 Topps Big League Baseball, 21 Topps Big League, 21 Big League Baseball, 21 Big League, Topps Big League Baseball, Topps Big League, Big League Baseball, Big League, Topps Big League checklist, Big League checklist, Topps Big League baseball checklist, 2021 Topps Big League checklist, 2021 Big League checklist",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Big League"
+    },
+    {
+      "Code": "2021_topps_brooklyn_collection_baseball",
+      "DisplayName": "2021 Topps Brooklyn Collection Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Brooklyn Collection"
+    },
+    {
       "Code": "2021_topps_chrome_baseball",
       "DisplayName": "2021 Topps Chrome Baseball",
       "Keywords": "2021 Topps Chrome Baseball, 2021 Topps Chrome, 2021 Chrome Baseball, 2021 Chrome, 21 Topps Chrome Baseball, 21 Topps Chrome, 21 Chrome Baseball, 21 Chrome, Topps Chrome Baseball, Topps Chrome, Chrome Baseball, Chrome, Topps Chrome checklist, Chrome checklist, Topps Chrome baseball checklist, 2021 Topps Chrome checklist, 2021 Chrome checklist",
@@ -2497,6 +2884,42 @@
       "product": "Chrome"
     },
     {
+      "Code": "2021_topps_chrome_ben_baller_baseball",
+      "DisplayName": "2021 Topps Chrome Ben Baller Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Ben Baller"
+    },
+    {
+      "Code": "2021_topps_chrome_black_baseball",
+      "DisplayName": "2021 Topps Chrome Black Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Black"
+    },
+    {
+      "Code": "2021_topps_chrome_platinum_anniversary_baseball",
+      "DisplayName": "2021 Topps Chrome Platinum Anniversary Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Platinum Anniversary"
+    },
+    {
+      "Code": "2021_topps_chrome_sapphire_edition_baseball",
+      "DisplayName": "2021 Topps Chrome Sapphire Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Sapphire"
+    },
+    {
       "Code": "2021_topps_chrome_update_baseball",
       "DisplayName": "2021 Topps Chrome Update Baseball",
       "Keywords": "2021 Topps Chrome Update Baseball, 2021 Topps Chrome Update, 2021 Chrome Update Baseball, 2021 Chrome Update, 21 Topps Chrome Update Baseball, 21 Topps Chrome Update, 21 Chrome Update Baseball, 21 Chrome Update, Topps Chrome Update Baseball, Topps Chrome Update, Chrome Update Baseball, Chrome Update, Topps Chrome Update checklist, Chrome Update checklist, Topps Chrome Update baseball checklist, 2021 Topps Chrome Update checklist, 2021 Chrome Update checklist",
@@ -2504,6 +2927,114 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome Update"
+    },
+    {
+      "Code": "2021_topps_chrome_update_sapphire_baseball",
+      "DisplayName": "2021 Topps Chrome Update Sapphire Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Update Sapphire"
+    },
+    {
+      "Code": "2021_topps_clearly_authentic_baseball",
+      "DisplayName": "2021 Topps Clearly Authentic Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Clearly Authentic"
+    },
+    {
+      "Code": "2021_topps_definitive_collection_baseball",
+      "DisplayName": "2021 Topps Definitive Collection Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Definitive Collection"
+    },
+    {
+      "Code": "2021_topps_diamond_icons_baseball",
+      "DisplayName": "2021 Topps Diamond Icons Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Diamond Icons"
+    },
+    {
+      "Code": "2021_topps_dynasty_baseball",
+      "DisplayName": "2021 Topps Dynasty Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Dynasty"
+    },
+    {
+      "Code": "2021_topps_finest_baseball",
+      "DisplayName": "2021 Topps Finest Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Finest"
+    },
+    {
+      "Code": "2021_topps_finest_flashbacks_baseball",
+      "DisplayName": "2021 Topps Finest Flashbacks Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Finest Flashbacks"
+    },
+    {
+      "Code": "2021_topps_fire_baseball",
+      "DisplayName": "2021 Topps Fire Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Fire"
+    },
+    {
+      "Code": "2021_topps_five_star_baseball",
+      "DisplayName": "2021 Topps Five Star Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Five Star"
+    },
+    {
+      "Code": "2021_topps_gallery_baseball",
+      "DisplayName": "2021 Topps Gallery Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Gallery"
+    },
+    {
+      "Code": "2021_topps_gold_label_baseball_card_checklsit",
+      "DisplayName": "2021 Topps Gold Label Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Gold Label"
+    },
+    {
+      "Code": "2021_topps_gypsy_queen_baseball",
+      "DisplayName": "2021 Topps Gypsy Queen Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Gypsy Queen"
     },
     {
       "Code": "2021_topps_heritage_baseball",
@@ -2524,6 +3055,105 @@
       "product": "Heritage High Number"
     },
     {
+      "Code": "2021_topps_heritage_minor_leagues_baseball",
+      "DisplayName": "2021 Topps Heritage Minor Leagues Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Heritage Minor Leagues"
+    },
+    {
+      "Code": "2021_topps_holiday_mega_box_baseball",
+      "DisplayName": "2021 Topps Holiday Mega Box Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Holiday Mega Box"
+    },
+    {
+      "Code": "2021_topps_inception_baseball",
+      "DisplayName": "2021 Topps Inception Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Inception"
+    },
+    {
+      "Code": "2021_topps_baseball_japan_edition_baseball",
+      "DisplayName": "2021 Topps Japan Edition Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Japan Edition"
+    },
+    {
+      "Code": "2021_topps_luminaries_baseball",
+      "DisplayName": "2021 Topps Luminaries Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Luminaries"
+    },
+    {
+      "Code": "2021_topps_mickey_mantle_collection_baseball",
+      "DisplayName": "2021 Topps Mickey Mantle Collection Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Mickey Mantle Collection"
+    },
+    {
+      "Code": "2021_topps_museum_collection_baseball",
+      "DisplayName": "2021 Topps Museum Collection Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Museum Collection"
+    },
+    {
+      "Code": "2021_topps_npb_baseball",
+      "DisplayName": "2021 Topps NBP Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "NBP"
+    },
+    {
+      "Code": "2021_topps_opening_day_baseball",
+      "DisplayName": "2021 Topps Opening Day Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Opening Day"
+    },
+    {
+      "Code": "2021_topps_pro_debut_baseball",
+      "DisplayName": "2021 Topps Pro Debut Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Pro Debut"
+    },
+    {
+      "Code": "2021_topps_rip_baseball",
+      "DisplayName": "2021 Topps Rip Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Rip"
+    },
+    {
       "Code": "2021_topps_series_1_baseball",
       "DisplayName": "2021 Topps Series 1 Baseball",
       "Keywords": "2021 Topps Series 1 Baseball, 2021 Topps Series 1, 2021 Series 1 Baseball, 2021 Series 1, 21 Topps Series 1 Baseball, 21 Topps Series 1, 21 Series 1 Baseball, 21 Series 1, Topps Series 1 Baseball, Topps Series 1, Series 1 Baseball, Series 1, Topps Series One Baseball, Topps Series One, Series One Baseball, Series One, Topps Series 1 checklist, Series 1 checklist, 2021 Topps Series 1 checklist, 2021 Series 1 checklist",
@@ -2540,6 +3170,105 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Series 2"
+    },
+    {
+      "Code": "2021_topps_spotlight_70_andy_friedman_baseball",
+      "DisplayName": "2021 Topps Spotlight 70 Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Spotlight 70"
+    },
+    {
+      "Code": "2021_topps_stadium_club_baseball",
+      "DisplayName": "2021 Topps Stadium Club Baseball",
+      "Keywords": "2021 Topps Stadium Club Baseball, 2021 Topps Stadium Club, 2021 Stadium Club Baseball, 2021 Stadium Club, 21 Topps Stadium Club Baseball, 21 Topps Stadium Club, 21 Stadium Club Baseball, 21 Stadium Club, Topps Stadium Club Baseball, Topps Stadium Club, Stadium Club Baseball, Stadium Club, Topps Stadium Club checklist, Stadium Club checklist, Topps Stadium Club baseball checklist, 2021 Topps Stadium Club checklist, 2021 Stadium Club checklist",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Stadium Club"
+    },
+    {
+      "Code": "2021_topps_stadium_club_chrome_baseball",
+      "DisplayName": "2021 Topps Stadium Club Chrome Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Stadium Club Chrome"
+    },
+    {
+      "Code": "2021_topps_sterling_baseball",
+      "DisplayName": "2021 Topps Sterling Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Sterling"
+    },
+    {
+      "Code": "2021_topps_tier_one_baseball",
+      "DisplayName": "2021 Topps Tier One Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Tier One"
+    },
+    {
+      "Code": "2021_topps_transcendent_collection_baseball",
+      "DisplayName": "2021 Topps Transcendent Collection Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Transcendent Collection"
+    },
+    {
+      "Code": "2021_topps_transcendent_hall_of_fame_baseball",
+      "DisplayName": "2021 Topps Transcendent Hall of Fame Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Transcendent Hall of Fame"
+    },
+    {
+      "Code": "2021_topps_tribute_baseball",
+      "DisplayName": "2021 Topps Tribute Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Tribute"
+    },
+    {
+      "Code": "2021_topps_triple_threads_baseball",
+      "DisplayName": "2021 Topps Triple Threads Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Triple Threads"
+    },
+    {
+      "Code": "2021_topps_baseball_uk_edition_baseball",
+      "DisplayName": "2021 Topps UK Edition Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "UK Edition"
+    },
+    {
+      "Code": "2021_topps_update_series_baseball",
+      "DisplayName": "2021 Topps Update Series Baseball",
+      "Keywords": "",
+      "year": "2021",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Update Series"
     },
     {
       "Code": "2020_Topps_Chrome_baseball",
