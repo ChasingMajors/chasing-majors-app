@@ -327,6 +327,30 @@ function compareBroadSearchRows_(a, b) {
   return String(a.player || "").localeCompare(String(b.player || ""));
 }
 
+function dedupeSearchRows_(rows) {
+  const seen = {};
+  const out = [];
+
+  (rows || []).forEach(row => {
+    const key = [
+      lower(row.sport),
+      lower(row.code),
+      lower(row.section),
+      lower(row.subset),
+      lower(row.card_no),
+      lower(row.player),
+      lower(row.team),
+      lower(row.tag)
+    ].join("||");
+
+    if (seen[key]) return;
+    seen[key] = true;
+    out.push(row);
+  });
+
+  return out;
+}
+
 function normalizeSectionName(section) {
   return lower(section).replace(/\s+/g, " ").trim();
 }
@@ -1068,6 +1092,13 @@ async function loadStaticJsonCached_(cacheKey, url) {
   return data;
 }
 
+function staticDataPathUrl_(path) {
+  return String(path || "")
+    .split("/")
+    .map(part => encodeURIComponent(part))
+    .join("/");
+}
+
 function normalizeIndexRows_(rows) {
   return (Array.isArray(rows) ? rows : []).map(r => ({
     Code: r.Code || r.code || "",
@@ -1168,7 +1199,9 @@ async function loadStaticChecklistSearchRows_(sport) {
   const data = await loadStaticJsonCached_(
     `checklist_search_${sportKey}`,
     `${STATIC_DATA_BASE}/checklists/search-index/${encodeURIComponent(sportKey)}.json`
-  );
+  ).catch(() => null);
+
+  let primaryRows = [];
 
   if (data && data.sharded && Array.isArray(data.shards)) {
     const rowGroups = await Promise.all(data.shards.map(fileName => {
@@ -1177,10 +1210,50 @@ async function loadStaticChecklistSearchRows_(sport) {
         `${STATIC_DATA_BASE}/checklists/search-index/${encodeURIComponent(fileName)}`
       ).then(shard => normalizeSearchRows_(shard.rows || []));
     }));
-    return rowGroups.reduce((out, rows) => out.concat(rows), []);
+    primaryRows = rowGroups.reduce((out, rows) => out.concat(rows), []);
+  } else {
+    primaryRows = normalizeSearchRows_(data ? (Array.isArray(data) ? data : (data.results || data.rows || data.index || [])) : []);
   }
 
-  return normalizeSearchRows_(Array.isArray(data) ? data : (data.results || data.rows || data.index || []));
+  const sourceRows = await loadStaticChecklistSourceSearchRows_(sportKey).catch(() => []);
+  return primaryRows.concat(sourceRows);
+}
+
+async function loadStaticChecklistSourceSearchRows_(sportKey) {
+  const registry = await loadStaticJsonCached_(
+    "checklist_search_source_registry",
+    `${STATIC_DATA_BASE}/checklists/search-index/sources.json`
+  ).catch(() => null);
+
+  const entries = registry && registry.sources && Array.isArray(registry.sources[sportKey])
+    ? registry.sources[sportKey]
+    : [];
+
+  if (!entries.length) return [];
+
+  const rowGroups = await Promise.all(entries.map(entry => {
+    const manifestPath = norm(entry.path || "");
+    if (!manifestPath) return Promise.resolve([]);
+
+    return loadStaticJsonCached_(
+      `checklist_search_source_${sportKey}_${manifestPath}`,
+      `${STATIC_DATA_BASE}/checklists/search-index/${staticDataPathUrl_(manifestPath)}`
+    ).then(manifest => {
+      if (manifest && manifest.sharded && Array.isArray(manifest.shards)) {
+        return Promise.all(manifest.shards.map(fileName => {
+          const shardPath = "sources/" + fileName;
+          return loadStaticJsonCached_(
+            `checklist_search_source_shard_${sportKey}_${fileName}`,
+            `${STATIC_DATA_BASE}/checklists/search-index/${staticDataPathUrl_(shardPath)}`
+          ).then(shard => normalizeSearchRows_(shard.rows || []));
+        })).then(groups => groups.reduce((out, rows) => out.concat(rows), []));
+      }
+
+      return normalizeSearchRows_(manifest ? (manifest.rows || []) : []);
+    }).catch(() => []);
+  }));
+
+  return rowGroups.reduce((out, rows) => out.concat(rows), []);
 }
 
 function looksLikeHelpfulPlayerSuggestion_(query, row) {
@@ -1255,11 +1328,11 @@ async function searchStaticCards_(q, sport, page = 1, pageSize = BROAD_PAGE_SIZE
   }
 
   const rows = await loadStaticChecklistSearchRows_(sport || "all");
-  const filtered = rows.filter(r => {
+  const filtered = dedupeSearchRows_(rows.filter(r => {
     if (sport && lower(r.sport) !== lower(sport)) return false;
     const hay = lower(`${r.displayName} ${r.product} ${r.section} ${r.subset} ${r.card_no} ${r.player} ${r.team} ${r.tag} ${r.search_blob}`);
     return tokens.every(t => hay.includes(t));
-  }).sort(compareBroadSearchRows_);
+  })).sort(compareBroadSearchRows_);
 
   const total = filtered.length;
   const totalPages = total ? Math.ceil(total / pageSize) : 0;
