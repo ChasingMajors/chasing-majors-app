@@ -1,13 +1,18 @@
 {
   "ok": true,
   "kind": "checklist_search_source_registry",
-  "generated_at": "2026-05-07T14:40:06.833Z",
+  "generated_at": "2026-05-07T14:57:28.974Z",
   "sources": {
     "baseball": [
       {
         "source_key": "1950s",
         "path": "sources/baseball-1950s.json",
         "generated_at": "2026-05-07T14:40:06.833Z"
+      },
+      {
+        "source_key": "2016",
+        "path": "sources/baseball-2016.json",
+        "generated_at": "2026-05-07T14:57:28.974Z"
       }
     ]
   }
