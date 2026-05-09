@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Checklist Google Sheets Products rebuild",
-  "generated_at": "2026-05-07T21:46:54.424Z",
+  "generated_at": "2026-05-09T12:51:55.541Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -3271,7 +3271,295 @@
       "product": "Update Series"
     },
     {
-      "Code": "2020_Topps_Chrome_baseball",
+      "Code": "2020_bowman_baseball_baseball",
+      "DisplayName": "2020 Bowman Baseball",
+      "Keywords": "2020 Bowman Baseball, Bowman Baseball 2020, 2020 Bowman cards, Bowman baseball cards 2020, 2020 Bowman MLB cards, Bowman prospects 2020, 1st Bowman cards 2020, first Bowman prospect cards 2020, Bowman rookie cards 2020, Jasson Dominguez Bowman cards 2020, Bobby Witt Jr Bowman cards 2020, top MLB prospect cards 2020, Bowman paper prospects 2020, Bowman Chrome prospects 2020, Bowman autos 2020, Bowman autographs 2020, prospect baseball cards 2020, Bowman parallels 2020, Bowman Baseball checklist 2020, Bowman checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": ""
+    },
+    {
+      "Code": "2020_bowman_transcendent_collection",
+      "DisplayName": "2020 Bowman Bowman Transcendent Baseball",
+      "Keywords": "2020 Bowman Transcendent Baseball, Bowman Transcendent Baseball 2020, 2020 Bowman Transcendent cards, Bowman Transcendent baseball cards 2020, 2020 Bowman Transcendent MLB cards, luxury prospect baseball cards 2020, ultra high end Bowman cards 2020, Bowman Transcendent autos 2020, Bowman Transcendent autographs 2020, premium prospect autograph baseball cards 2020, one of one prospect baseball cards 2020, framed autograph baseball cards 2020, top MLB prospect cards 2020, Bowman prospect superfractors 2020, collectible luxury baseball cards 2020, VIP baseball card experience 2020, Bowman Transcendent parallels 2020, Bowman Transcendent Baseball checklist 2020, Bowman Transcendent checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Bowman Transcendent"
+    },
+    {
+      "Code": "2020_bowman_chrome_baseball",
+      "DisplayName": "2020 Bowman Chrome Baseball",
+      "Keywords": "2020 Bowman Chrome Baseball, Bowman Chrome Baseball 2020, 2020 Bowman Chrome cards, Bowman Chrome baseball cards 2020, 2020 Bowman Chrome MLB cards, Bowman Chrome prospects 2020, Bowman Chrome rookie cards 2020, 1st Bowman Chrome cards 2020, first Bowman Chrome prospect cards 2020, Bowman Chrome autos 2020, Bowman Chrome autographs 2020, chrome prospect baseball cards 2020, refractor prospect baseball cards 2020, top MLB prospect cards 2020, Bowman Chrome parallels 2020, superfractor baseball cards 2020, sapphire Bowman Chrome cards 2020, collectible prospect baseball cards 2020, Bowman Chrome Baseball checklist 2020, Bowman Chrome checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome"
+    },
+    {
+      "Code": "2020_bowman_mega_box_chrome_baseball",
+      "DisplayName": "2020 Bowman Chrome Mega Box Baseball",
+      "Keywords": "2020 Bowman Chrome Mega Box Baseball, Bowman Chrome Mega Box Baseball 2020, 2020 Bowman Chrome Mega Box cards, Bowman Mega Box baseball cards 2020, 2020 Bowman Chrome Mega Box MLB cards, mojo refractor baseball cards 2020, Bowman Mega Box prospects 2020, Bowman Chrome Mega Box rookie cards 2020, 1st Bowman Mega Box cards 2020, top MLB prospect cards 2020, Bowman Mega Box autos 2020, Bowman Chrome Mega Box autographs 2020, mojo prospect baseball cards 2020, chrome prospect baseball cards 2020, collectible prospect baseball cards 2020, exclusive retail Bowman baseball cards 2020, Bowman Mega Box parallels 2020, superfractor prospect baseball cards 2020, Bowman Chrome Mega Box Baseball checklist 2020, Bowman Mega Box checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome Mega Box"
+    },
+    {
+      "Code": "2020_bowman_draft_baseball",
+      "DisplayName": "2020 Bowman Draft Baseball",
+      "Keywords": "2020 Bowman Draft Baseball, Bowman Draft Baseball 2020, 2020 Bowman Draft cards, Bowman Draft baseball cards 2020, 2020 Bowman Draft MLB cards, Bowman Draft prospects 2020, MLB draft prospect cards 2020, 1st Bowman Draft cards 2020, first Bowman draft picks 2020, Bowman Draft autos 2020, Bowman Draft autographs 2020, chrome draft prospect baseball cards 2020, top MLB prospect cards 2020, prospect autograph baseball cards 2020, collectible draft baseball cards 2020, Bowman Draft refractors 2020, superfractor prospect baseball cards 2020, Bowman Draft parallels 2020, Bowman Draft Baseball checklist 2020, Bowman Draft checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Draft"
+    },
+    {
+      "Code": "2020_bowman_heritage_baseball",
+      "DisplayName": "2020 Bowman Heritage Baseball",
+      "Keywords": "2020 Bowman Heritage Baseball, Bowman Heritage Baseball 2020, 2020 Bowman Heritage cards, Bowman Heritage baseball cards 2020, 2020 Bowman Heritage MLB cards, vintage Bowman baseball cards 2020, retro prospect baseball cards 2020, Bowman Heritage rookie cards 2020, Bowman Heritage prospects 2020, 1st Bowman Heritage cards 2020, Bowman Heritage autos 2020, Bowman Heritage autographs 2020, top MLB prospect cards 2020, collectible retro baseball cards 2020, chrome prospect baseball cards 2020, nostalgic Bowman baseball cards 2020, Bowman Heritage parallels 2020, collectible prospect baseball cards 2020, Bowman Heritage Baseball checklist 2020, Bowman Heritage checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Heritage"
+    },
+    {
+      "Code": "2020_bowman_platinum_baseball",
+      "DisplayName": "2020 Bowman Platinum Baseball",
+      "Keywords": "2020 Bowman Platinum Baseball, Bowman Platinum Baseball 2020, 2020 Bowman Platinum cards, Bowman Platinum baseball cards 2020, 2020 Bowman Platinum MLB cards, Bowman Platinum prospects 2020, Bowman Platinum rookie cards 2020, 1st Bowman Platinum cards 2020, top MLB prospect cards 2020, Bowman Platinum autos 2020, Bowman Platinum autographs 2020, platinum prospect baseball cards 2020, chromium prospect baseball cards 2020, collectible prospect baseball cards 2020, ice foil baseball cards 2020, premium prospect baseball cards 2020, Bowman Platinum parallels 2020, colorful Bowman baseball cards 2020, Bowman Platinum Baseball checklist 2020, Bowman Platinum checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Platinum"
+    },
+    {
+      "Code": "2020_bowman_sapphire_edition_baseball",
+      "DisplayName": "2020 Bowman Sapphire Baseball",
+      "Keywords": "2020 Bowman Sapphire Baseball, Bowman Sapphire Baseball 2020, 2020 Bowman Sapphire cards, Bowman Sapphire baseball cards 2020, 2020 Bowman Sapphire MLB cards, sapphire prospect baseball cards 2020, premium Bowman prospect cards 2020, Bowman Sapphire rookie cards 2020, 1st Bowman Sapphire cards 2020, top MLB prospect cards 2020, Bowman Sapphire autos 2020, Bowman Sapphire autographs 2020, sapphire refractor baseball cards 2020, collectible prospect baseball cards 2020, chromium prospect baseball cards 2020, exclusive Bowman baseball cards 2020, Bowman Sapphire parallels 2020, superfractor prospect baseball cards 2020, Bowman Sapphire Baseball checklist 2020, Bowman Sapphire checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Sapphire"
+    },
+    {
+      "Code": "2020_bowman_sterling_baseball",
+      "DisplayName": "2020 Bowman Sterling Baseball",
+      "Keywords": "2020 Bowman Sterling Baseball, Bowman Sterling Baseball 2020, 2020 Bowman Sterling cards, Bowman Sterling baseball cards 2020, 2020 Bowman Sterling MLB cards, premium prospect baseball cards 2020, Bowman Sterling prospects 2020, Bowman Sterling rookie cards 2020, 1st Bowman Sterling cards 2020, top MLB prospect cards 2020, Bowman Sterling autos 2020, Bowman Sterling autographs 2020, chrome prospect autograph baseball cards 2020, refractor prospect baseball cards 2020, sterling continuity baseball cards 2020, collectible prospect baseball cards 2020, Bowman Sterling parallels 2020, superfractor prospect baseball cards 2020, Bowman Sterling Baseball checklist 2020, Bowman Sterling checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Sterling"
+    },
+    {
+      "Code": "2020_bowmans_best_baseball",
+      "DisplayName": "2020 Bowmans Best Baseball",
+      "Keywords": "2020 Bowmans Best Baseball, Bowmans Best Baseball 2020, 2020 Bowmans Best cards, Bowmans Best baseball cards 2020, 2020 Bowmans Best MLB cards, Bowmans Best rookie cards 2020, Bowmans Best prospects 2020, top MLB prospect cards 2020, Bowmans Best autos 2020, Bowmans Best autographs 2020, Bowmans Best refractors 2020, chromium prospect baseball cards 2020, premium prospect baseball cards 2020, Bowmans Best rookie autograph cards 2020, franchise favorites baseball cards 2020, collectible chrome baseball cards 2020, Bowmans Best parallels 2020, atomic refractor baseball cards 2020, Bowmans Best Baseball checklist 2020, Bowmans Best checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Bowmans",
+      "product": "Best"
+    },
+    {
+      "Code": "2020_donruss_baseball",
+      "DisplayName": "2020 Donruss Baseball",
+      "Keywords": "2020 Donruss Baseball, Donruss Baseball 2020, 2020 Donruss cards, Donruss baseball cards 2020, 2020 Donruss MLB cards, retro baseball cards Panini 2020, rated rookie baseball cards 2020, Donruss rookie cards 2020, Luis Robert Donruss rookie cards 2020, Donruss autos 2020, Donruss autographs baseball 2020, optic preview baseball cards 2020, unleashed baseball cards 2020, whammy baseball cards 2020, marvels baseball cards 2020, retro 1986 Donruss baseball cards 2020, colorful baseball parallels 2020, Donruss Baseball checklist 2020, Donruss checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Donruss",
+      "product": ""
+    },
+    {
+      "Code": "2020_donruss_optic_baseball",
+      "DisplayName": "2020 Donruss Optic Baseball",
+      "Keywords": "2020 Donruss Optic Baseball, Donruss Optic Baseball 2020, 2020 Donruss Optic cards, Optic baseball cards 2020, 2020 Donruss Optic MLB cards, chromium baseball cards Panini 2020, rated rookie baseball cards 2020, Donruss Optic rookie cards 2020, Luis Robert Optic rookie cards 2020, Donruss Optic autos 2020, Optic autographs baseball 2020, holo baseball cards 2020, colorful optic parallels 2020, downtown baseball cards 2020, mythical baseball cards 2020, optic choice baseball cards 2020, Donruss Optic parallels 2020, collectible chrome baseball cards 2020, Donruss Optic Baseball checklist 2020, Optic checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Donruss",
+      "product": "Optic"
+    },
+    {
+      "Code": "2020_panini_absolute_baseball",
+      "DisplayName": "2020 Panini Absolute Baseball",
+      "Keywords": "2020 Panini Absolute Baseball, Panini Absolute Baseball 2020, 2020 Panini Absolute cards, Absolute baseball cards 2020, 2020 Panini Absolute MLB cards, Panini Absolute rookie cards 2020, Absolute rookies baseball 2020, Panini Absolute autos 2020, Absolute autographs baseball 2020, tools of the trade baseball cards 2020, memorabilia baseball cards Panini 2020, jumbo patch baseball cards 2020, colorful baseball parallels 2020, kaboom baseball cards 2020, rookie force baseball cards 2020, premium retail baseball cards 2020, Panini Absolute parallels 2020, collectible baseball inserts 2020, Panini Absolute Baseball checklist 2020, Absolute checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Absolute"
+    },
+    {
+      "Code": "2020_panini_chronicles_baseball_baseball",
+      "DisplayName": "2020 Panini Chronicles Baseball",
+      "Keywords": "2020 Panini Chronicles Baseball, Panini Chronicles Baseball 2020, 2020 Panini Chronicles cards, Chronicles baseball cards 2020, 2020 Panini Chronicles MLB cards, multi brand baseball cards 2020, Panini Chronicles rookie cards 2020, Chronicles rookies baseball 2020, Panini Chronicles autos 2020, Chronicles autographs baseball 2020, limited baseball cards Panini 2020, obsidian baseball cards 2020, phoenix baseball cards 2020, titan baseball cards 2020, spectra baseball cards 2020, crusade baseball cards 2020, colorful baseball parallels 2020, Panini Chronicles Baseball checklist 2020, Chronicles checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Chronicles"
+    },
+    {
+      "Code": "2020_panini_contenders_baseball",
+      "DisplayName": "2020 Panini Contenders Baseball",
+      "Keywords": "2020 Panini Contenders Baseball, Panini Contenders Baseball 2020, 2020 Panini Contenders cards, Contenders baseball cards 2020, 2020 Panini Contenders MLB cards, rookie ticket baseball cards 2020, Panini Contenders rookie cards 2020, Contenders rookies baseball 2020, Panini Contenders autos 2020, Contenders autographs baseball 2020, rookie ticket autographs baseball 2020, prospect ticket baseball cards 2020, premium autograph baseball cards Panini 2020, championship ticket baseball cards 2020, cracked ice baseball cards 2020, colorful baseball ticket parallels 2020, Panini Contenders parallels 2020, Panini Contenders Baseball checklist 2020, Contenders checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Contenders"
+    },
+    {
+      "Code": "2020_panini_diamond_kings_baseball",
+      "DisplayName": "2020 Panini Diamond Kings Baseball",
+      "Keywords": "2020 Panini Diamond Kings Baseball, Panini Diamond Kings Baseball 2020, 2020 Panini Diamond Kings cards, Diamond Kings baseball cards 2020, 2020 Panini Diamond Kings MLB cards, artistic baseball cards Panini 2020, vintage style baseball cards 2020, Panini Diamond Kings rookie cards 2020, Luis Robert Diamond Kings rookie cards 2020, Panini Diamond Kings autos 2020, Diamond Kings autographs baseball 2020, framed baseball cards 2020, gallery of stars baseball cards 2020, elegance baseball cards 2020, collectible art baseball cards 2020, retro baseball card designs 2020, Panini Diamond Kings parallels 2020, collectible baseball inserts 2020, Panini Diamond Kings Baseball checklist 2020, Diamond Kings checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Diamond Kings"
+    },
+    {
+      "Code": "2020_panini_elite_extra_edition_baseball",
+      "DisplayName": "2020 Panini Elite Extra Edition Baseball",
+      "Keywords": "2020 Panini Elite Extra Edition Baseball, Panini Elite Extra Edition Baseball 2020, 2020 Panini Elite Extra Edition cards, Elite Extra Edition baseball cards 2020, 2020 Panini Elite Extra Edition MLB cards, prospect baseball cards Panini 2020, draft prospect baseball cards 2020, Panini Elite Extra Edition prospects 2020, Panini Elite Extra Edition rookie cards 2020, Elite Extra Edition autos 2020, Elite Extra Edition autographs baseball 2020, top MLB prospect cards 2020, Dominican prospect league baseball cards 2020, premium prospect autograph baseball cards 2020, Panini Elite Extra Edition parallels 2020, chromium prospect baseball cards 2020, collectible prospect baseball cards 2020, Panini Elite Extra Edition Baseball checklist 2020, Elite Extra Edition checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Elite Extra Edition"
+    },
+    {
+      "Code": "2020_panini_flawless_baseball_baseball",
+      "DisplayName": "2020 Panini Flawless Baseball",
+      "Keywords": "2020 Panini Flawless Baseball, Panini Flawless Baseball 2020, 2020 Panini Flawless cards, Flawless baseball cards 2020, 2020 Panini Flawless MLB cards, luxury baseball cards Panini 2020, ultra high end baseball cards 2020, Panini Flawless autos 2020, Flawless autographs baseball 2020, Panini Flawless patch autos 2020, diamond embedded baseball cards 2020, gemstone baseball cards Panini 2020, premium memorabilia baseball cards 2020, one of one baseball cards Panini 2020, cut signature baseball cards 2020, collectible luxury baseball cards 2020, booklet autograph baseball cards 2020, Panini Flawless Baseball checklist 2020, Flawless checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Flawless"
+    },
+    {
+      "Code": "2020_panini_immaculate_baseball_baseball",
+      "DisplayName": "2020 Panini Immaculate Collection Baseball",
+      "Keywords": "2020 Panini Immaculate Collection Baseball, Panini Immaculate Collection Baseball 2020, 2020 Panini Immaculate cards, Immaculate Collection baseball cards 2020, 2020 Panini Immaculate MLB cards, luxury baseball cards Panini 2020, premium memorabilia baseball cards 2020, Panini Immaculate rookie cards 2020, Immaculate rookies baseball 2020, Panini Immaculate autos 2020, Immaculate autographs baseball 2020, Panini Immaculate patch autos 2020, jumbo patch baseball cards 2020, logo patch baseball cards 2020, bat knob baseball cards 2020, booklet autograph baseball cards 2020, collectible high end baseball cards 2020, Panini Immaculate Collection Baseball checklist 2020, Immaculate checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Immaculate Collection"
+    },
+    {
+      "Code": "2020_panini_national_treasures_baseball",
+      "DisplayName": "2020 Panini National Treasures Baseball",
+      "Keywords": "2020 Panini National Treasures Baseball, Panini National Treasures Baseball 2020, 2020 Panini National Treasures cards, National Treasures baseball cards 2020, 2020 Panini National Treasures MLB cards, luxury baseball cards Panini 2020, ultra high end baseball cards 2020, Panini National Treasures autos 2020, National Treasures autographs baseball 2020, Panini National Treasures patch autos 2020, booklet autograph baseball cards 2020, jumbo patch baseball cards 2020, cut signature baseball cards 2020, premium memorabilia baseball cards 2020, treasure chest baseball cards 2020, one of one baseball cards Panini 2020, collectible luxury baseball cards 2020, Panini National Treasures Baseball checklist 2020, National Treasures checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "National Treasures"
+    },
+    {
+      "Code": "2020_panini_prizm_baseball",
+      "DisplayName": "2020 Panini Prizm Baseball",
+      "Keywords": "2020 Panini Prizm Baseball, Panini Prizm Baseball 2020, 2020 Panini Prizm cards, Prizm baseball cards 2020, 2020 Panini Prizm MLB cards, chromium baseball cards Panini 2020, silver prizm baseball cards 2020, Panini Prizm rookie cards 2020, Luis Robert Prizm rookie cards 2020, Panini Prizm autos 2020, Prizm autographs baseball 2020, colorful prizm parallels 2020, snake skin prizm baseball cards 2020, tiger stripe prizm baseball cards 2020, mojo prizm baseball cards 2020, stained glass baseball cards 2020, illumination baseball cards 2020, Panini Prizm parallels 2020, Panini Prizm Baseball checklist 2020, Prizm checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Prizm"
+    },
+    {
+      "Code": "2020_panini_prizm_draft_picks_baseball",
+      "DisplayName": "2020 Panini Prizm Draft Picks Baseball",
+      "Keywords": "2020 Panini Prizm Draft Picks Baseball, Panini Prizm Draft Picks Baseball 2020, 2020 Panini Prizm Draft Picks cards, Prizm Draft Picks baseball cards 2020, 2020 Panini Prizm Draft Picks MLB cards, draft prospect baseball cards 2020, collegiate baseball cards Panini 2020, Panini Prizm Draft Picks prospects 2020, Panini Prizm Draft Picks rookie cards 2020, Prizm Draft Picks autos 2020, Prizm Draft Picks autographs baseball 2020, silver prizm baseball cards 2020, colorful prizm baseball parallels 2020, chromium draft baseball cards 2020, top MLB draft prospect cards 2020, snake skin prizm baseball cards 2020, tiger stripe prizm baseball cards 2020, Panini Prizm Draft Picks Baseball checklist 2020, Prizm Draft Picks checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Prizm Draft Picks"
+    },
+    {
+      "Code": "2020_panini_select_baseball",
+      "DisplayName": "2020 Panini Select Baseball",
+      "Keywords": "2020 Panini Select Baseball, Panini Select Baseball 2020, 2020 Panini Select cards, Select baseball cards 2020, 2020 Panini Select MLB cards, chromium baseball cards Panini 2020, premier level baseball cards 2020, diamond level baseball cards 2020, Panini Select rookie cards 2020, Luis Robert Select rookie cards 2020, Panini Select autos 2020, Select autographs baseball 2020, colorful select parallels 2020, zebra prizm baseball cards 2020, tie dye baseball cards 2020, phenomenon baseball cards 2020, sparks baseball relic cards 2020, Panini Select parallels 2020, Panini Select Baseball checklist 2020, Select checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Select"
+    },
+    {
+      "Code": "2020_panini_stars_stripes_usa_baseball",
+      "DisplayName": "2020 Panini Stars & Stripes USA Baseball",
+      "Keywords": "2020 Panini Stars & Stripes USA Baseball, Panini Stars & Stripes USA Baseball 2020, 2020 Panini Stars and Stripes cards, Stars and Stripes baseball cards 2020, 2020 USA Baseball cards Panini, USA Baseball prospect cards 2020, Team USA baseball cards 2020, amateur baseball cards 2020, collegiate baseball cards 2020, Panini Stars & Stripes rookie cards 2020, Panini Stars & Stripes autos 2020, Stars and Stripes autographs baseball 2020, USA Baseball patch cards 2020, jumbo patch baseball cards 2020, future MLB prospect cards 2020, collectible USA Baseball cards 2020, Panini Stars & Stripes parallels 2020, patriotic baseball cards 2020, Panini Stars & Stripes USA Baseball checklist 2020, Stars and Stripes checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Stars & Stripes USA"
+    },
+    {
+      "Code": "2020_topps_allen_ginter_baseball",
+      "DisplayName": "2020 Topps Allen & Ginter Baseball",
+      "Keywords": "2020 Topps Allen & Ginter Baseball, Topps Allen & Ginter Baseball 2020, 2020 Topps Allen and Ginter cards, Allen and Ginter baseball cards 2020, 2020 Topps Allen & Ginter MLB cards, vintage style baseball cards Topps 2020, mini baseball cards Topps 2020, oddball baseball cards 2020, Topps Allen & Ginter rookie cards 2020, Luis Robert Allen and Ginter rookie cards 2020, Topps Allen & Ginter autos 2020, Allen and Ginter autographs baseball 2020, framed mini autograph baseball cards 2020, collectible mini baseball cards 2020, quirky insert baseball cards 2020, non sports Allen and Ginter cards 2020, Topps Allen & Ginter parallels 2020, collectible retro baseball cards 2020, Topps Allen & Ginter Baseball checklist 2020, Allen and Ginter checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Allen & Ginter"
+    },
+    {
+      "Code": "2020_topps_allen_ginter_chrome_baseball",
+      "DisplayName": "2020 Topps Allen & Ginter Chrome Baseball",
+      "Keywords": "2020 Topps Allen & Ginter Chrome Baseball, Topps Allen & Ginter Chrome Baseball 2020, 2020 Topps Allen and Ginter Chrome cards, Allen and Ginter Chrome baseball cards 2020, 2020 Topps Allen & Ginter Chrome MLB cards, chrome Allen and Ginter baseball cards 2020, mini chrome baseball cards 2020, Topps Allen & Ginter Chrome rookie cards 2020, Allen and Ginter Chrome rookies baseball 2020, Topps Allen & Ginter Chrome autos 2020, Allen and Ginter Chrome autographs baseball 2020, refractor mini baseball cards 2020, collectible chrome baseball cards 2020, vintage style chrome baseball cards 2020, chromium mini baseball cards Topps 2020, Topps Allen & Ginter Chrome parallels 2020, collectible mini baseball cards 2020, Topps Allen & Ginter Chrome Baseball checklist 2020, Allen and Ginter Chrome checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Allen & Ginter Chrome"
+    },
+    {
+      "Code": "2020_topps_allen_ginter_x_baseball",
+      "DisplayName": "2020 Topps Allen & Ginter X Baseball",
+      "Keywords": "2020 Topps Allen & Ginter X Baseball, Topps Allen & Ginter X Baseball 2020, 2020 Topps Allen and Ginter X cards, Allen and Ginter X baseball cards 2020, 2020 Topps Allen & Ginter X MLB cards, black border baseball cards Topps 2020, online exclusive baseball cards Topps 2020, Topps Allen & Ginter X rookie cards 2020, Allen and Ginter X rookies baseball 2020, Topps Allen & Ginter X autos 2020, Allen and Ginter X autographs baseball 2020, mini baseball cards Topps 2020, collectible black baseball cards 2020, vintage style baseball cards Topps 2020, exclusive mini baseball cards 2020, Topps Allen & Ginter X parallels 2020, collectible oddball baseball cards 2020, Topps Allen & Ginter X Baseball checklist 2020, Allen and Ginter X checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Allen & Ginter X"
+    },
+    {
+      "Code": "2020_topps_archives_baseball",
+      "DisplayName": "2020 Topps Archives Baseball",
+      "Keywords": "2020 Topps Archives Baseball, Topps Archives Baseball 2020, 2020 Topps Archives cards, Archives baseball cards 2020, 2020 Topps Archives MLB cards, retro baseball cards Topps 2020, vintage style baseball cards 2020, Topps Archives rookie cards 2020, Luis Robert Topps Archives rookie cards 2020, Topps Archives autos 2020, Archives autographs baseball 2020, fan favorites autographs baseball 2020, nostalgic baseball card designs 2020, throwback baseball cards Topps 2020, collectible retro baseball cards 2020, Topps Archives parallels 2020, classic Topps baseball designs 2020, collectible baseball inserts 2020, Topps Archives Baseball checklist 2020, Archives checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Archives"
+    },
+    {
+      "Code": "2020_topps_archives_signature_series_active_baseball",
+      "DisplayName": "2020 Topps Archives Signature Series Active Player Edition Baseball",
+      "Keywords": "2020 Topps Archives Signature Series Active Player Edition Baseball, Topps Archives Signature Series Active Player Edition Baseball 2020, 2020 Topps Archives Signature Series Active Player Edition cards, Archives Signature Series Active Player Edition baseball cards 2020, 2020 Topps Archives Signature Series active MLB cards, buyback autograph baseball cards 2020, encased autograph baseball cards Topps 2020, active player autograph baseball cards 2020, Topps Archives Signature Series autos 2020, Archives Signature Series autographs baseball 2020, one of one autograph baseball cards 2020, serial numbered autograph baseball cards 2020, premium autograph baseball cards Topps 2020, collectible active player baseball cards 2020, vintage Topps buyback cards 2020, on card autograph baseball cards 2020, Topps Archives Signature Series parallels 2020, Topps Archives Signature Series Active Player Edition Baseball checklist 2020, Archives Signature Series Active Player Edition checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Archives Signature Series Active Player Edition"
+    },
+    {
+      "Code": "2020_topps_archives_signature_series_retired_player",
+      "DisplayName": "2020 Topps Archives Signature Series Retired Player Edition Baseball",
+      "Keywords": "2020 Topps Archives Signature Series Retired Player Edition Baseball, Topps Archives Signature Series Retired Player Edition Baseball 2020, 2020 Topps Archives Signature Series Retired Player Edition cards, Archives Signature Series Retired Player Edition baseball cards 2020, 2020 Topps Archives Signature Series retired MLB cards, buyback autograph baseball cards 2020, encased autograph baseball cards Topps 2020, retired player autograph baseball cards 2020, Topps Archives Signature Series autos 2020, Archives Signature Series autographs baseball 2020, one of one autograph baseball cards 2020, serial numbered autograph baseball cards 2020, classic player autograph baseball cards 2020, collectible retired player baseball cards 2020, vintage Topps buyback cards 2020, premium autograph baseball cards Topps 2020, Topps Archives Signature Series parallels 2020, Topps Archives Signature Series Retired Player Edition Baseball checklist 2020, Archives Signature Series Retired Player Edition checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Archives Signature Series Retired Player Edition"
+    },
+    {
+      "Code": "2020_topps_archives_snapshots_baseball",
+      "DisplayName": "2020 Topps Archives Snapshots Baseball",
+      "Keywords": "2020 Topps Archives Snapshots Baseball, Topps Archives Snapshots Baseball 2020, 2020 Topps Archives Snapshots cards, Archives Snapshots baseball cards 2020, 2020 Topps Archives Snapshots MLB cards, online exclusive baseball cards Topps 2020, photography baseball cards Topps 2020, Topps Archives Snapshots rookie cards 2020, Luis Robert Archives Snapshots rookie cards 2020, Topps Archives Snapshots autos 2020, Archives Snapshots autographs baseball 2020, retro photography baseball cards 2020, collectible baseball photo cards 2020, vintage inspired baseball cards Topps 2020, limited edition baseball cards Topps 2020, Topps Archives Snapshots parallels 2020, collector focused baseball cards 2020, Topps Archives Snapshots Baseball checklist 2020, Archives Snapshots checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Archives Snapshots"
+    },
+    {
+      "Code": "2020_topps_big_league_baseball",
+      "DisplayName": "2020 Topps Big League Baseball",
+      "Keywords": "2020 Topps Big League Baseball, Topps Big League Baseball 2020, 2020 Topps Big League cards, Big League baseball cards 2020, 2020 Topps Big League MLB cards, kid friendly baseball cards 2020, affordable baseball cards Topps 2020, Topps Big League rookie cards 2020, Luis Robert Big League rookie cards 2020, Topps Big League autos 2020, Big League autographs baseball 2020, mascot baseball cards 2020, players weekend nickname baseball cards 2020, collectible retail baseball cards 2020, fun baseball inserts 2020, colorful baseball cards Topps 2020, Topps Big League parallels 2020, collectible baseball inserts 2020, Topps Big League Baseball checklist 2020, Big League checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Big League"
+    },
+    {
+      "Code": "2020_topps_chrome_baseball",
       "DisplayName": "2020 Topps Chrome Baseball",
       "Keywords": "2020 Topps Chrome Baseball, 2020 Topps Chrome, 2020 Chrome Baseball, 2020 Chrome, 20 Topps Chrome Baseball, 20 Topps Chrome, 20 Chrome Baseball, 20 Chrome, Topps Chrome Baseball, Topps Chrome, Chrome Baseball, Chrome, Topps Chrome checklist, Chrome checklist, Topps Chrome baseball checklist, 2020 Topps Chrome checklist, 2020 Chrome checklist",
       "year": "2020",
@@ -3280,7 +3568,34 @@
       "product": "Chrome"
     },
     {
-      "Code": "2020_Topps_Chrome_Update_baseball",
+      "Code": "2020_topps_chrome_ben_baller_baseball",
+      "DisplayName": "2020 Topps Chrome Ben Baller Baseball",
+      "Keywords": "2020 Topps Chrome Ben Baller Baseball, Topps Chrome Ben Baller Baseball 2020, 2020 Topps Chrome Ben Baller cards, Ben Baller Chrome baseball cards 2020, 2020 Topps Chrome Ben Baller MLB cards, Ben Baller baseball cards 2020, exclusive chrome baseball cards 2020, premium chrome baseball cards Topps 2020, Topps Chrome Ben Baller rookie cards 2020, Luis Robert Ben Baller rookie cards 2020, Topps Chrome Ben Baller autos 2020, Ben Baller autographs baseball 2020, wave refractor baseball cards 2020, colorful chrome baseball parallels 2020, collectible chrome baseball cards 2020, online exclusive baseball cards Topps 2020, luxury chrome baseball cards 2020, Topps Chrome Ben Baller Baseball checklist 2020, Ben Baller checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Ben Baller"
+    },
+    {
+      "Code": "2020_topps_chrome_black_baseball",
+      "DisplayName": "2020 Topps Chrome Black Baseball",
+      "Keywords": "2020 Topps Chrome Black Baseball, Topps Chrome Black Baseball 2020, 2020 Topps Chrome Black cards, Chrome Black baseball cards 2020, 2020 Topps Chrome Black MLB cards, black chrome baseball cards 2020, premium chrome baseball cards Topps 2020, Topps Chrome Black rookie cards 2020, Luis Robert Chrome Black rookie cards 2020, Topps Chrome Black autos 2020, Chrome Black autographs baseball 2020, encased autograph baseball cards 2020, refractor baseball cards Topps 2020, chromium baseball cards Topps 2020, luxury chrome baseball cards 2020, collectible black baseball cards 2020, Topps Chrome Black parallels 2020, Topps Chrome Black Baseball checklist 2020, Chrome Black checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Black"
+    },
+    {
+      "Code": "2020_topps_chrome_sapphire_baseball",
+      "DisplayName": "2020 Topps Chrome Sapphire Baseball",
+      "Keywords": "2020 Topps Chrome Sapphire Baseball, Topps Chrome Sapphire Baseball 2020, 2020 Topps Chrome Sapphire cards, Chrome Sapphire baseball cards 2020, 2020 Topps Chrome Sapphire MLB cards, sapphire refractor baseball cards 2020, premium chrome baseball cards Topps 2020, Topps Chrome Sapphire rookie cards 2020, Luis Robert Chrome Sapphire rookie cards 2020, Topps Chrome Sapphire autos 2020, Chrome Sapphire autographs baseball 2020, chromium baseball cards Topps 2020, collectible sapphire baseball cards 2020, exclusive chrome baseball cards 2020, sapphire parallel baseball cards 2020, Topps Chrome Sapphire parallels 2020, luxury chrome baseball cards 2020, Topps Chrome Sapphire Baseball checklist 2020, Chrome Sapphire checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Sapphire"
+    },
+    {
+      "Code": "2020_topps_chrome_update_baseball",
       "DisplayName": "2020 Topps Chrome Update Baseball",
       "Keywords": "2020 Topps Chrome Update Baseball, 2020 Topps Chrome Update, 2020 Chrome Update Baseball, 2020 Chrome Update, 20 Topps Chrome Update Baseball, 20 Topps Chrome Update, 20 Chrome Update Baseball, 20 Chrome Update, Topps Chrome Update Baseball, Topps Chrome Update, Chrome Update Baseball, Chrome Update, Topps Chrome Update checklist, Chrome Update checklist, Topps Chrome Update baseball checklist, 2020 Topps Chrome Update checklist, 2020 Chrome Update checklist",
       "year": "2020",
@@ -3298,7 +3613,115 @@
       "product": "Chrome Update Sapphire"
     },
     {
-      "Code": "2020_Topps_Heritage_HighNumber_baseball",
+      "Code": "2020_topps_clearly_authentic_baseball",
+      "DisplayName": "2020 Topps Clearly Authentic Baseball",
+      "Keywords": "2020 Topps Clearly Authentic Baseball, Topps Clearly Authentic Baseball 2020, 2020 Topps Clearly Authentic cards, Clearly Authentic baseball cards 2020, 2020 Topps Clearly Authentic MLB cards, acetate autograph baseball cards 2020, clear baseball cards Topps 2020, Topps Clearly Authentic rookie cards 2020, Luis Robert Clearly Authentic rookie cards 2020, Topps Clearly Authentic autos 2020, Clearly Authentic autographs baseball 2020, encased autograph baseball cards 2020, premium autograph baseball cards Topps 2020, transparent baseball cards 2020, collectible acetate baseball cards 2020, on card autograph baseball cards 2020, Topps Clearly Authentic parallels 2020, Topps Clearly Authentic Baseball checklist 2020, Clearly Authentic checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Clearly Authentic"
+    },
+    {
+      "Code": "2020_topps_definitive_collection_baseball",
+      "DisplayName": "2020 Topps Definitive Collection Baseball",
+      "Keywords": "2020 Topps Definitive Collection Baseball, Topps Definitive Collection Baseball 2020, 2020 Topps Definitive Collection cards, Definitive Collection baseball cards 2020, 2020 Topps Definitive MLB cards, luxury baseball cards Topps 2020, ultra high end baseball cards 2020, Topps Definitive autos 2020, Definitive autographs baseball 2020, jumbo patch autograph baseball cards 2020, cut signature baseball cards 2020, one of one baseball cards Topps 2020, premium memorabilia baseball cards 2020, framed autograph baseball cards 2020, collectible luxury baseball cards 2020, dual autograph baseball cards 2020, definitive relic baseball cards 2020, Topps Definitive Collection Baseball checklist 2020, Definitive checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Definitive Collection"
+    },
+    {
+      "Code": "2020_topps_diamond_icons_baseball",
+      "DisplayName": "2020 Topps Diamond Icons Baseball",
+      "Keywords": "2020 Topps Diamond Icons Baseball, Topps Diamond Icons Baseball 2020, 2020 Topps Diamond Icons cards, Diamond Icons baseball cards 2020, 2020 Topps Diamond Icons MLB cards, luxury baseball cards Topps 2020, ultra high end baseball cards 2020, Topps Diamond Icons autos 2020, Diamond Icons autographs baseball 2020, cut signature baseball cards 2020, one of one baseball cards Topps 2020, premium autograph baseball cards 2020, jumbo patch autograph baseball cards 2020, encased baseball autograph cards 2020, collectible luxury baseball cards 2020, dual autograph baseball cards 2020, diamond relic baseball cards 2020, Topps Diamond Icons Baseball checklist 2020, Diamond Icons checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Diamond Icons"
+    },
+    {
+      "Code": "2020_topps_dynasty_baseball",
+      "DisplayName": "2020 Topps Dynasty Baseball",
+      "Keywords": "2020 Topps Dynasty Baseball, Topps Dynasty Baseball 2020, 2020 Topps Dynasty cards, Dynasty baseball cards 2020, 2020 Topps Dynasty MLB cards, luxury baseball cards Topps 2020, ultra high end baseball cards 2020, Topps Dynasty autos 2020, Dynasty autographs baseball 2020, Topps Dynasty patch autos 2020, jumbo patch autograph baseball cards 2020, one of one baseball cards Topps 2020, premium memorabilia baseball cards 2020, cut signature baseball cards 2020, framed autograph baseball cards 2020, collectible luxury baseball cards 2020, encased baseball autograph cards 2020, Topps Dynasty Baseball checklist 2020, Dynasty checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Dynasty"
+    },
+    {
+      "Code": "2020_topps_finest_baseball",
+      "DisplayName": "2020 Topps Finest Baseball",
+      "Keywords": "2020 Topps Finest Baseball, Topps Finest Baseball 2020, 2020 Topps Finest cards, Finest baseball cards 2020, 2020 Topps Finest MLB cards, chrome baseball cards Topps 2020, premium chromium baseball cards 2020, Topps Finest rookie cards 2020, Luis Robert Finest rookie cards 2020, Topps Finest autos 2020, Finest autographs baseball 2020, refractor baseball cards Topps 2020, colorful chrome baseball parallels 2020, finest moments baseball cards 2020, finest careers baseball cards 2020, collectible chromium baseball cards 2020, Topps Finest parallels 2020, superfractor baseball cards 2020, Topps Finest Baseball checklist 2020, Finest checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Finest"
+    },
+    {
+      "Code": "2020_topps_baseballs_finest_flashbacks_baseball",
+      "DisplayName": "2020 Topps Finest Flashbacks Baseball",
+      "Keywords": "2020 Topps Finest Flashbacks Baseball, Topps Finest Flashbacks Baseball 2020, 2020 Topps Finest Flashbacks cards, Finest Flashbacks baseball cards 2020, 2020 Topps Finest Flashbacks MLB cards, retro chrome baseball cards 2020, vintage Finest baseball cards 2020, Topps Finest Flashbacks rookie cards 2020, Luis Robert Finest Flashbacks rookie cards 2020, Topps Finest Flashbacks autos 2020, Finest Flashbacks autographs baseball 2020, refractor baseball cards Topps 2020, chromium baseball cards Topps 2020, collectible retro chrome baseball cards 2020, online exclusive baseball cards Topps 2020, throwback Finest baseball designs 2020, Topps Finest Flashbacks parallels 2020, Topps Finest Flashbacks Baseball checklist 2020, Finest Flashbacks checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Finest Flashbacks"
+    },
+    {
+      "Code": "2020_topps_fire_baseball",
+      "DisplayName": "2020 Topps Fire Baseball",
+      "Keywords": "2020 Topps Fire Baseball, Topps Fire Baseball 2020, 2020 Topps Fire cards, Fire baseball cards 2020, 2020 Topps Fire MLB cards, colorful baseball cards Topps 2020, artistic baseball cards 2020, Topps Fire rookie cards 2020, Luis Robert Topps Fire rookie cards 2020, Topps Fire autos 2020, Fire autographs baseball 2020, flame pattern baseball cards 2020, collectible retail baseball cards 2020, modern design baseball cards Topps 2020, vibrant baseball parallels 2020, gold minted baseball cards 2020, Topps Fire parallels 2020, collectible baseball inserts 2020, Topps Fire Baseball checklist 2020, Fire checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Fire"
+    },
+    {
+      "Code": "2020_topps_five_star_baseball",
+      "DisplayName": "2020 Topps Five Star Baseball",
+      "Keywords": "2020 Topps Five Star Baseball, Topps Five Star Baseball 2020, 2020 Topps Five Star cards, Five Star baseball cards 2020, 2020 Topps Five Star MLB cards, luxury baseball cards Topps 2020, premium autograph baseball cards 2020, Topps Five Star rookie cards 2020, Luis Robert Five Star rookie cards 2020, Topps Five Star autos 2020, Five Star autographs baseball 2020, encased autograph baseball cards 2020, silver signature baseball cards 2020, golden graphs baseball cards 2020, collectible high end baseball cards 2020, luxury baseball autograph cards 2020, Topps Five Star parallels 2020, Topps Five Star Baseball checklist 2020, Five Star checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Five Star"
+    },
+    {
+      "Code": "2020_topps_gallery_baseball",
+      "DisplayName": "2020 Topps Gallery Baseball",
+      "Keywords": "2020 Topps Gallery Baseball, Topps Gallery Baseball 2020, 2020 Topps Gallery cards, Gallery baseball cards 2020, 2020 Topps Gallery MLB cards, artistic baseball cards Topps 2020, museum style baseball cards 2020, Topps Gallery rookie cards 2020, Luis Robert Topps Gallery rookie cards 2020, Topps Gallery autos 2020, Gallery autographs baseball 2020, colorful baseball cards Topps 2020, modern art baseball cards 2020, collector focused baseball cards 2020, premium retail baseball cards 2020, Topps Gallery parallels 2020, master and apprentice baseball cards 2020, collectible baseball inserts 2020, Topps Gallery Baseball checklist 2020, Gallery checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Gallery"
+    },
+    {
+      "Code": "2020_topps_gold_label_baseball",
+      "DisplayName": "2020 Topps Gold Label Baseball",
+      "Keywords": "2020 Topps Gold Label Baseball, Topps Gold Label Baseball 2020, 2020 Topps Gold Label cards, Gold Label baseball cards 2020, 2020 Topps Gold Label MLB cards, premium baseball cards Topps 2020, classy baseball cards Topps 2020, Topps Gold Label rookie cards 2020, Luis Robert Gold Label rookie cards 2020, Topps Gold Label autos 2020, Gold Label autographs baseball 2020, framed autograph baseball cards 2020, gold framed baseball autographs 2020, collectible premium baseball cards 2020, luxury style baseball cards Topps 2020, Topps Gold Label parallels 2020, class 1 class 2 class 3 baseball cards 2020, Topps Gold Label Baseball checklist 2020, Gold Label checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Gold Label"
+    },
+    {
+      "Code": "2020_topps_gypsy_queen_baseball",
+      "DisplayName": "2020 Topps Gypsy Queen Baseball",
+      "Keywords": "2020 Topps Gypsy Queen Baseball, Topps Gypsy Queen Baseball 2020, 2020 Topps Gypsy Queen cards, Gypsy Queen baseball cards 2020, 2020 Topps Gypsy Queen MLB cards, vintage style baseball cards Topps 2020, artistic baseball cards 2020, Topps Gypsy Queen rookie cards 2020, Luis Robert Gypsy Queen rookie cards 2020, Topps Gypsy Queen autos 2020, Gypsy Queen autographs baseball 2020, tarot of the diamond baseball cards 2020, bazooka back baseball cards 2020, fortune teller mini baseball cards 2020, collectible retro baseball cards 2020, missing nameplate baseball cards 2020, Topps Gypsy Queen parallels 2020, collectible baseball inserts 2020, Topps Gypsy Queen Baseball checklist 2020, Gypsy Queen checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Gypsy Queen"
+    },
+    {
+      "Code": "2020_topps_heritage_baseball",
+      "DisplayName": "2020 Topps Heritage Baseball",
+      "Keywords": "2020 Topps Heritage Baseball, Topps Heritage Baseball 2020, 2020 Topps Heritage cards, Heritage baseball cards 2020, 2020 Topps Heritage MLB cards, vintage baseball cards Topps 2020, retro baseball card designs 2020, Topps Heritage rookie cards 2020, Luis Robert Heritage rookie cards 2020, Topps Heritage autos 2020, Heritage autographs baseball 2020, short print baseball cards 2020, action variation baseball cards 2020, french text baseball cards 2020, real one autographs baseball 2020, chrome heritage baseball cards 2020, Topps Heritage parallels 2020, collectible retro baseball cards 2020, Topps Heritage Baseball checklist 2020, Heritage checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Heritage"
+    },
+    {
+      "Code": "2020_topps_heritage_high_number_baseball",
       "DisplayName": "2020 Topps Heritage High Number Baseball",
       "Keywords": "2020 Topps Heritage High Number Baseball, 2020 Topps Heritage High Number, 2020 Heritage High Number Baseball, 2020 Heritage High Number, 20 Topps Heritage High Number Baseball, 20 Topps Heritage High Number, 20 Heritage High Number Baseball, 20 Heritage High Number, Topps Heritage High Number Baseball, Topps Heritage High Number, Heritage High Number Baseball, Heritage High Number, Topps Heritage High Number checklist, Heritage High Number checklist, Topps Heritage High Number baseball checklist, 2020 Topps Heritage High Number checklist, 2020 Heritage High Number checklist",
       "year": "2020",
@@ -3307,7 +3730,169 @@
       "product": "Heritage High Number"
     },
     {
-      "Code": "2020_Topps_Update_Series_baseball",
+      "Code": "2020_topps_heritage_minor_league_baseball",
+      "DisplayName": "2020 Topps Heritage Minor League Baseball",
+      "Keywords": "2020 Topps Heritage Minor League Baseball, Topps Heritage Minor League Baseball 2020, 2020 Topps Heritage Minor League cards, Heritage Minor League baseball cards 2020, 2020 Topps Heritage MiLB cards, minor league baseball cards 2020, MiLB prospect baseball cards 2020, vintage style prospect baseball cards 2020, Topps Heritage Minor League rookie cards 2020, Topps Heritage Minor League prospects 2020, top MLB prospect cards 2020, Topps Heritage Minor League autos 2020, Heritage Minor League autographs baseball 2020, real one autographs minor league 2020, collectible prospect baseball cards 2020, retro baseball card designs 2020, Topps Heritage Minor League parallels 2020, Topps Heritage Minor League Baseball checklist 2020, Heritage Minor League checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Heritage Minor League"
+    },
+    {
+      "Code": "2020_topps_holiday_mega_box_baseball",
+      "DisplayName": "2020 Topps Holiday Mega Box Baseball",
+      "Keywords": "2020 Topps Holiday Mega Box Baseball, Topps Holiday Mega Box Baseball 2020, 2020 Topps Holiday cards, Topps Holiday baseball cards 2020, 2020 Topps Holiday MLB cards, holiday baseball cards Topps 2020, snowflake baseball cards 2020, festive baseball cards Topps 2020, Topps Holiday rookie cards 2020, Luis Robert rookie cards Topps Holiday 2020, Topps Holiday parallels 2020, metallic snowflake baseball cards 2020, holiday short print baseball cards 2020, santa hat baseball cards 2020, winter themed baseball cards 2020, collectible holiday baseball cards 2020, retail exclusive baseball cards Topps 2020, Topps Holiday Mega Box Baseball checklist 2020, Topps Holiday checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Holiday Mega Box"
+    },
+    {
+      "Code": "2020_topps_inception_baseball",
+      "DisplayName": "2020 Topps Inception Baseball",
+      "Keywords": "2020 Topps Inception Baseball, Topps Inception Baseball 2020, 2020 Topps Inception cards, Inception baseball cards 2020, 2020 Topps Inception MLB cards, artistic baseball cards Topps 2020, premium autograph baseball cards 2020, Topps Inception rookie cards 2020, Luis Robert Inception rookie cards 2020, Topps Inception autos 2020, Inception autographs baseball 2020, patch autograph baseball cards 2020, colorful baseball patch cards 2020, silver signings baseball cards 2020, dawn of greatness baseball cards 2020, collectible high end baseball cards 2020, Topps Inception parallels 2020, modern design baseball cards Topps 2020, Topps Inception Baseball checklist 2020, Inception checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Inception"
+    },
+    {
+      "Code": "2020_topps_luminaries_baseball",
+      "DisplayName": "2020 Topps Luminaries Baseball",
+      "Keywords": "2020 Topps Luminaries Baseball, Topps Luminaries Baseball 2020, 2020 Topps Luminaries cards, Luminaries baseball cards 2020, 2020 Topps Luminaries MLB cards, luxury baseball cards Topps 2020, ultra high end baseball cards 2020, Topps Luminaries autos 2020, Luminaries autographs baseball 2020, booklet autograph baseball cards 2020, home run kings autograph baseball cards 2020, hit kings baseball autograph cards 2020, one of one baseball cards Topps 2020, premium autograph baseball cards 2020, encased baseball autograph cards 2020, collectible luxury baseball cards 2020, cut signature baseball cards 2020, Topps Luminaries Baseball checklist 2020, Luminaries checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Luminaries"
+    },
+    {
+      "Code": "2020_topps_museum_collection_baseball",
+      "DisplayName": "2020 Topps Museum Collection Baseball",
+      "Keywords": "2020 Topps Museum Collection Baseball, Topps Museum Collection Baseball 2020, 2020 Topps Museum Collection cards, Museum Collection baseball cards 2020, 2020 Topps Museum Collection MLB cards, premium baseball cards Topps 2020, luxury memorabilia baseball cards 2020, Topps Museum Collection rookie cards 2020, Luis Robert Museum Collection rookie cards 2020, Topps Museum Collection autos 2020, Museum Collection autographs baseball 2020, Topps Museum Collection patch autos 2020, framed autograph baseball cards 2020, jumbo relic baseball cards 2020, canvas collection baseball cards 2020, collectible high end baseball cards 2020, Topps Museum Collection parallels 2020, archival autograph baseball cards 2020, Topps Museum Collection Baseball checklist 2020, Museum Collection checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Museum Collection"
+    },
+    {
+      "Code": "2020_topps_opening_day_baseball",
+      "DisplayName": "2020 Topps Opening Day Baseball",
+      "Keywords": "2020 Topps Opening Day Baseball, Topps Opening Day Baseball 2020, 2020 Topps Opening Day cards, Opening Day baseball cards 2020, 2020 Topps Opening Day MLB cards, affordable baseball cards Topps 2020, kid friendly baseball cards 2020, Topps Opening Day rookie cards 2020, Luis Robert Opening Day rookie cards 2020, Topps Opening Day autos 2020, Opening Day autographs baseball 2020, mascot baseball cards 2020, opening day inserts baseball 2020, dugout peeks baseball cards 2020, spring baseball cards Topps 2020, collectible retail baseball cards 2020, Topps Opening Day parallels 2020, collectible baseball inserts 2020, Topps Opening Day Baseball checklist 2020, Opening Day checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Opening Day"
+    },
+    {
+      "Code": "2020_topps_pro_debut_baseball",
+      "DisplayName": "2020 Topps Pro Debut Baseball",
+      "Keywords": "2020 Topps Pro Debut Baseball, Topps Pro Debut Baseball 2020, 2020 Topps Pro Debut cards, Pro Debut baseball cards 2020, 2020 Topps Pro Debut MiLB cards, minor league baseball cards 2020, MiLB prospect baseball cards 2020, Topps Pro Debut rookie cards 2020, Topps Pro Debut prospects 2020, top MLB prospect cards 2020, Topps Pro Debut autos 2020, Pro Debut autographs baseball 2020, minor league relic baseball cards 2020, collectible prospect baseball cards 2020, chrome prospect baseball cards 2020, future cornerstones baseball cards 2020, Topps Pro Debut parallels 2020, collectible MiLB baseball cards 2020, Topps Pro Debut Baseball checklist 2020, Pro Debut checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Pro Debut"
+    },
+    {
+      "Code": "2020_topps_rip_baseball",
+      "DisplayName": "2020 Topps Rip Baseball",
+      "Keywords": "2020 Topps RIP Baseball, Topps RIP Baseball 2020, 2020 Topps RIP cards, RIP baseball cards 2020, 2020 Topps RIP MLB cards, rip card baseball cards 2020, Topps rip cards 2020, hidden mini baseball cards 2020, box topper baseball cards Topps 2020, Topps RIP rookie cards 2020, RIP rookies baseball 2020, Topps RIP autos 2020, RIP autographs baseball 2020, mini baseball cards Topps 2020, collectible rip baseball cards 2020, unique baseball card products 2020, mystery baseball cards Topps 2020, Topps RIP Baseball checklist 2020, RIP checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Rip"
+    },
+    {
+      "Code": "2020_topps_series_1_baseball",
+      "DisplayName": "2020 Topps Series 1 Baseball",
+      "Keywords": "2020 Topps Series 1 Baseball, Topps Series 1 Baseball 2020, 2020 Topps Series 1 cards, Topps Series 1 baseball cards 2020, 2020 Topps flagship baseball cards, flagship baseball cards Topps 2020, 2020 Topps MLB cards, Topps Series 1 rookie cards 2020, Bo Bichette rookie cards 2020, Yordan Alvarez rookie cup cards 2020, Topps Series 1 parallels 2020, rainbow foil baseball cards 2020, gold foil baseball cards 2020, advanced stats baseball cards 2020, short print baseball cards 2020, vintage stock baseball cards 2020, turkey red baseball cards 2020, home run challenge baseball cards 2020, Topps Series 1 Baseball checklist 2020, Topps Series 1 checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Series 1"
+    },
+    {
+      "Code": "2020_topps_series_2_baseball",
+      "DisplayName": "2020 Topps Series 2 Baseball",
+      "Keywords": "2020 Topps Series 2 Baseball, Topps Series 2 Baseball 2020, 2020 Topps Series 2 cards, Topps Series 2 baseball cards 2020, 2020 Topps flagship baseball cards, flagship baseball cards Topps 2020, 2020 Topps MLB cards, Topps Series 2 rookie cards 2020, Luis Robert rookie cards 2020, Yordan Alvarez rookie cup cards 2020, Topps Series 2 parallels 2020, rainbow foil baseball cards 2020, gold foil baseball cards 2020, advanced stats baseball cards 2020, short print baseball cards 2020, vintage stock baseball cards 2020, Topps Series 2 inserts 2020, home run challenge baseball cards 2020, Topps Series 2 Baseball checklist 2020, Topps Series 2 checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Series 2"
+    },
+    {
+      "Code": "2020_topps_stadium_club_baseball",
+      "DisplayName": "2020 Topps Stadium Club Baseball",
+      "Keywords": "2020 Topps Stadium Club Baseball, Topps Stadium Club Baseball 2020, 2020 Topps Stadium Club cards, Stadium Club baseball cards 2020, 2020 Topps Stadium Club MLB cards, photography baseball cards Topps 2020, premium baseball photography cards 2020, Topps Stadium Club rookie cards 2020, Luis Robert Stadium Club rookie cards 2020, Topps Stadium Club autos 2020, Stadium Club autographs baseball 2020, beam team baseball cards 2020, chrome style photography baseball cards 2020, collectible baseball photo cards 2020, artistic baseball cards Topps 2020, Topps Stadium Club parallels 2020, vintage inspired photography baseball cards 2020, collectible baseball inserts 2020, Topps Stadium Club Baseball checklist 2020, Stadium Club checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Stadium Club"
+    },
+    {
+      "Code": "2020_topps_stadium_club_chrome_baseball",
+      "DisplayName": "2020 Topps Stadium Club Chrome Baseball",
+      "Keywords": "2020 Topps Stadium Club Chrome Baseball, Topps Stadium Club Chrome Baseball 2020, 2020 Topps Stadium Club Chrome cards, Stadium Club Chrome baseball cards 2020, 2020 Topps Stadium Club Chrome MLB cards, chrome photography baseball cards 2020, premium baseball photography cards 2020, Topps Stadium Club Chrome rookie cards 2020, Luis Robert Stadium Club Chrome rookie cards 2020, Topps Stadium Club Chrome autos 2020, Stadium Club Chrome autographs baseball 2020, refractor baseball cards Topps 2020, chromium baseball cards Topps 2020, collectible chrome baseball cards 2020, artistic baseball photography cards 2020, Topps Stadium Club Chrome parallels 2020, beam team chrome baseball cards 2020, Topps Stadium Club Chrome Baseball checklist 2020, Stadium Club Chrome checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Stadium Club Chrome"
+    },
+    {
+      "Code": "2020_topps_sterling_baseball",
+      "DisplayName": "2020 Topps Sterling Baseball",
+      "Keywords": "2020 Topps Sterling Baseball, Topps Sterling Baseball 2020, 2020 Topps Sterling cards, Sterling baseball cards 2020, 2020 Topps Sterling MLB cards, luxury baseball cards Topps 2020, ultra high end baseball cards 2020, Topps Sterling autos 2020, Sterling autographs baseball 2020, Topps Sterling patch autos 2020, jumbo patch baseball cards 2020, one of one baseball cards Topps 2020, premium memorabilia baseball cards 2020, cut signature baseball cards 2020, dual autograph baseball cards 2020, collectible luxury baseball cards 2020, encased autograph baseball cards 2020, Topps Sterling Baseball checklist 2020, Sterling checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Sterling"
+    },
+    {
+      "Code": "2020_topps_tier_one_baseball",
+      "DisplayName": "2020 Topps Tier One Baseball",
+      "Keywords": "2020 Topps Tier One Baseball, Topps Tier One Baseball 2020, 2020 Topps Tier One cards, Tier One baseball cards 2020, 2020 Topps Tier One MLB cards, premium baseball cards Topps 2020, luxury autograph baseball cards 2020, Topps Tier One rookie cards 2020, Luis Robert Tier One rookie cards 2020, Topps Tier One autos 2020, Tier One autographs baseball 2020, clear one autograph baseball cards 2020, breakout autograph baseball cards 2020, prime performers autograph baseball cards 2020, premium relic baseball cards 2020, collectible high end baseball cards 2020, Topps Tier One parallels 2020, encased autograph baseball cards 2020, Topps Tier One Baseball checklist 2020, Tier One checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Tier One"
+    },
+    {
+      "Code": "2020_topps_transcendent_collection_baseball_baseball",
+      "DisplayName": "2020 Topps Transcendent Collection Baseball",
+      "Keywords": "2020 Topps Transcendent Collection Baseball, Topps Transcendent Collection Baseball 2020, 2020 Topps Transcendent cards, Transcendent Collection baseball cards 2020, 2020 Topps Transcendent MLB cards, luxury baseball cards Topps 2020, ultra high end baseball cards 2020, Topps Transcendent autos 2020, Transcendent autographs baseball 2020, Topps Transcendent patch autos 2020, cut signature baseball cards 2020, VIP baseball card experience 2020, one of one baseball cards Topps 2020, premium autograph baseball cards 2020, framed autograph baseball cards 2020, collectible luxury baseball cards 2020, Topps Transcendent parallels 2020, Topps Transcendent Collection Baseball checklist 2020, Transcendent checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Transcendent Collection"
+    },
+    {
+      "Code": "2020_topps_transcendent_collection_hall_of_fame_baseball",
+      "DisplayName": "2020 Topps Transcendent Collection Hall of Fame Baseball",
+      "Keywords": "2020 Topps Transcendent Collection Hall of Fame Baseball, Topps Transcendent Collection Hall of Fame Baseball 2020, 2020 Topps Transcendent Hall of Fame cards, Transcendent Hall of Fame baseball cards 2020, 2020 Topps Transcendent HOF MLB cards, luxury baseball cards Topps 2020, ultra high end baseball cards 2020, Hall of Fame autograph baseball cards 2020, Topps Transcendent autos 2020, Transcendent autographs baseball 2020, one of one baseball cards Topps 2020, cut signature baseball cards 2020, premium Hall of Fame baseball cards 2020, framed autograph baseball cards 2020, collectible luxury baseball cards 2020, VIP baseball card experience 2020, definitive Hall of Fame baseball cards 2020, Topps Transcendent Collection Hall of Fame Baseball checklist 2020, Transcendent Hall of Fame checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Transcendent Collection Hall of Fame"
+    },
+    {
+      "Code": "2020_topps_tribute_baseball",
+      "DisplayName": "2020 Topps Tribute Baseball",
+      "Keywords": "2020 Topps Tribute Baseball, Topps Tribute Baseball 2020, 2020 Topps Tribute cards, Tribute baseball cards 2020, 2020 Topps Tribute MLB cards, premium baseball cards Topps 2020, luxury memorabilia baseball cards 2020, Topps Tribute rookie cards 2020, Luis Robert Tribute rookie cards 2020, Topps Tribute autos 2020, Tribute autographs baseball 2020, Topps Tribute patch autos 2020, tribute to the past baseball cards 2020, dual relic baseball cards 2020, collectible high end baseball cards 2020, premium autograph baseball cards 2020, Topps Tribute parallels 2020, framed autograph baseball cards 2020, Topps Tribute Baseball checklist 2020, Tribute checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Tribute"
+    },
+    {
+      "Code": "2020_topps_triple_threads_baseball",
+      "DisplayName": "2020 Topps Triple Threads Baseball",
+      "Keywords": "2020 Topps Triple Threads Baseball, Topps Triple Threads Baseball 2020, 2020 Topps Triple Threads cards, Triple Threads baseball cards 2020, 2020 Topps Triple Threads MLB cards, premium baseball cards Topps 2020, luxury memorabilia baseball cards 2020, Topps Triple Threads rookie cards 2020, Luis Robert Triple Threads rookie cards 2020, Topps Triple Threads autos 2020, Triple Threads autographs baseball 2020, Topps Triple Threads patch autos 2020, jumbo patch baseball cards 2020, multi relic baseball cards 2020, booklet baseball autograph cards 2020, collectible memorabilia baseball cards 2020, Topps Triple Threads parallels 2020, high end baseball cards Topps 2020, Topps Triple Threads Baseball checklist 2020, Triple Threads checklist",
+      "year": "2020",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Triple Threads"
+    },
+    {
+      "Code": "2020_topps_update_series_baseball",
       "DisplayName": "2020 Topps Update Series Baseball",
       "Keywords": "2020 Topps Update Series Baseball, 2020 Topps Update Series, 2020 Topps Update, 2020 Update Series Baseball, 2020 Update Series, 2020 Update, 20 Topps Update Series Baseball, 20 Topps Update Series, 20 Topps Update, 20 Update Series Baseball, 20 Update Series, 20 Update, Topps Update Series Baseball, Topps Update Series, Topps Update, Update Series Baseball, Update Series, Update, Topps Update checklist, Update checklist, 2020 Topps Update checklist, 2020 Update checklist",
       "year": "2020",
