@@ -4,7 +4,7 @@
   "kind": "checklist_search_source",
   "source": "Checklist DB map standalone source search",
   "source_key": "2021",
-  "generated_at": "2026-05-07T21:35:49.752Z",
+  "generated_at": "2026-05-09T13:35:29.056Z",
   "sharded": true,
   "shards": [
     "baseball-2021-001.json",
@@ -15,6 +15,14 @@
     "baseball-2021-006.json",
     "baseball-2021-007.json",
     "baseball-2021-008.json",
-    "baseball-2021-009.json"
+    "baseball-2021-009.json",
+    "baseball-2021-010.json",
+    "baseball-2021-011.json",
+    "baseball-2021-012.json",
+    "baseball-2021-013.json",
+    "baseball-2021-014.json",
+    "baseball-2021-015.json",
+    "baseball-2021-016.json",
+    "baseball-2021-017.json"
   ]
 }
