@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0b0b" />
+  <title>Ask Chasing Majors</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <main class="chat-app">
+      <div class="chat-topbar">
+        <div class="chat-brand-wrap">
+          <div class="chat-brand-icon">CM</div>
+          <div>
+            <div class="chat-brand-title">Ask Chasing Majors</div>
+            <div class="chat-brand-subtitle">Checklist search, print run lookup, player search, and more</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-messages" id="chatMessages"></div>
+
+      <div class="chat-suggestions" id="examplePills"></div>
+
+      <div class="chat-jump-nav is-hidden" id="chatJumpNav">
+        <button id="chatJumpBtn" class="chat-jump-btn" type="button" aria-label="Jump within latest result">
+          <span id="chatJumpBtnIcon" class="chat-jump-btn-icon">↓</span>
+        </button>
+      </div>
+
+      <div class="chat-input-shell">
+        <div class="chat-composer">
+          <input
+            id="chatInput"
+            class="chat-input"
+            type="text"
+            placeholder="Ask about a set, player, print run, checklist, trending, or releases..."
+            autocomplete="off"
+            enterkeyhint="send"
+          />
+          <button id="sendBtn" class="send-btn" type="button" aria-label="Send">
+            <span class="send-btn-icon" aria-hidden="true">↑</span>
+            <span class="send-btn-text">Send</span>
+          </button>
+        </div>
+
+        <div class="chat-feedback-link-wrap">
+          <button id="errorReportLink" class="chat-feedback-link" type="button">
+            Found an error? Share details.
+          </button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div id="errorReportModal" class="modal-shell is-hidden" aria-hidden="true">
+    <div id="errorReportBackdrop" class="modal-backdrop"></div>
+
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="errorReportTitle">
+      <div class="modal-header">
+        <div>
+          <div class="modal-title" id="errorReportTitle">Share error details</div>
+          <div class="modal-subtitle">Tell us what happened and we’ll log it for review.</div>
+        </div>
+        <button id="errorReportCloseBtn" class="modal-close-btn" type="button" aria-label="Close">×</button>
+      </div>
+
+      <textarea
+        id="errorReportInput"
+        class="modal-textarea"
+        placeholder="What did you search, what result did you get, and what should have happened?"
+      ></textarea>
+
+      <div class="modal-actions">
+        <button id="errorReportCancelBtn" class="modal-btn modal-btn-secondary" type="button">Cancel</button>
+        <button id="errorReportSubmitBtn" class="modal-btn modal-btn-primary" type="button">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <script defer src="./config.js"></script>
+  <script defer src="./utils.js"></script>
+  <script defer src="./cache.js"></script>
+  <script defer src="./api.js"></script>
+  <script defer src="./data-store.js"></script>
+  <script defer src="./ui.js"></script>
+  <script defer src="./app.js"></script>
+</body>
+</html>
