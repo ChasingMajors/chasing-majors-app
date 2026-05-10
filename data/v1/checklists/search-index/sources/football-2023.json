@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "sport": "football",
+  "kind": "checklist_search_source",
+  "source": "Checklist DB map standalone source search",
+  "source_key": "2023",
+  "generated_at": "2026-05-10T14:10:35.015Z",
+  "sharded": true,
+  "shards": [
+    "football-2023-001.json",
+    "football-2023-002.json",
+    "football-2023-003.json",
+    "football-2023-004.json",
+    "football-2023-005.json",
+    "football-2023-006.json",
+    "football-2023-007.json",
+    "football-2023-008.json",
+    "football-2023-009.json",
+    "football-2023-010.json",
+    "football-2023-011.json",
+    "football-2023-012.json"
+  ]
+}
