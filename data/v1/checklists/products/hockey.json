@@ -3,7 +3,7 @@
   "sport": "hockey",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-05-05T20:25:07.932Z",
+  "generated_at": "2026-05-10T15:04:11.483Z",
   "sharded": true,
   "shards": [
     "hockey-001.json"
@@ -15,6 +15,7 @@
     "2025-26-flair-hockey": "hockey-001.json",
     "2025-26-skybox-metal-universe-hockey": "hockey-001.json",
     "2025_26_o_pee_chee_hockey_card": "hockey-001.json",
+    "2025_26_o_pee_chee_platinum_hockey": "hockey-001.json",
     "2025_26_skybox_metal_universe_hockey_card": "hockey-001.json",
     "2025_26_sp_game_used_hockey_card": "hockey-001.json",
     "2025_26_upper_deck_allure_hockey_card": "hockey-001.json",
