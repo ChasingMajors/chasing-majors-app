@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist Google Sheets Products rebuild",
-  "generated_at": "2026-05-10T14:57:37.316Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-05-10T15:04:11.483Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -7974,8 +7974,8 @@
       "Keywords": "2025-26 Flair Hockey, 2025-26 Upper Deck Flair Hockey, 2025-26 Flair Hockey cards, 2025-26 Flair NHL, 2025-26 Upper Deck Flair cards, 25-26 Flair Hockey, 25-26 Upper Deck Flair Hockey, Upper Deck Flair Hockey 2025-26, Upper Deck Flair 2025-26, Flair Hockey cards, Flair Hockey, Upper Deck Flair Hockey, Upper Deck Flair, Flair NHL cards, Upper Deck Flair hockey cards, Upper Deck Flair Hockey checklist, Flair checklist, 2025-26 Flair checklist",
       "year": "2025-26",
       "sport": "hockey",
-      "manufacturer": "Flair",
-      "product": "Hockey"
+      "manufacturer": "Upper Deck",
+      "product": "Flair Hockey"
     },
     {
       "Code": "2025_26_o_pee_chee_hockey_card",
@@ -7983,8 +7983,17 @@
       "Keywords": "2025-26 O-Pee-Chee Hockey, O-Pee-Chee Hockey 2025-26, 2025-26 OPC Hockey, OPC Hockey 2025-26, 2025-26 Upper Deck O-Pee-Chee cards, O-Pee-Chee hockey cards 2025-26, Upper Deck NHL O-Pee-Chee cards 2025-26, OPC hockey hobby box 2025-26, OPC hockey retail 2025-26, O-Pee-Chee rookies hockey 2025-26, OPC rookie cards hockey 2025-26, O-Pee-Chee autos hockey 2025-26, OPC autographs hockey 2025-26, O-Pee-Chee retro cards hockey 2025-26, OPC parallels hockey 2025-26, O-Pee-Chee inserts hockey 2025-26, O-Pee-Chee vintage style hockey cards 2025-26, Upper Deck O-Pee-Chee Hockey checklist 2025-26, OPC checklist",
       "year": "2025-26",
       "sport": "hockey",
-      "manufacturer": "O-Pee-Chee",
+      "manufacturer": "Upper Deck",
       "product": "O-Pee-Chee"
+    },
+    {
+      "Code": "2025_26_o_pee_chee_platinum_hockey",
+      "DisplayName": "2025-26 O-Pee-Chee Platinum Hockey",
+      "Keywords": "2025-26 O-Pee-Chee Platinum Hockey, O-Pee-Chee Platinum Hockey 2025-26, 2025-26 O-Pee-Chee Platinum hockey cards, O-Pee-Chee Platinum hockey cards 2025-26, 2025-26 OPC Platinum hockey cards, platinum hockey rookie cards 2025-26, rainbow foil hockey parallels 2025-26, seismic gold hockey cards 2025-26, violet pixels hockey cards 2025-26, marquee rookie hockey cards 2025-26, chromium hockey cards 2025-26, refractor hockey cards 2025-26, O-Pee-Chee Platinum autographs 2025-26, on card rookie autos hockey 2025-26, premium NHL cards 2025-26, collectible hockey rookie cards 2025-26, colorful hockey parallels 2025-26, high end chrome hockey cards 2025-26, 2025-26 O-Pee-Chee Platinum checklist, O-Pee-Chee Platinum checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "O-Pee-Chee Platinum"
     },
     {
       "Code": "2025_26_skybox_metal_universe_hockey_card",
@@ -7992,8 +8001,8 @@
       "Keywords": "2025-26 SkyBox Metal Universe Hockey, SkyBox Metal Universe Hockey 2025-26, 2025-26 Metal Universe Hockey, Metal Universe Hockey 2025-26, 2025-26 Upper Deck SkyBox Metal Universe cards, Metal Universe hockey cards 2025-26, SkyBox Metal Universe NHL cards 2025-26, Metal Universe hockey hobby box 2025-26, Metal Universe hockey retail 2025-26, Metal Universe rookies hockey 2025-26, Metal Universe rookie cards hockey 2025-26, Metal Universe autos hockey 2025-26, Metal Universe autographs hockey 2025-26, Metal Universe PMG hockey 2025-26, Metal Universe Precious Metal Gems hockey 2025-26, Metal Universe parallels hockey 2025-26, Metal Universe inserts hockey 2025-26, Upper Deck SkyBox Metal Universe Hockey checklist 2025-26, Metal Universe checklist",
       "year": "2025-26",
       "sport": "hockey",
-      "manufacturer": "Skybox",
-      "product": "Metal Universe"
+      "manufacturer": "Upper Deck",
+      "product": "Skybox Metal Universe"
     },
     {
       "Code": "2025_26_sp_game_used_hockey_card",
@@ -8029,7 +8038,7 @@
       "year": "2025-26",
       "sport": "hockey",
       "manufacturer": "Upper Deck",
-      "product": "Allure"
+      "product": "Upper Deck Allure"
     },
     {
       "Code": "2025_26_upper_deck_artifacts_hockey_card",
@@ -8038,7 +8047,7 @@
       "year": "2025-26",
       "sport": "hockey",
       "manufacturer": "Upper Deck",
-      "product": "Artifacts"
+      "product": "Upper Deck Artifacts"
     },
     {
       "Code": "2025_26_upper_deck_black_diamond_hockey_card",
@@ -8047,7 +8056,7 @@
       "year": "2025-26",
       "sport": "hockey",
       "manufacturer": "Upper Deck",
-      "product": "Black Diamond"
+      "product": "Upper Deck Black Diamond"
     },
     {
       "Code": "2025_26_upper_deck_credentials_hockey_card",
@@ -8056,7 +8065,7 @@
       "year": "2025-26",
       "sport": "hockey",
       "manufacturer": "Upper Deck",
-      "product": "Credentials"
+      "product": "Upper Deck Credentials"
     },
     {
       "Code": "2025_26_upper_deck_fleer_ultra_hockey_card",
@@ -8074,7 +8083,7 @@
       "year": "2025-26",
       "sport": "hockey",
       "manufacturer": "Upper Deck",
-      "product": "MVP"
+      "product": "Upper Deck MVP"
     },
     {
       "Code": "2025_26_upper_deck_series_1_hockey_card",
@@ -8083,7 +8092,7 @@
       "year": "2025-26",
       "sport": "hockey",
       "manufacturer": "Upper Deck",
-      "product": "Series 1"
+      "product": "Upper Deck Series 1"
     },
     {
       "Code": "2025_26_upper_deck_series_2_hockey_card",
@@ -8092,7 +8101,7 @@
       "year": "2025-26",
       "sport": "hockey",
       "manufacturer": "Upper Deck",
-      "product": "Series 2"
+      "product": "Upper Deck Series 2"
     },
     {
       "Code": "2025_26_upper_deck_star_rookies_hockey_card",
@@ -8101,7 +8110,7 @@
       "year": "2025-26",
       "sport": "hockey",
       "manufacturer": "Upper Deck",
-      "product": "Star Rookies"
+      "product": "Upper Deck Star Rookies"
     },
     {
       "Code": "2025_26_upper_deck_tim_hortons_hockey_card",
@@ -8110,7 +8119,7 @@
       "year": "2025-26",
       "sport": "hockey",
       "manufacturer": "Upper Deck",
-      "product": "Tim Hortons"
+      "product": "Upper Deck Tim Hortons"
     },
     {
       "Code": "2025_26_upper_deck_tim_hortons_team_canada_olympic_hockey_card",
