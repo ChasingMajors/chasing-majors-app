@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "sport": "basketball",
+  "kind": "checklist_search_source",
+  "source": "Checklist DB map standalone source search",
+  "source_key": "2024-25",
+  "generated_at": "2026-05-10T14:26:09.309Z",
+  "sharded": true,
+  "shards": [
+    "basketball-2024-25-001.json",
+    "basketball-2024-25-002.json",
+    "basketball-2024-25-003.json",
+    "basketball-2024-25-004.json",
+    "basketball-2024-25-005.json",
+    "basketball-2024-25-006.json",
+    "basketball-2024-25-007.json",
+    "basketball-2024-25-008.json",
+    "basketball-2024-25-009.json",
+    "basketball-2024-25-010.json"
+  ]
+}
