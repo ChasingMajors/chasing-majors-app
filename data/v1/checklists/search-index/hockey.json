@@ -3,11 +3,14 @@
   "sport": "hockey",
   "kind": "checklist_search",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-05-05T20:25:07.932Z",
+  "generated_at": "2026-05-10T15:04:11.483Z",
   "sharded": true,
   "shards": [
     "hockey-001.json",
     "hockey-002.json",
-    "hockey-003.json"
+    "hockey-003.json",
+    "hockey-004.json",
+    "hockey-005.json",
+    "hockey-006.json"
   ]
 }
