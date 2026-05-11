@@ -4,92 +4,787 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="theme-color" content="#0b0b0b" />
-  <title>Ask Chasing Majors</title>
+  <title>Chasing Majors App</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css" />
+
+  <style>
+    :root{
+      --bg:#090909;
+      --panel:#171717;
+      --panel2:#101010;
+      --line:rgba(255,255,255,0.14);
+      --line2:rgba(255,255,255,0.20);
+      --text:#ffffff;
+      --muted:rgba(255,255,255,0.72);
+      --soft:rgba(255,255,255,0.08);
+      --blue:#1e90ff;
+      --blue2:#1577d4;
+      --green:#2fbf71;
+      --gold:#f7bf4f;
+      --red:#f06161;
+      --navH:62px;
+      --max:1120px;
+      --shadow:0 16px 36px rgba(0,0,0,0.34);
+    }
+
+    *{ box-sizing:border-box; }
+    html,body{ min-height:100%; }
+
+    body{
+      margin:0;
+      font-family:Arial, sans-serif;
+      background:
+        linear-gradient(180deg, rgba(30,144,255,0.12), transparent 300px),
+        var(--bg);
+      color:var(--text);
+    }
+
+    a{ color:inherit; }
+
+    .shell{
+      width:min(var(--max), calc(100% - 32px));
+      margin:0 auto;
+      padding:18px 0 calc(var(--navH) + 34px);
+    }
+
+    .topbar{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      margin-bottom:18px;
+    }
+
+    .brand{
+      display:flex;
+      align-items:baseline;
+      gap:10px;
+      min-width:0;
+    }
+
+    .logo{
+      font-family:"Bangers", cursive;
+      font-size:36px;
+      line-height:1;
+      letter-spacing:1px;
+      white-space:nowrap;
+    }
+
+    .status{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      color:var(--muted);
+      font-size:12px;
+      font-weight:800;
+      white-space:nowrap;
+    }
+
+    .statusDot{
+      width:8px;
+      height:8px;
+      border-radius:999px;
+      background:var(--green);
+      box-shadow:0 0 14px rgba(47,191,113,0.8);
+    }
+
+    .hero{
+      display:grid;
+      grid-template-columns:minmax(0, 1.18fr) minmax(320px, 0.82fr);
+      gap:14px;
+      align-items:stretch;
+      margin-bottom:14px;
+    }
+
+    .heroMain,
+    .assistantPanel,
+    .toolPanel,
+    .searchPanel{
+      border:1px solid var(--line);
+      border-radius:8px;
+      background:rgba(255,255,255,0.07);
+      box-shadow:var(--shadow);
+    }
+
+    .heroMain{
+      padding:22px;
+      display:flex;
+      flex-direction:column;
+      min-width:0;
+    }
+
+    .eyebrow{
+      display:inline-flex;
+      width:max-content;
+      padding:6px 9px;
+      border:1px solid rgba(30,144,255,0.36);
+      border-radius:999px;
+      background:rgba(30,144,255,0.16);
+      font-size:11px;
+      text-transform:uppercase;
+      letter-spacing:0.4px;
+      font-weight:900;
+      margin-bottom:13px;
+    }
+
+    .headline{
+      margin:0 0 12px;
+      font-size:42px;
+      line-height:1.02;
+      font-weight:900;
+      max-width:760px;
+    }
+
+    .copy{
+      color:var(--muted);
+      font-size:16px;
+      line-height:1.5;
+      max-width:760px;
+      margin:0 0 18px;
+    }
+
+    .searchPanel{
+      background:var(--panel2);
+      padding:12px;
+      margin-top:auto;
+      box-shadow:none;
+    }
+
+    .searchTabs{
+      display:flex;
+      gap:8px;
+      margin-bottom:10px;
+    }
+
+    .tabBtn,
+    .iconBtn,
+    .primaryBtn,
+    .ghostBtn{
+      border:1px solid var(--line);
+      border-radius:8px;
+      color:var(--text);
+      font-weight:900;
+      cursor:pointer;
+      -webkit-appearance:none;
+      appearance:none;
+    }
+
+    .tabBtn{
+      height:34px;
+      padding:0 12px;
+      background:var(--soft);
+      font-size:13px;
+    }
+
+    .tabBtn.active{
+      background:var(--blue);
+      border-color:rgba(255,255,255,0.20);
+    }
+
+    .searchRow{
+      display:grid;
+      grid-template-columns:minmax(0, 1fr) 118px;
+      gap:10px;
+      position:relative;
+    }
+
+    .searchInput{
+      width:100%;
+      height:48px;
+      border:1px solid var(--line);
+      border-radius:8px;
+      background:#070707;
+      color:var(--text);
+      padding:0 13px;
+      outline:none;
+      font-size:15px;
+      min-width:0;
+    }
+
+    .searchInput::placeholder{ color:rgba(255,255,255,0.54); }
+
+    .primaryBtn{
+      height:48px;
+      background:var(--blue);
+      border-color:rgba(30,144,255,0.42);
+      font-size:14px;
+    }
+
+    .primaryBtn:hover{ background:var(--blue2); }
+
+    .suggestions{
+      position:absolute;
+      left:0;
+      right:128px;
+      top:58px;
+      z-index:20;
+      display:none;
+      overflow:hidden;
+      border:1px solid var(--line2);
+      border-radius:8px;
+      background:#111;
+      box-shadow:0 18px 34px rgba(0,0,0,0.42);
+    }
+
+    .suggestion{
+      width:100%;
+      border:0;
+      border-bottom:1px solid rgba(255,255,255,0.08);
+      background:transparent;
+      color:var(--text);
+      text-align:left;
+      cursor:pointer;
+      padding:11px 12px;
+    }
+
+    .suggestion:last-child{ border-bottom:0; }
+    .suggestion:hover{ background:rgba(255,255,255,0.08); }
+
+    .suggestionTitle{
+      font-size:14px;
+      font-weight:900;
+      line-height:1.25;
+    }
+
+    .suggestionMeta{
+      margin-top:4px;
+      color:var(--muted);
+      font-size:12px;
+      line-height:1.25;
+    }
+
+    .assistantPanel{
+      padding:18px;
+      display:flex;
+      flex-direction:column;
+      background:
+        linear-gradient(135deg, rgba(30,144,255,0.20), transparent 52%),
+        rgba(255,255,255,0.08);
+      min-width:0;
+    }
+
+    .assistantLabel{
+      color:rgba(255,255,255,0.78);
+      font-size:12px;
+      font-weight:900;
+      letter-spacing:0.4px;
+      text-transform:uppercase;
+      margin-bottom:10px;
+    }
+
+    .assistantTitle{
+      font-size:29px;
+      line-height:1.06;
+      font-weight:900;
+      margin:0 0 10px;
+    }
+
+    .assistantCopy{
+      margin:0 0 16px;
+      color:var(--muted);
+      line-height:1.45;
+      font-size:14px;
+    }
+
+    .chatPrompt{
+      background:#070707;
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:12px;
+      margin:0 0 12px;
+      color:rgba(255,255,255,0.82);
+      font-size:14px;
+      line-height:1.4;
+    }
+
+    .assistantActions{
+      display:grid;
+      gap:10px;
+      margin-top:auto;
+    }
+
+    .ghostBtn,
+    .assistantLink{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      height:46px;
+      text-decoration:none;
+      border-radius:8px;
+      font-weight:900;
+      font-size:14px;
+    }
+
+    .assistantLink{
+      background:#fff;
+      color:#060606;
+    }
+
+    .ghostBtn{
+      background:rgba(255,255,255,0.08);
+    }
+
+    .toolGrid{
+      display:grid;
+      grid-template-columns:repeat(4, minmax(0, 1fr));
+      gap:14px;
+      margin-bottom:14px;
+    }
+
+    .toolPanel{
+      min-height:154px;
+      padding:15px;
+      text-decoration:none;
+      display:flex;
+      flex-direction:column;
+      transition:transform 120ms ease, border-color 120ms ease, background 120ms ease;
+    }
+
+    .toolPanel:hover{
+      transform:translateY(-1px);
+      border-color:rgba(255,255,255,0.25);
+      background:rgba(255,255,255,0.09);
+    }
+
+    .toolBadge{
+      width:38px;
+      height:38px;
+      border-radius:8px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight:900;
+      margin-bottom:13px;
+      border:1px solid var(--line);
+      background:rgba(30,144,255,0.18);
+      color:#fff;
+    }
+
+    .toolPanel:nth-child(2) .toolBadge{ background:rgba(247,191,79,0.18); }
+    .toolPanel:nth-child(3) .toolBadge{ background:rgba(47,191,113,0.16); }
+    .toolPanel:nth-child(4) .toolBadge{ background:rgba(240,97,97,0.16); }
+
+    .toolTitle{
+      font-size:18px;
+      font-weight:900;
+      margin-bottom:6px;
+    }
+
+    .toolCopy{
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.38;
+    }
+
+    .details{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:14px;
+    }
+
+    .detailPanel{
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:16px;
+      background:rgba(255,255,255,0.05);
+    }
+
+    .detailTitle{
+      font-size:18px;
+      font-weight:900;
+      margin:0 0 10px;
+    }
+
+    .detailList{
+      display:grid;
+      gap:8px;
+      margin:0;
+      padding:0;
+      list-style:none;
+    }
+
+    .detailList li{
+      color:var(--muted);
+      line-height:1.4;
+      font-size:14px;
+    }
+
+    .bottomNav{
+      position:fixed;
+      left:0;
+      right:0;
+      bottom:0;
+      height:var(--navH);
+      z-index:40;
+      background:#070707;
+      border-top:1px solid var(--line);
+      display:flex;
+      justify-content:center;
+    }
+
+    .bottomNavInner{
+      width:min(var(--max), 100%);
+      padding:10px 16px max(10px, env(safe-area-inset-bottom));
+    }
+
+    .navRow{
+      display:grid;
+      grid-template-columns:repeat(4, minmax(0, 1fr));
+      gap:10px;
+    }
+
+    .navBtn{
+      height:42px;
+      border:1px solid var(--line);
+      border-radius:8px;
+      background:rgba(255,255,255,0.08);
+      color:#fff;
+      cursor:pointer;
+      font-weight:900;
+      font-size:13px;
+    }
+
+    .navBtn.active{
+      background:rgba(30,144,255,0.22);
+      border-color:rgba(30,144,255,0.42);
+    }
+
+    @media (max-width:900px){
+      .hero{ grid-template-columns:1fr; }
+      .toolGrid{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
+      .details{ grid-template-columns:1fr; }
+      .headline{ font-size:36px; }
+    }
+
+    @media (max-width:560px){
+      .shell{ width:calc(100% - 24px); padding-top:14px; }
+      .topbar{ align-items:flex-start; }
+      .logo{ font-size:31px; }
+      .status{ display:none; }
+      .heroMain,.assistantPanel{ padding:16px; }
+      .headline{ font-size:30px; }
+      .copy{ font-size:14px; }
+      .searchTabs{ display:grid; grid-template-columns:1fr 1fr; }
+      .searchRow{ grid-template-columns:1fr; }
+      .suggestions{ right:0; top:106px; }
+      .toolGrid{ grid-template-columns:1fr; }
+      .toolPanel{ min-height:126px; }
+      .navRow{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
+      .bottomNav{ height:106px; }
+      .shell{ padding-bottom:132px; }
+    }
+  </style>
 </head>
+
 <body>
-  <div class="app-shell">
-    <main class="chat-app">
-      <div class="chat-topbar">
-        <div class="chat-brand-wrap">
-          <div class="chat-brand-icon">CM</div>
-          <div>
-            <div class="chat-brand-title">Ask Chasing Majors</div>
-            <div class="chat-brand-subtitle">Checklist search, print run lookup, player search, and more</div>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">Chasing Majors</div>
+      </div>
+      <div class="status"><span class="statusDot"></span> Static JSON data live</div>
+    </header>
+
+    <section class="hero">
+      <div class="heroMain">
+        <div class="eyebrow">Collector tools</div>
+        <h1 class="headline">Search the hobby faster, or ask the Chasing Majors assistant.</h1>
+        <p class="copy">
+          Jump straight into Checklist Vault, Print Run Vault, Release Schedule, or use the chat assistant to ask product, player, print-run, and release questions in plain English.
+        </p>
+
+        <div class="searchPanel" aria-label="Homepage search">
+          <div class="searchTabs" role="tablist" aria-label="Search destination">
+            <button class="tabBtn active" id="tabChecklist" type="button">Checklist Vault</button>
+            <button class="tabBtn" id="tabVault" type="button">Print Run Vault</button>
+          </div>
+
+          <div class="searchRow">
+            <input id="homeSearch" class="searchInput" type="text" placeholder="Search a set or player..." autocomplete="off" enterkeyhint="search" />
+            <button id="searchBtn" class="primaryBtn" type="button">Search</button>
+            <div id="suggestions" class="suggestions"></div>
           </div>
         </div>
       </div>
 
-      <div class="chat-messages" id="chatMessages"></div>
+      <aside class="assistantPanel">
+        <div class="assistantLabel">New</div>
+        <h2 class="assistantTitle">Use the Chasing Majors chat assistant.</h2>
+        <p class="assistantCopy">
+          Ask for a checklist, player cards, print run data, release schedule items, or numbered-card filters without choosing the tool first.
+        </p>
+        <div class="chatPrompt">Try: "Show Victor Wembanyama cards" or "2025 Topps Chrome Football print run"</div>
+        <div class="assistantActions">
+          <a class="assistantLink" href="/ChatBot/">Open Chat Assistant</a>
+          <button class="ghostBtn" id="askWithSearchBtn" type="button">Ask with my search</button>
+        </div>
+      </aside>
+    </section>
 
-      <div class="chat-suggestions" id="examplePills"></div>
+    <section class="toolGrid" aria-label="Primary tools">
+      <a class="toolPanel" href="/checklists/">
+        <div class="toolBadge">CV</div>
+        <div class="toolTitle">Checklist Vault</div>
+        <div class="toolCopy">Search products, players, sections, parallels, and full checklists.</div>
+      </a>
 
-      <div class="chat-jump-nav is-hidden" id="chatJumpNav">
-        <button id="chatJumpBtn" class="chat-jump-btn" type="button" aria-label="Jump within latest result">
-          <span id="chatJumpBtnIcon" class="chat-jump-btn-icon">↓</span>
-        </button>
+      <a class="toolPanel" href="/vault/">
+        <div class="toolBadge">PRV</div>
+        <div class="toolTitle">Print Run Vault</div>
+        <div class="toolCopy">Open product-level print run estimates and production data.</div>
+      </a>
+
+      <a class="toolPanel" href="/schedule/">
+        <div class="toolBadge">RS</div>
+        <div class="toolTitle">Release Schedule</div>
+        <div class="toolCopy">See upcoming and recently released products by sport.</div>
+      </a>
+
+      <a class="toolPanel" href="https://chasingmajors.substack.com/" target="_blank" rel="noopener noreferrer">
+        <div class="toolBadge">CM</div>
+        <div class="toolTitle">Substack</div>
+        <div class="toolCopy">Read deeper analysis, print run breakdowns, and hobby notes.</div>
+      </a>
+    </section>
+
+    <section class="details">
+      <div class="detailPanel">
+        <h2 class="detailTitle">Fast Data</h2>
+        <ul class="detailList">
+          <li>Checklist and Print Run Vault data load from static JSON files first.</li>
+          <li>Google Sheets stays the source of truth for updates.</li>
+          <li>Apps Script remains available as a fallback where needed.</li>
+        </ul>
       </div>
 
-      <div class="chat-input-shell">
-        <div class="chat-composer">
-          <input
-            id="chatInput"
-            class="chat-input"
-            type="text"
-            placeholder="Ask about a set, player, print run, checklist, trending, or releases..."
-            autocomplete="off"
-            enterkeyhint="send"
-          />
-          <button id="sendBtn" class="send-btn" type="button" aria-label="Send">
-            <span class="send-btn-icon" aria-hidden="true">↑</span>
-            <span class="send-btn-text">Send</span>
-          </button>
-        </div>
-
-        <div class="chat-feedback-link-wrap">
-          <button id="errorReportLink" class="chat-feedback-link" type="button">
-            Found an error? Share details.
-          </button>
-        </div>
+      <div class="detailPanel">
+        <h2 class="detailTitle">Best Search Paths</h2>
+        <ul class="detailList">
+          <li>Use Checklist Vault for exact product and player-card searches.</li>
+          <li>Use Print Run Vault when you need product production data.</li>
+          <li>Use Chat Assistant when you are not sure which tool to start with.</li>
+        </ul>
       </div>
-    </main>
-  </div>
+    </section>
+  </main>
 
-  <div id="errorReportModal" class="modal-shell is-hidden" aria-hidden="true">
-    <div id="errorReportBackdrop" class="modal-backdrop"></div>
-
-    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="errorReportTitle">
-      <div class="modal-header">
-        <div>
-          <div class="modal-title" id="errorReportTitle">Share error details</div>
-          <div class="modal-subtitle">Tell us what happened and we’ll log it for review.</div>
-        </div>
-        <button id="errorReportCloseBtn" class="modal-close-btn" type="button" aria-label="Close">×</button>
-      </div>
-
-      <textarea
-        id="errorReportInput"
-        class="modal-textarea"
-        placeholder="What did you search, what result did you get, and what should have happened?"
-      ></textarea>
-
-      <div class="modal-actions">
-        <button id="errorReportCancelBtn" class="modal-btn modal-btn-secondary" type="button">Cancel</button>
-        <button id="errorReportSubmitBtn" class="modal-btn modal-btn-primary" type="button">Submit</button>
+  <nav class="bottomNav" aria-label="Primary">
+    <div class="bottomNavInner">
+      <div class="navRow">
+        <button class="navBtn active" type="button" onclick="location.href='/'">Home</button>
+        <button class="navBtn" type="button" onclick="location.href='/ChatBot/'">Chat</button>
+        <button class="navBtn" type="button" onclick="location.href='/checklists/'">Checklist Vault</button>
+        <button class="navBtn" type="button" onclick="location.href='/vault/'">Print Run Vault</button>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <script defer src="./config.js"></script>
-  <script defer src="./utils.js"></script>
-  <script defer src="./cache.js"></script>
-  <script defer src="./api.js"></script>
-  <script defer src="./data-store.js"></script>
-  <script defer src="./ui.js"></script>
-  <script defer src="./app.js"></script>
+  <script>
+    (function(){
+      const STATIC_DATA_BASE = "/data/v1";
+      const CHECKLIST_INDEX_URL = STATIC_DATA_BASE + "/checklists/index.json";
+      const VAULT_INDEX_URL = STATIC_DATA_BASE + "/vault/index.json";
+
+      let activeTarget = "checklists";
+      let checklistIndex = [];
+      let vaultIndex = [];
+      let activeSuggestions = [];
+
+      function clean(value) {
+        return String(value || "").replace(/\s+/g, " ").trim();
+      }
+
+      function normalize(value) {
+        return clean(value)
+          .toLowerCase()
+          .replace(/&/g, " and ")
+          .replace(/[^\w\s'-]/g, " ")
+          .replace(/\s+/g, " ")
+          .trim();
+      }
+
+      function escapeHtml(value) {
+        return String(value || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#39;");
+      }
+
+      function normalizeIndexRows(rows) {
+        return (Array.isArray(rows) ? rows : []).map(function(row) {
+          return {
+            code: clean(row.Code || row.code),
+            name: clean(row.DisplayName || row.displayName || row.display_name || row.name),
+            keywords: clean(row.Keywords || row.keywords),
+            year: clean(row.year),
+            sport: clean(row.sport).toLowerCase(),
+            manufacturer: clean(row.manufacturer),
+            product: clean(row.product)
+          };
+        }).filter(function(row) {
+          return row.code && row.name;
+        });
+      }
+
+      async function fetchIndex(url) {
+        const res = await fetch(url, { cache: "force-cache" });
+        if (!res.ok) throw new Error("Index unavailable");
+        const data = await res.json();
+        return normalizeIndexRows(data.index || data.rows || []);
+      }
+
+      async function loadIndexes() {
+        try {
+          const results = await Promise.allSettled([
+            fetchIndex(CHECKLIST_INDEX_URL),
+            fetchIndex(VAULT_INDEX_URL)
+          ]);
+
+          if (results[0].status === "fulfilled") checklistIndex = results[0].value;
+          if (results[1].status === "fulfilled") vaultIndex = results[1].value;
+        } catch (err) {
+          console.warn("Homepage index preload failed", err);
+        }
+      }
+
+      function setTarget(target) {
+        activeTarget = target === "vault" ? "vault" : "checklists";
+        document.getElementById("tabChecklist").classList.toggle("active", activeTarget === "checklists");
+        document.getElementById("tabVault").classList.toggle("active", activeTarget === "vault");
+        renderSuggestions();
+      }
+
+      function getActiveIndex() {
+        return activeTarget === "vault" ? vaultIndex : checklistIndex;
+      }
+
+      function getSuggestionMatches(query) {
+        const q = normalize(query);
+        if (q.length < 2) return [];
+
+        const exact = [];
+        const starts = [];
+        const contains = [];
+
+        getActiveIndex().forEach(function(item) {
+          const name = normalize(item.name);
+          const code = normalize(item.code);
+          const keywords = normalize(item.keywords);
+          const hay = [name, code, keywords, normalize(item.sport), normalize(item.year)].join(" ");
+
+          if (!hay.includes(q)) return;
+          if (name === q || code === q) exact.push(item);
+          else if (name.startsWith(q) || code.startsWith(q) || keywords.startsWith(q)) starts.push(item);
+          else contains.push(item);
+        });
+
+        const seen = {};
+        return exact.concat(starts, contains).filter(function(item) {
+          const key = item.code + "|" + item.name;
+          if (seen[key]) return false;
+          seen[key] = true;
+          return true;
+        }).slice(0, 8);
+      }
+
+      function buildToolUrl(item) {
+        const base = activeTarget === "vault" ? "/vault/" : "/checklists/";
+        if (!item) return base;
+
+        return base
+          + "?code=" + encodeURIComponent(item.code)
+          + "&sport=" + encodeURIComponent(item.sport)
+          + "&type=product"
+          + "&q=" + encodeURIComponent(item.name || item.code);
+      }
+
+      function closeSuggestions() {
+        activeSuggestions = [];
+        const el = document.getElementById("suggestions");
+        el.style.display = "none";
+        el.innerHTML = "";
+      }
+
+      function renderSuggestions() {
+        const input = document.getElementById("homeSearch");
+        const el = document.getElementById("suggestions");
+        const q = clean(input.value);
+        activeSuggestions = getSuggestionMatches(q);
+
+        if (!activeSuggestions.length) {
+          closeSuggestions();
+          return;
+        }
+
+        el.innerHTML = activeSuggestions.map(function(item, idx) {
+          const meta = [item.year, item.sport, item.manufacturer].filter(Boolean).join(" / ");
+          return ""
+            + "<button class=\"suggestion\" type=\"button\" data-idx=\"" + idx + "\">"
+            + "<div class=\"suggestionTitle\">" + escapeHtml(item.name) + "</div>"
+            + "<div class=\"suggestionMeta\">" + escapeHtml(meta || item.code) + "</div>"
+            + "</button>";
+        }).join("");
+
+        Array.prototype.forEach.call(el.querySelectorAll(".suggestion"), function(btn) {
+          btn.addEventListener("click", function() {
+            const item = activeSuggestions[Number(btn.getAttribute("data-idx")) || 0];
+            if (!item) return;
+            location.href = buildToolUrl(item);
+          });
+        });
+
+        el.style.display = "block";
+      }
+
+      function runSearch() {
+        const q = clean(document.getElementById("homeSearch").value);
+        if (!q) {
+          location.href = activeTarget === "vault" ? "/vault/" : "/checklists/";
+          return;
+        }
+
+        if (activeSuggestions.length) {
+          location.href = buildToolUrl(activeSuggestions[0]);
+          return;
+        }
+
+        const base = activeTarget === "vault" ? "/vault/" : "/checklists/";
+        location.href = base + "?q=" + encodeURIComponent(q);
+      }
+
+      function askWithSearch() {
+        const q = clean(document.getElementById("homeSearch").value);
+        location.href = q ? ("/ChatBot/?q=" + encodeURIComponent(q)) : "/ChatBot/";
+      }
+
+      document.addEventListener("DOMContentLoaded", function() {
+        loadIndexes();
+
+        document.getElementById("tabChecklist").addEventListener("click", function(){ setTarget("checklists"); });
+        document.getElementById("tabVault").addEventListener("click", function(){ setTarget("vault"); });
+        document.getElementById("searchBtn").addEventListener("click", runSearch);
+        document.getElementById("askWithSearchBtn").addEventListener("click", askWithSearch);
+
+        const input = document.getElementById("homeSearch");
+        input.addEventListener("input", renderSuggestions);
+        input.addEventListener("focus", renderSuggestions);
+        input.addEventListener("keydown", function(e) {
+          if (e.key === "Enter") {
+            e.preventDefault();
+            runSearch();
+          }
+        });
+
+        document.addEventListener("click", function(e) {
+          if (!e.target.closest(".searchPanel")) closeSuggestions();
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
