@@ -142,18 +142,32 @@ window.CMChat.api = window.CMChat.api || {};
 
     const indexItem = await findChecklistIndexItem(target);
     const sport = normalizeSport(sportHint || indexItem?.sport);
-    if (!sport) return null;
 
-    const manifest = await fetchStaticJson(staticPath(`/checklists/products/${sport}.json`));
-    const shardName = manifest.product_map?.[target] || manifest.productMap?.[target] || "";
-    const shardNames = shardName ? [shardName] : (manifest.shards || []);
+    const sportsToTry = utils.uniq([
+      sport,
+      "baseball",
+      "basketball",
+      "football",
+      "hockey",
+      "soccer"
+    ].filter(Boolean));
 
-    for (const shard of shardNames) {
-      const shardData = await fetchStaticJson(staticPath(`/checklists/products/${shard}`));
-      const product = shardData.products?.[target];
-      if (product) {
-        productCache.set(cacheKey, product);
-        return product;
+    for (const sportName of sportsToTry) {
+      try {
+        const manifest = await fetchStaticJson(staticPath(`/checklists/products/${sportName}.json`));
+        const shardName = manifest.product_map?.[target] || manifest.productMap?.[target] || "";
+        const shardNames = shardName ? [shardName] : (manifest.shards || []);
+
+        for (const shard of shardNames) {
+          const shardData = await fetchStaticJson(staticPath(`/checklists/products/${shard}`));
+          const product = shardData.products?.[target];
+          if (product) {
+            productCache.set(cacheKey, product);
+            return product;
+          }
+        }
+      } catch (err) {
+        console.warn("Checklist product shard skipped", sportName, err);
       }
     }
 
@@ -188,6 +202,8 @@ window.CMChat.api = window.CMChat.api || {};
   }
 
   function buildChecklistSummaryFromProduct(product) {
+    if (!product || !product.meta) return null;
+
     const rows = Array.isArray(product?.rows) ? product.rows : [];
     const parallels = Array.isArray(product?.parallels) ? product.parallels : [];
     const meta = product?.meta || {};
@@ -463,8 +479,10 @@ window.CMChat.api = window.CMChat.api || {};
     try {
       const product = await loadChecklistProduct(code);
       const out = buildChecklistSummaryFromProduct(product);
-      cache.memCache.checklistSummary.set(code, out);
-      return out;
+      if (out && out.counts && (out.counts.all || out.counts.parallels)) {
+        cache.memCache.checklistSummary.set(code, out);
+        return out;
+      }
     } catch (err) {
       console.warn("Static getChecklistSummary failed; falling back", err);
     }
