@@ -72,6 +72,10 @@ window.CMChat.store = window.CMChat.store || {};
     if (ns.playerMetaPromise) return ns.playerMetaPromise;
 
     ns.playerMetaPromise = (async () => {
+      ns.playerMetaIndex = [];
+      ns.playerMetaByName = {};
+      return ns.playerMetaIndex;
+
       const cached = cache.getCachedWithTtl(config.PLAYER_META_KEY, config.PLAYER_META_TS_KEY, config.PLAYER_DATA_TTL_MS);
       if (cached) {
         ns.playerMetaIndex = Array.isArray(cached?.players) ? cached.players : (Array.isArray(cached) ? cached : []);
