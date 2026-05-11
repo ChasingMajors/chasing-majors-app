@@ -37,6 +37,13 @@ window.CMChat.config = {
   EXAMPLES: [],
 
   SEARCH_HELP_EXAMPLES: [
+    "Show me all the rookie autos in 2025 Topps Chrome Baseball",
+    "What are the lowest numbered parallels in Prizm Football?",
+    "How rare is a Gold Wave Refractor?",
+    "What products have Elly De La Cruz rookie autos?",
+    "Show serial numbered parallels only",
+    "What are the SSPs in this set?",
+    "What are the key rookies in this release?",
     "2026 Topps Series 1 Baseball",
     "2026 Topps Series 1 Baseball Checklist",
     "2026 Topps Series 1 Baseball Print Run",
