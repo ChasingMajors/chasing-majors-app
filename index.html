@@ -485,7 +485,6 @@
       <div class="brand">
         <div class="logo">Chasing Majors</div>
       </div>
-      <div class="status"><span class="statusDot"></span> Static JSON data live</div>
     </header>
 
     <section class="hero">
@@ -519,7 +518,6 @@
         <div class="chatPrompt">Try: "Show Victor Wembanyama cards" or "2025 Topps Chrome Football print run"</div>
         <div class="assistantActions">
           <a class="assistantLink" href="/ChatBot/">Open Chat Assistant</a>
-          <button class="ghostBtn" id="askWithSearchBtn" type="button">Ask with my search</button>
         </div>
       </aside>
     </section>
@@ -551,15 +549,6 @@
     </section>
 
     <section class="details">
-      <div class="detailPanel">
-        <h2 class="detailTitle">Fast Data</h2>
-        <ul class="detailList">
-          <li>Checklist and Print Run Vault data load from static JSON files first.</li>
-          <li>Google Sheets stays the source of truth for updates.</li>
-          <li>Apps Script remains available as a fallback where needed.</li>
-        </ul>
-      </div>
-
       <div class="detailPanel">
         <h2 class="detailTitle">Best Search Paths</h2>
         <ul class="detailList">
@@ -757,18 +746,12 @@
         location.href = base + "?q=" + encodeURIComponent(q);
       }
 
-      function askWithSearch() {
-        const q = clean(document.getElementById("homeSearch").value);
-        location.href = q ? ("/ChatBot/?q=" + encodeURIComponent(q)) : "/ChatBot/";
-      }
-
       document.addEventListener("DOMContentLoaded", function() {
         loadIndexes();
 
         document.getElementById("tabChecklist").addEventListener("click", function(){ setTarget("checklists"); });
         document.getElementById("tabVault").addEventListener("click", function(){ setTarget("vault"); });
         document.getElementById("searchBtn").addEventListener("click", runSearch);
-        document.getElementById("askWithSearchBtn").addEventListener("click", askWithSearch);
 
         const input = document.getElementById("homeSearch");
         input.addEventListener("input", renderSuggestions);
