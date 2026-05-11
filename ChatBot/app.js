@@ -823,10 +823,12 @@ function scorePlayerMetaOption(meta, playerQuery) {
 }
 
 async function getPlayerMatchOptions(playerQuery, sport = "", limit = 5) {
-  await loadPlayerMeta().catch(() => []);
-
   const qTokens = tokenize(playerQuery);
   if (!qTokens.length) return [];
+
+  if (!Array.isArray(store.playerMetaIndex) || !store.playerMetaIndex.length) {
+    return [];
+  }
 
   const seen = new Set();
 
@@ -3382,8 +3384,6 @@ async function buildPlayerSerialYearChoiceResponse(numberedReq) {
     fallbackYears = meta.checklist_years.map(y =>
       typeof y === "object" && y !== null ? String(y.year || "").trim() : String(y || "").trim()
     ).filter(Boolean);
-  } else {
-    fallbackYears = await getPlayerYears(numberedReq.playerName, numberedReq.sport || "baseball");
   }
 
   const yearOptions = getPlayerYearOptions(numberedReq.playerName, fallbackYears);
@@ -3789,8 +3789,6 @@ async function buildPlayerStatsPlaceholderResponse(playerReq) {
     fallbackYears = meta.checklist_years.map(y =>
       typeof y === "object" && y !== null ? String(y.year || "").trim() : String(y || "").trim()
     ).filter(Boolean);
-  } else {
-    fallbackYears = await getPlayerYears(playerReq.playerName, playerReq.sport || "baseball");
   }
 
   const followups = buildPlayerProfileFollowups({ ...playerReq, sport }, fallbackYears);
@@ -3902,8 +3900,6 @@ async function buildPlayerChecklistResponse(playerReq) {
     fallbackYears = meta.checklist_years.map(y =>
       typeof y === "object" && y !== null ? String(y.year || "").trim() : String(y || "").trim()
     ).filter(Boolean);
-  } else {
-    fallbackYears = await getPlayerYears(playerReq.playerName, playerReq.sport || "baseball");
   }
 
   const yearOptions = getPlayerYearOptions(playerReq.playerName, fallbackYears);
@@ -4758,7 +4754,10 @@ async function submitQuery(text) {
   ], 1500);
 
   try {
-    await bootstrapData();
+    await Promise.race([
+      bootstrapData(),
+      new Promise(resolve => setTimeout(resolve, 2200))
+    ]);
     const res = await buildResponse(val);
     const selectedType =
       res.type === "prv" ? "Print Run" :
