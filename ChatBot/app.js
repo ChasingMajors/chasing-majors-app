@@ -1951,6 +1951,15 @@ function normalizeBaseProductName(text) {
   return out.replace(/\s+/g, " ").trim();
 }
 
+function normalizeProductFamilyName(text) {
+  return normalize(text || "")
+    .replace(/\b(19|20)\d{2}(?:-\d{2})?\b/g, " ")
+    .replace(/\bchecklists?\b/g, " ")
+    .replace(/\bcards?\b/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function hasProductVariantTerm(text) {
   const normalizedText = normalize(text || "");
   return PRODUCT_VARIANT_TERMS.some(term => {
@@ -2058,7 +2067,7 @@ function findBestProduct(list, query, targetIntent) {
   return { ...best, score: bestScore, matchType: "fuzzy" };
 }
 
-function getProductMatchOptions(list, query, targetIntent, limit = 4) {
+function getProductMatchOptions(list, query, targetIntent, limit = 10) {
   const cleaned = stripIntentWords(query || "");
   const cleanedNorm = normalize(cleaned);
   const qNorm = normalize(query || "");
@@ -2066,7 +2075,7 @@ function getProductMatchOptions(list, query, targetIntent, limit = 4) {
   const year = extractYear(query);
   const seen = new Set();
 
-  return (list || [])
+  let options = (list || [])
     .map(item => {
       const product = mapProduct(item);
       if (!product.name) return null;
@@ -2097,8 +2106,20 @@ function getProductMatchOptions(list, query, targetIntent, limit = 4) {
       if (!key || seen.has(key)) return false;
       seen.add(key);
       return true;
-    })
-    .slice(0, limit);
+    });
+
+  if (!year) {
+    const queryFamily = normalizeProductFamilyName(cleanedNorm || qNorm);
+    const familyMatches = options.filter(product =>
+      normalizeProductFamilyName(product.name) === queryFamily
+    );
+
+    if (familyMatches.length >= 2) {
+      options = familyMatches;
+    }
+  }
+
+  return options.slice(0, limit);
 }
 
 function shouldClarifyProductMatch(options) {
@@ -4256,6 +4277,17 @@ async function buildSearchResponse(query) {
     }
 
     return buildProductSerialResponse(productNumberedReq);
+  }
+
+  const productSectionIntent = detectChecklistSectionIntent(query);
+  if (productSectionIntent) {
+    const product =
+      findBestProduct(getChecklistIndex(), query, "checklist") ||
+      findBestProduct(getChecklistIndex(), stripIntentWords(query), "checklist");
+
+    if (product?.code) {
+      return buildChecklistSummaryResponse(query);
+    }
   }
 
   const playerReq = detectPlayerSearchRequest(query);
