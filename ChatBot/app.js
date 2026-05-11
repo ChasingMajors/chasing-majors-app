@@ -228,7 +228,7 @@ async function buildDirectChecklistResponse(action) {
     sport: indexedProduct.sport
   };
 
-  const summary = await getChecklistSummary(product.code);
+  const summary = await hydrateChecklistSummaryCounts(product, await getChecklistSummary(product.code));
 
   product.name = product.name || summary.name || "";
   product.year = product.year || summary.year || "";
@@ -2352,6 +2352,61 @@ function getPlayerYearOptions(playerName, fallbackYears = []) {
   }));
 }
 
+function sortYearsDesc(years) {
+  return uniq((years || []).map(y => String(y || "").trim()).filter(Boolean))
+    .sort((a, b) => {
+      const aStart = parseInt(a.slice(0, 4), 10) || 0;
+      const bStart = parseInt(b.slice(0, 4), 10) || 0;
+      return bStart - aStart;
+    });
+}
+
+async function getStaticPlayerCoverage(playerReq) {
+  if (!playerReq?.playerName) {
+    return { years: [], rcYear: "", productCount: 0 };
+  }
+
+  try {
+    const data = await Promise.race([
+      getPlayerCards(playerReq.playerName, playerReq.sport || "baseball", "", ""),
+      new Promise(resolve => setTimeout(() => resolve(null), 4500))
+    ]);
+
+    const columns = data?.columns || [];
+    const rows = Array.isArray(data?.rows) ? data.rows : [];
+    if (!rows.length) return { years: [], rcYear: "", productCount: 0 };
+
+    const years = [];
+    const rcYears = [];
+    const products = new Set();
+
+    rows.forEach(row => {
+      const year = getRowCell(row, columns, "Year");
+      const productName = getRowCell(row, columns, "Product");
+      const tag = normalize(getRowCell(row, columns, "Tag"));
+      const subset = normalize(getRowCell(row, columns, "Subset"));
+
+      if (year) years.push(year);
+      if (productName) products.add(`${year}|${productName}`);
+      if (year && (tag.includes("rc") || tag.includes("rookie") || subset.includes("rookie"))) {
+        rcYears.push(year);
+      }
+    });
+
+    const sortedYears = sortYearsDesc(years);
+    const sortedRcYearsAsc = sortYearsDesc(rcYears).reverse();
+
+    return {
+      years: sortedYears,
+      rcYear: sortedRcYearsAsc[0] || "",
+      productCount: products.size
+    };
+  } catch (err) {
+    console.warn("Static player coverage failed", err);
+    return { years: [], rcYear: "", productCount: 0 };
+  }
+}
+
 function buildPlayerFollowups(playerName, fallbackYears = [], includeStats = true, includeAllCards = true) {
   const yearOptions = getPlayerYearOptions(playerName, fallbackYears);
   const labels = yearOptions.map(y => y.label);
@@ -2947,6 +3002,60 @@ function buildChecklistCoverageStats(summary) {
   ];
 }
 
+function hasUsableChecklistCounts(summary) {
+  const counts = summary?.counts || {};
+  return !!(
+    counts.all ||
+    counts.base ||
+    counts.inserts ||
+    counts.autographs ||
+    counts.relics ||
+    counts.variations ||
+    counts.parallels
+  );
+}
+
+async function hydrateChecklistSummaryCounts(product, summary) {
+  if (!product?.code || hasUsableChecklistCounts(summary)) return summary;
+
+  const sections = ["all", "base", "inserts", "autographs", "relics", "variations"];
+  const results = await Promise.allSettled([
+    ...sections.map(section => getChecklistSection(product.code, section)),
+    getChecklistParallels(product.code)
+  ]);
+
+  const countFor = idx => {
+    const value = results[idx]?.value;
+    return Array.isArray(value?.rows) ? value.rows.length : 0;
+  };
+
+  const counts = {
+    all: countFor(0),
+    base: countFor(1),
+    inserts: countFor(2),
+    autographs: countFor(3),
+    relics: countFor(4),
+    variations: countFor(5),
+    parallels: countFor(6)
+  };
+
+  const availableSections = ["all"];
+  ["base", "inserts", "autographs", "relics", "variations", "parallels"].forEach(section => {
+    if (counts[section] > 0) availableSections.push(section);
+  });
+
+  return {
+    ...(summary || {}),
+    ok: true,
+    code: summary?.code || product.code,
+    name: summary?.name || product.name,
+    year: summary?.year || product.year,
+    sport: summary?.sport || product.sport,
+    counts,
+    available_sections: availableSections
+  };
+}
+
 function getChecklistColumnIndex(columns, name) {
   const target = normalize(name);
   return (columns || []).map(c => normalize(c)).indexOf(target);
@@ -2983,7 +3092,7 @@ async function buildProductRookieChecklistResponse(productInput) {
     };
   }
 
-  const summary = await getChecklistSummary(product.code);
+  const summary = await hydrateChecklistSummaryCounts(product, await getChecklistSummary(product.code));
   const data = await getChecklistSection(product.code, "all");
   const columns = data.columns || ["Subset", "Card No.", "Player", "Team", "Tag"];
   const rows = (data.rows || []).filter(row => checklistRowMatchesRookie(row, columns));
@@ -3055,6 +3164,7 @@ async function buildProductProfileResponse(productMatch, query = "") {
   if (checklistProduct?.code) {
     try {
       summary = await getChecklistSummary(checklistProduct.code);
+      summary = await hydrateChecklistSummaryCounts(checklistProduct, summary);
     } catch (err) {
       console.warn("Product profile summary failed", err);
     }
@@ -3791,6 +3901,18 @@ async function buildPlayerStatsPlaceholderResponse(playerReq) {
     ).filter(Boolean);
   }
 
+  const coverage = fallbackYears.length
+    ? {
+      years: sortYearsDesc(fallbackYears),
+      rcYear: String(meta?.rc_year || "").trim(),
+      productCount: 0
+    }
+    : await getStaticPlayerCoverage({ ...playerReq, sport });
+
+  if (!fallbackYears.length && coverage.years.length) {
+    fallbackYears = coverage.years;
+  }
+
   const followups = buildPlayerProfileFollowups({ ...playerReq, sport }, fallbackYears);
 
   pendingPlayerChoice = {
@@ -3802,8 +3924,8 @@ async function buildPlayerStatsPlaceholderResponse(playerReq) {
   const yearOptions = getPlayerYearOptions(playerReq.playerName, fallbackYears);
   const yearLabels = yearOptions.map(y => y.label || y.year).filter(Boolean);
   const currentYear = yearOptions[0]?.year || "";
-  const sportYearProducts = currentYear && sport ? getProductsForSportYear(sport, currentYear) : [];
-  const rcYear = String(meta?.rc_year || "").trim();
+  const productCount = coverage.productCount || 0;
+  const rcYear = String(meta?.rc_year || coverage.rcYear || "").trim();
 
   if (!shouldUseStats) {
     return {
@@ -3817,7 +3939,7 @@ async function buildPlayerStatsPlaceholderResponse(playerReq) {
         sport ? `Sport: ${sportLabel}` : "",
         rcYear ? `RC Year: ${rcYear}` : "",
         yearOptions.length ? `Checklist Years: ${yearOptions.length}` : "",
-        sportYearProducts.length ? `${currentYear} Products: ${sportYearProducts.length}` : ""
+        productCount ? `Products: ${productCount}` : ""
       ]),
       currentTitle: "Checklist Coverage",
       currentSummary: yearLabels.length
@@ -3827,7 +3949,7 @@ async function buildPlayerStatsPlaceholderResponse(playerReq) {
         Sport: sportLabel,
         "RC Year": rcYear || "-",
         "Years": yearOptions.length || "-",
-        "Products": sportYearProducts.length || "-"
+        "Products": productCount || "-"
       }, ["Sport", "RC Year", "Years", "Products"]),
       careerTitle: "",
       careerSummary: "",
@@ -3860,8 +3982,9 @@ async function buildPlayerStatsPlaceholderResponse(playerReq) {
     metadata: uniq([
       stats.team ? `Team: ${stats.team}` : "",
       sport ? `Sport: ${sportLabel}` : "",
-      meta?.rc_year ? `RC Year: ${meta.rc_year}` : "",
-      Array.isArray(meta?.checklist_years) ? `Checklist Years: ${meta.checklist_years.length}` : ""
+      rcYear ? `RC Year: ${rcYear}` : "",
+      yearOptions.length ? `Checklist Years: ${yearOptions.length}` : "",
+      productCount ? `Products: ${productCount}` : ""
     ]),
     currentTitle: "Checklist Coverage",
     currentSummary: yearLabels.length
@@ -3871,7 +3994,7 @@ async function buildPlayerStatsPlaceholderResponse(playerReq) {
       Sport: sportLabel,
       "RC Year": rcYear || "-",
       "Years": yearOptions.length || "-",
-      "Products": sportYearProducts.length || "-"
+      "Products": productCount || "-"
     }, ["Sport", "RC Year", "Years", "Products"]),
     extraSections: [
       {
@@ -4143,16 +4266,17 @@ async function buildChecklistSummaryResponse(query) {
   }
 
   const summary = await getChecklistSummary(product.code);
+  const hydratedSummary = await hydrateChecklistSummaryCounts(product, summary);
 
   pendingChecklistChoice = {
     product,
-    summary
+    summary: hydratedSummary
   };
 
   const directSection = detectChecklistSectionIntent(query);
   if (directSection) return buildChecklistSectionResponse(directSection);
 
-  const countsLine = summarizeChecklistCounts(summary);
+  const countsLine = summarizeChecklistCounts(hydratedSummary);
 
   return {
     type: "standard",
@@ -4160,11 +4284,11 @@ async function buildChecklistSummaryResponse(query) {
     title: product.name,
     summary: `I found a matching checklist.${countsLine ? ` ${countsLine}.` : ""} Are you looking for the entire checklist or a checklist for base, inserts, autographs, relics, variations, or parallels?`,
     metadata: uniq([
-      summary.counts?.all ? `Rows: ${formatNumber(summary.counts.all)}` : "",
+      hydratedSummary.counts?.all ? `Rows: ${formatNumber(hydratedSummary.counts.all)}` : "",
       product.year ? `Year: ${product.year}` : "",
       product.sport ? `Sport: ${titleCase(product.sport)}` : ""
     ]),
-    followups: buildProductChecklistFollowups(product, summary)
+    followups: buildProductChecklistFollowups(product, hydratedSummary)
   };
 }
 
