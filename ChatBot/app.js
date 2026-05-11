@@ -684,7 +684,7 @@ function buildPlayerAliasOption(targetName, preferredSport = "") {
 
 async function getClarifyPlayerAliasOptions(playerReq) {
   if (!playerReq?.playerName) return null;
-  await loadPlayerMeta();
+  await loadPlayerMeta().catch(() => []);
 
   const key = normalizePlayerAliasKey(playerReq.playerName);
   const targets = config.PLAYER_ALIAS_CLARIFY_MAP?.[key] || null;
@@ -706,7 +706,7 @@ async function getClarifyPlayerAliasOptions(playerReq) {
 
 async function applySafePlayerAliasToRequest(playerReq) {
   if (!playerReq?.playerName) return playerReq;
-  await loadPlayerMeta();
+  await loadPlayerMeta().catch(() => []);
 
   const key = normalizePlayerAliasKey(playerReq.playerName);
   const target = config.PLAYER_ALIAS_MAP?.[key] || "";
@@ -823,7 +823,7 @@ function scorePlayerMetaOption(meta, playerQuery) {
 }
 
 async function getPlayerMatchOptions(playerQuery, sport = "", limit = 5) {
-  await loadPlayerMeta();
+  await loadPlayerMeta().catch(() => []);
 
   const qTokens = tokenize(playerQuery);
   if (!qTokens.length) return [];
@@ -884,7 +884,7 @@ async function resolveRookiePlayerRequest(playerReq) {
   if (!playerReq || !isRookieCardIntent(playerReq.originalQuery || "")) return null;
   if (playerReq.year || playerReq.code) return null;
 
-  await loadPlayerMeta();
+  await loadPlayerMeta().catch(() => []);
 
   const meta = getPlayerMetaEntry(playerReq.playerName);
   const rcYear = getRcYearForPlayerRequest(playerReq, meta);
@@ -3373,7 +3373,7 @@ async function buildProductNumberedPrintRunResponse(numberedReq) {
 }
 
 async function buildPlayerSerialYearChoiceResponse(numberedReq) {
-  await loadPlayerMeta();
+  await loadPlayerMeta().catch(() => []);
 
   const meta = getPlayerMetaEntry(numberedReq.playerName);
   let fallbackYears = [];
@@ -3775,7 +3775,7 @@ async function buildPlayerChoiceResponse(playerReq) {
 }
 
 async function buildPlayerStatsPlaceholderResponse(playerReq) {
-  await loadPlayerMeta();
+  await loadPlayerMeta().catch(() => []);
   await loadPlayerStats().catch(() => {});
 
   const stats = getPlayerStatsEntry(playerReq.playerName);
@@ -3890,7 +3890,7 @@ async function buildPlayerStatsPlaceholderResponse(playerReq) {
 }
 
 async function buildPlayerChecklistResponse(playerReq) {
-  await loadPlayerMeta();
+  await loadPlayerMeta().catch(() => []);
 
   pendingProductChoice = null;
   pendingChecklistChoice = null;
@@ -4241,7 +4241,7 @@ async function buildSearchResponse(query) {
     let resolvedNumberedReq = resolvePlayerRequestFromOptions(aliasNumberedReq, playerOptions);
 
     if (isRookieCardIntent(resolvedNumberedReq.originalQuery || "") && !resolvedNumberedReq.year) {
-      await loadPlayerMeta();
+      await loadPlayerMeta().catch(() => []);
 
       const meta = getPlayerMetaEntry(resolvedNumberedReq.playerName);
       const rcYear = getRcYearForPlayerRequest(resolvedNumberedReq, meta);
@@ -4311,7 +4311,7 @@ async function buildSearchResponse(query) {
     let productSeedPlayerReq = resolvedPlayerReq;
 
     if (isRookieCardIntent(productSeedPlayerReq.originalQuery || "") && !productSeedPlayerReq.year && !productSeedPlayerReq.code) {
-      await loadPlayerMeta();
+      await loadPlayerMeta().catch(() => []);
 
       const meta = getPlayerMetaEntry(productSeedPlayerReq.playerName);
       const rcYear = getRcYearForPlayerRequest(productSeedPlayerReq, meta);
@@ -4339,7 +4339,7 @@ async function buildSearchResponse(query) {
       };
 
       if (isRookieCardIntent(filteredPlayerReq.originalQuery || "") && !filteredPlayerReq.year && !filteredPlayerReq.code) {
-        await loadPlayerMeta();
+        await loadPlayerMeta().catch(() => []);
 
         const meta = getPlayerMetaEntry(filteredPlayerReq.playerName);
         const rcYear = getRcYearForPlayerRequest(filteredPlayerReq, meta);
@@ -4521,7 +4521,7 @@ async function buildResponse(query) {
         };
 
         if (isRookieCardIntent(numberedReq.originalQuery || "") && !numberedReq.year) {
-          await loadPlayerMeta();
+          await loadPlayerMeta().catch(() => []);
 
           const meta = getPlayerMetaEntry(numberedReq.playerName);
           const rcYear = getRcYearForPlayerRequest(numberedReq, meta);
@@ -4557,7 +4557,7 @@ async function buildResponse(query) {
       };
 
       if (isRookieCardIntent(playerReq.originalQuery || "") && !playerReq.year && !playerReq.code) {
-        await loadPlayerMeta();
+        await loadPlayerMeta().catch(() => []);
 
         const meta = getPlayerMetaEntry(playerReq.playerName);
         const rcYear = getRcYearForPlayerRequest(playerReq, meta);
