@@ -83,8 +83,24 @@ window.CMChat.store = window.CMChat.store || {};
         return ns.playerMetaIndex;
       }
 
-      const res = await fetch(config.PLAYER_META_URL, { cache: "no-store" });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      let res;
+      try {
+        res = await fetchWithTimeout(config.PLAYER_META_URL, {
+          cache: "no-store"
+        }, 4500);
+      } catch (err) {
+        console.warn("Player meta index unavailable; continuing with static search data", err);
+        ns.playerMetaIndex = [];
+        ns.playerMetaByName = {};
+        return ns.playerMetaIndex;
+      }
+
+      if (!res.ok) {
+        console.warn("Player meta index unavailable; continuing with static search data", `HTTP ${res.status}`);
+        ns.playerMetaIndex = [];
+        ns.playerMetaByName = {};
+        return ns.playerMetaIndex;
+      }
 
       const data = await res.json();
       ns.playerMetaIndex = Array.isArray(data?.players) ? data.players : [];
@@ -117,7 +133,7 @@ window.CMChat.store = window.CMChat.store || {};
         return ns.playerStatsData;
       }
 
-      const res = await fetch(config.PLAYER_STATS_JSON_URL, { cache: "no-store" });
+      const res = await fetchWithTimeout(config.PLAYER_STATS_JSON_URL, { cache: "force-cache" }, 6500);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
       const data = await res.json();
@@ -162,6 +178,20 @@ window.CMChat.store = window.CMChat.store || {};
     })();
 
     return ns.releaseSchedulePromise;
+  }
+
+  async function fetchWithTimeout(url, options, timeoutMs) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs || 5000);
+
+    try {
+      return await fetch(url, {
+        ...(options || {}),
+        signal: controller.signal
+      });
+    } finally {
+      clearTimeout(timer);
+    }
   }
 
   function normalizeStatValue(value) {
