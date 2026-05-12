@@ -442,7 +442,11 @@ function splitPlayerSearchQuery(query) {
       "variation",
       "variations",
       "relic",
-      "relics"
+      "relics",
+      "insert",
+      "inserts",
+      "patch",
+      "rpa"
     ].includes(token);
 
   let stopIdx = candidateNorms.length;
@@ -538,11 +542,22 @@ function isLowestNumberedProductQuestion(query) {
   );
 }
 
+function isRarestParallelQuestion(query) {
+  const n = normalize(query);
+  return (
+    n.includes("rarest parallel") ||
+    n.includes("rarest parallels") ||
+    n.includes("rare parallels") ||
+    n.includes("rare parallel")
+  );
+}
+
 function isParallelRarityQuestion(query) {
   const n = normalize(query);
   return (
     n.includes("how rare") ||
     n.includes("rarity") ||
+    n.includes("rarest") ||
     n.includes("rare is") ||
     n.includes("rare are")
   ) && (
@@ -557,7 +572,100 @@ function isParallelRarityQuestion(query) {
 
 function isParallelCompareQuestion(query) {
   const n = normalize(query);
-  return /\bcompare\b/.test(n) && /\bparallels?\b/.test(n);
+  return /\bcompare\b/.test(n) && (
+    /\bparallels?\b/.test(n) ||
+    n.includes("topps chrome") ||
+    n.includes("topps finest")
+  );
+}
+
+function isCaseHitQuery(query) {
+  const n = normalize(query);
+  return n.includes("case hit") || n.includes("case hits");
+}
+
+function isShortPrintQuery(query) {
+  const n = normalize(query);
+  return isSspQuery(query) || /\bshort prints?\b/.test(n) || /\bsps?\b/.test(n);
+}
+
+function isRookiePatchAutoQuery(query) {
+  const n = normalize(query);
+  return isRookieAutoQuery(query) && (
+    /\brpa\b/.test(n) ||
+    n.includes("patch auto") ||
+    n.includes("patch autograph") ||
+    n.includes("rookie patch")
+  );
+}
+
+function isOnCardAutoQuery(query) {
+  const n = normalize(query);
+  return (/\bon card\b/.test(n) || /\bon-card\b/.test(n)) && (
+    /\bautos?\b/.test(n) || /\bautographs?\b/.test(n)
+  );
+}
+
+function isExclusiveQuery(query) {
+  const n = normalize(query);
+  return (
+    n.includes("exclusive") ||
+    n.includes("blaster") ||
+    n.includes("retail") ||
+    n.includes("hanger") ||
+    n.includes("mega box")
+  );
+}
+
+function isChaseCardsQuery(query) {
+  const n = normalize(query);
+  return (
+    n.includes("chase card") ||
+    n.includes("chase cards") ||
+    n.includes("biggest cards") ||
+    n.includes("best cards") ||
+    n.includes("best rookie") ||
+    n.includes("best rookies")
+  );
+}
+
+function isHardestPullQuery(query) {
+  const n = normalize(query);
+  return (
+    n.includes("hardest card to pull") ||
+    n.includes("hardest to pull") ||
+    n.includes("toughest pull") ||
+    n.includes("hardest pull")
+  );
+}
+
+function isBestRookieClassQuery(query) {
+  const n = normalize(query);
+  return n.includes("best rookie class") || n.includes("best rookie classes");
+}
+
+function isSuperfractorOddsQuery(query) {
+  const n = normalize(query);
+  return n.includes("superfractor") && (n.includes("odds") || n.includes("pull"));
+}
+
+function isRefractorEducationQuery(query) {
+  const n = normalize(query);
+  return (
+    n.includes("difference between") &&
+    n.includes("refractor") &&
+    (n.includes("x fractor") || n.includes("x-fractor"))
+  );
+}
+
+function isEveryParallelForCardQuery(query) {
+  const n = normalize(query);
+  return (
+    n.includes("every parallel for this card") ||
+    n.includes("all parallels for this card") ||
+    n.includes("parallel for this card") ||
+    n.includes("parallels for this card")
+  );
 }
 
 function stripProductRookieWords(query) {
@@ -607,6 +715,25 @@ function stripProductCollectorFilterWords(query) {
     "super short print",
     "short print",
     "short prints",
+    "case hit",
+    "case hits",
+    "on card",
+    "on-card",
+    "patch",
+    "rpa",
+    "exclusive",
+    "blaster",
+    "retail",
+    "hanger",
+    "mega box",
+    "chase",
+    "biggest",
+    "best",
+    "rarest",
+    "rare",
+    "hardest",
+    "toughest",
+    "pull",
     "only",
     "what",
     "are",
@@ -625,6 +752,14 @@ function detectPlayerRowFilterIntent(query) {
   const n = normalize(query);
   const section = detectChecklistSectionIntent(query);
 
+  if (isRookiePatchAutoQuery(query)) {
+    return {
+      key: "rookie_patch_autos",
+      label: "Rookie Patch Autographs",
+      terms: ["rookie", "rc", "rpa", "patch", "autograph", "auto"]
+    };
+  }
+
   if (isRookieAutoQuery(query)) {
     return {
       key: "rookie_autos",
@@ -633,11 +768,27 @@ function detectPlayerRowFilterIntent(query) {
     };
   }
 
+  if (isOnCardAutoQuery(query)) {
+    return {
+      key: "on_card_autos",
+      label: "On-Card Autographs",
+      terms: ["on card", "on-card", "autograph", "auto"]
+    };
+  }
+
   if (isSspQuery(query)) {
     return {
       key: "ssp",
       label: "SSPs",
       terms: ["ssp", "ssps", "super short print", "short print"]
+    };
+  }
+
+  if (isRookieCardIntent(query)) {
+    return {
+      key: "rookies",
+      label: "Rookies",
+      terms: ["rookie", "rookies", "rc"]
     };
   }
 
@@ -673,6 +824,14 @@ function detectPlayerRowFilterIntent(query) {
     };
   }
 
+  if (section === "inserts") {
+    return {
+      key: "inserts",
+      label: "Inserts",
+      terms: ["insert", "inserts"]
+    };
+  }
+
   if (section === "parallels") {
     return {
       key: "parallels",
@@ -695,6 +854,22 @@ function rowMatchesPlayerFilter(row, filter) {
     const hasRookie = tokens.includes("rc") || haystack.includes("rookie");
     const hasAuto = tokens.includes("auto") || tokens.includes("autos") || haystack.includes("autograph");
     return hasRookie && hasAuto;
+  }
+
+  if (filter.key === "rookie_patch_autos") {
+    const hasRookie = tokens.includes("rc") || haystack.includes("rookie");
+    const hasAuto = tokens.includes("auto") || tokens.includes("autos") || haystack.includes("autograph");
+    const hasPatch = tokens.includes("rpa") || tokens.includes("patch") || haystack.includes("patch auto") || haystack.includes("patch autograph");
+    return hasRookie && hasAuto && hasPatch;
+  }
+
+  if (filter.key === "rookies") {
+    return tokens.includes("rc") || haystack.includes("rookie");
+  }
+
+  if (filter.key === "on_card_autos") {
+    const hasAuto = tokens.includes("auto") || tokens.includes("autos") || haystack.includes("autograph");
+    return hasAuto && (haystack.includes("on card") || haystack.includes("on-card"));
   }
 
   if (filter.key === "ssp") {
@@ -3277,10 +3452,38 @@ function checklistRowMatchesRookieAuto(row, columns) {
   return checklistRowMatchesRookie(row, columns) && checklistRowMatchesAutograph(row);
 }
 
+function checklistRowMatchesRookiePatchAuto(row, columns) {
+  const haystack = normalize((Array.isArray(row) ? row : []).join(" "));
+  const tokens = tokenize(haystack);
+  const hasPatch = tokens.includes("rpa") || tokens.includes("patch") || haystack.includes("patch auto") || haystack.includes("patch autograph");
+  return checklistRowMatchesRookieAuto(row, columns) && hasPatch;
+}
+
+function checklistRowMatchesOnCardAuto(row) {
+  const haystack = normalize((Array.isArray(row) ? row : []).join(" "));
+  return checklistRowMatchesAutograph(row) && (haystack.includes("on card") || haystack.includes("on-card"));
+}
+
 function checklistRowMatchesSsp(row) {
   const haystack = normalize((Array.isArray(row) ? row : []).join(" "));
   const tokens = tokenize(haystack);
   return tokens.includes("ssp") || tokens.includes("ssps") || haystack.includes("super short print") || haystack.includes("short print");
+}
+
+function checklistRowMatchesCaseHit(row) {
+  const haystack = normalize((Array.isArray(row) ? row : []).join(" "));
+  return haystack.includes("case hit") || haystack.includes("case-hit");
+}
+
+function checklistRowMatchesExclusive(row) {
+  const haystack = normalize((Array.isArray(row) ? row : []).join(" "));
+  return (
+    haystack.includes("exclusive") ||
+    haystack.includes("blaster") ||
+    haystack.includes("retail") ||
+    haystack.includes("hanger") ||
+    haystack.includes("mega box")
+  );
 }
 
 async function buildProductFilteredChecklistResponse(productInput, options) {
@@ -3358,12 +3561,48 @@ async function buildProductRookieAutoResponse(productInput) {
   });
 }
 
+async function buildProductRookiePatchAutoResponse(productInput) {
+  return buildProductFilteredChecklistResponse(productInput, {
+    label: "Rookie Patch Autographs",
+    sectionKey: "product_rookie_patch_autos",
+    filterFn: checklistRowMatchesRookiePatchAuto,
+    noResultSummary: "I searched the checklist rows and did not find rookie patch autos tagged for this product."
+  });
+}
+
+async function buildProductOnCardAutoResponse(productInput) {
+  return buildProductFilteredChecklistResponse(productInput, {
+    label: "On-Card Autographs",
+    sectionKey: "product_on_card_autos",
+    filterFn: checklistRowMatchesOnCardAuto,
+    noResultSummary: "I searched the checklist rows and did not find on-card autograph tags for this product. Some sets do not label sticker vs. on-card status in the checklist data."
+  });
+}
+
 async function buildProductSspResponse(productInput) {
   return buildProductFilteredChecklistResponse(productInput, {
     label: "SSPs",
     sectionKey: "product_ssps",
     filterFn: checklistRowMatchesSsp,
     noResultSummary: "I searched the checklist rows and did not find SSP or short-print tags for this product."
+  });
+}
+
+async function buildProductCaseHitResponse(productInput) {
+  return buildProductFilteredChecklistResponse(productInput, {
+    label: "Case Hits",
+    sectionKey: "product_case_hits",
+    filterFn: checklistRowMatchesCaseHit,
+    noResultSummary: "I searched the checklist rows and did not find case-hit tags for this product."
+  });
+}
+
+async function buildProductExclusiveResponse(productInput) {
+  return buildProductFilteredChecklistResponse(productInput, {
+    label: "Retail Exclusives",
+    sectionKey: "product_exclusives",
+    filterFn: checklistRowMatchesExclusive,
+    noResultSummary: "I searched the checklist rows and did not find blaster, retail, hanger, mega box, or exclusive tags for this product."
   });
 }
 
@@ -3911,6 +4150,118 @@ async function buildParallelRarityResponse(query) {
   };
 }
 
+async function buildProductChaseGuidanceResponse(productInput, options = {}) {
+  const product = findEquivalentProduct(getChecklistIndex(), productInput) || productInput;
+  const label = options.label || "Chase Cards";
+
+  if (!product?.code) {
+    return {
+      type: "standard",
+      badge: label,
+      title: "Which product should I use?",
+      summary: "I can help identify likely chase categories, but I need the exact product first.",
+      followups: [
+        "2025 Topps Chrome Baseball chase cards",
+        "2025 Bowman Baseball key rookies",
+        "2024 Prizm Football rarest parallels"
+      ]
+    };
+  }
+
+  const summary = await hydrateChecklistSummaryCounts(product, await getChecklistSummary(product.code));
+  pendingChecklistChoice = {
+    product,
+    summary
+  };
+
+  const data = await getChecklistParallels(product.code).catch(() => null);
+  const serialRows = (Array.isArray(data?.rows) ? data.rows : [])
+    .map(r => {
+      const parallelName = Array.isArray(r) ? (r[1] || "") : (r.parallel_name || "");
+      const serialNo = Array.isArray(r) ? (r[2] || "") : (r.serial_no || "");
+      const value = getSerialLimitValue(serialNo);
+      return { parallelName, serialNo, value };
+    })
+    .filter(r => r.value > 0)
+    .sort((a, b) => a.value - b.value || String(a.parallelName || "").localeCompare(String(b.parallelName || "")))
+    .slice(0, 5);
+
+  const chaseItems = uniq([
+    summary?.counts?.base ? "Rookie cards and base RCs, when tagged in the checklist." : "",
+    summary?.counts?.autographs ? "Autographs, especially rookie autographs." : "",
+    summary?.counts?.variations ? "Variations, SSPs, and short prints when listed." : "",
+    summary?.counts?.parallels ? "Low-numbered parallels and 1-of-1s." : "",
+    ...serialRows.map(r => `${r.parallelName}${r.serialNo ? ` (${r.serialNo})` : ""}`)
+  ].filter(Boolean));
+
+  return {
+    type: "standard",
+    badge: label,
+    title: product.name,
+    summary: "I can’t rank market value from checklist data alone, but these are the categories collectors usually check first.",
+    listItems: chaseItems.length ? chaseItems : [
+      "Rookie cards",
+      "Autographs",
+      "SSPs or short prints",
+      "Lowest-numbered parallels"
+    ],
+    metadata: uniq([
+      product.year ? `Year: ${product.year}` : "",
+      product.sport ? `Sport: ${titleCase(product.sport)}` : "",
+      summary?.counts?.all ? `Checklist Rows: ${formatNumber(summary.counts.all)}` : ""
+    ]),
+    followups: uniq([
+      `Show key rookies in ${product.name}`,
+      `Show ${product.name} rookie autos`,
+      `Show ${product.name} SSPs`,
+      `Show ${product.name} lowest numbered parallels`
+    ])
+  };
+}
+
+async function buildHardestPullResponse(productInput) {
+  const product = findEquivalentProduct(getChecklistIndex(), productInput) || productInput;
+  if (!product?.code) {
+    return buildProductChaseGuidanceResponse(productInput, { label: "Hardest Pulls" });
+  }
+
+  const serialResponse = await buildProductSerialOnlyResponse(product, { lowestOnly: true });
+  if (serialResponse?.type === "checklist_table") {
+    serialResponse.badge = "Hardest Pulls";
+    serialResponse.sectionLabel = "Likely Hardest Pulls";
+    serialResponse.metadata = uniq([
+      ...(serialResponse.metadata || []),
+      "Basis: lowest listed serial numbers"
+    ]);
+    serialResponse.followups = uniq([
+      `What are the SSPs in this set?`,
+      `Show ${product.name} rookie autos`,
+      `Show chase cards in ${product.name}`
+    ]);
+    return serialResponse;
+  }
+
+  return buildProductChaseGuidanceResponse(product, { label: "Hardest Pulls" });
+}
+
+function buildCollectorNeedsProductResponse(label, query) {
+  pendingProductChoice = null;
+  pendingPlayerChoice = null;
+  pendingNumberedChoice = null;
+
+  return {
+    type: "standard",
+    badge: label,
+    title: "Which product should I use?",
+    summary: "I can answer that once I know the exact set. Include the year, product name, and sport for the best match.",
+    followups: [
+      "2025 Topps Chrome Baseball",
+      "2025 Bowman Baseball",
+      "2024 Prizm Football"
+    ]
+  };
+}
+
 function buildParallelCompareResponse(query) {
   pendingProductChoice = null;
   pendingPlayerChoice = null;
@@ -3927,6 +4278,87 @@ function buildParallelCompareResponse(query) {
       "Show 2025 Topps Finest Baseball parallels"
     ]
   };
+}
+
+function buildSuperfractorOddsResponse(query) {
+  const product = pendingChecklistChoice?.product || null;
+
+  return {
+    type: "standard",
+    badge: "Odds",
+    title: "Superfractor odds",
+    summary: "I can show checklist rarity signals, but I do not currently have pack-odds data loaded. When a Superfractor is listed as serial numbered 1/1, it is one of the hardest cards to pull in that product.",
+    followups: uniq([
+      product?.name ? `Show ${product.name} lowest numbered parallels` : "",
+      product?.name ? `Show ${product.name} parallels` : "",
+      "How rare is a Superfractor?"
+    ].filter(Boolean))
+  };
+}
+
+function buildRefractorEducationResponse() {
+  return {
+    type: "standard",
+    badge: "Collector Guide",
+    title: "Refractors vs. X-Fractors",
+    summary: "A Refractor is a chrome-style parallel with a rainbow shine. An X-Fractor is a specific Refractor pattern with an X-like/checkered finish. In most products, X-Fractors are a separate parallel from standard Refractors, and rarity depends on the exact set and whether the parallel is serial numbered.",
+    followups: [
+      "Show serial numbered parallels only",
+      "How rare is an X-Fractor?",
+      "Show Topps Chrome parallels"
+    ]
+  };
+}
+
+function buildEveryParallelForCardResponse() {
+  const product = pendingChecklistChoice?.product || null;
+
+  return {
+    type: "standard",
+    badge: "Parallels",
+    title: "Card-level parallel mapping",
+    summary: "I can show the product’s full parallel list, but I cannot yet guarantee which parallels apply to one exact card unless the checklist data says that directly.",
+    followups: uniq([
+      product?.name ? `Show ${product.name} parallels` : "Show product parallels",
+      product?.name ? `Show serial numbered parallels only` : "",
+      product?.name ? `What are the rarest parallels in this set?` : ""
+    ].filter(Boolean))
+  };
+}
+
+function buildBestRookieClassResponse() {
+  return {
+    type: "standard",
+    badge: "Rookie Class",
+    title: "Best rookie class",
+    summary: "I don’t rank rookie classes yet because that would need an editorial or market-value layer. I can help compare checklist depth by showing rookies, rookie autos, and chase categories for specific products.",
+    followups: [
+      "Show key rookies in 2025 Bowman Baseball",
+      "Show rookie autos in 2025 Topps Chrome Baseball",
+      "Show 2025 baseball products"
+    ]
+  };
+}
+
+async function buildCollectorProductIntentResponse(query, product) {
+  if (!product) return null;
+
+  if (isHardestPullQuery(query)) return buildHardestPullResponse(product);
+  if (isChaseCardsQuery(query)) return buildProductChaseGuidanceResponse(product, { label: "Chase Cards" });
+  if (isSerialOnlyProductQuestion(query) || isLowestNumberedProductQuestion(query) || isRarestParallelQuestion(query)) {
+    return buildProductSerialOnlyResponse(product, {
+      lowestOnly: isLowestNumberedProductQuestion(query) || isRarestParallelQuestion(query) || isHardestPullQuery(query)
+    });
+  }
+  if (isCaseHitQuery(query)) return buildProductCaseHitResponse(product);
+  if (isExclusiveQuery(query)) return buildProductExclusiveResponse(product);
+  if (isRookiePatchAutoQuery(query)) return buildProductRookiePatchAutoResponse(product);
+  if (isOnCardAutoQuery(query)) return buildProductOnCardAutoResponse(product);
+  if (isShortPrintQuery(query)) return buildProductSspResponse(product);
+  if (isRookieAutoQuery(query)) return buildProductRookieAutoResponse(product);
+  if (isProductRookieQuery(query)) return buildProductRookieChecklistResponse(product);
+
+  return null;
 }
 
 async function buildProductNumberedPrintRunResponse(numberedReq) {
@@ -4795,26 +5227,30 @@ async function buildSearchResponse(query) {
   if (isCatalogCoverageQuestion(query)) return buildAskSportResponse();
   if (isPricingQuestion(query)) return buildPricingResponse();
   if (isDataSourceQuestion(query)) return buildDataSourceResponse();
+  if (isSuperfractorOddsQuery(query)) return buildSuperfractorOddsResponse(query);
+  if (isRefractorEducationQuery(query)) return buildRefractorEducationResponse();
+  if (isEveryParallelForCardQuery(query)) return buildEveryParallelForCardResponse();
+  if (isBestRookieClassQuery(query)) return buildBestRookieClassResponse();
+
+  if (pendingChecklistChoice?.product) {
+    const contextSerialMax = extractNumberedThreshold(query);
+    if (contextSerialMax && !isShortPrintQuery(query) && (isSerialOnlyProductQuestion(query) || isNumberedSearchQuery(query))) {
+      return buildProductSerialResponse({
+        product: pendingChecklistChoice.product,
+        checklistProduct: pendingChecklistChoice.product,
+        serialMax: contextSerialMax,
+        thresholdLabel: getThresholdLabel(query, contextSerialMax),
+        mode: "serial",
+        originalQuery: query
+      });
+    }
+
+    const collectorContextResponse = await buildCollectorProductIntentResponse(query, pendingChecklistChoice.product);
+    if (collectorContextResponse) return collectorContextResponse;
+  }
+
   if (isParallelRarityQuestion(query)) return buildParallelRarityResponse(query);
   if (isParallelCompareQuestion(query)) return buildParallelCompareResponse(query);
-
-  if (pendingChecklistChoice?.product && isSerialOnlyProductQuestion(query)) {
-    return buildProductSerialOnlyResponse(pendingChecklistChoice.product, {
-      lowestOnly: isLowestNumberedProductQuestion(query)
-    });
-  }
-
-  if (pendingChecklistChoice?.product && isSspQuery(query)) {
-    return buildProductSspResponse(pendingChecklistChoice.product);
-  }
-
-  if (pendingChecklistChoice?.product && isRookieAutoQuery(query)) {
-    return buildProductRookieAutoResponse(pendingChecklistChoice.product);
-  }
-
-  if (pendingChecklistChoice?.product && isProductRookieQuery(query)) {
-    return buildProductRookieChecklistResponse(pendingChecklistChoice.product);
-  }
 
   const numberedReq = detectNumberedPlayerSearchRequest(query);
   if (numberedReq) {
@@ -4905,7 +5341,7 @@ async function buildSearchResponse(query) {
     const resolvedPlayerReq = resolvePlayerRequestFromOptions(aliasPlayerReq, playerOptions);
     let productSeedPlayerReq = resolvedPlayerReq;
 
-    if (!isRookieAutoQuery(productSeedPlayerReq.originalQuery || "") && isRookieCardIntent(productSeedPlayerReq.originalQuery || "") && !productSeedPlayerReq.year && !productSeedPlayerReq.code) {
+    if (!detectPlayerRowFilterIntent(productSeedPlayerReq.originalQuery || "") && isRookieCardIntent(productSeedPlayerReq.originalQuery || "") && !productSeedPlayerReq.year && !productSeedPlayerReq.code) {
       await loadPlayerMeta().catch(() => []);
 
       const meta = getPlayerMetaEntry(productSeedPlayerReq.playerName);
@@ -4933,7 +5369,7 @@ async function buildSearchResponse(query) {
         filter: rowFilter
       };
 
-      if (rowFilter.key !== "rookie_autos" && isRookieCardIntent(filteredPlayerReq.originalQuery || "") && !filteredPlayerReq.year && !filteredPlayerReq.code) {
+      if (!["rookies", "rookie_autos", "rookie_patch_autos"].includes(rowFilter.key) && isRookieCardIntent(filteredPlayerReq.originalQuery || "") && !filteredPlayerReq.year && !filteredPlayerReq.code) {
         await loadPlayerMeta().catch(() => []);
 
         const meta = getPlayerMetaEntry(filteredPlayerReq.playerName);
@@ -4961,7 +5397,33 @@ async function buildSearchResponse(query) {
     return buildPlayerChoiceResponse(productAwarePlayerReq);
   }
 
-  const isProductCollectorFilterQuery = isProductRookieQuery(query) || isSspQuery(query) || isSerialOnlyProductQuestion(query);
+  const isProductCollectorFilterQuery =
+    isProductRookieQuery(query) ||
+    isShortPrintQuery(query) ||
+    isSerialOnlyProductQuestion(query) ||
+    isLowestNumberedProductQuestion(query) ||
+    isRarestParallelQuestion(query) ||
+    isCaseHitQuery(query) ||
+    isExclusiveQuery(query) ||
+    isOnCardAutoQuery(query) ||
+    isRookiePatchAutoQuery(query) ||
+    isChaseCardsQuery(query) ||
+    isHardestPullQuery(query);
+  if (isProductCollectorFilterQuery && !stripProductCollectorFilterWords(query)) {
+    return buildCollectorNeedsProductResponse(
+      isHardestPullQuery(query) ? "Hardest Pulls" :
+      isChaseCardsQuery(query) ? "Chase Cards" :
+      isCaseHitQuery(query) ? "Case Hits" :
+      isExclusiveQuery(query) ? "Retail Exclusives" :
+      isOnCardAutoQuery(query) ? "On-Card Autographs" :
+      isRookiePatchAutoQuery(query) ? "Rookie Patch Autographs" :
+      isRookieAutoQuery(query) ? "Rookie Autographs" :
+      isShortPrintQuery(query) ? "Short Prints" :
+      isRarestParallelQuestion(query) ? "Rarest Parallels" :
+      "Collector Search",
+      query
+    );
+  }
   const productMatchQuery = isProductCollectorFilterQuery
     ? (stripProductCollectorFilterWords(query) || query)
     : query;
@@ -4977,23 +5439,8 @@ async function buildSearchResponse(query) {
       return buildChecklistSummaryResponse(directBaseProduct.name);
     }
 
-    if (isSerialOnlyProductQuestion(query)) {
-      return buildProductSerialOnlyResponse(directBaseProduct, {
-        lowestOnly: isLowestNumberedProductQuestion(query)
-      });
-    }
-
-    if (isSspQuery(query)) {
-      return buildProductSspResponse(directBaseProduct);
-    }
-
-    if (isRookieAutoQuery(query)) {
-      return buildProductRookieAutoResponse(directBaseProduct);
-    }
-
-    if (isProductRookieQuery(query)) {
-      return buildProductRookieChecklistResponse(directBaseProduct);
-    }
+    const collectorResponse = await buildCollectorProductIntentResponse(query, directBaseProduct);
+    if (collectorResponse) return collectorResponse;
 
     return buildProductProfileResponse(directBaseProduct, query);
   }
@@ -5042,23 +5489,8 @@ async function buildSearchResponse(query) {
       return buildChecklistSummaryResponse(preferredBaseOption.name);
     }
 
-    if (isSerialOnlyProductQuestion(query)) {
-      return buildProductSerialOnlyResponse(preferredBaseOption, {
-        lowestOnly: isLowestNumberedProductQuestion(query)
-      });
-    }
-
-    if (isSspQuery(query)) {
-      return buildProductSspResponse(preferredBaseOption);
-    }
-
-    if (isRookieAutoQuery(query)) {
-      return buildProductRookieAutoResponse(preferredBaseOption);
-    }
-
-    if (isProductRookieQuery(query)) {
-      return buildProductRookieChecklistResponse(preferredBaseOption);
-    }
+    const collectorResponse = await buildCollectorProductIntentResponse(query, preferredBaseOption);
+    if (collectorResponse) return collectorResponse;
 
     return buildProductProfileResponse(preferredBaseOption, query);
   }
@@ -5076,23 +5508,8 @@ async function buildSearchResponse(query) {
     return buildChecklistSummaryResponse(query);
   }
 
-  if (isSerialOnlyProductQuestion(query)) {
-    return buildProductSerialOnlyResponse(matches.winner, {
-      lowestOnly: isLowestNumberedProductQuestion(query)
-    });
-  }
-
-  if (isSspQuery(query)) {
-    return buildProductSspResponse(matches.winner);
-  }
-
-  if (isRookieAutoQuery(query)) {
-    return buildProductRookieAutoResponse(matches.winner);
-  }
-
-  if (isProductRookieQuery(query)) {
-    return buildProductRookieChecklistResponse(matches.winner);
-  }
+  const collectorResponse = await buildCollectorProductIntentResponse(query, matches.winner);
+  if (collectorResponse) return collectorResponse;
 
   if (shouldOpenProductProfile(matches)) {
     return buildProductProfileResponse(matches.winner, query);
@@ -5194,7 +5611,7 @@ async function buildResponse(query) {
         sport: selectedPlayer.sport || selectedRequest.sport || "baseball"
       };
 
-      if (!isRookieAutoQuery(playerReq.originalQuery || "") && isRookieCardIntent(playerReq.originalQuery || "") && !playerReq.year && !playerReq.code) {
+      if (!detectPlayerRowFilterIntent(playerReq.originalQuery || "") && isRookieCardIntent(playerReq.originalQuery || "") && !playerReq.year && !playerReq.code) {
         await loadPlayerMeta().catch(() => []);
 
         const meta = getPlayerMetaEntry(playerReq.playerName);
@@ -5254,23 +5671,8 @@ async function buildResponse(query) {
         return buildPrintRunResponse(selectedProduct.name);
       }
 
-      if (isSerialOnlyProductQuestion(selectedOriginalQuery)) {
-        return buildProductSerialOnlyResponse(selectedProduct, {
-          lowestOnly: isLowestNumberedProductQuestion(selectedOriginalQuery)
-        });
-      }
-
-      if (isSspQuery(selectedOriginalQuery)) {
-        return buildProductSspResponse(selectedProduct);
-      }
-
-      if (isRookieAutoQuery(selectedOriginalQuery)) {
-        return buildProductRookieAutoResponse(selectedProduct);
-      }
-
-      if (isProductRookieQuery(selectedOriginalQuery)) {
-        return buildProductRookieChecklistResponse(selectedProduct);
-      }
+      const collectorResponse = await buildCollectorProductIntentResponse(selectedOriginalQuery, selectedProduct);
+      if (collectorResponse) return collectorResponse;
 
       return buildProductProfileResponse(selectedProduct, selectedProduct.name);
     }
