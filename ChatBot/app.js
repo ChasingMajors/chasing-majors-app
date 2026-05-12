@@ -82,6 +82,63 @@ let pendingProductMatchChoice = null;
 let pendingPlayerMatchChoice = null;
 let pendingCollectorProductChoice = null;
 
+function getSessionId() {
+  try {
+    const key = "cm_session_id";
+    let val = localStorage.getItem(key);
+    if (!val) {
+      val = "cm_" + Date.now() + "_" + Math.random().toString(36).slice(2, 10);
+      localStorage.setItem(key, val);
+    }
+    return val;
+  } catch (err) {
+    return "cm_" + Date.now();
+  }
+}
+
+function getResultRouteTarget(res) {
+  if (!res) return "chatbot";
+  if (res.type === "prv") return "vault";
+  if (res.type === "checklist_table") return "checklists";
+  if (res.type === "release_schedule") return "release_schedule";
+  if (res.type === "player_stats") return "player_stats";
+  return "chatbot";
+}
+
+function getResultCount(res) {
+  if (Array.isArray(res?.rows)) return res.rows.length;
+  if (Array.isArray(res?.rawRows)) return res.rawRows.length;
+  return "";
+}
+
+function buildChatLogPayload(eventType, query, res = null, extra = {}) {
+  const product = res?.product || {};
+
+  return Object.assign({
+    app: "chatbot",
+    page: "chatbot",
+    event_type: eventType,
+    query: query || "",
+    query_normalized: normalize(query || ""),
+    selected_name: product.name || res?.title || "",
+    selected_code: product.code || "",
+    selected_type: extra.selected_type || res?.badge || "",
+    sport: product.sport || "",
+    year: product.year || "",
+    route_target: extra.route_target || getResultRouteTarget(res),
+    session_id: getSessionId(),
+    result_count: getResultCount(res),
+    status_note: extra.status_note || "",
+    status: extra.status || "ok",
+    source: extra.source || "chatbot",
+    metadata_1: extra.metadata_1 || "",
+    metadata_2: extra.metadata_2 || "",
+    referrer: document.referrer || "",
+    url: location.href,
+    user_agent: navigator.userAgent || ""
+  }, extra || {});
+}
+
 const PRODUCT_VARIANT_TERMS = [
   "black",
   "chrome black",
@@ -5385,18 +5442,11 @@ async function submitQuery(text) {
       ui.addStandardAnswerCard(res);
     }
 
-    logEvent({
-      app: "chat_demo",
-      page: "fake_chatbot",
-      event_type: "chat_query",
-      query: lastSubmittedQuery,
-      selected_name: res.product?.name || res.title || "",
+    logEvent(buildChatLogPayload("search_submit", lastSubmittedQuery, res, {
       selected_type: selectedType,
-      route_target:
-        res.type === "prv" ? "vault" :
-        res.type === "checklist_table" ? "checklists" :
-        res.type === "release_schedule" ? "release_schedule" : ""
-    });
+      metadata_1: res.type || "",
+      metadata_2: res.sectionLabel || ""
+    }));
   } catch (err) {
     console.error(err);
 
@@ -5407,6 +5457,13 @@ async function submitQuery(text) {
       title: "Something went wrong",
       summary: "The chat could not load data right now. Please try again."
     });
+
+    logEvent(buildChatLogPayload("search_submit", lastSubmittedQuery, null, {
+      selected_type: "Error",
+      route_target: "chatbot",
+      status: "error",
+      status_note: err && err.message ? err.message : String(err || "Unknown error")
+    }));
   }
 }
 
@@ -5417,8 +5474,8 @@ function initChat() {
   ui.setSubmitHandler(submitQuery);
   ui.setErrorReportHandler(async ({ details }) => {
     return submitErrorReport({
-      app: "chat_demo",
-      page: "fake_chatbot",
+      app: "chatbot",
+      page: "chatbot",
       query: lastSubmittedQuery || "",
       details: String(details || "").trim(),
       user_agent: navigator.userAgent || ""
@@ -5426,8 +5483,8 @@ function initChat() {
   });
   ui.setResultFeedbackHandler(async ({ feedback, query, result_title, result_type }) => {
     return submitResultFeedback({
-      app: "chat_demo",
-      page: "fake_chatbot",
+      app: "chatbot",
+      page: "chatbot",
       query: query || lastSubmittedQuery || "",
       feedback: feedback || "",
       result_title: result_title || "",
