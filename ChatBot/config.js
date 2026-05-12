@@ -108,9 +108,9 @@ window.CMChat.config = {
 
   PLAYER_SEARCH_NON_NAME_WORDS: null,
   PLAYER_SEARCH_FILLER_WORDS: new Set([
-    "show","me","find","give","pull","get","tell","about","looking","look","up",
-    "is","are","was","were","does","do","did","in","from","for","all",
-    "card","cards","rookie","rookies","have","has","stats","stat","statistics","profile"
+    "show","me","find","give","pull","get","tell","about","looking","look","up","what","which","key","best",
+    "is","are","was","were","does","do","did","in","from","for","all","the","a","an",
+    "card","cards","product","products","rookie","rookies","have","has","stats","stat","statistics","profile"
   ]),
 
   PLAYER_ALIAS_MAP: {
