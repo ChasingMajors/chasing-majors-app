@@ -557,6 +557,11 @@ function isRarestParallelQuestion(query) {
   );
 }
 
+function isThisSetReference(query) {
+  const n = normalize(query);
+  return n.includes("this set") || n.includes("this product") || n.includes("this release");
+}
+
 function isParallelRarityQuestion(query) {
   const n = normalize(query);
   return (
@@ -752,6 +757,7 @@ function stripProductCollectorFilterWords(query) {
     "only",
     "what",
     "are",
+    "is",
     "key",
     "this",
     "release",
@@ -4282,47 +4288,25 @@ async function buildProductChaseGuidanceResponse(productInput, options = {}) {
     summary
   };
 
-  const data = await getChecklistParallels(product.code).catch(() => null);
-  const serialRows = (Array.isArray(data?.rows) ? data.rows : [])
-    .map(r => {
-      const parallelName = Array.isArray(r) ? (r[1] || "") : (r.parallel_name || "");
-      const serialNo = Array.isArray(r) ? (r[2] || "") : (r.serial_no || "");
-      const value = getSerialLimitValue(serialNo);
-      return { parallelName, serialNo, value };
-    })
-    .filter(r => r.value > 0)
-    .sort((a, b) => a.value - b.value || String(a.parallelName || "").localeCompare(String(b.parallelName || "")))
-    .slice(0, 5);
-
-  const chaseItems = uniq([
-    summary?.counts?.base ? "Rookie cards and base RCs, when tagged in the checklist." : "",
-    summary?.counts?.autographs ? "Autographs, especially rookie autographs." : "",
-    summary?.counts?.variations ? "Variations, SSPs, and short prints when listed." : "",
-    summary?.counts?.parallels ? "Low-numbered parallels and 1-of-1s." : "",
-    ...serialRows.map(r => `${r.parallelName}${r.serialNo ? ` (${r.serialNo})` : ""}`)
-  ].filter(Boolean));
+  const chaseItems = [
+    "Rookie Autographs",
+    "Serial numbered lower than 100"
+  ];
 
   return {
     type: "standard",
     badge: label,
     title: product.name,
-    summary: "I can’t rank market value from checklist data alone, but these are the categories collectors usually check first.",
-    listItems: chaseItems.length ? chaseItems : [
-      "Rookie cards",
-      "Autographs",
-      "SSPs or short prints",
-      "Lowest-numbered parallels"
-    ],
+    summary: "Ranking “the best” is subjective and may mean something different to different collectors. Here are categories collectors usually check first.",
+    listItems: chaseItems,
     metadata: uniq([
       product.year ? `Year: ${product.year}` : "",
       product.sport ? `Sport: ${titleCase(product.sport)}` : "",
       summary?.counts?.all ? `Checklist Rows: ${formatNumber(summary.counts.all)}` : ""
     ]),
     followups: uniq([
-      `Show key rookies in ${product.name}`,
-      `Show ${product.name} rookie autos`,
-      `Show ${product.name} SSPs`,
-      `Show ${product.name} lowest numbered parallels`
+      `${product.name} Rookie Autographs`,
+      `${product.name} Serial numbered lower than 100`
     ])
   };
 }
@@ -5357,12 +5341,15 @@ async function buildSearchResponse(query) {
       });
     }
 
+    if (isThisSetReference(query) && isRarestParallelQuestion(query)) {
+      return buildProductSerialOnlyResponse(pendingChecklistChoice.product, {
+        lowestOnly: true
+      });
+    }
+
     const collectorContextResponse = await buildCollectorProductIntentResponse(query, pendingChecklistChoice.product);
     if (collectorContextResponse) return collectorContextResponse;
   }
-
-  if (isParallelRarityQuestion(query)) return buildParallelRarityResponse(query);
-  if (isParallelCompareQuestion(query)) return buildParallelCompareResponse(query);
 
   const numberedReq = detectNumberedPlayerSearchRequest(query);
   if (numberedReq) {
@@ -5425,6 +5412,16 @@ async function buildSearchResponse(query) {
   const productSectionIntent = detectChecklistSectionIntent(query);
   if (productSectionIntent) {
     const cleanedSectionProductQuery = stripProductCollectorFilterWords(query) || stripIntentWords(query) || query;
+    const clarification = getProductMatchClarification(
+      getChecklistIndex(),
+      cleanedSectionProductQuery,
+      "checklist"
+    );
+
+    if (clarification) {
+      return buildProductMatchClarifyResponse("checklist", query, clarification);
+    }
+
     const product =
       findBestProduct(getChecklistIndex(), cleanedSectionProductQuery, "checklist") ||
       findBestProduct(getChecklistIndex(), query, "checklist") ||
@@ -5438,6 +5435,9 @@ async function buildSearchResponse(query) {
       return buildChecklistSectionResponse(productSectionIntent);
     }
   }
+
+  if (isParallelRarityQuestion(query)) return buildParallelRarityResponse(query);
+  if (isParallelCompareQuestion(query)) return buildParallelCompareResponse(query);
 
   const playerReq = detectPlayerSearchRequest(query);
   if (playerReq) {
