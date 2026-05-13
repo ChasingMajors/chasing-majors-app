@@ -473,6 +473,20 @@ window.CMChat.api = window.CMChat.api || {};
     }
   }
 
+  async function getEarlySignals() {
+    if (cache.memCache.earlySignals) return cache.memCache.earlySignals;
+
+    try {
+      const data = await fetchStaticJson(config.EARLY_SIGNALS_JSON_URL, 6500);
+      const payload = data || { signals: [] };
+      cache.memCache.earlySignals = payload;
+      return payload;
+    } catch (err) {
+      console.warn("getEarlySignals failed", err);
+      return { ok: false, signals: [] };
+    }
+  }
+
   async function getChecklistSummary(code) {
     if (cache.memCache.checklistSummary.has(code)) return cache.memCache.checklistSummary.get(code);
 
@@ -690,6 +704,7 @@ window.CMChat.api = window.CMChat.api || {};
   ns.submitResultFeedback = submitResultFeedback;
   ns.getPrintRunData = getPrintRunData;
   ns.getHomeFeed = getHomeFeed;
+  ns.getEarlySignals = getEarlySignals;
   ns.getChecklistSummary = getChecklistSummary;
   ns.getChecklistSection = getChecklistSection;
   ns.getChecklistParallels = getChecklistParallels;
