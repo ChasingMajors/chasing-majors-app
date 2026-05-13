@@ -25,7 +25,7 @@ window.CMChat.store = window.CMChat.store || {};
 
     ns.checklistIndexPromise = (async () => {
       const cached = cache.getCached(config.CL_INDEX_KEY, config.CL_INDEX_TS_KEY);
-      if (cached) {
+      if (Array.isArray(cached) && cached.length) {
         ns.checklistIndex = cached;
         return ns.checklistIndex;
       }
@@ -50,7 +50,7 @@ window.CMChat.store = window.CMChat.store || {};
 
     ns.printRunIndexPromise = (async () => {
       const cached = cache.getCached(config.PRV_INDEX_KEY, config.PRV_INDEX_TS_KEY);
-      if (cached) {
+      if (Array.isArray(cached) && cached.length) {
         ns.printRunIndex = cached;
         return ns.printRunIndex;
       }
@@ -129,7 +129,7 @@ window.CMChat.store = window.CMChat.store || {};
 
     ns.playerStatsPromise = (async () => {
       const cached = cache.getCachedWithTtl(config.PLAYER_STATS_KEY, config.PLAYER_STATS_TS_KEY, config.PLAYER_DATA_TTL_MS);
-      if (cached) {
+      if (cached && Array.isArray(cached.players) && cached.players.length) {
         ns.playerStatsData = cached;
         ns.playerStatsByName = {};
         (cached?.players || []).forEach(p => {
