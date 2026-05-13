@@ -14,6 +14,7 @@ window.CMChat.config = {
   },
 
   PLAYER_STATS_JSON_URL: "/data/v1/players/mlb-stats.json",
+  EARLY_SIGNALS_JSON_URL: "/data/v1/players/mlb-early-signals.json",
 
   CHECKLIST_BASE_URL: "/checklists/",
   VAULT_BASE_URL: "/vault/",
@@ -26,8 +27,10 @@ window.CMChat.config = {
 
   PLAYER_META_KEY: "cm_chat_player_meta_v3",
   PLAYER_STATS_KEY: "cm_chat_player_stats_v2_static",
+  EARLY_SIGNALS_KEY: "cm_chat_early_signals_v1_static",
   PLAYER_META_TS_KEY: "cm_chat_player_meta_ts_v3",
   PLAYER_STATS_TS_KEY: "cm_chat_player_stats_ts_v2_static",
+  EARLY_SIGNALS_TS_KEY: "cm_chat_early_signals_ts_v1_static",
   PLAYER_DATA_TTL_MS: 1000 * 60 * 60 * 6,
 
   RELEASE_SCHEDULE_KEY: "cm_chat_release_schedule_v2_static",
