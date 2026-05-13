@@ -1,0 +1,6110 @@
+{
+  "ok": true,
+  "kind": "mlb_early_signals",
+  "source": "MLB Stats API + Checklist RC tags",
+  "generated_at": "2026-05-13T01:08:27.732Z",
+  "rc_years": [
+    2024,
+    2025,
+    2026
+  ],
+  "snapshot_status": "compared_to_previous_snapshot",
+  "methodology": {
+    "summary": "Recent RC players are matched from Checklist Vault RC tags, ranked against MLB leaderboards, and compared with the previous MLB stats snapshot when available.",
+    "primary_focus": "2024, 2025, and 2026 baseball RC players",
+    "hitter_stats": [
+      "HR",
+      "RBI",
+      "H",
+      "OPS",
+      "BA"
+    ],
+    "pitcher_stats": [
+      "SO",
+      "SV",
+      "IP",
+      "ERA",
+      "WHIP"
+    ],
+    "guardrail": "This is a research signal, not buying advice."
+  },
+  "counts": {
+    "mlb_players": 1065,
+    "previous_mlb_players": 968,
+    "rc_players_matched": 657,
+    "signals": 50
+  },
+  "signals": [
+    {
+      "player": "Drew Romo",
+      "mlb_id": 691011,
+      "player_type": "hitter",
+      "score": 247,
+      "signal_level": "high",
+      "summary": "Top 7 in OPS. Climbing in HR and HR. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "5",
+        "hr": "4",
+        "rbi": "5",
+        "ba": ".200",
+        "ops": "1.132"
+      },
+      "leaderboard": [
+        {
+          "stat": "OPS",
+          "value": "1.132",
+          "rank": 7,
+          "previous_rank": 420,
+          "rank_change": 413,
+          "leaderboard_points": 28
+        },
+        {
+          "stat": "HR",
+          "value": "4",
+          "rank": 102,
+          "previous_rank": 313,
+          "rank_change": 211,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "RBI",
+          "value": "5",
+          "rank": 325,
+          "previous_rank": 412,
+          "rank_change": 87,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "BA",
+          "value": ".200",
+          "rank": 338,
+          "previous_rank": 441,
+          "rank_change": 103,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "H",
+          "value": "5",
+          "rank": 398,
+          "previous_rank": 441,
+          "rank_change": 43,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "from_rank": 313,
+          "to_rank": 102,
+          "climb": 211,
+          "climb_points": 28
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 412,
+          "to_rank": 325,
+          "climb": 87,
+          "climb_points": 28
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 420,
+          "to_rank": 7,
+          "climb": 413,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 441,
+          "to_rank": 338,
+          "climb": 103,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 441,
+          "to_rank": 398,
+          "climb": 43,
+          "climb_points": 20
+        },
+        {
+          "stat": "HR",
+          "previous_value": "0",
+          "current_value": "4",
+          "change": 4,
+          "climb_points": 10
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 38,
+        "product_count": 25,
+        "autograph_count": 10,
+        "low_numbered_count": 1,
+        "sample_products": [
+          "2025 Topps Series 1 Baseball",
+          "2025 Topps Archives Baseball",
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Cosmic Chrome Baseball",
+          "2025 Topps Finest Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Drew Romo rookie cards",
+        "Drew Romo rookie autographs",
+        "Drew Romo numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Drew%20Romo%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Drew%20Romo%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Zack Gelof",
+      "mlb_id": 680869,
+      "player_type": "hitter",
+      "score": 244,
+      "signal_level": "high",
+      "summary": "Climbing in HR and HR. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "17",
+        "hr": "3",
+        "rbi": "11",
+        "ba": ".274",
+        "ops": ".812"
+      },
+      "leaderboard": [
+        {
+          "stat": "OPS",
+          "value": ".812",
+          "rank": 93,
+          "previous_rank": 321,
+          "rank_change": 228,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "BA",
+          "value": ".274",
+          "rank": 104,
+          "previous_rank": 312,
+          "rank_change": 208,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "HR",
+          "value": "3",
+          "rank": 144,
+          "previous_rank": 208,
+          "rank_change": 64,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "RBI",
+          "value": "11",
+          "rank": 210,
+          "previous_rank": 294,
+          "rank_change": 84,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "H",
+          "value": "17",
+          "rank": 262,
+          "previous_rank": 368,
+          "rank_change": 106,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "from_rank": 208,
+          "to_rank": 144,
+          "climb": 64,
+          "climb_points": 28
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 294,
+          "to_rank": 210,
+          "climb": 84,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 368,
+          "to_rank": 262,
+          "climb": 106,
+          "climb_points": 28
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 321,
+          "to_rank": 93,
+          "climb": 228,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 312,
+          "to_rank": 104,
+          "climb": 208,
+          "climb_points": 28
+        },
+        {
+          "stat": "HR",
+          "previous_value": "1",
+          "current_value": "3",
+          "change": 2,
+          "climb_points": 10
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 62,
+        "product_count": 31,
+        "autograph_count": 5,
+        "low_numbered_count": 2,
+        "sample_products": [
+          "2024 Bowman Baseball",
+          "2024 Bowman Chrome Mega Box Baseball",
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Chrome Baseball",
+          "2024 Bowman Sterling Baseball",
+          "2024 Bowman's Best Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Zack Gelof rookie cards",
+        "Zack Gelof rookie autographs",
+        "Zack Gelof numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Zack%20Gelof%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Zack%20Gelof%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Elly De La Cruz",
+      "mlb_id": 682829,
+      "player_type": "hitter",
+      "score": 234,
+      "signal_level": "high",
+      "summary": "Top 5 in H. Top 10 in RBI. Top 15 in HR. Climbing in RBI and RBI. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "49",
+        "hr": "10",
+        "rbi": "29",
+        "ba": ".293",
+        "ops": ".878"
+      },
+      "leaderboard": [
+        {
+          "stat": "H",
+          "value": "49",
+          "rank": 5,
+          "previous_rank": 21,
+          "rank_change": 16,
+          "leaderboard_points": 34
+        },
+        {
+          "stat": "RBI",
+          "value": "29",
+          "rank": 10,
+          "previous_rank": 15,
+          "rank_change": 5,
+          "leaderboard_points": 28
+        },
+        {
+          "stat": "HR",
+          "value": "10",
+          "rank": 15,
+          "previous_rank": 5,
+          "rank_change": -10,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "OPS",
+          "value": ".878",
+          "rank": 47,
+          "previous_rank": 53,
+          "rank_change": 6,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "BA",
+          "value": ".293",
+          "rank": 63,
+          "previous_rank": 112,
+          "rank_change": 49,
+          "leaderboard_points": 5
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "BA",
+          "from_rank": 112,
+          "to_rank": 63,
+          "climb": 49,
+          "climb_points": 20
+        },
+        {
+          "stat": "H",
+          "from_rank": 21,
+          "to_rank": 5,
+          "climb": 16,
+          "climb_points": 12
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "20",
+          "current_value": "29",
+          "change": 9,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "31",
+          "current_value": "49",
+          "change": 18,
+          "climb_points": 8
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 15,
+          "to_rank": 10,
+          "climb": 5,
+          "climb_points": 7
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 53,
+          "to_rank": 47,
+          "climb": 6,
+          "climb_points": 7
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 93,
+        "product_count": 37,
+        "autograph_count": 13,
+        "low_numbered_count": 5,
+        "sample_products": [
+          "2024 Bowman Baseball",
+          "2024 Bowman Chrome Mega Box Baseball",
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Chrome Baseball",
+          "2024 Bowman Sterling Baseball",
+          "2024 Bowman's Best Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Elly De La Cruz rookie cards",
+        "Elly De La Cruz rookie autographs",
+        "Elly De La Cruz numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Elly%20De%20La%20Cruz%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Elly%20De%20La%20Cruz%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Drake Baldwin",
+      "mlb_id": 686948,
+      "player_type": "hitter",
+      "score": 224,
+      "signal_level": "high",
+      "summary": "Top 3 in H. Top 5 in RBI. Top 15 in HR. Climbing in HR and HR. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "50",
+        "hr": "10",
+        "rbi": "32",
+        "ba": ".298",
+        "ops": ".894"
+      },
+      "leaderboard": [
+        {
+          "stat": "H",
+          "value": "50",
+          "rank": 3,
+          "previous_rank": 2,
+          "rank_change": -1,
+          "leaderboard_points": 34
+        },
+        {
+          "stat": "RBI",
+          "value": "32",
+          "rank": 5,
+          "previous_rank": 3,
+          "rank_change": -2,
+          "leaderboard_points": 34
+        },
+        {
+          "stat": "HR",
+          "value": "10",
+          "rank": 15,
+          "previous_rank": 18,
+          "rank_change": 3,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "OPS",
+          "value": ".894",
+          "rank": 43,
+          "previous_rank": 52,
+          "rank_change": 9,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "BA",
+          "value": ".298",
+          "rank": 50,
+          "previous_rank": 56,
+          "rank_change": 6,
+          "leaderboard_points": 12
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "previous_value": "7",
+          "current_value": "10",
+          "change": 3,
+          "climb_points": 10
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "25",
+          "current_value": "32",
+          "change": 7,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "37",
+          "current_value": "50",
+          "change": 13,
+          "climb_points": 8
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 52,
+          "to_rank": 43,
+          "climb": 9,
+          "climb_points": 7
+        },
+        {
+          "stat": "BA",
+          "from_rank": 56,
+          "to_rank": 50,
+          "climb": 6,
+          "climb_points": 7
+        },
+        {
+          "stat": "HR",
+          "from_rank": 18,
+          "to_rank": 15,
+          "climb": 3,
+          "climb_points": 3
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 101,
+        "product_count": 28,
+        "autograph_count": 24,
+        "low_numbered_count": 4,
+        "sample_products": [
+          "2025 Topps Archives Baseball",
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Cosmic Chrome Baseball",
+          "2025 Topps Finest Baseball",
+          "2025 Topps Five Star Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Drake Baldwin rookie cards",
+        "Drake Baldwin rookie autographs",
+        "Drake Baldwin numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Drake%20Baldwin%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Drake%20Baldwin%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Paul Skenes",
+      "mlb_id": 694973,
+      "player_type": "pitcher",
+      "score": 221,
+      "signal_level": "high",
+      "summary": "Top 11 in SO. Top 11 in IP. Top 23 in WHIP. Climbing in SO and SO. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "era": "1.98",
+        "sv": "0",
+        "ip": "50.0",
+        "so": "56",
+        "whip": "0.64"
+      },
+      "leaderboard": [
+        {
+          "stat": "SO",
+          "value": "56",
+          "rank": 11,
+          "previous_rank": 48,
+          "rank_change": 37,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "IP",
+          "value": "50.0",
+          "rank": 11,
+          "previous_rank": 65,
+          "rank_change": 54,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "WHIP",
+          "value": "0.64",
+          "rank": 23,
+          "previous_rank": 28,
+          "rank_change": 5,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "ERA",
+          "value": "1.98",
+          "rank": 90,
+          "previous_rank": 129,
+          "rank_change": 39,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "SV",
+          "value": "0",
+          "rank": 105,
+          "previous_rank": 88,
+          "rank_change": -17,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "IP",
+          "from_rank": 65,
+          "to_rank": 11,
+          "climb": 54,
+          "climb_points": 28
+        },
+        {
+          "stat": "SO",
+          "from_rank": 48,
+          "to_rank": 11,
+          "climb": 37,
+          "climb_points": 20
+        },
+        {
+          "stat": "ERA",
+          "from_rank": 129,
+          "to_rank": 90,
+          "climb": 39,
+          "climb_points": 20
+        },
+        {
+          "stat": "SO",
+          "previous_value": "30",
+          "current_value": "56",
+          "change": 26,
+          "climb_points": 8
+        },
+        {
+          "stat": "WHIP",
+          "from_rank": 28,
+          "to_rank": 23,
+          "climb": 5,
+          "climb_points": 7
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024,
+          2025
+        ],
+        "rc_card_count": 52,
+        "product_count": 34,
+        "autograph_count": 10,
+        "low_numbered_count": 8,
+        "sample_products": [
+          "2025 Topps Series 1 Baseball",
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Finest Baseball",
+          "2025 Topps Chrome Baseball",
+          "2025 Topps Finest Baseball",
+          "2024 Bowman Chrome Mega Box Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Paul Skenes rookie cards",
+        "Paul Skenes rookie autographs",
+        "Paul Skenes numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Paul%20Skenes%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Paul%20Skenes%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Ben Rice",
+      "mlb_id": 700250,
+      "player_type": "hitter",
+      "score": 219,
+      "signal_level": "high",
+      "summary": "Top 5 in HR. Top 8 in OPS. Top 10 in RBI. Climbing in HR and RBI. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "40",
+        "hr": "13",
+        "rbi": "29",
+        "ba": ".313",
+        "ops": "1.107"
+      },
+      "leaderboard": [
+        {
+          "stat": "HR",
+          "value": "13",
+          "rank": 5,
+          "previous_rank": 5,
+          "rank_change": 0,
+          "leaderboard_points": 34
+        },
+        {
+          "stat": "OPS",
+          "value": "1.107",
+          "rank": 8,
+          "previous_rank": 7,
+          "rank_change": -1,
+          "leaderboard_points": 28
+        },
+        {
+          "stat": "RBI",
+          "value": "29",
+          "rank": 10,
+          "previous_rank": 11,
+          "rank_change": 1,
+          "leaderboard_points": 28
+        },
+        {
+          "stat": "BA",
+          "value": ".313",
+          "rank": 33,
+          "previous_rank": 37,
+          "rank_change": 4,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "H",
+          "value": "40",
+          "rank": 50,
+          "previous_rank": 35,
+          "rank_change": -15,
+          "leaderboard_points": 12
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "previous_value": "9",
+          "current_value": "13",
+          "change": 4,
+          "climb_points": 10
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "21",
+          "current_value": "29",
+          "change": 8,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "28",
+          "current_value": "40",
+          "change": 12,
+          "climb_points": 8
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 11,
+          "to_rank": 10,
+          "climb": 1,
+          "climb_points": 3
+        },
+        {
+          "stat": "BA",
+          "from_rank": 37,
+          "to_rank": 33,
+          "climb": 4,
+          "climb_points": 3
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 134,
+        "product_count": 36,
+        "autograph_count": 55,
+        "low_numbered_count": 14,
+        "sample_products": [
+          "2025 Topps Series 1 Baseball",
+          "2025 Topps Diamond Icons Baseball",
+          "2025 Topps Archives Baseball",
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Cosmic Chrome Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Ben Rice rookie cards",
+        "Ben Rice rookie autographs",
+        "Ben Rice numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Ben%20Rice%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Ben%20Rice%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Chase Meidroth",
+      "mlb_id": 805367,
+      "player_type": "hitter",
+      "score": 218,
+      "signal_level": "high",
+      "summary": "Top 40 in H. Climbing in HR and HR. RC autograph checklist data found.",
+      "season": {
+        "h": "41",
+        "hr": "3",
+        "rbi": "8",
+        "ba": ".279",
+        "ops": ".749"
+      },
+      "leaderboard": [
+        {
+          "stat": "H",
+          "value": "41",
+          "rank": 40,
+          "previous_rank": 57,
+          "rank_change": 17,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "BA",
+          "value": ".279",
+          "rank": 94,
+          "previous_rank": 142,
+          "rank_change": 48,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "HR",
+          "value": "3",
+          "rank": 144,
+          "previous_rank": 208,
+          "rank_change": 64,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".749",
+          "rank": 152,
+          "previous_rank": 221,
+          "rank_change": 69,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "RBI",
+          "value": "8",
+          "rank": 258,
+          "previous_rank": 323,
+          "rank_change": 65,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "from_rank": 208,
+          "to_rank": 144,
+          "climb": 64,
+          "climb_points": 28
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 323,
+          "to_rank": 258,
+          "climb": 65,
+          "climb_points": 28
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 221,
+          "to_rank": 152,
+          "climb": 69,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 142,
+          "to_rank": 94,
+          "climb": 48,
+          "climb_points": 20
+        },
+        {
+          "stat": "H",
+          "from_rank": 57,
+          "to_rank": 40,
+          "climb": 17,
+          "climb_points": 12
+        },
+        {
+          "stat": "HR",
+          "previous_value": "1",
+          "current_value": "3",
+          "change": 2,
+          "climb_points": 10
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 40,
+        "product_count": 22,
+        "autograph_count": 6,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2025 Topps Archives Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Cosmic Chrome Baseball",
+          "2025 Topps Finest Baseball",
+          "2025 Topps Heritage High Number Baseball",
+          "2025 Topps Allen & Ginter X Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Chase Meidroth rookie cards",
+        "Chase Meidroth rookie autographs",
+        "Chase Meidroth numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Chase%20Meidroth%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Chase%20Meidroth%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Sal Frelick",
+      "mlb_id": 686217,
+      "player_type": "hitter",
+      "score": 213,
+      "signal_level": "high",
+      "summary": "Climbing in HR and HR. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "26",
+        "hr": "3",
+        "rbi": "12",
+        "ba": ".218",
+        "ops": ".623"
+      },
+      "leaderboard": [
+        {
+          "stat": "HR",
+          "value": "3",
+          "rank": 144,
+          "previous_rank": 208,
+          "rank_change": 64,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "H",
+          "value": "26",
+          "rank": 177,
+          "previous_rank": 204,
+          "rank_change": 27,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "RBI",
+          "value": "12",
+          "rank": 191,
+          "previous_rank": 214,
+          "rank_change": 23,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "BA",
+          "value": ".218",
+          "rank": 282,
+          "previous_rank": 341,
+          "rank_change": 59,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".623",
+          "rank": 304,
+          "previous_rank": 340,
+          "rank_change": 36,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "from_rank": 208,
+          "to_rank": 144,
+          "climb": 64,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 341,
+          "to_rank": 282,
+          "climb": 59,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 204,
+          "to_rank": 177,
+          "climb": 27,
+          "climb_points": 20
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 340,
+          "to_rank": 304,
+          "climb": 36,
+          "climb_points": 20
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 214,
+          "to_rank": 191,
+          "climb": 23,
+          "climb_points": 12
+        },
+        {
+          "stat": "HR",
+          "previous_value": "1",
+          "current_value": "3",
+          "change": 2,
+          "climb_points": 10
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 81,
+        "product_count": 33,
+        "autograph_count": 19,
+        "low_numbered_count": 11,
+        "sample_products": [
+          "2024 Bowman Baseball",
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Chrome Baseball",
+          "2024 Bowman Sterling Baseball",
+          "2024 Bowman's Best Baseball",
+          "2024 Topps Allen and Ginter Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Sal Frelick rookie cards",
+        "Sal Frelick rookie autographs",
+        "Sal Frelick numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Sal%20Frelick%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Sal%20Frelick%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Shea Langeliers",
+      "mlb_id": 669127,
+      "player_type": "hitter",
+      "score": 211,
+      "signal_level": "high",
+      "summary": "Top 3 in H. Top 9 in HR. Top 17 in OPS. Climbing in HR and HR.",
+      "season": {
+        "h": "50",
+        "hr": "11",
+        "rbi": "22",
+        "ba": ".336",
+        "ops": "1.011"
+      },
+      "leaderboard": [
+        {
+          "stat": "H",
+          "value": "50",
+          "rank": 3,
+          "previous_rank": 9,
+          "rank_change": 6,
+          "leaderboard_points": 34
+        },
+        {
+          "stat": "HR",
+          "value": "11",
+          "rank": 9,
+          "previous_rank": 12,
+          "rank_change": 3,
+          "leaderboard_points": 28
+        },
+        {
+          "stat": "OPS",
+          "value": "1.011",
+          "rank": 17,
+          "previous_rank": 45,
+          "rank_change": 28,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "BA",
+          "value": ".336",
+          "rank": 17,
+          "previous_rank": 62,
+          "rank_change": 45,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "RBI",
+          "value": "22",
+          "rank": 51,
+          "previous_rank": 75,
+          "rank_change": 24,
+          "leaderboard_points": 5
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "OPS",
+          "from_rank": 45,
+          "to_rank": 17,
+          "climb": 28,
+          "climb_points": 20
+        },
+        {
+          "stat": "BA",
+          "from_rank": 62,
+          "to_rank": 17,
+          "climb": 45,
+          "climb_points": 20
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 75,
+          "to_rank": 51,
+          "climb": 24,
+          "climb_points": 12
+        },
+        {
+          "stat": "HR",
+          "previous_value": "8",
+          "current_value": "11",
+          "change": 3,
+          "climb_points": 10
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "14",
+          "current_value": "22",
+          "change": 8,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "34",
+          "current_value": "50",
+          "change": 16,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 4,
+        "product_count": 1,
+        "autograph_count": 0,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2023 Topps Series 1 Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Shea Langeliers rookie cards",
+        "Shea Langeliers rookie autographs",
+        "Shea Langeliers numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Shea%20Langeliers%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Shea%20Langeliers%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Jonathan Aranda",
+      "mlb_id": 666018,
+      "player_type": "hitter",
+      "score": 203,
+      "signal_level": "high",
+      "summary": "Top 5 in RBI. Top 31 in HR. Top 40 in H. Climbing in HR and RBI.",
+      "season": {
+        "h": "41",
+        "hr": "8",
+        "rbi": "32",
+        "ba": ".285",
+        "ops": ".871"
+      },
+      "leaderboard": [
+        {
+          "stat": "RBI",
+          "value": "32",
+          "rank": 5,
+          "previous_rank": 8,
+          "rank_change": 3,
+          "leaderboard_points": 34
+        },
+        {
+          "stat": "HR",
+          "value": "8",
+          "rank": 31,
+          "previous_rank": 26,
+          "rank_change": -5,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "H",
+          "value": "41",
+          "rank": 40,
+          "previous_rank": 116,
+          "rank_change": 76,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "OPS",
+          "value": ".871",
+          "rank": 55,
+          "previous_rank": 113,
+          "rank_change": 58,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "BA",
+          "value": ".285",
+          "rank": 78,
+          "previous_rank": 262,
+          "rank_change": 184,
+          "leaderboard_points": 5
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "H",
+          "from_rank": 116,
+          "to_rank": 40,
+          "climb": 76,
+          "climb_points": 28
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 113,
+          "to_rank": 55,
+          "climb": 58,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 262,
+          "to_rank": 78,
+          "climb": 184,
+          "climb_points": 28
+        },
+        {
+          "stat": "HR",
+          "previous_value": "6",
+          "current_value": "8",
+          "change": 2,
+          "climb_points": 10
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "23",
+          "current_value": "32",
+          "change": 9,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "22",
+          "current_value": "41",
+          "change": 19,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 2,
+        "product_count": 1,
+        "autograph_count": 0,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2023 Topps Series 1 Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Jonathan Aranda rookie cards",
+        "Jonathan Aranda rookie autographs",
+        "Jonathan Aranda numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Jonathan%20Aranda%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Jonathan%20Aranda%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Pete Crow-Armstrong",
+      "mlb_id": 691718,
+      "player_type": "hitter",
+      "score": 201,
+      "signal_level": "high",
+      "summary": "Climbing in HR and HR. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "37",
+        "hr": "4",
+        "rbi": "17",
+        "ba": ".242",
+        "ops": ".689"
+      },
+      "leaderboard": [
+        {
+          "stat": "H",
+          "value": "37",
+          "rank": 68,
+          "previous_rank": 68,
+          "rank_change": 0,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "HR",
+          "value": "4",
+          "rank": 102,
+          "previous_rank": 208,
+          "rank_change": 106,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "RBI",
+          "value": "17",
+          "rank": 111,
+          "previous_rank": 214,
+          "rank_change": 103,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "BA",
+          "value": ".242",
+          "rank": 207,
+          "previous_rank": 212,
+          "rank_change": 5,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".689",
+          "rank": 228,
+          "previous_rank": 301,
+          "rank_change": 73,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "from_rank": 208,
+          "to_rank": 102,
+          "climb": 106,
+          "climb_points": 28
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 214,
+          "to_rank": 111,
+          "climb": 103,
+          "climb_points": 28
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 301,
+          "to_rank": 228,
+          "climb": 73,
+          "climb_points": 28
+        },
+        {
+          "stat": "HR",
+          "previous_value": "1",
+          "current_value": "4",
+          "change": 3,
+          "climb_points": 10
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "7",
+          "current_value": "17",
+          "change": 10,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "25",
+          "current_value": "37",
+          "change": 12,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 71,
+        "product_count": 36,
+        "autograph_count": 13,
+        "low_numbered_count": 8,
+        "sample_products": [
+          "2024 Bowman Baseball",
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Chrome Baseball",
+          "2024 Bowman Sterling Baseball",
+          "2024 Bowman's Best Baseball",
+          "2024 Topps Allen and Ginter Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Pete Crow-Armstrong rookie cards",
+        "Pete Crow-Armstrong rookie autographs",
+        "Pete Crow-Armstrong numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Pete%20Crow-Armstrong%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Pete%20Crow-Armstrong%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Andy Pages",
+      "mlb_id": 681624,
+      "player_type": "hitter",
+      "score": 197,
+      "signal_level": "high",
+      "summary": "Top 3 in RBI. Top 5 in H. Top 24 in HR. Climbing in HR and HR. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "49",
+        "hr": "9",
+        "rbi": "35",
+        "ba": ".325",
+        "ops": ".922"
+      },
+      "leaderboard": [
+        {
+          "stat": "RBI",
+          "value": "35",
+          "rank": 3,
+          "previous_rank": 3,
+          "rank_change": 0,
+          "leaderboard_points": 34
+        },
+        {
+          "stat": "H",
+          "value": "49",
+          "rank": 5,
+          "previous_rank": 9,
+          "rank_change": 4,
+          "leaderboard_points": 34
+        },
+        {
+          "stat": "HR",
+          "value": "9",
+          "rank": 24,
+          "previous_rank": 38,
+          "rank_change": 14,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "BA",
+          "value": ".325",
+          "rank": 26,
+          "previous_rank": 25,
+          "rank_change": -1,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "OPS",
+          "value": ".922",
+          "rank": 35,
+          "previous_rank": 41,
+          "rank_change": 6,
+          "leaderboard_points": 12
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "from_rank": 38,
+          "to_rank": 24,
+          "climb": 14,
+          "climb_points": 12
+        },
+        {
+          "stat": "HR",
+          "previous_value": "5",
+          "current_value": "9",
+          "change": 4,
+          "climb_points": 10
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "25",
+          "current_value": "35",
+          "change": 10,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "34",
+          "current_value": "49",
+          "change": 15,
+          "climb_points": 8
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 41,
+          "to_rank": 35,
+          "climb": 6,
+          "climb_points": 7
+        },
+        {
+          "stat": "H",
+          "from_rank": 9,
+          "to_rank": 5,
+          "climb": 4,
+          "climb_points": 3
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 23,
+        "product_count": 18,
+        "autograph_count": 1,
+        "low_numbered_count": 1,
+        "sample_products": [
+          "2024 Topps Allen and Ginter Baseball",
+          "2024 Topps Allen and Ginter X Baseball",
+          "2024 Topps Archives Baseball",
+          "2024 Topps Black and White Baseball",
+          "2024 Topps Brooklyn Collection Baseball",
+          "2024 Topps Chrome Update Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Andy Pages rookie cards",
+        "Andy Pages rookie autographs",
+        "Andy Pages numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Andy%20Pages%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Andy%20Pages%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Miguel Vargas",
+      "mlb_id": 678246,
+      "player_type": "hitter",
+      "score": 195,
+      "signal_level": "high",
+      "summary": "Top 24 in HR. Top 41 in RBI. Climbing in HR and HR.",
+      "season": {
+        "h": "33",
+        "hr": "9",
+        "rbi": "23",
+        "ba": ".234",
+        "ops": ".846"
+      },
+      "leaderboard": [
+        {
+          "stat": "HR",
+          "value": "9",
+          "rank": 24,
+          "previous_rank": 38,
+          "rank_change": 14,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "RBI",
+          "value": "23",
+          "rank": 41,
+          "previous_rank": 96,
+          "rank_change": 55,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "OPS",
+          "value": ".846",
+          "rank": 70,
+          "previous_rank": 144,
+          "rank_change": 74,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "H",
+          "value": "33",
+          "rank": 109,
+          "previous_rank": 153,
+          "rank_change": 44,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "BA",
+          "value": ".234",
+          "rank": 234,
+          "previous_rank": 326,
+          "rank_change": 92,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "RBI",
+          "from_rank": 96,
+          "to_rank": 41,
+          "climb": 55,
+          "climb_points": 28
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 144,
+          "to_rank": 70,
+          "climb": 74,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 326,
+          "to_rank": 234,
+          "climb": 92,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 153,
+          "to_rank": 109,
+          "climb": 44,
+          "climb_points": 20
+        },
+        {
+          "stat": "HR",
+          "from_rank": 38,
+          "to_rank": 24,
+          "climb": 14,
+          "climb_points": 12
+        },
+        {
+          "stat": "HR",
+          "previous_value": "5",
+          "current_value": "9",
+          "change": 4,
+          "climb_points": 10
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 4,
+        "product_count": 1,
+        "autograph_count": 0,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2023 Topps Series 1 Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Miguel Vargas rookie cards",
+        "Miguel Vargas rookie autographs",
+        "Miguel Vargas numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Miguel%20Vargas%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Miguel%20Vargas%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Tyler Black",
+      "mlb_id": 672012,
+      "player_type": "hitter",
+      "score": 194,
+      "signal_level": "high",
+      "summary": "Top 18 in BA. Climbing in RBI and RBI. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "9",
+        "hr": "0",
+        "rbi": "7",
+        "ba": ".333",
+        "ops": ".838"
+      },
+      "leaderboard": [
+        {
+          "stat": "BA",
+          "value": ".333",
+          "rank": 18,
+          "previous_rank": 172,
+          "rank_change": 154,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "OPS",
+          "value": ".838",
+          "rank": 77,
+          "previous_rank": 290,
+          "rank_change": 213,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "RBI",
+          "value": "7",
+          "rank": 281,
+          "previous_rank": 412,
+          "rank_change": 131,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "H",
+          "value": "9",
+          "rank": 349,
+          "previous_rank": 406,
+          "rank_change": 57,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "HR",
+          "value": "0",
+          "rank": 352,
+          "previous_rank": 313,
+          "rank_change": -39,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "RBI",
+          "from_rank": 412,
+          "to_rank": 281,
+          "climb": 131,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 406,
+          "to_rank": 349,
+          "climb": 57,
+          "climb_points": 28
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 290,
+          "to_rank": 77,
+          "climb": 213,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 172,
+          "to_rank": 18,
+          "climb": 154,
+          "climb_points": 28
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "0",
+          "current_value": "7",
+          "change": 7,
+          "climb_points": 8
+        },
+        {
+          "stat": "OPS",
+          "previous_value": ".625",
+          "current_value": ".838",
+          "change": 0.213,
+          "climb_points": 6
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 18,
+        "product_count": 14,
+        "autograph_count": 1,
+        "low_numbered_count": 1,
+        "sample_products": [
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman's Best Baseball",
+          "2024 Topps Archives Baseball",
+          "2024 Topps Chrome Update Baseball",
+          "2024 Topps Chrome Update Sapphire Baseball",
+          "2024 Topps Cosmic Chrome Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Tyler Black rookie cards",
+        "Tyler Black rookie autographs",
+        "Tyler Black numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Tyler%20Black%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Tyler%20Black%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Nick Gonzales",
+      "mlb_id": 693304,
+      "player_type": "hitter",
+      "score": 192,
+      "signal_level": "high",
+      "summary": "Top 20 in H. Top 27 in BA. Climbing in RBI and RBI. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "45",
+        "hr": "0",
+        "rbi": "19",
+        "ba": ".321",
+        "ops": ".754"
+      },
+      "leaderboard": [
+        {
+          "stat": "H",
+          "value": "45",
+          "rank": 20,
+          "previous_rank": 44,
+          "rank_change": 24,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "BA",
+          "value": ".321",
+          "rank": 27,
+          "previous_rank": 65,
+          "rank_change": 38,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "RBI",
+          "value": "19",
+          "rank": 82,
+          "previous_rank": 96,
+          "rank_change": 14,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "OPS",
+          "value": ".754",
+          "rank": 149,
+          "previous_rank": 215,
+          "rank_change": 66,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "HR",
+          "value": "0",
+          "rank": 352,
+          "previous_rank": 313,
+          "rank_change": -39,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "OPS",
+          "from_rank": 215,
+          "to_rank": 149,
+          "climb": 66,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 65,
+          "to_rank": 27,
+          "climb": 38,
+          "climb_points": 20
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 96,
+          "to_rank": 82,
+          "climb": 14,
+          "climb_points": 12
+        },
+        {
+          "stat": "H",
+          "from_rank": 44,
+          "to_rank": 20,
+          "climb": 24,
+          "climb_points": 12
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "13",
+          "current_value": "19",
+          "change": 6,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "27",
+          "current_value": "45",
+          "change": 18,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 38,
+        "product_count": 25,
+        "autograph_count": 5,
+        "low_numbered_count": 2,
+        "sample_products": [
+          "2024 Bowman Baseball",
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Chrome Baseball",
+          "2024 Bowman Sterling Baseball",
+          "2024 Bowman's Best Baseball",
+          "2024 Topps Allen and Ginter Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Nick Gonzales rookie cards",
+        "Nick Gonzales rookie autographs",
+        "Nick Gonzales numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Nick%20Gonzales%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Nick%20Gonzales%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Ezequiel Duran",
+      "mlb_id": 677649,
+      "player_type": "hitter",
+      "score": 184,
+      "signal_level": "high",
+      "summary": "Climbing in HR and HR.",
+      "season": {
+        "h": "28",
+        "hr": "3",
+        "rbi": "14",
+        "ba": ".292",
+        "ops": ".846"
+      },
+      "leaderboard": [
+        {
+          "stat": "BA",
+          "value": ".292",
+          "rank": 66,
+          "previous_rank": 140,
+          "rank_change": 74,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "OPS",
+          "value": ".846",
+          "rank": 70,
+          "previous_rank": 196,
+          "rank_change": 126,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "HR",
+          "value": "3",
+          "rank": 144,
+          "previous_rank": 208,
+          "rank_change": 64,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "RBI",
+          "value": "14",
+          "rank": 155,
+          "previous_rank": 188,
+          "rank_change": 33,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "H",
+          "value": "28",
+          "rank": 159,
+          "previous_rank": 235,
+          "rank_change": 76,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "from_rank": 208,
+          "to_rank": 144,
+          "climb": 64,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 235,
+          "to_rank": 159,
+          "climb": 76,
+          "climb_points": 28
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 196,
+          "to_rank": 70,
+          "climb": 126,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 140,
+          "to_rank": 66,
+          "climb": 74,
+          "climb_points": 28
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 188,
+          "to_rank": 155,
+          "climb": 33,
+          "climb_points": 20
+        },
+        {
+          "stat": "HR",
+          "previous_value": "1",
+          "current_value": "3",
+          "change": 2,
+          "climb_points": 10
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 4,
+        "product_count": 1,
+        "autograph_count": 0,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2023 Topps Series 1 Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Ezequiel Duran rookie cards",
+        "Ezequiel Duran rookie autographs",
+        "Ezequiel Duran numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Ezequiel%20Duran%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Ezequiel%20Duran%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Brooks Lee",
+      "mlb_id": 686797,
+      "player_type": "hitter",
+      "score": 179,
+      "signal_level": "high",
+      "summary": "Top 37 in RBI. Climbing in RBI and RBI. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "37",
+        "hr": "5",
+        "rbi": "24",
+        "ba": ".272",
+        "ops": ".741"
+      },
+      "leaderboard": [
+        {
+          "stat": "RBI",
+          "value": "24",
+          "rank": 37,
+          "previous_rank": 64,
+          "rank_change": 27,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "H",
+          "value": "37",
+          "rank": 68,
+          "previous_rank": 116,
+          "rank_change": 48,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "HR",
+          "value": "5",
+          "rank": 74,
+          "previous_rank": 38,
+          "rank_change": -36,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "BA",
+          "value": ".272",
+          "rank": 116,
+          "previous_rank": 168,
+          "rank_change": 52,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".741",
+          "rank": 160,
+          "previous_rank": 146,
+          "rank_change": -14,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "BA",
+          "from_rank": 168,
+          "to_rank": 116,
+          "climb": 52,
+          "climb_points": 28
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 64,
+          "to_rank": 37,
+          "climb": 27,
+          "climb_points": 20
+        },
+        {
+          "stat": "H",
+          "from_rank": 116,
+          "to_rank": 68,
+          "climb": 48,
+          "climb_points": 20
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "15",
+          "current_value": "24",
+          "change": 9,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "22",
+          "current_value": "37",
+          "change": 15,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 203,
+        "product_count": 40,
+        "autograph_count": 71,
+        "low_numbered_count": 24,
+        "sample_products": [
+          "2025 Topps Series 1 Baseball",
+          "2025 Topps Diamond Icons Baseball",
+          "2025 Topps Archives Baseball",
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Cosmic Chrome Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Brooks Lee rookie cards",
+        "Brooks Lee rookie autographs",
+        "Brooks Lee numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Brooks%20Lee%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Brooks%20Lee%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Ceddanne Rafaela",
+      "mlb_id": 678882,
+      "player_type": "hitter",
+      "score": 179,
+      "signal_level": "high",
+      "summary": "Climbing in HR and HR. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "37",
+        "hr": "3",
+        "rbi": "17",
+        "ba": ".278",
+        "ops": ".748"
+      },
+      "leaderboard": [
+        {
+          "stat": "H",
+          "value": "37",
+          "rank": 68,
+          "previous_rank": 82,
+          "rank_change": 14,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "BA",
+          "value": ".278",
+          "rank": 100,
+          "previous_rank": 106,
+          "rank_change": 6,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "RBI",
+          "value": "17",
+          "rank": 111,
+          "previous_rank": 148,
+          "rank_change": 37,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "HR",
+          "value": "3",
+          "rank": 144,
+          "previous_rank": 208,
+          "rank_change": 64,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".748",
+          "rank": 153,
+          "previous_rank": 157,
+          "rank_change": 4,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "from_rank": 208,
+          "to_rank": 144,
+          "climb": 64,
+          "climb_points": 28
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 148,
+          "to_rank": 111,
+          "climb": 37,
+          "climb_points": 20
+        },
+        {
+          "stat": "H",
+          "from_rank": 82,
+          "to_rank": 68,
+          "climb": 14,
+          "climb_points": 12
+        },
+        {
+          "stat": "HR",
+          "previous_value": "1",
+          "current_value": "3",
+          "change": 2,
+          "climb_points": 10
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "10",
+          "current_value": "17",
+          "change": 7,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "24",
+          "current_value": "37",
+          "change": 13,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 60,
+        "product_count": 33,
+        "autograph_count": 11,
+        "low_numbered_count": 8,
+        "sample_products": [
+          "2024 Bowman Baseball",
+          "2024 Bowman Chrome Mega Box Baseball",
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Chrome Baseball",
+          "2024 Bowman Sterling Baseball",
+          "2024 Bowman's Best Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Ceddanne Rafaela rookie cards",
+        "Ceddanne Rafaela rookie autographs",
+        "Ceddanne Rafaela numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Ceddanne%20Rafaela%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Ceddanne%20Rafaela%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Liam Hicks",
+      "mlb_id": 689414,
+      "player_type": "hitter",
+      "score": 179,
+      "signal_level": "high",
+      "summary": "Top 3 in RBI. Top 24 in HR. Top 41 in OPS. Climbing in HR and HR. RC autograph checklist data found.",
+      "season": {
+        "h": "37",
+        "hr": "9",
+        "rbi": "35",
+        "ba": ".301",
+        "ops": ".907"
+      },
+      "leaderboard": [
+        {
+          "stat": "RBI",
+          "value": "35",
+          "rank": 3,
+          "previous_rank": 6,
+          "rank_change": 3,
+          "leaderboard_points": 34
+        },
+        {
+          "stat": "HR",
+          "value": "9",
+          "rank": 24,
+          "previous_rank": 38,
+          "rank_change": 14,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "OPS",
+          "value": ".907",
+          "rank": 41,
+          "previous_rank": 63,
+          "rank_change": 22,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "BA",
+          "value": ".301",
+          "rank": 47,
+          "previous_rank": 49,
+          "rank_change": 2,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "H",
+          "value": "37",
+          "rank": 68,
+          "previous_rank": 44,
+          "rank_change": -24,
+          "leaderboard_points": 5
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "from_rank": 38,
+          "to_rank": 24,
+          "climb": 14,
+          "climb_points": 12
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 63,
+          "to_rank": 41,
+          "climb": 22,
+          "climb_points": 12
+        },
+        {
+          "stat": "HR",
+          "previous_value": "5",
+          "current_value": "9",
+          "change": 4,
+          "climb_points": 10
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "24",
+          "current_value": "35",
+          "change": 11,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "27",
+          "current_value": "37",
+          "change": 10,
+          "climb_points": 8
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 6,
+          "to_rank": 3,
+          "climb": 3,
+          "climb_points": 3
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 12,
+        "product_count": 6,
+        "autograph_count": 4,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Heritage High Number Baseball",
+          "2025 Topps Chrome Update Sapphire Baseball",
+          "2025 Topps Chrome Update Series Baseball",
+          "2025 Topps Heritage High Number Baseball",
+          "2025 Topps Update Series Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Liam Hicks rookie cards",
+        "Liam Hicks rookie autographs",
+        "Liam Hicks numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Liam%20Hicks%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Liam%20Hicks%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Spencer Horwitz",
+      "mlb_id": 687462,
+      "player_type": "hitter",
+      "score": 179,
+      "signal_level": "high",
+      "summary": "Climbing in HR and RBI. RC autograph checklist data found.",
+      "season": {
+        "h": "31",
+        "hr": "3",
+        "rbi": "19",
+        "ba": ".272",
+        "ops": ".814"
+      },
+      "leaderboard": [
+        {
+          "stat": "RBI",
+          "value": "19",
+          "rank": 82,
+          "previous_rank": 188,
+          "rank_change": 106,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "OPS",
+          "value": ".814",
+          "rank": 92,
+          "previous_rank": 164,
+          "rank_change": 72,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "BA",
+          "value": ".272",
+          "rank": 116,
+          "previous_rank": 159,
+          "rank_change": 43,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "H",
+          "value": "31",
+          "rank": 131,
+          "previous_rank": 174,
+          "rank_change": 43,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "HR",
+          "value": "3",
+          "rank": 144,
+          "previous_rank": 146,
+          "rank_change": 2,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "RBI",
+          "from_rank": 188,
+          "to_rank": 82,
+          "climb": 106,
+          "climb_points": 28
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 164,
+          "to_rank": 92,
+          "climb": 72,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 174,
+          "to_rank": 131,
+          "climb": 43,
+          "climb_points": 20
+        },
+        {
+          "stat": "BA",
+          "from_rank": 159,
+          "to_rank": 116,
+          "climb": 43,
+          "climb_points": 20
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "8",
+          "current_value": "19",
+          "change": 11,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "18",
+          "current_value": "31",
+          "change": 13,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 13,
+        "product_count": 11,
+        "autograph_count": 4,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2024 Topps Chrome Baseball",
+          "2024 Topps Chrome Black",
+          "2024 Topps Chrome Sapphire Baseball",
+          "2024 Topps Chrome Update Baseball",
+          "2024 Topps Five Star Baseball",
+          "2024 Topps Heritage Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Spencer Horwitz rookie cards",
+        "Spencer Horwitz rookie autographs",
+        "Spencer Horwitz numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Spencer%20Horwitz%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Spencer%20Horwitz%20rookie%20cards"
+      }
+    },
+    {
+      "player": "William Contreras",
+      "mlb_id": 661388,
+      "player_type": "hitter",
+      "score": 178,
+      "signal_level": "high",
+      "summary": "Top 25 in RBI. Top 30 in H. Climbing in HR and RBI.",
+      "season": {
+        "h": "43",
+        "hr": "3",
+        "rbi": "26",
+        "ba": ".297",
+        "ops": ".786"
+      },
+      "leaderboard": [
+        {
+          "stat": "RBI",
+          "value": "26",
+          "rank": 25,
+          "previous_rank": 75,
+          "rank_change": 50,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "H",
+          "value": "43",
+          "rank": 30,
+          "previous_rank": 57,
+          "rank_change": 27,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "BA",
+          "value": ".297",
+          "rank": 51,
+          "previous_rank": 142,
+          "rank_change": 91,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "OPS",
+          "value": ".786",
+          "rank": 118,
+          "previous_rank": 185,
+          "rank_change": 67,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "HR",
+          "value": "3",
+          "rank": 144,
+          "previous_rank": 146,
+          "rank_change": 2,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "RBI",
+          "from_rank": 75,
+          "to_rank": 25,
+          "climb": 50,
+          "climb_points": 28
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 185,
+          "to_rank": 118,
+          "climb": 67,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 142,
+          "to_rank": 51,
+          "climb": 91,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 57,
+          "to_rank": 30,
+          "climb": 27,
+          "climb_points": 20
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "14",
+          "current_value": "26",
+          "change": 12,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "26",
+          "current_value": "43",
+          "change": 17,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 2,
+        "product_count": 2,
+        "autograph_count": 0,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Chrome Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "William Contreras rookie cards",
+        "William Contreras rookie autographs",
+        "William Contreras numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=William%20Contreras%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20William%20Contreras%20rookie%20cards"
+      }
+    },
+    {
+      "player": "James Wood",
+      "mlb_id": 695578,
+      "player_type": "hitter",
+      "score": 175,
+      "signal_level": "high",
+      "summary": "Top 8 in HR. Top 10 in RBI. Top 31 in OPS. Climbing in HR and RBI. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "39",
+        "hr": "12",
+        "rbi": "29",
+        "ba": ".244",
+        "ops": ".930"
+      },
+      "leaderboard": [
+        {
+          "stat": "HR",
+          "value": "12",
+          "rank": 8,
+          "previous_rank": 3,
+          "rank_change": -5,
+          "leaderboard_points": 28
+        },
+        {
+          "stat": "RBI",
+          "value": "29",
+          "rank": 10,
+          "previous_rank": 11,
+          "rank_change": 1,
+          "leaderboard_points": 28
+        },
+        {
+          "stat": "OPS",
+          "value": ".930",
+          "rank": 31,
+          "previous_rank": 25,
+          "rank_change": -6,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "H",
+          "value": "39",
+          "rank": 57,
+          "previous_rank": 44,
+          "rank_change": -13,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "BA",
+          "value": ".244",
+          "rank": 201,
+          "previous_rank": 198,
+          "rank_change": -3,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "previous_value": "10",
+          "current_value": "12",
+          "change": 2,
+          "climb_points": 10
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "21",
+          "current_value": "29",
+          "change": 8,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "27",
+          "current_value": "39",
+          "change": 12,
+          "climb_points": 8
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 11,
+          "to_rank": 10,
+          "climb": 1,
+          "climb_points": 3
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 340,
+        "product_count": 44,
+        "autograph_count": 103,
+        "low_numbered_count": 44,
+        "sample_products": [
+          "2025 Topps Series 1 Baseball",
+          "2025 Topps Diamond Icons Baseball",
+          "2025 Topps Archives Baseball",
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Cosmic Chrome Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "James Wood rookie cards",
+        "James Wood rookie autographs",
+        "James Wood numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=James%20Wood%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20James%20Wood%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Nolan Schanuel",
+      "mlb_id": 694384,
+      "player_type": "hitter",
+      "score": 175,
+      "signal_level": "high",
+      "summary": "Top 40 in H. Climbing in H and H. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "41",
+        "hr": "3",
+        "rbi": "20",
+        "ba": ".261",
+        "ops": ".692"
+      },
+      "leaderboard": [
+        {
+          "stat": "H",
+          "value": "41",
+          "rank": 40,
+          "previous_rank": 97,
+          "rank_change": 57,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "RBI",
+          "value": "20",
+          "rank": 66,
+          "previous_rank": 29,
+          "rank_change": -37,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "HR",
+          "value": "3",
+          "rank": 144,
+          "previous_rank": 89,
+          "rank_change": -55,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "BA",
+          "value": ".261",
+          "rank": 151,
+          "previous_rank": 275,
+          "rank_change": 124,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".692",
+          "rank": 223,
+          "previous_rank": 286,
+          "rank_change": 63,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "H",
+          "from_rank": 97,
+          "to_rank": 40,
+          "climb": 57,
+          "climb_points": 28
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 286,
+          "to_rank": 223,
+          "climb": 63,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 275,
+          "to_rank": 151,
+          "climb": 124,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "previous_value": "23",
+          "current_value": "41",
+          "change": 18,
+          "climb_points": 8
+        },
+        {
+          "stat": "OPS",
+          "previous_value": ".630",
+          "current_value": ".692",
+          "change": 0.062,
+          "climb_points": 6
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 54,
+        "product_count": 33,
+        "autograph_count": 4,
+        "low_numbered_count": 3,
+        "sample_products": [
+          "2024 Bowman Baseball",
+          "2024 Bowman Chrome Mega Box Baseball",
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Chrome Baseball",
+          "2024 Bowman Sterling Baseball",
+          "2024 Bowman's Best Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Nolan Schanuel rookie cards",
+        "Nolan Schanuel rookie autographs",
+        "Nolan Schanuel numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Nolan%20Schanuel%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Nolan%20Schanuel%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Logan Henderson",
+      "mlb_id": 701656,
+      "player_type": "pitcher",
+      "score": 173,
+      "signal_level": "high",
+      "summary": "Climbing in SO and SO. RC autograph checklist data found.",
+      "season": {
+        "era": "4.15",
+        "sv": "0",
+        "ip": "13.0",
+        "so": "16",
+        "whip": "0.92"
+      },
+      "leaderboard": [
+        {
+          "stat": "WHIP",
+          "value": "0.92",
+          "rank": 68,
+          "previous_rank": 421,
+          "rank_change": 353,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "SV",
+          "value": "0",
+          "rank": 105,
+          "previous_rank": 88,
+          "rank_change": -17,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "SO",
+          "value": "16",
+          "rank": 243,
+          "previous_rank": 432,
+          "rank_change": 189,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "ERA",
+          "value": "4.15",
+          "rank": 292,
+          "previous_rank": 445,
+          "rank_change": 153,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "IP",
+          "value": "13.0",
+          "rank": 333,
+          "previous_rank": 463,
+          "rank_change": 130,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "SO",
+          "from_rank": 432,
+          "to_rank": 243,
+          "climb": 189,
+          "climb_points": 28
+        },
+        {
+          "stat": "IP",
+          "from_rank": 463,
+          "to_rank": 333,
+          "climb": 130,
+          "climb_points": 28
+        },
+        {
+          "stat": "ERA",
+          "from_rank": 445,
+          "to_rank": 292,
+          "climb": 153,
+          "climb_points": 28
+        },
+        {
+          "stat": "WHIP",
+          "from_rank": 421,
+          "to_rank": 68,
+          "climb": 353,
+          "climb_points": 28
+        },
+        {
+          "stat": "SO",
+          "previous_value": "3",
+          "current_value": "16",
+          "change": 13,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 17,
+        "product_count": 10,
+        "autograph_count": 4,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Heritage High Number Baseball",
+          "2025 Bowman Chrome Baseball",
+          "2025 Bowman Chrome Sapphire Baseball",
+          "2025 Topps Chrome Update Sapphire Baseball",
+          "2025 Topps Chrome Update Series Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Logan Henderson rookie cards",
+        "Logan Henderson rookie autographs",
+        "Logan Henderson numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Logan%20Henderson%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Logan%20Henderson%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Nick Kurtz",
+      "mlb_id": 701762,
+      "player_type": "hitter",
+      "score": 172,
+      "signal_level": "high",
+      "summary": "Climbing in RBI and RBI. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "37",
+        "hr": "5",
+        "rbi": "20",
+        "ba": ".259",
+        "ops": ".841"
+      },
+      "leaderboard": [
+        {
+          "stat": "RBI",
+          "value": "20",
+          "rank": 66,
+          "previous_rank": 108,
+          "rank_change": 42,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "H",
+          "value": "37",
+          "rank": 68,
+          "previous_rank": 97,
+          "rank_change": 29,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "OPS",
+          "value": ".841",
+          "rank": 72,
+          "previous_rank": 76,
+          "rank_change": 4,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "HR",
+          "value": "5",
+          "rank": 74,
+          "previous_rank": 38,
+          "rank_change": -36,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "BA",
+          "value": ".259",
+          "rank": 161,
+          "previous_rank": 203,
+          "rank_change": 42,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "RBI",
+          "from_rank": 108,
+          "to_rank": 66,
+          "climb": 42,
+          "climb_points": 20
+        },
+        {
+          "stat": "H",
+          "from_rank": 97,
+          "to_rank": 68,
+          "climb": 29,
+          "climb_points": 20
+        },
+        {
+          "stat": "BA",
+          "from_rank": 203,
+          "to_rank": 161,
+          "climb": 42,
+          "climb_points": 20
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "12",
+          "current_value": "20",
+          "change": 8,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "23",
+          "current_value": "37",
+          "change": 14,
+          "climb_points": 8
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 76,
+          "to_rank": 72,
+          "climb": 4,
+          "climb_points": 3
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 147,
+        "product_count": 31,
+        "autograph_count": 39,
+        "low_numbered_count": 12,
+        "sample_products": [
+          "2025 Topps Diamond Icons Baseball",
+          "2025 Topps Archives Baseball",
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Cosmic Chrome Baseball",
+          "2025 Topps Finest Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Nick Kurtz rookie cards",
+        "Nick Kurtz rookie autographs",
+        "Nick Kurtz numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Nick%20Kurtz%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Nick%20Kurtz%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Brant Hurter",
+      "mlb_id": 676428,
+      "player_type": "pitcher",
+      "score": 170,
+      "signal_level": "high",
+      "summary": "Top 45 in WHIP. Climbing in SO and IP. RC autograph checklist data found.",
+      "season": {
+        "era": "1.66",
+        "sv": "0",
+        "ip": "21.2",
+        "so": "15",
+        "whip": "0.83"
+      },
+      "leaderboard": [
+        {
+          "stat": "WHIP",
+          "value": "0.83",
+          "rank": 45,
+          "previous_rank": 84,
+          "rank_change": 39,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "ERA",
+          "value": "1.66",
+          "rank": 66,
+          "previous_rank": 120,
+          "rank_change": 54,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "SV",
+          "value": "0",
+          "rank": 105,
+          "previous_rank": 88,
+          "rank_change": -17,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "IP",
+          "value": "21.2",
+          "rank": 161,
+          "previous_rank": 270,
+          "rank_change": 109,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "SO",
+          "value": "15",
+          "rank": 259,
+          "previous_rank": 345,
+          "rank_change": 86,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "SO",
+          "from_rank": 345,
+          "to_rank": 259,
+          "climb": 86,
+          "climb_points": 28
+        },
+        {
+          "stat": "IP",
+          "from_rank": 270,
+          "to_rank": 161,
+          "climb": 109,
+          "climb_points": 28
+        },
+        {
+          "stat": "ERA",
+          "from_rank": 120,
+          "to_rank": 66,
+          "climb": 54,
+          "climb_points": 28
+        },
+        {
+          "stat": "WHIP",
+          "from_rank": 84,
+          "to_rank": 45,
+          "climb": 39,
+          "climb_points": 20
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 8,
+        "product_count": 8,
+        "autograph_count": 6,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2025 Topps Series 1 Baseball",
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Finest Baseball",
+          "2025 Topps Chrome Baseball",
+          "2025 Topps Chrome Update Series Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Brant Hurter rookie cards",
+        "Brant Hurter rookie autographs",
+        "Brant Hurter numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Brant%20Hurter%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Brant%20Hurter%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Cade Smith",
+      "mlb_id": 671922,
+      "player_type": "pitcher",
+      "score": 170,
+      "signal_level": "high",
+      "summary": "Top 1 in SV. Climbing in SO and SO. RC autograph checklist data found.",
+      "season": {
+        "era": "3.20",
+        "sv": "12",
+        "ip": "19.2",
+        "so": "26",
+        "whip": "1.17"
+      },
+      "leaderboard": [
+        {
+          "stat": "SV",
+          "value": "12",
+          "rank": 1,
+          "previous_rank": 5,
+          "rank_change": 4,
+          "leaderboard_points": 34
+        },
+        {
+          "stat": "SO",
+          "value": "26",
+          "rank": 126,
+          "previous_rank": 168,
+          "rank_change": 42,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "WHIP",
+          "value": "1.17",
+          "rank": 179,
+          "previous_rank": 288,
+          "rank_change": 109,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "IP",
+          "value": "19.2",
+          "rank": 183,
+          "previous_rank": 209,
+          "rank_change": 26,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "ERA",
+          "value": "3.20",
+          "rank": 202,
+          "previous_rank": 262,
+          "rank_change": 60,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "ERA",
+          "from_rank": 262,
+          "to_rank": 202,
+          "climb": 60,
+          "climb_points": 28
+        },
+        {
+          "stat": "WHIP",
+          "from_rank": 288,
+          "to_rank": 179,
+          "climb": 109,
+          "climb_points": 28
+        },
+        {
+          "stat": "SO",
+          "from_rank": 168,
+          "to_rank": 126,
+          "climb": 42,
+          "climb_points": 20
+        },
+        {
+          "stat": "IP",
+          "from_rank": 209,
+          "to_rank": 183,
+          "climb": 26,
+          "climb_points": 20
+        },
+        {
+          "stat": "SO",
+          "previous_value": "15",
+          "current_value": "26",
+          "change": 11,
+          "climb_points": 8
+        },
+        {
+          "stat": "SV",
+          "previous_value": "6",
+          "current_value": "12",
+          "change": 6,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 5,
+        "product_count": 4,
+        "autograph_count": 1,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2024 Topps Chrome Update Baseball",
+          "2024 Topps Chrome Update Sapphire Baseball",
+          "2024 Topps Heritage High Number Baseball",
+          "2024 Topps Update Series Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Cade Smith rookie cards",
+        "Cade Smith rookie autographs",
+        "Cade Smith numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Cade%20Smith%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Cade%20Smith%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Andrew Abbott",
+      "mlb_id": 671096,
+      "player_type": "pitcher",
+      "score": 169,
+      "signal_level": "high",
+      "summary": "Top 35 in IP. Climbing in SO and SO. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "era": "4.47",
+        "sv": "0",
+        "ip": "46.1",
+        "so": "33",
+        "whip": "1.51"
+      },
+      "leaderboard": [
+        {
+          "stat": "IP",
+          "value": "46.1",
+          "rank": 35,
+          "previous_rank": 69,
+          "rank_change": 34,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "SO",
+          "value": "33",
+          "rank": 88,
+          "previous_rank": 117,
+          "rank_change": 29,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "SV",
+          "value": "0",
+          "rank": 105,
+          "previous_rank": 88,
+          "rank_change": -17,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "ERA",
+          "value": "4.47",
+          "rank": 312,
+          "previous_rank": 398,
+          "rank_change": 86,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "WHIP",
+          "value": "1.51",
+          "rank": 367,
+          "previous_rank": 396,
+          "rank_change": 29,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "ERA",
+          "from_rank": 398,
+          "to_rank": 312,
+          "climb": 86,
+          "climb_points": 28
+        },
+        {
+          "stat": "SO",
+          "from_rank": 117,
+          "to_rank": 88,
+          "climb": 29,
+          "climb_points": 20
+        },
+        {
+          "stat": "IP",
+          "from_rank": 69,
+          "to_rank": 35,
+          "climb": 34,
+          "climb_points": 20
+        },
+        {
+          "stat": "WHIP",
+          "from_rank": 396,
+          "to_rank": 367,
+          "climb": 29,
+          "climb_points": 20
+        },
+        {
+          "stat": "SO",
+          "previous_value": "19",
+          "current_value": "33",
+          "change": 14,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 39,
+        "product_count": 24,
+        "autograph_count": 4,
+        "low_numbered_count": 2,
+        "sample_products": [
+          "2024 Bowman Baseball",
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Chrome Baseball",
+          "2024 Bowman Sterling Baseball",
+          "2024 Topps Allen and Ginter Baseball",
+          "2024 Topps Allen and Ginter X Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Andrew Abbott rookie cards",
+        "Andrew Abbott rookie autographs",
+        "Andrew Abbott numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Andrew%20Abbott%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Andrew%20Abbott%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Dustin Harris",
+      "mlb_id": 687957,
+      "player_type": "hitter",
+      "score": 169,
+      "signal_level": "high",
+      "summary": "Climbing in RBI and H. RC autograph checklist data found.",
+      "season": {
+        "h": "10",
+        "hr": "0",
+        "rbi": "5",
+        "ba": ".233",
+        "ops": ".635"
+      },
+      "leaderboard": [
+        {
+          "stat": "BA",
+          "value": ".233",
+          "rank": 240,
+          "previous_rank": 422,
+          "rank_change": 182,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".635",
+          "rank": 291,
+          "previous_rank": 388,
+          "rank_change": 97,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "RBI",
+          "value": "5",
+          "rank": 325,
+          "previous_rank": 385,
+          "rank_change": 60,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "H",
+          "value": "10",
+          "rank": 342,
+          "previous_rank": 390,
+          "rank_change": 48,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "HR",
+          "value": "0",
+          "rank": 352,
+          "previous_rank": 313,
+          "rank_change": -39,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "RBI",
+          "from_rank": 385,
+          "to_rank": 325,
+          "climb": 60,
+          "climb_points": 28
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 388,
+          "to_rank": 291,
+          "climb": 97,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 422,
+          "to_rank": 240,
+          "climb": 182,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 390,
+          "to_rank": 342,
+          "climb": 48,
+          "climb_points": 20
+        },
+        {
+          "stat": "OPS",
+          "previous_value": ".490",
+          "current_value": ".635",
+          "change": 0.145,
+          "climb_points": 6
+        },
+        {
+          "stat": "BA",
+          "previous_value": ".125",
+          "current_value": ".233",
+          "change": 0.108,
+          "climb_points": 6
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 35,
+        "product_count": 21,
+        "autograph_count": 13,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2025 Topps Archives Baseball",
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Cosmic Chrome Baseball",
+          "2025 Topps Finest Baseball",
+          "2025 Topps Heritage Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Dustin Harris rookie cards",
+        "Dustin Harris rookie autographs",
+        "Dustin Harris numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Dustin%20Harris%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Dustin%20Harris%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Jacob Wilson",
+      "mlb_id": 805779,
+      "player_type": "hitter",
+      "score": 165,
+      "signal_level": "high",
+      "summary": "Top 14 in H. Climbing in HR and RBI. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "47",
+        "hr": "3",
+        "rbi": "19",
+        "ba": ".292",
+        "ops": ".709"
+      },
+      "leaderboard": [
+        {
+          "stat": "H",
+          "value": "47",
+          "rank": 14,
+          "previous_rank": 17,
+          "rank_change": 3,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "BA",
+          "value": ".292",
+          "rank": 66,
+          "previous_rank": 101,
+          "rank_change": 35,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "RBI",
+          "value": "19",
+          "rank": 82,
+          "previous_rank": 75,
+          "rank_change": -7,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "HR",
+          "value": "3",
+          "rank": 144,
+          "previous_rank": 146,
+          "rank_change": 2,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".709",
+          "rank": 201,
+          "previous_rank": 241,
+          "rank_change": 40,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "OPS",
+          "from_rank": 241,
+          "to_rank": 201,
+          "climb": 40,
+          "climb_points": 20
+        },
+        {
+          "stat": "BA",
+          "from_rank": 101,
+          "to_rank": 66,
+          "climb": 35,
+          "climb_points": 20
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "14",
+          "current_value": "19",
+          "change": 5,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "32",
+          "current_value": "47",
+          "change": 15,
+          "climb_points": 8
+        },
+        {
+          "stat": "HR",
+          "from_rank": 146,
+          "to_rank": 144,
+          "climb": 2,
+          "climb_points": 3
+        },
+        {
+          "stat": "H",
+          "from_rank": 17,
+          "to_rank": 14,
+          "climb": 3,
+          "climb_points": 3
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 256,
+        "product_count": 43,
+        "autograph_count": 80,
+        "low_numbered_count": 26,
+        "sample_products": [
+          "2025 Topps Series 1 Baseball",
+          "2025 Topps Diamond Icons Baseball",
+          "2025 Topps Archives Baseball",
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Cosmic Chrome Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Jacob Wilson rookie cards",
+        "Jacob Wilson rookie autographs",
+        "Jacob Wilson numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Jacob%20Wilson%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Jacob%20Wilson%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Hunter Bigge",
+      "mlb_id": 685801,
+      "player_type": "pitcher",
+      "score": 161,
+      "signal_level": "high",
+      "summary": "Climbing in SO and IP. RC autograph checklist data found.",
+      "season": {
+        "era": "2.45",
+        "sv": "0",
+        "ip": "14.2",
+        "so": "12",
+        "whip": "0.89"
+      },
+      "leaderboard": [
+        {
+          "stat": "WHIP",
+          "value": "0.89",
+          "rank": 61,
+          "previous_rank": 213,
+          "rank_change": 152,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "SV",
+          "value": "0",
+          "rank": 105,
+          "previous_rank": 88,
+          "rank_change": -17,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "ERA",
+          "value": "2.45",
+          "rank": 126,
+          "previous_rank": 285,
+          "rank_change": 159,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "IP",
+          "value": "14.2",
+          "rank": 304,
+          "previous_rank": 354,
+          "rank_change": 50,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "SO",
+          "value": "12",
+          "rank": 312,
+          "previous_rank": 392,
+          "rank_change": 80,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "SO",
+          "from_rank": 392,
+          "to_rank": 312,
+          "climb": 80,
+          "climb_points": 28
+        },
+        {
+          "stat": "IP",
+          "from_rank": 354,
+          "to_rank": 304,
+          "climb": 50,
+          "climb_points": 28
+        },
+        {
+          "stat": "ERA",
+          "from_rank": 285,
+          "to_rank": 126,
+          "climb": 159,
+          "climb_points": 28
+        },
+        {
+          "stat": "WHIP",
+          "from_rank": 213,
+          "to_rank": 61,
+          "climb": 152,
+          "climb_points": 28
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 8,
+        "product_count": 8,
+        "autograph_count": 4,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Heritage Baseball",
+          "2025 Topps Chrome Baseball",
+          "2025 Topps Chrome Platinum Baseball",
+          "2025 Topps Chrome Update Series Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Hunter Bigge rookie cards",
+        "Hunter Bigge rookie autographs",
+        "Hunter Bigge numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Hunter%20Bigge%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Hunter%20Bigge%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Wilyer Abreu",
+      "mlb_id": 677800,
+      "player_type": "hitter",
+      "score": 159,
+      "signal_level": "high",
+      "summary": "Top 24 in H. Top 48 in HR. Climbing in HR and HR. RC autograph checklist data found.",
+      "season": {
+        "h": "44",
+        "hr": "6",
+        "rbi": "18",
+        "ba": ".293",
+        "ops": ".841"
+      },
+      "leaderboard": [
+        {
+          "stat": "H",
+          "value": "44",
+          "rank": 24,
+          "previous_rank": 21,
+          "rank_change": -3,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "HR",
+          "value": "6",
+          "rank": 48,
+          "previous_rank": 60,
+          "rank_change": 12,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "BA",
+          "value": ".293",
+          "rank": 63,
+          "previous_rank": 69,
+          "rank_change": 6,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "OPS",
+          "value": ".841",
+          "rank": 72,
+          "previous_rank": 93,
+          "rank_change": 21,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "RBI",
+          "value": "18",
+          "rank": 94,
+          "previous_rank": 108,
+          "rank_change": 14,
+          "leaderboard_points": 5
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "from_rank": 60,
+          "to_rank": 48,
+          "climb": 12,
+          "climb_points": 12
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 108,
+          "to_rank": 94,
+          "climb": 14,
+          "climb_points": 12
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 93,
+          "to_rank": 72,
+          "climb": 21,
+          "climb_points": 12
+        },
+        {
+          "stat": "HR",
+          "previous_value": "4",
+          "current_value": "6",
+          "change": 2,
+          "climb_points": 10
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "12",
+          "current_value": "18",
+          "change": 6,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "31",
+          "current_value": "44",
+          "change": 13,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 19,
+        "product_count": 18,
+        "autograph_count": 3,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Chrome Baseball",
+          "2024 Bowman's Best Baseball",
+          "2024 Topps Chrome Baseball",
+          "2024 Topps Chrome Black",
+          "2024 Topps Chrome Logofractor Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Wilyer Abreu rookie cards",
+        "Wilyer Abreu rookie autographs",
+        "Wilyer Abreu numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Wilyer%20Abreu%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Wilyer%20Abreu%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Curtis Mead",
+      "mlb_id": 678554,
+      "player_type": "hitter",
+      "score": 157,
+      "signal_level": "high",
+      "summary": "Climbing in RBI and RBI. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "19",
+        "hr": "4",
+        "rbi": "15",
+        "ba": ".224",
+        "ops": ".780"
+      },
+      "leaderboard": [
+        {
+          "stat": "HR",
+          "value": "4",
+          "rank": 102,
+          "previous_rank": 89,
+          "rank_change": -13,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".780",
+          "rank": 123,
+          "previous_rank": 260,
+          "rank_change": 137,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "RBI",
+          "value": "15",
+          "rank": 144,
+          "previous_rank": 148,
+          "rank_change": 4,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "H",
+          "value": "19",
+          "rank": 239,
+          "previous_rank": 287,
+          "rank_change": 48,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "BA",
+          "value": ".224",
+          "rank": 270,
+          "previous_rank": 377,
+          "rank_change": 107,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "OPS",
+          "from_rank": 260,
+          "to_rank": 123,
+          "climb": 137,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 377,
+          "to_rank": 270,
+          "climb": 107,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 287,
+          "to_rank": 239,
+          "climb": 48,
+          "climb_points": 20
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "10",
+          "current_value": "15",
+          "change": 5,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "10",
+          "current_value": "19",
+          "change": 9,
+          "climb_points": 8
+        },
+        {
+          "stat": "OPS",
+          "previous_value": ".652",
+          "current_value": ".780",
+          "change": 0.128,
+          "climb_points": 6
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 54,
+        "product_count": 26,
+        "autograph_count": 4,
+        "low_numbered_count": 2,
+        "sample_products": [
+          "2024 Bowman Baseball",
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Chrome Baseball",
+          "2024 Bowman Sterling Baseball",
+          "2024 Bowman's Best Baseball",
+          "2024 Topps Allen and Ginter Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Curtis Mead rookie cards",
+        "Curtis Mead rookie autographs",
+        "Curtis Mead numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Curtis%20Mead%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Curtis%20Mead%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Christian Scott",
+      "mlb_id": 681035,
+      "player_type": "pitcher",
+      "score": 153,
+      "signal_level": "high",
+      "summary": "Climbing in SO and SO. RC autograph checklist data found.",
+      "season": {
+        "era": "3.27",
+        "sv": "0",
+        "ip": "11.0",
+        "so": "15",
+        "whip": "1.18"
+      },
+      "leaderboard": [
+        {
+          "stat": "SV",
+          "value": "0",
+          "rank": 105,
+          "previous_rank": 88,
+          "rank_change": -17,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "WHIP",
+          "value": "1.18",
+          "rank": 189,
+          "previous_rank": 490,
+          "rank_change": 301,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "ERA",
+          "value": "3.27",
+          "rank": 209,
+          "previous_rank": 400,
+          "rank_change": 191,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "SO",
+          "value": "15",
+          "rank": 259,
+          "previous_rank": 466,
+          "rank_change": 207,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "IP",
+          "value": "11.0",
+          "rank": 354,
+          "previous_rank": 482,
+          "rank_change": 128,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "SO",
+          "from_rank": 466,
+          "to_rank": 259,
+          "climb": 207,
+          "climb_points": 28
+        },
+        {
+          "stat": "IP",
+          "from_rank": 482,
+          "to_rank": 354,
+          "climb": 128,
+          "climb_points": 28
+        },
+        {
+          "stat": "ERA",
+          "from_rank": 400,
+          "to_rank": 209,
+          "climb": 191,
+          "climb_points": 28
+        },
+        {
+          "stat": "WHIP",
+          "from_rank": 490,
+          "to_rank": 189,
+          "climb": 301,
+          "climb_points": 28
+        },
+        {
+          "stat": "SO",
+          "previous_value": "1",
+          "current_value": "15",
+          "change": 14,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 15,
+        "product_count": 11,
+        "autograph_count": 1,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2024 Topps Archives Baseball",
+          "2024 Topps Chrome Update Baseball",
+          "2024 Topps Chrome Update Sapphire Baseball",
+          "2024 Topps Cosmic Chrome Baseball",
+          "2024 Topps Heritage High Number Baseball",
+          "2024 Topps Inception Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Christian Scott rookie cards",
+        "Christian Scott rookie autographs",
+        "Christian Scott numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Christian%20Scott%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Christian%20Scott%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Junior Caminero",
+      "mlb_id": 691406,
+      "player_type": "hitter",
+      "score": 151,
+      "signal_level": "high",
+      "summary": "Top 9 in HR. Top 50 in H. Climbing in HR and HR. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "40",
+        "hr": "11",
+        "rbi": "19",
+        "ba": ".258",
+        "ops": ".835"
+      },
+      "leaderboard": [
+        {
+          "stat": "HR",
+          "value": "11",
+          "rank": 9,
+          "previous_rank": 12,
+          "rank_change": 3,
+          "leaderboard_points": 28
+        },
+        {
+          "stat": "H",
+          "value": "40",
+          "rank": 50,
+          "previous_rank": 35,
+          "rank_change": -15,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "OPS",
+          "value": ".835",
+          "rank": 79,
+          "previous_rank": 88,
+          "rank_change": 9,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "RBI",
+          "value": "19",
+          "rank": 82,
+          "previous_rank": 64,
+          "rank_change": -18,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "BA",
+          "value": ".258",
+          "rank": 167,
+          "previous_rank": 159,
+          "rank_change": -8,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "previous_value": "8",
+          "current_value": "11",
+          "change": 3,
+          "climb_points": 10
+        },
+        {
+          "stat": "H",
+          "previous_value": "28",
+          "current_value": "40",
+          "change": 12,
+          "climb_points": 8
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 88,
+          "to_rank": 79,
+          "climb": 9,
+          "climb_points": 7
+        },
+        {
+          "stat": "HR",
+          "from_rank": 12,
+          "to_rank": 9,
+          "climb": 3,
+          "climb_points": 3
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 71,
+        "product_count": 37,
+        "autograph_count": 15,
+        "low_numbered_count": 8,
+        "sample_products": [
+          "2024 Bowman Baseball",
+          "2024 Bowman Chrome Mega Box Baseball",
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Chrome Baseball",
+          "2024 Bowman Sterling Baseball",
+          "2024 Bowman's Best Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Junior Caminero rookie cards",
+        "Junior Caminero rookie autographs",
+        "Junior Caminero numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Junior%20Caminero%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Junior%20Caminero%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Kyle Manzardo",
+      "mlb_id": 700932,
+      "player_type": "hitter",
+      "score": 150,
+      "signal_level": "high",
+      "summary": "Climbing in HR and RBI. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "24",
+        "hr": "2",
+        "rbi": "13",
+        "ba": ".205",
+        "ops": ".579"
+      },
+      "leaderboard": [
+        {
+          "stat": "RBI",
+          "value": "13",
+          "rank": 171,
+          "previous_rank": 239,
+          "rank_change": 68,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "HR",
+          "value": "2",
+          "rank": 197,
+          "previous_rank": 208,
+          "rank_change": 11,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "H",
+          "value": "24",
+          "rank": 198,
+          "previous_rank": 223,
+          "rank_change": 25,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "BA",
+          "value": ".205",
+          "rank": 323,
+          "previous_rank": 349,
+          "rank_change": 26,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".579",
+          "rank": 346,
+          "previous_rank": 356,
+          "rank_change": 10,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "RBI",
+          "from_rank": 239,
+          "to_rank": 171,
+          "climb": 68,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 223,
+          "to_rank": 198,
+          "climb": 25,
+          "climb_points": 20
+        },
+        {
+          "stat": "BA",
+          "from_rank": 349,
+          "to_rank": 323,
+          "climb": 26,
+          "climb_points": 20
+        },
+        {
+          "stat": "HR",
+          "from_rank": 208,
+          "to_rank": 197,
+          "climb": 11,
+          "climb_points": 12
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 356,
+          "to_rank": 346,
+          "climb": 10,
+          "climb_points": 12
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "6",
+          "current_value": "13",
+          "change": 7,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 24,
+        "product_count": 18,
+        "autograph_count": 2,
+        "low_numbered_count": 1,
+        "sample_products": [
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Sterling Baseball",
+          "2024 Bowman's Best Baseball",
+          "2024 Topps Allen and Ginter Baseball",
+          "2024 Topps Allen and Ginter X Baseball",
+          "2024 Topps Archives Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Kyle Manzardo rookie cards",
+        "Kyle Manzardo rookie autographs",
+        "Kyle Manzardo numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Kyle%20Manzardo%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Kyle%20Manzardo%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Chandler Simpson",
+      "mlb_id": 802415,
+      "player_type": "hitter",
+      "score": 149,
+      "signal_level": "high",
+      "summary": "Top 5 in H. Top 32 in BA. Climbing in RBI and RBI. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "49",
+        "hr": "0",
+        "rbi": "12",
+        "ba": ".314",
+        "ops": ".698"
+      },
+      "leaderboard": [
+        {
+          "stat": "H",
+          "value": "49",
+          "rank": 5,
+          "previous_rank": 9,
+          "rank_change": 4,
+          "leaderboard_points": 34
+        },
+        {
+          "stat": "BA",
+          "value": ".314",
+          "rank": 32,
+          "previous_rank": 41,
+          "rank_change": 9,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "RBI",
+          "value": "12",
+          "rank": 191,
+          "previous_rank": 239,
+          "rank_change": 48,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".698",
+          "rank": 218,
+          "previous_rank": 206,
+          "rank_change": -12,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "HR",
+          "value": "0",
+          "rank": 352,
+          "previous_rank": 313,
+          "rank_change": -39,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "RBI",
+          "from_rank": 239,
+          "to_rank": 191,
+          "climb": 48,
+          "climb_points": 20
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "6",
+          "current_value": "12",
+          "change": 6,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "34",
+          "current_value": "49",
+          "change": 15,
+          "climb_points": 8
+        },
+        {
+          "stat": "BA",
+          "from_rank": 41,
+          "to_rank": 32,
+          "climb": 9,
+          "climb_points": 7
+        },
+        {
+          "stat": "H",
+          "from_rank": 9,
+          "to_rank": 5,
+          "climb": 4,
+          "climb_points": 3
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 70,
+        "product_count": 26,
+        "autograph_count": 16,
+        "low_numbered_count": 1,
+        "sample_products": [
+          "2025 Topps Archives Baseball",
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Cosmic Chrome Baseball",
+          "2025 Topps Finest Baseball",
+          "2025 Topps Heritage High Number Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Chandler Simpson rookie cards",
+        "Chandler Simpson rookie autographs",
+        "Chandler Simpson numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Chandler%20Simpson%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Chandler%20Simpson%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Wenceel Pérez",
+      "mlb_id": 672761,
+      "player_type": "hitter",
+      "score": 149,
+      "signal_level": "high",
+      "summary": "Climbing in HR and RBI. RC autograph checklist data found.",
+      "season": {
+        "h": "14",
+        "hr": "2",
+        "rbi": "8",
+        "ba": ".175",
+        "ops": ".499"
+      },
+      "leaderboard": [
+        {
+          "stat": "HR",
+          "value": "2",
+          "rank": 197,
+          "previous_rank": 208,
+          "rank_change": 11,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "RBI",
+          "value": "8",
+          "rank": 258,
+          "previous_rank": 385,
+          "rank_change": 127,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "H",
+          "value": "14",
+          "rank": 300,
+          "previous_rank": 377,
+          "rank_change": 77,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "BA",
+          "value": ".175",
+          "rank": 400,
+          "previous_rank": 435,
+          "rank_change": 35,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".499",
+          "rank": 412,
+          "previous_rank": 431,
+          "rank_change": 19,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "RBI",
+          "from_rank": 385,
+          "to_rank": 258,
+          "climb": 127,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 377,
+          "to_rank": 300,
+          "climb": 77,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 435,
+          "to_rank": 400,
+          "climb": 35,
+          "climb_points": 20
+        },
+        {
+          "stat": "HR",
+          "from_rank": 208,
+          "to_rank": 197,
+          "climb": 11,
+          "climb_points": 12
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 431,
+          "to_rank": 412,
+          "climb": 19,
+          "climb_points": 12
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "1",
+          "current_value": "8",
+          "change": 7,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 5,
+        "product_count": 4,
+        "autograph_count": 1,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2024 Topps Chrome Update Baseball",
+          "2024 Topps Chrome Update Sapphire Baseball",
+          "2024 Topps Heritage High Number Baseball",
+          "2024 Topps Update Series Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Wenceel Pérez rookie cards",
+        "Wenceel Pérez rookie autographs",
+        "Wenceel Pérez numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Wenceel%20P%C3%A9rez%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Wenceel%20P%C3%A9rez%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Vinnie Pasquantino",
+      "mlb_id": 686469,
+      "player_type": "hitter",
+      "score": 148,
+      "signal_level": "high",
+      "summary": "Climbing in HR and HR.",
+      "season": {
+        "h": "30",
+        "hr": "5",
+        "rbi": "19",
+        "ba": ".204",
+        "ops": ".649"
+      },
+      "leaderboard": [
+        {
+          "stat": "HR",
+          "value": "5",
+          "rank": 74,
+          "previous_rank": 89,
+          "rank_change": 15,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "RBI",
+          "value": "19",
+          "rank": 82,
+          "previous_rank": 75,
+          "rank_change": -7,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "H",
+          "value": "30",
+          "rank": 136,
+          "previous_rank": 204,
+          "rank_change": 68,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".649",
+          "rank": 273,
+          "previous_rank": 328,
+          "rank_change": 55,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "BA",
+          "value": ".204",
+          "rank": 329,
+          "previous_rank": 393,
+          "rank_change": 64,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "H",
+          "from_rank": 204,
+          "to_rank": 136,
+          "climb": 68,
+          "climb_points": 28
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 328,
+          "to_rank": 273,
+          "climb": 55,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 393,
+          "to_rank": 329,
+          "climb": 64,
+          "climb_points": 28
+        },
+        {
+          "stat": "HR",
+          "from_rank": 89,
+          "to_rank": 74,
+          "climb": 15,
+          "climb_points": 12
+        },
+        {
+          "stat": "HR",
+          "previous_value": "3",
+          "current_value": "5",
+          "change": 2,
+          "climb_points": 10
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "14",
+          "current_value": "19",
+          "change": 5,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 4,
+        "product_count": 1,
+        "autograph_count": 0,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2023 Topps Series 1 Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Vinnie Pasquantino rookie cards",
+        "Vinnie Pasquantino rookie autographs",
+        "Vinnie Pasquantino numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Vinnie%20Pasquantino%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Vinnie%20Pasquantino%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Shota Imanaga",
+      "mlb_id": 684007,
+      "player_type": "pitcher",
+      "score": 146,
+      "signal_level": "high",
+      "summary": "Top 14 in SO. Top 27 in IP. Climbing in SO and ERA. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "era": "2.28",
+        "sv": "0",
+        "ip": "47.1",
+        "so": "53",
+        "whip": "0.93"
+      },
+      "leaderboard": [
+        {
+          "stat": "SO",
+          "value": "53",
+          "rank": 14,
+          "previous_rank": 11,
+          "rank_change": -3,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "IP",
+          "value": "47.1",
+          "rank": 27,
+          "previous_rank": 18,
+          "rank_change": -9,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "WHIP",
+          "value": "0.93",
+          "rank": 72,
+          "previous_rank": 54,
+          "rank_change": -18,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "SV",
+          "value": "0",
+          "rank": 105,
+          "previous_rank": 88,
+          "rank_change": -17,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "ERA",
+          "value": "2.28",
+          "rank": 114,
+          "previous_rank": 180,
+          "rank_change": 66,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "ERA",
+          "from_rank": 180,
+          "to_rank": 114,
+          "climb": 66,
+          "climb_points": 28
+        },
+        {
+          "stat": "SO",
+          "previous_value": "38",
+          "current_value": "53",
+          "change": 15,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 55,
+        "product_count": 31,
+        "autograph_count": 11,
+        "low_numbered_count": 9,
+        "sample_products": [
+          "2024 Bowman Chrome Mega Box Baseball",
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Chrome Baseball",
+          "2024 Bowman Sterling Baseball",
+          "2024 Bowman's Best Baseball",
+          "2024 Topps Allen and Ginter Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Shota Imanaga rookie cards",
+        "Shota Imanaga rookie autographs",
+        "Shota Imanaga numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Shota%20Imanaga%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Shota%20Imanaga%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Max Muncy",
+      "mlb_id": 571970,
+      "player_type": "hitter",
+      "score": 145,
+      "signal_level": "high",
+      "summary": "Top 9 in HR. Top 28 in OPS. Climbing in HR and RBI. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "37",
+        "hr": "11",
+        "rbi": "17",
+        "ba": ".280",
+        "ops": ".943"
+      },
+      "leaderboard": [
+        {
+          "stat": "HR",
+          "value": "11",
+          "rank": 9,
+          "previous_rank": 5,
+          "rank_change": -4,
+          "leaderboard_points": 28
+        },
+        {
+          "stat": "OPS",
+          "value": ".943",
+          "rank": 28,
+          "previous_rank": 15,
+          "rank_change": -13,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "H",
+          "value": "37",
+          "rank": 68,
+          "previous_rank": 44,
+          "rank_change": -24,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "BA",
+          "value": ".280",
+          "rank": 91,
+          "previous_rank": 67,
+          "rank_change": -24,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "RBI",
+          "value": "17",
+          "rank": 111,
+          "previous_rank": 132,
+          "rank_change": 21,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "RBI",
+          "from_rank": 132,
+          "to_rank": 111,
+          "climb": 21,
+          "climb_points": 12
+        },
+        {
+          "stat": "HR",
+          "previous_value": "9",
+          "current_value": "11",
+          "change": 2,
+          "climb_points": 10
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "11",
+          "current_value": "17",
+          "change": 6,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "27",
+          "current_value": "37",
+          "change": 10,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 35,
+        "product_count": 22,
+        "autograph_count": 6,
+        "low_numbered_count": 1,
+        "sample_products": [
+          "2025 Topps Archives Baseball",
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Cosmic Chrome Baseball",
+          "2025 Topps Finest Baseball",
+          "2025 Topps Heritage High Number Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Max Muncy rookie cards",
+        "Max Muncy rookie autographs",
+        "Max Muncy numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Max%20Muncy%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Max%20Muncy%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Ryan Zeferjahn",
+      "mlb_id": 666171,
+      "player_type": "pitcher",
+      "score": 145,
+      "signal_level": "high",
+      "summary": "Top 47 in SV. Climbing in SO and SO. RC autograph checklist data found.",
+      "season": {
+        "era": "4.35",
+        "sv": "1",
+        "ip": "20.2",
+        "so": "27",
+        "whip": "1.06"
+      },
+      "leaderboard": [
+        {
+          "stat": "SV",
+          "value": "1",
+          "rank": 47,
+          "previous_rank": 88,
+          "rank_change": 41,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "SO",
+          "value": "27",
+          "rank": 120,
+          "previous_rank": 138,
+          "rank_change": 18,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "WHIP",
+          "value": "1.06",
+          "rank": 130,
+          "previous_rank": 221,
+          "rank_change": 91,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "IP",
+          "value": "20.2",
+          "rank": 170,
+          "previous_rank": 178,
+          "rank_change": 8,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "ERA",
+          "value": "4.35",
+          "rank": 306,
+          "previous_rank": 350,
+          "rank_change": 44,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "WHIP",
+          "from_rank": 221,
+          "to_rank": 130,
+          "climb": 91,
+          "climb_points": 28
+        },
+        {
+          "stat": "SV",
+          "from_rank": 88,
+          "to_rank": 47,
+          "climb": 41,
+          "climb_points": 20
+        },
+        {
+          "stat": "ERA",
+          "from_rank": 350,
+          "to_rank": 306,
+          "climb": 44,
+          "climb_points": 20
+        },
+        {
+          "stat": "SO",
+          "from_rank": 138,
+          "to_rank": 120,
+          "climb": 18,
+          "climb_points": 12
+        },
+        {
+          "stat": "SO",
+          "previous_value": "17",
+          "current_value": "27",
+          "change": 10,
+          "climb_points": 8
+        },
+        {
+          "stat": "IP",
+          "from_rank": 178,
+          "to_rank": 170,
+          "climb": 8,
+          "climb_points": 7
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 5,
+        "product_count": 5,
+        "autograph_count": 4,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Chrome Baseball",
+          "2025 Topps Chrome Update Series Baseball",
+          "2025 Topps Update Series Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Ryan Zeferjahn rookie cards",
+        "Ryan Zeferjahn rookie autographs",
+        "Ryan Zeferjahn numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Ryan%20Zeferjahn%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Ryan%20Zeferjahn%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Mark Vientos",
+      "mlb_id": 668901,
+      "player_type": "hitter",
+      "score": 143,
+      "signal_level": "high",
+      "summary": "Climbing in HR and HR.",
+      "season": {
+        "h": "26",
+        "hr": "5",
+        "rbi": "17",
+        "ba": ".234",
+        "ops": ".691"
+      },
+      "leaderboard": [
+        {
+          "stat": "HR",
+          "value": "5",
+          "rank": 74,
+          "previous_rank": 146,
+          "rank_change": 72,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "RBI",
+          "value": "17",
+          "rank": 111,
+          "previous_rank": 214,
+          "rank_change": 103,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "H",
+          "value": "26",
+          "rank": 177,
+          "previous_rank": 187,
+          "rank_change": 10,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".691",
+          "rank": 225,
+          "previous_rank": 276,
+          "rank_change": 51,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "BA",
+          "value": ".234",
+          "rank": 234,
+          "previous_rank": 198,
+          "rank_change": -36,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "from_rank": 146,
+          "to_rank": 74,
+          "climb": 72,
+          "climb_points": 28
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 214,
+          "to_rank": 111,
+          "climb": 103,
+          "climb_points": 28
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 276,
+          "to_rank": 225,
+          "climb": 51,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 187,
+          "to_rank": 177,
+          "climb": 10,
+          "climb_points": 12
+        },
+        {
+          "stat": "HR",
+          "previous_value": "2",
+          "current_value": "5",
+          "change": 3,
+          "climb_points": 10
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "7",
+          "current_value": "17",
+          "change": 10,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 1,
+        "product_count": 1,
+        "autograph_count": 0,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2024 Topps X Chris Berman Boomers Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Mark Vientos rookie cards",
+        "Mark Vientos rookie autographs",
+        "Mark Vientos numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Mark%20Vientos%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Mark%20Vientos%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Michael McGreevy",
+      "mlb_id": 700241,
+      "player_type": "pitcher",
+      "score": 142,
+      "signal_level": "high",
+      "summary": "Top 41 in IP. Climbing in SO and SO. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "era": "2.18",
+        "sv": "0",
+        "ip": "45.1",
+        "so": "33",
+        "whip": "0.86"
+      },
+      "leaderboard": [
+        {
+          "stat": "IP",
+          "value": "45.1",
+          "rank": 41,
+          "previous_rank": 29,
+          "rank_change": -12,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "WHIP",
+          "value": "0.86",
+          "rank": 53,
+          "previous_rank": 59,
+          "rank_change": 6,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "SO",
+          "value": "33",
+          "rank": 88,
+          "previous_rank": 101,
+          "rank_change": 13,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "ERA",
+          "value": "2.18",
+          "rank": 102,
+          "previous_rank": 168,
+          "rank_change": 66,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "SV",
+          "value": "0",
+          "rank": 105,
+          "previous_rank": 88,
+          "rank_change": -17,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "ERA",
+          "from_rank": 168,
+          "to_rank": 102,
+          "climb": 66,
+          "climb_points": 28
+        },
+        {
+          "stat": "SO",
+          "from_rank": 101,
+          "to_rank": 88,
+          "climb": 13,
+          "climb_points": 12
+        },
+        {
+          "stat": "SO",
+          "previous_value": "21",
+          "current_value": "33",
+          "change": 12,
+          "climb_points": 8
+        },
+        {
+          "stat": "WHIP",
+          "from_rank": 59,
+          "to_rank": 53,
+          "climb": 6,
+          "climb_points": 7
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 46,
+        "product_count": 18,
+        "autograph_count": 17,
+        "low_numbered_count": 3,
+        "sample_products": [
+          "2025 Topps Series 1 Baseball",
+          "2025 Topps Diamond Icons Baseball",
+          "2025 Topps Chrome Black Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Finest Baseball",
+          "2025 Topps Heritage High Number Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Michael McGreevy rookie cards",
+        "Michael McGreevy rookie autographs",
+        "Michael McGreevy numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Michael%20McGreevy%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Michael%20McGreevy%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Davis Martin",
+      "mlb_id": 663436,
+      "player_type": "pitcher",
+      "score": 140,
+      "signal_level": "high",
+      "summary": "Top 11 in IP. Top 17 in SO. Climbing in SO and SO.",
+      "season": {
+        "era": "1.62",
+        "sv": "0",
+        "ip": "50.0",
+        "so": "52",
+        "whip": "1.00"
+      },
+      "leaderboard": [
+        {
+          "stat": "IP",
+          "value": "50.0",
+          "rank": 11,
+          "previous_rank": 44,
+          "rank_change": 33,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "SO",
+          "value": "52",
+          "rank": 17,
+          "previous_rank": 69,
+          "rank_change": 52,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "ERA",
+          "value": "1.62",
+          "rank": 64,
+          "previous_rank": 85,
+          "rank_change": 21,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "WHIP",
+          "value": "1.00",
+          "rank": 90,
+          "previous_rank": 105,
+          "rank_change": 15,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "SV",
+          "value": "0",
+          "rank": 105,
+          "previous_rank": 88,
+          "rank_change": -17,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "SO",
+          "from_rank": 69,
+          "to_rank": 17,
+          "climb": 52,
+          "climb_points": 28
+        },
+        {
+          "stat": "IP",
+          "from_rank": 44,
+          "to_rank": 11,
+          "climb": 33,
+          "climb_points": 20
+        },
+        {
+          "stat": "ERA",
+          "from_rank": 85,
+          "to_rank": 64,
+          "climb": 21,
+          "climb_points": 12
+        },
+        {
+          "stat": "WHIP",
+          "from_rank": 105,
+          "to_rank": 90,
+          "climb": 15,
+          "climb_points": 12
+        },
+        {
+          "stat": "SO",
+          "previous_value": "26",
+          "current_value": "52",
+          "change": 26,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 2,
+        "product_count": 1,
+        "autograph_count": 0,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2023 Topps Series 1 Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Davis Martin rookie cards",
+        "Davis Martin rookie autographs",
+        "Davis Martin numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Davis%20Martin%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Davis%20Martin%20rookie%20cards"
+      }
+    },
+    {
+      "player": "JJ Bleday",
+      "mlb_id": 668709,
+      "player_type": "hitter",
+      "score": 140,
+      "signal_level": "high",
+      "summary": "Top 12 in OPS. Climbing in HR and HR.",
+      "season": {
+        "h": "12",
+        "hr": "4",
+        "rbi": "9",
+        "ba": ".273",
+        "ops": "1.043"
+      },
+      "leaderboard": [
+        {
+          "stat": "OPS",
+          "value": "1.043",
+          "rank": 12,
+          "previous_rank": 1,
+          "rank_change": -11,
+          "leaderboard_points": 20
+        },
+        {
+          "stat": "HR",
+          "value": "4",
+          "rank": 102,
+          "previous_rank": 208,
+          "rank_change": 106,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "BA",
+          "value": ".273",
+          "rank": 108,
+          "previous_rank": 1,
+          "rank_change": -107,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "RBI",
+          "value": "9",
+          "rank": 244,
+          "previous_rank": 385,
+          "rank_change": 141,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "H",
+          "value": "12",
+          "rank": 321,
+          "previous_rank": 422,
+          "rank_change": 101,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "from_rank": 208,
+          "to_rank": 102,
+          "climb": 106,
+          "climb_points": 28
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 385,
+          "to_rank": 244,
+          "climb": 141,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 422,
+          "to_rank": 321,
+          "climb": 101,
+          "climb_points": 28
+        },
+        {
+          "stat": "HR",
+          "previous_value": "1",
+          "current_value": "4",
+          "change": 3,
+          "climb_points": 10
+        },
+        {
+          "stat": "RBI",
+          "previous_value": "1",
+          "current_value": "9",
+          "change": 8,
+          "climb_points": 8
+        },
+        {
+          "stat": "H",
+          "previous_value": "1",
+          "current_value": "12",
+          "change": 11,
+          "climb_points": 8
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 4,
+        "product_count": 1,
+        "autograph_count": 0,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2023 Topps Series 1 Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "JJ Bleday rookie cards",
+        "JJ Bleday rookie autographs",
+        "JJ Bleday numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=JJ%20Bleday%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20JJ%20Bleday%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Luke Keaschall",
+      "mlb_id": 807712,
+      "player_type": "hitter",
+      "score": 140,
+      "signal_level": "high",
+      "summary": "Climbing in H and H. RC autograph checklist data found.",
+      "season": {
+        "h": "34",
+        "hr": "1",
+        "rbi": "15",
+        "ba": ".230",
+        "ops": ".622"
+      },
+      "leaderboard": [
+        {
+          "stat": "H",
+          "value": "34",
+          "rank": 99,
+          "previous_rank": 116,
+          "rank_change": 17,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "RBI",
+          "value": "15",
+          "rank": 144,
+          "previous_rank": 108,
+          "rank_change": -36,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "BA",
+          "value": ".230",
+          "rank": 252,
+          "previous_rank": 312,
+          "rank_change": 60,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "HR",
+          "value": "1",
+          "rank": 269,
+          "previous_rank": 208,
+          "rank_change": -61,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".622",
+          "rank": 306,
+          "previous_rank": 369,
+          "rank_change": 63,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "OPS",
+          "from_rank": 369,
+          "to_rank": 306,
+          "climb": 63,
+          "climb_points": 28
+        },
+        {
+          "stat": "BA",
+          "from_rank": 312,
+          "to_rank": 252,
+          "climb": 60,
+          "climb_points": 28
+        },
+        {
+          "stat": "H",
+          "from_rank": 116,
+          "to_rank": 99,
+          "climb": 17,
+          "climb_points": 12
+        },
+        {
+          "stat": "H",
+          "previous_value": "22",
+          "current_value": "34",
+          "change": 12,
+          "climb_points": 8
+        },
+        {
+          "stat": "OPS",
+          "previous_value": ".518",
+          "current_value": ".622",
+          "change": 0.104,
+          "climb_points": 6
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2025
+        ],
+        "rc_card_count": 59,
+        "product_count": 25,
+        "autograph_count": 13,
+        "low_numbered_count": 0,
+        "sample_products": [
+          "2025 Topps Archives Baseball",
+          "2025 Topps Update Sapphire Baseball",
+          "2025 Topps Cosmic Chrome Baseball",
+          "2025 Topps Finest Baseball",
+          "2025 Topps Heritage High Number Baseball",
+          "2025 Topps Holiday Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Luke Keaschall rookie cards",
+        "Luke Keaschall rookie autographs",
+        "Luke Keaschall numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Luke%20Keaschall%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Luke%20Keaschall%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Ben Brown",
+      "mlb_id": 676962,
+      "player_type": "pitcher",
+      "score": 139,
+      "signal_level": "high",
+      "summary": "Top 47 in SV. Climbing in SV and IP. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "era": "1.82",
+        "sv": "1",
+        "ip": "29.2",
+        "so": "27",
+        "whip": "0.91"
+      },
+      "leaderboard": [
+        {
+          "stat": "SV",
+          "value": "1",
+          "rank": 47,
+          "previous_rank": 88,
+          "rank_change": 41,
+          "leaderboard_points": 12
+        },
+        {
+          "stat": "WHIP",
+          "value": "0.91",
+          "rank": 65,
+          "previous_rank": 149,
+          "rank_change": 84,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "ERA",
+          "value": "1.82",
+          "rank": 80,
+          "previous_rank": 114,
+          "rank_change": 34,
+          "leaderboard_points": 5
+        },
+        {
+          "stat": "SO",
+          "value": "27",
+          "rank": 120,
+          "previous_rank": 108,
+          "rank_change": -12,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "IP",
+          "value": "29.2",
+          "rank": 128,
+          "previous_rank": 139,
+          "rank_change": 11,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "WHIP",
+          "from_rank": 149,
+          "to_rank": 65,
+          "climb": 84,
+          "climb_points": 28
+        },
+        {
+          "stat": "SV",
+          "from_rank": 88,
+          "to_rank": 47,
+          "climb": 41,
+          "climb_points": 20
+        },
+        {
+          "stat": "ERA",
+          "from_rank": 114,
+          "to_rank": 80,
+          "climb": 34,
+          "climb_points": 20
+        },
+        {
+          "stat": "IP",
+          "from_rank": 139,
+          "to_rank": 128,
+          "climb": 11,
+          "climb_points": 12
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 16,
+        "product_count": 12,
+        "autograph_count": 1,
+        "low_numbered_count": 1,
+        "sample_products": [
+          "2024 Topps Allen and Ginter Baseball",
+          "2024 Topps Allen and Ginter X Baseball",
+          "2024 Topps Archives Baseball",
+          "2024 Topps Chrome Update Baseball",
+          "2024 Topps Chrome Update Sapphire Baseball",
+          "2024 Topps Gilded Collection Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Ben Brown rookie cards",
+        "Ben Brown rookie autographs",
+        "Ben Brown numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Ben%20Brown%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Ben%20Brown%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Gavin Williams",
+      "mlb_id": 668909,
+      "player_type": "pitcher",
+      "score": 139,
+      "signal_level": "high",
+      "summary": "Top 3 in SO. Top 4 in IP. Climbing in SO and IP. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "era": "3.74",
+        "sv": "0",
+        "ip": "55.1",
+        "so": "66",
+        "whip": "1.17"
+      },
+      "leaderboard": [
+        {
+          "stat": "SO",
+          "value": "66",
+          "rank": 3,
+          "previous_rank": 3,
+          "rank_change": 0,
+          "leaderboard_points": 34
+        },
+        {
+          "stat": "IP",
+          "value": "55.1",
+          "rank": 4,
+          "previous_rank": 9,
+          "rank_change": 5,
+          "leaderboard_points": 34
+        },
+        {
+          "stat": "SV",
+          "value": "0",
+          "rank": 105,
+          "previous_rank": 88,
+          "rank_change": -17,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "WHIP",
+          "value": "1.17",
+          "rank": 179,
+          "previous_rank": 135,
+          "rank_change": -44,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "ERA",
+          "value": "3.74",
+          "rank": 256,
+          "previous_rank": 193,
+          "rank_change": -63,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "SO",
+          "previous_value": "44",
+          "current_value": "66",
+          "change": 22,
+          "climb_points": 8
+        },
+        {
+          "stat": "IP",
+          "from_rank": 9,
+          "to_rank": 4,
+          "climb": 5,
+          "climb_points": 7
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 47,
+        "product_count": 28,
+        "autograph_count": 4,
+        "low_numbered_count": 2,
+        "sample_products": [
+          "2024 Bowman Baseball",
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Chrome Baseball",
+          "2024 Bowman Sterling Baseball",
+          "2024 Topps Allen and Ginter Baseball",
+          "2024 Topps Allen and Ginter X Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Gavin Williams rookie cards",
+        "Gavin Williams rookie autographs",
+        "Gavin Williams numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Gavin%20Williams%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Gavin%20Williams%20rookie%20cards"
+      }
+    },
+    {
+      "player": "Henry Davis",
+      "mlb_id": 680779,
+      "player_type": "hitter",
+      "score": 132,
+      "signal_level": "high",
+      "summary": "Climbing in HR and HR. RC autograph checklist data found. Low-numbered RC checklist data found.",
+      "season": {
+        "h": "13",
+        "hr": "2",
+        "rbi": "7",
+        "ba": ".157",
+        "ops": ".536"
+      },
+      "leaderboard": [
+        {
+          "stat": "HR",
+          "value": "2",
+          "rank": 197,
+          "previous_rank": 313,
+          "rank_change": 116,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "RBI",
+          "value": "7",
+          "rank": 281,
+          "previous_rank": 323,
+          "rank_change": 42,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "H",
+          "value": "13",
+          "rank": 310,
+          "previous_rank": 304,
+          "rank_change": -6,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "OPS",
+          "value": ".536",
+          "rank": 384,
+          "previous_rank": 391,
+          "rank_change": 7,
+          "leaderboard_points": 0
+        },
+        {
+          "stat": "BA",
+          "value": ".157",
+          "rank": 429,
+          "previous_rank": 391,
+          "rank_change": -38,
+          "leaderboard_points": 0
+        }
+      ],
+      "climbing": [
+        {
+          "stat": "HR",
+          "from_rank": 313,
+          "to_rank": 197,
+          "climb": 116,
+          "climb_points": 28
+        },
+        {
+          "stat": "RBI",
+          "from_rank": 323,
+          "to_rank": 281,
+          "climb": 42,
+          "climb_points": 20
+        },
+        {
+          "stat": "HR",
+          "previous_value": "0",
+          "current_value": "2",
+          "change": 2,
+          "climb_points": 10
+        },
+        {
+          "stat": "OPS",
+          "from_rank": 391,
+          "to_rank": 384,
+          "climb": 7,
+          "climb_points": 7
+        },
+        {
+          "stat": "OPS",
+          "previous_value": ".480",
+          "current_value": ".536",
+          "change": 0.056,
+          "climb_points": 6
+        }
+      ],
+      "rc_profile": {
+        "rc_years": [
+          2024
+        ],
+        "rc_card_count": 72,
+        "product_count": 32,
+        "autograph_count": 6,
+        "low_numbered_count": 2,
+        "sample_products": [
+          "2024 Bowman Baseball",
+          "2024 Bowman Chrome Mega Box Baseball",
+          "2024 Bowman Chrome Sapphire Baseball",
+          "2024 Bowman Chrome Baseball",
+          "2024 Bowman Sterling Baseball",
+          "2024 Bowman's Best Baseball"
+        ]
+      },
+      "suggested_searches": [
+        "Henry Davis rookie cards",
+        "Henry Davis rookie autographs",
+        "Henry Davis numbered parallels"
+      ],
+      "app_links": {
+        "checklist_search": "https://app.chasingmajors.com/checklists/?q=Henry%20Davis%20rookie%20cards",
+        "chatbot_search": "https://app.chasingmajors.com/ChatBot/?q=Show%20me%20Henry%20Davis%20rookie%20cards"
+      }
+    }
+  ]
+}
