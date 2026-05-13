@@ -45,6 +45,7 @@ const {
   submitResultFeedback,
   getPrintRunData,
   getHomeFeed,
+  getEarlySignals,
   getChecklistSummary,
   getChecklistSection,
   getChecklistParallels,
@@ -64,6 +65,7 @@ const {
   bootstrapData,
   ensurePlayerDataLoaded,
   ensureReleaseScheduleLoaded,
+  loadEarlySignalsData,
   loadPlayerMeta,
   loadPlayerStats
 } = store;
@@ -3021,11 +3023,32 @@ function buildCareerSummary(playerName, career) {
 function detectIntent(q) {
   const n = normalize(q);
 
+  if (isEarlySignalsQuestion(q)) return "early_signals";
   if (includesAny(n, INTENT_PRINT_RUN_WORDS)) return "print_run";
   if (includesAny(n, INTENT_CHECKLIST_WORDS)) return "checklist";
   if (includesAny(n, INTENT_TRENDING_WORDS)) return "trending";
 
   return "search";
+}
+
+function isEarlySignalsQuestion(query) {
+  const n = normalize(query);
+  return (
+    n.includes("early signal") ||
+    n.includes("hot player") ||
+    n.includes("hot rookie") ||
+    n.includes("stat riser") ||
+    n.includes("stat risers") ||
+    n.includes("mlb riser") ||
+    n.includes("mlb risers") ||
+    n.includes("baseball riser") ||
+    n.includes("baseball risers") ||
+    n.includes("rookies heating up") ||
+    n.includes("who is heating up") ||
+    n.includes("players heating up") ||
+    n.includes("rookie watch") ||
+    n.includes("market watch")
+  );
 }
 
 function buildPrvRows(rows) {
@@ -3264,6 +3287,68 @@ async function buildTrendingResponse() {
       "Show me 2026 Topps Series 1 print run",
       "Show me the 2026 Topps Chrome Black baseball checklist"
     ]
+  };
+}
+
+async function buildEarlySignalsResponse(query) {
+  const payload = await loadEarlySignalsData().catch(() => null) || await getEarlySignals();
+  const signals = Array.isArray(payload?.signals) ? payload.signals : [];
+  const topSignals = signals.slice(0, 8);
+
+  if (!topSignals.length) {
+    return {
+      type: "standard",
+      badge: "Early Signals",
+      title: "Early Signals are warming up",
+      summary: "The Early Signals file is live, but there are no player signals to show yet. This should improve after the next MLB stats refresh.",
+      followups: [
+        "Show MLB stat risers",
+        "Show hot rookie players"
+      ]
+    };
+  }
+
+  const listItems = topSignals.map(signal => {
+    const rc = signal.rc_profile || {};
+    const ranks = (signal.leaderboard || [])
+      .slice(0, 3)
+      .map(item => `${item.stat} #${item.rank}`)
+      .join(", ");
+    const rcYears = Array.isArray(rc.rc_years) && rc.rc_years.length
+      ? `RC years: ${rc.rc_years.join(", ")}`
+      : "Recent RC profile";
+    return `${signal.player}: ${signal.summary || ranks || "Recent RC player on MLB leaderboards"} ${rcYears}.`;
+  });
+
+  const statGroups = topSignals.slice(0, 3).map(signal => {
+    const bestRanks = (signal.leaderboard || []).slice(0, 4);
+    return {
+      title: signal.player,
+      stats: [
+        { label: "Signal", value: titleCase(signal.signal_level || "watch") },
+        { label: "Score", value: String(signal.score || "") },
+        { label: "RC Cards", value: String(signal.rc_profile?.rc_card_count || "") },
+        { label: "Best Rank", value: bestRanks.length ? `${bestRanks[0].stat} #${bestRanks[0].rank}` : "-" }
+      ]
+    };
+  });
+
+  const followups = topSignals.slice(0, 4).map(signal => `${signal.player} rookie cards`);
+  followups.push("Show hot rookie players");
+
+  return {
+    type: "standard",
+    badge: "Early Signals",
+    title: "MLB Early Signals",
+    summary: "These are recent RC players showing positive leaderboard signals in MLB stats. This is a research signal, not buying advice.",
+    metadata: [
+      payload?.generated_at ? `Updated: ${formatReleaseDate(payload.generated_at)}` : "",
+      payload?.snapshot_status === "compared_to_previous_snapshot" ? "Compared to previous snapshot" : "Baseline snapshot",
+      payload?.counts?.signals ? `${payload.counts.signals} signals` : ""
+    ].filter(Boolean),
+    listItems,
+    statGroups,
+    followups
   };
 }
 
@@ -5897,6 +5982,7 @@ async function buildResponse(query) {
 
   const intent = detectIntent(query);
 
+  if (intent === "early_signals") return buildEarlySignalsResponse(query);
   if (intent === "trending") return buildTrendingResponse();
   if (intent === "print_run") return buildPrintRunResponse(query);
   if (intent === "checklist") return buildChecklistSummaryResponse(query);
