@@ -8,7 +8,6 @@ window.CMChat.store = window.CMChat.store || {};
   ns.playerStatsData = null;
   ns.playerMetaByName = {};
   ns.playerStatsByName = {};
-  ns.earlySignalsData = null;
   ns.releaseScheduleData = [];
 
   ns.bootPromise = null;
@@ -16,7 +15,6 @@ window.CMChat.store = window.CMChat.store || {};
   ns.printRunIndexPromise = null;
   ns.playerMetaPromise = null;
   ns.playerStatsPromise = null;
-  ns.earlySignalsPromise = null;
   ns.releaseSchedulePromise = null;
 
   async function loadChecklistIndex() {
@@ -25,7 +23,7 @@ window.CMChat.store = window.CMChat.store || {};
 
     ns.checklistIndexPromise = (async () => {
       const cached = cache.getCached(config.CL_INDEX_KEY, config.CL_INDEX_TS_KEY);
-      if (Array.isArray(cached) && cached.length) {
+      if (cached) {
         ns.checklistIndex = cached;
         return ns.checklistIndex;
       }
@@ -50,7 +48,7 @@ window.CMChat.store = window.CMChat.store || {};
 
     ns.printRunIndexPromise = (async () => {
       const cached = cache.getCached(config.PRV_INDEX_KEY, config.PRV_INDEX_TS_KEY);
-      if (Array.isArray(cached) && cached.length) {
+      if (cached) {
         ns.printRunIndex = cached;
         return ns.printRunIndex;
       }
@@ -129,7 +127,7 @@ window.CMChat.store = window.CMChat.store || {};
 
     ns.playerStatsPromise = (async () => {
       const cached = cache.getCachedWithTtl(config.PLAYER_STATS_KEY, config.PLAYER_STATS_TS_KEY, config.PLAYER_DATA_TTL_MS);
-      if (cached && Array.isArray(cached.players) && cached.players.length) {
+      if (cached) {
         ns.playerStatsData = cached;
         ns.playerStatsByName = {};
         (cached?.players || []).forEach(p => {
@@ -184,35 +182,6 @@ window.CMChat.store = window.CMChat.store || {};
     })();
 
     return ns.releaseSchedulePromise;
-  }
-
-  async function loadEarlySignalsData() {
-    if (ns.earlySignalsData?.signals?.length) return ns.earlySignalsData;
-    if (ns.earlySignalsPromise) return ns.earlySignalsPromise;
-
-    ns.earlySignalsPromise = (async () => {
-      const cached = cache.getCachedWithTtl(
-        config.EARLY_SIGNALS_KEY,
-        config.EARLY_SIGNALS_TS_KEY,
-        config.PLAYER_DATA_TTL_MS
-      );
-
-      if (cached) {
-        ns.earlySignalsData = cached;
-        return ns.earlySignalsData;
-      }
-
-      const data = await api.getEarlySignals();
-      ns.earlySignalsData = data || { signals: [] };
-      cache.setCachedWithTtl(
-        config.EARLY_SIGNALS_KEY,
-        config.EARLY_SIGNALS_TS_KEY,
-        ns.earlySignalsData
-      );
-      return ns.earlySignalsData;
-    })();
-
-    return ns.earlySignalsPromise;
   }
 
   async function fetchWithTimeout(url, options, timeoutMs) {
@@ -285,19 +254,14 @@ window.CMChat.store = window.CMChat.store || {};
 
   async function bootstrapData() {
     if (!ns.bootPromise) {
-      ns.bootPromise = Promise.allSettled([
+      ns.bootPromise = Promise.all([
         loadChecklistIndex(),
         loadPrintRunIndex()
-      ]).then(async (results) => {
-        results.forEach(result => {
-          if (result.status === "rejected") {
-            console.warn("ChatBot startup data preload failed", result.reason);
-          }
-        });
+      ]).then(async (res) => {
         loadPlayerMeta().catch(() => {});
         loadPlayerStats().catch(() => {});
         loadReleaseScheduleData().catch(() => {});
-        return results;
+        return res;
       });
     }
     return ns.bootPromise;
@@ -362,7 +326,6 @@ window.CMChat.store = window.CMChat.store || {};
   ns.loadPrintRunIndex = loadPrintRunIndex;
   ns.loadPlayerMeta = loadPlayerMeta;
   ns.loadPlayerStats = loadPlayerStats;
-  ns.loadEarlySignalsData = loadEarlySignalsData;
   ns.loadReleaseScheduleData = loadReleaseScheduleData;
   ns.bootstrapData = bootstrapData;
   ns.ensurePlayerDataLoaded = ensurePlayerDataLoaded;
