@@ -11,6 +11,7 @@ window.CMChat.cache = window.CMChat.cache || {};
     playerYears: new Map(),
     printRunRows: new Map(),
     homeFeed: null,
+    earlySignals: null,
     releaseSchedule: null
   };
 
