@@ -183,6 +183,22 @@ function getReleaseScheduleData() {
   return store.releaseScheduleData || [];
 }
 
+async function ensureCoreIndexesLoaded() {
+  if (!getChecklistIndex().length) {
+    await store.loadChecklistIndex().catch(err => {
+      console.warn("Checklist index load failed", err);
+      return [];
+    });
+  }
+
+  if (!getPrintRunIndex().length) {
+    await store.loadPrintRunIndex().catch(err => {
+      console.warn("Print run index load failed", err);
+      return [];
+    });
+  }
+}
+
 /* ------------------ DIRECT RELEASE ACTIONS ------------------ */
 
 function isDirectReleaseActionQuery(query) {
@@ -3023,6 +3039,7 @@ function detectIntent(q) {
   const n = normalize(q);
 
   if (isEarlySignalsQuestion(q)) return "early_signals";
+  if (findLikelyProductByNameOnly_(q)) return "checklist";
   if (includesAny(n, INTENT_PRINT_RUN_WORDS)) return "print_run";
   if (includesAny(n, INTENT_CHECKLIST_WORDS)) return "checklist";
   if (includesAny(n, INTENT_TRENDING_WORDS)) return "trending";
@@ -3048,6 +3065,16 @@ function isEarlySignalsQuestion(query) {
     n.includes("rookie watch") ||
     n.includes("market watch")
   );
+}
+
+function findLikelyProductByNameOnly_(query) {
+  const q = String(query || "").trim();
+  if (!q || q.length < 8) return null;
+  const year = extractYear(q);
+  const sport = extractSport(q);
+  const brandish = /\b(topps|bowman|panini|donruss|upper\s+deck|leaf|score|prizm|finest|chrome|heritage|series)\b/i.test(q);
+  if (!year || !sport || !brandish) return null;
+  return findBestProduct(getChecklistIndex(), q, "checklist") || findBestProduct(getPrintRunIndex(), q, "print_run");
 }
 
 function buildPrvRows(rows) {
@@ -3313,10 +3340,14 @@ async function buildEarlySignalsResponse(query) {
       .slice(0, 3)
       .map(item => `${item.stat} #${item.rank}`)
       .join(", ");
+    const climbStats = uniq((signal.climbing || []).map(item => item.stat).filter(Boolean));
     const rcYears = Array.isArray(rc.rc_years) && rc.rc_years.length
       ? `RC years: ${rc.rc_years.join(", ")}`
       : "Recent RC profile";
-    return `${signal.player}: ${signal.summary || ranks || "Recent RC player on MLB leaderboards"} ${rcYears}.`;
+    const summary = signal.summary
+      ? signal.summary.replace(/Climbing in ([^.]+)\./, climbStats.length ? `Climbing in ${climbStats.slice(0, 3).join(" and ")}.` : "")
+      : (ranks || "Recent RC player on MLB leaderboards");
+    return `${signal.player}: ${summary} ${rcYears}.`;
   });
 
   const statGroups = topSignals.slice(0, 3).map(signal => {
@@ -4969,8 +5000,8 @@ async function buildPlayerChoiceResponse(playerReq) {
 }
 
 async function buildPlayerStatsPlaceholderResponse(playerReq) {
-  await loadPlayerMeta().catch(() => []);
-  await loadPlayerStats().catch(() => {});
+  await ensureCoreIndexesLoaded();
+  await ensurePlayerDataLoaded().catch(() => {});
 
   const stats = getPlayerStatsEntry(playerReq.playerName);
   const meta = getPlayerMetaEntry(playerReq.playerName);
@@ -5321,6 +5352,8 @@ async function buildPrintRunResponse(query) {
 }
 
 async function buildChecklistSummaryResponse(query) {
+  await ensureCoreIndexesLoaded();
+
   const clarification = getProductMatchClarification(
     getChecklistIndex(),
     query,
@@ -5414,6 +5447,8 @@ async function buildChecklistSectionResponse(sectionKey) {
 }
 
 async function buildSearchResponse(query) {
+  await ensureCoreIndexesLoaded();
+
   if (isSearchHelpRequest(query)) return buildSearchHelpResponse();
 
   if (isSpecificYearLineupQuestion(query)) {
