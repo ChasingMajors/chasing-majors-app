@@ -285,14 +285,19 @@ window.CMChat.store = window.CMChat.store || {};
 
   async function bootstrapData() {
     if (!ns.bootPromise) {
-      ns.bootPromise = Promise.all([
+      ns.bootPromise = Promise.allSettled([
         loadChecklistIndex(),
         loadPrintRunIndex()
-      ]).then(async (res) => {
+      ]).then(async (results) => {
+        results.forEach(result => {
+          if (result.status === "rejected") {
+            console.warn("ChatBot startup data preload failed", result.reason);
+          }
+        });
         loadPlayerMeta().catch(() => {});
         loadPlayerStats().catch(() => {});
         loadReleaseScheduleData().catch(() => {});
-        return res;
+        return results;
       });
     }
     return ns.bootPromise;
