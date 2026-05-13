@@ -8,6 +8,7 @@ window.CMChat.store = window.CMChat.store || {};
   ns.playerStatsData = null;
   ns.playerMetaByName = {};
   ns.playerStatsByName = {};
+  ns.earlySignalsData = null;
   ns.releaseScheduleData = [];
 
   ns.bootPromise = null;
@@ -15,6 +16,7 @@ window.CMChat.store = window.CMChat.store || {};
   ns.printRunIndexPromise = null;
   ns.playerMetaPromise = null;
   ns.playerStatsPromise = null;
+  ns.earlySignalsPromise = null;
   ns.releaseSchedulePromise = null;
 
   async function loadChecklistIndex() {
@@ -184,6 +186,35 @@ window.CMChat.store = window.CMChat.store || {};
     return ns.releaseSchedulePromise;
   }
 
+  async function loadEarlySignalsData() {
+    if (ns.earlySignalsData?.signals?.length) return ns.earlySignalsData;
+    if (ns.earlySignalsPromise) return ns.earlySignalsPromise;
+
+    ns.earlySignalsPromise = (async () => {
+      const cached = cache.getCachedWithTtl(
+        config.EARLY_SIGNALS_KEY,
+        config.EARLY_SIGNALS_TS_KEY,
+        config.PLAYER_DATA_TTL_MS
+      );
+
+      if (cached) {
+        ns.earlySignalsData = cached;
+        return ns.earlySignalsData;
+      }
+
+      const data = await api.getEarlySignals();
+      ns.earlySignalsData = data || { signals: [] };
+      cache.setCachedWithTtl(
+        config.EARLY_SIGNALS_KEY,
+        config.EARLY_SIGNALS_TS_KEY,
+        ns.earlySignalsData
+      );
+      return ns.earlySignalsData;
+    })();
+
+    return ns.earlySignalsPromise;
+  }
+
   async function fetchWithTimeout(url, options, timeoutMs) {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), timeoutMs || 5000);
@@ -326,6 +357,7 @@ window.CMChat.store = window.CMChat.store || {};
   ns.loadPrintRunIndex = loadPrintRunIndex;
   ns.loadPlayerMeta = loadPlayerMeta;
   ns.loadPlayerStats = loadPlayerStats;
+  ns.loadEarlySignalsData = loadEarlySignalsData;
   ns.loadReleaseScheduleData = loadReleaseScheduleData;
   ns.bootstrapData = bootstrapData;
   ns.ensurePlayerDataLoaded = ensurePlayerDataLoaded;
