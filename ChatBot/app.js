@@ -65,7 +65,6 @@ const {
   bootstrapData,
   ensurePlayerDataLoaded,
   ensureReleaseScheduleLoaded,
-  loadEarlySignalsData,
   loadPlayerMeta,
   loadPlayerStats
 } = store;
@@ -3291,7 +3290,7 @@ async function buildTrendingResponse() {
 }
 
 async function buildEarlySignalsResponse(query) {
-  const payload = await loadEarlySignalsData().catch(() => null) || await getEarlySignals();
+  const payload = await getEarlySignals();
   const signals = Array.isArray(payload?.signals) ? payload.signals : [];
   const topSignals = signals.slice(0, 8);
 
