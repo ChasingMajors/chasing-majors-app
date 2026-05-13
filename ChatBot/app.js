@@ -3290,7 +3290,7 @@ async function buildTrendingResponse() {
 }
 
 async function buildEarlySignalsResponse(query) {
-  const payload = await getEarlySignals();
+  const payload = await fetchEarlySignalsPayload_();
   const signals = Array.isArray(payload?.signals) ? payload.signals : [];
   const topSignals = signals.slice(0, 8);
 
@@ -3349,6 +3349,28 @@ async function buildEarlySignalsResponse(query) {
     statGroups,
     followups
   };
+}
+
+async function fetchEarlySignalsPayload_() {
+  try {
+    if (typeof getEarlySignals === "function") {
+      return await getEarlySignals();
+    }
+  } catch (err) {
+    console.warn("Early Signals API helper failed; falling back to direct fetch", err);
+  }
+
+  try {
+    const res = await fetch("/data/v1/players/mlb-early-signals.json", {
+      method: "GET",
+      cache: "no-store"
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.json();
+  } catch (err) {
+    console.warn("Early Signals direct fetch failed", err);
+    return { ok: false, signals: [] };
+  }
 }
 
 function buildPricingResponse() {
