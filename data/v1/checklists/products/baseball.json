@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-05-12T05:53:43.430Z",
+  "generated_at": "2026-05-13T05:53:43.372Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
