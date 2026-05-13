@@ -6016,7 +6016,10 @@ async function submitQuery(text) {
 
   try {
     await Promise.race([
-      bootstrapData(),
+      bootstrapData().catch(err => {
+        console.warn("ChatBot startup preload failed; continuing with on-demand data", err);
+        return null;
+      }),
       new Promise(resolve => setTimeout(resolve, 2200))
     ]);
     const res = await buildResponse(val);
