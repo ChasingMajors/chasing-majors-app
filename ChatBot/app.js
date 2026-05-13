@@ -45,7 +45,6 @@ const {
   submitResultFeedback,
   getPrintRunData,
   getHomeFeed,
-  getEarlySignals,
   getChecklistSummary,
   getChecklistSection,
   getChecklistParallels,
@@ -181,22 +180,6 @@ function getPrintRunIndex() {
 
 function getReleaseScheduleData() {
   return store.releaseScheduleData || [];
-}
-
-async function ensureCoreIndexesLoaded() {
-  if (!getChecklistIndex().length) {
-    await store.loadChecklistIndex().catch(err => {
-      console.warn("Checklist index load failed", err);
-      return [];
-    });
-  }
-
-  if (!getPrintRunIndex().length) {
-    await store.loadPrintRunIndex().catch(err => {
-      console.warn("Print run index load failed", err);
-      return [];
-    });
-  }
 }
 
 /* ------------------ DIRECT RELEASE ACTIONS ------------------ */
@@ -574,11 +557,6 @@ function isRarestParallelQuestion(query) {
   );
 }
 
-function isThisSetReference(query) {
-  const n = normalize(query);
-  return n.includes("this set") || n.includes("this product") || n.includes("this release");
-}
-
 function isParallelRarityQuestion(query) {
   const n = normalize(query);
   return (
@@ -774,7 +752,6 @@ function stripProductCollectorFilterWords(query) {
     "only",
     "what",
     "are",
-    "is",
     "key",
     "this",
     "release",
@@ -3038,43 +3015,11 @@ function buildCareerSummary(playerName, career) {
 function detectIntent(q) {
   const n = normalize(q);
 
-  if (isEarlySignalsQuestion(q)) return "early_signals";
-  if (findLikelyProductByNameOnly_(q)) return "checklist";
   if (includesAny(n, INTENT_PRINT_RUN_WORDS)) return "print_run";
   if (includesAny(n, INTENT_CHECKLIST_WORDS)) return "checklist";
   if (includesAny(n, INTENT_TRENDING_WORDS)) return "trending";
 
   return "search";
-}
-
-function isEarlySignalsQuestion(query) {
-  const n = normalize(query);
-  return (
-    n.includes("early signal") ||
-    n.includes("hot player") ||
-    n.includes("hot rookie") ||
-    n.includes("stat riser") ||
-    n.includes("stat risers") ||
-    n.includes("mlb riser") ||
-    n.includes("mlb risers") ||
-    n.includes("baseball riser") ||
-    n.includes("baseball risers") ||
-    n.includes("rookies heating up") ||
-    n.includes("who is heating up") ||
-    n.includes("players heating up") ||
-    n.includes("rookie watch") ||
-    n.includes("market watch")
-  );
-}
-
-function findLikelyProductByNameOnly_(query) {
-  const q = String(query || "").trim();
-  if (!q || q.length < 8) return null;
-  const year = extractYear(q);
-  const sport = extractSport(q);
-  const brandish = /\b(topps|bowman|panini|donruss|upper\s+deck|leaf|score|prizm|finest|chrome|heritage|series)\b/i.test(q);
-  if (!year || !sport || !brandish) return null;
-  return findBestProduct(getChecklistIndex(), q, "checklist") || findBestProduct(getPrintRunIndex(), q, "print_run");
 }
 
 function buildPrvRows(rows) {
@@ -3314,94 +3259,6 @@ async function buildTrendingResponse() {
       "Show me the 2026 Topps Chrome Black baseball checklist"
     ]
   };
-}
-
-async function buildEarlySignalsResponse(query) {
-  const payload = await fetchEarlySignalsPayload_();
-  const signals = Array.isArray(payload?.signals) ? payload.signals : [];
-  const topSignals = signals.slice(0, 8);
-
-  if (!topSignals.length) {
-    return {
-      type: "standard",
-      badge: "Early Signals",
-      title: "Early Signals are warming up",
-      summary: "The Early Signals file is live, but there are no player signals to show yet. This should improve after the next MLB stats refresh.",
-      followups: [
-        "Show MLB stat risers",
-        "Show hot rookie players"
-      ]
-    };
-  }
-
-  const listItems = topSignals.map(signal => {
-    const rc = signal.rc_profile || {};
-    const ranks = (signal.leaderboard || [])
-      .slice(0, 3)
-      .map(item => `${item.stat} #${item.rank}`)
-      .join(", ");
-    const climbStats = uniq((signal.climbing || []).map(item => item.stat).filter(Boolean));
-    const rcYears = Array.isArray(rc.rc_years) && rc.rc_years.length
-      ? `RC years: ${rc.rc_years.join(", ")}`
-      : "Recent RC profile";
-    const summary = signal.summary
-      ? signal.summary.replace(/Climbing in ([^.]+)\./, climbStats.length ? `Climbing in ${climbStats.slice(0, 3).join(" and ")}.` : "")
-      : (ranks || "Recent RC player on MLB leaderboards");
-    return `${signal.player}: ${summary} ${rcYears}.`;
-  });
-
-  const statGroups = topSignals.slice(0, 3).map(signal => {
-    const bestRanks = (signal.leaderboard || []).slice(0, 4);
-    return {
-      title: signal.player,
-      stats: [
-        { label: "Signal", value: titleCase(signal.signal_level || "watch") },
-        { label: "Score", value: String(signal.score || "") },
-        { label: "RC Cards", value: String(signal.rc_profile?.rc_card_count || "") },
-        { label: "Best Rank", value: bestRanks.length ? `${bestRanks[0].stat} #${bestRanks[0].rank}` : "-" }
-      ]
-    };
-  });
-
-  const followups = topSignals.slice(0, 4).map(signal => `${signal.player} rookie cards`);
-  followups.push("Show hot rookie players");
-
-  return {
-    type: "standard",
-    badge: "Early Signals",
-    title: "MLB Early Signals",
-    summary: "These are recent RC players showing positive leaderboard signals in MLB stats. This is a research signal, not buying advice.",
-    metadata: [
-      payload?.generated_at ? `Updated: ${formatReleaseDate(payload.generated_at)}` : "",
-      payload?.snapshot_status === "compared_to_previous_snapshot" ? "Compared to previous snapshot" : "Baseline snapshot",
-      payload?.counts?.signals ? `${payload.counts.signals} signals` : ""
-    ].filter(Boolean),
-    listItems,
-    statGroups,
-    followups
-  };
-}
-
-async function fetchEarlySignalsPayload_() {
-  try {
-    if (typeof getEarlySignals === "function") {
-      return await getEarlySignals();
-    }
-  } catch (err) {
-    console.warn("Early Signals API helper failed; falling back to direct fetch", err);
-  }
-
-  try {
-    const res = await fetch("/data/v1/players/mlb-early-signals.json", {
-      method: "GET",
-      cache: "no-store"
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.json();
-  } catch (err) {
-    console.warn("Early Signals direct fetch failed", err);
-    return { ok: false, signals: [] };
-  }
 }
 
 function buildPricingResponse() {
@@ -4425,25 +4282,47 @@ async function buildProductChaseGuidanceResponse(productInput, options = {}) {
     summary
   };
 
-  const chaseItems = [
-    "Rookie Autographs",
-    "Serial numbered lower than 100"
-  ];
+  const data = await getChecklistParallels(product.code).catch(() => null);
+  const serialRows = (Array.isArray(data?.rows) ? data.rows : [])
+    .map(r => {
+      const parallelName = Array.isArray(r) ? (r[1] || "") : (r.parallel_name || "");
+      const serialNo = Array.isArray(r) ? (r[2] || "") : (r.serial_no || "");
+      const value = getSerialLimitValue(serialNo);
+      return { parallelName, serialNo, value };
+    })
+    .filter(r => r.value > 0)
+    .sort((a, b) => a.value - b.value || String(a.parallelName || "").localeCompare(String(b.parallelName || "")))
+    .slice(0, 5);
+
+  const chaseItems = uniq([
+    summary?.counts?.base ? "Rookie cards and base RCs, when tagged in the checklist." : "",
+    summary?.counts?.autographs ? "Autographs, especially rookie autographs." : "",
+    summary?.counts?.variations ? "Variations, SSPs, and short prints when listed." : "",
+    summary?.counts?.parallels ? "Low-numbered parallels and 1-of-1s." : "",
+    ...serialRows.map(r => `${r.parallelName}${r.serialNo ? ` (${r.serialNo})` : ""}`)
+  ].filter(Boolean));
 
   return {
     type: "standard",
     badge: label,
     title: product.name,
-    summary: "Ranking “the best” is subjective and may mean something different to different collectors. Here are categories collectors usually check first.",
-    listItems: chaseItems,
+    summary: "I can’t rank market value from checklist data alone, but these are the categories collectors usually check first.",
+    listItems: chaseItems.length ? chaseItems : [
+      "Rookie cards",
+      "Autographs",
+      "SSPs or short prints",
+      "Lowest-numbered parallels"
+    ],
     metadata: uniq([
       product.year ? `Year: ${product.year}` : "",
       product.sport ? `Sport: ${titleCase(product.sport)}` : "",
       summary?.counts?.all ? `Checklist Rows: ${formatNumber(summary.counts.all)}` : ""
     ]),
     followups: uniq([
-      `${product.name} Rookie Autographs`,
-      `${product.name} Serial numbered lower than 100`
+      `Show key rookies in ${product.name}`,
+      `Show ${product.name} rookie autos`,
+      `Show ${product.name} SSPs`,
+      `Show ${product.name} lowest numbered parallels`
     ])
   };
 }
@@ -5000,8 +4879,8 @@ async function buildPlayerChoiceResponse(playerReq) {
 }
 
 async function buildPlayerStatsPlaceholderResponse(playerReq) {
-  await ensureCoreIndexesLoaded();
-  await ensurePlayerDataLoaded().catch(() => {});
+  await loadPlayerMeta().catch(() => []);
+  await loadPlayerStats().catch(() => {});
 
   const stats = getPlayerStatsEntry(playerReq.playerName);
   const meta = getPlayerMetaEntry(playerReq.playerName);
@@ -5352,8 +5231,6 @@ async function buildPrintRunResponse(query) {
 }
 
 async function buildChecklistSummaryResponse(query) {
-  await ensureCoreIndexesLoaded();
-
   const clarification = getProductMatchClarification(
     getChecklistIndex(),
     query,
@@ -5447,8 +5324,6 @@ async function buildChecklistSectionResponse(sectionKey) {
 }
 
 async function buildSearchResponse(query) {
-  await ensureCoreIndexesLoaded();
-
   if (isSearchHelpRequest(query)) return buildSearchHelpResponse();
 
   if (isSpecificYearLineupQuestion(query)) {
@@ -5482,15 +5357,12 @@ async function buildSearchResponse(query) {
       });
     }
 
-    if (isThisSetReference(query) && isRarestParallelQuestion(query)) {
-      return buildProductSerialOnlyResponse(pendingChecklistChoice.product, {
-        lowestOnly: true
-      });
-    }
-
     const collectorContextResponse = await buildCollectorProductIntentResponse(query, pendingChecklistChoice.product);
     if (collectorContextResponse) return collectorContextResponse;
   }
+
+  if (isParallelRarityQuestion(query)) return buildParallelRarityResponse(query);
+  if (isParallelCompareQuestion(query)) return buildParallelCompareResponse(query);
 
   const numberedReq = detectNumberedPlayerSearchRequest(query);
   if (numberedReq) {
@@ -5553,16 +5425,6 @@ async function buildSearchResponse(query) {
   const productSectionIntent = detectChecklistSectionIntent(query);
   if (productSectionIntent) {
     const cleanedSectionProductQuery = stripProductCollectorFilterWords(query) || stripIntentWords(query) || query;
-    const clarification = getProductMatchClarification(
-      getChecklistIndex(),
-      cleanedSectionProductQuery,
-      "checklist"
-    );
-
-    if (clarification) {
-      return buildProductMatchClarifyResponse("checklist", query, clarification);
-    }
-
     const product =
       findBestProduct(getChecklistIndex(), cleanedSectionProductQuery, "checklist") ||
       findBestProduct(getChecklistIndex(), query, "checklist") ||
@@ -5576,9 +5438,6 @@ async function buildSearchResponse(query) {
       return buildChecklistSectionResponse(productSectionIntent);
     }
   }
-
-  if (isParallelRarityQuestion(query)) return buildParallelRarityResponse(query);
-  if (isParallelCompareQuestion(query)) return buildParallelCompareResponse(query);
 
   const playerReq = detectPlayerSearchRequest(query);
   if (playerReq) {
@@ -6038,7 +5897,6 @@ async function buildResponse(query) {
 
   const intent = detectIntent(query);
 
-  if (intent === "early_signals") return buildEarlySignalsResponse(query);
   if (intent === "trending") return buildTrendingResponse();
   if (intent === "print_run") return buildPrintRunResponse(query);
   if (intent === "checklist") return buildChecklistSummaryResponse(query);
@@ -6073,10 +5931,7 @@ async function submitQuery(text) {
 
   try {
     await Promise.race([
-      bootstrapData().catch(err => {
-        console.warn("ChatBot startup preload failed; continuing with on-demand data", err);
-        return null;
-      }),
+      bootstrapData(),
       new Promise(resolve => setTimeout(resolve, 2200))
     ]);
     const res = await buildResponse(val);
