@@ -673,6 +673,19 @@ function isEveryParallelForCardQuery(query) {
   );
 }
 
+function isFullChecklistRequest(query) {
+  const n = normalize(query);
+
+  return (
+    n.includes("full checklist") ||
+    n.includes("complete checklist") ||
+    n.includes("entire checklist") ||
+    n.includes("whole checklist") ||
+    n.includes("all checklist rows") ||
+    /\bshow\b/.test(n) && /\ball\b/.test(n) && /\bchecklist\b/.test(n)
+  );
+}
+
 function stripProductRookieWords(query) {
   let out = normalize(query || "");
 
@@ -3580,6 +3593,28 @@ async function buildProductFilteredChecklistResponse(productInput, options) {
   };
 }
 
+async function buildFullProductChecklistResponse(productInput) {
+  const product = findEquivalentProduct(getChecklistIndex(), productInput) || productInput;
+
+  if (!product?.code) {
+    return {
+      type: "standard",
+      badge: "Checklist",
+      title: product?.name || "Checklist not available",
+      summary: "I could not verify a checklist product for that full checklist search."
+    };
+  }
+
+  const summary = await hydrateChecklistSummaryCounts(product, await getChecklistSummary(product.code));
+
+  pendingChecklistChoice = {
+    product,
+    summary
+  };
+
+  return buildChecklistSectionResponse("all");
+}
+
 async function buildProductRookieChecklistResponse(productInput) {
   return buildProductFilteredChecklistResponse(productInput, {
     label: "Rookies",
@@ -5267,6 +5302,8 @@ async function buildChecklistSummaryResponse(query) {
     summary: hydratedSummary
   };
 
+  if (isFullChecklistRequest(query)) return buildChecklistSectionResponse("all");
+
   const directSection = detectChecklistSectionIntent(query);
   if (directSection) return buildChecklistSectionResponse(directSection);
 
@@ -5553,6 +5590,10 @@ async function buildSearchResponse(query) {
     }
 
     const directSection = detectChecklistSectionIntent(query);
+    if (isFullChecklistRequest(query) && findEquivalentProduct(getChecklistIndex(), directBaseProduct)?.code) {
+      return buildFullProductChecklistResponse(directBaseProduct);
+    }
+
     if (directSection && findEquivalentProduct(getChecklistIndex(), directBaseProduct)?.code) {
       return buildChecklistSummaryResponse(directBaseProduct.name);
     }
@@ -5603,6 +5644,10 @@ async function buildSearchResponse(query) {
       prefetchPrintRunData(preferredBaseOption);
     }
 
+    if (isFullChecklistRequest(query) && preferredBaseOption.code) {
+      return buildFullProductChecklistResponse(preferredBaseOption);
+    }
+
     if (directSection && preferredBaseOption.code) {
       return buildChecklistSummaryResponse(preferredBaseOption.name);
     }
@@ -5624,6 +5669,10 @@ async function buildSearchResponse(query) {
 
   if (directSection && matches.checklist?.code) {
     return buildChecklistSummaryResponse(query);
+  }
+
+  if (isFullChecklistRequest(query) && matches.checklist?.code) {
+    return buildFullProductChecklistResponse(matches.checklist);
   }
 
   const collectorResponse = await buildCollectorProductIntentResponse(query, matches.winner);
