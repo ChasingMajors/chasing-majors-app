@@ -2912,6 +2912,7 @@ function buildProductChecklistFollowups(product, summary = null, context = {}) {
   const canShowPrintRun = !mentionsRestrictedPrintRunBrand(product.name || "");
 
   return uniq([
+    currentSection !== "all" && hasSection("all") ? "Entire Checklist" : "",
     currentSection !== "parallels" && hasSection("parallels") ? "Parallels" : "",
     currentSection !== "autographs" && hasSection("autographs") ? "Autographs" : "",
     currentSection !== "variations" && hasSection("variations") ? "Variations" : "",
@@ -2926,7 +2927,7 @@ function buildProductNoResultFollowups(product, context = {}) {
   if (!product?.name) return [];
 
   return uniq([
-    `Show full ${product.name} checklist`,
+    "Entire Checklist",
     `Show ${product.name} serial numbered under 100`,
     `Show ${product.name} serial numbered less than 50`,
     !mentionsRestrictedPrintRunBrand(product.name || "") ? `Show me ${product.name} print run` : "",
@@ -3375,7 +3376,7 @@ function buildProductProfileFollowups(product, summary = null, printRunProduct =
   const hasSection = key => available.includes(key);
 
   return uniq([
-    `Show full ${product.name} checklist`,
+    hasSection("all") ? "Entire Checklist" : "",
     "Rookies",
     hasSection("autographs") ? "Autographs" : "",
     hasSection("parallels") ? "Parallels" : "",
