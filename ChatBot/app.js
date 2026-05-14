@@ -686,6 +686,27 @@ function isFullChecklistRequest(query) {
   );
 }
 
+function stripFullChecklistRequestWords(query) {
+  let out = normalize(query || "");
+
+  [
+    "show full",
+    "show me full",
+    "show me the full",
+    "full checklist",
+    "complete checklist",
+    "entire checklist",
+    "whole checklist",
+    "all checklist rows",
+    "show all",
+    "checklist"
+  ].forEach(phrase => {
+    out = out.replace(new RegExp(`\\b${phrase.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "g"), " ");
+  });
+
+  return out.replace(/\s+/g, " ").trim();
+}
+
 function stripProductRookieWords(query) {
   let out = normalize(query || "");
 
@@ -5266,6 +5287,22 @@ async function buildPrintRunResponse(query) {
 }
 
 async function buildChecklistSummaryResponse(query) {
+  const wantsFullChecklist = isFullChecklistRequest(query);
+  const fullChecklistProductQuery = wantsFullChecklist
+    ? stripFullChecklistRequestWords(query)
+    : "";
+  const directFullChecklistProduct = wantsFullChecklist
+    ? (
+      findBestProduct(getChecklistIndex(), fullChecklistProductQuery || query, "checklist") ||
+      findBestProduct(getChecklistIndex(), query, "checklist") ||
+      findBestProduct(getChecklistIndex(), stripIntentWords(query), "checklist")
+    )
+    : null;
+
+  if (directFullChecklistProduct?.code) {
+    return buildFullProductChecklistResponse(directFullChecklistProduct);
+  }
+
   const clarification = getProductMatchClarification(
     getChecklistIndex(),
     query,
