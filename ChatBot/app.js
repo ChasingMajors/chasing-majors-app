@@ -673,40 +673,6 @@ function isEveryParallelForCardQuery(query) {
   );
 }
 
-function isFullChecklistRequest(query) {
-  const n = normalize(query);
-
-  return (
-    n.includes("full checklist") ||
-    n.includes("complete checklist") ||
-    n.includes("entire checklist") ||
-    n.includes("whole checklist") ||
-    n.includes("all checklist rows") ||
-    /\bshow\b/.test(n) && /\ball\b/.test(n) && /\bchecklist\b/.test(n)
-  );
-}
-
-function stripFullChecklistRequestWords(query) {
-  let out = normalize(query || "");
-
-  [
-    "show full",
-    "show me full",
-    "show me the full",
-    "full checklist",
-    "complete checklist",
-    "entire checklist",
-    "whole checklist",
-    "all checklist rows",
-    "show all",
-    "checklist"
-  ].forEach(phrase => {
-    out = out.replace(new RegExp(`\\b${phrase.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "g"), " ");
-  });
-
-  return out.replace(/\s+/g, " ").trim();
-}
-
 function stripProductRookieWords(query) {
   let out = normalize(query || "");
 
@@ -2946,7 +2912,6 @@ function buildProductChecklistFollowups(product, summary = null, context = {}) {
   const canShowPrintRun = !mentionsRestrictedPrintRunBrand(product.name || "");
 
   return uniq([
-    currentSection !== "all" && hasSection("all") ? "Entire Checklist" : "",
     currentSection !== "parallels" && hasSection("parallels") ? "Parallels" : "",
     currentSection !== "autographs" && hasSection("autographs") ? "Autographs" : "",
     currentSection !== "variations" && hasSection("variations") ? "Variations" : "",
@@ -2961,7 +2926,7 @@ function buildProductNoResultFollowups(product, context = {}) {
   if (!product?.name) return [];
 
   return uniq([
-    "Entire Checklist",
+    `Show full ${product.name} checklist`,
     `Show ${product.name} serial numbered under 100`,
     `Show ${product.name} serial numbered less than 50`,
     !mentionsRestrictedPrintRunBrand(product.name || "") ? `Show me ${product.name} print run` : "",
@@ -3410,7 +3375,7 @@ function buildProductProfileFollowups(product, summary = null, printRunProduct =
   const hasSection = key => available.includes(key);
 
   return uniq([
-    hasSection("all") ? "Entire Checklist" : "",
+    `Show full ${product.name} checklist`,
     "Rookies",
     hasSection("autographs") ? "Autographs" : "",
     hasSection("parallels") ? "Parallels" : "",
@@ -3613,28 +3578,6 @@ async function buildProductFilteredChecklistResponse(productInput, options) {
     sectionOptions: checklistSectionOptionsFromSummary(summary),
     followups: buildProductChecklistFollowups(product, summary, { section: sectionKey })
   };
-}
-
-async function buildFullProductChecklistResponse(productInput) {
-  const product = findEquivalentProduct(getChecklistIndex(), productInput) || productInput;
-
-  if (!product?.code) {
-    return {
-      type: "standard",
-      badge: "Checklist",
-      title: product?.name || "Checklist not available",
-      summary: "I could not verify a checklist product for that full checklist search."
-    };
-  }
-
-  const summary = await hydrateChecklistSummaryCounts(product, await getChecklistSummary(product.code));
-
-  pendingChecklistChoice = {
-    product,
-    summary
-  };
-
-  return buildChecklistSectionResponse("all");
 }
 
 async function buildProductRookieChecklistResponse(productInput) {
@@ -5288,22 +5231,6 @@ async function buildPrintRunResponse(query) {
 }
 
 async function buildChecklistSummaryResponse(query) {
-  const wantsFullChecklist = isFullChecklistRequest(query);
-  const fullChecklistProductQuery = wantsFullChecklist
-    ? stripFullChecklistRequestWords(query)
-    : "";
-  const directFullChecklistProduct = wantsFullChecklist
-    ? (
-      findBestProduct(getChecklistIndex(), fullChecklistProductQuery || query, "checklist") ||
-      findBestProduct(getChecklistIndex(), query, "checklist") ||
-      findBestProduct(getChecklistIndex(), stripIntentWords(query), "checklist")
-    )
-    : null;
-
-  if (directFullChecklistProduct?.code) {
-    return buildFullProductChecklistResponse(directFullChecklistProduct);
-  }
-
   const clarification = getProductMatchClarification(
     getChecklistIndex(),
     query,
@@ -5339,8 +5266,6 @@ async function buildChecklistSummaryResponse(query) {
     product,
     summary: hydratedSummary
   };
-
-  if (isFullChecklistRequest(query)) return buildChecklistSectionResponse("all");
 
   const directSection = detectChecklistSectionIntent(query);
   if (directSection) return buildChecklistSectionResponse(directSection);
@@ -5628,10 +5553,6 @@ async function buildSearchResponse(query) {
     }
 
     const directSection = detectChecklistSectionIntent(query);
-    if (isFullChecklistRequest(query) && findEquivalentProduct(getChecklistIndex(), directBaseProduct)?.code) {
-      return buildFullProductChecklistResponse(directBaseProduct);
-    }
-
     if (directSection && findEquivalentProduct(getChecklistIndex(), directBaseProduct)?.code) {
       return buildChecklistSummaryResponse(directBaseProduct.name);
     }
@@ -5682,10 +5603,6 @@ async function buildSearchResponse(query) {
       prefetchPrintRunData(preferredBaseOption);
     }
 
-    if (isFullChecklistRequest(query) && preferredBaseOption.code) {
-      return buildFullProductChecklistResponse(preferredBaseOption);
-    }
-
     if (directSection && preferredBaseOption.code) {
       return buildChecklistSummaryResponse(preferredBaseOption.name);
     }
@@ -5707,10 +5624,6 @@ async function buildSearchResponse(query) {
 
   if (directSection && matches.checklist?.code) {
     return buildChecklistSummaryResponse(query);
-  }
-
-  if (isFullChecklistRequest(query) && matches.checklist?.code) {
-    return buildFullProductChecklistResponse(matches.checklist);
   }
 
   const collectorResponse = await buildCollectorProductIntentResponse(query, matches.winner);
@@ -5736,10 +5649,6 @@ async function buildResponse(query) {
       title: "Action not available",
       summary: "I could not open that release schedule action."
     };
-  }
-
-  if (pendingChecklistChoice?.product && isFullChecklistRequest(query)) {
-    return buildChecklistSectionResponse("all");
   }
 
   if (pendingCollectorProductChoice) {
