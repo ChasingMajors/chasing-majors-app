@@ -3,7 +3,7 @@
   "sport": "soccer",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-05-16T00:08:25.668Z",
+  "generated_at": "2026-05-16T00:22:32.512Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -24921,6 +24921,1018 @@
           "applies_to_subset": "[Base]",
           "parallel_name": "Gold FoilFractor",
           "serial_no": "/1"
+        }
+      ]
+    },
+    "2025_26_topps_sl_benfica_team_set_soccer": {
+      "ok": true,
+      "meta": {
+        "code": "2025_26_topps_sl_benfica_team_set_soccer",
+        "displayName": "2025-26 Topps SL Benfica Team Set Soccer",
+        "keywords": "2025-26 Topps SL Benfica Team Set Soccer, 2025-26 Topps SL Benfica Team Set Soccer checklist, 2025-26 Topps SL Benfica Team Set Soccer cards, 2025-26 Topps SL Benfica Team Set Soccer parallels, 2025-26 Topps SL Benfica Team Set Soccer autographs, Topps SL Benfica Team Set soccer, SL Benfica Team Set soccer checklist",
+        "source_key": "2025-26",
+        "year": "2025-26",
+        "manufacturer": "Topps",
+        "product": "SL Benfica Team Set",
+        "sport": "soccer"
+      },
+      "rows": [
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "1",
+          "player": "Anatoliy Trubin",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "2",
+          "player": "António Silva",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "3",
+          "player": "Leandro Santos",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "4",
+          "player": "Samuel Dahl",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "5",
+          "player": "Tomás Araújo",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "6",
+          "player": "Richard Ríos",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "7",
+          "player": "Nicolás Otamendi",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "8",
+          "player": "Amar Dedić",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "9",
+          "player": "Fredrik Aursnes",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "10",
+          "player": "João Veloso",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "11",
+          "player": "Leandro Barreiro",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "12",
+          "player": "Nuno Félix",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "13",
+          "player": "Diogo Prioste",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "14",
+          "player": "Enzo Barrenechea",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "15",
+          "player": "João Rego",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "16",
+          "player": "Vangelis Pavlidis",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "17",
+          "player": "Georgiy Sudakov",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "18",
+          "player": "Franjo Ivanović",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "19",
+          "player": "Andreas Schjelderup",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "20",
+          "player": "Gianluca Prestianni",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base First Team Set",
+          "card_no": "21",
+          "player": "Bruma",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Bona Fide Baller Set",
+          "card_no": "22",
+          "player": "David Luiz",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Bona Fide Baller Set",
+          "card_no": "23",
+          "player": "Rui Costa",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Bona Fide Baller Set",
+          "card_no": "24",
+          "player": "Vangelis Pavlidis",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Bona Fide Baller Set",
+          "card_no": "25",
+          "player": "Óscar Cardozo",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Bona Fide Baller Set",
+          "card_no": "26",
+          "player": "Cloé Lacasse",
+          "team": "SL Benfica Feminino",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Bona Fide Baller Set",
+          "card_no": "27",
+          "player": "Nuno Gomes",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Pitch Pursuits Set",
+          "card_no": "28",
+          "player": "João Rego",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Pitch Pursuits Set",
+          "card_no": "29",
+          "player": "David Luiz",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Pitch Pursuits Set",
+          "card_no": "30",
+          "player": "Andreas Schjelderup",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Pitch Pursuits Set",
+          "card_no": "31",
+          "player": "Henrique Araújo",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Pitch Pursuits Set",
+          "card_no": "32",
+          "player": "Rui Costa",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Pitch Pursuits Set",
+          "card_no": "33",
+          "player": "Alexander Bah",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Pitch Pursuits Set",
+          "card_no": "34",
+          "player": "Gianluca Prestianni",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Pitch Pursuits Set",
+          "card_no": "35",
+          "player": "Ángel Di María",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Pitch Pursuits Set",
+          "card_no": "36",
+          "player": "Dodi Lukébakio",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Pitch Pursuits Set",
+          "card_no": "37",
+          "player": "Bruma",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Collector's Corner Set",
+          "card_no": "38",
+          "player": "Samuel Dahl",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Collector's Corner Set",
+          "card_no": "39",
+          "player": "Ángel Di María",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Collector's Corner Set",
+          "card_no": "40",
+          "player": "Fredrik Aursnes",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Soaring Eagle Set",
+          "card_no": "41",
+          "player": "David Luiz",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Soaring Eagle Set",
+          "card_no": "42",
+          "player": "Rui Costa",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Soaring Eagle Set",
+          "card_no": "43",
+          "player": "Fredrik Aursnes",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Soaring Eagle Set",
+          "card_no": "44",
+          "player": "Óscar Cardozo",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Soaring Eagle Set",
+          "card_no": "45",
+          "player": "António Silva",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Soaring Eagle Set",
+          "card_no": "46",
+          "player": "João Rego",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Soaring Eagle Set",
+          "card_no": "47",
+          "player": "Vangelis Pavlidis",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Soaring Eagle Set",
+          "card_no": "48",
+          "player": "Ángel Di María",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Soaring Eagle Set",
+          "card_no": "49",
+          "player": "Luisão",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "SL Benfica Base Soaring Eagle Set",
+          "card_no": "50",
+          "player": "Andreas Schjelderup",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-1",
+          "player": "Richard Ríos",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-2",
+          "player": "Andreas Schjelderup",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-3",
+          "player": "Gianluca Prestianni",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-4",
+          "player": "Nicolás Otamendi",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-5",
+          "player": "Enzo Barrenechea",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-6",
+          "player": "Vangelis Pavlidis",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-7",
+          "player": "Bruma",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-8",
+          "player": "Fredrik Aursnes",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-9",
+          "player": "Samuel Dahl",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-10",
+          "player": "Ángel Di María",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-11",
+          "player": "David Luiz",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-12",
+          "player": "Rui Costa",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-13",
+          "player": "Franjo Ivanović",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-14",
+          "player": "João Rego",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-15",
+          "player": "Georgiy Sudakov",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-16",
+          "player": "Diogo Prioste",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-17",
+          "player": "Leandro Barreiro",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-18",
+          "player": "Nuno Gomes",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-19",
+          "player": "Leandro Santos",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-20",
+          "player": "Cloé Lacasse",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-21",
+          "player": "António Silva",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-22",
+          "player": "Tomás Araújo",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-23",
+          "player": "Nycole Raysla",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-24",
+          "player": "Óscar Cardozo",
+          "team": "SL Benfica",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "sport": "soccer",
+          "section": "Inserts",
+          "subset": "SL Benfica Rainbow Flick Set",
+          "card_no": "RF-25",
+          "player": "Cristina Martín-Prieto",
+          "team": "SL Benfica",
+          "tag": ""
+        }
+      ],
+      "parallels": [
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base First Team Set",
+          "parallel_name": "Static Foil (1 Per Box)",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base First Team Set",
+          "parallel_name": "Green Rainbow Foil",
+          "serial_no": "#/99"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base First Team Set",
+          "parallel_name": "Pink Rainbow Foil",
+          "serial_no": "#/75"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base First Team Set",
+          "parallel_name": "Orange Rainbow Foil",
+          "serial_no": "#/25"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base First Team Set",
+          "parallel_name": "Black Rainbow Foil",
+          "serial_no": "#/10"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base First Team Set",
+          "parallel_name": "Red Rainbow Foil",
+          "serial_no": "#/5"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base First Team Set",
+          "parallel_name": "Gold FoilFractor 1",
+          "serial_no": "#/1"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Bona Fide Baller Set",
+          "parallel_name": "Static Foil (1 Per Box)",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Bona Fide Baller Set",
+          "parallel_name": "Green Rainbow Foil",
+          "serial_no": "#/99"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Bona Fide Baller Set",
+          "parallel_name": "Pink Rainbow Foil",
+          "serial_no": "#/75"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Bona Fide Baller Set",
+          "parallel_name": "Orange Rainbow Foil",
+          "serial_no": "#/25"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Bona Fide Baller Set",
+          "parallel_name": "Black Rainbow Foil",
+          "serial_no": "#/10"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Bona Fide Baller Set",
+          "parallel_name": "Red Rainbow Foil",
+          "serial_no": "#/5"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Bona Fide Baller Set",
+          "parallel_name": "Gold FoilFractor 1",
+          "serial_no": "#/1"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Pitch Pursuits Set",
+          "parallel_name": "Static Foil (1 Per Box)",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Pitch Pursuits Set",
+          "parallel_name": "Green Rainbow Foil",
+          "serial_no": "#/99"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Pitch Pursuits Set",
+          "parallel_name": "Pink Rainbow Foil",
+          "serial_no": "#/75"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Pitch Pursuits Set",
+          "parallel_name": "Orange Rainbow Foil",
+          "serial_no": "#/25"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Pitch Pursuits Set",
+          "parallel_name": "Black Rainbow Foil",
+          "serial_no": "#/10"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Pitch Pursuits Set",
+          "parallel_name": "Red Rainbow Foil",
+          "serial_no": "#/5"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Pitch Pursuits Set",
+          "parallel_name": "Gold FoilFractor 1",
+          "serial_no": "#/1"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Collector's Corner Set",
+          "parallel_name": "Static Foil (1 Per Box)",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Collector's Corner Set",
+          "parallel_name": "Green Rainbow Foil",
+          "serial_no": "#/99"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Collector's Corner Set",
+          "parallel_name": "Pink Rainbow Foil",
+          "serial_no": "#/75"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Collector's Corner Set",
+          "parallel_name": "Orange Rainbow Foil",
+          "serial_no": "#/25"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Collector's Corner Set",
+          "parallel_name": "Black Rainbow Foil",
+          "serial_no": "#/10"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Collector's Corner Set",
+          "parallel_name": "Red Rainbow Foil",
+          "serial_no": "#/5"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Collector's Corner Set",
+          "parallel_name": "Gold FoilFractor 1",
+          "serial_no": "#/1"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Soaring Eagle Set",
+          "parallel_name": "Static Foil (1 Per Box)",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Soaring Eagle Set",
+          "parallel_name": "Green Rainbow Foil",
+          "serial_no": "#/99"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Soaring Eagle Set",
+          "parallel_name": "Pink Rainbow Foil",
+          "serial_no": "#/75"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Soaring Eagle Set",
+          "parallel_name": "Orange Rainbow Foil",
+          "serial_no": "#/25"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Soaring Eagle Set",
+          "parallel_name": "Black Rainbow Foil",
+          "serial_no": "#/10"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Soaring Eagle Set",
+          "parallel_name": "Red Rainbow Foil",
+          "serial_no": "#/5"
+        },
+        {
+          "code": "2025_26_topps_sl_benfica_team_set_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "SL Benfica Base Soaring Eagle Set",
+          "parallel_name": "Gold FoilFractor 1",
+          "serial_no": "#/1"
         }
       ]
     },
