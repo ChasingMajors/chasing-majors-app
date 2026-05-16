@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist Google Sheets Products rebuild",
-  "generated_at": "2026-05-16T00:08:46.602Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-05-16T00:22:32.512Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8282,6 +8282,15 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Real Madrid Team Set"
+    },
+    {
+      "Code": "2025_26_topps_sl_benfica_team_set_soccer",
+      "DisplayName": "2025-26 Topps SL Benfica Team Set Soccer",
+      "Keywords": "2025-26 Topps SL Benfica Team Set Soccer, 2025-26 Topps SL Benfica Team Set Soccer checklist, 2025-26 Topps SL Benfica Team Set Soccer cards, 2025-26 Topps SL Benfica Team Set Soccer parallels, 2025-26 Topps SL Benfica Team Set Soccer autographs, Topps SL Benfica Team Set soccer, SL Benfica Team Set soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "SL Benfica Team Set"
     },
     {
       "Code": "2025_26_topps_uefa_japan_edition",
