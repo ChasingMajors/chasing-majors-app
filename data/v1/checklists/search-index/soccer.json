@@ -3,9 +3,12 @@
   "sport": "soccer",
   "kind": "checklist_search",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-05-16T00:22:32.512Z",
+  "generated_at": "2026-05-16T15:35:07.027Z",
   "sharded": true,
   "shards": [
-    "soccer-001.json"
+    "soccer-001.json",
+    "soccer-002.json",
+    "soccer-003.json",
+    "soccer-004.json"
   ]
 }
