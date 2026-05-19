@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist Google Sheets Products rebuild",
-  "generated_at": "2026-05-19T20:38:14.871Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-05-19T23:39:56.037Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -20,6 +20,15 @@
       "sport": "baseball",
       "manufacturer": "Bowman",
       "product": "Mega Box"
+    },
+    {
+      "Code": "2026_donruss_baseball",
+      "DisplayName": "2026 Donruss Baseball",
+      "Keywords": "2026 Donruss Baseball, 2026 Donruss Baseball checklist, 2026 Donruss Baseball cards, 2026 Donruss Baseball parallels, 2026 Donruss Baseball autographs, Donruss baseball, Donruss baseball checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "",
+      "product": "Donruss"
     },
     {
       "Code": "2026_Panini_Stars_Strips_Prizm",
