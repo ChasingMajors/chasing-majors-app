@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-05-19T05:53:43.853Z",
+  "generated_at": "2026-05-19T23:39:56.037Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -689,6 +689,7 @@
     "2019_Topps_Tribute_Baseball": "baseball-025.json",
     "2019_Topps_Triple_Threads_Baseball": "baseball-025.json",
     "2019_Topps_Update_Series_Baseball": "baseball-025.json",
+    "2026_donruss_baseball": "baseball-025.json",
     "2026_Panini_Stars_Strips_Prizm": "baseball-025.json",
     "2026_Topps_Chrome_Black": "baseball-025.json",
     "2026_Topps_Heritage": "baseball-025.json",
