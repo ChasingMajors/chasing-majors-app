@@ -1,7 +1,7 @@
 {
   "ok": true,
   "kind": "checklist_search_source_registry",
-  "generated_at": "2026-05-10T14:53:28.020Z",
+  "generated_at": "2026-05-19T20:37:23.289Z",
   "sources": {
     "baseball": [
       {
@@ -70,6 +70,11 @@
         "source_key": "2024",
         "path": "sources/football-2024.json",
         "generated_at": "2026-05-10T14:07:23.285Z"
+      },
+      {
+        "source_key": "2025",
+        "path": "sources/football-2025.json",
+        "generated_at": "2026-05-19T20:37:23.289Z"
       }
     ],
     "basketball": [
