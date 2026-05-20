@@ -4,7 +4,7 @@
   "kind": "checklist_products",
   "source": "Checklist DB map targeted source products merge",
   "source_key": "2025",
-  "generated_at": "2026-05-19T20:36:44.310Z",
+  "generated_at": "2026-05-19T23:59:57.453Z",
   "shard": 5,
   "shard_count": 5,
   "products": {
@@ -42833,9 +42833,338 @@
       "parallels": [
         {
           "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Black",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Black",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Base Image Variations",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Base Image Variations",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Base Image Variations",
+          "parallel_name": "Black",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Base Image Variations",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Base Image Variations",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Base Rookie Image Variations",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Base Rookie Image Variations",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Base Rookie Image Variations",
+          "parallel_name": "Black",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Base Rookie Image Variations",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Base Rookie Image Variations",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Auto Sapphire",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Auto Sapphire",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Chrome Legends Auto Sapphire",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Chrome Legends Auto Sapphire",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Football Chromographs Sapphire",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Football Chromographs Sapphire",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Dual Auto Sapphire",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Dual Auto Sapphire",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Future Star Auto",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Future Star Auto",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Hall of Chrome Auto Sapphire",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Hall of Chrome Auto Sapphire",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto Sapphire",
+          "parallel_name": "Green",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto Sapphire",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto Sapphire",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto Sapphire",
+          "parallel_name": "Black",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto Sapphire",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto Sapphire",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Sapphire Selection Auto",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Sapphire Selection Auto",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Sapphire Selection Auto",
+          "parallel_name": "Black",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Sapphire Selection Auto",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Sapphire Selection Auto",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
           "applies_to_section": "Insert",
           "applies_to_subset": "Football Infinite Sapphire",
-          "parallel_name": "Padparadscha 1",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Football Sapphire Selections",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Football Sapphire Selections",
+          "parallel_name": "Black",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Football Sapphire Selections",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Football Sapphire Selections",
+          "parallel_name": "Padparadscha",
           "serial_no": "/1"
         }
       ]
