@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-05-19T21:32:17.945Z",
+  "generated_at": "2026-05-20T05:08:49.757Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -21051,6 +21051,90 @@
           "subSetSize": 42,
           "notes": "",
           "cmURL": ""
+        }
+      ]
+    },
+    "2025_topps_chrome_sapphire_football": {
+      "ok": true,
+      "meta": {
+        "code": "2025_topps_chrome_sapphire_football",
+        "displayName": "2025 Topps Chrome Sapphire Football",
+        "year": "2025",
+        "sport": "football",
+        "manufacturer": "Topps",
+        "product": "Chrome Sapphire",
+        "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis"
+      },
+      "rows": [
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "setType": "Base",
+          "setLine": "Base production",
+          "printRun": 890,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: SlabSquatch. Review before PRV write. https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Sapphire Base",
+          "printRun": 405,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "Source: SlabSquatch. Review before PRV write. https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "setType": "Parallel",
+          "setLine": "Sapphire Image Variation",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "Source: SlabSquatch. Review before PRV write. https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Sapphire Image Variation",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "Source: SlabSquatch. Review before PRV write. https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "setType": "Insert",
+          "setLine": "Infinite",
+          "printRun": 40,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "Source: SlabSquatch. Review before PRV write. https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "setType": "Insert",
+          "setLine": "Sapphire Selections",
+          "printRun": 45,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "Source: SlabSquatch. Review before PRV write. https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_sapphire_football",
+          "setType": "Auto",
+          "setLine": "Sapphire Selections Autos",
+          "printRun": 17,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "Source: SlabSquatch. Review before PRV write. https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-sapphire-nfl-analysis"
         }
       ]
     }
