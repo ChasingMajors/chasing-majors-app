@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-05-21T05:08:49.486Z",
+  "generated_at": "2026-05-21T15:28:17.483Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -21347,8 +21347,8 @@
           "printRun": 195,
           "serial": "",
           "subSetSize": 5,
-          "notes": "Source: SlabSquatch. Review before PRV write. https://slabsquatch.substack.com/p/202526-bowmans-best-university-basketball",
-          "cmURL": "https://slabsquatch.substack.com/p/202526-bowmans-best-university-basketball"
+          "notes": "",
+          "cmURL": ""
         },
         {
           "code": "2025_26_bowman_s_best_university_basketball",
@@ -21357,8 +21357,102 @@
           "printRun": 80,
           "serial": "",
           "subSetSize": 89,
-          "notes": "Source: SlabSquatch. Review before PRV write. https://slabsquatch.substack.com/p/202526-bowmans-best-university-basketball",
-          "cmURL": "https://slabsquatch.substack.com/p/202526-bowmans-best-university-basketball"
+          "notes": "",
+          "cmURL": ""
+        }
+      ]
+    },
+    "2025_26_topps_chrome_cactus_jack_basketball_basketball": {
+      "ok": true,
+      "meta": {
+        "code": "2025_26_topps_chrome_cactus_jack_basketball_basketball",
+        "displayName": "2025/26 Topps Chrome Cactus Jack Basketball Basketball",
+        "year": "2025/26",
+        "sport": "basketball",
+        "manufacturer": "Topps",
+        "product": "Chrome Cactus Jack Basketball",
+        "cmURL": "https://slabsquatch.substack.com/p/202526-topps-chrome-cactus-jack-nba"
+      },
+      "rows": [
+        {
+          "code": "2025_26_topps_chrome_cactus_jack_basketball_basketball",
+          "setType": "Base - Parallel",
+          "setLine": "Refractor",
+          "printRun": 760,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_chrome_cactus_jack_basketball_basketball",
+          "setType": "Base - Parallel",
+          "setLine": "LogoFractor",
+          "printRun": 380,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_chrome_cactus_jack_basketball_basketball",
+          "setType": "Insert",
+          "setLine": "Utopia Highlights",
+          "printRun": 2370,
+          "serial": "",
+          "subSetSize": 40,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_chrome_cactus_jack_basketball_basketball",
+          "setType": "Insert",
+          "setLine": "Jacked Up",
+          "printRun": 2370,
+          "serial": "",
+          "subSetSize": 40,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_chrome_cactus_jack_basketball_basketball",
+          "setType": "Insert",
+          "setLine": "LA Flame Legends",
+          "printRun": 2525,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_chrome_cactus_jack_basketball_basketball",
+          "setType": "Insert",
+          "setLine": "Astrovision",
+          "printRun": 125,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_chrome_cactus_jack_basketball_basketball",
+          "setType": "Autograph",
+          "setLine": "Base Auto Variation",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": 49,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_topps_chrome_cactus_jack_basketball_basketball",
+          "setType": "Autograph",
+          "setLine": "Cactus Ink",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": 49,
+          "notes": "",
+          "cmURL": ""
         }
       ]
     }
