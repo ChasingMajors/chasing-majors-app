@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-05-26T15:28:15.978Z",
+  "generated_at": "2026-05-26T18:01:51.359Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -20819,406 +20819,6 @@
       "rows": [
         {
           "code": "2025_26_bowman_basketball",
-          "setType": "Auto - Parallel",
-          "setLine": "Chrome Autographs - Refractor",
-          "printRun": 275,
-          "serial": "",
-          "subSetSize": 98,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Auto - Parallel",
-          "setLine": "Chrome Autographs - Mojo",
-          "printRun": 90,
-          "serial": "",
-          "subSetSize": 98,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Auto - Parallel",
-          "setLine": "Chrome Prospect Auto - Geometric",
-          "printRun": 90,
-          "serial": "",
-          "subSetSize": 99,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Auto - Parallel",
-          "setLine": "Chrome Autographs - Geometric",
-          "printRun": 65,
-          "serial": "",
-          "subSetSize": 98,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Autograph",
-          "setLine": "Timeless Touch Signatures",
-          "printRun": 3260,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Autograph",
-          "setLine": "Chrome Autographs",
-          "printRun": 915,
-          "serial": "",
-          "subSetSize": 98,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Autograph",
-          "setLine": "Chrome Prospect Autographs",
-          "printRun": 780,
-          "serial": "",
-          "subSetSize": 99,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Autograph",
-          "setLine": "Opening Statement Signatures",
-          "printRun": 145,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Autograph",
-          "setLine": "Future Script",
-          "printRun": 120,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Autograph",
-          "setLine": "Buzz Factor Autographs",
-          "printRun": 110,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Autograph",
-          "setLine": "Paper Prospect Retail Autographs",
-          "printRun": 16,
-          "serial": "",
-          "subSetSize": 99,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert",
-          "setLine": "Rockstar Rookies",
-          "printRun": 27125,
-          "serial": "",
-          "subSetSize": 20,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert",
-          "setLine": "ROY Favorites",
-          "printRun": 27000,
-          "serial": "",
-          "subSetSize": 15,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert",
-          "setLine": "Greatness Loading",
-          "printRun": 26700,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert",
-          "setLine": "Young Kings",
-          "printRun": 26700,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert",
-          "setLine": "Gen Next",
-          "printRun": 22500,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert",
-          "setLine": "Talent Tracker",
-          "printRun": 22500,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert",
-          "setLine": "Very Important Prospects",
-          "printRun": 22500,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert - Parallel",
-          "setLine": "ROY Favorites - Refractor",
-          "printRun": 4075,
-          "serial": "",
-          "subSetSize": 15,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert - Parallel",
-          "setLine": "Rockstar Rookies - Refractor",
-          "printRun": 4050,
-          "serial": "",
-          "subSetSize": 20,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert - Parallel",
-          "setLine": "Gen Next - Refractor",
-          "printRun": 4025,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert - Parallel",
-          "setLine": "Greatness Loading - Refractor",
-          "printRun": 4025,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert - Parallel",
-          "setLine": "Talent Tracker - Refractor",
-          "printRun": 4025,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert - Parallel",
-          "setLine": "Very Important Prospects - Refractor",
-          "printRun": 4025,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert - Parallel",
-          "setLine": "Young Kings",
-          "printRun": 4025,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert - Parallel",
-          "setLine": "Gen Next - Geometric",
-          "printRun": 15,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert - Parallel",
-          "setLine": "Greatness Loading - Geometric",
-          "printRun": 15,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert - Parallel",
-          "setLine": "Rockstar Rookies - Geometric",
-          "printRun": 15,
-          "serial": "",
-          "subSetSize": 20,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert - Parallel",
-          "setLine": "ROY Favorites - Geometric",
-          "printRun": 15,
-          "serial": "",
-          "subSetSize": 15,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert - Parallel",
-          "setLine": "Talent Tracker - Geometric",
-          "printRun": 15,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert - Parallel",
-          "setLine": "Very Important Prospects - Geometric",
-          "printRun": 15,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Insert - Parallel",
-          "setLine": "Young Kings",
-          "printRun": 15,
-          "serial": "",
-          "subSetSize": 25,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Variation",
-          "setLine": "Base Chrome",
-          "printRun": "TBD",
-          "serial": "",
-          "subSetSize": 200,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Variation",
-          "setLine": "Base Chrome Rookie Red RC Logo",
-          "printRun": 8000,
-          "serial": "",
-          "subSetSize": 50,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Variation",
-          "setLine": "Chrome Prospects - Mini-Diamond Refractor",
-          "printRun": 360,
-          "serial": "",
-          "subSetSize": 100,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Variation",
-          "setLine": "Base Chrome Etched In Glass Variation",
-          "printRun": 360,
-          "serial": "",
-          "subSetSize": 10,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Variation",
-          "setLine": "Chrome Prospects Etched In Glass Variation",
-          "printRun": 360,
-          "serial": "",
-          "subSetSize": 5,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Variation",
-          "setLine": "RetroFractor",
-          "printRun": 240,
-          "serial": "",
-          "subSetSize": 2,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Variation - Parallel",
-          "setLine": "Chrome Prospects - Mojo",
-          "printRun": 11650,
-          "serial": "",
-          "subSetSize": 100,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
-          "setType": "Variation - Parallel",
-          "setLine": "Chrome Prospects - Geometric",
-          "printRun": 50,
-          "serial": "",
-          "subSetSize": 100,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2025_26_bowman_basketball",
           "setType": "Base",
           "setLine": "Base",
           "printRun": "TBD",
@@ -21344,6 +20944,36 @@
           "printRun": "",
           "serial": "/1",
           "subSetSize": "",
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Variation",
+          "setLine": "Chrome Rookie Red RC Logo",
+          "printRun": 8000,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Variation",
+          "setLine": "Chrome Etched In Glass",
+          "printRun": 360,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Variation",
+          "setLine": "Chrome Prospects Chrome Etched In Glass",
+          "printRun": 360,
+          "serial": "",
+          "subSetSize": 5,
           "notes": "",
           "cmURL": ""
         },
@@ -22063,7 +21693,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22073,7 +21703,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/499",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22083,7 +21713,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/399",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22093,7 +21723,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/299",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22103,7 +21733,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/250",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22113,7 +21743,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/199",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22123,7 +21753,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22133,7 +21763,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22143,7 +21773,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/100",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22153,7 +21783,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/75",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22163,7 +21793,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22173,7 +21803,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22183,7 +21813,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/15",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22193,7 +21823,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/15",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22203,7 +21833,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22213,7 +21843,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22223,7 +21853,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22233,7 +21863,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22243,7 +21873,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/3",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22251,9 +21881,9 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Variation",
           "setLine": "Chrome Prospects Variation",
-          "printRun": "",
+          "printRun": 360,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22263,7 +21893,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/125",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22273,7 +21903,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/125",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22283,7 +21913,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/75",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22293,7 +21923,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22303,7 +21933,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22313,7 +21943,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22321,9 +21951,9 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Variation",
           "setLine": "Chrome Prospects Variation",
-          "printRun": "",
+          "printRun": 50,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22333,7 +21963,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22343,7 +21973,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22353,7 +21983,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22363,7 +21993,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22373,7 +22003,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22383,7 +22013,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22393,7 +22023,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22403,7 +22033,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22411,9 +22041,9 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Variation",
           "setLine": "Chrome Prospects Variation",
-          "printRun": "",
+          "printRun": 11650,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22423,7 +22053,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/299",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22433,7 +22063,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/275",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22443,7 +22073,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/250",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22453,7 +22083,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/199",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22463,7 +22093,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/175",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22473,7 +22103,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22483,7 +22113,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/125",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22493,7 +22123,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22503,7 +22133,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/75",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22513,7 +22143,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22523,7 +22153,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22533,7 +22163,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22543,7 +22173,7 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 100,
           "notes": "",
           "cmURL": ""
         },
@@ -22553,7 +22183,17 @@
           "setLine": "Chrome Prospects Variation",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 100,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Autograph",
+          "setLine": "Chrome Autographs",
+          "printRun": 915,
+          "serial": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22563,7 +22203,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/499",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22573,7 +22213,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/299",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22583,7 +22223,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/250",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22593,7 +22233,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22603,7 +22243,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22613,7 +22253,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/100",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22623,7 +22263,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/75",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22633,7 +22273,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22643,7 +22283,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22653,7 +22293,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22663,7 +22303,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22673,7 +22313,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22683,7 +22323,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22693,7 +22333,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22703,7 +22343,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22713,7 +22353,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22723,7 +22363,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22733,7 +22373,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22743,7 +22383,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22753,7 +22393,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22763,7 +22403,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/3",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22771,9 +22411,9 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Autograph",
           "setLine": "Chrome Autographs",
-          "printRun": "",
+          "printRun": 65,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22783,7 +22423,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22793,7 +22433,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22803,7 +22443,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22813,7 +22453,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22823,7 +22463,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22833,7 +22473,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22841,9 +22481,9 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Autograph",
           "setLine": "Chrome Autographs",
-          "printRun": "",
+          "printRun": 90,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22853,7 +22493,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22863,7 +22503,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22873,7 +22513,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/75",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22883,7 +22523,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22893,7 +22533,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22903,7 +22543,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22913,7 +22553,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22923,7 +22563,7 @@
           "setLine": "Chrome Autographs",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 98,
           "notes": "",
           "cmURL": ""
         },
@@ -22931,9 +22571,9 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Autograph",
           "setLine": "Chrome Prospect Autographs",
-          "printRun": "",
+          "printRun": 780,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -22943,7 +22583,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -22953,7 +22593,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -22963,7 +22603,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/75",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -22973,7 +22613,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -22983,7 +22623,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -22993,7 +22633,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23003,7 +22643,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23013,7 +22653,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23023,7 +22663,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23033,7 +22673,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23043,7 +22683,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23053,7 +22693,17 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/3",
-          "subSetSize": "",
+          "subSetSize": 99,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Autograph",
+          "setLine": "Chrome Prospect Autographs",
+          "printRun": 90,
+          "serial": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23063,7 +22713,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23073,7 +22723,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23083,7 +22733,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23093,7 +22743,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23103,7 +22753,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23113,7 +22763,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/499",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23123,7 +22773,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/299",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23133,7 +22783,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/250",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23143,7 +22793,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23153,7 +22803,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23163,7 +22813,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/100",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23173,7 +22823,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/75",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23183,7 +22833,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23193,7 +22843,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23203,7 +22853,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23213,7 +22863,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23223,7 +22873,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23233,7 +22883,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23243,7 +22893,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23253,7 +22903,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23263,7 +22913,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23273,7 +22923,7 @@
           "setLine": "Chrome Prospect Autographs",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23291,9 +22941,19 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Autograph",
           "setLine": "Buzz Factor Autographs",
+          "printRun": 110,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Autograph",
+          "setLine": "Buzz Factor Autographs",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23303,7 +22963,7 @@
           "setLine": "Buzz Factor Autographs",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23313,7 +22973,7 @@
           "setLine": "Buzz Factor Autographs",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23323,7 +22983,7 @@
           "setLine": "Buzz Factor Autographs",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23333,7 +22993,17 @@
           "setLine": "Buzz Factor Autographs",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Autograph",
+          "setLine": "Future Script",
+          "printRun": 120,
+          "serial": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23343,7 +23013,7 @@
           "setLine": "Future Script",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23353,7 +23023,7 @@
           "setLine": "Future Script",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23363,7 +23033,7 @@
           "setLine": "Future Script",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23373,7 +23043,7 @@
           "setLine": "Future Script",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23383,7 +23053,17 @@
           "setLine": "Future Script",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Autograph",
+          "setLine": "Opening Statement Signatures",
+          "printRun": 145,
+          "serial": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23393,7 +23073,7 @@
           "setLine": "Opening Statement Signatures",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23403,7 +23083,7 @@
           "setLine": "Opening Statement Signatures",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23413,7 +23093,7 @@
           "setLine": "Opening Statement Signatures",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23423,7 +23103,7 @@
           "setLine": "Opening Statement Signatures",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23433,7 +23113,17 @@
           "setLine": "Opening Statement Signatures",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Autograph",
+          "setLine": "Paper Prospect Retail Autographs",
+          "printRun": 16,
+          "serial": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23443,7 +23133,7 @@
           "setLine": "Paper Prospect Retail Autographs",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23453,7 +23143,7 @@
           "setLine": "Paper Prospect Retail Autographs",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23463,7 +23153,7 @@
           "setLine": "Paper Prospect Retail Autographs",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23473,7 +23163,7 @@
           "setLine": "Paper Prospect Retail Autographs",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23483,7 +23173,7 @@
           "setLine": "Paper Prospect Retail Autographs",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23493,7 +23183,7 @@
           "setLine": "Paper Prospect Retail Autographs",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 99,
           "notes": "",
           "cmURL": ""
         },
@@ -23601,9 +23291,19 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Autograph",
           "setLine": "Timeless Touch Signatures",
+          "printRun": "TBA",
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Autograph",
+          "setLine": "Timeless Touch Signatures",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23613,7 +23313,7 @@
           "setLine": "Timeless Touch Signatures",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23623,7 +23323,7 @@
           "setLine": "Timeless Touch Signatures",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23633,7 +23333,7 @@
           "setLine": "Timeless Touch Signatures",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -23643,7 +23343,7 @@
           "setLine": "Timeless Touch Signatures",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24101,9 +23801,19 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Insert",
           "setLine": "Gen Next",
-          "printRun": "",
+          "printRun": 22500,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Insert",
+          "setLine": "Gen Next",
+          "printRun": 4025,
+          "serial": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24113,7 +23823,7 @@
           "setLine": "Gen Next",
           "printRun": "",
           "serial": "/250",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24123,7 +23833,7 @@
           "setLine": "Gen Next",
           "printRun": "",
           "serial": "/199",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24133,7 +23843,7 @@
           "setLine": "Gen Next",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24143,7 +23853,7 @@
           "setLine": "Gen Next",
           "printRun": "",
           "serial": "/125",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24153,7 +23863,7 @@
           "setLine": "Gen Next",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24163,7 +23873,7 @@
           "setLine": "Gen Next",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24173,7 +23883,7 @@
           "setLine": "Gen Next",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24183,7 +23893,7 @@
           "setLine": "Gen Next",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24193,7 +23903,7 @@
           "setLine": "Gen Next",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24201,9 +23911,9 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Insert",
           "setLine": "Gen Next",
-          "printRun": "",
+          "printRun": 15,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24213,7 +23923,7 @@
           "setLine": "Gen Next",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24223,7 +23933,7 @@
           "setLine": "Gen Next",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24233,7 +23943,7 @@
           "setLine": "Gen Next",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24243,7 +23953,7 @@
           "setLine": "Gen Next",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24251,9 +23961,19 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Insert",
           "setLine": "Greatness Loading",
-          "printRun": "",
+          "printRun": 26700,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Insert",
+          "setLine": "Greatness Loading",
+          "printRun": 4025,
+          "serial": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24263,7 +23983,7 @@
           "setLine": "Greatness Loading",
           "printRun": "",
           "serial": "/250",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24273,7 +23993,7 @@
           "setLine": "Greatness Loading",
           "printRun": "",
           "serial": "/199",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24283,7 +24003,7 @@
           "setLine": "Greatness Loading",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24293,7 +24013,7 @@
           "setLine": "Greatness Loading",
           "printRun": "",
           "serial": "/125",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24303,7 +24023,7 @@
           "setLine": "Greatness Loading",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24313,7 +24033,7 @@
           "setLine": "Greatness Loading",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24323,7 +24043,7 @@
           "setLine": "Greatness Loading",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24333,7 +24053,7 @@
           "setLine": "Greatness Loading",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24343,7 +24063,7 @@
           "setLine": "Greatness Loading",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24351,9 +24071,9 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Insert",
           "setLine": "Greatness Loading",
-          "printRun": "",
+          "printRun": 15,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24363,7 +24083,7 @@
           "setLine": "Greatness Loading",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24373,7 +24093,7 @@
           "setLine": "Greatness Loading",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24383,7 +24103,7 @@
           "setLine": "Greatness Loading",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24393,7 +24113,7 @@
           "setLine": "Greatness Loading",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -24741,9 +24461,19 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Variation",
           "setLine": "RetroFractor",
+          "printRun": 240,
+          "serial": "",
+          "subSetSize": 2,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Variation",
+          "setLine": "RetroFractor",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 2,
           "notes": "",
           "cmURL": ""
         },
@@ -24753,7 +24483,7 @@
           "setLine": "RetroFractor",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 2,
           "notes": "",
           "cmURL": ""
         },
@@ -24763,7 +24493,7 @@
           "setLine": "RetroFractor",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 2,
           "notes": "",
           "cmURL": ""
         },
@@ -24773,7 +24503,7 @@
           "setLine": "RetroFractor",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 2,
           "notes": "",
           "cmURL": ""
         },
@@ -24781,9 +24511,19 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Insert",
           "setLine": "Rockstar Rookies",
-          "printRun": "",
+          "printRun": 27125,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Insert",
+          "setLine": "Rockstar Rookies",
+          "printRun": 4050,
+          "serial": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24793,7 +24533,7 @@
           "setLine": "Rockstar Rookies",
           "printRun": "",
           "serial": "/250",
-          "subSetSize": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24803,7 +24543,7 @@
           "setLine": "Rockstar Rookies",
           "printRun": "",
           "serial": "/199",
-          "subSetSize": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24813,7 +24553,7 @@
           "setLine": "Rockstar Rookies",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24823,7 +24563,7 @@
           "setLine": "Rockstar Rookies",
           "printRun": "",
           "serial": "/125",
-          "subSetSize": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24833,7 +24573,7 @@
           "setLine": "Rockstar Rookies",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24843,7 +24583,7 @@
           "setLine": "Rockstar Rookies",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24853,7 +24593,7 @@
           "setLine": "Rockstar Rookies",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24863,7 +24603,7 @@
           "setLine": "Rockstar Rookies",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24873,7 +24613,7 @@
           "setLine": "Rockstar Rookies",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24881,9 +24621,9 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Insert",
           "setLine": "Rockstar Rookies",
-          "printRun": "",
+          "printRun": 15,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24893,7 +24633,7 @@
           "setLine": "Rockstar Rookies",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24903,7 +24643,7 @@
           "setLine": "Rockstar Rookies",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24913,7 +24653,7 @@
           "setLine": "Rockstar Rookies",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24923,7 +24663,7 @@
           "setLine": "Rockstar Rookies",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 20,
           "notes": "",
           "cmURL": ""
         },
@@ -24931,9 +24671,19 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Insert",
           "setLine": "ROY Favorites",
-          "printRun": "",
+          "printRun": 27000,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Insert",
+          "setLine": "ROY Favorites",
+          "printRun": 4075,
+          "serial": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -24943,7 +24693,7 @@
           "setLine": "ROY Favorites",
           "printRun": "",
           "serial": "/250",
-          "subSetSize": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -24953,7 +24703,7 @@
           "setLine": "ROY Favorites",
           "printRun": "",
           "serial": "/199",
-          "subSetSize": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -24963,7 +24713,7 @@
           "setLine": "ROY Favorites",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -24973,7 +24723,7 @@
           "setLine": "ROY Favorites",
           "printRun": "",
           "serial": "/125",
-          "subSetSize": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -24983,7 +24733,7 @@
           "setLine": "ROY Favorites",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -24993,7 +24743,7 @@
           "setLine": "ROY Favorites",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -25003,7 +24753,7 @@
           "setLine": "ROY Favorites",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -25013,7 +24763,7 @@
           "setLine": "ROY Favorites",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -25023,7 +24773,7 @@
           "setLine": "ROY Favorites",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -25031,9 +24781,9 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Insert",
           "setLine": "ROY Favorites",
-          "printRun": "",
+          "printRun": 15,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -25043,7 +24793,7 @@
           "setLine": "ROY Favorites",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -25053,7 +24803,7 @@
           "setLine": "ROY Favorites",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -25063,7 +24813,7 @@
           "setLine": "ROY Favorites",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -25073,7 +24823,7 @@
           "setLine": "ROY Favorites",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 15,
           "notes": "",
           "cmURL": ""
         },
@@ -25081,9 +24831,19 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Insert",
           "setLine": "Talent Tracker",
-          "printRun": "",
+          "printRun": 22500,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Insert",
+          "setLine": "Talent Tracker",
+          "printRun": 4025,
+          "serial": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25093,7 +24853,7 @@
           "setLine": "Talent Tracker",
           "printRun": "",
           "serial": "/250",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25103,7 +24863,7 @@
           "setLine": "Talent Tracker",
           "printRun": "",
           "serial": "/199",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25113,7 +24873,7 @@
           "setLine": "Talent Tracker",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25123,7 +24883,7 @@
           "setLine": "Talent Tracker",
           "printRun": "",
           "serial": "/125",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25133,7 +24893,7 @@
           "setLine": "Talent Tracker",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25143,7 +24903,7 @@
           "setLine": "Talent Tracker",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25153,7 +24913,7 @@
           "setLine": "Talent Tracker",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25163,7 +24923,7 @@
           "setLine": "Talent Tracker",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25173,7 +24933,7 @@
           "setLine": "Talent Tracker",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25181,9 +24941,9 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Insert",
           "setLine": "Talent Tracker",
-          "printRun": "",
+          "printRun": 15,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25193,7 +24953,7 @@
           "setLine": "Talent Tracker",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25203,7 +24963,7 @@
           "setLine": "Talent Tracker",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25213,7 +24973,7 @@
           "setLine": "Talent Tracker",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25223,7 +24983,7 @@
           "setLine": "Talent Tracker",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25231,9 +24991,19 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Insert",
           "setLine": "Very Important Prospects",
-          "printRun": "",
+          "printRun": 22500,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Insert",
+          "setLine": "Very Important Prospects",
+          "printRun": 4025,
+          "serial": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25243,7 +25013,7 @@
           "setLine": "Very Important Prospects",
           "printRun": "",
           "serial": "/250",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25253,7 +25023,7 @@
           "setLine": "Very Important Prospects",
           "printRun": "",
           "serial": "/199",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25263,7 +25033,7 @@
           "setLine": "Very Important Prospects",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25273,7 +25043,7 @@
           "setLine": "Very Important Prospects",
           "printRun": "",
           "serial": "/125",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25283,7 +25053,7 @@
           "setLine": "Very Important Prospects",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25293,7 +25063,7 @@
           "setLine": "Very Important Prospects",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25303,7 +25073,7 @@
           "setLine": "Very Important Prospects",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25313,7 +25083,7 @@
           "setLine": "Very Important Prospects",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25323,7 +25093,7 @@
           "setLine": "Very Important Prospects",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25331,9 +25101,9 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Insert",
           "setLine": "Very Important Prospects",
-          "printRun": "",
+          "printRun": 15,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25343,7 +25113,7 @@
           "setLine": "Very Important Prospects",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25353,7 +25123,7 @@
           "setLine": "Very Important Prospects",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25363,7 +25133,7 @@
           "setLine": "Very Important Prospects",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25373,7 +25143,7 @@
           "setLine": "Very Important Prospects",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25381,9 +25151,19 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Insert",
           "setLine": "Young Kings",
-          "printRun": "",
+          "printRun": 26700,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_26_bowman_basketball",
+          "setType": "Insert",
+          "setLine": "Young Kings",
+          "printRun": 4025,
+          "serial": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25393,7 +25173,7 @@
           "setLine": "Young Kings",
           "printRun": "",
           "serial": "/250",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25403,7 +25183,7 @@
           "setLine": "Young Kings",
           "printRun": "",
           "serial": "/199",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25413,7 +25193,7 @@
           "setLine": "Young Kings",
           "printRun": "",
           "serial": "/150",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25423,7 +25203,7 @@
           "setLine": "Young Kings",
           "printRun": "",
           "serial": "/125",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25433,7 +25213,7 @@
           "setLine": "Young Kings",
           "printRun": "",
           "serial": "/99",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25443,7 +25223,7 @@
           "setLine": "Young Kings",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25453,7 +25233,7 @@
           "setLine": "Young Kings",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25463,7 +25243,7 @@
           "setLine": "Young Kings",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25473,7 +25253,7 @@
           "setLine": "Young Kings",
           "printRun": "",
           "serial": "/1",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25481,9 +25261,9 @@
           "code": "2025_26_bowman_basketball",
           "setType": "Insert",
           "setLine": "Young Kings",
-          "printRun": "",
+          "printRun": 15,
           "serial": "",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25493,7 +25273,7 @@
           "setLine": "Young Kings",
           "printRun": "",
           "serial": "/50",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25503,7 +25283,7 @@
           "setLine": "Young Kings",
           "printRun": "",
           "serial": "/25",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25513,7 +25293,7 @@
           "setLine": "Young Kings",
           "printRun": "",
           "serial": "/10",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         },
@@ -25523,7 +25303,7 @@
           "setLine": "Young Kings",
           "printRun": "",
           "serial": "/5",
-          "subSetSize": "",
+          "subSetSize": 25,
           "notes": "",
           "cmURL": ""
         }
