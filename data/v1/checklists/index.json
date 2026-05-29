@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist DB map current merge",
-  "generated_at": "2026-05-29T14:00:50.297Z",
+  "source": "Checklist Google Sheets Products rebuild",
+  "generated_at": "2026-05-29T14:00:40.904Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8066,6 +8066,15 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "SPx"
+    },
+    {
+      "Code": "2025_26_upper_deck_ahl_hockey",
+      "DisplayName": "2025-26 Upper Deck AHL Hockey",
+      "Keywords": "2025-26 Upper Deck AHL Hockey, 2025-26 Upper Deck AHL Hockey checklist, 2025-26 Upper Deck AHL Hockey cards, 2025-26 Upper Deck AHL Hockey parallels, 2025-26 Upper Deck AHL Hockey autographs, Upper Deck AHL hockey, AHL hockey checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "AHL"
     },
     {
       "Code": "2025_26_upper_deck_allure_hockey_card",
