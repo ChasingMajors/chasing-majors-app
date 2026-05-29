@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist Google Sheets Products rebuild",
-  "generated_at": "2026-05-28T22:21:21.685Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-05-29T14:00:00.760Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8237,6 +8237,15 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Bundesliga International Stars"
+    },
+    {
+      "Code": "2025_26_topps_chrome_arsenal_soccer",
+      "DisplayName": "2025-26 Topps Chrome Arsenal Soccer",
+      "Keywords": "2025-26 Topps Chrome Arsenal Soccer, 2025-26 Topps Chrome Arsenal Soccer checklist, 2025-26 Topps Chrome Arsenal Soccer cards, 2025-26 Topps Chrome Arsenal Soccer parallels, 2025-26 Topps Chrome Arsenal Soccer autographs, Topps Chrome Arsenal soccer, Chrome Arsenal soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Chrome Arsenal"
     },
     {
       "Code": "2025_26_Topps_Chrome_Sapphire_Premier_League_Soccer",
