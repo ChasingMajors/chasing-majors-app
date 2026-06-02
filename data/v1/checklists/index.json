@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist Google Sheets Products rebuild",
-  "generated_at": "2026-06-02T22:17:22.811Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-06-02T22:52:55.967Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8228,6 +8228,15 @@
       "sport": "soccer",
       "manufacturer": "Panini",
       "product": "Select La Liga"
+    },
+    {
+      "Code": "2025_26_panini_select_ligue_1_soccer",
+      "DisplayName": "2025-26 Panini Select Ligue 1 Soccer",
+      "Keywords": "2025-26 Panini Select Ligue 1 Soccer, 2025-26 Panini Select Ligue 1 Soccer checklist, 2025-26 Panini Select Ligue 1 Soccer cards, 2025-26 Panini Select Ligue 1 Soccer parallels, 2025-26 Panini Select Ligue 1 Soccer autographs, Panini Select Ligue 1 soccer, Select Ligue 1 soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Select Ligue 1"
     },
     {
       "Code": "2025_26_panini_select_serie_a_soccer",
