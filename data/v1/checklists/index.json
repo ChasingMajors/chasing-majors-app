@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist DB map current merge",
-  "generated_at": "2026-06-02T22:54:34.543Z",
+  "source": "Checklist Google Sheets Products rebuild",
+  "generated_at": "2026-06-02T22:54:28.296Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8059,6 +8059,15 @@
       "product": "Skybox Metal Universe"
     },
     {
+      "Code": "2025_26_sp_game_used_chl_hockey",
+      "DisplayName": "2025-26 SP Game Used CHL Hockey",
+      "Keywords": "2025-26 SP Game Used CHL Hockey, 2025-26 SP Game Used CHL Hockey checklist, 2025-26 SP Game Used CHL Hockey cards, 2025-26 SP Game Used CHL Hockey parallels, 2025-26 SP Game Used CHL Hockey autographs, SP Game Used CHL hockey, SP Game Used CHL hockey checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "",
+      "product": "SP Game Used CHL"
+    },
+    {
       "Code": "2025_26_sp_game_used_hockey_card",
       "DisplayName": "2025-26 SP Game Used Hockey",
       "Keywords": "2025-26 SP Game Used Hockey, SP Game Used Hockey 2025-26, 2025-26 Upper Deck SP Game Used Hockey, Upper Deck SP Game Used Hockey 2025-26, 2025-26 SPGU Hockey, SPGU Hockey 2025-26, SP Game Used hockey cards 2025-26, Upper Deck NHL SP Game Used cards 2025-26, SP Game Used hockey hobby box 2025-26, SP Game Used rookies hockey 2025-26, SP Game Used rookie cards hockey 2025-26, SP Game Used autos hockey 2025-26, SP Game Used autographs hockey 2025-26, SP Game Used patch cards hockey 2025-26, SP Game Used jersey cards hockey 2025-26, SP Game Used memorabilia cards hockey 2025-26, SP Game Used parallels hockey 2025-26, Upper Deck SP Game Used Hockey checklist 2025-26, SP Game Used checklist",
@@ -8237,6 +8246,15 @@
       "sport": "soccer",
       "manufacturer": "Panini",
       "product": "Select La Liga"
+    },
+    {
+      "Code": "2025_26_panini_select_ligue_1_soccer",
+      "DisplayName": "2025-26 Panini Select Ligue 1 Soccer",
+      "Keywords": "2025-26 Panini Select Ligue 1 Soccer, 2025-26 Panini Select Ligue 1 Soccer checklist, 2025-26 Panini Select Ligue 1 Soccer cards, 2025-26 Panini Select Ligue 1 Soccer parallels, 2025-26 Panini Select Ligue 1 Soccer autographs, Panini Select Ligue 1 soccer, Select Ligue 1 soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Select Ligue 1"
     },
     {
       "Code": "2025_26_panini_select_serie_a_soccer",
