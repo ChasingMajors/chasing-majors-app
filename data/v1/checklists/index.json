@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist DB map current merge",
-  "generated_at": "2026-06-02T22:53:26.945Z",
+  "source": "Checklist Google Sheets Products rebuild",
+  "generated_at": "2026-06-02T22:53:46.743Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8048,6 +8048,15 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "Skybox Metal Universe"
+    },
+    {
+      "Code": "2025_26_sp_game_used_chl_hockey",
+      "DisplayName": "2025-26 SP Game Used CHL Hockey",
+      "Keywords": "2025-26 SP Game Used CHL Hockey, 2025-26 SP Game Used CHL Hockey checklist, 2025-26 SP Game Used CHL Hockey cards, 2025-26 SP Game Used CHL Hockey parallels, 2025-26 SP Game Used CHL Hockey autographs, SP Game Used CHL hockey, SP Game Used CHL hockey checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "",
+      "product": "SP Game Used CHL"
     },
     {
       "Code": "2025_26_sp_game_used_hockey_card",
