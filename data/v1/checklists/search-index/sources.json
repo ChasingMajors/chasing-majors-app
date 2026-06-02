@@ -1,7 +1,7 @@
 {
   "ok": true,
   "kind": "checklist_search_source_registry",
-  "generated_at": "2026-06-02T22:58:21.573Z",
+  "generated_at": "2026-06-02T22:59:27.547Z",
   "sources": {
     "baseball": [
       {
@@ -57,7 +57,7 @@
       {
         "source_key": "2025",
         "path": "sources/baseball-2025.json",
-        "generated_at": "2026-05-07T21:40:18.763Z"
+        "generated_at": "2026-06-02T22:59:27.547Z"
       }
     ],
     "football": [
@@ -74,7 +74,7 @@
       {
         "source_key": "2025",
         "path": "sources/football-2025.json",
-        "generated_at": "2026-06-02T22:58:21.573Z"
+        "generated_at": "2026-05-20T00:00:43.472Z"
       }
     ],
     "basketball": [
