@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "source": "Checklist Google Sheets Products rebuild",
-  "generated_at": "2026-06-02T23:00:49.082Z",
+  "source": "Product-scoped approved import index update",
+  "generated_at": "2026-06-07T03:25:26.190Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8156,6 +8156,15 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "Upper Deck Credentials"
+    },
+    {
+      "Code": "2025_26_upper_deck_extended_series_hockey",
+      "DisplayName": "2025-26 Upper Deck Extended Series Hockey",
+      "Keywords": "2025-26 Upper Deck Extended Series Hockey, 2025-26 Upper Deck Extended Series Hockey checklist, 2025-26 Upper Deck Extended Series Hockey cards, 2025-26 Upper Deck Extended Series Hockey parallels, 2025-26 Upper Deck Extended Series Hockey autographs, Upper Deck Extended Series hockey, Extended Series hockey checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Extended Series"
     },
     {
       "Code": "2025_26_upper_deck_fleer_ultra_hockey_card",
