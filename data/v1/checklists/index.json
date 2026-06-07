@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-06-07T03:32:40.118Z",
+  "generated_at": "2026-06-07T03:41:49.488Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8291,6 +8291,15 @@
       "sport": "soccer",
       "manufacturer": "Panini",
       "product": "Select Serie A"
+    },
+    {
+      "Code": "2025_26_panini_s_football_efl_soccer",
+      "DisplayName": "2025-26 Panini's Football EFL Soccer",
+      "Keywords": "2025-26 Panini's Football EFL Soccer, 2025-26 Panini's Football EFL Soccer checklist, 2025-26 Panini's Football EFL Soccer cards, 2025-26 Panini's Football EFL Soccer parallels, 2025-26 Panini's Football EFL Soccer autographs, Panini 's Football EFL soccer, 's Football EFL soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "s Football EFL"
     },
     {
       "Code": "2025_26_Topps_Arsenal_Team_Set_Soccer",
