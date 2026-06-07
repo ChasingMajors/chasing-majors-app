@@ -3,12 +3,13 @@
   "sport": "soccer",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-06-07T13:04:33.694Z",
+  "generated_at": "2026-06-07T13:18:43.337Z",
   "sharded": true,
   "shards": [
     "soccer-001.json",
     "soccer-product-2025-26-panini-s-football-efl-soccer.json",
-    "soccer-product-2025-26-topps-chrome-uefa-women-s-champions-league-soccer.json"
+    "soccer-product-2025-26-topps-chrome-uefa-women-s-champions-league-soccer.json",
+    "soccer-product-2025-26-topps-gold-bundesliga-soccer.json"
   ],
   "product_map": {
     "2025_panini_absolute_k_league_soccer": "soccer-001.json",
@@ -38,6 +39,7 @@
     "2025-topps-chrome-sapphire-mls": "soccer-001.json",
     "2026_Topps_Finest_Premier_League_Soccer": "soccer-001.json",
     "2025_26_panini_s_football_efl_soccer": "soccer-product-2025-26-panini-s-football-efl-soccer.json",
-    "2025_26_topps_chrome_uefa_women_s_champions_league_soccer": "soccer-product-2025-26-topps-chrome-uefa-women-s-champions-league-soccer.json"
+    "2025_26_topps_chrome_uefa_women_s_champions_league_soccer": "soccer-product-2025-26-topps-chrome-uefa-women-s-champions-league-soccer.json",
+    "2025_26_topps_gold_bundesliga_soccer": "soccer-product-2025-26-topps-gold-bundesliga-soccer.json"
   }
 }
