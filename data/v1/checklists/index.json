@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-06-07T12:51:38.349Z",
+  "generated_at": "2026-06-07T13:04:17.833Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8345,6 +8345,15 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Chrome UEFA"
+    },
+    {
+      "Code": "2025_26_topps_chrome_uefa_women_s_champions_league_soccer",
+      "DisplayName": "2025-26 Topps Chrome UEFA Women's Champions League Soccer",
+      "Keywords": "2025-26 Topps Chrome UEFA Women's Champions League Soccer, 2025-26 Topps Chrome UEFA Women's Champions League Soccer checklist, 2025-26 Topps Chrome UEFA Women's Champions League Soccer cards, 2025-26 Topps Chrome UEFA Women's Champions League Soccer parallels, 2025-26 Topps Chrome UEFA Women's Champions League Soccer autographs, Topps Chrome UEFA Women's Champions League soccer, Chrome UEFA Women's Champions League soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Chrome UEFA Women's Champions League"
     },
     {
       "Code": "2025_26_Topp_FC_Barcelona_Forever_Soccer",
