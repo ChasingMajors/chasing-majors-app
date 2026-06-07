@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-06-07T13:04:33.694Z",
+  "generated_at": "2026-06-07T13:18:43.337Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8372,6 +8372,15 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Finest Premier League"
+    },
+    {
+      "Code": "2025_26_topps_gold_bundesliga_soccer",
+      "DisplayName": "2025-26 Topps Gold Bundesliga Soccer",
+      "Keywords": "2025-26 Topps Gold Bundesliga Soccer, 2025-26 Topps Gold Bundesliga Soccer checklist, 2025-26 Topps Gold Bundesliga Soccer cards, 2025-26 Topps Gold Bundesliga Soccer parallels, 2025-26 Topps Gold Bundesliga Soccer autographs, Topps Gold Bundesliga soccer, Gold Bundesliga soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Gold Bundesliga"
     },
     {
       "Code": "2025_26_Topps_Gold_UEFA_Club_Competitions_Soccer",
