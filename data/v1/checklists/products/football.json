@@ -2,9 +2,9 @@
   "ok": true,
   "sport": "football",
   "kind": "checklist_products",
-  "source": "Checklist DB map targeted source products merge",
+  "source": "Product-scoped approved import publish",
   "source_key": "2025",
-  "generated_at": "2026-06-02T22:56:51.001Z",
+  "generated_at": "2026-06-09T18:58:58.987Z",
   "sharded": true,
   "shards": [
     "football-001.json",
