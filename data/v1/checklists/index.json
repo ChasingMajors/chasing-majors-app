@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-06-10T01:44:07.317Z",
+  "generated_at": "2026-06-10T01:54:44.318Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -5906,6 +5906,15 @@
       "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Bowman Best U"
+    },
+    {
+      "Code": "2025_26_bowman_sapphire_basketball",
+      "DisplayName": "2025-26 Bowman Sapphire Basketball",
+      "Keywords": "2025-26 Bowman Sapphire Basketball, 2025-26 Bowman Sapphire Basketball checklist, 2025-26 Bowman Sapphire Basketball cards, 2025-26 Bowman Sapphire Basketball parallels, 2025-26 Bowman Sapphire Basketball autographs, Bowman Sapphire basketball, Sapphire basketball checklist",
+      "year": "2025-26",
+      "sport": "basketball",
+      "manufacturer": "Bowman",
+      "product": "Sapphire"
     },
     {
       "Code": "2025_26_donruss_basketball",
