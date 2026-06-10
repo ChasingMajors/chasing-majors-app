@@ -2,15 +2,16 @@
   "ok": true,
   "sport": "basketball",
   "kind": "checklist_products",
-  "source": "Checklist DB map current merge",
-  "generated_at": "2026-06-02T22:14:19.581Z",
+  "source": "Product-scoped approved import publish",
+  "generated_at": "2026-06-10T01:54:44.318Z",
   "sharded": true,
   "shards": [
     "basketball-001.json",
     "basketball-002.json",
     "basketball-003.json",
     "basketball-004.json",
-    "basketball-005.json"
+    "basketball-005.json",
+    "basketball-product-2025-26-bowman-sapphire-basketball.json"
   ],
   "product_map": {
     "2024_Panini_Origins WNBA_basketball": "basketball-001.json",
@@ -119,6 +120,7 @@
     "2025_Panini_One_and_One_WNBA": "basketball-005.json",
     "2025_Panini_Prizm WNBA_basketball": "basketball-005.json",
     "2025_panini_select_wnba_basketball": "basketball-005.json",
-    "2025_Topps_Chrome_McDonalds_All_American_Basketball": "basketball-005.json"
+    "2025_Topps_Chrome_McDonalds_All_American_Basketball": "basketball-005.json",
+    "2025_26_bowman_sapphire_basketball": "basketball-product-2025-26-bowman-sapphire-basketball.json"
   }
 }
