@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-06-12T13:09:38.338Z",
+  "generated_at": "2026-06-12T13:14:03.145Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8084,6 +8084,15 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "Skybox Metal Universe"
+    },
+    {
+      "Code": "2025_26_sp_authentic_hockey",
+      "DisplayName": "2025-26 SP Authentic Hockey",
+      "Keywords": "2025-26 SP Authentic Hockey, 2025-26 SP Authentic Hockey checklist, 2025-26 SP Authentic Hockey cards, 2025-26 SP Authentic Hockey parallels, 2025-26 SP Authentic Hockey autographs, SP Authentic hockey, SP Authentic hockey checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "",
+      "product": "SP Authentic"
     },
     {
       "Code": "2025_26_sp_game_used_chl_hockey",
