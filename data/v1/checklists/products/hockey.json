@@ -3,11 +3,12 @@
   "sport": "hockey",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-06-07T03:32:40.118Z",
+  "generated_at": "2026-06-12T13:14:03.145Z",
   "sharded": true,
   "shards": [
     "hockey-001.json",
-    "hockey-product-2025-26-upper-deck-extended-series-hockey.json"
+    "hockey-product-2025-26-upper-deck-extended-series-hockey.json",
+    "hockey-product-2025-26-sp-authentic-hockey.json"
   ],
   "product_map": {
     "2025_26_spx_hockey": "hockey-001.json",
@@ -33,6 +34,7 @@
     "2025_26_upper_deck_star_rookies_hockey_card": "hockey-001.json",
     "2025_26_upper_deck_tim_hortons_hockey_card": "hockey-001.json",
     "2025_26_upper_deck_tim_hortons_team_canada_olympic_hockey_card": "hockey-001.json",
-    "2025_26_upper_deck_extended_series_hockey": "hockey-product-2025-26-upper-deck-extended-series-hockey.json"
+    "2025_26_upper_deck_extended_series_hockey": "hockey-product-2025-26-upper-deck-extended-series-hockey.json",
+    "2025_26_sp_authentic_hockey": "hockey-product-2025-26-sp-authentic-hockey.json"
   }
 }
