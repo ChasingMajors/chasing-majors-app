@@ -1,0 +1,3396 @@
+{
+  "ok": true,
+  "sport": "soccer",
+  "kind": "checklist_products",
+  "source": "Product-scoped approved import publish",
+  "generated_at": "2026-06-16T19:18:51.780Z",
+  "products": {
+    "2025_26_panini_pitch_kings_la_liga_soccer": {
+      "ok": true,
+      "meta": {
+        "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+        "displayName": "2025-26 Panini Pitch Kings La Liga Soccer",
+        "keywords": "2025-26 Panini Pitch Kings La Liga Soccer, 2025-26 Panini Pitch Kings La Liga Soccer checklist, 2025-26 Panini Pitch Kings La Liga Soccer cards, 2025-26 Panini Pitch Kings La Liga Soccer parallels, 2025-26 Panini Pitch Kings La Liga Soccer autographs, Panini Pitch Kings La Liga soccer, Pitch Kings La Liga soccer checklist",
+        "source_key": "2025-26",
+        "year": "2025-26",
+        "manufacturer": "Panini",
+        "product": "Pitch Kings La Liga",
+        "sport": "soccer"
+      },
+      "rows": [
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "1",
+          "player": "Pedri",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "2",
+          "player": "Lamine Yamal",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "3",
+          "player": "Raphinha",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "4",
+          "player": "Robert Lewandowski",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "5",
+          "player": "Ferran Torres",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "6",
+          "player": "Thibaut Courtois",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "7",
+          "player": "Vini Jr.",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "8",
+          "player": "Jude Bellingham",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "9",
+          "player": "Arda Guler",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "10",
+          "player": "Kylian Mbappe",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "11",
+          "player": "Pablo Barrios",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "12",
+          "player": "Jan Oblak",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "13",
+          "player": "David Hancko",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "14",
+          "player": "Julian Alvarez",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "15",
+          "player": "Antoine Griezmann",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "16",
+          "player": "Oihan Sancet",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "17",
+          "player": "Nico Williams",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "18",
+          "player": "Mikel Jauregizar",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "19",
+          "player": "Dani Vivian",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "20",
+          "player": "Unai Simon",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "21",
+          "player": "Alberto Moleiro",
+          "team": "Villarreal CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "22",
+          "player": "Georges Mikautadze",
+          "team": "Villarreal CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "23",
+          "player": "Luiz Junior",
+          "team": "Villarreal CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "24",
+          "player": "Santiago Mourino",
+          "team": "Villarreal CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "25",
+          "player": "Carlos Macia",
+          "team": "Villarreal CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "26",
+          "player": "Pablo Garcia",
+          "team": "Real Betis",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "27",
+          "player": "Abde Ezzalzouli",
+          "team": "Real Betis",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "28",
+          "player": "Pablo Fornals",
+          "team": "Real Betis",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "29",
+          "player": "Antony",
+          "team": "Real Betis",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "30",
+          "player": "Cucho Hernandez",
+          "team": "Real Betis",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "31",
+          "player": "Oscar Mingueza",
+          "team": "RC Celta",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "32",
+          "player": "Jones El-Abdellaoui",
+          "team": "RC Celta",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "33",
+          "player": "Sergio Carreira",
+          "team": "RC Celta",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "34",
+          "player": "Borja Iglesias",
+          "team": "RC Celta",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "35",
+          "player": "Bryan Zaragoza",
+          "team": "RC Celta",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "36",
+          "player": "Andrei Ratiu",
+          "team": "Rayo Vallecano",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "37",
+          "player": "Alvaro Garcia",
+          "team": "Rayo Vallecano",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "38",
+          "player": "Jorge de Frutos",
+          "team": "Rayo Vallecano",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "39",
+          "player": "Jozhua Vertrouwd",
+          "team": "Rayo Vallecano",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "40",
+          "player": "Nobel Mendy",
+          "team": "Rayo Vallecano",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "41",
+          "player": "Sergio Herrera",
+          "team": "CA Osasuna",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "42",
+          "player": "Victor Munoz",
+          "team": "CA Osasuna",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "43",
+          "player": "Ante Budimir",
+          "team": "CA Osasuna",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "44",
+          "player": "Ruben Garcia",
+          "team": "CA Osasuna",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "45",
+          "player": "Jon Moncayola",
+          "team": "CA Osasuna",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "46",
+          "player": "Samu Costa",
+          "team": "RCD Mallorca",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "47",
+          "player": "Jan Virgili",
+          "team": "RCD Mallorca",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "48",
+          "player": "Mateo Joseph",
+          "team": "RCD Mallorca",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "49",
+          "player": "Vedat Muriqi",
+          "team": "RCD Mallorca",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "50",
+          "player": "Leo Roman",
+          "team": "RCD Mallorca",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "51",
+          "player": "Takefusa Kubo",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "52",
+          "player": "Jon Gorrotxategi",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "53",
+          "player": "Mikel Oyarzabal",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "54",
+          "player": "Goncalo Guedes",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "55",
+          "player": "Jon Martin",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "56",
+          "player": "Hugo Duro",
+          "team": "Valencia CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "57",
+          "player": "Cesar Tarrega",
+          "team": "Valencia CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "58",
+          "player": "Diego Lopez",
+          "team": "Valencia CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "59",
+          "player": "Javi Guerra",
+          "team": "Valencia CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "60",
+          "player": "Pepelu",
+          "team": "Valencia CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "61",
+          "player": "Borja Mayoral",
+          "team": "Getafe CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "62",
+          "player": "Mauro Arambarri",
+          "team": "Getafe CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "63",
+          "player": "Adrian Liso",
+          "team": "Getafe CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "64",
+          "player": "Djene",
+          "team": "Getafe CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "65",
+          "player": "David Soria",
+          "team": "Getafe CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "66",
+          "player": "Pere Milla",
+          "team": "RCD Espanyol",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "67",
+          "player": "Pol Lozano",
+          "team": "RCD Espanyol",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "68",
+          "player": "Roberto Fernandez (F)",
+          "team": "RCD Espanyol",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "69",
+          "player": "Tyrhys Dolan",
+          "team": "RCD Espanyol",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "70",
+          "player": "Carlos Romero",
+          "team": "RCD Espanyol",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "71",
+          "player": "Youssef Enriquez",
+          "team": "D. Alaves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "72",
+          "player": "Lucas Boye",
+          "team": "D. Alaves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "73",
+          "player": "Toni Martinez",
+          "team": "D. Alaves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "74",
+          "player": "Jonny Otto",
+          "team": "D. Alaves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "75",
+          "player": "Antonio Sivera",
+          "team": "D. Alaves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "76",
+          "player": "Vitor Reis",
+          "team": "Girona FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "77",
+          "player": "Azzedine Ounahi",
+          "team": "Girona FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "78",
+          "player": "Viktor Tsygankov",
+          "team": "Girona FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "79",
+          "player": "Vladyslav Vanat",
+          "team": "Girona FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "80",
+          "player": "Joel Roca",
+          "team": "Girona FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "81",
+          "player": "Ruben Vargas",
+          "team": "Sevilla FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "82",
+          "player": "Juanlu Sanchez",
+          "team": "Sevilla FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "83",
+          "player": "Akor Adams",
+          "team": "Sevilla FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "84",
+          "player": "Odysseas Vlachodimos",
+          "team": "Sevilla FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "85",
+          "player": "Oso",
+          "team": "Sevilla FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "86",
+          "player": "Alvaro Rodriguez",
+          "team": "Elche CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "87",
+          "player": "Rafa Mir",
+          "team": "Elche CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "88",
+          "player": "David Affengruber",
+          "team": "Elche CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "89",
+          "player": "German Valera",
+          "team": "Elche CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "90",
+          "player": "Andre Silva",
+          "team": "Elche CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "91",
+          "player": "Carlos Alvarez",
+          "team": "Levante UD",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "92",
+          "player": "Ivan Romero",
+          "team": "Levante UD",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "93",
+          "player": "Karl Etta Eyong",
+          "team": "Levante UD",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "94",
+          "player": "Mathew Ryan",
+          "team": "Levante UD",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "95",
+          "player": "Manu Sanchez",
+          "team": "Levante UD",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "96",
+          "player": "Ilyas Chaira",
+          "team": "Real Oviedo",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "97",
+          "player": "Haissem Hassan",
+          "team": "Real Oviedo",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "98",
+          "player": "Alberto Reina",
+          "team": "Real Oviedo",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "99",
+          "player": "David Carmo",
+          "team": "Real Oviedo",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Pitch Kings Base",
+          "card_no": "100",
+          "player": "Leander Dendoncker",
+          "team": "Real Oviedo",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "1",
+          "player": "Ander Barrenetxea",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "2",
+          "player": "Fran Gonzalez",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "3",
+          "player": "Mario Martin",
+          "team": "Getafe CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "4",
+          "player": "Mikel Jauregizar",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "5",
+          "player": "Johnny Cardoso",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "6",
+          "player": "Benat Turrientes",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "7",
+          "player": "Michel",
+          "team": "Girona FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "8",
+          "player": "Andrei Ratiu",
+          "team": "Rayo Vallecano",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "9",
+          "player": "Isco",
+          "team": "Real Betis",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "10",
+          "player": "Alex Remiro",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "11",
+          "player": "Unai Gomez",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "12",
+          "player": "Gerard Moreno",
+          "team": "Villarreal CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "13",
+          "player": "Alex Baena",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "14",
+          "player": "Vedat Muriqi",
+          "team": "RCD Mallorca",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "15",
+          "player": "Alex Berenguer",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "16",
+          "player": "Raphinha",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "17",
+          "player": "Oihan Sancet",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "18",
+          "player": "Marc Pubill",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "19",
+          "player": "Santi Cazorla",
+          "team": "Real Oviedo",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "20",
+          "player": "Sergio Camello",
+          "team": "Rayo Vallecano",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "21",
+          "player": "Joan Garcia",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "22",
+          "player": "Antonio Blanco",
+          "team": "D. Alaves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "23",
+          "player": "Sergio Gomez",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "24",
+          "player": "Jose Luis Gaya",
+          "team": "Valencia CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "25",
+          "player": "Hector Fort",
+          "team": "Elche CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "26",
+          "player": "Jorge de Frutos",
+          "team": "Rayo Vallecano",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "27",
+          "player": "Marcus Rashford",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "28",
+          "player": "Edu Exposito",
+          "team": "RCD Espanyol",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "29",
+          "player": "Gerard Martin",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "30",
+          "player": "Borja Mayoral",
+          "team": "Getafe CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "31",
+          "player": "Isaac Romero",
+          "team": "Sevilla FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "32",
+          "player": "Yangel Herrera",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "33",
+          "player": "Iago Aspas",
+          "team": "RC Celta",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "34",
+          "player": "Alberto Moleiro",
+          "team": "Villarreal CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Brush Strokes",
+          "card_no": "35",
+          "player": "Leander Dendoncker",
+          "team": "Real Oviedo",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "1",
+          "player": "Iker Munoz",
+          "team": "CA Osasuna",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "2",
+          "player": "Inigo Ruiz de Galarreta",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "3",
+          "player": "Hugo Alvarez",
+          "team": "RC Celta",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "5",
+          "player": "Aitor Paredes",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "6",
+          "player": "Paulo Gazzaniga",
+          "team": "Girona FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "7",
+          "player": "Lamine Yamal",
+          "team": "FC Barcelona*",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "8",
+          "player": "Eric Garcia",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "9",
+          "player": "Javi Rodriguez",
+          "team": "RC Celta",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "10",
+          "player": "Aimar Oroz",
+          "team": "CA Osasuna",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "12",
+          "player": "David Hancko",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "13",
+          "player": "Inaki Pena",
+          "team": "Elche CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "14",
+          "player": "Abel Ruiz",
+          "team": "Girona FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "15",
+          "player": "Sergi Darder",
+          "team": "RCD Mallorca",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "16",
+          "player": "Dani Ceballos",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "17",
+          "player": "Bryan Gil",
+          "team": "Girona FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "18",
+          "player": "Pol Lozano",
+          "team": "RCD Espanyol",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "19",
+          "player": "Hugo Sotelo",
+          "team": "RC Celta",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "20",
+          "player": "Antonio Rudiger",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "21",
+          "player": "Julian Alvarez",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "22",
+          "player": "Isi Palazon",
+          "team": "Rayo Vallecano",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "23",
+          "player": "Juan Cruz",
+          "team": "CA Osasuna",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "24",
+          "player": "Omar El Hilali",
+          "team": "RCD Espanyol",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "25",
+          "player": "Alvaro Carreras",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "26",
+          "player": "Gorka Guruzeta",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "27",
+          "player": "Javi Puado",
+          "team": "RCD Espanyol",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "28",
+          "player": "Bryan Zaragoza",
+          "team": "RC Celta",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "29",
+          "player": "Igor Zubeldia",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "30",
+          "player": "Brais Mendez",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "31",
+          "player": "Chimy Avila",
+          "team": "Real Betis",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "32",
+          "player": "Robert Navarro",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "33",
+          "player": "Grady Diangana",
+          "team": "Elche CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Fresh Paint",
+          "card_no": "35",
+          "player": "Fran Perez",
+          "team": "Rayo Vallecano",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "1",
+          "player": "Dani Olmo",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "2",
+          "player": "Tomas Ujfalusi",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "3",
+          "player": "Emilio Butragueno",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "4",
+          "player": "Ilkay Gundogan",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "5",
+          "player": "Gianluca Zambrotta",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "6",
+          "player": "Xabi Alonso",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "7",
+          "player": "Bodo Illgner",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "8",
+          "player": "Diego Simeone",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "9",
+          "player": "Kylian Mbappe",
+          "team": "Real Madrid*",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "10",
+          "player": "Toni Kroos",
+          "team": "Real Madrid*",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "11",
+          "player": "Hristo Stoichkov",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "12",
+          "player": "Samuel Eto'o",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "14",
+          "player": "Robert Lewandowski",
+          "team": "FC Barcelona*",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "15",
+          "player": "Luka Modric",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "16",
+          "player": "Zinedine Zidane",
+          "team": "Real Madrid*",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "17",
+          "player": "Cesar Azpilicueta",
+          "team": "Sevilla FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "18",
+          "player": "Michael Laudrup",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "19",
+          "player": "Romario",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "20",
+          "player": "Pablo Zabaleta",
+          "team": "RCD Espanyol",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "22",
+          "player": "Zlatan Ibrahimovic",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "23",
+          "player": "James Rodriguez",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "24",
+          "player": "Fernando Morientes",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "25",
+          "player": "Kily Gonzalez",
+          "team": "Valencia CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "26",
+          "player": "Ronaldo",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "27",
+          "player": "Gary Lineker",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "28",
+          "player": "Enzo Maresca",
+          "team": "Sevilla FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "29",
+          "player": "Javier Saviola",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Pitch Kings Legendary Portrait Signatures",
+          "card_no": "30",
+          "player": "Angel Di Maria",
+          "team": "Real Madrid*",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Aurora",
+          "card_no": "1",
+          "player": "Pedri",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Aurora",
+          "card_no": "2",
+          "player": "Takefusa Kubo",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Aurora",
+          "card_no": "3",
+          "player": "Arda Guler",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Aurora",
+          "card_no": "4",
+          "player": "Alberto Moleiro",
+          "team": "Villarreal CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Aurora",
+          "card_no": "5",
+          "player": "Trent Alexander-Arnold",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Aurora",
+          "card_no": "6",
+          "player": "Julian Alvarez",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Aurora",
+          "card_no": "7",
+          "player": "Jan Virgili",
+          "team": "RCD Mallorca",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Aurora",
+          "card_no": "8",
+          "player": "Marcus Rashford",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Aurora",
+          "card_no": "9",
+          "player": "Jan Oblak",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Blackout",
+          "card_no": "1",
+          "player": "Robert Lewandowski",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Blackout",
+          "card_no": "2",
+          "player": "Vini Jr.",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Blackout",
+          "card_no": "3",
+          "player": "Karl Etta Eyong",
+          "team": "Levante UD",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Blackout",
+          "card_no": "4",
+          "player": "Dean Huijsen",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Blackout",
+          "card_no": "5",
+          "player": "Nico Williams",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Blackout",
+          "card_no": "6",
+          "player": "Fermin Lopez",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Blackout",
+          "card_no": "7",
+          "player": "Lamine Yamal",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Blackout",
+          "card_no": "8",
+          "player": "Federico Valverde",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Blackout",
+          "card_no": "9",
+          "player": "Joan Garcia",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Elegance",
+          "card_no": "1",
+          "player": "Robert Lewandowski",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Elegance",
+          "card_no": "2",
+          "player": "Antoine Griezmann",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Elegance",
+          "card_no": "3",
+          "player": "Santi Comesana",
+          "team": "Villarreal CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Elegance",
+          "card_no": "4",
+          "player": "Marcos Alonso",
+          "team": "RC Celta",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Elegance",
+          "card_no": "5",
+          "player": "Alejandro Catena",
+          "team": "CA Osasuna",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Elegance",
+          "card_no": "6",
+          "player": "Mikel Oyarzabal",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Elegance",
+          "card_no": "7",
+          "player": "Juan Iglesias",
+          "team": "Getafe CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Elegance",
+          "card_no": "8",
+          "player": "Jon Pacheco",
+          "team": "D. Alaves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Elegance",
+          "card_no": "9",
+          "player": "Lucien Agoume",
+          "team": "Sevilla FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Elegance",
+          "card_no": "10",
+          "player": "Jeremy Toljan",
+          "team": "Levante UD",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Elegance",
+          "card_no": "11",
+          "player": "Jude Bellingham",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Elegance",
+          "card_no": "12",
+          "player": "Unai Simon",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings First Steps",
+          "card_no": "1",
+          "player": "Vini Jr.",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings First Steps",
+          "card_no": "2",
+          "player": "Aymeric Laporte",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings First Steps",
+          "card_no": "3",
+          "player": "Cucho Hernandez",
+          "team": "Real Betis",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings First Steps",
+          "card_no": "4",
+          "player": "Pep Chavarria",
+          "team": "Rayo Vallecano",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings First Steps",
+          "card_no": "5",
+          "player": "Pablo Torre",
+          "team": "RCD Mallorca",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings First Steps",
+          "card_no": "6",
+          "player": "Julen Agirrezabala",
+          "team": "Valencia CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings First Steps",
+          "card_no": "7",
+          "player": "Omar El Hilali",
+          "team": "RCD Espanyol",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings First Steps",
+          "card_no": "8",
+          "player": "Arnau Martinez",
+          "team": "Girona FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings First Steps",
+          "card_no": "9",
+          "player": "Martim Neto",
+          "team": "Elche CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings First Steps",
+          "card_no": "10",
+          "player": "Salomon Rondon",
+          "team": "Real Oviedo",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings First Steps",
+          "card_no": "11",
+          "player": "Lamine Yamal",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings First Steps",
+          "card_no": "12",
+          "player": "Thiago Almada",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Le Cinque Piu Belle",
+          "card_no": "1",
+          "player": "Lamine Yamal",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Le Cinque Piu Belle",
+          "card_no": "2",
+          "player": "Kylian Mbappe",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Le Cinque Piu Belle",
+          "card_no": "3",
+          "player": "Julian Alvarez",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Le Cinque Piu Belle",
+          "card_no": "4",
+          "player": "Pedri",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Le Cinque Piu Belle",
+          "card_no": "5",
+          "player": "Jude Bellingham",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Maestros",
+          "card_no": "1",
+          "player": "Pedri",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Maestros",
+          "card_no": "2",
+          "player": "Koke",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Maestros",
+          "card_no": "3",
+          "player": "Tajon Buchanan",
+          "team": "Villarreal CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Maestros",
+          "card_no": "4",
+          "player": "Ilaix Moriba",
+          "team": "RC Celta",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Maestros",
+          "card_no": "5",
+          "player": "Aimar Oroz",
+          "team": "CA Osasuna",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Maestros",
+          "card_no": "6",
+          "player": "Takefusa Kubo",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Maestros",
+          "card_no": "7",
+          "player": "Luis Milla",
+          "team": "Getafe CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Maestros",
+          "card_no": "8",
+          "player": "Carles Alena",
+          "team": "D. Alaves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Maestros",
+          "card_no": "9",
+          "player": "Jose Angel Carmona",
+          "team": "Sevilla FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Maestros",
+          "card_no": "10",
+          "player": "Matias Moreno",
+          "team": "Levante UD",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Maestros",
+          "card_no": "11",
+          "player": "Federico Valverde",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Maestros",
+          "card_no": "12",
+          "player": "Oihan Sancet",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies I",
+          "card_no": "1",
+          "player": "Victor Valdepenas",
+          "team": "Real Madrid",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies I",
+          "card_no": "2",
+          "player": "Carlos Macia",
+          "team": "Villarreal CF",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies I",
+          "card_no": "3",
+          "player": "Selton Sanchez",
+          "team": "Athletic Club",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies I",
+          "card_no": "4",
+          "player": "Oso",
+          "team": "Sevilla FC",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies I",
+          "card_no": "5",
+          "player": "Mateo Joseph",
+          "team": "RCD Mallorca",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies II",
+          "card_no": "1",
+          "player": "Joel Roca",
+          "team": "Girona FC",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies II",
+          "card_no": "2",
+          "player": "Jones El-Abdellaoui",
+          "team": "RC Celta",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies II",
+          "card_no": "3",
+          "player": "Jon Martin",
+          "team": "Real Sociedad",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies II",
+          "card_no": "4",
+          "player": "Alejandro Rego",
+          "team": "Athletic Club",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies II",
+          "card_no": "5",
+          "player": "Toni Fernandez",
+          "team": "FC Barcelona",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies III",
+          "card_no": "1",
+          "player": "Adrian Liso",
+          "team": "Getafe CF",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies III",
+          "card_no": "2",
+          "player": "Marc Pubill",
+          "team": "Atletico de Madrid",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies III",
+          "card_no": "3",
+          "player": "Carlos Alvarez",
+          "team": "Levante UD",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies III",
+          "card_no": "4",
+          "player": "Victor Munoz",
+          "team": "CA Osasuna",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies III",
+          "card_no": "5",
+          "player": "Orri Oskarsson",
+          "team": "Real Sociedad",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies IV",
+          "card_no": "1",
+          "player": "Rodrigo Mendoza",
+          "team": "Atletico de Madrid",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies IV",
+          "card_no": "2",
+          "player": "Karl Etta Eyong",
+          "team": "Levante UD",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies IV",
+          "card_no": "3",
+          "player": "Vitor Reis",
+          "team": "Girona FC",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies IV",
+          "card_no": "4",
+          "player": "Pablo Garcia",
+          "team": "Real Betis",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Rookies IV",
+          "card_no": "5",
+          "player": "Jan Virgili",
+          "team": "RCD Mallorca",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Self Expression",
+          "card_no": "1",
+          "player": "Kylian Mbappe",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Self Expression",
+          "card_no": "2",
+          "player": "Nico Williams",
+          "team": "Athletic Club",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Self Expression",
+          "card_no": "3",
+          "player": "Antony",
+          "team": "Real Betis",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Self Expression",
+          "card_no": "4",
+          "player": "Unai Lopez",
+          "team": "Rayo Vallecano",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Self Expression",
+          "card_no": "5",
+          "player": "Johan Mojica",
+          "team": "RCD Mallorca",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Self Expression",
+          "card_no": "6",
+          "player": "Arnaut Danjuma",
+          "team": "Valencia CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Self Expression",
+          "card_no": "7",
+          "player": "Edu Exposito",
+          "team": "RCD Espanyol",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Self Expression",
+          "card_no": "8",
+          "player": "Axel Witsel",
+          "team": "Girona FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Self Expression",
+          "card_no": "9",
+          "player": "Aleix Febas",
+          "team": "Elche CF",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Self Expression",
+          "card_no": "10",
+          "player": "Santiago Colombatto",
+          "team": "Real Oviedo",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Self Expression",
+          "card_no": "11",
+          "player": "Fermin Lopez",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings Self Expression",
+          "card_no": "12",
+          "player": "Giuliano Simeone",
+          "team": "Atletico de Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings State of the Art",
+          "card_no": "1",
+          "player": "Jude Bellingham",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings State of the Art",
+          "card_no": "2",
+          "player": "Raphinha",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings State of the Art",
+          "card_no": "3",
+          "player": "Pau Cubarsi",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings State of the Art",
+          "card_no": "4",
+          "player": "Vladyslav Vanat",
+          "team": "Girona FC",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings State of the Art",
+          "card_no": "5",
+          "player": "Kylian Mbappe",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings State of the Art",
+          "card_no": "6",
+          "player": "Mikel Oyarzabal",
+          "team": "Real Sociedad",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings State of the Art",
+          "card_no": "7",
+          "player": "Thibaut Courtois",
+          "team": "Real Madrid",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings State of the Art",
+          "card_no": "8",
+          "player": "Ferran Torres",
+          "team": "FC Barcelona",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Pitch Kings State of the Art",
+          "card_no": "9",
+          "player": "Rodrygo",
+          "team": "Real Madrid",
+          "tag": ""
+        }
+      ],
+      "parallels": [
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Pitch Kings Base",
+          "parallel_name": "Artist Proof",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Pitch Kings Base",
+          "parallel_name": "Ruby",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Pitch Kings Base",
+          "parallel_name": "Burgundy",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Pitch Kings Base",
+          "parallel_name": "Pink",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Pitch Kings Base",
+          "parallel_name": "Amber",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Pitch Kings Base",
+          "parallel_name": "Violet",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Pitch Kings Base",
+          "parallel_name": "Sapphire",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Pitch Kings Base",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Pitch Kings Base",
+          "parallel_name": "Obsidian",
+          "serial_no": "/8"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Pitch Kings Base",
+          "parallel_name": "Masterpiece",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Brush Strokes",
+          "parallel_name": "Jade",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Brush Strokes",
+          "parallel_name": "Ruby #/49 or Less",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Brush Strokes",
+          "parallel_name": "Sapphire #/25 or Less",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Brush Strokes",
+          "parallel_name": "Gold #/10 or Less",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Brush Strokes",
+          "parallel_name": "Obsidian #/8 or Less",
+          "serial_no": "/8"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Brush Strokes",
+          "parallel_name": "Masterpiece",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Fresh Paint",
+          "parallel_name": "Jade",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Fresh Paint",
+          "parallel_name": "Ruby #/49 or",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Fresh Paint",
+          "parallel_name": "Sapphire #/25 or",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Fresh Paint",
+          "parallel_name": "Gold #/10 or",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Fresh Paint",
+          "parallel_name": "Obsidian #/8 or",
+          "serial_no": "/8"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Fresh Paint",
+          "parallel_name": "Masterpiece",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Pitch Kings Legendary Portrait Signatures",
+          "parallel_name": "Jade",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Pitch Kings Legendary Portrait Signatures",
+          "parallel_name": "Ruby #/49 or Less",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Pitch Kings Legendary Portrait Signatures",
+          "parallel_name": "Sapphire #/25 or Less",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Pitch Kings Legendary Portrait Signatures",
+          "parallel_name": "Gold #/10 or Less",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Pitch Kings Legendary Portrait Signatures",
+          "parallel_name": "Obsidian #/8 or Less",
+          "serial_no": "/8"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Pitch Kings Legendary Portrait Signatures",
+          "parallel_name": "Masterpiece",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Elegance",
+          "parallel_name": "Jade",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Elegance",
+          "parallel_name": "Ruby",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Elegance",
+          "parallel_name": "Amber",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Elegance",
+          "parallel_name": "Violet",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Elegance",
+          "parallel_name": "Sapphire",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Elegance",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Elegance",
+          "parallel_name": "Obsidian",
+          "serial_no": "/8"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Elegance",
+          "parallel_name": "Masterpiece",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings First Steps",
+          "parallel_name": "Jade",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings First Steps",
+          "parallel_name": "Ruby",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings First Steps",
+          "parallel_name": "Amber",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings First Steps",
+          "parallel_name": "Violet",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings First Steps",
+          "parallel_name": "Sapphire",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings First Steps",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings First Steps",
+          "parallel_name": "Obsidian",
+          "serial_no": "/8"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings First Steps",
+          "parallel_name": "Masterpiece",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Maestros",
+          "parallel_name": "Jade",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Maestros",
+          "parallel_name": "Ruby",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Maestros",
+          "parallel_name": "Amber",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Maestros",
+          "parallel_name": "Violet",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Maestros",
+          "parallel_name": "Sapphire",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Maestros",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Maestros",
+          "parallel_name": "Obsidian",
+          "serial_no": "/8"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Maestros",
+          "parallel_name": "Masterpiece",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Self Expression",
+          "parallel_name": "Jade",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Self Expression",
+          "parallel_name": "Ruby",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Self Expression",
+          "parallel_name": "Amber",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Self Expression",
+          "parallel_name": "Violet",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Self Expression",
+          "parallel_name": "Sapphire",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Self Expression",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Self Expression",
+          "parallel_name": "Obsidian",
+          "serial_no": "/8"
+        },
+        {
+          "code": "2025_26_panini_pitch_kings_la_liga_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Pitch Kings Self Expression",
+          "parallel_name": "Masterpiece",
+          "serial_no": "/1"
+        }
+      ]
+    }
+  }
+}
