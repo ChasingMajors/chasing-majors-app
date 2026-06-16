@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-06-16T19:12:51.697Z",
+  "generated_at": "2026-06-16T19:18:51.780Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8282,6 +8282,15 @@
       "sport": "soccer",
       "manufacturer": "Panini",
       "product": "Noir Road to FIFA World Cup 26"
+    },
+    {
+      "Code": "2025_26_panini_pitch_kings_la_liga_soccer",
+      "DisplayName": "2025-26 Panini Pitch Kings La Liga Soccer",
+      "Keywords": "2025-26 Panini Pitch Kings La Liga Soccer, 2025-26 Panini Pitch Kings La Liga Soccer checklist, 2025-26 Panini Pitch Kings La Liga Soccer cards, 2025-26 Panini Pitch Kings La Liga Soccer parallels, 2025-26 Panini Pitch Kings La Liga Soccer autographs, Panini Pitch Kings La Liga soccer, Pitch Kings La Liga soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Pitch Kings La Liga"
     },
     {
       "Code": "2025_26_panini_prizm_fifa_soccer",
