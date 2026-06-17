@@ -2,8 +2,8 @@
   "ok": true,
   "sport": "baseball",
   "kind": "checklist_products",
-  "source": "Product-scoped approved import publish",
-  "generated_at": "2026-06-16T19:12:51.697Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-06-17T05:53:43.383Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
