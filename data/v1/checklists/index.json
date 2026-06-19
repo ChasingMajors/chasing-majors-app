@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-06-16T19:21:03.820Z",
+  "generated_at": "2026-06-19T03:25:33.631Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -20,6 +20,15 @@
       "sport": "baseball",
       "manufacturer": "Bowman",
       "product": "Mega Box"
+    },
+    {
+      "Code": "2026_bowman_sapphire_baseball",
+      "DisplayName": "2026 Bowman Sapphire Baseball",
+      "Keywords": "2026 Bowman Sapphire Baseball, 2026 Bowman Sapphire Baseball checklist, 2026 Bowman Sapphire Baseball cards, 2026 Bowman Sapphire Baseball parallels, 2026 Bowman Sapphire Baseball autographs, Bowman Sapphire baseball, Sapphire baseball checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Sapphire"
     },
     {
       "Code": "2026_donruss_baseball",
