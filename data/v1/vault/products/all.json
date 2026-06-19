@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-06-18T21:25:30.014Z",
+  "generated_at": "2026-06-19T04:34:42.846Z",
   "sharded": true,
   "shards": [
     "all-001.json"
@@ -87,6 +87,7 @@
     "2025_26_bowman_s_best_university_basketball": "all-001.json",
     "2025_26_topps_chrome_cactus_jack_basketball_basketball": "all-001.json",
     "1994_score_series1_baseball": "all-001.json",
-    "1994_score_series2_baseball": "all-001.json"
+    "1994_score_series2_baseball": "all-001.json",
+    "2025_topps_cosmic_chrome_football": "all-001.json"
   }
 }
