@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-06-18T21:25:30.014Z",
+  "generated_at": "2026-06-19T04:34:42.846Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -33768,6 +33768,370 @@
           "subSetSize": 30,
           "notes": "",
           "cmURL": ""
+        }
+      ]
+    },
+    "2025_topps_cosmic_chrome_football": {
+      "ok": true,
+      "meta": {
+        "code": "2025_topps_cosmic_chrome_football",
+        "displayName": "2025 Topps Cosmic Chrome Football",
+        "year": "2025",
+        "sport": "football",
+        "manufacturer": "Topps",
+        "product": "Cosmic Chrome",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Base",
+          "setLine": "Base cards per player",
+          "printRun": 25250,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Base",
+          "setLine": "Base rookies",
+          "printRun": 11580,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Parallel",
+          "setLine": "Refractor",
+          "printRun": 580,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Parallel",
+          "setLine": "Nucleus",
+          "printRun": 300,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Parallel",
+          "setLine": "White Hole",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Refractors",
+          "printRun": 580,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Nucleus",
+          "printRun": 300,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Parallel",
+          "setLine": "Rookie White Hole",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Insert",
+          "setLine": "Light Speed",
+          "printRun": 5515,
+          "serial": "",
+          "subSetSize": 35,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Insert",
+          "setLine": "Extraterrestrial Talent",
+          "printRun": 5790,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Insert",
+          "setLine": "Stars in the Night",
+          "printRun": 5780,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Insert",
+          "setLine": "Star Clusters",
+          "printRun": 5515,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Insert",
+          "setLine": "Light Years",
+          "printRun": 83,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Insert",
+          "setLine": "Cosmic Dust",
+          "printRun": 83,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Insert",
+          "setLine": "Cos-Play",
+          "printRun": 83,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Insert",
+          "setLine": "Supernova",
+          "printRun": 83,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Insert",
+          "setLine": "Constellation",
+          "printRun": 24,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Insert",
+          "setLine": "Starfractor",
+          "printRun": 35,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Insert",
+          "setLine": "Planetarium",
+          "printRun": 86,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Planetary Pursuits",
+          "setLine": "Sun",
+          "printRun": 725,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Planetary Pursuits",
+          "setLine": "Mercury",
+          "printRun": 360,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Planetary Pursuits",
+          "setLine": "Venus",
+          "printRun": 180,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Planetary Pursuits",
+          "setLine": "Earth",
+          "printRun": 120,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Planetary Pursuits",
+          "setLine": "Mars",
+          "printRun": 72,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Planetary Pursuits",
+          "setLine": "Jupiter",
+          "printRun": 36,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Planetary Pursuits",
+          "setLine": "Saturn",
+          "printRun": 18,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Planetary Pursuits",
+          "setLine": "Uranus",
+          "printRun": 9,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Planetary Pursuits",
+          "setLine": "Neptune",
+          "printRun": 5,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Planetary Pursuits",
+          "setLine": "Pluto",
+          "printRun": 4,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Auto",
+          "setLine": "Cosmic Chrome Base Autos",
+          "printRun": 40,
+          "serial": "",
+          "subSetSize": 68,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Base",
+          "setLine": "Part 6: Print Runs Base cards per player",
+          "printRun": 25250,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Auto",
+          "setLine": "(I know. The odds say these are easier to pull than Green Space Dust Autos, so how can there be less of them? These are never all inserted into a product. Some are withheld for damage replacements, or it’s possible not every player signed certain parallels. Whatever the reason, only ~30 of each Green are inserted into the product. Additionally, only ~36 of each Gold are inserted. This is not uncommon. I’ve talked about this in the past and it’s just not worth dwelling on. This will not make the expected pull rate of autos go down.)",
+          "printRun": 30,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Auto",
+          "setLine": "Solar Flare Signatures",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 26,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Auto",
+          "setLine": "Equinox Autos",
+          "printRun": 45,
+          "serial": "",
+          "subSetSize": 29,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
+        },
+        {
+          "code": "2025_topps_cosmic_chrome_football",
+          "setType": "Auto",
+          "setLine": "First Flight Signatures",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-cosmic-chrome-nfl"
         }
       ]
     }
