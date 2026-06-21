@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-06-21T16:28:53.822Z",
+  "generated_at": "2026-06-21T21:53:43.104Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8228,6 +8228,15 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "Upper Deck MVP"
+    },
+    {
+      "Code": "2025_26_upper_deck_parkhurst_hockey",
+      "DisplayName": "2025-26 Upper Deck Parkhurst Hockey",
+      "Keywords": "2025-26 Upper Deck Parkhurst Hockey, 2025-26 Upper Deck Parkhurst Hockey checklist, 2025-26 Upper Deck Parkhurst Hockey cards, 2025-26 Upper Deck Parkhurst Hockey parallels, 2025-26 Upper Deck Parkhurst Hockey autographs, Upper Deck Parkhurst hockey, Parkhurst hockey checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Parkhurst"
     },
     {
       "Code": "2025_26_upper_deck_series_1_hockey_card",
