@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-06-21T16:27:47.235Z",
+  "generated_at": "2026-06-21T16:28:53.822Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8185,6 +8185,15 @@
       "product": "Upper Deck Black Diamond"
     },
     {
+      "Code": "2025_26_upper_deck_chl_hockey",
+      "DisplayName": "2025-26 Upper Deck CHL Hockey",
+      "Keywords": "2025-26 Upper Deck CHL Hockey, 2025-26 Upper Deck CHL Hockey checklist, 2025-26 Upper Deck CHL Hockey cards, 2025-26 Upper Deck CHL Hockey parallels, 2025-26 Upper Deck CHL Hockey autographs, Upper Deck CHL hockey, CHL hockey checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "CHL"
+    },
+    {
       "Code": "2025_26_upper_deck_credentials_hockey_card",
       "DisplayName": "2025-26 Upper Deck Credentials Hockey",
       "Keywords": "2025-26 Upper Deck Credentials Hockey, Upper Deck Credentials Hockey 2025-26, 2025-26 UD Credentials Hockey, UD Credentials Hockey 2025-26, 2025-26 Upper Deck Credentials cards, Credentials hockey cards 2025-26, Upper Deck NHL cards 2025-26 Credentials, Credentials hockey hobby box 2025-26, Credentials hockey blaster 2025-26, Credentials hockey retail 2025-26, Credentials rookies hockey 2025-26, Credentials rookie cards hockey 2025-26, Credentials autos hockey 2025-26, Credentials autographs hockey 2025-26, Credentials parallels hockey 2025-26, Credentials ticket access cards hockey 2025-26, Credentials inserts hockey 2025-26, Upper Deck Credentials Hockey checklist 2025-26, Credentials checklist",
@@ -8219,15 +8228,6 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "Upper Deck MVP"
-    },
-    {
-      "Code": "2025_26_upper_deck_parkhurst_hockey",
-      "DisplayName": "2025-26 Upper Deck Parkhurst Hockey",
-      "Keywords": "2025-26 Upper Deck Parkhurst Hockey, 2025-26 Upper Deck Parkhurst Hockey checklist, 2025-26 Upper Deck Parkhurst Hockey cards, 2025-26 Upper Deck Parkhurst Hockey parallels, 2025-26 Upper Deck Parkhurst Hockey autographs, Upper Deck Parkhurst hockey, Parkhurst hockey checklist",
-      "year": "2025-26",
-      "sport": "hockey",
-      "manufacturer": "Upper Deck",
-      "product": "Parkhurst"
     },
     {
       "Code": "2025_26_upper_deck_series_1_hockey_card",
