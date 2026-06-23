@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-06-23T03:01:58.759Z",
+  "generated_at": "2026-06-23T17:06:22.394Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8282,6 +8282,15 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "Tim Hortons Team Canada Olympic"
+    },
+    {
+      "Code": "2026_panini_prizm_fifa_world_cup_soccer",
+      "DisplayName": "2026 Panini Prizm FIFA World Cup Soccer",
+      "Keywords": "2026 Panini Prizm FIFA World Cup Soccer, 2026 Panini Prizm FIFA World Cup Soccer checklist, 2026 Panini Prizm FIFA World Cup Soccer cards, 2026 Panini Prizm FIFA World Cup Soccer parallels, 2026 Panini Prizm FIFA World Cup Soccer autographs, Panini Prizm FIFA World Cup soccer, Prizm FIFA World Cup soccer checklist",
+      "year": "2026",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Prizm FIFA World Cup"
     },
     {
       "Code": "2026_topps_argentina_team_set_soccer",
