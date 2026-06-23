@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-06-23T15:59:04.807Z",
+  "generated_at": "2026-06-23T15:59:45.840Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -34112,6 +34112,380 @@
           "subSetSize": 25,
           "notes": "",
           "cmURL": ""
+        }
+      ]
+    },
+    "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+        "displayName": "2026 Topps Pristine Premier League & 2026 Merlin Premier League",
+        "year": "2026",
+        "sport": "soccer",
+        "manufacturer": "Topps",
+        "product": "Pristine Premier League & 2026 Merlin Premier League",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Base",
+          "setLine": "Base card production",
+          "printRun": 12667,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Parallel",
+          "setLine": "Refractors",
+          "printRun": 330,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Parallel",
+          "setLine": "Top Corner Parallel",
+          "printRun": 165,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Common Inserts (Precisionaires, Pure Strike, Generational, Perseverance)",
+          "printRun": 330,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Pristine Seasons",
+          "printRun": 20,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Glacier",
+          "printRun": 5,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Amped",
+          "printRun": 40,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Pearlescent",
+          "printRun": 20,
+          "serial": "",
+          "subSetSize": 40,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Pristine Ivory",
+          "printRun": 5,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "The Grail",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 1,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Auto",
+          "setLine": "Pristine Pieces Auto Relics",
+          "printRun": 23,
+          "serial": "",
+          "subSetSize": 24,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Auto",
+          "setLine": "Popular Demand Auto Relic",
+          "printRun": 24,
+          "serial": "",
+          "subSetSize": 24,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Auto",
+          "setLine": "Base card",
+          "printRun": 12667,
+          "serial": "",
+          "subSetSize": 76,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Parallel",
+          "setLine": "Refractors",
+          "printRun": 2535,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Parallel",
+          "setLine": "Raywave (Value only)",
+          "printRun": 1930,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Parallel",
+          "setLine": "Mojo (Hobby only)",
+          "printRun": 625,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Parallel",
+          "setLine": "Vintage Merlin (Hobby only)",
+          "printRun": 3740,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Parallel",
+          "setLine": "VHS Refractor (Value only)",
+          "printRun": 4510,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Common Inserts (Fantasy Football, Mystic Afternoons, Merlin’s Young Magicians, Merlin Speaks)",
+          "printRun": 7605,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Ta-Da (Value only, 50 card CL)",
+          "printRun": 5150,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "1996 Variations",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Merlin’s Mythical Art",
+          "printRun": 315,
+          "serial": "",
+          "subSetSize": 11,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Rainbow Flick",
+          "printRun": 110,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Magic in His Boots",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": 40,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Renaissance",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Merlin’s Magnum Opus",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "The Shiny",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Mystic Afternoon",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 11,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Insert",
+          "setLine": "Mask Off",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 1,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Auto",
+          "setLine": "Auto Variations",
+          "printRun": 200,
+          "serial": "",
+          "subSetSize": 80,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Auto",
+          "setLine": "Enchanted Pen Refractor",
+          "printRun": 60,
+          "serial": "",
+          "subSetSize": 18,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Auto",
+          "setLine": "Spellbinding Trios Refractor",
+          "printRun": 40,
+          "serial": "",
+          "subSetSize": 6,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Auto",
+          "setLine": "Merlin’s Match Ball Signatures Refractor",
+          "printRun": 70,
+          "serial": "",
+          "subSetSize": 33,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Base",
+          "setLine": "Base card production",
+          "printRun": 1490,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Auto",
+          "setLine": "Pristine Autos",
+          "printRun": 18,
+          "serial": "",
+          "subSetSize": 76,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
+        },
+        {
+          "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+          "setType": "Auto",
+          "setLine": "Base card",
+          "printRun": 12667,
+          "serial": "",
+          "subSetSize": 76,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-pristine-premier-league"
         }
       ]
     }
