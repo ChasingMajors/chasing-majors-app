@@ -2,8 +2,8 @@
   "ok": true,
   "sport": "soccer",
   "kind": "checklist_search",
-  "source": "Checklist DB map current merge",
-  "generated_at": "2026-06-02T22:53:26.945Z",
+  "source": "Product-scoped approved import search update",
+  "generated_at": "2026-06-23T17:24:04.488Z",
   "sharded": true,
   "shards": [
     "soccer-001.json",
