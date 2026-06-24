@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-06-23T17:34:11.769Z",
+  "generated_at": "2026-06-24T15:43:53.228Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8453,6 +8453,15 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Finest Premier League"
+    },
+    {
+      "Code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+      "DisplayName": "2025-26 Topps Finest UEFA Club Competitions Soccer",
+      "Keywords": "2025-26 Topps Finest UEFA Club Competitions Soccer, 2025-26 Topps Finest UEFA Club Competitions Soccer checklist, 2025-26 Topps Finest UEFA Club Competitions Soccer cards, 2025-26 Topps Finest UEFA Club Competitions Soccer parallels, 2025-26 Topps Finest UEFA Club Competitions Soccer autographs, Topps Finest UEFA Club Competitions soccer, Finest UEFA Club Competitions soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Finest UEFA Club Competitions"
     },
     {
       "Code": "2025_26_topps_gold_bundesliga_soccer",
