@@ -3,7 +3,7 @@
   "sport": "basketball",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-06-16T17:10:08.232Z",
+  "generated_at": "2026-06-26T00:47:00.383Z",
   "sharded": true,
   "shards": [
     "basketball-001.json",
@@ -12,7 +12,8 @@
     "basketball-004.json",
     "basketball-005.json",
     "basketball-product-2025-26-bowman-sapphire-basketball.json",
-    "basketball-product-2025-26-panini-origins-euroleague-basketball.json"
+    "basketball-product-2025-26-panini-origins-euroleague-basketball.json",
+    "basketball-product-2025-26-topps-nbl-basketball.json"
   ],
   "product_map": {
     "2024_Panini_Origins WNBA_basketball": "basketball-001.json",
@@ -123,6 +124,7 @@
     "2025_panini_select_wnba_basketball": "basketball-005.json",
     "2025_Topps_Chrome_McDonalds_All_American_Basketball": "basketball-005.json",
     "2025_26_bowman_sapphire_basketball": "basketball-product-2025-26-bowman-sapphire-basketball.json",
-    "2025_26_panini_origins_euroleague_basketball": "basketball-product-2025-26-panini-origins-euroleague-basketball.json"
+    "2025_26_panini_origins_euroleague_basketball": "basketball-product-2025-26-panini-origins-euroleague-basketball.json",
+    "2025_26_topps_nbl_basketball": "basketball-product-2025-26-topps-nbl-basketball.json"
   }
 }
