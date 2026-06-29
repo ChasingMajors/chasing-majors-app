@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-06-27T16:34:33.738Z",
+  "generated_at": "2026-06-29T23:56:04.040Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -65,6 +65,15 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome Black"
+    },
+    {
+      "Code": "2026_topps_finest_baseball",
+      "DisplayName": "2026 Topps Finest Baseball",
+      "Keywords": "2026 Topps Finest Baseball, 2026 Topps Finest Baseball checklist, 2026 Topps Finest Baseball cards, 2026 Topps Finest Baseball parallels, 2026 Topps Finest Baseball autographs, Topps Finest baseball, Finest baseball checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Finest"
     },
     {
       "Code": "2026_Topps_Heritage",
