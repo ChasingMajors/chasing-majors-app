@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-01T23:43:07.271Z",
+  "generated_at": "2026-07-03T16:00:08.743Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8363,6 +8363,15 @@
       "sport": "soccer",
       "manufacturer": "Panini",
       "product": "Pitch Kings La Liga"
+    },
+    {
+      "Code": "2025_26_panini_prestige_efl_soccer",
+      "DisplayName": "2025-26 Panini Prestige EFL Soccer",
+      "Keywords": "2025-26 Panini Prestige EFL Soccer, 2025-26 Panini Prestige EFL Soccer checklist, 2025-26 Panini Prestige EFL Soccer cards, 2025-26 Panini Prestige EFL Soccer parallels, 2025-26 Panini Prestige EFL Soccer autographs, Panini Prestige EFL soccer, Prestige EFL soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Prestige EFL"
     },
     {
       "Code": "2025_26_panini_prizm_fifa_soccer",
