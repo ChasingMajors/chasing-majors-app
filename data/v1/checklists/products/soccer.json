@@ -3,7 +3,7 @@
   "sport": "soccer",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-06-26T00:53:25.951Z",
+  "generated_at": "2026-07-03T16:00:08.743Z",
   "sharded": true,
   "shards": [
     "soccer-001.json",
@@ -14,7 +14,8 @@
     "soccer-product-2026-topps-argentina-team-set-soccer.json",
     "soccer-product-2026-panini-prizm-fifa-world-cup-soccer.json",
     "soccer-product-2025-26-topps-finest-uefa-club-competitions-soccer.json",
-    "soccer-product-2025-26-topps-chrome-sapphire-uefa-club-competitions-soccer.json"
+    "soccer-product-2025-26-topps-chrome-sapphire-uefa-club-competitions-soccer.json",
+    "soccer-product-2025-26-panini-prestige-efl-soccer.json"
   ],
   "product_map": {
     "2025_panini_absolute_k_league_soccer": "soccer-001.json",
@@ -50,6 +51,7 @@
     "2026_topps_argentina_team_set_soccer": "soccer-product-2026-topps-argentina-team-set-soccer.json",
     "2026_panini_prizm_fifa_world_cup_soccer": "soccer-product-2026-panini-prizm-fifa-world-cup-soccer.json",
     "2025_26_topps_finest_uefa_club_competitions_soccer": "soccer-product-2025-26-topps-finest-uefa-club-competitions-soccer.json",
-    "2025_26_topps_chrome_sapphire_uefa_club_competitions_soccer": "soccer-product-2025-26-topps-chrome-sapphire-uefa-club-competitions-soccer.json"
+    "2025_26_topps_chrome_sapphire_uefa_club_competitions_soccer": "soccer-product-2025-26-topps-chrome-sapphire-uefa-club-competitions-soccer.json",
+    "2025_26_panini_prestige_efl_soccer": "soccer-product-2025-26-panini-prestige-efl-soccer.json"
   }
 }
