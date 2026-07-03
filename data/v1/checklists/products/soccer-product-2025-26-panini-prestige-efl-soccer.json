@@ -1,0 +1,6600 @@
+{
+  "ok": true,
+  "sport": "soccer",
+  "kind": "checklist_products",
+  "source": "Product-scoped approved import publish",
+  "generated_at": "2026-07-03T16:00:08.743Z",
+  "products": {
+    "2025_26_panini_prestige_efl_soccer": {
+      "ok": true,
+      "meta": {
+        "code": "2025_26_panini_prestige_efl_soccer",
+        "displayName": "2025-26 Panini Prestige EFL Soccer",
+        "keywords": "2025-26 Panini Prestige EFL Soccer, 2025-26 Panini Prestige EFL Soccer checklist, 2025-26 Panini Prestige EFL Soccer cards, 2025-26 Panini Prestige EFL Soccer parallels, 2025-26 Panini Prestige EFL Soccer autographs, Panini Prestige EFL soccer, Prestige EFL soccer checklist",
+        "source_key": "2025-26",
+        "year": "2025-26",
+        "manufacturer": "Panini",
+        "product": "Prestige EFL",
+        "sport": "soccer"
+      },
+      "rows": [
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "1",
+          "player": "Divin Mubama",
+          "team": "Stoke City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "2",
+          "player": "Sorba Thomas",
+          "team": "Stoke City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "3",
+          "player": "Ben Wilmot",
+          "team": "Stoke City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "4",
+          "player": "Jun-Ho Bae",
+          "team": "Stoke City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "5",
+          "player": "Viktor Johansson",
+          "team": "Stoke City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "6",
+          "player": "Million Manhoef",
+          "team": "Stoke City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "7",
+          "player": "Ashley Phillips",
+          "team": "Stoke City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "8",
+          "player": "Ivor Pandur",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "9",
+          "player": "Oliver McBurnie",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "10",
+          "player": "Ryan Giles",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "11",
+          "player": "Joe Gelhardt",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "12",
+          "player": "Charlie Hughes",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "13",
+          "player": "Kyle Joseph",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "14",
+          "player": "Regan Slater",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "15",
+          "player": "Daniel Jebbison",
+          "team": "Preston North End",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "16",
+          "player": "Lewis Dobbin",
+          "team": "Preston North End",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "17",
+          "player": "Michael Smith",
+          "team": "Preston North End",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "18",
+          "player": "Thierry Small",
+          "team": "Preston North End",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "19",
+          "player": "Daniel Iversen",
+          "team": "Preston North End",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "20",
+          "player": "Jordan Storey",
+          "team": "Preston North End",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "21",
+          "player": "Alfie Devine",
+          "team": "Preston North End",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "22",
+          "player": "Jeremy Ngakia",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "23",
+          "player": "Tom Ince",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "24",
+          "player": "Luca Kjerrumgaard",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "25",
+          "player": "Nestory Irankunda",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "26",
+          "player": "Imran Louza",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "27",
+          "player": "Giorgi Chakvetadze",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "28",
+          "player": "Josh Tymon",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "29",
+          "player": "Goncalo Franco",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "30",
+          "player": "Adam Idah",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "31",
+          "player": "Zan Vipotnik",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "32",
+          "player": "Ronald",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "33",
+          "player": "Ethan Galbraith",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "34",
+          "player": "Jeremy Monga",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "35",
+          "player": "Jordan James",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "36",
+          "player": "Bobby De Cordova-Reid",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "37",
+          "player": "Aaron Ramsey (1-21-2003)",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "38",
+          "player": "Jordan Ayew",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "39",
+          "player": "Jannik Vestergaard",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "40",
+          "player": "Abdul Fatawu",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "41",
+          "player": "Michael Cooper",
+          "team": "Sheffield United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "42",
+          "player": "Gustavo Hamer",
+          "team": "Sheffield United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "43",
+          "player": "Sydie Peck",
+          "team": "Sheffield United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "44",
+          "player": "Patrick Bamford",
+          "team": "Sheffield United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "45",
+          "player": "Tyrese Campbell",
+          "team": "Sheffield United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "46",
+          "player": "Callum O'Hare",
+          "team": "Sheffield United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "47",
+          "player": "Haji Wright",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "48",
+          "player": "Jack Rudoni",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "49",
+          "player": "Milan van Ewijk",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "50",
+          "player": "Ellis Simms",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "51",
+          "player": "Brandon Thomas-Asante",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "52",
+          "player": "Victor Torp",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "53",
+          "player": "Carl Rushworth",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "54",
+          "player": "Mihailo Ivanovic",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "55",
+          "player": "Camiel Neghli",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "56",
+          "player": "Caleb Taylor",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "57",
+          "player": "Thierno Ballo",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "58",
+          "player": "Alfie Doughty",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "59",
+          "player": "Tristan Crama",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "60",
+          "player": "Femi Azeez",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "61",
+          "player": "Sindre Walle Egeli",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "62",
+          "player": "Leif Davis",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "63",
+          "player": "Jaden Philogene",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "64",
+          "player": "Dara O'Shea",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "65",
+          "player": "George Hirst",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "66",
+          "player": "Jack Clarke",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "67",
+          "player": "Marcelino Nunez",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "68",
+          "player": "Will Lankshear",
+          "team": "Oxford United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "69",
+          "player": "Michal Helik",
+          "team": "Oxford United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "70",
+          "player": "Brian De Keersmaecker",
+          "team": "Oxford United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "71",
+          "player": "Jamie Cumming",
+          "team": "Oxford United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "72",
+          "player": "Cameron Brannagan",
+          "team": "Oxford United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "73",
+          "player": "Stanley Mills",
+          "team": "Oxford United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "74",
+          "player": "Rumarn Burrell",
+          "team": "Queens Park Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "75",
+          "player": "Richard Kone",
+          "team": "Queens Park Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "76",
+          "player": "Jimmy Dunne",
+          "team": "Queens Park Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "77",
+          "player": "Nicolas Madsen",
+          "team": "Queens Park Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "78",
+          "player": "Ilias Chair",
+          "team": "Queens Park Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "79",
+          "player": "Koki Saito",
+          "team": "Queens Park Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "80",
+          "player": "Patrick Agyemang",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "81",
+          "player": "Carlton Morris",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "82",
+          "player": "Ben Brereton Diaz",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "83",
+          "player": "Sondre Langas",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "84",
+          "player": "Joe Ward",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "85",
+          "player": "Bobby Clark",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "86",
+          "player": "Riley McGree",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "87",
+          "player": "Hayden Hackney",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "88",
+          "player": "Tommy Conway",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "89",
+          "player": "Morgan Whittaker",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "90",
+          "player": "Matt Targett",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "91",
+          "player": "Sol Brynn",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "92",
+          "player": "Callum Brittain",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "93",
+          "player": "Conor Chaplin",
+          "team": "Portsmouth",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "94",
+          "player": "Zak Swanson",
+          "team": "Portsmouth",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "95",
+          "player": "Josh Murphy",
+          "team": "Portsmouth",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "96",
+          "player": "Terry Devlin",
+          "team": "Portsmouth",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "97",
+          "player": "Adrian Segecic",
+          "team": "Portsmouth",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "98",
+          "player": "Makenzie Kirk",
+          "team": "Portsmouth",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "99",
+          "player": "Sinclair Armstrong",
+          "team": "Bristol City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "100",
+          "player": "Scott Twine",
+          "team": "Bristol City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "101",
+          "player": "Emil Riis",
+          "team": "Bristol City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "102",
+          "player": "Jason Knight",
+          "team": "Bristol City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "103",
+          "player": "Radek Vitek",
+          "team": "Bristol City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "104",
+          "player": "Rob Atkinson",
+          "team": "Bristol City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "105",
+          "player": "Adam Randell",
+          "team": "Bristol City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "106",
+          "player": "Nathan Broadhead",
+          "team": "Wrexham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "107",
+          "player": "Max Cleworth",
+          "team": "Wrexham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "108",
+          "player": "Ben Sheaf",
+          "team": "Wrexham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "109",
+          "player": "Josh Windass",
+          "team": "Wrexham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "110",
+          "player": "Kieffer Moore",
+          "team": "Wrexham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "111",
+          "player": "Callum Doyle",
+          "team": "Wrexham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "112",
+          "player": "Lewis O'Brien",
+          "team": "Wrexham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "113",
+          "player": "Ibrahim Fullah",
+          "team": "Charlton Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "114",
+          "player": "Tyreece Campbell",
+          "team": "Charlton Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "115",
+          "player": "Sonny Carey",
+          "team": "Charlton Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "116",
+          "player": "Miles Leaburn",
+          "team": "Charlton Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "117",
+          "player": "Conor Coventry",
+          "team": "Charlton Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "118",
+          "player": "Charlie Kelman",
+          "team": "Charlton Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "119",
+          "player": "Taylor Harwood-Bellis",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "120",
+          "player": "Finn Azaz",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "121",
+          "player": "Shea Charles",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "122",
+          "player": "Caspar Jander",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "123",
+          "player": "Leo Scienza",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "124",
+          "player": "Jay Robinson",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "125",
+          "player": "Ryan Manning",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "126",
+          "player": "Mikey Johnston",
+          "team": "West Bromwich Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "127",
+          "player": "Nathaniel Phillips",
+          "team": "West Bromwich Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "128",
+          "player": "Alex Mowatt",
+          "team": "West Bromwich Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "129",
+          "player": "Aune Heggebo",
+          "team": "West Bromwich Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "130",
+          "player": "Karlan Grant",
+          "team": "West Bromwich Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "131",
+          "player": "Isaac Price",
+          "team": "West Bromwich Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "132",
+          "player": "Tommy Doyle",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "133",
+          "player": "Demarai Gray",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "134",
+          "player": "Jay Stansfield",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "135",
+          "player": "Seung-Ho Paik",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "136",
+          "player": "James Beadle",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "137",
+          "player": "Alex Cochrane",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "138",
+          "player": "Christoph Klarer",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "139",
+          "player": "Harry Darling",
+          "team": "Norwich City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "140",
+          "player": "Mathias Kvistgaarden",
+          "team": "Norwich City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "141",
+          "player": "Jovon Makama",
+          "team": "Norwich City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "142",
+          "player": "Oscar Schwartau",
+          "team": "Norwich City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "143",
+          "player": "Vladan Kovacevic",
+          "team": "Norwich City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "144",
+          "player": "Kenny McLean",
+          "team": "Norwich City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "145",
+          "player": "Andri Gudjohnsen",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "146",
+          "player": "Ryoya Morishita",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "147",
+          "player": "Todd Cantwell",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "148",
+          "player": "Yuki Ohashi",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "149",
+          "player": "Ryan Alebiosu",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "150",
+          "player": "Ryan Hedges",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "151",
+          "player": "Charlie McNeill",
+          "team": "Sheffield Wednesday",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "152",
+          "player": "Max Lowe",
+          "team": "Sheffield Wednesday",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "153",
+          "player": "Svante Ingelsson",
+          "team": "Sheffield Wednesday",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "154",
+          "player": "Sean Fusire",
+          "team": "Sheffield Wednesday",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "155",
+          "player": "Jamal Lowe",
+          "team": "Sheffield Wednesday",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "156",
+          "player": "Jaden Heskey",
+          "team": "Sheffield Wednesday",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "157",
+          "player": "Fabio Tavares",
+          "team": "Burton Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "158",
+          "player": "Charlie Webster",
+          "team": "Burton Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "159",
+          "player": "Kyran Lofthouse",
+          "team": "Burton Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "160",
+          "player": "Tyrese Shade",
+          "team": "Burton Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "161",
+          "player": "Amario Cozier-Duberry",
+          "team": "Bolton Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "162",
+          "player": "Mason Burstow",
+          "team": "Bolton Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "163",
+          "player": "Max Conway",
+          "team": "Bolton Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "164",
+          "player": "Sam Dalby",
+          "team": "Bolton Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "165",
+          "player": "Josh Koroma",
+          "team": "Leyton Orient",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "166",
+          "player": "Aaron Connolly",
+          "team": "Leyton Orient",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "167",
+          "player": "Dom Ballard",
+          "team": "Leyton Orient",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "168",
+          "player": "Idris El Mizouni",
+          "team": "Leyton Orient",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "169",
+          "player": "Harry Leonard",
+          "team": "Peterborough United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "170",
+          "player": "Archie Collins",
+          "team": "Peterborough United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "171",
+          "player": "Jimmy-Jay Morgan",
+          "team": "Peterborough United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "172",
+          "player": "Kyrell Lisbie",
+          "team": "Peterborough United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "173",
+          "player": "Yousef Salech",
+          "team": "Cardiff City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "174",
+          "player": "Nathan Trott",
+          "team": "Cardiff City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "175",
+          "player": "Ronan Kpakio",
+          "team": "Cardiff City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "176",
+          "player": "Rubin Colwill",
+          "team": "Cardiff City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "177",
+          "player": "Kyle Wootton",
+          "team": "Stockport County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "178",
+          "player": "Oliver Norwood",
+          "team": "Stockport County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "179",
+          "player": "Jack Diamond",
+          "team": "Stockport County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "180",
+          "player": "Ethan Pye",
+          "team": "Stockport County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "181",
+          "player": "Will Swan",
+          "team": "Bradford City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "182",
+          "player": "Bobby Pointon",
+          "team": "Bradford City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "183",
+          "player": "Josh Neufville",
+          "team": "Bradford City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "184",
+          "player": "Antoni Sarcevic",
+          "team": "Bradford City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "185",
+          "player": "Jordan Clark",
+          "team": "Luton Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "186",
+          "player": "Gideon Kodua",
+          "team": "Luton Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "187",
+          "player": "Teden Mengi",
+          "team": "Luton Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "188",
+          "player": "Jake Richards",
+          "team": "Luton Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "189",
+          "player": "Tyler Roberts",
+          "team": "Mansfield Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "190",
+          "player": "Will Evans",
+          "team": "Mansfield Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "191",
+          "player": "Liam Roberts",
+          "team": "Mansfield Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "192",
+          "player": "Nathan Moriah-Welsh",
+          "team": "Mansfield Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "193",
+          "player": "Denzel Hall",
+          "team": "Rotherham United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "194",
+          "player": "Joe Powell",
+          "team": "Rotherham United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "195",
+          "player": "Ar'jany Martha",
+          "team": "Rotherham United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "196",
+          "player": "Dan Gore",
+          "team": "Rotherham United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "197",
+          "player": "Christian Saydee",
+          "team": "Wigan Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "198",
+          "player": "Fraser Murray",
+          "team": "Wigan Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "199",
+          "player": "Callum Wright",
+          "team": "Wigan Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "200",
+          "player": "Sam Tickle",
+          "team": "Wigan Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "201",
+          "player": "Antwoine Hackford",
+          "team": "AFC Wimbledon",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "202",
+          "player": "Marcus Browne",
+          "team": "AFC Wimbledon",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "203",
+          "player": "Matty Stevens",
+          "team": "AFC Wimbledon",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "204",
+          "player": "Nathan Asiimwe",
+          "team": "AFC Wimbledon",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "205",
+          "player": "Malachi Boateng",
+          "team": "Plymouth Argyle",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "206",
+          "player": "Lorent Tolaj",
+          "team": "Plymouth Argyle",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "207",
+          "player": "Bradley Ibrahim",
+          "team": "Plymouth Argyle",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "208",
+          "player": "Aribim Pepple",
+          "team": "Plymouth Argyle",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "209",
+          "player": "David McGoldrick",
+          "team": "Barnsley",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "210",
+          "player": "Luca Connell",
+          "team": "Barnsley",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "211",
+          "player": "Vimal Yoganathan",
+          "team": "Barnsley",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "212",
+          "player": "Reyes Cleary",
+          "team": "Barnsley",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "213",
+          "player": "Jack Moylan",
+          "team": "Lincoln City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "214",
+          "player": "Reeco Hackett",
+          "team": "Lincoln City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "215",
+          "player": "Freddie Draper",
+          "team": "Lincoln City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "216",
+          "player": "George Wickens",
+          "team": "Lincoln City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "217",
+          "player": "Owen Bailey",
+          "team": "Doncaster Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "218",
+          "player": "Luke Molyneux",
+          "team": "Doncaster Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "219",
+          "player": "Jordan Gibson",
+          "team": "Doncaster Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "220",
+          "player": "Brandon Hanlan",
+          "team": "Doncaster Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "221",
+          "player": "George Hall",
+          "team": "Port Vale",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "222",
+          "player": "Joe Gauci",
+          "team": "Port Vale",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "223",
+          "player": "Ben Waine",
+          "team": "Port Vale",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "224",
+          "player": "Connor Hall",
+          "team": "Port Vale",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "225",
+          "player": "Joe Whitworth",
+          "team": "Exeter City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "226",
+          "player": "Jayden Wareham",
+          "team": "Exeter City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "227",
+          "player": "Ethan Brierley",
+          "team": "Exeter City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "228",
+          "player": "Jack Fitzwater",
+          "team": "Exeter City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "229",
+          "player": "Tyrese Fornah",
+          "team": "Northampton Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "230",
+          "player": "Michael Forbes",
+          "team": "Northampton Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "231",
+          "player": "Tom Eaves",
+          "team": "Northampton Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "232",
+          "player": "Sam Hoskins",
+          "team": "Northampton Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "233",
+          "player": "Lewis Wing",
+          "team": "Reading",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "234",
+          "player": "Finley Burns",
+          "team": "Reading",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "235",
+          "player": "Jack Marriott",
+          "team": "Reading",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "236",
+          "player": "Kamari Doyle",
+          "team": "Reading",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "237",
+          "player": "Jamie Reid",
+          "team": "Stevenage",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "238",
+          "player": "Harvey White",
+          "team": "Stevenage",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "239",
+          "player": "Chem Campbell",
+          "team": "Stevenage",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "240",
+          "player": "Filip Marschall",
+          "team": "Stevenage",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "241",
+          "player": "Jamie Mullins",
+          "team": "Wycombe Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "242",
+          "player": "Junior Quitirna",
+          "team": "Wycombe Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "243",
+          "player": "Jack Grimmer",
+          "team": "Wycombe Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "244",
+          "player": "Fred Onyedinma",
+          "team": "Wycombe Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "245",
+          "player": "Bojan Radulovic",
+          "team": "Huddersfield Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "246",
+          "player": "Lynden Gooch",
+          "team": "Huddersfield Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "247",
+          "player": "Cameron Ashia",
+          "team": "Huddersfield Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "248",
+          "player": "Alfie May",
+          "team": "Huddersfield Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "249",
+          "player": "Oliver Casey",
+          "team": "Blackpool",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "250",
+          "player": "Bailey Peacock-Farrell",
+          "team": "Blackpool",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "251",
+          "player": "Ashley Fletcher",
+          "team": "Blackpool",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "252",
+          "player": "Tom Bloxham",
+          "team": "Blackpool",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "253",
+          "player": "Isaac Hutchinson",
+          "team": "Cheltenham Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "254",
+          "player": "Jordan Thomas",
+          "team": "Cheltenham Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "255",
+          "player": "Daniel Kanu",
+          "team": "Walsall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "256",
+          "player": "Evan Weir",
+          "team": "Walsall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "257",
+          "player": "Mark Helm",
+          "team": "Fleetwood Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "258",
+          "player": "Elliot Bonds",
+          "team": "Fleetwood Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "259",
+          "player": "Michael Cheek",
+          "team": "Bromley",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "260",
+          "player": "Mitch Pinnock",
+          "team": "Bromley",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "261",
+          "player": "Kyreece Lisbie",
+          "team": "Colchester United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "262",
+          "player": "Harry Anderson",
+          "team": "Colchester United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "263",
+          "player": "Omari Patrick",
+          "team": "Tranmere Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "264",
+          "player": "Charlie Whitaker",
+          "team": "Tranmere Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "265",
+          "player": "Zach Hemming",
+          "team": "Chesterfield",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "266",
+          "player": "Lee Bonis",
+          "team": "Chesterfield",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "267",
+          "player": "Kieran Green",
+          "team": "Grimsby Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "268",
+          "player": "Jaze Kabia",
+          "team": "Grimsby Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "269",
+          "player": "Bradley Dack",
+          "team": "Gillingham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "270",
+          "player": "Max Clark",
+          "team": "Gillingham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "271",
+          "player": "James Brophy",
+          "team": "Cambridge United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "272",
+          "player": "Kylian Kouassi",
+          "team": "Cambridge United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "273",
+          "player": "Kelly Nmai",
+          "team": "Salford City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "274",
+          "player": "Daniel Udoh",
+          "team": "Salford City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "275",
+          "player": "Michael Mellon",
+          "team": "Oldham Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "276",
+          "player": "Mathew Hudson",
+          "team": "Oldham Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "277",
+          "player": "Emre Tezgel",
+          "team": "Crewe Alexandra",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "278",
+          "player": "Tommi O'Reilly",
+          "team": "Crewe Alexandra",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "279",
+          "player": "Lewis Shipley",
+          "team": "Barrow",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "280",
+          "player": "Ben Whitfield",
+          "team": "Barrow",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "281",
+          "player": "Harry McKirdy",
+          "team": "Crawley Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "282",
+          "player": "Josh Flint",
+          "team": "Crawley Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "283",
+          "player": "George Lloyd",
+          "team": "Shrewsbury Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "284",
+          "player": "Isaac England",
+          "team": "Shrewsbury Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "285",
+          "player": "Michael Spellman",
+          "team": "Newport County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "286",
+          "player": "Bobby Kamwa",
+          "team": "Newport County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "287",
+          "player": "Isaac Heath",
+          "team": "Accrington Stanley",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "288",
+          "player": "Tyler Walton",
+          "team": "Accrington Stanley",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "289",
+          "player": "Matthew Dennis",
+          "team": "Notts County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "290",
+          "player": "Tyrese Hall",
+          "team": "Notts County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "291",
+          "player": "Callum Paterson",
+          "team": "Milton Keynes Dons",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "292",
+          "player": "Nathaniel Mendez-Laing",
+          "team": "Milton Keynes Dons",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "293",
+          "player": "Aaron Drinan",
+          "team": "Swindon Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "294",
+          "player": "Ollie Palmer",
+          "team": "Swindon Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "295",
+          "player": "Adam Senior",
+          "team": "Barnet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "296",
+          "player": "Callum Stead",
+          "team": "Barnet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "297",
+          "player": "Reece Smith",
+          "team": "Harrogate Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "298",
+          "player": "Stephen Duke-McKenna",
+          "team": "Harrogate Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "299",
+          "player": "Fabrizio Cavegn",
+          "team": "Bristol Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "300",
+          "player": "Kamil Conteh",
+          "team": "Bristol Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "2",
+          "player": "Jason Knight",
+          "team": "Bristol City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "3",
+          "player": "Omari Kellyman",
+          "team": "Cardiff City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "4",
+          "player": "Tommy Conway",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "5",
+          "player": "Demarai Gray",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "6",
+          "player": "Taylor Harwood-Bellis",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "7",
+          "player": "Bobby De Cordova-Reid",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "10",
+          "player": "Aaron Ramsey",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "11",
+          "player": "Ryan Giles",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "12",
+          "player": "Oliver Skipp",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "13",
+          "player": "Oliver Norwood",
+          "team": "Stockport County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "14",
+          "player": "Oriol Romeu",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "15",
+          "player": "Seung-Ho Paik",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "16",
+          "player": "Chuba Akpom",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "17",
+          "player": "Jaden Philogene",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "18",
+          "player": "Nathan Tella",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "19",
+          "player": "Jimmy Dunne",
+          "team": "Queens Park Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "21",
+          "player": "Jeremy Sarmiento",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "22",
+          "player": "Jan Molby",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "23",
+          "player": "Paulo Gazzaniga",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "24",
+          "player": "Che Adams",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "25",
+          "player": "Antonee Robinson",
+          "team": "Bolton Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "27",
+          "player": "Gareth Barry",
+          "team": "West Bromwich Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "29",
+          "player": "Andre Ayew",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "30",
+          "player": "John Harkes",
+          "team": "Sheffield Wednesday",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "32",
+          "player": "Glen Johnson",
+          "team": "Portsmouth",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "33",
+          "player": "Adam Wharton",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "34",
+          "player": "Leo Ostigard",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "35",
+          "player": "Ademola Lookman",
+          "team": "Charlton Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "36",
+          "player": "Harvey Elliott",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "37",
+          "player": "Joel Ward",
+          "team": "Portsmouth",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "38",
+          "player": "Gareth Bale",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "39",
+          "player": "Jonathan Rowe",
+          "team": "Norwich City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "40",
+          "player": "James Trafford",
+          "team": "Bolton Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "41",
+          "player": "Peter Shilton",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "42",
+          "player": "Danny Murphy",
+          "team": "Crewe Alexandra",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "43",
+          "player": "Emile Heskey",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "44",
+          "player": "Alan Shearer",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "45",
+          "player": "Ben Chilwell",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "46",
+          "player": "Andrej Kramaric",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "47",
+          "player": "Robbie Fowler",
+          "team": "Cardiff City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Distinctive Ink",
+          "card_no": "50",
+          "player": "Harry Kane",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "1",
+          "player": "Amari'i Bell",
+          "team": "Charlton Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "2",
+          "player": "Shea Charles",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "4",
+          "player": "Enzo Maresca",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "5",
+          "player": "Ji-Sung Eom",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "6",
+          "player": "Ethan Galbraith",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "7",
+          "player": "Jordan Ayew",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "8",
+          "player": "Joe Gelhardt",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "9",
+          "player": "Kieffer Moore",
+          "team": "Wrexham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "10",
+          "player": "Will Smallbone",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "11",
+          "player": "Jeffrey Schlupp",
+          "team": "Norwich City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "12",
+          "player": "Roy Wegerle",
+          "team": "Queens Park Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "13",
+          "player": "Conor Coady",
+          "team": "Charlton Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "14",
+          "player": "Cobi Jones",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "16",
+          "player": "Adam Idah",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "17",
+          "player": "Formose Mendy",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "18",
+          "player": "Shay Given",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "19",
+          "player": "Wayne Rooney",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "21",
+          "player": "Nolberto Solano",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "22",
+          "player": "Brad Friedel",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "23",
+          "player": "Yasin Ayari",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "24",
+          "player": "Craig Burley",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "25",
+          "player": "Joleon Lescott",
+          "team": "West Bromwich Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "26",
+          "player": "Joao Pedro",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "27",
+          "player": "Ben Davies",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "29",
+          "player": "Emiliano Martinez",
+          "team": "Reading",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "31",
+          "player": "Yakubu",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "32",
+          "player": "Nwankwo Kanu",
+          "team": "Portsmouth",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "33",
+          "player": "Patrik Berger",
+          "team": "Portsmouth",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "34",
+          "player": "Elliot Anderson",
+          "team": "Bristol Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "35",
+          "player": "Alex Scott",
+          "team": "Bristol City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "36",
+          "player": "Jordan Pickford",
+          "team": "Preston North End",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "37",
+          "player": "Max Aarons",
+          "team": "Norwich City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "38",
+          "player": "Jay-Jay Okocha",
+          "team": "Bolton Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "39",
+          "player": "Teddy Sheringham",
+          "team": "Millwall *",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "40",
+          "player": "Liam Delap",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "41",
+          "player": "Mark Hateley",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "42",
+          "player": "Harvey Barnes",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "43",
+          "player": "Nicky Butt",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "44",
+          "player": "Tom Huddlestone",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "46",
+          "player": "Benni McCarthy",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "47",
+          "player": "Terry Butcher",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "48",
+          "player": "Nick Pope",
+          "team": "Charlton Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "49",
+          "player": "Gary Lineker",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Shutter Signatures",
+          "card_no": "50",
+          "player": "Robbie Keane",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "1",
+          "player": "Sindre Walle Egeli",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "2",
+          "player": "Jack Wilshere",
+          "team": "Luton Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "3",
+          "player": "Jay Stansfield",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "4",
+          "player": "Kasey McAteer",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "5",
+          "player": "Finn Azaz",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "6",
+          "player": "Milan van Ewijk",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "7",
+          "player": "Hayden Hackney",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "8",
+          "player": "Haji Wright",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "9",
+          "player": "Sorba Thomas",
+          "team": "Stoke City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "10",
+          "player": "Jack Rudoni",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "11",
+          "player": "Brandon Thomas-Asante",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "12",
+          "player": "Joe Gelhardt",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "13",
+          "player": "Patrick Agyemang",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "14",
+          "player": "Jeremy Monga",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "15",
+          "player": "Nestory Irankunda",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "16",
+          "player": "James Trafford",
+          "team": "Bolton Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "17",
+          "player": "Ademola Lookman",
+          "team": "Charlton Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "18",
+          "player": "Ollie Watkins",
+          "team": "Exeter City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "19",
+          "player": "Robbie Keane",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "20",
+          "player": "Elliot Anderson",
+          "team": "Bristol Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "21",
+          "player": "Teddy Sheringham",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "22",
+          "player": "Gary Lineker",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "23",
+          "player": "Jamie Vardy",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "24",
+          "player": "Gareth Bale",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Blank Slate",
+          "card_no": "25",
+          "player": "Joao Pedro",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "1",
+          "player": "Radek Vitek",
+          "team": "Bristol City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "2",
+          "player": "Taylor Harwood-Bellis",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "3",
+          "player": "Jaden Philogene",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "4",
+          "player": "Frank Lampard",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "5",
+          "player": "Abdul Fatawu",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "6",
+          "player": "Imran Louza",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "7",
+          "player": "Viktor Johansson",
+          "team": "Stoke City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "8",
+          "player": "Leif Davis",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "9",
+          "player": "Adam Wharton",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "10",
+          "player": "Liam Delap",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "11",
+          "player": "Gustavo Hamer",
+          "team": "Sheffield United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "12",
+          "player": "Carlton Morris",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "13",
+          "player": "Oliver McBurnie",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "14",
+          "player": "Jay Robinson",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "15",
+          "player": "Carl Rushworth",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "16",
+          "player": "Kieffer Moore",
+          "team": "Wrexham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "17",
+          "player": "Alan Shearer",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "18",
+          "player": "Jordan Pickford",
+          "team": "Preston North End",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "19",
+          "player": "Kyle Walker",
+          "team": "Sheffield United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "20",
+          "player": "Adebayo Akinfenwa",
+          "team": "Wycombe Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "21",
+          "player": "Harry Kane",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "22",
+          "player": "James Maddison",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "23",
+          "player": "Che Adams",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "24",
+          "player": "Alex Scott",
+          "team": "Bristol City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "City Limits",
+          "card_no": "25",
+          "player": "Wayne Rooney",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "1",
+          "player": "Million Manhoef",
+          "team": "Stoke City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "2",
+          "player": "Lewie Coyle",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "3",
+          "player": "Milutin Osmajic",
+          "team": "Preston North End",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "4",
+          "player": "Marc Bola",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "5",
+          "player": "Ben Cabango",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "6",
+          "player": "Ricardo Pereira",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "7",
+          "player": "Gustavo Hamer",
+          "team": "Sheffield United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "8",
+          "player": "Bobby Thomas",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "9",
+          "player": "Rhys Oates",
+          "team": "Mansfield Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "10",
+          "player": "Jordan Hugill",
+          "team": "Rotherham United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "11",
+          "player": "Jason Kerr",
+          "team": "Wigan Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "12",
+          "player": "Myles Hippolyte",
+          "team": "AFC Wimbledon",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "13",
+          "player": "Conor Hazard",
+          "team": "Plymouth Argyle",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "14",
+          "player": "Patrick Kelly",
+          "team": "Barnsley",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "15",
+          "player": "Tendayi Darikwa",
+          "team": "Lincoln City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "16",
+          "player": "George Broadbent",
+          "team": "Doncaster Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "17",
+          "player": "Courtney Baker-Richardson",
+          "team": "Newport County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "18",
+          "player": "Paddy Madden",
+          "team": "Accrington Stanley",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "19",
+          "player": "Alassana Jatta",
+          "team": "Notts County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "20",
+          "player": "Alex Gilbey",
+          "team": "Milton Keynes Dons",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "21",
+          "player": "Gavin Kilkenny",
+          "team": "Swindon Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "22",
+          "player": "Mark Shelton",
+          "team": "Barnet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "23",
+          "player": "Jack Muldoon",
+          "team": "Harrogate Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "24",
+          "player": "Ellis Harrison",
+          "team": "Bristol Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fan Favorites",
+          "card_no": "25",
+          "player": "George Dobson",
+          "team": "Wrexham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "1",
+          "player": "Sorba Thomas",
+          "team": "Stoke City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "2",
+          "player": "Joe Gelhardt",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "3",
+          "player": "Lewis Dobbin",
+          "team": "Preston North End",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "4",
+          "player": "Mamadou Doumbia",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "5",
+          "player": "Ronald",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "6",
+          "player": "Harry Winks",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "7",
+          "player": "Harrison Burrows",
+          "team": "Sheffield United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "8",
+          "player": "Ephron Mason-Clark",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "9",
+          "player": "Sulyman Krubally",
+          "team": "Burton Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "10",
+          "player": "Amario Cozier-Duberry",
+          "team": "Bolton Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "11",
+          "player": "Ollie O’Neill",
+          "team": "Leyton Orient",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "12",
+          "player": "Matthew Garbett",
+          "team": "Peterborough United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "13",
+          "player": "Cian Ashford",
+          "team": "Cardiff City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "14",
+          "player": "Kyle Wootton",
+          "team": "Stockport County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "15",
+          "player": "Stephen Humphrys",
+          "team": "Bradford City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "16",
+          "player": "Nahki Wells",
+          "team": "Luton Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "17",
+          "player": "Kieffer Moore",
+          "team": "Wrexham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "18",
+          "player": "Greg Docherty",
+          "team": "Charlton Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "19",
+          "player": "Leo Scienza",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "20",
+          "player": "Aune Heggebo",
+          "team": "West Bromwich Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "21",
+          "player": "Tomoki Iwata",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "22",
+          "player": "Anis Slimane",
+          "team": "Norwich City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "23",
+          "player": "Andri Gudjohnsen",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "24",
+          "player": "Charlie McNeill",
+          "team": "Sheffield Wednesday",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Fuzion",
+          "card_no": "25",
+          "player": "Tatsuhiro Sakamoto",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "1",
+          "player": "Arthur Okonkwo",
+          "team": "Wrexham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "2",
+          "player": "Thomas Kaminski",
+          "team": "Charlton Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "3",
+          "player": "Finn Azaz",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "4",
+          "player": "Nathaniel Phillips",
+          "team": "West Bromwich Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "5",
+          "player": "Kyogo Furuhashi",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "6",
+          "player": "Kenny McLean",
+          "team": "Norwich City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "7",
+          "player": "Sondre Tronstad",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "8",
+          "player": "Dominic Iorfa",
+          "team": "Sheffield Wednesday",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "9",
+          "player": "Jake Beesley",
+          "team": "Burton Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "10",
+          "player": "Xavier Simons",
+          "team": "Bolton Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "11",
+          "player": "Charlie Wellens",
+          "team": "Leyton Orient",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "12",
+          "player": "Peter Kioso",
+          "team": "Peterborough United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "13",
+          "player": "Calum Chambers",
+          "team": "Cardiff City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "14",
+          "player": "Ben Osborn",
+          "team": "Stockport County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "15",
+          "player": "Sam Walker",
+          "team": "Bradford City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "16",
+          "player": "George Saville",
+          "team": "Luton Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "17",
+          "player": "Remeao Hutton",
+          "team": "Gillingham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "18",
+          "player": "Sullay Kaikai",
+          "team": "Cambridge United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "19",
+          "player": "Luke Garbutt",
+          "team": "Salford City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "20",
+          "player": "Ryan Woods",
+          "team": "Oldham Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "21",
+          "player": "Max Sanders",
+          "team": "Crewe Alexandra",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "22",
+          "player": "Josh Gordon",
+          "team": "Barrow",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "23",
+          "player": "Harry Forster",
+          "team": "Crawley Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "24",
+          "player": "Sam Clucas",
+          "team": "Shrewsbury Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Heroes",
+          "card_no": "25",
+          "player": "Jordan James",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "1",
+          "player": "Adebayo Akinfenwa",
+          "team": "Wycombe Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "2",
+          "player": "Ollie Watkins",
+          "team": "Exeter City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "3",
+          "player": "Alan Shearer",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "4",
+          "player": "Jamie Vardy",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "5",
+          "player": "Kyle Walker",
+          "team": "Sheffield United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "6",
+          "player": "Tom Huddlestone",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "7",
+          "player": "Gary Lineker",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "8",
+          "player": "Harry Kane",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "9",
+          "player": "Che Adams",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "10",
+          "player": "Robbie Keane",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "11",
+          "player": "Danny Murphy",
+          "team": "Crewe Alexandra",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "12",
+          "player": "Gareth Barry",
+          "team": "West Bromwich Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "13",
+          "player": "Jay-Jay Okocha",
+          "team": "Bolton Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "14",
+          "player": "Emile Heskey",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "15",
+          "player": "Antonee Robinson",
+          "team": "Wigan Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "16",
+          "player": "Wayne Rooney",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "17",
+          "player": "Andre Ayew",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "18",
+          "player": "Nwankwo Kanu",
+          "team": "Portsmouth",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "19",
+          "player": "Michael Dawson",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "20",
+          "player": "Brad Friedel",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "21",
+          "player": "James Maddison",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "22",
+          "player": "Peter Shilton",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "23",
+          "player": "Teddy Sheringham",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "24",
+          "player": "Gareth Bale",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Living Legends",
+          "card_no": "25",
+          "player": "Joao Pedro",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "1",
+          "player": "Casper De Norre",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "2",
+          "player": "Dara O'Shea",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "3",
+          "player": "Michal Helik",
+          "team": "Oxford United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "4",
+          "player": "Amadou Mbengue",
+          "team": "Queens Park Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "5",
+          "player": "Jacob Widell Zetterstrom",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "6",
+          "player": "Aidan Morris",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "7",
+          "player": "John Swift",
+          "team": "Portsmouth",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "8",
+          "player": "Scott Twine",
+          "team": "Bristol City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "9",
+          "player": "Jayden Stockley",
+          "team": "Port Vale",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "10",
+          "player": "Jack McMillan",
+          "team": "Exeter City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "11",
+          "player": "Dean Campbell",
+          "team": "Northampton Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "12",
+          "player": "Charlie Savage",
+          "team": "Reading",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "13",
+          "player": "Dan Kemp",
+          "team": "Stevenage",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "14",
+          "player": "Cauley Woodrow",
+          "team": "Wycombe Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "15",
+          "player": "Ryan Ledson",
+          "team": "Huddersfield Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "16",
+          "player": "Josh Bowler",
+          "team": "Blackpool",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "17",
+          "player": "Jake Bickerstaff",
+          "team": "Cheltenham Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "18",
+          "player": "Aaron Pressley",
+          "team": "Walsall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "19",
+          "player": "Matty Virtue",
+          "team": "Fleetwood Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "20",
+          "player": "Omar Sowunmi",
+          "team": "Bromley",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "21",
+          "player": "Jack Payne",
+          "team": "Colchester United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "22",
+          "player": "Nathan Smith",
+          "team": "Tranmere Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "23",
+          "player": "Dilan Markanday",
+          "team": "Chesterfield",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "24",
+          "player": "Charles Vernam",
+          "team": "Grimsby Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Power House",
+          "card_no": "25",
+          "player": "Taylor Harwood-Bellis",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "1",
+          "player": "Jake Cooper",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "2",
+          "player": "Ivan Azon",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "3",
+          "player": "Przemyslaw Placheta",
+          "team": "Oxford United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "4",
+          "player": "Jimmy Dunne",
+          "team": "Queens Park Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "5",
+          "player": "Carlton Morris",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "6",
+          "player": "Luke Ayling",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "7",
+          "player": "Andre Dozzell",
+          "team": "Portsmouth",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "8",
+          "player": "Mark Sykes",
+          "team": "Bristol City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "9",
+          "player": "Dom Dwyer",
+          "team": "Mansfield Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "10",
+          "player": "Cameron Dawson",
+          "team": "Rotherham United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "11",
+          "player": "Dara Costelloe",
+          "team": "Wigan Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "12",
+          "player": "Jake Reeves",
+          "team": "AFC Wimbledon",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "13",
+          "player": "Owen Oseni",
+          "team": "Plymouth Argyle",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "14",
+          "player": "Adam Phillips",
+          "team": "Barnsley",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "15",
+          "player": "Rob Street",
+          "team": "Lincoln City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "16",
+          "player": "Billy Sharp",
+          "team": "Doncaster Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "17",
+          "player": "Aaron Cresswell",
+          "team": "Stoke City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "18",
+          "player": "Regan Slater",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "19",
+          "player": "Ben Whiteman",
+          "team": "Preston North End",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "20",
+          "player": "Imran Louza",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "21",
+          "player": "Zan Vipotnik",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "22",
+          "player": "Jordan Ayew",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "23",
+          "player": "Patrick Bamford",
+          "team": "Sheffield United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "24",
+          "player": "Haji Wright",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Prestigious Pros",
+          "card_no": "25",
+          "player": "Hayden Hackney",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "1",
+          "player": "Issa Kabore",
+          "team": "Wrexham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "2",
+          "player": "Harvey Knibbs",
+          "team": "Charlton Athletic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "3",
+          "player": "Ross Stewart",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "4",
+          "player": "George Campbell",
+          "team": "West Bromwich Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "5",
+          "player": "Marvin Ducksch",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "6",
+          "player": "Kellen Fisher",
+          "team": "Norwich City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "7",
+          "player": "Todd Cantwell",
+          "team": "Blackburn Rovers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "8",
+          "player": "Svante Ingelsson",
+          "team": "Sheffield Wednesday",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "9",
+          "player": "Cameron Humphreys",
+          "team": "Port Vale",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "10",
+          "player": "Ilmari Niskanen",
+          "team": "Exeter City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "11",
+          "player": "Cameron McGeehan",
+          "team": "Northampton Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "12",
+          "player": "Daniel Kyerewaa",
+          "team": "Reading",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "13",
+          "player": "Carl Piergianni",
+          "team": "Stevenage",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "14",
+          "player": "Luke Leahy",
+          "team": "Wycombe Wanderers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "15",
+          "player": "Marcus Harness",
+          "team": "Huddersfield Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "16",
+          "player": "Niall Ennis",
+          "team": "Blackpool",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "17",
+          "player": "Femi Azeez",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "18",
+          "player": "George Hirst",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "19",
+          "player": "Brian De Keersmaecker",
+          "team": "Oxford United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "20",
+          "player": "Rumarn Burrell",
+          "team": "Queens Park Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "21",
+          "player": "Patrick Agyemang",
+          "team": "Derby County",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "22",
+          "player": "Morgan Whittaker",
+          "team": "Middlesbrough",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "23",
+          "player": "Colby Bishop",
+          "team": "Portsmouth",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "24",
+          "player": "Ross McCrorie",
+          "team": "Bristol City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Unforgettable",
+          "card_no": "25",
+          "player": "Thierno Ballo",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "1",
+          "player": "Sindre Walle Egeli",
+          "team": "Ipswich Town",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "2",
+          "player": "Jeremy Monga",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "3",
+          "player": "Nestory Irankunda",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "4",
+          "player": "Jay Robinson",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "5",
+          "player": "Josh Coburn",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "6",
+          "player": "Alfie Devine",
+          "team": "Preston North End",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "7",
+          "player": "Lewis Koumas",
+          "team": "Hull City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "8",
+          "player": "Isaac Price",
+          "team": "West Bromwich Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "9",
+          "player": "Esquerdinha",
+          "team": "Queens Park Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "10",
+          "player": "Daniel Jebbison",
+          "team": "Preston North End",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "11",
+          "player": "Mihailo Ivanovic",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "12",
+          "player": "Sydie Peck",
+          "team": "Sheffield United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "13",
+          "player": "Tommy Watson",
+          "team": "Millwall",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "14",
+          "player": "Tom Fellows",
+          "team": "Southampton",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "15",
+          "player": "Will Lankshear",
+          "team": "Oxford United",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "16",
+          "player": "Romain Esse",
+          "team": "Coventry City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "17",
+          "player": "Malick Yalcouye",
+          "team": "Swansea City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "18",
+          "player": "James Beadle",
+          "team": "Birmingham City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "19",
+          "player": "Stephen Mfuni",
+          "team": "Watford",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "20",
+          "player": "Abdul Fatawu",
+          "team": "Leicester City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "21",
+          "player": "Oscar Schwartau",
+          "team": "Norwich City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "22",
+          "player": "Divin Mubama",
+          "team": "Stoke City",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "23",
+          "player": "Alfie Gilchrist",
+          "team": "West Bromwich Albion",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "24",
+          "player": "Callum Doyle",
+          "team": "Wrexham",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Youth Movement",
+          "card_no": "25",
+          "player": "Gustavo Nunes",
+          "team": "Swansea City",
+          "tag": ""
+        }
+      ],
+      "parallels": [
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Diamond",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Galaxy",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Hyper",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Sunburst",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Red",
+          "serial_no": "/299"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Blue",
+          "serial_no": "/225"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Purple",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Orange",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Pink",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Green",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Distinctive Ink",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Distinctive Ink",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Shutter Signatures",
+          "parallel_name": "Gold #/10 or Less",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Shutter Signatures",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Fan Favorites",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Fan Favorites",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Fuzion",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Fuzion",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Heroes",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Heroes",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Living Legends",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Living Legends",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Power House",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Power House",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Prestigious Pros",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Prestigious Pros",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Unforgettable",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Unforgettable",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Youth Movement",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_panini_prestige_efl_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Youth Movement",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        }
+      ]
+    }
+  }
+}
