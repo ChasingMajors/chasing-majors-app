@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-07-05T15:59:26.818Z",
+  "generated_at": "2026-07-05T15:59:59.095Z",
   "sharded": true,
   "shards": [
     "all-001.json"
@@ -89,6 +89,7 @@
     "1994_score_series1_baseball": "all-001.json",
     "1994_score_series2_baseball": "all-001.json",
     "2025_topps_cosmic_chrome_football": "all-001.json",
-    "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer": "all-001.json"
+    "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer": "all-001.json",
+    "2025_topps_signature_class_football": "all-001.json"
   }
 }
