@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-07-05T15:59:26.818Z",
+  "generated_at": "2026-07-05T15:59:59.095Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -34486,6 +34486,520 @@
           "subSetSize": 76,
           "notes": "",
           "cmURL": ""
+        }
+      ]
+    },
+    "2025_topps_signature_class_football": {
+      "ok": true,
+      "meta": {
+        "code": "2025_topps_signature_class_football",
+        "displayName": "2025 Topps Signature Class Football",
+        "year": "2025",
+        "sport": "football",
+        "manufacturer": "Topps",
+        "product": "Signature Class",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Base",
+          "setLine": "Veteran Class Base: ~322,540 ea",
+          "printRun": 322540,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Base",
+          "setLine": "Rookie Base: ~49,180 ea",
+          "printRun": 49180,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Base",
+          "setLine": "Veteran Chrome Base: ~9,050 ea",
+          "printRun": 9050,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Base",
+          "setLine": "Rookie Chrome Base: ~5,350 ea",
+          "printRun": 5350,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Veteran Class Red & Black (Megas)",
+          "printRun": 4760,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Veteran Class Green & Purple (Value)",
+          "printRun": 5080,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Veteran Class Blue & Yellow (Retail SKUs)",
+          "printRun": 13770,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Class Red & Black (Megas)",
+          "printRun": 4440,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Class Green & Purple (Value)",
+          "printRun": 4740,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Class Blue & Yellow (Retail SKUs)",
+          "printRun": 15300,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Veteran Class Chrome Refractor",
+          "printRun": 3160,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Veteran Class Chrome Pandora (Mega)",
+          "printRun": 105,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Veteran Class Chrome Pandora Yellow (Mega)",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Veteran Class Chrome Kaleidoscope (Value)",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Veteran Class Chrome Kaleidoscope Yellow (Value)",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Veteran Class Chrome White (Target Mega)",
+          "printRun": 800,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Class Chrome Refractor",
+          "printRun": 3125,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Class Chrome Pandora (Mega)",
+          "printRun": 105,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Class Chrome Kaleidoscope (Value)",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Class Chrome Kaleidoscope Yellow (Value)",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Class Chrome White (Target Mega)",
+          "printRun": 830,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "After Image",
+          "printRun": 11090,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "In Session",
+          "printRun": 11175,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "The Pick",
+          "printRun": 11495,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "Zone Out",
+          "printRun": 11090,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "Class Action",
+          "printRun": 32120,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "Class Icons",
+          "printRun": 32120,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "Paramount Pairings",
+          "printRun": 32470,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "Sunday Showcase",
+          "printRun": 32120,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "Fluidity",
+          "printRun": 1060,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "Roses",
+          "printRun": 1060,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "Shattered",
+          "printRun": 1060,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "Star Cast",
+          "printRun": 1060,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "Draft Dreams (Retail SKUs, 20 card CL)",
+          "printRun": 535,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "First Class (Retail SKUs, 20 card CL)",
+          "printRun": 535,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "Leviathans (Hobby/Jumbo, 20 card CL)",
+          "printRun": 190,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "Monarchs of the Game (Hobby/Jumbo, 20 card CL)",
+          "printRun": 190,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Insert",
+          "setLine": "Odyssey (Retail SKUs), ~535 ea",
+          "printRun": 535,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Auto",
+          "setLine": "Veteran Class Autos",
+          "printRun": 540,
+          "serial": "",
+          "subSetSize": 73,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Auto",
+          "setLine": "Rookie Class Autos",
+          "printRun": 840,
+          "serial": "",
+          "subSetSize": 127,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Auto",
+          "setLine": "Legends of Their Class Crystal Clear Autos",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 16,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Auto",
+          "setLine": "Rookie Class Crystal Clear Autos",
+          "printRun": 230,
+          "serial": "",
+          "subSetSize": 31,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Auto",
+          "setLine": "Veteran Class Crystal Clear Autos",
+          "printRun": 140,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Auto",
+          "setLine": "HOF Signs Base Autos",
+          "printRun": 20,
+          "serial": "",
+          "subSetSize": 19,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Auto",
+          "setLine": "Signature Class Autos",
+          "printRun": 80,
+          "serial": "",
+          "subSetSize": 24,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Auto",
+          "setLine": "Signature Classics",
+          "printRun": 45,
+          "serial": "",
+          "subSetSize": 17,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Auto",
+          "setLine": "Supreme Signers",
+          "printRun": 80,
+          "serial": "",
+          "subSetSize": 26,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Auto",
+          "setLine": "Preeminent Ink",
+          "printRun": 70,
+          "serial": "",
+          "subSetSize": 49,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Auto",
+          "setLine": "Veteran Class Chrome Autos",
+          "printRun": 280,
+          "serial": "",
+          "subSetSize": 66,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_signature_class_football",
+          "setType": "Auto",
+          "setLine": "Rookie Class Chrome Autos",
+          "printRun": 255,
+          "serial": "",
+          "subSetSize": 106,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
         }
       ]
     }
