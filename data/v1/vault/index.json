@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-07-05T15:59:26.818Z",
+  "generated_at": "2026-07-05T15:59:59.095Z",
   "index": [
     {
       "Code": "19TFmbl",
@@ -821,6 +821,16 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Pristine Premier League & 2026 Merlin Premier League",
+      "cmURL": ""
+    },
+    {
+      "Code": "2025_topps_signature_class_football",
+      "DisplayName": "2025 Topps Signature Class Football",
+      "Keywords": "2025 Topps Signature Class Football 2025 Topps Signature Class Football 2025 Topps Signature Class NFL 2025 Signature Class Football 2025 Signature Class NFL 25 Topps Signature Class Football 25 Topps Signature Class NFL Topps Signature Class Football Topps Signature Class NFL Signature Class Football Signature Class NFL 2025 Topps Signature Class Football print run 2025 Topps Signature Class Football production 2025 Topps Signature Class Football odds 2025 Topps Signature Class Football PRV 2025 Topps Signature Class Football checklist Topps Signature Class checklist",
+      "year": "2025",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Signature Class",
       "cmURL": ""
     }
   ]
