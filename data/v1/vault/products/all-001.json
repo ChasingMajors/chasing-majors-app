@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-07-07T21:25:30.209Z",
+  "generated_at": "2026-07-08T01:27:21.786Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -35000,6 +35000,470 @@
           "subSetSize": 106,
           "notes": "",
           "cmURL": "https://slabsquatch.substack.com/p/2025-topps-signature-class-nfl-analysis"
+        }
+      ]
+    },
+    "2025_topps_finest_football": {
+      "ok": true,
+      "meta": {
+        "code": "2025_topps_finest_football",
+        "displayName": "2025 Topps Finest Football",
+        "year": "2025",
+        "sport": "football",
+        "manufacturer": "Topps",
+        "product": "Finest",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Base",
+          "setLine": "Base Common",
+          "printRun": 15880,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Base",
+          "setLine": "Base Uncommon",
+          "printRun": 3235,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Base",
+          "setLine": "Base Rare",
+          "printRun": 1080,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Parallel",
+          "setLine": "Common Refractor",
+          "printRun": 600,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Parallel",
+          "setLine": "Common Xfractor",
+          "printRun": 325,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Parallel",
+          "setLine": "Uncommon Refractor",
+          "printRun": 370,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Parallel",
+          "setLine": "Uncommon Xfractor",
+          "printRun": 135,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Parallel",
+          "setLine": "Rare Refractor",
+          "printRun": 185,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Parallel",
+          "setLine": "Rare Xfractor",
+          "printRun": 70,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Reflash",
+          "printRun": 5400,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Torchers",
+          "printRun": 5400,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Creators",
+          "printRun": 5400,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Team Finest",
+          "printRun": 5400,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Power Kings",
+          "printRun": 5400,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Reflash Refractors",
+          "printRun": 1010,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Torchers Refractors",
+          "printRun": 980,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Creators Refractors",
+          "printRun": 980,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Team Finest Refractors",
+          "printRun": 1010,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Power Kings Refractors",
+          "printRun": 1010,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Reflash Xfractors",
+          "printRun": 505,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Torchers Xfractors",
+          "printRun": 490,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Creators Xfractors",
+          "printRun": 490,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Team Finest Xfractors",
+          "printRun": 505,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Power Kings Xfractors",
+          "printRun": 505,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Centurions",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Nightmare Fuel",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "The Man",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "For the Record",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Smashing Through",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
+          "setLine": "Landmark Metal Series",
+          "printRun": 45,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "92 Finest Refractors (44 Card CL)- 92 Ea",
+          "setLine": "Headliners Refractors",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Auto",
+          "setLine": "Finest Autos",
+          "printRun": 230,
+          "serial": "",
+          "subSetSize": 38,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Auto",
+          "setLine": "Rookie Finest Autos",
+          "printRun": 950,
+          "serial": "",
+          "subSetSize": 52,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Auto",
+          "setLine": "Finest Autos Refractors",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 38,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Auto",
+          "setLine": "Rookie Finest Autos Refractors",
+          "printRun": 225,
+          "serial": "",
+          "subSetSize": 52,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Auto",
+          "setLine": "Finest Autos Oil Spill",
+          "printRun": 9,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Auto",
+          "setLine": "Rookie Finest Autos Oil Spill",
+          "printRun": 8,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Auto",
+          "setLine": "Flashback Autos",
+          "printRun": 315,
+          "serial": "",
+          "subSetSize": 38,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Auto",
+          "setLine": "Finest Freshman Autos",
+          "printRun": 185,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Auto",
+          "setLine": "Finest Greats Autos",
+          "printRun": 190,
+          "serial": "",
+          "subSetSize": 35,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Auto",
+          "setLine": "Flashback Autos Refractors",
+          "printRun": 110,
+          "serial": "",
+          "subSetSize": 38,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Auto",
+          "setLine": "Finest Freshman Autos Refractors",
+          "printRun": 240,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Auto",
+          "setLine": "Finest Greats Autos Refractors",
+          "printRun": 135,
+          "serial": "",
+          "subSetSize": 35,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Auto",
+          "setLine": "Finest Moments Autos Refractors",
+          "printRun": 85,
+          "serial": "",
+          "subSetSize": 26,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Auto",
+          "setLine": "Finest Fans Autos Refractors",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 9,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
         }
       ]
     }
