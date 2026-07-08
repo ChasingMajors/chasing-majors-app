@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-04T15:00:24.440Z",
+  "generated_at": "2026-07-08T01:24:11.586Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -7193,6 +7193,15 @@
       "sport": "football",
       "manufacturer": "Upper Deck",
       "product": "SP Game Used CFL"
+    },
+    {
+      "Code": "2025_topps_chrome_black_football",
+      "DisplayName": "2025 Topps Chrome Black Football",
+      "Keywords": "2025 Topps Chrome Black Football, 2025 Topps Chrome Black Football checklist, 2025 Topps Chrome Black Football cards, 2025 Topps Chrome Black Football parallels, 2025 Topps Chrome Black Football autographs, Topps Chrome Black football, Chrome Black football checklist",
+      "year": "2025",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Chrome Black"
     },
     {
       "Code": "2025_topps_chrome_football",
