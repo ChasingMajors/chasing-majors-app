@@ -4,14 +4,15 @@
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
   "source_key": "2025",
-  "generated_at": "2026-06-16T16:52:55.925Z",
+  "generated_at": "2026-07-08T01:24:11.586Z",
   "sharded": true,
   "shards": [
     "football-001.json",
     "football-002.json",
     "football-003.json",
     "football-004.json",
-    "football-005.json"
+    "football-005.json",
+    "football-product-2025-topps-chrome-black-football.json"
   ],
   "product_map": {
     "2024-bowman-university-best-football": "football-001.json",
@@ -145,6 +146,7 @@
     "2025_topps_finest_football": "football-005.json",
     "2025_topps_signature_class_football": "football-005.json",
     "2025_Upper Deck_CFL_football": "football-005.json",
-    "2025_Upper Deck_SP Game Used CFL_football": "football-005.json"
+    "2025_Upper Deck_SP Game Used CFL_football": "football-005.json",
+    "2025_topps_chrome_black_football": "football-product-2025-topps-chrome-black-football.json"
   }
 }
