@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-07-08T16:01:23.139Z",
+  "generated_at": "2026-07-08T16:02:21.932Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -35464,6 +35464,490 @@
           "subSetSize": 9,
           "notes": "",
           "cmURL": "https://slabsquatch.substack.com/p/2025-topps-finest-nfl-analysis-and"
+        }
+      ]
+    },
+    "2026_topps_finest_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_finest_baseball",
+        "displayName": "2026 Topps Finest Baseball",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Finest",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Base",
+          "setLine": "Base Common",
+          "printRun": 94190,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Base",
+          "setLine": "Base Uncommon",
+          "printRun": 13780,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Base",
+          "setLine": "Base Rare",
+          "printRun": 4600,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Base",
+          "setLine": "Base Super Rare",
+          "printRun": 145,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Parallel",
+          "setLine": "Common Refractors",
+          "printRun": 3555,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Parallel",
+          "setLine": "Common Oil Spill",
+          "printRun": 30,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Parallel",
+          "setLine": "Common Xfractor",
+          "printRun": 1980,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Parallel",
+          "setLine": "Common Geometric",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Parallel",
+          "setLine": "Common Mini-Diamond",
+          "printRun": 6550,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Parallel",
+          "setLine": "Uncommon Refractors",
+          "printRun": 690,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Parallel",
+          "setLine": "Uncommon Oil Spill",
+          "printRun": 13,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Parallel",
+          "setLine": "Uncommon Xfractor",
+          "printRun": 990,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Parallel",
+          "setLine": "Uncommon Geometric",
+          "printRun": 35,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Parallel",
+          "setLine": "Uncommon Mini Diamond",
+          "printRun": 2180,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Parallel",
+          "setLine": "Rare Refractors",
+          "printRun": 245,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Parallel",
+          "setLine": "Rare Xfractors",
+          "printRun": 330,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Parallel",
+          "setLine": "Rare Geometric",
+          "printRun": 26,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Parallel",
+          "setLine": "Rare Mini Diamond",
+          "printRun": 730,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Arrivals",
+          "printRun": 13750,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Arrivals Refractor",
+          "printRun": 3825,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Finest Timelines",
+          "printRun": 19715,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Finest Timelines Refractor",
+          "printRun": 4265,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Topps Team Finest",
+          "printRun": 15100,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Topps Team Finest Refractor",
+          "printRun": 3935,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Worlds Finest",
+          "printRun": 13120,
+          "serial": "",
+          "subSetSize": 35,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Worlds Finest Refractor",
+          "printRun": 3590,
+          "serial": "",
+          "subSetSize": 35,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Finest Phenoms (Delight only, 25 card CL)",
+          "printRun": 410,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Aura",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Gusto",
+          "printRun": 170,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Headliners",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Nightmare Fuel",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Smashing Through",
+          "printRun": 170,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "The Man",
+          "printRun": 170,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Finest Forces (Mega only, 25 card CL)",
+          "printRun": 330,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Insert",
+          "setLine": "Finest Futures (Mega only, 25 card CL)",
+          "printRun": 330,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Auto",
+          "setLine": "Finest Autos",
+          "printRun": 260,
+          "serial": "",
+          "subSetSize": 159,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Auto",
+          "setLine": "Finest Autos Refractor",
+          "printRun": 135,
+          "serial": "",
+          "subSetSize": 159,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Auto",
+          "setLine": "Finest Ink",
+          "printRun": 170,
+          "serial": "",
+          "subSetSize": 24,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Auto",
+          "setLine": "Finest Moments Autos",
+          "printRun": 160,
+          "serial": "",
+          "subSetSize": 36,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Auto",
+          "setLine": "Finest Personality Autos",
+          "printRun": 215,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Auto",
+          "setLine": "Gustographs",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": 41,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Auto",
+          "setLine": "Topps Rookie Cup Anniversary Autos",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 13,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Auto",
+          "setLine": "Topps Rookie Cup Dual Autos",
+          "printRun": 15,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Auto",
+          "setLine": "Finest Rookie Patch Autos",
+          "printRun": 105,
+          "serial": "",
+          "subSetSize": 37,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Auto",
+          "setLine": "Finest Mystery Redemption",
+          "printRun": 90,
+          "serial": "",
+          "subSetSize": 1,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Auto",
+          "setLine": "Finest Mega Autos (Mega only, 86 card CL)",
+          "printRun": 340,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
+        },
+        {
+          "code": "2026_topps_finest_baseball",
+          "setType": "Auto",
+          "setLine": "Finest Mega Autos Mini Diamond",
+          "printRun": 120,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-finest-mlb-analysis-and"
         }
       ]
     }
