@@ -1,0 +1,5110 @@
+{
+  "ok": true,
+  "sport": "football",
+  "kind": "checklist_products",
+  "source": "Product-scoped approved import publish",
+  "generated_at": "2026-07-08T01:24:11.586Z",
+  "products": {
+    "2025_topps_chrome_black_football": {
+      "ok": true,
+      "meta": {
+        "code": "2025_topps_chrome_black_football",
+        "displayName": "2025 Topps Chrome Black Football",
+        "keywords": "2025 Topps Chrome Black Football, 2025 Topps Chrome Black Football checklist, 2025 Topps Chrome Black Football cards, 2025 Topps Chrome Black Football parallels, 2025 Topps Chrome Black Football autographs, Topps Chrome Black football, Chrome Black football checklist",
+        "source_key": "2025",
+        "year": "2025",
+        "manufacturer": "Topps",
+        "product": "Chrome Black",
+        "sport": "football"
+      },
+      "rows": [
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "1",
+          "player": "Kyler Murray",
+          "team": "Arizona Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "2",
+          "player": "Marvin Harrison Jr.",
+          "team": "Arizona Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "3",
+          "player": "Trey McBride",
+          "team": "Arizona Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "4",
+          "player": "Bijan Robinson",
+          "team": "Atlanta Falcons",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "5",
+          "player": "Drake London",
+          "team": "Atlanta Falcons",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "6",
+          "player": "Michael Penix Jr.",
+          "team": "Atlanta Falcons",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "7",
+          "player": "Kyle Pitts",
+          "team": "Atlanta Falcons",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "8",
+          "player": "Derrick Henry",
+          "team": "Baltimore Ravens",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "9",
+          "player": "Lamar Jackson",
+          "team": "Baltimore Ravens",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "10",
+          "player": "Zay Flowers",
+          "team": "Baltimore Ravens",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "11",
+          "player": "Roquan Smith",
+          "team": "Baltimore Ravens",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "12",
+          "player": "Josh Allen",
+          "team": "Buffalo Bills",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "13",
+          "player": "James Cook",
+          "team": "Buffalo Bills",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "14",
+          "player": "Keon Coleman",
+          "team": "Buffalo Bills",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "15",
+          "player": "Joey Bosa",
+          "team": "Buffalo Bills",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "16",
+          "player": "Chuba Hubbard",
+          "team": "Carolina Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "17",
+          "player": "Bryce Young",
+          "team": "Carolina Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "18",
+          "player": "Jaycee Horn",
+          "team": "Carolina Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "19",
+          "player": "Rome Odunze",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "20",
+          "player": "Caleb Williams",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "21",
+          "player": "DJ Moore",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "22",
+          "player": "Chase Brown",
+          "team": "Cincinnati Bengals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "23",
+          "player": "Joe Burrow",
+          "team": "Cincinnati Bengals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "24",
+          "player": "Ja'Marr Chase",
+          "team": "Cincinnati Bengals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "25",
+          "player": "Tee Higgins",
+          "team": "Cincinnati Bengals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "26",
+          "player": "Myles Garrett",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "27",
+          "player": "Jerry Jeudy",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "28",
+          "player": "David Njoku",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "29",
+          "player": "CeeDee Lamb",
+          "team": "Dallas Cowboys",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "30",
+          "player": "Dak Prescott",
+          "team": "Dallas Cowboys",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "31",
+          "player": "Micah Parsons",
+          "team": "Green Bay Packers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "32",
+          "player": "Pat Surtain II",
+          "team": "Denver Broncos",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "33",
+          "player": "Bo Nix",
+          "team": "Denver Broncos",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "34",
+          "player": "Courtland Sutton",
+          "team": "Denver Broncos",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "35",
+          "player": "Amon-Ra St. Brown",
+          "team": "Detroit Lions",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "36",
+          "player": "Jared Goff",
+          "team": "Detroit Lions",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "37",
+          "player": "Jahmyr Gibbs",
+          "team": "Detroit Lions",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "38",
+          "player": "Jameson Williams",
+          "team": "Detroit Lions",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "39",
+          "player": "Josh Jacobs",
+          "team": "Green Bay Packers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "40",
+          "player": "Jordan Love",
+          "team": "Green Bay Packers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "41",
+          "player": "Jayden Reed",
+          "team": "Green Bay Packers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "42",
+          "player": "CJ Stroud",
+          "team": "Houston Texans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "43",
+          "player": "Nico Collins",
+          "team": "Houston Texans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "44",
+          "player": "Derek Stingley Jr.",
+          "team": "Houston Texans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "45",
+          "player": "Jonathan Taylor",
+          "team": "Indianapolis Colts",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "46",
+          "player": "Michael Pittman Jr.",
+          "team": "Indianapolis Colts",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "47",
+          "player": "Brian Thomas Jr.",
+          "team": "Jacksonville Jaguars",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "48",
+          "player": "Trevor Lawrence",
+          "team": "Jacksonville Jaguars",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "49",
+          "player": "Travis Etienne Jr.",
+          "team": "Jacksonville Jaguars",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "50",
+          "player": "Rashee Rice",
+          "team": "Kansas City Chiefs",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "51",
+          "player": "Patrick Mahomes II",
+          "team": "Kansas City Chiefs",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "52",
+          "player": "Travis Kelce",
+          "team": "Kansas City Chiefs",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "53",
+          "player": "Xavier Worthy",
+          "team": "Kansas City Chiefs",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "54",
+          "player": "Brock Bowers",
+          "team": "Las Vegas Raiders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "55",
+          "player": "Maxx Crosby",
+          "team": "Las Vegas Raiders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "56",
+          "player": "Justin Herbert",
+          "team": "Los Angeles Chargers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "57",
+          "player": "Ladd McConkey",
+          "team": "Los Angeles Chargers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "58",
+          "player": "Khalil Mack",
+          "team": "Los Angeles Chargers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "59",
+          "player": "Davante Adams",
+          "team": "Los Angeles Rams",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "60",
+          "player": "Puka Nacua",
+          "team": "Los Angeles Rams",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "61",
+          "player": "Matthew Stafford",
+          "team": "Los Angeles Rams",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "62",
+          "player": "Tyreek Hill",
+          "team": "Miami Dolphins",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "63",
+          "player": "Tua Tagovailoa",
+          "team": "Miami Dolphins",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "64",
+          "player": "Jaylen Waddle",
+          "team": "Miami Dolphins",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "65",
+          "player": "De'Von Achane",
+          "team": "Miami Dolphins",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "66",
+          "player": "Justin Jefferson",
+          "team": "Minnesota Vikings",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "67",
+          "player": "J.J. McCarthy",
+          "team": "Minnesota Vikings",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "68",
+          "player": "Jordan Addison",
+          "team": "Minnesota Vikings",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "69",
+          "player": "Drake Maye",
+          "team": "New England Patriots",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "70",
+          "player": "DeMario Douglas",
+          "team": "New England Patriots",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "71",
+          "player": "Alvin Kamara",
+          "team": "New Orleans Saints",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "72",
+          "player": "Chris Olave",
+          "team": "New Orleans Saints",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "73",
+          "player": "Malik Nabers",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "74",
+          "player": "Tyrone Tracy Jr.",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "75",
+          "player": "Dexter Lawrence II",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "76",
+          "player": "Justin Fields",
+          "team": "New York Jets",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "77",
+          "player": "Garrett Wilson",
+          "team": "New York Jets",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "78",
+          "player": "Breece Hall",
+          "team": "New York Jets",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "79",
+          "player": "Sauce Gardner",
+          "team": "Indianapolis Colts",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "80",
+          "player": "DeVonta Smith",
+          "team": "Philadelphia Eagles",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "81",
+          "player": "Jalen Hurts",
+          "team": "Philadelphia Eagles",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "82",
+          "player": "Saquon Barkley",
+          "team": "Philadelphia Eagles",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "83",
+          "player": "A.J. Brown",
+          "team": "Philadelphia Eagles",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "84",
+          "player": "Aaron Rodgers",
+          "team": "Pittsburgh Steelers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "85",
+          "player": "T.J. Watt",
+          "team": "Pittsburgh Steelers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "86",
+          "player": "DK Metcalf",
+          "team": "Pittsburgh Steelers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "87",
+          "player": "Ricky Pearsall",
+          "team": "San Francisco 49ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "88",
+          "player": "Christian McCaffrey",
+          "team": "San Francisco 49ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "89",
+          "player": "Brock Purdy",
+          "team": "San Francisco 49ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "90",
+          "player": "Brandon Aiyuk",
+          "team": "San Francisco 49ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "91",
+          "player": "Cooper Kupp",
+          "team": "Seattle Seahawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "92",
+          "player": "Jaxon Smith-Njigba",
+          "team": "Seattle Seahawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "93",
+          "player": "Sam Darnold",
+          "team": "Seattle Seahawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "94",
+          "player": "Mike Evans",
+          "team": "Tampa Bay Buccaneers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "95",
+          "player": "Baker Mayfield",
+          "team": "Tampa Bay Buccaneers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "96",
+          "player": "Bucky Irving",
+          "team": "Tampa Bay Buccaneers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "97",
+          "player": "Calvin Ridley",
+          "team": "Tennessee Titans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "98",
+          "player": "Tony Pollard",
+          "team": "Tennessee Titans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "99",
+          "player": "Terry McLaurin",
+          "team": "Washington Commanders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base",
+          "card_no": "100",
+          "player": "Jayden Daniels",
+          "team": "Washington Commanders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "101",
+          "player": "Will Johnson",
+          "team": "Arizona Cardinals",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "102",
+          "player": "Jalon Walker",
+          "team": "Atlanta Falcons",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "103",
+          "player": "James Pearce Jr.",
+          "team": "Atlanta Falcons",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "104",
+          "player": "Malaki Starks",
+          "team": "Baltimore Ravens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "105",
+          "player": "Tetairoa McMillan",
+          "team": "Carolina Panthers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "106",
+          "player": "Colston Loveland",
+          "team": "Chicago Bears",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "107",
+          "player": "Luther Burden III",
+          "team": "Chicago Bears",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "108",
+          "player": "Shemar Stewart",
+          "team": "Cincinnati Bengals",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "109",
+          "player": "Tahj Brooks",
+          "team": "Cincinnati Bengals",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "110",
+          "player": "Mason Graham",
+          "team": "Cleveland Browns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "111",
+          "player": "Quinshon Judkins",
+          "team": "Cleveland Browns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "112",
+          "player": "Shedeur Sanders",
+          "team": "Cleveland Browns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "113",
+          "player": "Carson Schwesinger",
+          "team": "Cleveland Browns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "114",
+          "player": "Jaydon Blue",
+          "team": "Dallas Cowboys",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "115",
+          "player": "RJ Harvey",
+          "team": "Denver Broncos",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "116",
+          "player": "Pat Bryant",
+          "team": "Denver Broncos",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "117",
+          "player": "Matthew Golden",
+          "team": "Green Bay Packers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "118",
+          "player": "Jayden Higgins",
+          "team": "Houston Texans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "119",
+          "player": "Jaylin Noel",
+          "team": "Houston Texans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "120",
+          "player": "Tyler Warren",
+          "team": "Indianapolis Colts",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "121",
+          "player": "Riley Leonard",
+          "team": "Indianapolis Colts",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "122",
+          "player": "Travis Hunter",
+          "team": "Jacksonville Jaguars",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "123",
+          "player": "Bhayshul Tuten",
+          "team": "Jacksonville Jaguars",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "124",
+          "player": "Jalen Royals",
+          "team": "Kansas City Chiefs",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "125",
+          "player": "Ashton Jeanty",
+          "team": "Las Vegas Raiders",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "126",
+          "player": "Jack Bech",
+          "team": "Las Vegas Raiders",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "127",
+          "player": "Omarion Hampton",
+          "team": "Los Angeles Chargers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "128",
+          "player": "Tre Harris III",
+          "team": "Los Angeles Chargers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "129",
+          "player": "Terrance Ferguson",
+          "team": "Los Angeles Rams",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "130",
+          "player": "Quinn Ewers",
+          "team": "Miami Dolphins",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "131",
+          "player": "Treveyon Henderson",
+          "team": "New England Patriots",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "132",
+          "player": "Will Campbell",
+          "team": "New England Patriots",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "133",
+          "player": "Tyler Shough",
+          "team": "New Orleans Saints",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "134",
+          "player": "Kelvin Banks Jr.",
+          "team": "New Orleans Saints",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "135",
+          "player": "Abdul Carter",
+          "team": "New York Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "136",
+          "player": "Jaxson Dart",
+          "team": "New York Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "137",
+          "player": "Cam Skattebo",
+          "team": "New York Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "138",
+          "player": "Mason Taylor",
+          "team": "New York Jets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "139",
+          "player": "Kyle McCord",
+          "team": "Philadelphia Eagles",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "140",
+          "player": "Jihaad Campbell",
+          "team": "Philadelphia Eagles",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "141",
+          "player": "Kaleb Johnson",
+          "team": "Pittsburgh Steelers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "142",
+          "player": "Will Howard",
+          "team": "Pittsburgh Steelers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "143",
+          "player": "Mykel Williams",
+          "team": "San Francisco 49ers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "144",
+          "player": "Jordan James",
+          "team": "San Francisco 49ers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "145",
+          "player": "Jalen Milroe",
+          "team": "Seattle Seahawks",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "146",
+          "player": "Elijah Arroyo",
+          "team": "Seattle Seahawks",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "147",
+          "player": "Emeka Egbuka",
+          "team": "Tampa Bay Buccaneers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "148",
+          "player": "Cam Ward",
+          "team": "Tennessee Titans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "149",
+          "player": "Chimere Dike",
+          "team": "Tennessee Titans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Base",
+          "subset": "Football Base Rookies",
+          "card_no": "150",
+          "player": "Jaylin Lane",
+          "team": "Washington Commanders",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-AB",
+          "player": "Amon-Ra St. Brown",
+          "team": "Detroit Lions",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-ABR",
+          "player": "A.J. Brown",
+          "team": "Philadelphia Eagles",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-AK",
+          "player": "Alvin Kamara",
+          "team": "New Orleans Saints",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-AR",
+          "player": "Aaron Rodgers",
+          "team": "Pittsburgh Steelers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-BB",
+          "player": "Brock Bowers",
+          "team": "Las Vegas Raiders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-BH",
+          "player": "Breece Hall",
+          "team": "New York Jets",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-BI",
+          "player": "Bucky Irving",
+          "team": "Tampa Bay Buccaneers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-BN",
+          "player": "Bo Nix",
+          "team": "Denver Broncos",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-BP",
+          "player": "Brock Purdy",
+          "team": "San Francisco 49ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-BY",
+          "player": "Bryce Young",
+          "team": "Carolina Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-CB",
+          "player": "Chase Brown",
+          "team": "Cincinnati Bengals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-CH",
+          "player": "Chuba Hubbard",
+          "team": "Carolina Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-CL",
+          "player": "CeeDee Lamb",
+          "team": "Dallas Cowboys",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-CM",
+          "player": "Christian McCaffrey",
+          "team": "San Francisco 49ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-CO",
+          "player": "Chris Olave",
+          "team": "New Orleans Saints",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-CSR",
+          "player": "CJ Stroud",
+          "team": "Houston Texans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-CW",
+          "player": "Caleb Williams",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-DA",
+          "player": "Davante Adams",
+          "team": "Los Angeles Rams",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-DAC",
+          "player": "De'Von Achane",
+          "team": "Miami Dolphins",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-DH",
+          "player": "Derrick Henry",
+          "team": "Baltimore Ravens",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-DM",
+          "player": "DJ Moore",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-DMA",
+          "player": "Drake Maye",
+          "team": "New England Patriots",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-DN",
+          "player": "David Njoku",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-DP",
+          "player": "Dak Prescott",
+          "team": "Dallas Cowboys",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-DS",
+          "player": "Derek Stingley Jr.",
+          "team": "Houston Texans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-JA",
+          "player": "Josh Allen",
+          "team": "Buffalo Bills",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-JAD",
+          "player": "Jordan Addison",
+          "team": "Minnesota Vikings",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-JBU",
+          "player": "Joe Burrow",
+          "team": "Cincinnati Bengals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-JD",
+          "player": "Jayden Daniels",
+          "team": "Washington Commanders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-JG",
+          "player": "Jared Goff",
+          "team": "Detroit Lions",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-JGI",
+          "player": "Jahmyr Gibbs",
+          "team": "Detroit Lions",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-JHE",
+          "player": "Justin Herbert",
+          "team": "Los Angeles Chargers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-JHU",
+          "player": "Jalen Hurts",
+          "team": "Philadelphia Eagles",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-JJ",
+          "player": "Jerry Jeudy",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-JJA",
+          "player": "Josh Jacobs",
+          "team": "Green Bay Packers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-JJE",
+          "player": "Justin Jefferson",
+          "team": "Minnesota Vikings",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-JSN",
+          "player": "Jaxon Smith-Njigba",
+          "team": "Seattle Seahawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-JT",
+          "player": "Jonathan Taylor",
+          "team": "Indianapolis Colts",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-LM",
+          "player": "Ladd McConkey",
+          "team": "Los Angeles Chargers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-MC",
+          "player": "Maxx Crosby",
+          "team": "Las Vegas Raiders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-ME",
+          "player": "Mike Evans",
+          "team": "Tampa Bay Buccaneers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-MG",
+          "player": "Myles Garrett",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-MH",
+          "player": "Marvin Harrison Jr.",
+          "team": "Arizona Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-MN",
+          "player": "Malik Nabers",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-MP",
+          "player": "Michael Penix Jr.",
+          "team": "Atlanta Falcons",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-MS",
+          "player": "Matthew Stafford",
+          "team": "Los Angeles Rams",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-NC",
+          "player": "Nico Collins",
+          "team": "Houston Texans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-PN",
+          "player": "Puka Nacua",
+          "team": "Los Angeles Rams",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-RO",
+          "player": "Rome Odunze",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-RP",
+          "player": "Ricky Pearsall",
+          "team": "San Francisco 49ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-RR",
+          "player": "Rashee Rice",
+          "team": "Kansas City Chiefs",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-SB",
+          "player": "Saquon Barkley",
+          "team": "Philadelphia Eagles",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-SD",
+          "player": "Sam Darnold",
+          "team": "Seattle Seahawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-TE",
+          "player": "Travis Etienne Jr.",
+          "team": "Jacksonville Jaguars",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-TL",
+          "player": "Trevor Lawrence",
+          "team": "Jacksonville Jaguars",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-TM",
+          "player": "Trey McBride",
+          "team": "Arizona Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-TMC",
+          "player": "Terry McLaurin",
+          "team": "Washington Commanders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-TW",
+          "player": "T.J. Watt",
+          "team": "Pittsburgh Steelers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Auto",
+          "card_no": "AU-XWO",
+          "player": "Xavier Worthy",
+          "team": "Kansas City Chiefs",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-AJ",
+          "player": "Ashton Jeanty",
+          "team": "Las Vegas Raiders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-AR",
+          "player": "Aaron Rodgers",
+          "team": "Pittsburgh Steelers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-ASB",
+          "player": "Amon-Ra St. Brown",
+          "team": "Detroit Lions",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-BN",
+          "player": "Bo Nix",
+          "team": "Denver Broncos",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-BP",
+          "player": "Brock Purdy",
+          "team": "San Francisco 49ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-BY",
+          "player": "Bryce Young",
+          "team": "Carolina Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-CS",
+          "player": "CJ Stroud",
+          "team": "Houston Texans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-CW",
+          "player": "Caleb Williams",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-CWA",
+          "player": "Cam Ward",
+          "team": "Tennessee Titans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-DB",
+          "player": "Drew Brees",
+          "team": "New Orleans Saints",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-DM",
+          "player": "Drake Maye",
+          "team": "New England Patriots",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-DP",
+          "player": "Dak Prescott",
+          "team": "Dallas Cowboys",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-EE",
+          "player": "Emeka Egbuka",
+          "team": "Tampa Bay Buccaneers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-JD",
+          "player": "Jaxson Dart",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-JDA",
+          "player": "Jayden Daniels",
+          "team": "Washington Commanders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-JE",
+          "player": "John Elway",
+          "team": "Denver Broncos",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-JG",
+          "player": "Jared Goff",
+          "team": "Detroit Lions",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-JH",
+          "player": "Jalen Hurts",
+          "team": "Philadelphia Eagles",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-JR",
+          "player": "Jerry Rice",
+          "team": "San Francisco 49ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-KJ",
+          "player": "Kaleb Johnson",
+          "team": "Pittsburgh Steelers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-LB",
+          "player": "Luther Burden III",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-MH",
+          "player": "Marvin Harrison Jr.",
+          "team": "Arizona Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-MN",
+          "player": "Malik Nabers",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-OH",
+          "player": "Omarion Hampton",
+          "team": "Los Angeles Chargers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-PN",
+          "player": "Puka Nacua",
+          "team": "Los Angeles Rams",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-QJ",
+          "player": "Quinshon Judkins",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-RH",
+          "player": "RJ Harvey",
+          "team": "Denver Broncos",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-RM",
+          "player": "Randy Moss",
+          "team": "Minnesota Vikings",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-RS",
+          "player": "Roger Staubach",
+          "team": "Dallas Cowboys",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-TB",
+          "player": "Tom Brady",
+          "team": "Tampa Bay Buccaneers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-TH",
+          "player": "Travis Hunter",
+          "team": "Jacksonville Jaguars",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-THE",
+          "player": "Treveyon Henderson",
+          "team": "New England Patriots",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-TM",
+          "player": "Tetairoa McMillan",
+          "team": "Carolina Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Ivory Auto",
+          "card_no": "IA-XW",
+          "player": "Xavier Worthy",
+          "team": "Kansas City Chiefs",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-BNPM",
+          "player": "Bo Nix / Peyton Manning",
+          "team": "Denver Broncos",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-BPJM",
+          "player": "Joe Montana / Brock Purdy",
+          "team": "San Francisco 49ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-CSNC",
+          "player": "CJ Stroud / Nico Collins",
+          "team": "Houston Texans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-CWLB",
+          "player": "Luther Burden III / Caleb Williams",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-CWMO",
+          "player": "Cam Ward / Warren Moon",
+          "team": "Tennessee Titans / Houston Oilers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-DMTB",
+          "player": "Drake Maye / Tom Brady",
+          "team": "New England Patriots",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-DPTA",
+          "player": "Dak Prescott / Troy Aikman",
+          "team": "Dallas Cowboys",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-JDCW",
+          "player": "Jayden Daniels / Cam Ward",
+          "team": "Washington Commanders / Tennessee Titans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-JDEM",
+          "player": "Eli Manning / Jaxson Dart",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-JGBS",
+          "player": "Barry Sanders / Jahmyr Gibbs",
+          "team": "Detroit Lions",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-JHAB",
+          "player": "A.J. Brown / Jalen Hurts",
+          "team": "Philadelphia Eagles",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-KJWH",
+          "player": "Kaleb Johnson / Will Howard",
+          "team": "Pittsburgh Steelers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-MNOB",
+          "player": "Malik Nabers / Odell Beckham Jr.",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-MSRL",
+          "player": "Malaki Starks / Ray Lewis",
+          "team": "Baltimore Ravens",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-OHTH",
+          "player": "Tre Harris III / Omarion Hampton",
+          "team": "Los Angeles Chargers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-QJTH",
+          "player": "Quinshon Judkins / Treveyon Henderson",
+          "team": "Cleveland Browns / New England Patriots",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Pitch Black Pairings Dual Auto",
+          "card_no": "PBDA-TTJW",
+          "player": "Jaylen Waddle / Tua Tagovailoa",
+          "team": "Miami Dolphins",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-AJ",
+          "player": "Ashton Jeanty",
+          "team": "Las Vegas Raiders",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-BT",
+          "player": "Bhayshul Tuten",
+          "team": "Jacksonville Jaguars",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-CD",
+          "player": "Chimere Dike",
+          "team": "Tennessee Titans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-CL",
+          "player": "Colston Loveland",
+          "team": "Chicago Bears",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-CS",
+          "player": "Carson Schwesinger",
+          "team": "Cleveland Browns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-CSK",
+          "player": "Cam Skattebo",
+          "team": "New York Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-CW",
+          "player": "Cam Ward",
+          "team": "Tennessee Titans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-DG",
+          "player": "Dillon Gabriel",
+          "team": "Cleveland Browns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-DS",
+          "player": "Dylan Sampson",
+          "team": "Cleveland Browns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-EA",
+          "player": "Elijah Arroyo",
+          "team": "Seattle Seahawks",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-EE",
+          "player": "Emeka Egbuka",
+          "team": "Tampa Bay Buccaneers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-IT",
+          "player": "Isaac TeSlaa",
+          "team": "Detroit Lions",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-JB",
+          "player": "Jaydon Blue",
+          "team": "Dallas Cowboys",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-JBE",
+          "player": "Jack Bech",
+          "team": "Las Vegas Raiders",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-JD",
+          "player": "Jaxson Dart",
+          "team": "New York Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-JH",
+          "player": "Jayden Higgins",
+          "team": "Houston Texans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-JJ",
+          "player": "Jordan James",
+          "team": "San Francisco 49ers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-JL",
+          "player": "Jaylin Lane",
+          "team": "Washington Commanders",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-JN",
+          "player": "Jaylin Noel",
+          "team": "Houston Texans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-JR",
+          "player": "Jalen Royals",
+          "team": "Kansas City Chiefs",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-KJ",
+          "player": "Kaleb Johnson",
+          "team": "Pittsburgh Steelers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-KM",
+          "player": "Kyle McCord",
+          "team": "Philadelphia Eagles",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-LB",
+          "player": "Luther Burden III",
+          "team": "Chicago Bears",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-MG",
+          "player": "Mason Graham",
+          "team": "Cleveland Browns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-MGO",
+          "player": "Matthew Golden",
+          "team": "Green Bay Packers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-MT",
+          "player": "Mason Taylor",
+          "team": "New York Jets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-OH",
+          "player": "Omarion Hampton",
+          "team": "Los Angeles Chargers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-QJ",
+          "player": "Quinshon Judkins",
+          "team": "Cleveland Browns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-RH",
+          "player": "RJ Harvey",
+          "team": "Denver Broncos",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-RL",
+          "player": "Riley Leonard",
+          "team": "Indianapolis Colts",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-SSA",
+          "player": "Shedeur Sanders",
+          "team": "Cleveland Browns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-TB",
+          "player": "Tahj Brooks",
+          "team": "Cincinnati Bengals",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-TF",
+          "player": "Terrance Ferguson",
+          "team": "Los Angeles Rams",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-TH",
+          "player": "Travis Hunter",
+          "team": "Jacksonville Jaguars",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-THA",
+          "player": "Tre Harris III",
+          "team": "Los Angeles Chargers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-THE",
+          "player": "Treveyon Henderson",
+          "team": "New England Patriots",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-TM",
+          "player": "Tetairoa McMillan",
+          "team": "Carolina Panthers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-TS",
+          "player": "Tyler Shough",
+          "team": "New Orleans Saints",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-TW",
+          "player": "Tyler Warren",
+          "team": "Indianapolis Colts",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Rookie Auto",
+          "card_no": "RAU-WH",
+          "player": "Will Howard",
+          "team": "Pittsburgh Steelers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-AJ",
+          "player": "Ashton Jeanty",
+          "team": "Las Vegas Raiders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-BB",
+          "player": "Brock Bowers",
+          "team": "Las Vegas Raiders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-BI",
+          "player": "Bucky Irving",
+          "team": "Tampa Bay Buccaneers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-BN",
+          "player": "Bo Nix",
+          "team": "Denver Broncos",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-BY",
+          "player": "Bryce Young",
+          "team": "Carolina Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-CL",
+          "player": "Colston Loveland",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-CS",
+          "player": "Carson Schwesinger",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-CSK",
+          "player": "Cam Skattebo",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-CST",
+          "player": "CJ Stroud",
+          "team": "Houston Texans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-CW",
+          "player": "Cam Ward",
+          "team": "Tennessee Titans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-CWI",
+          "player": "Caleb Williams",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-DG",
+          "player": "Dillon Gabriel",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-DM",
+          "player": "Drake Maye",
+          "team": "New England Patriots",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-EE",
+          "player": "Emeka Egbuka",
+          "team": "Tampa Bay Buccaneers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-IB",
+          "player": "Isaiah Bond",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-JB",
+          "player": "Jaydon Blue",
+          "team": "Dallas Cowboys",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-JD",
+          "player": "Jaxson Dart",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-JDA",
+          "player": "Jayden Daniels",
+          "team": "Washington Commanders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-JG",
+          "player": "Jahmyr Gibbs",
+          "team": "Detroit Lions",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-JSN",
+          "player": "Jaxon Smith-Njigba",
+          "team": "Seattle Seahawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-KJ",
+          "player": "Kaleb Johnson",
+          "team": "Pittsburgh Steelers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-KM",
+          "player": "Kyle McCord",
+          "team": "Philadelphia Eagles",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-LB",
+          "player": "Luther Burden III",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-MGO",
+          "player": "Matthew Golden",
+          "team": "Green Bay Packers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-MH",
+          "player": "Marvin Harrison Jr.",
+          "team": "Arizona Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-MN",
+          "player": "Malik Nabers",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-OH",
+          "player": "Omarion Hampton",
+          "team": "Los Angeles Chargers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-PN",
+          "player": "Puka Nacua",
+          "team": "Los Angeles Rams",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-QJ",
+          "player": "Quinshon Judkins",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-RH",
+          "player": "RJ Harvey",
+          "team": "Denver Broncos",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-RL",
+          "player": "Riley Leonard",
+          "team": "Indianapolis Colts",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-THA",
+          "player": "Tre Harris III",
+          "team": "Los Angeles Chargers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-THE",
+          "player": "Treveyon Henderson",
+          "team": "New England Patriots",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-TM",
+          "player": "Tetairoa McMillan",
+          "team": "Carolina Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-TS",
+          "player": "Tyler Shough",
+          "team": "New Orleans Saints",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-TW",
+          "player": "Tyler Warren",
+          "team": "Indianapolis Colts",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-WH",
+          "player": "Will Howard",
+          "team": "Pittsburgh Steelers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Autograph",
+          "subset": "Football Super Futures Auto",
+          "card_no": "SFA-XW",
+          "player": "Xavier Worthy",
+          "team": "Kansas City Chiefs",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-1",
+          "player": "Lamar Jackson",
+          "team": "Baltimore Ravens",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-2",
+          "player": "Josh Allen",
+          "team": "Buffalo Bills",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-3",
+          "player": "Jayden Daniels",
+          "team": "Washington Commanders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-4",
+          "player": "Patrick Mahomes II",
+          "team": "Kansas City Chiefs",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-5",
+          "player": "Tom Brady",
+          "team": "New England Patriots",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-6",
+          "player": "Caleb Williams",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-7",
+          "player": "Joe Burrow",
+          "team": "Cincinnati Bengals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-8",
+          "player": "Ja'Marr Chase",
+          "team": "Cincinnati Bengals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-9",
+          "player": "Myles Garrett",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-10",
+          "player": "Justin Herbert",
+          "team": "Los Angeles Chargers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-11",
+          "player": "CJ Stroud",
+          "team": "Houston Texans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-12",
+          "player": "CeeDee Lamb",
+          "team": "Dallas Cowboys",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-13",
+          "player": "Malik Nabers",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-14",
+          "player": "Saquon Barkley",
+          "team": "Philadelphia Eagles",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-15",
+          "player": "Jalen Hurts",
+          "team": "Philadelphia Eagles",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-16",
+          "player": "Brian Thomas Jr.",
+          "team": "Jacksonville Jaguars",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-17",
+          "player": "Jordan Love",
+          "team": "Green Bay Packers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-18",
+          "player": "Justin Jefferson",
+          "team": "Minnesota Vikings",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-19",
+          "player": "Marvin Harrison Jr.",
+          "team": "Arizona Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-20",
+          "player": "Cam Ward",
+          "team": "Tennessee Titans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-21",
+          "player": "Travis Hunter",
+          "team": "Jacksonville Jaguars",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-22",
+          "player": "Ashton Jeanty",
+          "team": "Las Vegas Raiders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-23",
+          "player": "Tetairoa McMillan",
+          "team": "Carolina Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-24",
+          "player": "Treveyon Henderson",
+          "team": "New England Patriots",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Black Lightning",
+          "card_no": "BL-25",
+          "player": "Jaxson Dart",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-1",
+          "player": "Lamar Jackson",
+          "team": "Baltimore Ravens",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-2",
+          "player": "Josh Allen",
+          "team": "Buffalo Bills",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-3",
+          "player": "Jayden Daniels",
+          "team": "Washington Commanders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-4",
+          "player": "Drake Maye",
+          "team": "New England Patriots",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-5",
+          "player": "Patrick Mahomes II",
+          "team": "Kansas City Chiefs",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-6",
+          "player": "Tom Brady",
+          "team": "Tampa Bay Buccaneers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-7",
+          "player": "Myles Garrett",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-8",
+          "player": "Travis Kelce",
+          "team": "Kansas City Chiefs",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-9",
+          "player": "Jahmyr Gibbs",
+          "team": "Detroit Lions",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-10",
+          "player": "Ray Lewis",
+          "team": "Baltimore Ravens",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-11",
+          "player": "Barry Sanders",
+          "team": "Detroit Lions",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-12",
+          "player": "Brian Thomas Jr.",
+          "team": "Jacksonville Jaguars",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-13",
+          "player": "CJ Stroud",
+          "team": "Houston Texans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-14",
+          "player": "Kyler Murray",
+          "team": "Arizona Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-15",
+          "player": "Jalen Milroe",
+          "team": "Seattle Seahawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-16",
+          "player": "Luther Burden III",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-17",
+          "player": "Omarion Hampton",
+          "team": "Los Angeles Chargers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-18",
+          "player": "Cam Ward",
+          "team": "Tennessee Titans",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-19",
+          "player": "Travis Hunter",
+          "team": "Jacksonville Jaguars",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Depths of Darkness",
+          "card_no": "DOD-20",
+          "player": "Emeka Egbuka",
+          "team": "Tampa Bay Buccaneers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-1",
+          "player": "Bo Nix",
+          "team": "Denver Broncos",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-2",
+          "player": "Peyton Manning",
+          "team": "Denver Broncos",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-3",
+          "player": "J.J. McCarthy",
+          "team": "Minnesota Vikings",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-4",
+          "player": "Michael Penix Jr.",
+          "team": "Atlanta Falcons",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-5",
+          "player": "Drake Maye",
+          "team": "New England Patriots",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-6",
+          "player": "Micah Parsons",
+          "team": "Green Bay Packers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-7",
+          "player": "Dak Prescott",
+          "team": "Dallas Cowboys",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-8",
+          "player": "Travis Kelce",
+          "team": "Kansas City Chiefs",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-9",
+          "player": "Saquon Barkley",
+          "team": "Philadelphia Eagles",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-10",
+          "player": "Christian McCaffrey",
+          "team": "San Francisco 49ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-11",
+          "player": "Brock Purdy",
+          "team": "San Francisco 49ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-12",
+          "player": "Baker Mayfield",
+          "team": "Tampa Bay Buccaneers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-13",
+          "player": "Garrett Wilson",
+          "team": "New York Jets",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-14",
+          "player": "De'Von Achane",
+          "team": "Miami Dolphins",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-15",
+          "player": "Tyreek Hill",
+          "team": "Miami Dolphins",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-16",
+          "player": "Trevor Lawrence",
+          "team": "Jacksonville Jaguars",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-17",
+          "player": "Bo Jackson",
+          "team": "Los Angeles Raiders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-18",
+          "player": "T.J. Watt",
+          "team": "Pittsburgh Steelers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-19",
+          "player": "Bryce Young",
+          "team": "Carolina Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-20",
+          "player": "Jalen Milroe",
+          "team": "Seattle Seahawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-21",
+          "player": "Emeka Egbuka",
+          "team": "Tampa Bay Buccaneers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-22",
+          "player": "Abdul Carter",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-23",
+          "player": "Quinshon Judkins",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-24",
+          "player": "Luther Burden III",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Hit the Lights",
+          "card_no": "HL-25",
+          "player": "Omarion Hampton",
+          "team": "Los Angeles Chargers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-1",
+          "player": "Caleb Williams",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-2",
+          "player": "Joe Burrow",
+          "team": "Cincinnati Bengals",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-3",
+          "player": "Bo Nix",
+          "team": "Denver Broncos",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-4",
+          "player": "Peyton Manning",
+          "team": "Indianapolis Colts",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-5",
+          "player": "J.J. McCarthy",
+          "team": "Minnesota Vikings",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-6",
+          "player": "Michael Penix Jr.",
+          "team": "Atlanta Falcons",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-7",
+          "player": "Bijan Robinson",
+          "team": "Atlanta Falcons",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-8",
+          "player": "Dak Prescott",
+          "team": "Dallas Cowboys",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-9",
+          "player": "Justin Herbert",
+          "team": "Los Angeles Chargers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-10",
+          "player": "Justin Jefferson",
+          "team": "Minnesota Vikings",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-11",
+          "player": "Malik Nabers",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-12",
+          "player": "Jalen Hurts",
+          "team": "Philadelphia Eagles",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-13",
+          "player": "Christian McCaffrey",
+          "team": "San Francisco 49ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-14",
+          "player": "Rome Odunze",
+          "team": "Chicago Bears",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-15",
+          "player": "Jaxson Dart",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-16",
+          "player": "Ashton Jeanty",
+          "team": "Las Vegas Raiders",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-17",
+          "player": "Abdul Carter",
+          "team": "New York Giants",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-18",
+          "player": "Quinshon Judkins",
+          "team": "Cleveland Browns",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-19",
+          "player": "Tetairoa McMillan",
+          "team": "Carolina Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football Nocturnal",
+          "card_no": "N-20",
+          "player": "Treveyon Henderson",
+          "team": "New England Patriots",
+          "tag": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-1",
+          "player": "Jalon Walker",
+          "team": "Atlanta Falcons",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-2",
+          "player": "Tetairoa McMillan",
+          "team": "Carolina Panthers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-3",
+          "player": "Colston Loveland",
+          "team": "Chicago Bears",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-4",
+          "player": "Luther Burden III",
+          "team": "Chicago Bears",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-5",
+          "player": "Quinshon Judkins",
+          "team": "Cleveland Browns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-6",
+          "player": "Shedeur Sanders",
+          "team": "Cleveland Browns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-7",
+          "player": "Jaydon Blue",
+          "team": "Dallas Cowboys",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-8",
+          "player": "RJ Harvey",
+          "team": "Denver Broncos",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-9",
+          "player": "Isaac TeSlaa",
+          "team": "Detroit Lions",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-10",
+          "player": "Matthew Golden",
+          "team": "Green Bay Packers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-11",
+          "player": "Tyler Warren",
+          "team": "Indianapolis Colts",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-12",
+          "player": "Riley Leonard",
+          "team": "Indianapolis Colts",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-13",
+          "player": "Travis Hunter",
+          "team": "Jacksonville Jaguars",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-14",
+          "player": "Brashard Smith",
+          "team": "Kansas City Chiefs",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-15",
+          "player": "Ashton Jeanty",
+          "team": "Las Vegas Raiders",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-16",
+          "player": "Omarion Hampton",
+          "team": "Los Angeles Chargers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-17",
+          "player": "Tre Harris III",
+          "team": "Los Angeles Chargers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-18",
+          "player": "Quinn Ewers",
+          "team": "Miami Dolphins",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-19",
+          "player": "Treveyon Henderson",
+          "team": "New England Patriots",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-20",
+          "player": "Tyler Shough",
+          "team": "New Orleans Saints",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-21",
+          "player": "Abdul Carter",
+          "team": "New York Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-22",
+          "player": "Jaxson Dart",
+          "team": "New York Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-23",
+          "player": "Cam Skattebo",
+          "team": "New York Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-24",
+          "player": "Kaleb Johnson",
+          "team": "Pittsburgh Steelers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-25",
+          "player": "Will Howard",
+          "team": "Pittsburgh Steelers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-26",
+          "player": "Mykel Williams",
+          "team": "San Francisco 49ers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-27",
+          "player": "Jalen Milroe",
+          "team": "Seattle Seahawks",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-28",
+          "player": "Emeka Egbuka",
+          "team": "Tampa Bay Buccaneers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-29",
+          "player": "Cam Ward",
+          "team": "Tennessee Titans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "sport": "football",
+          "section": "Variation",
+          "subset": "Football Rookie Design Variation",
+          "card_no": "RV-30",
+          "player": "Jacory Croskey-Merritt",
+          "team": "Washington Commanders",
+          "tag": "RC"
+        }
+      ],
+      "parallels": [
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Refractor",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Blue",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Blue Wave",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Green",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Green Wave",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Purple",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Purple Mini-Diamond",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Gold Mini-Diamond",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Rose Gold",
+          "serial_no": "/15"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "White",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Refractor",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Blue",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Blue Wave",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Green",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Green Wave",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Purple",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Purple Mini-Diamond",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Gold Mini-Diamond",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Rose Gold",
+          "serial_no": "/15"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "White",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Football Base Rookies",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Auto",
+          "parallel_name": "Refractor",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Auto",
+          "parallel_name": "Blue",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Auto",
+          "parallel_name": "Green",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Auto",
+          "parallel_name": "Purple",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Auto",
+          "parallel_name": "Purple Mini-Diamond",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Auto",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Auto",
+          "parallel_name": "Gold Mini-Diamond",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Auto",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Auto",
+          "parallel_name": "Rose Gold",
+          "serial_no": "/15"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Auto",
+          "parallel_name": "White",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Auto",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Auto",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Ivory Auto",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Ivory Auto",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Ivory Auto",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Pitch Black Pairings Dual Auto",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Pitch Black Pairings Dual Auto",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Pitch Black Pairings Dual Auto",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto",
+          "parallel_name": "Refractor",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto",
+          "parallel_name": "Blue",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto",
+          "parallel_name": "Green",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto",
+          "parallel_name": "Purple",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto",
+          "parallel_name": "Purple Mini-Diamond",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto",
+          "parallel_name": "Gold Mini-Diamond",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto",
+          "parallel_name": "Rose Gold",
+          "serial_no": "/15"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto",
+          "parallel_name": "White",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Rookie Auto",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Super Futures Auto",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Super Futures Auto",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Super Futures Auto",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Football Super Futures Auto",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Football Black Lightning",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Football Depths of Darkness",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Football Depths of Darkness",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Football Hit the Lights",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Football Nocturnal",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Rookie Design Variation",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Rookie Design Variation",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Rookie Design Variation",
+          "parallel_name": "Black",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Rookie Design Variation",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Football Rookie Design Variation",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        }
+      ]
+    }
+  }
+}
