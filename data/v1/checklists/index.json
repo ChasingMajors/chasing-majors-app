@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-08T01:33:16.375Z",
+  "generated_at": "2026-07-10T01:27:59.532Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8552,6 +8552,15 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Merlin Premier League"
+    },
+    {
+      "Code": "2025_26_topps_pristine_premier_league_soccer",
+      "DisplayName": "2025-26 Topps Pristine Premier League Soccer",
+      "Keywords": "2025-26 Topps Pristine Premier League Soccer, 2025-26 Topps Pristine Premier League Soccer checklist, 2025-26 Topps Pristine Premier League Soccer cards, 2025-26 Topps Pristine Premier League Soccer parallels, 2025-26 Topps Pristine Premier League Soccer autographs, Topps Pristine Premier League soccer, Pristine Premier League soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Pristine Premier League"
     },
     {
       "Code": "2025_26_Topps_Real_Madrid_Team_Set_Soccer",
