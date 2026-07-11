@@ -2,8 +2,8 @@
   "ok": true,
   "sport": "baseball",
   "kind": "checklist_products",
-  "source": "Checklist DB map current merge",
-  "generated_at": "2026-07-11T05:53:43.740Z",
+  "source": "Product-scoped approved import publish",
+  "generated_at": "2026-07-11T15:33:20.707Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -31,7 +31,8 @@
     "baseball-023.json",
     "baseball-024.json",
     "baseball-025.json",
-    "baseball-026.json"
+    "baseball-026.json",
+    "baseball-product-2025-topps-inception-baseball.json"
   ],
   "product_map": {
     "2021_Topps_Baseball_Series_1": "baseball-001.json",
@@ -702,6 +703,7 @@
     "2026_topps_series_2_baseball": "baseball-026.json",
     "2026_topps_series1": "baseball-026.json",
     "2026-bowman-baseball": "baseball-026.json",
-    "2026-bowman-mega-box-baseball": "baseball-026.json"
+    "2026-bowman-mega-box-baseball": "baseball-026.json",
+    "2025_topps_inception_baseball": "baseball-product-2025-topps-inception-baseball.json"
   }
 }
