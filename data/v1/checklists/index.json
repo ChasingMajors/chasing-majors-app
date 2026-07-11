@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-10T02:19:38.422Z",
+  "generated_at": "2026-07-11T15:33:20.707Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -407,6 +407,15 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Holiday"
+    },
+    {
+      "Code": "2025_topps_inception_baseball",
+      "DisplayName": "2025 Topps Inception Baseball",
+      "Keywords": "2025 Topps Inception Baseball, 2025 Topps Inception Baseball checklist, 2025 Topps Inception Baseball cards, 2025 Topps Inception Baseball parallels, 2025 Topps Inception Baseball autographs, Topps Inception baseball, Inception baseball checklist",
+      "year": "2025",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Inception"
     },
     {
       "Code": "2025_Topps_MLB_MVP_Collection",
