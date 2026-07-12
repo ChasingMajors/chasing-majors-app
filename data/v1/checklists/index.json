@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-12T03:49:25.292Z",
+  "generated_at": "2026-07-12T16:02:33.169Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -110,6 +110,15 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Series 2"
+    },
+    {
+      "Code": "2026_topps_tier_one_baseball",
+      "DisplayName": "2026 Topps Tier One Baseball",
+      "Keywords": "2026 Topps Tier One Baseball, 2026 Topps Tier One Baseball checklist, 2026 Topps Tier One Baseball cards, 2026 Topps Tier One Baseball parallels, 2026 Topps Tier One Baseball autographs, Topps Tier One baseball, Tier One baseball checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Tier One"
     },
     {
       "Code": "2025_Bowman",
