@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-14T03:25:12.112Z",
+  "generated_at": "2026-07-14T03:53:08.262Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8345,6 +8345,15 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "Tim Hortons Team Canada Olympic"
+    },
+    {
+      "Code": "2025_26_upper_deck_ultimate_collection_hockey",
+      "DisplayName": "2025-26 Upper Deck Ultimate Collection Hockey",
+      "Keywords": "2025-26 Upper Deck Ultimate Collection Hockey, 2025-26 Upper Deck Ultimate Collection Hockey checklist, 2025-26 Upper Deck Ultimate Collection Hockey cards, 2025-26 Upper Deck Ultimate Collection Hockey parallels, 2025-26 Upper Deck Ultimate Collection Hockey autographs, Upper Deck Ultimate Collection hockey, Ultimate Collection hockey checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Ultimate Collection"
     },
     {
       "Code": "2026_panini_prizm_fifa_world_cup_soccer",
