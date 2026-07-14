@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-12T16:02:33.169Z",
+  "generated_at": "2026-07-14T03:25:12.112Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -47,6 +47,15 @@
       "sport": "baseball",
       "manufacturer": "",
       "product": "Donruss Elite"
+    },
+    {
+      "Code": "2026_panini_immaculate_collection_baseball",
+      "DisplayName": "2026 Panini Immaculate Collection Baseball",
+      "Keywords": "2026 Panini Immaculate Collection Baseball, 2026 Panini Immaculate Collection Baseball checklist, 2026 Panini Immaculate Collection Baseball cards, 2026 Panini Immaculate Collection Baseball parallels, 2026 Panini Immaculate Collection Baseball autographs, Panini Immaculate Collection baseball, Immaculate Collection baseball checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Panini",
+      "product": "Immaculate Collection"
     },
     {
       "Code": "2026_Panini_Stars_Strips_Prizm",
