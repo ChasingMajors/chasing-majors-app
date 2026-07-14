@@ -2,8 +2,8 @@
   "ok": true,
   "sport": "baseball",
   "kind": "checklist_products",
-  "source": "Product-scoped approved import publish",
-  "generated_at": "2026-07-14T03:25:12.112Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-07-14T05:53:43.318Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -31,8 +31,7 @@
     "baseball-023.json",
     "baseball-024.json",
     "baseball-025.json",
-    "baseball-026.json",
-    "baseball-product-2026-panini-immaculate-collection-baseball.json"
+    "baseball-026.json"
   ],
   "product_map": {
     "2021_Topps_Baseball_Series_1": "baseball-001.json",
@@ -696,8 +695,9 @@
     "2026_bowman_sapphire_baseball": "baseball-025.json",
     "2026_donruss_baseball": "baseball-025.json",
     "2026_donruss_elite_baseball": "baseball-025.json",
+    "2026_panini_immaculate_collection_baseball": "baseball-025.json",
     "2026_Panini_Stars_Strips_Prizm": "baseball-025.json",
-    "2026_Topps_Chrome_Black": "baseball-025.json",
+    "2026_Topps_Chrome_Black": "baseball-026.json",
     "2026_topps_finest_baseball": "baseball-026.json",
     "2026_Topps_Heritage": "baseball-026.json",
     "2026_topps_series_1_celebration": "baseball-026.json",
@@ -705,7 +705,6 @@
     "2026_topps_series1": "baseball-026.json",
     "2026_topps_tier_one_baseball": "baseball-026.json",
     "2026-bowman-baseball": "baseball-026.json",
-    "2026-bowman-mega-box-baseball": "baseball-026.json",
-    "2026_panini_immaculate_collection_baseball": "baseball-product-2026-panini-immaculate-collection-baseball.json"
+    "2026-bowman-mega-box-baseball": "baseball-026.json"
   }
 }
