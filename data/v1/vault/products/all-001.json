@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-07-13T21:25:30.378Z",
+  "generated_at": "2026-07-14T04:09:09.110Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -36152,6 +36152,130 @@
           "subSetSize": 53,
           "notes": "",
           "cmURL": ""
+        }
+      ]
+    },
+    "2025_topps_chrome_black_football": {
+      "ok": true,
+      "meta": {
+        "code": "2025_topps_chrome_black_football",
+        "displayName": "2025 Topps Chrome Black Football",
+        "year": "2025",
+        "sport": "football",
+        "manufacturer": "Topps",
+        "product": "Chrome Black",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2025_topps_chrome_black_football",
+          "setType": "Base",
+          "setLine": "Vets",
+          "printRun": 4800,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-black-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "setType": "Base",
+          "setLine": "Rookies",
+          "printRun": 6540,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-black-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "setType": "Insert",
+          "setLine": "Rookie Design Variation",
+          "printRun": 135,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-black-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "setType": "Insert",
+          "setLine": "Black Lightning",
+          "printRun": 26,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-black-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "setType": "Insert",
+          "setLine": "Hit the Lights",
+          "printRun": 32,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-black-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "setType": "Insert",
+          "setLine": "Nocturnal",
+          "printRun": 40,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-black-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "setType": "Insert",
+          "setLine": "Depths of Darkness",
+          "printRun": 60,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-black-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "setType": "Auto",
+          "setLine": "Base Vet Autos",
+          "printRun": 70,
+          "serial": "",
+          "subSetSize": 59,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-black-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "setType": "Auto",
+          "setLine": "Base Rookie Autos",
+          "printRun": 680,
+          "serial": "",
+          "subSetSize": 40,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-black-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "setType": "Auto",
+          "setLine": "Part 8: One More Takeaway It’s worth noting that Vet Autos are quite a bit tougher to pull than Rookie Autos. Additionally, Blue Vet Autos, despite being numbered, are scarcer in the product than even the Orange Refractors.",
+          "printRun": 150,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-black-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_chrome_black_football",
+          "setType": "Auto",
+          "setLine": "Furthermore, even tougher than the Blue Vet Autos are Vet Refractor Autos. Despite being, the odds say there are only ~15 of each inserted into the product. As with the blue, there could also be a significant number of non-signers in the Refractor Parallel. Odds of the Refractor Autos are similar to that of Rose Gold Wave Autos.",
+          "printRun": 15,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-black-nfl-analysis"
         }
       ]
     }
