@@ -2,8 +2,8 @@
   "ok": true,
   "sport": "baseball",
   "kind": "checklist_products",
-  "source": "Checklist DB map current merge",
-  "generated_at": "2026-07-14T05:53:43.318Z",
+  "source": "Product-scoped approved import publish",
+  "generated_at": "2026-07-14T23:20:43.161Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -31,7 +31,8 @@
     "baseball-023.json",
     "baseball-024.json",
     "baseball-025.json",
-    "baseball-026.json"
+    "baseball-026.json",
+    "baseball-product-2026-topps-dynamic-duals-baseball.json"
   ],
   "product_map": {
     "2021_Topps_Baseball_Series_1": "baseball-001.json",
@@ -705,6 +706,7 @@
     "2026_topps_series1": "baseball-026.json",
     "2026_topps_tier_one_baseball": "baseball-026.json",
     "2026-bowman-baseball": "baseball-026.json",
-    "2026-bowman-mega-box-baseball": "baseball-026.json"
+    "2026-bowman-mega-box-baseball": "baseball-026.json",
+    "2026_topps_dynamic_duals_baseball": "baseball-product-2026-topps-dynamic-duals-baseball.json"
   }
 }
