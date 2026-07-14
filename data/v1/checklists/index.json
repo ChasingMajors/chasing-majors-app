@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-14T16:02:49.212Z",
+  "generated_at": "2026-07-14T23:20:43.161Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -74,6 +74,15 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome Black"
+    },
+    {
+      "Code": "2026_topps_dynamic_duals_baseball",
+      "DisplayName": "2026 Topps Dynamic Duals Baseball",
+      "Keywords": "2026 Topps Dynamic Duals Baseball, 2026 Topps Dynamic Duals Baseball checklist, 2026 Topps Dynamic Duals Baseball cards, 2026 Topps Dynamic Duals Baseball parallels, 2026 Topps Dynamic Duals Baseball autographs, Topps Dynamic Duals baseball, Dynamic Duals baseball checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Dynamic Duals"
     },
     {
       "Code": "2026_topps_finest_baseball",
