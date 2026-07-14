@@ -3,10 +3,5853 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-07-13T05:53:43.046Z",
+  "generated_at": "2026-07-14T05:53:43.318Z",
   "shard": 26,
   "shard_count": 26,
   "products": {
+    "2026_Topps_Chrome_Black": {
+      "ok": true,
+      "meta": {
+        "code": "2026_Topps_Chrome_Black",
+        "displayName": "2026 Topps Chrome Black Baseball",
+        "keywords": "2026 Topps Chrome Black Baseball, 2026 Topps Chrome Black, 26 Topps Chrome Black, Topps Chrome Black Baseball, Topps Chrome Black",
+        "source_key": "2026",
+        "year": "2026",
+        "manufacturer": "Topps",
+        "product": "Chrome Black",
+        "sport": "baseball"
+      },
+      "rows": [
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-AF",
+          "player": "Alex Freeland",
+          "team": "Los Angeles Dodgers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-AGI",
+          "player": "Andrés Giménez",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-AJ",
+          "player": "Aaron Judge",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-AM",
+          "player": "Andrew McCutchen",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-AP",
+          "player": "Albert Pujols",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-ARA",
+          "player": "Agustín Ramírez",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-BB",
+          "player": "Barry Bonds",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-BBU",
+          "player": "Byron Buxton",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-BC",
+          "player": "Bubba Chandler",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-BE",
+          "player": "Bryce Eldridge",
+          "team": "San Francisco Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-BH",
+          "player": "Brady House",
+          "team": "Washington Nationals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-BM",
+          "player": "Brice Matthews",
+          "team": "Houston Astros",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-BR",
+          "player": "Brent Rooker",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-BT",
+          "player": "Brice Turang",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-BW",
+          "player": "Bryan Woo",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-BZ",
+          "player": "Barry Zito",
+          "team": "Oakland Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CA",
+          "player": "CJ Abrams",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CAG",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CB",
+          "player": "Chase Burns",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CBL",
+          "player": "Charlie Blackmon",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CC",
+          "player": "Corbin Carroll",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CD",
+          "player": "Chase Dollander",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CDE",
+          "player": "Chase DeLauter",
+          "team": "Cleveland Guardians",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CF",
+          "player": "Cody Freeman",
+          "team": "Texas Rangers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CH",
+          "player": "Cade Horton",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CJ",
+          "player": "C.J. Kayfus",
+          "team": "Cleveland Guardians",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CM",
+          "player": "Christian Moore",
+          "team": "Los Angeles Angels",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CME",
+          "player": "Chase Meidroth",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CMO",
+          "player": "Colson Montgomery",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CR",
+          "player": "Cal Raleigh",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CT",
+          "player": "Colby Thomas",
+          "team": "Athletics",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CWH",
+          "player": "Carson Whisenhunt",
+          "team": "San Francisco Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CY",
+          "player": "Cole Young",
+          "team": "Seattle Mariners",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-CYE",
+          "player": "Christian Yelich",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-DB",
+          "player": "Drake Baldwin",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-DBE",
+          "player": "Dylan Beavers",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-DF",
+          "player": "Didier Fuentes",
+          "team": "Atlanta Braves",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-DG",
+          "player": "Dwight Gooden",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-DGI",
+          "player": "Drew Gilbert",
+          "team": "San Francisco Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-DJ",
+          "player": "Derek Jeter",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-DL",
+          "player": "Derrek Lee",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-DR",
+          "player": "Dalton Rushing",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-DW",
+          "player": "Dave Winfield",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-ED",
+          "player": "Elly De La Cruz",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-EM",
+          "player": "Eddie Murray",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-EQ",
+          "player": "Edgar Quero",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-FT",
+          "player": "Frank Thomas",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-FTJ",
+          "player": "Fernando Tatis Jr.",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-HK",
+          "player": "Hyeseong Kim",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-HP",
+          "player": "Hunter Pence",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-HR",
+          "player": "Hanley Ramirez",
+          "team": "Florida Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-IC",
+          "player": "Isaac Collins",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JA",
+          "player": "Jonathan Aranda",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JB",
+          "player": "Johnny Bench",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JCA",
+          "player": "Jose Canseco",
+          "team": "Oakland Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JCJ",
+          "player": "Jazz Chisholm Jr.",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JD",
+          "player": "Jasson Domínguez",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JDA",
+          "player": "Johnny Damon",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JI",
+          "player": "Jimmy Crooks",
+          "team": "St. Louis Cardinals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JLE",
+          "player": "Jack Leiter",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JM",
+          "player": "Jacob Melton",
+          "team": "Houston Astros",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JMA",
+          "player": "Jakob Marsee",
+          "team": "Miami Marlins",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JMI",
+          "player": "Jacob Misiorowski",
+          "team": "Milwaukee Brewers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JR",
+          "player": "Julio Rodríguez",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JRE",
+          "player": "José Reyes",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JRO",
+          "player": "Jimmy Rollins",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JS",
+          "player": "Johan Santana",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JT",
+          "player": "Jonah Tong",
+          "team": "New York Mets",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-JWE",
+          "player": "Jordan Westburg",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-KCA",
+          "player": "Kristian Campbell",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-KK",
+          "player": "Kyle Karros",
+          "team": "Colorado Rockies",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-KO",
+          "player": "Kazuma Okamoto",
+          "team": "Toronto Blue Jays",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-KS",
+          "player": "Kodai Senga",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-KW",
+          "player": "Kerry Wood",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-LA",
+          "player": "Luis Arraez",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-LG",
+          "player": "Luis Gonzalez",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-LW",
+          "player": "Logan Webb",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-LWA",
+          "player": "Larry Walker",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-MHA",
+          "player": "Michael Harris II",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-MM",
+          "player": "Mark McGwire",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-MT",
+          "player": "Mike Trout",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-MU",
+          "player": "Munetaka Murakami",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-NC",
+          "player": "Nathan Church",
+          "team": "St. Louis Cardinals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-NK",
+          "player": "Nick Kurtz",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-NM",
+          "player": "Nolan McLean",
+          "team": "New York Mets",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-OC",
+          "player": "Owen Caissie",
+          "team": "Chicago Cubs",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-OH",
+          "player": "Orlando Hernandez",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-OK",
+          "player": "Otto Kemp",
+          "team": "Philadelphia Phillies",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-PO",
+          "player": "Paul O'Neill",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-PS",
+          "player": "Paul Skenes",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-RA",
+          "player": "Roman Anthony",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-RAJ",
+          "player": "Ronald Acuña Jr.",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-RAR",
+          "player": "Randy Arozarena",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-RRI",
+          "player": "Ryan Ritter",
+          "team": "Colorado Rockies",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-RS",
+          "player": "Roki Sasaki",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-SB",
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-SC",
+          "player": "Cam Schlittler",
+          "team": "New York Yankees",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-SK",
+          "player": "Sandy Koufax",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-SOG",
+          "player": "Shinnosuke Ogasawara",
+          "team": "Washington Nationals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-SS",
+          "player": "Sal Stewart",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-TI",
+          "player": "Tatsuya Imai",
+          "team": "Houston Astros",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-TM",
+          "player": "Troy Melton",
+          "team": "Detroit Tigers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-TS",
+          "player": "Ted Simmons",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-TY",
+          "player": "Trey Yesavage",
+          "team": "Toronto Blue Jays",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-VG",
+          "player": "Vladimir Guerrero Jr.",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-VW",
+          "player": "Vernon Wells",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-WB",
+          "player": "Wade Boggs",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-WBE",
+          "player": "Warming Bernabel",
+          "team": "Colorado Rockies",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-WC",
+          "player": "Will Clark",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-YF",
+          "player": "Yanquiel Fernández",
+          "team": "Colorado Rockies",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Autographs",
+          "card_no": "CBA-ZNE",
+          "player": "Zach Neto",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-BB",
+          "player": "Barry Bonds",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-BC",
+          "player": "Bubba Chandler",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-CB",
+          "player": "Chase Burns",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-CJ",
+          "player": "Chipper Jones",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-CM",
+          "player": "Christian Moore",
+          "team": "Los Angeles Angels",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-CS",
+          "player": "CC Sabathia",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-DJ",
+          "player": "Derek Jeter",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-DM",
+          "player": "Dale Murphy",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-DMA",
+          "player": "Don Mattingly",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-DO",
+          "player": "David Ortiz",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-FT",
+          "player": "Fernando Tatis Jr.",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-GB",
+          "player": "George Brett",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-I",
+          "player": "Ichiro",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-JC",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-JS",
+          "player": "Juan Soto",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-JV",
+          "player": "Joey Votto",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-KC",
+          "player": "Kristian Campbell",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-KT",
+          "player": "Kyle Teel",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-MC",
+          "player": "Miguel Cabrera",
+          "team": "Florida Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-MM",
+          "player": "Mark McGwire",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-MS",
+          "player": "Mike Schmidt",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-NR",
+          "player": "Nolan Ryan",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-OC",
+          "player": "Owen Caissie",
+          "team": "Chicago Cubs",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-OH",
+          "player": "Orel Hershiser",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-RA",
+          "player": "Ronald Acuña Jr.",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-RAN",
+          "player": "Roman Anthony",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-RC",
+          "player": "Roger Clemens",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-RJ",
+          "player": "Randy Johnson",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-RJA",
+          "player": "Reggie Jackson",
+          "team": "Oakland Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-RY",
+          "player": "Robin Yount",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-SB",
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-SC",
+          "player": "Steve Carlton",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-SK",
+          "player": "Sandy Koufax",
+          "team": "Brooklyn Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-SO",
+          "player": "Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-SS",
+          "player": "Sammy Sosa",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Ivory Autographs",
+          "card_no": "IVA-YY",
+          "player": "Yoshinobu Yamamoto",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-AP",
+          "player": "Albert Pujols",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-BC",
+          "player": "Bubba Chandler",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-CB",
+          "player": "Chase Burns",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-CM",
+          "player": "Christian Moore",
+          "team": "Los Angeles Angels",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-CMO",
+          "player": "Colson Montgomery",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-CS",
+          "player": "CC Sabathia",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-DJ",
+          "player": "Derek Jeter",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-GB",
+          "player": "George Brett",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-I",
+          "player": "Ichiro",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-JC",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-KC",
+          "player": "Kristian Campbell",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-KS",
+          "player": "Kodai Senga",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-KT",
+          "player": "Kyle Teel",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-MT",
+          "player": "Mike Trout",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-NK",
+          "player": "Nick Kurtz",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-NR",
+          "player": "Nolan Ryan",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-OC",
+          "player": "Owen Caissie",
+          "team": "Chicago Cubs",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-RAN",
+          "player": "Roman Anthony",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Paint It",
+          "card_no": "PIA-YY",
+          "player": "Yoshinobu Yamamoto",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Pitch Black Pairings Dual Autographs",
+          "card_no": "PDPA-AC",
+          "player": "Kristian Campbell / Roman Anthony",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Pitch Black Pairings Dual Autographs",
+          "card_no": "PDPA-AJ",
+          "player": "Chipper Jones / Ronald Acuña Jr.",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Pitch Black Pairings Dual Autographs",
+          "card_no": "PDPA-BC",
+          "player": "Wade Boggs / Roger Clemens",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Pitch Black Pairings Dual Autographs",
+          "card_no": "PDPA-JG",
+          "player": "Ken Griffey Jr. / Randy Johnson",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Pitch Black Pairings Dual Autographs",
+          "card_no": "PDPA-JI",
+          "player": "Ichiro / Derek Jeter",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Pitch Black Pairings Dual Autographs",
+          "card_no": "PDPA-KP",
+          "player": "Hyeseong Kim / Chan Ho Park",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Pitch Black Pairings Dual Autographs",
+          "card_no": "PDPA-OY",
+          "player": "Yoshinobu Yamamoto / Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Pitch Black Pairings Dual Autographs",
+          "card_no": "PDPA-PM",
+          "player": "Mark McGwire / Albert Pujols",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Pitch Black Pairings Dual Autographs",
+          "card_no": "PDPA-SC",
+          "player": "Bubba Chandler / Paul Skenes",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Pitch Black Pairings Dual Autographs",
+          "card_no": "PDPA-SD",
+          "player": "Sammy Sosa / Andre Dawson",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Pitch Black Pairings Dual Autographs",
+          "card_no": "PDPA-TJ",
+          "player": "Mike Trout / Reggie Jackson",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Pitch Black Pairings Dual Autographs",
+          "card_no": "PDPA-TK",
+          "player": "Frank Thomas / Paul Konerko",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Pitch Black Pairings Dual Autographs",
+          "card_no": "PDPA-WG",
+          "player": "Vladimir Guerrero / Larry Walker",
+          "team": "Montréal Expos",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Pitch Black Pairings Dual Autographs",
+          "card_no": "PDPA-WW",
+          "player": "Jack Wilson / Jacob Wilson",
+          "team": "Pirates / Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-AF",
+          "player": "Alex Freeland",
+          "team": "Los Angeles Dodgers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-AR",
+          "player": "Agustín Ramírez",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-BC",
+          "player": "Bubba Chandler",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-BL",
+          "player": "Brooks Lee",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-BM",
+          "player": "Brice Matthews",
+          "team": "Houston Astros",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-CAG",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-CB",
+          "player": "Chase Burns",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-CM",
+          "player": "Christian Moore",
+          "team": "Los Angeles Angels",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-CSI",
+          "player": "Chandler Simpson",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-CY",
+          "player": "Cole Young",
+          "team": "Seattle Mariners",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-DB",
+          "player": "Dylan Beavers",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-DR",
+          "player": "Dalton Rushing",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-JM",
+          "player": "Jacob Melton",
+          "team": "Houston Astros",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-JMA",
+          "player": "Jakob Marsee",
+          "team": "Miami Marlins",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-KC",
+          "player": "Kristian Campbell",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-KT",
+          "player": "Kyle Teel",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-NK",
+          "player": "Nick Kurtz",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-NM",
+          "player": "Nolan McLean",
+          "team": "New York Mets",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-OC",
+          "player": "Owen Caissie",
+          "team": "Chicago Cubs",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-RS",
+          "player": "Roki Sasaki",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-SB",
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Super Futures Autographs",
+          "card_no": "SFA-SS",
+          "player": "Sal Stewart",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "1",
+          "player": "Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "2",
+          "player": "Mike Trout",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "3",
+          "player": "Ronald Acuña Jr.",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "4",
+          "player": "Mookie Betts",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "5",
+          "player": "Freddie Freeman",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "6",
+          "player": "Juan Soto",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "7",
+          "player": "Julio Rodríguez",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "8",
+          "player": "Aaron Judge",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "9",
+          "player": "José Ramírez",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "10",
+          "player": "Yordan Alvarez",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "11",
+          "player": "Gunnar Henderson",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "12",
+          "player": "Alex Bregman",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "13",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "14",
+          "player": "Brendan Donovan",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "15",
+          "player": "Matt Olson",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "16",
+          "player": "Kyle Tucker",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "17",
+          "player": "Bubba Chandler",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "18",
+          "player": "Pete Alonso",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "19",
+          "player": "Francisco Lindor",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "20",
+          "player": "Teoscar Hernández",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "21",
+          "player": "Jacob Misiorowski",
+          "team": "Milwaukee Brewers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "22",
+          "player": "Shota Imanaga",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "23",
+          "player": "Jhostynxon Garcia",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "24",
+          "player": "Jose Altuve",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "25",
+          "player": "Nolan Arenado",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "26",
+          "player": "Payton Tolle",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "27",
+          "player": "Jakob Marsee",
+          "team": "Miami Marlins",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "28",
+          "player": "Alex Freeland",
+          "team": "Los Angeles Dodgers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "29",
+          "player": "Marcelo Mayer",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "30",
+          "player": "Sal Stewart",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "31",
+          "player": "Cade Horton",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "32",
+          "player": "Chris Sale",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "33",
+          "player": "Jung Hoo Lee",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "34",
+          "player": "Jordan Beck",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "35",
+          "player": "Paul Skenes",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "36",
+          "player": "Jeremy Peña",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "37",
+          "player": "Kyle Stowers",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "38",
+          "player": "Chase Burns",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "39",
+          "player": "Jazz Chisholm Jr.",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "40",
+          "player": "Zach Neto",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "41",
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "42",
+          "player": "Christian Yelich",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "43",
+          "player": "Jacob Melton",
+          "team": "Houston Astros",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "44",
+          "player": "C.J. Kayfus",
+          "team": "Cleveland Guardians",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "45",
+          "player": "Tarik Skubal",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "46",
+          "player": "Nathan Church",
+          "team": "St. Louis Cardinals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "47",
+          "player": "Cal Raleigh",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "48",
+          "player": "Jonah Tong",
+          "team": "New York Mets",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "49",
+          "player": "Yoshinobu Yamamoto",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "50",
+          "player": "Bryce Eldridge",
+          "team": "San Francisco Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "51",
+          "player": "Owen Caissie",
+          "team": "Chicago Cubs",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "52",
+          "player": "Parker Messick",
+          "team": "Cleveland Guardians",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "53",
+          "player": "Willson Contreras",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "54",
+          "player": "Matt Chapman",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "55",
+          "player": "Roki Sasaki",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "56",
+          "player": "Roman Anthony",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "57",
+          "player": "Agustín Ramírez",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "58",
+          "player": "Carter Jensen",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "59",
+          "player": "Randy Arozarena",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "60",
+          "player": "Colson Montgomery",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "61",
+          "player": "Masyn Winn",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "62",
+          "player": "Andrew Abbott",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "63",
+          "player": "Andrew McCutchen",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "64",
+          "player": "Xavier Edwards",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "65",
+          "player": "Nolan McLean",
+          "team": "New York Mets",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "66",
+          "player": "Dillon Dingler",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "67",
+          "player": "Steven Kwan",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "68",
+          "player": "Cole Young",
+          "team": "Seattle Mariners",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "69",
+          "player": "Denzer Guzman",
+          "team": "Los Angeles Angels",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "70",
+          "player": "Dylan Beavers",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "71",
+          "player": "Salvador Perez",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "72",
+          "player": "Warming Bernabel",
+          "team": "Colorado Rockies",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "73",
+          "player": "Bobby Witt Jr.",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "74",
+          "player": "Brandon Sproat",
+          "team": "New York Mets",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "75",
+          "player": "Brice Matthews",
+          "team": "Houston Astros",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "76",
+          "player": "Chase Dollander",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "77",
+          "player": "Christian Moore",
+          "team": "Los Angeles Angels",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "78",
+          "player": "Ryan Ritter",
+          "team": "Colorado Rockies",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "79",
+          "player": "Harry Ford",
+          "team": "Washington Nationals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "80",
+          "player": "J.P. Crawford",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "81",
+          "player": "Drake Baldwin",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "82",
+          "player": "Luis Robert Jr.",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "83",
+          "player": "Javier Báez",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "84",
+          "player": "Cody Bellinger",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "85",
+          "player": "Kyle Teel",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "86",
+          "player": "Matt Shaw",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "87",
+          "player": "Pete Crow-Armstrong",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "88",
+          "player": "Jackson Holliday",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "89",
+          "player": "Spencer Torkelson",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "90",
+          "player": "Riley Greene",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "91",
+          "player": "Jackson Chourio",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "92",
+          "player": "Troy Melton",
+          "team": "Detroit Tigers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "93",
+          "player": "Elly De La Cruz",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "94",
+          "player": "Kris Bryant",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "95",
+          "player": "Edgar Quero",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "96",
+          "player": "Alec Burleson",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "97",
+          "player": "Connelly Early",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "98",
+          "player": "Cam Schlittler",
+          "team": "New York Yankees",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "99",
+          "player": "Jimmy Crooks",
+          "team": "St. Louis Cardinals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "100",
+          "player": "Fernando Tatis Jr.",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "101",
+          "player": "Carson Williams",
+          "team": "Tampa Bay Rays",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "102",
+          "player": "Gabriel Moreno",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "103",
+          "player": "Anthony Volpe",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "104",
+          "player": "Zack Wheeler",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "105",
+          "player": "Bryce Harper",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "106",
+          "player": "Will Banfield",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "107",
+          "player": "Jacob deGrom",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "108",
+          "player": "Wyatt Langford",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "109",
+          "player": "Byron Buxton",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "110",
+          "player": "Jasson Domínguez",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "111",
+          "player": "Vladimir Guerrero Jr.",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "112",
+          "player": "Carlos Correa",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "113",
+          "player": "Isaac Collins",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "114",
+          "player": "Luis Arraez",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "115",
+          "player": "Bryson Stott",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "116",
+          "player": "Nick Kurtz",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "117",
+          "player": "Seiya Suzuki",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "118",
+          "player": "Ketel Marte",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "119",
+          "player": "Kodai Senga",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "120",
+          "player": "Xander Bogaerts",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "121",
+          "player": "Heriberto Hernández",
+          "team": "Miami Marlins",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "122",
+          "player": "Max Fried",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "123",
+          "player": "Carson Whisenhunt",
+          "team": "San Francisco Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "124",
+          "player": "Mason Miller",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "125",
+          "player": "George Springer",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "126",
+          "player": "Corey Seager",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "127",
+          "player": "Corbin Carroll",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "128",
+          "player": "Spencer Schwellenbach",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "129",
+          "player": "Brooks Lee",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "130",
+          "player": "Cody Freeman",
+          "team": "Texas Rangers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "131",
+          "player": "Trey Yesavage",
+          "team": "Toronto Blue Jays",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "132",
+          "player": "Kyle Karros",
+          "team": "Colorado Rockies",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "133",
+          "player": "Colby Thomas",
+          "team": "Athletics",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "134",
+          "player": "Garrett Crochet",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "135",
+          "player": "Coby Mayo",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "136",
+          "player": "Giancarlo Stanton",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "137",
+          "player": "Zach Cole",
+          "team": "Houston Astros",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "138",
+          "player": "Hyeseong Kim",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "139",
+          "player": "Trea Turner",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "140",
+          "player": "Manny Machado",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "141",
+          "player": "Will Smith",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "142",
+          "player": "Ozzie Albies",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "143",
+          "player": "Shinnosuke Ogasawara",
+          "team": "Washington Nationals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "144",
+          "player": "Adley Rutschman",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "145",
+          "player": "Junior Caminero",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "146",
+          "player": "Otto Kemp",
+          "team": "Philadelphia Phillies",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "147",
+          "player": "Andrés Giménez",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "148",
+          "player": "Mick Abel",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "149",
+          "player": "Bo Bichette",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "150",
+          "player": "Dalton Rushing",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "151",
+          "player": "Geraldo Perdomo",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "152",
+          "player": "Brent Rooker",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "153",
+          "player": "Justin Verlander",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "154",
+          "player": "Freddy Peralta",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "155",
+          "player": "Dylan Crews",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "156",
+          "player": "James Wood",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "157",
+          "player": "Tyler Soderstrom",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "158",
+          "player": "Willy Adames",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "159",
+          "player": "Jackson Jobe",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "160",
+          "player": "Brady House",
+          "team": "Washington Nationals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "161",
+          "player": "Ezequiel Tovar",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "162",
+          "player": "CJ Abrams",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "163",
+          "player": "Adolis García",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "164",
+          "player": "Zac Gallen",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "165",
+          "player": "Carlos Rodón",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "166",
+          "player": "Logan Webb",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "167",
+          "player": "Kristian Campbell",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "168",
+          "player": "Brice Turang",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "169",
+          "player": "Mason Barnett",
+          "team": "Athletics",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "170",
+          "player": "Brandon Lowe",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "171",
+          "player": "MacKenzie Gore",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "172",
+          "player": "Gerrit Cole",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "173",
+          "player": "Jacob Wilson",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "174",
+          "player": "Drew Gilbert",
+          "team": "San Francisco Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "175",
+          "player": "Nico Hoerner",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "176",
+          "player": "Chris Bassitt",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "177",
+          "player": "Jackson Merrill",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "178",
+          "player": "Paul Goldschmidt",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "179",
+          "player": "Rafael Devers",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "180",
+          "player": "Alec Bohm",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "181",
+          "player": "William Contreras",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "182",
+          "player": "Mickey Moniak",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "183",
+          "player": "Royce Lewis",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "184",
+          "player": "Michael Harris II",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "185",
+          "player": "Jonathan Aranda",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "186",
+          "player": "Yanquiel Fernández",
+          "team": "Colorado Rockies",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "187",
+          "player": "Maximo Acosta",
+          "team": "Miami Marlins",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "188",
+          "player": "Carlos Narváez",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "189",
+          "player": "Max Scherzer",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "190",
+          "player": "Grant Taylor",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "191",
+          "player": "Sal Frelick",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "192",
+          "player": "Marcus Semien",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "193",
+          "player": "Cristopher Sánchez",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "194",
+          "player": "Cam Smith",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "195",
+          "player": "Lawrence Butler",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "196",
+          "player": "Luis Morales",
+          "team": "Athletics",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "197",
+          "player": "Oneil Cruz",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "198",
+          "player": "Jarren Duran",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "199",
+          "player": "Eugenio Suárez",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "[Base]",
+          "card_no": "200",
+          "player": "Kyle Schwarber",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-1",
+          "player": "Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-2",
+          "player": "Aaron Judge",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-3",
+          "player": "Ronald Acuña Jr.",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-4",
+          "player": "Bobby Witt Jr.",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-5",
+          "player": "Juan Soto",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-6",
+          "player": "Cal Raleigh",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-7",
+          "player": "Pete Crow-Armstrong",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-8",
+          "player": "Paul Skenes",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-9",
+          "player": "Nick Kurtz",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-10",
+          "player": "Kyle Schwarber",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-11",
+          "player": "Fernando Tatis Jr.",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-12",
+          "player": "Francisco Lindor",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-13",
+          "player": "Elly De La Cruz",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-14",
+          "player": "Bryce Harper",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-15",
+          "player": "Vladimir Guerrero Jr.",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-16",
+          "player": "Tarik Skubal",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-17",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-18",
+          "player": "Roman Anthony",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-19",
+          "player": "Colson Montgomery",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-20",
+          "player": "Kyle Teel",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-21",
+          "player": "Jacob Misiorowski",
+          "team": "Milwaukee Brewers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-22",
+          "player": "Christian Moore",
+          "team": "Los Angeles Angels",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-23",
+          "player": "Chase Burns",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-24",
+          "player": "Owen Caissie",
+          "team": "Chicago Cubs",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-25",
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-26",
+          "player": "Bubba Chandler",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-27",
+          "player": "Sal Stewart",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-28",
+          "player": "Harry Ford",
+          "team": "Seattle Mariners",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-30",
+          "player": "Payton Tolle",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Damascus",
+          "card_no": "DAM-31",
+          "player": "Carson Williams",
+          "team": "Tampa Bay Rays",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-1",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-2",
+          "player": "Roman Anthony",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-3",
+          "player": "Colson Montgomery",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-4",
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-5",
+          "player": "Bubba Chandler",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-6",
+          "player": "Bryce Eldridge",
+          "team": "San Francisco Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-7",
+          "player": "Carson Williams",
+          "team": "Tampa Bay Rays",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-8",
+          "player": "Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-9",
+          "player": "Aaron Judge",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-10",
+          "player": "Bryce Harper",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-11",
+          "player": "Juan Soto",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-12",
+          "player": "Pete Crow-Armstrong",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-13",
+          "player": "Paul Skenes",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-14",
+          "player": "Mike Trout",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-15",
+          "player": "Elly De La Cruz",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-16",
+          "player": "Cal Raleigh",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-17",
+          "player": "Bobby Witt Jr.",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-18",
+          "player": "Francisco Lindor",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-19",
+          "player": "Ronald Acuña Jr.",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Depth of Darkness",
+          "card_no": "DOD-20",
+          "player": "Fernando Tatis Jr.",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-1",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-2",
+          "player": "Roman Anthony",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-3",
+          "player": "Aaron Judge",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-4",
+          "player": "Kyle Teel",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-5",
+          "player": "Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-6",
+          "player": "Harry Ford",
+          "team": "Seattle Mariners",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-7",
+          "player": "Bobby Witt Jr.",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-8",
+          "player": "Pete Crow-Armstrong",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-9",
+          "player": "Bryce Harper",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-10",
+          "player": "Trey Yesavage",
+          "team": "Toronto Blue Jays",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-11",
+          "player": "Owen Caissie",
+          "team": "Chicago Cubs",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-12",
+          "player": "Honus Wagner",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-13",
+          "player": "Bubba Chandler",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-14",
+          "player": "Jacob Misiorowski",
+          "team": "Milwaukee Brewers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-15",
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-16",
+          "player": "Chase Burns",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-17",
+          "player": "Cal Raleigh",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-18",
+          "player": "Ken Griffey Jr.",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-19",
+          "player": "Bryce Eldridge",
+          "team": "San Francisco Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Home Field",
+          "card_no": "CBHA-20",
+          "player": "Colson Montgomery",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-1",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-2",
+          "player": "Roman Anthony",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-3",
+          "player": "Colson Montgomery",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-4",
+          "player": "Kyle Teel",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-5",
+          "player": "Jacob Misiorowski",
+          "team": "Milwaukee Brewers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-6",
+          "player": "Christian Moore",
+          "team": "Los Angeles Angels",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-7",
+          "player": "Chase Burns",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-8",
+          "player": "Owen Caissie",
+          "team": "Chicago Cubs",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-9",
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-10",
+          "player": "Bubba Chandler",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-11",
+          "player": "Sal Stewart",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-12",
+          "player": "Harry Ford",
+          "team": "Seattle Mariners",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-13",
+          "player": "Alex Freeland",
+          "team": "Los Angeles Dodgers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-14",
+          "player": "Payton Tolle",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-15",
+          "player": "Carson Williams",
+          "team": "Tampa Bay Rays",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-16",
+          "player": "Manny Machado",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-17",
+          "player": "Mookie Betts",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-18",
+          "player": "Freddie Freeman",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-19",
+          "player": "Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-20",
+          "player": "Aaron Judge",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-21",
+          "player": "Yoshinobu Yamamoto",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-22",
+          "player": "Nolan Arenado",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-23",
+          "player": "Bo Bichette",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-24",
+          "player": "Junior Caminero",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-25",
+          "player": "Bryce Harper",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-26",
+          "player": "Juan Soto",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-27",
+          "player": "Ronald Acuña Jr.",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-28",
+          "player": "James Wood",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-29",
+          "player": "Yordan Alvarez",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-30",
+          "player": "Julio Rodríguez",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-31",
+          "player": "José Ramírez",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-32",
+          "player": "Riley Greene",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-33",
+          "player": "Pete Crow-Armstrong",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-34",
+          "player": "Paul Skenes",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-35",
+          "player": "Nick Kurtz",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-36",
+          "player": "Jacob Wilson",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-37",
+          "player": "Mike Trout",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-38",
+          "player": "Elly De La Cruz",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-39",
+          "player": "Corbin Carroll",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Nocturnal",
+          "card_no": "NOC-40",
+          "player": "Trea Turner",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "13",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "17",
+          "player": "Bubba Chandler",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "21",
+          "player": "Jacob Misiorowski",
+          "team": "Milwaukee Brewers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "23",
+          "player": "Jhostynxon Garcia",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "26",
+          "player": "Payton Tolle",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "27",
+          "player": "Jakob Marsee",
+          "team": "Miami Marlins",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "28",
+          "player": "Alex Freeland",
+          "team": "Los Angeles Dodgers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "30",
+          "player": "Sal Stewart",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "38",
+          "player": "Chase Burns",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "41",
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "43",
+          "player": "Jacob Melton",
+          "team": "Houston Astros",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "44",
+          "player": "C.J. Kayfus",
+          "team": "Cleveland Guardians",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "48",
+          "player": "Jonah Tong",
+          "team": "New York Mets",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "51",
+          "player": "Owen Caissie",
+          "team": "Chicago Cubs",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "52",
+          "player": "Parker Messick",
+          "team": "Cleveland Guardians",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "56",
+          "player": "Roman Anthony",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "58",
+          "player": "Carter Jensen",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "60",
+          "player": "Colson Montgomery",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "65",
+          "player": "Nolan McLean",
+          "team": "New York Mets",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "68",
+          "player": "Cole Young",
+          "team": "Seattle Mariners",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "70",
+          "player": "Dylan Beavers",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "74",
+          "player": "Brandon Sproat",
+          "team": "New York Mets",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "75",
+          "player": "Brice Matthews",
+          "team": "Houston Astros",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "77",
+          "player": "Christian Moore",
+          "team": "Los Angeles Angels",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "79",
+          "player": "Harry Ford",
+          "team": "Washington Nationals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "85",
+          "player": "Kyle Teel",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "98",
+          "player": "Cam Schlittler",
+          "team": "New York Yankees",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "99",
+          "player": "Jimmy Crooks",
+          "team": "St. Louis Cardinals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "101",
+          "player": "Carson Williams",
+          "team": "Tampa Bay Rays",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Rookie Design Variation",
+          "card_no": "160",
+          "player": "Brady House",
+          "team": "Washington Nationals",
+          "tag": "RC"
+        }
+      ],
+      "parallels": [
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Refractor",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Blue Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Green Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Purple Refractor",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Purple Mini-Diamond Refractor",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Purple Wave Refractor",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Gold Mini-Diamond Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Gold Wave Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Orange Mini-Diamond Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Orange Wave Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Rose Gold Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Rose Gold Mini-Diamond Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Rose Gold Wave Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Red Mini-Diamond Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "Red Wave Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Base",
+          "applies_to_subset": "[Base]",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Rookie Design Variation",
+          "parallel_name": "Purple Refractor",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Rookie Design Variation",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Rookie Design Variation",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Rookie Design Variation",
+          "parallel_name": "Rose Gold Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Rookie Design Variation",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Rookie Design Variation",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Autographs",
+          "parallel_name": "Refractor",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Autographs",
+          "parallel_name": "Blue Refractor",
+          "serial_no": "/150"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Autographs",
+          "parallel_name": "Green Refractor",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Autographs",
+          "parallel_name": "Purple Refractor",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Autographs",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Autographs",
+          "parallel_name": "Gold Mini-Diamond Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Autographs",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Autographs",
+          "parallel_name": "Orange Mini-Diamond Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Autographs",
+          "parallel_name": "Rose Gold Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Autographs",
+          "parallel_name": "Rose Gold Mini-Diamond Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Autographs",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Autographs",
+          "parallel_name": "Red Mini-Diamond Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Autographs",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Ivory Autographs",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Ivory Autographs",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Ivory Autographs",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paint It",
+          "parallel_name": "Rose Gold Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paint It",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Paint It",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Pitch Black Pairings Dual Autographs",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Pitch Black Pairings Dual Autographs",
+          "parallel_name": "Rose Gold Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Pitch Black Pairings Dual Autographs",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Pitch Black Pairings Dual Autographs",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Super Futures Autographs",
+          "parallel_name": "Gold Refractor",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Super Futures Autographs",
+          "parallel_name": "Orange Refractor",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Super Futures Autographs",
+          "parallel_name": "Rose Gold Refractor",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Super Futures Autographs",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Super Futures Autographs",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Damascus",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Depth of Darkness",
+          "parallel_name": "Red Refractor",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Depth of Darkness",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Home Field",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_Topps_Chrome_Black",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Nocturnal",
+          "parallel_name": "SuperFractor",
+          "serial_no": "/1"
+        }
+      ]
+    },
     "2026_topps_finest_baseball": {
       "ok": true,
       "meta": {
