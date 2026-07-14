@@ -1,0 +1,1656 @@
+{
+  "ok": true,
+  "sport": "baseball",
+  "kind": "checklist_products",
+  "source": "Product-scoped approved import publish",
+  "generated_at": "2026-07-14T23:20:43.161Z",
+  "products": {
+    "2026_topps_dynamic_duals_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_dynamic_duals_baseball",
+        "displayName": "2026 Topps Dynamic Duals Baseball",
+        "keywords": "2026 Topps Dynamic Duals Baseball, 2026 Topps Dynamic Duals Baseball checklist, 2026 Topps Dynamic Duals Baseball cards, 2026 Topps Dynamic Duals Baseball parallels, 2026 Topps Dynamic Duals Baseball autographs, Topps Dynamic Duals baseball, Dynamic Duals baseball checklist",
+        "source_key": "2026",
+        "year": "2026",
+        "manufacturer": "Topps",
+        "product": "Dynamic Duals",
+        "sport": "baseball"
+      },
+      "rows": [
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "1",
+          "player": "Juan Soto / Francisco Lindor",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "2",
+          "player": "Jac Caglianone / Bobby Witt Jr.",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "3",
+          "player": "Roman Anthony / Marcelo Mayer",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "4",
+          "player": "Paul Skenes / Jacob Misiorowski",
+          "team": "Pittsburgh Pirates / Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "5",
+          "player": "Aaron Judge / Mike Trout",
+          "team": "New York Yankees / Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "6",
+          "player": "Shohei Ohtani / Mookie Betts",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "7",
+          "player": "Frank Thomas / Ken Griffey Jr.",
+          "team": "Chicago White Sox / Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "8",
+          "player": "Darryl Strawberry / Ron Darling",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "9",
+          "player": "Yoshinobu Yamamoto / Tarik Skubal",
+          "team": "Los Angeles Dodgers / Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "10",
+          "player": "Junior Caminero / José Ramírez",
+          "team": "Tampa Bay Rays / Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "11",
+          "player": "Sammy Sosa / Pete Crow-Armstrong",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "12",
+          "player": "Jacob Wilson / Nick Kurtz",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "13",
+          "player": "Christian Moore / Zach Neto",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "14",
+          "player": "Elly De La Cruz / Barry Larkin",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "15",
+          "player": "Samuel Basallo / Gunnar Henderson",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "16",
+          "player": "Carson Williams / Owen Caissie",
+          "team": "Tampa Bay Rays / Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "17",
+          "player": "Shota Imanaga / Cade Horton",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "18",
+          "player": "Agustín Ramírez / Jakob Marsee",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "19",
+          "player": "Ronald Acuña Jr. / Chipper Jones",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "20",
+          "player": "Cam Schlittler / Max Fried",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "21",
+          "player": "James Wood / Jackson Chourio",
+          "team": "Washington Nationals / Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "22",
+          "player": "Doc Gooden / Jonah Tong",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "23",
+          "player": "Ichiro / Randy Johnson",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "24",
+          "player": "Colson Montgomery / Kyle Teel",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "25",
+          "player": "Mark McGwire / Reggie Jackson",
+          "team": "Oakland Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "26",
+          "player": "Bucky Dent / Ron Guidry",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "27",
+          "player": "Steven Kwan / Kenny Lofton",
+          "team": "Cleveland Guardians / Cleveland Indians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "28",
+          "player": "Paul Molitor / Robin Yount",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "29",
+          "player": "Albert Pujols / Yadier Molina",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "30",
+          "player": "David Wright / José Reyes",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "31",
+          "player": "Corbin Carroll / Luis Gonzalez",
+          "team": "Arizona Diamondbacks / Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "32",
+          "player": "Harry Ford / Drake Baldwin",
+          "team": "Washington Nationals / Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "33",
+          "player": "Kyle Karros / Sal Stewart",
+          "team": "Colorado Rockies / Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "34",
+          "player": "Chase Burns / Andrew Abbott",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "35",
+          "player": "Juan Gonzalez / Adrian Beltré",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "36",
+          "player": "Will Smith / Roki Sasaki",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "37",
+          "player": "Trey Yesavage / Vladimir Guerrero Jr.",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "38",
+          "player": "Don Mattingly / Derek Jeter",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "39",
+          "player": "Bubba Chandler / Chase Dollander",
+          "team": "Pittsburgh Pirates / Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "40",
+          "player": "Steve Carlton / Cliff Lee",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "41",
+          "player": "Dylan Crews / Larry Walker",
+          "team": "Washington Nationals / Montréal Expos",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "42",
+          "player": "Connelly Early / Payton Tolle",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "43",
+          "player": "Carlos Beltrán / Andruw Jones",
+          "team": "New York Mets / Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "44",
+          "player": "Miguel Tejada / Jason Giambi",
+          "team": "Oakland Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "45",
+          "player": "Johnny Damon / Jarren Duran",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "46",
+          "player": "Ben Rice / Luis Gil",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "47",
+          "player": "Brice Matthews / Zach Cole",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "48",
+          "player": "Michael Busch / Moises Ballesteros",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "49",
+          "player": "Sandy Koufax / Nolan Ryan",
+          "team": "Los Angeles Dodgers / Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "50",
+          "player": "Roger Clemens / Garrett Crochet",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Base SP",
+          "card_no": "51",
+          "player": "Jackie Robinson / Roberto Clemente",
+          "team": "Brooklyn Dodgers / Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Base SP",
+          "card_no": "52",
+          "player": "Hank Aaron / Babe Ruth",
+          "team": "Milwaukee Braves / New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Base SP",
+          "card_no": "53",
+          "player": "Willie Mays / Mickey Mantle",
+          "team": "New York Giants / New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Base SP",
+          "card_no": "54",
+          "player": "Ted Williams / Joe DiMaggio",
+          "team": "Boston Red Sox / New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Base SP",
+          "card_no": "55",
+          "player": "Ernie Banks / Bob Gibson",
+          "team": "Chicago Cubs / St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "1-A",
+          "player": "Juan Soto / Francisco Lindor",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "2-A",
+          "player": "Jac Caglianone / Bobby Witt Jr.",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "3-A",
+          "player": "Roman Anthony / Marcelo Mayer",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "4-A",
+          "player": "Paul Skenes / Jacob Misiorowski",
+          "team": "Pittsburgh Pirates / Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "5-A",
+          "player": "Aaron Judge / Mike Trout",
+          "team": "New York Yankees / Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "6-A",
+          "player": "Shohei Ohtani / Mookie Betts",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "7-A",
+          "player": "Frank Thomas / Ken Griffey Jr.",
+          "team": "Chicago White Sox / Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "8-A",
+          "player": "Darryl Strawberry / Ron Darling",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "9-A",
+          "player": "Yoshinobu Yamamoto / Tarik Skubal",
+          "team": "Los Angeles Dodgers / Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "10-A",
+          "player": "Junior Caminero / José Ramírez",
+          "team": "Tampa Bay Rays / Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "11-A",
+          "player": "Sammy Sosa / Pete Crow-Armstrong",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "12-A",
+          "player": "Jacob Wilson / Nick Kurtz",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "13-A",
+          "player": "Christian Moore / Zach Neto",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "14-A",
+          "player": "Elly De La Cruz / Barry Larkin",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "15-A",
+          "player": "Samuel Basallo / Gunnar Henderson",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "16-A",
+          "player": "Carson Williams / Owen Caissie",
+          "team": "Tampa Bay Rays / Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "17-A",
+          "player": "Shota Imanaga / Cade Horton",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "18-A",
+          "player": "Agustín Ramírez / Jakob Marsee",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "19-A",
+          "player": "Ronald Acuña Jr. / Chipper Jones",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "20-A",
+          "player": "Cam Schlittler / Max Fried",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "21-A",
+          "player": "James Wood / Jackson Chourio",
+          "team": "Washington Nationals / Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "22-A",
+          "player": "Doc Gooden / Jonah Tong",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "23-A",
+          "player": "Ichiro / Randy Johnson",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "24-A",
+          "player": "Colson Montgomery / Kyle Teel",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "25-A",
+          "player": "Mark McGwire / Reggie Jackson",
+          "team": "Oakland Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "26-A",
+          "player": "Bucky Dent / Ron Guidry",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "27-A",
+          "player": "Steven Kwan / Kenny Lofton",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "28-A",
+          "player": "Paul Molitor / Robin Yount",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "29-A",
+          "player": "Albert Pujols / Yadier Molina",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "30-A",
+          "player": "David Wright / José Reyes",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "31-A",
+          "player": "Corbin Carroll / Luis Gonzalez",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "32-A",
+          "player": "Harry Ford / Drake Baldwin",
+          "team": "Washington Nationals / Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "33-A",
+          "player": "Kyle Karros / Sal Stewart",
+          "team": "Colorado Rockies / Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "34-A",
+          "player": "Chase Burns / Andrew Abbott",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "35-A",
+          "player": "Juan Gonzalez / Adrian Beltré",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "36-A",
+          "player": "Will Smith / Roki Sasaki",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "37-A",
+          "player": "Trey Yesavage / Vladimir Guerrero Jr.",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "38-A",
+          "player": "Don Mattingly / Derek Jeter",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "39-A",
+          "player": "Bubba Chandler / Chase Dollander",
+          "team": "Pittsburgh Pirates / Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "40-A",
+          "player": "Steve Carlton / Cliff Lee",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "41-A",
+          "player": "Dylan Crews / Larry Walker",
+          "team": "Washington Nationals / Montréal Expos",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "42-A",
+          "player": "Connelly Early / Payton Tolle",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "43-A",
+          "player": "Carlos Beltrán / Andruw Jones",
+          "team": "New York Mets / Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "44-A",
+          "player": "Miguel Tejada / Jason Giambi",
+          "team": "Oakland Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "45-A",
+          "player": "Johnny Damon / Jarren Duran",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "46-A",
+          "player": "Ben Rice / Luis Gil",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "47-A",
+          "player": "Brice Matthews / Zach Cole",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "48-A",
+          "player": "Michael Busch / Moises Ballesteros",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "49-A",
+          "player": "Sandy Koufax / Nolan Ryan",
+          "team": "Los Angeles Dodgers / Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Base Dual Auto",
+          "card_no": "50-A",
+          "player": "Roger Clemens / Garrett Crochet",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Dynamic Dozen Auto Booklet",
+          "card_no": "DDO-01",
+          "player": "Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Dynamic Dozen Auto Booklet",
+          "card_no": "",
+          "player": "Mike Trout",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Dynamic Dozen Auto Booklet",
+          "card_no": "",
+          "player": "Albert Pujols",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Dynamic Dozen Auto Booklet",
+          "card_no": "",
+          "player": "Cal Ripken Jr.",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Dynamic Dozen Auto Booklet",
+          "card_no": "",
+          "player": "Paul Skenes",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Dynamic Dozen Auto Booklet",
+          "card_no": "",
+          "player": "Ronald Acuña Jr.",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Dynamic Dozen Auto Booklet",
+          "card_no": "",
+          "player": "Ichiro",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Dynamic Dozen Auto Booklet",
+          "card_no": "",
+          "player": "Ken Griffey Jr.",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Dynamic Dozen Auto Booklet",
+          "card_no": "",
+          "player": "Juan Soto",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Dynamic Dozen Auto Booklet",
+          "card_no": "",
+          "player": "Derek Jeter",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Dynamic Dozen Auto Booklet",
+          "card_no": "",
+          "player": "Aaron Judge",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Dynamic Dozen Auto Booklet",
+          "card_no": "",
+          "player": "Mookie Betts",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Dynamic Duels SSP",
+          "card_no": "DD-1",
+          "player": "Paul Skenes / Elly De La Cruz",
+          "team": "Pittsburgh Pirates / Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Dynamic Duels SSP",
+          "card_no": "DD-2",
+          "player": "Shohei Ohtani / Aaron Judge",
+          "team": "Los Angeles Dodgers / New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Dynamic Duels SSP",
+          "card_no": "DD-3",
+          "player": "Ronald Acuña Jr. / Juan Soto",
+          "team": "Atlanta Braves / New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Dynamic Duels SSP",
+          "card_no": "DD-4",
+          "player": "Ken Griffey Jr. / Mike Trout",
+          "team": "Seattle Mariners / Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Dynamic Duels SSP",
+          "card_no": "DD-5",
+          "player": "Jac Caglianone / Roman Anthony",
+          "team": "Kansas City Royals / Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Fence Busters",
+          "card_no": "FB-1",
+          "player": "Shohei Ohtani / Cal Raleigh",
+          "team": "Los Angeles Dodgers / Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Fence Busters",
+          "card_no": "FB-2",
+          "player": "Juan Soto / Mike Piazza",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Fence Busters",
+          "card_no": "FB-3",
+          "player": "Kyle Schwarber / Bryce Harper",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Fence Busters",
+          "card_no": "FB-4",
+          "player": "Mark McGwire / Sammy Sosa",
+          "team": "St. Louis Cardinals / Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Fence Busters",
+          "card_no": "FB-5",
+          "player": "Aaron Judge / Alex Rodriguez",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Future Forward",
+          "card_no": "FF-1",
+          "player": "Nick Kurtz / Reggie Jackson",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Future Forward",
+          "card_no": "FF-2",
+          "player": "Paul Skenes / Roberto Clemente",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Future Forward",
+          "card_no": "FF-3",
+          "player": "Shohei Ohtani (Pitching) / Sandy Koufax",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Future Forward",
+          "card_no": "FF-4",
+          "player": "Bobby Witt Jr. / George Brett",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Future Forward",
+          "card_no": "FF-5",
+          "player": "Julio Rodríguez / Ken Griffey Jr.",
+          "team": "Seattle Mariner",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Youth Impact",
+          "card_no": "YI-1",
+          "player": "Jac Caglianone / Nick Kurtz",
+          "team": "Kansas City Royals / Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Youth Impact",
+          "card_no": "YI-2",
+          "player": "Chase DeLauter / Cam Smith",
+          "team": "Cleveland Guardians / Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Youth Impact",
+          "card_no": "YI-3",
+          "player": "Jacob Misiorowski / Cade Horton",
+          "team": "Milwaukee Brewers / Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Youth Impact",
+          "card_no": "YI-4",
+          "player": "Chase Burns / James Wood",
+          "team": "Cincinnati Reds / Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Youth Impact",
+          "card_no": "YI-5",
+          "player": "Colson Montgomery / Jacob Wilson",
+          "team": "Chicago White Sox / Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Youth Impact",
+          "card_no": "YI-6",
+          "player": "Nolan McLean / Ben Rice",
+          "team": "New York Mets / New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Youth Impact",
+          "card_no": "YI-7",
+          "player": "Roman Anthony / Dylan Crews",
+          "team": "Boston Red Sox / Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Youth Impact",
+          "card_no": "YI-8",
+          "player": "Samuel Basallo / Drake Baldwin",
+          "team": "Baltimore Orioles / Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Youth Impact",
+          "card_no": "YI-9",
+          "player": "Carson Williams / Luke Keaschall",
+          "team": "Tampa Bay Rays / Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "sport": "baseball",
+          "section": "Insert",
+          "subset": "Youth Impact",
+          "card_no": "YI-10",
+          "player": "Trey Yesavage / Roki Sasaki",
+          "team": "Toronto Blue Jays / Los Angeles Dodgers",
+          "tag": ""
+        }
+      ],
+      "parallels": [
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Rainbow",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Black",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Red",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Orange",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Gold",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Base SP",
+          "parallel_name": "Rainbow",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Base SP",
+          "parallel_name": "Black",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Base SP",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Base SP",
+          "parallel_name": "Red",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Base SP",
+          "parallel_name": "Orange",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Base SP",
+          "parallel_name": "Gold",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Dual Auto",
+          "parallel_name": "Rainbow",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Dual Auto",
+          "parallel_name": "Black",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Dual Auto",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Dual Auto",
+          "parallel_name": "Red",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Dual Auto",
+          "parallel_name": "Orange",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Dual Auto",
+          "parallel_name": "Gold",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Fence Busters",
+          "parallel_name": "Black",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Fence Busters",
+          "parallel_name": "Red",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Fence Busters",
+          "parallel_name": "Orange",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Fence Busters",
+          "parallel_name": "Gold",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Future Forward",
+          "parallel_name": "Black",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Future Forward",
+          "parallel_name": "Red",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Future Forward",
+          "parallel_name": "Orange",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Future Forward",
+          "parallel_name": "Gold",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Youth Impact",
+          "parallel_name": "Black",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Youth Impact",
+          "parallel_name": "Red",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Youth Impact",
+          "parallel_name": "Orange",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Youth Impact",
+          "parallel_name": "Gold",
+          "serial_no": "/1"
+        }
+      ]
+    }
+  }
+}
