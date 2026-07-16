@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-07-16T21:25:31.964Z",
+  "generated_at": "2026-07-16T21:44:20.345Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -35068,6 +35068,16 @@
         {
           "code": "2025_topps_finest_football",
           "setType": "Parallel",
+          "setLine": "Common Oil Spill",
+          "printRun": 15,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Parallel",
           "setLine": "Uncommon Refractor",
           "printRun": 370,
           "serial": "",
@@ -35088,6 +35098,16 @@
         {
           "code": "2025_topps_finest_football",
           "setType": "Parallel",
+          "setLine": "Uncommon Oil Spill",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Parallel",
           "setLine": "Rare Refractor",
           "printRun": 185,
           "serial": "",
@@ -35100,6 +35120,16 @@
           "setType": "Parallel",
           "setLine": "Rare Xfractor",
           "printRun": 70,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Parallel",
+          "setLine": "Rare Oil Spill",
+          "printRun": 5,
           "serial": "",
           "subSetSize": "",
           "notes": "",
@@ -35317,7 +35347,17 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "92 Finest Refractors (44 Card CL)- 92 Ea",
+          "setType": "Insert",
+          "setLine": "92 Finest Refractors",
+          "printRun": 44,
+          "serial": "",
+          "subSetSize": 92,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_topps_finest_football",
+          "setType": "Insert",
           "setLine": "Headliners Refractors",
           "printRun": 50,
           "serial": "",
@@ -36170,7 +36210,7 @@
         {
           "code": "2025_topps_chrome_black_football",
           "setType": "Base",
-          "setLine": "Vets",
+          "setLine": "Base",
           "printRun": 4800,
           "serial": "",
           "subSetSize": "",
@@ -36180,7 +36220,7 @@
         {
           "code": "2025_topps_chrome_black_football",
           "setType": "Base",
-          "setLine": "Rookies",
+          "setLine": "Baes - Rookies",
           "printRun": 6540,
           "serial": "",
           "subSetSize": "",
@@ -36189,7 +36229,7 @@
         },
         {
           "code": "2025_topps_chrome_black_football",
-          "setType": "Insert",
+          "setType": "Variation",
           "setLine": "Rookie Design Variation",
           "printRun": 135,
           "serial": "",
@@ -36240,7 +36280,7 @@
         {
           "code": "2025_topps_chrome_black_football",
           "setType": "Auto",
-          "setLine": "Base Vet Autos",
+          "setLine": "Base Autos",
           "printRun": 70,
           "serial": "",
           "subSetSize": 59,
@@ -36254,26 +36294,6 @@
           "printRun": 680,
           "serial": "",
           "subSetSize": 40,
-          "notes": "",
-          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-black-nfl-analysis"
-        },
-        {
-          "code": "2025_topps_chrome_black_football",
-          "setType": "Auto",
-          "setLine": "Base Vet Refractor",
-          "printRun": 150,
-          "serial": "",
-          "subSetSize": "",
-          "notes": "",
-          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-black-nfl-analysis"
-        },
-        {
-          "code": "2025_topps_chrome_black_football",
-          "setType": "Auto",
-          "setLine": "Base Vet Blue",
-          "printRun": 15,
-          "serial": "",
-          "subSetSize": "",
           "notes": "",
           "cmURL": "https://slabsquatch.substack.com/p/2025-topps-chrome-black-nfl-analysis"
         }
