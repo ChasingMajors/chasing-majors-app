@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-07-16T21:44:20.345Z",
+  "generated_at": "2026-07-16T21:44:40.175Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -36310,7 +36310,118 @@
         "product": "2025 Inception Baseball & Topps Inception",
         "cmURL": ""
       },
-      "rows": []
+      "rows": [
+        {
+          "code": "2025_topps_inception_baseball_2025_26_topps_inception_basketball",
+          "setType": "Parallel",
+          "setLine": "Green",
+          "printRun": 1040,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_topps_inception_baseball_2025_26_topps_inception_basketball",
+          "setType": "Insert",
+          "setLine": "Base Short Prints",
+          "printRun": 2080,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_topps_inception_baseball_2025_26_topps_inception_basketball",
+          "setType": "Insert",
+          "setLine": "Base Short Prints Alpha",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_topps_inception_baseball_2025_26_topps_inception_basketball",
+          "setType": "Auto",
+          "setLine": "For some reason, the odds show FDI boxes as not only containing an extra auto as promised, but a significant number may have a third auto as they appear to average 2.6 autos/box. I’m not sure whether to believe this or not, but that’s what the numbers say. Additionally, a major departure from the baseball version is the addition of Inserts in Inception NBA. Between Endgame, Launch, and Splashdown, these combine to fall at a rate of 1 per 8 boxes, or 1 per case. Topps doesn’t guarantee “case hits”, but the numbers say these should be pretty close. Endgame will technically be the toughest to pull, but technically all three insert sets have the same print runs. I can’t guarantee if any will be super sought-after, but the renderings look really good, and the scarcity certainly won’t hurt. And in one more victory over baseball, at 1 per 2.18 boxes, or 3.67 per case, Relic Autos are slightly easier to pull. Part 4: Value Map (I’m presuming drop price to be $10 more than pre-order pricing, so I’m going with $300/box for these numbers.) $/Card- $42.86 $/Auto- $300 $/Relic Auto- $653.58 $/Parallel- $180.97 $/# Card- $456.09 $/Quality Hit- $207.16 As a whole, these numbers look marginally better than Inception Baseball. But the one that immediately grabs my attention is, of course, $/Quality Hit. With nearly as many Quality Hits in the product, NBA production is dramatically lower. The result is a $207 cost per Quality Hit, which is legitimately excellent for an NBA release. In fact, at launch pricing, this is the best $/Quality Hit of any NBA Hobby format released this year. It’s not just “better than baseball.” This is a legitimately good product. For anyone interested in those full rankings, I’ll be rolling out a series within the next week or so covering the year-to-date results for every 2026 release across all the metrics I calculate, including Quality Hits. Stand by for that one. Part 5: What Would the Squatch Do? Let me be perfectly clear- plenty of Inception NBA boxes are going to feel like absolute turds. it’s still only 7 cards and only 1 auto. And it has more than its fair share of checklist squatters. I’m not even much of an NBA fan. I’m a total casual. But if I’m choosing between these two products from a ripping standpoint, I’m taking NBA every single time. The ceiling is simply higher. You have a massive rookie class, legitimate legends, case-hit inserts, and far more potential nukes than the baseball version. The misses will still hurt, but at least NBA gives you the that hopium that comes with getting in at drop price. OK MAYBE getting in. Do I love paying $300 for seven cards and one autograph? Not really. Is it worth it? Quite possibly. Would I rip at $300? Probably. Maybe. I don’t know. There’s still a degenerate buried underneath all these spreadsheets. These will be risky, but they’re at least somewhat defensible if NBA is your jam and you’re feeling froggy. But the stash play...insert meme of Eddie Murphy lookalike pointing at his forehead. If these actually launch ~$300, I’ll be fighting the bots. I think they’ll end up closer to $500 than $300 once they dry up, which shouldn’t take long. Rip carefully. But stash aggressively. Don’t be afraid to let someone else open the box with the $12 autograph. Part 6: Print Runs Base card production",
+          "printRun": 2120,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_topps_inception_baseball_2025_26_topps_inception_basketball",
+          "setType": "Parallel",
+          "setLine": "Green",
+          "printRun": 510,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_topps_inception_baseball_2025_26_topps_inception_basketball",
+          "setType": "Insert",
+          "setLine": "Endgame",
+          "printRun": 130,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_topps_inception_baseball_2025_26_topps_inception_basketball",
+          "setType": "Insert",
+          "setLine": "Launch",
+          "printRun": 130,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_topps_inception_baseball_2025_26_topps_inception_basketball",
+          "setType": "Insert",
+          "setLine": "Splashdown",
+          "printRun": 130,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_topps_inception_baseball_2025_26_topps_inception_basketball",
+          "setType": "Auto",
+          "setLine": "Red Electricity",
+          "printRun": 13,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_topps_inception_baseball_2025_26_topps_inception_basketball",
+          "setType": "Insert",
+          "setLine": "2025 Inception NBA For the second part of our double feature, I feel like we can be much more productive since it doesn’t actually release until July 23. At least you’ll have the option to buy something before every ounce of value is squeezed out of it.",
+          "printRun": 26,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_topps_inception_baseball_2025_26_topps_inception_basketball",
+          "setType": "Base",
+          "setLine": "Part 6: Print Runs Base card production",
+          "printRun": 2120,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        }
+      ]
     }
   }
 }
