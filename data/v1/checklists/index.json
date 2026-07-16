@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-14T23:20:43.161Z",
+  "generated_at": "2026-07-16T16:01:20.883Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -7274,6 +7274,15 @@
       "sport": "football",
       "manufacturer": "Topps",
       "product": "Finest"
+    },
+    {
+      "Code": "2025_topps_resurgence_football",
+      "DisplayName": "2025 Topps Resurgence Football",
+      "Keywords": "2025 Topps Resurgence Football, 2025 Topps Resurgence Football checklist, 2025 Topps Resurgence Football cards, 2025 Topps Resurgence Football parallels, 2025 Topps Resurgence Football autographs, Topps Resurgence football, Resurgence football checklist",
+      "year": "2025",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Resurgence"
     },
     {
       "Code": "2025_topps_signature_class_football",
