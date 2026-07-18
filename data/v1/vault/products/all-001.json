@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-07-17T21:25:30.932Z",
+  "generated_at": "2026-07-18T01:03:27.455Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -36420,6 +36420,100 @@
           "subSetSize": "",
           "notes": "",
           "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        }
+      ]
+    },
+    "2026_topps_tier_one_2025_topps_dynasty_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_tier_one_2025_topps_dynasty_baseball",
+        "displayName": "2026 Topps Tier One & 2025 Topps Dynasty Baseball",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Tier One & 2025 Topps Dynasty",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_topps_tier_one_2025_topps_dynasty_baseball",
+          "setType": "Auto",
+          "setLine": "Base Tier 1",
+          "printRun": 95,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-tier-one-and-2025-topps"
+        },
+        {
+          "code": "2026_topps_tier_one_2025_topps_dynasty_baseball",
+          "setType": "Auto",
+          "setLine": "Tier 1 Holo Gold",
+          "printRun": 17,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-tier-one-and-2025-topps"
+        },
+        {
+          "code": "2026_topps_tier_one_2025_topps_dynasty_baseball",
+          "setType": "Auto",
+          "setLine": "Base Tier 2",
+          "printRun": 115,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-tier-one-and-2025-topps"
+        },
+        {
+          "code": "2026_topps_tier_one_2025_topps_dynasty_baseball",
+          "setType": "Auto",
+          "setLine": "Tier 2 Bronze",
+          "printRun": 215,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-tier-one-and-2025-topps"
+        },
+        {
+          "code": "2026_topps_tier_one_2025_topps_dynasty_baseball",
+          "setType": "Auto",
+          "setLine": "Tier 2 Holo Gold",
+          "printRun": 17,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-tier-one-and-2025-topps"
+        },
+        {
+          "code": "2026_topps_tier_one_2025_topps_dynasty_baseball",
+          "setType": "Auto",
+          "setLine": "Tier 3 Bronze",
+          "printRun": 355,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-tier-one-and-2025-topps"
+        },
+        {
+          "code": "2026_topps_tier_one_2025_topps_dynasty_baseball",
+          "setType": "Auto",
+          "setLine": "Tier 3 Holo Gold",
+          "printRun": 17,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-tier-one-and-2025-topps"
+        },
+        {
+          "code": "2026_topps_tier_one_2025_topps_dynasty_baseball",
+          "setType": "Auto",
+          "setLine": "Every card is or less. Every card is a patch auto. Obviously, every card is a Quality Hit. Some of the nastiest cards in the hobby come from Dynasty.",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-tier-one-and-2025-topps"
         }
       ]
     }
