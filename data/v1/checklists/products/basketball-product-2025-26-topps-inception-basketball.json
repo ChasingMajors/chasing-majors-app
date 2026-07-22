@@ -1,0 +1,5138 @@
+{
+  "ok": true,
+  "sport": "basketball",
+  "kind": "checklist_products",
+  "source": "Product-scoped approved import publish",
+  "generated_at": "2026-07-22T01:53:19.445Z",
+  "products": {
+    "2025_26_topps_inception_basketball": {
+      "ok": true,
+      "meta": {
+        "code": "2025_26_topps_inception_basketball",
+        "displayName": "2025-26 Topps Inception Basketball",
+        "keywords": "2025-26 Topps Inception Basketball, 2025-26 Topps Inception Basketball checklist, 2025-26 Topps Inception Basketball cards, 2025-26 Topps Inception Basketball parallels, 2025-26 Topps Inception Basketball autographs, Topps Inception basketball, Inception basketball checklist",
+        "source_key": "2025-26",
+        "year": "2025-26",
+        "manufacturer": "Topps",
+        "product": "Inception",
+        "sport": "basketball"
+      },
+      "rows": [
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "1",
+          "player": "Zaccharie Risacher",
+          "team": "Atlanta Hawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "2",
+          "player": "Jalen Johnson",
+          "team": "Atlanta Hawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "3",
+          "player": "Dyson Daniels",
+          "team": "Atlanta Hawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "4",
+          "player": "Donovan Mitchell",
+          "team": "Cleveland Cavaliers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "5",
+          "player": "Evan Mobley",
+          "team": "Cleveland Cavaliers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "6",
+          "player": "Darius Garland",
+          "team": "Cleveland Cavaliers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "7",
+          "player": "Kevin Durant",
+          "team": "Houston Rockets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "8",
+          "player": "Amen Thompson",
+          "team": "Houston Rockets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "9",
+          "player": "Reed Sheppard",
+          "team": "Houston Rockets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "10",
+          "player": "Kasparas Jakučionis",
+          "team": "Miami Heat",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "11",
+          "player": "Tyler Herro",
+          "team": "Miami Heat",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "12",
+          "player": "Norman Powell",
+          "team": "Miami Heat",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "13",
+          "player": "Shai Gilgeous-Alexander",
+          "team": "Oklahoma City Thunder",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "14",
+          "player": "Alex Caruso",
+          "team": "Oklahoma City Thunder",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "15",
+          "player": "Luguentz Dort",
+          "team": "Oklahoma City Thunder",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "16",
+          "player": "Zach Lavine",
+          "team": "Sacramento Kings",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "17",
+          "player": "Domantas Sabonis",
+          "team": "Sacramento Kings",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "18",
+          "player": "Precious Achiuwa",
+          "team": "Sacramento Kings",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "19",
+          "player": "Jaylen Brown",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "20",
+          "player": "Jayson Tatum",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "21",
+          "player": "Payton Pritchard",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "22",
+          "player": "Cooper Flagg",
+          "team": "Dallas Mavericks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "23",
+          "player": "Kyrie Irving",
+          "team": "Dallas Mavericks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "24",
+          "player": "Ryan Nembhard",
+          "team": "Dallas Mavericks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "25",
+          "player": "Tyrese Haliburton",
+          "team": "Indiana Pacers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "26",
+          "player": "Pascal Siakam",
+          "team": "Indiana Pacers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "27",
+          "player": "Andrew Nembhard",
+          "team": "Indiana Pacers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "28",
+          "player": "Giannis Antetokounmpo",
+          "team": "Milwaukee Bucks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "29",
+          "player": "Kyle Kuzma",
+          "team": "Milwaukee Bucks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "30",
+          "player": "Myles Turner",
+          "team": "Milwaukee Bucks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "31",
+          "player": "Paolo Banchero",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "32",
+          "player": "Anthony Black",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "33",
+          "player": "Desmond Bane",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "34",
+          "player": "Victor Wembanyama",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "35",
+          "player": "Dylan Harper",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "36",
+          "player": "Stephon Castle",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "37",
+          "player": "Michael Porter Jr.",
+          "team": "Brooklyn Nets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "38",
+          "player": "Egor Dëmin",
+          "team": "Brooklyn Nets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "39",
+          "player": "Ben Saraf",
+          "team": "Brooklyn Nets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "40",
+          "player": "Nikola Jokič",
+          "team": "Denver Nuggets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "41",
+          "player": "Jamal Murray",
+          "team": "Denver Nuggets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "42",
+          "player": "Aaron Gordon",
+          "team": "Denver Nuggets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "43",
+          "player": "James Harden",
+          "team": "Los Angeles Clippers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "44",
+          "player": "Bradley Beal",
+          "team": "Los Angeles Clippers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "45",
+          "player": "Kawhi Leonard",
+          "team": "Los Angeles Clippers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "46",
+          "player": "Anthony Edwards",
+          "team": "Minnesota Timberwolves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "47",
+          "player": "Bones Hyland",
+          "team": "Minnesota Timberwolves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "48",
+          "player": "Julius Randle",
+          "team": "Minnesota Timberwolves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "49",
+          "player": "Tyrese Maxey",
+          "team": "Philadelphia 76ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "50",
+          "player": "VJ Edgecombe",
+          "team": "Philadelphia 76ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "51",
+          "player": "Paul George",
+          "team": "Philadelphia 76ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "52",
+          "player": "Gradey Dick",
+          "team": "Toronto Raptors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "53",
+          "player": "Immanuel Quickley",
+          "team": "Toronto Raptors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "54",
+          "player": "Brandon Ingram",
+          "team": "Toronto Raptors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "55",
+          "player": "LaMelo Ball",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "56",
+          "player": "Brandon Miller",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "57",
+          "player": "Kon Knueppel",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "58",
+          "player": "Cade Cunningham",
+          "team": "Detroit Pistons",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "59",
+          "player": "Jaden Ivey",
+          "team": "Detroit Pistons",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "60",
+          "player": "Malik Beasley",
+          "team": "Detroit Pistons",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "61",
+          "player": "Luka Dončić",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "62",
+          "player": "LeBron James",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "63",
+          "player": "Austin Reaves",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "64",
+          "player": "Zion Williamson",
+          "team": "New Orleans Pelicans",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "65",
+          "player": "Jordan Poole",
+          "team": "New Orleans Pelicans",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "66",
+          "player": "Jeremiah Fears",
+          "team": "New Orleans Pelicans",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "67",
+          "player": "Devin Booker",
+          "team": "Phoenix Suns",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "68",
+          "player": "Jalen Green",
+          "team": "Phoenix Suns",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "69",
+          "player": "Dillon Brooks",
+          "team": "Phoenix Suns",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "70",
+          "player": "Lauri Markkanen",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "71",
+          "player": "Walter Clayton Jr.",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "72",
+          "player": "Ace Bailey",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "73",
+          "player": "Noa Essengue",
+          "team": "Chicago Bulls",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "74",
+          "player": "Josh Giddey",
+          "team": "Chicago Bulls",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "75",
+          "player": "Matas Buzelis",
+          "team": "Chicago Bulls",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "76",
+          "player": "Stephen Curry",
+          "team": "Golden State Warriors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "77",
+          "player": "Jimmy Butler III",
+          "team": "Golden State Warriors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "78",
+          "player": "Draymond Green",
+          "team": "Golden State Warriors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "79",
+          "player": "Cedric Coward",
+          "team": "Memphis Grizzlies",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "80",
+          "player": "Ja Morant",
+          "team": "Memphis Grizzlies",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "81",
+          "player": "Jaren Jackson Jr.",
+          "team": "Memphis Grizzlies",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "82",
+          "player": "Jalen Brunson",
+          "team": "New York Knicks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "83",
+          "player": "Mikal Bridges",
+          "team": "New York Knicks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "84",
+          "player": "OG Anunoby",
+          "team": "New York Knicks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "85",
+          "player": "Jrue Holiday",
+          "team": "Portland Trail Blazers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "86",
+          "player": "Damian Lillard",
+          "team": "Portland Trail Blazers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "87",
+          "player": "Deni Avdija",
+          "team": "Portland Trail Blazers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "88",
+          "player": "Trae Young",
+          "team": "Washington Wizards",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "89",
+          "player": "Tre Johnson III",
+          "team": "Washington Wizards",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "90",
+          "player": "Bub Carrington",
+          "team": "Washington Wizards",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "91",
+          "player": "Collin Murray-Boyles",
+          "team": "Toronto Raptors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "92",
+          "player": "Alijah Martin",
+          "team": "Toronto Raptors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "93",
+          "player": "Yang Hansen",
+          "team": "Portland Trail Blazers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "94",
+          "player": "Will Richard",
+          "team": "Golden State Warriors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "95",
+          "player": "Khaman Maluach",
+          "team": "Phoenix Suns",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "96",
+          "player": "Derik Queen",
+          "team": "New Orleans Pelicans",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "97",
+          "player": "Carter Bryant",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "98",
+          "player": "Jase Richardson",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "99",
+          "player": "Danny Wolf",
+          "team": "Brooklyn Nets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "100",
+          "player": "Liam McNeeley",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-AB",
+          "player": "Ace Bailey",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-AT",
+          "player": "Adou Thiero",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-CC",
+          "player": "Cedric Coward",
+          "team": "Memphis Grizzlies",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-CF",
+          "player": "Cooper Flagg",
+          "team": "Dallas Mavericks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-CM",
+          "player": "Collin Murray-Boyles",
+          "team": "Toronto Raptors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-DH",
+          "player": "Dylan Harper",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-DQ",
+          "player": "Derik Queen",
+          "team": "New Orleans Pelicans",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-ED",
+          "player": "Egor Dëmin",
+          "team": "Brooklyn Nets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-JR",
+          "player": "Jase Richardson",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-KJ",
+          "player": "Kasparas Jakučionis",
+          "team": "Miami Heat",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-KK",
+          "player": "Kon Knueppel",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-KM",
+          "player": "Khaman Maluach",
+          "team": "Phoenix Suns",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-LM",
+          "player": "Liam McNeeley",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-NC",
+          "player": "Nique Clifford",
+          "team": "Sacramento Kings",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-NE",
+          "player": "Noa Essengue",
+          "team": "Chicago Bulls",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-NP",
+          "player": "Noah Penda",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-NT",
+          "player": "Nolan Traore",
+          "team": "Brooklyn Nets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-WC",
+          "player": "Walter Clayton Jr.",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-YH",
+          "player": "Yang Hansen",
+          "team": "Portland Trailblazers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dawn of Greatness Auto",
+          "card_no": "DG-YK",
+          "player": "Yanic Konan-Niederhäuser",
+          "team": "Los Angeles Clippers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dual Rookie Relic Auto",
+          "card_no": "DR-AW",
+          "player": "Ace Bailey / Walter Clayton Jr.",
+          "team": "Utah Jazz",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dual Rookie Relic Auto",
+          "card_no": "DR-CA",
+          "player": "Alijah Martin / Collin Murray-Boyles",
+          "team": "Toronto Raptors",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dual Rookie Relic Auto",
+          "card_no": "DR-CD",
+          "player": "Cooper Flagg / Dylan Harper",
+          "team": "Dallas Mavericks / San Antonio Spurs",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dual Rookie Relic Auto",
+          "card_no": "DR-CL",
+          "player": "Liam McNeeley / Cooper Flagg",
+          "team": "Charlotte Hornets / Dallas Mavericks",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dual Rookie Relic Auto",
+          "card_no": "DR-DA",
+          "player": "Dylan Harper / Ace Bailey",
+          "team": "San Antonio Spurs / Utah Jazz",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dual Rookie Relic Auto",
+          "card_no": "DR-EN",
+          "player": "Nolan Traore / Egor Dëmin",
+          "team": "Brooklyn Nets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dual Rookie Relic Auto",
+          "card_no": "DR-JN",
+          "player": "Jase Richardson / Noah Penda",
+          "team": "Orlando Magic",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dual Rookie Relic Auto",
+          "card_no": "DR-KL",
+          "player": "Kon Knueppel / Liam McNeeley",
+          "team": "Charlotte Hornets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dual Rookie Relic Auto",
+          "card_no": "DR-KY",
+          "player": "Yang Hansen / Khaman Maluach",
+          "team": "Portland Trail Blazers / Phoenix Suns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Dual Rookie Relic Auto",
+          "card_no": "DR-NK",
+          "player": "Kasparas Jakučionis / Nolan Traore",
+          "team": "Miami Heat / Brooklyn Nets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-AB",
+          "player": "Anthony Black",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-AS",
+          "player": "Alex Sarr",
+          "team": "Washington Wizards",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-BM",
+          "player": "Brandon Miller",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-CH",
+          "player": "Chet Holmgren",
+          "team": "Oklahoma City Thunder",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-CW",
+          "player": "Cam Whitmore",
+          "team": "Washington Wizards",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-DD",
+          "player": "Donte DiVincenzo",
+          "team": "Minnesota Timberwolves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-DM",
+          "player": "Donovan Mitchell",
+          "team": "Cleveland Cavaliers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-GD",
+          "player": "Gradey Dick",
+          "team": "Toronto Raptors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-IC",
+          "player": "Isaiah Collier",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-JHO",
+          "player": "Jrue Holiday",
+          "team": "Portland Trail Blazers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-JJ",
+          "player": "Jaime Jaquez Jr.",
+          "team": "Miami Heat",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-JM",
+          "player": "Jamal Murray",
+          "team": "Denver Nuggets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-JP",
+          "player": "Jordan Poole",
+          "team": "New Orleans Pelicans",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-JT",
+          "player": "Jayson Tatum",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-JTY",
+          "player": "Jaylon Tyson",
+          "team": "Cleveland Cavaliers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-PB",
+          "player": "Paolo Banchero",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-RDU",
+          "player": "Ryan Dunn",
+          "team": "Phoenix Suns",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-RH",
+          "player": "Rui Hachimura",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-RHL",
+          "player": "Ron Holland II",
+          "team": "Detroit Pistons",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-SC",
+          "player": "Stephon Castle",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-SH",
+          "player": "Scoot Henderson",
+          "team": "Portland Trail Blazers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-THA",
+          "player": "Tyrese Haliburton",
+          "team": "Indiana Pacers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-TM",
+          "player": "Tyrese Maxey",
+          "team": "Philadelphia 76ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-TS",
+          "player": "Tidjane Salaün",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-TSM",
+          "player": "Tyler Smith",
+          "team": "Milwaukee Bucks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-VW",
+          "player": "Victor Wembanyama",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Fountain of Youth Signatures",
+          "card_no": "FY-ZR",
+          "player": "Zaccharie Risacher",
+          "team": "Atlanta Hawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-AB",
+          "player": "Anthony Black",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-AM",
+          "player": "Ajay Mitchell",
+          "team": "Oklahoma City Thunder",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-BM",
+          "player": "Brandon Miller",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-BS",
+          "player": "Baylor Scheierman",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-CH",
+          "player": "Chet Holmgren",
+          "team": "Oklahoma City Thunder",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-CS",
+          "player": "Cam Spencer",
+          "team": "Memphis Grizzlies",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-DC",
+          "player": "Devin Carter",
+          "team": "Sacramento Kings",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-GD",
+          "player": "Gradey Dick",
+          "team": "Toronto Raptors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-JA",
+          "player": "Jarrett Allen",
+          "team": "Cleveland Cavaliers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-JF",
+          "player": "Johnny Furphy",
+          "team": "Indiana Pacers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-JH",
+          "player": "James Harden",
+          "team": "Los Angeles Clippers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-JHA",
+          "player": "Jordan Hawkins",
+          "team": "New Orleans Pelicans",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-JHO",
+          "player": "Jett Howard",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-JJ",
+          "player": "Jaime Jaquez Jr.",
+          "team": "Miami Heat",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-JW",
+          "player": "Jaylen Wells",
+          "team": "Memphis Grizzlies",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-KF",
+          "player": "Kyle Filipowski",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-KG",
+          "player": "Kyshawn George",
+          "team": "Washington Wizards",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-KW",
+          "player": "Kel'el Ware",
+          "team": "Miami Heat",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-MS",
+          "player": "Max Strus",
+          "team": "Cleveland Cavaliers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-PB",
+          "player": "Paolo Banchero",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-PD",
+          "player": "Pacôme Dadiet",
+          "team": "New York Knicks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-PP",
+          "player": "Payton Pritchard",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-RH",
+          "player": "Ron Holland II",
+          "team": "Detroit Pistons",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-SH",
+          "player": "Scoot Henderson",
+          "team": "Portland Trail Blazers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-TD",
+          "player": "Tristan da Silva",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-TH",
+          "player": "Taylor Hendricks",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-THO",
+          "player": "Tyler Herro",
+          "team": "Miami Heat",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-TK",
+          "player": "Tyler Kolek",
+          "team": "New York Knicks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-TS",
+          "player": "Tidjane Salaün",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-TSM",
+          "player": "Tyler Smith",
+          "team": "Milwaukee Bucks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-VW",
+          "player": "Victor Wembanyama",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Franchise Fundamental Relic Auto",
+          "card_no": "FF-YM",
+          "player": "Yves Missi",
+          "team": "New Orleans Pelicans",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-AB",
+          "player": "Ace Bailey",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-AI",
+          "player": "Allen Iverson",
+          "team": "Philadelphia 76ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-CA",
+          "player": "Carmelo Anthony",
+          "team": "New York Knicks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-CC",
+          "player": "Cedric Coward",
+          "team": "Memphis Grizzlies",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-CF",
+          "player": "Cooper Flagg",
+          "team": "Dallas Mavericks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-CM",
+          "player": "Collin Murray-Boyles",
+          "team": "Toronto Raptors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-DH",
+          "player": "Dylan Harper",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-DN",
+          "player": "Dirk Nowitzki",
+          "team": "Dallas Mavericks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-ED",
+          "player": "Egor Dëmin",
+          "team": "Brooklyn Nets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-JT",
+          "player": "Jayson Tatum",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-KK",
+          "player": "Kon Knueppel",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-KM",
+          "player": "Khaman Maluach",
+          "team": "Phoenix Suns",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-LJ",
+          "player": "LeBron James",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-MJ",
+          "player": "Magic Johnson",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-NE",
+          "player": "Noa Essengue",
+          "team": "Chicago Bulls",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-PB",
+          "player": "Paolo Banchero",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-SC",
+          "player": "Stephen Curry",
+          "team": "Golden State Warriors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-SO",
+          "player": "Shaquille O'Neal",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-VW",
+          "player": "Victor Wembanyama",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Inception Silver Signings",
+          "card_no": "IS-YH",
+          "player": "Yang Hansen",
+          "team": "Portland Trailblazers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-AB",
+          "player": "Ace Bailey",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-AT",
+          "player": "Adou Thiero",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-AW",
+          "player": "Amari Williams",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-BB",
+          "player": "Brooks Barnhizer",
+          "team": "Oklahoma City Thunder",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-BS",
+          "player": "Ben Saraf",
+          "team": "Brooklyn Nets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-CC",
+          "player": "Cedric Coward",
+          "team": "Memphis Grizzlies",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-CF",
+          "player": "Cooper Flagg",
+          "team": "Dallas Mavericks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-CM",
+          "player": "Collin Murray-Boyles",
+          "team": "Toronto Raptors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-DH",
+          "player": "Dylan Harper",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-DP",
+          "player": "Drake Powell",
+          "team": "Brooklyn Nets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-DQ",
+          "player": "Derik Queen",
+          "team": "New Orleans Pelicans",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-DW",
+          "player": "Danny Wolf",
+          "team": "Brooklyn Nets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-ED",
+          "player": "Egor Dëmin",
+          "team": "Brooklyn Nets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-JB",
+          "player": "Joan Beringer",
+          "team": "Minnesota Timberwolves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-JBR",
+          "player": "Johni Broome",
+          "team": "Philadelphia 76ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-JM",
+          "player": "Jahmai Mashack",
+          "team": "Memphis Grizzlies",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-JS",
+          "player": "Javon Small",
+          "team": "Memphis Grizzlies",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-KJ",
+          "player": "Kasparas Jakučionis",
+          "team": "Miami Heat",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-KK",
+          "player": "Kon Knueppel",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-KM",
+          "player": "Khaman Maluach",
+          "team": "Phoenix Suns",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-KS",
+          "player": "Kobe Sanders",
+          "team": "Los Angeles Clippers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-MP",
+          "player": "Micah Peavy",
+          "team": "New Orleans Pelicans",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-MR",
+          "player": "Maxime Raynaud",
+          "team": "Sacramento Kings",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-NP",
+          "player": "Noah Penda",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-NT",
+          "player": "Nolan Traore",
+          "team": "Brooklyn Nets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-RF",
+          "player": "Rasheer Fleming",
+          "team": "Phoenix Suns",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-RK",
+          "player": "Ryan Kalkbrenner",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-TP",
+          "player": "Tyrese Proctor",
+          "team": "Cleveland Cavaliers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-TPE",
+          "player": "Taelon Peter",
+          "team": "Indiana Pacers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-WC",
+          "player": "Walter Clayton Jr.",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-WR",
+          "player": "Will Riley",
+          "team": "Washington Wizards",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-WRI",
+          "player": "Will Richard",
+          "team": "Golden State Warriors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "NBA First Milestone Auto Relics",
+          "card_no": "FM-YK",
+          "player": "Yanic Konan-Niederhäuser",
+          "team": "Los Angeles Clippers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-AI",
+          "player": "Allen Iverson",
+          "team": "Philadelphia 76ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-CA",
+          "player": "Carmelo Anthony",
+          "team": "Denver Nuggets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-DH",
+          "player": "Dwight Howard",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-DN",
+          "player": "Dirk Nowitzki",
+          "team": "Dallas Mavericks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-DR",
+          "player": "Dennis Rodman",
+          "team": "Chicago Bulls",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-DW",
+          "player": "Dwyane Wade",
+          "team": "Miami Heat",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-HO",
+          "player": "Hakeem Olajuwon",
+          "team": "Houston Rockets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-JK",
+          "player": "Jason Kidd",
+          "team": "Dallas Mavericks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-JS",
+          "player": "John Stockton",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-KG",
+          "player": "Kevin Garnett",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-KM",
+          "player": "Karl Malone",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-LB",
+          "player": "Larry Bird",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-MG",
+          "player": "Manu Ginobili",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-MJ",
+          "player": "Magic Johnson",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-SO",
+          "player": "Shaquille O'Neal",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-TM",
+          "player": "Tracy McGrady",
+          "team": "Toronto Raptors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-TP",
+          "player": "Tony Parker",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Persistent Marks",
+          "card_no": "PM-VC",
+          "player": "Vince Carter",
+          "team": "Toronto Raptors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-BS",
+          "player": "Baylor Scheierman",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-CW",
+          "player": "Cody Williams",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-DD",
+          "player": "Donte DiVincenzo",
+          "team": "Minnesota Timberwolves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-IQ",
+          "player": "Immanuel Quickley",
+          "team": "Toronto Raptors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-JHO",
+          "player": "Jrue Holiday",
+          "team": "Portland Trail Blazers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-JHS",
+          "player": "Jalen Hood-Schifino",
+          "team": "Philadelphia 76ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-JJ",
+          "player": "Jaime Jaquez Jr.",
+          "team": "Miami Heat",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-JP",
+          "player": "Jordan Poole",
+          "team": "New Orleans Pelicans",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-JT",
+          "player": "Jaylon Tyson",
+          "team": "Cleveland Cavaliers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-KF",
+          "player": "Kyle Filipowski",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-KK",
+          "player": "Kyle Kuzma",
+          "team": "Milwaukee Bucks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-KL",
+          "player": "Kevin Love",
+          "team": "Miami Heat",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-KP",
+          "player": "Kristaps Porzingis",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-KT",
+          "player": "Karl-Anthony Towns",
+          "team": "New York Knicks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-MS",
+          "player": "Marcus Smart",
+          "team": "Washington Wizards",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-MT",
+          "player": "Myles Turner",
+          "team": "Milwaukee Bucks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-NT",
+          "player": "Nikola Topić",
+          "team": "Oklahoma City Thunder",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-RD",
+          "player": "Ryan Dunn",
+          "team": "Phoenix Suns",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-RH",
+          "player": "Rui Hachimura",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-RHO",
+          "player": "Ron Holland II",
+          "team": "Detroit Pistons",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-TH",
+          "player": "Tyrese Haliburton",
+          "team": "Indiana Pacers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-TM",
+          "player": "Tyrese Maxey",
+          "team": "Philadelphia 76ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-TS",
+          "player": "Tidjane Salaün",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rise to Fame Signatures",
+          "card_no": "RF-TSM",
+          "player": "Tyler Smith",
+          "team": "Milwaukee Bucks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-AB",
+          "player": "Ace Bailey",
+          "team": "Utah Jazz",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-AM",
+          "player": "Alijah Martin",
+          "team": "Toronto Raptors",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-AN",
+          "player": "Asa Newell",
+          "team": "Atlanta Hawks",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-AT",
+          "player": "Adou Thiero",
+          "team": "Los Angeles Lakers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-ATO",
+          "player": "Alex Toohey",
+          "team": "Golden State Warriors",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-AW",
+          "player": "Amari Williams",
+          "team": "Boston Celtics",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-BB",
+          "player": "Brooks Barnhizer",
+          "team": "Oklahoma City Thunder",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-BS",
+          "player": "Ben Saraf",
+          "team": "Brooklyn Nets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-CF",
+          "player": "Cooper Flagg",
+          "team": "Dallas Mavericks",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-CL",
+          "player": "Chaz Lanier",
+          "team": "Detroit Pistons",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-DH",
+          "player": "Dylan Harper",
+          "team": "San Antonio Spurs",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-DQ",
+          "player": "Derik Queen",
+          "team": "New Orleans Pelicans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-DW",
+          "player": "Danny Wolf",
+          "team": "Brooklyn Nets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-ED",
+          "player": "Egor Dëmin",
+          "team": "Brooklyn Nets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-JB",
+          "player": "Joan Beringer",
+          "team": "Minnesota Timberwolves",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-JBR",
+          "player": "Johni Broome",
+          "team": "Philadelphia 76ers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-JM",
+          "player": "Jahmai Mashack",
+          "team": "Memphis Grizzlies",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-JR",
+          "player": "Jase Richardson",
+          "team": "Orlando Magic",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-JS",
+          "player": "Javon Small",
+          "team": "Memphis Grizzlies",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-JT",
+          "player": "John Tonje",
+          "team": "Utah Jazz",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-JW",
+          "player": "Jamir Watkins",
+          "team": "Washington Wizards",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-KB",
+          "player": "Koby Brea",
+          "team": "Phoenix Suns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-KJ",
+          "player": "Kam Jones",
+          "team": "Indiana Pacers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-KK",
+          "player": "Kon Knueppel",
+          "team": "Charlotte Hornets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-KS",
+          "player": "Kobe Sanders",
+          "team": "Los Angeles Clippers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-LO",
+          "player": "Lachlan Olbrich",
+          "team": "Chicago Bulls",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-MP",
+          "player": "Micah Peavy",
+          "team": "New Orleans Pelicans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-MR",
+          "player": "Maxime Raynaud",
+          "team": "Sacramento Kings",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-NC",
+          "player": "Nique Clifford",
+          "team": "Sacramento Kings",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-NP",
+          "player": "Noah Penda",
+          "team": "Orlando Magic",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-RF",
+          "player": "Rasheer Fleming",
+          "team": "Phoenix Suns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-RK",
+          "player": "Ryan Kalkbrenner",
+          "team": "Charlotte Hornets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-SJ",
+          "player": "Sion James",
+          "team": "Charlotte Hornets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-TP",
+          "player": "Taelon Peter",
+          "team": "Indiana Pacers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-TS",
+          "player": "Thomas Sorber",
+          "team": "Oklahoma City Thunder",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-WC",
+          "player": "Walter Clayton Jr.",
+          "team": "Utah Jazz",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-WR",
+          "player": "Will Riley",
+          "team": "Washington Wizards",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-WRI",
+          "player": "Will Richard",
+          "team": "Golden State Warriors",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-YH",
+          "player": "Yang Hansen",
+          "team": "Portland Trailblazers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto",
+          "card_no": "RA-YK",
+          "player": "Yanic Konan-Niederhäuser",
+          "team": "Los Angeles Clippers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-AB",
+          "player": "Ace Bailey",
+          "team": "Utah Jazz",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-AN",
+          "player": "Asa Newell",
+          "team": "Atlanta Hawks",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-AT",
+          "player": "Adou Thiero",
+          "team": "Los Angeles Lakers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-CC",
+          "player": "Cedric Coward",
+          "team": "Memphis Grizzlies",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-CF",
+          "player": "Cooper Flagg",
+          "team": "Dallas Mavericks",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-CM",
+          "player": "Collin Murray-Boyles",
+          "team": "Toronto Raptors",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-DH",
+          "player": "Dylan Harper",
+          "team": "San Antonio Spurs",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-DP",
+          "player": "Drake Powell",
+          "team": "Brooklyn Nets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-DQ",
+          "player": "Derik Queen",
+          "team": "New Orleans Pelicans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-ED",
+          "player": "Egor Dëmin",
+          "team": "Brooklyn Nets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-JB",
+          "player": "Joan Beringer",
+          "team": "Minnesota Timberwolves",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-KJ",
+          "player": "Kasparas Jakučionis",
+          "team": "Miami Heat",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-KK",
+          "player": "Kon Knueppel",
+          "team": "Charlotte Hornets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-KM",
+          "player": "Khaman Maluach",
+          "team": "Phoenix Suns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-NE",
+          "player": "Noa Essengue",
+          "team": "Chicago Bulls",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-NT",
+          "player": "Nolan Traore",
+          "team": "Brooklyn Nets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-TS",
+          "player": "Thomas Sorber",
+          "team": "Oklahoma City Thunder",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-WC",
+          "player": "Walter Clayton Jr.",
+          "team": "Utah Jazz",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-WR",
+          "player": "Will Riley",
+          "team": "Washington Wizards",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Auto Horizontal Variation",
+          "card_no": "RV-YH",
+          "player": "Yang Hansen",
+          "team": "Portland Trailblazers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-AB",
+          "player": "Ace Bailey",
+          "team": "Utah Jazz",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-AM",
+          "player": "Alijah Martin",
+          "team": "Toronto Raptors",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-AN",
+          "player": "Asa Newell",
+          "team": "Atlanta Hawks",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-AT",
+          "player": "Adou Thiero",
+          "team": "Los Angeles Lakers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-BB",
+          "player": "Brooks Barnhizer",
+          "team": "Oklahoma City Thunder",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-BS",
+          "player": "Ben Saraf",
+          "team": "Brooklyn Nets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-CC",
+          "player": "Cedric Coward",
+          "team": "Memphis Grizzlies",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-CF",
+          "player": "Cooper Flagg",
+          "team": "Dallas Mavericks",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-CL",
+          "player": "Chaz Lanier",
+          "team": "Detroit Pistons",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-CM",
+          "player": "Collin Murray-Boyles",
+          "team": "Toronto Raptors",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-DH",
+          "player": "Dylan Harper",
+          "team": "San Antonio Spurs",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-DQ",
+          "player": "Derik Queen",
+          "team": "New Orleans Pelicans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-DW",
+          "player": "Danny Wolf",
+          "team": "Brooklyn Nets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-ED",
+          "player": "Egor Dëmin",
+          "team": "Brooklyn Nets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-JB",
+          "player": "Joan Beringer",
+          "team": "Minnesota Timberwolves",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-JBR",
+          "player": "Johni Broome",
+          "team": "Philadelphia 76ers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-JR",
+          "player": "Jase Richardson",
+          "team": "Orlando Magic",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-JW",
+          "player": "Jamir Watkins",
+          "team": "Washington Wizards",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-KB",
+          "player": "Koby Brea",
+          "team": "Phoenix Suns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-KJ",
+          "player": "Kasparas Jakučionis",
+          "team": "Miami Heat",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-KJO",
+          "player": "Kam Jones",
+          "team": "Indiana Pacers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-KK",
+          "player": "Kon Knueppel",
+          "team": "Charlotte Hornets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-KM",
+          "player": "Khaman Maluach",
+          "team": "Phoenix Suns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-LM",
+          "player": "Liam McNeeley",
+          "team": "Charlotte Hornets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-MP",
+          "player": "Micah Peavy",
+          "team": "New Orleans Pelicans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-MR",
+          "player": "Maxime Raynaud",
+          "team": "Sacramento Kings",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-NC",
+          "player": "Nique Clifford",
+          "team": "Sacramento Kings",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-NE",
+          "player": "Noa Essengue",
+          "team": "Chicago Bulls",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-NP",
+          "player": "Noah Penda",
+          "team": "Orlando Magic",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-NT",
+          "player": "Nolan Traore",
+          "team": "Brooklyn Nets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-RF",
+          "player": "Rasheer Fleming",
+          "team": "Phoenix Suns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-RK",
+          "player": "Ryan Kalkbrenner",
+          "team": "Charlotte Hornets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-SJ",
+          "player": "Sion James",
+          "team": "Charlotte Hornets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-TP",
+          "player": "Tyrese Proctor",
+          "team": "Cleveland Cavaliers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-TS",
+          "player": "Thomas Sorber",
+          "team": "Oklahoma City Thunder",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-WC",
+          "player": "Walter Clayton Jr.",
+          "team": "Utah Jazz",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-WR",
+          "player": "Will Riley",
+          "team": "Washington Wizards",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-YH",
+          "player": "Yang Hansen",
+          "team": "Portland Trail Blazers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Jumbo Relic Auto",
+          "card_no": "RJ-YK",
+          "player": "Yanic Konan-Niederhäuser",
+          "team": "Los Angeles Clippers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-AT",
+          "player": "Tyrese Proctor / Asa Newell",
+          "team": "Cleveland Cavaliers / Atlanta Hawks",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-AW",
+          "player": "Ace Bailey / Walter Clayton Jr.",
+          "team": "Utah Jazz",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-BD",
+          "player": "Danny Wolf / Ben Saraf",
+          "team": "Brooklyn Nets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-CA",
+          "player": "Collin Murray-Boyles / Alijah Martin",
+          "team": "Toronto Raptors",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-CD",
+          "player": "Dylan Harper / Cooper Flagg",
+          "team": "San Antonio Spurs / Dallas Mavericks",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-CP",
+          "player": "Drake Powell / Cedric Coward",
+          "team": "Brooklyn Nets / Memphis Grizzlies",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-DY",
+          "player": "Derik Queen / Yang Hansen",
+          "team": "New Orleans Pelicans / Portland Trail Blazers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-EN",
+          "player": "Egor Dëmin / Nolan Traore",
+          "team": "Brooklyn Nets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-JN",
+          "player": "Jase Richardson / Noah Penda",
+          "team": "Orlando Magic",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-KK",
+          "player": "Khaman Maluach / Kon Knueppel",
+          "team": "Phoenix Suns / Charlotte Hornets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-KL",
+          "player": "Kasparas Jakučionis / Liam McNeeley",
+          "team": "Miami Heat / Charlotte Hornets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-KM",
+          "player": "Kam Jones / Micah Peavy",
+          "team": "Indiana Pacers / New Orleans Pelicans",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-MJ",
+          "player": "Jamir Watkins / Maxime Raynaud",
+          "team": "Washington Wizards / Sacramento Kings",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-NA",
+          "player": "Nique Clifford / Adou Thiero",
+          "team": "Sacramento Kings / Los Angeles Lakers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-NJ",
+          "player": "Noa Essengue / Joan Beringer",
+          "team": "Chicago Bulls / Minnesota Timberwolves",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-RC",
+          "player": "Rasheer Fleming / Chaz Lanier",
+          "team": "Phoenix Suns / Detroit Pistons",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-SR",
+          "player": "Sion James / Ryan Kalkbrenner",
+          "team": "Charlotte Hornets",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-TB",
+          "player": "Thomas Sorber / Brooks Barnhizer",
+          "team": "Oklahoma City Thunder",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-WJ",
+          "player": "Will Riley / Johni Broome",
+          "team": "Washington Wizards / Philadelphia 76ers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Autograph",
+          "subset": "Rookie Relic Booklet Auto",
+          "card_no": "RB-YK",
+          "player": "Yanic Konan-Niederhäuser / Koby Brea",
+          "team": "Los Angeles Clippers / Phoenix Suns",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Relic",
+          "subset": "NBA First Milestone Relics",
+          "card_no": "FMR-CB",
+          "player": "Carter Bryant",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Relic",
+          "subset": "NBA First Milestone Relics",
+          "card_no": "FMR-HG",
+          "player": "Hugo González",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Relic",
+          "subset": "NBA First Milestone Relics",
+          "card_no": "FMR-JF",
+          "player": "Jeremiah Fears",
+          "team": "New Orleans Pelicans",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Relic",
+          "subset": "NBA First Milestone Relics",
+          "card_no": "FMR-TJ",
+          "player": "Tre Johnson III",
+          "team": "Washington Wizards",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Relic",
+          "subset": "NBA First Milestone Relics",
+          "card_no": "FMR-VE",
+          "player": "VJ Edgecombe",
+          "team": "Philadelphia 76ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Endgame",
+          "card_no": "E-1",
+          "player": "Luka Dončić",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Endgame",
+          "card_no": "E-2",
+          "player": "Stephen Curry",
+          "team": "Golden State Warriors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Endgame",
+          "card_no": "E-3",
+          "player": "LeBron James",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Endgame",
+          "card_no": "E-4",
+          "player": "Victor Wembanyama",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Endgame",
+          "card_no": "E-5",
+          "player": "Jayson Tatum",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Endgame",
+          "card_no": "E-6",
+          "player": "Cooper Flagg",
+          "team": "Dallas Mavericks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Endgame",
+          "card_no": "E-7",
+          "player": "VJ Edgecombe",
+          "team": "Philadelphia 76ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Endgame",
+          "card_no": "E-8",
+          "player": "Kon Knueppel",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Endgame",
+          "card_no": "E-9",
+          "player": "Dylan Harper",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Endgame",
+          "card_no": "E-10",
+          "player": "Ace Bailey",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-1",
+          "player": "Anthony Edwards",
+          "team": "Minnesota Timberwolves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-2",
+          "player": "Ja Morant",
+          "team": "Memphis Grizzlies",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-3",
+          "player": "Giannis Antetokounmpo",
+          "team": "Milwaukee Bucks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-4",
+          "player": "LeBron James",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-5",
+          "player": "Victor Wembanyama",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-6",
+          "player": "LaMelo Ball",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-7",
+          "player": "Zion Williamson",
+          "team": "New Orleans Pelicans",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-8",
+          "player": "Jalen Johnson",
+          "team": "Atlanta Hawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-9",
+          "player": "Amen Thompson",
+          "team": "Houston Rockets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-10",
+          "player": "Zach Lavine",
+          "team": "Sacramento Kings",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-11",
+          "player": "Aaron Gordon",
+          "team": "Denver Nuggets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-12",
+          "player": "Jalen Duren",
+          "team": "Detriot Pistons",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-13",
+          "player": "Dwyane Wade",
+          "team": "Miami Heat",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-14",
+          "player": "Vince Carter",
+          "team": "Toronto Raptors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-15",
+          "player": "Shaquille O'Neal",
+          "team": "Orlando Magic",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-16",
+          "player": "Cooper Flagg",
+          "team": "Dallas Mavericks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-17",
+          "player": "VJ Edgecombe",
+          "team": "Philadelphia 76ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-18",
+          "player": "Ace Bailey",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-19",
+          "player": "Khaman Maluach",
+          "team": "Phoenix Suns",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Launch",
+          "card_no": "L-20",
+          "player": "Carter Bryant",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-1",
+          "player": "Luka Dončić",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-2",
+          "player": "Stephen Curry",
+          "team": "Golden State Warriors",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-3",
+          "player": "LeBron James",
+          "team": "Los Angeles Lakers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-4",
+          "player": "Victor Wembanyama",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-5",
+          "player": "Jayson Tatum",
+          "team": "Boston Celtics",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-6",
+          "player": "Anthony Edwards",
+          "team": "Minnesota Timberwolves",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-7",
+          "player": "Shai Gilgeous-Alexander",
+          "team": "Oklahoma City Thunder",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-8",
+          "player": "Jalen Brunson",
+          "team": "New York Knicks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-9",
+          "player": "Nikola Jokić",
+          "team": "Denver Nuggets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-10",
+          "player": "Giannis Antetokounmpo",
+          "team": "Milwaukee Bucks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-11",
+          "player": "Cade Cunningham",
+          "team": "Detroit Pistons",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-12",
+          "player": "Zion Williamson",
+          "team": "New Orleans Pelicans",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-13",
+          "player": "Ja Morant",
+          "team": "Memphis Grizzlies",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-14",
+          "player": "Cooper Flagg",
+          "team": "Dallas Mavericks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-15",
+          "player": "Dylan Harper",
+          "team": "San Antonio Spurs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-16",
+          "player": "Kon Knueppel",
+          "team": "Charlotte Hornets",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-17",
+          "player": "Ace Bailey",
+          "team": "Utah Jazz",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-18",
+          "player": "VJ Edgecombe",
+          "team": "Philadelphia 76ers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-19",
+          "player": "Cedric Coward",
+          "team": "Memphis Grizzlies",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "sport": "basketball",
+          "section": "Insert",
+          "subset": "Splashdown",
+          "card_no": "S-20",
+          "player": "Tre Johnson III",
+          "team": "Washington Wizards",
+          "tag": ""
+        }
+      ],
+      "parallels": [
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Green",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Purple",
+          "serial_no": "/125"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Pink",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Red",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Gold Electricity",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Camo",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Sky Blue",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Inception",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Dawn of Greatness Auto",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Dawn of Greatness Auto",
+          "parallel_name": "Camo",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Dawn of Greatness Auto",
+          "parallel_name": "Sky Blue",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Dawn of Greatness Auto",
+          "parallel_name": "Inception",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Dual Rookie Relic Auto",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Dual Rookie Relic Auto",
+          "parallel_name": "Camo",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Dual Rookie Relic Auto",
+          "parallel_name": "Sky Blue",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Dual Rookie Relic Auto",
+          "parallel_name": "Inception",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Fountain of Youth Signatures",
+          "parallel_name": "Gold Electricity",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Fountain of Youth Signatures",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Fountain of Youth Signatures",
+          "parallel_name": "Camo",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Fountain of Youth Signatures",
+          "parallel_name": "Sky Blue",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Fountain of Youth Signatures",
+          "parallel_name": "Inception",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Franchise Fundamental Relic Auto",
+          "parallel_name": "Pink",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Franchise Fundamental Relic Auto",
+          "parallel_name": "Red",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Franchise Fundamental Relic Auto",
+          "parallel_name": "Gold Electricity",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Franchise Fundamental Relic Auto",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Franchise Fundamental Relic Auto",
+          "parallel_name": "Camo",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Franchise Fundamental Relic Auto",
+          "parallel_name": "Sky Blue",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Franchise Fundamental Relic Auto",
+          "parallel_name": "Inception",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Inception Silver Signings",
+          "parallel_name": "Red Electricity",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Inception Silver Signings",
+          "parallel_name": "Green Electricity",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Inception Silver Signings",
+          "parallel_name": "Gold Electricity",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Inception Silver Signings",
+          "parallel_name": "Gold Ink Inscription",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "NBA First Milestone Auto Relics",
+          "parallel_name": "Sky Blue",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "NBA First Milestone Auto Relics",
+          "parallel_name": "Inception",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Persistent Marks",
+          "parallel_name": "Gold Electricity",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Persistent Marks",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Persistent Marks",
+          "parallel_name": "Camo",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Persistent Marks",
+          "parallel_name": "Sky Blue",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Persistent Marks",
+          "parallel_name": "Inception",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rise to Fame Signatures",
+          "parallel_name": "Gold Electricity",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rise to Fame Signatures",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rise to Fame Signatures",
+          "parallel_name": "Camo",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rise to Fame Signatures",
+          "parallel_name": "Sky Blue",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rise to Fame Signatures",
+          "parallel_name": "Inception",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto",
+          "parallel_name": "Red Electricity",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto",
+          "parallel_name": "Green Electricity",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto",
+          "parallel_name": "Pink",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto",
+          "parallel_name": "Red",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto",
+          "parallel_name": "Gold Electricity",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto",
+          "parallel_name": "Camo",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto",
+          "parallel_name": "Sky Blue",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto",
+          "parallel_name": "Inception",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto Horizontal Variation",
+          "parallel_name": "Red Electricity",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto Horizontal Variation",
+          "parallel_name": "Green Electricity",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto Horizontal Variation",
+          "parallel_name": "Pink",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto Horizontal Variation",
+          "parallel_name": "Red",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto Horizontal Variation",
+          "parallel_name": "Gold Electricity",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto Horizontal Variation",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto Horizontal Variation",
+          "parallel_name": "Camo",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto Horizontal Variation",
+          "parallel_name": "Sky Blue",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Auto Horizontal Variation",
+          "parallel_name": "Inception",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Jumbo Relic Auto",
+          "parallel_name": "Pink",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Jumbo Relic Auto",
+          "parallel_name": "Red",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Jumbo Relic Auto",
+          "parallel_name": "Gold Electricity",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Jumbo Relic Auto",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Jumbo Relic Auto",
+          "parallel_name": "Camo",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Jumbo Relic Auto",
+          "parallel_name": "Sky Blue",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Jumbo Relic Auto",
+          "parallel_name": "Inception",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Relic Booklet Auto",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Relic Booklet Auto",
+          "parallel_name": "Camo",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Relic Booklet Auto",
+          "parallel_name": "Sky Blue",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Rookie Relic Booklet Auto",
+          "parallel_name": "Inception",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Relic",
+          "applies_to_subset": "NBA First Milestone Relics",
+          "parallel_name": "Sky Blue",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "applies_to_section": "Relic",
+          "applies_to_subset": "NBA First Milestone Relics",
+          "parallel_name": "Inception",
+          "serial_no": "/1"
+        }
+      ]
+    }
+  }
+}
