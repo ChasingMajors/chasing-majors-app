@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-22T01:31:13.164Z",
+  "generated_at": "2026-07-22T01:53:19.445Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -6077,6 +6077,15 @@
       "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Holiday"
+    },
+    {
+      "Code": "2025_26_topps_inception_basketball",
+      "DisplayName": "2025-26 Topps Inception Basketball",
+      "Keywords": "2025-26 Topps Inception Basketball, 2025-26 Topps Inception Basketball checklist, 2025-26 Topps Inception Basketball cards, 2025-26 Topps Inception Basketball parallels, 2025-26 Topps Inception Basketball autographs, Topps Inception basketball, Inception basketball checklist",
+      "year": "2025-26",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Inception"
     },
     {
       "Code": "2025_26_topps_midnight_basketball",
