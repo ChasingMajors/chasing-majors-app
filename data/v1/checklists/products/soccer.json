@@ -3,7 +3,7 @@
   "sport": "soccer",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-07-17T23:22:30.236Z",
+  "generated_at": "2026-07-22T01:31:13.164Z",
   "sharded": true,
   "shards": [
     "soccer-001.json",
@@ -17,7 +17,8 @@
     "soccer-product-2025-26-topps-chrome-sapphire-uefa-club-competitions-soccer.json",
     "soccer-product-2025-26-panini-prestige-efl-soccer.json",
     "soccer-product-2025-26-topps-pristine-premier-league-soccer.json",
-    "soccer-product-2025-26-topps-chrome-sapphire-uwcl-soccer.json"
+    "soccer-product-2025-26-topps-chrome-sapphire-uwcl-soccer.json",
+    "soccer-product-2025-26-panini-select-road-to-fifa-world-cup-2026-soccer.json"
   ],
   "product_map": {
     "2025_panini_absolute_k_league_soccer": "soccer-001.json",
@@ -56,6 +57,7 @@
     "2025_26_topps_chrome_sapphire_uefa_club_competitions_soccer": "soccer-product-2025-26-topps-chrome-sapphire-uefa-club-competitions-soccer.json",
     "2025_26_panini_prestige_efl_soccer": "soccer-product-2025-26-panini-prestige-efl-soccer.json",
     "2025_26_topps_pristine_premier_league_soccer": "soccer-product-2025-26-topps-pristine-premier-league-soccer.json",
-    "2025_26_topps_chrome_sapphire_uwcl_soccer": "soccer-product-2025-26-topps-chrome-sapphire-uwcl-soccer.json"
+    "2025_26_topps_chrome_sapphire_uwcl_soccer": "soccer-product-2025-26-topps-chrome-sapphire-uwcl-soccer.json",
+    "2025_26_panini_select_road_to_fifa_world_cup_2026_soccer": "soccer-product-2025-26-panini-select-road-to-fifa-world-cup-2026-soccer.json"
   }
 }
