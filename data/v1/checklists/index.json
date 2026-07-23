@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-22T01:53:19.445Z",
+  "generated_at": "2026-07-23T16:00:09.707Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8435,6 +8435,15 @@
       "sport": "soccer",
       "manufacturer": "Panini",
       "product": "Noir Road to FIFA World Cup 26"
+    },
+    {
+      "Code": "2025_26_panini_obsidian_soccer",
+      "DisplayName": "2025-26 Panini Obsidian Soccer",
+      "Keywords": "2025-26 Panini Obsidian Soccer, 2025-26 Panini Obsidian Soccer checklist, 2025-26 Panini Obsidian Soccer cards, 2025-26 Panini Obsidian Soccer parallels, 2025-26 Panini Obsidian Soccer autographs, Panini Obsidian soccer, Obsidian soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Obsidian"
     },
     {
       "Code": "2025_26_panini_pitch_kings_la_liga_soccer",
