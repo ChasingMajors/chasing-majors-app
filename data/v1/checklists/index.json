@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-23T16:01:20.221Z",
+  "generated_at": "2026-07-23T23:28:02.649Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -65,6 +65,15 @@
       "sport": "baseball",
       "manufacturer": "Panini",
       "product": "Panini Stars & Stripes Prizm USA Baseball"
+    },
+    {
+      "Code": "2026_topps_chrome_baseball",
+      "DisplayName": "2026 Topps Chrome Baseball",
+      "Keywords": "2026 Topps Chrome Baseball, 2026 Topps Chrome Baseball checklist, 2026 Topps Chrome Baseball cards, 2026 Topps Chrome Baseball parallels, 2026 Topps Chrome Baseball autographs, Topps Chrome baseball, Chrome baseball checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome"
     },
     {
       "Code": "2026_Topps_Chrome_Black",
