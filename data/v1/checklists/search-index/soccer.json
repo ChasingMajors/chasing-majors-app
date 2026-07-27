@@ -3,13 +3,14 @@
   "sport": "soccer",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-07-23T16:01:20.221Z",
+  "generated_at": "2026-07-27T15:59:55.419Z",
   "sharded": true,
   "shards": [
     "soccer-001.json",
     "soccer-002.json",
     "soccer-003.json",
     "soccer-004.json",
-    "soccer-005.json"
+    "soccer-005.json",
+    "soccer-006.json"
   ]
 }
