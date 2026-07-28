@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-27T16:00:56.395Z",
+  "generated_at": "2026-07-28T23:09:59.455Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -146,6 +146,15 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Tier One"
+    },
+    {
+      "Code": "2026_topps_tribute_baseball",
+      "DisplayName": "2026 Topps Tribute Baseball",
+      "Keywords": "2026 Topps Tribute Baseball, 2026 Topps Tribute Baseball checklist, 2026 Topps Tribute Baseball cards, 2026 Topps Tribute Baseball parallels, 2026 Topps Tribute Baseball autographs, Topps Tribute baseball, Tribute baseball checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Tribute"
     },
     {
       "Code": "2025_Bowman",
