@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-28T23:09:59.455Z",
+  "generated_at": "2026-07-29T00:28:15.807Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8417,6 +8417,15 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "Ultimate Collection"
+    },
+    {
+      "Code": "2026_panini_luminance_england_soccer",
+      "DisplayName": "2026 Panini Luminance England Soccer",
+      "Keywords": "2026 Panini Luminance England Soccer, 2026 Panini Luminance England Soccer checklist, 2026 Panini Luminance England Soccer cards, 2026 Panini Luminance England Soccer parallels, 2026 Panini Luminance England Soccer autographs, Panini Luminance England soccer, Luminance England soccer checklist",
+      "year": "2026",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Luminance England"
     },
     {
       "Code": "2026_panini_prizm_fifa_world_cup_soccer",
