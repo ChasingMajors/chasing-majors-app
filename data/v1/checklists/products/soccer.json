@@ -3,7 +3,7 @@
   "sport": "soccer",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-07-29T00:28:15.807Z",
+  "generated_at": "2026-07-29T01:22:05.288Z",
   "sharded": true,
   "shards": [
     "soccer-001.json",
@@ -21,7 +21,8 @@
     "soccer-product-2025-26-panini-select-road-to-fifa-world-cup-2026-soccer.json",
     "soccer-product-2025-26-panini-obsidian-soccer.json",
     "soccer-product-2026-panini-revolution-k-league-soccer.json",
-    "soccer-product-2026-panini-luminance-england-soccer.json"
+    "soccer-product-2026-panini-luminance-england-soccer.json",
+    "soccer-product-2026-panini-luminance-germany-soccer.json"
   ],
   "product_map": {
     "2025_panini_absolute_k_league_soccer": "soccer-001.json",
@@ -64,6 +65,7 @@
     "2025_26_panini_select_road_to_fifa_world_cup_2026_soccer": "soccer-product-2025-26-panini-select-road-to-fifa-world-cup-2026-soccer.json",
     "2025_26_panini_obsidian_soccer": "soccer-product-2025-26-panini-obsidian-soccer.json",
     "2026_panini_revolution_k_league_soccer": "soccer-product-2026-panini-revolution-k-league-soccer.json",
-    "2026_panini_luminance_england_soccer": "soccer-product-2026-panini-luminance-england-soccer.json"
+    "2026_panini_luminance_england_soccer": "soccer-product-2026-panini-luminance-england-soccer.json",
+    "2026_panini_luminance_germany_soccer": "soccer-product-2026-panini-luminance-germany-soccer.json"
   }
 }
