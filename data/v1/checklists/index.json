@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-29T00:28:15.807Z",
+  "generated_at": "2026-07-29T01:22:05.288Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8426,6 +8426,15 @@
       "sport": "soccer",
       "manufacturer": "Panini",
       "product": "Luminance England"
+    },
+    {
+      "Code": "2026_panini_luminance_germany_soccer",
+      "DisplayName": "2026 Panini Luminance Germany Soccer",
+      "Keywords": "2026 Panini Luminance Germany Soccer, 2026 Panini Luminance Germany Soccer checklist, 2026 Panini Luminance Germany Soccer cards, 2026 Panini Luminance Germany Soccer parallels, 2026 Panini Luminance Germany Soccer autographs, Panini Luminance Germany soccer, Luminance Germany soccer checklist",
+      "year": "2026",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Luminance Germany"
     },
     {
       "Code": "2026_panini_prizm_fifa_world_cup_soccer",
