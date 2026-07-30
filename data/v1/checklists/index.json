@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-07-30T23:25:49.999Z",
+  "generated_at": "2026-07-30T23:32:29.222Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8705,6 +8705,15 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Gold UEFA Club Competition"
+    },
+    {
+      "Code": "2025_26_topps_inception_uefa_club_competitions_soccer",
+      "DisplayName": "2025-26 Topps Inception UEFA Club Competitions Soccer",
+      "Keywords": "2025-26 Topps Inception UEFA Club Competitions Soccer, 2025-26 Topps Inception UEFA Club Competitions Soccer checklist, 2025-26 Topps Inception UEFA Club Competitions Soccer cards, 2025-26 Topps Inception UEFA Club Competitions Soccer parallels, 2025-26 Topps Inception UEFA Club Competitions Soccer autographs, Topps Inception UEFA Club Competitions soccer, Inception UEFA Club Competitions soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Inception UEFA Club Competitions"
     },
     {
       "Code": "2025_26_Topps_Los_Blancos_Real_Madrid_Soccer",
