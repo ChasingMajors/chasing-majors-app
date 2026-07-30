@@ -1,0 +1,1601 @@
+{
+  "ok": true,
+  "sport": "soccer",
+  "kind": "checklist_products",
+  "source": "Product-scoped approved import publish",
+  "generated_at": "2026-07-30T23:25:49.999Z",
+  "products": {
+    "2026_panini_luminance_france_soccer": {
+      "ok": true,
+      "meta": {
+        "code": "2026_panini_luminance_france_soccer",
+        "displayName": "2026 Panini Luminance France Soccer",
+        "keywords": "2026 Panini Luminance France Soccer, 2026 Panini Luminance France Soccer checklist, 2026 Panini Luminance France Soccer cards, 2026 Panini Luminance France Soccer parallels, 2026 Panini Luminance France Soccer autographs, Panini Luminance France soccer, Luminance France soccer checklist",
+        "source_key": "2025-26",
+        "year": "2026",
+        "manufacturer": "Panini",
+        "product": "Luminance France",
+        "sport": "soccer"
+      },
+      "rows": [
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "1",
+          "player": "Randal Kolo Muani",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "2",
+          "player": "Kingsley Coman",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "3",
+          "player": "Bradley Barcola",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "4",
+          "player": "Jules Kounde",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "5",
+          "player": "Ibrahima Konate",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "6",
+          "player": "N'Golo Kante",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "7",
+          "player": "Warren Zaire-Emery",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "8",
+          "player": "Michael Olise",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "9",
+          "player": "Mike Maignan",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "10",
+          "player": "William Saliba",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "11",
+          "player": "Aurelien Tchouameni",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "12",
+          "player": "Eduardo Camavinga",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "13",
+          "player": "Hugo Ekitike",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "14",
+          "player": "Kylian Mbappe",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "15",
+          "player": "Jean-Philippe Mateta",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "16",
+          "player": "Franck Ribery",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "17",
+          "player": "Florent Malouda",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "18",
+          "player": "Lilian Thuram",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "19",
+          "player": "Djibril Cisse",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Horizontal",
+          "card_no": "20",
+          "player": "Thierry Henry",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "1",
+          "player": "Lucas Chevalier",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "2",
+          "player": "Theo Hernandez",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "3",
+          "player": "Dayot Upamecano",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "4",
+          "player": "Malo Gusto",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "5",
+          "player": "Christopher Nkunku",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "6",
+          "player": "Manu Kone",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "7",
+          "player": "Adrien Rabiot",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "8",
+          "player": "Maghnes Akliouche",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "9",
+          "player": "Ousmane Dembele",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "10",
+          "player": "Desire Doue",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "11",
+          "player": "Rayan Cherki",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "12",
+          "player": "Marcus Thuram",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "13",
+          "player": "Khephren Thuram",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "14",
+          "player": "Florian Thauvin",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "15",
+          "player": "Lucas Digne",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "16",
+          "player": "Fabien Barthez",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "17",
+          "player": "Laurent Blanc",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "18",
+          "player": "Zinedine Zidane",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "19",
+          "player": "Willy Sagnol",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base Vertical",
+          "card_no": "20",
+          "player": "Claude Makelele",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Horizontal",
+          "card_no": "2",
+          "player": "Kingsley Coman",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Horizontal",
+          "card_no": "3",
+          "player": "Bradley Barcola",
+          "team": "France*",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Horizontal",
+          "card_no": "7",
+          "player": "Warren Zaire-Emery",
+          "team": "France*",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Horizontal",
+          "card_no": "10",
+          "player": "William Saliba",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Horizontal",
+          "card_no": "11",
+          "player": "Aurelien Tchouameni",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Horizontal",
+          "card_no": "12",
+          "player": "Eduardo Camavinga",
+          "team": "France*",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Horizontal",
+          "card_no": "14",
+          "player": "Kylian Mbappe",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Horizontal",
+          "card_no": "16",
+          "player": "Franck Ribery",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Horizontal",
+          "card_no": "17",
+          "player": "Florent Malouda",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Horizontal",
+          "card_no": "18",
+          "player": "Lilian Thuram",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Horizontal",
+          "card_no": "19",
+          "player": "Djibril Cisse",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Horizontal",
+          "card_no": "20",
+          "player": "Thierry Henry",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Vertical",
+          "card_no": "2",
+          "player": "Theo Hernandez",
+          "team": "France*",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Vertical",
+          "card_no": "3",
+          "player": "Dayot Upamecano",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Vertical",
+          "card_no": "4",
+          "player": "Malo Gusto",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Vertical",
+          "card_no": "15",
+          "player": "Lucas Digne",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Vertical",
+          "card_no": "19",
+          "player": "Willy Sagnol",
+          "team": "France*",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto Vertical",
+          "card_no": "20",
+          "player": "Claude Makelele",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Dual Auto Gold",
+          "card_no": "1",
+          "player": "Patrick Vieira / Thierry Henry",
+          "team": "France",
+          "tag": "/1"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Dual Auto Gold",
+          "card_no": "2",
+          "player": "Youri Djorkaeff / Marcel Desailly",
+          "team": "France",
+          "tag": "/10"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Dynamic Auto",
+          "card_no": "1",
+          "player": "David Trezeguet",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Dynamic Auto",
+          "card_no": "2",
+          "player": "William Saliba",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Dynamic Auto",
+          "card_no": "3",
+          "player": "Stephane Guivarc’h",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Dynamic Auto",
+          "card_no": "4",
+          "player": "Michel Platini",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Dynamic Auto",
+          "card_no": "9",
+          "player": "Patrick Vieira",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Dynamic Auto",
+          "card_no": "11",
+          "player": "Bradley Barcola",
+          "team": "France*",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Dynamic Auto",
+          "card_no": "13",
+          "player": "Robert Pires",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Montage Auto",
+          "card_no": "1",
+          "player": "Olivier Giroud",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Montage Auto",
+          "card_no": "2",
+          "player": "Djibril Cisse",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Montage Auto",
+          "card_no": "6",
+          "player": "Malo Gusto",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Montage Auto",
+          "card_no": "8",
+          "player": "Kylian Mbappe",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Montage Auto",
+          "card_no": "9",
+          "player": "Willy Sagnol",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Montage Auto",
+          "card_no": "11",
+          "player": "Theo Hernandez",
+          "team": "France*",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Montage Auto",
+          "card_no": "12",
+          "player": "Aurelien Tchouameni",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Montage Auto",
+          "card_no": "14",
+          "player": "Florent Malouda",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Animation",
+          "card_no": "1",
+          "player": "Desire Doue",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Animation",
+          "card_no": "2",
+          "player": "Warren Zaire-Emery",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Animation",
+          "card_no": "3",
+          "player": "Hugo Ekitike",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Animation",
+          "card_no": "4",
+          "player": "Manu Kone",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Animation",
+          "card_no": "5",
+          "player": "Fabien Barthez",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Animation",
+          "card_no": "6",
+          "player": "Dayot Upamecano",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Animation",
+          "card_no": "7",
+          "player": "Zinedine Zidane",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Animation",
+          "card_no": "8",
+          "player": "David Trezeguet",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Animation",
+          "card_no": "9",
+          "player": "Maghnes Akliouche",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Animation",
+          "card_no": "10",
+          "player": "Laurent Blanc",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Dynamic",
+          "card_no": "1",
+          "player": "David Trezeguet",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Dynamic",
+          "card_no": "2",
+          "player": "William Saliba",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Dynamic",
+          "card_no": "3",
+          "player": "Stephane Guivarc’h",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Dynamic",
+          "card_no": "4",
+          "player": "Michel Platini",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Dynamic",
+          "card_no": "5",
+          "player": "Adrien Rabiot",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Dynamic",
+          "card_no": "6",
+          "player": "N'Golo Kante",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Dynamic",
+          "card_no": "7",
+          "player": "Lucas Chevalier",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Dynamic",
+          "card_no": "8",
+          "player": "Marcus Thuram",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Dynamic",
+          "card_no": "9",
+          "player": "Patrick Vieira",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Dynamic",
+          "card_no": "10",
+          "player": "Jean-Philippe Mateta",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Dynamic",
+          "card_no": "11",
+          "player": "Bradley Barcola",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Dynamic",
+          "card_no": "12",
+          "player": "Rayan Cherki",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Dynamic",
+          "card_no": "13",
+          "player": "Robert Pires",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Dynamic",
+          "card_no": "14",
+          "player": "Ousmane Dembele",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Luminosity",
+          "card_no": "1",
+          "player": "Kylian Mbappe",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Luminosity",
+          "card_no": "2",
+          "player": "Marcel Desailly",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Luminosity",
+          "card_no": "3",
+          "player": "Ousmane Dembele",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Luminosity",
+          "card_no": "4",
+          "player": "Kingsley Coman",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Luminosity",
+          "card_no": "5",
+          "player": "Lucas Digne",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Luminosity",
+          "card_no": "6",
+          "player": "Michael Olise",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Luminosity",
+          "card_no": "7",
+          "player": "Claude Makelele",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Luminosity",
+          "card_no": "8",
+          "player": "Eduardo Camavinga",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Luminosity",
+          "card_no": "9",
+          "player": "Patrick Vieira",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Luminosity",
+          "card_no": "10",
+          "player": "Robert Pires",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Moments",
+          "card_no": "1",
+          "player": "Lilian Thuram",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Moments",
+          "card_no": "2",
+          "player": "Mike Maignan",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Moments",
+          "card_no": "3",
+          "player": "Michel Platini",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Moments",
+          "card_no": "4",
+          "player": "William Saliba",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Moments",
+          "card_no": "5",
+          "player": "Thierry Henry",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Moments",
+          "card_no": "6",
+          "player": "Ibrahima Konate",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Moments",
+          "card_no": "7",
+          "player": "Marcel Desailly",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Moments",
+          "card_no": "8",
+          "player": "Randal Kolo Muani",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Moments",
+          "card_no": "9",
+          "player": "Zinedine Zidane",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Moments",
+          "card_no": "10",
+          "player": "Olivier Giroud",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Montage",
+          "card_no": "1",
+          "player": "Olivier Giroud",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Montage",
+          "card_no": "2",
+          "player": "Djibril Cisse",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Montage",
+          "card_no": "3",
+          "player": "Christopher Nkunku",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Montage",
+          "card_no": "4",
+          "player": "Jules Kounde",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Montage",
+          "card_no": "5",
+          "player": "Hugo Ekitike",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Montage",
+          "card_no": "6",
+          "player": "Malo Gusto",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Montage",
+          "card_no": "7",
+          "player": "Khephren Thuram",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Montage",
+          "card_no": "8",
+          "player": "Kylian Mbappe",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Montage",
+          "card_no": "9",
+          "player": "Willy Sagnol",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Montage",
+          "card_no": "10",
+          "player": "Michael Olise",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Montage",
+          "card_no": "11",
+          "player": "Theo Hernandez",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Montage",
+          "card_no": "12",
+          "player": "Aurelien Tchouameni",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Montage",
+          "card_no": "13",
+          "player": "Florian Thauvin",
+          "team": "France",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Montage",
+          "card_no": "14",
+          "player": "Florent Malouda",
+          "team": "France",
+          "tag": ""
+        }
+      ],
+      "parallels": [
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Horizontal",
+          "parallel_name": "Magenta",
+          "serial_no": "/85"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Horizontal",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Horizontal",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Horizontal",
+          "parallel_name": "Green",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Horizontal",
+          "parallel_name": "Vivid",
+          "serial_no": "/2"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Horizontal",
+          "parallel_name": "Platinum",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Vertical",
+          "parallel_name": "Magenta",
+          "serial_no": "/85"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Vertical",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Vertical",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Vertical",
+          "parallel_name": "Green",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Vertical",
+          "parallel_name": "Vivid",
+          "serial_no": "/2"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Vertical",
+          "parallel_name": "Platinum",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Auto Horizontal",
+          "parallel_name": "Gold #/10 or Less",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Auto Horizontal",
+          "parallel_name": "Platinum",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Auto Vertical",
+          "parallel_name": "Gold #/10 or Less",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Auto Vertical",
+          "parallel_name": "Platinum",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Dynamic Auto",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Dynamic Auto",
+          "parallel_name": "Platinum",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Montage Auto",
+          "parallel_name": "Gold #/10 or Less",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Montage Auto",
+          "parallel_name": "Platinum",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Animation",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Dynamic",
+          "parallel_name": "Magenta",
+          "serial_no": "/85"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Dynamic",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Dynamic",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Dynamic",
+          "parallel_name": "Green",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Dynamic",
+          "parallel_name": "Vivid",
+          "serial_no": "/2"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Dynamic",
+          "parallel_name": "Platinum",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Luminosity",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Moments",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Montage",
+          "parallel_name": "Magenta",
+          "serial_no": "/85"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Montage",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Montage",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Montage",
+          "parallel_name": "Green",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Montage",
+          "parallel_name": "Vivid",
+          "serial_no": "/2"
+        },
+        {
+          "code": "2026_panini_luminance_france_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Montage",
+          "parallel_name": "Platinum",
+          "serial_no": "/1"
+        }
+      ]
+    }
+  }
+}
