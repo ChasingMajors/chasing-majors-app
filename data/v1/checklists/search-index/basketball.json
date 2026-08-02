@@ -3,7 +3,7 @@
   "sport": "basketball",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-07-30T04:19:45.270Z",
+  "generated_at": "2026-08-02T14:31:10.063Z",
   "sharded": true,
   "shards": [
     "basketball-001.json",
@@ -25,6 +25,7 @@
     "basketball-017.json",
     "basketball-018.json",
     "basketball-019.json",
-    "basketball-020.json"
+    "basketball-020.json",
+    "basketball-021.json"
   ]
 }
