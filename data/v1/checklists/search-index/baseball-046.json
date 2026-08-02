@@ -2,10 +2,10 @@
   "ok": true,
   "sport": "baseball",
   "kind": "checklist_search",
-  "source": "Product-scoped approved import search update",
-  "generated_at": "2026-07-28T23:09:59.455Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-08-02T05:53:43.768Z",
   "shard": 46,
-  "shard_count": 62,
+  "shard_count": 63,
   "rows": [
     {
       "term": "Felix Hernandez",
