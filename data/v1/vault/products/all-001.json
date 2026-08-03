@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-08-03T15:59:46.232Z",
+  "generated_at": "2026-08-03T16:00:28.343Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -36324,6 +36324,580 @@
         "cmURL": ""
       },
       "rows": []
+    },
+    "2025_26_topps_chrome_update_basketball": {
+      "ok": true,
+      "meta": {
+        "code": "2025_26_topps_chrome_update_basketball",
+        "displayName": "2025-26 Topps Chrome Update Basketball",
+        "year": "2025-26",
+        "sport": "basketball",
+        "manufacturer": "Topps",
+        "product": "Chrome Update",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Parallel",
+          "setLine": "Refractors",
+          "printRun": 12325,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Parallel",
+          "setLine": "Prism (Hobby/Jumbo only)",
+          "printRun": 2740,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Parallel",
+          "setLine": "Negative (Hobby/Jumbo only)",
+          "printRun": 395,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Parallel",
+          "setLine": "Wave Refractors (Hobby/Jumbo only)",
+          "printRun": 830,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Parallel",
+          "setLine": "Base Geometric (Delight only)",
+          "printRun": 400,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Parallel",
+          "setLine": "Basketball Refractors (Value only)",
+          "printRun": 3940,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Parallel",
+          "setLine": "Red, White, & Blue Refractors (Value only)",
+          "printRun": 7880,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Parallel",
+          "setLine": "RayWave (Retail formats only)",
+          "printRun": 8220,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Parallel",
+          "setLine": "X-fractors (Mega only)",
+          "printRun": 18705,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Parallel",
+          "setLine": "Skylight Refractors (Fanatics Mega only)",
+          "printRun": 1500,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Parallel",
+          "setLine": "Image Variations",
+          "printRun": 1010,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Clutch City",
+          "printRun": 18955,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Clutch City Refractors",
+          "printRun": 1860,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Clutch City Geometric",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Fortune 15",
+          "printRun": 19480,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Fortune 15 Refractors",
+          "printRun": 1920,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Fortune 15 Geometric",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "New Edition",
+          "printRun": 19355,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "New Edition Refractors",
+          "printRun": 1920,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "New Edition Geometric",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Power Players",
+          "printRun": 19450,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Power Players Refractors",
+          "printRun": 1920,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Power Players Geometric",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Stratospheric Stars",
+          "printRun": 19450,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Stratospheric Stars Refractors",
+          "printRun": 1920,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Stratospheric Stars Geometric",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Activators",
+          "printRun": 19355,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Activators Refractors",
+          "printRun": 1920,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Activators Geometric",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Clutch Gene",
+          "printRun": 19220,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Clutch Gene Refractors",
+          "printRun": 1920,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Clutch Gene Geometric",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Go Time",
+          "printRun": 19480,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Go Time Refractors",
+          "printRun": 1920,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Go Time Geometric",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Moment in Time",
+          "printRun": 19450,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Moment in Time Refractors",
+          "printRun": 1920,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Moment in Time Geometric",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "No Limit",
+          "printRun": 19570,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "No Limit Refractors",
+          "printRun": 1920,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "No Limit Geometric",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Captains (Hobby/Jumbo/Delight only, 20 card CL)",
+          "printRun": 400,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Celebracion (Hobby/Jumbo/Delight only, 15 card CL)",
+          "printRun": 390,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Helix",
+          "printRun": 110,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Radiating Rookies (Hobby/Jumbo/Delight only, 15 card CL)",
+          "printRun": 400,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Shadow Etch (Hobby/Jumbo/Delight only, 15 card CL)",
+          "printRun": 400,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Paradox (Retail formats only, 25 card CL)",
+          "printRun": 810,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Fanatical (Retail formats only, 25 card CL)",
+          "printRun": 1325,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Glass Canvas (Retail formats only, 25 card CL)",
+          "printRun": 810,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Minionfractors",
+          "printRun": 95,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Insert",
+          "setLine": "Alter Egos",
+          "printRun": 110,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Auto",
+          "setLine": "Base Topps Chrome Autos",
+          "printRun": 300,
+          "serial": "",
+          "subSetSize": 98,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Auto",
+          "setLine": "Base Havoc Marks",
+          "printRun": 225,
+          "serial": "",
+          "subSetSize": 91,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Auto",
+          "setLine": "1980-81 Topps Basketball Autos",
+          "printRun": 80,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Auto",
+          "setLine": "Future Stars Autos",
+          "printRun": 175,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_basketball",
+          "setType": "Auto",
+          "setLine": "Chromographs",
+          "printRun": 640,
+          "serial": "",
+          "subSetSize": 94,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        }
+      ]
     }
   }
 }
