@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-08-05T03:28:26.140Z",
+  "generated_at": "2026-08-05T03:43:24.240Z",
   "index": [
     {
       "Code": "19TFmbl",
@@ -874,14 +874,24 @@
       "cmURL": ""
     },
     {
-      "Code": "2025_topps_inception_baseball_2025_26_topps_inception_basketball",
-      "DisplayName": "2025 Topps Inception Baseball & 2025-26 Topps Inception Basketball",
-      "Keywords": "2025 Topps Inception Baseball & 2025-26 Topps Inception Basketball 2025-26 Topps 2025 Inception Baseball & Topps Inception Basketball 2025-26 Topps 2025 Inception Baseball & Topps Inception NBA 2025-26 2025 Inception Baseball & Topps Inception Basketball 2025-26 2025 Inception Baseball & Topps Inception NBA Topps 2025 Inception Baseball & Topps Inception Basketball Topps 2025 Inception Baseball & Topps Inception NBA Topps 2025 Inception Baseball & Topps Inception Basketball Topps 2025 Inception Baseball & Topps Inception NBA 2025 Inception Baseball & Topps Inception Basketball 2025 Inception Baseball & Topps Inception NBA 2025 Topps Inception Baseball & 2025-26 Topps Inception Basketball print run 2025 Topps Inception Baseball & 2025-26 Topps Inception Basketball production 2025 Topps Inception Baseball & 2025-26 Topps Inception Basketball odds 2025 Topps Inception Baseball & 2025-26 Topps Inception Basketball PRV 2025 Topps Inception Baseball & 2025-26 Topps Inception Basketball checklist Topps 2025 Inception Baseball & Topps Inception checklist",
+      "Code": "2025_topps_inception_baseball",
+      "DisplayName": "2025 Topps Inception Baseball",
+      "Keywords": "2025 Topps Inception Baseball 2025 Topps Inception MLB Topps Inception Baseball Topps Inception MLB Inception Baseball Inception MLB 2025 Topps Inception Baseball print run 2025 Topps Inception Baseball production 2025 Topps Inception Baseball odds 2025 Topps Inception Baseball PRV 2025 Topps Inception Baseball checklist Topps Inception checklist",
+      "year": "2025",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Inception",
+      "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+    },
+    {
+      "Code": "2025_26_topps_inception_basketball",
+      "DisplayName": "2025-26 Topps Inception Basketball",
+      "Keywords": "2025-26 Topps Inception Basketball 2025-26 Topps Inception NBA 2025-26 Inception Basketball 2025-26 Inception NBA Topps Inception Basketball Topps Inception NBA Inception Basketball Inception NBA 2025-26 Topps Inception Basketball print run 2025-26 Topps Inception Basketball production 2025-26 Topps Inception Basketball odds 2025-26 Topps Inception Basketball PRV 2025-26 Topps Inception Basketball checklist Topps Inception checklist",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
-      "product": "2025 Inception Baseball & Topps Inception",
-      "cmURL": ""
+      "product": "Inception",
+      "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
     },
     {
       "Code": "2026_topps_tier_one_2025_topps_dynasty_baseball",

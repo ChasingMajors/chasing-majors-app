@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-08-05T03:28:26.140Z",
+  "generated_at": "2026-08-05T03:43:24.240Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -36299,19 +36299,6 @@
         }
       ]
     },
-    "2025_topps_inception_baseball_2025_26_topps_inception_basketball": {
-      "ok": true,
-      "meta": {
-        "code": "2025_topps_inception_baseball_2025_26_topps_inception_basketball",
-        "displayName": "2025 Topps Inception Baseball & 2025-26 Topps Inception Basketball",
-        "year": "2025-26",
-        "sport": "basketball",
-        "manufacturer": "Topps",
-        "product": "2025 Inception Baseball & Topps Inception",
-        "cmURL": ""
-      },
-      "rows": []
-    },
     "2026_topps_tier_one_2025_topps_dynasty_baseball": {
       "ok": true,
       "meta": {
@@ -36896,6 +36883,124 @@
           "subSetSize": 94,
           "notes": "",
           "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        }
+      ]
+    },
+    "2025_topps_inception_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2025_topps_inception_baseball",
+        "displayName": "2025 Topps Inception Baseball",
+        "year": "2025",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Inception",
+        "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+      },
+      "rows": [
+        {
+          "code": "2025_topps_inception_baseball",
+          "setType": "Base",
+          "setLine": "Base",
+          "printRun": 3960,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025_topps_inception_baseball",
+          "setType": "Parallel",
+          "setLine": "Green",
+          "printRun": 1040,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_topps_inception_baseball",
+          "setType": "Insert",
+          "setLine": "Base Short Prints",
+          "printRun": 2080,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_topps_inception_baseball",
+          "setType": "Insert",
+          "setLine": "Base Short Prints Alpha",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        }
+      ]
+    },
+    "2025_26_topps_inception_basketball": {
+      "ok": true,
+      "meta": {
+        "code": "2025_26_topps_inception_basketball",
+        "displayName": "2025-26 Topps Inception Basketball",
+        "year": "2025-26",
+        "sport": "basketball",
+        "manufacturer": "Topps",
+        "product": "Inception",
+        "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+      },
+      "rows": [
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "setType": "Base",
+          "setLine": "Base",
+          "printRun": 2120,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "setType": "Base",
+          "setLine": "Green",
+          "printRun": 510,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "setType": "Insert",
+          "setLine": "Endgame",
+          "printRun": 130,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "setType": "Insert",
+          "setLine": "Launch",
+          "printRun": 130,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
+        },
+        {
+          "code": "2025_26_topps_inception_basketball",
+          "setType": "Insert",
+          "setLine": "Splashdown",
+          "printRun": 130,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-inception-mlb-and-202526"
         }
       ]
     }
