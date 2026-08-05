@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-08-05T16:01:48.907Z",
+  "generated_at": "2026-08-05T16:02:41.349Z",
   "index": [
     {
       "Code": "19TFmbl",
@@ -901,6 +901,16 @@
       "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Chrome Update",
+      "cmURL": ""
+    },
+    {
+      "Code": "2025_topps_resurgence_football",
+      "DisplayName": "2025 Topps Resurgence Football",
+      "Keywords": "2025 Topps Resurgence Football 2025 Topps Resurgence Football 2025 Topps Resurgence NFL 2025 Resurgence Football 2025 Resurgence NFL 25 Topps Resurgence Football 25 Topps Resurgence NFL Topps Resurgence Football Topps Resurgence NFL Resurgence Football Resurgence NFL 2025 Topps Resurgence Football print run 2025 Topps Resurgence Football production 2025 Topps Resurgence Football odds 2025 Topps Resurgence Football PRV 2025 Topps Resurgence Football checklist Topps Resurgence checklist",
+      "year": "2025",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Resurgence",
       "cmURL": ""
     }
   ]
