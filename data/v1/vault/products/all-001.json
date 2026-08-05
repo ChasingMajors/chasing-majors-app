@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-08-05T16:01:48.907Z",
+  "generated_at": "2026-08-05T16:02:41.349Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -36896,6 +36896,370 @@
           "subSetSize": 94,
           "notes": "",
           "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-update-nba-analysis"
+        }
+      ]
+    },
+    "2025_topps_resurgence_football": {
+      "ok": true,
+      "meta": {
+        "code": "2025_topps_resurgence_football",
+        "displayName": "2025 Topps Resurgence Football",
+        "year": "2025",
+        "sport": "football",
+        "manufacturer": "Topps",
+        "product": "Resurgence",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Parallel",
+          "setLine": "Refractors",
+          "printRun": 10975,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Parallel",
+          "setLine": "Prism (Retail only)",
+          "printRun": 5950,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Parallel",
+          "setLine": "High Voltage (Hobby only)",
+          "printRun": 26,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Parallel",
+          "setLine": "Blue & Orange Spark (Mega only)",
+          "printRun": 4500,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Parallel",
+          "setLine": "Sky Blue & Pink Shock (Value only)",
+          "printRun": 6490,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Parallel",
+          "setLine": "Silver Static (Delight only)",
+          "printRun": 55,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Refractors",
+          "printRun": 10765,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Prism (Retail only)",
+          "printRun": 4370,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Parallel",
+          "setLine": "Rookie High Voltage (Hobby only)",
+          "printRun": 26,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Blue & Orange Spark (Mega only)",
+          "printRun": 4500,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Sky Blue & Pink Shock (Value only)",
+          "printRun": 6490,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Parallel",
+          "setLine": "Rookie Silver Static (Delight only)",
+          "printRun": 55,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Insert",
+          "setLine": "Protonyx",
+          "printRun": 39800,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Insert",
+          "setLine": "Protonyx Refractor",
+          "printRun": 1200,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Insert",
+          "setLine": "Conductors",
+          "printRun": 39800,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Insert",
+          "setLine": "Conductors Refractor",
+          "printRun": 1200,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Insert",
+          "setLine": "Circuit Breakers",
+          "printRun": 39800,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Insert",
+          "setLine": "Circuit Breakers Refractor",
+          "printRun": 1200,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Insert",
+          "setLine": "Voltaic",
+          "printRun": 39800,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Insert",
+          "setLine": "Voltaic Refractor",
+          "printRun": 1200,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Insert",
+          "setLine": "Electro Lights (25 card CL, Value & Mega only)",
+          "printRun": 1140,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Insert",
+          "setLine": "Perfect Fits (20 card CL, Hobby/Delight only)",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Insert",
+          "setLine": "Wired (30 card CL, Hobby/Delight only)",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Insert",
+          "setLine": "String Theory (25 card CL, Hobby/Delight only)",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Auto",
+          "setLine": "Base Signatures",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 70,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Auto",
+          "setLine": "Base Signatures Silver Static (Delight only)",
+          "printRun": 60,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Auto",
+          "setLine": "Rookie Signatures",
+          "printRun": 1515,
+          "serial": "",
+          "subSetSize": 90,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Auto",
+          "setLine": "Rookie Signatures Silver Static (Delight only)",
+          "printRun": 80,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Auto",
+          "setLine": "Molecular Marks Base Auto",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 21,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Auto",
+          "setLine": "Arc Flash Base Autos",
+          "printRun": 130,
+          "serial": "",
+          "subSetSize": 22,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Auto",
+          "setLine": "Neon Initiates Base",
+          "printRun": 160,
+          "serial": "",
+          "subSetSize": 26,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Auto",
+          "setLine": "Thermal Red Ink Base Autos",
+          "printRun": 33,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Auto",
+          "setLine": "Rookie Relic Signatures Base",
+          "printRun": 320,
+          "serial": "",
+          "subSetSize": 40,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Auto",
+          "setLine": "Amped Up Rookie Relic Autos Base",
+          "printRun": 320,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        },
+        {
+          "code": "2025_topps_resurgence_football",
+          "setType": "Auto",
+          "setLine": "Radial Rookie Relics Base",
+          "printRun": 330,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
         }
       ]
     }
