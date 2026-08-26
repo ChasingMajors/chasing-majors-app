@@ -1,0 +1,5990 @@
+{
+  "ok": true,
+  "sport": "hockey",
+  "kind": "checklist_products",
+  "source": "Product-scoped approved import publish",
+  "generated_at": "2026-08-26T18:56:34.315Z",
+  "products": {
+    "2025_26_fleer_ultra_pwhl_hockey": {
+      "ok": true,
+      "meta": {
+        "code": "2025_26_fleer_ultra_pwhl_hockey",
+        "displayName": "2025-26 Fleer Ultra PWHL Hockey",
+        "keywords": "2025-26 Fleer Ultra PWHL Hockey, 2025-26 Fleer Ultra PWHL Hockey checklist, 2025-26 Fleer Ultra PWHL Hockey cards, 2025-26 Fleer Ultra PWHL Hockey parallels, 2025-26 Fleer Ultra PWHL Hockey autographs, Fleer Ultra PWHL hockey, Fleer Ultra PWHL hockey checklist",
+        "source_key": "2025",
+        "year": "2025-26",
+        "manufacturer": "",
+        "product": "Fleer Ultra PWHL",
+        "sport": "hockey"
+      },
+      "rows": [
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "1",
+          "player": "Abby Roque",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "2",
+          "player": "Lee Stecklein",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "3",
+          "player": "Cayla Barnes",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "4",
+          "player": "Gabbie Hughes",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "5",
+          "player": "Megan Keller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "6",
+          "player": "Jenn Gardiner",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "7",
+          "player": "Laura Stacey",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "8",
+          "player": "Dominique Petrie",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "9",
+          "player": "Daryl Watts",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "10",
+          "player": "Sarah Fillier",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "11",
+          "player": "Alina Muller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "12",
+          "player": "Julia Gosling",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "13",
+          "player": "Tereza Vanisova",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "14",
+          "player": "Renata Fast",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "15",
+          "player": "Savannah Harmon",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "16",
+          "player": "Sophie Jaques",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "17",
+          "player": "Ella Shelton",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "18",
+          "player": "Kayle Osborne",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "19",
+          "player": "Brianne Jenner",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "20",
+          "player": "Sarah Nurse",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "21",
+          "player": "Hilary Knight",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "22",
+          "player": "Susanna Tapani",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "23",
+          "player": "Erin Ambrose",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "24",
+          "player": "Natalie Spooner",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "25",
+          "player": "Alex Carpenter",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "26",
+          "player": "Kendall Coyne Schofield",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "27",
+          "player": "Taylor Heise",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "28",
+          "player": "Micah Zandee-Hart",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "29",
+          "player": "Marie-Philip Poulin",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "30",
+          "player": "Corinne Schroeder",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "31",
+          "player": "Aerin Frankel",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "32",
+          "player": "Mannon McMahon",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "33",
+          "player": "Gwyneth Philips",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "34",
+          "player": "Hannah Miller",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "35",
+          "player": "Ann-Renee Desbiens",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "36",
+          "player": "Grace Zumwinkle",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "37",
+          "player": "Emma Maltais",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "38",
+          "player": "Emerance Maschmeyer",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "39",
+          "player": "Kelly Pannek",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "40",
+          "player": "Blayre Turnbull",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "41",
+          "player": "Nicole Hensley",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "42",
+          "player": "Claire Thompson",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "43",
+          "player": "Emily Clark",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "44",
+          "player": "Jessie Eldridge",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "45",
+          "player": "Jincy Roese",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "46",
+          "player": "Kati Tabin",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "47",
+          "player": "Britta Curl-Salemme",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "48",
+          "player": "Jesse Compher",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "49",
+          "player": "Hannah Brandt",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "50",
+          "player": "Kristen Campbell",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "51",
+          "player": "Hannah Bilka",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "52",
+          "player": "Paetyn Levis",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "53",
+          "player": "Shiann Darkangelo",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "54",
+          "player": "Jill Saulnier",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "55",
+          "player": "Natalie Buchbinder",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "56",
+          "player": "Rebecca Leslie",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "57",
+          "player": "Hayley Scamurra",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "58",
+          "player": "Ronja Savolainen",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "59",
+          "player": "Maja Nylen Persson",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "60",
+          "player": "Katerina Mrazova",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "61",
+          "player": "Maddie Rooney",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "62",
+          "player": "Jamie Lee Rattray",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "63",
+          "player": "Jaime Bourbonnais",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "64",
+          "player": "Liz Schepers",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "65",
+          "player": "Jocelyne Larocque",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "66",
+          "player": "Michela Cava",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "67",
+          "player": "Taylor Girard",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "68",
+          "player": "Maureen Murphy",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "69",
+          "player": "Raygan Kirk",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "70",
+          "player": "Carly Jackson",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "71",
+          "player": "Elle Hartje",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "72",
+          "player": "Elaine Chuli",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "73",
+          "player": "Theresa Schafzahl",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "74",
+          "player": "Danielle Serdachny",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "75",
+          "player": "Ashton Bell",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "76",
+          "player": "Casey O'Brien",
+          "team": "New York Sirens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "77",
+          "player": "Michelle Karvinen",
+          "team": "Vancouver Goldeneyes",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "78",
+          "player": "Natalie Mlynkova",
+          "team": "Montreal Victoire",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "79",
+          "player": "Anna Shokhina",
+          "team": "Ottawa Charge",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "80",
+          "player": "Abby Hustler",
+          "team": "Minnesota Frost",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "81",
+          "player": "Emma Gentry",
+          "team": "Toronto Sceptres",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "82",
+          "player": "Anne Cherkowski",
+          "team": "New York Sirens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "83",
+          "player": "Nicole Gosling",
+          "team": "Montreal Victoire",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "84",
+          "player": "Olivia Mobley",
+          "team": "Boston Fleet",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "85",
+          "player": "Jenna Buglioni",
+          "team": "Seattle Torrent",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "86",
+          "player": "Skylar Irving",
+          "team": "Montreal Victoire",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "87",
+          "player": "Kiara Zanon",
+          "team": "Toronto Sceptres",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "88",
+          "player": "Haley Winn",
+          "team": "Boston Fleet",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "89",
+          "player": "Maddi Wheeler",
+          "team": "New York Sirens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "90",
+          "player": "Nina Jobst-Smith",
+          "team": "Vancouver Goldeneyes",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "91",
+          "player": "Vanessa Upson",
+          "team": "Minnesota Frost",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "92",
+          "player": "Hannah Murphy",
+          "team": "Seattle Torrent",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "93",
+          "player": "Abby Newhook",
+          "team": "Boston Fleet",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "94",
+          "player": "Callie Shanahan",
+          "team": "New York Sirens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "95",
+          "player": "Sanni Ahola",
+          "team": "Ottawa Charge",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "96",
+          "player": "Kendall Cooper",
+          "team": "Minnesota Frost",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "97",
+          "player": "Ella Huber",
+          "team": "Boston Fleet",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "98",
+          "player": "Kristyna Kaltounkova",
+          "team": "New York Sirens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "99",
+          "player": "Clara Van Wieren",
+          "team": "Toronto Sceptres",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies",
+          "card_no": "100",
+          "player": "Rory Guilday",
+          "team": "Ottawa Charge",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "1",
+          "player": "Abby Roque",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "2",
+          "player": "Lee Stecklein",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "3",
+          "player": "Cayla Barnes",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "4",
+          "player": "Gabbie Hughes",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "5",
+          "player": "Megan Keller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "6",
+          "player": "Jenn Gardiner",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "7",
+          "player": "Laura Stacey",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "8",
+          "player": "Dominique Petrie",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "9",
+          "player": "Daryl Watts",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "10",
+          "player": "Sarah Fillier",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "11",
+          "player": "Alina Muller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "12",
+          "player": "Julia Gosling",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "13",
+          "player": "Tereza Vanisova",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "14",
+          "player": "Renata Fast",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "15",
+          "player": "Savannah Harmon",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "16",
+          "player": "Sophie Jaques",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "17",
+          "player": "Ella Shelton",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "18",
+          "player": "Kayle Osborne",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "19",
+          "player": "Brianne Jenner",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "20",
+          "player": "Sarah Nurse",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "21",
+          "player": "Hilary Knight",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "22",
+          "player": "Susanna Tapani",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "23",
+          "player": "Erin Ambrose",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "24",
+          "player": "Natalie Spooner",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "25",
+          "player": "Alex Carpenter",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "26",
+          "player": "Kendall Coyne Schofield",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "27",
+          "player": "Taylor Heise",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "28",
+          "player": "Micah Zandee-Hart",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "29",
+          "player": "Marie-Philip Poulin",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "30",
+          "player": "Corinne Schroeder",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "31",
+          "player": "Aerin Frankel",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "32",
+          "player": "Mannon McMahon",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "33",
+          "player": "Gwyneth Philips",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "34",
+          "player": "Hannah Miller",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "35",
+          "player": "Ann-Renee Desbiens",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "36",
+          "player": "Grace Zumwinkle",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "37",
+          "player": "Emma Maltais",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "38",
+          "player": "Emerance Maschmeyer",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "39",
+          "player": "Kelly Pannek",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "40",
+          "player": "Blayre Turnbull",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "41",
+          "player": "Nicole Hensley",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "42",
+          "player": "Claire Thompson",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "43",
+          "player": "Emily Clark",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "44",
+          "player": "Jessie Eldridge",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "45",
+          "player": "Jincy Roese",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "46",
+          "player": "Kati Tabin",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "47",
+          "player": "Britta Curl-Salemme",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "48",
+          "player": "Jesse Compher",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "49",
+          "player": "Hannah Brandt",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "50",
+          "player": "Kristen Campbell",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "51",
+          "player": "Hannah Bilka",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "52",
+          "player": "Paetyn Levis",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "53",
+          "player": "Shiann Darkangelo",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "54",
+          "player": "Jill Saulnier",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "55",
+          "player": "Natalie Buchbinder",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "56",
+          "player": "Rebecca Leslie",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "57",
+          "player": "Hayley Scamurra",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "58",
+          "player": "Ronja Savolainen",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "59",
+          "player": "Maja Nylen Persson",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "60",
+          "player": "Katerina Mrazova",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "61",
+          "player": "Maddie Rooney",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "62",
+          "player": "Jamie Lee Rattray",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "63",
+          "player": "Jaime Bourbonnais",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "64",
+          "player": "Liz Schepers",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "65",
+          "player": "Jocelyne Larocque",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "66",
+          "player": "Michela Cava",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "67",
+          "player": "Taylor Girard",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "68",
+          "player": "Maureen Murphy",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "69",
+          "player": "Raygan Kirk",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "70",
+          "player": "Carly Jackson",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "71",
+          "player": "Elle Hartje",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "72",
+          "player": "Elaine Chuli",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "73",
+          "player": "Theresa Schafzahl",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "74",
+          "player": "Danielle Serdachny",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Variant",
+          "card_no": "75",
+          "player": "Ashton Bell",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "76",
+          "player": "Casey O'Brien",
+          "team": "New York Sirens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "77",
+          "player": "Michelle Karvinen",
+          "team": "Vancouver Goldeneyes",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "78",
+          "player": "Natalie Mlynkova",
+          "team": "Montreal Victoire",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "79",
+          "player": "Anna Shokhina",
+          "team": "Ottawa Charge",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "80",
+          "player": "Abby Hustler",
+          "team": "Minnesota Frost",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "81",
+          "player": "Emma Gentry",
+          "team": "Toronto Sceptres",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "82",
+          "player": "Anne Cherkowski",
+          "team": "New York Sirens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "83",
+          "player": "Nicole Gosling",
+          "team": "Montreal Victoire",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "84",
+          "player": "Olivia Mobley",
+          "team": "Boston Fleet",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "85",
+          "player": "Jenna Buglioni",
+          "team": "Seattle Torrent",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "86",
+          "player": "Skylar Irving",
+          "team": "Montreal Victoire",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "87",
+          "player": "Kiara Zanon",
+          "team": "Toronto Sceptres",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "88",
+          "player": "Haley Winn",
+          "team": "Boston Fleet",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "89",
+          "player": "Maddi Wheeler",
+          "team": "New York Sirens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "90",
+          "player": "Nina Jobst-Smith",
+          "team": "Vancouver Goldeneyes",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "91",
+          "player": "Vanessa Upson",
+          "team": "Minnesota Frost",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "92",
+          "player": "Hannah Murphy",
+          "team": "Seattle Torrent",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "93",
+          "player": "Abby Newhook",
+          "team": "Boston Fleet",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "94",
+          "player": "Callie Shanahan",
+          "team": "New York Sirens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "95",
+          "player": "Sanni Ahola",
+          "team": "Ottawa Charge",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "96",
+          "player": "Kendall Cooper",
+          "team": "Minnesota Frost",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "97",
+          "player": "Ella Huber",
+          "team": "Boston Fleet",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "98",
+          "player": "Kristyna Kaltounkova",
+          "team": "New York Sirens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "99",
+          "player": "Clara Van Wieren",
+          "team": "Toronto Sceptres",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Base",
+          "subset": "Base Rookies Variant",
+          "card_no": "100",
+          "player": "Rory Guilday",
+          "team": "Ottawa Charge",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "1",
+          "player": "Abby Roque",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "2",
+          "player": "Lee Stecklein",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "4",
+          "player": "Gabbie Hughes",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "5",
+          "player": "Megan Keller",
+          "team": "Boston Fleet SP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "6",
+          "player": "Jenn Gardiner",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "7",
+          "player": "Laura Stacey",
+          "team": "Montreal Victoire SP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "8",
+          "player": "Dominique Petrie",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "9",
+          "player": "Daryl Watts",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "10",
+          "player": "Sarah Fillier",
+          "team": "New York Sirens SSP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "11",
+          "player": "Alina Muller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "12",
+          "player": "Julia Gosling",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "13",
+          "player": "Tereza Vanisova",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "14",
+          "player": "Renata Fast",
+          "team": "Toronto Sceptres SP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "15",
+          "player": "Savannah Harmon",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "16",
+          "player": "Sophie Jaques",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "17",
+          "player": "Ella Shelton",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "18",
+          "player": "Kayle Osborne",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "20",
+          "player": "Sarah Nurse",
+          "team": "Vancouver Goldeneyes SSP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "22",
+          "player": "Susanna Tapani",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "23",
+          "player": "Erin Ambrose",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "24",
+          "player": "Natalie Spooner",
+          "team": "Toronto Sceptres SSP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "25",
+          "player": "Alex Carpenter",
+          "team": "Seattle Torrent SSP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "26",
+          "player": "Kendall Coyne Schofield",
+          "team": "Minnesota Frost SSP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "27",
+          "player": "Taylor Heise",
+          "team": "Minnesota Frost SSP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "28",
+          "player": "Micah Zandee-Hart",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "30",
+          "player": "Corinne Schroeder",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "31",
+          "player": "Aerin Frankel",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "34",
+          "player": "Hannah Miller",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "35",
+          "player": "Ann-Renee Desbiens",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "36",
+          "player": "Grace Zumwinkle",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "37",
+          "player": "Emma Maltais",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "38",
+          "player": "Emerance Maschmeyer",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "39",
+          "player": "Kelly Pannek",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "40",
+          "player": "Blayre Turnbull",
+          "team": "Toronto Sceptres SSP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "41",
+          "player": "Nicole Hensley",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "43",
+          "player": "Emily Clark",
+          "team": "Ottawa Charge SP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "44",
+          "player": "Jessie Eldridge",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "48",
+          "player": "Jesse Compher",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "49",
+          "player": "Hannah Brandt",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "50",
+          "player": "Kristen Campbell",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "51",
+          "player": "Hannah Bilka",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "53",
+          "player": "Shiann Darkangelo",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "55",
+          "player": "Natalie Buchbinder",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "56",
+          "player": "Rebecca Leslie",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "57",
+          "player": "Hayley Scamurra",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "58",
+          "player": "Ronja Savolainen",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "59",
+          "player": "Maja Nylen Persson",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "60",
+          "player": "Katerina Mrazova",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "61",
+          "player": "Maddie Rooney",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "62",
+          "player": "Jamie Lee Rattray",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "63",
+          "player": "Jaime Bourbonnais",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "65",
+          "player": "Jocelyne Larocque",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "67",
+          "player": "Taylor Girard",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "68",
+          "player": "Maureen Murphy",
+          "team": "Montreal Victoire SSP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "70",
+          "player": "Carly Jackson",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "72",
+          "player": "Elaine Chuli",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "73",
+          "player": "Theresa Schafzahl",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Auto Rainbow",
+          "card_no": "74",
+          "player": "Danielle Serdachny",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Rookie Auto Rainbow",
+          "card_no": "76",
+          "player": "Casey O'Brien",
+          "team": "New York Sirens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Rookie Auto Rainbow",
+          "card_no": "78",
+          "player": "Natalie Mlynkova",
+          "team": "Montreal Victoire",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Rookie Auto Rainbow",
+          "card_no": "80",
+          "player": "Abby Hustler",
+          "team": "Minnesota Frost",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Rookie Auto Rainbow",
+          "card_no": "81",
+          "player": "Emma Gentry",
+          "team": "Toronto Sceptres",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Rookie Auto Rainbow",
+          "card_no": "82",
+          "player": "Anne Cherkowski",
+          "team": "New York Sirens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Rookie Auto Rainbow",
+          "card_no": "83",
+          "player": "Nicole Gosling",
+          "team": "Montreal Victoire",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Rookie Auto Rainbow",
+          "card_no": "85",
+          "player": "Jenna Buglioni",
+          "team": "Seattle Torrent",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Rookie Auto Rainbow",
+          "card_no": "87",
+          "player": "Kiara Zanon",
+          "team": "Toronto Sceptres",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Rookie Auto Rainbow",
+          "card_no": "88",
+          "player": "Haley Winn",
+          "team": "Boston Fleet",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Rookie Auto Rainbow",
+          "card_no": "92",
+          "player": "Hannah Murphy",
+          "team": "Seattle Torrent",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Rookie Auto Rainbow",
+          "card_no": "96",
+          "player": "Kendall Cooper",
+          "team": "Minnesota Frost",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Rookie Auto Rainbow",
+          "card_no": "97",
+          "player": "Ella Huber",
+          "team": "Boston Fleet",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Base Rookie Auto Rainbow",
+          "card_no": "98",
+          "player": "Kristyna Kaltounkova",
+          "team": "New York Sirens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "3",
+          "player": "of 26 FI Kendall Cooper",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "4",
+          "player": "of 26 FI Emily Clark",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "5",
+          "player": "of 26 FI Anne Cherkowski",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "6",
+          "player": "of 26 FI Daniela Pejsova",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "7",
+          "player": "of 26 FI Laura Stacey",
+          "team": "Montreal Victoire SP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "8",
+          "player": "of 26 FI Haley Winn",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "9",
+          "player": "of 26 FI Tereza Vanisova",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "11",
+          "player": "of 26 FI Ann-Renee Desbiens",
+          "team": "Montreal Victoire SP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "12",
+          "player": "of 26 FI Ronja Savolainen",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "13",
+          "player": "of 26 FI Grace Zumwinkle",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "14",
+          "player": "of 26 FI Renata Fast",
+          "team": "Toronto Sceptres SP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "16",
+          "player": "of 26 FI Abby Boreen",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "17",
+          "player": "of 26 FI Hannah Brandt",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "18",
+          "player": "of 26 FI Savannah Harmon",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "20",
+          "player": "of 26 FI Dominique Petrie",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "21",
+          "player": "of 26 FI Jade Downie-Landry",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "22",
+          "player": "of 26 FI Jessie Eldridge",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "23",
+          "player": "of 26 FI Kayle Osborne",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "24",
+          "player": "of 26 FI Natalie Spooner",
+          "team": "Toronto Sceptres SP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "25",
+          "player": "of 26 FI Alex Carpenter",
+          "team": "Seattle Torrent SP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "Fresh Ink",
+          "card_no": "26",
+          "player": "of 26 FI Aerin Frankel",
+          "team": "Boston Fleet SP",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-1",
+          "player": "Jessie Eldridge",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-2",
+          "player": "Jenn Gardiner",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-3",
+          "player": "Jincy Roese",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-4",
+          "player": "Michela Cava",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-5",
+          "player": "Emily Clark",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-6",
+          "player": "Kelly Pannek",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-7",
+          "player": "Shiann Darkangelo",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-8",
+          "player": "Jesse Compher",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-9",
+          "player": "Aneta Tejralova",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-10",
+          "player": "Ella Shelton",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-11",
+          "player": "Abby Boreen",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-12",
+          "player": "Hannah Brandt",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-13",
+          "player": "Ronja Savolainen",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-14",
+          "player": "Grace Zumwinkle",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-15",
+          "player": "Elle Hartje",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-16",
+          "player": "Hannah Bilka",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-17",
+          "player": "Emma Maltais",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-18",
+          "player": "Maureen Murphy",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-19",
+          "player": "Britta Curl-Salemme",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Catalyst",
+          "card_no": "CT-20",
+          "player": "Jamie Lee Rattray",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-1",
+          "player": "Ann-Renee Desbiens",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-2",
+          "player": "Kayle Osborne",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-3",
+          "player": "Elaine Chuli",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-4",
+          "player": "Maddie Rooney",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-5",
+          "player": "Sandra Abstreiter",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-6",
+          "player": "Kristen Campbell",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-7",
+          "player": "Gwyneth Philips",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-8",
+          "player": "Abbey Levy",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-9",
+          "player": "Raygan Kirk",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-10",
+          "player": "Corinne Schroeder",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-11",
+          "player": "Nicole Hensley",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-12",
+          "player": "Hannah Murphy",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-13",
+          "player": "Emerance Maschmeyer",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-14",
+          "player": "Aerin Frankel",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Goalie City Lenticular",
+          "card_no": "G-15",
+          "player": "Sanni Ahola",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-1",
+          "player": "Sarah Fillier",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-2",
+          "player": "Brianne Jenner",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-3",
+          "player": "Blayre Turnbull",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-4",
+          "player": "Kendall Coyne Schofield",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-5",
+          "player": "Emily Clark",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-6",
+          "player": "Claire Thompson",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-7",
+          "player": "Jaime Bourbonnais",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-8",
+          "player": "Natalie Spooner",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-9",
+          "player": "Alina Muller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-10",
+          "player": "Cayla Barnes",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-11",
+          "player": "Erin Ambrose",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-12",
+          "player": "Ella Shelton",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-13",
+          "player": "Micah Zandee-Hart",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-14",
+          "player": "Jocelyne Larocque",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-15",
+          "player": "Lee Stecklein",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-16",
+          "player": "Megan Keller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-17",
+          "player": "Alex Carpenter",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-18",
+          "player": "Grace Zumwinkle",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-19",
+          "player": "Susanna Tapani",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-20",
+          "player": "Sarah Nurse",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-21",
+          "player": "Abby Roque",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-22",
+          "player": "Daryl Watts",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-23",
+          "player": "Gabbie Hughes",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-24",
+          "player": "Taylor Heise",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-25",
+          "player": "Renata Fast",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-26",
+          "player": "Hannah Miller",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-27",
+          "player": "Laura Stacey",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-28",
+          "player": "Hilary Knight",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-29",
+          "player": "Tereza Vanisova",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hot Numbers Lenticular",
+          "card_no": "HN-30",
+          "player": "Marie-Philip Poulin",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-1",
+          "player": "Sarah Nurse",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-2",
+          "player": "Maja Nylen Persson",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-3",
+          "player": "Natalie Buchbinder",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-4",
+          "player": "Gwyneth Philips",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-5",
+          "player": "Abby Roque",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-6",
+          "player": "Theresa Schafzahl",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-7",
+          "player": "Renata Fast",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-8",
+          "player": "Taylor Heise",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-9",
+          "player": "Savannah Harmon",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-10",
+          "player": "Hilary Knight",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-11",
+          "player": "Maddie Rooney",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-12",
+          "player": "Hannah Brandt",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-13",
+          "player": "Jincy Roese",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-14",
+          "player": "Claire Dalton",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-15",
+          "player": "Corinne Schroeder",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-16",
+          "player": "Emerance Maschmeyer",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-17",
+          "player": "Ann-Renee Desbiens",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-18",
+          "player": "Megan Keller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-19",
+          "player": "Katerina Mrazova",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-20",
+          "player": "Abby Boreen",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-21",
+          "player": "Micah Zandee-Hart",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-22",
+          "player": "Blayre Turnbull",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-23",
+          "player": "Aneta Tejralova",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-24",
+          "player": "Marie-Philip Poulin",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Medallions",
+          "card_no": "M-25",
+          "player": "Rebecca Leslie",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-1",
+          "player": "Hilary Knight",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-2",
+          "player": "Laura Stacey",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-3",
+          "player": "Emily Clark",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-4",
+          "player": "Taylor Heise",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-5",
+          "player": "Natalie Spooner",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-6",
+          "player": "Michela Cava",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-7",
+          "player": "Grace Zumwinkle",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-8",
+          "player": "Sarah Fillier",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-9",
+          "player": "Susanna Tapani",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-10",
+          "player": "Hannah Miller",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-11",
+          "player": "Daryl Watts",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-12",
+          "player": "Kendall Coyne Schofield",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-13",
+          "player": "Jessie Eldridge",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-14",
+          "player": "Marie-Philip Poulin",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-15",
+          "player": "Gabbie Hughes",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-16",
+          "player": "Tereza Vanisova",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-17",
+          "player": "Jesse Compher",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-18",
+          "player": "Alina Muller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-19",
+          "player": "Brianne Jenner",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Meteor Shower",
+          "card_no": "MT-20",
+          "player": "Alex Carpenter",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-1",
+          "player": "Marie-Philip Poulin",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-2",
+          "player": "Micah Zandee-Hart",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-3",
+          "player": "Hannah Miller",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-4",
+          "player": "Blayre Turnbull",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-5",
+          "player": "Megan Keller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-6",
+          "player": "Alex Carpenter",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-7",
+          "player": "Laura Stacey",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-8",
+          "player": "Haley Winn",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-9",
+          "player": "Natalie Spooner",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-10",
+          "player": "Sarah Fillier",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-11",
+          "player": "Hilary Knight",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-12",
+          "player": "Kendall Coyne Schofield",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-13",
+          "player": "Aerin Frankel",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-14",
+          "player": "Renata Fast",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-15",
+          "player": "Rory Guilday",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-16",
+          "player": "Ann-Renee Desbiens",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-17",
+          "player": "Kristyna Kaltounkova",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-18",
+          "player": "Taylor Heise",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-19",
+          "player": "Brianne Jenner",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Mise en Scene",
+          "card_no": "MS-20",
+          "player": "Sarah Nurse",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-1",
+          "player": "Kristyna Kaltounkova",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-2",
+          "player": "Haley Winn",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-3",
+          "player": "Rory Guilday",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-4",
+          "player": "Michelle Karvinen",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-5",
+          "player": "Casey O'Brien",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-6",
+          "player": "Nicole Gosling",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-7",
+          "player": "Kendall Cooper",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-8",
+          "player": "Jenna Buglioni",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-9",
+          "player": "Anne Cherkowski",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-10",
+          "player": "Hannah Murphy",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-11",
+          "player": "Maddi Wheeler",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-12",
+          "player": "Abby Newhook",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-13",
+          "player": "Natalie Mlynkova",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-14",
+          "player": "Emma Gentry",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-15",
+          "player": "Sarah Fillier",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-16",
+          "player": "Jenn Gardiner",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-17",
+          "player": "Britta Curl-Salemme",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-18",
+          "player": "Brooke McQuigge",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-19",
+          "player": "Cayla Barnes",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-20",
+          "player": "Julia Gosling",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-21",
+          "player": "Dominique Petrie",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-22",
+          "player": "Shay Maloney",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-23",
+          "player": "Anna Wilgren",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-24",
+          "player": "Mannon McMahon",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Rising Stars",
+          "card_no": "RS-25",
+          "player": "Gwyneth Philips",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-1",
+          "player": "Aerin Frankel",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-2",
+          "player": "Kristen Campbell",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-3",
+          "player": "Maddie Rooney",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-4",
+          "player": "Hannah Murphy",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-5",
+          "player": "Sandra Abstreiter",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-6",
+          "player": "Corinne Schroeder",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-7",
+          "player": "Nicole Hensley",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-8",
+          "player": "Kayle Osborne",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-9",
+          "player": "Gwyneth Philips",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-10",
+          "player": "Ann-Renee Desbiens",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-11",
+          "player": "Raygan Kirk",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-12",
+          "player": "Abbey Levy",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-13",
+          "player": "Emerance Maschmeyer",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-14",
+          "player": "Elaine Chuli",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Stylistic",
+          "card_no": "STY-15",
+          "player": "Sanni Ahola",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-1",
+          "player": "Marie-Philip Poulin",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-2",
+          "player": "Jocelyne Larocque",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-3",
+          "player": "Kendall Coyne Schofield",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-4",
+          "player": "Micah Zandee-Hart",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-5",
+          "player": "Alina Muller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-6",
+          "player": "Blayre Turnbull",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-7",
+          "player": "Cayla Barnes",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-8",
+          "player": "Abby Roque",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-9",
+          "player": "Hannah Miller",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-10",
+          "player": "Laura Stacey",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-11",
+          "player": "Hilary Knight",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-12",
+          "player": "Lee Stecklein",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-13",
+          "player": "Brianne Jenner",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-14",
+          "player": "Jaime Bourbonnais",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-15",
+          "player": "Renata Fast",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-16",
+          "player": "Sarah Nurse",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-17",
+          "player": "Ann-Renee Desbiens",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-18",
+          "player": "Gwyneth Philips",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-19",
+          "player": "Emerance Maschmeyer",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-20",
+          "player": "Megan Keller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-21",
+          "player": "Alex Carpenter",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-22",
+          "player": "Taylor Heise",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-23",
+          "player": "Natalie Spooner",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-24",
+          "player": "Tereza Vanisova",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-25",
+          "player": "Erin Ambrose",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-26",
+          "player": "Aerin Frankel",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-27",
+          "player": "Daryl Watts",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-28",
+          "player": "Claire Thompson",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-29",
+          "player": "Susanna Tapani",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Top 30",
+          "card_no": "TT-30",
+          "player": "Sarah Fillier",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-1",
+          "player": "of 30 Natalie Spooner",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-2",
+          "player": "of 30 Micah Zandee-Hart",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-3",
+          "player": "of 30 Jocelyne Larocque",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-4",
+          "player": "of 30 Casey O'Brien",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-5",
+          "player": "of 30 Allie Munroe",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-6",
+          "player": "of 30 Lee Stecklein",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-7",
+          "player": "of 30 Laura Stacey",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-8",
+          "player": "of 30 Emily Clark",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-9",
+          "player": "of 30 Michelle Karvinen",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-10",
+          "player": "of 30 Emily Brown",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-11",
+          "player": "of 30 Alina Muller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-12",
+          "player": "of 30 Gwyneth Philips",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-13",
+          "player": "of 30 Amanda Boulier",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-14",
+          "player": "of 30 Kayle Osborne",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-15",
+          "player": "of 30 Nicole Hensley",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-16",
+          "player": "of 30 Ashton Bell",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-17",
+          "player": "of 30 Hannah Murphy",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-18",
+          "player": "of 30 Erin Ambrose",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-19",
+          "player": "of 30 Emma Maltais",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-20",
+          "player": "of 30 Claire Thompson",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-21",
+          "player": "of 30 Hannah Brandt",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-22",
+          "player": "of 30 Ronja Savolainen",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-23",
+          "player": "of 30 Jaime Bourbonnais",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-24",
+          "player": "of 30 Taylor Heise",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-25",
+          "player": "of 30 Jessie Eldridge",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-26",
+          "player": "of 30 Jesse Compher",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-27",
+          "player": "of 30 Aerin Frankel",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-28",
+          "player": "of 30 Alex Carpenter",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-29",
+          "player": "of 30 Brooke McQuigge",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Power",
+          "card_no": "UP-30",
+          "player": "of 30 Kendall Cooper",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-1",
+          "player": "Sarah Fillier",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-2",
+          "player": "Hilary Knight",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-3",
+          "player": "Kendall Coyne Schofield",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-4",
+          "player": "Renata Fast",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-5",
+          "player": "Sarah Nurse",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-6",
+          "player": "Blayre Turnbull",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-7",
+          "player": "Megan Keller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-8",
+          "player": "Dominique Petrie",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-9",
+          "player": "Sophie Jaques",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-10",
+          "player": "Gabbie Hughes",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-11",
+          "player": "Hannah Bilka",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-12",
+          "player": "Jenn Gardiner",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-13",
+          "player": "Maddie Rooney",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-14",
+          "player": "Elaine Chuli",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-15",
+          "player": "Kayle Osborne",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-16",
+          "player": "Shiann Darkangelo",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-17",
+          "player": "Haley Winn",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-18",
+          "player": "Rory Guilday",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-19",
+          "player": "Abby Roque",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-20",
+          "player": "Kristyna Kaltounkova",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-21",
+          "player": "Nicole Gosling",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-22",
+          "player": "Jamie Lee Rattray",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-23",
+          "player": "Katerina Mrazova",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-24",
+          "player": "Jessie Eldridge",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Ultra Team",
+          "card_no": "UT-25",
+          "player": "Emma Maltais",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "1",
+          "player": "of 20 YT Sarah Nurse",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "2",
+          "player": "of 20 YT Natalie Spooner",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "3",
+          "player": "of 20 YT Marie-Philip Poulin",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "4",
+          "player": "of 20 YT Alex Carpenter",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "5",
+          "player": "of 20 YT Daryl Watts",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "6",
+          "player": "of 20 YT Brianne Jenner",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "7",
+          "player": "of 20 YT Erin Ambrose",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "8",
+          "player": "of 20 YT Grace Zumwinkle",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "9",
+          "player": "of 20 YT Kristen Campbell",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "10",
+          "player": "of 20 YT Katerina Mrazova",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "11",
+          "player": "of 20 YT Micah Zandee-Hart",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "12",
+          "player": "of 20 YT Ashton Bell",
+          "team": "Vancouver Goldeneyes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "13",
+          "player": "of 20 YT Susanna Tapani",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "14",
+          "player": "of 20 YT Jocelyne Larocque",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "15",
+          "player": "of 20 YT Corinne Schroeder",
+          "team": "Seattle Torrent",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "16",
+          "player": "of 20 YT Jamie Lee Rattray",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "17",
+          "player": "of 20 YT Jincy Roese",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "18",
+          "player": "of 20 YT Taylor Heise",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "19",
+          "player": "of 20 YT Ella Shelton",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Year 3",
+          "card_no": "20",
+          "player": "of 20 YT Kelly Pannek",
+          "team": "Minnesota Frost",
+          "tag": ""
+        }
+      ],
+      "parallels": [
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Rainbow Foil",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Gold",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Ice",
+          "serial_no": "/100"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Platinum",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Gold Spectrum",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Rookies",
+          "parallel_name": "Rainbow Foil",
+          "serial_no": ""
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Rookies",
+          "parallel_name": "Gold",
+          "serial_no": "/250"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Rookies",
+          "parallel_name": "Ice",
+          "serial_no": "/100"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Rookies",
+          "parallel_name": "Platinum",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Rookies",
+          "parallel_name": "Gold Spectrum",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Variant",
+          "parallel_name": "Purple",
+          "serial_no": "/349"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Variant",
+          "parallel_name": "Gold",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Rookies Variant",
+          "parallel_name": "Purple",
+          "serial_no": "/349"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base Rookies Variant",
+          "parallel_name": "Gold",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Auto Rainbow",
+          "parallel_name": "Red Rainbow",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Auto Rainbow",
+          "parallel_name": "Gold Rainbow",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Rookie Auto Rainbow",
+          "parallel_name": "Red Rainbow",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Rookie Auto Rainbow",
+          "parallel_name": "Gold Rainbow",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Catalyst",
+          "parallel_name": "Purple",
+          "serial_no": "/249"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Catalyst",
+          "parallel_name": "Red",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Catalyst",
+          "parallel_name": "Gold",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Medallions",
+          "parallel_name": "Gold",
+          "serial_no": "/200"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Medallions",
+          "parallel_name": "Platinum",
+          "serial_no": "/100"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Medallions",
+          "parallel_name": "Ruby Red",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Medallions",
+          "parallel_name": "Sapphire Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Medallions",
+          "parallel_name": "Emerald Green",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Medallions",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Rising Stars",
+          "parallel_name": "Gold",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Rising Stars",
+          "parallel_name": "Platinum",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Rising Stars",
+          "parallel_name": "Red",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Rising Stars",
+          "parallel_name": "Blue",
+          "serial_no": "/35"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Rising Stars",
+          "parallel_name": "Green",
+          "serial_no": "/15"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Rising Stars",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Stylistic",
+          "parallel_name": "Purple",
+          "serial_no": "/249"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Stylistic",
+          "parallel_name": "Red",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Stylistic",
+          "parallel_name": "Gold",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Ultra Power",
+          "parallel_name": "Purple",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Ultra Power",
+          "parallel_name": "Red",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Ultra Power",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Ultra Team",
+          "parallel_name": "Purple",
+          "serial_no": "/199"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Ultra Team",
+          "parallel_name": "Red",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2025_26_fleer_ultra_pwhl_hockey",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Ultra Team",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        }
+      ]
+    }
+  }
+}
