@@ -3,7 +3,7 @@
   "sport": "basketball",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-08-02T15:03:27.340Z",
+  "generated_at": "2026-08-26T18:29:09.539Z",
   "sharded": true,
   "shards": [
     "basketball-001.json",
@@ -17,7 +17,8 @@
     "basketball-product-2025-26-topps-inception-basketball.json",
     "basketball-product-2025-26-topps-chrome-update-series-basketball.json",
     "basketball-product-2025-26-panini-court-kings-basketball.json",
-    "basketball-product-2025-26-panini-prizm-basketball.json"
+    "basketball-product-2025-26-panini-prizm-basketball.json",
+    "basketball-product-2025-26-panini-origins-basketball.json"
   ],
   "product_map": {
     "2024_Panini_Origins WNBA_basketball": "basketball-001.json",
@@ -133,6 +134,7 @@
     "2025_26_topps_inception_basketball": "basketball-product-2025-26-topps-inception-basketball.json",
     "2025_26_topps_chrome_update_series_basketball": "basketball-product-2025-26-topps-chrome-update-series-basketball.json",
     "2025_26_panini_court_kings_basketball": "basketball-product-2025-26-panini-court-kings-basketball.json",
-    "2025_26_panini_prizm_basketball": "basketball-product-2025-26-panini-prizm-basketball.json"
+    "2025_26_panini_prizm_basketball": "basketball-product-2025-26-panini-prizm-basketball.json",
+    "2025_26_panini_origins_basketball": "basketball-product-2025-26-panini-origins-basketball.json"
   }
 }
