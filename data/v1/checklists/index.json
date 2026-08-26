@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-08-26T18:29:09.539Z",
+  "generated_at": "2026-08-26T18:41:20.241Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8417,6 +8417,15 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "Parkhurst"
+    },
+    {
+      "Code": "2025_26_upper_deck_premier_hockey",
+      "DisplayName": "2025-26 Upper Deck Premier Hockey",
+      "Keywords": "2025-26 Upper Deck Premier Hockey, 2025-26 Upper Deck Premier Hockey checklist, 2025-26 Upper Deck Premier Hockey cards, 2025-26 Upper Deck Premier Hockey parallels, 2025-26 Upper Deck Premier Hockey autographs, Upper Deck Premier hockey, Premier hockey checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Premier"
     },
     {
       "Code": "2025_26_upper_deck_pwhl_hockey",
