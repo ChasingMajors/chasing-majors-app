@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-08-26T17:50:18.493Z",
+  "generated_at": "2026-08-26T18:18:49.406Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -32,7 +32,8 @@
     "baseball-024.json",
     "baseball-025.json",
     "baseball-026.json",
-    "baseball-product-2026-topps-pristine-baseball.json"
+    "baseball-product-2026-topps-pristine-baseball.json",
+    "baseball-product-2026-topps-chrome-logofractor-baseball.json"
   ],
   "product_map": {
     "2021_Topps_Baseball_Series_1": "baseball-001.json",
@@ -710,6 +711,7 @@
     "2026_topps_tribute_baseball": "baseball-026.json",
     "2026-bowman-baseball": "baseball-026.json",
     "2026-bowman-mega-box-baseball": "baseball-026.json",
-    "2026_topps_pristine_baseball": "baseball-product-2026-topps-pristine-baseball.json"
+    "2026_topps_pristine_baseball": "baseball-product-2026-topps-pristine-baseball.json",
+    "2026_topps_chrome_logofractor_baseball": "baseball-product-2026-topps-chrome-logofractor-baseball.json"
   }
 }
