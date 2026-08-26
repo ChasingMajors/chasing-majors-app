@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-08-26T19:00:29.044Z",
+  "generated_at": "2026-08-26T19:19:17.721Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -7013,6 +7013,15 @@
       "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Three"
+    },
+    {
+      "Code": "2026_upper_deck_cfl_football",
+      "DisplayName": "2026 Upper Deck CFL Football",
+      "Keywords": "2026 Upper Deck CFL Football, 2026 Upper Deck CFL Football checklist, 2026 Upper Deck CFL Football cards, 2026 Upper Deck CFL Football parallels, 2026 Upper Deck CFL Football autographs, Upper Deck CFL football, CFL football checklist",
+      "year": "2026",
+      "sport": "football",
+      "manufacturer": "Upper Deck",
+      "product": "CFL"
     },
     {
       "Code": "2025_Panini_Absolute Countdown Calendar_football",
