@@ -1,0 +1,1748 @@
+{
+  "ok": true,
+  "sport": "soccer",
+  "kind": "checklist_products",
+  "source": "Product-scoped approved import publish",
+  "generated_at": "2026-08-26T17:48:05.158Z",
+  "products": {
+    "2026_panini_intl_mexico_soccer": {
+      "ok": true,
+      "meta": {
+        "code": "2026_panini_intl_mexico_soccer",
+        "displayName": "2026 Panini INTL Mexico Soccer",
+        "keywords": "2026 Panini INTL Mexico Soccer, 2026 Panini INTL Mexico Soccer checklist, 2026 Panini INTL Mexico Soccer cards, 2026 Panini INTL Mexico Soccer parallels, 2026 Panini INTL Mexico Soccer autographs, Panini INTL Mexico soccer, INTL Mexico soccer checklist",
+        "source_key": "2025-26",
+        "year": "2026",
+        "manufacturer": "Panini",
+        "product": "INTL Mexico",
+        "sport": "soccer"
+      },
+      "rows": [
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "1",
+          "player": "Raul Jimenez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "2",
+          "player": "Obed Vargas",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "3",
+          "player": "Marcel Ruiz",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "4",
+          "player": "Roberto Alvarado",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "5",
+          "player": "Edson Alvarez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "6",
+          "player": "Cesar Montes",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "7",
+          "player": "Erick Sanchez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "8",
+          "player": "Santiago Gimenez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "9",
+          "player": "Hirving Lozano",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "10",
+          "player": "Armando Gonzalez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "11",
+          "player": "Gilberto Mora",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "12",
+          "player": "Luis Malagon",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "13",
+          "player": "Orbelin Pineda",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "14",
+          "player": "Everardo Lopez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "15",
+          "player": "Jesus Gallardo",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "16",
+          "player": "Richard Ledezma",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "17",
+          "player": "German Berterame",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "18",
+          "player": "Johan Vasquez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "19",
+          "player": "Erik Lira",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "20",
+          "player": "Raul Rangel",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto",
+          "card_no": "1",
+          "player": "Raul Jimenez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto",
+          "card_no": "4",
+          "player": "Roberto Alvarado",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto",
+          "card_no": "6",
+          "player": "Cesar Montes",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Base Auto",
+          "card_no": "15",
+          "player": "Jesus Gallardo",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Aguila Real Auto",
+          "card_no": "2",
+          "player": "Jesus Gallardo",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Aguila Real Auto",
+          "card_no": "3",
+          "player": "Cesar Montes",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Aguila Real Auto",
+          "card_no": "6",
+          "player": "Uriel Antuna",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Aguila Real Auto",
+          "card_no": "8",
+          "player": "Javier Aguirre",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Aguila Real Auto",
+          "card_no": "12",
+          "player": "Erick Aguirre",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Aguila Real Auto",
+          "card_no": "13",
+          "player": "Jorge Campos",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Aguila Real Auto",
+          "card_no": "14",
+          "player": "Luis Hernandez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Aguila Real Auto",
+          "card_no": "15",
+          "player": "Hugo Sanchez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Aguila Real Auto",
+          "card_no": "16",
+          "player": "Carlos Hermosillo",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Aguila Real Auto",
+          "card_no": "17",
+          "player": "Guillermo Ochoa",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Aguila Real Auto",
+          "card_no": "18",
+          "player": "Kikin Fonseca",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Aguila Real Auto",
+          "card_no": "19",
+          "player": "Javier Aquino",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Aguila Real Auto",
+          "card_no": "20",
+          "player": "Andres Guardado",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Limitless Auto",
+          "card_no": "1",
+          "player": "Raul Jimenez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Limitless Auto",
+          "card_no": "2",
+          "player": "Roberto Alvarado",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Limitless Auto",
+          "card_no": "3",
+          "player": "Hugo Sanchez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Limitless Auto",
+          "card_no": "12",
+          "player": "Gerardo Arteaga",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Limitless Auto",
+          "card_no": "13",
+          "player": "Henry Martin",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Limitless Auto",
+          "card_no": "14",
+          "player": "Carlos Salcido",
+          "team": "Mexico*",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Limitless Auto",
+          "card_no": "15",
+          "player": "Tecatito Corona",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Limitless Auto",
+          "card_no": "16",
+          "player": "Marco Fabian",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Limitless Auto",
+          "card_no": "17",
+          "player": "Carlos Hermosillo",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Limitless Auto",
+          "card_no": "18",
+          "player": "Gerardo Torrado",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Limitless Auto",
+          "card_no": "19",
+          "player": "Kikin Fonseca",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Limitless Auto",
+          "card_no": "20",
+          "player": "Pavel Pardo",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Master Class Auto",
+          "card_no": "4",
+          "player": "Victor Guzman",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Master Class Auto",
+          "card_no": "9",
+          "player": "Uriel Antuna",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Master Class Auto",
+          "card_no": "10",
+          "player": "Marco Fabian",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Master Class Auto",
+          "card_no": "13",
+          "player": "Jorge Campos",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Master Class Auto",
+          "card_no": "14",
+          "player": "Luis Hernandez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Master Class Auto",
+          "card_no": "15",
+          "player": "Tecatito Corona",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Master Class Auto",
+          "card_no": "16",
+          "player": "Rafael Marquez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Master Class Auto",
+          "card_no": "17",
+          "player": "Gerardo Torrado",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Master Class Auto",
+          "card_no": "18",
+          "player": "Guillermo Ochoa",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Master Class Auto",
+          "card_no": "19",
+          "player": "Javier Aguirre",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Autograph",
+          "subset": "Master Class Auto",
+          "card_no": "20",
+          "player": "Claudio Suarez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "1",
+          "player": "Edson Alvarez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "2",
+          "player": "Jesus Gallardo",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "3",
+          "player": "Cesar Montes",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "4",
+          "player": "Luis Romo",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "5",
+          "player": "Eduardo Aguila",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "6",
+          "player": "Uriel Antuna",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "7",
+          "player": "Israel Reyes",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "8",
+          "player": "Javier Aguirre",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "9",
+          "player": "Carlos Vela",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "10",
+          "player": "Kevin Castaneda",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "11",
+          "player": "Erick Sanchez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "12",
+          "player": "Erick Aguirre",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "13",
+          "player": "Jorge Campos",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "14",
+          "player": "Luis Hernandez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "15",
+          "player": "Hugo Sanchez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "16",
+          "player": "Carlos Hermosillo",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "17",
+          "player": "Guillermo Ochoa",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "18",
+          "player": "Kikin Fonseca",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "19",
+          "player": "Javier Aquino",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Aquila Real",
+          "card_no": "20",
+          "player": "Andres Guardado",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Downtown",
+          "card_no": "1",
+          "player": "Raul Jimenez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Downtown",
+          "card_no": "2",
+          "player": "Edson Alvarez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Downtown",
+          "card_no": "3",
+          "player": "Marcel Ruiz",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Downtown",
+          "card_no": "4",
+          "player": "Guillermo Ochoa",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Downtown",
+          "card_no": "5",
+          "player": "Rafael Marquez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Downtown",
+          "card_no": "6",
+          "player": "Hugo Sanchez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "1",
+          "player": "Raul Jimenez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "2",
+          "player": "Roberto Alvarado",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "3",
+          "player": "Hugo Sanchez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "4",
+          "player": "Brian Gutierrez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "5",
+          "player": "Efrain Alvarez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "6",
+          "player": "Diego Campillo",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "7",
+          "player": "Erik Lira",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "8",
+          "player": "Alexis Gutierrez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "9",
+          "player": "Bryan Gonzalez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "10",
+          "player": "Richard Ledezma",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "11",
+          "player": "Jesus Garza",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "12",
+          "player": "Gerardo Arteaga",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "13",
+          "player": "Henry Martin",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "14",
+          "player": "Carlos Salcido",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "15",
+          "player": "Tecatito Corona",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "16",
+          "player": "Marco Fabian",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "17",
+          "player": "Carlos Hermosillo",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "18",
+          "player": "Gerardo Torrado",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "19",
+          "player": "Kikin Fonseca",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Limitless",
+          "card_no": "20",
+          "player": "Pavel Pardo",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "1",
+          "player": "German Berterame",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "2",
+          "player": "Marcel Ruiz",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "3",
+          "player": "Hirving Lozano",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "4",
+          "player": "Victor Guzman",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "5",
+          "player": "Luis Malagon",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "6",
+          "player": "Israel Reyes",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "7",
+          "player": "Alexis Gutierrez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "8",
+          "player": "Carlos Rodriguez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "9",
+          "player": "Uriel Antuna",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "10",
+          "player": "Marco Fabian",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "11",
+          "player": "Carlos Vela",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "12",
+          "player": "Carlos Salcido",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "13",
+          "player": "Jorge Campos",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "14",
+          "player": "Luis Hernandez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "15",
+          "player": "Tecatito Corona",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "16",
+          "player": "Rafael Marquez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "17",
+          "player": "Gerardo Torrado",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "18",
+          "player": "Guillermo Ochoa",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "19",
+          "player": "Javier Aguirre",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Master Class",
+          "card_no": "20",
+          "player": "Claudio Suarez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "New Sensations",
+          "card_no": "1",
+          "player": "Armando Gonzalez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "New Sensations",
+          "card_no": "2",
+          "player": "Gilberto Mora",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "New Sensations",
+          "card_no": "3",
+          "player": "Obed Vargas",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "New Sensations",
+          "card_no": "4",
+          "player": "Raul Rangel",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "New Sensations",
+          "card_no": "5",
+          "player": "Brian Gutierrez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "New Sensations",
+          "card_no": "6",
+          "player": "Bryan Gonzalez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Victorious",
+          "card_no": "1",
+          "player": "Armando Gonzalez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Victorious",
+          "card_no": "2",
+          "player": "Gilberto Mora",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Victorious",
+          "card_no": "3",
+          "player": "Roberto Alvarado",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Victorious",
+          "card_no": "4",
+          "player": "Hirving Lozano",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Victorious",
+          "card_no": "5",
+          "player": "Jorge Campos",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Victorious",
+          "card_no": "6",
+          "player": "Pavel Pardo",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Victorious",
+          "card_no": "7",
+          "player": "Claudio Suarez",
+          "team": "Mexico",
+          "tag": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "sport": "soccer",
+          "section": "Insert",
+          "subset": "Victorious",
+          "card_no": "8",
+          "player": "Andres Guardado",
+          "team": "Mexico",
+          "tag": ""
+        }
+      ],
+      "parallels": [
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Holo",
+          "serial_no": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Purple",
+          "serial_no": "/90"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Orange",
+          "serial_no": "/65"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Red",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Green",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Base",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Auto",
+          "parallel_name": "Gold #/10 or Less",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Base Auto",
+          "parallel_name": "Platinum",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Limitless Auto",
+          "parallel_name": "Gold #/10 or Less",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Limitless Auto",
+          "parallel_name": "Platinum",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Master Class Auto",
+          "parallel_name": "Gold #/10 or Less",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Master Class Auto",
+          "parallel_name": "Platinum",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Aquila Real",
+          "parallel_name": "Holo",
+          "serial_no": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Aquila Real",
+          "parallel_name": "Purple",
+          "serial_no": "/90"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Aquila Real",
+          "parallel_name": "Orange",
+          "serial_no": "/65"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Aquila Real",
+          "parallel_name": "Red",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Aquila Real",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Aquila Real",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Aquila Real",
+          "parallel_name": "Green",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Aquila Real",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Limitless",
+          "parallel_name": "Holo",
+          "serial_no": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Limitless",
+          "parallel_name": "Purple",
+          "serial_no": "/90"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Limitless",
+          "parallel_name": "Orange",
+          "serial_no": "/65"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Limitless",
+          "parallel_name": "Red",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Limitless",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Limitless",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Limitless",
+          "parallel_name": "Green",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Limitless",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Master Class",
+          "parallel_name": "Holo",
+          "serial_no": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Master Class",
+          "parallel_name": "Purple",
+          "serial_no": "/90"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Master Class",
+          "parallel_name": "Orange",
+          "serial_no": "/65"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Master Class",
+          "parallel_name": "Red",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Master Class",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Master Class",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Master Class",
+          "parallel_name": "Green",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "Master Class",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "New Sensations",
+          "parallel_name": "Holo",
+          "serial_no": ""
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "New Sensations",
+          "parallel_name": "Purple",
+          "serial_no": "/90"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "New Sensations",
+          "parallel_name": "Orange",
+          "serial_no": "/65"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "New Sensations",
+          "parallel_name": "Red",
+          "serial_no": "/49"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "New Sensations",
+          "parallel_name": "Blue",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "New Sensations",
+          "parallel_name": "Gold",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "New Sensations",
+          "parallel_name": "Green",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_panini_intl_mexico_soccer",
+          "applies_to_section": "Insert",
+          "applies_to_subset": "New Sensations",
+          "parallel_name": "Black",
+          "serial_no": "/1"
+        }
+      ]
+    }
+  }
+}
