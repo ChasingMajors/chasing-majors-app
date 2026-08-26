@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-08-26T19:25:01.663Z",
+  "generated_at": "2026-08-26T20:57:37.689Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -6095,6 +6095,15 @@
       "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Chrome"
+    },
+    {
+      "Code": "2025_26_topps_chrome_black_basketball",
+      "DisplayName": "2025-26 Topps Chrome Black Basketball",
+      "Keywords": "2025-26 Topps Chrome Black Basketball, 2025-26 Topps Chrome Black Basketball checklist, 2025-26 Topps Chrome Black Basketball cards, 2025-26 Topps Chrome Black Basketball parallels, 2025-26 Topps Chrome Black Basketball autographs, Topps Chrome Black basketball, Chrome Black basketball checklist",
+      "year": "2025-26",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Chrome Black"
     },
     {
       "Code": "2025_26_topps_chrome_cactus_jack_basketball_x_nba_all_star_game",
