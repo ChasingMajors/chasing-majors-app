@@ -3,7 +3,7 @@
   "sport": "hockey",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-07-31T23:03:50.328Z",
+  "generated_at": "2026-08-26T17:38:18.700Z",
   "sharded": true,
   "shards": [
     "hockey-001.json",
@@ -13,7 +13,8 @@
     "hockey-product-2025-26-upper-deck-parkhurst-hockey.json",
     "hockey-product-2025-26-upper-deck-ultimate-collection-hockey.json",
     "hockey-product-2025-26-upper-deck-pwhl-hockey.json",
-    "hockey-product-2025-26-upper-deck-overtime-hockey.json"
+    "hockey-product-2025-26-upper-deck-overtime-hockey.json",
+    "hockey-product-2025-26-upper-deck-clear-cut-hockey.json"
   ],
   "product_map": {
     "2025_26_spx_hockey": "hockey-001.json",
@@ -45,6 +46,7 @@
     "2025_26_upper_deck_parkhurst_hockey": "hockey-product-2025-26-upper-deck-parkhurst-hockey.json",
     "2025_26_upper_deck_ultimate_collection_hockey": "hockey-product-2025-26-upper-deck-ultimate-collection-hockey.json",
     "2025_26_upper_deck_pwhl_hockey": "hockey-product-2025-26-upper-deck-pwhl-hockey.json",
-    "2025_26_upper_deck_overtime_hockey": "hockey-product-2025-26-upper-deck-overtime-hockey.json"
+    "2025_26_upper_deck_overtime_hockey": "hockey-product-2025-26-upper-deck-overtime-hockey.json",
+    "2025_26_upper_deck_clear_cut_hockey": "hockey-product-2025-26-upper-deck-clear-cut-hockey.json"
   }
 }
