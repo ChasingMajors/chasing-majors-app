@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-08-26T17:50:18.493Z",
+  "generated_at": "2026-08-26T18:18:49.406Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -83,6 +83,15 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome Black"
+    },
+    {
+      "Code": "2026_topps_chrome_logofractor_baseball",
+      "DisplayName": "2026 Topps Chrome LogoFractor Baseball",
+      "Keywords": "2026 Topps Chrome LogoFractor Baseball, 2026 Topps Chrome LogoFractor Baseball checklist, 2026 Topps Chrome LogoFractor Baseball cards, 2026 Topps Chrome LogoFractor Baseball parallels, 2026 Topps Chrome LogoFractor Baseball autographs, Topps Chrome LogoFractor baseball, Chrome LogoFractor baseball checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome LogoFractor"
     },
     {
       "Code": "2026_topps_dynamic_duals_baseball",
