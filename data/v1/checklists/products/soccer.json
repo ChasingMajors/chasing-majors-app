@@ -3,7 +3,7 @@
   "sport": "soccer",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-07-30T23:32:29.222Z",
+  "generated_at": "2026-08-26T17:48:05.158Z",
   "sharded": true,
   "shards": [
     "soccer-001.json",
@@ -24,7 +24,8 @@
     "soccer-product-2026-panini-luminance-england-soccer.json",
     "soccer-product-2026-panini-luminance-germany-soccer.json",
     "soccer-product-2026-panini-luminance-france-soccer.json",
-    "soccer-product-2025-26-topps-inception-uefa-club-competitions-soccer.json"
+    "soccer-product-2025-26-topps-inception-uefa-club-competitions-soccer.json",
+    "soccer-product-2026-panini-intl-mexico-soccer.json"
   ],
   "product_map": {
     "2025_panini_absolute_k_league_soccer": "soccer-001.json",
@@ -70,6 +71,7 @@
     "2026_panini_luminance_england_soccer": "soccer-product-2026-panini-luminance-england-soccer.json",
     "2026_panini_luminance_germany_soccer": "soccer-product-2026-panini-luminance-germany-soccer.json",
     "2026_panini_luminance_france_soccer": "soccer-product-2026-panini-luminance-france-soccer.json",
-    "2025_26_topps_inception_uefa_club_competitions_soccer": "soccer-product-2025-26-topps-inception-uefa-club-competitions-soccer.json"
+    "2025_26_topps_inception_uefa_club_competitions_soccer": "soccer-product-2025-26-topps-inception-uefa-club-competitions-soccer.json",
+    "2026_panini_intl_mexico_soccer": "soccer-product-2026-panini-intl-mexico-soccer.json"
   }
 }
