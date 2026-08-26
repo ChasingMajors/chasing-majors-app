@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-08-26T21:09:35.373Z",
+  "generated_at": "2026-08-26T21:15:46.475Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -7022,6 +7022,15 @@
       "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Three"
+    },
+    {
+      "Code": "2026_topps_flagship_football",
+      "DisplayName": "2026 Topps Flagship Football",
+      "Keywords": "2026 Topps Flagship Football, 2026 Topps Flagship Football checklist, 2026 Topps Flagship Football cards, 2026 Topps Flagship Football parallels, 2026 Topps Flagship Football autographs, Topps Flagship football, Flagship football checklist",
+      "year": "2026",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Flagship"
     },
     {
       "Code": "2026_upper_deck_cfl_football",
