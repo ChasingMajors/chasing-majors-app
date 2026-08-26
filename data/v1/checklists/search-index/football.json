@@ -3,7 +3,7 @@
   "sport": "football",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-08-26T19:25:01.663Z",
+  "generated_at": "2026-08-26T21:15:46.475Z",
   "sharded": true,
   "shards": [
     "football-001.json",
@@ -21,6 +21,7 @@
     "football-013.json",
     "football-014.json",
     "football-015.json",
-    "football-016.json"
+    "football-016.json",
+    "football-017.json"
   ]
 }
