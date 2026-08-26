@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-08-02T15:03:27.340Z",
+  "generated_at": "2026-08-26T17:38:18.700Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8327,6 +8327,15 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "CHL"
+    },
+    {
+      "Code": "2025_26_upper_deck_clear_cut_hockey",
+      "DisplayName": "2025-26 Upper Deck Clear Cut Hockey",
+      "Keywords": "2025-26 Upper Deck Clear Cut Hockey, 2025-26 Upper Deck Clear Cut Hockey checklist, 2025-26 Upper Deck Clear Cut Hockey cards, 2025-26 Upper Deck Clear Cut Hockey parallels, 2025-26 Upper Deck Clear Cut Hockey autographs, Upper Deck Clear Cut hockey, Clear Cut hockey checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "Upper Deck",
+      "product": "Clear Cut"
     },
     {
       "Code": "2025_26_upper_deck_credentials_hockey_card",
