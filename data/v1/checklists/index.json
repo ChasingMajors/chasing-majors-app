@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-08-26T18:47:10.150Z",
+  "generated_at": "2026-08-26T18:56:34.315Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8237,6 +8237,15 @@
       "sport": "hockey",
       "manufacturer": "Upper Deck",
       "product": "Flair Hockey"
+    },
+    {
+      "Code": "2025_26_fleer_ultra_pwhl_hockey",
+      "DisplayName": "2025-26 Fleer Ultra PWHL Hockey",
+      "Keywords": "2025-26 Fleer Ultra PWHL Hockey, 2025-26 Fleer Ultra PWHL Hockey checklist, 2025-26 Fleer Ultra PWHL Hockey cards, 2025-26 Fleer Ultra PWHL Hockey parallels, 2025-26 Fleer Ultra PWHL Hockey autographs, Fleer Ultra PWHL hockey, Fleer Ultra PWHL hockey checklist",
+      "year": "2025-26",
+      "sport": "hockey",
+      "manufacturer": "",
+      "product": "Fleer Ultra PWHL"
     },
     {
       "Code": "2025_26_o_pee_chee_hockey_card",
