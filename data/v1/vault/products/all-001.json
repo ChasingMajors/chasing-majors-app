@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-08-26T21:25:30.855Z",
+  "generated_at": "2026-08-27T05:07:34.986Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -236,7 +236,7 @@
         },
         {
           "code": "23TFmbl",
-          "setType": "Base - SP",
+          "setType": "Base SP",
           "setLine": "Exteneded Base",
           "printRun": 600,
           "serial": "",
@@ -1076,7 +1076,7 @@
         },
         {
           "code": "2024_Topps_Baseball_Series_2",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "1989 Topps Relic",
           "printRun": 1110,
           "serial": "",
@@ -1086,7 +1086,7 @@
         },
         {
           "code": "2024_Topps_Baseball_Series_2",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Major League Material",
           "printRun": 1025,
           "serial": "",
@@ -1096,7 +1096,7 @@
         },
         {
           "code": "2024_Topps_Baseball_Series_2",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "City Connect Relic",
           "printRun": 840,
           "serial": "",
@@ -1684,7 +1684,7 @@
         },
         {
           "code": "2024_Topps_Update_Series_Baseball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "1989 Topps Relic",
           "printRun": 1420,
           "serial": "",
@@ -1694,7 +1694,7 @@
         },
         {
           "code": "2024_Topps_Update_Series_Baseball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Material Relic",
           "printRun": 1110,
           "serial": "",
@@ -1704,7 +1704,7 @@
         },
         {
           "code": "2024_Topps_Update_Series_Baseball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rising Rookie Relic",
           "printRun": 825,
           "serial": "",
@@ -1714,7 +1714,7 @@
         },
         {
           "code": "2024_Topps_Update_Series_Baseball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "All Star Stitches Relic",
           "printRun": 550,
           "serial": "",
@@ -1748,7 +1748,7 @@
       "rows": [
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Mini Baseball Auto Framed",
           "printRun": 1380,
           "serial": "",
@@ -1758,7 +1758,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Mini Non-Baseball Auto Framed",
           "printRun": 303,
           "serial": "",
@@ -1768,7 +1768,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Auto Full Sized Supplied",
           "printRun": 275,
           "serial": "",
@@ -1778,7 +1778,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Quintuple Auto",
           "printRun": 35,
           "serial": "",
@@ -1788,7 +1788,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Quad Auto",
           "printRun": 30,
           "serial": "",
@@ -1798,7 +1798,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Larry David Season Auto",
           "printRun": 25,
           "serial": "",
@@ -1808,7 +1808,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Dual Auto",
           "printRun": 10,
           "serial": "",
@@ -1818,7 +1818,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Employee Mini Auto",
           "printRun": 10,
           "serial": "",
@@ -1828,7 +1828,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Carte De Visite Auto",
           "printRun": 5,
           "serial": "",
@@ -1838,7 +1838,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Mini Larry David Season Auto",
           "printRun": 25,
           "serial": "",
@@ -1848,7 +1848,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Larry David Season Auto - Red",
           "printRun": 10,
           "serial": "",
@@ -1858,7 +1858,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Larry David Season Auto - Red",
           "printRun": 10,
           "serial": "",
@@ -1868,7 +1868,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Auto Full Sized Supplied - Red Ink",
           "printRun": 10,
           "serial": "",
@@ -1878,7 +1878,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Dual Auto - Red Ink",
           "printRun": 9,
           "serial": "",
@@ -1888,7 +1888,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Quad Auto - Red Ink",
           "printRun": 9,
           "serial": "",
@@ -1898,7 +1898,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Carte De Visite Auto - Red Ink",
           "printRun": 1,
           "serial": "",
@@ -1968,7 +1968,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Mini",
           "printRun": 19000,
           "serial": "",
@@ -1978,7 +1978,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Mini SP",
           "printRun": 11600,
           "serial": "",
@@ -1988,7 +1988,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Mini - Allen & GInter",
           "printRun": 5225,
           "serial": "",
@@ -1998,7 +1998,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Mini - Mitchell & Ness (Back)",
           "printRun": 4700,
           "serial": "",
@@ -2008,7 +2008,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Mini - Black Border",
           "printRun": 2400,
           "serial": "",
@@ -2018,7 +2018,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Mini SP - Allen & Ginter",
           "printRun": 2400,
           "serial": "",
@@ -2028,7 +2028,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Mini SP - Black Border",
           "printRun": 1200,
           "serial": "",
@@ -2038,7 +2038,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Mini SP - Gold Border",
           "printRun": 760,
           "serial": "",
@@ -2048,7 +2048,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Mini - Gold Border",
           "printRun": 125,
           "serial": "",
@@ -2138,7 +2138,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "A&G Relic B",
           "printRun": 1000,
           "serial": "",
@@ -2148,7 +2148,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Mini Framed Relic",
           "printRun": 1000,
           "serial": "",
@@ -2158,7 +2158,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "A&G Relic A",
           "printRun": 600,
           "serial": "",
@@ -2168,7 +2168,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Allen_&_Ginter",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "MIni DNA Relic",
           "printRun": 25,
           "serial": "",
@@ -2262,7 +2262,7 @@
       "rows": [
         {
           "code": "2025_Allen_&_Ginter_X",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Mini Baseball Auto Framed",
           "printRun": 50,
           "serial": "",
@@ -2272,7 +2272,7 @@
         },
         {
           "code": "2025_Allen_&_Ginter_X",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Mini Non-Baseball Auto Framed",
           "printRun": 50,
           "serial": "",
@@ -2312,7 +2312,7 @@
         },
         {
           "code": "2025_Allen_&_Ginter_X",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "MIni Short Prints",
           "printRun": 250,
           "serial": "",
@@ -2322,7 +2322,7 @@
         },
         {
           "code": "2025_Allen_&_Ginter_X",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Chrome X-Fractor",
           "printRun": 55,
           "serial": "",
@@ -2332,7 +2332,7 @@
         },
         {
           "code": "2025_Allen_&_Ginter_X",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Mini Chrome X-Fractor",
           "printRun": 10,
           "serial": "",
@@ -2556,7 +2556,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Chrome",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Image Variation Refractors",
           "printRun": 925,
           "serial": "",
@@ -2566,7 +2566,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Chrome",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Lightboard Logo Variation",
           "printRun": 140,
           "serial": "",
@@ -2576,7 +2576,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Chrome",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Image Variation SSP Refractor",
           "printRun": 95,
           "serial": "",
@@ -2850,7 +2850,7 @@
         },
         {
           "code": "2025_Topps_Chrome_Black",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Base Rookie Design Variations",
           "printRun": 225,
           "serial": "",
@@ -2924,7 +2924,7 @@
         },
         {
           "code": "2025_Topps_Chrome_Baseball_Sapphire",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Image Variation",
           "printRun": 75,
           "serial": "",
@@ -3158,7 +3158,7 @@
         },
         {
           "code": "25TCUmlb",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Image Variations",
           "printRun": 1000,
           "serial": "",
@@ -3168,7 +3168,7 @@
         },
         {
           "code": "25TCUmlb",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Flagship CupFractor Variations",
           "printRun": 200,
           "serial": "",
@@ -3754,7 +3754,7 @@
       "rows": [
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Chrome Prospect Auto.",
           "printRun": 2360,
           "serial": "",
@@ -3764,7 +3764,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Achromatic Auto. (Ref)",
           "printRun": 260,
           "serial": "",
@@ -3774,7 +3774,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Draft Night Auto. (Ref)",
           "printRun": 100,
           "serial": "",
@@ -3784,7 +3784,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "In Action Auto. (Ref)",
           "printRun": 100,
           "serial": "",
@@ -3794,7 +3794,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Image Variation Auto. (Ref)",
           "printRun": 100,
           "serial": "",
@@ -3804,7 +3804,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Prized Prospects Auto. (Ref)",
           "printRun": 100,
           "serial": "",
@@ -3814,7 +3814,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Prospect Dual Auto.",
           "printRun": 100,
           "serial": "",
@@ -3824,7 +3824,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Chrome Prospect Auto Gold Ink",
           "printRun": 15,
           "serial": "",
@@ -3834,7 +3834,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Auto.",
+          "setType": "Autograph",
           "setLine": "Draft Prospect Portrait Auto.",
           "printRun": 10,
           "serial": "",
@@ -3844,7 +3844,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "In Action Auto - Wave Refractor",
           "printRun": 75,
           "serial": "",
@@ -3864,7 +3864,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Base (Chrome)",
           "printRun": "55,000*",
           "serial": "",
@@ -3874,7 +3874,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Base (Chrome)",
           "printRun": 5655,
           "serial": "",
@@ -3884,7 +3884,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Base (Chrome)",
           "printRun": 550,
           "serial": "",
@@ -3894,7 +3894,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Base (Chrome) - Sky Blue Refractor",
           "printRun": 420,
           "serial": "",
@@ -3904,7 +3904,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Retrofractor",
           "printRun": 355,
           "serial": "",
@@ -3914,7 +3914,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Chrome Prospect College",
           "printRun": 200,
           "serial": "",
@@ -3924,7 +3924,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Etched In Glass",
           "printRun": 200,
           "serial": "",
@@ -3934,7 +3934,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Image",
           "printRun": 200,
           "serial": "",
@@ -3944,7 +3944,7 @@
         },
         {
           "code": "2025_Bowman_Draft",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Base (Chrome) - BowmanFractor",
           "printRun": 35,
           "serial": "",
@@ -4716,7 +4716,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Heritage_HIGH_Number",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Clubhouse Collection Relic - Base",
           "printRun": 600,
           "serial": "",
@@ -4726,7 +4726,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Heritage_HIGH_Number",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Clubhouse Collection Dual Relic - Base",
           "printRun": 62,
           "serial": "",
@@ -5210,7 +5210,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Heritage",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Clubhouse Collection Relics - Base",
           "printRun": 1700,
           "serial": "",
@@ -5220,7 +5220,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Heritage",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Dual-Player MLB Collection Relics - Base",
           "printRun": 300,
           "serial": "",
@@ -5230,7 +5230,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Heritage",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Clubhouse Collection Single-Player Dual Relics - Base",
           "printRun": 250,
           "serial": "",
@@ -5240,7 +5240,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Heritage",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Bicentennial Relics - Base",
           "printRun": 76,
           "serial": "",
@@ -5250,7 +5250,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Heritage",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Clubhouse Collection Dual-Player Relics - Base",
           "printRun": 75,
           "serial": "",
@@ -5260,7 +5260,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Heritage",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Clubhouse Collection Triple-Player Relics - Base",
           "printRun": 25,
           "serial": "",
@@ -5270,7 +5270,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Heritage",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Clubhouse Collection Quad-Player Relics - Base",
           "printRun": 3,
           "serial": "",
@@ -5424,7 +5424,7 @@
         },
         {
           "code": "2025_Topps_Chrome_Baseball_Logofractor",
-          "setType": "Base - Variation",
+          "setType": "Variation",
           "setLine": "Image Variation - Base",
           "printRun": 200,
           "serial": "",
@@ -5498,7 +5498,7 @@
       "rows": [
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Archival Auto. - Gold Parallel",
           "printRun": 106,
           "serial": "",
@@ -5508,7 +5508,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Archival Auto. - Pink Sapphire Parallel",
           "printRun": 89,
           "serial": "",
@@ -5518,7 +5518,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Quad Relic Auto. - Copper Parallel",
           "printRun": 87,
           "serial": "",
@@ -5528,7 +5528,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Dual Relic Auto. - Copper Parallel",
           "printRun": 81,
           "serial": "",
@@ -5538,7 +5538,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Triple Relic Auto. - Copper Parallel",
           "printRun": 80,
           "serial": "",
@@ -5548,7 +5548,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Quad Relic Auto. - Pink Sapphire Parallel",
           "printRun": 74,
           "serial": "",
@@ -5558,7 +5558,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Retrospective Sign. - Gold Parallel",
           "printRun": 72,
           "serial": "",
@@ -5568,7 +5568,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Dual Relic Auto. - Pink Sapphire Parallel",
           "printRun": 67,
           "serial": "",
@@ -5578,7 +5578,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Triple Relic Auto. - Pink Sapphire Parallel",
           "printRun": 61,
           "serial": "",
@@ -5588,7 +5588,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Quad Relic Auto. - Gold Parallel",
           "printRun": 50,
           "serial": "",
@@ -5598,7 +5598,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Retrospective Sign. - Pink Sapphire Parallel",
           "printRun": 49,
           "serial": "",
@@ -5608,7 +5608,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Dual Relic Auto. - Gold Parallel",
           "printRun": 46,
           "serial": "",
@@ -5618,7 +5618,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Triple Relic Auto. - Gold Parallel",
           "printRun": 44,
           "serial": "",
@@ -5628,7 +5628,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Retrospective Sign. - Amethyst Parallel",
           "printRun": 25,
           "serial": "",
@@ -5638,7 +5638,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Quad Relic Auto. - Sapphire Parallel",
           "printRun": 25,
           "serial": "",
@@ -5648,7 +5648,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Triple Relic Auto. - Sapphire Parallel",
           "printRun": 25,
           "serial": "",
@@ -5658,7 +5658,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Archival Auto. - Amethyst Parallel",
           "printRun": 24,
           "serial": "",
@@ -5668,7 +5668,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Dual Relic Auto. - Sapphire Parallel",
           "printRun": 24,
           "serial": "",
@@ -5678,7 +5678,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Framed Hall of Fame Auto. -  Bronze FrameSilver Frame",
           "printRun": 21,
           "serial": "",
@@ -5688,7 +5688,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Museum Framed Auto. - Silver Frame",
           "printRun": 20,
           "serial": "",
@@ -5698,7 +5698,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Dual Relic Auto. - Amethyst Parallel",
           "printRun": 20,
           "serial": "",
@@ -5708,7 +5708,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Quad Relic Auto. - Amethyst Parallel",
           "printRun": 20,
           "serial": "",
@@ -5718,7 +5718,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Triple Relic Auto. - Amethyst Parallel",
           "printRun": 20,
           "serial": "",
@@ -5728,7 +5728,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Archival Auto. - Ruby Parallel",
           "printRun": 19,
           "serial": "",
@@ -5738,7 +5738,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Retrospective Sign. - Ruby Parallel",
           "printRun": 15,
           "serial": "",
@@ -5748,7 +5748,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Dual Relic Auto. - Ruby Parallel",
           "printRun": 15,
           "serial": "",
@@ -5758,7 +5758,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Quad Relic Auto. - Ruby Parallel",
           "printRun": 15,
           "serial": "",
@@ -5768,7 +5768,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Triple Relic Auto. - Ruby Parallel",
           "printRun": 15,
           "serial": "",
@@ -5778,7 +5778,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Archival Auto. - Blue Topaz Parallel",
           "printRun": 14,
           "serial": "",
@@ -5788,7 +5788,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Momentus Material Jumbo Patch Auto. - Gold Parallel",
           "printRun": 12,
           "serial": "",
@@ -5798,7 +5798,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Retrospective Sign. - Blue Topaz Parallel",
           "printRun": 10,
           "serial": "",
@@ -5808,7 +5808,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Dual On-Card Auto. - Gold Parallel",
           "printRun": 10,
           "serial": "",
@@ -5818,7 +5818,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Showpieces Auto. - Gold Parallel",
           "printRun": 10,
           "serial": "",
@@ -5828,7 +5828,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Dual Relic Auto. - Black Diamond Parallel",
           "printRun": 10,
           "serial": "",
@@ -5838,7 +5838,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Quad Relic Auto. - Black Diamond Parallel",
           "printRun": 10,
           "serial": "",
@@ -5848,7 +5848,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Triple Relic Auto. - Black Diamond Parallel",
           "printRun": 10,
           "serial": "",
@@ -5858,7 +5858,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Archival Auto. - Black Parallel",
           "printRun": 9,
           "serial": "",
@@ -5868,7 +5868,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Museum Framed Auto. - Gold Frame",
           "printRun": 9,
           "serial": "",
@@ -5878,7 +5878,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Museum Framed Auto. Patch Cards - Gold Frame",
           "printRun": 9,
           "serial": "",
@@ -5888,7 +5888,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Momentus Material Jumbo Patch Auto. - Amethyst Parallel",
           "printRun": 9,
           "serial": "",
@@ -5898,7 +5898,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Triple On-Card Auto. - Gold Parallel",
           "printRun": 8,
           "serial": "",
@@ -5908,7 +5908,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Framed Hall of Fame Auto. -  Bronze FrameGold Frame",
           "printRun": 8,
           "serial": "",
@@ -5918,7 +5918,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Retrospective Sign. - Black Parallel",
           "printRun": 5,
           "serial": "",
@@ -5928,7 +5928,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Dual On-Card Auto. - Ruby Parallel",
           "printRun": 5,
           "serial": "",
@@ -5938,7 +5938,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Showpieces Auto. - Ruby Parallel",
           "printRun": 5,
           "serial": "",
@@ -5948,7 +5948,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Framed Hall of Fame Auto. -  Bronze FrameBlack Frame",
           "printRun": 5,
           "serial": "",
@@ -5958,7 +5958,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Museum Framed Auto. - Black Frame",
           "printRun": 5,
           "serial": "",
@@ -5968,7 +5968,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Museum Framed Auto. Patch Cards - Black Frame",
           "printRun": 5,
           "serial": "",
@@ -5978,7 +5978,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Momentus Material Jumbo Patch Auto. - Ruby Parallel",
           "printRun": 5,
           "serial": "",
@@ -5988,7 +5988,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Momentous Material Dual Jumbo Patch Auto.h Book Card - Gold Parallel",
           "printRun": 5,
           "serial": "",
@@ -5998,7 +5998,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "MLB Authenticated Relic Auto.Cards - Ruby Parallel",
           "printRun": 5,
           "serial": "",
@@ -6008,7 +6008,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Dual Auto. Jumbo Lumber Bat Relics Book Card - Gold Parallel",
           "printRun": 5,
           "serial": "",
@@ -6018,7 +6018,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Triple On-Card Auto. - Ruby Parallel",
           "printRun": 4,
           "serial": "",
@@ -6028,7 +6028,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Archival Auto. - Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6038,7 +6038,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Retrospective Sign. - Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6048,7 +6048,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Dual On-Card Auto. - Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6058,7 +6058,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Showpieces Auto. - Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6068,7 +6068,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Triple On-Card Auto. - Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6078,7 +6078,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Framed Hall of Fame Auto. -  Bronze FrameWood Frame",
           "printRun": 1,
           "serial": "",
@@ -6088,7 +6088,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Museum Framed Auto. - Wood Frame",
           "printRun": 1,
           "serial": "",
@@ -6098,7 +6098,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Museum Framed Auto. Patch Cards - Silver Frame",
           "printRun": 1,
           "serial": "",
@@ -6108,7 +6108,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Momentus Material Jumbo Patch Auto. - Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6118,7 +6118,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Momentous Material Dual Jumbo Patch Auto.h Book Card - Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6128,7 +6128,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Dual Relic Auto. - Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6138,7 +6138,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Quad Relic Auto. - Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6148,7 +6148,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Single-Player Signature Swatches Triple Relic Auto. - Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6158,7 +6158,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "MLB Authenticated Relic Auto.Cards - Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6168,7 +6168,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Dual Auto. Jumbo Lumber Bat Relics Book Card - Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6478,7 +6478,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Dual-Player Primary Pieces Quad Relics Copper Parallel",
           "printRun": 75,
           "serial": "",
@@ -6488,7 +6488,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Four-Player Primary Pieces Quad Relics Copper Parallel",
           "printRun": 75,
           "serial": "",
@@ -6498,7 +6498,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Meaningful Material Relics",
           "printRun": 67,
           "serial": "",
@@ -6508,7 +6508,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Single-Player Primary Pieces Quad Relics Copper Parallel",
           "printRun": 60,
           "serial": "",
@@ -6518,7 +6518,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Dual-Player Primary Pieces Quad Relics Legends Copper Parallel",
           "printRun": 59,
           "serial": "",
@@ -6528,7 +6528,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Dual-Player Primary Pieces Quad Relics",
           "printRun": 39,
           "serial": "",
@@ -6538,7 +6538,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Momentus Material Jumbo Patch Relics Gold Parallel",
           "printRun": 9,
           "serial": "",
@@ -6548,7 +6548,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Museum Memorabilia Laundry Tag Relics Parallel",
           "printRun": 1,
           "serial": "",
@@ -6558,7 +6558,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Jumbo Lumber Bat Nameplate Relics",
           "printRun": 1,
           "serial": "",
@@ -6568,7 +6568,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Four-Player Primary Pieces Quad Relics",
           "printRun": 98,
           "serial": "",
@@ -6578,7 +6578,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Single-Player Primary Pieces Quad Relics",
           "printRun": 75,
           "serial": "",
@@ -6588,7 +6588,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Meaningful Material Relics Copper Parallel",
           "printRun": 67,
           "serial": "",
@@ -6598,7 +6598,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Dual-Player Primary Pieces Quad Relics Gold Parallel",
           "printRun": 49,
           "serial": "",
@@ -6608,7 +6608,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Dual-Player Primary Pieces Quad Relics Legends",
           "printRun": 49,
           "serial": "",
@@ -6618,7 +6618,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Dual-Player Primary Pieces Quad Relics Legends Gold Parallel",
           "printRun": 49,
           "serial": "",
@@ -6628,7 +6628,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Four-Player Primary Pieces Quad Relics Gold Parallel",
           "printRun": 49,
           "serial": "",
@@ -6638,7 +6638,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Single-Player Primary Pieces Quad Relics Gold Parallel",
           "printRun": 46,
           "serial": "",
@@ -6648,7 +6648,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Meaningful Material Relics Gold Parallel",
           "printRun": 45,
           "serial": "",
@@ -6658,7 +6658,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Meaningful Material Relics Sapphire Parallel",
           "printRun": 34,
           "serial": "",
@@ -6668,7 +6668,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Dual-Player Primary Pieces Quad Relics Sapphire Parallel",
           "printRun": 25,
           "serial": "",
@@ -6678,7 +6678,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Dual-Player Primary Pieces Quad Relics Legends Sapphire Parallel",
           "printRun": 25,
           "serial": "",
@@ -6688,7 +6688,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Four-Player Primary Pieces Quad Relics Sapphire Parallel",
           "printRun": 25,
           "serial": "",
@@ -6698,7 +6698,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Single-Player Primary Pieces Quad Relics Sapphire Parallel",
           "printRun": 24,
           "serial": "",
@@ -6708,7 +6708,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Dual-Player Primary Pieces Quad Relics Amethyst Parallel",
           "printRun": 20,
           "serial": "",
@@ -6718,7 +6718,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Dual-Player Primary Pieces Quad Relics Legends Amethyst Parallel",
           "printRun": 20,
           "serial": "",
@@ -6728,7 +6728,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Four-Player Primary Pieces Quad Relics Amethyst Parallel",
           "printRun": 20,
           "serial": "",
@@ -6738,7 +6738,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Meaningful Material Relics Amethyst Parallel",
           "printRun": 19,
           "serial": "",
@@ -6748,7 +6748,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Single-Player Primary Pieces Quad Relics Amethyst Parallel",
           "printRun": 19,
           "serial": "",
@@ -6758,7 +6758,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Momentus Material Jumbo Patch Relics",
           "printRun": 13,
           "serial": "",
@@ -6768,7 +6768,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Meaningful Material Relics Ruby Parallel",
           "printRun": 12,
           "serial": "",
@@ -6778,7 +6778,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Dual-Player Primary Pieces Quad Relics Ruby Parallel",
           "printRun": 10,
           "serial": "",
@@ -6788,7 +6788,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Dual-Player Primary Pieces Quad Relics Legends Ruby Parallel",
           "printRun": 10,
           "serial": "",
@@ -6798,7 +6798,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Four-Player Primary Pieces Quad Relics Ruby Parallel",
           "printRun": 10,
           "serial": "",
@@ -6808,7 +6808,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Single-Player Primary Pieces Quad Relics Ruby Parallel",
           "printRun": 10,
           "serial": "",
@@ -6818,7 +6818,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Momentus Material Jumbo Patch Relics Ruby Parallel",
           "printRun": 5,
           "serial": "",
@@ -6828,7 +6828,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Meaningful Material Relics Black Diamond Parallel",
           "printRun": 4,
           "serial": "",
@@ -6838,7 +6838,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Meaningful Material Relics Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6848,7 +6848,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Momentus Material Jumbo Patch Relics Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6858,7 +6858,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Museum Memorabilia",
           "printRun": 1,
           "serial": "",
@@ -6868,7 +6868,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Dual-Player Primary Pieces Quad Relics Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6878,7 +6878,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Dual-Player Primary Pieces Quad Relics Legends Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6888,7 +6888,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Four-Player Primary Pieces Quad Relics Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -6898,7 +6898,7 @@
         },
         {
           "code": "2025_Topps_Museum_Collection",
-          "setType": "Relic - Parallel",
+          "setType": "Memorabilia - Parallel",
           "setLine": "Single-Player Primary Pieces Quad Relics Emerald Parallel",
           "printRun": 1,
           "serial": "",
@@ -8426,7 +8426,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_1",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Major League Material Relics",
           "printRun": 2400,
           "serial": "",
@@ -8436,7 +8436,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_1",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "1990 Topps Relics",
           "printRun": 2050,
           "serial": "",
@@ -8446,7 +8446,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_1",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "City Connect Swatch Relics",
           "printRun": 800,
           "serial": "",
@@ -8456,7 +8456,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_1",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rickwood Relic Collection",
           "printRun": 550,
           "serial": "",
@@ -8466,7 +8466,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_1",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Real One Relics",
           "printRun": 225,
           "serial": "",
@@ -8476,7 +8476,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_1",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Major League Material Dual Relics",
           "printRun": 85,
           "serial": "",
@@ -8486,7 +8486,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_1",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "In the Name Relics",
           "printRun": 6,
           "serial": "",
@@ -9010,7 +9010,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_2",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Major League Material",
           "printRun": 1700,
           "serial": "",
@@ -9020,7 +9020,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_2",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "1990 Topps Baseball Relic",
           "printRun": 1500,
           "serial": "",
@@ -9030,7 +9030,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_2",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "1990 Topps Baseball All-Star Relic",
           "printRun": 1100,
           "serial": "",
@@ -9040,7 +9040,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_2",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "City Connect Swatch Collection Autograph Relics",
           "printRun": 430,
           "serial": "",
@@ -9050,7 +9050,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_2",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Base Flagship Real One Relics",
           "printRun": 225,
           "serial": "",
@@ -9060,7 +9060,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_2",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rounding the Base Relic",
           "printRun": 150,
           "serial": "",
@@ -9070,7 +9070,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_2",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Major League Material Dual",
           "printRun": 75,
           "serial": "",
@@ -9080,7 +9080,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Series_2",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rounding the Base Dual Relic",
           "printRun": 20,
           "serial": "",
@@ -10378,7 +10378,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Update_Series",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Major League Material",
           "printRun": 1800,
           "serial": "",
@@ -10388,7 +10388,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Update_Series",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "1990 Topps Baseball Relics",
           "printRun": 1330,
           "serial": "",
@@ -10398,7 +10398,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Update_Series",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rising Rookies Relics",
           "printRun": 1000,
           "serial": "",
@@ -10408,7 +10408,7 @@
         },
         {
           "code": "2025_Topps_Baseball_Update_Series",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "All-Star Stitches",
           "printRun": 850,
           "serial": "",
@@ -10952,7 +10952,7 @@
         },
         {
           "code": "2026_topps_series1",
-          "setType": "Relics",
+          "setType": "Memorabilia",
           "setLine": "Major League Material",
           "printRun": 3135,
           "serial": "",
@@ -10962,7 +10962,7 @@
         },
         {
           "code": "2026_topps_series1",
-          "setType": "Relics",
+          "setType": "Memorabilia",
           "setLine": "1991 Topps Baseball Relics",
           "printRun": 2615,
           "serial": "",
@@ -10972,7 +10972,7 @@
         },
         {
           "code": "2026_topps_series1",
-          "setType": "Relics",
+          "setType": "Memorabilia",
           "setLine": "City Connection Swatch Collection",
           "printRun": 415,
           "serial": "",
@@ -10982,7 +10982,7 @@
         },
         {
           "code": "2026_topps_series1",
-          "setType": "Relics",
+          "setType": "Memorabilia",
           "setLine": "Real One Relics",
           "printRun": 275,
           "serial": "",
@@ -10992,7 +10992,7 @@
         },
         {
           "code": "2026_topps_series1",
-          "setType": "Var. - Parallel",
+          "setType": "Variation - Parallel",
           "setLine": "Holiday - Polka Dots Green/Pink",
           "printRun": 3300,
           "serial": "",
@@ -11002,7 +11002,7 @@
         },
         {
           "code": "2026_topps_series1",
-          "setType": "Var. - Parallel",
+          "setType": "Variation - Parallel",
           "setLine": "Holiday - Chicks",
           "printRun": 660,
           "serial": "",
@@ -11012,7 +11012,7 @@
         },
         {
           "code": "2026_topps_series1",
-          "setType": "Var. - Parallel",
+          "setType": "Variation - Parallel",
           "setLine": "Holiday - Polka Dots Green/Pink",
           "printRun": 660,
           "serial": "",
@@ -11022,7 +11022,7 @@
         },
         {
           "code": "2026_topps_series1",
-          "setType": "Var. - Parallel",
+          "setType": "Variation - Parallel",
           "setLine": "Holiday - Rabbits",
           "printRun": 120,
           "serial": "",
@@ -11236,7 +11236,7 @@
         },
         {
           "code": "26TCplsoccer",
-          "setType": "Base (SP)",
+          "setType": "Base SP",
           "setLine": "Base Card #201",
           "printRun": 95,
           "serial": "",
@@ -11878,7 +11878,7 @@
       "rows": [
         {
           "code": "2025_Bowman",
-          "setType": "Auto. - Parallel",
+          "setType": "Auto - Parallel",
           "setLine": "Red Ink",
           "printRun": 2,
           "serial": "",
@@ -12148,7 +12148,7 @@
         },
         {
           "code": "2025_Bowman",
-          "setType": "Var. - Parallel",
+          "setType": "Variation - Parallel",
           "setLine": "Reptilian Refractor",
           "printRun": 8100,
           "serial": "",
@@ -12158,7 +12158,7 @@
         },
         {
           "code": "2025_Bowman",
-          "setType": "Var. - Parallel",
+          "setType": "Variation - Parallel",
           "setLine": "Mini-Diamond Refractors",
           "printRun": 750,
           "serial": "",
@@ -12168,7 +12168,7 @@
         },
         {
           "code": "2025_Bowman",
-          "setType": "Var. - Parallel",
+          "setType": "Variation - Parallel",
           "setLine": "X-Fractor",
           "printRun": 750,
           "serial": "",
@@ -12634,7 +12634,7 @@
       "rows": [
         {
           "code": "2526TUefaSoccer",
-          "setType": "Autographs",
+          "setType": "Autograph",
           "setLine": "Future Stars Auto",
           "printRun": 340,
           "serial": "",
@@ -12644,7 +12644,7 @@
         },
         {
           "code": "2526TUefaSoccer",
-          "setType": "Autographs",
+          "setType": "Autograph",
           "setLine": "Base Auto",
           "printRun": 275,
           "serial": "",
@@ -12654,7 +12654,7 @@
         },
         {
           "code": "2526TUefaSoccer",
-          "setType": "Autographs",
+          "setType": "Autograph",
           "setLine": "Topps Superstar Auto Relic",
           "printRun": 105,
           "serial": "",
@@ -12664,7 +12664,7 @@
         },
         {
           "code": "2526TUefaSoccer",
-          "setType": "Autographs",
+          "setType": "Autograph",
           "setLine": "Ultimate Stage Chrome Auto",
           "printRun": 90,
           "serial": "",
@@ -12674,7 +12674,7 @@
         },
         {
           "code": "2526TUefaSoccer",
-          "setType": "Autographs",
+          "setType": "Autograph",
           "setLine": "Best of the Best Legendary Numbers Auto",
           "printRun": 70,
           "serial": "",
@@ -12684,7 +12684,7 @@
         },
         {
           "code": "2526TUefaSoccer",
-          "setType": "Autographs",
+          "setType": "Autograph",
           "setLine": "Roots Auto",
           "printRun": 25,
           "serial": "",
@@ -12694,7 +12694,7 @@
         },
         {
           "code": "2526TUefaSoccer",
-          "setType": "Autographs",
+          "setType": "Autograph",
           "setLine": "Regency Chrome Auto",
           "printRun": 6,
           "serial": "",
@@ -12844,7 +12844,7 @@
         },
         {
           "code": "2526TUefaSoccer",
-          "setType": "Base - SP",
+          "setType": "Base SP",
           "setLine": "Short Prints",
           "printRun": 480,
           "serial": "",
@@ -12854,7 +12854,7 @@
         },
         {
           "code": "2526TUefaSoccer",
-          "setType": "Base - SP",
+          "setType": "Base SP",
           "setLine": "Super Short Prints",
           "printRun": 95,
           "serial": "",
@@ -13004,7 +13004,7 @@
         },
         {
           "code": "2526TUefaSoccer",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Starball Commemorative Relics",
           "printRun": 950,
           "serial": "",
@@ -13014,7 +13014,7 @@
         },
         {
           "code": "2526TUefaSoccer",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Topps Superstar Relic",
           "printRun": 300,
           "serial": "",
@@ -16557,7 +16557,7 @@
         },
         {
           "code": "2026_topps_series_1_celebration",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Mascot Relics",
           "printRun": 400,
           "serial": "",
@@ -17009,7 +17009,7 @@
         },
         {
           "code": "2026_Topps_Heritage",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Clubhouse Collection Relecs",
           "printRun": 1550,
           "serial": "",
@@ -17019,7 +17019,7 @@
         },
         {
           "code": "2026_Topps_Heritage",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Real One Relics",
           "printRun": 280,
           "serial": "",
@@ -18267,7 +18267,7 @@
         },
         {
           "code": "2025_topps_chrome_football",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "First Year Fabric",
           "printRun": 2195,
           "serial": "",
@@ -18277,7 +18277,7 @@
         },
         {
           "code": "2025_topps_chrome_football",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Topps Chrome Rookie Relics",
           "printRun": 2190,
           "serial": "",
@@ -29595,7 +29595,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rise to the Occasion",
           "printRun": 700,
           "serial": "",
@@ -29605,7 +29605,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rise to the Occasion - Rainbow Foilboard",
           "printRun": 400,
           "serial": "",
@@ -29615,7 +29615,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Own The Game",
           "printRun": 610,
           "serial": "",
@@ -29625,7 +29625,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Own The Game - Rainbow Foilboard",
           "printRun": 400,
           "serial": "",
@@ -29635,7 +29635,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rookie Roundball Remnants",
           "printRun": 700,
           "serial": "",
@@ -29645,7 +29645,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rookie Roundball Remnants - Rainbow Foilboard",
           "printRun": 400,
           "serial": "",
@@ -29655,7 +29655,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Franchise Fabrics",
           "printRun": 3000,
           "serial": "",
@@ -29665,7 +29665,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Franchise Fabrics - Holo Foil",
           "printRun": 800,
           "serial": "",
@@ -29675,7 +29675,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Swish and Stitch Relics",
           "printRun": 1000,
           "serial": "",
@@ -29685,7 +29685,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Swish and Stitch Relics - Holo Foil",
           "printRun": 800,
           "serial": "",
@@ -29695,7 +29695,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Woven Wonders",
           "printRun": 1425,
           "serial": "",
@@ -29705,7 +29705,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Woven Wonders - Holo Foil",
           "printRun": 500,
           "serial": "",
@@ -29715,7 +29715,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Store Exclusive Relics",
           "printRun": 200,
           "serial": "",
@@ -29725,7 +29725,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Retail Ripper Relics",
           "printRun": 260,
           "serial": "",
@@ -29735,7 +29735,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Flagship Real One Relics",
           "printRun": 250,
           "serial": "",
@@ -31285,7 +31285,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rise to the Occasion Relics",
           "printRun": 700,
           "serial": "",
@@ -31295,7 +31295,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rise to the Occasion Relics",
           "printRun": 400,
           "serial": "",
@@ -31305,7 +31305,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rise to the Occasion Relics",
           "printRun": "",
           "serial": "/99",
@@ -31315,7 +31315,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rise to the Occasion Relics",
           "printRun": "",
           "serial": "/50",
@@ -31325,7 +31325,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rise to the Occasion Relics",
           "printRun": "",
           "serial": "/25",
@@ -31335,7 +31335,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rise to the Occasion Relics",
           "printRun": "",
           "serial": "/10",
@@ -31345,7 +31345,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rise to the Occasion Relics",
           "printRun": "",
           "serial": "/5",
@@ -31355,7 +31355,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rise to the Occasion Relics",
           "printRun": "",
           "serial": "/1",
@@ -31365,7 +31365,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Own The Game",
           "printRun": 610,
           "serial": "",
@@ -31375,7 +31375,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Own The Game",
           "printRun": 400,
           "serial": "",
@@ -31385,7 +31385,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Own The Game",
           "printRun": "",
           "serial": "/99",
@@ -31395,7 +31395,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Own The Game",
           "printRun": "",
           "serial": "/50",
@@ -31405,7 +31405,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Own The Game",
           "printRun": "",
           "serial": "/25",
@@ -31415,7 +31415,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Own The Game",
           "printRun": "",
           "serial": "/10",
@@ -31425,7 +31425,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Own The Game",
           "printRun": "",
           "serial": "/5",
@@ -31435,7 +31435,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Own The Game",
           "printRun": "",
           "serial": "/1",
@@ -31445,7 +31445,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rookie Roundball Remnants",
           "printRun": 700,
           "serial": "",
@@ -31455,7 +31455,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rookie Roundball Remnants",
           "printRun": 400,
           "serial": "",
@@ -31465,7 +31465,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rookie Roundball Remnants",
           "printRun": "",
           "serial": "/99",
@@ -31475,7 +31475,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rookie Roundball Remnants",
           "printRun": "",
           "serial": "/50",
@@ -31485,7 +31485,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rookie Roundball Remnants",
           "printRun": "",
           "serial": "/25",
@@ -31495,7 +31495,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rookie Roundball Remnants",
           "printRun": "",
           "serial": "/10",
@@ -31505,7 +31505,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rookie Roundball Remnants",
           "printRun": "",
           "serial": "/5",
@@ -31515,7 +31515,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Rookie Roundball Remnants",
           "printRun": "",
           "serial": "/1",
@@ -31525,7 +31525,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Franchise Fabrics",
           "printRun": 3000,
           "serial": "",
@@ -31535,7 +31535,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Franchise Fabrics",
           "printRun": 8000,
           "serial": "",
@@ -31545,7 +31545,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Franchise Fabrics",
           "printRun": "",
           "serial": "/99",
@@ -31555,7 +31555,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Franchise Fabrics",
           "printRun": "",
           "serial": "/50",
@@ -31565,7 +31565,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Franchise Fabrics",
           "printRun": "",
           "serial": "/25",
@@ -31575,7 +31575,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Franchise Fabrics",
           "printRun": "",
           "serial": "/10",
@@ -31585,7 +31585,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Franchise Fabrics",
           "printRun": "",
           "serial": "/5",
@@ -31595,7 +31595,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Franchise Fabrics",
           "printRun": "",
           "serial": "/1",
@@ -31605,7 +31605,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Swish and Stitch Relics",
           "printRun": 1000,
           "serial": "",
@@ -31615,7 +31615,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Swish and Stitch Relics",
           "printRun": 800,
           "serial": "",
@@ -31625,7 +31625,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Swish and Stitch Relics",
           "printRun": "",
           "serial": "/99",
@@ -31635,7 +31635,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Swish and Stitch Relics",
           "printRun": "",
           "serial": "/50",
@@ -31645,7 +31645,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Swish and Stitch Relics",
           "printRun": "",
           "serial": "/25",
@@ -31655,7 +31655,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Swish and Stitch Relics",
           "printRun": "",
           "serial": "/10",
@@ -31665,7 +31665,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Swish and Stitch Relics",
           "printRun": "",
           "serial": "/5",
@@ -31675,7 +31675,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Swish and Stitch Relics",
           "printRun": "",
           "serial": "/1",
@@ -31685,7 +31685,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Woven Wonders Relics",
           "printRun": 1425,
           "serial": "",
@@ -31695,7 +31695,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Woven Wonders Relics",
           "printRun": 500,
           "serial": "",
@@ -31705,7 +31705,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Woven Wonders Relics",
           "printRun": "",
           "serial": "/99",
@@ -31715,7 +31715,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Woven Wonders Relics",
           "printRun": "",
           "serial": "/50",
@@ -31725,7 +31725,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Woven Wonders Relics",
           "printRun": "",
           "serial": "/25",
@@ -31735,7 +31735,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Woven Wonders Relics",
           "printRun": "",
           "serial": "/10",
@@ -31745,7 +31745,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Woven Wonders Relics",
           "printRun": "",
           "serial": "/5",
@@ -31755,7 +31755,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Woven Wonders Relics",
           "printRun": "",
           "serial": "/1",
@@ -31765,7 +31765,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Flagship Real One Relics",
           "printRun": 250,
           "serial": "",
@@ -31775,7 +31775,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Flagship Real One Relics",
           "printRun": "",
           "serial": "/50",
@@ -31785,7 +31785,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Flagship Real One Relics",
           "printRun": "",
           "serial": "/25",
@@ -31795,7 +31795,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Flagship Real One Relics",
           "printRun": "",
           "serial": "/10",
@@ -31805,7 +31805,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Flagship Real One Relics",
           "printRun": "",
           "serial": "/5",
@@ -31815,7 +31815,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Flagship Real One Relics",
           "printRun": "",
           "serial": "/1",
@@ -31825,7 +31825,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Store Exclusive Relics",
           "printRun": 200,
           "serial": "",
@@ -31835,7 +31835,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Store Exclusive Relics",
           "printRun": "",
           "serial": "/99",
@@ -31845,7 +31845,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Store Exclusive Relics",
           "printRun": "",
           "serial": "/50",
@@ -31855,7 +31855,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Store Exclusive Relics",
           "printRun": "",
           "serial": "/25",
@@ -31865,7 +31865,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Store Exclusive Relics",
           "printRun": "",
           "serial": "/5",
@@ -31875,7 +31875,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Store Exclusive Relics",
           "printRun": "",
           "serial": "/1",
@@ -31885,7 +31885,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Retail Ripper Relics",
           "printRun": 260,
           "serial": "",
@@ -31895,7 +31895,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Retail Ripper Relics",
           "printRun": "",
           "serial": "/99",
@@ -31905,7 +31905,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Retail Ripper Relics",
           "printRun": "",
           "serial": "/50",
@@ -31915,7 +31915,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Retail Ripper Relics",
           "printRun": "",
           "serial": "/25",
@@ -31925,7 +31925,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Retail Ripper Relics",
           "printRun": "",
           "serial": "/5",
@@ -31935,7 +31935,7 @@
         },
         {
           "code": "2025_26_topps_basketball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Retail Ripper Relics",
           "printRun": "",
           "serial": "/1",
@@ -33523,7 +33523,7 @@
         },
         {
           "code": "2023_Topps_Chrome_Baseball",
-          "setType": "Relic",
+          "setType": "Memorabilia",
           "setLine": "Topps Chrome Authentics",
           "printRun": 190,
           "serial": "",
@@ -34229,7 +34229,7 @@
         },
         {
           "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Pristine Pieces Auto Relics",
           "printRun": 23,
           "serial": "",
@@ -34239,7 +34239,7 @@
         },
         {
           "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Popular Demand Auto Relic",
           "printRun": 24,
           "serial": "",
@@ -34249,7 +34249,7 @@
         },
         {
           "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Base card",
           "printRun": 12667,
           "serial": "",
@@ -34419,7 +34419,7 @@
         },
         {
           "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Auto Variations",
           "printRun": 200,
           "serial": "",
@@ -34429,7 +34429,7 @@
         },
         {
           "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Enchanted Pen Refractor",
           "printRun": 60,
           "serial": "",
@@ -34439,7 +34439,7 @@
         },
         {
           "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Spellbinding Trios Refractor",
           "printRun": 40,
           "serial": "",
@@ -34449,7 +34449,7 @@
         },
         {
           "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Merlin’s Match Ball Signatures Refractor",
           "printRun": 70,
           "serial": "",
@@ -34469,7 +34469,7 @@
         },
         {
           "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Pristine Autos",
           "printRun": 18,
           "serial": "",
@@ -34479,7 +34479,7 @@
         },
         {
           "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Base card",
           "printRun": 12667,
           "serial": "",
@@ -34883,7 +34883,7 @@
         },
         {
           "code": "2025_topps_signature_class_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Veteran Class Autos",
           "printRun": 540,
           "serial": "",
@@ -34893,7 +34893,7 @@
         },
         {
           "code": "2025_topps_signature_class_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Rookie Class Autos",
           "printRun": 840,
           "serial": "",
@@ -34903,7 +34903,7 @@
         },
         {
           "code": "2025_topps_signature_class_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Legends of Their Class Crystal Clear Autos",
           "printRun": 100,
           "serial": "",
@@ -34913,7 +34913,7 @@
         },
         {
           "code": "2025_topps_signature_class_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Rookie Class Crystal Clear Autos",
           "printRun": 230,
           "serial": "",
@@ -34923,7 +34923,7 @@
         },
         {
           "code": "2025_topps_signature_class_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Veteran Class Crystal Clear Autos",
           "printRun": 140,
           "serial": "",
@@ -34933,7 +34933,7 @@
         },
         {
           "code": "2025_topps_signature_class_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "HOF Signs Base Autos",
           "printRun": 20,
           "serial": "",
@@ -34943,7 +34943,7 @@
         },
         {
           "code": "2025_topps_signature_class_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Signature Class Autos",
           "printRun": 80,
           "serial": "",
@@ -34953,7 +34953,7 @@
         },
         {
           "code": "2025_topps_signature_class_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Signature Classics",
           "printRun": 45,
           "serial": "",
@@ -34963,7 +34963,7 @@
         },
         {
           "code": "2025_topps_signature_class_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Supreme Signers",
           "printRun": 80,
           "serial": "",
@@ -34973,7 +34973,7 @@
         },
         {
           "code": "2025_topps_signature_class_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Preeminent Ink",
           "printRun": 70,
           "serial": "",
@@ -34983,7 +34983,7 @@
         },
         {
           "code": "2025_topps_signature_class_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Veteran Class Chrome Autos",
           "printRun": 280,
           "serial": "",
@@ -34993,7 +34993,7 @@
         },
         {
           "code": "2025_topps_signature_class_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Rookie Class Chrome Autos",
           "printRun": 255,
           "serial": "",
@@ -35367,7 +35367,7 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Autos",
           "printRun": 230,
           "serial": "",
@@ -35377,7 +35377,7 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Rookie Finest Autos",
           "printRun": 950,
           "serial": "",
@@ -35387,7 +35387,7 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Autos Refractors",
           "printRun": 100,
           "serial": "",
@@ -35397,7 +35397,7 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Rookie Finest Autos Refractors",
           "printRun": 225,
           "serial": "",
@@ -35407,7 +35407,7 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Autos Oil Spill",
           "printRun": 9,
           "serial": "",
@@ -35417,7 +35417,7 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Rookie Finest Autos Oil Spill",
           "printRun": 8,
           "serial": "",
@@ -35427,7 +35427,7 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Flashback Autos",
           "printRun": 315,
           "serial": "",
@@ -35437,7 +35437,7 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Freshman Autos",
           "printRun": 185,
           "serial": "",
@@ -35447,7 +35447,7 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Greats Autos",
           "printRun": 190,
           "serial": "",
@@ -35457,7 +35457,7 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Flashback Autos Refractors",
           "printRun": 110,
           "serial": "",
@@ -35467,7 +35467,7 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Freshman Autos Refractors",
           "printRun": 240,
           "serial": "",
@@ -35477,7 +35477,7 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Greats Autos Refractors",
           "printRun": 135,
           "serial": "",
@@ -35487,7 +35487,7 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Moments Autos Refractors",
           "printRun": 85,
           "serial": "",
@@ -35497,7 +35497,7 @@
         },
         {
           "code": "2025_topps_finest_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Fans Autos Refractors",
           "printRun": 100,
           "serial": "",
@@ -35871,7 +35871,7 @@
         },
         {
           "code": "2026_topps_finest_baseball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Autos",
           "printRun": 260,
           "serial": "",
@@ -35881,7 +35881,7 @@
         },
         {
           "code": "2026_topps_finest_baseball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Autos Refractor",
           "printRun": 135,
           "serial": "",
@@ -35891,7 +35891,7 @@
         },
         {
           "code": "2026_topps_finest_baseball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Ink",
           "printRun": 170,
           "serial": "",
@@ -35901,7 +35901,7 @@
         },
         {
           "code": "2026_topps_finest_baseball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Moments Autos",
           "printRun": 160,
           "serial": "",
@@ -35911,7 +35911,7 @@
         },
         {
           "code": "2026_topps_finest_baseball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Personality Autos",
           "printRun": 215,
           "serial": "",
@@ -35921,7 +35921,7 @@
         },
         {
           "code": "2026_topps_finest_baseball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Gustographs",
           "printRun": 25,
           "serial": "",
@@ -35931,7 +35931,7 @@
         },
         {
           "code": "2026_topps_finest_baseball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Topps Rookie Cup Anniversary Autos",
           "printRun": 50,
           "serial": "",
@@ -35941,7 +35941,7 @@
         },
         {
           "code": "2026_topps_finest_baseball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Topps Rookie Cup Dual Autos",
           "printRun": 15,
           "serial": "",
@@ -35951,7 +35951,7 @@
         },
         {
           "code": "2026_topps_finest_baseball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Rookie Patch Autos",
           "printRun": 105,
           "serial": "",
@@ -35961,7 +35961,7 @@
         },
         {
           "code": "2026_topps_finest_baseball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Mystery Redemption",
           "printRun": 90,
           "serial": "",
@@ -35971,7 +35971,7 @@
         },
         {
           "code": "2026_topps_finest_baseball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Mega Autos",
           "printRun": 340,
           "serial": "",
@@ -35981,7 +35981,7 @@
         },
         {
           "code": "2026_topps_finest_baseball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Finest Mega Autos Mini Diamond",
           "printRun": 120,
           "serial": "",
@@ -36155,7 +36155,7 @@
         },
         {
           "code": "2025_26_topps_chrome_uefa_women_s_champions_league_soccer",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Chrome Dual Autos",
           "printRun": 30,
           "serial": "",
@@ -36165,7 +36165,7 @@
         },
         {
           "code": "2025_26_topps_chrome_uefa_women_s_champions_league_soccer",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Future Stars Autos",
           "printRun": 120,
           "serial": "",
@@ -36175,7 +36175,7 @@
         },
         {
           "code": "2025_26_topps_chrome_uefa_women_s_champions_league_soccer",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Queens of Football Autos",
           "printRun": 120,
           "serial": "",
@@ -36185,7 +36185,7 @@
         },
         {
           "code": "2025_26_topps_chrome_uefa_women_s_champions_league_soccer",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Veterans & Rookies Autos",
           "printRun": 215,
           "serial": "",
@@ -36279,7 +36279,7 @@
         },
         {
           "code": "2025_topps_chrome_black_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Base Autos",
           "printRun": 70,
           "serial": "",
@@ -36289,7 +36289,7 @@
         },
         {
           "code": "2025_topps_chrome_black_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Base Rookie Autos",
           "printRun": 680,
           "serial": "",
@@ -36849,7 +36849,7 @@
         },
         {
           "code": "2025_26_topps_chrome_update_basketball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Base Topps Chrome Autos",
           "printRun": 300,
           "serial": "",
@@ -36859,7 +36859,7 @@
         },
         {
           "code": "2025_26_topps_chrome_update_basketball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Base Havoc Marks",
           "printRun": 225,
           "serial": "",
@@ -36869,7 +36869,7 @@
         },
         {
           "code": "2025_26_topps_chrome_update_basketball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "1980-81 Topps Basketball Autos",
           "printRun": 80,
           "serial": "",
@@ -36879,7 +36879,7 @@
         },
         {
           "code": "2025_26_topps_chrome_update_basketball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Future Stars Autos",
           "printRun": 175,
           "serial": "",
@@ -36889,7 +36889,7 @@
         },
         {
           "code": "2025_26_topps_chrome_update_basketball",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Chromographs",
           "printRun": 640,
           "serial": "",
@@ -37153,7 +37153,7 @@
         },
         {
           "code": "2025_topps_resurgence_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Base Signatures",
           "printRun": 50,
           "serial": "",
@@ -37163,7 +37163,7 @@
         },
         {
           "code": "2025_topps_resurgence_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Base Signatures Silver Static (Delight only)",
           "printRun": 60,
           "serial": "",
@@ -37173,7 +37173,7 @@
         },
         {
           "code": "2025_topps_resurgence_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Rookie Signatures",
           "printRun": 1515,
           "serial": "",
@@ -37183,7 +37183,7 @@
         },
         {
           "code": "2025_topps_resurgence_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Rookie Signatures Silver Static (Delight only)",
           "printRun": 80,
           "serial": "",
@@ -37193,7 +37193,7 @@
         },
         {
           "code": "2025_topps_resurgence_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Molecular Marks Base Auto",
           "printRun": 100,
           "serial": "",
@@ -37203,7 +37203,7 @@
         },
         {
           "code": "2025_topps_resurgence_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Arc Flash Base Autos",
           "printRun": 130,
           "serial": "",
@@ -37213,7 +37213,7 @@
         },
         {
           "code": "2025_topps_resurgence_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Neon Initiates Base",
           "printRun": 160,
           "serial": "",
@@ -37223,7 +37223,7 @@
         },
         {
           "code": "2025_topps_resurgence_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Thermal Red Ink Base Autos",
           "printRun": 33,
           "serial": "",
@@ -37233,7 +37233,7 @@
         },
         {
           "code": "2025_topps_resurgence_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Rookie Relic Signatures Base",
           "printRun": 320,
           "serial": "",
@@ -37243,7 +37243,7 @@
         },
         {
           "code": "2025_topps_resurgence_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Amped Up Rookie Relic Autos Base",
           "printRun": 320,
           "serial": "",
@@ -37253,7 +37253,7 @@
         },
         {
           "code": "2025_topps_resurgence_football",
-          "setType": "Auto",
+          "setType": "Autograph",
           "setLine": "Radial Rookie Relics Base",
           "printRun": 330,
           "serial": "",
