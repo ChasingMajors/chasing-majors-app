@@ -2,10 +2,10 @@
   "ok": true,
   "sport": "baseball",
   "kind": "checklist_search",
-  "source": "Product-scoped approved import search update",
-  "generated_at": "2026-08-26T18:18:49.406Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-08-29T05:53:43.142Z",
   "shard": 10,
-  "shard_count": 62,
+  "shard_count": 63,
   "rows": [
     {
       "term": "Victor Quezada",
