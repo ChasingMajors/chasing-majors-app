@@ -2,10 +2,10 @@
   "ok": true,
   "sport": "baseball",
   "kind": "checklist_search",
-  "source": "Checklist DB map current merge",
-  "generated_at": "2026-08-30T05:53:42.962Z",
+  "source": "Product-scoped approved import search update",
+  "generated_at": "2026-08-31T16:01:42.659Z",
   "shard": 50,
-  "shard_count": 63,
+  "shard_count": 62,
   "rows": [
     {
       "term": "Matt McLain",
