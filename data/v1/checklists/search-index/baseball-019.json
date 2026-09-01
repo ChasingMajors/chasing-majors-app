@@ -2,10 +2,10 @@
   "ok": true,
   "sport": "baseball",
   "kind": "checklist_search",
-  "source": "Product-scoped approved import search update",
-  "generated_at": "2026-08-31T16:01:42.659Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-09-01T05:53:43.481Z",
   "shard": 19,
-  "shard_count": 62,
+  "shard_count": 63,
   "rows": [
     {
       "term": "Coby Mayo",
