@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-08-31T05:53:43.394Z",
+  "generated_at": "2026-09-01T05:53:43.481Z",
   "shard": 26,
   "shard_count": 26,
   "products": {
@@ -29406,6 +29406,4218 @@
           "applies_to_section": "Insert",
           "applies_to_subset": "Wrecking Crew LogoFractor",
           "parallel_name": "Rose Gold",
+          "serial_no": "/1"
+        }
+      ]
+    },
+    "2026_topps_chrome_sapphire_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_chrome_sapphire_baseball",
+        "displayName": "2026 Topps Chrome Sapphire Baseball",
+        "keywords": "2026 Topps Chrome Sapphire Baseball, 2026 Topps Chrome Sapphire Baseball checklist, 2026 Topps Chrome Sapphire Baseball cards, 2026 Topps Chrome Sapphire Baseball parallels, 2026 Topps Chrome Sapphire Baseball autographs, Topps Chrome Sapphire baseball, Chrome Sapphire baseball checklist",
+        "source_key": "2026",
+        "year": "2026",
+        "manufacturer": "Topps",
+        "product": "Chrome Sapphire",
+        "sport": "baseball"
+      },
+      "rows": [
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "1",
+          "player": "Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "2",
+          "player": "Cody Bellinger",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "3",
+          "player": "Yordan Alvarez",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "4",
+          "player": "Brice Turang",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "5",
+          "player": "Trea Turner",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "6",
+          "player": "Sal Stewart",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "7",
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "8",
+          "player": "Ezequiel Tovar",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "9",
+          "player": "Cal Raleigh",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "10",
+          "player": "Andy Pages",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "11",
+          "player": "Noelvi Marte",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "12",
+          "player": "Bobby Witt Jr.",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "13",
+          "player": "Kyle Karros",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "14",
+          "player": "Jack Flaherty",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "15",
+          "player": "Christian Yelich",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "16",
+          "player": "Kevin McGonigle",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "17",
+          "player": "Juan Soto",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "18",
+          "player": "Dillon Dingler",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "19",
+          "player": "Heriberto Hernández",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "20",
+          "player": "Sandy Alcantara",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "21",
+          "player": "Shane Bieber",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "22",
+          "player": "Mason Barnett",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "23",
+          "player": "Cole Young",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "24",
+          "player": "Josh Bell",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "25",
+          "player": "J.P. Crawford",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "26",
+          "player": "Michael Busch",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "27",
+          "player": "Joey Ortiz",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "28",
+          "player": "Corey Seager",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "29",
+          "player": "Nico Hoerner",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "30",
+          "player": "Alex Bregman",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "31",
+          "player": "Bryan Woo",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "32",
+          "player": "Isaac Paredes",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "33",
+          "player": "Luisangel Acuña",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "34",
+          "player": "Seiya Suzuki",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "35",
+          "player": "Gleyber Torres",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "36",
+          "player": "Yusei Kikuchi",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "37",
+          "player": "Gavin Williams",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "38",
+          "player": "Eury Pérez",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "39",
+          "player": "Carter Jensen",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "40",
+          "player": "Spencer Steer",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "41",
+          "player": "MacKenzie Gore",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "42",
+          "player": "Chris Bassitt",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "43",
+          "player": "Carlos Rodón",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "44",
+          "player": "Max Muncy",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "45",
+          "player": "Pete Crow-Armstrong",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "46",
+          "player": "C.J. Kayfus",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "47",
+          "player": "Carlos Correa",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "48",
+          "player": "Kyle Stowers",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "49",
+          "player": "Miguel Vargas",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "50",
+          "player": "Tarik Skubal",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "51",
+          "player": "Jackson Chourio",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "52",
+          "player": "Jack Dreyer",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "53",
+          "player": "Victor Scott II",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "54",
+          "player": "Dylan Crews",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "55",
+          "player": "Pete Alonso",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "56",
+          "player": "Harry Ford",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "57",
+          "player": "Drew Rasmussen",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "58",
+          "player": "Kyle Tucker",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "59",
+          "player": "Brandon Sproat",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "60",
+          "player": "Sal Frelick",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "61",
+          "player": "Jazz Chisholm Jr.",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "62",
+          "player": "Luis Castillo",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "63",
+          "player": "Kyle Teel",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "64",
+          "player": "Shinnosuke Ogasawara",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "65",
+          "player": "Trevor Story",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "66",
+          "player": "Vladimir Guerrero Jr.",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "67",
+          "player": "Freddy Peralta",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "68",
+          "player": "Brendan Donovan",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "69",
+          "player": "Matt McLain",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "70",
+          "player": "Jhostynxon Garcia",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "71",
+          "player": "Edwin Díaz",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "72",
+          "player": "Brandon Lowe",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "73",
+          "player": "Justin Crawford",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "74",
+          "player": "Konnor Griffin",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "75",
+          "player": "Yoshinobu Yamamoto",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "76",
+          "player": "George Valera",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "77",
+          "player": "Zach Neto",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "78",
+          "player": "Kazuma Okamoto",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "79",
+          "player": "Trent Grisham",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "80",
+          "player": "Spencer Schwellenbach",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "81",
+          "player": "Javier Báez",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "82",
+          "player": "Iván Herrera",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "83",
+          "player": "Corbin Carroll",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "84",
+          "player": "Maikel Garcia",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "85",
+          "player": "Grant Taylor",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "86",
+          "player": "Trey Yesavage",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "87",
+          "player": "Carson Benge",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "88",
+          "player": "Marcelo Mayer",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "89",
+          "player": "Tanner Bibee",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "90",
+          "player": "Michael McGreevy",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "91",
+          "player": "Cole Ragans",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "92",
+          "player": "Gabriel Moreno",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "93",
+          "player": "Bubba Chandler",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "94",
+          "player": "Nolan Schanuel",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "95",
+          "player": "Jarren Duran",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "96",
+          "player": "Nick Pivetta",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "97",
+          "player": "Logan O'Hoppe",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "98",
+          "player": "Chase Meidroth",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "99",
+          "player": "Ketel Marte",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "100",
+          "player": "Aaron Judge",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "101",
+          "player": "Brandon Nimmo",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "102",
+          "player": "Alex Freeland",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "103",
+          "player": "Luke Weaver",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "104",
+          "player": "Taylor Walls",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "105",
+          "player": "Alejandro Kirk",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "106",
+          "player": "Ernie Clement",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "107",
+          "player": "Zach Cole",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "108",
+          "player": "Cam Smith",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "109",
+          "player": "Bo Bichette",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "110",
+          "player": "Spencer Strider",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "111",
+          "player": "Kevin Gausman",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "112",
+          "player": "Cody Ponce",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "113",
+          "player": "Max Fried",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "114",
+          "player": "Shane Baz",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "115",
+          "player": "Owen Caissie",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "116",
+          "player": "Otto Lopez",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "117",
+          "player": "Kyle Manzardo",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "118",
+          "player": "Noah Cameron",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "119",
+          "player": "JJ Wetherholt",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "120",
+          "player": "Taylor Ward",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "121",
+          "player": "Cade Horton",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "122",
+          "player": "Ryan Ritter",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "123",
+          "player": "Kyle Schwarber",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "124",
+          "player": "Ronald Acuña Jr.",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "125",
+          "player": "Brenton Doyle",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "126",
+          "player": "Drew Gilbert",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "127",
+          "player": "José Ramírez",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "128",
+          "player": "James Wood",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "129",
+          "player": "Connelly Early",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "130",
+          "player": "Junior Caminero",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "131",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "132",
+          "player": "Daylen Lile",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "133",
+          "player": "Justin Verlander",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "134",
+          "player": "Chase Burns",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "135",
+          "player": "Hunter Greene",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "136",
+          "player": "Jackson Holliday",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "137",
+          "player": "Jackson Merrill",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "138",
+          "player": "Kodai Senga",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "139",
+          "player": "Coby Mayo",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "140",
+          "player": "Willy Adames",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "141",
+          "player": "Hurston Waldrep",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "142",
+          "player": "Carson Whisenhunt",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "143",
+          "player": "Zach Maxwell",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "144",
+          "player": "Giancarlo Stanton",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "145",
+          "player": "Aroldis Chapman",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "146",
+          "player": "Randy Arozarena",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "147",
+          "player": "Colby Thomas",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "148",
+          "player": "Max Scherzer",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "149",
+          "player": "Julio Rodríguez",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "150",
+          "player": "Paul Skenes",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "151",
+          "player": "Royce Lewis",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "152",
+          "player": "Chandler Simpson",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "153",
+          "player": "Gunnar Henderson",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "154",
+          "player": "Manny Machado",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "155",
+          "player": "Xander Bogaerts",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "156",
+          "player": "Alec Burleson",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "157",
+          "player": "Jeremy Peña",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "158",
+          "player": "Zac Gallen",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "159",
+          "player": "Freddie Freeman",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "160",
+          "player": "Andrew Painter",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "161",
+          "player": "Shota Imanaga",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "162",
+          "player": "Vinnie Pasquantino",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "163",
+          "player": "Bryan Reynolds",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "164",
+          "player": "Jeff McNeil",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "165",
+          "player": "Wilyer Abreu",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "166",
+          "player": "Lourdes Gurriel Jr.",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "167",
+          "player": "Will Banfield",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "168",
+          "player": "Luis Arraez",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "169",
+          "player": "Brice Matthews",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "170",
+          "player": "Steven Kwan",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "171",
+          "player": "Austin Riley",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "172",
+          "player": "Michael King",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "173",
+          "player": "Byron Buxton",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "174",
+          "player": "Jonathan Aranda",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "175",
+          "player": "Jack Leiter",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "176",
+          "player": "Logan Gilbert",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "177",
+          "player": "Payton Tolle",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "178",
+          "player": "Mike Yastrzemski",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "179",
+          "player": "Brooks Lee",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "180",
+          "player": "Riley Greene",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "181",
+          "player": "T.J. Rumfield",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "182",
+          "player": "Nolan Arenado",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "183",
+          "player": "Rafael Devers",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "184",
+          "player": "Parker Messick",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "185",
+          "player": "Rafael Flores",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "186",
+          "player": "Brent Rooker",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "187",
+          "player": "Dansby Swanson",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "188",
+          "player": "Jung Hoo Lee",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "189",
+          "player": "Brady House",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "190",
+          "player": "Henry Davis",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "191",
+          "player": "Gerrit Cole",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "192",
+          "player": "Nathan Church",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "193",
+          "player": "Matt Chapman",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "194",
+          "player": "Devin Williams",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "195",
+          "player": "Carson Williams",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "196",
+          "player": "Jacob Misiorowski",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "197",
+          "player": "Patrick Bailey",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "198",
+          "player": "William Contreras",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "199",
+          "player": "Roki Sasaki",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "200",
+          "player": "Mike Trout",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "201",
+          "player": "Josh Naylor",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "202",
+          "player": "Troy Melton",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "203",
+          "player": "Eugenio Suárez",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "204",
+          "player": "Xavier Edwards",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "205",
+          "player": "Robert Suarez",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "206",
+          "player": "Adolis García",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "207",
+          "player": "Hunter Goodman",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "208",
+          "player": "Dylan Cease",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "209",
+          "player": "Caleb Durbin",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "210",
+          "player": "Joe Ryan",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "211",
+          "player": "Tyler Soderstrom",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "212",
+          "player": "Sean Murphy",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "213",
+          "player": "Wyatt Langford",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "214",
+          "player": "Andrew McCutchen",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "215",
+          "player": "Shane Smith",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "216",
+          "player": "George Kirby",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "217",
+          "player": "Masyn Winn",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "218",
+          "player": "Dylan Beavers",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "219",
+          "player": "Harrison Bader",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "220",
+          "player": "Luke Keaschall",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "221",
+          "player": "Jordan Walker",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "222",
+          "player": "Agustín Ramírez",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "223",
+          "player": "Lawrence Butler",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "224",
+          "player": "Daulton Varsho",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "225",
+          "player": "Roman Anthony",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "226",
+          "player": "Jordan Beck",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "227",
+          "player": "Jacob Wilson",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "228",
+          "player": "Geraldo Perdomo",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "229",
+          "player": "Otto Kemp",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "230",
+          "player": "Kerry Carpenter",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "231",
+          "player": "Seth Lugo",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "232",
+          "player": "Christian Moore",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "233",
+          "player": "J.T. Realmuto",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "234",
+          "player": "Ryan Jeffers",
+          "team": "Minnesota Twins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "235",
+          "player": "Jo Adell",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "236",
+          "player": "Nolan McLean",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "237",
+          "player": "Corbin Burnes",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "238",
+          "player": "Logan Webb",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "239",
+          "player": "Maximo Acosta",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "240",
+          "player": "Will Smith",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "241",
+          "player": "Matt Olson",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "242",
+          "player": "Tatsuya Imai",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "243",
+          "player": "CJ Abrams",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "244",
+          "player": "Bryce Harper",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "245",
+          "player": "Jacob Melton",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "246",
+          "player": "Denzel Clarke",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "247",
+          "player": "Warming Bernabel",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "248",
+          "player": "Bryson Stott",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "249",
+          "player": "Oneil Cruz",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "250",
+          "player": "Nick Kurtz",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "251",
+          "player": "Isaac Collins",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "252",
+          "player": "Christian Walker",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "253",
+          "player": "George Springer",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "254",
+          "player": "Bryce Eldridge",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "255",
+          "player": "Cody Freeman",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "256",
+          "player": "Matthew Boyd",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "257",
+          "player": "Denzer Guzman",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "258",
+          "player": "Drake Baldwin",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "259",
+          "player": "Colson Montgomery",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "260",
+          "player": "Fernando Tatis Jr.",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "261",
+          "player": "Jakob Marsee",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "262",
+          "player": "Cam Schlittler",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "263",
+          "player": "Brett Baty",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "264",
+          "player": "Moisés Ballesteros",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "265",
+          "player": "Jesús Luzardo",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "266",
+          "player": "Jacob deGrom",
+          "team": "Texas Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "267",
+          "player": "Luis Robert Jr.",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "268",
+          "player": "Mookie Betts",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "269",
+          "player": "Jonah Tong",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "270",
+          "player": "Cristopher Sánchez",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "271",
+          "player": "Matt Shaw",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "272",
+          "player": "Daniel Schneemann",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "273",
+          "player": "Shea Langeliers",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "274",
+          "player": "Munetaka Murakami",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "275",
+          "player": "Paul Goldschmidt",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "276",
+          "player": "Addison Barger",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "277",
+          "player": "Chase Dollander",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "278",
+          "player": "Blake Snell",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "279",
+          "player": "Elly De La Cruz",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "280",
+          "player": "Willson Contreras",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "281",
+          "player": "Marcus Semien",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "282",
+          "player": "Kristian Campbell",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "283",
+          "player": "Salvador Perez",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "284",
+          "player": "Chase DeLauter",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "285",
+          "player": "Hunter Brown",
+          "team": "Houston Astros",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "286",
+          "player": "Andrés Giménez",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "287",
+          "player": "Mason Miller",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "288",
+          "player": "Kris Bryant",
+          "team": "Colorado Rockies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "289",
+          "player": "Spencer Torkelson",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "290",
+          "player": "Zack Wheeler",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "291",
+          "player": "Jimmy Crooks",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "292",
+          "player": "Lars Nootbaar",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "293",
+          "player": "Austin Hays",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "294",
+          "player": "Luis Morales",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "295",
+          "player": "Ben Rice",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "296",
+          "player": "Chris Sale",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "297",
+          "player": "Ozzie Albies",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "298",
+          "player": "Adley Rutschman",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "299",
+          "player": "Francisco Lindor",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Base Sapphire",
+          "card_no": "300",
+          "player": "Garrett Crochet",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "1",
+          "player": "Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "2",
+          "player": "Cody Bellinger",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "7",
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "9",
+          "player": "Cal Raleigh",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "12",
+          "player": "Bobby Witt Jr.",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "16",
+          "player": "Kevin McGonigle",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "17",
+          "player": "Juan Soto",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "45",
+          "player": "Pete Crow-Armstrong",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "50",
+          "player": "Tarik Skubal",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "51",
+          "player": "Jackson Chourio",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "55",
+          "player": "Pete Alonso",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "63",
+          "player": "Kyle Teel",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "66",
+          "player": "Vladimir Guerrero Jr.",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "75",
+          "player": "Yoshinobu Yamamoto",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "83",
+          "player": "Corbin Carroll",
+          "team": "Arizona Diamondbacks",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "86",
+          "player": "Trey Yesavage",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "87",
+          "player": "Carson Benge",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "93",
+          "player": "Bubba Chandler",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "100",
+          "player": "Aaron Judge",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "119",
+          "player": "JJ Wetherholt",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "124",
+          "player": "Ronald Acuña Jr.",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "127",
+          "player": "José Ramírez",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "128",
+          "player": "James Wood",
+          "team": "Washington Nationals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "130",
+          "player": "Junior Caminero",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "131",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "134",
+          "player": "Chase Burns",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "137",
+          "player": "Jackson Merrill",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "149",
+          "player": "Julio Rodríguez",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "150",
+          "player": "Paul Skenes",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "154",
+          "player": "Manny Machado",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "159",
+          "player": "Freddie Freeman",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "195",
+          "player": "Carson Williams",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "196",
+          "player": "Jacob Misiorowski",
+          "team": "Milwaukee Brewers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "200",
+          "player": "Mike Trout",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "223",
+          "player": "Lawrence Butler",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "225",
+          "player": "Roman Anthony",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "227",
+          "player": "Jacob Wilson",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "244",
+          "player": "Bryce Harper",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "250",
+          "player": "Nick Kurtz",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "253",
+          "player": "George Springer",
+          "team": "Toronto Blue Jays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "254",
+          "player": "Bryce Eldridge",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "258",
+          "player": "Drake Baldwin",
+          "team": "Atlanta Braves",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "259",
+          "player": "Colson Montgomery",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "260",
+          "player": "Fernando Tatis Jr.",
+          "team": "San Diego Padres",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "261",
+          "player": "Jakob Marsee",
+          "team": "Miami Marlins",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "269",
+          "player": "Jonah Tong",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "274",
+          "player": "Munetaka Murakami",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "279",
+          "player": "Elly De La Cruz",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "284",
+          "player": "Chase DeLauter",
+          "team": "Cleveland Guardians",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Variation",
+          "subset": "Baseball Base Sapphire Image Variations",
+          "card_no": "299",
+          "player": "Francisco Lindor",
+          "team": "New York Mets",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-AP",
+          "player": "Andrew Painter",
+          "team": "Philadelphia Phillies",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-BE",
+          "player": "Bryce Eldridge",
+          "team": "San Francisco Giants",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-CD",
+          "player": "Chase DeLauter",
+          "team": "Cleveland Guardians",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-CJ",
+          "player": "Carter Jensen",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-CK",
+          "player": "C.J. Kayfus",
+          "team": "Cleveland Guardians",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-CM",
+          "player": "Colson Montgomery",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-CMO",
+          "player": "Christian Moore",
+          "team": "Los Angeles Angels",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-CSC",
+          "player": "Cam Schlittler",
+          "team": "New York Yankees",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-CT",
+          "player": "Colby Thomas",
+          "team": "Athletics",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-CWS",
+          "player": "Carson Williams",
+          "team": "Tampa Bay Rays",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-CY",
+          "player": "Cole Young",
+          "team": "Seattle Mariners",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-DB",
+          "player": "Dylan Beavers",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-GV",
+          "player": "George Valera",
+          "team": "Cleveland Guardians",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-IMA",
+          "player": "Tatsuya Imai",
+          "team": "Houston Astros",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-JC",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-JGA",
+          "player": "Jhostynxon Garcia",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-JJW",
+          "player": "JJ Wetherholt",
+          "team": "St. Louis Cardinals",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-JM",
+          "player": "Jacob Misiorowski",
+          "team": "Milwaukee Brewers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-JTO",
+          "player": "Jonah Tong",
+          "team": "New York Mets",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-KG",
+          "player": "Konnor Griffin",
+          "team": "Pittsburgh Pirates",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-KK",
+          "player": "Kyle Karros",
+          "team": "Colorado Rockies",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-KM",
+          "player": "Kevin McGonigle",
+          "team": "Detroit Tigers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-MMI",
+          "player": "Munetaka Murakami",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-NM",
+          "player": "Nolan McLean",
+          "team": "New York Mets",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-OC",
+          "player": "Owen Caissie",
+          "team": "Chicago Cubs",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-OK",
+          "player": "Otto Kemp",
+          "team": "Philadelphia Phillies",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-OKA",
+          "player": "Kazuma Okamoto",
+          "team": "Toronto Blue Jays",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-PM",
+          "player": "Parker Messick",
+          "team": "Cleveland Guardians",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-PT",
+          "player": "Payton Tolle",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-RA",
+          "player": "Roman Anthony",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-SB",
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-STE",
+          "player": "Sal Stewart",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-TME",
+          "player": "Troy Melton",
+          "team": "Detroit Tigers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Rookie Auto",
+          "card_no": "RA-TY",
+          "player": "Trey Yesavage",
+          "team": "Toronto Blue Jays",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Selections Auto",
+          "card_no": "SSA-AF",
+          "player": "Alex Freeland",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Selections Auto",
+          "card_no": "SSA-AJ",
+          "player": "Aaron Judge",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Selections Auto",
+          "card_no": "SSA-BC",
+          "player": "Bubba Chandler",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Selections Auto",
+          "card_no": "SSA-CM",
+          "player": "Colson Montgomery",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Selections Auto",
+          "card_no": "SSA-CW",
+          "player": "Carson Williams",
+          "team": "Tampa Bay Rays",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Selections Auto",
+          "card_no": "SSA-ED",
+          "player": "Elly De La Cruz",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Selections Auto",
+          "card_no": "SSA-HF",
+          "player": "Harry Ford",
+          "team": "Seattle Mariners",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Selections Auto",
+          "card_no": "SSA-JC",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Selections Auto",
+          "card_no": "SSA-MT",
+          "player": "Mike Trout",
+          "team": "Los Angeles Angels",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Selections Auto",
+          "card_no": "SSA-NK",
+          "player": "Nick Kurtz",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Selections Auto",
+          "card_no": "SSA-PT",
+          "player": "Payton Tolle",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Selections Auto",
+          "card_no": "SSA-SO",
+          "player": "Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Autograph",
+          "subset": "Baseball Sapphire Selections Auto",
+          "card_no": "SSA-SS",
+          "player": "Sal Stewart",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Hidden Gems Emerald",
+          "card_no": "HG-6",
+          "player": "Samuel Basallo",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Hidden Gems Emerald",
+          "card_no": "HG-7",
+          "player": "Bobby Witt Jr.",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Hidden Gems Emerald",
+          "card_no": "HG-8",
+          "player": "Nick Kurtz",
+          "team": "Athletics",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Hidden Gems Emerald",
+          "card_no": "HG-9",
+          "player": "Jac Caglianone",
+          "team": "Kansas City Royals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Baseball Hidden Gems Emerald",
+          "card_no": "HG-10",
+          "player": "Shohei Ohtani",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        }
+      ],
+      "parallels": [
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Baseball Base Sapphire",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Baseball Base Sapphire",
+          "parallel_name": "White",
+          "serial_no": "/30"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Baseball Base Sapphire",
+          "parallel_name": "orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Baseball Base Sapphire",
+          "parallel_name": "Black",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Baseball Base Sapphire",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Baseball Base Sapphire",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Baseball Base Sapphire Image Variations",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Baseball Base Sapphire Image Variations",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Baseball Base Sapphire Image Variations",
+          "parallel_name": "Black",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Baseball Base Sapphire Image Variations",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Variation",
+          "applies_to_subset": "Baseball Base Sapphire Image Variations",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Baseball Sapphire Rookie Auto",
+          "parallel_name": "Green",
+          "serial_no": "/99"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Baseball Sapphire Rookie Auto",
+          "parallel_name": "Purple",
+          "serial_no": "/75"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Baseball Sapphire Rookie Auto",
+          "parallel_name": "Gold",
+          "serial_no": "/50"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Baseball Sapphire Rookie Auto",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Baseball Sapphire Rookie Auto",
+          "parallel_name": "Black",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Baseball Sapphire Rookie Auto",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Baseball Sapphire Rookie Auto",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Baseball Sapphire Selections Auto",
+          "parallel_name": "Orange",
+          "serial_no": "/25"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Baseball Sapphire Selections Auto",
+          "parallel_name": "Black",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Baseball Sapphire Selections Auto",
+          "parallel_name": "Red",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Autograph",
+          "applies_to_subset": "Baseball Sapphire Selections Auto",
+          "parallel_name": "Padparadscha",
+          "serial_no": "/1"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Baseball Hidden Gems Emerald",
+          "parallel_name": "Onyx",
+          "serial_no": "/10"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Baseball Hidden Gems Emerald",
+          "parallel_name": "Ruby",
+          "serial_no": "/5"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "applies_to_section": "Base",
+          "applies_to_subset": "Baseball Hidden Gems Emerald",
+          "parallel_name": "Padparadscha",
           "serial_no": "/1"
         }
       ]
