@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-09-01T16:00:00.268Z",
+  "generated_at": "2026-09-01T16:00:49.127Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -37260,6 +37260,100 @@
           "subSetSize": 30,
           "notes": "",
           "cmURL": "https://slabsquatch.substack.com/p/2025-topps-resurgence-nfl-analysis"
+        }
+      ]
+    },
+    "2025_26_topps_chrome_update_sapphire_basketball": {
+      "ok": true,
+      "meta": {
+        "code": "2025_26_topps_chrome_update_sapphire_basketball",
+        "displayName": "2025-26 Topps Chrome Update Sapphire Basketball",
+        "year": "2025-26",
+        "sport": "basketball",
+        "manufacturer": "Topps",
+        "product": "Chrome Update Sapphire",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2025_26_topps_chrome_update_sapphire_basketball",
+          "setType": "If That Sounds Crazy...I Mean, You’Re Not Wrong. But The Same Was Also Said About The Regular 2025/26 NBA Chrome Sapphire Release At A $1500 Price Point. Right Before Zero People Scored It On EQL And It Was Instantly $3500-$4k/Box. It Also Just So Happened To Be One Of The Most Epic Products Of All-Time.",
+          "setLine": "If that sounds crazy...I mean, you’re not wrong. But the same was also said about the regular 2025 NBA Chrome Sapphire release at a $1500 price point. Right before zero people scored it on EQL and it was instantly $3500-$4k/box. It also just so happened to be one of the most epic products of all-time.",
+          "printRun": 26,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/202526-topps-chrome-update-sapphire"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_sapphire_basketball",
+          "setType": "Total Production: 322,400 Cards",
+          "setLine": "Total",
+          "printRun": 322400,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/202526-topps-chrome-update-sapphire"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_sapphire_basketball",
+          "setType": "Parallel",
+          "setLine": "As with NBA Chrome Sapphire, every single auto in the product will be Gold or better. Auto checklists are also tighter than with regular NBA Chrome Update. There are not many checklist squatters included.",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/202526-topps-chrome-update-sapphire"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_sapphire_basketball",
+          "setType": "Parallel",
+          "setLine": "If you remember, with NBA Sapphire, odds on Purple parallels stated 1:22 packs. At this rate, they should have been numbered, and I believe that was the intention.",
+          "printRun": 15,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/202526-topps-chrome-update-sapphire"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_sapphire_basketball",
+          "setType": "Parallel",
+          "setLine": "However, somewhere along the line this changed. Live product rips showed them inserted at an actual rate of 1:4 packs and they were numbered. Due to this, the parallel hit rate was an absurd 4.6 numbered cards/box.",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/202526-topps-chrome-update-sapphire"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_sapphire_basketball",
+          "setType": "Auto",
+          "setLine": "As with NBA Chrome Sapphire, every single auto in the product will be Gold or better. Auto checklists are also tighter than with regular NBA Chrome Update. There are not many checklist squatters included.",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/202526-topps-chrome-update-sapphire"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_sapphire_basketball",
+          "setType": "Auto",
+          "setLine": "Print Runs: Base Sapphire",
+          "printRun": 1360,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/202526-topps-chrome-update-sapphire"
+        },
+        {
+          "code": "2025_26_topps_chrome_update_sapphire_basketball",
+          "setType": "Infinite (20 Card CL)- 25 Ea",
+          "setLine": "Sapphire Selections",
+          "printRun": 365,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/202526-topps-chrome-update-sapphire"
         }
       ]
     }
