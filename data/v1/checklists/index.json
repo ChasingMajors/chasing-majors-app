@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-09-02T16:01:40.103Z",
+  "generated_at": "2026-09-04T16:00:49.283Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8615,6 +8615,15 @@
       "sport": "soccer",
       "manufacturer": "Donruss",
       "product": "Road To World Cup 26"
+    },
+    {
+      "Code": "2025_26_panini_frauen_bundesliga_soccer",
+      "DisplayName": "2025-26 Panini Frauen Bundesliga Soccer",
+      "Keywords": "2025-26 Panini Frauen Bundesliga Soccer, 2025-26 Panini Frauen Bundesliga Soccer checklist, 2025-26 Panini Frauen Bundesliga Soccer cards, 2025-26 Panini Frauen Bundesliga Soccer parallels, 2025-26 Panini Frauen Bundesliga Soccer autographs, Panini Frauen Bundesliga soccer, Frauen Bundesliga soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Frauen Bundesliga"
     },
     {
       "Code": "2025_26_panini_noir_road_to_fifa_world_cup",
