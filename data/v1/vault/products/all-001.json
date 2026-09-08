@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-09-08T15:59:22.854Z",
+  "generated_at": "2026-09-08T16:00:05.775Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -37354,6 +37354,160 @@
           "subSetSize": 20,
           "notes": "",
           "cmURL": "https://slabsquatch.substack.com/p/202526-topps-chrome-update-sapphire"
+        }
+      ]
+    },
+    "2025_26_topps_chrome_black_basketball": {
+      "ok": true,
+      "meta": {
+        "code": "2025_26_topps_chrome_black_basketball",
+        "displayName": "2025-26 Topps Chrome Black Basketball",
+        "year": "2025-26",
+        "sport": "basketball",
+        "manufacturer": "Topps",
+        "product": "Chrome Black",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2025_26_topps_chrome_black_basketball",
+          "setType": "Base",
+          "setLine": "Part 10: The Print Runs Base production",
+          "printRun": 5740,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
+        },
+        {
+          "code": "2025_26_topps_chrome_black_basketball",
+          "setType": "Base",
+          "setLine": "Base Rookies",
+          "printRun": 7575,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
+        },
+        {
+          "code": "2025_26_topps_chrome_black_basketball",
+          "setType": "Insert",
+          "setLine": "Rookie Design Variations",
+          "printRun": 400,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
+        },
+        {
+          "code": "2025_26_topps_chrome_black_basketball",
+          "setType": "Insert",
+          "setLine": "Black Lightning",
+          "printRun": 110,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
+        },
+        {
+          "code": "2025_26_topps_chrome_black_basketball",
+          "setType": "Insert",
+          "setLine": "Obscura",
+          "printRun": 110,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
+        },
+        {
+          "code": "2025_26_topps_chrome_black_basketball",
+          "setType": "Insert",
+          "setLine": "Nocturnal",
+          "printRun": 110,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
+        },
+        {
+          "code": "2025_26_topps_chrome_black_basketball",
+          "setType": "Insert",
+          "setLine": "Carbon Flare",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
+        },
+        {
+          "code": "2025_26_topps_chrome_black_basketball",
+          "setType": "Insert",
+          "setLine": "Home Court",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
+        },
+        {
+          "code": "2025_26_topps_chrome_black_basketball",
+          "setType": "Auto",
+          "setLine": "Base Autos",
+          "printRun": 55,
+          "serial": "",
+          "subSetSize": 46,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
+        },
+        {
+          "code": "2025_26_topps_chrome_black_basketball",
+          "setType": "Auto",
+          "setLine": "Base Rookie Autos",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
+        },
+        {
+          "code": "2025_26_topps_chrome_black_basketball",
+          "setType": "Auto",
+          "setLine": "Carbon Ink Base",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 48,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
+        },
+        {
+          "code": "2025_26_topps_chrome_black_basketball",
+          "setType": "Auto",
+          "setLine": "Super Futures Autos Refractor",
+          "printRun": 60,
+          "serial": "",
+          "subSetSize": 40,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
+        },
+        {
+          "code": "2025_26_topps_chrome_black_basketball",
+          "setType": "Auto",
+          "setLine": "Glow Up Signatures Refractor",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
+        },
+        {
+          "code": "2025_26_topps_chrome_black_basketball",
+          "setType": "Auto",
+          "setLine": "Shrouded Signatures Refractor",
+          "printRun": 85,
+          "serial": "",
+          "subSetSize": 24,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
         }
       ]
     }
