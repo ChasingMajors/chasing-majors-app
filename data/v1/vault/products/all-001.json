@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-09-09T16:01:05.185Z",
+  "generated_at": "2026-09-09T16:02:04.111Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -37508,6 +37508,200 @@
           "subSetSize": 24,
           "notes": "",
           "cmURL": "https://slabsquatch.substack.com/p/2025-26-topps-chrome-black-nba"
+        }
+      ]
+    },
+    "2026_topps_chrome_mls_soccer": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_chrome_mls_soccer",
+        "displayName": "2026 Topps Chrome MLS",
+        "year": "2026",
+        "sport": "soccer",
+        "manufacturer": "Topps",
+        "product": "Chrome MLS",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Base",
+          "setLine": "Part 7: The Print Runs Base card production",
+          "printRun": 20635,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Parallel",
+          "setLine": "Refractors",
+          "printRun": 1210,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Parallel",
+          "setLine": "Prism (Hobby only)",
+          "printRun": 660,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Parallel",
+          "setLine": "Raywave (Value only)",
+          "printRun": 2165,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Parallel",
+          "setLine": "Base Mania",
+          "printRun": 80,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Parallel",
+          "setLine": "Blue Lava (Hobby only)",
+          "printRun": 165,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Parallel",
+          "setLine": "White Lava (Hobby only)",
+          "printRun": 80,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Parallel",
+          "setLine": "Red Lava (Hobby only)",
+          "printRun": 55,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Insert",
+          "setLine": "Patriotic Passion",
+          "printRun": 7550,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Insert",
+          "setLine": "Rhythm of the Game",
+          "printRun": 7550,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Insert",
+          "setLine": "Tide Turner",
+          "printRun": 7550,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Insert",
+          "setLine": "Wonderkids",
+          "printRun": 7550,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Insert",
+          "setLine": "Helix",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Insert",
+          "setLine": "Pearlers",
+          "printRun": 105,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Insert",
+          "setLine": "Shadow Etch",
+          "printRun": 190,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Insert",
+          "setLine": "The Grail (Hobby only, 1 card CL)",
+          "printRun": 72,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Auto",
+          "setLine": "Base Chrome Autos",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 81,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
+        },
+        {
+          "code": "2026_topps_chrome_mls_soccer",
+          "setType": "Auto",
+          "setLine": "Chrome Dual Autos",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-chrome-mls"
         }
       ]
     }
