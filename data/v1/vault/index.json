@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-09-09T16:01:05.185Z",
+  "generated_at": "2026-09-09T16:02:04.111Z",
   "index": [
     {
       "Code": "19TFmbl",
@@ -931,6 +931,16 @@
       "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Chrome Black",
+      "cmURL": ""
+    },
+    {
+      "Code": "2026_topps_chrome_mls_soccer",
+      "DisplayName": "2026 Topps Chrome MLS",
+      "Keywords": "2026 Topps Chrome MLS 2026 Topps Chrome MLS Soccer 2026 Topps Chrome MLS Soccer 2026 Chrome MLS Soccer 2026 Chrome MLS Soccer 26 Topps Chrome MLS Soccer 26 Topps Chrome MLS Soccer Topps Chrome MLS Soccer Topps Chrome MLS Soccer Chrome MLS Soccer Chrome MLS Soccer 2026 Topps Chrome MLS print run 2026 Topps Chrome MLS production 2026 Topps Chrome MLS odds 2026 Topps Chrome MLS PRV 2026 Topps Chrome MLS checklist Topps Chrome MLS checklist",
+      "year": "2026",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Chrome MLS",
       "cmURL": ""
     }
   ]
