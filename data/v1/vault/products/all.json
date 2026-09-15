@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-09-15T16:00:18.907Z",
+  "generated_at": "2026-09-15T16:01:14.407Z",
   "sharded": true,
   "shards": [
     "all-001.json"
@@ -101,6 +101,7 @@
     "2025_topps_resurgence_football": "all-001.json",
     "2025_26_topps_chrome_update_sapphire_basketball": "all-001.json",
     "2025_26_topps_chrome_black_basketball": "all-001.json",
-    "2026_topps_chrome_mls_soccer": "all-001.json"
+    "2026_topps_chrome_mls_soccer": "all-001.json",
+    "clean_up_analysis_2025_26_topps_nbl_australian_basketball_league_2025_26_finest_uefa_club_competitions_soccer": "all-001.json"
   }
 }
