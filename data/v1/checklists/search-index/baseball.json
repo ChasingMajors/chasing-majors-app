@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-08-26T18:18:49.406Z",
+  "generated_at": "2026-09-18T03:17:37.077Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -67,6 +67,7 @@
     "baseball-059.json",
     "baseball-060.json",
     "baseball-061.json",
-    "baseball-062.json"
+    "baseball-062.json",
+    "baseball-063.json"
   ]
 }
