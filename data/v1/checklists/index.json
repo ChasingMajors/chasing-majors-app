@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-09-18T03:07:20.600Z",
+  "generated_at": "2026-09-18T03:17:37.077Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -11,6 +11,15 @@
       "sport": "baseball",
       "manufacturer": "Bowman",
       "product": "Baseball"
+    },
+    {
+      "Code": "2026_bowman_chrome_baseball",
+      "DisplayName": "2026 Bowman Chrome Baseball",
+      "Keywords": "2026 Bowman Chrome Baseball, 2026 Bowman Chrome Baseball checklist, 2026 Bowman Chrome Baseball cards, 2026 Bowman Chrome Baseball parallels, 2026 Bowman Chrome Baseball autographs, Bowman Chrome baseball, Chrome baseball checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome"
     },
     {
       "Code": "2026-bowman-mega-box-baseball",
