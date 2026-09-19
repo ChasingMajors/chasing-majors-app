@@ -2,10 +2,10 @@
   "ok": true,
   "sport": "baseball",
   "kind": "checklist_search",
-  "source": "Product-scoped approved import search update",
-  "generated_at": "2026-09-18T03:34:47.129Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-09-19T05:53:42.971Z",
   "shard": 28,
-  "shard_count": 63,
+  "shard_count": 64,
   "rows": [
     {
       "term": "Glenallen Hill Jr.",
