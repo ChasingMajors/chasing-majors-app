@@ -2,10 +2,10 @@
   "ok": true,
   "sport": "baseball",
   "kind": "checklist_search",
-  "source": "Product-scoped approved import search update",
-  "generated_at": "2026-09-22T01:46:42.323Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-09-22T05:53:43.701Z",
   "shard": 6,
-  "shard_count": 63,
+  "shard_count": 64,
   "rows": [
     {
       "term": "Cal Ripken Jr.",
