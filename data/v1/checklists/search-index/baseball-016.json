@@ -2,10 +2,10 @@
   "ok": true,
   "sport": "baseball",
   "kind": "checklist_search",
-  "source": "Product-scoped approved import search update",
-  "generated_at": "2026-09-23T00:27:52.088Z",
+  "source": "Checklist DB map current merge",
+  "generated_at": "2026-09-23T05:53:43.166Z",
   "shard": 16,
-  "shard_count": 63,
+  "shard_count": 64,
   "rows": [
     {
       "term": "Chipper Jones,",
