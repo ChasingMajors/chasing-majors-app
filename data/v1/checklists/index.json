@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-09-23T00:27:52.088Z",
+  "generated_at": "2026-09-24T16:01:58.392Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8912,6 +8912,15 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Real Madrid Team Set"
+    },
+    {
+      "Code": "2025_26_topps_royalty_premier_league_soccer",
+      "DisplayName": "2025-26 Topps Royalty Premier League Soccer",
+      "Keywords": "2025-26 Topps Royalty Premier League Soccer, 2025-26 Topps Royalty Premier League Soccer checklist, 2025-26 Topps Royalty Premier League Soccer cards, 2025-26 Topps Royalty Premier League Soccer parallels, 2025-26 Topps Royalty Premier League Soccer autographs, Topps Royalty Premier League soccer, Royalty Premier League soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Royalty Premier League"
     },
     {
       "Code": "2025_26_topps_simplicidad_uefa_club_competitions_soccer",
