@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-01T15:59:36.178Z",
+  "generated_at": "2026-10-01T16:00:18.411Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -38236,6 +38236,450 @@
           "subSetSize": 7,
           "notes": "",
           "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        }
+      ]
+    },
+    "2026_topps_cosmic_chrome_baseball_early": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_cosmic_chrome_baseball_early",
+        "displayName": "2026 Topps Cosmic Chrome Baseball Early",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Cosmic Chrome Early",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Parallel",
+          "setLine": "Base Refractors",
+          "printRun": 730,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Parallel",
+          "setLine": "Nucleus Refractors",
+          "printRun": 365,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Parallel",
+          "setLine": "White Hole Refractors",
+          "printRun": 185,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Dual Star Cluster",
+          "printRun": 7320,
+          "serial": "",
+          "subSetSize": 8,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Extraterrestrial Talent",
+          "printRun": 6975,
+          "serial": "",
+          "subSetSize": 35,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Forces of the Diamond",
+          "printRun": 7625,
+          "serial": "",
+          "subSetSize": 22,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Launched Into Orbit",
+          "printRun": 730,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Stars in the Night",
+          "printRun": 730,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Stella Nova",
+          "printRun": 730,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Stellar Stars",
+          "printRun": 7320,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Triple Star Clusters",
+          "printRun": 7215,
+          "serial": "",
+          "subSetSize": 7,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Anti-Gravity Variation",
+          "printRun": 60,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Constellation Variation",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Cosmic Dust",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Mars Attacks MLB",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Planetarium",
+          "printRun": 60,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Starfractor",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Supernova",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Planetary Pursuits (All 10 Card Checklists)",
+          "setLine": "Sun",
+          "printRun": 1220,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Planetary Pursuits (All 10 Card Checklists)",
+          "setLine": "Mercury",
+          "printRun": 305,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Planetary Pursuits (All 10 Card Checklists)",
+          "setLine": "Venus",
+          "printRun": 205,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Planetary Pursuits (All 10 Card Checklists)",
+          "setLine": "Earth",
+          "printRun": 120,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Planetary Pursuits (All 10 Card Checklists)",
+          "setLine": "Mars",
+          "printRun": 90,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Planetary Pursuits (All 10 Card Checklists)",
+          "setLine": "Jupiter",
+          "printRun": 30,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Planetary Pursuits (All 10 Card Checklists)",
+          "setLine": "Saturn",
+          "printRun": 20,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Planetary Pursuits (All 10 Card Checklists)",
+          "setLine": "Uranus",
+          "printRun": 12,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Planetary Pursuits (All 10 Card Checklists)",
+          "setLine": "Neptune",
+          "printRun": 7,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Planetary Pursuits (All 10 Card Checklists)",
+          "setLine": "Pluto",
+          "printRun": 5,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Auto",
+          "setLine": "Cosmic Chrome Autos",
+          "printRun": 185,
+          "serial": "",
+          "subSetSize": 58,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Auto",
+          "setLine": "Extraterrestrial Talent Base Autos",
+          "printRun": 120,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Auto",
+          "setLine": "Launched Into Orbit Autos",
+          "printRun": 45,
+          "serial": "",
+          "subSetSize": 32,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Auto",
+          "setLine": "Stellar Stars Autos",
+          "printRun": 45,
+          "serial": "",
+          "subSetSize": 21,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Base",
+          "setLine": "Base Card Production",
+          "printRun": 22585,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Sun",
+          "printRun": 1220,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Mercury",
+          "printRun": 305,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Venus",
+          "printRun": 205,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Earth",
+          "printRun": 120,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Mars",
+          "printRun": 90,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Jupiter",
+          "printRun": 30,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Saturn",
+          "printRun": 20,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Uranus",
+          "printRun": 12,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Neptune",
+          "printRun": 7,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        },
+        {
+          "code": "2026_topps_cosmic_chrome_baseball_early",
+          "setType": "Insert",
+          "setLine": "Pluto",
+          "printRun": 5,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
         }
       ]
     }
