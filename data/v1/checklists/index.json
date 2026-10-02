@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-09-27T23:06:13.520Z",
+  "generated_at": "2026-10-02T16:01:15.106Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -7085,6 +7085,15 @@
       "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Three"
+    },
+    {
+      "Code": "2026_bowman_football",
+      "DisplayName": "2026 Bowman Football",
+      "Keywords": "2026 Bowman Football, 2026 Bowman Football checklist, 2026 Bowman Football cards, 2026 Bowman Football parallels, 2026 Bowman Football autographs, Bowman football, football checklist",
+      "year": "2026",
+      "sport": "football",
+      "manufacturer": "Bowman",
+      "product": ""
     },
     {
       "Code": "2026_topps_flagship_football",
