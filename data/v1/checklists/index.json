@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-10-04T16:02:27.873Z",
+  "generated_at": "2026-10-04T20:40:47.821Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8921,6 +8921,15 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Merlin Premier League"
+    },
+    {
+      "Code": "2025_26_topps_museum_collection_uefa_soccer",
+      "DisplayName": "2025-26 Topps Museum Collection UEFA Soccer",
+      "Keywords": "2025-26 Topps Museum Collection UEFA Soccer, 2025-26 Topps Museum Collection UEFA Soccer checklist, 2025-26 Topps Museum Collection UEFA Soccer cards, 2025-26 Topps Museum Collection UEFA Soccer parallels, 2025-26 Topps Museum Collection UEFA Soccer autographs, Topps Museum Collection UEFA soccer, Museum Collection UEFA soccer checklist",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Museum Collection UEFA"
     },
     {
       "Code": "2025_26_topps_pristine_premier_league_soccer",
