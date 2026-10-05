@@ -3,7 +3,7 @@
   "sport": "soccer",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-10-04T20:42:33.541Z",
+  "generated_at": "2026-10-05T16:02:05.676Z",
   "sharded": true,
   "shards": [
     "soccer-001.json",
@@ -29,7 +29,8 @@
     "soccer-product-2025-26-panini-frauen-bundesliga-soccer.json",
     "soccer-product-2025-26-topps-royalty-premier-league-soccer.json",
     "soccer-product-2026-donruss-nwsl-soccer.json",
-    "soccer-product-2025-26-topps-museum-collection-uefa-soccer.json"
+    "soccer-product-2025-26-topps-museum-collection-uefa-soccer.json",
+    "soccer-product-2026-donruss-optic-nwsl-soccer.json"
   ],
   "product_map": {
     "2025_panini_absolute_k_league_soccer": "soccer-001.json",
@@ -80,6 +81,7 @@
     "2025_26_panini_frauen_bundesliga_soccer": "soccer-product-2025-26-panini-frauen-bundesliga-soccer.json",
     "2025_26_topps_royalty_premier_league_soccer": "soccer-product-2025-26-topps-royalty-premier-league-soccer.json",
     "2026_donruss_nwsl_soccer": "soccer-product-2026-donruss-nwsl-soccer.json",
-    "2025_26_topps_museum_collection_uefa_soccer": "soccer-product-2025-26-topps-museum-collection-uefa-soccer.json"
+    "2025_26_topps_museum_collection_uefa_soccer": "soccer-product-2025-26-topps-museum-collection-uefa-soccer.json",
+    "2026_donruss_optic_nwsl_soccer": "soccer-product-2026-donruss-optic-nwsl-soccer.json"
   }
 }
