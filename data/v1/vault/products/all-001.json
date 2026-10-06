@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-06T16:01:57.497Z",
+  "generated_at": "2026-10-06T16:02:53.470Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -38680,6 +38680,300 @@
           "subSetSize": "",
           "notes": "",
           "cmURL": "https://slabsquatch.substack.com/p/2026-topps-cosmic-chrome-mlb-early"
+        }
+      ]
+    },
+    "2026_topps_allen_ginter_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_allen_ginter_baseball",
+        "displayName": "2026 Topps Allen & Ginter",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Allen & Ginter",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Parallel",
+          "setLine": "Chrome Refractors",
+          "printRun": 1265,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Parallel",
+          "setLine": "Chrome X-Fractors",
+          "printRun": 105,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Parallel",
+          "setLine": "Mini A&G Logo",
+          "printRun": 5670,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Parallel",
+          "setLine": "Mini Black Bordered",
+          "printRun": 2925,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Parallel",
+          "setLine": "Mini No Number",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Parallel",
+          "setLine": "Mini Gold Bordered",
+          "printRun": 1645,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Parallel",
+          "setLine": "Base Foil Filagree",
+          "printRun": 820,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Parallel",
+          "setLine": "Base Silver Portrait",
+          "printRun": 2020,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Insert",
+          "setLine": "50 Ways to Say Hello",
+          "printRun": 11375,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Insert",
+          "setLine": "Musical Methods",
+          "printRun": 11375,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Insert",
+          "setLine": "N34",
+          "printRun": 11375,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Insert",
+          "setLine": "N43",
+          "printRun": 91880,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Insert",
+          "setLine": "Rookie Design Variations",
+          "printRun": 11375,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Insert",
+          "setLine": "Wicked Power",
+          "printRun": 93000,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Insert",
+          "setLine": "Uniform Countdown",
+          "printRun": 9,
+          "serial": "",
+          "subSetSize": 40,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Unnumbered Relics",
+          "setLine": "Framed Mini Relics",
+          "printRun": 515,
+          "serial": "",
+          "subSetSize": 120,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Unnumbered Relics",
+          "setLine": "Full Size Relics A",
+          "printRun": 1290,
+          "serial": "",
+          "subSetSize": 91,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Unnumbered Relics",
+          "setLine": "Full Size Relics B",
+          "printRun": 850,
+          "serial": "",
+          "subSetSize": 73,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Auto",
+          "setLine": "Full Size Autos",
+          "printRun": 140,
+          "serial": "",
+          "subSetSize": 3,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Auto",
+          "setLine": "Mini Framed Autos",
+          "printRun": 315,
+          "serial": "",
+          "subSetSize": 180,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Auto",
+          "setLine": "Mini Non-Baseball Autos",
+          "printRun": 430,
+          "serial": "",
+          "subSetSize": 59,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Base",
+          "setLine": "Part 8: Print Runs Base",
+          "printRun": 149210,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Base",
+          "setLine": "Base Mini",
+          "printRun": 12350,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Base",
+          "setLine": "Base Chrome",
+          "printRun": 2490,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Base",
+          "setLine": "Base Mini Chrome",
+          "printRun": 3795,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Insert",
+          "setLine": "Framed Mini Relics",
+          "printRun": 515,
+          "serial": "",
+          "subSetSize": 120,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Insert",
+          "setLine": "Full Size Relics A",
+          "printRun": 1290,
+          "serial": "",
+          "subSetSize": 91,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
+        },
+        {
+          "code": "2026_topps_allen_ginter_baseball",
+          "setType": "Insert",
+          "setLine": "Full Size Relics B",
+          "printRun": 850,
+          "serial": "",
+          "subSetSize": 73,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-allen-and-ginter-deep"
         }
       ]
     }
