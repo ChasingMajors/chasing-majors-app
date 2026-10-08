@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-08T16:00:59.486Z",
+  "generated_at": "2026-10-08T16:02:06.475Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -39218,6 +39218,70 @@
           "subSetSize": 19,
           "notes": "",
           "cmURL": "https://slabsquatch.substack.com/p/2026-topps-mars-attacks-christmas"
+        }
+      ]
+    },
+    "2026_bowman_chrome_sapphire_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_bowman_chrome_sapphire_baseball",
+        "displayName": "2026 Bowman Chrome Sapphire",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Bowman",
+        "product": "Chrome Sapphire",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_bowman_chrome_sapphire_baseball",
+          "setType": "Insert",
+          "setLine": "Quality Hits are ~$161 ea. That’s surprisingly good. All Parallels are Yellow or better. So every single Parallel is considered a Quality Hit. And you’re getting basically 3.5-4 per box.",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-bowman-chrome-sapphire-analysis"
+        },
+        {
+          "code": "2026_bowman_chrome_sapphire_baseball",
+          "setType": "Insert",
+          "setLine": "Now, there are “Base” Autos and Green Autos which I don’t love. I wish they would make more Auto Subsets like they do with NBA, WWE, & UFC Sapphire so no Autos are worse than Gold. They’re short-changing the MLB fans by not doing so. There is definitely plenty of room to make MLB Sapphire products better.",
+          "printRun": 199,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-bowman-chrome-sapphire-analysis"
+        },
+        {
+          "code": "2026_bowman_chrome_sapphire_baseball",
+          "setType": "Insert",
+          "setLine": "The Print Runs: Sapphire Base",
+          "printRun": 3475,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-bowman-chrome-sapphire-analysis"
+        },
+        {
+          "code": "2026_bowman_chrome_sapphire_baseball",
+          "setType": "Insert",
+          "setLine": "Sapphire Selections Base Autos",
+          "printRun": 60,
+          "serial": "",
+          "subSetSize": 11,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-bowman-chrome-sapphire-analysis"
+        },
+        {
+          "code": "2026_bowman_chrome_sapphire_baseball",
+          "setType": "Insert",
+          "setLine": "Hidden Gems Emerald",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-bowman-chrome-sapphire-analysis"
         }
       ]
     }
