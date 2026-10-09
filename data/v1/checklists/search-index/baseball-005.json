@@ -3,9 +3,9 @@
   "sport": "baseball",
   "kind": "checklist_search",
   "source": "Checklist DB map current merge",
-  "generated_at": "2026-10-08T05:53:43.200Z",
+  "generated_at": "2026-10-09T05:53:43.307Z",
   "shard": 5,
-  "shard_count": 64,
+  "shard_count": 63,
   "rows": [
     {
       "term": "Mitch Haniger",
