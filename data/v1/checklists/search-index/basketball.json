@@ -3,7 +3,7 @@
   "sport": "basketball",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-10-15T18:53:14.239Z",
+  "generated_at": "2026-10-15T19:24:19.353Z",
   "sharded": true,
   "shards": [
     "basketball-001.json",
@@ -29,16 +29,16 @@
     "basketball-021-1792072541819.json",
     "basketball-022.json",
     "basketball-product-2025-26-panini-noir-basketball-1792072541819-001.json",
-    "basketball-product-2026-donruss-wnba-basketball-1792073479131-001.json",
     "basketball-product-2025-26-panini-select-basketball-1792089689276-001.json",
-    "basketball-product-2026-panini-prizm-wnba-basketball-1792090411294-001.json"
+    "basketball-product-2026-panini-prizm-wnba-basketball-1792090411294-001.json",
+    "basketball-product-2026-donruss-wnba-basketball-1792092270369-001.json"
   ],
   "product_shards": {
     "2025_26_panini_noir_basketball": [
       "basketball-product-2025-26-panini-noir-basketball-1792072541819-001.json"
     ],
     "2026_donruss_wnba_basketball": [
-      "basketball-product-2026-donruss-wnba-basketball-1792073479131-001.json"
+      "basketball-product-2026-donruss-wnba-basketball-1792092270369-001.json"
     ],
     "2025_26_panini_select_basketball": [
       "basketball-product-2025-26-panini-select-basketball-1792089689276-001.json"

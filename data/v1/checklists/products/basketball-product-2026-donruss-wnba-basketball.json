@@ -3,7 +3,7 @@
   "sport": "basketball",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-10-15T14:11:04.292Z",
+  "generated_at": "2026-10-15T19:24:19.353Z",
   "products": {
     "2026_donruss_wnba_basketball": {
       "ok": true,
@@ -15,7 +15,9 @@
         "year": "2026",
         "manufacturer": "",
         "product": "Donruss WNBA",
-        "sport": "basketball"
+        "sport": "basketball",
+        "content_sha256": "cef23acd42bdef61dc19c8a8bea2e4abba2d15c8899ec4c8c479b9166fa5b4f2",
+        "release_id": "pipeline-smoke-20261015192412171"
       },
       "rows": [
         {
