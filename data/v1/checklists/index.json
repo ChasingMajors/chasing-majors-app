@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-10-15T18:45:18.836Z",
+  "generated_at": "2026-10-15T18:46:07.175Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -8687,6 +8687,15 @@
       "sport": "soccer",
       "manufacturer": "Panini",
       "product": "Luminance Germany"
+    },
+    {
+      "Code": "2026_panini_obsidian_k_league_soccer",
+      "DisplayName": "2026 Panini Obsidian K League Soccer",
+      "Keywords": "2026 Panini Obsidian K League Soccer, 2026 Panini Obsidian K League Soccer checklist, 2026 Panini Obsidian K League Soccer cards, 2026 Panini Obsidian K League Soccer parallels, 2026 Panini Obsidian K League Soccer autographs, Panini Obsidian K League soccer, Obsidian K League soccer checklist",
+      "year": "2026",
+      "sport": "soccer",
+      "manufacturer": "Panini",
+      "product": "Obsidian K League"
     },
     {
       "Code": "2026_panini_prizm_fifa_world_cup_soccer",
