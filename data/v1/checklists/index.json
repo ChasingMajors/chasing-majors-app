@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-10-15T18:46:07.175Z",
+  "generated_at": "2026-10-15T18:53:14.239Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -6032,6 +6032,15 @@
       "sport": "basketball",
       "manufacturer": "",
       "product": "Donruss WNBA"
+    },
+    {
+      "Code": "2026_panini_prizm_wnba_basketball",
+      "DisplayName": "2026 Panini Prizm WNBA Basketball",
+      "Keywords": "2026 Panini Prizm WNBA Basketball, 2026 Panini Prizm WNBA Basketball checklist, 2026 Panini Prizm WNBA Basketball cards, 2026 Panini Prizm WNBA Basketball parallels, 2026 Panini Prizm WNBA Basketball autographs, Panini Prizm WNBA basketball, Prizm WNBA basketball checklist",
+      "year": "2026",
+      "sport": "basketball",
+      "manufacturer": "Panini",
+      "product": "Prizm WNBA"
     },
     {
       "Code": "2025_26_panini_select_euroleague_basketball",
