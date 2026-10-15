@@ -3,7 +3,7 @@
   "sport": "soccer",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-10-15T18:45:18.836Z",
+  "generated_at": "2026-10-15T18:46:07.175Z",
   "sharded": true,
   "shards": [
     "soccer-001.json",
@@ -12,11 +12,15 @@
     "soccer-004.json",
     "soccer-005.json",
     "soccer-006.json",
-    "soccer-product-2026-topps-chrome-sapphire-mls-soccer-1792089929814-001.json"
+    "soccer-product-2026-topps-chrome-sapphire-mls-soccer-1792089929814-001.json",
+    "soccer-product-2026-panini-obsidian-k-league-soccer-1792089981527-001.json"
   ],
   "product_shards": {
     "2026_topps_chrome_sapphire_mls_soccer": [
       "soccer-product-2026-topps-chrome-sapphire-mls-soccer-1792089929814-001.json"
+    ],
+    "2026_panini_obsidian_k_league_soccer": [
+      "soccer-product-2026-panini-obsidian-k-league-soccer-1792089981527-001.json"
     ]
   }
 }
