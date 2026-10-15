@@ -2,10 +2,10 @@
   "ok": true,
   "sport": "baseball",
   "kind": "checklist_search",
-  "source": "Checklist DB map current merge",
-  "generated_at": "2026-10-15T05:53:43.268Z",
+  "source": "Product-scoped approved import search update",
+  "generated_at": "2026-10-15T13:10:33.238Z",
   "shard": 8,
-  "shard_count": 65,
+  "shard_count": 64,
   "rows": [
     {
       "term": "Ian Happ",
