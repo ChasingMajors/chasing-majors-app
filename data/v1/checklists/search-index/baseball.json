@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-10-15T13:43:21.149Z",
+  "generated_at": "2026-10-15T13:45:40.596Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -68,12 +68,13 @@
     "baseball-060.json",
     "baseball-061.json",
     "baseball-062.json",
-    "baseball-063-1792071819577.json",
-    "baseball-product-2026-topps-update-series-baseball-1792071819577-001.json"
+    "baseball-063-1792071959237.json",
+    "baseball-064.json",
+    "baseball-product-2026-bowman-chrome-mega-box-baseball-1792071959237-001.json"
   ],
   "product_shards": {
-    "2026_topps_update_series_baseball": [
-      "baseball-product-2026-topps-update-series-baseball-1792071819577-001.json"
+    "2026_bowman_chrome_mega_box_baseball": [
+      "baseball-product-2026-bowman-chrome-mega-box-baseball-1792071959237-001.json"
     ]
   }
 }
