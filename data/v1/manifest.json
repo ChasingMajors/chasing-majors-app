@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "version": "2026-10-15T13:27:00.106Z",
-  "checklists_version": "2026-10-15T13:27:00.106Z",
+  "version": "2026-10-15T13:43:21.149Z",
+  "checklists_version": "2026-10-15T13:43:21.149Z",
   "vault_version": "2026-10-15T05:07:35.401Z",
   "players_version": "2026-04-27T16:40:48Z",
-  "generated_at": "2026-10-15T13:27:00.106Z",
-  "schema": "2026-06-23-static-cc153-product-search-validation"
+  "generated_at": "2026-10-15T13:43:21.149Z",
+  "schema": "2026-10-15-incremental-checklist-publish"
 }
