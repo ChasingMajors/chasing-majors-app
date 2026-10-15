@@ -3,7 +3,7 @@
   "sport": "basketball",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-10-15T13:55:23.085Z",
+  "generated_at": "2026-10-15T13:56:19.396Z",
   "sharded": true,
   "shards": [
     "basketball-001.json",
@@ -23,7 +23,8 @@
     "basketball-product-2025-26-topps-chrome-update-sapphire-basketball.json",
     "basketball-product-2025-26-topps-definitive-collection-basketball.json",
     "basketball-product-2025-26-panini-noir-basketball.json",
-    "basketball-product-2025-26-topps-pristine-basketball.json"
+    "basketball-product-2025-26-topps-pristine-basketball.json",
+    "basketball-product-2026-donruss-wnba-basketball.json"
   ],
   "product_map": {
     "2024_Panini_Origins WNBA_basketball": "basketball-001.json",
@@ -145,6 +146,7 @@
     "2025_26_topps_chrome_update_sapphire_basketball": "basketball-product-2025-26-topps-chrome-update-sapphire-basketball.json",
     "2025_26_topps_definitive_collection_basketball": "basketball-product-2025-26-topps-definitive-collection-basketball.json",
     "2025_26_panini_noir_basketball": "basketball-product-2025-26-panini-noir-basketball.json",
-    "2025_26_topps_pristine_basketball": "basketball-product-2025-26-topps-pristine-basketball.json"
+    "2025_26_topps_pristine_basketball": "basketball-product-2025-26-topps-pristine-basketball.json",
+    "2026_donruss_wnba_basketball": "basketball-product-2026-donruss-wnba-basketball.json"
   }
 }
