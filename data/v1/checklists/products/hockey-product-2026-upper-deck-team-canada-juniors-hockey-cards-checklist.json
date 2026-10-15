@@ -3,7 +3,7 @@
   "sport": "hockey",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-10-15T14:12:08.332Z",
+  "generated_at": "2026-10-15T19:35:38.202Z",
   "products": {
     "2026_upper_deck_team_canada_juniors_hockey_cards_checklist": {
       "ok": true,
@@ -15,7 +15,9 @@
         "year": "2026",
         "manufacturer": "Upper Deck",
         "product": "Team Canada Juniors - Cards Checklist",
-        "sport": "hockey"
+        "sport": "hockey",
+        "content_sha256": "ab8824d56df92e443ac800b2eed8c4ff429bc6bd4e8eecdf9ee432b737474fc8",
+        "release_id": "pipeline-hockey-b74e079b-ef21-4382-8a95-8df14edb5c4c"
       },
       "rows": [
         {
