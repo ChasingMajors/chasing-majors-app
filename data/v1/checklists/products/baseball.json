@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-10-15T03:28:05.606Z",
+  "generated_at": "2026-10-15T03:37:04.272Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -32,7 +32,8 @@
     "baseball-024.json",
     "baseball-025.json",
     "baseball-026.json",
-    "baseball-product-2026-topps-update-series-baseball.json"
+    "baseball-product-2026-topps-update-series-baseball.json",
+    "baseball-product-2026-topps-allen-and-ginter-baseball.json"
   ],
   "product_map": {
     "2021_Topps_Baseball_Series_1": "baseball-001.json",
@@ -716,6 +717,7 @@
     "2026_topps_tribute_baseball": "baseball-026.json",
     "2026-bowman-baseball": "baseball-026.json",
     "2026-bowman-mega-box-baseball": "baseball-026.json",
-    "2026_topps_update_series_baseball": "baseball-product-2026-topps-update-series-baseball.json"
+    "2026_topps_update_series_baseball": "baseball-product-2026-topps-update-series-baseball.json",
+    "2026_topps_allen_and_ginter_baseball": "baseball-product-2026-topps-allen-and-ginter-baseball.json"
   }
 }
