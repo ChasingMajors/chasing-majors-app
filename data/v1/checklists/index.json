@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-10-15T03:28:05.606Z",
+  "generated_at": "2026-10-15T03:37:04.272Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -83,6 +83,15 @@
       "sport": "baseball",
       "manufacturer": "Panini",
       "product": "Panini Stars & Stripes Prizm USA Baseball"
+    },
+    {
+      "Code": "2026_topps_allen_and_ginter_baseball",
+      "DisplayName": "2026 Topps Allen & Ginter Baseball",
+      "Keywords": "2026 Topps Allen & Ginter Baseball, 2026 Topps Allen & Ginter Baseball checklist, 2026 Topps Allen & Ginter Baseball cards, 2026 Topps Allen & Ginter Baseball parallels, 2026 Topps Allen & Ginter Baseball autographs, Topps Allen & Ginter baseball, Allen & Ginter baseball checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Allen & Ginter"
     },
     {
       "Code": "2026_topps_chrome_baseball",
