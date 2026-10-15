@@ -3,7 +3,7 @@
   "sport": "soccer",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-10-15T18:45:18.836Z",
+  "generated_at": "2026-10-15T18:46:07.175Z",
   "sharded": true,
   "shards": [
     "soccer-001.json",
@@ -31,7 +31,8 @@
     "soccer-product-2026-donruss-nwsl-soccer.json",
     "soccer-product-2025-26-topps-museum-collection-uefa-soccer.json",
     "soccer-product-2026-donruss-optic-nwsl-soccer.json",
-    "soccer-product-2026-topps-chrome-sapphire-mls-soccer.json"
+    "soccer-product-2026-topps-chrome-sapphire-mls-soccer.json",
+    "soccer-product-2026-panini-obsidian-k-league-soccer.json"
   ],
   "product_map": {
     "2025_panini_absolute_k_league_soccer": "soccer-001.json",
@@ -84,6 +85,7 @@
     "2026_donruss_nwsl_soccer": "soccer-product-2026-donruss-nwsl-soccer.json",
     "2025_26_topps_museum_collection_uefa_soccer": "soccer-product-2025-26-topps-museum-collection-uefa-soccer.json",
     "2026_donruss_optic_nwsl_soccer": "soccer-product-2026-donruss-optic-nwsl-soccer.json",
-    "2026_topps_chrome_sapphire_mls_soccer": "soccer-product-2026-topps-chrome-sapphire-mls-soccer.json"
+    "2026_topps_chrome_sapphire_mls_soccer": "soccer-product-2026-topps-chrome-sapphire-mls-soccer.json",
+    "2026_panini_obsidian_k_league_soccer": "soccer-product-2026-panini-obsidian-k-league-soccer.json"
   }
 }
