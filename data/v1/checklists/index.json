@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-10-05T16:02:05.676Z",
+  "generated_at": "2026-10-15T02:06:10.235Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -200,6 +200,15 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Tribute"
+    },
+    {
+      "Code": "2026_topps_update_series_baseball",
+      "DisplayName": "2026 Topps Update Series Baseball",
+      "Keywords": "2026 Topps Update Series Baseball, 2026 Topps Update Series Baseball checklist, 2026 Topps Update Series Baseball cards, 2026 Topps Update Series Baseball parallels, 2026 Topps Update Series Baseball autographs, Topps Update Series baseball, Update Series baseball checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Update Series"
     },
     {
       "Code": "2025_Bowman",
