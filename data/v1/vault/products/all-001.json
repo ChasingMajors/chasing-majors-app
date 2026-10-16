@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-16T19:04:57.792Z",
+  "generated_at": "2026-10-16T19:08:39.469Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -40809,36 +40809,6 @@
       "rows": [
         {
           "code": "2026_topps_chrome_sapphire_baseball",
-          "setType": "",
-          "setLine": "",
-          "printRun": 1185,
-          "serial": "",
-          "subSetSize": "",
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2026_topps_chrome_sapphire_baseball",
-          "setType": "Variation",
-          "setLine": "Image Variations",
-          "printRun": 75,
-          "serial": "",
-          "subSetSize": 50,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2026_topps_chrome_sapphire_baseball",
-          "setType": "Autograph",
-          "setLine": "Sapphire Selections Auto.",
-          "printRun": 50,
-          "serial": "",
-          "subSetSize": 13,
-          "notes": "",
-          "cmURL": ""
-        },
-        {
-          "code": "2026_topps_chrome_sapphire_baseball",
           "setType": "Base",
           "setLine": "Base - Base Sapphire",
           "printRun": 1000,
@@ -41111,16 +41081,6 @@
         "cmURL": ""
       },
       "rows": [
-        {
-          "code": "2026_topps_tribute_baseball",
-          "setType": "Base",
-          "setLine": "Base",
-          "printRun": 2550,
-          "serial": "",
-          "subSetSize": 100,
-          "notes": "",
-          "cmURL": ""
-        },
         {
           "code": "2026_topps_tribute_baseball",
           "setType": "Base",
