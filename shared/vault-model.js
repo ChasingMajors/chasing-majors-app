@@ -47,7 +47,19 @@
   }
   function product(data, code) {
     if (data.schema_version === 2) return data;
-    return { schema_version: 2, meta: data.meta || {}, rows: (data.rows || []).map((r,i) => row(r,code,i+1)) };
+    const rows = (data.rows || []).map((r,i) => row(r,code,i+1));
+    const groups = new Map();
+    for (const r of rows) {
+      const group = groups.get(r.group_id) || [];
+      group.push(r); groups.set(r.group_id, group);
+    }
+    for (const group of groups.values()) {
+      if (group.length < 2) continue;
+      const conflicting = new Set(group.map(r => JSON.stringify([r.measurement,r.serial_limit,r.checklist_size]))).size > 1;
+      for (const r of group) r.issues.push(conflicting ? 'Conflicting counts for matching labels' : 'Repeated source entry');
+    }
+    return { schema_version: 2, meta: data.meta || {}, rows,
+      quality: { records: rows.length, flagged_records: rows.filter(r => r.issues.length).length } };
   }
   return { key, number, safeURL, row, product };
 });

@@ -38,3 +38,8 @@ test('all current product records survive the read-model conversion',()=>{
  }
  assert.ok(total>4000);
 });
+
+test('conflicting legacy counts remain separate and are flagged for review',()=>{
+ const p=model.product({rows:[{setType:'Base',setLine:'Base',printRun:500},{setType:'Base',setLine:'Base',printRun:600}]},'p');
+ assert.equal(p.rows.length,2); assert.ok(p.rows.every(r=>r.issues.includes('Conflicting counts for matching labels')));
+});
