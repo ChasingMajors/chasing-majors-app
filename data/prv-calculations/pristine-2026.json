@@ -1,0 +1,1798 @@
+{
+  "schema_version": 2,
+  "code": "2026_topps_pristine_baseball",
+  "meta": {
+    "code": "2026_topps_pristine_baseball",
+    "displayName": "2026 Topps Pristine Baseball",
+    "keywords": "2026 Topps Pristine Baseball, 2026 Topps Pristine Baseball checklist, 2026 Topps Pristine Baseball cards, 2026 Topps Pristine Baseball parallels, 2026 Topps Pristine Baseball autographs, Topps Pristine baseball, Pristine baseball checklist",
+    "source_key": "2026",
+    "year": "2026",
+    "manufacturer": "Topps",
+    "product": "Pristine",
+    "sport": "baseball"
+  },
+  "sources": {
+    "odds_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Pristine_Baseball_Odds.pdf?v=1786546346",
+    "checklist_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Pristine_Checklist.pdf?v=1784559282",
+    "serial_reference_url": "https://www.checklistinsider.com/2026-topps-pristine-baseball/amp",
+    "reviewed_date": "2026-10-16",
+    "odds_sha256": "99014884e91f1b579561e8b74384f79f3e366886ed31f1a921ace0f7ad35604d",
+    "checklist_sha256": "35726164f498348bcf5b82075136d677f72fa6b282c9614a2a110a56fe9d87a7"
+  },
+  "method": {
+    "name": "multiformat_bounded_serial_anchors_v1",
+    "anchor_tolerance": 0.03,
+    "max_relative_width": 0.1,
+    "pack_scale": 1000000,
+    "assumptions": "Conditional on all 200 base subjects substantially reaching non-encased packs at the selected Blue /75, Gold /50, Orange /25, Pink /15, Primaries /10 and Red /5 serial ceilings. Each anchor may deviate by 3%. Model bounds are sensitivity ranges, not confidence intervals. Encased and non-encased odds columns remain independent; no encased production estimate is published. No one-of-one or autograph calibration."
+  },
+  "formats": [
+    "Encased Pack",
+    "Non-Encased Pack"
+  ],
+  "anchors": [
+    {
+      "label": "Base Cards Blue Refractor",
+      "subjects": 200,
+      "serial_limit": 75,
+      "odds": [
+        null,
+        22
+      ],
+      "page": 1
+    },
+    {
+      "label": "Base Cards Gold Refractor",
+      "subjects": 200,
+      "serial_limit": 50,
+      "odds": [
+        null,
+        33
+      ],
+      "page": 1
+    },
+    {
+      "label": "Base Cards Orange Refractor",
+      "subjects": 200,
+      "serial_limit": 25,
+      "odds": [
+        null,
+        65
+      ],
+      "page": 1
+    },
+    {
+      "label": "Base Cards Pink Refractor",
+      "subjects": 200,
+      "serial_limit": 15,
+      "odds": [
+        null,
+        109
+      ],
+      "page": 1
+    },
+    {
+      "label": "Base Cards Primaries Refractor",
+      "subjects": 200,
+      "serial_limit": 10,
+      "odds": [
+        null,
+        163
+      ],
+      "page": 1
+    },
+    {
+      "label": "Base Cards Red Refractor",
+      "subjects": 200,
+      "serial_limit": 5,
+      "odds": [
+        null,
+        325
+      ],
+      "page": 1
+    }
+  ],
+  "records": [
+    {
+      "id": "pristine-2",
+      "name": "Base \u2014 Paint the Corners Refractor",
+      "category": "Parallels",
+      "kind": "estimate",
+      "subjects": 200,
+      "serial_limit": null,
+      "odds_label": "Base Cards Paint the Corners Refractor",
+      "odds": [
+        null,
+        2
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          0.0,
+          0.3201
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -165000.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          0.0,
+          0.33475
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -162500.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "pristine-3",
+      "name": "Base \u2014 Aqua Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 199,
+      "odds_label": "Base Cards Aqua Refractor",
+      "odds": [
+        null,
+        9
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-4",
+      "name": "Base \u2014 Green Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 150,
+      "odds_label": "Base Cards Green Refractor",
+      "odds": [
+        null,
+        11
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-5",
+      "name": "Base \u2014 Purple Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 99,
+      "odds_label": "Base Cards Purple Refactor",
+      "odds": [
+        null,
+        17
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-6",
+      "name": "Base \u2014 Blue Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 75,
+      "odds_label": "Base Cards Blue Refractor",
+      "odds": [
+        null,
+        22
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-7",
+      "name": "Base \u2014 Gold Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 50,
+      "odds_label": "Base Cards Gold Refractor",
+      "odds": [
+        null,
+        33
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-8",
+      "name": "Base \u2014 Orange Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 25,
+      "odds_label": "Base Cards Orange Refractor",
+      "odds": [
+        null,
+        65
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-9",
+      "name": "Base \u2014 Pink Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 15,
+      "odds_label": "Base Cards Pink Refractor",
+      "odds": [
+        null,
+        109
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-10",
+      "name": "Base \u2014 Primaries Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 10,
+      "odds_label": "Base Cards Primaries Refractor",
+      "odds": [
+        null,
+        163
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-11",
+      "name": "Base \u2014 Red Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 5,
+      "odds_label": "Base Cards Red Refractor",
+      "odds": [
+        null,
+        325
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-12",
+      "name": "Base \u2014 Superfractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 1,
+      "odds_label": "Base Cards Superfractor",
+      "odds": [
+        null,
+        1622
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-13",
+      "name": "Plated & Polished",
+      "category": "Inserts",
+      "kind": "estimate",
+      "subjects": 40,
+      "serial_limit": null,
+      "odds_label": "Plated & Polished",
+      "odds": [
+        null,
+        3
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          0.0,
+          0.3201
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -110000.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          0.0,
+          0.33475
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -108333.33333333331,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "pristine-14",
+      "name": "Plated & Polished \u2014 Purple Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 40,
+      "serial_limit": 99,
+      "odds_label": "Plated & Polished Purple Refactor",
+      "odds": [
+        null,
+        82
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-15",
+      "name": "Plated & Polished \u2014 Blue Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 40,
+      "serial_limit": 75,
+      "odds_label": "Plated & Polished Blue Refractor",
+      "odds": [
+        null,
+        109
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-16",
+      "name": "Plated & Polished \u2014 Gold Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 40,
+      "serial_limit": 50,
+      "odds_label": "Plated & Polished Gold Refractor",
+      "odds": [
+        null,
+        163
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-17",
+      "name": "Plated & Polished \u2014 Orange Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 40,
+      "serial_limit": 25,
+      "odds_label": "Plated & Polished Orange Refractor",
+      "odds": [
+        null,
+        325
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-18",
+      "name": "Plated & Polished \u2014 Red Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 40,
+      "serial_limit": 5,
+      "odds_label": "Plated & Polished Red Refractor",
+      "odds": [
+        null,
+        1622
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-19",
+      "name": "Plated & Polished \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 40,
+      "serial_limit": 1,
+      "odds_label": "Plated & Polished Superfractor",
+      "odds": [
+        null,
+        8027
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-20",
+      "name": "Pristine Wilderness",
+      "category": "Inserts",
+      "kind": "estimate",
+      "subjects": 25,
+      "serial_limit": null,
+      "odds_label": "Pristine Wilderness",
+      "odds": [
+        null,
+        4
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          0.0,
+          0.3201
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -82500.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          0.0,
+          0.33475
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -81250.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "pristine-21",
+      "name": "Pristine Wilderness \u2014 Purple Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 25,
+      "serial_limit": 99,
+      "odds_label": "Pristine Wilderness Purple Refactor",
+      "odds": [
+        null,
+        132
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-22",
+      "name": "Pristine Wilderness \u2014 Blue Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 25,
+      "serial_limit": 75,
+      "odds_label": "Pristine Wilderness Blue Refractor",
+      "odds": [
+        null,
+        173
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-23",
+      "name": "Pristine Wilderness \u2014 Gold Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 25,
+      "serial_limit": 50,
+      "odds_label": "Pristine Wilderness Gold Refractor",
+      "odds": [
+        null,
+        260
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-24",
+      "name": "Pristine Wilderness \u2014 Orange Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 25,
+      "serial_limit": 25,
+      "odds_label": "Pristine Wilderness Orange Refractor",
+      "odds": [
+        null,
+        519
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-25",
+      "name": "Pristine Wilderness \u2014 Red Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 25,
+      "serial_limit": 5,
+      "odds_label": "Pristine Wilderness Red Refractor",
+      "odds": [
+        null,
+        2588
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-26",
+      "name": "Pristine Wilderness \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 25,
+      "serial_limit": 1,
+      "odds_label": "Pristine Wilderness Superfractor",
+      "odds": [
+        null,
+        13044
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-27",
+      "name": "Spotless",
+      "category": "Inserts",
+      "kind": "estimate",
+      "subjects": 35,
+      "serial_limit": null,
+      "odds_label": "Spotless",
+      "odds": [
+        null,
+        3
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          0.0,
+          0.3201
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -110000.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          0.0,
+          0.33475
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -108333.33333333331,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "pristine-28",
+      "name": "Spotless \u2014 Purple Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 35,
+      "serial_limit": 99,
+      "odds_label": "Spotless Purple Refactor",
+      "odds": [
+        null,
+        94
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-29",
+      "name": "Spotless \u2014 Blue Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 35,
+      "serial_limit": 75,
+      "odds_label": "Spotless Blue Refractor",
+      "odds": [
+        null,
+        124
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-30",
+      "name": "Spotless \u2014 Gold Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 35,
+      "serial_limit": 50,
+      "odds_label": "Spotless Gold Refractor",
+      "odds": [
+        null,
+        186
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-31",
+      "name": "Spotless \u2014 Orange Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 35,
+      "serial_limit": 25,
+      "odds_label": "Spotless Orange Refractor",
+      "odds": [
+        null,
+        371
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-32",
+      "name": "Spotless \u2014 Red Refractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 35,
+      "serial_limit": 5,
+      "odds_label": "Spotless Red Refractor",
+      "odds": [
+        null,
+        1853
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-33",
+      "name": "Spotless \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 35,
+      "serial_limit": 1,
+      "odds_label": "Spotless Superfractor",
+      "odds": [
+        null,
+        9207
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-34",
+      "name": "Amped",
+      "category": "Inserts",
+      "kind": "estimate",
+      "subjects": 20,
+      "serial_limit": null,
+      "odds_label": "Amped",
+      "odds": [
+        null,
+        325
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          0.0,
+          0.3201
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -1015.3846153846155,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          0.0,
+          0.33475
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -1000.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "pristine-35",
+      "name": "Amped \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 1,
+      "odds_label": "Amped Superfractor",
+      "odds": [
+        null,
+        15652
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-36",
+      "name": "Monogram",
+      "category": "Inserts",
+      "kind": "estimate",
+      "subjects": 30,
+      "serial_limit": null,
+      "odds_label": "Monogram",
+      "odds": [
+        null,
+        217
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          0.0,
+          0.3201
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -1520.73732718894,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          0.0,
+          0.33475
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -1497.6958525345622,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "pristine-37",
+      "name": "Monogram \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 1,
+      "odds_label": "Monogram Superfractor",
+      "odds": [
+        null,
+        10794
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-38",
+      "name": "Pearlescent",
+      "category": "Inserts",
+      "kind": "estimate",
+      "subjects": 25,
+      "serial_limit": null,
+      "odds_label": "Pearlescent",
+      "odds": [
+        null,
+        260
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          0.0,
+          0.3201
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -1269.2307692307693,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          0.0,
+          0.33475
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -1250.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "pristine-39",
+      "name": "Pearlescent \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 25,
+      "serial_limit": 1,
+      "odds_label": "Pearlescent Superfractor",
+      "odds": [
+        null,
+        13044
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-40",
+      "name": "Pristine Pops",
+      "category": "Inserts",
+      "kind": "estimate",
+      "subjects": 10,
+      "serial_limit": null,
+      "odds_label": "Pristine Pops",
+      "odds": [
+        null,
+        650
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          0.0,
+          0.3201
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -507.69230769230774,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          0.0,
+          0.33475
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -500.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "pristine-41",
+      "name": "Pristine Pops \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 10,
+      "serial_limit": 1,
+      "odds_label": "Pristine Pops Superfractor",
+      "odds": [
+        null,
+        31304
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-42",
+      "name": "Rushmore",
+      "category": "Inserts",
+      "kind": "estimate",
+      "subjects": 5,
+      "serial_limit": null,
+      "odds_label": "Rushmore",
+      "odds": [
+        null,
+        2588
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          0.0,
+          0.3201
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -127.51159196290573,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          0.0,
+          0.33475
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -125.57959814528594,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "pristine-43",
+      "name": "Rushmore \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 5,
+      "serial_limit": 1,
+      "odds_label": "Rushmore Superfractor",
+      "odds": [
+        null,
+        62608
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-44",
+      "name": "Timeless Connections",
+      "category": "Inserts",
+      "kind": "estimate",
+      "subjects": 10,
+      "serial_limit": null,
+      "odds_label": "Timeless Connections",
+      "odds": [
+        null,
+        1299
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          0.0,
+          0.3201
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -254.04157043879908,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          0.0,
+          0.33475
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -250.19245573518089,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "pristine-45",
+      "name": "Timeless Connections \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 10,
+      "serial_limit": 1,
+      "odds_label": "Timeless Connections Superfractor",
+      "odds": [
+        null,
+        31304
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-47",
+      "name": "Pristine Autographs \u2014 Green Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 86,
+      "serial_limit": 150,
+      "odds_label": "Pristine Autographs Green Pristine Refractor",
+      "odds": [
+        34,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-48",
+      "name": "Pristine Autographs \u2014 Purple Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 86,
+      "serial_limit": 99,
+      "odds_label": "Pristine Autographs Purple Pristine Refractor",
+      "odds": [
+        42,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-49",
+      "name": "Pristine Autographs \u2014 Blue Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 86,
+      "serial_limit": 75,
+      "odds_label": "Pristine Autographs Blue Pristine Refractor",
+      "odds": [
+        54,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-50",
+      "name": "Pristine Autographs \u2014 Gold Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 86,
+      "serial_limit": 50,
+      "odds_label": "Pristine Autographs Gold Pristine Refractor",
+      "odds": [
+        81,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-51",
+      "name": "Pristine Autographs \u2014 Orange Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 86,
+      "serial_limit": 25,
+      "odds_label": "Pristine Autographs Orange Pristine Refractor",
+      "odds": [
+        156,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-52",
+      "name": "Pristine Autographs \u2014 Pink Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 86,
+      "serial_limit": 15,
+      "odds_label": "Pristine Autographs Pink Pristine Refractor",
+      "odds": [
+        259,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-53",
+      "name": "Pristine Autographs \u2014 Primaries Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 86,
+      "serial_limit": 10,
+      "odds_label": "Pristine Autographs Primaries Pristine Refractor",
+      "odds": [
+        392,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-54",
+      "name": "Pristine Autographs \u2014 Red Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 86,
+      "serial_limit": 5,
+      "odds_label": "Pristine Autographs Red Pristine Refractor",
+      "odds": [
+        785,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-55",
+      "name": "Pristine Autographs \u2014 Black Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 86,
+      "serial_limit": 1,
+      "odds_label": "Pristine Autographs Black Pristine Refractor",
+      "odds": [
+        3818,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-57",
+      "name": "Italics Autographs \u2014 Blue Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 17,
+      "serial_limit": 75,
+      "odds_label": "Italics Blue Refractor",
+      "odds": [
+        369,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-58",
+      "name": "Italics Autographs \u2014 Gold Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 17,
+      "serial_limit": 50,
+      "odds_label": "Italics Gold Refractor",
+      "odds": [
+        476,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-59",
+      "name": "Italics Autographs \u2014 Orange Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 17,
+      "serial_limit": 25,
+      "odds_label": "Italics Orange Refractor",
+      "odds": [
+        781,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "pristine-60",
+      "name": "Italics Autographs \u2014 Primaries Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 17,
+      "serial_limit": 10,
+      "odds_label": "Italics Primaries Refractor",
+      "odds": [
+        2033,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-61",
+      "name": "Italics Autographs \u2014 Red Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 17,
+      "serial_limit": 5,
+      "odds_label": "Italics Red Refractor",
+      "odds": [
+        4174,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-62",
+      "name": "Italics Autographs \u2014 Superfractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 17,
+      "serial_limit": 1,
+      "odds_label": "Italics Superfractor",
+      "odds": [
+        18414,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-64",
+      "name": "Pristine Pair Dual Autographs \u2014 Red Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 9,
+      "serial_limit": 5,
+      "odds_label": "Pristine Pair Dual Autographs Red Refractor",
+      "odds": [
+        8695,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-65",
+      "name": "Pristine Pair Dual Autographs \u2014 Superfractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 9,
+      "serial_limit": 1,
+      "odds_label": "Pristine Pair Dual Autographs Superfractor",
+      "odds": [
+        34782,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-66",
+      "name": "Pristine Personal Endorsements Autographs",
+      "category": "Autographs",
+      "kind": "average",
+      "subjects": 31,
+      "serial_limit": null,
+      "odds_label": "Pristine Personal Endorsements Autographs",
+      "odds": [
+        null,
+        313
+      ],
+      "page": 2,
+      "round_to": 1,
+      "proof": {
+        "min_primal": [
+          0.0,
+          0.3201
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -1054.3130990415336,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          0.0,
+          0.33475
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -1038.338658146965,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "pristine-67",
+      "name": "Pristine Personal Endorsements Autographs \u2014 Red Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 31,
+      "serial_limit": 5,
+      "odds_label": "Pristine Personal Endorsements Autographs Red Refractor",
+      "odds": [
+        null,
+        2190
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-68",
+      "name": "Pristine Personal Endorsements Autographs \u2014 Superfractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 31,
+      "serial_limit": 1,
+      "odds_label": "Pristine Personal Endorsements Autographs Superfractor",
+      "odds": [
+        null,
+        10794
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-70",
+      "name": "Spotless Signatures \u2014 Blue Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 26,
+      "serial_limit": 75,
+      "odds_label": "Spotless Signatures Blue Refractor",
+      "odds": [
+        200,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-71",
+      "name": "Spotless Signatures \u2014 Gold Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 26,
+      "serial_limit": 50,
+      "odds_label": "Spotless Signatures Gold Refractor",
+      "odds": [
+        285,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-72",
+      "name": "Spotless Signatures \u2014 Orange Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 26,
+      "serial_limit": 25,
+      "odds_label": "Spotless Signatures Orange Refractor",
+      "odds": [
+        523,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-73",
+      "name": "Spotless Signatures \u2014 Primaries Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 26,
+      "serial_limit": 10,
+      "odds_label": "Spotless Signatures Primaries Refractor",
+      "odds": [
+        1289,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-74",
+      "name": "Spotless Signatures \u2014 Red Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 26,
+      "serial_limit": 5,
+      "odds_label": "Spotless Signatures Red Refractor",
+      "odds": [
+        2588,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-75",
+      "name": "Spotless Signatures \u2014 Superfractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 26,
+      "serial_limit": 1,
+      "odds_label": "Spotless Signatures Superfractor",
+      "odds": [
+        12522,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-77",
+      "name": "Pristine Pieces Autograph Relics \u2014 Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 77,
+      "serial_limit": 99,
+      "odds_label": "Pristine Pieces Autograph Relics Pristine Refractor",
+      "odds": [
+        73,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-78",
+      "name": "Pristine Pieces Autograph Relics \u2014 Blue Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 77,
+      "serial_limit": 75,
+      "odds_label": "Pristine Pieces Autograph Relics Blue Pristine Refractor",
+      "odds": [
+        66,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-79",
+      "name": "Pristine Pieces Autograph Relics \u2014 Gold Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 77,
+      "serial_limit": 50,
+      "odds_label": "Pristine Pieces Autograph Relics Gold Pristine Refractor",
+      "odds": [
+        89,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-80",
+      "name": "Pristine Pieces Autograph Relics \u2014 Orange Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 77,
+      "serial_limit": 25,
+      "odds_label": "Pristine Pieces Autograph Relics Orange Pristine Refractor",
+      "odds": [
+        173,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-81",
+      "name": "Pristine Pieces Autograph Relics \u2014 Pink Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 77,
+      "serial_limit": 15,
+      "odds_label": "Pristine Pieces Autograph Relics Pink Pristine Refractor",
+      "odds": [
+        286,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-82",
+      "name": "Pristine Pieces Autograph Relics \u2014 Pristine Primaries Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 77,
+      "serial_limit": 10,
+      "odds_label": "Pristine Pieces Autograph Relics Pristine Primaries Refractor",
+      "odds": [
+        452,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-83",
+      "name": "Pristine Pieces Autograph Relics \u2014 Red Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 77,
+      "serial_limit": 5,
+      "odds_label": "Pristine Pieces Autograph Relics Red Pristine Refractor",
+      "odds": [
+        905,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-84",
+      "name": "Pristine Pieces Autograph Relics \u2014 Black Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 77,
+      "serial_limit": 1,
+      "odds_label": "Pristine Pieces Autograph Relics Black Pristine Refractor",
+      "odds": [
+        4409,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-86",
+      "name": "Popular Demand Autograph Relics \u2014 Blue Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 43,
+      "serial_limit": 75,
+      "odds_label": "Popular Demand Auto Relics Blue Pristine Refractor",
+      "odds": [
+        288,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-87",
+      "name": "Popular Demand Autograph Relics \u2014 Gold Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 43,
+      "serial_limit": 50,
+      "odds_label": "Popular Demand Auto Relics Gold Pristine Refractor",
+      "odds": [
+        226,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-88",
+      "name": "Popular Demand Autograph Relics \u2014 Orange Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 43,
+      "serial_limit": 25,
+      "odds_label": "Popular Demand Auto Relics Orange Pristine Refractor",
+      "odds": [
+        349,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-89",
+      "name": "Popular Demand Autograph Relics \u2014 Pink Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 43,
+      "serial_limit": 15,
+      "odds_label": "Popular Demand Auto Relics Pink Pristine Refractor",
+      "odds": [
+        548,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-90",
+      "name": "Popular Demand Autograph Relics \u2014 Primaries Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 43,
+      "serial_limit": 10,
+      "odds_label": "Popular Demand Auto Relics Primaries Pristine Refractor",
+      "odds": [
+        890,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-91",
+      "name": "Popular Demand Autograph Relics \u2014 Red Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 43,
+      "serial_limit": 5,
+      "odds_label": "Popular Demand Auto Relics Red Pristine Refractor",
+      "odds": [
+        1693,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-92",
+      "name": "Popular Demand Autograph Relics \u2014 Black Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 43,
+      "serial_limit": 1,
+      "odds_label": "Popular Demand Auto Relics Black Pristine Refractor",
+      "odds": [
+        7826,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-94",
+      "name": "Rookie Jumbo Relic Autographs \u2014 Red Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 16,
+      "serial_limit": 5,
+      "odds_label": "Rookie Jumbo Relic Auto Red Pristine Refractor",
+      "odds": [
+        4014,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "pristine-95",
+      "name": "Rookie Jumbo Relic Autographs \u2014 Black Pristine Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 16,
+      "serial_limit": 1,
+      "odds_label": "Rookie Jumbo Relic Auto Black Pristine Refractor",
+      "odds": [
+        19565,
+        null
+      ],
+      "page": 2
+    }
+  ],
+  "withheld": [
+    {
+      "name": "Base Cards Refractor",
+      "reason": "1:1 is an occurrence frequency; odds sheet alone does not establish the number of refractor cards per pack."
+    },
+    {
+      "name": "Pristine Autographs Pristine Refractor",
+      "reason": "Encased pack total is not independently calibrated. Do not apply non-encased pack volume or assume the two odds columns use interchangeable denominators."
+    },
+    {
+      "name": "Italics",
+      "reason": "Encased pack total is not independently calibrated. Do not apply non-encased pack volume or assume the two odds columns use interchangeable denominators."
+    },
+    {
+      "name": "Pristine Pair Dual Autographs",
+      "reason": "Encased pack total is not independently calibrated. Do not apply non-encased pack volume or assume the two odds columns use interchangeable denominators."
+    },
+    {
+      "name": "Spotless Signatures",
+      "reason": "Encased pack total is not independently calibrated. Do not apply non-encased pack volume or assume the two odds columns use interchangeable denominators."
+    },
+    {
+      "name": "Pristine Pieces Autograph Relics",
+      "reason": "Encased pack total is not independently calibrated. Do not apply non-encased pack volume or assume the two odds columns use interchangeable denominators."
+    },
+    {
+      "name": "Popular Demand Auto Relics Pristine Refractor",
+      "reason": "Encased pack total is not independently calibrated. Do not apply non-encased pack volume or assume the two odds columns use interchangeable denominators."
+    },
+    {
+      "name": "Rookie Jumbo Relic Auto Pristine Refractor",
+      "reason": "Encased pack total is not independently calibrated. Do not apply non-encased pack volume or assume the two odds columns use interchangeable denominators."
+    }
+  ],
+  "checklist_counts": {
+    "BASE CARDS I": 200,
+    "PRISTINE WILDERNESS": 25,
+    "PLATED AND POLISHED": 40,
+    "SPOTLESS": 35,
+    "PEARLESCENT": 25,
+    "AMPED": 20,
+    "RUSHMORE": 5,
+    "PRISTINE POPS": 10,
+    "MONOGRAM": 30,
+    "TIMELESS CONNECTIONS": 10,
+    "PRISTINE AUTOGRAPHS": 86,
+    "PRISTINE PAIR DUAL AUTOGRAPHS": 9,
+    "SPOTLESS SIGNATURES": 26,
+    "PRISTINE PERSONAL ENDORSEMENTS AUTOGRAPHS": 31,
+    "ITALICS": 17,
+    "POPULAR DEMAND AUTOGRAPH RELIC": 43,
+    "PRISTINE PIECES AUTOGRAPH RELIC": 77,
+    "ROOKIE JUMBO RELIC AUTOGRAPHS": 16
+  }
+}
