@@ -429,10 +429,6 @@ async function ensureFreshIndex_() {
     await loadStaticManifest_();
     const staticVer = staticVersion_("vault_version", "");
 
-    if (staticVer && !forceRefresh && INDEX.length && localStorage.getItem(INDEX_VER_KEY) === staticVer) {
-      return;
-    }
-
     const staticIndex = await loadStaticVaultIndex_();
     if (staticIndex.length) {
       storeIndex_(staticIndex, staticVer || `static_${Date.now()}`);
@@ -942,7 +938,7 @@ function renderEntries() {
   let rows = activeProduct.rows.filter(r=>(!category || r.category===category) && `${r.set_name} ${r.section}`.toLowerCase().includes(query));
   if (sort==='low') rows.sort((a,b)=>(a.measurement.value??Infinity)-(b.measurement.value??Infinity));
   if (sort==='name') rows.sort((a,b)=>a.set_name.localeCompare(b.set_name));
-  const labels={estimate:'Estimated',average:'Average',lower_bound:'At least',upper_bound:'Up to',reported:'Reported',unknown:'Not available'};
+  const labels={estimate:'Estimated',average:'Average',lower_bound:'At least',upper_bound:'Up to',reported:'Reported',serial_limit:'Numbered',unknown:'Not available'};
   document.getElementById('entryCount').textContent=`${rows.length ? Math.min(rows.length,visibleLimit) : 0} of ${rows.length} entries${category || query ? ' matching filters' : ''}`;
   document.getElementById('entryList').innerHTML=rows.slice(0,visibleLimit).map(r=>{
     const m=r.measurement;

@@ -2,7 +2,7 @@ name: Refresh structured Vault data
 on:
   push:
     branches: [main]
-    paths: ['data/v1/manifest.json', 'data/v1/vault/**', 'data/v1/checklists/index.json', 'shared/vault-model.js', 'scripts/build-vault-data.cjs', 'tests/**', 'vault/**', '.github/workflows/vault-data.yml']
+    paths: ['data/v1/manifest.json', 'data/v1/vault/**', 'data/v1/checklists/index.json', 'shared/vault-model.js', 'scripts/**', 'data/prv-calculations/**', 'tests/**', 'vault/**', '.github/workflows/vault-data.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -21,6 +21,7 @@ jobs:
             data/v1/vault
             data/v1/checklists/index.json
             data/v2/vault
+            data/prv-calculations
             shared
             scripts
             tests

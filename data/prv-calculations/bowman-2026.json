@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "code": "2026_bowman_sapphire_baseball",
+  "meta": {
+    "code": "2026_bowman_sapphire_baseball",
+    "displayName": "2026 Bowman Sapphire Baseball",
+    "keywords": "2026 Bowman Sapphire Baseball, 2026 Bowman Sapphire Baseball checklist, 2026 Bowman Sapphire Baseball cards, 2026 Bowman Sapphire Baseball parallels, 2026 Bowman Sapphire Baseball autographs, Bowman Sapphire baseball, Sapphire baseball checklist",
+    "source_key": "2026",
+    "year": "2026",
+    "manufacturer": "Bowman",
+    "product": "Sapphire",
+    "sport": "baseball"
+  },
+  "sources": {
+    "odds_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Sapphire_Odds.pdf?v=1781646322",
+    "odds_sha256": "a3e0e4ca75c04843ee14c204f431ba3c2b4c29dbdf66ea8f03e8977bb49c349a",
+    "checklist_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Bowman_Baseball_Sapphire_Edition_Checklist.pdf?v=1780499869",
+    "checklist_sha256": "052e3538fae9e62d792e8a509d6c81a6fab2d4ff4860a078c5079212644ae220",
+    "serial_reference_url": "https://www.checklistinsider.com/2026-bowman-sapphire-baseball",
+    "reviewed_date": "2026-10-16"
+  },
+  "method": {
+    "calibration": "Median of selected non-autograph numbered base tiers. Assumes stated serial ceilings are substantially represented in this format. Estimates are conditional, not manufacturer-confirmed production totals.",
+    "max_anchor_spread": 0.05,
+    "round_estimates_to": 5,
+    "excluded_from_calibration": "One-of-ones, low-denominator tiers, autographs and unnumbered base cards. All non-selected numbered tiers are retained as diagnostics, not forced to agree."
+  },
+  "groups": {
+    "Base Chrome Prospects Sapphire": {
+      "name": "Base Chrome Prospects Sapphire",
+      "category": "Base",
+      "subjects": 150,
+      "serials": {
+        "GREEN": 99,
+        "YELLOW": 75,
+        "GOLD": 50,
+        "ORANGE": 25,
+        "BLACK": 10,
+        "RED": 5,
+        "PADPARADSCHA": 1
+      }
+    },
+    "Sapphire Chrome Prospects Auto": {
+      "name": "Sapphire Chrome Prospects Auto",
+      "category": "Autograph",
+      "subjects": 31,
+      "serials": {
+        "GREEN": 99,
+        "GOLD": 50,
+        "ORANGE": 25,
+        "BLACK": 10,
+        "RED": 5,
+        "PADPARADSCHA": 1
+      }
+    },
+    "Sapphire Selections Auto": {
+      "name": "Sapphire Selections Auto",
+      "category": "Autograph",
+      "subjects": 9,
+      "serials": {
+        "ORANGE": 25,
+        "RED": 5,
+        "SUPERFRACTOR": 1
+      }
+    },
+    "Hidden Gems": {
+      "name": "Hidden Gems",
+      "category": "Insert",
+      "subjects": 5,
+      "serials": {}
+    }
+  },
+  "odds_rows": [
+    {
+      "id": "bowman-1",
+      "odds_label": "CHROME PROSPECTS SAPPHIRE",
+      "odds_denominator": 1,
+      "group": "Base Chrome Prospects Sapphire",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false,
+      "withheld": "Odds 1:1 specify occurrence, not number of base cards per pack."
+    },
+    {
+      "id": "bowman-2",
+      "odds_label": "CHROME PROSPECTS GREEN SAPPHIRE",
+      "odds_denominator": 6,
+      "group": "Base Chrome Prospects Sapphire",
+      "serial_limit": 99,
+      "parallel": "Green",
+      "anchor": false
+    },
+    {
+      "id": "bowman-3",
+      "odds_label": "CHROME PROSPECTS YELLOW SAPPHIRE",
+      "odds_denominator": 8,
+      "group": "Base Chrome Prospects Sapphire",
+      "serial_limit": 75,
+      "parallel": "Yellow",
+      "anchor": false
+    },
+    {
+      "id": "bowman-4",
+      "odds_label": "CHROME PROSPECTS GOLD SAPPHIRE",
+      "odds_denominator": 12,
+      "group": "Base Chrome Prospects Sapphire",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "bowman-5",
+      "odds_label": "CHROME PROSPECTS ORANGE SAPPHIRE",
+      "odds_denominator": 23,
+      "group": "Base Chrome Prospects Sapphire",
+      "serial_limit": 25,
+      "parallel": "Orange",
+      "anchor": true
+    },
+    {
+      "id": "bowman-6",
+      "odds_label": "CHROME PROSPECTS BLACK SAPPHIRE",
+      "odds_denominator": 56,
+      "group": "Base Chrome Prospects Sapphire",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": true
+    },
+    {
+      "id": "bowman-7",
+      "odds_label": "CHROME PROSPECTS RED SAPPHIRE",
+      "odds_denominator": 112,
+      "group": "Base Chrome Prospects Sapphire",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": true
+    },
+    {
+      "id": "bowman-8",
+      "odds_label": "CHROME PROSPECTS PADPRADASCHA",
+      "odds_denominator": 551,
+      "group": "Base Chrome Prospects Sapphire",
+      "serial_limit": 1,
+      "parallel": "Padparadscha",
+      "anchor": false
+    },
+    {
+      "id": "bowman-9",
+      "odds_label": "BOWMAN SAPPHIRE CHROME PROSPECTS AUTOGRAPHS",
+      "odds_denominator": 15,
+      "group": "Sapphire Chrome Prospects Auto",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "bowman-10",
+      "odds_label": "BOWMAN SAPPHIRE CHROME PROSPECTS AUTOGRAPHS GREEN SAPPHIRE",
+      "odds_denominator": 29,
+      "group": "Sapphire Chrome Prospects Auto",
+      "serial_limit": 99,
+      "parallel": "Green",
+      "anchor": false
+    },
+    {
+      "id": "bowman-11",
+      "odds_label": "BOWMAN SAPPHIRE CHROME PROSPECTS AUTOGRAPHS GOLD SAPPHIRE",
+      "odds_denominator": 57,
+      "group": "Sapphire Chrome Prospects Auto",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "bowman-12",
+      "odds_label": "BOWMAN SAPPHIRE CHROME PROSPECTS AUTOGRAPHS ORANGE SAPPHIRE",
+      "odds_denominator": 110,
+      "group": "Sapphire Chrome Prospects Auto",
+      "serial_limit": 25,
+      "parallel": "Orange",
+      "anchor": false
+    },
+    {
+      "id": "bowman-13",
+      "odds_label": "BOWMAN SAPPHIRE CHROME PROSPECTS AUTOGRAPHS BLACK SAPPHIRE",
+      "odds_denominator": 273,
+      "group": "Sapphire Chrome Prospects Auto",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": false
+    },
+    {
+      "id": "bowman-14",
+      "odds_label": "BOWMAN SAPPHIRE CHROME PROSPECTS AUTOGRAPHS RED SAPPHIRE",
+      "odds_denominator": 548,
+      "group": "Sapphire Chrome Prospects Auto",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "bowman-15",
+      "odds_label": "BOWMAN SAPPHIRE CHROME PROSPECTS AUTOGRAPHS PAPRADASCHA SAPPHIRE",
+      "odds_denominator": 2699,
+      "group": "Sapphire Chrome Prospects Auto",
+      "serial_limit": 1,
+      "parallel": "Padparadscha",
+      "anchor": false
+    },
+    {
+      "id": "bowman-16",
+      "odds_label": "SAPPHIRE SELECTIONS AUTOGRAPHS",
+      "odds_denominator": 93,
+      "group": "Sapphire Selections Auto",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "bowman-17",
+      "odds_label": "SAPPHIRE SELECTIONS AUTOGRAPHS ORANGE SAPPHIRE",
+      "odds_denominator": 365,
+      "group": "Sapphire Selections Auto",
+      "serial_limit": 25,
+      "parallel": "Orange",
+      "anchor": false
+    },
+    {
+      "id": "bowman-18",
+      "odds_label": "SAPPHIRE SELECTIONS AUTOGRAPHS RED SAPPHIRE",
+      "odds_denominator": 1840,
+      "group": "Sapphire Selections Auto",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "bowman-19",
+      "odds_label": "SAPPHIRE SELECTIONS AUTOGRAPHS SUPERFRACTOR",
+      "odds_denominator": 8996,
+      "group": "Sapphire Selections Auto",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    }
+  ],
+  "withheld": [
+    {
+      "group": "Hidden Gems",
+      "reason": "No odds supplied in the official odds sheet."
+    }
+  ]
+}

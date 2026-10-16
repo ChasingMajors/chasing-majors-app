@@ -1,0 +1,742 @@
+{
+  "schema_version": 1,
+  "code": "2026_topps_chrome_logofractor_baseball",
+  "meta": {
+    "code": "2026_topps_chrome_logofractor_baseball",
+    "displayName": "2026 Topps Chrome LogoFractor Baseball",
+    "keywords": "2026 Topps Chrome LogoFractor Baseball, 2026 Topps Chrome LogoFractor Baseball checklist, 2026 Topps Chrome LogoFractor Baseball cards, 2026 Topps Chrome LogoFractor Baseball parallels, 2026 Topps Chrome LogoFractor Baseball autographs, Topps Chrome LogoFractor baseball, Chrome LogoFractor baseball checklist",
+    "source_key": "2026",
+    "year": "2026",
+    "manufacturer": "Topps",
+    "product": "Chrome LogoFractor",
+    "sport": "baseball"
+  },
+  "sources": {
+    "odds_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Logofractor_Odds.pdf?v=1787676101",
+    "odds_sha256": "2994a508286bb2e6a0523d1d819eb65039f0044e07966cd05d6a7332f6207fc4",
+    "checklist_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Logofractor_Checklist.pdf?v=1787977340",
+    "checklist_sha256": "01746306c96f50ae6473d9fd7f8f719e0780ac33c213a0265bfb36755c304d68",
+    "serial_reference_url": "https://www.checklistinsider.com/2026-topps-chrome-logofractor-baseball",
+    "reviewed_date": "2026-10-16"
+  },
+  "method": {
+    "calibration": "Median of selected non-autograph numbered base tiers. Assumes stated serial ceilings are substantially represented in this format. Estimates are conditional, not manufacturer-confirmed production totals.",
+    "max_anchor_spread": 0.05,
+    "round_estimates_to": 5,
+    "excluded_from_calibration": "One-of-ones, low-denominator tiers, autographs and unnumbered base cards. All non-selected numbered tiers are retained as diagnostics, not forced to agree."
+  },
+  "groups": {
+    "Base LogoFractor": {
+      "name": "Base LogoFractor",
+      "category": "Base",
+      "subjects": 300,
+      "serials": {
+        "PINK": 250,
+        "BLUE": 150,
+        "GREEN": 99,
+        "PURPLE": 75,
+        "GOLD": 50,
+        "ORANGE": 25,
+        "BLACK": 10,
+        "RED": 5,
+        "ROSE GOLD": 1
+      }
+    },
+    "Base LogoFractor Image Variations": {
+      "name": "Base LogoFractor Image Variations",
+      "category": "Variation",
+      "subjects": 50,
+      "serials": {
+        "GOLD": 50,
+        "ORANGE": 25,
+        "BLACK": 10,
+        "RED": 5,
+        "ROSE GOLD": 1
+      }
+    },
+    "LogoFractor Rookie Auto": {
+      "name": "LogoFractor Rookie Auto",
+      "category": "Autograph",
+      "subjects": 45,
+      "serials": {
+        "BLUE": 150,
+        "GREEN": 99,
+        "PURPLE": 75,
+        "GOLD": 50,
+        "WHITE": 30,
+        "ORANGE": 25,
+        "BLACK": 10,
+        "RED": 5,
+        "ROSE GOLD": 1
+      }
+    },
+    "LogoFractor": {
+      "name": "1991 Topps LogoFractor",
+      "category": "Insert",
+      "subjects": 30,
+      "serials": {
+        "GREEN": 99,
+        "PURPLE": 75,
+        "GOLD": 50,
+        "ORANGE": 25,
+        "BLACK": 10,
+        "RED": 5,
+        "ROSE GOLD": 1
+      }
+    },
+    "Big Ticket Players LogoFractor": {
+      "name": "Big Ticket Players LogoFractor",
+      "category": "Insert",
+      "subjects": 25,
+      "serials": {
+        "GREEN": 99,
+        "PURPLE": 75,
+        "GOLD": 50,
+        "ORANGE": 25,
+        "BLACK": 10,
+        "RED": 5,
+        "ROSE GOLD": 1
+      }
+    },
+    "Future Stars LogoFractor": {
+      "name": "Future Stars LogoFractor",
+      "category": "Insert",
+      "subjects": 10,
+      "serials": {
+        "GREEN": 99,
+        "PURPLE": 75,
+        "GOLD": 50,
+        "ORANGE": 25,
+        "BLACK": 10,
+        "RED": 5,
+        "ROSE GOLD": 1
+      }
+    },
+    "Perspectives LogoFractor": {
+      "name": "Perspectives LogoFractor",
+      "category": "Insert",
+      "subjects": 10,
+      "serials": {
+        "GREEN": 99,
+        "PURPLE": 75,
+        "GOLD": 50,
+        "ORANGE": 25,
+        "BLACK": 10,
+        "RED": 5,
+        "ROSE GOLD": 1
+      }
+    },
+    "Wrecking Crew LogoFractor": {
+      "name": "Wrecking Crew LogoFractor",
+      "category": "Insert",
+      "subjects": 25,
+      "serials": {
+        "GREEN": 99,
+        "PURPLE": 75,
+        "GOLD": 50,
+        "ORANGE": 25,
+        "BLACK": 10,
+        "RED": 5,
+        "ROSE GOLD": 1
+      }
+    }
+  },
+  "odds_rows": [
+    {
+      "id": "logofractor-1",
+      "odds_label": "BASE CARDS MLB LOGOFRACTOR",
+      "odds_denominator": 1,
+      "group": "Base LogoFractor",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false,
+      "withheld": "Odds 1:1 specify occurrence, not number of base cards per pack."
+    },
+    {
+      "id": "logofractor-2",
+      "odds_label": "BASE CARDS PINK MLB LOGOFRACTOR",
+      "odds_denominator": 10,
+      "group": "Base LogoFractor",
+      "serial_limit": 250,
+      "parallel": "Pink",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-3",
+      "odds_label": "BASE CARDS BLUE MLB LOGOFRACTOR",
+      "odds_denominator": 16,
+      "group": "Base LogoFractor",
+      "serial_limit": 150,
+      "parallel": "Blue",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-4",
+      "odds_label": "BASE CARDS GREEN MLB LOGOFRACTOR",
+      "odds_denominator": 24,
+      "group": "Base LogoFractor",
+      "serial_limit": 99,
+      "parallel": "Green",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-5",
+      "odds_label": "BASE CARDS PURPLE MLB LOGOFRACTOR",
+      "odds_denominator": 31,
+      "group": "Base LogoFractor",
+      "serial_limit": 75,
+      "parallel": "Purple",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-6",
+      "odds_label": "BASE CARDS GOLD MLB LOGOFRACTOR",
+      "odds_denominator": 47,
+      "group": "Base LogoFractor",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": true
+    },
+    {
+      "id": "logofractor-7",
+      "odds_label": "BASE CARDS ORANGE MLB LOGOFRACTOR",
+      "odds_denominator": 93,
+      "group": "Base LogoFractor",
+      "serial_limit": 25,
+      "parallel": "Orange",
+      "anchor": true
+    },
+    {
+      "id": "logofractor-8",
+      "odds_label": "BASE CARDS BLACK MLB LOGOFRACTOR",
+      "odds_denominator": 232,
+      "group": "Base LogoFractor",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": true
+    },
+    {
+      "id": "logofractor-9",
+      "odds_label": "BASE CARDS RED MLB LOGOFRACTOR",
+      "odds_denominator": 463,
+      "group": "Base LogoFractor",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": true
+    },
+    {
+      "id": "logofractor-10",
+      "odds_label": "BASE CARDS ROSE GOLD MLB LOGOFRACTOR",
+      "odds_denominator": 2286,
+      "group": "Base LogoFractor",
+      "serial_limit": 1,
+      "parallel": "Rose Gold",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-11",
+      "odds_label": "BASE CARD IMAGE VARIATIONS MLB LOGOFRACTOR",
+      "odds_denominator": 70,
+      "group": "Base LogoFractor Image Variations",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-12",
+      "odds_label": "BASE CARD IMAGE VARIATIONS GOLD MLB LOGOFRACTOR",
+      "odds_denominator": 279,
+      "group": "Base LogoFractor Image Variations",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-13",
+      "odds_label": "BASE CARD IMAGE VARIATIONS ORANGE MLB LOGOFRACTOR",
+      "odds_denominator": 557,
+      "group": "Base LogoFractor Image Variations",
+      "serial_limit": 25,
+      "parallel": "Orange",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-14",
+      "odds_label": "BASE CARD IMAGE VARIATIONS BLACK MLB LOGOFRACTOR",
+      "odds_denominator": 1389,
+      "group": "Base LogoFractor Image Variations",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-15",
+      "odds_label": "BASE CARD IMAGE VARIATIONS RED MLB LOGOFRACTOR",
+      "odds_denominator": 2766,
+      "group": "Base LogoFractor Image Variations",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-16",
+      "odds_label": "BASE CARD IMAGE VARIATIONS ROSE GOLD MLB LOGOFRACTOR",
+      "odds_denominator": 13715,
+      "group": "Base LogoFractor Image Variations",
+      "serial_limit": 1,
+      "parallel": "Rose Gold",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-17",
+      "odds_label": "1991 TOPPS BASEBALL MLB LOGOFRACTOR",
+      "odds_denominator": 10,
+      "group": "LogoFractor",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-18",
+      "odds_label": "1991 TOPPS BASEBALL GREEN MLB LOGOFRACTOR",
+      "odds_denominator": 235,
+      "group": "LogoFractor",
+      "serial_limit": 99,
+      "parallel": "Green",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-19",
+      "odds_label": "1991 TOPPS BASEBALL PURPLE MLB LOGOFRACTOR",
+      "odds_denominator": 310,
+      "group": "LogoFractor",
+      "serial_limit": 75,
+      "parallel": "Purple",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-20",
+      "odds_label": "1991 TOPPS BASEBALL GOLD MLB LOGOFRACTOR",
+      "odds_denominator": 464,
+      "group": "LogoFractor",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-21",
+      "odds_label": "1991 TOPPS BASEBALL ORANGE MLB LOGOFRACTOR",
+      "odds_denominator": 926,
+      "group": "LogoFractor",
+      "serial_limit": 25,
+      "parallel": "Orange",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-22",
+      "odds_label": "1991 TOPPS BASEBALL BLACK MLB LOGOFRACTOR",
+      "odds_denominator": 2310,
+      "group": "LogoFractor",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-23",
+      "odds_label": "1991 TOPPS BASEBALL RED MLB LOGOFRACTOR",
+      "odds_denominator": 4572,
+      "group": "LogoFractor",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-24",
+      "odds_label": "1991 TOPPS BASEBALL ROSE GOLD MLB LOGOFRACTOR",
+      "odds_denominator": 22400,
+      "group": "LogoFractor",
+      "serial_limit": 1,
+      "parallel": "Rose Gold",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-25",
+      "odds_label": "BIG TICKET PLAYERS MLB LOGOFRACTOR",
+      "odds_denominator": 12,
+      "group": "Big Ticket Players LogoFractor",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-26",
+      "odds_label": "BIG TICKET PLAYERS GREEN MLB LOGOFRACTOR",
+      "odds_denominator": 282,
+      "group": "Big Ticket Players LogoFractor",
+      "serial_limit": 99,
+      "parallel": "Green",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-27",
+      "odds_label": "BIG TICKET PLAYERS PURPLE MLB LOGOFRACTOR",
+      "odds_denominator": 371,
+      "group": "Big Ticket Players LogoFractor",
+      "serial_limit": 75,
+      "parallel": "Purple",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-28",
+      "odds_label": "BIG TICKET PLAYERS GOLD MLB LOGOFRACTOR",
+      "odds_denominator": 557,
+      "group": "Big Ticket Players LogoFractor",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-29",
+      "odds_label": "BIG TICKET PLAYERS ORANGE MLB LOGOFRACTOR",
+      "odds_denominator": 1113,
+      "group": "Big Ticket Players LogoFractor",
+      "serial_limit": 25,
+      "parallel": "Orange",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-30",
+      "odds_label": "BIG TICKET PLAYERS BLACK MLB LOGOFRACTOR",
+      "odds_denominator": 2766,
+      "group": "Big Ticket Players LogoFractor",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-31",
+      "odds_label": "BIG TICKET PLAYERS RED MLB LOGOFRACTOR",
+      "odds_denominator": 5509,
+      "group": "Big Ticket Players LogoFractor",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-32",
+      "odds_label": "BIG TICKET PLAYERS ROSE GOLD MLB LOGOFRACTOR",
+      "odds_denominator": 26880,
+      "group": "Big Ticket Players LogoFractor",
+      "serial_limit": 1,
+      "parallel": "Rose Gold",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-33",
+      "odds_label": "FUTURE STARS MLB LOGOFRACTOR",
+      "odds_denominator": 30,
+      "group": "Future Stars LogoFractor",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-34",
+      "odds_label": "FUTURE STARS GREEN MLB LOGOFRACTOR",
+      "odds_denominator": 702,
+      "group": "Future Stars LogoFractor",
+      "serial_limit": 99,
+      "parallel": "Green",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-35",
+      "odds_label": "FUTURE STARS PURPLE MLB LOGOFRACTOR",
+      "odds_denominator": 926,
+      "group": "Future Stars LogoFractor",
+      "serial_limit": 75,
+      "parallel": "Purple",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-36",
+      "odds_label": "FUTURE STARS GOLD MLB LOGOFRACTOR",
+      "odds_denominator": 1389,
+      "group": "Future Stars LogoFractor",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-37",
+      "odds_label": "FUTURE STARS ORANGE MLB LOGOFRACTOR",
+      "odds_denominator": 2766,
+      "group": "Future Stars LogoFractor",
+      "serial_limit": 25,
+      "parallel": "Orange",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-38",
+      "odds_label": "FUTURE STARS BLACK MLB LOGOFRACTOR",
+      "odds_denominator": 6858,
+      "group": "Future Stars LogoFractor",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-39",
+      "odds_label": "FUTURE STARS RED MLB LOGOFRACTOR",
+      "odds_denominator": 13715,
+      "group": "Future Stars LogoFractor",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-40",
+      "odds_label": "FUTURE STARS ROSE GOLD MLB LOGOFRACTOR",
+      "odds_denominator": 67200,
+      "group": "Future Stars LogoFractor",
+      "serial_limit": 1,
+      "parallel": "Rose Gold",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-41",
+      "odds_label": "PERSPECTIVES MLB LOGOFRACTOR",
+      "odds_denominator": 30,
+      "group": "Perspectives LogoFractor",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-42",
+      "odds_label": "PERSPECTIVES GREEN MLB LOGOFRACTOR",
+      "odds_denominator": 702,
+      "group": "Perspectives LogoFractor",
+      "serial_limit": 99,
+      "parallel": "Green",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-43",
+      "odds_label": "PERSPECTIVES PURPLE MLB LOGOFRACTOR",
+      "odds_denominator": 926,
+      "group": "Perspectives LogoFractor",
+      "serial_limit": 75,
+      "parallel": "Purple",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-44",
+      "odds_label": "PERSPECTIVES GOLD MLB LOGOFRACTOR",
+      "odds_denominator": 1389,
+      "group": "Perspectives LogoFractor",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-45",
+      "odds_label": "PERSPECTIVES ORANGE MLB LOGOFRACTOR",
+      "odds_denominator": 2766,
+      "group": "Perspectives LogoFractor",
+      "serial_limit": 25,
+      "parallel": "Orange",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-46",
+      "odds_label": "PERSPECTIVES BLACK MLB LOGOFRACTOR",
+      "odds_denominator": 6858,
+      "group": "Perspectives LogoFractor",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-47",
+      "odds_label": "PERSPECTIVES RED MLB LOGOFRACTOR",
+      "odds_denominator": 13715,
+      "group": "Perspectives LogoFractor",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-48",
+      "odds_label": "PERSPECTIVES ROSE GOLD MLB LOGOFRACTOR",
+      "odds_denominator": 67200,
+      "group": "Perspectives LogoFractor",
+      "serial_limit": 1,
+      "parallel": "Rose Gold",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-49",
+      "odds_label": "WRECKING CREW MLB LOGOFRACTOR",
+      "odds_denominator": 12,
+      "group": "Wrecking Crew LogoFractor",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-50",
+      "odds_label": "WRECKING CREW GREEN MLB LOGOFRACTOR",
+      "odds_denominator": 282,
+      "group": "Wrecking Crew LogoFractor",
+      "serial_limit": 99,
+      "parallel": "Green",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-51",
+      "odds_label": "WRECKING CREW PURPLE MLB LOGOFRACTOR",
+      "odds_denominator": 371,
+      "group": "Wrecking Crew LogoFractor",
+      "serial_limit": 75,
+      "parallel": "Purple",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-52",
+      "odds_label": "WRECKING CREW GOLD MLB LOGOFRACTOR",
+      "odds_denominator": 557,
+      "group": "Wrecking Crew LogoFractor",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-53",
+      "odds_label": "WRECKING CREW ORANGE MLB LOGOFRACTOR",
+      "odds_denominator": 1113,
+      "group": "Wrecking Crew LogoFractor",
+      "serial_limit": 25,
+      "parallel": "Orange",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-54",
+      "odds_label": "WRECKING CREW BLACK MLB LOGOFRACTOR",
+      "odds_denominator": 2766,
+      "group": "Wrecking Crew LogoFractor",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-55",
+      "odds_label": "WRECKING CREW RED MLB LOGOFRACTOR",
+      "odds_denominator": 5509,
+      "group": "Wrecking Crew LogoFractor",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-56",
+      "odds_label": "WRECKING CREW ROSE GOLD MLB LOGOFRACTOR",
+      "odds_denominator": 26880,
+      "group": "Wrecking Crew LogoFractor",
+      "serial_limit": 1,
+      "parallel": "Rose Gold",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-57",
+      "odds_label": "TOPPS CHROME LOGOFRACTOR AUTOGRAPHS MLB REFRACTOR",
+      "odds_denominator": 80,
+      "group": "LogoFractor Rookie Auto",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-58",
+      "odds_label": "TOPPS CHROME LOGOFRACTOR AUTOGRAPHS BLUE MLB REFRACTOR",
+      "odds_denominator": 183,
+      "group": "LogoFractor Rookie Auto",
+      "serial_limit": 150,
+      "parallel": "Blue",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-59",
+      "odds_label": "TOPPS CHROME LOGOFRACTOR AUTOGRAPHS GREEN MLB REFRACTOR",
+      "odds_denominator": 182,
+      "group": "LogoFractor Rookie Auto",
+      "serial_limit": 99,
+      "parallel": "Green",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-60",
+      "odds_label": "TOPPS CHROME LOGOFRACTOR AUTOGRAPHS PURPLE MLB REFRACTOR",
+      "odds_denominator": 249,
+      "group": "LogoFractor Rookie Auto",
+      "serial_limit": 75,
+      "parallel": "Purple",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-61",
+      "odds_label": "TOPPS CHROME LOGOFRACTOR AUTOGRAPHS GOLD MLB REFRACTOR",
+      "odds_denominator": 361,
+      "group": "LogoFractor Rookie Auto",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-62",
+      "odds_label": "TOPPS CHROME LOGOFRACTOR AUTOGRAPHS WHITE MLB REFRACTOR",
+      "odds_denominator": 599,
+      "group": "LogoFractor Rookie Auto",
+      "serial_limit": 30,
+      "parallel": "White",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-63",
+      "odds_label": "TOPPS CHROME LOGOFRACTOR AUTOGRAPHS ORANGE MLB REFRACTOR",
+      "odds_denominator": 727,
+      "group": "LogoFractor Rookie Auto",
+      "serial_limit": 25,
+      "parallel": "Orange",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-64",
+      "odds_label": "TOPPS CHROME LOGOFRACTOR AUTOGRAPHS BLACK MLB REFRACTOR",
+      "odds_denominator": 1847,
+      "group": "LogoFractor Rookie Auto",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-65",
+      "odds_label": "TOPPS CHROME LOGOFRACTOR AUTOGRAPHS RED MLB REFRACTOR",
+      "odds_denominator": 3394,
+      "group": "LogoFractor Rookie Auto",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "logofractor-66",
+      "odds_label": "TOPPS CHROME LOGOFRACTOR AUTOGRAPHS ROSE GOLD MLB REFRACTOR",
+      "odds_denominator": 16800,
+      "group": "LogoFractor Rookie Auto",
+      "serial_limit": 1,
+      "parallel": "Rose Gold",
+      "anchor": false
+    }
+  ],
+  "withheld": []
+}
