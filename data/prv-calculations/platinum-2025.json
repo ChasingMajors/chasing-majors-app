@@ -1,0 +1,2120 @@
+{
+  "schema_version": 2,
+  "code": "2025_topps_chrome_platinum_baseball",
+  "meta": {
+    "code": "2025_topps_chrome_platinum_baseball",
+    "displayName": "2025 Topps Chrome Platinum Baseball",
+    "keywords": "2025 Topps Chrome Platinum Anniversary Baseball, 2025 Topps Chrome Platinum Baseball, Topps Chrome Platinum Anniversary Baseball 2025, Topps Chrome Platinum Baseball 2025, 2025 Topps Chrome Platinum cards, Topps Chrome Platinum baseball cards 2025, Topps Chrome Platinum Anniversary cards 2025, 2025 Topps Platinum Anniversary baseball cards, Topps Chrome Platinum hobby box 2025, Topps Chrome Platinum blaster 2025, Topps Chrome Platinum retail 2025, Topps Chrome Platinum rookies 2025, Topps Chrome Platinum rookie cards 2025, Topps Chrome Platinum autos 2025, Topps Chrome Platinum autographs 2025, Topps Chrome Platinum parallels 2025, Topps Chrome Platinum refractors 2025, Topps Chrome Platinum superfractor 2025, Topps Chrome Platinum inserts 2025, Topps Chrome Platinum Anniversary checklist 2025, Topps Chrome Platinum checklist",
+    "source_key": "2025",
+    "year": "2025",
+    "manufacturer": "Topps",
+    "product": "Chrome Platinum",
+    "sport": "baseball"
+  },
+  "sources": {
+    "odds_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Platinum55_Baseball_Odds.pdf?v=1781723903",
+    "checklist_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Platinum_Baseball_Checklist.pdf?v=1777494180",
+    "serial_reference_url": "https://www.checklistinsider.com/2025-topps-chrome-platinum-baseball",
+    "reviewed_date": "2026-10-16",
+    "odds_sha256": "b71707e1d4450b141d1cec57194c1292625af060444970bab41183e76167fbab",
+    "checklist_sha256": "ee15344bdbfe64744ffc6a60ba06c7400a02a7379051ad6fe26e85a7308b5b13"
+  },
+  "method": {
+    "name": "multiformat_bounded_serial_anchors_v1",
+    "anchor_tolerance": 0.03,
+    "max_relative_width": 0.1,
+    "pack_scale": 1000000,
+    "assumptions": "Conditional on selected 500-card non-autograph numbered base tiers substantially reaching the listed formats at their nominal serial ceilings. Format packs are nonnegative; 3% anchor tolerance defines sensitivity ranges, not confidence intervals. Retail SE/EA split remains unidentified; only aggregates supported across all feasible mixes are published. Identical repeated source rows are counted once. One-of-ones and autographs do not calibrate production."
+  },
+  "formats": [
+    "Hobby",
+    "Value Box SE",
+    "Value Box EA"
+  ],
+  "anchors": [
+    {
+      "label": "Base Blue Shimmer Refractor",
+      "subjects": 500,
+      "serial_limit": 100,
+      "odds": [
+        null,
+        71,
+        71
+      ],
+      "page": 1
+    },
+    {
+      "label": "Base Platinum Toile Cream/Fuchsia Shimmer Refractor",
+      "subjects": 500,
+      "serial_limit": 100,
+      "odds": [
+        42,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "label": "Base Gold Refractor",
+      "subjects": 500,
+      "serial_limit": 50,
+      "odds": [
+        227,
+        224,
+        224
+      ],
+      "page": 1
+    },
+    {
+      "label": "Base Gold Wave Refractor",
+      "subjects": 500,
+      "serial_limit": 50,
+      "odds": [
+        84,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "label": "Base Orange Refractor",
+      "subjects": 500,
+      "serial_limit": 25,
+      "odds": [
+        454,
+        448,
+        448
+      ],
+      "page": 1
+    },
+    {
+      "label": "Base Orange Wave Refractor",
+      "subjects": 500,
+      "serial_limit": 25,
+      "odds": [
+        168,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "label": "Base Black Refractor",
+      "subjects": 500,
+      "serial_limit": 10,
+      "odds": [
+        1133,
+        1119,
+        1119
+      ],
+      "page": 1
+    },
+    {
+      "label": "Base Red Refractor",
+      "subjects": 500,
+      "serial_limit": 5,
+      "odds": [
+        2266,
+        2237,
+        2237
+      ],
+      "page": 1
+    },
+    {
+      "label": "Base Red Lava Refractor",
+      "subjects": 500,
+      "serial_limit": 5,
+      "odds": [
+        839,
+        null,
+        null
+      ],
+      "page": 1
+    }
+  ],
+  "records": [
+    {
+      "id": "platinum-1",
+      "name": "Base \u2014 Refractor",
+      "category": "Parallels",
+      "kind": "estimate",
+      "subjects": 500,
+      "serial_limit": null,
+      "odds_label": "Base Refractor",
+      "odds": [
+        4,
+        4,
+        4
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          2.037,
+          3.4435,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -887500.0,
+          -525000.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          2.160425,
+          3.627498863636364,
+          0.0
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -1398125.0,
+          -6710.889232127114,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "platinum-2",
+      "name": "Base \u2014 X-Fractor",
+      "category": "Parallels",
+      "kind": "estimate",
+      "subjects": 500,
+      "serial_limit": null,
+      "odds_label": "Base X-Fractor",
+      "odds": [
+        24,
+        null,
+        null
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          2.037,
+          3.4435,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -87500.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          2.160425,
+          3.4435,
+          0.0
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -87395.83333333333,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "platinum-3",
+      "name": "Base \u2014 Prism",
+      "category": "Parallels",
+      "kind": "estimate",
+      "subjects": 500,
+      "serial_limit": null,
+      "odds_label": "Base Prism",
+      "odds": [
+        null,
+        4,
+        4
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          2.037,
+          3.4435,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -887500.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          2.037,
+          3.6565,
+          0.0
+        ],
+        "max_dual": [
+          -887500.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "platinum-4",
+      "name": "Base \u2014 Blue Prism",
+      "category": "Parallels",
+      "kind": "estimate",
+      "subjects": 500,
+      "serial_limit": null,
+      "odds_label": "Base Blue Prism",
+      "odds": [
+        null,
+        7,
+        7
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          2.037,
+          3.4435,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -507142.85714285716,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          2.037,
+          3.6565,
+          0.0
+        ],
+        "max_dual": [
+          -507142.85714285716,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "platinum-5",
+      "name": "Base \u2014 Gold Prism",
+      "category": "Parallels",
+      "kind": "estimate",
+      "subjects": 500,
+      "serial_limit": null,
+      "odds_label": "Base Gold Prism",
+      "odds": [
+        null,
+        350,
+        350
+      ],
+      "page": 1,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          2.037,
+          3.4435,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -10142.857142857143,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          2.037,
+          3.6565,
+          0.0
+        ],
+        "max_dual": [
+          -10142.857142857143,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "platinum-6",
+      "name": "Base \u2014 Red Prism",
+      "category": "Parallels",
+      "kind": "estimate",
+      "subjects": 500,
+      "serial_limit": null,
+      "odds_label": "Base Red Prism",
+      "odds": [
+        null,
+        7000,
+        7000
+      ],
+      "page": 1,
+      "round_to": 1,
+      "proof": {
+        "min_primal": [
+          2.037,
+          3.4435,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -507.1428571428571,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          2.037,
+          3.6565,
+          0.0
+        ],
+        "max_dual": [
+          -507.1428571428571,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "platinum-7",
+      "name": "Base \u2014 Topps Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 499,
+      "odds_label": "Base Topps Refractor",
+      "odds": [
+        23,
+        23,
+        23
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-8",
+      "name": "Base \u2014 Vibrations Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 250,
+      "odds_label": "Base Vibrations Refractor",
+      "odds": [
+        46,
+        45,
+        45
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-9",
+      "name": "Base \u2014 Blue Mini-Diamond",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 199,
+      "odds_label": "Base Blue Mini-Diamond",
+      "odds": [
+        57,
+        57,
+        57
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-10",
+      "name": "Base \u2014 Blue Vibrations Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 150,
+      "odds_label": "Base Blue Vibrations Refractor",
+      "odds": [
+        76,
+        75,
+        75
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-11",
+      "name": "Base \u2014 Speckle Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 150,
+      "odds_label": "Base Speckle Refractor",
+      "odds": [
+        76,
+        75,
+        75
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-12",
+      "name": "Base \u2014 Blue Shimmer Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 100,
+      "odds_label": "Base Blue Shimmer Refractor",
+      "odds": [
+        null,
+        71,
+        71
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-13",
+      "name": "Base \u2014 Platinum Toile Cream/Fuchsia Shimmer Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 100,
+      "odds_label": "Base Platinum Toile Cream/Fuchsia Shimmer Refractor",
+      "odds": [
+        42,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-14",
+      "name": "Base \u2014 Platinum Toile White/Green Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 99,
+      "odds_label": "Base Platinum Toile White/Green Refractor",
+      "odds": [
+        115,
+        113,
+        113
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-15",
+      "name": "Base \u2014 Green Wave Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 99,
+      "odds_label": "Base Green Wave Refractor",
+      "odds": [
+        115,
+        113,
+        113
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-16",
+      "name": "Base \u2014 Green Vibrations Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 99,
+      "odds_label": "Base Green Vibrations Refractor",
+      "odds": [
+        115,
+        113,
+        113
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-17",
+      "name": "Base \u2014 Rose Gold Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 75,
+      "odds_label": "Base Rose Gold Refractor",
+      "odds": [
+        152,
+        150,
+        150
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-18",
+      "name": "Base \u2014 Platinum Toile Cream/Rose Gold Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 75,
+      "odds_label": "Base Platinum Toile Cream/Rose Gold Refractor",
+      "odds": [
+        152,
+        150,
+        150
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-19",
+      "name": "Base \u2014 Rose Gold Mini-Diamond Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 75,
+      "odds_label": "Base Rose Gold Mini-Diamond Refractor",
+      "odds": [
+        152,
+        150,
+        150
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-20",
+      "name": "Base \u2014 Diamond Etch Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 55,
+      "odds_label": "Base Diamond Etch Refractor",
+      "odds": [
+        206,
+        204,
+        204
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-21",
+      "name": "Base \u2014 Gold Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 50,
+      "odds_label": "Base Gold Refractor",
+      "odds": [
+        227,
+        224,
+        224
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-22",
+      "name": "Base \u2014 Platinum Toile Cream/Gold Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 50,
+      "odds_label": "Base Platinum Toile Cream/Gold Refractor",
+      "odds": [
+        227,
+        224,
+        224
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-23",
+      "name": "Base \u2014 Gold Wave Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 50,
+      "odds_label": "Base Gold Wave Refractor",
+      "odds": [
+        84,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-24",
+      "name": "Base \u2014 Gold Vibrations Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 50,
+      "odds_label": "Base Gold Vibrations Refractor",
+      "odds": [
+        227,
+        224,
+        224
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-25",
+      "name": "Base \u2014 Orange Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 25,
+      "odds_label": "Base Orange Refractor",
+      "odds": [
+        454,
+        448,
+        448
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-26",
+      "name": "Base \u2014 Platinum Toile Cream/Orange Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 25,
+      "odds_label": "Base Platinum Toile Cream/Orange Refractor",
+      "odds": [
+        454,
+        448,
+        448
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-27",
+      "name": "Base \u2014 Orange Wave Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 25,
+      "odds_label": "Base Orange Wave Refractor",
+      "odds": [
+        168,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-28",
+      "name": "Base \u2014 Orange Vibrations Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 25,
+      "odds_label": "Base Orange Vibrations Refractor",
+      "odds": [
+        454,
+        448,
+        448
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-29",
+      "name": "Base \u2014 Black Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 10,
+      "odds_label": "Base Black Refractor",
+      "odds": [
+        1133,
+        1119,
+        1119
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-30",
+      "name": "Base \u2014 Platinum Toile Cream/Black Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 10,
+      "odds_label": "Base Platinum Toile Cream/Black Refractor",
+      "odds": [
+        1133,
+        1119,
+        1119
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-31",
+      "name": "Base \u2014 Black Vibrations Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 10,
+      "odds_label": "Base Black Vibrations Refractor",
+      "odds": [
+        1133,
+        1119,
+        1119
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-32",
+      "name": "Base \u2014 Red Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 5,
+      "odds_label": "Base Red Refractor",
+      "odds": [
+        2266,
+        2237,
+        2237
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-33",
+      "name": "Base \u2014 Platinum Toile Cream/Red Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 5,
+      "odds_label": "Base Platinum Toile Cream/Red Refractor",
+      "odds": [
+        2266,
+        2237,
+        2237
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-34",
+      "name": "Base \u2014 Red Lava Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 5,
+      "odds_label": "Base Red Lava Refractor",
+      "odds": [
+        839,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-35",
+      "name": "Base \u2014 Red Vibrations Refractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 5,
+      "odds_label": "Base Red Vibrations Refractor",
+      "odds": [
+        2266,
+        2237,
+        2237
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-36",
+      "name": "Base \u2014 Superfractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 500,
+      "serial_limit": 1,
+      "odds_label": "Base Superfractor",
+      "odds": [
+        11327,
+        11185,
+        11185
+      ],
+      "page": 1
+    },
+    {
+      "id": "platinum-37",
+      "name": "1955 Topps Rails and Sails",
+      "category": "Inserts",
+      "kind": "estimate",
+      "subjects": 20,
+      "serial_limit": null,
+      "odds_label": "1955 Rails and Sails",
+      "odds": [
+        20,
+        20,
+        20
+      ],
+      "page": 4,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          2.037,
+          3.4435,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -177500.0,
+          -105000.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          2.160425,
+          3.627498863636364,
+          0.0
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -279625.0,
+          -1342.1778464254228,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "platinum-38",
+      "name": "1955 Topps Rails and Sails \u2014 Green",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 99,
+      "odds_label": "1955 Rails and Sails Green",
+      "odds": [
+        2861,
+        2825,
+        2825
+      ],
+      "page": 4
+    },
+    {
+      "id": "platinum-39",
+      "name": "1955 Topps Rails and Sails \u2014 Gold",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 50,
+      "odds_label": "1955 Rails and Sails Gold",
+      "odds": [
+        5664,
+        5593,
+        5593
+      ],
+      "page": 4
+    },
+    {
+      "id": "platinum-40",
+      "name": "1955 Topps Rails and Sails \u2014 Orange",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 25,
+      "odds_label": "1955 Rails and Sails Orange",
+      "odds": [
+        11327,
+        11185,
+        11185
+      ],
+      "page": 4
+    },
+    {
+      "id": "platinum-41",
+      "name": "1955 Topps Rails and Sails \u2014 Black",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 10,
+      "odds_label": "1955 Rails and Sails Black",
+      "odds": [
+        28316,
+        27962,
+        27962
+      ],
+      "page": 4
+    },
+    {
+      "id": "platinum-42",
+      "name": "1955 Topps Rails and Sails \u2014 Red",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 5,
+      "odds_label": "1955 Rails and Sails Red",
+      "odds": [
+        56631,
+        55923,
+        55923
+      ],
+      "page": 4
+    },
+    {
+      "id": "platinum-43",
+      "name": "1955 Topps Rails and Sails \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 1,
+      "odds_label": "1955 Rails and Sails Superfractor",
+      "odds": [
+        283154,
+        279614,
+        279614
+      ],
+      "page": 4
+    },
+    {
+      "id": "platinum-44",
+      "name": "1955 Topps Double Headers",
+      "category": "Inserts",
+      "kind": "estimate",
+      "subjects": 20,
+      "serial_limit": null,
+      "odds_label": "1955 Topps Double Headers",
+      "odds": [
+        20,
+        20,
+        20
+      ],
+      "page": 4,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          2.037,
+          3.4435,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -177500.0,
+          -105000.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          2.160425,
+          3.627498863636364,
+          0.0
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -279625.0,
+          -1342.1778464254228,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "platinum-45",
+      "name": "1955 Topps Double Headers \u2014 Green",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 99,
+      "odds_label": "1955 Topps Double Headers Green",
+      "odds": [
+        2861,
+        2825,
+        2825
+      ],
+      "page": 4
+    },
+    {
+      "id": "platinum-46",
+      "name": "1955 Topps Double Headers \u2014 Gold",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 50,
+      "odds_label": "1955 Topps Double Headers Gold",
+      "odds": [
+        5664,
+        5593,
+        5593
+      ],
+      "page": 4
+    },
+    {
+      "id": "platinum-47",
+      "name": "1955 Topps Double Headers \u2014 Orange",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 25,
+      "odds_label": "1955 Topps Double Headers Orange",
+      "odds": [
+        11327,
+        11185,
+        11185
+      ],
+      "page": 4
+    },
+    {
+      "id": "platinum-48",
+      "name": "1955 Topps Double Headers \u2014 Black",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 10,
+      "odds_label": "1955 Topps Double Headers Black",
+      "odds": [
+        28316,
+        27962,
+        27962
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-49",
+      "name": "1955 Topps Double Headers \u2014 Red",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 5,
+      "odds_label": "1955 Topps Double Headers Red",
+      "odds": [
+        56631,
+        55923,
+        55923
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-50",
+      "name": "1955 Topps Double Headers \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 1,
+      "odds_label": "1955 Topps Double Headers Superfractor",
+      "odds": [
+        283154,
+        279614,
+        279614
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-51",
+      "name": "1955 World Series",
+      "category": "Inserts",
+      "kind": "estimate",
+      "subjects": 10,
+      "serial_limit": null,
+      "odds_label": "1955 World Series",
+      "odds": [
+        10,
+        10,
+        10
+      ],
+      "page": 5,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          2.037,
+          3.4435,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -355000.0,
+          -210000.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          2.160425,
+          3.627498863636364,
+          0.0
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -559250.0,
+          -2684.3556928508456,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "platinum-52",
+      "name": "1955 World Series \u2014 Green",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 10,
+      "serial_limit": 99,
+      "odds_label": "1955 World Series Green",
+      "odds": [
+        5721,
+        5649,
+        5649
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-53",
+      "name": "1955 World Series \u2014 Gold",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 10,
+      "serial_limit": 50,
+      "odds_label": "1955 World Series Gold",
+      "odds": [
+        11327,
+        11185,
+        11185
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-54",
+      "name": "1955 World Series \u2014 Orange",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 10,
+      "serial_limit": 25,
+      "odds_label": "1955 World Series Orange",
+      "odds": [
+        22653,
+        22370,
+        22370
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-55",
+      "name": "1955 World Series \u2014 Black",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 10,
+      "serial_limit": 10,
+      "odds_label": "1955 World Series Black",
+      "odds": [
+        56631,
+        55923,
+        55923
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-56",
+      "name": "1955 World Series \u2014 Red",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 10,
+      "serial_limit": 5,
+      "odds_label": "1955 World Series Red",
+      "odds": [
+        113262,
+        111846,
+        111846
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-57",
+      "name": "1955 World Series \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 10,
+      "serial_limit": 1,
+      "odds_label": "1955 World Series Superfractor",
+      "odds": [
+        566307,
+        559228,
+        559228
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-58",
+      "name": "1955 Topps Employee SP",
+      "category": "Inserts",
+      "kind": "estimate",
+      "subjects": 10,
+      "serial_limit": null,
+      "odds_label": "1955 Employee SP",
+      "odds": [
+        22653,
+        22370,
+        22370
+      ],
+      "page": 5,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          2.037,
+          3.4435,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -158.6946803755029,
+          -92.70295325122501,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          2.160425,
+          3.627498863636364,
+          0.0
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -250.00000000000003,
+          -0.028603183942985135,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "platinum-59",
+      "name": "1955 Topps Employee SP \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 10,
+      "serial_limit": 1,
+      "odds_label": "1955 Employee SP Superfractor",
+      "odds": [
+        566307,
+        559228,
+        559228
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-60",
+      "name": "Base Image Variations",
+      "category": "Variations",
+      "kind": "estimate",
+      "subjects": 40,
+      "serial_limit": null,
+      "odds_label": "Base Image Variation",
+      "odds": [
+        354,
+        350,
+        350
+      ],
+      "page": 5,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          2.037,
+          3.4435,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -10142.857142857143,
+          -5932.203389830509,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          2.160425,
+          3.627498863636364,
+          0.0
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -15978.57142857143,
+          -8.979977019305796,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "platinum-61",
+      "name": "Base Image Variations \u2014 Superfractor",
+      "category": "Variations",
+      "kind": "serial_limit",
+      "subjects": 40,
+      "serial_limit": 1,
+      "odds_label": "Base Image Variation Superfractor",
+      "odds": [
+        141577,
+        139807,
+        139807
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-62",
+      "name": "1955 Cards That Never Were",
+      "category": "Inserts",
+      "kind": "estimate",
+      "subjects": 20,
+      "serial_limit": null,
+      "odds_label": "1955 Cards that Never Were",
+      "odds": [
+        240,
+        null,
+        null
+      ],
+      "page": 5,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          2.037,
+          3.4435,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -8750.000000000002,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          2.160425,
+          3.4435,
+          0.0
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -8739.583333333334,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "platinum-63",
+      "name": "1955 Cards That Never Were \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 1,
+      "odds_label": "1955 Cards that Never Were Superfractor",
+      "odds": [
+        106497,
+        null,
+        null
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-64",
+      "name": "1955 Topps City Variations",
+      "category": "Variations",
+      "kind": "estimate",
+      "subjects": 80,
+      "serial_limit": null,
+      "odds_label": "1955 Topps City Variation Chrome Packs",
+      "odds": [
+        60,
+        null,
+        null
+      ],
+      "page": 5,
+      "round_to": 5,
+      "proof": {
+        "min_primal": [
+          2.037,
+          3.4435,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -35000.00000000001,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          2.160425,
+          3.4435,
+          0.0
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -34958.333333333336,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "platinum-65",
+      "name": "1955 Topps City Variations \u2014 Superfractor",
+      "category": "Variations",
+      "kind": "serial_limit",
+      "subjects": 80,
+      "serial_limit": 1,
+      "odds_label": "1955 Topps City Variation Chrome Packs Superfractor",
+      "odds": [
+        26279,
+        null,
+        null
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-66",
+      "name": "Autographs",
+      "category": "Autographs",
+      "kind": "average",
+      "subjects": 178,
+      "serial_limit": null,
+      "odds_label": "Autographs",
+      "odds": [
+        43,
+        79,
+        79
+      ],
+      "page": 5,
+      "round_to": 1,
+      "proof": {
+        "min_primal": [
+          2.037,
+          3.4435,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -44936.70886075949,
+          -48837.20930232558,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          2.160425,
+          3.627498863636364,
+          0.0
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -70791.13924050632,
+          -22568.228715903988,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "platinum-67",
+      "name": "Autographs \u2014 Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 178,
+      "serial_limit": 199,
+      "odds_label": "Autographs Refractor",
+      "odds": [
+        183,
+        337,
+        337
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-68",
+      "name": "Autographs \u2014 Aqua",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 178,
+      "serial_limit": 150,
+      "odds_label": "Autographs Aqua",
+      "odds": [
+        236,
+        435,
+        434
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-69",
+      "name": "Autographs \u2014 Blue Prism",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 178,
+      "serial_limit": 99,
+      "odds_label": "Autographs Blue Prism",
+      "odds": [
+        169,
+        null,
+        null
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-70",
+      "name": "Autographs \u2014 Platinum Toile Cream/Blue",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 178,
+      "serial_limit": 99,
+      "odds_label": "Autographs Platinum Toile Cream/Blue",
+      "odds": [
+        315,
+        581,
+        580
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-71",
+      "name": "Autographs \u2014 Green Mini-Diamond",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 178,
+      "serial_limit": 75,
+      "odds_label": "Autographs Green Mini-Diamond",
+      "odds": [
+        null,
+        349,
+        349
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-72",
+      "name": "Autographs \u2014 Diamond Etch Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 178,
+      "serial_limit": 55,
+      "odds_label": "Autographs Diamond Etch Refractor",
+      "odds": [
+        533,
+        982,
+        981
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-73",
+      "name": "Autographs \u2014 Gold",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 178,
+      "serial_limit": 50,
+      "odds_label": "Autographs Gold",
+      "odds": [
+        539,
+        992,
+        990
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-74",
+      "name": "Autographs \u2014 Orange",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 178,
+      "serial_limit": 25,
+      "odds_label": "Autographs Orange",
+      "odds": [
+        552,
+        null,
+        null
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-75",
+      "name": "Autographs \u2014 Pink",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 178,
+      "serial_limit": 15,
+      "odds_label": "Autographs Pink",
+      "odds": [
+        846,
+        null,
+        null
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-76",
+      "name": "Autographs \u2014 Black",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 178,
+      "serial_limit": 10,
+      "odds_label": "Autographs Black",
+      "odds": [
+        2424,
+        4468,
+        4462
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-77",
+      "name": "Autographs \u2014 Red",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 178,
+      "serial_limit": 5,
+      "odds_label": "Autographs Red",
+      "odds": [
+        4853,
+        8925,
+        8911
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-78",
+      "name": "Autographs \u2014 Platinum Toile Cream/Red Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 178,
+      "serial_limit": 5,
+      "odds_label": "Autographs Platinum Toile Cream/Red Refractor",
+      "odds": [
+        4853,
+        8925,
+        8911
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-79",
+      "name": "Autographs \u2014 Superfractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 178,
+      "serial_limit": 1,
+      "odds_label": "Autographs Superfractor",
+      "odds": [
+        24089,
+        44739,
+        44670
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-80",
+      "name": "1955 Topps City Variations Autographs \u2014 Refractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 92,
+      "serial_limit": 5,
+      "odds_label": "1955 Topps City Variation Autograph Refractor",
+      "odds": [
+        7843,
+        14469,
+        14447
+      ],
+      "page": 5
+    },
+    {
+      "id": "platinum-81",
+      "name": "1955 Topps City Variations Autographs \u2014 Superfractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 92,
+      "serial_limit": 1,
+      "odds_label": "1955 Topps City Variation Autograph Superfractor",
+      "odds": [
+        38913,
+        72343,
+        72233
+      ],
+      "page": 6
+    }
+  ],
+  "withheld": [
+    {
+      "name": "Base",
+      "reason": "1:1 specifies occurrence, not regular-base card multiplicity."
+    },
+    {
+      "name": "1955 Cards that Never Were Refractor",
+      "reason": "References conflict on whether this is unnumbered or /5; withheld pending direct serial-stamp verification. Odds do not establish the serial ceiling."
+    },
+    {
+      "name": "1955 Topps City Variation Chrome Packs Refractor",
+      "reason": "References conflict on whether this is unnumbered or /5; withheld pending direct serial-stamp verification. Odds do not establish the serial ceiling."
+    }
+  ],
+  "checklist_counts": {
+    "BASE CARDS": 500,
+    "AUTOGRAPH CARDS": 178,
+    "1955 TOPPS CITY VARIATIONS CHROME PACKS AUTOGRAPHS": 92,
+    "1955 WORLD SERIES": 10,
+    "1955 TOPPS RAILS AND SAILS": 20,
+    "1955 TOPPS DOUBLE HEADERS": 20,
+    "1955 CARDS THAT NEVER WERE": 20,
+    "BASE CARDS IMAGE VARIATIONS": 40,
+    "1955 TOPPS EMPLOYEE SUPER SHORT PRINTS": 10,
+    "1955 TOPPS CITY VARIATIONS CHROME PACKS": 80
+  }
+}
