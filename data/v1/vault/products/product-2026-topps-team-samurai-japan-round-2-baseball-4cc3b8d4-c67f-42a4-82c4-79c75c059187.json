@@ -1,0 +1,92 @@
+{
+  "ok": true,
+  "products": {
+    "2026_topps_team_samurai_japan_round_2_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_team_samurai_japan_round_2_baseball",
+        "displayName": "2026 Topps Team Samurai Japan- Round 2",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Team Samurai Japan- Round 2",
+        "cmURL": "",
+        "content_sha256": "e9418cbf68177bb6cdcd8298259d4d00a4974b4ead1e2413e51160010658e84e",
+        "release_id": "4cc3b8d4-c67f-42a4-82c4-79c75c059187"
+      },
+      "rows": [
+        {
+          "code": "2026_topps_team_samurai_japan_round_2_baseball",
+          "setType": "Parallel",
+          "setLine": "Base Refractors",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 74,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-team-samurai-japan-round"
+        },
+        {
+          "code": "2026_topps_team_samurai_japan_round_2_baseball",
+          "setType": "Parallel",
+          "setLine": "Base Short Print",
+          "printRun": 4635,
+          "serial": "",
+          "subSetSize": 6,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-team-samurai-japan-round"
+        },
+        {
+          "code": "2026_topps_team_samurai_japan_round_2_baseball",
+          "setType": "Insert",
+          "setLine": "Sensational Samurai",
+          "printRun": 1990,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-team-samurai-japan-round"
+        },
+        {
+          "code": "2026_topps_team_samurai_japan_round_2_baseball",
+          "setType": "Insert",
+          "setLine": "Generational Greats",
+          "printRun": 2320,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-team-samurai-japan-round"
+        },
+        {
+          "code": "2026_topps_team_samurai_japan_round_2_baseball",
+          "setType": "Insert",
+          "setLine": "Tokyo Neon Nights",
+          "printRun": 350,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-team-samurai-japan-round"
+        },
+        {
+          "code": "2026_topps_team_samurai_japan_round_2_baseball",
+          "setType": "Insert",
+          "setLine": "Samurai Spirit",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-team-samurai-japan-round"
+        },
+        {
+          "code": "2026_topps_team_samurai_japan_round_2_baseball",
+          "setType": "Base",
+          "setLine": "Base card production",
+          "printRun": 11260,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-team-samurai-japan-round"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-10-16T03:37:42.604Z"
+}
