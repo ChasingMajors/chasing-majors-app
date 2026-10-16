@@ -945,7 +945,7 @@ function renderEntries() {
     return `<div class="entry"><div class="entryRow">
       <span class="entryName"><strong>${esc(r.set_name)}</strong><small>${esc(r.section || r.category)}</small></span>
       <span class="entryNumber"><strong>${m.value===null?'—':fmtNum(m.value)}</strong><small>${esc(labels[m.kind])}${m.scope==='per_card'?' · per card':''}</small></span>
-      <span class="entrySerial"><span class="mobileLabel">Numbered </span>${r.serial_limit===null?'—':'/'+fmtNum(r.serial_limit)}</span>
+      <span class="entrySerial"><span class="mobileLabel">Numbered </span>${r.serial_limit===null?'—':'/'+esc(r.serial_limit)}</span>
       <span class="entrySize"><span class="mobileLabel">Set size </span>${r.checklist_size===null?'—':fmtNum(r.checklist_size)}</span>
       </div></div>`;
   }).join('') || '<p class="emptyEntries">No entries match these filters.</p>';

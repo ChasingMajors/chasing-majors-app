@@ -23,3 +23,13 @@ The 2026 pilot uses 300-subject Logofractor and 150-subject Bowman Sapphire base
 Unnumbered estimates use median inferred format packs / pack-odds denominator / checklist subjects, rounded to five copies. Autographs are explicitly checklist averages, because short-print subjects and missing tiers make uniform per-subject claims unsafe. Numbered rows have `measurement.kind=serial_limit`; their displayed count is the nominal stamped limit, not an estimate of packed copies. The public labels stay short and source paragraphs remain hidden.
 
 An unnumbered base entry marked 1:1 is withheld: occurrence odds do not state the number of base cards per pack. Hidden Gems is also withheld because its odds are absent. No standard Chrome cards included in Logofractor boxes are attributed to Logofractor production. The index is refreshed on each visit so adding a calculated product does not depend on the legacy spreadsheet version changing.
+
+## Series 2: multiple formats and checked model bounds
+
+Series 2 uses input schema 2. Each anchor constrains `sum(format packs / published denominator)` to within 3% of its checklist size times nominal serial limit. Format pack counts are nonnegative. The 23-column system has rank 18, so individual format volumes are not uniquely identified. A narrow aggregate can still be identified even when those individual volumes are not.
+
+During review, linear programs minimize/maximize each candidate's aggregate count over the entire feasible model. Only reviewed subset mappings whose range spans at most 10% of its midpoint are published. This is a conditional sensitivity envelope, not a statistical confidence interval; common reserve or subject omissions can bias all anchors. Rounded midpoint counts stay inside that envelope. Relic/autograph and Golden Mirror figures are explicitly checklist averages.
+
+Each estimate input contains both feasible extremal format mixes and their dual bounds. `calculate-prv-multiformat.cjs` checks nonnegativity, all anchor constraints, dual feasibility and matching objectives. These certificates establish the optimal model bounds without requiring SciPy or a solver during routine builds or in the browser. Corrupt/stale certificates fail the build. The scientific solver is only used for source review.
+
+Unnumbered Rainbow Foil, Holo Foil, Aqua variants and several other candidates are withheld because their format-mix bounds are too wide. Memorial Day Camo is held separately because the current CV serial field disagrees with a published reference. No CV records are rewritten as part of this PRV addition. The numbered True Photo and 1952 variations are treated as serial limits, not estimated unnumbered production.
