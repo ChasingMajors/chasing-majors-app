@@ -19,7 +19,7 @@ const INDEX_KEY = "prv_index_v1";
 const INDEX_VER_KEY = "prv_index_ver_v1";
 const THEME_KEY = "cm_theme";
 const HANDOFF_FLAG_KEY = "cm_handoff_active";
-const OVERLAY_MIN_MS = 1200;
+const OVERLAY_MIN_MS = 0;
 const STATIC_FETCH_TIMEOUT_MS = 3500;
 
 // ---------------- DOM ----------------
@@ -32,7 +32,7 @@ const elBtnClear = document.getElementById("btnClear");
 const elBootOverlay = document.getElementById("cmBootOverlay");
 
 // ---------------- URL PARAM ----------------
-const URL_Q = new URLSearchParams(location.search).get("q") || "";
+const URL_Q = new URLSearchParams(location.search).get("code") || new URLSearchParams(location.search).get("q") || "";
 
 // ---------------- STATE ----------------
 let INDEX = [];
@@ -41,6 +41,10 @@ let initDone = false;
 let bootOverlayShownAt = window.__CM_SHOW_BOOT_OVERLAY__ ? Date.now() : 0;
 let STATIC_MANIFEST = null;
 const STATIC_CACHE = {};
+let STRUCTURED_INDEX = null;
+let searchGeneration = 0;
+let activeProduct = null;
+let visibleLimit = 60;
 
 // ---------------- QUERY HELPERS ----------------
 function cleanQuery(value) {
@@ -90,9 +94,7 @@ if (elThemeBtn) {
     const cur = document.documentElement.getAttribute("data-theme") || "dark";
     setTheme(cur === "dark" ? "light" : "dark");
 
-    if (selected && selected.Code) {
-      runSearch();
-    }
+
   });
 }
 
@@ -315,10 +317,20 @@ function staticVersion_(key, fallback = "") {
 }
 
 async function loadStaticJsonCached_(cacheKey, url) {
-  if (STATIC_CACHE[cacheKey]) return STATIC_CACHE[cacheKey];
-  const data = await fetchJsonWithTimeout_(url);
-  STATIC_CACHE[cacheKey] = data;
-  return data;
+  if (!STATIC_CACHE[cacheKey]) {
+    STATIC_CACHE[cacheKey] = fetchJsonWithTimeout_(url).catch(error => {
+      delete STATIC_CACHE[cacheKey];
+      throw error;
+    });
+  }
+  return STATIC_CACHE[cacheKey];
+}
+async function loadStructuredIndex_() {
+  await loadStaticManifest_();
+  const index = await loadStaticJsonCached_("structured_index", "/data/v2/vault/index.json");
+  if (index.schema_version !== 2 || index.source_revision !== STATIC_MANIFEST.vault_version) return null;
+  STRUCTURED_INDEX = index;
+  return index;
 }
 
 function normalizeIndexRows_(rows) {
@@ -336,6 +348,10 @@ function normalizeIndexRows_(rows) {
 
 async function loadStaticVaultIndex_() {
   await loadStaticManifest_();
+  try {
+    const structured = await loadStructuredIndex_();
+    if (structured) return normalizeIndexRows_(structured.index);
+  } catch (e) { /* Legacy exports stay readable during refreshes. */ }
   const data = await loadStaticJsonCached_("vault_index", `${STATIC_DATA_BASE}/vault/index.json`);
   return normalizeIndexRows_(Array.isArray(data) ? data : (data.index || data.rows || []));
 }
@@ -363,55 +379,29 @@ function normalizeVaultProduct_(data, code) {
 }
 
 async function getStaticVaultProduct_(code) {
-  if (!code) return null;
-
   try {
-    const data = await loadStaticJsonCached_(
-      `vault_product_${code}`,
-      `${STATIC_DATA_BASE}/vault/products/${encodeURIComponent(code)}.json`
-    );
-
-    return normalizeVaultProduct_(data, code);
-  } catch (perProductErr) {
-    const bundle = await loadStaticJsonCached_(
-      "vault_product_bundle_all",
-      `${STATIC_DATA_BASE}/vault/products/all.json`
-    );
-    let product = bundle && bundle.products ? bundle.products[code] : null;
-
-    if (!product && bundle && bundle.sharded && bundle.product_map && bundle.product_map[code]) {
-      const shardFile = bundle.product_map[code];
-      const shard = await loadStaticJsonCached_(
-        `vault_product_shard_${shardFile}`,
-        `${STATIC_DATA_BASE}/vault/products/${encodeURIComponent(shardFile)}`
-      );
-      product = shard && shard.products ? shard.products[code] : null;
+    const index = STRUCTURED_INDEX || await loadStructuredIndex_();
+    const entry = index?.index.find(p => p.Code === code);
+    if (entry) {
+      const data = await loadStaticJsonCached_(`v2_${code}`, `/data/v2/vault/products/${encodeURIComponent(entry.file)}`);
+      if (data.schema_version === 2 && data.source_revision === index.source_revision) return data;
     }
-
-    return normalizeVaultProduct_(product, code);
+  } catch (e) { /* A newer source export may arrive before the derived view. */ }
+  const bundle = await loadStaticJsonCached_("vault_bundle", `${STATIC_DATA_BASE}/vault/products/all.json`);
+  let product = bundle.products?.[code];
+  const file = bundle.product_map?.[code];
+  if (!product && file) {
+    const shard = await loadStaticJsonCached_(`shard_${file}`, `${STATIC_DATA_BASE}/vault/products/${encodeURIComponent(file)}`);
+    product = shard.products?.[code];
   }
+  return product ? VaultModel.product(product, code) : null;
 }
-
 async function getStaticPopSummary_(sport, code) {
-  const sportKey = cleanQuery(sport || "").toLowerCase();
+  const sportKey = cleanQuery(sport).toLowerCase();
   if (!sportKey || !code) return null;
-
-  let data = null;
-
-  try {
-    data = await loadStaticJsonCached_(
-      `vault_pop_${sportKey}_${code}`,
-      `${STATIC_DATA_BASE}/vault/pop/${encodeURIComponent(sportKey)}/${encodeURIComponent(code)}.json`
-    );
-  } catch (perProductErr) {
-    const bundle = await loadStaticJsonCached_(
-      `vault_pop_bundle_${sportKey}`,
-      `${STATIC_DATA_BASE}/vault/pop/${encodeURIComponent(sportKey)}.json`
-    );
-    data = bundle && bundle.products ? bundle.products[code] : null;
-  }
-
-  return data && data.data ? data.data : data;
+  const bundle = await loadStaticJsonCached_(`pop_${sportKey}`, `${STATIC_DATA_BASE}/vault/pop/${encodeURIComponent(sportKey)}.json`);
+  const data = bundle.products?.[code];
+  return data?.data || data || null;
 }
 
 // ---------------- INDEX CACHE ----------------
@@ -563,7 +553,8 @@ function runHomepageHandoffIfPresent() {
   applyIncomingQueryToInput();
   await ensureFreshIndex_();
   initDone = true;
-  runHomepageHandoffIfPresent();
+  if (INDEX.length) runHomepageHandoffIfPresent();
+  else elResults.innerHTML = '<div class="card" role="alert">The product list could not load. Reload to try again.</div>';
   injectScrollTopButton();
 })();
 
@@ -571,9 +562,12 @@ function runHomepageHandoffIfPresent() {
 function openDropdown(html) {
   elDD.innerHTML = html;
   elDD.style.display = "block";
+  elQ.setAttribute("aria-expanded", "true");
 }
 
 function closeDropdown() {
+  elQ.setAttribute("aria-expanded", "false");
+  elQ.removeAttribute("aria-activedescendant");
   elDD.style.display = "none";
   elDD.innerHTML = "";
 }
@@ -581,6 +575,7 @@ function closeDropdown() {
 // ---------------- TYPEAHEAD ----------------
 elQ.addEventListener("input", () => {
   const q = normalizeQuery_(elQ.value);
+  searchGeneration++;
   selected = null;
 
   if (q.length < 2) {
@@ -598,7 +593,7 @@ elQ.addEventListener("input", () => {
   }
 
   openDropdown(hits.map(i => `
-    <div class="ddItem" data-code="${esc(i.Code)}">
+    <div class="ddItem" role="option" id="option-${esc(i.Code)}" data-code="${esc(i.Code)}">
       <div class="ddTitle">${esc(i.DisplayName)}</div>
       <div class="ddMeta">${esc(i.year)} • ${esc(i.sport)} • ${esc(i.manufacturer)}</div>
     </div>
@@ -624,9 +619,21 @@ document.addEventListener("click", (e) => {
 });
 
 elQ.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeDropdown();
+  if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+    const items = [...elDD.children];
+    if (!items.length) return;
+    e.preventDefault();
+    const current = items.findIndex(n=>n.id===elQ.getAttribute('aria-activedescendant'));
+    const next = (current + (e.key==='ArrowDown'?1:-1) + items.length) % items.length;
+    items.forEach((n,i)=>n.classList.toggle('keyboardActive',i===next));
+    elQ.setAttribute('aria-activedescendant',items[next].id);
+    items[next].scrollIntoView({block:'nearest'});
+  }
   if (e.key === "Enter") {
     e.preventDefault();
-    runSearch();
+    const item = [...elDD.children].find(n=>n.id===elQ.getAttribute('aria-activedescendant'));
+    if (item) item.click(); else runSearch();
   }
 });
 
@@ -637,6 +644,9 @@ if (elBtnSearch) {
 
 if (elBtnClear) {
   elBtnClear.onclick = () => {
+    searchGeneration++;
+    activeProduct = null;
+    history.replaceState(null, "", location.pathname);
     elQ.value = "";
     selected = null;
     closeDropdown();
@@ -647,129 +657,34 @@ if (elBtnClear) {
 
 // ---------------- SEARCH ----------------
 async function runSearch() {
-  if (!initDone) {
-    elResults.innerHTML = `<div class="card" style="opacity:.8;">Loading…</div>`;
-    return;
-  }
-
-  const rawQuery = cleanQuery(elQ.value || "");
-  if (!rawQuery) {
+  if (!initDone) return;
+  const query = cleanQuery(elQ.value);
+  if (!query) return;
+  const generation = ++searchGeneration;
+  const product = selected || findBestMatch(query);
+  closeDropdown();
+  if (!product) {
+    elResults.innerHTML = '<div class="card">No matching product. Try a year and product name.</div>';
     hideBootOverlay(true);
     return;
   }
-
-  logEventFireAndForget_({
-    event_type: "search_submit",
-    query: rawQuery,
-    normalized_query: normalizeQuery_(rawQuery),
-    search_kind: "product",
-    selected_name: selected ? (selected.DisplayName || "") : "",
-    selected_code: selected ? (selected.Code || "") : "",
-    selected_type: "product",
-    sport: selected ? (selected.sport || "") : "",
-    year: selected ? (selected.year || "") : "",
-    route_target: "vault",
-    source: "button_or_enter"
-  });
-
-  if (!selected) {
-    const best = findBestMatch(rawQuery);
-    if (best) {
-      selected = best;
-      elQ.value = best.DisplayName;
-      logSelectionFireAndForget_(selected);
-    } else {
-      logEventFireAndForget_({
-        event_type: "search_results",
-        query: rawQuery,
-        normalized_query: normalizeQuery_(rawQuery),
-        search_kind: "product",
-        selected_name: "",
-        selected_code: "",
-        selected_type: "",
-        sport: "",
-        year: "",
-        route_target: "vault",
-        source: "results_load",
-        result_count: 0,
-        status: "error"
-      });
-
-      elResults.innerHTML = `<div class="card" style="opacity:.8;">No matching product found.</div>`;
-      hideBootOverlay();
-      return;
-    }
-  }
-
-  elResults.innerHTML = `<div class="card" style="opacity:.8;">Loading…</div>`;
-
+  selected = product;
+  elQ.value = product.DisplayName;
+  activeProduct = null;
+  elResults.innerHTML = '<div class="card" role="status">Loading print runs…</div>';
   try {
-    let prvData = null;
-
-    try {
-      prvData = await getStaticVaultProduct_(selected.Code);
-    } catch (staticErr) {
-      prvData = null;
-    }
-
-    if (!prvData) {
-      prvData = await api("getRowsByCode", { code: selected.Code });
-    }
-
-    let popData = null;
-    try {
-      popData = await getStaticPopSummary_(
-        (prvData.meta && prvData.meta.sport) || selected.sport || "",
-        selected.Code
-      );
-    } catch (popErr) {
-      try {
-        const popRes = await api("getPopSummary", {
-          sport: (prvData.meta && prvData.meta.sport) || selected.sport || "",
-          code: selected.Code
-        });
-        popData = popRes && popRes.data ? popRes.data : null;
-      } catch (apiPopErr) {
-        popData = null;
-      }
-    }
-
-    renderResults(prvData.meta, prvData.rows || [], popData);
-
-    logEventFireAndForget_({
-      event_type: "product_view",
-      query: rawQuery || (selected && selected.DisplayName) || "",
-      normalized_query: normalizeQuery_(rawQuery || (selected && selected.DisplayName) || ""),
-      search_kind: "product",
-      selected_name: (prvData.meta && prvData.meta.displayName) || (selected && selected.DisplayName) || "",
-      selected_code: selected ? (selected.Code || "") : "",
-      selected_type: "product",
-      sport: (prvData.meta && prvData.meta.sport) || (selected && selected.sport) || "",
-      year: (prvData.meta && prvData.meta.year) || (selected && selected.year) || "",
-      route_target: "vault",
-      source: "results_load",
-      result_count: Array.isArray(prvData.rows) ? prvData.rows.length : 0
-    });
-  } catch (e) {
-    logEventFireAndForget_({
-      event_type: "product_view",
-      query: rawQuery || "",
-      normalized_query: normalizeQuery_(rawQuery || ""),
-      search_kind: "product",
-      selected_name: selected ? (selected.DisplayName || "") : "",
-      selected_code: selected ? (selected.Code || "") : "",
-      selected_type: "product",
-      sport: selected ? (selected.sport || "") : "",
-      year: selected ? (selected.year || "") : "",
-      route_target: "vault",
-      source: "results_load",
-      result_count: 0,
-      status: "error"
-    });
-
-    elResults.innerHTML = `<div class="card" style="opacity:.8;">Error loading data.</div>`;
+    let data = await getStaticVaultProduct_(product.Code);
+    if (!data) data = VaultModel.product(await api("getRowsByCode", {code:product.Code}),product.Code);
+    if (generation !== searchGeneration) return;
+    activeProduct = data;
+    visibleLimit = 60;
+    renderResults(data.meta, data.rows, null);
+    history.replaceState(null, "", `?code=${encodeURIComponent(product.Code)}`);
+    logEventFireAndForget_({event_type:"product_view",selected_code:product.Code,selected_name:product.DisplayName,result_count:data.rows.length});
+  } catch (error) {
+    if (generation === searchGeneration) elResults.innerHTML = '<div class="card" role="alert">Print runs could not load. Please try Search again.</div>';
   } finally {
-    hideBootOverlay();
+    if (generation === searchGeneration) hideBootOverlay(true);
   }
 }
 
@@ -976,82 +891,67 @@ function injectScrollTopButton() {
 }
 
 // ---------------- RENDER ----------------
-function renderResults(meta, rows, popData) {
+function renderResults(meta, rows) {
   if (!rows.length) {
-    elResults.innerHTML = `<div class="card" style="opacity:.8;">No print run rows found.</div>`;
+    elResults.innerHTML = '<div class="card">No print-run entries for this product yet.</div>';
     return;
   }
-
-  const vars = getThemeVars();
-  const title = esc(meta?.displayName || selected?.DisplayName || "Results");
-  const subParts = [meta?.year, meta?.sport, meta?.manufacturer].filter(Boolean).map(esc);
-  const sub = subParts.join(" • ");
-  const hasPop = !!popData;
-
+  const categories = [...new Set(rows.map(r => r.category))].sort();
+  const cv = activeProduct.checklist;
   elResults.innerHTML = `
-    <div class="card">
-      <div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap;margin-bottom:6px;">
-        <div>
-          <div style="font-weight:800;margin-bottom:6px;">${title}</div>
-          <div style="opacity:.75;font-size:13px;margin-bottom:6px;">${sub}</div>
-          ${hasPop ? `
-            <div style="color:${vars.subText};font-size:13px;">
-              Includes grading trends and POP insights
-            </div>
-          ` : ``}
-        </div>
-
-        ${hasPop ? `
-          <button
-            type="button"
-            id="jumpToPopBtn"
-            style="
-              border:1px solid ${vars.badgeBorder};
-              background:${vars.badgeBg};
-              color:${vars.badgeText};
-              border-radius:999px;
-              padding:8px 12px;
-              font-size:13px;
-              font-weight:700;
-              cursor:pointer;
-              white-space:nowrap;
-            "
-          >See POP Data</button>
-        ` : ``}
+    <section class="card productHeader">
+      <div class="eyebrow">${[meta.year,meta.sport,meta.manufacturer].filter(Boolean).map(esc).join(' · ')}</div>
+      <h2>${esc(meta.displayName || selected.DisplayName)}</h2>
+      <div class="productStats"><span><strong>${rows.length}</strong> entries</span>
+      ${cv ? `<a href="/checklists/?code=${encodeURIComponent(cv.code)}&sport=${encodeURIComponent(cv.sport)}&type=product">Open checklist ↗</a>` : ''}</div>
+    </section>
+    <section class="card entriesCard" aria-label="Print-run entries">
+      <div class="entryTools">
+        <label>Find an entry<input id="entryQuery" type="search" placeholder="Refractor, autograph, gold…"></label>
+        <label>Category<select id="entryCategory"><option value="">All categories</option>${categories.map(c=>`<option>${esc(c)}</option>`).join('')}</select></label>
+        <label>Sort<select id="entrySort"><option value="source">Default order</option><option value="low">Count: low to high</option><option value="name">Name: A–Z</option></select></label>
       </div>
-
-      <div style="
-        border:1px solid ${vars.divider};
-        border-radius:16px;
-        overflow-x:auto;
-      ">
-        <table style="margin-top:0;">
-          <thead>
-            <tr>
-              <th>Set</th>
-              <th>Subset</th>
-              <th>Print Run</th>
-              <th>Cards in Set</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${rows.map(r => `
-              <tr>
-                <td>${esc(r.setType || "")}</td>
-                <td>${esc(r.setLine || "")}</td>
-                <td>${fmtNum(r.printRun)}</td>
-                <td>${fmtNum(r.subSetSize)}</td>
-              </tr>
-            `).join("")}
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div id="popInsightsCard">
-      ${renderPopInsights(popData)}
-    </div>
-  `;
-
-  bindPopJumpButton();
+      <div id="entryCount" class="muted" role="status"></div>
+      <div class="entryColumns" aria-hidden="true"><span>Set / parallel</span><span>Count</span><span>Numbered</span><span>Set size</span></div>
+      <div id="entryList"></div>
+      <button id="showMore" class="clearBtn" type="button" hidden>Show more entries</button>
+    </section>
+    <details class="card" id="popDetails"><summary>Grading &amp; population insights</summary><div id="popInsightsCard"><p class="muted">Open to load grading data.</p></div></details>`;
+  for (const id of ['entryQuery','entryCategory','entrySort']) document.getElementById(id).addEventListener(id==='entryQuery'?'input':'change',()=>{visibleLimit=60;renderEntries();});
+  document.getElementById('showMore').onclick=()=>{visibleLimit+=60;renderEntries();};
+  const generation = searchGeneration;
+  const details = document.getElementById('popDetails');
+  details.addEventListener('toggle',async()=>{
+    if (!details.open || details.dataset.loaded) return;
+    details.dataset.loaded='1';
+    const target = document.getElementById('popInsightsCard');
+    target.innerHTML='<p role="status">Loading grading data…</p>';
+    try {
+      const data = await getStaticPopSummary_(meta.sport || selected.sport,selected.Code);
+      if (generation===searchGeneration) target.innerHTML=renderPopInsights(data);
+    } catch {
+      if (generation===searchGeneration) {target.innerHTML='<p>Grading data could not load. Close and reopen to retry.</p>';delete details.dataset.loaded;}
+    }
+  });
+  renderEntries();
+}
+function renderEntries() {
+  const query = document.getElementById('entryQuery').value.toLowerCase().trim();
+  const category = document.getElementById('entryCategory').value;
+  const sort = document.getElementById('entrySort').value;
+  let rows = activeProduct.rows.filter(r=>(!category || r.category===category) && `${r.set_name} ${r.section}`.toLowerCase().includes(query));
+  if (sort==='low') rows.sort((a,b)=>(a.measurement.value??Infinity)-(b.measurement.value??Infinity));
+  if (sort==='name') rows.sort((a,b)=>a.set_name.localeCompare(b.set_name));
+  const labels={estimate:'Estimated',average:'Average',lower_bound:'At least',upper_bound:'Up to',reported:'Reported',unknown:'Not available'};
+  document.getElementById('entryCount').textContent=`${rows.length ? Math.min(rows.length,visibleLimit) : 0} of ${rows.length} entries${category || query ? ' matching filters' : ''}`;
+  document.getElementById('entryList').innerHTML=rows.slice(0,visibleLimit).map(r=>{
+    const m=r.measurement;
+    return `<div class="entry"><div class="entryRow">
+      <span class="entryName"><strong>${esc(r.set_name)}</strong><small>${esc(r.section || r.category)}</small></span>
+      <span class="entryNumber"><strong>${m.value===null?'—':fmtNum(m.value)}</strong><small>${esc(labels[m.kind])}${m.scope==='per_card'?' · per card':''}</small></span>
+      <span class="entrySerial"><span class="mobileLabel">Numbered </span>${r.serial_limit===null?'—':'/'+fmtNum(r.serial_limit)}</span>
+      <span class="entrySize"><span class="mobileLabel">Set size </span>${r.checklist_size===null?'—':fmtNum(r.checklist_size)}</span>
+      </div></div>`;
+  }).join('') || '<p class="emptyEntries">No entries match these filters.</p>';
+  document.getElementById('showMore').hidden=rows.length<=visibleLimit;
 }

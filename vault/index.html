@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="./vault.css?v=8">
   <style>
     :root{
       --navH: 62px;
@@ -410,7 +411,7 @@
         var incoming = urlQ || savedQuery;
 
         if (handoff === "1" && incoming && (!savedTarget || savedTarget === "vault" || urlQ)) {
-          showOverlay = true;
+          showOverlay = false;
         }
       } catch (e) {}
 
@@ -454,7 +455,7 @@
       </div>
 
       <div class="card searchCard">
-        <div class="heroText">Print run data, not guesses.</div>
+        <div class="heroText">Explore print runs, estimates and numbered parallels.</div>
 
         <div class="searchWrap">
           <svg class="searchIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -464,12 +465,14 @@
               stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
 
-          <input id="q" placeholder="Search the Vault" autocomplete="off" />
-          <div id="dropdown" class="dropdown"></div>
+          <input aria-label="Search products" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="dropdown" id="q" placeholder="Search the Vault" autocomplete="off" />
+          <div id="dropdown" class="dropdown" role="listbox" aria-label="Matching products"></div>
         </div>
 
+        <div class="searchActions">
         <button class="primary" id="btnSearch" type="button">Search</button>
         <button class="clearBtn" id="btnClear" type="button">Clear</button>
+        </div>
       </div>
 
       <div class="resultsWrap">
@@ -499,6 +502,7 @@
     })();
   </script>
 
-  <script src="./app.js?v=7"></script>
+  <script src="../shared/vault-model.js?v=8"></script>
+  <script src="./app.js?v=8"></script>
 </body>
 </html>
