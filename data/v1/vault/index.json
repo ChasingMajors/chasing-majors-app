@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-16T18:20:15.250Z",
+  "generated_at": "2026-10-16T18:49:52.388Z",
   "index": [
     {
       "Code": "19TFmbl",
@@ -1001,6 +1001,26 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Team Samurai Japan- Round 2",
+      "cmURL": ""
+    },
+    {
+      "Code": "2026_topps_update_series_baseball",
+      "DisplayName": "2026 Topps Update Series Baseball",
+      "Keywords": "2026 Topps Update Series Baseball 2026 Topps Update Series Baseball 2026 Topps Update Series MLB 2026 Update Series Baseball 2026 Update Series MLB 26 Topps Update Series Baseball 26 Topps Update Series MLB Topps Update Series Baseball Topps Update Series MLB Update Series Baseball Update Series MLB 2026 Topps Update Series Baseball print run 2026 Topps Update Series Baseball production 2026 Topps Update Series Baseball odds 2026 Topps Update Series Baseball PRV 2026 Topps Update Series Baseball checklist Topps Update Series checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Update Series",
+      "cmURL": ""
+    },
+    {
+      "Code": "2026_bowman_football",
+      "DisplayName": "2026 Bowman Football",
+      "Keywords": "2026 Bowman Football 2026 Bowman Football 2026 Bowman NFL 2026 Football 2026 NFL 26 Bowman Football 26 Bowman NFL Bowman Football Bowman NFL Football NFL 2026 Bowman Football print run 2026 Bowman Football production 2026 Bowman Football odds 2026 Bowman Football PRV 2026 Bowman Football checklist Bowman checklist",
+      "year": "2026",
+      "sport": "football",
+      "manufacturer": "Bowman",
+      "product": "Bowman",
       "cmURL": ""
     }
   ]

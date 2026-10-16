@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-16T18:20:15.250Z",
+  "generated_at": "2026-10-16T18:49:52.388Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -39366,6 +39366,464 @@
           "subSetSize": "",
           "notes": "",
           "cmURL": "https://slabsquatch.substack.com/p/2026-topps-team-samurai-japan-round"
+        }
+      ]
+    },
+    "2026_topps_update_series_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_update_series_baseball",
+        "displayName": "2026 Topps Update Series Baseball",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Update Series",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Auto",
+          "setLine": "Cover Athletes Autographs",
+          "printRun": 12,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 12. Source set size: 10.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Base",
+          "setLine": "Player Number Variations",
+          "printRun": 14,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 14. Source set size: 25.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Auto",
+          "setLine": "Real One Golden Mirror Autographs",
+          "printRun": 16,
+          "serial": "",
+          "subSetSize": 131,
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 16. Source set size: 131.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Base",
+          "setLine": "Golden Mirror Legend Variations",
+          "printRun": 18,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 18. Source set size: 50.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Auto",
+          "setLine": "Heavy Lumber Autograph Relics",
+          "printRun": 19,
+          "serial": "",
+          "subSetSize": 79,
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 19. Source set size: 79.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Base",
+          "setLine": "Golden Mirror Variations",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 350,
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 50. Source set size: 350.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Insert",
+          "setLine": "Cover Athletes (insert)",
+          "printRun": 54,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 54. Source set size: 10.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Insert",
+          "setLine": "Aqua Holo (retail and Japan)",
+          "printRun": 58,
+          "serial": "",
+          "subSetSize": 350,
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 58. Source set size: 350.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Auto",
+          "setLine": "1991 Topps All-Star Autographs",
+          "printRun": 67,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 67. Source set size: 20.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Base",
+          "setLine": "1952 Variations",
+          "printRun": 71,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 71. Source set size: 25.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Base",
+          "setLine": "True Photo Variations",
+          "printRun": 72,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 72.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Insert",
+          "setLine": "Mystical (Hobby, Jumbo and Japan only)",
+          "printRun": 95,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 95.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Auto",
+          "setLine": "Real One Autographs",
+          "printRun": 136,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 136.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Insert",
+          "setLine": "All Kings, All Aces",
+          "printRun": 179,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 179.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Insert",
+          "setLine": "Real One Relics",
+          "printRun": 201,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 201.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Auto",
+          "setLine": "Baseball Stars Autographs",
+          "printRun": 275,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 275.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Auto",
+          "setLine": "1991 Topps Autographs",
+          "printRun": 351,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 351.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Insert",
+          "setLine": "All-Star Stitches",
+          "printRun": 401,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 401.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Base",
+          "setLine": "Team Color Border Variations",
+          "printRun": 509,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 509.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Insert",
+          "setLine": "Rising Rookie Relics",
+          "printRun": 814,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 814.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Insert",
+          "setLine": "Major League Material",
+          "printRun": 966,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 966.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Insert",
+          "setLine": "1991 Topps Relics",
+          "printRun": 1225,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 1,225.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Insert",
+          "setLine": "Autumn Ascensions",
+          "printRun": 24000,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 24,000.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Insert",
+          "setLine": "Topps Black Gold",
+          "printRun": 34000,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 34,000.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Insert",
+          "setLine": "1991 Topps (insert)",
+          "printRun": 68000,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 68,000.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Insert",
+          "setLine": "2026 All-Star Game (insert)",
+          "printRun": 78000,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Source value: about 78,000.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_update_series_baseball",
+          "setType": "Base",
+          "setLine": "Base card production",
+          "printRun": 423000,
+          "serial": "",
+          "subSetSize": 350,
+          "notes": "Source: HobbyMonitor. Listed-format minimum only; omitted formats may increase totals. Approximate per-card estimate, not a manufacturer-confirmed total. Lower bound; source says at least about 423,000.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-update-series-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        }
+      ]
+    },
+    "2026_bowman_football": {
+      "ok": true,
+      "meta": {
+        "code": "2026_bowman_football",
+        "displayName": "2026 Bowman Football",
+        "year": "2026",
+        "sport": "football",
+        "manufacturer": "Bowman",
+        "product": "Bowman",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_bowman_football",
+          "setType": "Parallel",
+          "setLine": "Insert Geometric (all Chrome inserts)",
+          "printRun": 88,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~88. Source set size: 15 to 25.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Parallel",
+          "setLine": "Crystallized NFL Refractor",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 13,
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~100. Source set size: 13.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Parallel",
+          "setLine": "Crystallized NIL Refractor",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 12,
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~100. Source set size: 12.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Parallel",
+          "setLine": "Bowman Spotlights NFL / NIL Refractor",
+          "printRun": 150,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~150. Source set size: 15 each.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Parallel",
+          "setLine": "Anime NIL Refractor",
+          "printRun": 180,
+          "serial": "",
+          "subSetSize": 9,
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~180. Source set size: 9.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Parallel",
+          "setLine": "Bowman GPK NIL Refractor",
+          "printRun": 190,
+          "serial": "",
+          "subSetSize": 7,
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~190. Source set size: 7.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Insert",
+          "setLine": "Etched In Glass NFL / NIL",
+          "printRun": 200,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~200. Source set size: 15 each.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Parallel",
+          "setLine": "Anime NFL Refractor",
+          "printRun": 200,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~200. Source set size: 15.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Insert",
+          "setLine": "RetroFractor",
+          "printRun": 200,
+          "serial": "",
+          "subSetSize": 2,
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~200. Source set size: 2.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Parallel",
+          "setLine": "Bowman GPK NFL Refractor",
+          "printRun": 225,
+          "serial": "",
+          "subSetSize": 9,
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~225. Source set size: 9.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Parallel",
+          "setLine": "Chrome Speckle Refractor",
+          "printRun": 5500,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~5,500. Source set size: 100 per line.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Insert",
+          "setLine": "Mega Rookies / Mega Prospects",
+          "printRun": 7100,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~7,100. Source set size: 25 each.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Parallel",
+          "setLine": "Chrome Mojo (Mega)",
+          "printRun": 7700,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~7,700. Source set size: 100 per line.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Base",
+          "setLine": "Red RC Variation",
+          "printRun": 20700,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~20,700. Source set size: 30.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Base",
+          "setLine": "Chrome base",
+          "printRun": 51000,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: ~51,000. Source set size: 100 per line.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_football",
+          "setType": "Base",
+          "setLine": "Paper base",
+          "printRun": 118000,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: 118,000+. Lower bound. Source set size: 100 per line.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
         }
       ]
     }
