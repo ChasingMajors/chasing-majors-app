@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-16T18:49:52.388Z",
+  "generated_at": "2026-10-16T19:04:57.792Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -39824,6 +39824,2584 @@
           "subSetSize": "",
           "notes": "Source: HobbyMonitor. Analyst per-card estimate derived from published odds; not a manufacturer-confirmed total. Source value: 118,000+. Lower bound. Source set size: 100 per line.",
           "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-football-the-complete-odds-parallel-and-print-run-breakdown"
+        }
+      ]
+    },
+    "2026_bowman_chrome_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_bowman_chrome_baseball",
+        "displayName": "2026 Bowman Chrome Baseball",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Bowman",
+        "product": "Chrome",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Red RC Variation",
+          "printRun": 15403,
+          "serial": "",
+          "subSetSize": 33,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered variations.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Rookie SP Image Variations",
+          "printRun": 510,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered variations.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "WBC Flag Variation Refractor",
+          "printRun": 490,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered variations.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "RetroFractor Variation",
+          "printRun": 255,
+          "serial": "",
+          "subSetSize": 2,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered variations.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "International Refractor Variation",
+          "printRun": 104,
+          "serial": "",
+          "subSetSize": 49,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered variations.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "It Came to the League",
+          "printRun": 16303,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Stars of the Future",
+          "printRun": 16303,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Big Break",
+          "printRun": 13214,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Travel Tags",
+          "printRun": 11114,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "2026 MLB Spring Breakout",
+          "printRun": 11114,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Prospect X-Fractor",
+          "printRun": 1544,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Prospect Chrome Shimmer",
+          "printRun": 842,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Final Draft",
+          "printRun": 208,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Bowman Spotlights",
+          "printRun": 156,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Jumbo Chrome Auto Relics Refractor",
+          "printRun": 111,
+          "serial": "",
+          "subSetSize": 35,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Bowman GPK",
+          "printRun": 104,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Crystallized",
+          "printRun": 104,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "League Logofractor",
+          "printRun": 129,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Spring Breakout Auto Refractor",
+          "printRun": 88,
+          "serial": "",
+          "subSetSize": 11,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "ICTTL Auto Refractor",
+          "printRun": 86,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Travel Tags Auto Refractor",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "CPA Black & White Shimmer",
+          "printRun": 12,
+          "serial": "",
+          "subSetSize": 104,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered inserts and case hits.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Base",
+          "setLine": "Base Chrome",
+          "printRun": 32571,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate including Mega Box slots; Hobby and Breaker Delight alone are about 9,696. Do not add these overlapping channel totals. Source section: What that means per card.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Base",
+          "setLine": "Chrome Prospects",
+          "printRun": 32571,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "Source: HobbyMonitor. Analyst per-card estimate including Mega Box slots; Hobby and Breaker Delight alone are about 9,696. Do not add these overlapping channel totals. Source section: What that means per card.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_bowman_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Chrome Prospect Autographs",
+          "printRun": 2312,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: What that means per card.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-bowman-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        }
+      ]
+    },
+    "2026_topps_chrome_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_chrome_baseball",
+        "displayName": "2026 Topps Chrome Baseball",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Chrome",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Refractor",
+          "printRun": 18571,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and base parallels.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "X-Fractor (Mega)",
+          "printRun": 8814,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and base parallels.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Prism Refractor (Hobby)",
+          "printRun": 1990,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and base parallels.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Wave Refractor (Jumbo)",
+          "printRun": 1393,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and base parallels.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Raywave Refractor (Value)",
+          "printRun": 3557,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and base parallels.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Red White and Blue Refractor (Value)",
+          "printRun": 3557,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and base parallels.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Baseball Seams Refractor (Value)",
+          "printRun": 3557,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and base parallels.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Topps Refractor (Fanatics)",
+          "printRun": 819,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and base parallels.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Blue Topps Refractor (Fanatics)",
+          "printRun": 136,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and base parallels.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Geometric Refractor (Delight)",
+          "printRun": 130,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and base parallels.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Negative Refractor",
+          "printRun": 366,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and base parallels.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "FrozenFractor",
+          "printRun": 5,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and base parallels.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Lightboard Logo Variation",
+          "printRun": 181,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Variations and short prints.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Image Variations",
+          "printRun": 990,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Variations and short prints.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Super Short Prints",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Variations and short prints.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Award Winners Variation",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": 6,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Variations and short prints.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "Minions MLB",
+          "printRun": 103,
+          "serial": "",
+          "subSetSize": 4,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Variations and short prints.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "2025 MLB Commissioners Trophy",
+          "printRun": 1,
+          "serial": "",
+          "subSetSize": 1,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Variations and short prints.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Big Ticket Players",
+          "printRun": 88344,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Wrecking Crew",
+          "printRun": 88344,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Perspectives",
+          "printRun": 86989,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Future Stars",
+          "printRun": 86989,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "1991 Topps Baseball",
+          "printRun": 84712,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Chrome Rivals Away",
+          "printRun": 34026,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Past to Present",
+          "printRun": 34026,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Chrome Rivals Home",
+          "printRun": 4377,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Wild Style",
+          "printRun": 4377,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Diamond Moments",
+          "printRun": 846,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Analyst estimate; source says some premium subset sizes remain provisional. Reconcile final checklist before treating count as confirmed. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Shadow Etch",
+          "printRun": 690,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "Source: HobbyMonitor. Analyst estimate; source says some premium subset sizes remain provisional. Reconcile final checklist before treating count as confirmed. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Chrome Radiating Rookies",
+          "printRun": 690,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Fanatical",
+          "printRun": 409,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Big Ticket Players Geometric",
+          "printRun": 389,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Wrecking Crew Geometric",
+          "printRun": 389,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Future Stars Geometric",
+          "printRun": 353,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Perspectives Geometric",
+          "printRun": 353,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "1991 Topps Baseball Geometric",
+          "printRun": 324,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Hobby Masters",
+          "printRun": 304,
+          "serial": "",
+          "subSetSize": 19,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "World Series at Night",
+          "printRun": 299,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Static Noise",
+          "printRun": 295,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Ultraviolet",
+          "printRun": 225,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "MVP Buybacks Refractor",
+          "printRun": 200,
+          "serial": "",
+          "subSetSize": 2,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Fanatics Authentics Redemption",
+          "printRun": 153,
+          "serial": "",
+          "subSetSize": 1,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "MVP Buybacks Prism",
+          "printRun": 150,
+          "serial": "",
+          "subSetSize": 2,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Helix",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Numbers Live Forever",
+          "printRun": 98,
+          "serial": "",
+          "subSetSize": 2,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "MVP Buybacks X-Fractor",
+          "printRun": 98,
+          "serial": "",
+          "subSetSize": 2,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Class of 2025 Cooperstown Calls",
+          "printRun": 90,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Parallel",
+          "setLine": "MVP Buybacks Negative Refractor",
+          "printRun": 52,
+          "serial": "",
+          "subSetSize": 2,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Chrome Champion Gold",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 16,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Insert",
+          "setLine": "Topps Chrome Expose",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Retail Rookie Autographs",
+          "printRun": 1915,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Rookie Autographs",
+          "printRun": 1806,
+          "serial": "",
+          "subSetSize": 94,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Ink Strokes",
+          "printRun": 220,
+          "serial": "",
+          "subSetSize": 71,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "75th Diamond Autographs",
+          "printRun": 118,
+          "serial": "",
+          "subSetSize": 69,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Future Stars Autographs",
+          "printRun": 98,
+          "serial": "",
+          "subSetSize": 8,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "World Series Champions Autographs",
+          "printRun": 96,
+          "serial": "",
+          "subSetSize": 33,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Perspectives Autographs",
+          "printRun": 72,
+          "serial": "",
+          "subSetSize": 6,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Numbers Live Forever Autograph",
+          "printRun": 47,
+          "serial": "",
+          "subSetSize": 2,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Chromographs",
+          "printRun": 44,
+          "serial": "",
+          "subSetSize": 32,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "1991 Topps Chrome Autographs",
+          "printRun": 42,
+          "serial": "",
+          "subSetSize": 6,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Radiating Rookies Autographs",
+          "printRun": 26,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "MVP Buybacks Autographs",
+          "printRun": 26,
+          "serial": "",
+          "subSetSize": 2,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Cooperstown Calls Autographs",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": 3,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Jerry Seinfeld Autograph",
+          "printRun": 21,
+          "serial": "",
+          "subSetSize": 1,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Dual Autographs",
+          "printRun": 20,
+          "serial": "",
+          "subSetSize": 8,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Relic",
+          "setLine": "Gold Logoman Relics",
+          "printRun": 4,
+          "serial": "",
+          "subSetSize": 6,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Gold Logoman (redemptions).",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Relic",
+          "setLine": "Gold Logoman Dual Relics",
+          "printRun": 4,
+          "serial": "",
+          "subSetSize": 3,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Gold Logoman (redemptions).",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Gold Logoman Auto Relics",
+          "printRun": 1,
+          "serial": "",
+          "subSetSize": 6,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Gold Logoman (redemptions).",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_baseball",
+          "setType": "Auto",
+          "setLine": "Gold Logoman Dual Auto Relics",
+          "printRun": 1,
+          "serial": "",
+          "subSetSize": 3,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Gold Logoman (redemptions).",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        }
+      ]
+    },
+    "2026_topps_chrome_sapphire_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_chrome_sapphire_baseball",
+        "displayName": "2026 Topps Chrome Sapphire Baseball",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Chrome Sapphire",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "",
+          "setLine": "",
+          "printRun": 1185,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Variation",
+          "setLine": "Image Variations",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Autograph",
+          "setLine": "Sapphire Selections Auto.",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 13,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Base",
+          "setLine": "Base - Base Sapphire",
+          "printRun": 1000,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated effective copies per card; the source says base/image-variation tiers are unnumbered. Slash notation denotes inferred scarcity, not a stamped serial. Source section: The base rainbow (300 cards). Source odds: common.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Parallel",
+          "setLine": "Base - Gold Sapphire",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated effective copies per card; the source says base/image-variation tiers are unnumbered. Slash notation denotes inferred scarcity, not a stamped serial. Source section: The base rainbow (300 cards). Source odds: 1:7.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Parallel",
+          "setLine": "Base - White Sapphire",
+          "printRun": 30,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated effective copies per card; the source says base/image-variation tiers are unnumbered. Slash notation denotes inferred scarcity, not a stamped serial. Source section: The base rainbow (300 cards). Source odds: 1:12.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Parallel",
+          "setLine": "Base - Orange Sapphire",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated effective copies per card; the source says base/image-variation tiers are unnumbered. Slash notation denotes inferred scarcity, not a stamped serial. Source section: The base rainbow (300 cards). Source odds: 1:14.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Parallel",
+          "setLine": "Base - Black Sapphire",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated effective copies per card; the source says base/image-variation tiers are unnumbered. Slash notation denotes inferred scarcity, not a stamped serial. Source section: The base rainbow (300 cards). Source odds: 1:35.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Parallel",
+          "setLine": "Base - Red Sapphire",
+          "printRun": 5,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated effective copies per card; the source says base/image-variation tiers are unnumbered. Slash notation denotes inferred scarcity, not a stamped serial. Source section: The base rainbow (300 cards). Source odds: 1:70.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Parallel",
+          "setLine": "Base - Padparadscha",
+          "printRun": 1,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "Source: HobbyMonitor. Estimated effective copies per card; the source says base/image-variation tiers are unnumbered. Slash notation denotes inferred scarcity, not a stamped serial. Source section: The base rainbow (300 cards). Source odds: 1:344.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Parallel",
+          "setLine": "Image Variations - Sapphire",
+          "printRun": 75,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated effective copies per card; the source says base/image-variation tiers are unnumbered. Slash notation denotes inferred scarcity, not a stamped serial. Source section: Image Variations (50 cards). Source odds: 1:28.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Parallel",
+          "setLine": "Image Variations - Gold",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated effective copies per card; the source says base/image-variation tiers are unnumbered. Slash notation denotes inferred scarcity, not a stamped serial. Source section: Image Variations (50 cards). Source odds: 1:42.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Parallel",
+          "setLine": "Image Variations - Orange",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated effective copies per card; the source says base/image-variation tiers are unnumbered. Slash notation denotes inferred scarcity, not a stamped serial. Source section: Image Variations (50 cards). Source odds: 1:84.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Parallel",
+          "setLine": "Image Variations - Black",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated effective copies per card; the source says base/image-variation tiers are unnumbered. Slash notation denotes inferred scarcity, not a stamped serial. Source section: Image Variations (50 cards). Source odds: 1:209.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Parallel",
+          "setLine": "Image Variations - Red",
+          "printRun": 5,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated effective copies per card; the source says base/image-variation tiers are unnumbered. Slash notation denotes inferred scarcity, not a stamped serial. Source section: Image Variations (50 cards). Source odds: 1:417.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Parallel",
+          "setLine": "Image Variations - Padparadscha",
+          "printRun": 1,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated effective copies per card; the source says base/image-variation tiers are unnumbered. Slash notation denotes inferred scarcity, not a stamped serial. Source section: Image Variations (50 cards). Source odds: 1:2,064.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Auto",
+          "setLine": "Chrome Sapphire Rookie Autographs - Autograph",
+          "printRun": 199,
+          "serial": "/199 or less",
+          "subSetSize": 34,
+          "notes": "Source: HobbyMonitor. Source describes base Rookie Autographs as /199 or less. 199 is a maximum per subject, not an exact uniform print run. Source section: Chrome Sapphire Rookie Autographs (34 signers). Source odds: 1:24.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Auto",
+          "setLine": "Chrome Sapphire Rookie Autographs - Green",
+          "printRun": 99,
+          "serial": "/99",
+          "subSetSize": 34,
+          "notes": "Source: HobbyMonitor. Source-reported autograph serial tier; subject coverage may vary. Not independently verified against every card. Source section: Chrome Sapphire Rookie Autographs (34 signers). Source odds: 1:35.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Auto",
+          "setLine": "Chrome Sapphire Rookie Autographs - Purple",
+          "printRun": 75,
+          "serial": "/75",
+          "subSetSize": 34,
+          "notes": "Source: HobbyMonitor. Source-reported autograph serial tier; subject coverage may vary. Not independently verified against every card. Source section: Chrome Sapphire Rookie Autographs (34 signers). Source odds: 1:46.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Auto",
+          "setLine": "Chrome Sapphire Rookie Autographs - Gold",
+          "printRun": 50,
+          "serial": "/50",
+          "subSetSize": 34,
+          "notes": "Source: HobbyMonitor. Source-reported autograph serial tier; subject coverage may vary. Not independently verified against every card. Source section: Chrome Sapphire Rookie Autographs (34 signers). Source odds: 1:64.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Auto",
+          "setLine": "Chrome Sapphire Rookie Autographs - Orange",
+          "printRun": 25,
+          "serial": "/25",
+          "subSetSize": 34,
+          "notes": "Source: HobbyMonitor. Source-reported autograph serial tier; subject coverage may vary. Not independently verified against every card. Source section: Chrome Sapphire Rookie Autographs (34 signers). Source odds: 1:130.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Auto",
+          "setLine": "Chrome Sapphire Rookie Autographs - Black",
+          "printRun": 10,
+          "serial": "/10",
+          "subSetSize": 34,
+          "notes": "Source: HobbyMonitor. Source-reported autograph serial tier; subject coverage may vary. Not independently verified against every card. Source section: Chrome Sapphire Rookie Autographs (34 signers). Source odds: 1:327.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Auto",
+          "setLine": "Chrome Sapphire Rookie Autographs - Red",
+          "printRun": 5,
+          "serial": "/5",
+          "subSetSize": 34,
+          "notes": "Source: HobbyMonitor. Source-reported autograph serial tier; subject coverage may vary. Not independently verified against every card. Source section: Chrome Sapphire Rookie Autographs (34 signers). Source odds: 1:621.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Auto",
+          "setLine": "Chrome Sapphire Rookie Autographs - Padparadscha",
+          "printRun": 1,
+          "serial": "1/1",
+          "subSetSize": 34,
+          "notes": "Source: HobbyMonitor. Source-reported autograph serial tier; subject coverage may vary. Not independently verified against every card. Source section: Chrome Sapphire Rookie Autographs (34 signers). Source odds: 1:3,065.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Auto",
+          "setLine": "Sapphire Selections Autographs - Autograph",
+          "printRun": 50,
+          "serial": "/50",
+          "subSetSize": 13,
+          "notes": "Source: HobbyMonitor. Source-reported autograph serial tier; subject coverage may vary. Not independently verified against every card. Source section: Sapphire Selections Autographs (13 signers). Source odds: 1:155.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Auto",
+          "setLine": "Sapphire Selections Autographs - Orange",
+          "printRun": 25,
+          "serial": "/25",
+          "subSetSize": 13,
+          "notes": "Source: HobbyMonitor. Source-reported autograph serial tier; subject coverage may vary. Not independently verified against every card. Source section: Sapphire Selections Autographs (13 signers). Source odds: 1:371.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Auto",
+          "setLine": "Sapphire Selections Autographs - Black",
+          "printRun": 10,
+          "serial": "/10",
+          "subSetSize": 13,
+          "notes": "Source: HobbyMonitor. Source-reported autograph serial tier; subject coverage may vary. Not independently verified against every card. Source section: Sapphire Selections Autographs (13 signers). Source odds: 1:784.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Auto",
+          "setLine": "Sapphire Selections Autographs - Red",
+          "printRun": 5,
+          "serial": "/5",
+          "subSetSize": 13,
+          "notes": "Source: HobbyMonitor. Source-reported autograph serial tier; subject coverage may vary. Not independently verified against every card. Source section: Sapphire Selections Autographs (13 signers). Source odds: 1:1,556.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_chrome_sapphire_baseball",
+          "setType": "Auto",
+          "setLine": "Sapphire Selections Autographs - Padparadscha",
+          "printRun": 1,
+          "serial": "1/1",
+          "subSetSize": 13,
+          "notes": "Source: HobbyMonitor. Source-reported autograph serial tier; subject coverage may vary. Not independently verified against every card. Source section: Sapphire Selections Autographs (13 signers). Source odds: 1:7,779.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-chrome-sapphire-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        }
+      ]
+    },
+    "2026_topps_tribute_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_tribute_baseball",
+        "displayName": "2026 Topps Tribute Baseball",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Tribute",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Base",
+          "setLine": "Base",
+          "printRun": 2550,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Base",
+          "setLine": "Base Cards",
+          "printRun": 2540,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:1.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Relic",
+          "setLine": "Stamp of Approval",
+          "printRun": 149,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:26.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Relic",
+          "setLine": "Tributaries",
+          "printRun": 136,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:54.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Relic",
+          "setLine": "Dual Relics",
+          "printRun": 129,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:38.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Relic",
+          "setLine": "Tribute Jumbo Relic",
+          "printRun": 108,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:40.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Relic",
+          "setLine": "Tribute Triple Relics",
+          "printRun": 106,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:45.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Auto",
+          "setLine": "Crest Calligraphy",
+          "printRun": 98,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:43.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Auto",
+          "setLine": "League Inauguration Autographs",
+          "printRun": 82,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:78.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Auto",
+          "setLine": "Tribute to Threads Auto Relics",
+          "printRun": 63,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:75.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Auto",
+          "setLine": "Tribute Autographs",
+          "printRun": 58,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:24.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Relic",
+          "setLine": "Tribute to Cleats",
+          "printRun": 49,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:302.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Insert",
+          "setLine": "Bonds Career Achievement Continuity",
+          "printRun": 48,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:153.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Auto",
+          "setLine": "Pillars of the Game Autographs",
+          "printRun": 42,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:118.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Insert",
+          "setLine": "True to the Game",
+          "printRun": 35,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:527.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Auto",
+          "setLine": "Tribute Tandem Dual Autographs",
+          "printRun": 32,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:454.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Auto",
+          "setLine": "Autograph Patches",
+          "printRun": 32,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:173.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Auto",
+          "setLine": "Calling the Shot Dual Autographs",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:392.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Insert",
+          "setLine": "Tribute to Topps",
+          "printRun": 22,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:427.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Relic",
+          "setLine": "Milestone Relics",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:500.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Auto",
+          "setLine": "Bonds Continuity Autographs",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:752.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_tribute_baseball",
+          "setType": "Auto",
+          "setLine": "Prime Patch Autograph Relics",
+          "printRun": 8,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Full per-card production table. Source odds: 1:254.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-tribute-baseball-print-run-breakdown"
+        }
+      ]
+    },
+    "2026_topps_dynamic_duals_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_dynamic_duals_baseball",
+        "displayName": "2026 Topps Dynamic Duals Baseball",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Dynamic Duals",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "setType": "Base",
+          "setLine": "Base (common, #1-50)",
+          "printRun": 2368,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and short prints.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-dynamic-duals-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "setType": "Insert",
+          "setLine": "Short Prints (#51-55)",
+          "printRun": 1184,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and short prints.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-dynamic-duals-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "setType": "Insert",
+          "setLine": "Dynamic \"Duels\" SSP",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Base and short prints.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-dynamic-duals-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "setType": "Insert",
+          "setLine": "Youth Impact",
+          "printRun": 329,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-dynamic-duals-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "setType": "Insert",
+          "setLine": "Fence Busters",
+          "printRun": 296,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-dynamic-duals-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "setType": "Insert",
+          "setLine": "Future Forward",
+          "printRun": 197,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-dynamic-duals-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "setType": "Auto",
+          "setLine": "Dual Auto Black (/50)",
+          "printRun": 31,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated average copies reaching packs across the checklist, not a uniform subject print run or the nominal serial ceiling. Source flags differences between serials and effective availability. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-dynamic-duals-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "setType": "Auto",
+          "setLine": "Dual Auto Purple (/75)",
+          "printRun": 30,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated average copies reaching packs across the checklist, not a uniform subject print run or the nominal serial ceiling. Source flags differences between serials and effective availability. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-dynamic-duals-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "setType": "Auto",
+          "setLine": "Dual Auto Rainbow (/99)",
+          "printRun": 24,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated average copies reaching packs across the checklist, not a uniform subject print run or the nominal serial ceiling. Source flags differences between serials and effective availability. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-dynamic-duals-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "setType": "Auto",
+          "setLine": "Dual Auto Blue",
+          "printRun": 19,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated average copies reaching packs across the checklist, not a uniform subject print run or the nominal serial ceiling. Source flags differences between serials and effective availability. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-dynamic-duals-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "setType": "Auto",
+          "setLine": "Dual Auto Red",
+          "printRun": 9,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated average copies reaching packs across the checklist, not a uniform subject print run or the nominal serial ceiling. Source flags differences between serials and effective availability. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-dynamic-duals-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "setType": "Auto",
+          "setLine": "Dual Auto Orange",
+          "printRun": 5,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated average copies reaching packs across the checklist, not a uniform subject print run or the nominal serial ceiling. Source flags differences between serials and effective availability. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-dynamic-duals-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "setType": "Auto",
+          "setLine": "Dual Auto Gold (/1)",
+          "printRun": 1,
+          "serial": "",
+          "subSetSize": 50,
+          "notes": "Source: HobbyMonitor. Estimated average copies reaching packs across the checklist, not a uniform subject print run or the nominal serial ceiling. Source flags differences between serials and effective availability. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-dynamic-duals-baseball-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_dynamic_duals_baseball",
+          "setType": "Auto",
+          "setLine": "Dynamic \"Dozen\" Auto Booklet",
+          "printRun": 2,
+          "serial": "",
+          "subSetSize": 1,
+          "notes": "Source: HobbyMonitor. Estimated average copies reaching packs across the checklist, not a uniform subject print run or the nominal serial ceiling. Source flags differences between serials and effective availability. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-dynamic-duals-baseball-print-run-breakdown"
+        }
+      ]
+    },
+    "2026_topps_museum_collection_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_museum_collection_baseball",
+        "displayName": "2026 Topps Museum Collection Baseball",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Museum Collection",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Framed Hall of Fame Autographs - Wood Frame",
+          "printRun": 1,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:22,210.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Framed Hall of Fame Autographs - Black Frame",
+          "printRun": 5,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:4,442.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Museum Framed Dual Autograph Relic Book - Holo Gold",
+          "printRun": 1,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:4,039.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Framed Hall of Fame Autographs - Gold Frame",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:2,221.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Dual Autographed Jumbo Lumber Bat Relic Book - Emerald",
+          "printRun": 1,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:1,777.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Momentous Material Dual Jumbo Patch Autograph Book - Emerald",
+          "printRun": 1,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:1,389.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Museum Framed Dual Autograph Relic Book - Holo Silver",
+          "printRun": 4,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:1,010.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Autographed Jumbo Lumber Bat Relics - Emerald",
+          "printRun": 1,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:952.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Framed Hall of Fame Autographs - Silver Frame",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:889.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Relic",
+          "setLine": "Momentous Material Jumbo Relics - Emerald",
+          "printRun": 1,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:626.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Museum Framed Autographs - Wood Frame",
+          "printRun": 1,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:600.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Momentous Material Jumbo Patch Autographs - Emerald",
+          "printRun": 1,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:547.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Museum Framed Dual Autograph Relic Book - Gold",
+          "printRun": 8,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:458.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Framed Hall of Fame Autographs - Bronze Frame",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:458.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Dual Autographed Jumbo Lumber Bat Relic Book - Ruby",
+          "printRun": 4,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:445.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Momentous Material Dual Jumbo Patch Autograph Book - Gold",
+          "printRun": 4,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:299.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Autographed Jumbo Lumber Bat Relics - Ruby",
+          "printRun": 5,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:215.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Relic",
+          "setLine": "Momentous Material Jumbo Relics - Ruby",
+          "printRun": 3,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:145.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Momentous Material Jumbo Patch Autographs - Ruby",
+          "printRun": 4,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:133.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Museum Framed Autographs - Black Frame",
+          "printRun": 5,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:129.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Autographed Jumbo Lumber Bat Relics - Gold",
+          "printRun": 9,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:110.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Relic",
+          "setLine": "Momentous Material Jumbo Relics - Gold",
+          "printRun": 6,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:81.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Momentous Material Jumbo Patch Autographs - Amethyst",
+          "printRun": 7,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:76.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Museum Framed Autographs - Gold Frame",
+          "printRun": 9,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:65.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Momentous Material Jumbo Patch Autographs - Gold",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:52.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Relic",
+          "setLine": "Momentous Material Jumbo Relics - Sapphire",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:38.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Museum Framed Autographs - Silver Frame",
+          "printRun": 20,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:33.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Museum Framed Autograph Relics - Bronze Frame",
+          "printRun": 35,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:22.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Auto",
+          "setLine": "Museum Framed Autographs - Bronze Frame",
+          "printRun": 30,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: The unnumbered chases. Source odds: 1:21.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_museum_collection_baseball",
+          "setType": "Base",
+          "setLine": "Base cards",
+          "printRun": 456,
+          "serial": "",
+          "subSetSize": 100,
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: How much Museum exists.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-museum-collection-baseball-the-complete-odds-parallel-and-print-run-breakdown"
+        }
+      ]
+    },
+    "2026_topps_flagship_football": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_flagship_football",
+        "displayName": "2026 Topps Flagship Football",
+        "year": "2026",
+        "sport": "football",
+        "manufacturer": "Topps",
+        "product": "Flagship",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "NFL Stars Triple Autographs",
+          "printRun": 4,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "NFL Stars Dual Autographs",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "NFL Stars Autographs",
+          "printRun": 19,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "Topps Autograph Patch Cards",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "Real One Autographs",
+          "printRun": 33,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "NFL Material Dual Relic Autographs",
+          "printRun": 42,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "Field Fit Swatch Auto Relics",
+          "printRun": 45,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "NFL Material Autographs",
+          "printRun": 55,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "Flagship First Dual Signatures",
+          "printRun": 79,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "1991 Topps Football Autographs",
+          "printRun": 95,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "Topps Autograph Rookie Patch Cards",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "Ring of Honor Signatures",
+          "printRun": 123,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "Island Ink",
+          "printRun": 158,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "Rookie Real One Autographs",
+          "printRun": 179,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "Mascot Autographs",
+          "printRun": 238,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "Super Bowl Champion Signatures",
+          "printRun": 260,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "Victory Ink",
+          "printRun": 305,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "Flagship First Signatures",
+          "printRun": 790,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Autographs.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Relic",
+          "setLine": "NFL Material Dual Relics",
+          "printRun": 409,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Relics.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Relic",
+          "setLine": "Rookie Real One Relics",
+          "printRun": 1275,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Relics.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Relic",
+          "setLine": "Real One Relics",
+          "printRun": 1458,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Relics.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Relic",
+          "setLine": "NFL Material",
+          "printRun": 1634,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Relics.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Relic",
+          "setLine": "1991 Topps Football Relics",
+          "printRun": 1737,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Relics.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Relic",
+          "setLine": "Field Fit Swatch Collection",
+          "printRun": 1870,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Relics.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Parallel",
+          "setLine": "1957 Rookie Variation",
+          "printRun": 106,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "All Kings",
+          "printRun": 214,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Touchdown",
+          "printRun": 281,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Struttin'",
+          "printRun": 282,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Billboard Material",
+          "printRun": 282,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Class of 26",
+          "printRun": 831,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "4000 Yard Club",
+          "printRun": 831,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "1000 Yard Club",
+          "printRun": 832,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Touchdown Machines",
+          "printRun": 834,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Divisional Dominance",
+          "printRun": 992,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Conference Kings",
+          "printRun": 996,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "All Hail The Champ",
+          "printRun": 996,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Wild Card Moments",
+          "printRun": 997,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "NFL Stars",
+          "printRun": 59127,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Pressure Cookers",
+          "printRun": 67239,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Greats of the Game",
+          "printRun": 67239,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "1991 Topps Football",
+          "printRun": 118041,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Topps Profiles",
+          "printRun": 134951,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Big Ticket Players",
+          "printRun": 134951,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "2025 Greatest Hits",
+          "printRun": 134951,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "2025 All Topps Team",
+          "printRun": 140207,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Ring of Honor",
+          "printRun": 151759,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Inserts.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Parallel",
+          "setLine": "Clear Variation /10",
+          "printRun": 10,
+          "serial": "/10",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Source-reported serial tier for this variation; subject coverage follows the source subset. Source section: Variations.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Parallel",
+          "setLine": "Player Number Variation /20",
+          "printRun": 20,
+          "serial": "/20",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Source-reported serial tier for this variation; subject coverage follows the source subset. Source section: Variations.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Parallel",
+          "setLine": "Golden Mirror Variations",
+          "printRun": 49,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated aggregate checklist average. Individual veteran images, rookies and subsets have different estimated runs; this is not 49 copies of every variation. Source section: Variations.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Parallel",
+          "setLine": "True Photo Variation",
+          "printRun": 94,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Variations.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Parallel",
+          "setLine": "Vintage Stock Variation /99",
+          "printRun": 99,
+          "serial": "/99",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Source-reported serial tier for this variation; subject coverage follows the source subset. Source section: Variations.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Parallel",
+          "setLine": "Team Color Border Variation",
+          "printRun": 705,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Variations.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Auto",
+          "setLine": "1991 Chrome Autographs",
+          "printRun": 14,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Silver Pack.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "1991 Topps Chrome base",
+          "printRun": 6765,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Silver Pack.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "1991 Topps Rookies Chrome base",
+          "printRun": 6765,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Silver Pack.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "The Flagship Collection Chrome",
+          "printRun": 8333,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Club Exclusive Box.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Highlight Reels",
+          "printRun": 13636,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Club Exclusive Box.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "The Flagship Collection",
+          "printRun": 16667,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Club Exclusive Box.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "setType": "Insert",
+          "setLine": "Big Time Players",
+          "printRun": 50000,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "Source: HobbyMonitor. Estimated copies per card from odds analysis; not a manufacturer-confirmed total. Subject-level runs may vary. Source section: Club Exclusive Box.",
+          "cmURL": "https://www.hobbymonitor.com/insights/2026-topps-flagship-football-the-complete-odds-parallel-and-print-run-breakdown"
         }
       ]
     }

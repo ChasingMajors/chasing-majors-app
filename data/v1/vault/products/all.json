@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-16T18:49:52.388Z",
+  "generated_at": "2026-10-16T19:04:57.792Z",
   "sharded": true,
   "shards": [
     "all-001.json"
@@ -109,6 +109,13 @@
     "2026_bowman_chrome_sapphire_baseball": "all-001.json",
     "2026_topps_team_samurai_japan_round_2_baseball": "all-001.json",
     "2026_topps_update_series_baseball": "all-001.json",
-    "2026_bowman_football": "all-001.json"
+    "2026_bowman_football": "all-001.json",
+    "2026_bowman_chrome_baseball": "all-001.json",
+    "2026_topps_chrome_baseball": "all-001.json",
+    "2026_topps_chrome_sapphire_baseball": "all-001.json",
+    "2026_topps_tribute_baseball": "all-001.json",
+    "2026_topps_dynamic_duals_baseball": "all-001.json",
+    "2026_topps_museum_collection_baseball": "all-001.json",
+    "2026_topps_flagship_football": "all-001.json"
   }
 }

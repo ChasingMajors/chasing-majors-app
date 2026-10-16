@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-16T18:49:52.388Z",
+  "generated_at": "2026-10-16T19:04:57.792Z",
   "index": [
     {
       "Code": "19TFmbl",
@@ -1021,6 +1021,76 @@
       "sport": "football",
       "manufacturer": "Bowman",
       "product": "Bowman",
+      "cmURL": ""
+    },
+    {
+      "Code": "2026_bowman_chrome_baseball",
+      "DisplayName": "2026 Bowman Chrome Baseball",
+      "Keywords": "2026 Bowman Chrome Baseball, print run, production, odds, baseball",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome",
+      "cmURL": ""
+    },
+    {
+      "Code": "2026_topps_chrome_baseball",
+      "DisplayName": "2026 Topps Chrome Baseball",
+      "Keywords": "2026 Topps Chrome Baseball, print run, production, odds, baseball",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome",
+      "cmURL": ""
+    },
+    {
+      "Code": "2026_topps_chrome_sapphire_baseball",
+      "DisplayName": "2026 Topps Chrome Sapphire Baseball",
+      "Keywords": "2026 Topps Chrome Sapphire Baseball, print run, production, odds, baseball",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Sapphire",
+      "cmURL": ""
+    },
+    {
+      "Code": "2026_topps_tribute_baseball",
+      "DisplayName": "2026 Topps Tribute Baseball",
+      "Keywords": "2026 Topps Tribute Baseball, print run, production, odds, baseball",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Tribute",
+      "cmURL": ""
+    },
+    {
+      "Code": "2026_topps_dynamic_duals_baseball",
+      "DisplayName": "2026 Topps Dynamic Duals Baseball",
+      "Keywords": "2026 Topps Dynamic Duals Baseball, print run, production, odds, baseball",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Dynamic Duals",
+      "cmURL": ""
+    },
+    {
+      "Code": "2026_topps_museum_collection_baseball",
+      "DisplayName": "2026 Topps Museum Collection Baseball",
+      "Keywords": "2026 Topps Museum Collection Baseball, print run, production, odds, baseball",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Museum Collection",
+      "cmURL": ""
+    },
+    {
+      "Code": "2026_topps_flagship_football",
+      "DisplayName": "2026 Topps Flagship Football",
+      "Keywords": "2026 Topps Flagship Football, print run, production, odds, football",
+      "year": "2026",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Flagship",
       "cmURL": ""
     }
   ]
