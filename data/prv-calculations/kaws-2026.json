@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "code": "2026_topps_mlb_x_kaws_baseball",
+  "meta": {
+    "code": "2026_topps_mlb_x_kaws_baseball",
+    "displayName": "2026 Topps MLB x KAWS Baseball",
+    "keywords": "2026 Topps MLB x KAWS Baseball, 2026 Topps KAWS X MLB Baseball, KAWS Creation, KAWS Companion",
+    "source_key": "2026",
+    "year": "2026",
+    "manufacturer": "Topps",
+    "product": "MLB x KAWS",
+    "sport": "baseball"
+  },
+  "sources": {
+    "odds_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/KAWS_Odds.pdf?v=1784559267",
+    "checklist_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/KAWs_Checklist.pdf?v=1784208798",
+    "odds_sha256": "7d53f1fa1535a812520a3a4611e57da0661e3d2e26536c703d0cf3802ded2ef1",
+    "checklist_sha256": "067c54587e3d2c21631dcb3d2178106b62acd0ae9f93c5de5da94c722468a35b",
+    "serial_reference_url": "https://www.checklistinsider.com/2026-topps-kaws-x-mlb-baseball",
+    "reviewed_date": "2026-10-16"
+  },
+  "method": {
+    "calibration": "Median of three reviewed non-autograph base serial tiers: Orange /25, Black /10 and Red /5. Conditional on the stated serial ceilings substantially reaching packs for all 60 base cards. Odds frequency is interpreted as one eligible parallel/insert per hit. Not manufacturer-confirmed production; rounding and shared reserve/subject omissions can bias estimates.",
+    "max_anchor_spread": 0.05,
+    "round_estimates_to": 1,
+    "excluded_from_calibration": "Numbered odds below 1:20, one-of-ones and all autographs. Other nominal full-tier pack counts remain diagnostics, not asserted production."
+  },
+  "groups": {
+    "Base": {
+      "name": "Base",
+      "category": "Base",
+      "subjects": 60,
+      "serials": {
+        "AQUA": 199,
+        "BLUE": 150,
+        "GREEN": 99,
+        "PURPLE": 75,
+        "GOLD": 50,
+        "ORANGE": 25,
+        "BLACK": 10,
+        "RED": 5,
+        "FOILFRACTOR": 1
+      }
+    },
+    "KAWS Creation": {
+      "name": "KAWS Creation",
+      "category": "Insert",
+      "subjects": 25,
+      "serials": {
+        "FOILFRACTOR": 1
+      }
+    },
+    "KAWS Companion SP": {
+      "name": "KAWS Companion SP",
+      "category": "Insert",
+      "subjects": 10,
+      "serials": {
+        "FOILFRACTOR": 1
+      }
+    },
+    "Base Autographs": {
+      "name": "Base Autographs",
+      "category": "Autograph",
+      "subjects": 41,
+      "serials": {
+        "GOLD": 50,
+        "ORANGE": 25,
+        "BLACK": 10,
+        "RED": 5,
+        "FOILFRACTOR": 1
+      }
+    },
+    "KAWS Companion SSP Autographs": {
+      "name": "KAWS Companion SSP Autographs",
+      "category": "Autograph",
+      "subjects": 5,
+      "serials": {
+        "BLACK": 10,
+        "RED": 5,
+        "FOILFRACTOR": 1
+      }
+    }
+  },
+  "odds_rows": [
+    {
+      "id": "kaws-1",
+      "odds_label": "26TNKB - BASE CARDS UNNUMBERED PARALLEL",
+      "odds_denominator": 3,
+      "group": "Base",
+      "serial_limit": null,
+      "parallel": "Unnumbered parallel",
+      "anchor": false
+    },
+    {
+      "id": "kaws-2",
+      "odds_label": "26TNKB - BASE CARDS AQUA PARALLEL",
+      "odds_denominator": 5,
+      "group": "Base",
+      "serial_limit": 199,
+      "parallel": "Aqua",
+      "anchor": false
+    },
+    {
+      "id": "kaws-3",
+      "odds_label": "26TNKB - BASE CARDS BLUE PARALLEL",
+      "odds_denominator": 7,
+      "group": "Base",
+      "serial_limit": 150,
+      "parallel": "Blue",
+      "anchor": false
+    },
+    {
+      "id": "kaws-4",
+      "odds_label": "26TNKB - BASE CARDS GREEN PARALLEL",
+      "odds_denominator": 10,
+      "group": "Base",
+      "serial_limit": 99,
+      "parallel": "Green",
+      "anchor": false
+    },
+    {
+      "id": "kaws-5",
+      "odds_label": "26TNKB - BASE CARDS PURPLE PARALLEL",
+      "odds_denominator": 13,
+      "group": "Base",
+      "serial_limit": 75,
+      "parallel": "Purple",
+      "anchor": false
+    },
+    {
+      "id": "kaws-6",
+      "odds_label": "26TNKB - BASE CARDS GOLD PARALLEL",
+      "odds_denominator": 19,
+      "group": "Base",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "kaws-7",
+      "odds_label": "26TNKB - BASE CARDS ORANGE PARALLEL",
+      "odds_denominator": 38,
+      "group": "Base",
+      "serial_limit": 25,
+      "parallel": "Orange",
+      "anchor": true
+    },
+    {
+      "id": "kaws-8",
+      "odds_label": "26TNKB - BASE CARDS BLACK PARALLEL",
+      "odds_denominator": 93,
+      "group": "Base",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": true
+    },
+    {
+      "id": "kaws-9",
+      "odds_label": "26TNKB - BASE CARDS RED PARALLEL",
+      "odds_denominator": 186,
+      "group": "Base",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": true
+    },
+    {
+      "id": "kaws-10",
+      "odds_label": "26TNKB - BASE CARDS FOILFRACTOR PARALLEL",
+      "odds_denominator": 916,
+      "group": "Base",
+      "serial_limit": 1,
+      "parallel": "Foilfractor",
+      "anchor": false
+    },
+    {
+      "id": "kaws-11",
+      "odds_label": "26TNKB - KAWS CREATION INSERT",
+      "odds_denominator": 12,
+      "group": "KAWS Creation",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "kaws-12",
+      "odds_label": "26TNKB - KAWS CREATION INSERT FOILFRACTOR PARALLEL",
+      "odds_denominator": 2160,
+      "group": "KAWS Creation",
+      "serial_limit": 1,
+      "parallel": "Foilfractor",
+      "anchor": false
+    },
+    {
+      "id": "kaws-13",
+      "odds_label": "26TNKB - BASE AUTOGRAPHS GOLD PARALLEL",
+      "odds_denominator": 73,
+      "group": "Base Autographs",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "kaws-14",
+      "odds_label": "26TNKB - BASE AUTOGRAPHS ORANGE PARALLEL",
+      "odds_denominator": 95,
+      "group": "Base Autographs",
+      "serial_limit": 25,
+      "parallel": "Orange",
+      "anchor": false
+    },
+    {
+      "id": "kaws-15",
+      "odds_label": "26TNKB - BASE AUTOGRAPHS BLACK PARALLEL",
+      "odds_denominator": 188,
+      "group": "Base Autographs",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": false
+    },
+    {
+      "id": "kaws-16",
+      "odds_label": "26TNKB - BASE AUTOGRAPHS RED PARALLEL",
+      "odds_denominator": 260,
+      "group": "Base Autographs",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "kaws-17",
+      "odds_label": "26TNKB - BASE AUTOGRAPHS FOILFRACTOR PARALLEL",
+      "odds_denominator": 1174,
+      "group": "Base Autographs",
+      "serial_limit": 1,
+      "parallel": "Foilfractor",
+      "anchor": false
+    },
+    {
+      "id": "kaws-18",
+      "odds_label": "26TNKB - COMPANION SP",
+      "odds_denominator": 78,
+      "group": "KAWS Companion SP",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "kaws-19",
+      "odds_label": "26TNKB - COMPANION SP FOILFRACTOR",
+      "odds_denominator": 5400,
+      "group": "KAWS Companion SP",
+      "serial_limit": 1,
+      "parallel": "Foilfractor",
+      "anchor": false
+    },
+    {
+      "id": "kaws-20",
+      "odds_label": "26TNKB - KAWS AUTOGRAPHS SSP BLACK PARALLEL",
+      "odds_denominator": 5400,
+      "group": "KAWS Companion SSP Autographs",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": false
+    },
+    {
+      "id": "kaws-21",
+      "odds_label": "26TNKB - KAWS AUTOGRAPHS SSP RED PARALLEL",
+      "odds_denominator": 10800,
+      "group": "KAWS Companion SSP Autographs",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "kaws-22",
+      "odds_label": "26TNKB - KAWS AUTOGRAPHS SSP FOILFRACTOR PARALLEL",
+      "odds_denominator": 54000,
+      "group": "KAWS Companion SSP Autographs",
+      "serial_limit": 1,
+      "parallel": "Foilfractor",
+      "anchor": false
+    }
+  ],
+  "withheld": [
+    {
+      "group": "Regular unnumbered base cards",
+      "reason": "No regular-base odds or independently reviewed complete base-card multiplicity/accounting in the source sheet. The 1:3 UNNUMBERED PARALLEL is a distinct entry, not regular base."
+    },
+    {
+      "group": "On-Card Autographs",
+      "reason": "Official checklist lists five cards separately from 41 Base Autographs. No dedicated odds or complete parallel limits are supplied; do not merge them into the 41-card base-autograph population."
+    }
+  ]
+}
