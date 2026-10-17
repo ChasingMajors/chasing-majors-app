@@ -1,0 +1,751 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-17",
+  "policy": "Raw source and all counts are preserved. Identical ambiguous rows are held. Snapshot fingerprints prevent stale positional corrections after a new export.",
+  "products": [
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "source_sha256": "787fb758be1d782171255299c3fac9de8066032addfb1b6ce54ece60b34ed88b",
+      "actions": [
+        {
+          "position": 73,
+          "set": {
+            "set_name": "Base — Rainbow Green & Blue"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 74,
+          "set": {
+            "set_name": "Base — Rainbow Gold & Green"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 75,
+          "set": {
+            "set_name": "Base — Pixel Burst Blue"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 76,
+          "set": {
+            "set_name": "Base — Pixel Burst Purple"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 77,
+          "set": {
+            "set_name": "Base — Pixel Burst Green"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 78,
+          "set": {
+            "set_name": "Base — Pixel Burst Gold"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 79,
+          "set": {
+            "set_name": "Base — Pixel Burst Orange"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 80,
+          "set": {
+            "set_name": "Base — Pixel Burst Black"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 81,
+          "set": {
+            "set_name": "Base — Pixel Burst Red"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 82,
+          "set": {
+            "set_name": "Base — Pixel Burst Platinum"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 86,
+          "set": {
+            "set_name": "Base — Rainbow Teal"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 87,
+          "set": {
+            "set_name": "Base — Rainbow Blue & Yellow"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 88,
+          "set": {
+            "set_name": "Base — Rainbow Red & Orange"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 89,
+          "set": {
+            "set_name": "Base — Rainbow Purple & Blue"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 90,
+          "set": {
+            "set_name": "Base — Light Burst Blue"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 91,
+          "set": {
+            "set_name": "Base — Light Burst Purple"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 92,
+          "set": {
+            "set_name": "Base — Light Burst Green"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 93,
+          "set": {
+            "set_name": "Base — Light Burst Gold"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 94,
+          "set": {
+            "set_name": "Base — Light Burst Orange"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 95,
+          "set": {
+            "set_name": "Base — Light Burst Black"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 96,
+          "set": {
+            "set_name": "Base — Light Burst Red"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        },
+        {
+          "position": 97,
+          "set": {
+            "set_name": "Base — Light Burst Platinum"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-nba-hoops-basketball"
+        }
+      ]
+    },
+    {
+      "code": "2025_26_bowman_basketball",
+      "source_sha256": "aaf1726b881e1397fa73b054a78fef98198ac49e4332417429b2182138778b21",
+      "actions": [
+        {
+          "position": 2,
+          "set": {
+            "set_name": "Base — Purple Pattern Border"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-bowman-basketball"
+        },
+        {
+          "position": 3,
+          "set": {
+            "set_name": "Base — Pink Border"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-bowman-basketball"
+        },
+        {
+          "position": 4,
+          "set": {
+            "set_name": "Base — Blue Border"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-bowman-basketball"
+        },
+        {
+          "position": 7,
+          "set": {
+            "set_name": "Base — Yellow Border"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-bowman-basketball"
+        },
+        {
+          "position": 8,
+          "set": {
+            "set_name": "Base — Gold Border"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-bowman-basketball"
+        },
+        {
+          "position": 9,
+          "set": {
+            "set_name": "Base — Orange Border"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-bowman-basketball"
+        },
+        {
+          "position": 12,
+          "set": {
+            "set_name": "Base — Red Border"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-bowman-basketball"
+        },
+        {
+          "position": 13,
+          "set": {
+            "set_name": "Base — Platinum Border"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-bowman-basketball"
+        }
+      ]
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "source_sha256": "2ccc6b0a2c7ea3fcbb9324c7271ef4cc348e72ec77026ffac72bd68bc588a47f",
+      "actions": [
+        {
+          "position": 46,
+          "set": {
+            "set_name": "Base — Yellow"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-signature-class-basketball"
+        },
+        {
+          "position": 47,
+          "set": {
+            "set_name": "Base — Coral"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-signature-class-basketball"
+        },
+        {
+          "position": 48,
+          "set": {
+            "set_name": "Base — Magenta"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-signature-class-basketball"
+        },
+        {
+          "position": 49,
+          "set": {
+            "set_name": "Base — Teal"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-signature-class-basketball"
+        },
+        {
+          "position": 50,
+          "set": {
+            "set_name": "Base — Indigo"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-signature-class-basketball"
+        },
+        {
+          "position": 51,
+          "set": {
+            "set_name": "Base — Green"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-signature-class-basketball"
+        },
+        {
+          "position": 52,
+          "set": {
+            "set_name": "Base — Purple"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-signature-class-basketball"
+        },
+        {
+          "position": 53,
+          "set": {
+            "set_name": "Base — Pink"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-signature-class-basketball"
+        },
+        {
+          "position": 54,
+          "set": {
+            "set_name": "Base — Orange"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-signature-class-basketball"
+        },
+        {
+          "position": 59,
+          "set": {
+            "set_name": "Base — Blue"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-signature-class-basketball"
+        },
+        {
+          "position": 60,
+          "set": {
+            "set_name": "Base — FoilFractor"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-signature-class-basketball"
+        }
+      ]
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "source_sha256": "b943b00110ab66defee7443ddb5aa8a3eef77e4feea0d6a5f2b7f48e2722f21a",
+      "actions": [
+        {
+          "position": 5,
+          "set": {
+            "set_name": "Base — Bronze"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-3-basketball"
+        },
+        {
+          "position": 6,
+          "set": {
+            "set_name": "Base — Blue"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-3-basketball"
+        },
+        {
+          "position": 7,
+          "set": {
+            "set_name": "Base — Gold"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-3-basketball"
+        },
+        {
+          "position": 9,
+          "set": {
+            "set_name": "Base — Platinum"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-3-basketball"
+        }
+      ]
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "source_sha256": "647ba0dc5e07f3796af8391e0791fdd31d49a3b36eb697d2cd37a22294ab4de6",
+      "actions": [
+        {
+          "position": 86,
+          "set": {
+            "set_name": "Base — Gold"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-basketball"
+        },
+        {
+          "position": 96,
+          "set": {
+            "set_name": "Base — Black"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://www.checklistinsider.com/2025-26-topps-basketball"
+        }
+      ]
+    },
+    {
+      "code": "2025_26_topps_chrome_update_sapphire_basketball",
+      "source_sha256": "885221eb1d67f09c66a68078eaa766c0d5fe9496afd3e686e3d68dfc5bcd5ea9",
+      "actions": [
+        {
+          "position": 1,
+          "quarantine": "Narrative imported as a card entry; numeric value is not supported by the row label"
+        },
+        {
+          "position": 3,
+          "quarantine": "Narrative imported as a card entry; numeric value is not supported by the row label"
+        },
+        {
+          "position": 4,
+          "quarantine": "Narrative imported as a card entry; numeric value is not supported by the row label"
+        },
+        {
+          "position": 5,
+          "quarantine": "Narrative imported as a card entry; numeric value is not supported by the row label"
+        },
+        {
+          "position": 6,
+          "quarantine": "Narrative imported as a card entry; numeric value is not supported by the row label"
+        },
+        {
+          "position": 2,
+          "quarantine": "Product-level total without a validated per-card interpretation"
+        },
+        {
+          "position": 7,
+          "set": {
+            "set_name": "Base Sapphire",
+            "section": "Base",
+            "category": "Base"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://slabsquatch.substack.com/p/202526-topps-chrome-update-sapphire"
+        }
+      ]
+    },
+    {
+      "code": "2026_bowman_chrome_sapphire_baseball",
+      "source_sha256": "e857976182ec30aa8bc0e049d0e8a9cedc8aff0af906f032e66bcd2d153da221",
+      "actions": [
+        {
+          "position": 1,
+          "quarantine": "Narrative imported as a card entry; numeric value is not supported by the row label"
+        },
+        {
+          "position": 2,
+          "quarantine": "Narrative imported as a card entry; numeric value is not supported by the row label"
+        },
+        {
+          "position": 3,
+          "set": {
+            "set_name": "Sapphire Base",
+            "section": "Base",
+            "category": "Base"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://slabsquatch.substack.com/p/2026-bowman-chrome-sapphire-analysis"
+        },
+        {
+          "position": 4,
+          "set": {
+            "set_name": "Sapphire Selections Base Autos",
+            "section": "Auto",
+            "category": "Autographs"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://slabsquatch.substack.com/p/2026-bowman-chrome-sapphire-analysis"
+        }
+      ]
+    },
+    {
+      "code": "clean_up_analysis_2025_26_topps_nbl_australian_basketball_league_2025_26_finest_uefa_club_competitions_soccer",
+      "source_sha256": "3c390b694bfdf63743f99a1bee22c1614929e04bc1b11617f668a4a8582391d5",
+      "actions": [
+        {
+          "position": 1,
+          "quarantine": "Article introduction parsed as a card entry"
+        },
+        {
+          "position": 20,
+          "quarantine": "Product heading year parsed as a print run"
+        },
+        {
+          "position": 18,
+          "set": {
+            "set_name": "NBL Relics",
+            "section": "Relic",
+            "category": "Relics"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "position": 19,
+          "set": {
+            "set_name": "NBL Relics Premium",
+            "section": "Relic",
+            "category": "Relics"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "position": 2,
+          "set": {
+            "set_name": "Base Card"
+          },
+          "basis": "Reviewed label and serial; production counts preserved",
+          "source_url": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        }
+      ],
+      "split": [
+        {
+          "entry": {
+            "Code": "2025_26_topps_nbl_basketball",
+            "DisplayName": "2025-26 Topps NBL Basketball",
+            "Keywords": "2025-26 Topps NBL Basketball",
+            "year": "2025-26",
+            "sport": "basketball",
+            "manufacturer": "Topps",
+            "product": "NBL"
+          },
+          "positions": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "entry": {
+            "Code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+            "DisplayName": "2025-26 Topps Finest UEFA Club Competitions Soccer",
+            "Keywords": "2025-26 Topps Finest UEFA Club Competitions Soccer",
+            "year": "2025-26",
+            "sport": "soccer",
+            "manufacturer": "Topps",
+            "product": "Finest UEFA Club Competitions"
+          },
+          "positions": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2026_topps_pristine_premier_league_2026_merlin_premier_league_soccer",
+      "source_sha256": "b4be0bf0ae8e870a31970507c638516a98e9af32878cb22916f4b69132105e6f",
+      "actions": [
+        {
+          "position": 13,
+          "quarantine": "Duplicated base-card count misclassified as autograph; ownership unresolved"
+        },
+        {
+          "position": 36,
+          "quarantine": "Duplicated base-card count misclassified as autograph; ownership unresolved"
+        },
+        {
+          "position": 1,
+          "quarantine": "Two base production counts in a combined article; ownership requires source-table verification"
+        },
+        {
+          "position": 34,
+          "quarantine": "Two base production counts in a combined article; ownership requires source-table verification"
+        }
+      ],
+      "split": [
+        {
+          "entry": {
+            "Code": "2025_26_topps_pristine_premier_league_soccer",
+            "DisplayName": "2025-26 Topps Pristine Premier League Soccer",
+            "Keywords": "2025-26 Topps Pristine Premier League Soccer",
+            "year": "2025-26",
+            "sport": "soccer",
+            "manufacturer": "Topps",
+            "product": "Pristine Premier League"
+          },
+          "positions": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            35
+          ]
+        },
+        {
+          "entry": {
+            "Code": "2025_26_topps_merlin_premier_league",
+            "DisplayName": "2026 Topps Merlin Premier League Soccer",
+            "Keywords": "2026 Topps Merlin Premier League Soccer",
+            "year": "2026",
+            "sport": "soccer",
+            "manufacturer": "Topps",
+            "product": "Merlin Premier League"
+          },
+          "positions": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2025_topps_inception_baseball_2025_26_topps_inception_basketball",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "actions": [],
+      "split": [
+        {
+          "entry": {
+            "Code": "2025_topps_inception_baseball",
+            "DisplayName": "2025 Topps Inception Baseball",
+            "Keywords": "2025 Topps Inception Baseball",
+            "year": "2025",
+            "sport": "baseball",
+            "manufacturer": "Topps",
+            "product": "Inception"
+          },
+          "positions": []
+        },
+        {
+          "entry": {
+            "Code": "2025_26_topps_inception_basketball",
+            "DisplayName": "2025-26 Topps Inception Basketball",
+            "Keywords": "2025-26 Topps Inception Basketball",
+            "year": "2025-26",
+            "sport": "basketball",
+            "manufacturer": "Topps",
+            "product": "Inception"
+          },
+          "positions": []
+        }
+      ]
+    },
+    {
+      "code": "2026_topps_tier_one_2025_topps_dynasty_baseball",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "actions": [],
+      "split": [
+        {
+          "entry": {
+            "Code": "2026_topps_tier_one_baseball",
+            "DisplayName": "2026 Topps Tier One Baseball",
+            "Keywords": "2026 Topps Tier One Baseball",
+            "year": "2026",
+            "sport": "baseball",
+            "manufacturer": "Topps",
+            "product": "Tier One"
+          },
+          "positions": []
+        },
+        {
+          "entry": {
+            "Code": "2025_topps_dynasty_baseball",
+            "DisplayName": "2025 Topps Dynasty Baseball",
+            "Keywords": "2025 Topps Dynasty Baseball",
+            "year": "2025",
+            "sport": "baseball",
+            "manufacturer": "Topps",
+            "product": "Dynasty"
+          },
+          "positions": []
+        }
+      ]
+    }
+  ]
+}

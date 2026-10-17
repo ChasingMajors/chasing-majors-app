@@ -4,6 +4,7 @@ const crypto = require('node:crypto');
 const model = require('../shared/vault-model.js');
 const {calculate} = require('./calculate-prv-odds.cjs');
 const {enrich} = require('./enrich-prv-checklist-sizes.cjs');
+const {review} = require('./review-prv-integrity.cjs');
 const root = path.resolve(__dirname, '..');
 const read = file => JSON.parse(fs.readFileSync(path.join(root,file),'utf8'));
 const source = read('data/v1/manifest.json');
@@ -33,11 +34,12 @@ for (const file of fs.readdirSync(path.join(root,'data/prv-calculations')).filte
   if (existing) {existing.entry=entry;existing.product=product;}
   else records.push({entry,product});
 }
-const entries = records.map(({entry,product}) => {
+for(const {entry,product} of records) enrich(product,sizeReviews.get(entry.Code));
+const reviewed=review(records,read('data/prv-integrity-reviews.json'));
+const entries = reviewed.records.map(({entry,product}) => {
   const code=entry.Code;
-  enrich(product,sizeReviews.get(code));
   // Link only unique, exact normalized names and sports. No fuzzy identity guesses.
-  const matches = cv.filter(c => model.key(c.DisplayName) === model.key(entry.DisplayName) && model.key(c.sport) === model.key(entry.sport));
+  const matches = cv.filter(c => (c.Code===code || model.key(c.DisplayName) === model.key(entry.DisplayName)) && model.key(c.sport) === model.key(entry.sport));
   product.checklist = matches.length === 1 ? {code:matches[0].Code,sport:matches[0].sport} : null;
   product.source_revision = source.vault_version;
   const body = JSON.stringify(product);
@@ -47,5 +49,6 @@ const entries = records.map(({entry,product}) => {
   return {...entry,file,row_count:product.rows.length};
 });
 for(const file of fs.readdirSync(path.join(root,out,'products'))) if(!files.has(file)) fs.unlinkSync(path.join(root,out,'products',file));
-fs.writeFileSync(path.join(root,out,'index.json'),JSON.stringify({schema_version:2,source_revision:source.vault_version,index:entries})+'\n');
+fs.writeFileSync(path.join(root,out,'index.json'),JSON.stringify({schema_version:2,source_revision:source.vault_version,index:entries,aliases:reviewed.aliases})+'\n');
+fs.writeFileSync(path.join(root,out,'integrity-review.json'),JSON.stringify({...reviewed.report,source_revision:source.vault_version})+'\n');
 console.log(JSON.stringify({products:entries.length,rows:total,bytes:entries.reduce((n,e)=>n+fs.statSync(path.join(root,out,'products',e.file)).size,0)}));

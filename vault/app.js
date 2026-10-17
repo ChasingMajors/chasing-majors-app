@@ -481,6 +481,15 @@ function findBestMatch(query) {
   return null;
 }
 
+function renderSplitChoice_(query) {
+  const split=STRUCTURED_INDEX?.aliases?.[query];
+  if(!split)return false;
+  const choices=split.products.map(code=>STRUCTURED_INDEX.index.find(p=>p.Code===code)).filter(Boolean);
+  elResults.innerHTML=`<section class="card"><h2>Choose a product</h2>${choices.map(p=>`<p><a href="?code=${encodeURIComponent(p.Code)}">${esc(p.DisplayName)}</a></p>`).join('')}</section>`;
+  hideBootOverlay(true);
+  return true;
+}
+
 // ---------------- HOMEPAGE HANDOFF ----------------
 function runHomepageHandoffIfPresent() {
   if (!initDone) return;
@@ -512,6 +521,8 @@ function runHomepageHandoffIfPresent() {
 
   elQ.value = incomingQuery;
   closeDropdown();
+
+  if(renderSplitChoice_(incomingQuery))return;
 
   const best = findBestMatch(incomingQuery);
   if (!best) {
@@ -657,6 +668,7 @@ async function runSearch() {
   const query = cleanQuery(elQ.value);
   if (!query) return;
   const generation = ++searchGeneration;
+  if(renderSplitChoice_(query))return;
   const product = selected || findBestMatch(query);
   closeDropdown();
   if (!product) {
@@ -944,7 +956,7 @@ function renderEntries() {
     const m=r.measurement;
     return `<div class="entry"><div class="entryRow">
       <span class="entryName"><strong>${esc(r.set_name)}</strong><small>${esc(r.section || r.category)}</small></span>
-      <span class="entryNumber"><strong>${m.value===null?'—':fmtNum(m.value)}</strong><small>${esc(labels[m.kind])}${m.scope==='per_card'?' · per card':''}</small></span>
+      <span class="entryNumber"><strong>${m.value===null?'—':fmtNum(m.value)}</strong><small>${esc(m.value===null&&r.serial_limit!==null?'Numbered only':labels[m.kind])}${m.scope==='per_card'?' · per card':''}</small></span>
       <span class="entrySerial"><span class="mobileLabel">Numbered </span>${r.serial_limit===null?'—':'/'+esc(r.serial_limit)}</span>
       <span class="entrySize"><span class="srOnly">Checklist cards: </span><span class="mobileLabel" aria-hidden="true">Checklist cards </span>${r.checklist_size===null?'—':fmtNum(r.checklist_size)}</span>
       </div></div>`;
