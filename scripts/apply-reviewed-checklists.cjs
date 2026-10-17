@@ -3,7 +3,7 @@ const digest=s=>crypto.createHash('sha256').update(s).digest('hex');
 const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 function apply(root,options={}){
  const stamp=options.stamp||new Date().toISOString(),cache=new Map(),changes=new Map();
- const read=file=>{if(!cache.has(file))cache.set(file,JSON.parse(fs.readFileSync(path.join(root,file),'utf8')));return cache.get(file);};
+ const read=file=>{if(changes.has(file))return changes.get(file);if(!cache.has(file))cache.set(file,JSON.parse(fs.readFileSync(path.join(root,file),'utf8')));return cache.get(file);};
  const write=(file,value)=>{const old=fs.existsSync(path.join(root,file))?JSON.parse(fs.readFileSync(path.join(root,file),'utf8')):null;if(JSON.stringify(old)===JSON.stringify(value))return;changes.set(file,value);};
  const catalog=read('data/cv-reviewed-imports/catalog.json');
  if(catalog.schema_version!==1)throw Error('Unsupported checklist import schema');
@@ -58,6 +58,28 @@ function apply(root,options={}){
   }
   write(`data/v1/checklists/products/${patch.sport}/${patch.code}.json`,current.product);
   active.set(patch.code,{sport:patch.sport,product:current.product});report.patches.push({code:patch.code,added});
+ }
+ for(const entry of catalog.parallel_patches||[]){
+  const patch=input(entry),current=getProduct(patch.sport,patch.code);
+  if(!current.product?.rows?.length||current.product.meta.code!==patch.code||current.product.meta.sport!==patch.sport)throw Error('Missing parallel patch target');
+  if(!patch.source_url||!Array.isArray(patch.parallels))throw Error('Missing parallel patch evidence');
+  current.product.parallels=current.product.parallels||[];let added=0;
+  const seen=new Set();
+  for(const row of patch.parallels){
+   const subset=row.applies_to_subset==='[Base]'?'Base':row.applies_to_subset;
+   if(row.code!==patch.code||!row.parallel_name||typeof row.serial_no!=='string'||!row.applies_to_section||!subset||!current.product.rows.some(r=>r.section===row.applies_to_section&&r.subset===subset))throw Error('Invalid reviewed parallel scope');
+   const key=[row.applies_to_section,row.applies_to_subset,row.parallel_name].map(v=>v.toLowerCase()).join('\0');
+   if(seen.has(key))throw Error('Duplicate reviewed parallel');seen.add(key);
+   const existing=current.product.parallels.find(r=>[r.applies_to_section,r.applies_to_subset,r.parallel_name].map(v=>String(v||'').toLowerCase()).join('\0')===key);
+   if(existing){if(existing.serial_no!==row.serial_no)report.conflicts.push({code:patch.code,parallel:row.parallel_name,subset,reason:'Existing source parallel preserved'});continue;}
+   current.product.parallels.push(row);added++;
+  }
+  if(added){
+   current.product.reviewed_parallel_additions=[...(current.product.reviewed_parallel_additions||[]).filter(p=>p.review_id!==patch.review_id),{review_id:patch.review_id,source_url:patch.source_url,parallels:patch.parallels}];
+   if(current.file)write(current.file,read(current.file));else write(productPath(patch.sport),current.bundle);
+  }
+  write(`data/v1/checklists/products/${patch.sport}/${patch.code}.json`,current.product);
+  active.set(patch.code,{sport:patch.sport,product:current.product});report.patches.push({code:patch.code,kind:'parallels',added});
  }
  const searchBase='data/v1/checklists/search-index/';
  const managed=new Set([...active].map(([code,{sport}])=>sport+'-reviewed-'+slug(code)+'.json'));

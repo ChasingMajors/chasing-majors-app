@@ -1,0 +1,38 @@
+{
+  "review_id": "flagship-basketball-parallels-2026-10-17",
+  "code": "2026_27_topps_flagship_basketball",
+  "sport": "basketball",
+  "source_url": "https://ripped.topps.com/2026-27-topps-flagship-basketball-top-cards-collector-guide/",
+  "reviewed_at": "2026-10-17",
+  "scope": "Only explicitly named and numbered parallels; no pack odds or inferred print runs.",
+  "parallels": [
+    {
+      "code": "2026_27_topps_flagship_basketball",
+      "applies_to_section": "Base",
+      "applies_to_subset": "[Base]",
+      "parallel_name": "FoilFractor",
+      "serial_no": "1/1"
+    },
+    {
+      "code": "2026_27_topps_flagship_basketball",
+      "applies_to_section": "Insert",
+      "applies_to_subset": "All Kings",
+      "parallel_name": "Gold",
+      "serial_no": "1/1"
+    },
+    {
+      "code": "2026_27_topps_flagship_basketball",
+      "applies_to_section": "Autograph",
+      "applies_to_subset": "Rookie Photo Shoot Autographs",
+      "parallel_name": "Red FoilFractor",
+      "serial_no": "/5"
+    },
+    {
+      "code": "2026_27_topps_flagship_basketball",
+      "applies_to_section": "Relic",
+      "applies_to_subset": "Flagship Real One Relic",
+      "parallel_name": "Red FoilFractor",
+      "serial_no": "/5"
+    }
+  ]
+}

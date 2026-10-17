@@ -44,6 +44,30 @@ test('changed reviewed input fails validation before publishing',()=>{
   assert.throws(()=>apply(f.root),/checksum mismatch/);assert.deepEqual(f.read('data/v1/manifest.json'),before);
  }finally{fs.rmSync(f.root,{recursive:true,force:true});}
 });
+function parallelPatch(f,overrides={}){
+ const patch={review_id:'parallel-review',code:'new',sport:'basketball',source_url:'https://example.com/official',parallels:[{code:'new',applies_to_section:'Base',applies_to_subset:'[Base]',parallel_name:'Gold',serial_no:'1/1',...overrides}]};
+ f.write('data/cv-reviewed-imports/parallels.json',patch);
+ const catalog=f.read('data/cv-reviewed-imports/catalog.json');catalog.parallel_patches=[{file:'parallels.json',content_sha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(f.root,'data/cv-reviewed-imports/parallels.json'))).digest('hex')}];f.write('data/cv-reviewed-imports/catalog.json',catalog);
+}
+test('reviewed parallels reach both payloads, survive refresh, and stay idempotent',()=>{
+ const f=fixture();try{
+  parallelPatch(f);apply(f.root);
+  const p=f.read('data/v1/checklists/products/basketball/new.json');assert.equal(p.parallels[0].serial_no,'1/1');assert.equal(p.reviewed_parallel_additions[0].source_url,'https://example.com/official');
+  assert.deepEqual(f.read('data/v1/checklists/products/basketball-reviewed-new.json').products.new,p);
+  assert.deepEqual(apply(f.root).changed_files,[]);
+ }finally{fs.rmSync(f.root,{recursive:true,force:true});}
+});
+test('parallel patches preserve a conflicting populated source and report the conflict',()=>{
+ const f=fixture();try{
+  parallelPatch(f);apply(f.root);const file='data/v1/checklists/products/basketball-reviewed-new.json',d=f.read(file);d.products.new.parallels[0].serial_no='/25';f.write(file,d);
+  const report=apply(f.root);assert.equal(report.conflicts.length,1);assert.equal(f.read('data/v1/checklists/products/basketball/new.json').parallels[0].serial_no,'/25');
+ }finally{fs.rmSync(f.root,{recursive:true,force:true});}
+});
+test('a parallel assigned to a missing subset fails before any files are written',()=>{
+ const f=fixture();try{
+  parallelPatch(f,{applies_to_subset:'Missing subset'});const before=f.read('data/v1/manifest.json');assert.throws(()=>apply(f.root),/parallel scope/);assert.deepEqual(f.read('data/v1/manifest.json'),before);assert.ok(!fs.existsSync(path.join(f.root,'data/v1/checklists/products/basketball/new.json')));
+ }finally{fs.rmSync(f.root,{recursive:true,force:true});}
+});
 test('official Flagship scopes and dual-subject cards remain separate',()=>{
  const p=require('../data/cv-reviewed-imports/2026_27_topps_flagship_basketball.json');
  assert.equal(p.rows.length,3244);const count=name=>p.rows.filter(r=>r.subset===name).length;

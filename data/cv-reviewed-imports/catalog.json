@@ -756,5 +756,11 @@
       "file": "all-kings-patch.json",
       "content_sha256": "eca89c311132825bc93ce45b7c6f479d42560af4ce6638d4f7e25cc8bb0871d3"
     }
+  ],
+  "parallel_patches": [
+    {
+      "file": "2026-27-flagship-basketball-parallels.json",
+      "content_sha256": "54b8116c3d24d684c4011d8c2c5eae5848f703508bd69509efecd3de94fb3db7"
+    }
   ]
 }
