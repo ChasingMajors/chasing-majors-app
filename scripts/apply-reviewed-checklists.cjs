@@ -81,6 +81,25 @@ function apply(root,options={}){
   write(`data/v1/checklists/products/${patch.sport}/${patch.code}.json`,current.product);
   active.set(patch.code,{sport:patch.sport,product:current.product});report.patches.push({code:patch.code,kind:'parallels',added});
  }
+ for(const entry of catalog.row_corrections||[]){
+  const patch=input(entry),current=getProduct(patch.sport,patch.code);let corrected=0;
+  if(!current.product?.rows?.length||!patch.source_url)throw Error('Missing correction target/evidence');
+  for(const correction of patch.corrections){
+   const {before,after}=correction;
+   if(before.code!==patch.code||before.sport!==patch.sport||before.code!==after.code||before.section!==after.section||before.subset!==after.subset||before.card_no!==after.card_no)throw Error('Correction cannot change card identity');
+   const matches=current.product.rows.filter(r=>r.section===before.section&&r.subset===before.subset&&r.card_no===before.card_no);
+   if(matches.length!==1)throw Error('Ambiguous correction target');
+   const row=matches[0];if(JSON.stringify(row)===JSON.stringify(after))continue;
+   if(JSON.stringify(row)!==JSON.stringify(before)){report.conflicts.push({code:patch.code,card_no:before.card_no,reason:'Changed source row preserved'});continue;}
+   Object.assign(row,after);corrected++;
+  }
+  if(corrected){
+   current.product.reviewed_row_corrections=[...(current.product.reviewed_row_corrections||[]).filter(p=>p.review_id!==patch.review_id),patch];
+   if(current.file)write(current.file,read(current.file));else write(productPath(patch.sport),current.bundle);
+  }
+  write(`data/v1/checklists/products/${patch.sport}/${patch.code}.json`,current.product);
+  active.set(patch.code,{sport:patch.sport,product:current.product});report.patches.push({code:patch.code,kind:'row_corrections',corrected});
+ }
  const searchBase='data/v1/checklists/search-index/';
  const managed=new Set([...active].map(([code,{sport}])=>sport+'-reviewed-'+slug(code)+'.json'));
  const prune=file=>{

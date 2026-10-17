@@ -1,6 +1,6 @@
 # 2026 MLB x KAWS checklist parallel review
 
-Added 20 missing CV parallel definitions. All 146 card records remain unchanged.
+Added 20 missing CV parallel definitions. The checklist remains 146 cards. Two previously mis-extracted On-Card Autograph names were also corrected: 7-A Derek Jeter and 14-A Yoshinobu Yamamoto.
 
 | CV checklist group | Parallel definitions |
 |---|---|
@@ -14,8 +14,10 @@ The five On-Card Autographs remain separate and receive no inferred parallel def
 
 Names and pools were checked against the [official Topps odds sheet](https://cdn.shopify.com/s/files/1/0662/9749/5709/files/KAWS_Odds.pdf?v=1784559267), downloaded again on October 17. SHA-256: `7d53f1fa1535a812520a3a4611e57da0661e3d2e26536c703d0cf3802ded2ef1`. The one-page table was visually reviewed. Serial limits, which are not printed in that odds table, were checked against [Checklist Insider](https://www.checklistinsider.com/2026-topps-kaws-x-mlb-baseball) and the existing reviewed KAWS PRV inputs. Odds, nominal serial limits, and estimated effective availability remain distinct.
 
+The two name corrections follow page 5 of the official checklist: Yoshinobu wraps above Yamamoto next to 14-A, rather than belonging to the preceding Jeter row. Reviewed before/after records guard the corrections, and both product data and search entries receive them. Newer source edits are preserved and reported as conflicts.
+
 No PRV production estimate or checklist card count was changed. Source details remain in reviewed inputs and this report; public checklist screens show names and serials only.
 
-Validation: 59 tests pass, both product payload forms agree, no conflicts were found, and a second refresh produces no changed files. The unnumbered parallel has an empty serial field and remains distinct from regular Base. All pre-existing card rows are byte-equivalent after JSON parsing.
+Validation: 60 tests pass, both product payload forms agree, no conflicts were found, and a second refresh produces no changed files. The unnumbered parallel has an empty serial field and remains distinct from regular Base. All other card rows are unchanged.
 
 Remaining: 23 of the 25 recently imported products still have no CV parallel definitions; Basketball has partial coverage, and KAWS has the above reviewed coverage with On-Card Autographs unresolved.

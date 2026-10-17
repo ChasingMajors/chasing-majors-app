@@ -766,5 +766,11 @@
       "file": "2026-kaws-parallels.json",
       "content_sha256": "d289ae0d26ba79560ba3e136086024729fc1578e4bee92f6224599a121e2dbe3"
     }
+  ],
+  "row_corrections": [
+    {
+      "file": "2026-kaws-name-corrections.json",
+      "content_sha256": "f4057caecb536822e7d2992baeccfb01affeda34a966ea101cda8e8bea4e0e5f"
+    }
   ]
 }

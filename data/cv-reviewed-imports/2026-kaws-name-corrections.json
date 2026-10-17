@@ -1,0 +1,54 @@
+{
+  "review_id": "kaws-on-card-names-2026-10-17",
+  "code": "2026_topps_mlb_x_kaws_baseball",
+  "sport": "baseball",
+  "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/KAWs_Checklist.pdf?v=1784208798",
+  "source_sha256": "067c54587e3d2c21631dcb3d2178106b62acd0ae9f93c5de5da94c722468a35b",
+  "source_page": 5,
+  "corrections": [
+    {
+      "before": {
+        "code": "2026_topps_mlb_x_kaws_baseball",
+        "sport": "baseball",
+        "section": "Autograph",
+        "subset": "On-Card Autographs",
+        "card_no": "7-A",
+        "player": "Derek Jeter Yoshinobu",
+        "team": "",
+        "tag": ""
+      },
+      "after": {
+        "code": "2026_topps_mlb_x_kaws_baseball",
+        "sport": "baseball",
+        "section": "Autograph",
+        "subset": "On-Card Autographs",
+        "card_no": "7-A",
+        "player": "Derek Jeter",
+        "team": "",
+        "tag": ""
+      }
+    },
+    {
+      "before": {
+        "code": "2026_topps_mlb_x_kaws_baseball",
+        "sport": "baseball",
+        "section": "Autograph",
+        "subset": "On-Card Autographs",
+        "card_no": "14-A",
+        "player": "Yamamoto",
+        "team": "",
+        "tag": ""
+      },
+      "after": {
+        "code": "2026_topps_mlb_x_kaws_baseball",
+        "sport": "baseball",
+        "section": "Autograph",
+        "subset": "On-Card Autographs",
+        "card_no": "14-A",
+        "player": "Yoshinobu Yamamoto",
+        "team": "",
+        "tag": ""
+      }
+    }
+  ]
+}

@@ -68,6 +68,15 @@ test('a parallel assigned to a missing subset fails before any files are written
   parallelPatch(f,{applies_to_subset:'Missing subset'});const before=f.read('data/v1/manifest.json');assert.throws(()=>apply(f.root),/parallel scope/);assert.deepEqual(f.read('data/v1/manifest.json'),before);assert.ok(!fs.existsSync(path.join(f.root,'data/v1/checklists/products/basketball/new.json')));
  }finally{fs.rmSync(f.root,{recursive:true,force:true});}
 });
+test('reviewed name corrections update search and both payloads without overwriting later source edits',()=>{
+ const f=fixture();try{
+  const before=f.read('data/cv-reviewed-imports/new.json').rows[0],after={...before,player:'Correct Name'};
+  f.write('data/cv-reviewed-imports/correction.json',{review_id:'names',code:'new',sport:'basketball',source_url:'https://example.com/checklist',corrections:[{before,after}]});
+  const catalog=f.read('data/cv-reviewed-imports/catalog.json');catalog.row_corrections=[{file:'correction.json',content_sha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(f.root,'data/cv-reviewed-imports/correction.json'))).digest('hex')}];f.write('data/cv-reviewed-imports/catalog.json',catalog);
+  apply(f.root);assert.equal(f.read('data/v1/checklists/products/basketball/new.json').rows[0].player,'Correct Name');assert.equal(f.read('data/v1/checklists/search-index/basketball-reviewed-new.json').rows[1].player,'Correct Name');assert.deepEqual(apply(f.root).changed_files,[]);
+  const file='data/v1/checklists/products/basketball-reviewed-new.json',d=f.read(file);d.products.new.rows[0].player='Later manual edit';f.write(file,d);const report=apply(f.root);assert.equal(report.conflicts.length,1);assert.equal(f.read('data/v1/checklists/products/basketball/new.json').rows[0].player,'Later manual edit');
+ }finally{fs.rmSync(f.root,{recursive:true,force:true});}
+});
 test('official Flagship scopes and dual-subject cards remain separate',()=>{
  const p=require('../data/cv-reviewed-imports/2026_27_topps_flagship_basketball.json');
  assert.equal(p.rows.length,3244);const count=name=>p.rows.filter(r=>r.subset===name).length;
