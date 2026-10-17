@@ -1,0 +1,104 @@
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+const digest=s=>crypto.createHash('sha256').update(s).digest('hex');
+const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+function apply(root,options={}){
+ const stamp=options.stamp||new Date().toISOString(),cache=new Map(),changes=new Map();
+ const read=file=>{if(!cache.has(file))cache.set(file,JSON.parse(fs.readFileSync(path.join(root,file),'utf8')));return cache.get(file);};
+ const write=(file,value)=>{const old=fs.existsSync(path.join(root,file))?JSON.parse(fs.readFileSync(path.join(root,file),'utf8')):null;if(JSON.stringify(old)===JSON.stringify(value))return;changes.set(file,value);};
+ const catalog=read('data/cv-reviewed-imports/catalog.json');
+ if(catalog.schema_version!==1)throw Error('Unsupported checklist import schema');
+ const input=(entry)=>{const file='data/cv-reviewed-imports/'+entry.file;const bytes=fs.readFileSync(path.join(root,file));if(digest(bytes)!==entry.content_sha256)throw Error('Reviewed input checksum mismatch: '+entry.file);return read(file);};
+ const index=read('data/v1/checklists/index.json');
+ const report={review_id:catalog.review_id,products:[],patches:[],conflicts:[]},active=new Map();
+ const productPath=sport=>'data/v1/checklists/products/'+sport+'.json';
+ const getProduct=(sport,code)=>{const bundle=read(productPath(sport));const file=bundle.product_map?.[code];return {bundle,file:file&&'data/v1/checklists/products/'+file,product:bundle.products?.[code]||(file&&read('data/v1/checklists/products/'+file).products?.[code])};};
+ for(const entry of catalog.products){
+  const reviewed=input(entry),{meta,rows}=reviewed;
+  if(meta.code!==entry.code||meta.sport!==entry.sport||rows.length!==entry.expected_rows)throw Error('Reviewed checklist identity/count mismatch');
+  const counts={};const seen=new Set();
+  for(const r of rows){
+   if(r.code!==entry.code||r.sport!==entry.sport||!r.subset||!r.card_no||typeof r.player!=='string'||typeof r.team!=='string')throw Error('Malformed reviewed checklist row');
+   const key=r.subset+'\0'+r.card_no;if(seen.has(key))throw Error('Duplicate reviewed card identity');seen.add(key);counts[r.subset]=(counts[r.subset]||0)+1;
+  }
+  if(JSON.stringify(counts)!==JSON.stringify(entry.expected_subset_counts))throw Error('Reviewed subset count mismatch');
+  const current=getProduct(entry.sport,entry.code);let product=reviewed,status='imported';
+  // A populated export owns its product. Never overwrite a fresh/manual correction.
+  if(current.product?.rows?.length && JSON.stringify(current.product)!==JSON.stringify(reviewed)){
+   product=current.product;status='source_preserved';
+  }else{
+   if(current.product?.parallels?.length)product={...reviewed,parallels:current.product.parallels};
+   const name=entry.sport+'-reviewed-'+slug(entry.code)+'.json';
+   const file='data/v1/checklists/products/'+name;
+   write(file,{ok:true,sport:entry.sport,kind:'checklist_products',source:'Reviewed official Topps checklist import',products:{[entry.code]:product}});
+   current.bundle.shards=current.bundle.shards||[];if(!current.bundle.shards.includes(name))current.bundle.shards.push(name);
+   current.bundle.product_map=current.bundle.product_map||{};current.bundle.product_map[entry.code]=name;
+   if(current.bundle.products)delete current.bundle.products[entry.code];
+  }
+  // Direct payloads avoid the failed per-product fetch before the shard fallback.
+  write(`data/v1/checklists/products/${entry.sport}/${entry.code}.json`,product);
+  if(!index.index.some(e=>e.Code===entry.code))index.index.push({Code:entry.code,DisplayName:product.meta.displayName,Keywords:product.meta.keywords||product.meta.displayName,year:product.meta.year,sport:product.meta.sport,manufacturer:product.meta.manufacturer,product:product.meta.product});
+  active.set(entry.code,{sport:entry.sport,product});
+  report.products.push({code:entry.code,status,cards:product.rows.length,withheld:reviewed.source_provenance.withheld_source_records});
+ }
+ for(const entry of catalog.patches){
+  const patch=input(entry);const current=getProduct(patch.sport,patch.code);
+  if(!current.product?.rows?.length)throw Error('Missing patch target');
+  if(current.product.meta.code!==patch.code||current.product.meta.sport!==patch.sport)throw Error('Patch target identity mismatch');
+  let added=0;
+  for(const row of patch.rows){
+   if(row.code!==patch.code||row.sport!==patch.sport||row.subset!==patch.subset||!row.card_no||!row.player)throw Error('Invalid reviewed patch row');
+   const existing=current.product.rows.find(r=>r.subset===patch.subset&&r.card_no===row.card_no);
+   if(existing){if(JSON.stringify(existing)!==JSON.stringify(row))report.conflicts.push({code:patch.code,card_no:row.card_no,reason:'Existing source row preserved'});continue;}
+   current.product.rows.push(row);added++;
+  }
+  if(added){
+   current.product.reviewed_additions=[...(current.product.reviewed_additions||[]).filter(p=>p.review_id!==catalog.review_id),{review_id:catalog.review_id,subset:patch.subset,source_url:patch.source_url,source_sha256:patch.source_sha256,card_ids:patch.rows.map(r=>r.card_no)}];
+   if(current.file)write(current.file,read(current.file));
+   else write(productPath(patch.sport),current.bundle);
+  }
+  write(`data/v1/checklists/products/${patch.sport}/${patch.code}.json`,current.product);
+  active.set(patch.code,{sport:patch.sport,product:current.product});report.patches.push({code:patch.code,added});
+ }
+ const searchBase='data/v1/checklists/search-index/';
+ const managed=new Set([...active].map(([code,{sport}])=>sport+'-reviewed-'+slug(code)+'.json'));
+ const prune=file=>{
+  const data=read(file);if(!Array.isArray(data.rows))return;
+  const rows=data.rows.filter(r=>!active.has(r.code||r.Code));if(rows.length===data.rows.length)return;
+  data.rows=rows;if(Object.hasOwn(data,'row_count'))data.row_count=rows.length;data.generated_at=stamp;write(file,data);
+ };
+ for(const sport of new Set([...active.values()].map(p=>p.sport))){
+  const search=read(searchBase+sport+'.json');
+  for(const name of search.shards||[])if(!managed.has(name))prune(searchBase+name);
+  const registry=read(searchBase+'sources.json');
+  for(const source of registry.sources?.[sport]||[]){
+   const sourceFile=searchBase+source.path,sourceData=read(sourceFile);
+   if(sourceData.sharded)for(const name of sourceData.shards)prune(searchBase+'sources/'+name);
+   else prune(sourceFile);
+  }
+  for(const [code,{sport:productSport,product}] of active){
+   if(productSport!==sport)continue;
+   const meta=product.meta,name=sport+'-reviewed-'+slug(code)+'.json';
+   const common={sport,code,displayName:meta.displayName,year:meta.year,manufacturer:meta.manufacturer,product:meta.product};
+   const searchRows=[{...common,term:meta.displayName,type:'product',search_blob:[meta.displayName,meta.keywords].filter(Boolean).join(' ')},...product.rows.map(r=>({...common,...r,term:r.player||r.subset+' '+r.card_no,type:'card',search_blob:[meta.displayName,r.section,r.subset,r.card_no,r.player,r.team,r.tag].filter(Boolean).join(' ')}))];
+   write(searchBase+name,{ok:true,sport,kind:'checklist_search',source:'Reviewed official Topps checklist import',rows:searchRows});
+   if(!search.shards.includes(name))search.shards.push(name);
+   search.product_shards=search.product_shards||{};search.product_shards[code]=[name];
+  }
+  write(searchBase+sport+'.json',search);
+  write(productPath(sport),read(productPath(sport)));
+ }
+ write('data/v1/checklists/index.json',index);
+ if(changes.size){
+  const manifest=read('data/v1/manifest.json');manifest.checklists_version=stamp;manifest.version=stamp;manifest.generated_at=stamp;write('data/v1/manifest.json',manifest);
+  // Mark only changed index/manifests; product and search payload bodies stay deterministic.
+  for(const file of ['data/v1/checklists/index.json',...[...new Set([...active.values()].map(p=>p.sport))].flatMap(s=>[productPath(s),searchBase+s+'.json'])])if(changes.has(file))changes.get(file).generated_at=stamp;
+ }
+ for(const [file,value] of changes){
+  const target=path.join(root,file),old=fs.existsSync(target)?fs.readFileSync(target,'utf8'):'';
+  fs.mkdirSync(path.dirname(target),{recursive:true});
+  fs.writeFileSync(target,JSON.stringify(value,null,/^[\[{]\r?\n/.test(old)?2:undefined)+'\n');
+ }
+ report.changed_files=[...changes.keys()];return report;
+}
+if(require.main===module){const report=apply(path.resolve(__dirname,'..'));console.log(JSON.stringify(report));}
+module.exports={apply};

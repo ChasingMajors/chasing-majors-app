@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-10-15T13:53:46.295Z",
+  "generated_at": "2026-10-17T14:43:09.847Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -32,7 +32,13 @@
     "baseball-024.json",
     "baseball-025.json",
     "baseball-026.json",
-    "baseball-027.json"
+    "baseball-027.json",
+    "baseball-reviewed-2026-bowman-chrome-sapphire-baseball.json",
+    "baseball-reviewed-2026-topps-chrome-samurai-japan-baseball.json",
+    "baseball-reviewed-2026-topps-cosmic-chrome-baseball.json",
+    "baseball-reviewed-2026-topps-holiday-baseball.json",
+    "baseball-reviewed-2026-topps-mlb-x-kaws-baseball.json",
+    "baseball-reviewed-2026-topps-museum-collection-baseball.json"
   ],
   "product_map": {
     "2021_Topps_Baseball_Series_1": "baseball-001.json",
@@ -717,6 +723,12 @@
     "2026_topps_tribute_baseball": "baseball-026.json",
     "2026_topps_update_series_baseball": "baseball-027.json",
     "2026-bowman-baseball": "baseball-027.json",
-    "2026-bowman-mega-box-baseball": "baseball-027.json"
+    "2026-bowman-mega-box-baseball": "baseball-027.json",
+    "2026_bowman_chrome_sapphire_baseball": "baseball-reviewed-2026-bowman-chrome-sapphire-baseball.json",
+    "2026_topps_chrome_samurai_japan_baseball": "baseball-reviewed-2026-topps-chrome-samurai-japan-baseball.json",
+    "2026_topps_cosmic_chrome_baseball": "baseball-reviewed-2026-topps-cosmic-chrome-baseball.json",
+    "2026_topps_holiday_baseball": "baseball-reviewed-2026-topps-holiday-baseball.json",
+    "2026_topps_mlb_x_kaws_baseball": "baseball-reviewed-2026-topps-mlb-x-kaws-baseball.json",
+    "2026_topps_museum_collection_baseball": "baseball-reviewed-2026-topps-museum-collection-baseball.json"
   }
 }

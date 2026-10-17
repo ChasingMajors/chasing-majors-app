@@ -1,8 +1,8 @@
-name: Refresh structured Vault data
+name: Refresh reviewed checklists and Vault data
 on:
   push:
     branches: [main]
-    paths: ['data/v1/manifest.json', 'data/v1/vault/**', 'data/v1/checklists/index.json', 'shared/vault-model.js', 'scripts/**', 'data/prv-calculations/**', 'data/prv-checklist-sizes.json', 'data/prv-integrity-reviews.json', 'tests/**', 'vault/**', '.github/workflows/vault-data.yml']
+    paths: ['data/v1/manifest.json', 'data/v1/vault/**', 'data/v1/checklists/**', 'data/cv-reviewed-imports/**', 'shared/vault-model.js', 'scripts/**', 'data/prv-calculations/**', 'data/prv-checklist-sizes.json', 'data/prv-integrity-reviews.json', 'tests/**', 'vault/**', '.github/workflows/vault-data.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -19,7 +19,8 @@ jobs:
           sparse-checkout: |
             data/v1/manifest.json
             data/v1/vault
-            data/v1/checklists/index.json
+            data/v1/checklists
+            data/cv-reviewed-imports
             data/v2/vault
             data/prv-calculations
             data/prv-checklist-sizes.json
@@ -28,6 +29,7 @@ jobs:
             scripts
             tests
             vault
+            checklists
           sparse-checkout-cone-mode: false
       - uses: actions/setup-node@v4
         with:
@@ -42,8 +44,9 @@ jobs:
           for attempt in 1 2 3 4; do
             git fetch origin main
             git reset --hard origin/main
+            node scripts/apply-reviewed-checklists.cjs
             node scripts/build-vault-data.cjs
-            git add data/v2/vault
+            git add data/v1/checklists data/v1/manifest.json data/v2/vault
             if git diff --cached --quiet; then exit 0; fi
             git commit -m 'Refresh structured Vault data'
             if git push origin HEAD:main; then

@@ -37157,6 +37157,56 @@
           "player": "Dillon Thieneman",
           "team": "Chicago Bears",
           "tag": "RC"
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football All Kings",
+          "card_no": "AK-26",
+          "player": "Fernando Mendoza",
+          "team": "Las Vegas Raiders",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football All Kings",
+          "card_no": "AK-27",
+          "player": "Carnell Tate",
+          "team": "Tennessee Titans",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football All Kings",
+          "card_no": "AK-28",
+          "player": "Jeremiyah Love",
+          "team": "Arizona Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football All Kings",
+          "card_no": "AK-29",
+          "player": "Ty Simpson",
+          "team": "Los Angeles Rams",
+          "tag": ""
+        },
+        {
+          "code": "2026_topps_flagship_football",
+          "sport": "football",
+          "section": "Insert",
+          "subset": "Football All Kings",
+          "card_no": "AK-30",
+          "player": "Jordyn Tyson",
+          "team": "New Orleans Saints",
+          "tag": ""
         }
       ],
       "parallels": [
@@ -40799,6 +40849,21 @@
           "applies_to_subset": "Football Rookies Chrome Auto",
           "parallel_name": "SuperFractor",
           "serial_no": "/1"
+        }
+      ],
+      "reviewed_additions": [
+        {
+          "review_id": "topps-cv-2026-10-17",
+          "subset": "Football All Kings",
+          "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+          "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+          "card_ids": [
+            "AK-26",
+            "AK-27",
+            "AK-28",
+            "AK-29",
+            "AK-30"
+          ]
         }
       ]
     }

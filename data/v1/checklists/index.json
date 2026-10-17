@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-10-15T19:35:38.202Z",
+  "generated_at": "2026-10-17T14:43:09.847Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -9101,6 +9101,132 @@
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Chrome Sapphire MLS"
+    },
+    {
+      "Code": "2026_27_topps_flagship_basketball",
+      "DisplayName": "2026-27 Topps Flagship Basketball",
+      "Keywords": "2026-27 Topps Flagship Basketball, 2026-27 Topps Flagship Basketball checklist, 2026-27 Topps Flagship Basketball cards, 2026-27 Topps Flagship Basketball autographs",
+      "year": "2026-27",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Flagship"
+    },
+    {
+      "Code": "2025_26_topps_manchester_united_collector_tin_soccer",
+      "DisplayName": "2025-26 Topps Manchester United Collector Tin Soccer",
+      "Keywords": "2025-26 Topps Manchester United Collector Tin Soccer, 2025-26 Topps Manchester United Collector Tin Soccer checklist, 2025-26 Topps Manchester United Collector Tin Soccer cards, 2025-26 Topps Manchester United Collector Tin Soccer autographs",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Manchester United Collector Tin"
+    },
+    {
+      "Code": "2025_26_topps_manchester_united_team_set_soccer",
+      "DisplayName": "2025-26 Topps Manchester United Team Set Soccer",
+      "Keywords": "2025-26 Topps Manchester United Team Set Soccer, 2025-26 Topps Manchester United Team Set Soccer checklist, 2025-26 Topps Manchester United Team Set Soccer cards, 2025-26 Topps Manchester United Team Set Soccer autographs",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Manchester United Team Set"
+    },
+    {
+      "Code": "2026_bowman_chrome_sapphire_baseball",
+      "DisplayName": "2026 Bowman Chrome Sapphire Baseball",
+      "Keywords": "2026 Bowman Chrome Sapphire Baseball, 2026 Bowman Chrome Sapphire Baseball checklist, 2026 Bowman Chrome Sapphire Baseball cards, 2026 Bowman Chrome Sapphire Baseball autographs",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Chrome Sapphire"
+    },
+    {
+      "Code": "2026_bowman_university_best_football",
+      "DisplayName": "2026 Bowman University Best Football",
+      "Keywords": "2026 Bowman University Best Football, 2026 Bowman University Best Football checklist, 2026 Bowman University Best Football cards, 2026 Bowman University Best Football autographs",
+      "year": "2026",
+      "sport": "football",
+      "manufacturer": "Bowman",
+      "product": "University Best"
+    },
+    {
+      "Code": "2026_topps_chrome_football",
+      "DisplayName": "2026 Topps Chrome Football",
+      "Keywords": "2026 Topps Chrome Football, 2026 Topps Chrome Football checklist, 2026 Topps Chrome Football cards, 2026 Topps Chrome Football autographs",
+      "year": "2026",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Chrome"
+    },
+    {
+      "Code": "2026_topps_chrome_mls_soccer",
+      "DisplayName": "2026 Topps Chrome MLS Soccer",
+      "Keywords": "2026 Topps Chrome MLS Soccer, 2026 Topps Chrome MLS Soccer checklist, 2026 Topps Chrome MLS Soccer cards, 2026 Topps Chrome MLS Soccer autographs",
+      "year": "2026",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Chrome MLS"
+    },
+    {
+      "Code": "2026_topps_chrome_samurai_japan_baseball",
+      "DisplayName": "2026 Topps Chrome Team Samurai Japan Collection Baseball",
+      "Keywords": "2026 Topps Chrome Team Samurai Japan Collection Baseball, 2026 Topps Chrome Team Samurai Japan Collection Baseball checklist, 2026 Topps Chrome Team Samurai Japan Collection Baseball cards, 2026 Topps Chrome Team Samurai Japan Collection Baseball autographs",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Team Samurai Japan Collection"
+    },
+    {
+      "Code": "2026_topps_cosmic_chrome_baseball",
+      "DisplayName": "2026 Topps Cosmic Chrome Baseball",
+      "Keywords": "2026 Topps Cosmic Chrome Baseball, 2026 Topps Cosmic Chrome Baseball checklist, 2026 Topps Cosmic Chrome Baseball cards, 2026 Topps Cosmic Chrome Baseball autographs",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Cosmic Chrome"
+    },
+    {
+      "Code": "2026_topps_heritage_football",
+      "DisplayName": "2026 Topps Heritage Football",
+      "Keywords": "2026 Topps Heritage Football, 2026 Topps Heritage Football checklist, 2026 Topps Heritage Football cards, 2026 Topps Heritage Football autographs",
+      "year": "2026",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Heritage"
+    },
+    {
+      "Code": "2026_topps_holiday_baseball",
+      "DisplayName": "2026 Topps Holiday Baseball",
+      "Keywords": "2026 Topps Holiday Baseball, 2026 Topps Holiday Baseball checklist, 2026 Topps Holiday Baseball cards, 2026 Topps Holiday Baseball autographs",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Holiday"
+    },
+    {
+      "Code": "2026_topps_inception_football",
+      "DisplayName": "2026 Topps Inception Football",
+      "Keywords": "2026 Topps Inception Football, 2026 Topps Inception Football checklist, 2026 Topps Inception Football cards, 2026 Topps Inception Football autographs",
+      "year": "2026",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Inception"
+    },
+    {
+      "Code": "2026_topps_mlb_x_kaws_baseball",
+      "DisplayName": "2026 Topps MLB x KAWS Baseball",
+      "Keywords": "2026 Topps MLB x KAWS Baseball, 2026 Topps MLB x KAWS Baseball checklist, 2026 Topps MLB x KAWS Baseball cards, 2026 Topps MLB x KAWS Baseball autographs",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "MLB x KAWS"
+    },
+    {
+      "Code": "2026_topps_museum_collection_baseball",
+      "DisplayName": "2026 Topps Museum Collection Baseball",
+      "Keywords": "2026 Topps Museum Collection Baseball, 2026 Topps Museum Collection Baseball checklist, 2026 Topps Museum Collection Baseball cards, 2026 Topps Museum Collection Baseball autographs",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Museum Collection"
     }
   ]
 }

@@ -62,6 +62,7 @@ let currentProductMeta = null;
 let currentProductRows = [];
 let currentProductParallels = [];
 let currentProductTab = "Base";
+let currentBaseSubset = "";
 let currentPlayerStats = null;
 let STATIC_MANIFEST = null;
 const STATIC_CACHE = {};
@@ -464,6 +465,12 @@ function groupRowsBySubset(rows, fallbackLabel) {
   });
 
   return groups;
+}
+
+function selectBaseChecklist(rows, selectedSubset) {
+  const groups = groupRowsBySubset(rows, "Base");
+  const selected = groups.find(group => group.subset === selectedSubset) || groups[0];
+  return {groups, selected, rows:selected?.rows || []};
 }
 
 function getSerialSortValue(serialNo) {
@@ -1935,6 +1942,7 @@ async function runProductSearch(code, sport) {
 
     currentProductMeta = data.meta || null;
     currentProductRows = Array.isArray(data.rows) ? data.rows : [];
+    currentBaseSubset = "";
     currentProductParallels = Array.isArray(data.parallels) ? data.parallels : [];
 
     const resolvedSport = sport || (currentProductMeta && currentProductMeta.sport) || "";
@@ -2099,7 +2107,10 @@ function renderCurrentProductTab() {
   const displayBadge = esc(currentProductMeta?.displayName || "");
   const availableTabs = getAvailableTabs(currentProductRows);
   const filteredRows = filterRowsForTab(currentProductRows, currentProductTab);
-  const rowCountLabel = `${filteredRows.length.toLocaleString()} Card${filteredRows.length === 1 ? "" : "s"}`;
+  const base = currentProductTab === "Base" ? selectBaseChecklist(filteredRows, currentBaseSubset) : null;
+  if (base) currentBaseSubset = base.selected?.subset || "";
+  const displayedRows = base ? base.rows : filteredRows;
+  const rowCountLabel = `${displayedRows.length.toLocaleString()} Card${displayedRows.length === 1 ? "" : "s"}`;
 
   const subsetBlocks = currentProductTab !== "Base" ? groupRowsBySubset(filteredRows, currentProductTab) : [];
 
@@ -2155,17 +2166,19 @@ function renderCurrentProductTab() {
 
       ${
         currentProductTab === "Base"
-          ? renderSingleChecklistTable(filteredRows, vars, "Base")
+          ? `${base.groups.length > 1 ? `<div style="margin:14px 0;"><label for="baseSubset">Base checklist</label><select id="baseSubset" style="display:block;margin-top:6px;padding:10px 12px;max-width:100%;font:inherit;color:var(--text);background:var(--inputBg);border:1px solid var(--inputBorder);border-radius:10px;">${base.groups.map(group=>`<option value="${esc(group.subset)}" ${group.subset===currentBaseSubset?'selected':''}>${esc(group.subset)} (${group.rows.length.toLocaleString()} cards)</option>`).join('')}</select></div>` : ''}${renderSingleChecklistTable(displayedRows, vars, currentBaseSubset)}`
           : renderSubsetBlocks(subsetBlocks, vars)
       }
     </div>
   `;
 
   bindProductTabButtons();
+  const baseSelect = document.getElementById("baseSubset");
+  if (baseSelect) baseSelect.addEventListener("change",()=>{currentBaseSubset=baseSelect.value;renderCurrentProductTab();});
 }
 
 function renderSingleChecklistTable(rows, vars, emptyLabel) {
-  const baseParallels = getParallelsForSectionSubset(["base"], "[Base]");
+  const baseParallels = getParallelsForSectionSubset(["base"], lower(emptyLabel)==="base" ? "[Base]" : emptyLabel);
 
   return `
     ${renderParallelsList(baseParallels)}
