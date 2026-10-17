@@ -4,6 +4,7 @@ function positive(value, name) {
   return value;
 }
 function calculate(input) {
+  if (input.schema_version === 3) return require("./calculate-prv-numbered.cjs").calculate(input);
   if (input.schema_version === 2) return require("./calculate-prv-multiformat.cjs").calculate(input);
   if (input.schema_version !== 1 || !input.code) throw new Error('Invalid odds input');
   const ids = new Set();

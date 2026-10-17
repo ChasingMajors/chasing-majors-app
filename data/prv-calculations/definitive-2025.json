@@ -1,0 +1,944 @@
+{
+  "schema_version": 3,
+  "code": "2025_topps_definitive_collection_baseball",
+  "meta": {
+    "code": "2025_topps_definitive_collection_baseball",
+    "displayName": "2025 Topps Definitive Collection Baseball",
+    "keywords": "2025 Topps Definitive Collection Baseball, 2025 Topps Definitive Baseball, 2025 Topps Definitive Collection, 2025 Topps Definitive cards, 25 Topps Definitive Collection Baseball, 25 Topps Definitive Baseball, Topps Definitive Collection Baseball 2025, Topps Definitive Baseball 2025, Topps Definitive Collection 2025, Topps Definitive Baseball, Topps Definitive Collection, Definitive Collection Baseball cards, Definitive Baseball cards, Topps Definitive high end baseball cards, Topps Definitive Collection checklist, Topps Definitive checklist, 2025 Topps Definitive checklist",
+    "source_key": "2025",
+    "year": "2025",
+    "manufacturer": "Topps",
+    "product": "Definitive Collection",
+    "sport": "baseball"
+  },
+  "sources": {
+    "odds_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Definitive_Baseball_Odds.pdf?v=1777493204",
+    "checklist_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DCBB_VERSION1.pdf?v=1775567097",
+    "serial_reference_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+    "manufacturer_matrix_url": "https://www.blowoutcards.net/images/ss/25tpdefinitiveBB.pdf",
+    "reviewed_date": "2026-10-16",
+    "odds_sha256": "1a5388e2907d1b23adb9cfbe06d91ab39ec9f1e65956b90a27473404a1f74300",
+    "checklist_sha256": "2d1a4889a10b192852d7f3aa3024ecbe35eb91f208e2e8e8b6311e7e9a39a012",
+    "sellsheet_sha256": "9a6a7364ba95ff1594f8976538f4d0b837b8437f5628dbbe5ac7bc74550cf87a"
+  },
+  "method": {
+    "name": "reviewed_serial_limits_v1",
+    "assumptions": "Numbered ceilings only. Values above one are explicitly upper bounds because subject numbering/availability can vary. One-of-one designations do not establish complete subject coverage. No format volume, packed count or autograph average is inferred from this all-hit product."
+  },
+  "records": [
+    {
+      "id": "definitive-1",
+      "name": "Framed Autograph Collection \u2014 Black",
+      "category": "Autographs",
+      "subjects": 45,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Framed Autograph Collection Black Parallel",
+      "odds_denominator": 11,
+      "page": 1
+    },
+    {
+      "id": "definitive-2",
+      "name": "Framed Autograph Collection \u2014 Red",
+      "category": "Autographs",
+      "subjects": 45,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Framed Autograph Collection Red Parallel",
+      "odds_denominator": 22,
+      "page": 1
+    },
+    {
+      "id": "definitive-3",
+      "name": "Framed Autograph Collection \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 45,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Framed Autograph Collection Gold Parallel",
+      "odds_denominator": 104,
+      "page": 1
+    },
+    {
+      "id": "definitive-4",
+      "name": "Legendary Autograph Collection \u2014 Black",
+      "category": "Autographs",
+      "subjects": 46,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Legendary Autograph Collection Black Parallel",
+      "odds_denominator": 11,
+      "page": 1
+    },
+    {
+      "id": "definitive-5",
+      "name": "Legendary Autograph Collection \u2014 Red",
+      "category": "Autographs",
+      "subjects": 46,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Legendary Autograph Collection Red Parallel",
+      "odds_denominator": 21,
+      "page": 1
+    },
+    {
+      "id": "definitive-6",
+      "name": "Legendary Autograph Collection \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 46,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Legendary Autograph Collection Gold Parallel",
+      "odds_denominator": 102,
+      "page": 1
+    },
+    {
+      "id": "definitive-7",
+      "name": "Quad Autographs \u2014 Red",
+      "category": "Autographs",
+      "subjects": 7,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Quad Autographs Red Parallel",
+      "odds_denominator": 152,
+      "page": 1
+    },
+    {
+      "id": "definitive-8",
+      "name": "Quad Autographs \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 7,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Quad Autographs Gold Parallel",
+      "odds_denominator": 651,
+      "page": 1
+    },
+    {
+      "id": "definitive-9",
+      "name": "Trio Autographs \u2014 Black",
+      "category": "Autographs",
+      "subjects": 8,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Trio Autographs Black Parallel",
+      "odds_denominator": 63,
+      "page": 1
+    },
+    {
+      "id": "definitive-10",
+      "name": "Trio Autographs \u2014 Red",
+      "category": "Autographs",
+      "subjects": 8,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Trio Autographs Red Parallel",
+      "odds_denominator": 138,
+      "page": 1
+    },
+    {
+      "id": "definitive-11",
+      "name": "Trio Autographs \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 8,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Trio Autographs Gold Parallel",
+      "odds_denominator": 570,
+      "page": 1
+    },
+    {
+      "id": "definitive-12",
+      "name": "Dual Autograph Collection \u2014 Black",
+      "category": "Autographs",
+      "subjects": 37,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Dual Autograph Collection Black Parallel",
+      "odds_denominator": 14,
+      "page": 1
+    },
+    {
+      "id": "definitive-13",
+      "name": "Dual Autograph Collection \u2014 Red",
+      "category": "Autographs",
+      "subjects": 37,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Dual Autograph Collection Red Parallel",
+      "odds_denominator": 27,
+      "page": 1
+    },
+    {
+      "id": "definitive-14",
+      "name": "Dual Autograph Collection \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 37,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Dual Autograph Collection Gold Parallel",
+      "odds_denominator": 131,
+      "page": 1
+    },
+    {
+      "id": "definitive-15",
+      "name": "Dual World Series Autograph Collection",
+      "category": "Autographs",
+      "subjects": 13,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.blowoutcards.net/images/ss/25tpdefinitiveBB.pdf",
+      "odds_label": "Dual World Series Autograph Collection",
+      "odds_denominator": 18,
+      "page": 1
+    },
+    {
+      "id": "definitive-16",
+      "name": "Dual World Series Autograph Collection \u2014 Black",
+      "category": "Autographs",
+      "subjects": 13,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Dual World Series Autograph Collection Black Parallel",
+      "odds_denominator": 38,
+      "page": 1
+    },
+    {
+      "id": "definitive-17",
+      "name": "Dual World Series Autograph Collection \u2014 Red",
+      "category": "Autographs",
+      "subjects": 13,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Dual World Series Autograph Collection Red Parallel",
+      "odds_denominator": 74,
+      "page": 1
+    },
+    {
+      "id": "definitive-18",
+      "name": "Dual World Series Autograph Collection \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 13,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Dual World Series Autograph Collection Gold Parallel",
+      "odds_denominator": 351,
+      "page": 1
+    },
+    {
+      "id": "definitive-19",
+      "name": "Defining Images Autograph Collection \u2014 Black",
+      "category": "Autographs",
+      "subjects": 43,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Defining Images Autograph Collection Black Parallel",
+      "odds_denominator": 11,
+      "page": 1
+    },
+    {
+      "id": "definitive-20",
+      "name": "Defining Images Autograph Collection \u2014 Red",
+      "category": "Autographs",
+      "subjects": 43,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Defining Images Autograph Collection Red Parallel",
+      "odds_denominator": 22,
+      "page": 1
+    },
+    {
+      "id": "definitive-21",
+      "name": "Defining Images Autograph Collection \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 43,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Defining Images Autograph Collection Gold Parallel",
+      "odds_denominator": 109,
+      "page": 1
+    },
+    {
+      "id": "definitive-22",
+      "name": "Definitive Rookie Autographs \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 42,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Rookie Autographs Orange Parallel",
+      "odds_denominator": 5,
+      "page": 1
+    },
+    {
+      "id": "definitive-23",
+      "name": "Definitive Rookie Autographs \u2014 Black",
+      "category": "Autographs",
+      "subjects": 42,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Rookie Autographs Black Parallel",
+      "odds_denominator": 12,
+      "page": 1
+    },
+    {
+      "id": "definitive-24",
+      "name": "Definitive Rookie Autographs \u2014 Red",
+      "category": "Autographs",
+      "subjects": 42,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Rookie Autographs Red Parallel",
+      "odds_denominator": 23,
+      "page": 1
+    },
+    {
+      "id": "definitive-25",
+      "name": "Definitive Rookie Autographs \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 42,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Rookie Autographs Gold Parallel",
+      "odds_denominator": 114,
+      "page": 1
+    },
+    {
+      "id": "definitive-26",
+      "name": "Base Autograph Relic Collection \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 49,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Base Autograph Relic Collection Orange Parallel",
+      "odds_denominator": 4,
+      "page": 1
+    },
+    {
+      "id": "definitive-27",
+      "name": "Base Autograph Relic Collection \u2014 Black",
+      "category": "Autographs",
+      "subjects": 49,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Base Autograph Relic Collection Black Parallel",
+      "odds_denominator": 14,
+      "page": 1
+    },
+    {
+      "id": "definitive-28",
+      "name": "Base Autograph Relic Collection \u2014 Red",
+      "category": "Autographs",
+      "subjects": 49,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Base Autograph Relic Collection Red Parallel",
+      "odds_denominator": 27,
+      "page": 1
+    },
+    {
+      "id": "definitive-29",
+      "name": "Base Autograph Relic Collection \u2014 Team Logo Gold",
+      "category": "Autographs",
+      "subjects": 49,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Base Autograph Relic Collection Team Logo Gold Parallel",
+      "odds_denominator": 131,
+      "page": 1
+    },
+    {
+      "id": "definitive-30",
+      "name": "Base Autograph Relic Collection \u2014 MLB Logo Gold",
+      "category": "Autographs",
+      "subjects": 49,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Base Autograph Relic Collection MLB Logo Gold Parallel",
+      "odds_denominator": 117,
+      "page": 1
+    },
+    {
+      "id": "definitive-31",
+      "name": "Base Autograph Relic Collection \u2014 Majestic / Nike Gold",
+      "category": "Autographs",
+      "subjects": 49,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Base Autograph Relic Collection Majestic / Nike Gold Parallel",
+      "odds_denominator": 117,
+      "page": 1
+    },
+    {
+      "id": "definitive-32",
+      "name": "Base Autograph Relic Collection \u2014 Button Patch Gold",
+      "category": "Autographs",
+      "subjects": 49,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Base Autograph Relic Collection Button Patch Gold Parallel",
+      "odds_denominator": 106,
+      "page": 1
+    },
+    {
+      "id": "definitive-33",
+      "name": "Base Autograph Relic Collection \u2014 Laundry Tag Gold",
+      "category": "Autographs",
+      "subjects": 49,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Base Autograph Relic Collection Laundry Tag Gold Parallel",
+      "odds_denominator": 117,
+      "page": 1
+    },
+    {
+      "id": "definitive-34",
+      "name": "Autograph Patch Book Collection \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Autograph Patch Book Collection Gold Parallel",
+      "odds_denominator": 117,
+      "page": 1
+    },
+    {
+      "id": "definitive-35",
+      "name": "Dual Autograph Relic Collection \u2014 Black",
+      "category": "Autographs",
+      "subjects": 29,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Dual Autograph Relic Collection Black Parallel",
+      "odds_denominator": 17,
+      "page": 1
+    },
+    {
+      "id": "definitive-36",
+      "name": "Dual Autograph Relic Collection \u2014 Red",
+      "category": "Autographs",
+      "subjects": 29,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Dual Autograph Relic Collection Red Parallel",
+      "odds_denominator": 61,
+      "page": 1
+    },
+    {
+      "id": "definitive-37",
+      "name": "Dual Autograph Relic Collection \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 29,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Dual Autograph Relic Collection Gold Parallel",
+      "odds_denominator": 304,
+      "page": 1
+    },
+    {
+      "id": "definitive-38",
+      "name": "Definitive Autograph Relic \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 86,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Autograph Relic Cards Orange Parallel",
+      "odds_denominator": 3,
+      "page": 1
+    },
+    {
+      "id": "definitive-39",
+      "name": "Definitive Autograph Relic \u2014 Black",
+      "category": "Autographs",
+      "subjects": 86,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Autograph Relic Cards Black Parallel",
+      "odds_denominator": 9,
+      "page": 1
+    },
+    {
+      "id": "definitive-40",
+      "name": "Definitive Autograph Relic \u2014 Red",
+      "category": "Autographs",
+      "subjects": 86,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Autograph Relic Cards Red Parallel",
+      "odds_denominator": 18,
+      "page": 1
+    },
+    {
+      "id": "definitive-41",
+      "name": "Definitive Autograph Relic \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 86,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Autograph Relic Cards Gold Parallel",
+      "odds_denominator": 88,
+      "page": 1
+    },
+    {
+      "id": "definitive-42",
+      "name": "Helmet Collection Autograph",
+      "category": "Autographs",
+      "subjects": 21,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.blowoutcards.net/images/ss/25tpdefinitiveBB.pdf",
+      "odds_label": "Definitive Helmet Collection Autograph Variation",
+      "odds_denominator": 45,
+      "page": 1
+    },
+    {
+      "id": "definitive-43",
+      "name": "Helmet Collection Autograph \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 21,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Helmet Collection Autograph Variation Gold Parallel",
+      "odds_denominator": 217,
+      "page": 1
+    },
+    {
+      "id": "definitive-44",
+      "name": "Protectors At The Plate Autograph Relics",
+      "category": "Autographs",
+      "subjects": 10,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.blowoutcards.net/images/ss/25tpdefinitiveBB.pdf",
+      "odds_label": "Protectors at the Plate Autograph Relics",
+      "odds_denominator": 93,
+      "page": 1
+    },
+    {
+      "id": "definitive-45",
+      "name": "Protectors At The Plate Autograph Relics \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 10,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Protectors at the Plate Autograph Relics Gold Parallel",
+      "odds_denominator": 456,
+      "page": 2
+    },
+    {
+      "id": "definitive-46",
+      "name": "Definitive Helmet Collection \u2014 Red",
+      "category": "Relics",
+      "subjects": 43,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Helmet Collection Red Parallel",
+      "odds_denominator": 83,
+      "page": 2
+    },
+    {
+      "id": "definitive-47",
+      "name": "Definitive Helmet Collection \u2014 MLB Gold",
+      "category": "Relics",
+      "subjects": 43,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Helmet Collection MLB Gold Parallel",
+      "odds_denominator": 131,
+      "page": 2
+    },
+    {
+      "id": "definitive-48",
+      "name": "Definitive Helmet Collection \u2014 Authentic Tag Gold",
+      "category": "Relics",
+      "subjects": 43,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Helmet Collection Authentic Tag Gold Parallel",
+      "odds_denominator": 120,
+      "page": 2
+    },
+    {
+      "id": "definitive-49",
+      "name": "Definitive Helmet Collection \u2014 Rawlings Gold",
+      "category": "Relics",
+      "subjects": 43,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Helmet Collection Rawlings Gold Parallel",
+      "odds_denominator": 120,
+      "page": 2
+    },
+    {
+      "id": "definitive-50",
+      "name": "Definitive Helmet Collection \u2014 Player Number Gold",
+      "category": "Relics",
+      "subjects": 43,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Helmet Collection Player Number Gold Parallel",
+      "odds_denominator": 143,
+      "page": 2
+    },
+    {
+      "id": "definitive-51",
+      "name": "Jumbo Relic Collection \u2014 Orange",
+      "category": "Relics",
+      "subjects": 91,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Jumbo Relic Collection Orange Parallel",
+      "odds_denominator": 3,
+      "page": 2
+    },
+    {
+      "id": "definitive-52",
+      "name": "Jumbo Relic Collection \u2014 Pink",
+      "category": "Relics",
+      "subjects": 91,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Jumbo Relic Collection Pink Parallel",
+      "odds_denominator": 5,
+      "page": 2
+    },
+    {
+      "id": "definitive-53",
+      "name": "Jumbo Relic Collection \u2014 Black",
+      "category": "Relics",
+      "subjects": 91,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Jumbo Relic Collection Black Parallel",
+      "odds_denominator": 7,
+      "page": 2
+    },
+    {
+      "id": "definitive-54",
+      "name": "Jumbo Relic Collection \u2014 Red",
+      "category": "Relics",
+      "subjects": 91,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Jumbo Relic Collection Red Parallel",
+      "odds_denominator": 12,
+      "page": 2
+    },
+    {
+      "id": "definitive-55",
+      "name": "Jumbo Relic Collection \u2014 Gold",
+      "category": "Relics",
+      "subjects": 91,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Jumbo Relic Collection Gold Parallel",
+      "odds_denominator": 53,
+      "page": 2
+    },
+    {
+      "id": "definitive-56",
+      "name": "Autographed Ultra Patch Collection",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.blowoutcards.net/images/ss/25tpdefinitiveBB.pdf",
+      "odds_label": "Definitive Autographed Ultra Patch Collection",
+      "odds_denominator": 16,
+      "page": 2
+    },
+    {
+      "id": "definitive-57",
+      "name": "Autographed First Batting Glove",
+      "category": "Autographs",
+      "subjects": 49,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.blowoutcards.net/images/ss/25tpdefinitiveBB.pdf",
+      "odds_label": "Definitive Autographed First Batting Glove Cards",
+      "odds_denominator": 10,
+      "page": 2
+    },
+    {
+      "id": "definitive-58",
+      "name": "Autographed First Batting Glove \u2014 Red",
+      "category": "Autographs",
+      "subjects": 49,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Autographed First Batting Glove Cards Red Parallel",
+      "odds_denominator": 21,
+      "page": 2
+    },
+    {
+      "id": "definitive-59",
+      "name": "Autographed First Batting Glove \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 49,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Autographed First Batting Glove Cards Gold Parallel",
+      "odds_denominator": 95,
+      "page": 2
+    },
+    {
+      "id": "definitive-60",
+      "name": "Quad Patch Collection \u2014 Gold",
+      "category": "Relics",
+      "subjects": 20,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Quad Patch Collection Gold Parallel",
+      "odds_denominator": 240,
+      "page": 2
+    },
+    {
+      "id": "definitive-61",
+      "name": "Protectors at the Plate Relics \u2014 Black",
+      "category": "Relics",
+      "subjects": 10,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Protectors at the Plate Black Parallel",
+      "odds_denominator": 48,
+      "page": 2
+    },
+    {
+      "id": "definitive-62",
+      "name": "Protectors at the Plate Relics \u2014 Red",
+      "category": "Relics",
+      "subjects": 10,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Protectors at the Plate Red Parallel",
+      "odds_denominator": 95,
+      "page": 2
+    },
+    {
+      "id": "definitive-63",
+      "name": "Protectors at the Plate Relics \u2014 Gold",
+      "category": "Relics",
+      "subjects": 10,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Protectors at the Plate Gold Parallel",
+      "odds_denominator": 456,
+      "page": 2
+    },
+    {
+      "id": "definitive-64",
+      "name": "Rookie Patch Autograph",
+      "category": "Autographs",
+      "subjects": 34,
+      "serial_limit": 50,
+      "serial_source_url": "https://www.blowoutcards.net/images/ss/25tpdefinitiveBB.pdf",
+      "odds_label": "Definitive Rookie Patch Autograph Cards",
+      "odds_denominator": 4,
+      "page": 2
+    },
+    {
+      "id": "definitive-65",
+      "name": "Rookie Patch Autograph \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 34,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Rookie Patch Autograph Cards Orange Parallel",
+      "odds_denominator": 6,
+      "page": 2
+    },
+    {
+      "id": "definitive-66",
+      "name": "Rookie Patch Autograph \u2014 Black",
+      "category": "Autographs",
+      "subjects": 34,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Rookie Patch Autograph Cards Black Parallel",
+      "odds_denominator": 15,
+      "page": 2
+    },
+    {
+      "id": "definitive-67",
+      "name": "Rookie Patch Autograph \u2014 Red",
+      "category": "Autographs",
+      "subjects": 34,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Rookie Patch Autograph Cards Red Parallel",
+      "odds_denominator": 28,
+      "page": 2
+    },
+    {
+      "id": "definitive-68",
+      "name": "Rookie Patch Autograph \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 34,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistinsider.com/2025-topps-definitive-collection-baseball",
+      "odds_label": "Definitive Rookie Patch Autograph Cards Gold Parallel",
+      "odds_denominator": 138,
+      "page": 2
+    },
+    {
+      "id": "definitive-69",
+      "name": "Triple MLB Logo Patch Book",
+      "category": "Relics",
+      "subjects": 15,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.blowoutcards.net/images/ss/25tpdefinitiveBB.pdf",
+      "odds_label": "Definitive Triple MLB Logo Patch Book Cards",
+      "odds_denominator": 304,
+      "page": 2
+    },
+    {
+      "id": "definitive-ultra-gold",
+      "name": "Autographed Ultra Patch Collection \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.blowoutcards.net/images/ss/25tpdefinitiveBB.pdf",
+      "odds_label": null,
+      "odds_denominator": null,
+      "page": null
+    }
+  ],
+  "withheld": [
+    {
+      "name": "Framed Autograph Collection",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Legendary Autograph Collection",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Definitive Trio Autographs",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Dual Autograph Collection",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Defining Images Autograph Collection",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Definitive Rookie Autographs",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Base Autograph Relic Collection",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Autograph Patch Book Collection",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Dual Autograph Relic Collection",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Framed Autograph Patch Collection",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Framed Autograph Patch Collection Black Parallel",
+      "reason": "Odds name this tier, but no reviewed serial ceiling is available; reference lists parallels TBA."
+    },
+    {
+      "name": "Framed Autograph Patch Collection Red Parallel",
+      "reason": "Odds name this tier, but no reviewed serial ceiling is available; reference lists parallels TBA."
+    },
+    {
+      "name": "Framed Autograph Patch Collection Gold Parallel",
+      "reason": "Odds name this tier, but no reviewed serial ceiling is available; reference lists parallels TBA."
+    },
+    {
+      "name": "Definitive Autograph Relic Cards",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Definitive City Connect Slogan Autograph Book Card",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Definitive MLB Logo Patch Cards",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Definitive Dual MLB Logo Patch Book Cards",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Definitive Helmet Collection",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Definitive Patch Collection",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Jumbo Relic Collection",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Definitive Cut Signature",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Definitive Nameplate Collection",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Definitive Moments Autograph Collection",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Willie Mays Commemorative Patch",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Definitive World Series Baseball Autograph Relic",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Quad Patch Collection",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    },
+    {
+      "name": "Protectors at the Plate",
+      "reason": "No reviewed uniform serial ceiling or defensible production calibration. Odds are retained as odds, not converted to a count."
+    }
+  ],
+  "checklist_counts": {
+    "Base Autograph Relic Collection": 49,
+    "Defining Images Autograph Collection": 43,
+    "Definitive Moments Autograph Collection": 23,
+    "Definitive Rookie Autographs": 42,
+    "Dual Autograph Collection": 37,
+    "Dual World Series Autograph Collection": 13,
+    "Framed Autograph Collection": 45,
+    "Legendary Autograph Collection": 46,
+    "Trio Autographs": 8,
+    "Quad Autographs": 7,
+    "Definitive Autograph Relic": 86,
+    "Autograph Patch Book Collection": 40,
+    "Autographed First Batting Glove": 49,
+    "Autographed Ultra Patch Collection": 40,
+    "City Connect Slogan Autograph Book": 32,
+    "Dual Autograph Relic Collection": 29,
+    "Framed Autograph Patch Collection": 41,
+    "Helmet Collection Autograph": 21,
+    "Protectors At The Plate Autograph Relics": 10,
+    "Rookie Patch Autograph": 34,
+    "World Series Baseball Autograph Relic": 9,
+    "Definitive Cut Signatures": 42,
+    "Definitive Helmet Collection": 43,
+    "Definitive Nameplate Collection": 80,
+    "Definitive Patch Collection": 87,
+    "Dual MLB Logo Patch Book": 22,
+    "Jumbo Relic Collection": 91,
+    "MLB Logo Patch": 87,
+    "Protectors at the Plate Relics": 10,
+    "Quad Patch Collection": 20,
+    "Triple MLB Logo Patch Book": 15,
+    "Willie Mays Commemorative Patch": 28
+  }
+}
