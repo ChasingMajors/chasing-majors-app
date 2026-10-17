@@ -1,0 +1,2935 @@
+{
+  "scope": "218 previously reviewed official subset snapshots across seven products; exact normalized subset-name matching only; case-insensitive card IDs. No CV edits.",
+  "rows": [
+    {
+      "code": "2025_26_bowman_basketball",
+      "official_subset": "Base",
+      "official_count": 200,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Checklist.pdf?v=1778162767",
+      "source_sha256": "1120e7da0c7decf834f3b0a5edaa8bd0c5e0a9882a1e243650c51a311ed35c47",
+      "matching_cv_subsets": [
+        "Base"
+      ],
+      "cv_count": 200,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_bowman_basketball",
+      "official_subset": "Chrome Prospect Autographs",
+      "official_count": 99,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Checklist.pdf?v=1778162767",
+      "source_sha256": "1120e7da0c7decf834f3b0a5edaa8bd0c5e0a9882a1e243650c51a311ed35c47",
+      "matching_cv_subsets": [
+        "Chrome Prospect Autographs"
+      ],
+      "cv_count": 99,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_bowman_basketball",
+      "official_subset": "Mega Rookies",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Checklist.pdf?v=1778162767",
+      "source_sha256": "1120e7da0c7decf834f3b0a5edaa8bd0c5e0a9882a1e243650c51a311ed35c47",
+      "matching_cv_subsets": [
+        "Mega Rookies"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_bowman_basketball",
+      "official_subset": "Mega Prospects",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Checklist.pdf?v=1778162767",
+      "source_sha256": "1120e7da0c7decf834f3b0a5edaa8bd0c5e0a9882a1e243650c51a311ed35c47",
+      "matching_cv_subsets": [
+        "Mega Prospects"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_bowman_basketball",
+      "official_subset": "Base Chrome Variation",
+      "official_count": 200,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Checklist.pdf?v=1778162767",
+      "source_sha256": "1120e7da0c7decf834f3b0a5edaa8bd0c5e0a9882a1e243650c51a311ed35c47",
+      "matching_cv_subsets": [
+        "Base Chrome Variation"
+      ],
+      "cv_count": 200,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_bowman_basketball",
+      "official_subset": "Base Chrome Rookie Red RC Logo",
+      "official_count": 50,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Checklist.pdf?v=1778162767",
+      "source_sha256": "1120e7da0c7decf834f3b0a5edaa8bd0c5e0a9882a1e243650c51a311ed35c47",
+      "matching_cv_subsets": [
+        "Base Chrome Rookie Red RC Logo"
+      ],
+      "cv_count": 50,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_bowman_basketball",
+      "official_subset": "Paper Prospects",
+      "official_count": 100,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Checklist.pdf?v=1778162767",
+      "source_sha256": "1120e7da0c7decf834f3b0a5edaa8bd0c5e0a9882a1e243650c51a311ed35c47",
+      "matching_cv_subsets": [
+        "Paper Prospects"
+      ],
+      "cv_count": 100,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_bowman_basketball",
+      "official_subset": "Chrome Prospects Variation",
+      "official_count": 100,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Bowman_Basketball_Checklist.pdf?v=1778162767",
+      "source_sha256": "1120e7da0c7decf834f3b0a5edaa8bd0c5e0a9882a1e243650c51a311ed35c47",
+      "matching_cv_subsets": [
+        "Chrome Prospects Variation"
+      ],
+      "cv_count": 100,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Base Common",
+      "official_count": 100,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Base Common"
+      ],
+      "cv_count": 100,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Base Uncommon",
+      "official_count": 100,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Base Uncommon"
+      ],
+      "cv_count": 100,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Base Rare",
+      "official_count": 100,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Base Rare"
+      ],
+      "cv_count": 100,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Finest Autographs",
+      "official_count": 54,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Finest Autographs"
+      ],
+      "cv_count": 54,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Finest Rookie Autographs",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Finest Rookie Autographs"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Baseline Autographs",
+      "official_count": 50,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Baseline Autographs"
+      ],
+      "cv_count": 50,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Masters Autographs",
+      "official_count": 47,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Masters Autographs"
+      ],
+      "cv_count": 47,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Electrifying Signatures",
+      "official_count": 49,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Electrifying Signatures"
+      ],
+      "cv_count": 49,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Colossal Shots Autographs",
+      "official_count": 49,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Colossal Shots Autographs"
+      ],
+      "cv_count": 49,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Arrivals",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Arrivals"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "First",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "First"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Muse",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Muse"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Finishers",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Finishers"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Pulse",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Pulse"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "The Man",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "The Man"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Headliners",
+      "official_count": 15,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Headliners"
+      ],
+      "cv_count": 15,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "official_subset": "Aura",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-2026_Topps_Finest_Basketball_Checklist.pdf?v=1771360733",
+      "source_sha256": "8c95f4c414155e1cbc046f921527ac9034985cb388bd0160765a3e38e5e90d3d",
+      "matching_cv_subsets": [
+        "Aura"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Base",
+      "official_count": 260,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Base"
+      ],
+      "cv_count": 260,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Base - Highlights",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Base - Highlights"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Base - All-Stars",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Base - All-Stars"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Hoops Rookie/Veteran Duals",
+      "official_count": 5,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Hoops Rookie/Veteran Duals"
+      ],
+      "cv_count": 5,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Bounce House",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Bounce House"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Next Episode",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Next Episode"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Dunkumentory",
+      "official_count": 15,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Dunkumentory"
+      ],
+      "cv_count": 15,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Pay Attention",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Pay Attention"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Hoopers",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Hoopers"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Finals Pursuit",
+      "official_count": 100,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Finals Pursuit"
+      ],
+      "cv_count": 100,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Oasis",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Oasis"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Joy",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Joy"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Checkmate",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Checkmate"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Hoopnotic",
+      "official_count": 35,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Hoopnotic"
+      ],
+      "cv_count": 35,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Hardwired",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Hardwired"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "The Buzz",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "The Buzz"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Net 2 Net",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Net 2 Net"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Jam Packed",
+      "official_count": 15,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Jam Packed"
+      ],
+      "cv_count": 15,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Block By Block",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Block By Block"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "official_subset": "Boom Shaka Laka",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Hoops_Basketball_Checklist.pdf?v=1776110447",
+      "source_sha256": "0bf74dcf36412d8dac7e026713a4b8d229425ab7421c236af8380f6a31911018",
+      "matching_cv_subsets": [
+        "Boom Shaka Laka"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Veteran Class Autographs",
+      "official_count": 46,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Veteran Class Autographs"
+      ],
+      "cv_count": 46,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Veteran Class Chrome Autographs",
+      "official_count": 46,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Veteran Class Chrome Autographs"
+      ],
+      "cv_count": 46,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Veteran Class Crystal Clear Autographs",
+      "official_count": 37,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Veteran Class Crystal Clear Autographs"
+      ],
+      "cv_count": 37,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Rookie Class Autographs",
+      "official_count": 46,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Rookie Class Autographs"
+      ],
+      "cv_count": 46,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Rookie Class Chrome Autographs",
+      "official_count": 46,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Rookie Class Chrome Autographs"
+      ],
+      "cv_count": 46,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Rookie Class Crystal Clear Autographs",
+      "official_count": 45,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Rookie Class Crystal Clear Autographs"
+      ],
+      "cv_count": 45,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Legends Of Their Class Crystal Clear Autographs",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Legends Of Their Class Crystal Clear Autographs"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Signature Blend",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Signature Blend"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Shadow Scripts",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Shadow Scripts"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Penstroke Signatures",
+      "official_count": 29,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Penstroke Signatures"
+      ],
+      "cv_count": 29,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Eternal Marks",
+      "official_count": 19,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Eternal Marks"
+      ],
+      "cv_count": 19,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Manuscripts",
+      "official_count": 70,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Manuscripts"
+      ],
+      "cv_count": 70,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Dual Autographs",
+      "official_count": 15,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Dual Autographs"
+      ],
+      "cv_count": 15,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Triple Autographs",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Triple Autographs"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "After Image",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "After Image"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "High Fidelity",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "High Fidelity"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Pure",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Pure"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Unfazed",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Unfazed"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Star Cast",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Star Cast"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Algorithm",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Algorithm"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Roses",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Roses"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Fluidity",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Fluidity"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Aristocrats",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Aristocrats"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Monarchs Of The Game",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Monarchs Of The Game"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Leviathans",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Leviathans"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Odyssey",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Odyssey"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_signature_class_basketball",
+      "official_subset": "Pressure Points",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Signature_Class_Basketball_Checklist.pdf?v=1777313247",
+      "source_sha256": "67ce8867737f6c50c6ae2e05e3ecb5d94e1ebc5490bfbe91fcf9ab4e04220f27",
+      "matching_cv_subsets": [
+        "Pressure Points"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Base",
+      "official_count": 100,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Base"
+      ],
+      "cv_count": 100,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Rookie 3 Patch Autographs \u2013 Horizontal",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Rookie 3 Patch Autographs \u2013 Horizontal"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Rookie 3 Patch Autographs \u2013 Vertical",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Rookie 3 Patch Autographs \u2013 Vertical"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Relics Autographs Prime",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Relics Autographs Prime"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Triple Relic Autographs",
+      "official_count": 17,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Triple Relic Autographs"
+      ],
+      "cv_count": 17,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Rookie Relic Autographs",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Rookie Relic Autographs"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Veteran 3 Patch Autographs",
+      "official_count": 71,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Veteran 3 Patch Autographs"
+      ],
+      "cv_count": 71,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Fresh Force Relic Autos",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Fresh Force Relic Autos"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Raindrops Signatures",
+      "official_count": 48,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Raindrops Signatures"
+      ],
+      "cv_count": 48,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Seredipitous Sigs",
+      "official_count": 44,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Seredipitous Sigs"
+      ],
+      "cv_count": 44,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "RE-Markable",
+      "official_count": 41,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "RE-Markable"
+      ],
+      "cv_count": 41,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Full Court Signs",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Full Court Signs"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Hit the Mark",
+      "official_count": 41,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Hit the Mark"
+      ],
+      "cv_count": 41,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Triple Power Autos",
+      "official_count": 46,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Triple Power Autos"
+      ],
+      "cv_count": 46,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Rookie Autographs",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Rookie Autographs"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Thunderdunk Signatures",
+      "official_count": 54,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Thunderdunk Signatures"
+      ],
+      "cv_count": 54,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "RookieVerse Autographs",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "RookieVerse Autographs"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Rim Reapers Signatures",
+      "official_count": 37,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Rim Reapers Signatures"
+      ],
+      "cv_count": 37,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Quest fo Glory Signatures",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Quest fo Glory Signatures"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "City Drip Signatures",
+      "official_count": 28,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "City Drip Signatures"
+      ],
+      "cv_count": 28,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Next Feature Signatures",
+      "official_count": 31,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Next Feature Signatures"
+      ],
+      "cv_count": 31,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Game Time Graphs",
+      "official_count": 49,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Game Time Graphs"
+      ],
+      "cv_count": 49,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Ice Water",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Ice Water"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Flight Path",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Flight Path"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Architects",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Architects"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "3 & D",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "3 & D"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "Monsters of the Deep",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "Monsters of the Deep"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_three_basketball",
+      "official_subset": "The Paint",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Three_Basketball_Checklist.pdf?v=1771339443",
+      "source_sha256": "f5c03acc3aa6e1c64b92a433156dd8c31d63593ffc30649758e312a4f20519bd",
+      "matching_cv_subsets": [
+        "The Paint"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Base",
+      "official_count": 300,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Base"
+      ],
+      "cv_count": 300,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Base - Player Number Variation",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Base - Player Number Variation"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Flagship Real Ones Autographs",
+      "official_count": 42,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Flagship Real Ones Autographs"
+      ],
+      "cv_count": 42,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "1980-81 Topps Basketball Autographs",
+      "official_count": 44,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "1980-81 Topps Basketball Autographs"
+      ],
+      "cv_count": 44,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "1980-81 Topps Chrome Basketball Veteran Autographs",
+      "official_count": 45,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "1980-81 Topps Chrome Basketball Veteran Autographs"
+      ],
+      "cv_count": 45,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Marks of Excellence",
+      "official_count": 38,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Marks of Excellence"
+      ],
+      "cv_count": 38,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Contemporary Marks",
+      "official_count": 37,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Contemporary Marks"
+      ],
+      "cv_count": 37,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Havoc Marks",
+      "official_count": 19,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Havoc Marks"
+      ],
+      "cv_count": 19,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Topps Notch Signatures",
+      "official_count": 38,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Topps Notch Signatures"
+      ],
+      "cv_count": 38,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "New Applicants Autographs",
+      "official_count": 38,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "New Applicants Autographs"
+      ],
+      "cv_count": 38,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Signed and Sealed",
+      "official_count": 19,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Signed and Sealed"
+      ],
+      "cv_count": 19,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Rookie Photo Shoot Autographs",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Rookie Photo Shoot Autographs"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "1980-81 Topps Rookie Autographs",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "1980-81 Topps Rookie Autographs"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Flagship Real Ones Rookie Autographs",
+      "official_count": 39,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Flagship Real Ones Rookie Autographs"
+      ],
+      "cv_count": 39,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "1980-81 Topps Basketball Triple Autographs",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "1980-81 Topps Basketball Triple Autographs"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Rookie Photo Shoot Dual Autographs",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Rookie Photo Shoot Dual Autographs"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Retail Rush Signatures",
+      "official_count": 50,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Retail Rush Signatures"
+      ],
+      "cv_count": 50,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "1980-81 Topps Chrome Rookie Autographs",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "1980-81 Topps Chrome Rookie Autographs"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Shopping Spree Signatures",
+      "official_count": 39,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Shopping Spree Signatures"
+      ],
+      "cv_count": 39,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Rise to the Occasion Relics",
+      "official_count": 39,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Rise to the Occasion Relics"
+      ],
+      "cv_count": 39,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Own The Game",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Own The Game"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Rookie Roundball Remnants",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Rookie Roundball Remnants"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Franchise Fabrics",
+      "official_count": 39,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Franchise Fabrics"
+      ],
+      "cv_count": 39,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Swish and Stitch Relics",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Swish and Stitch Relics"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Woven Wonders Relics",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Woven Wonders Relics"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Flagship Real One Relics",
+      "official_count": 50,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Flagship Real One Relics"
+      ],
+      "cv_count": 50,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Store Exclusive Relics",
+      "official_count": 50,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Store Exclusive Relics"
+      ],
+      "cv_count": 50,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Retail Ripper Relics",
+      "official_count": 50,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Retail Ripper Relics"
+      ],
+      "cv_count": 50,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "The Daily Dribble",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "The Daily Dribble"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "New School",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "New School"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "1980-81 Topps Chrome Basketball",
+      "official_count": 100,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "1980-81 Topps Chrome Basketball"
+      ],
+      "cv_count": 100,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Levitation",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Levitation"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "No Limit",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "No Limit"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Stars of the NBA",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Stars of the NBA"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Rise to Stardom",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Rise to Stardom"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "MVP Vault",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "MVP Vault"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Comic Court",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Comic Court"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Home Court",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Home Court"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Sonic Boom",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Sonic Boom"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Sole Ambition",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Sole Ambition"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "8-Bit Ballers",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "8-Bit Ballers"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Generation Now",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Generation Now"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Power Players",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Power Players"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Clutch City Prospects",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Clutch City Prospects"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "All Kings",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "All Kings"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Hardwood Stars",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Hardwood Stars"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Companion Cards",
+      "official_count": 16,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Companion Cards"
+      ],
+      "cv_count": 16,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Companion Cards SPs",
+      "official_count": 5,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Companion Cards SPs"
+      ],
+      "cv_count": 5,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Oversized Topps Cards",
+      "official_count": 16,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Oversized Topps Cards"
+      ],
+      "cv_count": 16,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Oversized Topps Cards SPs",
+      "official_count": 5,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Oversized Topps Cards SPs"
+      ],
+      "cv_count": 5,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Scan and Slam",
+      "official_count": 50,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Scan and Slam"
+      ],
+      "cv_count": 50,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Social Media Follow Back Redemptions",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Social Media Follow Back Redemptions"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Limited Stock Legends",
+      "official_count": 50,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Limited Stock Legends"
+      ],
+      "cv_count": 50,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Class of '25",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Class of '25"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Big Box Ballers",
+      "official_count": 50,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Big Box Ballers"
+      ],
+      "cv_count": 50,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "1980-81 Topps Basketball",
+      "official_count": 99,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "1980-81 Topps Basketball"
+      ],
+      "cv_count": 99,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "official_subset": "Fanatics Authentic Redemptions",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Basketball_Checklist.pdf?v=1759329649",
+      "source_sha256": "4cdf0c5061e930e4a9d881e7dd1b552e84b06d5c163f330cba8fb12aaa312343",
+      "matching_cv_subsets": [
+        "Fanatics Authentic Redemptions"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "NFL Stars Triple Autographs",
+      "official_count": 26,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "NFL Stars Dual Autographs",
+      "official_count": 27,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "NFL Stars Autographs",
+      "official_count": 67,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Topps Autograph Patch Cards",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Real One Autographs",
+      "official_count": 134,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "NFL Material Dual Relic Autographs",
+      "official_count": 9,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Field Fit Swatch Auto Relics",
+      "official_count": 27,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "NFL Material Autographs",
+      "official_count": 22,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Flagship First Dual Signatures",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Flagship First Dual Signatures"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "1991 Topps Football Autographs",
+      "official_count": 97,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Topps Autograph Rookie Patch Cards",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Ring of Honor Signatures",
+      "official_count": 4,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Ring of Honor Signatures"
+      ],
+      "cv_count": 4,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Island Ink",
+      "official_count": 19,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Island Ink"
+      ],
+      "cv_count": 19,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Rookie Real One Autographs",
+      "official_count": 77,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Mascot Autographs",
+      "official_count": 3,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Super Bowl Champion Signatures",
+      "official_count": 48,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Super Bowl Champion Signatures"
+      ],
+      "cv_count": 48,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Victory Ink",
+      "official_count": 36,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Victory Ink"
+      ],
+      "cv_count": 36,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Flagship First Signatures",
+      "official_count": 38,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Flagship First Signatures"
+      ],
+      "cv_count": 38,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "NFL Material Dual Relics",
+      "official_count": 34,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football NFL Material Dual Relics"
+      ],
+      "cv_count": 34,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Rookie Real One Relics",
+      "official_count": 42,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Real One Relics",
+      "official_count": 32,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Real One Relics"
+      ],
+      "cv_count": 32,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "NFL Material",
+      "official_count": 48,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "1991 Topps Football Relics",
+      "official_count": 26,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Field Fit Swatch Collection",
+      "official_count": 41,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "1957 Rookie Variation",
+      "official_count": 50,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "All Kings",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football All Kings"
+      ],
+      "cv_count": 25,
+      "missing_ids": [
+        "AK-26",
+        "AK-27",
+        "AK-28",
+        "AK-29",
+        "AK-30"
+      ],
+      "extra_ids": [],
+      "status": "card_id_difference"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Touchdown",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Touchdown"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Struttin'",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Struttin'"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Billboard Material",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Billboard Material"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Class of 26",
+      "official_count": 5,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Class of 26"
+      ],
+      "cv_count": 5,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "4000 Yard Club",
+      "official_count": 6,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football 4000 Yard Club"
+      ],
+      "cv_count": 6,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "1000 Yard Club",
+      "official_count": 37,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football 1000 Yard Club"
+      ],
+      "cv_count": 37,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Touchdown Machines",
+      "official_count": 52,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Touchdown Machines"
+      ],
+      "cv_count": 52,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Divisional Dominance",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Divisional Dominance"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Conference Kings",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Conference Kings"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "All Hail The Champ",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football All Hail The Champ"
+      ],
+      "cv_count": 20,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Wild Card Moments",
+      "official_count": 35,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Wild Card Moments"
+      ],
+      "cv_count": 35,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "NFL Stars",
+      "official_count": 40,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football NFL Stars"
+      ],
+      "cv_count": 40,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Pressure Cookers",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Pressure Cookers"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Greats of the Game",
+      "official_count": 30,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Greats of the Game"
+      ],
+      "cv_count": 30,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "1991 Topps Football",
+      "official_count": 50,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Topps Profiles",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Big Ticket Players",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Big Ticket Players"
+      ],
+      "cv_count": 25,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "2025 Greatest Hits",
+      "official_count": 25,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "2025 All Topps Team",
+      "official_count": 20,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Ring of Honor",
+      "official_count": 5,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Ring of Honor"
+      ],
+      "cv_count": 5,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Clear Variation /10",
+      "official_count": 200,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Player Number Variation /20",
+      "official_count": 200,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Golden Mirror Variations",
+      "official_count": 400,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "True Photo Variation",
+      "official_count": 200,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Vintage Stock Variation /99",
+      "official_count": 200,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Team Color Border Variation",
+      "official_count": 200,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "1991 Topps Chrome base",
+      "official_count": 50,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "1991 Topps Rookies Chrome base",
+      "official_count": 50,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "The Flagship Collection Chrome",
+      "official_count": 90,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football The Flagship Collection Chrome"
+      ],
+      "cv_count": 90,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Highlight Reels",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Highlight Reels"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "The Flagship Collection",
+      "official_count": 90,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football The Flagship Collection"
+      ],
+      "cv_count": 90,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Big Time Players",
+      "official_count": 10,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [
+        "Football Big Time Players"
+      ],
+      "cv_count": 10,
+      "missing_ids": [],
+      "extra_ids": [],
+      "status": "ids_match"
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "Base (complete checklist)",
+      "official_count": 400,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "1991 Chrome Veteran Autographs",
+      "official_count": 31,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    },
+    {
+      "code": "2026_topps_flagship_football",
+      "official_subset": "1991 Chrome Rookie Autographs",
+      "official_count": 46,
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+      "source_sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+      "matching_cv_subsets": [],
+      "status": "subset_name_review",
+      "ids_not_anywhere_in_cv": []
+    }
+  ]
+}

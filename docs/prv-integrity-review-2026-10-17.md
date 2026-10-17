@@ -38,3 +38,7 @@ The public raw v1 source is preserved. Corrections run after checklist-size enri
 ## Remaining work
 
 114 rows still have unresolved generic identities (including generic Chrome and other labels beyond the original 95 Base-style rows). These are recorded in the integrity review. Production accuracy is not established merely by fixing a label. The six originally empty priority products still need evidence-backed PRV records. Stale reviews are recorded in build output; operator notifications and stricter source-import validation are separate follow-up work.
+
+## Live verification
+
+Feature commit `9471516`. GitHub Pages run `39039537814` and structured-data run `39039538177` both succeeded. The live structured index and all 11 affected nonempty product payloads match the reviewed local JSON exactly. Browser validation confirms restored Hoops parallel labels, numbered-only presentation, and retained checklist counts. The source export and CV data were not modified.
