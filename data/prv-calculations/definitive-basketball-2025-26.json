@@ -1,0 +1,2157 @@
+{
+  "schema_version": 3,
+  "code": "2025_26_topps_definitive_collection_basketball",
+  "meta": {
+    "code": "2025_26_topps_definitive_collection_basketball",
+    "displayName": "2025-26 Topps Definitive Collection Basketball",
+    "keywords": "2025-26 Topps Definitive Collection Basketball, 2025-26 Topps Definitive Collection Basketball checklist, 2025-26 Topps Definitive Collection Basketball cards, 2025-26 Topps Definitive Collection Basketball parallels, 2025-26 Topps Definitive Collection Basketball autographs, Topps Definitive Collection basketball, Definitive Collection basketball checklist",
+    "source_key": "2025-26",
+    "year": "2025-26",
+    "manufacturer": "Topps",
+    "product": "Definitive Collection",
+    "sport": "basketball"
+  },
+  "formats": [
+    "Hobby",
+    "First Day Issue"
+  ],
+  "sources": {
+    "odds_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026-09-16_2025-26-Topps-Definitive-Basketball_Odds_1.pdf?v=1789650301",
+    "checklist_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_25DCBK_VERSION4_1.pdf?v=1786549562",
+    "serial_reference_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+    "manufacturer_product_url": "https://uk.topps.com/pages/topps-definitive-basketball",
+    "reviewed_date": "2026-10-16",
+    "odds_sha256": "8d19b092aa1f9c9ef742e284ac2679f088e6c65ee0047231d80a7edd5c06d319",
+    "checklist_sha256": "0c7897c4f773221bc7f0a0537e4b4d394760a288c6f0cd3f65f32d9bca0a1ff2"
+  },
+  "method": {
+    "name": "reviewed_serial_limits_v1",
+    "assumptions": "Nominal serial ceilings only; subject coverage and packed copies can vary. Higher limits are upper bounds. Hobby and FDI pack odds remain separate source vectors and are never combined into production estimates. Each nameplate letter is a distinct numbered 1/1 card, not an entire player nameplate set. No non-autograph complete-tier production calibration is established."
+  },
+  "records": [
+    {
+      "id": "definitive-bk-1",
+      "name": "Authentic Relic Auto",
+      "category": "Autographs",
+      "subjects": 32,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "AUTHENTIC RELIC AUTOGRAPHS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        9,
+        9
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-2",
+      "name": "Authentic Relic Auto \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 32,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "AUTHENTIC RELIC AUTOGRAPHS ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        8,
+        8
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-3",
+      "name": "Authentic Relic Auto \u2014 Black",
+      "category": "Autographs",
+      "subjects": 32,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "AUTHENTIC RELIC AUTOGRAPHS BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        19,
+        19
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-4",
+      "name": "Authentic Relic Auto \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 32,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "AUTHENTIC RELIC AUTOGRAPHS GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        192,
+        192
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-5",
+      "name": "Authentic Relic Auto \u2014 Pink",
+      "category": "Autographs",
+      "subjects": 32,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "AUTHENTIC RELIC AUTOGRAPHS PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        13,
+        13
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-6",
+      "name": "Authentic Relic Auto \u2014 Red",
+      "category": "Autographs",
+      "subjects": 32,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "AUTHENTIC RELIC AUTOGRAPHS RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        38,
+        38
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-7",
+      "name": "Authentic Relic Auto \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 32,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "AUTHENTIC RELIC AUTOGRAPHS BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        94,
+        96
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-8",
+      "name": "Decisive Signatures",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DECISIVE SIGNATURES",
+      "odds_denominator": null,
+      "odds_by_format": [
+        9,
+        9
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-9",
+      "name": "Decisive Signatures \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DECISIVE SIGNATURES ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        11,
+        11
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-10",
+      "name": "Decisive Signatures \u2014 Black",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DECISIVE SIGNATURES BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        21,
+        21
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-11",
+      "name": "Decisive Signatures \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DECISIVE SIGNATURES GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        211,
+        211
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-12",
+      "name": "Decisive Signatures \u2014 Pink",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DECISIVE SIGNATURES PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        14,
+        14
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-13",
+      "name": "Decisive Signatures \u2014 Red",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DECISIVE SIGNATURES RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        42,
+        42
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-14",
+      "name": "Decisive Signatures \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DECISIVE SIGNATURES BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        104,
+        106
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-15",
+      "name": "Definable Relic Auto",
+      "category": "Autographs",
+      "subjects": 22,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINABLE RELIC AUTOGRAPHS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        18,
+        18
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-16",
+      "name": "Definable Relic Auto \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 22,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINABLE RELIC AUTOGRAPHS ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        13,
+        13
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-17",
+      "name": "Definable Relic Auto \u2014 Black",
+      "category": "Autographs",
+      "subjects": 22,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINABLE RELIC AUTOGRAPHS BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        29,
+        29
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-18",
+      "name": "Definable Relic Auto \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 22,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINABLE RELIC AUTOGRAPHS GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        275,
+        275
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-19",
+      "name": "Definable Relic Auto \u2014 Pink",
+      "category": "Autographs",
+      "subjects": 22,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINABLE RELIC AUTOGRAPHS PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        19,
+        19
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-20",
+      "name": "Definable Relic Auto \u2014 Red",
+      "category": "Autographs",
+      "subjects": 22,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINABLE RELIC AUTOGRAPHS RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        55,
+        55
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-21",
+      "name": "Definable Relic Auto \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 22,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINABLE RELIC AUTOGRAPHS BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        134,
+        138
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-22",
+      "name": "Defining Images Auto",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINING IMAGES AUTOGRAPHS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        18,
+        18
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-23",
+      "name": "Defining Images Auto \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINING IMAGES AUTOGRAPHS ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        10,
+        10
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-24",
+      "name": "Defining Images Auto \u2014 Black",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINING IMAGES AUTOGRAPHS BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        21,
+        21
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-25",
+      "name": "Defining Images Auto \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINING IMAGES AUTOGRAPHS GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        211,
+        211
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-26",
+      "name": "Defining Images Auto \u2014 Pink",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINING IMAGES AUTOGRAPHS PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        14,
+        14
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-27",
+      "name": "Defining Images Auto \u2014 Red",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINING IMAGES AUTOGRAPHS RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        42,
+        42
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-28",
+      "name": "Defining Images Auto \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINING IMAGES AUTOGRAPHS BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        104,
+        106
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-29",
+      "name": "Definitive Auto Relics",
+      "category": "Autographs",
+      "subjects": 86,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE AUTOGRAPH RELICS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        6,
+        6
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-30",
+      "name": "Definitive Auto Relics \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 86,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE AUTOGRAPH RELICS ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        4,
+        4
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-31",
+      "name": "Definitive Auto Relics \u2014 Black",
+      "category": "Autographs",
+      "subjects": 86,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE AUTOGRAPH RELICS BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        8,
+        8
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-32",
+      "name": "Definitive Auto Relics \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 86,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE AUTOGRAPH RELICS GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        73,
+        74
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-33",
+      "name": "Definitive Auto Relics \u2014 Pink",
+      "category": "Autographs",
+      "subjects": 86,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE AUTOGRAPH RELICS PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        7,
+        7
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-34",
+      "name": "Definitive Auto Relics \u2014 Red",
+      "category": "Autographs",
+      "subjects": 86,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE AUTOGRAPH RELICS RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        16,
+        16
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-35",
+      "name": "Definitive Auto Relics \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 86,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE AUTOGRAPH RELICS BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        39,
+        39
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-36",
+      "name": "Definitive Auto",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE AUTOGRAPHS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        6,
+        6
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-37",
+      "name": "Definitive Auto \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE AUTOGRAPHS ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        7,
+        7
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-38",
+      "name": "Definitive Auto \u2014 Black",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE AUTOGRAPHS BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        16,
+        16
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-39",
+      "name": "Definitive Auto \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE AUTOGRAPHS GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        155,
+        158
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-40",
+      "name": "Definitive Auto \u2014 Pink",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE AUTOGRAPHS PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        11,
+        11
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-41",
+      "name": "Definitive Auto \u2014 Red",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE AUTOGRAPHS RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        32,
+        32
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-42",
+      "name": "Definitive Auto \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE AUTOGRAPHS BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        78,
+        79
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-43",
+      "name": "Definitive Markers Auto",
+      "category": "Autographs",
+      "subjects": 19,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE MARKERS AUTOGRAPHS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        317,
+        317
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-44",
+      "name": "Definitive Moments Collection Auto",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE MOMENTS COLLECTION AUTOGRAPHS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        21,
+        21
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-45",
+      "name": "Definitive Moments Collection Auto \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE MOMENTS COLLECTION AUTOGRAPHS GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        211,
+        211
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-46",
+      "name": "Definitive Rookie Patch Auto",
+      "category": "Autographs",
+      "subjects": 42,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIE PATCH AUTOGRAPHS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        4,
+        4
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-47",
+      "name": "Definitive Rookie Patch Auto \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 42,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIE PATCH AUTOGRAPHS ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        6,
+        6
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-48",
+      "name": "Definitive Rookie Patch Auto \u2014 Black",
+      "category": "Autographs",
+      "subjects": 42,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIE PATCH AUTOGRAPHS BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        16,
+        16
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-49",
+      "name": "Definitive Rookie Patch Auto \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 42,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIE PATCH AUTOGRAPHS GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        147,
+        151
+      ],
+      "page": 1
+    },
+    {
+      "id": "definitive-bk-50",
+      "name": "Definitive Rookie Patch Auto \u2014 Pink",
+      "category": "Autographs",
+      "subjects": 42,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIE PATCH AUTOGRAPHS PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        11,
+        11
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-51",
+      "name": "Definitive Rookie Patch Auto \u2014 Red",
+      "category": "Autographs",
+      "subjects": 42,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIE PATCH AUTOGRAPHS RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        31,
+        31
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-52",
+      "name": "Definitive Rookie Patch Auto \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 42,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIE PATCH AUTOGRAPHS BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        75,
+        75
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-53",
+      "name": "Definitive Rookie Auto",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIES AUTOGRAPHS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        8,
+        8
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-54",
+      "name": "Definitive Rookie Auto \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIES AUTOGRAPHS ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        9,
+        9
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-55",
+      "name": "Definitive Rookie Auto \u2014 Black",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIES AUTOGRAPHS BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        21,
+        21
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-56",
+      "name": "Definitive Rookie Auto \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIES AUTOGRAPHS GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        211,
+        211
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-57",
+      "name": "Definitive Rookie Auto \u2014 Pink",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIES AUTOGRAPHS PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        14,
+        14
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-58",
+      "name": "Definitive Rookie Auto \u2014 Red",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIES AUTOGRAPHS RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        42,
+        42
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-59",
+      "name": "Definitive Rookie Auto \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIES AUTOGRAPHS BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        104,
+        106
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-60",
+      "name": "Definitive Signs",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE SIGNS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        6,
+        6
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-61",
+      "name": "Definitive Signs \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE SIGNS ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        8,
+        8
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-62",
+      "name": "Definitive Signs \u2014 Black",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE SIGNS BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        21,
+        21
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-63",
+      "name": "Definitive Signs \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE SIGNS GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        211,
+        211
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-64",
+      "name": "Definitive Signs \u2014 Pink",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE SIGNS PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        14,
+        14
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-65",
+      "name": "Definitive Signs \u2014 Red",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE SIGNS RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        42,
+        42
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-66",
+      "name": "Definitive Signs \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE SIGNS BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        104,
+        106
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-67",
+      "name": "Dual Auto",
+      "category": "Autographs",
+      "subjects": 10,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DUAL AUTOGRAPHS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        63,
+        63
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-68",
+      "name": "Dual Auto \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 10,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DUAL AUTOGRAPHS GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        633,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-69",
+      "name": "Dual Rookie Auto",
+      "category": "Autographs",
+      "subjects": 15,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DUAL ROOKIE AUTOGRAPHS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        42,
+        42
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-70",
+      "name": "Dual Rookie Auto \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 15,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DUAL ROOKIE AUTOGRAPHS GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        402,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-71",
+      "name": "Framed Legends Autograph Collection",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED LEGENDS AUTOGRAPH COLLECTION",
+      "odds_denominator": null,
+      "odds_by_format": [
+        10,
+        10
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-72",
+      "name": "Framed Legends Autograph Collection \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED LEGENDS AUTOGRAPH COLLECTION ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        8,
+        8
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-73",
+      "name": "Framed Legends Autograph Collection \u2014 Black",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED LEGENDS AUTOGRAPH COLLECTION BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        21,
+        21
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-74",
+      "name": "Framed Legends Autograph Collection \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED LEGENDS AUTOGRAPH COLLECTION GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        211,
+        211
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-75",
+      "name": "Framed Legends Autograph Collection \u2014 Pink",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED LEGENDS AUTOGRAPH COLLECTION PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        14,
+        14
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-76",
+      "name": "Framed Legends Autograph Collection \u2014 Red",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED LEGENDS AUTOGRAPH COLLECTION RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        42,
+        42
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-77",
+      "name": "Framed Legends Autograph Collection \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 30,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED LEGENDS AUTOGRAPH COLLECTION BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        104,
+        106
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-78",
+      "name": "Framed Rookies Autograph Collection",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED ROOKIES AUTOGRAPH COLLECTION",
+      "odds_denominator": null,
+      "odds_by_format": [
+        5,
+        5
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-79",
+      "name": "Framed Rookies Autograph Collection \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED ROOKIES AUTOGRAPH COLLECTION ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        7,
+        7
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-80",
+      "name": "Framed Rookies Autograph Collection \u2014 Black",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED ROOKIES AUTOGRAPH COLLECTION BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        16,
+        16
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-81",
+      "name": "Framed Rookies Autograph Collection \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED ROOKIES AUTOGRAPH COLLECTION GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        155,
+        158
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-82",
+      "name": "Framed Rookies Autograph Collection \u2014 Pink",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED ROOKIES AUTOGRAPH COLLECTION PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        11,
+        11
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-83",
+      "name": "Framed Rookies Autograph Collection \u2014 Red",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED ROOKIES AUTOGRAPH COLLECTION RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        32,
+        32
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-84",
+      "name": "Framed Rookies Autograph Collection \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 40,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED ROOKIES AUTOGRAPH COLLECTION BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        78,
+        79
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-85",
+      "name": "Framed Veterans Autograph Collection",
+      "category": "Autographs",
+      "subjects": 29,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED VETERANS AUTOGRAPH COLLECTION",
+      "odds_denominator": null,
+      "odds_by_format": [
+        13,
+        13
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-86",
+      "name": "Framed Veterans Autograph Collection \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 29,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED VETERANS AUTOGRAPH COLLECTION ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        16,
+        16
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-87",
+      "name": "Framed Veterans Autograph Collection \u2014 Black",
+      "category": "Autographs",
+      "subjects": 29,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED VETERANS AUTOGRAPH COLLECTION BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        22,
+        22
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-88",
+      "name": "Framed Veterans Autograph Collection \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 29,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED VETERANS AUTOGRAPH COLLECTION GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        211,
+        211
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-89",
+      "name": "Framed Veterans Autograph Collection \u2014 Pink",
+      "category": "Autographs",
+      "subjects": 29,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED VETERANS AUTOGRAPH COLLECTION PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        17,
+        17
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-90",
+      "name": "Framed Veterans Autograph Collection \u2014 Red",
+      "category": "Autographs",
+      "subjects": 29,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED VETERANS AUTOGRAPH COLLECTION RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        42,
+        42
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-91",
+      "name": "Framed Veterans Autograph Collection \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 29,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "FRAMED VETERANS AUTOGRAPH COLLECTION BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        104,
+        106
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-92",
+      "name": "Legendary Autograph Collection",
+      "category": "Autographs",
+      "subjects": 15,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "LEGENDARY AUTOGRAPH COLLECTION",
+      "odds_denominator": null,
+      "odds_by_format": [
+        42,
+        42
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-93",
+      "name": "Legendary Autograph Collection \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 15,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "LEGENDARY AUTOGRAPH COLLECTION GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        402,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-94",
+      "name": "Noble Ink",
+      "category": "Autographs",
+      "subjects": 39,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "NOBLE INK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        7,
+        7
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-95",
+      "name": "Noble Ink \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 39,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "NOBLE INK ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        8,
+        8
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-96",
+      "name": "Noble Ink \u2014 Black",
+      "category": "Autographs",
+      "subjects": 39,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "NOBLE INK BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        18,
+        18
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-97",
+      "name": "Noble Ink \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 39,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "NOBLE INK GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        159,
+        162
+      ],
+      "page": 2
+    },
+    {
+      "id": "definitive-bk-98",
+      "name": "Noble Ink \u2014 Pink",
+      "category": "Autographs",
+      "subjects": 39,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "NOBLE INK PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        12,
+        12
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-99",
+      "name": "Noble Ink \u2014 Red",
+      "category": "Autographs",
+      "subjects": 39,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "NOBLE INK RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        35,
+        35
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-100",
+      "name": "Noble Ink \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 39,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "NOBLE INK BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        80,
+        81
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-101",
+      "name": "Opening Act Rookie Relic Auto",
+      "category": "Autographs",
+      "subjects": 20,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "OPENING ACT ROOKIE RELIC AUTOGRAPHS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        10,
+        10
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-102",
+      "name": "Opening Act Rookie Relic Auto \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 20,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "OPENING ACT ROOKIE RELIC AUTOGRAPHS ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        13,
+        13
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-103",
+      "name": "Opening Act Rookie Relic Auto \u2014 Black",
+      "category": "Autographs",
+      "subjects": 20,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "OPENING ACT ROOKIE RELIC AUTOGRAPHS BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        32,
+        32
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-104",
+      "name": "Opening Act Rookie Relic Auto \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 20,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "OPENING ACT ROOKIE RELIC AUTOGRAPHS GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        317,
+        317
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-105",
+      "name": "Opening Act Rookie Relic Auto \u2014 Pink",
+      "category": "Autographs",
+      "subjects": 20,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "OPENING ACT ROOKIE RELIC AUTOGRAPHS PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        21,
+        21
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-106",
+      "name": "Opening Act Rookie Relic Auto \u2014 Red",
+      "category": "Autographs",
+      "subjects": 20,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "OPENING ACT ROOKIE RELIC AUTOGRAPHS RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        63,
+        63
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-107",
+      "name": "Opening Act Rookie Relic Auto \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 20,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "OPENING ACT ROOKIE RELIC AUTOGRAPHS BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        155,
+        158
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-108",
+      "name": "Rookie Defining Games Relic Auto",
+      "category": "Autographs",
+      "subjects": 2,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "ROOKIE DEFINING GAMES RELIC AUTOGRAPH REDEMPTION",
+      "odds_denominator": null,
+      "odds_by_format": [
+        90,
+        68
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-109",
+      "name": "Rookie Defining Games Relic Auto \u2014 Orange",
+      "category": "Autographs",
+      "subjects": 2,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "ROOKIE DEFINING GAMES RELIC AUTOGRAPH REDEMPTION ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        126,
+        102
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-110",
+      "name": "Rookie Defining Games Relic Auto \u2014 Black",
+      "category": "Autographs",
+      "subjects": 2,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "ROOKIE DEFINING GAMES RELIC AUTOGRAPH REDEMPTION BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        317,
+        204
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-111",
+      "name": "Rookie Defining Games Relic Auto \u2014 Red",
+      "category": "Autographs",
+      "subjects": 2,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "ROOKIE DEFINING GAMES RELIC AUTOGRAPH REDEMPTION RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        670,
+        204
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-112",
+      "name": "Rookie Defining Games Relic Auto \u2014 Blue",
+      "category": "Autographs",
+      "subjects": 2,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "ROOKIE DEFINING GAMES RELIC AUTOGRAPH REDEMPTION BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        2011,
+        204
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-113",
+      "name": "Rookie Defining Games Relic Auto \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 2,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "ROOKIE DEFINING GAMES RELIC AUTOGRAPH REDEMPTION GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        6032,
+        204
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-114",
+      "name": "Triple Auto",
+      "category": "Autographs",
+      "subjects": 5,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "TRIPLE AUTOGRAPHS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        127,
+        127
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-115",
+      "name": "Triple Auto \u2014 Gold",
+      "category": "Autographs",
+      "subjects": 5,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "TRIPLE AUTOGRAPHS GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        1266,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-116",
+      "name": "Triple Rookie Auto",
+      "category": "Autographs",
+      "subjects": 5,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "TRIPLE ROOKIE AUTOGRAPHS",
+      "odds_denominator": null,
+      "odds_by_format": [
+        127,
+        127
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-117",
+      "name": "Definitive Nameplate I \u2014 each letter",
+      "category": "Relics",
+      "subjects": 100,
+      "serial_limit": 1,
+      "serial_source_url": "https://uk.topps.com/pages/topps-definitive-basketball",
+      "odds_label": "DEFINITIVE NAMEPLATE ONE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        62,
+        63
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-118",
+      "name": "Definitive Nameplate II \u2014 each letter",
+      "category": "Relics",
+      "subjects": 84,
+      "serial_limit": 1,
+      "serial_source_url": "https://uk.topps.com/pages/topps-definitive-basketball",
+      "odds_label": "DEFINITIVE NAMEPLATE TWO",
+      "odds_denominator": null,
+      "odds_by_format": [
+        74,
+        75
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-119",
+      "name": "Definitive Patch Collection",
+      "category": "Relics",
+      "subjects": 56,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE PATCH COLLECTION",
+      "odds_denominator": null,
+      "odds_by_format": [
+        3,
+        3
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-120",
+      "name": "Definitive Patch Collection \u2014 Black",
+      "category": "Relics",
+      "subjects": 56,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE PATCH COLLECTION BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        18,
+        18
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-121",
+      "name": "Definitive Patch Collection \u2014 Gold",
+      "category": "Relics",
+      "subjects": 56,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE PATCH COLLECTION GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        112,
+        113
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-122",
+      "name": "Definitive Patch Collection \u2014 Orange",
+      "category": "Relics",
+      "subjects": 56,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE PATCH COLLECTION ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        7,
+        7
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-123",
+      "name": "Definitive Patch Collection \u2014 Pink",
+      "category": "Relics",
+      "subjects": 56,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE PATCH COLLECTION PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        12,
+        12
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-124",
+      "name": "Definitive Patch Collection \u2014 Red",
+      "category": "Relics",
+      "subjects": 56,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE PATCH COLLECTION RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        23,
+        23
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-125",
+      "name": "Definitive Patch Collection \u2014 Blue",
+      "category": "Relics",
+      "subjects": 56,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE PATCH COLLECTION BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        57,
+        57
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-126",
+      "name": "Definitive Relic Collection",
+      "category": "Relics",
+      "subjects": 100,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE RELIC COLLECTION",
+      "odds_denominator": null,
+      "odds_by_format": [
+        2,
+        2
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-127",
+      "name": "Definitive Relic Collection \u2014 Blue",
+      "category": "Relics",
+      "subjects": 100,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE RELIC COLLECTION BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        32,
+        32
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-128",
+      "name": "Definitive Relic Collection \u2014 Orange",
+      "category": "Relics",
+      "subjects": 100,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE RELIC COLLECTION ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        6,
+        6
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-129",
+      "name": "Definitive Relic Collection \u2014 Black",
+      "category": "Relics",
+      "subjects": 100,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE RELIC COLLECTION BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        9,
+        9
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-130",
+      "name": "Definitive Relic Collection \u2014 Gold",
+      "category": "Relics",
+      "subjects": 100,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE RELIC COLLECTION GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        63,
+        65
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-131",
+      "name": "Definitive Relic Collection \u2014 Pink",
+      "category": "Relics",
+      "subjects": 100,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE RELIC COLLECTION PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        9,
+        9
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-132",
+      "name": "Definitive Relic Collection \u2014 Red",
+      "category": "Relics",
+      "subjects": 100,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE RELIC COLLECTION RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        13,
+        13
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-133",
+      "name": "Definitive Rookie Patch Collection",
+      "category": "Relics",
+      "subjects": 38,
+      "serial_limit": 35,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIE PATCH COLLECTION",
+      "odds_denominator": null,
+      "odds_by_format": [
+        5,
+        5
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-134",
+      "name": "Definitive Rookie Patch Collection \u2014 Black",
+      "category": "Relics",
+      "subjects": 38,
+      "serial_limit": 10,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIE PATCH COLLECTION BLACK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        40,
+        40
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-135",
+      "name": "Definitive Rookie Patch Collection \u2014 Gold",
+      "category": "Relics",
+      "subjects": 38,
+      "serial_limit": 1,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIE PATCH COLLECTION GOLD",
+      "odds_denominator": null,
+      "odds_by_format": [
+        211,
+        211
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-136",
+      "name": "Definitive Rookie Patch Collection \u2014 Orange",
+      "category": "Relics",
+      "subjects": 38,
+      "serial_limit": 25,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIE PATCH COLLECTION ORANGE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        16,
+        16
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-137",
+      "name": "Definitive Rookie Patch Collection \u2014 Pink",
+      "category": "Relics",
+      "subjects": 38,
+      "serial_limit": 15,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIE PATCH COLLECTION PINK",
+      "odds_denominator": null,
+      "odds_by_format": [
+        38,
+        38
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-138",
+      "name": "Definitive Rookie Patch Collection \u2014 Red",
+      "category": "Relics",
+      "subjects": 38,
+      "serial_limit": 5,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIE PATCH COLLECTION RED",
+      "odds_denominator": null,
+      "odds_by_format": [
+        42,
+        42
+      ],
+      "page": 3
+    },
+    {
+      "id": "definitive-bk-139",
+      "name": "Definitive Rookie Patch Collection \u2014 Blue",
+      "category": "Relics",
+      "subjects": 38,
+      "serial_limit": 2,
+      "serial_source_url": "https://www.checklistcenter.com/2025-26-topps-definitive-collection-basketball-card-checklist/",
+      "odds_label": "DEFINITIVE ROOKIE PATCH COLLECTION BLUE",
+      "odds_denominator": null,
+      "odds_by_format": [
+        88,
+        88
+      ],
+      "page": 3
+    }
+  ],
+  "withheld": [
+    {
+      "name": "DEFINITIVE ROOKIE PATCH AUTOGRAPHS FIRST DAY ISSUE",
+      "reason": "FDI 1:1 guarantees an occurrence, not a serial limit or production total; distinct checklist coverage and numbering not verified."
+    },
+    {
+      "name": "TRIPLE ROOKIE AUTOGRAPHS GOLD",
+      "reason": "Tier appears in official odds but its serial limit is not documented in the reviewed reference."
+    }
+  ],
+  "checklist_counts": {
+    "Authentic Relic Auto": 32,
+    "Decisive Signatures": 30,
+    "Definable Relic Auto": 22,
+    "Defining Images Auto": 30,
+    "Definitive Auto Relics": 86,
+    "Definitive Auto": 40,
+    "Definitive Markers Auto": 19,
+    "Definitive Moments Collection Auto": 30,
+    "Definitive Rookie Patch Auto": 42,
+    "Definitive Rookie Auto": 30,
+    "Definitive Signs": 30,
+    "Dual Auto": 10,
+    "Dual Rookie Auto": 15,
+    "Framed Legends Autograph Collection": 30,
+    "Framed Rookies Autograph Collection": 40,
+    "Framed Veterans Autograph Collection": 29,
+    "Legendary Autograph Collection": 15,
+    "Noble Ink": 39,
+    "Opening Act Rookie Relic Auto": 20,
+    "Rookie Defining Games Relic Auto": 2,
+    "Triple Auto": 5,
+    "Triple Rookie Auto": 5,
+    "Definitive Nameplate I": 100,
+    "Definitive Nameplate II": 84,
+    "Definitive Patch Collection": 56,
+    "Definitive Relic Collection": 100,
+    "Definitive Rookie Patch Collection": 38
+  }
+}
