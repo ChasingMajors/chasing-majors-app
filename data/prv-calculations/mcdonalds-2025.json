@@ -1,0 +1,908 @@
+{
+  "schema_version": 1,
+  "code": "2025_Topps_Chrome_McDonalds_All_American_Basketball",
+  "meta": {
+    "code": "2025_Topps_Chrome_McDonalds_All_American_Basketball",
+    "displayName": "2025 Topps Chrome McDonalds All American Basketball",
+    "keywords": "2025 Topps Chrome McDonalds All American Basketball, 2025 Topps Chrome McDonald\u2019s All American Basketball, 2025 Topps Chrome McDonalds All American, 2025 Topps Chrome McDonald\u2019s All American, 2025 Topps Chrome McDonalds Basketball, 2025 Topps Chrome McDonald\u2019s Basketball, 2025 McDonalds All American Basketball, 2025 McDonald\u2019s All American Basketball, 25 Topps Chrome McDonalds All American Basketball, 25 Topps Chrome McDonald\u2019s All American Basketball, Topps Chrome McDonalds All American Basketball, Topps Chrome McDonald\u2019s All American Basketball, McDonalds All American Basketball, McDonald\u2019s All American Basketball, Topps Chrome McDonalds checklist, Topps Chrome McDonald\u2019s checklist, McDonalds All American checklist, McDonald\u2019s All American checklist, 2025 Topps Chrome McDonalds checklist",
+    "source_key": "2025-26",
+    "year": "2025",
+    "manufacturer": "Topps",
+    "product": "Chrome McDonalds All American",
+    "sport": "basketball"
+  },
+  "sources": {
+    "odds_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_McDonald_s_All-American_Basketball_Odds.pdf?v=1775071299",
+    "checklist_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_McDonald_s_All-American_Basketball_Checklist.pdf?v=1770740329",
+    "serial_reference_url": "https://www.checklistinsider.com/2025-topps-chrome-mcdonalds-all-american-basketball",
+    "reviewed_date": "2026-10-16",
+    "odds_sha256": "bd1cc7ba86e1dc19bbb029da3cd2efbb5c6fb2d590496cd3cdad6afc77bfe9ff",
+    "checklist_sha256": "2175670434849c8a8d58c7068130ec9d035ebfc51edca70610b78051643ee8a4"
+  },
+  "method": {
+    "calibration": "Four 100-card Hobby-exclusive non-autograph base tiers independently imply 75,000 Hobby packs: Tie-Dye /25 at 1:30, Orange /15 at 1:50, Black /10 at 1:75 and Red /5 at 1:150. Conditional on these serial ceilings substantially reaching Hobby packs. Only reviewed Hobby-exclusive unnumbered designs are estimated; shared regular base/inserts and event-distributed cards stay withheld. Estimates are not manufacturer-confirmed production totals.",
+    "max_anchor_spread": 0.05,
+    "round_estimates_to": 5,
+    "excluded_from_calibration": "Other formats, low-denominator tiers, one-of-ones, autographs, and Black Wave/Red Wave diagnostic outliers. Mega-specific RayWave designs are not treated as the standard Hobby parallels."
+  },
+  "groups": {
+    "Base": {
+      "name": "Base",
+      "category": "Base",
+      "subjects": 100,
+      "serials": {
+        "AQUA WAVE": 199,
+        "PURPLE": 150,
+        "RED LAVA": 125,
+        "PURPLE LAVA": 99,
+        "BLUE LAVA": 75,
+        "GOLD": 50,
+        "TIE-DYE": 25,
+        "ORANGE": 15,
+        "BLACK": 10,
+        "RED": 5,
+        "SUPERFRACTOR": 1,
+        "BLACK WAVE": 10,
+        "RED WAVE": 5
+      }
+    },
+    "High Rises": {
+      "name": "High Rises",
+      "category": "Insert",
+      "subjects": 38,
+      "serials": {
+        "GOLD": 50,
+        "TIE-DYE": 25,
+        "RED": 5,
+        "SUPERFRACTOR": 1
+      }
+    },
+    "Top Recruits": {
+      "name": "Top Recruits",
+      "category": "Insert",
+      "subjects": 32,
+      "serials": {
+        "GOLD": 50,
+        "TIE-DYE": 25,
+        "RED": 5,
+        "SUPERFRACTOR": 1
+      }
+    },
+    "Prospect Paths": {
+      "name": "Prospect Paths",
+      "category": "Insert",
+      "subjects": 20,
+      "serials": {
+        "GOLD": 50,
+        "TIE-DYE": 25,
+        "RED": 5,
+        "SUPERFRACTOR": 1
+      }
+    },
+    "Hype to Legacy": {
+      "name": "Hype to Legacy",
+      "category": "Insert",
+      "subjects": 10,
+      "serials": {
+        "GOLD": 50,
+        "TIE-DYE": 25,
+        "RED": 5,
+        "SUPERFRACTOR": 1
+      }
+    },
+    "All-American Drip": {
+      "name": "All-American Drip",
+      "category": "Insert",
+      "subjects": 10,
+      "serials": {}
+    },
+    "BillBoard Ink": {
+      "name": "Billboard Ink",
+      "category": "Autograph",
+      "subjects": 38,
+      "serials": {
+        "GREEN": 99,
+        "MCD LOGO REFRACTOR": 75,
+        "GOLD": 50,
+        "TIE-DYE": 25,
+        "ORANGE": 15,
+        "BLACK": 10,
+        "RED": 5,
+        "SUPERFRACTOR": 1
+      }
+    },
+    "Legends Autographs": {
+      "name": "Legends Autographs",
+      "category": "Autograph",
+      "subjects": 18,
+      "serials": {
+        "GREEN": 99,
+        "MCD LOGO REFRACTOR": 75,
+        "GOLD": 50,
+        "TIE-DYE": 25,
+        "ORANGE": 15,
+        "BLACK": 10,
+        "RED": 5,
+        "SUPERFRACTOR": 1
+      }
+    },
+    "Winning Tags": {
+      "name": "Winning Tags",
+      "category": "Autograph",
+      "subjects": 38,
+      "serials": {
+        "GREEN": 99,
+        "MCD LOGO REFRACTOR": 75,
+        "GOLD": 50,
+        "TIE-DYE": 25,
+        "ORANGE": 15,
+        "BLACK": 10,
+        "RED": 5,
+        "SUPERFRACTOR": 1
+      }
+    },
+    "Event Autogrpahs": {
+      "name": "Event Autographs",
+      "category": "Autograph",
+      "subjects": 38,
+      "serials": {}
+    },
+    "Golden Patch Autographs": {
+      "name": "Golden Patch Autographs",
+      "category": "Autograph",
+      "subjects": 38,
+      "serials": {
+        "TIE-DYE": 25,
+        "ADIDAS": 1,
+        "MCD LOGO REFRACTOR": 1
+      }
+    }
+  },
+  "odds_rows": [
+    {
+      "id": "mcdonalds-1",
+      "odds_label": "Base",
+      "odds_ratio": "9:1",
+      "odds_denominator": 1,
+      "group": "Base",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false,
+      "withheld": "Ordinary base cards occur in Mega as well; nine Hobby base cards per pack do not establish whole-product production without Mega volume."
+    },
+    {
+      "id": "mcdonalds-2",
+      "odds_label": "Base Refractor",
+      "odds_ratio": "1:1",
+      "odds_denominator": 1,
+      "group": "Base",
+      "serial_limit": null,
+      "parallel": "Refractor",
+      "anchor": false,
+      "withheld": "Shared refractor population and missing Mega odds prevent a whole-product estimate; 1:1 alone also does not establish card multiplicity."
+    },
+    {
+      "id": "mcdonalds-3",
+      "odds_label": "Base McDonalds Logo Refractor",
+      "odds_ratio": "1:4",
+      "odds_denominator": 4,
+      "group": "Base",
+      "serial_limit": null,
+      "parallel": "McDonalds Logo Refractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-4",
+      "odds_label": "Base McFlurry",
+      "odds_ratio": "1:1",
+      "odds_denominator": 1,
+      "group": "Base",
+      "serial_limit": null,
+      "parallel": "McFlurry",
+      "anchor": false,
+      "withheld": "Hobby-exclusive but 1:1 specifies occurrence, not independently confirmed number of cards per pack."
+    },
+    {
+      "id": "mcdonalds-5",
+      "odds_label": "Base Aqua Wave",
+      "odds_ratio": "1:4",
+      "odds_denominator": 4,
+      "group": "Base",
+      "serial_limit": 199,
+      "parallel": "Aqua Wave",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-6",
+      "odds_label": "Base Purple",
+      "odds_ratio": "1:5",
+      "odds_denominator": 5,
+      "group": "Base",
+      "serial_limit": 150,
+      "parallel": "Purple",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-7",
+      "odds_label": "Base Red Lava",
+      "odds_ratio": "1:6",
+      "odds_denominator": 6,
+      "group": "Base",
+      "serial_limit": 125,
+      "parallel": "Red Lava",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-8",
+      "odds_label": "Base Purple Lava",
+      "odds_ratio": "1:8",
+      "odds_denominator": 8,
+      "group": "Base",
+      "serial_limit": 99,
+      "parallel": "Purple Lava",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-9",
+      "odds_label": "Base Blue Lava",
+      "odds_ratio": "1:10",
+      "odds_denominator": 10,
+      "group": "Base",
+      "serial_limit": 75,
+      "parallel": "Blue Lava",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-10",
+      "odds_label": "Base Gold",
+      "odds_ratio": "1:15",
+      "odds_denominator": 15,
+      "group": "Base",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-11",
+      "odds_label": "Base Tie-Dye",
+      "odds_ratio": "1:30",
+      "odds_denominator": 30,
+      "group": "Base",
+      "serial_limit": 25,
+      "parallel": "Tie-Dye",
+      "anchor": true
+    },
+    {
+      "id": "mcdonalds-12",
+      "odds_label": "Base Orange",
+      "odds_ratio": "1:50",
+      "odds_denominator": 50,
+      "group": "Base",
+      "serial_limit": 15,
+      "parallel": "Orange",
+      "anchor": true
+    },
+    {
+      "id": "mcdonalds-13",
+      "odds_label": "Base Black",
+      "odds_ratio": "1:75",
+      "odds_denominator": 75,
+      "group": "Base",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": true
+    },
+    {
+      "id": "mcdonalds-14",
+      "odds_label": "Base Red",
+      "odds_ratio": "1:150",
+      "odds_denominator": 150,
+      "group": "Base",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": true
+    },
+    {
+      "id": "mcdonalds-15",
+      "odds_label": "Base Superfractor",
+      "odds_ratio": "1:746",
+      "odds_denominator": 746,
+      "group": "Base",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-16",
+      "odds_label": "Base Black Wave",
+      "odds_ratio": "1:340",
+      "odds_denominator": 340,
+      "group": "Base",
+      "serial_limit": 10,
+      "parallel": "Black Wave",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-17",
+      "odds_label": "Base Red Wave",
+      "odds_ratio": "1:678",
+      "odds_denominator": 678,
+      "group": "Base",
+      "serial_limit": 5,
+      "parallel": "Red Wave",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-18",
+      "odds_label": "High Rises",
+      "odds_ratio": "1:3",
+      "odds_denominator": 3,
+      "group": "High Rises",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false,
+      "withheld": "Shared standard insert also appears in Mega; missing Mega odds/volume prevent a whole-product total."
+    },
+    {
+      "id": "mcdonalds-19",
+      "odds_label": "Top Recruits",
+      "odds_ratio": "1:3",
+      "odds_denominator": 3,
+      "group": "Top Recruits",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false,
+      "withheld": "Shared standard insert also appears in Mega; missing Mega odds/volume prevent a whole-product total."
+    },
+    {
+      "id": "mcdonalds-20",
+      "odds_label": "Prospect Paths",
+      "odds_ratio": "1:5",
+      "odds_denominator": 5,
+      "group": "Prospect Paths",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false,
+      "withheld": "Shared standard insert also appears in Mega; missing Mega odds/volume prevent a whole-product total."
+    },
+    {
+      "id": "mcdonalds-21",
+      "odds_label": "Hype to Legacy",
+      "odds_ratio": "1:9",
+      "odds_denominator": 9,
+      "group": "Hype to Legacy",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false,
+      "withheld": "Shared standard insert also appears in Mega; missing Mega odds/volume prevent a whole-product total."
+    },
+    {
+      "id": "mcdonalds-22",
+      "odds_label": "High Rises Refractor",
+      "odds_ratio": "1:4",
+      "odds_denominator": 4,
+      "group": "High Rises",
+      "serial_limit": null,
+      "parallel": "Refractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-23",
+      "odds_label": "Top Recruits Refractor",
+      "odds_ratio": "1:5",
+      "odds_denominator": 5,
+      "group": "Top Recruits",
+      "serial_limit": null,
+      "parallel": "Refractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-24",
+      "odds_label": "Prospect Paths Refractor",
+      "odds_ratio": "1:8",
+      "odds_denominator": 8,
+      "group": "Prospect Paths",
+      "serial_limit": null,
+      "parallel": "Refractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-25",
+      "odds_label": "Hype to Legacy Refractor",
+      "odds_ratio": "1:15",
+      "odds_denominator": 15,
+      "group": "Hype to Legacy",
+      "serial_limit": null,
+      "parallel": "Refractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-26",
+      "odds_label": "High Rises Gold",
+      "odds_ratio": "1:38",
+      "odds_denominator": 38,
+      "group": "High Rises",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-27",
+      "odds_label": "Top Recruits Gold",
+      "odds_ratio": "1:51",
+      "odds_denominator": 51,
+      "group": "Top Recruits",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-28",
+      "odds_label": "Prospect Paths Gold",
+      "odds_ratio": "1:76",
+      "odds_denominator": 76,
+      "group": "Prospect Paths",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-29",
+      "odds_label": "Hype to Legacy Gold",
+      "odds_ratio": "1:152",
+      "odds_denominator": 152,
+      "group": "Hype to Legacy",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-30",
+      "odds_label": "High Rises Tie-Dye",
+      "odds_ratio": "1:76",
+      "odds_denominator": 76,
+      "group": "High Rises",
+      "serial_limit": 25,
+      "parallel": "Tie-Dye",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-31",
+      "odds_label": "Top Recruits Tie-Dye",
+      "odds_ratio": "1:101",
+      "odds_denominator": 101,
+      "group": "Top Recruits",
+      "serial_limit": 25,
+      "parallel": "Tie-Dye",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-32",
+      "odds_label": "Prospect Paths Tie-Dye",
+      "odds_ratio": "1:152",
+      "odds_denominator": 152,
+      "group": "Prospect Paths",
+      "serial_limit": 25,
+      "parallel": "Tie-Dye",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-33",
+      "odds_label": "Hype to Legacy Tie-Dye",
+      "odds_ratio": "1:303",
+      "odds_denominator": 303,
+      "group": "Hype to Legacy",
+      "serial_limit": 25,
+      "parallel": "Tie-Dye",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-34",
+      "odds_label": "High Rises Red",
+      "odds_ratio": "1:379",
+      "odds_denominator": 379,
+      "group": "High Rises",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-35",
+      "odds_label": "Top Recruits Red",
+      "odds_ratio": "1:503",
+      "odds_denominator": 503,
+      "group": "Top Recruits",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-36",
+      "odds_label": "Prospect Paths Red",
+      "odds_ratio": "1:754",
+      "odds_denominator": 754,
+      "group": "Prospect Paths",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-37",
+      "odds_label": "Hype to Legacy Red",
+      "odds_ratio": "1:1507",
+      "odds_denominator": 1507,
+      "group": "Hype to Legacy",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-38",
+      "odds_label": "High Rises SuperFractor",
+      "odds_ratio": "1:1855",
+      "odds_denominator": 1855,
+      "group": "High Rises",
+      "serial_limit": 1,
+      "parallel": "SuperFractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-39",
+      "odds_label": "Top Recruits SuperFractor",
+      "odds_ratio": "1:2495",
+      "odds_denominator": 2495,
+      "group": "Top Recruits",
+      "serial_limit": 1,
+      "parallel": "SuperFractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-40",
+      "odds_label": "Prospect Paths SuperFractor",
+      "odds_ratio": "1:3617",
+      "odds_denominator": 3617,
+      "group": "Prospect Paths",
+      "serial_limit": 1,
+      "parallel": "SuperFractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-41",
+      "odds_label": "Hype to Legacy SuperFractor",
+      "odds_ratio": "1:7234",
+      "odds_denominator": 7234,
+      "group": "Hype to Legacy",
+      "serial_limit": 1,
+      "parallel": "SuperFractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-42",
+      "odds_label": "BillBoard Ink Refractor",
+      "odds_ratio": "1:9",
+      "odds_denominator": 9,
+      "group": "BillBoard Ink",
+      "serial_limit": null,
+      "parallel": "Refractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-43",
+      "odds_label": "BillBoard Ink Green",
+      "odds_ratio": "1:20",
+      "odds_denominator": 20,
+      "group": "BillBoard Ink",
+      "serial_limit": 99,
+      "parallel": "Green",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-44",
+      "odds_label": "BillBoard Ink MCD Logo Refractor",
+      "odds_ratio": "1:26",
+      "odds_denominator": 26,
+      "group": "BillBoard Ink",
+      "serial_limit": 75,
+      "parallel": "MCD Logo Refractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-45",
+      "odds_label": "BillBoard Ink Gold",
+      "odds_ratio": "1:39",
+      "odds_denominator": 39,
+      "group": "BillBoard Ink",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-46",
+      "odds_label": "BillBoard Ink Tie-Dye",
+      "odds_ratio": "1:77",
+      "odds_denominator": 77,
+      "group": "BillBoard Ink",
+      "serial_limit": 25,
+      "parallel": "Tie-Dye",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-47",
+      "odds_label": "BillBoard Ink Orange",
+      "odds_ratio": "1:127",
+      "odds_denominator": 127,
+      "group": "BillBoard Ink",
+      "serial_limit": 15,
+      "parallel": "Orange",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-48",
+      "odds_label": "BillBoard Ink Black",
+      "odds_ratio": "1:191",
+      "odds_denominator": 191,
+      "group": "BillBoard Ink",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-49",
+      "odds_label": "BillBoard Ink Red",
+      "odds_ratio": "1:381",
+      "odds_denominator": 381,
+      "group": "BillBoard Ink",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-50",
+      "odds_label": "BillBoard Ink SuperFractor",
+      "odds_ratio": "1:1904",
+      "odds_denominator": 1904,
+      "group": "BillBoard Ink",
+      "serial_limit": 1,
+      "parallel": "SuperFractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-51",
+      "odds_label": "Event Autogrpahs",
+      "odds_ratio": "1:6",
+      "odds_denominator": 6,
+      "group": "Event Autogrpahs",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false,
+      "withheld": "Event autographs can be distributed at the game; Hobby odds alone do not establish the complete event-card population."
+    },
+    {
+      "id": "mcdonalds-52",
+      "odds_label": "Golden Patch Autographs Tie-Dye",
+      "odds_ratio": "1:77",
+      "odds_denominator": 77,
+      "group": "Golden Patch Autographs",
+      "serial_limit": 25,
+      "parallel": "Tie-Dye",
+      "anchor": false,
+      "serial_is_maximum": true
+    },
+    {
+      "id": "mcdonalds-53",
+      "odds_label": "Golden Patch Autographs Adidas",
+      "odds_ratio": "1:1904",
+      "odds_denominator": 1904,
+      "group": "Golden Patch Autographs",
+      "serial_limit": 1,
+      "parallel": "Adidas",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-54",
+      "odds_label": "Golden Patch Autographs MCD Logo Refractor",
+      "odds_ratio": "1:1904",
+      "odds_denominator": 1904,
+      "group": "Golden Patch Autographs",
+      "serial_limit": 1,
+      "parallel": "MCD Logo Refractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-55",
+      "odds_label": "Legends Autographs Refractor",
+      "odds_ratio": "1:91",
+      "odds_denominator": 91,
+      "group": "Legends Autographs",
+      "serial_limit": null,
+      "parallel": "Refractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-56",
+      "odds_label": "Legends Autographs Green",
+      "odds_ratio": "1:48",
+      "odds_denominator": 48,
+      "group": "Legends Autographs",
+      "serial_limit": 99,
+      "parallel": "Green",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-57",
+      "odds_label": "Legends Autographs MCD Logo Refractor",
+      "odds_ratio": "1:57",
+      "odds_denominator": 57,
+      "group": "Legends Autographs",
+      "serial_limit": 75,
+      "parallel": "MCD Logo Refractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-58",
+      "odds_label": "Legends Autographs Gold",
+      "odds_ratio": "1:86",
+      "odds_denominator": 86,
+      "group": "Legends Autographs",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-59",
+      "odds_label": "Legends Autographs Tie-Dye",
+      "odds_ratio": "1:171",
+      "odds_denominator": 171,
+      "group": "Legends Autographs",
+      "serial_limit": 25,
+      "parallel": "Tie-Dye",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-60",
+      "odds_label": "Legends Autographs Orange",
+      "odds_ratio": "1:284",
+      "odds_denominator": 284,
+      "group": "Legends Autographs",
+      "serial_limit": 15,
+      "parallel": "Orange",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-61",
+      "odds_label": "Legends Autographs Black",
+      "odds_ratio": "1:426",
+      "odds_denominator": 426,
+      "group": "Legends Autographs",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-62",
+      "odds_label": "Legends Autographs Red",
+      "odds_ratio": "1:804",
+      "odds_denominator": 804,
+      "group": "Legends Autographs",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-63",
+      "odds_label": "Legends Autographs SuperFractor",
+      "odds_ratio": "1:4019",
+      "odds_denominator": 4019,
+      "group": "Legends Autographs",
+      "serial_limit": 1,
+      "parallel": "SuperFractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-64",
+      "odds_label": "Winning Tags Refractor",
+      "odds_ratio": "1:9",
+      "odds_denominator": 9,
+      "group": "Winning Tags",
+      "serial_limit": null,
+      "parallel": "Refractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-65",
+      "odds_label": "Winning Tags Green",
+      "odds_ratio": "1:20",
+      "odds_denominator": 20,
+      "group": "Winning Tags",
+      "serial_limit": 99,
+      "parallel": "Green",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-66",
+      "odds_label": "Winning Tags MCD Logo Refractor",
+      "odds_ratio": "1:26",
+      "odds_denominator": 26,
+      "group": "Winning Tags",
+      "serial_limit": 75,
+      "parallel": "MCD Logo Refractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-67",
+      "odds_label": "Winning Tags Gold",
+      "odds_ratio": "1:39",
+      "odds_denominator": 39,
+      "group": "Winning Tags",
+      "serial_limit": 50,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-68",
+      "odds_label": "Winning Tags Tie-Dye",
+      "odds_ratio": "1:77",
+      "odds_denominator": 77,
+      "group": "Winning Tags",
+      "serial_limit": 25,
+      "parallel": "Tie-Dye",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-69",
+      "odds_label": "Winning Tags Orange",
+      "odds_ratio": "1:127",
+      "odds_denominator": 127,
+      "group": "Winning Tags",
+      "serial_limit": 15,
+      "parallel": "Orange",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-70",
+      "odds_label": "Winning Tags Black",
+      "odds_ratio": "1:191",
+      "odds_denominator": 191,
+      "group": "Winning Tags",
+      "serial_limit": 10,
+      "parallel": "Black",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-71",
+      "odds_label": "Winning Tags Red",
+      "odds_ratio": "1:381",
+      "odds_denominator": 381,
+      "group": "Winning Tags",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-72",
+      "odds_label": "Winning Tags SuperFractor",
+      "odds_ratio": "1:1904",
+      "odds_denominator": 1904,
+      "group": "Winning Tags",
+      "serial_limit": 1,
+      "parallel": "SuperFractor",
+      "anchor": false
+    },
+    {
+      "id": "mcdonalds-73",
+      "odds_label": "All-American Drip",
+      "odds_ratio": "1:48",
+      "odds_denominator": 48,
+      "group": "All-American Drip",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    }
+  ],
+  "withheld": [
+    {
+      "group": "Concrete Canvas and Mega RayWave editions",
+      "reason": "Mega-exclusive cards have no odds in the official Hobby-only sheet. No format volume or counts are guessed."
+    }
+  ]
+}

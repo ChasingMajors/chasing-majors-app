@@ -13,6 +13,7 @@ function calculate(input) {
     positive(row.odds_denominator, 'pack odds');
     positive(input.groups[row.group]?.subjects, 'checklist size');
     if (row.serial_limit !== null) positive(row.serial_limit, 'serial limit');
+    if (row.serial_is_maximum !== undefined && (row.serial_is_maximum !== true || row.serial_limit === null)) throw new Error('Invalid serial maximum');
   }
   const anchors = input.odds_rows.filter(row => row.anchor).map(row => {
     const group = input.groups[row.group];
@@ -37,15 +38,16 @@ function calculate(input) {
     const rawEstimate = numbered ? r.serial_limit : packs/r.odds_denominator/group.subjects;
     const value = numbered ? rawEstimate : Math.max(1,Math.round(rawEstimate/roundTo)*roundTo);
     const name = group.name+(r.parallel?' — '+r.parallel:'');
-    const kind = numbered ? 'serial_limit' : group.category==='Autograph' ? 'average' : 'estimate';
+    const kind = numbered ? (r.serial_is_maximum ? 'upper_bound' : 'serial_limit') : group.category==='Autograph' ? 'average' : 'estimate';
     const raw = {code:input.code,setType:group.category==='Autograph'?'Auto':group.category==='Base'?'Parallel':group.category,
       setLine:name,printRun:value,serial:numbered?'/'+r.serial_limit:'',subSetSize:group.subjects,
-      notes:numbered?'Nominal numbered serial limit per card. Subject coverage and copies reaching packs can vary.':
+      notes:numbered?(r.serial_is_maximum?'Maximum nominal numbered ceiling per card; individual subjects may be numbered lower or omitted. Not an estimated packed count.':'Nominal numbered serial limit per card. Subject coverage and copies reaching packs can vary.'):
         `Estimated ${kind==='average'?'checklist average':'copies per card'} from ${packs} inferred format packs / ${r.odds_denominator} pack odds / ${group.subjects} checklist subjects; rounded to nearest ${roundTo}. Assumes selected serial anchors are substantially packed. Not manufacturer-confirmed; subject availability can vary.`,cmURL:input.sources.odds_url};
     const row = model.row(raw,input.code,i+1);
     if (group.category==="Variation") row.category="Variations";
     row.id=input.code+':odds:'+r.id;
     row.measurement={value,kind,unit:'cards',scope:'per_card'};
+    if (r.serial_is_maximum) Object.assign(row.measurement,{basis:'nominal_serial_ceiling',upper_bound:value});
     row.calculation={odds_denominator:r.odds_denominator,checklist_subjects:group.subjects,
       unrounded_estimate:numbered?null:rawEstimate,estimated_packs:numbered?null:packs};
     row.source={url:input.sources.odds_url,checklist_url:input.sources.checklist_url,serial_reference_url:input.sources.serial_reference_url};
