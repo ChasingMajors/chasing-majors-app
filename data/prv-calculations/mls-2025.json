@@ -1,0 +1,2925 @@
+{
+  "schema_version": 2,
+  "code": "2025_Topps_Chrome_MLS_Soccer",
+  "meta": {
+    "code": "2025_Topps_Chrome_MLS_Soccer",
+    "displayName": "2025 Topps Chrome MLS Soccer",
+    "keywords": "Chrome MLS Soccer topps chrome mls mls chrome mls",
+    "source_key": "2025-26",
+    "year": "2025",
+    "manufacturer": "Topps",
+    "product": "Chrome MLS Soccer",
+    "sport": "soccer"
+  },
+  "sources": {
+    "odds_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_MLS_Chrome_Odds.pdf?v=1777050150",
+    "checklist_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Chrome_MLS_2025_Checklist.pdf?v=1787962193",
+    "mania_checklist_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/Topps_Chrome_MLS_2025_Mania_Checklist.pdf?v=1787962413",
+    "serial_reference_url": "https://www.checklistinsider.com/2025-topps-chrome-mls-soccer",
+    "mania_product_url": "https://www.topps.com/products/topps-chrome-mls-2025-mania-box",
+    "reviewed_date": "2026-10-16",
+    "odds_sha256": "31a967fe90427c3c35e2eca4b392330a4f01bcad61d430fabf730889c6cd5d01",
+    "checklist_sha256": "29c0267fcfa424bf98bb0567318dfe487d932c17282b53e020c595d28c7cda26",
+    "mania-checklist_sha256": "37e03706cc215c3785c01155bb33f522b906a0756ac7d4d0575b6d86c54f80a4"
+  },
+  "formats": [
+    "Hobby main",
+    "Value",
+    "Hanger",
+    "Mania regular",
+    "Sapphire separate product",
+    "Hobby 1995 bonus",
+    "Mania encased autographs"
+  ],
+  "method": {
+    "name": "multiformat_bounded_serial_anchors_v1",
+    "anchor_tolerance": 0.03,
+    "max_relative_width": 0.1,
+    "pack_scale": 1000000,
+    "assumptions": "Only the separate 1995 bonus-pack pool is calibrated, using five non-autograph /50-/5 tiers with odds denominators >=20. Black has 29 eligible cards: Messi NF-23 is excluded. Conditional on selected serial ceilings substantially reaching bonus packs. Main-pack base and retail Mini Diamonds do not reconcile within 3%; no main/Mania/Sapphire estimates published. Bonus and encased pools are independent, not treated as regular Hobby packs. Range is conditional sensitivity, not a confidence interval. All other rows are reviewed nominal serial limits."
+  },
+  "anchors": [
+    {
+      "label": "Topps 1995 Gold",
+      "subjects": 30,
+      "serial_limit": 50,
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        23,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "label": "Topps 1995 Pearl",
+      "subjects": 30,
+      "serial_limit": 30,
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        39,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "label": "Topps 1995 Orange",
+      "subjects": 30,
+      "serial_limit": 25,
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        47,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "label": "Topps 1995 Black",
+      "subjects": 29,
+      "serial_limit": 10,
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        116,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "label": "Topps 1995 Red",
+      "subjects": 30,
+      "serial_limit": 5,
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        231,
+        null
+      ],
+      "page": 1
+    }
+  ],
+  "records": [
+    {
+      "id": "mls-1",
+      "name": "Base \u2014 Pink Mini Diamonds",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 250,
+      "odds_label": "Base Cards Pink Mini Diamonds",
+      "odds": [
+        null,
+        27,
+        7,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-2",
+      "name": "Base \u2014 Aqua",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 199,
+      "odds_label": "Base Cards Aqua",
+      "odds": [
+        18,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-3",
+      "name": "Base \u2014 Aqua Mini Diamonds",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 199,
+      "odds_label": "Base Cards Aqua Mini Diamonds",
+      "odds": [
+        null,
+        30,
+        9,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-4",
+      "name": "Base \u2014 Blue",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 150,
+      "odds_label": "Base Cards Blue",
+      "odds": [
+        23,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-5",
+      "name": "Base \u2014 Blue Mini Diamonds",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 150,
+      "odds_label": "Base Cards Blue Mini Diamonds",
+      "odds": [
+        null,
+        38,
+        14,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-6",
+      "name": "Base \u2014 Green",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 99,
+      "odds_label": "Base Cards Green",
+      "odds": [
+        38,
+        null,
+        null,
+        2,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-7",
+      "name": "Base \u2014 Green Mini Diamonds",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 99,
+      "odds_label": "Base Cards Green Mini Diamonds",
+      "odds": [
+        null,
+        61,
+        18,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-8",
+      "name": "Base \u2014 Purple",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 75,
+      "odds_label": "Base Cards Purple",
+      "odds": [
+        49,
+        null,
+        null,
+        3,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-9",
+      "name": "Base \u2014 Purple Mini Diamonds",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 75,
+      "odds_label": "Base Cards Purple Mini Diamonds",
+      "odds": [
+        null,
+        76,
+        26,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-10",
+      "name": "Base \u2014 Purple Wave",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 75,
+      "odds_label": "Base Cards Purple Wave",
+      "odds": [
+        49,
+        null,
+        null,
+        3,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-11",
+      "name": "Base \u2014 Gold",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 50,
+      "odds_label": "Base Cards Gold",
+      "odds": [
+        75,
+        null,
+        null,
+        3,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-12",
+      "name": "Base \u2014 Gold Mini Diamonds",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 50,
+      "odds_label": "Base Cards Gold Mini Diamonds",
+      "odds": [
+        null,
+        117,
+        34,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-13",
+      "name": "Base \u2014 Gold Wave",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 50,
+      "odds_label": "Base Cards Gold Wave",
+      "odds": [
+        75,
+        null,
+        null,
+        3,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-14",
+      "name": "Base \u2014 Pearl",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 30,
+      "odds_label": "Base Cards Pearl",
+      "odds": [
+        126,
+        null,
+        null,
+        5,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-15",
+      "name": "Base \u2014 Orange",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 25,
+      "odds_label": "Base Cards Orange",
+      "odds": [
+        151,
+        null,
+        null,
+        6,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-16",
+      "name": "Base \u2014 Orange Mini Diamonds",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 25,
+      "odds_label": "Base Cards Orange Mini Diamonds",
+      "odds": [
+        null,
+        250,
+        70,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-17",
+      "name": "Base \u2014 Orange Wave",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 25,
+      "odds_label": "Base Cards Orange Wave",
+      "odds": [
+        151,
+        null,
+        null,
+        6,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-18",
+      "name": "Base \u2014 Black",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 10,
+      "odds_label": "Base Cards Black",
+      "odds": [
+        386,
+        null,
+        null,
+        11,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-19",
+      "name": "Base \u2014 Black Mini Diamonds",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 10,
+      "odds_label": "Base Cards Black Mini Diamonds",
+      "odds": [
+        null,
+        661,
+        156,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-20",
+      "name": "Base \u2014 Black Wave",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 10,
+      "odds_label": "Base Cards Black Wave",
+      "odds": [
+        386,
+        null,
+        null,
+        11,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-21",
+      "name": "Base \u2014 Red",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 5,
+      "odds_label": "Base Cards Red",
+      "odds": [
+        729,
+        null,
+        null,
+        41,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-22",
+      "name": "Base \u2014 Red Mini Diamonds",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 5,
+      "odds_label": "Base Cards Red Mini Diamonds",
+      "odds": [
+        null,
+        1132,
+        434,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-23",
+      "name": "Base \u2014 Red Wave",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 5,
+      "odds_label": "Base Cards Red Wave",
+      "odds": [
+        729,
+        null,
+        null,
+        41,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-24",
+      "name": "Base \u2014 Superfractor",
+      "category": "Parallels",
+      "kind": "serial_limit",
+      "subjects": 200,
+      "serial_limit": 1,
+      "odds_label": "Base Cards Superfractor",
+      "odds": [
+        6657,
+        19513,
+        7139,
+        58,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-25",
+      "name": "Base Super Short Prints",
+      "category": "Variations",
+      "kind": "serial_limit",
+      "subjects": 2,
+      "serial_limit": 50,
+      "odds_label": "Base Card Super Short Prints",
+      "odds": [
+        9283,
+        79268,
+        8522,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-26",
+      "name": "Base Super Short Prints \u2014 Orange",
+      "category": "Variations",
+      "kind": "serial_limit",
+      "subjects": 2,
+      "serial_limit": 25,
+      "odds_label": "Base Card Super Short Prints Orange",
+      "odds": [
+        18307,
+        158536,
+        15827,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-27",
+      "name": "Base Super Short Prints \u2014 Black",
+      "category": "Variations",
+      "kind": "serial_limit",
+      "subjects": 2,
+      "serial_limit": 10,
+      "odds_label": "Base Card Super Short Prints Black",
+      "odds": [
+        47075,
+        396340,
+        36928,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-28",
+      "name": "Base Super Short Prints \u2014 Red",
+      "category": "Variations",
+      "kind": "serial_limit",
+      "subjects": 2,
+      "serial_limit": 5,
+      "odds_label": "Base Card Super Short Prints Red",
+      "odds": [
+        82380,
+        792680,
+        110784,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-29",
+      "name": "Base Super Short Prints \u2014 Superfractor",
+      "category": "Variations",
+      "kind": "serial_limit",
+      "subjects": 2,
+      "serial_limit": 1,
+      "odds_label": "Base Card Super Short Prints Superfractor",
+      "odds": [
+        329520,
+        792680,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-30",
+      "name": "1995 Topps MLS 30 Years Celebration \u2014 Green",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 99,
+      "odds_label": "Topps 1995 Green",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        12,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-31",
+      "name": "1995 Topps MLS 30 Years Celebration \u2014 Purple",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 75,
+      "odds_label": "Topps 1995 Purple",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        16,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-32",
+      "name": "1995 Topps MLS 30 Years Celebration \u2014 Gold",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 50,
+      "odds_label": "Topps 1995 Gold",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        23,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-33",
+      "name": "1995 Topps MLS 30 Years Celebration \u2014 Pearl",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 30,
+      "odds_label": "Topps 1995 Pearl",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        39,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-34",
+      "name": "1995 Topps MLS 30 Years Celebration \u2014 Orange",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 25,
+      "odds_label": "Topps 1995 Orange",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        47,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-35",
+      "name": "1995 Topps MLS 30 Years Celebration \u2014 Black",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 29,
+      "serial_limit": 10,
+      "odds_label": "Topps 1995 Black",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        116,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-36",
+      "name": "1995 Topps MLS 30 Years Celebration \u2014 Red",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 5,
+      "odds_label": "Topps 1995 Red",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        231,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-37",
+      "name": "1995 Topps MLS 30 Years Celebration \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 1,
+      "odds_label": "Topps 1995 Superfractor",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1137,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-38",
+      "name": "Big City Strikers \u2014 Green",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 99,
+      "odds_label": "Big City Strikers Green",
+      "odds": [
+        465,
+        3808,
+        418,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-39",
+      "name": "Big City Strikers \u2014 Purple",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 75,
+      "odds_label": "Big City Strikers Purple",
+      "odds": [
+        614,
+        3002,
+        550,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-40",
+      "name": "Big City Strikers \u2014 Gold",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 50,
+      "odds_label": "Big City Strikers Gold",
+      "odds": [
+        921,
+        7523,
+        827,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-41",
+      "name": "Big City Strikers \u2014 Orange",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 25,
+      "odds_label": "Big City Strikers Orange",
+      "odds": [
+        1841,
+        15230,
+        1636,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 1
+    },
+    {
+      "id": "mls-42",
+      "name": "Big City Strikers \u2014 Black",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 10,
+      "odds_label": "Big City Strikers Black",
+      "odds": [
+        4609,
+        32864,
+        4134,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-43",
+      "name": "Big City Strikers \u2014 Red",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 5,
+      "odds_label": "Big City Strikers Red",
+      "odds": [
+        9283,
+        78050,
+        8726,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-44",
+      "name": "Big City Strikers \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 1,
+      "odds_label": "Big City Strikers Superfractor",
+      "odds": [
+        47075,
+        312200,
+        39264,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-45",
+      "name": "Big City Strikers Skylight Variation \u2014 Superfractor",
+      "category": "Variations",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 1,
+      "odds_label": "Big City Strikers Skylight Variation Superfractor",
+      "odds": [
+        65904,
+        208134,
+        39264,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-46",
+      "name": "Class of Their Own \u2014 Green",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 99,
+      "odds_label": "Class of Their Own Green",
+      "odds": [
+        465,
+        3808,
+        418,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-47",
+      "name": "Class of Their Own \u2014 Purple",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 75,
+      "odds_label": "Class of Their Own Purple",
+      "odds": [
+        614,
+        3002,
+        550,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-48",
+      "name": "Class of Their Own \u2014 Gold",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 50,
+      "odds_label": "Class of Their Own Gold",
+      "odds": [
+        921,
+        7523,
+        827,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-49",
+      "name": "Class of Their Own \u2014 Orange",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 25,
+      "odds_label": "Class of Their Own Orange",
+      "odds": [
+        1841,
+        15230,
+        1636,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-50",
+      "name": "Class of Their Own \u2014 Black",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 10,
+      "odds_label": "Class of Their Own Black",
+      "odds": [
+        4609,
+        32864,
+        4134,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-51",
+      "name": "Class of Their Own \u2014 Red",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 5,
+      "odds_label": "Class of Their Own Red",
+      "odds": [
+        9283,
+        78050,
+        8726,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-52",
+      "name": "Class of Their Own \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 1,
+      "odds_label": "Class of Their Own Superfractor",
+      "odds": [
+        47075,
+        312200,
+        39264,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-53",
+      "name": "Elimination \u2014 Green",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 99,
+      "odds_label": "Elimination Green",
+      "odds": [
+        310,
+        2539,
+        279,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-54",
+      "name": "Elimination \u2014 Purple",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 75,
+      "odds_label": "Elimination Purple",
+      "odds": [
+        409,
+        3002,
+        367,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-55",
+      "name": "Elimination \u2014 Gold",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 50,
+      "odds_label": "Elimination Gold",
+      "odds": [
+        614,
+        4996,
+        550,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-56",
+      "name": "Elimination \u2014 Orange",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 25,
+      "odds_label": "Elimination Orange",
+      "odds": [
+        1228,
+        10071,
+        1107,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-57",
+      "name": "Elimination \u2014 Black",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 10,
+      "odds_label": "Elimination Black",
+      "odds": [
+        3066,
+        23126,
+        2805,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-58",
+      "name": "Elimination \u2014 Red",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 5,
+      "odds_label": "Elimination Red",
+      "odds": [
+        6160,
+        48031,
+        5610,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-59",
+      "name": "Elimination \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 1,
+      "odds_label": "Elimination Superfractor",
+      "odds": [
+        29957,
+        312200,
+        26176,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-60",
+      "name": "Fast Lane \u2014 Green",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 99,
+      "odds_label": "Fast Lane Green",
+      "odds": [
+        310,
+        2539,
+        279,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-61",
+      "name": "Fast Lane \u2014 Purple",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 75,
+      "odds_label": "Fast Lane Purple",
+      "odds": [
+        409,
+        5575,
+        367,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-62",
+      "name": "Fast Lane \u2014 Gold",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 50,
+      "odds_label": "Fast Lane Gold",
+      "odds": [
+        614,
+        4996,
+        550,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-63",
+      "name": "Fast Lane \u2014 Orange",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 25,
+      "odds_label": "Fast Lane Orange",
+      "odds": [
+        1228,
+        10071,
+        1107,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-64",
+      "name": "Fast Lane \u2014 Black",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 10,
+      "odds_label": "Fast Lane Black",
+      "odds": [
+        3066,
+        41627,
+        2805,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-65",
+      "name": "Fast Lane \u2014 Red",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 5,
+      "odds_label": "Fast Lane Red",
+      "odds": [
+        6160,
+        48031,
+        5610,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-66",
+      "name": "Fast Lane \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 1,
+      "odds_label": "Fast Lane Superfractor",
+      "odds": [
+        29957,
+        312200,
+        26176,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-67",
+      "name": "Pearlers \u2014 Cherry Pearl",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 10,
+      "odds_label": "Pearlers Cherry Pearl",
+      "odds": [
+        2305,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-68",
+      "name": "Pearlers \u2014 White Pearl",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 5,
+      "odds_label": "Pearlers White Pearl",
+      "odds": [
+        4609,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-69",
+      "name": "Pearlers \u2014 Golden Pearl",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 1,
+      "odds_label": "Pearlers Golden Pearl",
+      "odds": [
+        22726,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-70",
+      "name": "Helix \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 5,
+      "serial_limit": 1,
+      "odds_label": "Helix Superfractor",
+      "odds": [
+        131808,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-71",
+      "name": "MLS Trophy \u2014 Superfractor",
+      "category": "Inserts",
+      "kind": "serial_limit",
+      "subjects": 1,
+      "serial_limit": 1,
+      "odds_label": "MLS Trophy Superfractor",
+      "odds": [
+        659040,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-72",
+      "name": "Chrome Autographs \u2014 Aqua",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 199,
+      "odds_label": "Chrome Autograph Cards Aqua",
+      "odds": [
+        88,
+        6862,
+        366,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-73",
+      "name": "Chrome Autographs \u2014 Aqua Wave",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 199,
+      "odds_label": "Chrome Autograph Cards Aqua Wave",
+      "odds": [
+        87,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-74",
+      "name": "Chrome Autographs \u2014 Blue",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 150,
+      "odds_label": "Chrome Autograph Cards Blue",
+      "odds": [
+        108,
+        903,
+        397,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-75",
+      "name": "Chrome Autographs \u2014 Blue Wave",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 150,
+      "odds_label": "Chrome Autograph Cards Blue Wave",
+      "odds": [
+        93,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-76",
+      "name": "Chrome Autographs \u2014 Green",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 99,
+      "odds_label": "Chrome Autograph Cards Green",
+      "odds": [
+        129,
+        1086,
+        479,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-77",
+      "name": "Chrome Autographs \u2014 Green Wave",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 99,
+      "odds_label": "Chrome Autograph Cards Green Wave",
+      "odds": [
+        119,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-78",
+      "name": "Chrome Autographs \u2014 Pink X-Fractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 35,
+      "serial_limit": 99,
+      "odds_label": "Chrome Autograph Cards Pink X-Fractor",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        2
+      ],
+      "page": 2
+    },
+    {
+      "id": "mls-79",
+      "name": "Chrome Autographs \u2014 Purple",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 75,
+      "odds_label": "Chrome Autograph Cards Purple",
+      "odds": [
+        156,
+        1307,
+        578,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-80",
+      "name": "Chrome Autographs \u2014 Purple Wave",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 75,
+      "odds_label": "Chrome Autograph Cards Purple Wave",
+      "odds": [
+        136,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-81",
+      "name": "Chrome Autographs \u2014 Gold",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 50,
+      "odds_label": "Chrome Autograph Cards Gold",
+      "odds": [
+        182,
+        2002,
+        893,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-82",
+      "name": "Chrome Autographs \u2014 Gold Wave",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 50,
+      "odds_label": "Chrome Autograph Cards Gold Wave",
+      "odds": [
+        160,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-83",
+      "name": "Chrome Autographs \u2014 Pink Shimmer",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 35,
+      "serial_limit": 50,
+      "odds_label": "Chrome Autograph Cards Pink Shimmer",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        2
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-84",
+      "name": "Chrome Autographs \u2014 Orange",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 25,
+      "odds_label": "Chrome Autograph Cards Orange",
+      "odds": [
+        353,
+        2974,
+        1309,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-85",
+      "name": "Chrome Autographs \u2014 Orange Wave",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 25,
+      "odds_label": "Chrome Autograph Cards Orange Wave",
+      "odds": [
+        301,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-86",
+      "name": "Chrome Autographs \u2014 Pink Pulsar",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 35,
+      "serial_limit": 25,
+      "odds_label": "Chrome Autograph Cards Pink Pulsar",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        3
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-87",
+      "name": "Chrome Autographs \u2014 Black",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 10,
+      "odds_label": "Chrome Autograph Cards Black",
+      "odds": [
+        836,
+        7096,
+        3021,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-88",
+      "name": "Chrome Autographs \u2014 Black Wave",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 10,
+      "odds_label": "Chrome Autograph Cards Black Wave",
+      "odds": [
+        705,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-89",
+      "name": "Chrome Autographs \u2014 Pink",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 35,
+      "serial_limit": 10,
+      "odds_label": "Chrome Autograph Cards Pink",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        6
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-90",
+      "name": "Chrome Autographs \u2014 Red",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 5,
+      "odds_label": "Chrome Autograph Cards Red",
+      "odds": [
+        1656,
+        13876,
+        6041,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-91",
+      "name": "Chrome Autographs \u2014 Red Wave",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 5,
+      "odds_label": "Chrome Autograph Cards Red Wave",
+      "odds": [
+        1409,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-92",
+      "name": "Chrome Autographs \u2014 Superfractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 97,
+      "serial_limit": 1,
+      "odds_label": "Chrome Autograph Cards Superfractor",
+      "odds": [
+        8238,
+        69378,
+        26176,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-93",
+      "name": "MLS Renaissance Autographs \u2014 Gold",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 67,
+      "serial_limit": 10,
+      "odds_label": "MLS Renaissance Autograph Cards Gold",
+      "odds": [
+        1121,
+        null,
+        null,
+        null,
+        null,
+        null,
+        33
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-94",
+      "name": "MLS Renaissance Autographs \u2014 Ruby",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 67,
+      "serial_limit": 5,
+      "odds_label": "MLS Renaissance Autograph Cards Ruby",
+      "odds": [
+        2346,
+        null,
+        null,
+        null,
+        null,
+        null,
+        51
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-95",
+      "name": "MLS Renaissance Autographs \u2014 Platinum",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 67,
+      "serial_limit": 1,
+      "odds_label": "MLS Renaissance Autograph Cards Platinum",
+      "odds": [
+        16899,
+        null,
+        null,
+        null,
+        null,
+        null,
+        76
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-96",
+      "name": "Chrome Dual Autographs \u2014 Orange",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 13,
+      "serial_limit": 25,
+      "odds_label": "Chrome Dual Autograph Cards Orange",
+      "odds": [
+        2680,
+        22300,
+        9816,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-97",
+      "name": "Chrome Dual Autographs \u2014 Black",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 13,
+      "serial_limit": 10,
+      "odds_label": "Chrome Dual Autograph Cards Black",
+      "odds": [
+        6337,
+        78050,
+        26176,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-98",
+      "name": "Chrome Dual Autographs \u2014 Red",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 13,
+      "serial_limit": 5,
+      "odds_label": "Chrome Dual Autograph Cards Red",
+      "odds": [
+        13181,
+        104067,
+        78528,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-99",
+      "name": "Chrome Dual Autographs \u2014 Superfractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 13,
+      "serial_limit": 1,
+      "odds_label": "Chrome Dual Autograph Cards Superfractor",
+      "odds": [
+        59913,
+        312200,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-100",
+      "name": "1995 Topps MLS 30 Years Celebration Autographs",
+      "category": "Autographs",
+      "kind": "average",
+      "subjects": 30,
+      "serial_limit": null,
+      "odds_label": "Topps 1995 Autograph Cards",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        45,
+        null
+      ],
+      "page": 3,
+      "round_to": 1,
+      "proof": {
+        "min_primal": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0341925,
+          0.0
+        ],
+        "min_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -783.3333333333334,
+          -0.0,
+          -0.0
+        ],
+        "max_primal": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.034649200000000005,
+          0.0
+        ],
+        "max_dual": [
+          -0.0,
+          -0.0,
+          -0.0,
+          -747.5555555555557,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "id": "mls-101",
+      "name": "1995 Topps MLS 30 Years Celebration Autographs \u2014 Green",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 99,
+      "odds_label": "Topps 1995 Autograph Cards Green",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        26,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-102",
+      "name": "1995 Topps MLS 30 Years Celebration Autographs \u2014 Purple",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 75,
+      "odds_label": "Topps 1995 Autograph Cards Purple",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        29,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-103",
+      "name": "1995 Topps MLS 30 Years Celebration Autographs \u2014 Gold",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 50,
+      "odds_label": "Topps 1995 Autograph Cards Gold",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        36,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-104",
+      "name": "1995 Topps MLS 30 Years Celebration Autographs \u2014 Pearl",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 30,
+      "odds_label": "Topps 1995 Autograph Cards Pearl",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        47,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-105",
+      "name": "1995 Topps MLS 30 Years Celebration Autographs \u2014 Orange",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 25,
+      "odds_label": "Topps 1995 Autograph Cards Orange",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        56,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-106",
+      "name": "1995 Topps MLS 30 Years Celebration Autographs \u2014 Black",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 10,
+      "odds_label": "Topps 1995 Autograph Cards Black",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        119,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-107",
+      "name": "1995 Topps MLS 30 Years Celebration Autographs \u2014 Red",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 5,
+      "odds_label": "Topps 1995 Autograph Cards Red",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        231,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-108",
+      "name": "1995 Topps MLS 30 Years Celebration Autographs \u2014 Superfractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 30,
+      "serial_limit": 1,
+      "odds_label": "Topps 1995 Autograph Cards Superfractor",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1154,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-109",
+      "name": "MLS Anniversary Autograph Book \u2014 Superfractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 1,
+      "serial_limit": 1,
+      "odds_label": "MLS Anniversary Autograph Book Superfractor",
+      "odds": [
+        659040,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-110",
+      "name": "MLS All-Timers Autographs \u2014 Green",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 99,
+      "odds_label": "MLS All-Timers Autograph Cards Green",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        3
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-111",
+      "name": "MLS All-Timers Autographs \u2014 Purple",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 75,
+      "odds_label": "MLS All-Timers Autograph Cards Purple",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        3
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-112",
+      "name": "MLS All-Timers Autographs \u2014 Gold",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 50,
+      "odds_label": "MLS All-Timers Autograph Cards Gold",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        3
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-113",
+      "name": "MLS All-Timers Autographs \u2014 Orange",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 25,
+      "odds_label": "MLS All-timers Autograph Cards Orange",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        6
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-114",
+      "name": "MLS All-Timers Autographs \u2014 Black",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 10,
+      "odds_label": "MLS All-timers Autograph Cards Black",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        11
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-115",
+      "name": "MLS All-Timers Autographs \u2014 Red",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 5,
+      "odds_label": "MLS All-Timers Autograph Cards Red",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        21
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-116",
+      "name": "MLS All-Timers Autographs \u2014 Superfractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 20,
+      "serial_limit": 1,
+      "odds_label": "MLS All-Timers Autograph Cards Superfractor",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        104
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-117",
+      "name": "Mania Autographs \u2014 Black Prism",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 3,
+      "serial_limit": 10,
+      "odds_label": "Mania Autograph Cards Black Prism",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        70
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-118",
+      "name": "Mania Autographs \u2014 Red Lava",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 3,
+      "serial_limit": 5,
+      "odds_label": "Mania Autograph Cards Red Lava",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        136
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-119",
+      "name": "Mania Autographs \u2014 Black Lava",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 3,
+      "serial_limit": 3,
+      "odds_label": "Mania Autograph Cards Black Lava",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        226
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-120",
+      "name": "Mania Autographs \u2014 Pink Lava",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 3,
+      "serial_limit": 2,
+      "odds_label": "Mania Autograph Cards Pink Lava",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        339
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-121",
+      "name": "Mania Autographs \u2014 Superfractor",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 3,
+      "serial_limit": 1,
+      "odds_label": "Mania Autograph Cards Superfractor",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        667
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-122",
+      "name": "MLS x Apple TV Match Worn Patch",
+      "category": "Relics",
+      "kind": "serial_limit",
+      "subjects": 60,
+      "serial_limit": 1,
+      "odds_label": "MLS x Apple TV Match Worn Patch Cards",
+      "odds": [
+        11171,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-123",
+      "name": "MLS Debut Patch Autographs",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 157,
+      "serial_limit": 1,
+      "odds_label": "MLS Debut Patch Autograph Cards",
+      "odds": [
+        4280,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 3
+    },
+    {
+      "id": "mls-124",
+      "name": "MLS Renaissance Autograph Relics \u2014 Gold",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 2,
+      "serial_limit": 10,
+      "odds_label": "MLS Renaissance Autograph Relic Cards Gold",
+      "odds": [
+        54920,
+        312200,
+        null,
+        null,
+        null,
+        null,
+        677
+      ],
+      "page": 3,
+      "serial_is_maximum": true
+    },
+    {
+      "id": "mls-125",
+      "name": "MLS Renaissance Autograph Relics \u2014 Ruby",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 2,
+      "serial_limit": 5,
+      "odds_label": "MLS Renaissance Autograph Relic Cards Ruby",
+      "odds": [
+        109840,
+        624400,
+        null,
+        null,
+        null,
+        null,
+        1016
+      ],
+      "page": 3,
+      "serial_is_maximum": true
+    },
+    {
+      "id": "mls-126",
+      "name": "MLS Renaissance Autograph Relics \u2014 Platinum",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 2,
+      "serial_limit": 1,
+      "odds_label": "MLS Renaissance Autograph Relic Cards Platinum",
+      "odds": [
+        659040,
+        null,
+        null,
+        null,
+        null,
+        null,
+        2031
+      ],
+      "page": 4
+    },
+    {
+      "id": "mls-127",
+      "name": "MLS Renaissance Autograph MLS Logo Patch \u2014 Platinum",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 1,
+      "serial_limit": 1,
+      "odds_label": "MLS Renaissance Autograph MLS Logo Patch Card Platinum",
+      "odds": [
+        659040,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 4
+    },
+    {
+      "id": "mls-128",
+      "name": "Rookie Arrival Autograph Patch",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 1,
+      "serial_limit": 14,
+      "odds_label": "Rookie Arrival Autograph Patch Cards",
+      "odds": [
+        47075,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 4
+    },
+    {
+      "id": "mls-129",
+      "name": "Rookie Arrival Autograph Patch \u2014 Blue",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 1,
+      "serial_limit": 5,
+      "odds_label": "Rookie Arrival Autograph Patch Cards Blue",
+      "odds": [
+        131808,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 4
+    },
+    {
+      "id": "mls-130",
+      "name": "Rookie Arrival Autograph Patch \u2014 Gold",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 1,
+      "serial_limit": 1,
+      "odds_label": "Rookie Arrival Autograph Patch Card Gold",
+      "odds": [
+        659040,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "page": 4
+    },
+    {
+      "id": "mls-131",
+      "name": "Record Debut Autograph Triple Relic",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 1,
+      "serial_limit": 14,
+      "odds_label": "Record Debut Autograph Triple Relic Cards",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        145
+      ],
+      "page": 4
+    },
+    {
+      "id": "mls-132",
+      "name": "Record Debut Autograph Triple Relic \u2014 Gold",
+      "category": "Autographs",
+      "kind": "serial_limit",
+      "subjects": 1,
+      "serial_limit": 1,
+      "odds_label": "Record Debut Autograph Triple Relic Card Gold",
+      "odds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        2031
+      ],
+      "page": 4
+    }
+  ],
+  "withheld": [
+    {
+      "name": "Base Cards",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Base Cards Refractor",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Base Cards Wave",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Base Cards Prism",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Base Cards Magenta Pulsar",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Base Cards Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Base Cards Mania",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Base Cards Blue Lava",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Base Cards White Lava",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Base Cards Red Lava",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Base Cards Gold Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Base Cards Orange Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Base Cards Black Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Base Cards Red Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Base Cards Frozenfractor",
+      "reason": "Negative /-5 stamp needs explicit representation; not rewritten as positive /5."
+    },
+    {
+      "name": "Base Cards Padparadscha",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Topps 1995",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Big City Strikers",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Big City Strikers Skylight Variation",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Class of Their Own",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Elimination",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Fast Lane",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Fast Lane Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Fast Lane Gold Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Fast Lane Orange Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Fast Lane Black Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Fast Lane Red Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Fast Lane Padparadscha",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Pearlers",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Helix",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "MVP",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "The Grail",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Sapphire Selections",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Sapphire Selections Orange",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Sapphire Selections Black",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Sapphire Selections Red",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Sapphire Selections Superfractor",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Infinite Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Infinite Sapphire Superfractor",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Chrome Autograph Cards",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Chrome Autograph Cards Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Chrome Autograph Cards Gold Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Chrome Autograph Cards Orange Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Chrome Autograph Cards Black Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Chrome Autograph Cards Red Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Chrome Autograph Cards Padparadscha",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "MLS Renaissance Autograph Cards",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Chrome Dual Autograph Cards",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "MLS All-Timers Autograph Cards",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Mania Autograph Cards",
+      "reason": "Main/retail/Mania production calibration does not reconcile within 3%; 1:1 also does not establish multiplicity. Bonus base multiplicity remains unverified."
+    },
+    {
+      "name": "Sapphire Selections Autograph Cards",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Sapphire Selections Autograph Cards Black Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Sapphire Selections Autograph Cards Red Sapphire",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    },
+    {
+      "name": "Sapphire Selections Autograph Cards Superfractor",
+      "reason": "Separate Sapphire product; not merged into Chrome MLS."
+    }
+  ],
+  "checklist_counts": {
+    "BASE CARDS": 200,
+    "BASE CARDS SUPER SHORT PRINTS": 2,
+    "FAST LANE": 30,
+    "ELIMINATION": 30,
+    "CLASS OF THEIR OWN": 20,
+    "BIG CITY STRIKERS": 20,
+    "BIG CITY STRIKERS SKYLIGHT VARIATION": 20,
+    "TOPPS 1995": 30,
+    "PEARLERS": 30,
+    "HELIX": 5,
+    "MVP": 1,
+    "THE GRAIL": 1,
+    "MLS TROPHY": 1,
+    "CHROME AUTOGRAPH CARDS": 97,
+    "CHROME DUAL AUTOGRAPH CARDS": 13,
+    "MLS ANNIVERSARY AUTOGRAPH BOOK CARD": 1,
+    "TOPPS 1995 AUTOGRAPH VARIATION": 30,
+    "MLS RENAISSANCE AUTOGRAPHS": 67,
+    "MLS X APPLE TV PATCH CARDS": 60,
+    "MLS RENAISSANCE AUTOGRAPHED RELICS": 2,
+    "MLS RENAISSANCE AUTOGRAPHED MLS LOGO PATCH": 1,
+    "ROOKIE ARRIVAL AUTOGRAPHED PATCH CARDS": 1,
+    "MLS DEBUT PATCH AUTOGRAPH CARDS": 157,
+    "MANIA BASE CARDS": 200,
+    "MANIA CHROME AUTOGRAPH CARDS": 35,
+    "MANIA MLS RENAISSANCE AUTOGRAPHS": 67,
+    "MANIA MANIA AUTOGRAPHS": 3,
+    "MANIA MLS ALL-TIMERS AUTOGRAPHS": 20,
+    "MANIA MLS RENAISSANCE AUTOGRAPHED RELICS": 2,
+    "MANIA RECORD DEBUT AUTOGRAPHED TRIPLE RELIC CARDS": 1
+  }
+}

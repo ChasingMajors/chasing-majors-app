@@ -30,6 +30,7 @@ function calculate(input){
   const rows=input.records.map((r,i)=>{
     if(seen.has(r.id))throw Error('Duplicate calculated record');seen.add(r.id);
     if(!r.name||!Number.isInteger(r.subjects)||r.subjects<=0||r.odds.length!==s.n||r.odds.some(d=>d!==null&&(!Number.isFinite(d)||d<=0)))throw Error('Invalid mapped odds record');
+    if(r.serial_is_maximum!==undefined&&(r.serial_is_maximum!==true||r.kind!=='serial_limit'))throw Error('Invalid serial maximum');
     let value,lower=null,upper=null,unrounded=null;
     if(r.kind==='serial_limit'){
       if(!Number.isInteger(r.serial_limit)||r.serial_limit<=0)throw Error('Invalid serial limit');
@@ -48,7 +49,8 @@ function calculate(input){
       notes:numbered?'Nominal serial limit per card, not a verified count reaching packs.':`Estimated ${r.kind==='average'?'checklist average':'copies per card'} from reconciled format odds. Model range ${lower.toFixed(3)}–${upper.toFixed(3)} per card; rounded midpoint, nearest ${r.round_to}. Conditional on reviewed serial anchors and 3% model tolerance; not a confidence interval or manufacturer-confirmed total.`,cmURL:input.sources.odds_url};
     const row=model.row(raw,input.code,i+1);
     row.id=input.code+':multiformat:'+r.id;row.category=r.category;
-    row.measurement={value,kind:r.kind,unit:'cards',scope:'per_card',lower_bound:lower,upper_bound:upper};
+    row.measurement={value,kind:r.serial_is_maximum?'upper_bound':r.kind,unit:'cards',scope:'per_card',lower_bound:lower,upper_bound:r.serial_is_maximum?value:upper};
+    if(r.serial_is_maximum){row.measurement.basis='nominal_serial_ceiling';row.notes=row.raw.notes='Maximum nominal serial ceiling per card; subjects can be numbered lower or omitted. Not an estimated packed count.';}
     row.calculation={method:input.method.name,odds_label:r.odds_label,odds_by_format:r.odds,subjects:r.subjects,unrounded_estimate:unrounded,round_to:r.round_to||null,source_page:r.page};
     row.source={url:input.sources.odds_url,checklist_url:input.sources.checklist_url,serial_reference_url:input.sources.serial_reference_url};
     return row;
