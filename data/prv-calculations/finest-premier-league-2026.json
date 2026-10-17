@@ -1,0 +1,1455 @@
+{
+  "schema_version": 1,
+  "code": "2026_Topps_Finest_Premier_League_Soccer",
+  "meta": {
+    "code": "2026_Topps_Finest_Premier_League_Soccer",
+    "displayName": "2026 Topps Finest Premier League Soccer",
+    "keywords": "2026 Topps Finest Premier League Soccer, 2026 Topps Finest EPL Soccer, 2026 Topps Finest Premier League, 2026 Topps Finest EPL, 2026 Topps Finest Soccer, 26 Topps Finest Premier League Soccer, 26 Topps Finest EPL Soccer, 26 Topps Finest Premier League, 26 Topps Finest EPL, Topps Finest Premier League Soccer, Topps Finest EPL Soccer, Topps Finest Premier League, Topps Finest EPL, Premier League Finest Soccer, EPL Finest Soccer, Topps Finest checklist, Finest checklist, Topps Finest Premier League checklist, 2026 Topps Finest checklist, 2025-26 Topps Finest Premier League Soccer, 2025-26 Topps Finest EPL Soccer",
+    "source_key": "2025-26",
+    "year": "2026",
+    "manufacturer": "Topps",
+    "product": "Finest Premier League",
+    "sport": "soccer"
+  },
+  "sources": {
+    "odds_url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/PL_FINEST_ODDS_Official.pdf?v=1774262754",
+    "checklist_url": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/Finest_Premier_League_Checklist.pdf?v=1774359572",
+    "serial_reference_url": "https://www.checklistinsider.com/topps-finest-premier-league",
+    "product_url": "https://www.topps.com/pages/topps-finest-premier-league",
+    "reviewed_date": "2026-10-16",
+    "odds_sha256": "348c236cd217734635e1c7a85356ecc925e9ec770dbfeffa0dea664283b89d5c",
+    "checklist_sha256": "c1f073945ae930fbed41f3c740f526908c52d586d79c54139c10aaeaf60b9592"
+  },
+  "method": {
+    "max_anchor_spread": 0.05,
+    "round_estimates_to": 1,
+    "calibration": "All 100-card non-autograph tier-specific numbered base rows with denominator >=20 and serial >1 are calibration anchors. Common, Uncommon and Rare limits are mapped independently. Conditional on selected complete numbered tiers substantially reaching Hobby packs. Median implied packs; maximum spread 5%. Rounded estimates to nearest one. No autograph or 1/1 calibration. Common insert aggregate 2:1 is withheld because FIVE THEMES conflicts with four official checklist themes; their numbered limits only are expanded by theme.",
+    "excluded_from_calibration": "Low-denominator tiers, 1/1s, autographs and inserts."
+  },
+  "groups": {
+    "COMMON BASE CARD": {
+      "name": "Base Common",
+      "category": "Base",
+      "subjects": 100
+    },
+    "UNCOMMON BASE CARD": {
+      "name": "Base Uncommon",
+      "category": "Base",
+      "subjects": 100
+    },
+    "RARE BASE CARD": {
+      "name": "Base Rare",
+      "category": "Base",
+      "subjects": 100
+    },
+    "SWERVE - FUSION VARIATION": {
+      "name": "Swerve Fusion Variation",
+      "category": "Insert",
+      "subjects": 40
+    },
+    "NIGHTMARE FUEL": {
+      "name": "Nightmare Fuel",
+      "category": "Insert",
+      "subjects": 20
+    },
+    "GUSTO": {
+      "name": "Gusto",
+      "category": "Insert",
+      "subjects": 20
+    },
+    "MAIN ATTRACTION": {
+      "name": "Main Attraction",
+      "category": "Insert",
+      "subjects": 20
+    },
+    "POLKA": {
+      "name": "Polka",
+      "category": "Insert",
+      "subjects": 20
+    },
+    "AURA": {
+      "name": "Aura",
+      "category": "Insert",
+      "subjects": 20
+    },
+    "HEADLINERS": {
+      "name": "Headliners",
+      "category": "Insert",
+      "subjects": 10
+    },
+    "FINEST IDOLS": {
+      "name": "Finest Idols",
+      "category": "Insert",
+      "subjects": 5
+    },
+    "FINEST AUTOGRAPHS": {
+      "name": "Finest Autographs",
+      "category": "Autograph",
+      "subjects": 89
+    },
+    "FINEST MOMENTS AUTOGRAPHS": {
+      "name": "Finest Moments Autographs",
+      "category": "Autograph",
+      "subjects": 24
+    },
+    "FINEST SEASONS - 1996/97": {
+      "name": "Finest Seasons 1995-96 Autographs",
+      "category": "Autograph",
+      "subjects": 15
+    },
+    "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS": {
+      "name": "Finest Partnerships Dual Autographs",
+      "category": "Autograph",
+      "subjects": 15
+    },
+    "ARRIVALS - AUTOGRAPH EDITION": {
+      "name": "Arrivals Autographs",
+      "category": "Autograph",
+      "subjects": 11
+    },
+    "MAIN ATTRACTION - AUTOGRAPH EDITION": {
+      "name": "Main Attraction Autographs",
+      "category": "Autograph",
+      "subjects": 16
+    },
+    "GUSTOGRAPHS": {
+      "name": "Gustographs",
+      "category": "Autograph",
+      "subjects": 15
+    },
+    "FINEST FANS": {
+      "name": "Finest Fans Autographs",
+      "category": "Autograph",
+      "subjects": 12
+    },
+    "Common Inserts Expected Brilliance": {
+      "name": "Expected Brilliance",
+      "category": "Insert",
+      "subjects": 40
+    },
+    "Common Inserts Arrivals": {
+      "name": "Arrivals",
+      "category": "Insert",
+      "subjects": 10
+    },
+    "Common Inserts Clean": {
+      "name": "Clean",
+      "category": "Insert",
+      "subjects": 10
+    },
+    "Common Inserts Swerve": {
+      "name": "Swerve",
+      "category": "Insert",
+      "subjects": 40
+    },
+    "Common Inserts aggregate": {
+      "name": "Common Inserts (combined)",
+      "category": "Insert",
+      "subjects": 100
+    }
+  },
+  "odds_rows": [
+    {
+      "id": "finest-pl-1",
+      "odds_label": "COMMON BASE CARD CHECKERBOARD REFRACTOR",
+      "odds_ratio": "1:3",
+      "odds_denominator": 3,
+      "group": "COMMON BASE CARD",
+      "serial_limit": null,
+      "parallel": "Checkerboard Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-2",
+      "odds_label": "COMMON BASE CARD REFRACTOR",
+      "odds_ratio": "1:9",
+      "odds_denominator": 9,
+      "group": "COMMON BASE CARD",
+      "serial_limit": null,
+      "parallel": "Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-3",
+      "odds_label": "COMMON BASE CARD SATURDAY 3PM REFRACTOR",
+      "odds_ratio": "1:150",
+      "odds_denominator": 150,
+      "group": "COMMON BASE CARD",
+      "serial_limit": null,
+      "parallel": "Saturday 3PM Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-4",
+      "odds_label": "COMMON BASE CARD BLUE REFRACTOR",
+      "odds_ratio": "1:12",
+      "odds_denominator": 12,
+      "group": "COMMON BASE CARD",
+      "serial_limit": 200,
+      "parallel": "Blue Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-5",
+      "odds_label": "COMMON BASE CARD PURPLE CHECKERBOARD",
+      "odds_ratio": "1:16",
+      "odds_denominator": 16,
+      "group": "COMMON BASE CARD",
+      "serial_limit": 150,
+      "parallel": "Purple Checkerboard",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-6",
+      "odds_label": "COMMON BASE CARD BLUE CHECKERBOARD",
+      "odds_ratio": "1:24",
+      "odds_denominator": 24,
+      "group": "COMMON BASE CARD",
+      "serial_limit": 99,
+      "parallel": "Blue Checkerboard",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-7",
+      "odds_label": "COMMON BASE CARD GREEN REFRACTOR",
+      "odds_ratio": "1:31",
+      "odds_denominator": 31,
+      "group": "COMMON BASE CARD",
+      "serial_limit": 75,
+      "parallel": "Green Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-8",
+      "odds_label": "COMMON BASE CARD PEARL CHECKERBOARD",
+      "odds_ratio": "1:39",
+      "odds_denominator": 39,
+      "group": "COMMON BASE CARD",
+      "serial_limit": 60,
+      "parallel": "Pearl Checkerboard",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-9",
+      "odds_label": "COMMON BASE CARD GOLD REFRACTOR",
+      "odds_ratio": "1:46",
+      "odds_denominator": 46,
+      "group": "COMMON BASE CARD",
+      "serial_limit": 50,
+      "parallel": "Gold Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-10",
+      "odds_label": "COMMON BASE CARD ORANGE REFRACTOR",
+      "odds_ratio": "1:92",
+      "odds_denominator": 92,
+      "group": "COMMON BASE CARD",
+      "serial_limit": 25,
+      "parallel": "Orange Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-11",
+      "odds_label": "COMMON BASE CARD BLACK REFRACTOR",
+      "odds_ratio": "1:115",
+      "odds_denominator": 115,
+      "group": "COMMON BASE CARD",
+      "serial_limit": 20,
+      "parallel": "Black Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-12",
+      "odds_label": "COMMON BASE CARD RED REFRACTOR",
+      "odds_ratio": "1:229",
+      "odds_denominator": 229,
+      "group": "COMMON BASE CARD",
+      "serial_limit": 10,
+      "parallel": "Red Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-13",
+      "odds_label": "COMMON BASE CARD SUPERFRACTOR",
+      "odds_ratio": "1:2297",
+      "odds_denominator": 2297,
+      "group": "COMMON BASE CARD",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-14",
+      "odds_label": "UNCOMMON BASE CARD CHECKERBOARD REFRACTOR",
+      "odds_ratio": "1:8",
+      "odds_denominator": 8,
+      "group": "UNCOMMON BASE CARD",
+      "serial_limit": null,
+      "parallel": "Checkerboard Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-15",
+      "odds_label": "UNCOMMON BASE CARD REFRACTOR",
+      "odds_ratio": "1:24",
+      "odds_denominator": 24,
+      "group": "UNCOMMON BASE CARD",
+      "serial_limit": null,
+      "parallel": "Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-16",
+      "odds_label": "UNCOMMON BASE CARD SATURDAY 3PM REFRACTOR",
+      "odds_ratio": "1:316",
+      "odds_denominator": 316,
+      "group": "UNCOMMON BASE CARD",
+      "serial_limit": null,
+      "parallel": "Saturday 3PM Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-17",
+      "odds_label": "UNCOMMON BASE CARD BLUE REFRACTOR",
+      "odds_ratio": "1:16",
+      "odds_denominator": 16,
+      "group": "UNCOMMON BASE CARD",
+      "serial_limit": 150,
+      "parallel": "Blue Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-18",
+      "odds_label": "UNCOMMON BASE CARD PURPLE CHECKERBOARD",
+      "odds_ratio": "1:24",
+      "odds_denominator": 24,
+      "group": "UNCOMMON BASE CARD",
+      "serial_limit": 99,
+      "parallel": "Purple Checkerboard",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-19",
+      "odds_label": "UNCOMMON BASE CARD BLUE CHECKERBOARD",
+      "odds_ratio": "1:31",
+      "odds_denominator": 31,
+      "group": "UNCOMMON BASE CARD",
+      "serial_limit": 75,
+      "parallel": "Blue Checkerboard",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-20",
+      "odds_label": "UNCOMMON BASE CARD GREEN REFRACTOR",
+      "odds_ratio": "1:66",
+      "odds_denominator": 66,
+      "group": "UNCOMMON BASE CARD",
+      "serial_limit": 35,
+      "parallel": "Green Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-21",
+      "odds_label": "UNCOMMON BASE CARD PEARL CHECKERBOARD",
+      "odds_ratio": "1:58",
+      "odds_denominator": 58,
+      "group": "UNCOMMON BASE CARD",
+      "serial_limit": 40,
+      "parallel": "Pearl Checkerboard",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-22",
+      "odds_label": "UNCOMMON BASE CARD GOLD REFRACTOR",
+      "odds_ratio": "1:92",
+      "odds_denominator": 92,
+      "group": "UNCOMMON BASE CARD",
+      "serial_limit": 25,
+      "parallel": "Gold Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-23",
+      "odds_label": "UNCOMMON BASE CARD ORANGE REFRACTOR",
+      "odds_ratio": "1:115",
+      "odds_denominator": 115,
+      "group": "UNCOMMON BASE CARD",
+      "serial_limit": 20,
+      "parallel": "Orange Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-24",
+      "odds_label": "UNCOMMON BASE CARD BLACK REFRACTOR",
+      "odds_ratio": "1:153",
+      "odds_denominator": 153,
+      "group": "UNCOMMON BASE CARD",
+      "serial_limit": 15,
+      "parallel": "Black Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-25",
+      "odds_label": "UNCOMMON BASE CARD RED REFRACTOR",
+      "odds_ratio": "1:458",
+      "odds_denominator": 458,
+      "group": "UNCOMMON BASE CARD",
+      "serial_limit": 5,
+      "parallel": "Red Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-26",
+      "odds_label": "UNCOMMON BASE CARD SUPERFRACTOR",
+      "odds_ratio": "1:2297",
+      "odds_denominator": 2297,
+      "group": "UNCOMMON BASE CARD",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-27",
+      "odds_label": "RARE BASE CARD CHECKERBOARD REFRACTOR",
+      "odds_ratio": "1:16",
+      "odds_denominator": 16,
+      "group": "RARE BASE CARD",
+      "serial_limit": null,
+      "parallel": "Checkerboard Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-28",
+      "odds_label": "RARE BASE CARD REFRACTOR",
+      "odds_ratio": "1:96",
+      "odds_denominator": 96,
+      "group": "RARE BASE CARD",
+      "serial_limit": null,
+      "parallel": "Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-29",
+      "odds_label": "RARE BASE CARD SATURDAY 3PM REFRACTOR",
+      "odds_ratio": "1:790",
+      "odds_denominator": 790,
+      "group": "RARE BASE CARD",
+      "serial_limit": null,
+      "parallel": "Saturday 3PM Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-30",
+      "odds_label": "RARE BASE CARD BLUE REFRACTOR",
+      "odds_ratio": "1:24",
+      "odds_denominator": 24,
+      "group": "RARE BASE CARD",
+      "serial_limit": 99,
+      "parallel": "Blue Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-31",
+      "odds_label": "RARE BASE CARD PURPLE CHECKERBOARD",
+      "odds_ratio": "1:31",
+      "odds_denominator": 31,
+      "group": "RARE BASE CARD",
+      "serial_limit": 75,
+      "parallel": "Purple Checkerboard",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-32",
+      "odds_label": "RARE BASE CARD BLUE CHECKERBOARD",
+      "odds_ratio": "1:47",
+      "odds_denominator": 47,
+      "group": "RARE BASE CARD",
+      "serial_limit": 49,
+      "parallel": "Blue Checkerboard",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-33",
+      "odds_label": "RARE BASE CARD GREEN REFRACTOR",
+      "odds_ratio": "1:92",
+      "odds_denominator": 92,
+      "group": "RARE BASE CARD",
+      "serial_limit": 25,
+      "parallel": "Green Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-34",
+      "odds_label": "RARE BASE CARD PEARL CHECKERBOARD",
+      "odds_ratio": "1:77",
+      "odds_denominator": 77,
+      "group": "RARE BASE CARD",
+      "serial_limit": 30,
+      "parallel": "Pearl Checkerboard",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-35",
+      "odds_label": "RARE BASE CARD GOLD REFRACTOR",
+      "odds_ratio": "1:115",
+      "odds_denominator": 115,
+      "group": "RARE BASE CARD",
+      "serial_limit": 20,
+      "parallel": "Gold Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-36",
+      "odds_label": "RARE BASE CARD ORANGE REFRACTOR",
+      "odds_ratio": "1:153",
+      "odds_denominator": 153,
+      "group": "RARE BASE CARD",
+      "serial_limit": 15,
+      "parallel": "Orange Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-37",
+      "odds_label": "RARE BASE CARD BLACK REFRACTOR",
+      "odds_ratio": "1:229",
+      "odds_denominator": 229,
+      "group": "RARE BASE CARD",
+      "serial_limit": 10,
+      "parallel": "Black Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-38",
+      "odds_label": "RARE BASE CARD RED REFRACTOR",
+      "odds_ratio": "1:763",
+      "odds_denominator": 763,
+      "group": "RARE BASE CARD",
+      "serial_limit": 3,
+      "parallel": "Red Refractor",
+      "anchor": true
+    },
+    {
+      "id": "finest-pl-39",
+      "odds_label": "RARE BASE CARD SUPERFRACTOR",
+      "odds_ratio": "1:2297",
+      "odds_denominator": 2297,
+      "group": "RARE BASE CARD",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-40",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) BASE",
+      "odds_ratio": "2:1",
+      "odds_denominator": 0.5,
+      "group": "Common Inserts aggregate",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false,
+      "withheld": "Source says FIVE THEMES, but official checklist has four common insert themes totaling 100 cards. Aggregate 2:1 is preserved, not applied separately to each theme; production allocation withheld pending reconciliation."
+    },
+    {
+      "id": "finest-pl-41",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) GOLD REFRACTOR",
+      "odds_ratio": "1:46",
+      "odds_denominator": 46,
+      "group": "Common Inserts Expected Brilliance",
+      "serial_limit": 50,
+      "parallel": "Gold Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-42",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) GOLD REFRACTOR",
+      "odds_ratio": "1:46",
+      "odds_denominator": 46,
+      "group": "Common Inserts Arrivals",
+      "serial_limit": 50,
+      "parallel": "Gold Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-43",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) GOLD REFRACTOR",
+      "odds_ratio": "1:46",
+      "odds_denominator": 46,
+      "group": "Common Inserts Clean",
+      "serial_limit": 50,
+      "parallel": "Gold Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-44",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) GOLD REFRACTOR",
+      "odds_ratio": "1:46",
+      "odds_denominator": 46,
+      "group": "Common Inserts Swerve",
+      "serial_limit": 50,
+      "parallel": "Gold Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-45",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) ORANGE REFRACTOR",
+      "odds_ratio": "1:92",
+      "odds_denominator": 92,
+      "group": "Common Inserts Expected Brilliance",
+      "serial_limit": 25,
+      "parallel": "Orange Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-46",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) ORANGE REFRACTOR",
+      "odds_ratio": "1:92",
+      "odds_denominator": 92,
+      "group": "Common Inserts Arrivals",
+      "serial_limit": 25,
+      "parallel": "Orange Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-47",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) ORANGE REFRACTOR",
+      "odds_ratio": "1:92",
+      "odds_denominator": 92,
+      "group": "Common Inserts Clean",
+      "serial_limit": 25,
+      "parallel": "Orange Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-48",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) ORANGE REFRACTOR",
+      "odds_ratio": "1:92",
+      "odds_denominator": 92,
+      "group": "Common Inserts Swerve",
+      "serial_limit": 25,
+      "parallel": "Orange Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-49",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) BLACK REFRACTOR",
+      "odds_ratio": "1:229",
+      "odds_denominator": 229,
+      "group": "Common Inserts Expected Brilliance",
+      "serial_limit": 10,
+      "parallel": "Black Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-50",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) BLACK REFRACTOR",
+      "odds_ratio": "1:229",
+      "odds_denominator": 229,
+      "group": "Common Inserts Arrivals",
+      "serial_limit": 10,
+      "parallel": "Black Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-51",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) BLACK REFRACTOR",
+      "odds_ratio": "1:229",
+      "odds_denominator": 229,
+      "group": "Common Inserts Clean",
+      "serial_limit": 10,
+      "parallel": "Black Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-52",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) BLACK REFRACTOR",
+      "odds_ratio": "1:229",
+      "odds_denominator": 229,
+      "group": "Common Inserts Swerve",
+      "serial_limit": 10,
+      "parallel": "Black Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-53",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) RED REFRACTOR",
+      "odds_ratio": "1:458",
+      "odds_denominator": 458,
+      "group": "Common Inserts Expected Brilliance",
+      "serial_limit": 5,
+      "parallel": "Red Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-54",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) RED REFRACTOR",
+      "odds_ratio": "1:458",
+      "odds_denominator": 458,
+      "group": "Common Inserts Arrivals",
+      "serial_limit": 5,
+      "parallel": "Red Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-55",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) RED REFRACTOR",
+      "odds_ratio": "1:458",
+      "odds_denominator": 458,
+      "group": "Common Inserts Clean",
+      "serial_limit": 5,
+      "parallel": "Red Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-56",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) RED REFRACTOR",
+      "odds_ratio": "1:458",
+      "odds_denominator": 458,
+      "group": "Common Inserts Swerve",
+      "serial_limit": 5,
+      "parallel": "Red Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-57",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) SUPERFRACTOR",
+      "odds_ratio": "1:2297",
+      "odds_denominator": 2297,
+      "group": "Common Inserts Expected Brilliance",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-58",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) SUPERFRACTOR",
+      "odds_ratio": "1:2297",
+      "odds_denominator": 2297,
+      "group": "Common Inserts Arrivals",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-59",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) SUPERFRACTOR",
+      "odds_ratio": "1:2297",
+      "odds_denominator": 2297,
+      "group": "Common Inserts Clean",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-60",
+      "odds_label": "COMMON INSERTS (FIVE THEMES) SUPERFRACTOR",
+      "odds_ratio": "1:2297",
+      "odds_denominator": 2297,
+      "group": "Common Inserts Swerve",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-61",
+      "odds_label": "SWERVE - FUSION VARIATION BLUE AND RED",
+      "odds_ratio": "1:110",
+      "odds_denominator": 110,
+      "group": "SWERVE - FUSION VARIATION",
+      "serial_limit": null,
+      "parallel": "Blue / Red",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-62",
+      "odds_label": "SWERVE - FUSION VARIATION ORANGE AND RED",
+      "odds_ratio": "1:137",
+      "odds_denominator": 137,
+      "group": "SWERVE - FUSION VARIATION",
+      "serial_limit": null,
+      "parallel": "Orange / Red",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-63",
+      "odds_label": "SWERVE - FUSION VARIATION GREEN AND RED",
+      "odds_ratio": "1:182",
+      "odds_denominator": 182,
+      "group": "SWERVE - FUSION VARIATION",
+      "serial_limit": null,
+      "parallel": "Green / Red",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-64",
+      "odds_label": "SWERVE - FUSION VARIATION PINK AND RED",
+      "odds_ratio": "1:273",
+      "odds_denominator": 273,
+      "group": "SWERVE - FUSION VARIATION",
+      "serial_limit": null,
+      "parallel": "Pink / Red",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-65",
+      "odds_label": "SWERVE - FUSION VARIATION RED AND RED",
+      "odds_ratio": "1:1091",
+      "odds_denominator": 1091,
+      "group": "SWERVE - FUSION VARIATION",
+      "serial_limit": null,
+      "parallel": "Red / Red",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-66",
+      "odds_label": "SWERVE - FUSION VARIATION BLACK AND GOLD",
+      "odds_ratio": "1:5594",
+      "odds_denominator": 5594,
+      "group": "SWERVE - FUSION VARIATION",
+      "serial_limit": 1,
+      "parallel": "Black / Gold",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-67",
+      "odds_label": "NIGHTMARE FUEL",
+      "odds_ratio": "1:546",
+      "odds_denominator": 546,
+      "group": "NIGHTMARE FUEL",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-68",
+      "odds_label": "NIGHTMARE FUEL SUPERFRACTOR",
+      "odds_ratio": "1:11483",
+      "odds_denominator": 11483,
+      "group": "NIGHTMARE FUEL",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-69",
+      "odds_label": "GUSTO",
+      "odds_ratio": "1:100",
+      "odds_denominator": 100,
+      "group": "GUSTO",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-70",
+      "odds_label": "GUSTO SUPERFRACTOR",
+      "odds_ratio": "1:11483",
+      "odds_denominator": 11483,
+      "group": "GUSTO",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-71",
+      "odds_label": "MAIN ATTRACTION",
+      "odds_ratio": "1:364",
+      "odds_denominator": 364,
+      "group": "MAIN ATTRACTION",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-72",
+      "odds_label": "MAIN ATTRACTION SUPERFRACTOR",
+      "odds_ratio": "1:21816",
+      "odds_denominator": 21816,
+      "group": "MAIN ATTRACTION",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-73",
+      "odds_label": "POLKA",
+      "odds_ratio": "1:437",
+      "odds_denominator": 437,
+      "group": "POLKA",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-74",
+      "odds_label": "POLKA SUPERFRACTOR",
+      "odds_ratio": "1:11483",
+      "odds_denominator": 11483,
+      "group": "POLKA",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-75",
+      "odds_label": "AURA",
+      "odds_ratio": "1:437",
+      "odds_denominator": 437,
+      "group": "AURA",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-76",
+      "odds_label": "AURA SUPERFRACTOR",
+      "odds_ratio": "1:11483",
+      "odds_denominator": 11483,
+      "group": "AURA",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-77",
+      "odds_label": "HEADLINERS",
+      "odds_ratio": "1:437",
+      "odds_denominator": 437,
+      "group": "HEADLINERS",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-78",
+      "odds_label": "HEADLINERS SUPERFRACTOR",
+      "odds_ratio": "1:21816",
+      "odds_denominator": 21816,
+      "group": "HEADLINERS",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-79",
+      "odds_label": "FINEST IDOLS BRONZE",
+      "odds_ratio": "1:1200",
+      "odds_denominator": 1200,
+      "group": "FINEST IDOLS",
+      "serial_limit": null,
+      "parallel": "Bronze",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-80",
+      "odds_label": "FINEST IDOLS SILVER",
+      "odds_ratio": "1:2400",
+      "odds_denominator": 2400,
+      "group": "FINEST IDOLS",
+      "serial_limit": null,
+      "parallel": "Silver",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-81",
+      "odds_label": "FINEST IDOLS GOLD",
+      "odds_ratio": "1:4752",
+      "odds_denominator": 4752,
+      "group": "FINEST IDOLS",
+      "serial_limit": null,
+      "parallel": "Gold",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-82",
+      "odds_label": "FINEST AUTOGRAPHS BASE",
+      "odds_ratio": "1:9",
+      "odds_denominator": 9,
+      "group": "FINEST AUTOGRAPHS",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-83",
+      "odds_label": "FINEST AUTOGRAPHS SKY BLUE REFRACTOR",
+      "odds_ratio": "1:23",
+      "odds_denominator": 23,
+      "group": "FINEST AUTOGRAPHS",
+      "serial_limit": 150,
+      "parallel": "Sky Blue Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-84",
+      "odds_label": "FINEST AUTOGRAPHS PURPLE REFRACTOR",
+      "odds_ratio": "1:27",
+      "odds_denominator": 27,
+      "group": "FINEST AUTOGRAPHS",
+      "serial_limit": 125,
+      "parallel": "Purple Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-85",
+      "odds_label": "FINEST AUTOGRAPHS BLUE REFRACTOR",
+      "odds_ratio": "1:30",
+      "odds_denominator": 30,
+      "group": "FINEST AUTOGRAPHS",
+      "serial_limit": 99,
+      "parallel": "Blue Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-86",
+      "odds_label": "FINEST AUTOGRAPHS GREEN REFRACTOR",
+      "odds_ratio": "1:39",
+      "odds_denominator": 39,
+      "group": "FINEST AUTOGRAPHS",
+      "serial_limit": 75,
+      "parallel": "Green Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-87",
+      "odds_label": "FINEST AUTOGRAPHS GOLD REFRACTOR",
+      "odds_ratio": "1:56",
+      "odds_denominator": 56,
+      "group": "FINEST AUTOGRAPHS",
+      "serial_limit": 50,
+      "parallel": "Gold Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-88",
+      "odds_label": "FINEST AUTOGRAPHS ORANGE REFRACTOR",
+      "odds_ratio": "1:108",
+      "odds_denominator": 108,
+      "group": "FINEST AUTOGRAPHS",
+      "serial_limit": 25,
+      "parallel": "Orange Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-89",
+      "odds_label": "FINEST AUTOGRAPHS BLACK REFRACTOR",
+      "odds_ratio": "1:261",
+      "odds_denominator": 261,
+      "group": "FINEST AUTOGRAPHS",
+      "serial_limit": 10,
+      "parallel": "Black Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-90",
+      "odds_label": "FINEST AUTOGRAPHS RED REFRACTOR",
+      "odds_ratio": "1:503",
+      "odds_denominator": 503,
+      "group": "FINEST AUTOGRAPHS",
+      "serial_limit": 5,
+      "parallel": "Red Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-91",
+      "odds_label": "FINEST AUTOGRAPHS SUPERFRACTOR",
+      "odds_ratio": "1:2508",
+      "odds_denominator": 2508,
+      "group": "FINEST AUTOGRAPHS",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-92",
+      "odds_label": "FINEST MOMENTS AUTOGRAPHS BASE",
+      "odds_ratio": "1:178",
+      "odds_denominator": 178,
+      "group": "FINEST MOMENTS AUTOGRAPHS",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-93",
+      "odds_label": "FINEST MOMENTS AUTOGRAPHS GREEN REFRACTOR",
+      "odds_ratio": "1:166",
+      "odds_denominator": 166,
+      "group": "FINEST MOMENTS AUTOGRAPHS",
+      "serial_limit": 75,
+      "parallel": "Green Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-94",
+      "odds_label": "FINEST MOMENTS AUTOGRAPHS GOLD REFRACTOR",
+      "odds_ratio": "1:204",
+      "odds_denominator": 204,
+      "group": "FINEST MOMENTS AUTOGRAPHS",
+      "serial_limit": 50,
+      "parallel": "Gold Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-95",
+      "odds_label": "FINEST MOMENTS AUTOGRAPHS ORANGE REFRACTOR",
+      "odds_ratio": "1:389",
+      "odds_denominator": 389,
+      "group": "FINEST MOMENTS AUTOGRAPHS",
+      "serial_limit": 25,
+      "parallel": "Orange Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-96",
+      "odds_label": "FINEST MOMENTS AUTOGRAPHS BLACK REFRACTOR",
+      "odds_ratio": "1:937",
+      "odds_denominator": 937,
+      "group": "FINEST MOMENTS AUTOGRAPHS",
+      "serial_limit": 10,
+      "parallel": "Black Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-97",
+      "odds_label": "FINEST MOMENTS AUTOGRAPHS RED REFRACTOR",
+      "odds_ratio": "1:1849",
+      "odds_denominator": 1849,
+      "group": "FINEST MOMENTS AUTOGRAPHS",
+      "serial_limit": 5,
+      "parallel": "Red Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-98",
+      "odds_label": "FINEST MOMENTS AUTOGRAPHS SUPERFRACTOR",
+      "odds_ratio": "1:9090",
+      "odds_denominator": 9090,
+      "group": "FINEST MOMENTS AUTOGRAPHS",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-99",
+      "odds_label": "FINEST SEASONS - 1996/97 BASE",
+      "odds_ratio": "1:320",
+      "odds_denominator": 320,
+      "group": "FINEST SEASONS - 1996/97",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-100",
+      "odds_label": "FINEST SEASONS - 1996/97 GREEN REFRACTOR",
+      "odds_ratio": "1:272",
+      "odds_denominator": 272,
+      "group": "FINEST SEASONS - 1996/97",
+      "serial_limit": 75,
+      "parallel": "Green Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-101",
+      "odds_label": "FINEST SEASONS - 1996/97 GOLD REFRACTOR",
+      "odds_ratio": "1:345",
+      "odds_denominator": 345,
+      "group": "FINEST SEASONS - 1996/97",
+      "serial_limit": 50,
+      "parallel": "Gold Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-102",
+      "odds_label": "FINEST SEASONS - 1996/97 ORANGE REFRACTOR",
+      "odds_ratio": "1:597",
+      "odds_denominator": 597,
+      "group": "FINEST SEASONS - 1996/97",
+      "serial_limit": 25,
+      "parallel": "Orange Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-103",
+      "odds_label": "FINEST SEASONS - 1996/97 BLACK REFRACTOR",
+      "odds_ratio": "1:1485",
+      "odds_denominator": 1485,
+      "group": "FINEST SEASONS - 1996/97",
+      "serial_limit": 10,
+      "parallel": "Black Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-104",
+      "odds_label": "FINEST SEASONS - 1996/97 RED REFRACTOR",
+      "odds_ratio": "1:2989",
+      "odds_denominator": 2989,
+      "group": "FINEST SEASONS - 1996/97",
+      "serial_limit": 5,
+      "parallel": "Red Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-105",
+      "odds_label": "FINEST SEASONS - 1996/97 SUPERFRACTOR",
+      "odds_ratio": "1:14544",
+      "odds_denominator": 14544,
+      "group": "FINEST SEASONS - 1996/97",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-106",
+      "odds_label": "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS BASE",
+      "odds_ratio": "1:1125",
+      "odds_denominator": 1125,
+      "group": "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-107",
+      "odds_label": "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS GREEN REFRACTOR",
+      "odds_ratio": "1:748",
+      "odds_denominator": 748,
+      "group": "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS",
+      "serial_limit": 75,
+      "parallel": "Green Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-108",
+      "odds_label": "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS GOLD REFRACTOR",
+      "odds_ratio": "1:497",
+      "odds_denominator": 497,
+      "group": "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS",
+      "serial_limit": 50,
+      "parallel": "Gold Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-109",
+      "odds_label": "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS ORANGE REFRACTOR",
+      "odds_ratio": "1:748",
+      "odds_denominator": 748,
+      "group": "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS",
+      "serial_limit": 25,
+      "parallel": "Orange Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-110",
+      "odds_label": "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS BLACK REFRACTOR",
+      "odds_ratio": "1:1718",
+      "odds_denominator": 1718,
+      "group": "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS",
+      "serial_limit": 10,
+      "parallel": "Black Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-111",
+      "odds_label": "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS RED REFRACTOR",
+      "odds_ratio": "1:3162",
+      "odds_denominator": 3162,
+      "group": "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS",
+      "serial_limit": 5,
+      "parallel": "Red Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-112",
+      "odds_label": "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS SUPERFRACTOR",
+      "odds_ratio": "1:14544",
+      "odds_denominator": 14544,
+      "group": "FINEST PARTNERSHIPS - DUAL AUTOGRAPHS",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-113",
+      "odds_label": "ARRIVALS - AUTOGRAPH EDITION BASE",
+      "odds_ratio": "1:497",
+      "odds_denominator": 497,
+      "group": "ARRIVALS - AUTOGRAPH EDITION",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-114",
+      "odds_label": "ARRIVALS - AUTOGRAPH EDITION BLACK REFRACTOR",
+      "odds_ratio": "1:2227",
+      "odds_denominator": 2227,
+      "group": "ARRIVALS - AUTOGRAPH EDITION",
+      "serial_limit": 10,
+      "parallel": "Black Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-115",
+      "odds_label": "ARRIVALS - AUTOGRAPH EDITION RED REFRACTOR",
+      "odds_ratio": "1:4040",
+      "odds_denominator": 4040,
+      "group": "ARRIVALS - AUTOGRAPH EDITION",
+      "serial_limit": 5,
+      "parallel": "Red Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-116",
+      "odds_label": "ARRIVALS - AUTOGRAPH EDITION SUPERFRACTOR",
+      "odds_ratio": "1:19833",
+      "odds_denominator": 19833,
+      "group": "ARRIVALS - AUTOGRAPH EDITION",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-117",
+      "odds_label": "MAIN ATTRACTION - AUTOGRAPH EDITION BASE",
+      "odds_ratio": "1:1020",
+      "odds_denominator": 1020,
+      "group": "MAIN ATTRACTION - AUTOGRAPH EDITION",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-118",
+      "odds_label": "MAIN ATTRACTION - AUTOGRAPH EDITION BLACK REFRACTOR",
+      "odds_ratio": "1:1718",
+      "odds_denominator": 1718,
+      "group": "MAIN ATTRACTION - AUTOGRAPH EDITION",
+      "serial_limit": 10,
+      "parallel": "Black Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-119",
+      "odds_label": "MAIN ATTRACTION - AUTOGRAPH EDITION RED REFRACTOR",
+      "odds_ratio": "1:3162",
+      "odds_denominator": 3162,
+      "group": "MAIN ATTRACTION - AUTOGRAPH EDITION",
+      "serial_limit": 5,
+      "parallel": "Red Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-120",
+      "odds_label": "MAIN ATTRACTION - AUTOGRAPH EDITION SUPERFRACTOR",
+      "odds_ratio": "1:13635",
+      "odds_denominator": 13635,
+      "group": "MAIN ATTRACTION - AUTOGRAPH EDITION",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-121",
+      "odds_label": "GUSTOGRAPHS BASE",
+      "odds_ratio": "1:689",
+      "odds_denominator": 689,
+      "group": "GUSTOGRAPHS",
+      "serial_limit": 25,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-122",
+      "odds_label": "GUSTOGRAPHS BLACK REFRACTOR",
+      "odds_ratio": "1:1593",
+      "odds_denominator": 1593,
+      "group": "GUSTOGRAPHS",
+      "serial_limit": 10,
+      "parallel": "Black Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-123",
+      "odds_label": "GUSTOGRAPHS RED REFRACTOR",
+      "odds_ratio": "1:3162",
+      "odds_denominator": 3162,
+      "group": "GUSTOGRAPHS",
+      "serial_limit": 5,
+      "parallel": "Red Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-124",
+      "odds_label": "GUSTOGRAPHS SUPERFRACTOR",
+      "odds_ratio": "1:14544",
+      "odds_denominator": 14544,
+      "group": "GUSTOGRAPHS",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-125",
+      "odds_label": "FINEST FANS BASE",
+      "odds_ratio": "1:448",
+      "odds_denominator": 448,
+      "group": "FINEST FANS",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-126",
+      "odds_label": "FINEST FANS GOLD REFRACTOR",
+      "odds_ratio": "1:497",
+      "odds_denominator": 497,
+      "group": "FINEST FANS",
+      "serial_limit": 50,
+      "parallel": "Gold Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-127",
+      "odds_label": "FINEST FANS ORANGE REFRACTOR",
+      "odds_ratio": "1:997",
+      "odds_denominator": 997,
+      "group": "FINEST FANS",
+      "serial_limit": 25,
+      "parallel": "Orange Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-128",
+      "odds_label": "FINEST FANS BLACK REFRACTOR",
+      "odds_ratio": "1:2020",
+      "odds_denominator": 2020,
+      "group": "FINEST FANS",
+      "serial_limit": 10,
+      "parallel": "Black Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-129",
+      "odds_label": "FINEST FANS RED REFRACTOR",
+      "odds_ratio": "1:3698",
+      "odds_denominator": 3698,
+      "group": "FINEST FANS",
+      "serial_limit": 5,
+      "parallel": "Red Refractor",
+      "anchor": false
+    },
+    {
+      "id": "finest-pl-130",
+      "odds_label": "FINEST FANS SUPERFRACTOR",
+      "odds_ratio": "1:18180",
+      "odds_denominator": 18180,
+      "group": "FINEST FANS",
+      "serial_limit": 1,
+      "parallel": "Superfractor",
+      "anchor": false
+    }
+  ],
+  "withheld": []
+}
