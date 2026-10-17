@@ -9,7 +9,7 @@ a{color:inherit;text-underline-offset:3px}
 .entryTools{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px;margin-bottom:12px}
 .entryTools label{font-size:12px;line-height:1.8;color:var(--muted);min-width:0}
 .entryTools input,.entryTools select{display:block;width:100%;min-height:44px;border:1px solid var(--inputBorder);border-radius:10px;background:var(--inputBg);color:var(--text);padding:10px;font:inherit;font-size:14px}
-.entryColumns,.entryRow{display:grid;grid-template-columns:minmax(0,1fr) 110px 85px 75px;gap:14px;align-items:center}
+.entryColumns,.entryRow{display:grid;grid-template-columns:minmax(0,1fr) 110px 85px 100px;gap:14px;align-items:center}
 .entryColumns{padding:15px 12px 10px;font-size:11px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted)}
 .entry{border-top:1px solid var(--cardBorder)}
 .entryRow{padding:15px 12px;border-radius:8px}
@@ -48,3 +48,5 @@ a{color:inherit;text-underline-offset:3px}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 
 .searchActions{display:grid;grid-template-columns:2fr 1fr;gap:10px}
+
+.srOnly{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}

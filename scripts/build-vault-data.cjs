@@ -3,12 +3,14 @@ const path = require('node:path');
 const crypto = require('node:crypto');
 const model = require('../shared/vault-model.js');
 const {calculate} = require('./calculate-prv-odds.cjs');
+const {enrich} = require('./enrich-prv-checklist-sizes.cjs');
 const root = path.resolve(__dirname, '..');
 const read = file => JSON.parse(fs.readFileSync(path.join(root,file),'utf8'));
 const source = read('data/v1/manifest.json');
 const index = read('data/v1/vault/index.json').index;
 const cv = read('data/v1/checklists/index.json').index;
 const bundle = read('data/v1/vault/products/all.json');
+const sizeReviews = new Map(read('data/prv-checklist-sizes.json').products.map(p=>[p.code,p]));
 const cache = {};
 const out = 'data/v2/vault';
 fs.mkdirSync(path.join(root,out,'products'),{recursive:true});
@@ -33,6 +35,7 @@ for (const file of fs.readdirSync(path.join(root,'data/prv-calculations')).filte
 }
 const entries = records.map(({entry,product}) => {
   const code=entry.Code;
+  enrich(product,sizeReviews.get(code));
   // Link only unique, exact normalized names and sports. No fuzzy identity guesses.
   const matches = cv.filter(c => model.key(c.DisplayName) === model.key(entry.DisplayName) && model.key(c.sport) === model.key(entry.sport));
   product.checklist = matches.length === 1 ? {code:matches[0].Code,sport:matches[0].sport} : null;

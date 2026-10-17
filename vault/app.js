@@ -908,7 +908,7 @@ function renderResults(meta, rows) {
         <label>Sort<select id="entrySort"><option value="source">Default order</option><option value="low">Count: low to high</option><option value="name">Name: A–Z</option></select></label>
       </div>
       <div id="entryCount" class="muted" role="status"></div>
-      <div class="entryColumns" aria-hidden="true"><span>Set / parallel</span><span>Count</span><span>Numbered</span><span>Set size</span></div>
+      <div class="entryColumns" aria-hidden="true"><span>Set / parallel</span><span>Print run</span><span>Numbered</span><span>Checklist cards</span></div>
       <div id="entryList"></div>
       <button id="showMore" class="clearBtn" type="button" hidden>Show more entries</button>
     </section>
@@ -938,7 +938,7 @@ function renderEntries() {
   let rows = activeProduct.rows.filter(r=>(!category || r.category===category) && `${r.set_name} ${r.section}`.toLowerCase().includes(query));
   if (sort==='low') rows.sort((a,b)=>(a.measurement.value??Infinity)-(b.measurement.value??Infinity));
   if (sort==='name') rows.sort((a,b)=>a.set_name.localeCompare(b.set_name));
-  const labels={estimate:'Estimated',average:'Average',lower_bound:'At least',upper_bound:'Up to',reported:'Reported',serial_limit:'Numbered',unknown:'Not available'};
+  const labels={estimate:'Estimated',average:'Average',lower_bound:'At least',upper_bound:'Up to',reported:'Reported',serial_limit:'Numbered',unknown:'Print run unknown'};
   document.getElementById('entryCount').textContent=`${rows.length ? Math.min(rows.length,visibleLimit) : 0} of ${rows.length} entries${category || query ? ' matching filters' : ''}`;
   document.getElementById('entryList').innerHTML=rows.slice(0,visibleLimit).map(r=>{
     const m=r.measurement;
@@ -946,7 +946,7 @@ function renderEntries() {
       <span class="entryName"><strong>${esc(r.set_name)}</strong><small>${esc(r.section || r.category)}</small></span>
       <span class="entryNumber"><strong>${m.value===null?'—':fmtNum(m.value)}</strong><small>${esc(labels[m.kind])}${m.scope==='per_card'?' · per card':''}</small></span>
       <span class="entrySerial"><span class="mobileLabel">Numbered </span>${r.serial_limit===null?'—':'/'+esc(r.serial_limit)}</span>
-      <span class="entrySize"><span class="mobileLabel">Set size </span>${r.checklist_size===null?'—':fmtNum(r.checklist_size)}</span>
+      <span class="entrySize"><span class="srOnly">Checklist cards: </span><span class="mobileLabel" aria-hidden="true">Checklist cards </span>${r.checklist_size===null?'—':fmtNum(r.checklist_size)}</span>
       </div></div>`;
   }).join('') || '<p class="emptyEntries">No entries match these filters.</p>';
   document.getElementById('showMore').hidden=rows.length<=visibleLimit;
