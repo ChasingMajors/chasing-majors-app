@@ -11,7 +11,7 @@
       "ok": true,
       "meta": {
         "code": "2023_topps_pristine_baseball",
-        "displayName": "2023 Topps Pristine baseball",
+        "displayName": "2023 Topps Pristine Baseball",
         "keywords": "2023 Topps Pristine Baseball, Topps Pristine Baseball 2023, 2023 Topps Pristine cards, Pristine baseball cards 2023, 2023 Topps Pristine MLB cards, Topps Pristine hobby box 2023, Pristine rookie cards 2023, Topps Pristine rookies 2023, Topps Pristine autos 2023, Pristine autographs baseball 2023, Topps Pristine refractors 2023, Pristine parallels 2023, Topps Pristine inserts 2023, encased baseball cards Topps 2023, premium chrome baseball cards 2023, Topps Pristine autograph relics 2023, Topps Pristine superfractor 2023, high end baseball cards Topps 2023, Topps Pristine Baseball checklist 2023, Pristine checklist",
         "source_key": "2023",
         "year": "2023",
@@ -6292,6 +6292,21 @@
           "applies_to_subset": "Popular Demand Auto Relic",
           "parallel_name": "SuperFractor",
           "serial_no": "/1"
+        }
+      ],
+      "reviewed_metadata_corrections": [
+        {
+          "review_id": "cv-prv-display-consistency-2026-10-18",
+          "code": "2023_topps_pristine_baseball",
+          "sport": "baseball",
+          "source_url": "https://app.chasingmajors.com/checklists/?code=2023_topps_pristine_baseball&sport=baseball&type=product",
+          "evidence": "Display-only capitalization repair. Current product keywords and the matching PRV display name already use Baseball. Stable product code, year, edition, cards and parallels remain identical.",
+          "before": {
+            "displayName": "2023 Topps Pristine baseball"
+          },
+          "after": {
+            "displayName": "2023 Topps Pristine Baseball"
+          }
         }
       ]
     },

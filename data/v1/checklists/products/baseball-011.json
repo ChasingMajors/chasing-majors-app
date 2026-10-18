@@ -123591,7 +123591,7 @@
       "ok": true,
       "meta": {
         "code": "2023_topps_finest_baseball",
-        "displayName": "2023 Topps Finest baseball",
+        "displayName": "2023 Topps Finest Baseball",
         "keywords": "2023 Topps Finest Baseball, Topps Finest Baseball 2023, 2023 Topps Finest cards, Finest baseball cards 2023, 2023 Topps Finest MLB cards, Topps Finest hobby box 2023, Finest rookie cards 2023, Topps Finest rookies 2023, Topps Finest autos 2023, Finest autographs baseball 2023, Topps Finest refractors 2023, Finest parallels 2023, Topps Finest inserts 2023, Finest flashbacks 2023, Finest superfractor 2023, chrome baseball cards Topps 2023, premium chrome baseball cards 2023, Topps Finest Baseball checklist 2023, Finest checklist",
         "source_key": "2023",
         "year": "2023",
@@ -127869,6 +127869,21 @@
           "applies_to_subset": "Finest Rookies Design Variation",
           "parallel_name": "SuperFractor",
           "serial_no": "/1"
+        }
+      ],
+      "reviewed_metadata_corrections": [
+        {
+          "review_id": "cv-prv-display-consistency-2026-10-18",
+          "code": "2023_topps_finest_baseball",
+          "sport": "baseball",
+          "source_url": "https://app.chasingmajors.com/checklists/?code=2023_topps_finest_baseball&sport=baseball&type=product",
+          "evidence": "Display-only capitalization repair. Current product keywords and the matching PRV display name already use Baseball. Stable product code, year, edition, cards and parallels remain identical.",
+          "before": {
+            "displayName": "2023 Topps Finest baseball"
+          },
+          "after": {
+            "displayName": "2023 Topps Finest Baseball"
+          }
         }
       ]
     },

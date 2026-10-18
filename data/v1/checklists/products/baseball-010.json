@@ -33511,7 +33511,7 @@
       "ok": true,
       "meta": {
         "code": "2023_bowman_sapphire_edition_baseball",
-        "displayName": "2023 Bowman Sapphire baseball",
+        "displayName": "2023 Bowman Sapphire Baseball",
         "keywords": "2023 Bowman Sapphire Baseball, Bowman Sapphire Baseball 2023, 2023 Bowman Sapphire cards, Bowman Sapphire baseball cards 2023, 2023 Bowman Sapphire MLB prospects, Bowman Sapphire prospects 2023, Bowman Sapphire chrome cards 2023, 2023 Bowman Sapphire rookie cards, Bowman Sapphire rookies 2023, Bowman Sapphire 1st Bowman cards 2023, Bowman Sapphire autos 2023, Bowman Sapphire autographs 2023, Bowman Sapphire parallels 2023, Bowman Sapphire refractors 2023, Sapphire edition prospect cards 2023 Bowman, Bowman Sapphire inserts 2023, Bowman Sapphire superfractor 2023, premium prospect baseball cards 2023 Bowman, Bowman Sapphire Baseball checklist 2023, Bowman Sapphire checklist",
         "source_key": "2023",
         "year": "2023",
@@ -35395,6 +35395,21 @@
           "applies_to_subset": "Sapphire Chrome Prospect Auto",
           "parallel_name": "Padparadscha",
           "serial_no": "/1"
+        }
+      ],
+      "reviewed_metadata_corrections": [
+        {
+          "review_id": "cv-prv-display-consistency-2026-10-18",
+          "code": "2023_bowman_sapphire_edition_baseball",
+          "sport": "baseball",
+          "source_url": "https://app.chasingmajors.com/checklists/?code=2023_bowman_sapphire_edition_baseball&sport=baseball&type=product",
+          "evidence": "Display-only capitalization repair. Current product keywords and the matching PRV display name already use Baseball. Stable product code, year, edition, cards and parallels remain identical.",
+          "before": {
+            "displayName": "2023 Bowman Sapphire baseball"
+          },
+          "after": {
+            "displayName": "2023 Bowman Sapphire Baseball"
+          }
         }
       ]
     },

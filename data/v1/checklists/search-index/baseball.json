@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-10-18T21:02:13.345Z",
+  "generated_at": "2026-10-18T22:16:37.252Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -87,7 +87,10 @@
     "baseball-product-1959-topps-series-5-baseball-1792356888410-001.json",
     "baseball-product-1959-topps-series-6-baseball-1792357011278-001.json",
     "baseball-product-1959-topps-series-7-baseball-1792357073178-001.json",
-    "baseball-product-2026-panini-prizm-baseball-1792357357312-001.json"
+    "baseball-product-2026-panini-prizm-baseball-1792357357312-001.json",
+    "baseball-reviewed-2023-topps-finest-baseball.json",
+    "baseball-reviewed-2023-bowman-sapphire-edition-baseball.json",
+    "baseball-reviewed-2023-topps-pristine-baseball.json"
   ],
   "product_shards": {
     "2026_bowman_chrome_mega_box_baseball": [
@@ -143,6 +146,15 @@
     ],
     "2026_panini_prizm_baseball": [
       "baseball-product-2026-panini-prizm-baseball-1792357357312-001.json"
+    ],
+    "2023_topps_finest_baseball": [
+      "baseball-reviewed-2023-topps-finest-baseball.json"
+    ],
+    "2023_bowman_sapphire_edition_baseball": [
+      "baseball-reviewed-2023-bowman-sapphire-edition-baseball.json"
+    ],
+    "2023_topps_pristine_baseball": [
+      "baseball-reviewed-2023-topps-pristine-baseball.json"
     ]
   }
 }
