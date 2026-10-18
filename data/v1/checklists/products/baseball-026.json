@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-10-15T13:10:33.238Z",
+  "generated_at": "2026-10-18T21:02:13.345Z",
   "shard": 26,
   "shard_count": 27,
   "products": {
@@ -9070,7 +9070,9 @@
         "year": "2026",
         "manufacturer": "Panini",
         "product": "Prizm",
-        "sport": "baseball"
+        "sport": "baseball",
+        "content_sha256": "9da88702ee4992b3e7bb53e3e7689cecf5a4c7b6e518c4d82421734dc42fb596",
+        "release_id": "owner-cv-catalog-20261018-2026_panini_prizm_baseball"
       },
       "rows": [
         {
