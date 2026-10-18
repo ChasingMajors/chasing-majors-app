@@ -1,18 +1,8 @@
 {
   "ok": true,
   "source": "player-meta-export",
-  "generated_at": "2026-10-18T22:47:11.472Z",
+  "generated_at": "2026-10-18T23:13:11.361Z",
   "players": [
-    {
-      "sport": "baseball",
-      "player_key": "black",
-      "player_name": "– Black",
-      "checklist_years": [
-        2020
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
     {
       "sport": "baseball",
       "player_key": "fight of the century",
