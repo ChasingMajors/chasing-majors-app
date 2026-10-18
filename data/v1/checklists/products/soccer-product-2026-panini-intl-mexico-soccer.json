@@ -3,7 +3,7 @@
   "sport": "soccer",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-08-26T17:48:05.158Z",
+  "generated_at": "2026-10-18T21:05:47.316Z",
   "products": {
     "2026_panini_intl_mexico_soccer": {
       "ok": true,
@@ -15,7 +15,9 @@
         "year": "2026",
         "manufacturer": "Panini",
         "product": "INTL Mexico",
-        "sport": "soccer"
+        "sport": "soccer",
+        "content_sha256": "b1b9ad66cc42a19294bd913697a089c182d19b77ffb6d61f69f6cebce2be7058",
+        "release_id": "owner-cv-catalog-20261018-2026_panini_intl_mexico_soccer"
       },
       "rows": [
         {
