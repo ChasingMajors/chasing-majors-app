@@ -1,10 +1,10 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs');
 const model=require('../shared/vault-model.js');
 const {review,fingerprint}=require('../scripts/review-prv-integrity.cjs');
-const catalog=require('../data/prv-integrity-reviews.json');
+const fixture=require('./fixtures/prv-integrity-reviewed-source.json');
+const catalog=fixture.catalog;
 function sources(){
- const idx=require('../data/v1/vault/index.json').index,bundle=require('../data/v1/vault/products/all.json'),cache={};
- return idx.map(entry=>{const shard=bundle.product_map?.[entry.Code];const raw=bundle.products?.[entry.Code]||(cache[shard]||=require('../data/v1/vault/products/'+shard)).products[entry.Code];return {entry,product:model.product(raw,entry.Code)};});
+ return fixture.records.map(({entry,raw})=>({entry:structuredClone(entry),product:model.product(structuredClone(raw),entry.Code)}));
 }
 test('reviewed corrections preserve every raw row and every numeric measurement',()=>{
  const original=sources(),before=new Map(original.flatMap(({product})=>product.rows.map(r=>[r.id,structuredClone(r)])));
@@ -45,4 +45,15 @@ test('prose and ambiguous combined base production stay out of public entries',(
 test('fingerprints are stable across object key ordering',()=>{
  assert.equal(fingerprint([{a:1,b:2}]),fingerprint([{b:2,a:1}]));
  assert.notEqual(fingerprint([{a:1},{a:2}]),fingerprint([{a:2},{a:1}]));
+});
+test('current source replacement has valid reviews without restoring cleared products or guessing ambiguous labels',()=>{
+ const active=require('../data/prv-integrity-reviews.json'),idx=require('../data/v1/vault/index.json').index,bundle=require('../data/v1/vault/products/all.json'),cache={};
+ const records=idx.map(entry=>{const file=bundle.product_map?.[entry.Code],raw=bundle.products?.[entry.Code]||(cache[file]||=require('../data/v1/vault/products/'+file)).products[entry.Code];return {entry,product:model.product(structuredClone(raw),entry.Code)};});
+ const count=records.reduce((n,r)=>n+r.product.rows.length,0),result=review(records,active);
+ assert.equal(result.report.stale_reviews.length,0);
+ assert.equal(result.records.reduce((n,r)=>n+r.product.rows.length,0)+result.report.quarantined.length,count);
+ const rule=active.products.find(r=>r.code==='2025_26_topps_nba_hoops_basketball');
+ assert.equal(rule.pending_identity_reviews.length,20);
+ for(const pending of rule.pending_identity_reviews)assert(!rule.actions.some(a=>pending.candidate_positions.includes(a.position)));
+ for(const code of ['2025_26_topps_nbl_basketball','2025_26_topps_finest_uefa_club_competitions_soccer'])assert.equal(result.records.find(r=>r.entry.Code===code).product.rows.length,0);
 });

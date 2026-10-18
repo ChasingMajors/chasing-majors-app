@@ -30,6 +30,13 @@ function review(records,catalog){
    report.stale_reviews.push({code:entry.Code,reason:'Source rows changed; review is required before corrections can be applied.'});
    output.push(record);continue;
   }
+  for(const pending of rule.pending_identity_reviews||[]){
+   for(const position of pending.candidate_positions||[]){
+    const row=sourceRows[position-1];if(!row)throw Error('Invalid pending identity row');
+    if(!row.issues.includes('Parallel identity unresolved'))row.issues.push('Parallel identity unresolved');
+   }
+   report.unresolved.push({code:entry.Code,kind:'ambiguous_review_mapping',positions:pending.candidate_positions,reason:pending.reason});
+  }
   const removed=new Set();
   for(const action of rule.actions||[]){
    const row=sourceRows[action.position-1];
