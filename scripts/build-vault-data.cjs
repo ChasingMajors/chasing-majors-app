@@ -46,7 +46,7 @@ const entries = reviewed.records.map(({entry,product}) => {
   const file = model.key(code)+'-'+crypto.createHash('sha256').update(body).digest('hex').slice(0,12)+'.json';
   fs.writeFileSync(path.join(root,out,'products',file),body+'\n');
   files.add(file); total += product.rows.length;
-  return {...entry,file,row_count:product.rows.length};
+  return {...entry,file,row_count:product.rows.length,status:product.rows.length ? 'ok' : 'empty'};
 });
 for(const file of fs.readdirSync(path.join(root,out,'products'))) if(!files.has(file)) fs.unlinkSync(path.join(root,out,'products',file));
 fs.writeFileSync(path.join(root,out,'index.json'),JSON.stringify({schema_version:2,source_revision:source.vault_version,index:entries,aliases:reviewed.aliases})+'\n');

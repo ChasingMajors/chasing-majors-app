@@ -33,6 +33,7 @@ const elBootOverlay = document.getElementById("cmBootOverlay");
 
 // ---------------- URL PARAM ----------------
 const URL_Q = new URLSearchParams(location.search).get("code") || new URLSearchParams(location.search).get("q") || "";
+const URL_CODE = new URLSearchParams(location.search).get("code") || "";
 
 // ---------------- STATE ----------------
 let INDEX = [];
@@ -342,8 +343,14 @@ function normalizeIndexRows_(rows) {
     sport: r.sport || "",
     manufacturer: r.manufacturer || "",
     product: r.product || "",
-    cmURL: r.cmURL || r.cm_url || ""
+    cmURL: r.cmURL || r.cm_url || "",
+    row_count: Number(r.row_count || 0),
+    status: r.status || (Number(r.row_count || 0) ? 'ok' : 'empty')
   })).filter(r => r.Code && r.DisplayName);
+}
+
+function isEmptyProduct_(entry) {
+  return !!entry && (entry.status === 'empty' || Number(entry.row_count || 0) === 0);
 }
 
 async function loadStaticVaultIndex_() {
@@ -459,26 +466,32 @@ function findBestMatch(query) {
   if (!q || !INDEX.length) return null;
 
   const exactDisplay = INDEX.find(i =>
-    normalizeQuery_(i.DisplayName || "") === q
+    !isEmptyProduct_(i) && normalizeQuery_(i.DisplayName || "") === q
   );
   if (exactDisplay) return exactDisplay;
 
   const exactCode = INDEX.find(i =>
-    normalizeQuery_(i.Code || "") === q
+    !isEmptyProduct_(i) && normalizeQuery_(i.Code || "") === q
   );
   if (exactCode) return exactCode;
 
   const startsWithDisplay = INDEX.find(i =>
-    normalizeQuery_(i.DisplayName || "").startsWith(q)
+    !isEmptyProduct_(i) && normalizeQuery_(i.DisplayName || "").startsWith(q)
   );
   if (startsWithDisplay) return startsWithDisplay;
 
   const includesMatch = INDEX.find(i =>
-    normalizeQuery_(`${i.DisplayName || ""} ${i.Keywords || ""} ${i.Code || ""}`).includes(q)
+    !isEmptyProduct_(i) && normalizeQuery_(`${i.DisplayName || ""} ${i.Keywords || ""} ${i.Code || ""}`).includes(q)
   );
   if (includesMatch) return includesMatch;
 
   return null;
+}
+
+function resolveByCode_(code) {
+  const target = normalizeQuery_(code || "");
+  if (!target || !INDEX.length) return null;
+  return INDEX.find(i => normalizeQuery_(i.Code || "") === target) || null;
 }
 
 function renderSplitChoice_(query) {
@@ -524,7 +537,7 @@ function runHomepageHandoffIfPresent() {
 
   if(renderSplitChoice_(incomingQuery))return;
 
-  const best = findBestMatch(incomingQuery);
+  const best = (URL_CODE && resolveByCode_(URL_CODE)) || findBestMatch(incomingQuery);
   if (!best) {
     logEventFireAndForget_({
       event_type: "search_submit",
@@ -591,7 +604,7 @@ elQ.addEventListener("input", () => {
   }
 
   const hits = INDEX
-    .filter(i => normalizeQuery_(`${i.DisplayName || ""} ${i.Keywords || ""} ${i.Code || ""}`).includes(q))
+    .filter(i => !isEmptyProduct_(i) && normalizeQuery_(`${i.DisplayName || ""} ${i.Keywords || ""} ${i.Code || ""}`).includes(q))
     .slice(0, 10);
 
   if (!hits.length) {
@@ -901,7 +914,15 @@ function injectScrollTopButton() {
 // ---------------- RENDER ----------------
 function renderResults(meta, rows) {
   if (!rows.length) {
-    elResults.innerHTML = '<div class="card">No print-run entries for this product yet.</div>';
+    const cv = activeProduct && activeProduct.checklist;
+    elResults.innerHTML = `
+    <section class="card productHeader" role="status">
+      <div class="eyebrow">${[meta.year,meta.sport,meta.manufacturer].filter(Boolean).map(esc).join(' · ')}</div>
+      <h2>${esc(meta.displayName || (selected && selected.DisplayName) || "")}</h2>
+      <h3>Data unavailable</h3>
+      <p class="muted">Print-run data isn't available for this product yet.</p>
+      ${cv ? `<div class="productStats"><a href="/checklists/?code=${encodeURIComponent(cv.code)}&sport=${encodeURIComponent(cv.sport)}&type=product">Open checklist ↗</a></div>` : ''}
+    </section>`;
     return;
   }
   const categories = [...new Set(rows.map(r => r.category))].sort();
