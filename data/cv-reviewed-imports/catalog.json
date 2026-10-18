@@ -765,6 +765,10 @@
     {
       "file": "2026-kaws-parallels.json",
       "content_sha256": "d289ae0d26ba79560ba3e136086024729fc1578e4bee92f6224599a121e2dbe3"
+    },
+    {
+      "file": "spx-parallel-identity-2026-10-18.json",
+      "content_sha256": "6807693de45878401dba11265298a33df025612b142d0ebd34a60c30fd3c7f86"
     }
   ],
   "row_corrections": [
