@@ -231,8 +231,8 @@ function readProductBundles() {
   return products;
 }
 
-function buildPlayers() {
-  const products = readProductBundles();
+function buildPlayers(productsOverride) {
+  const products = Array.isArray(productsOverride) ? productsOverride : readProductBundles();
   const agg = Object.create(null);
 
   products.forEach(function (product) {
@@ -250,8 +250,10 @@ function buildPlayers() {
       const playerKey = normalize_(playerName);
       if (!playerKey) return;
 
-      if (!agg[playerKey]) {
-        agg[playerKey] = {
+      const aggKey = sport + '|' + playerKey;
+
+      if (!agg[aggKey]) {
+        agg[aggKey] = {
           sport: sport,
           player_key: playerKey,
           player_name: playerName,
@@ -260,16 +262,16 @@ function buildPlayers() {
         };
       }
 
-      agg[playerKey].checklist_years.add(year);
+      agg[aggKey].checklist_years.add(year);
 
       if (isSafeSoloRcRow_(row)) {
-        agg[playerKey].rc_year_candidates.add(year);
+        agg[aggKey].rc_year_candidates.add(year);
       }
     });
   });
 
-  const players = Object.keys(agg).map(function (playerKey) {
-    const p = agg[playerKey];
+  const players = Object.keys(agg).map(function (aggKey) {
+    const p = agg[aggKey];
 
     const checklistYears = uniqueArray_(
       sanitizeYearsArray_(Array.from(p.checklist_years))
@@ -321,4 +323,8 @@ function main() {
   console.log(JSON.stringify({ players: players.length, with_rc: withRc }));
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = { extractPrimaryPlayerName_, buildPlayers };

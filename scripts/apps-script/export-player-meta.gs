@@ -106,8 +106,10 @@ function buildPlayerMetaIndex_() {
       var playerKey = normalize_(playerName);
       if (!playerKey) return;
 
-      if (!agg[playerKey]) {
-        agg[playerKey] = {
+      var aggKey = sport + '|' + playerKey;
+
+      if (!agg[aggKey]) {
+        agg[aggKey] = {
           sport: sport,
           player_key: playerKey,
           player_name: playerName,
@@ -116,15 +118,15 @@ function buildPlayerMetaIndex_() {
         };
       }
 
-      agg[playerKey].checklist_years[year] = true;
+      agg[aggKey].checklist_years[year] = true;
       if (isSafeSoloRcRow_(row)) {
-        agg[playerKey].rc_year_candidates[year] = true;
+        agg[aggKey].rc_year_candidates[year] = true;
       }
     });
   });
 
-  var players = Object.keys(agg).map(function (playerKey) {
-    var p = agg[playerKey];
+  var players = Object.keys(agg).map(function (aggKey) {
+    var p = agg[aggKey];
 
     var checklistYears = uniqueArray_(
       sanitizeYearsArray_(Object.keys(p.checklist_years))
@@ -271,6 +273,7 @@ function extractPrimaryPlayerName_(playerText) {
 
   firstPiece = firstPiece
     .replace(/^#?\d+\s+/, '')
+    .replace(/^-[A-Z]{2,3}\s+/, '')
     .replace(/\s+card\s*#?.*$/i, '')
     .replace(/\s+graded.*$/i, '')
     .replace(/\s+/g, ' ')

@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "player-meta-export",
-  "generated_at": "2026-10-18T22:40:31.916Z",
+  "generated_at": "2026-10-18T22:47:11.472Z",
   "players": [
     {
       "sport": "baseball",
@@ -3326,8 +3326,6 @@
       "player_key": "aj cole",
       "player_name": "AJ Cole",
       "checklist_years": [
-        2025,
-        2023,
         2019
       ],
       "rc_year": null,
@@ -5521,8 +5519,6 @@
       "player_key": "alex sarr",
       "player_name": "Alex Sarr",
       "checklist_years": [
-        2026,
-        2025,
         2024
       ],
       "rc_year": null,
@@ -6127,7 +6123,6 @@
       "player_key": "alice cooper",
       "player_name": "Alice Cooper",
       "checklist_years": [
-        2023,
         2022
       ],
       "rc_year": null,
@@ -6597,7 +6592,6 @@
       "player_key": "alyssa naeher",
       "player_name": "Alyssa Naeher",
       "checklist_years": [
-        2026,
         2022
       ],
       "rc_year": null,
@@ -7797,7 +7791,6 @@
       "player_key": "andrew johnson",
       "player_name": "Andrew Johnson",
       "checklist_years": [
-        2025,
         2023,
         2022,
         2021
@@ -8543,9 +8536,7 @@
       "player_key": "andy reid",
       "player_name": "Andy Reid",
       "checklist_years": [
-        2025,
-        2024,
-        2023
+        2024
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -8909,13 +8900,10 @@
       "player_key": "angel reese",
       "player_name": "Angel Reese",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023
+        2026
       ],
-      "rc_year": 2024,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -9239,7 +9227,6 @@
       "player_key": "anthony bourdain",
       "player_name": "Anthony Bourdain",
       "checklist_years": [
-        2023,
         2021,
         2020,
         2019
@@ -9522,8 +9509,6 @@
       "player_key": "anthony richardson",
       "player_name": "Anthony Richardson",
       "checklist_years": [
-        2026,
-        2025,
         2023
       ],
       "rc_year": null,
@@ -11760,11 +11745,10 @@
       "player_key": "azzi fudd",
       "player_name": "Azzi Fudd",
       "checklist_years": [
-        2026,
-        2025
+        2026
       ],
-      "rc_year": 2026,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -14609,8 +14593,6 @@
       "player_key": "bill russell",
       "player_name": "Bill Russell",
       "checklist_years": [
-        2026,
-        2025,
         2024
       ],
       "rc_year": null,
@@ -15849,7 +15831,6 @@
       "player_key": "blake shapen",
       "player_name": "Blake Shapen",
       "checklist_years": [
-        2023,
         2019,
         2018
       ],
@@ -17423,7 +17404,6 @@
       "player_key": "bob wilson",
       "player_name": "Bob Wilson",
       "checklist_years": [
-        2025,
         1957,
         1954,
         1953
@@ -17651,7 +17631,6 @@
       "player_key": "bobby hull",
       "player_name": "Bobby Hull",
       "checklist_years": [
-        2025,
         2024,
         2023
       ],
@@ -17683,7 +17662,6 @@
       "player_key": "bobby knight",
       "player_name": "Bobby Knight",
       "checklist_years": [
-        2025,
         2024
       ],
       "rc_year": null,
@@ -18581,7 +18559,6 @@
       "player_key": "brad miller",
       "player_name": "Brad Miller",
       "checklist_years": [
-        2024,
         2023,
         2022,
         2021,
@@ -18790,10 +18767,6 @@
       "player_key": "bradley beal",
       "player_name": "Bradley Beal",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023,
         2022
       ],
       "rc_year": null,
@@ -19388,10 +19361,7 @@
       "player_key": "brandon clarke",
       "player_name": "Brandon Clarke",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023
+        2026
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -19434,8 +19404,8 @@
         2017,
         2016
       ],
-      "rc_year": 2023,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -20978,7 +20948,6 @@
       "player_key": "brett hull",
       "player_name": "Brett Hull",
       "checklist_years": [
-        2025,
         2019
       ],
       "rc_year": null,
@@ -22549,11 +22518,10 @@
       "player_key": "bryce boettcher",
       "player_name": "Bryce Boettcher",
       "checklist_years": [
-        2026,
         2025
       ],
-      "rc_year": 2026,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -22870,8 +22838,6 @@
       "player_key": "bryce young",
       "player_name": "Bryce Young",
       "checklist_years": [
-        2026,
-        2025,
         2023
       ],
       "rc_year": null,
@@ -23718,8 +23684,7 @@
       "player_key": "buzz aldrin",
       "player_name": "Buzz Aldrin",
       "checklist_years": [
-        2026,
-        2025
+        2026
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -23920,8 +23885,7 @@
       "player_name": "C.J. Stroud",
       "checklist_years": [
         2025,
-        2024,
-        2023
+        2024
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -24358,13 +24322,10 @@
       "player_key": "caitlin clark",
       "player_name": "Caitlin Clark",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023
+        2026
       ],
-      "rc_year": 2024,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -24941,10 +24902,7 @@
       "player_key": "caleb williams",
       "player_name": "Caleb Williams",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023
+        2024
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -25269,8 +25227,7 @@
       "checklist_years": [
         2026,
         2025,
-        2024,
-        2023
+        2024
       ],
       "rc_year": 2025,
       "rc_year_confidence": "high"
@@ -25445,9 +25402,6 @@
       "player_key": "cameron johnson",
       "player_name": "Cameron Johnson",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
         2023
       ],
       "rc_year": null,
@@ -26400,7 +26354,6 @@
       "player_key": "carlos hernandez",
       "player_name": "Carlos Hernandez",
       "checklist_years": [
-        2026,
         2021,
         2019
       ],
@@ -26590,7 +26543,6 @@
       "player_key": "carlos rodriguez",
       "player_name": "Carlos Rodriguez",
       "checklist_years": [
-        2026,
         2025,
         2023,
         2021,
@@ -26861,7 +26813,6 @@
       "player_key": "carrie fisher",
       "player_name": "Carrie Fisher",
       "checklist_years": [
-        2025,
         2024,
         2023,
         2022,
@@ -31151,13 +31102,10 @@
       "player_key": "chris johnson",
       "player_name": "Chris Johnson",
       "checklist_years": [
-        2026,
-        2025,
-        2023,
         2016
       ],
-      "rc_year": 2026,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -32952,8 +32900,6 @@
       "player_key": "cj stroud",
       "player_name": "CJ Stroud",
       "checklist_years": [
-        2026,
-        2025,
         2024,
         2023
       ],
@@ -34517,7 +34463,6 @@
       "player_key": "cole smith",
       "player_name": "Cole Smith",
       "checklist_years": [
-        2025,
         2017
       ],
       "rc_year": null,
@@ -34924,10 +34869,6 @@
       "player_key": "collin sexton",
       "player_name": "Collin Sexton",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023,
         2018
       ],
       "rc_year": null,
@@ -35032,8 +34973,7 @@
       "player_key": "colt carter",
       "player_name": "Colt Carter",
       "checklist_years": [
-        2026,
-        2025
+        2026
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -37721,7 +37661,6 @@
       "player_key": "d j wilson",
       "player_name": "D.J. Wilson",
       "checklist_years": [
-        2023,
         2018,
         2016
       ],
@@ -39464,7 +39403,6 @@
       "player_key": "danny murphy",
       "player_name": "Danny Murphy",
       "checklist_years": [
-        2025,
         2019
       ],
       "rc_year": null,
@@ -41418,9 +41356,6 @@
       "player_key": "david thompson",
       "player_name": "David Thompson",
       "checklist_years": [
-        2025,
-        2024,
-        2023,
         2017
       ],
       "rc_year": null,
@@ -41644,8 +41579,6 @@
       "player_key": "dawn staley",
       "player_name": "Dawn Staley",
       "checklist_years": [
-        2026,
-        2024,
         2023
       ],
       "rc_year": null,
@@ -42554,10 +42487,6 @@
       "player_key": "derek fisher",
       "player_name": "Derek Fisher",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023,
         2022,
         2021,
         2020,
@@ -45382,7 +45311,6 @@
       "player_key": "don shula",
       "player_name": "Don Shula",
       "checklist_years": [
-        2023,
         2022
       ],
       "rc_year": null,
@@ -45808,7 +45736,6 @@
       "player_key": "dr seuss",
       "player_name": "Dr. Seuss",
       "checklist_years": [
-        2023,
         2021,
         2019
       ],
@@ -45844,10 +45771,7 @@
       "player_key": "drake maye",
       "player_name": "Drake Maye",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023
+        2024
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -47176,7 +47100,6 @@
       "player_key": "dylan cozens",
       "player_name": "Dylan Cozens",
       "checklist_years": [
-        2025,
         2019,
         2018,
         2017,
@@ -49631,7 +49554,6 @@
       "player_key": "elgin baylor",
       "player_name": "Elgin Baylor",
       "checklist_years": [
-        2026,
         2023
       ],
       "rc_year": null,
@@ -55113,7 +55035,6 @@
       "player_key": "frank gifford",
       "player_name": "Frank Gifford",
       "checklist_years": [
-        2023,
         2021,
         2020
       ],
@@ -58529,8 +58450,6 @@
       "player_key": "george halas",
       "player_name": "George Halas",
       "checklist_years": [
-        2025,
-        2023,
         2022,
         2020
       ],
@@ -60179,7 +60098,6 @@
       "player_key": "gordie howe",
       "player_name": "Gordie Howe",
       "checklist_years": [
-        2025,
         2023,
         2022,
         2021,
@@ -62883,7 +62801,6 @@
       "player_key": "harry anderson",
       "player_name": "Harry Anderson",
       "checklist_years": [
-        2025,
         1959,
         1958,
         1957
@@ -63940,7 +63857,6 @@
       "player_key": "henri richard",
       "player_name": "Henri Richard",
       "checklist_years": [
-        2025,
         2020
       ],
       "rc_year": null,
@@ -64656,7 +64572,6 @@
       "player_key": "hilary knight",
       "player_name": "Hilary Knight",
       "checklist_years": [
-        2025,
         2019
       ],
       "rc_year": null,
@@ -67380,8 +67295,6 @@
       "player_key": "isaiah thomas",
       "player_name": "Isaiah Thomas",
       "checklist_years": [
-        2025,
-        2024,
         2017
       ],
       "rc_year": null,
@@ -68070,9 +67983,6 @@
       "player_key": "j k dobbins",
       "player_name": "J.K. Dobbins",
       "checklist_years": [
-        2026,
-        2025,
-        2023,
         2020
       ],
       "rc_year": null,
@@ -68759,7 +68669,6 @@
       "player_key": "jack lemmon",
       "player_name": "Jack Lemmon",
       "checklist_years": [
-        2023,
         2020
       ],
       "rc_year": null,
@@ -69173,8 +69082,6 @@
       "player_key": "jack white",
       "player_name": "Jack White",
       "checklist_years": [
-        2024,
-        2023,
         2020
       ],
       "rc_year": null,
@@ -71187,7 +71094,6 @@
       "player_key": "jake evans",
       "player_name": "Jake Evans",
       "checklist_years": [
-        2025,
         2023
       ],
       "rc_year": null,
@@ -71208,8 +71114,6 @@
       "player_key": "jake ferguson",
       "player_name": "Jake Ferguson",
       "checklist_years": [
-        2026,
-        2025,
         2023
       ],
       "rc_year": null,
@@ -73028,10 +72932,6 @@
       "player_key": "jaren jackson jr",
       "player_name": "Jaren Jackson Jr.",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023,
         2018
       ],
       "rc_year": null,
@@ -73498,8 +73398,7 @@
       "player_key": "jason kelce",
       "player_name": "Jason Kelce",
       "checklist_years": [
-        2025,
-        2023
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -74164,10 +74063,7 @@
       "player_key": "jayden daniels",
       "player_name": "Jayden Daniels",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023
+        2024
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -74300,9 +74196,6 @@
       "player_key": "jaylen waddle",
       "player_name": "Jaylen Waddle",
       "checklist_years": [
-        2026,
-        2025,
-        2023,
         2021
       ],
       "rc_year": null,
@@ -74385,10 +74278,8 @@
       "player_key": "jayson tatum",
       "player_name": "Jayson Tatum",
       "checklist_years": [
-        2026,
         2025,
-        2024,
-        2023
+        2024
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -75825,8 +75716,7 @@
       "player_key": "jerry seinfeld",
       "player_name": "Jerry Seinfeld",
       "checklist_years": [
-        2026,
-        2025
+        2026
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -76318,7 +76208,6 @@
       "player_name": "Jesus Rodriguez",
       "checklist_years": [
         2026,
-        2025,
         2024
       ],
       "rc_year": null,
@@ -76973,7 +76862,6 @@
       "player_key": "jim brown",
       "player_name": "Jim Brown",
       "checklist_years": [
-        2025,
         2023
       ],
       "rc_year": null,
@@ -77195,8 +77083,6 @@
       "player_key": "jim harbaugh",
       "player_name": "Jim Harbaugh",
       "checklist_years": [
-        2025,
-        2023,
         2016
       ],
       "rc_year": null,
@@ -77249,7 +77135,6 @@
       "player_key": "jim henson",
       "player_name": "Jim Henson",
       "checklist_years": [
-        2023,
         2020
       ],
       "rc_year": null,
@@ -77667,7 +77552,6 @@
       "player_key": "jim thorpe",
       "player_name": "Jim Thorpe",
       "checklist_years": [
-        2025,
         2024,
         2023,
         2022,
@@ -78541,9 +78425,6 @@
       "player_key": "joe burrow",
       "player_name": "Joe Burrow",
       "checklist_years": [
-        2026,
-        2025,
-        2023,
         2020
       ],
       "rc_year": null,
@@ -78903,7 +78784,6 @@
       "player_key": "joe jackson",
       "player_name": "Joe Jackson",
       "checklist_years": [
-        2026,
         2025,
         2024,
         2023,
@@ -79581,7 +79461,6 @@
       "player_key": "joe smith",
       "player_name": "Joe Smith",
       "checklist_years": [
-        2024,
         2022,
         2017,
         2016
@@ -79604,7 +79483,6 @@
       "player_key": "joe taylor",
       "player_name": "Joe Taylor",
       "checklist_years": [
-        2025,
         1958
       ],
       "rc_year": 1958,
@@ -80426,10 +80304,7 @@
       "player_key": "john elway",
       "player_name": "John Elway",
       "checklist_years": [
-        2026,
-        2025,
         2024,
-        2023,
         2017
       ],
       "rc_year": null,
@@ -80440,7 +80315,6 @@
       "player_key": "john f kennedy",
       "player_name": "John F. Kennedy",
       "checklist_years": [
-        2025,
         2024,
         2023,
         2022,
@@ -81558,8 +81432,6 @@
       "player_key": "johnny davis",
       "player_name": "Johnny Davis",
       "checklist_years": [
-        2024,
-        2023,
         2020
       ],
       "rc_year": 2020,
@@ -81930,7 +81802,6 @@
       "player_key": "johnny unitas",
       "player_name": "Johnny Unitas",
       "checklist_years": [
-        2023,
         2020
       ],
       "rc_year": null,
@@ -82697,9 +82568,6 @@
       "player_key": "jonathan taylor",
       "player_name": "Jonathan Taylor",
       "checklist_years": [
-        2026,
-        2025,
-        2023,
         2022
       ],
       "rc_year": null,
@@ -83069,7 +82937,6 @@
       "player_key": "jordan martin",
       "player_name": "Jordan Martin",
       "checklist_years": [
-        2025,
         2024
       ],
       "rc_year": null,
@@ -83817,9 +83684,6 @@
       "player_key": "jose alvarado",
       "player_name": "Jose Alvarado",
       "checklist_years": [
-        2025,
-        2024,
-        2023,
         2019,
         2017
       ],
@@ -86881,8 +86745,7 @@
       "player_key": "juan cruz",
       "player_name": "Juan Cruz",
       "checklist_years": [
-        2026,
-        2025
+        2026
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -87444,8 +87307,7 @@
       "player_key": "juju watkins",
       "player_name": "Juju Watkins",
       "checklist_years": [
-        2025,
-        2024
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -88204,9 +88066,6 @@
       "player_key": "justin anderson",
       "player_name": "Justin Anderson",
       "checklist_years": [
-        2025,
-        2024,
-        2023,
         2019,
         2018
       ],
@@ -88478,9 +88337,7 @@
       "player_key": "justin lawrence",
       "player_name": "Justin Lawrence",
       "checklist_years": [
-        2026,
-        2024,
-        2023
+        2024
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -90429,9 +90286,6 @@
       "player_key": "kelsey plum",
       "player_name": "Kelsey Plum",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
         2018
       ],
       "rc_year": null,
@@ -90514,8 +90368,7 @@
       "player_key": "kelvin sampson",
       "player_name": "Kelvin Sampson",
       "checklist_years": [
-        2026,
-        2025
+        2026
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -91423,7 +91276,6 @@
       "player_key": "keon johnson",
       "player_name": "Keon Johnson",
       "checklist_years": [
-        2024,
         2023
       ],
       "rc_year": null,
@@ -92149,7 +92001,6 @@
       "player_key": "kevin smith",
       "player_name": "Kevin Smith",
       "checklist_years": [
-        2023,
         2022,
         2021,
         2020,
@@ -93544,10 +93395,6 @@
       "player_key": "kristaps porzingis",
       "player_name": "Kristaps Porzingis",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023,
         2016
       ],
       "rc_year": null,
@@ -95127,8 +94974,6 @@
       "player_key": "landon donovan",
       "player_name": "Landon Donovan",
       "checklist_years": [
-        2026,
-        2025,
         2022
       ],
       "rc_year": null,
@@ -97551,7 +97396,6 @@
       "player_key": "logan morrison",
       "player_name": "Logan Morrison",
       "checklist_years": [
-        2025,
         2020,
         2019,
         2018,
@@ -98670,7 +98514,6 @@
       "player_key": "lucille ball",
       "player_name": "Lucille Ball",
       "checklist_years": [
-        2025,
         2024,
         2023,
         2021,
@@ -99234,8 +99077,7 @@
       "player_key": "luis hernandez",
       "player_name": "Luis Hernandez",
       "checklist_years": [
-        2026,
-        2025
+        2026
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -101037,7 +100879,6 @@
       "player_key": "mallory swanson",
       "player_name": "Mallory Swanson",
       "checklist_years": [
-        2026,
         2024
       ],
       "rc_year": null,
@@ -103143,8 +102984,6 @@
       "player_key": "marvin bagley iii",
       "player_name": "Marvin Bagley III",
       "checklist_years": [
-        2024,
-        2023,
         2018
       ],
       "rc_year": null,
@@ -103932,7 +103771,6 @@
       "player_key": "matt barnes",
       "player_name": "Matt Barnes",
       "checklist_years": [
-        2024,
         2023,
         2022,
         2021,
@@ -105240,13 +105078,11 @@
       "player_key": "matthew wood",
       "player_name": "Matthew Wood",
       "checklist_years": [
-        2026,
-        2025,
         2023,
         2022
       ],
-      "rc_year": 2025,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -106555,8 +106391,6 @@
       "player_key": "micah johnson",
       "player_name": "Micah Johnson",
       "checklist_years": [
-        2026,
-        2025,
         2016
       ],
       "rc_year": null,
@@ -108440,10 +108274,6 @@
       "player_key": "mikal bridges",
       "player_name": "Mikal Bridges",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023,
         2018
       ],
       "rc_year": null,
@@ -108562,7 +108392,6 @@
       "player_key": "mike bossy",
       "player_name": "Mike Bossy",
       "checklist_years": [
-        2025,
         2023
       ],
       "rc_year": null,
@@ -108958,9 +108787,6 @@
       "player_key": "mike miller",
       "player_name": "Mike Miller",
       "checklist_years": [
-        2026,
-        2024,
-        2023,
         2018
       ],
       "rc_year": null,
@@ -109222,9 +109048,7 @@
       "player_name": "Mike Scott",
       "checklist_years": [
         2026,
-        2025,
         2024,
-        2023,
         2017
       ],
       "rc_year": null,
@@ -111026,8 +110850,6 @@
       "player_key": "moses malone",
       "player_name": "Moses Malone",
       "checklist_years": [
-        2026,
-        2024,
         2023
       ],
       "rc_year": null,
@@ -111048,7 +110870,6 @@
       "player_key": "mother teresa",
       "player_name": "Mother Teresa",
       "checklist_years": [
-        2025,
         2020
       ],
       "rc_year": null,
@@ -112873,7 +112694,6 @@
       "player_name": "Neil Armstrong",
       "checklist_years": [
         2026,
-        2025,
         2017
       ],
       "rc_year": null,
@@ -113281,8 +113101,6 @@
       "player_key": "new york giants",
       "player_name": "New York Giants",
       "checklist_years": [
-        2026,
-        2023,
         2020,
         2017
       ],
@@ -113681,9 +113499,6 @@
       "player_key": "nick anderson",
       "player_name": "Nick Anderson",
       "checklist_years": [
-        2025,
-        2024,
-        2023,
         2021,
         2020,
         2019
@@ -114486,7 +114301,6 @@
       "player_key": "nick robertson",
       "player_name": "Nick Robertson",
       "checklist_years": [
-        2025,
         2024
       ],
       "rc_year": 2024,
@@ -116437,7 +116251,6 @@
       "player_key": "ollie palmer",
       "player_name": "Ollie Palmer",
       "checklist_years": [
-        2025,
         2023
       ],
       "rc_year": null,
@@ -117969,13 +117782,10 @@
       "player_key": "paige bueckers",
       "player_name": "Paige Bueckers",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023
+        2026
       ],
-      "rc_year": 2025,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -118596,7 +118406,6 @@
       "player_key": "patch autographs",
       "player_name": "Patch Autographs",
       "checklist_years": [
-        2024,
         2020
       ],
       "rc_year": null,
@@ -118617,7 +118426,6 @@
       "player_key": "patch autographs platinum",
       "player_name": "Patch Autographs Platinum",
       "checklist_years": [
-        2024,
         2020
       ],
       "rc_year": null,
@@ -119144,7 +118952,6 @@
       "player_key": "paul newman",
       "player_name": "Paul Newman",
       "checklist_years": [
-        2025,
         2024,
         2020,
         2018,
@@ -122107,7 +121914,6 @@
       "player_key": "quinn mckenzie",
       "player_name": "Quinn McKenzie",
       "checklist_years": [
-        2025,
         2023
       ],
       "rc_year": null,
@@ -122134,7 +121940,6 @@
       "player_key": "quinn sullivan",
       "player_name": "Quinn Sullivan",
       "checklist_years": [
-        2025,
         2017
       ],
       "rc_year": null,
@@ -122971,9 +122776,6 @@
       "player_key": "randall cunningham",
       "player_name": "Randall Cunningham",
       "checklist_years": [
-        2026,
-        2025,
-        2023,
         2021
       ],
       "rc_year": null,
@@ -123986,7 +123788,6 @@
       "player_key": "red auerbach",
       "player_name": "Red Auerbach",
       "checklist_years": [
-        2025,
         2016
       ],
       "rc_year": null,
@@ -124186,7 +123987,6 @@
       "player_key": "red skelton",
       "player_name": "Red Skelton",
       "checklist_years": [
-        2023,
         2020
       ],
       "rc_year": null,
@@ -124495,8 +124295,6 @@
       "player_key": "reggie white",
       "player_name": "Reggie White",
       "checklist_years": [
-        2025,
-        2023,
         2019
       ],
       "rc_year": null,
@@ -126319,12 +126117,10 @@
       "player_key": "rob dillingham",
       "player_name": "Rob Dillingham",
       "checklist_years": [
-        2025,
-        2024,
-        2023
+        2024
       ],
-      "rc_year": 2024,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -127327,7 +127123,6 @@
       "player_key": "rocky bleier",
       "player_name": "Rocky Bleier",
       "checklist_years": [
-        2025,
         2021
       ],
       "rc_year": null,
@@ -127700,9 +127495,6 @@
       "player_key": "roger craig",
       "player_name": "Roger Craig",
       "checklist_years": [
-        2026,
-        2025,
-        2023,
         1958,
         1957,
         1956
@@ -128422,7 +128214,6 @@
       "player_key": "ronald reagan",
       "player_name": "Ronald Reagan",
       "checklist_years": [
-        2025,
         2024,
         2023,
         2022,
@@ -128686,12 +128477,10 @@
       "player_key": "rookie autographs",
       "player_name": "Rookie Autographs",
       "checklist_years": [
-        2025,
-        2024,
         2019
       ],
-      "rc_year": 2025,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -128789,7 +128578,6 @@
       "player_key": "rose lavelle",
       "player_name": "Rose Lavelle",
       "checklist_years": [
-        2026,
         2021
       ],
       "rc_year": null,
@@ -129574,9 +129362,6 @@
       "player_key": "russell wilson",
       "player_name": "Russell Wilson",
       "checklist_years": [
-        2026,
-        2025,
-        2023,
         2018
       ],
       "rc_year": null,
@@ -129983,7 +129768,6 @@
       "player_key": "ryan fitzgerald",
       "player_name": "Ryan Fitzgerald",
       "checklist_years": [
-        2026,
         2025
       ],
       "rc_year": 2025,
@@ -130890,8 +130674,6 @@
       "player_key": "ryan williams",
       "player_name": "Ryan Williams",
       "checklist_years": [
-        2026,
-        2025,
         2016
       ],
       "rc_year": null,
@@ -131832,7 +131614,6 @@
       "player_key": "salvador dali",
       "player_name": "Salvador Dali",
       "checklist_years": [
-        2023,
         2022,
         2021
       ],
@@ -133693,13 +133474,10 @@
       "player_key": "scoot henderson",
       "player_name": "Scoot Henderson",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
         2023
       ],
-      "rc_year": 2023,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -134554,12 +134332,10 @@
       "player_key": "sebastian castro",
       "player_name": "Sebastian Castro",
       "checklist_years": [
-        2026,
-        2025,
         2019
       ],
-      "rc_year": 2025,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -136015,8 +135791,6 @@
       "player_key": "sheryl swoopes",
       "player_name": "Sheryl Swoopes",
       "checklist_years": [
-        2026,
-        2025,
         2024
       ],
       "rc_year": null,
@@ -138309,8 +138083,6 @@
       "player_key": "spike lee",
       "player_name": "Spike Lee",
       "checklist_years": [
-        2025,
-        2024,
         2020
       ],
       "rc_year": null,
@@ -138503,7 +138275,6 @@
       "player_key": "stan lee",
       "player_name": "Stan Lee",
       "checklist_years": [
-        2025,
         2024,
         2021,
         2020,
@@ -139526,8 +139297,6 @@
       "player_key": "steve stone",
       "player_name": "Steve Stone",
       "checklist_years": [
-        2026,
-        2025,
         2019
       ],
       "rc_year": null,
@@ -139977,7 +139746,6 @@
       "player_key": "stuart scott",
       "player_name": "Stuart Scott",
       "checklist_years": [
-        2023,
         2020
       ],
       "rc_year": null,
@@ -143820,7 +143588,6 @@
       "player_key": "tiger stadium",
       "player_name": "Tiger Stadium",
       "checklist_years": [
-        2026,
         2019
       ],
       "rc_year": null,
@@ -144203,8 +143970,6 @@
       "player_key": "tim tebow",
       "player_name": "Tim Tebow",
       "checklist_years": [
-        2025,
-        2023,
         2020,
         2019,
         2018,
@@ -144733,8 +144498,6 @@
       "player_key": "tom brady",
       "player_name": "Tom Brady",
       "checklist_years": [
-        2026,
-        2025,
         2023
       ],
       "rc_year": null,
@@ -145059,7 +144822,6 @@
       "player_key": "tom petty",
       "player_name": "Tom Petty",
       "checklist_years": [
-        2023,
         2022,
         2021
       ],
@@ -145209,12 +144971,10 @@
       "player_key": "tom watson",
       "player_name": "Tom Watson",
       "checklist_years": [
-        2026,
-        2025,
         2016
       ],
-      "rc_year": 2025,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -145378,7 +145138,6 @@
       "player_key": "tommy doyle",
       "player_name": "Tommy Doyle",
       "checklist_years": [
-        2025,
         2018,
         2017
       ],
@@ -148882,9 +148641,6 @@
       "player_key": "trevor lawrence",
       "player_name": "Trevor Lawrence",
       "checklist_years": [
-        2026,
-        2025,
-        2023,
         2021
       ],
       "rc_year": null,
@@ -150173,7 +149929,6 @@
       "player_key": "ty hamilton",
       "player_name": "Ty Hamilton",
       "checklist_years": [
-        2025,
         2023
       ],
       "rc_year": null,
@@ -150845,14 +150600,11 @@
       "player_key": "tyler kolek",
       "player_name": "Tyler Kolek",
       "checklist_years": [
-        2025,
-        2024,
-        2023,
         2018,
         2016
       ],
-      "rc_year": 2024,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -151099,13 +150851,10 @@
       "player_key": "tyler smith",
       "player_name": "Tyler Smith",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023
+        2026
       ],
-      "rc_year": 2024,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -152198,7 +151947,6 @@
       "player_key": "vic janowicz",
       "player_name": "Vic Janowicz",
       "checklist_years": [
-        2023,
         1954,
         1953
       ],
@@ -152645,12 +152393,11 @@
       "player_name": "Victor Wembanyama",
       "checklist_years": [
         2026,
-        2025,
         2024,
         2023
       ],
-      "rc_year": 2023,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -152817,7 +152564,6 @@
       "player_key": "vince lombardi",
       "player_name": "Vince Lombardi",
       "checklist_years": [
-        2025,
         2023,
         2021,
         2020,
@@ -153073,12 +152819,10 @@
       "player_key": "vj edgecombe",
       "player_name": "VJ Edgecombe",
       "checklist_years": [
-        2026,
-        2025,
-        2024
+        2026
       ],
-      "rc_year": 2025,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -153858,8 +153602,6 @@
       "player_key": "walter payton",
       "player_name": "Walter Payton",
       "checklist_years": [
-        2026,
-        2025,
         2024,
         2023
       ],
@@ -154946,7 +154688,6 @@
       "player_key": "whitney houston",
       "player_name": "Whitney Houston",
       "checklist_years": [
-        2023,
         2020
       ],
       "rc_year": null,
@@ -155408,8 +155149,6 @@
       "player_key": "will levis",
       "player_name": "Will Levis",
       "checklist_years": [
-        2026,
-        2025,
         2023
       ],
       "rc_year": null,
@@ -155461,7 +155200,6 @@
       "player_key": "will rogers",
       "player_name": "Will Rogers",
       "checklist_years": [
-        2023,
         2018
       ],
       "rc_year": null,
@@ -156556,8 +156294,6 @@
       "player_key": "wilt chamberlain",
       "player_name": "Wilt Chamberlain",
       "checklist_years": [
-        2025,
-        2024,
         2023,
         2022,
         2021,
@@ -160166,13 +159902,10 @@
       "player_key": "zaccharie risacher",
       "player_name": "Zaccharie Risacher",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023
+        2024
       ],
-      "rc_year": 2024,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -160298,13 +160031,10 @@
       "player_key": "zach edey",
       "player_name": "Zach Edey",
       "checklist_years": [
-        2026,
-        2025,
-        2024,
-        2023
+        2024
       ],
-      "rc_year": 2024,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -161397,7 +161127,6 @@
       "player_key": "a j green",
       "player_name": "A.J. Green",
       "checklist_years": [
-        2025,
         2024,
         2023
       ],
@@ -162430,6 +162159,17 @@
       "player_name": "Alex O'Connell",
       "checklist_years": [
         2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "alex sarr",
+      "player_name": "Alex Sarr",
+      "checklist_years": [
+        2026,
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -163716,6 +163456,19 @@
     },
     {
       "sport": "basketball",
+      "player_key": "angel reese",
+      "player_name": "Angel Reese",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": 2024,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "basketball",
       "player_key": "angel reese diamond deshields",
       "player_name": "Angel Reese/Diamond DeShields",
       "checklist_years": [
@@ -163822,6 +163575,16 @@
       ],
       "rc_year": 2023,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "anthony bourdain",
+      "player_name": "Anthony Bourdain",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "basketball",
@@ -164679,7 +164442,6 @@
       "player_key": "avery johnson",
       "player_name": "Avery Johnson",
       "checklist_years": [
-        2025,
         2024
       ],
       "rc_year": null,
@@ -164751,6 +164513,17 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "azzi fudd",
+      "player_name": "Azzi Fudd",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": 2026,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "basketball",
@@ -165226,6 +164999,17 @@
     },
     {
       "sport": "basketball",
+      "player_key": "bill russell",
+      "player_name": "Bill Russell",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "bill self",
       "player_name": "Bill Self",
       "checklist_years": [
@@ -165355,7 +165139,6 @@
       "player_key": "bob barker",
       "player_name": "Bob Barker",
       "checklist_years": [
-        2025,
         2023
       ],
       "rc_year": null,
@@ -165424,6 +165207,17 @@
       "checklist_years": [
         2024,
         2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "bobby knight",
+      "player_name": "Bobby Knight",
+      "checklist_years": [
+        2025,
+        2024
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -165627,6 +165421,16 @@
     },
     {
       "sport": "basketball",
+      "player_key": "brad miller",
+      "player_name": "Brad Miller",
+      "checklist_years": [
+        2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "brad newley",
       "player_name": "Brad Newley",
       "checklist_years": [
@@ -165673,6 +165477,19 @@
       "player_name": "Braden Smith/Zuby Ejiofor/Milos Uzan",
       "checklist_years": [
         2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "bradley beal",
+      "player_name": "Bradley Beal",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -165794,6 +165611,28 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "brandon clarke",
+      "player_name": "Brandon Clarke",
+      "checklist_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "brandon crawford",
+      "player_name": "Brandon Crawford",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": 2023,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "basketball",
@@ -166739,6 +166578,19 @@
     },
     {
       "sport": "basketball",
+      "player_key": "caitlin clark",
+      "player_name": "Caitlin Clark",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": 2024,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "basketball",
       "player_key": "caitlin clark aliyah boston",
       "player_name": "Caitlin Clark/Aliyah Boston",
       "checklist_years": [
@@ -166885,6 +166737,16 @@
     },
     {
       "sport": "basketball",
+      "player_key": "calvin coolidge",
+      "player_name": "Calvin Coolidge",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "calvin murphy",
       "player_name": "Calvin Murphy",
       "checklist_years": [
@@ -166987,11 +166849,10 @@
       "player_key": "cam ward",
       "player_name": "Cam Ward",
       "checklist_years": [
-        2026,
         2025
       ],
-      "rc_year": 2025,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "basketball",
@@ -167064,8 +166925,7 @@
       "player_key": "cameron brown",
       "player_name": "Cameron Brown",
       "checklist_years": [
-        2024,
-        2023
+        2024
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -167086,6 +166946,19 @@
       "player_key": "cameron gliddon",
       "player_name": "Cameron Gliddon",
       "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "cameron johnson",
+      "player_name": "Cameron Johnson",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
         2023
       ],
       "rc_year": null,
@@ -167118,7 +166991,6 @@
       "player_key": "cameron thomas",
       "player_name": "Cameron Thomas",
       "checklist_years": [
-        2025,
         2024,
         2023
       ],
@@ -168126,10 +167998,19 @@
     },
     {
       "sport": "basketball",
+      "player_key": "chris johnson",
+      "player_name": "Chris Johnson",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "chris jones",
       "player_name": "Chris Jones",
       "checklist_years": [
-        2026,
         2025,
         2023
       ],
@@ -168790,6 +168671,19 @@
     },
     {
       "sport": "basketball",
+      "player_key": "collin sexton",
+      "player_name": "Collin Sexton",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "constellations signatures gold",
       "player_name": "Constellations Signatures Gold",
       "checklist_years": [
@@ -169077,7 +168971,6 @@
       "player_key": "curtis jones",
       "player_name": "Curtis Jones",
       "checklist_years": [
-        2026,
         2025
       ],
       "rc_year": null,
@@ -169112,6 +169005,16 @@
       "checklist_years": [
         2025,
         2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "d j wilson",
+      "player_name": "D.J. Wilson",
+      "checklist_years": [
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -170109,6 +170012,16 @@
     },
     {
       "sport": "basketball",
+      "player_key": "david bowie",
+      "player_name": "David Bowie",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "david dejulius",
       "player_name": "David DeJulius",
       "checklist_years": [
@@ -170289,6 +170202,18 @@
     },
     {
       "sport": "basketball",
+      "player_key": "david thompson",
+      "player_name": "David Thompson",
+      "checklist_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "david vanterpool",
       "player_name": "David Vanterpool",
       "checklist_years": [
@@ -170357,6 +170282,17 @@
       "player_key": "davon reed",
       "player_name": "Davon Reed",
       "checklist_years": [
+        2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "dawn staley",
+      "player_name": "Dawn Staley",
+      "checklist_years": [
+        2026,
         2024
       ],
       "rc_year": null,
@@ -170999,6 +170935,19 @@
     },
     {
       "sport": "basketball",
+      "player_key": "derek fisher",
+      "player_name": "Derek Fisher",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "derek fisher rick fox robert horry",
       "player_name": "Derek Fisher/Rick Fox/Robert Horry",
       "checklist_years": [
@@ -171500,6 +171449,16 @@
     },
     {
       "sport": "basketball",
+      "player_key": "devin williams",
+      "player_name": "Devin Williams",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "devon dotson",
       "player_name": "Devon Dotson",
       "checklist_years": [
@@ -171802,8 +171761,7 @@
       "player_key": "dillon mitchell",
       "player_name": "Dillon Mitchell",
       "checklist_years": [
-        2026,
-        2023
+        2026
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -172582,6 +172540,26 @@
       "player_name": "Doug McDermott",
       "checklist_years": [
         2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "douglas macarthur",
+      "player_name": "Douglas MacArthur",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "dr seuss",
+      "player_name": "Dr. Seuss",
+      "checklist_years": [
         2023
       ],
       "rc_year": null,
@@ -173380,6 +173358,16 @@
     },
     {
       "sport": "basketball",
+      "player_key": "elgin baylor",
+      "player_name": "Elgin Baylor",
+      "checklist_years": [
+        2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "eli ndiaye",
       "player_name": "Eli NDiaye",
       "checklist_years": [
@@ -173983,7 +173971,6 @@
       "player_key": "fc barcelona",
       "player_name": "FC Barcelona",
       "checklist_years": [
-        2025,
         2024
       ],
       "rc_year": null,
@@ -174450,6 +174437,16 @@
     },
     {
       "sport": "basketball",
+      "player_key": "fred astaire",
+      "player_name": "Fred Astaire",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "fred brown",
       "player_name": "Fred Brown",
       "checklist_years": [
@@ -174727,7 +174724,6 @@
       "player_key": "gary clark",
       "player_name": "Gary Clark",
       "checklist_years": [
-        2025,
         2023
       ],
       "rc_year": null,
@@ -175685,6 +175681,16 @@
     },
     {
       "sport": "basketball",
+      "player_key": "harry truman",
+      "player_name": "Harry Truman",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "hason ward",
       "player_name": "Hason Ward",
       "checklist_years": [
@@ -176635,6 +176641,17 @@
     },
     {
       "sport": "basketball",
+      "player_key": "isaiah thomas",
+      "player_name": "Isaiah Thomas",
+      "checklist_years": [
+        2025,
+        2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "isaiah todd",
       "player_name": "Isaiah Todd",
       "checklist_years": [
@@ -177079,6 +177096,17 @@
       "sport": "basketball",
       "player_key": "jack sikma",
       "player_name": "Jack Sikma",
+      "checklist_years": [
+        2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "jack white",
+      "player_name": "Jack White",
       "checklist_years": [
         2024,
         2023
@@ -178687,6 +178715,19 @@
     },
     {
       "sport": "basketball",
+      "player_key": "jaren jackson jr",
+      "player_name": "Jaren Jackson Jr.",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "jaren jackson jr desmond bane",
       "player_name": "Jaren Jackson Jr./Desmond Bane",
       "checklist_years": [
@@ -179407,6 +179448,19 @@
     },
     {
       "sport": "basketball",
+      "player_key": "jayson tatum",
+      "player_name": "Jayson Tatum",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "jayson tatum giannis antetokounmpo kevin durant",
       "player_name": "Jayson Tatum/Giannis Antetokounmpo/Kevin Durant",
       "checklist_years": [
@@ -179972,6 +180026,16 @@
     },
     {
       "sport": "basketball",
+      "player_key": "jim henson",
+      "player_name": "Jim Henson",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "jim jackson",
       "player_name": "Jim Jackson",
       "checklist_years": [
@@ -180289,6 +180353,16 @@
       "sport": "basketball",
       "player_key": "joe mazzulla",
       "player_name": "Joe Mazzulla",
+      "checklist_years": [
+        2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "joe smith",
+      "player_name": "Joe Smith",
       "checklist_years": [
         2024
       ],
@@ -180777,6 +180851,17 @@
     },
     {
       "sport": "basketball",
+      "player_key": "johnny davis",
+      "player_name": "Johnny Davis",
+      "checklist_years": [
+        2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "johnny furphy",
       "player_name": "Johnny Furphy",
       "checklist_years": [
@@ -181221,6 +181306,16 @@
     },
     {
       "sport": "basketball",
+      "player_key": "jordan walker",
+      "player_name": "Jordan Walker",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "jordan walsh",
       "player_name": "Jordan Walsh",
       "checklist_years": [
@@ -181261,6 +181356,18 @@
       "checklist_years": [
         2025,
         2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "jose alvarado",
+      "player_name": "Jose Alvarado",
+      "checklist_years": [
+        2025,
+        2024,
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -181713,6 +181820,17 @@
     },
     {
       "sport": "basketball",
+      "player_key": "juju watkins",
+      "player_name": "Juju Watkins",
+      "checklist_years": [
+        2025,
+        2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "juju watkins darryn peterson aj dybantsa",
       "player_name": "Juju Watkins/Darryn Peterson/AJ Dybantsa",
       "checklist_years": [
@@ -181931,6 +182049,18 @@
       "player_name": "Justice Carlton",
       "checklist_years": [
         2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "justin anderson",
+      "player_name": "Justin Anderson",
+      "checklist_years": [
+        2025,
+        2024,
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -182164,12 +182294,10 @@
       "player_key": "kaleb johnson",
       "player_name": "Kaleb Johnson",
       "checklist_years": [
-        2026,
-        2025,
         2023
       ],
-      "rc_year": 2025,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "basketball",
@@ -182903,6 +183031,28 @@
     },
     {
       "sport": "basketball",
+      "player_key": "kelsey plum",
+      "player_name": "Kelsey Plum",
+      "checklist_years": [
+        2026,
+        2025,
+        2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "kelvin sampson",
+      "player_name": "Kelvin Sampson",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "kemba walker",
       "player_name": "Kemba Walker",
       "checklist_years": [
@@ -183132,6 +183282,17 @@
       "player_name": "Keon Ellis",
       "checklist_years": [
         2025,
+        2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "keon johnson",
+      "player_name": "Keon Johnson",
+      "checklist_years": [
         2024,
         2023
       ],
@@ -184411,6 +184572,19 @@
       "player_key": "kris murray keegan murray",
       "player_name": "Kris Murray/Keegan Murray",
       "checklist_years": [
+        2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "kristaps porzingis",
+      "player_name": "Kristaps Porzingis",
+      "checklist_years": [
+        2026,
+        2025,
         2024,
         2023
       ],
@@ -187004,6 +187178,16 @@
     },
     {
       "sport": "basketball",
+      "player_key": "marcus brown",
+      "player_name": "Marcus Brown",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "marcus camby",
       "player_name": "Marcus Camby",
       "checklist_years": [
@@ -187377,6 +187561,17 @@
     },
     {
       "sport": "basketball",
+      "player_key": "marvin bagley iii",
+      "player_name": "Marvin Bagley III",
+      "checklist_years": [
+        2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "mason peatling",
       "player_name": "Mason Peatling",
       "checklist_years": [
@@ -187571,6 +187766,17 @@
     },
     {
       "sport": "basketball",
+      "player_key": "matt barnes",
+      "player_name": "Matt Barnes",
+      "checklist_years": [
+        2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "matt bonner",
       "player_name": "Matt Bonner",
       "checklist_years": [
@@ -187617,7 +187823,6 @@
       "player_key": "matt ryan",
       "player_name": "Matt Ryan",
       "checklist_years": [
-        2025,
         2024,
         2023
       ],
@@ -188070,7 +188275,6 @@
       "player_key": "michael cooper",
       "player_name": "Michael Cooper",
       "checklist_years": [
-        2025,
         2024,
         2023
       ],
@@ -188199,6 +188403,19 @@
       "player_name": "Mikael Jantunen",
       "checklist_years": [
         2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "mikal bridges",
+      "player_name": "Mikal Bridges",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -188363,6 +188580,29 @@
       ],
       "rc_year": 2023,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "mike miller",
+      "player_name": "Mike Miller",
+      "checklist_years": [
+        2026,
+        2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "mike scott",
+      "player_name": "Mike Scott",
+      "checklist_years": [
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "basketball",
@@ -188877,6 +189117,17 @@
     },
     {
       "sport": "basketball",
+      "player_key": "moses malone",
+      "player_name": "Moses Malone",
+      "checklist_years": [
+        2026,
+        2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "moses moody",
       "player_name": "Moses Moody",
       "checklist_years": [
@@ -189360,6 +189611,16 @@
     },
     {
       "sport": "basketball",
+      "player_key": "national treasures",
+      "player_name": "National Treasures",
+      "checklist_years": [
+        2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "national treasures definitive ink",
       "player_name": "National Treasures Definitive Ink",
       "checklist_years": [
@@ -189686,6 +189947,17 @@
       "player_name": "Nicholas Stoddart",
       "checklist_years": [
         2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "nick anderson",
+      "player_name": "Nick Anderson",
+      "checklist_years": [
+        2024,
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -191321,6 +191593,19 @@
     },
     {
       "sport": "basketball",
+      "player_key": "paige bueckers",
+      "player_name": "Paige Bueckers",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "basketball",
       "player_key": "paige bueckers arike ogunbowale",
       "player_name": "Paige Bueckers/Arike Ogunbowale",
       "checklist_years": [
@@ -191404,7 +191689,6 @@
       "player_key": "panini one",
       "player_name": "Panini One",
       "checklist_years": [
-        2025,
         2024
       ],
       "rc_year": null,
@@ -191739,6 +192023,26 @@
       "player_name": "Pat Spencer",
       "checklist_years": [
         2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "patch autographs",
+      "player_name": "Patch Autographs",
+      "checklist_years": [
+        2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "patch autographs platinum",
+      "player_name": "Patch Autographs Platinum",
+      "checklist_years": [
+        2024
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -192998,7 +193302,6 @@
       "player_key": "real madrid",
       "player_name": "Real Madrid",
       "checklist_years": [
-        2025,
         2024
       ],
       "rc_year": null,
@@ -193167,6 +193470,18 @@
       "player_name": "Reed Sheppard/Stephon Castle",
       "checklist_years": [
         2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "reggie jackson",
+      "player_name": "Reggie Jackson",
+      "checklist_years": [
+        2025,
+        2024,
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -193615,6 +193930,18 @@
     },
     {
       "sport": "basketball",
+      "player_key": "rob dillingham",
+      "player_name": "Rob Dillingham",
+      "checklist_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": 2024,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "basketball",
       "player_key": "rob dillingham terrence shannon jr",
       "player_name": "Rob Dillingham/Terrence Shannon Jr.",
       "checklist_years": [
@@ -193939,6 +194266,27 @@
     },
     {
       "sport": "basketball",
+      "player_key": "ronald reagan",
+      "player_name": "Ronald Reagan",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "rookie autographs",
+      "player_name": "Rookie Autographs",
+      "checklist_years": [
+        2025,
+        2024
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "basketball",
       "player_key": "rookie autographs blue",
       "player_name": "Rookie Autographs Blue",
       "checklist_years": [
@@ -194205,8 +194553,7 @@
       "player_key": "roy williams",
       "player_name": "Roy Williams",
       "checklist_years": [
-        2025,
-        2023
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -194567,6 +194914,16 @@
     },
     {
       "sport": "basketball",
+      "player_key": "salvador dali",
+      "player_name": "Salvador Dali",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "sam cassell",
       "player_name": "Sam Cassell",
       "checklist_years": [
@@ -194676,6 +195033,16 @@
         2025,
         2024,
         2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "same as base set",
+      "player_name": "Same as Base Set",
+      "checklist_years": [
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -194857,6 +195224,19 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "scoot henderson",
+      "player_name": "Scoot Henderson",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": 2023,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "basketball",
@@ -195596,6 +195976,18 @@
     },
     {
       "sport": "basketball",
+      "player_key": "sheryl swoopes",
+      "player_name": "Sheryl Swoopes",
+      "checklist_years": [
+        2026,
+        2025,
+        2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "sheryl swoopes cynthia cooper-dyke",
       "player_name": "Sheryl Swoopes/Cynthia Cooper-Dyke",
       "checklist_years": [
@@ -196218,6 +196610,27 @@
     },
     {
       "sport": "basketball",
+      "player_key": "spencer jones",
+      "player_name": "Spencer Jones",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "spike lee",
+      "player_name": "Spike Lee",
+      "checklist_years": [
+        2025,
+        2024
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "spud webb",
       "player_name": "Spud Webb",
       "checklist_years": [
@@ -196814,6 +197227,16 @@
       "checklist_years": [
         2025,
         2024,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "stuart scott",
+      "player_name": "Stuart Scott",
+      "checklist_years": [
         2023
       ],
       "rc_year": null,
@@ -198366,6 +198789,16 @@
     },
     {
       "sport": "basketball",
+      "player_key": "tom petty",
+      "player_name": "Tom Petty",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "tom van arsdale",
       "player_name": "Tom Van Arsdale",
       "checklist_years": [
@@ -199370,6 +199803,18 @@
     },
     {
       "sport": "basketball",
+      "player_key": "tyler kolek",
+      "player_name": "Tyler Kolek",
+      "checklist_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": 2024,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "basketball",
       "player_key": "tyler kolek kevin mccullar jr",
       "player_name": "Tyler Kolek/Kevin McCullar Jr.",
       "checklist_years": [
@@ -199387,6 +199832,19 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "tyler smith",
+      "player_name": "Tyler Smith",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": 2024,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "basketball",
@@ -199956,6 +200414,19 @@
     },
     {
       "sport": "basketball",
+      "player_key": "victor wembanyama",
+      "player_name": "Victor Wembanyama",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": 2023,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "basketball",
       "player_key": "victor wembanyama alexandre sarr",
       "player_name": "Victor Wembanyama/Alexandre Sarr",
       "checklist_years": [
@@ -200205,6 +200676,18 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "vj edgecombe",
+      "player_name": "VJ Edgecombe",
+      "checklist_years": [
+        2026,
+        2025,
+        2024
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "basketball",
@@ -200491,6 +200974,16 @@
     },
     {
       "sport": "basketball",
+      "player_key": "whitney houston",
+      "player_name": "Whitney Houston",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
       "player_key": "will baker",
       "player_name": "Will Baker",
       "checklist_years": [
@@ -200664,6 +201157,18 @@
       "player_key": "willy hernangomez nicolas laprovittola jan vesely",
       "player_name": "Willy Hernangomez/Nicolas Laprovittola/Jan Vesely",
       "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "wilt chamberlain",
+      "player_name": "Wilt Chamberlain",
+      "checklist_years": [
+        2025,
+        2024,
         2023
       ],
       "rc_year": null,
@@ -201153,6 +201658,19 @@
     },
     {
       "sport": "basketball",
+      "player_key": "zaccharie risacher",
+      "player_name": "Zaccharie Risacher",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": 2024,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "basketball",
       "player_key": "zaccharie risacher alex sarr stephon castle",
       "player_name": "Zaccharie Risacher/Alex Sarr/Stephon Castle",
       "checklist_years": [
@@ -201232,6 +201750,19 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "basketball",
+      "player_key": "zach edey",
+      "player_name": "Zach Edey",
+      "checklist_years": [
+        2026,
+        2025,
+        2024,
+        2023
+      ],
+      "rc_year": 2024,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "basketball",
@@ -201761,6 +202292,17 @@
     },
     {
       "sport": "football",
+      "player_key": "a j green",
+      "player_name": "A.J. Green",
+      "checklist_years": [
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "a j green chad johnson",
       "player_name": "A.J. Green/Chad Johnson",
       "checklist_years": [
@@ -202085,6 +202627,16 @@
       "player_name": "Adam Bighill",
       "checklist_years": [
         2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "adam jones",
+      "player_name": "Adam Jones",
+      "checklist_years": [
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -202438,6 +202990,17 @@
     },
     {
       "sport": "football",
+      "player_key": "aj cole",
+      "player_name": "AJ Cole",
+      "checklist_years": [
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "aj dillon",
       "player_name": "AJ Dillon",
       "checklist_years": [
@@ -202498,6 +203061,16 @@
       ],
       "rc_year": 2026,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "football",
+      "player_key": "al davis",
+      "player_name": "Al Davis",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "football",
@@ -202723,6 +203296,16 @@
       "sport": "football",
       "player_key": "ali gaye",
       "player_name": "Ali Gaye",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "alice cooper",
+      "player_name": "Alice Cooper",
       "checklist_years": [
         2023
       ],
@@ -203087,6 +203670,16 @@
     },
     {
       "sport": "football",
+      "player_key": "andrew johnson",
+      "player_name": "Andrew Johnson",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "andrew luck",
       "player_name": "Andrew Luck",
       "checklist_years": [
@@ -203161,6 +203754,17 @@
     },
     {
       "sport": "football",
+      "player_key": "andy reid",
+      "player_name": "Andy Reid",
+      "checklist_years": [
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "andy reid patrick mahomes ii",
       "player_name": "Andy Reid/Patrick Mahomes II",
       "checklist_years": [
@@ -203194,7 +203798,6 @@
       "player_key": "anne hathaway",
       "player_name": "Anne Hathaway",
       "checklist_years": [
-        2026,
         2025
       ],
       "rc_year": null,
@@ -203236,6 +203839,16 @@
       "sport": "football",
       "player_key": "anthony colandrea",
       "player_name": "Anthony Colandrea",
+      "checklist_years": [
+        2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "anthony edwards",
+      "player_name": "Anthony Edwards",
       "checklist_years": [
         2026
       ],
@@ -203311,6 +203924,18 @@
       "player_name": "Anthony Muñoz",
       "checklist_years": [
         2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "anthony richardson",
+      "player_name": "Anthony Richardson",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -203974,6 +204599,16 @@
     },
     {
       "sport": "football",
+      "player_key": "avery johnson",
+      "player_name": "Avery Johnson",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "avery williams",
       "player_name": "Avery Williams",
       "checklist_years": [
@@ -204286,6 +204921,16 @@
     },
     {
       "sport": "football",
+      "player_key": "ben hogan",
+      "player_name": "Ben Hogan",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "ben roethlisberger",
       "player_name": "Ben Roethlisberger",
       "checklist_years": [
@@ -204425,6 +205070,16 @@
       "checklist_years": [
         2026,
         2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "bette davis",
+      "player_name": "Bette Davis",
+      "checklist_years": [
         2023
       ],
       "rc_year": null,
@@ -204721,6 +205376,28 @@
     },
     {
       "sport": "football",
+      "player_key": "blake shapen",
+      "player_name": "Blake Shapen",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "bo jackson",
+      "player_name": "Bo Jackson",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "bo jackson ashton jeanty",
       "player_name": "Bo Jackson/Ashton Jeanty",
       "checklist_years": [
@@ -204867,6 +205544,16 @@
       "sport": "football",
       "player_key": "bo nix peyton manning",
       "player_name": "Bo Nix/Peyton Manning",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "bob barker",
+      "player_name": "Bob Barker",
       "checklist_years": [
         2025
       ],
@@ -205060,6 +205747,16 @@
       "player_name": "Braden Pegan",
       "checklist_years": [
         2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "braden smith",
+      "player_name": "Braden Smith",
+      "checklist_years": [
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -206188,6 +206885,16 @@
     },
     {
       "sport": "football",
+      "player_key": "bryce boettcher",
+      "player_name": "Bryce Boettcher",
+      "checklist_years": [
+        2026
+      ],
+      "rc_year": 2026,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "football",
       "player_key": "bryce fitzgerald",
       "player_name": "Bryce Fitzgerald",
       "checklist_years": [
@@ -206243,6 +206950,18 @@
       "player_name": "Bryce Underwood/Tavien St. Clair",
       "checklist_years": [
         2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "bryce young",
+      "player_name": "Bryce Young",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -206415,6 +207134,16 @@
     },
     {
       "sport": "football",
+      "player_key": "buzz aldrin",
+      "player_name": "Buzz Aldrin",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "byrd ficklin",
       "player_name": "Byrd Ficklin",
       "checklist_years": [
@@ -206534,6 +207263,17 @@
       "checklist_years": [
         2026,
         2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "c j stroud",
+      "player_name": "C.J. Stroud",
+      "checklist_years": [
+        2025,
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -206832,6 +207572,18 @@
       "player_name": "Caleb Tiernan",
       "checklist_years": [
         2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "caleb williams",
+      "player_name": "Caleb Williams",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -207195,6 +207947,16 @@
     },
     {
       "sport": "football",
+      "player_key": "cam smith",
+      "player_name": "Cam Smith",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "cam vaughn",
       "player_name": "Cam Vaughn",
       "checklist_years": [
@@ -207202,6 +207964,17 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "cam ward",
+      "player_name": "Cam Ward",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "football",
@@ -207289,6 +208062,16 @@
       "player_name": "Cam Ward/Xavier Restrepo",
       "checklist_years": [
         2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "cameron brown",
+      "player_name": "Cameron Brown",
+      "checklist_years": [
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -207397,6 +208180,17 @@
       "player_key": "cameron taylor-britt",
       "player_name": "Cameron Taylor-Britt",
       "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "cameron thomas",
+      "player_name": "Cameron Thomas",
+      "checklist_years": [
+        2025,
         2023
       ],
       "rc_year": null,
@@ -207525,6 +208319,16 @@
     },
     {
       "sport": "football",
+      "player_key": "carlos hernandez",
+      "player_name": "Carlos Hernandez",
+      "checklist_years": [
+        2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "carlton davis",
       "player_name": "Carlton Davis",
       "checklist_years": [
@@ -207581,6 +208385,16 @@
       "player_name": "Carolina Panthers",
       "checklist_years": [
         2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "carrie fisher",
+      "player_name": "Carrie Fisher",
+      "checklist_years": [
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -208513,6 +209327,18 @@
     },
     {
       "sport": "football",
+      "player_key": "chris johnson",
+      "player_name": "Chris Johnson",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
+      ],
+      "rc_year": 2026,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "football",
       "player_key": "chris johnson ii",
       "player_name": "Chris Johnson II",
       "checklist_years": [
@@ -208520,6 +209346,18 @@
       ],
       "rc_year": 2026,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "football",
+      "player_key": "chris jones",
+      "player_name": "Chris Jones",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "football",
@@ -209013,6 +209851,18 @@
       "player_key": "cj donaldson jr",
       "player_name": "CJ Donaldson Jr.",
       "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "cj stroud",
+      "player_name": "CJ Stroud",
+      "checklist_years": [
+        2026,
+        2025,
         2023
       ],
       "rc_year": null,
@@ -211407,6 +212257,18 @@
     },
     {
       "sport": "football",
+      "player_key": "deion sanders",
+      "player_name": "Deion Sanders",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "deion sanders roy williams",
       "player_name": "Deion Sanders/Roy Williams",
       "checklist_years": [
@@ -212608,6 +213470,16 @@
     },
     {
       "sport": "football",
+      "player_key": "dillon mitchell",
+      "player_name": "Dillon Mitchell",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "dillon thieneman",
       "player_name": "Dillon Thieneman",
       "checklist_years": [
@@ -212864,6 +213736,16 @@
       "player_name": "Don Meredith",
       "checklist_years": [
         2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "don shula",
+      "player_name": "Don Shula",
+      "checklist_years": [
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -213290,6 +214172,18 @@
     },
     {
       "sport": "football",
+      "player_key": "drake maye",
+      "player_name": "Drake Maye",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "drake maye hunter henry",
       "player_name": "Drake Maye/Hunter Henry",
       "checklist_years": [
@@ -213663,6 +214557,16 @@
     },
     {
       "sport": "football",
+      "player_key": "dwyane wade",
+      "player_name": "Dwyane Wade",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "dyami brown",
       "player_name": "Dyami Brown",
       "checklist_years": [
@@ -213679,6 +214583,16 @@
       "player_name": "Dylan Horton",
       "checklist_years": [
         2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "dylan lee",
+      "player_name": "Dylan Lee",
+      "checklist_years": [
+        2026
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -215148,6 +216062,16 @@
     },
     {
       "sport": "football",
+      "player_key": "frank gifford",
+      "player_name": "Frank Gifford",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "frank gore",
       "player_name": "Frank Gore",
       "checklist_years": [
@@ -215307,6 +216231,16 @@
     },
     {
       "sport": "football",
+      "player_key": "gabe davis",
+      "player_name": "Gabe Davis",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "gabriel davis",
       "player_name": "Gabriel Davis",
       "checklist_years": [
@@ -215456,6 +216390,17 @@
     },
     {
       "sport": "football",
+      "player_key": "gary clark",
+      "player_name": "Gary Clark",
+      "checklist_years": [
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "gavin freeman",
       "player_name": "Gavin Freeman",
       "checklist_years": [
@@ -215529,6 +216474,16 @@
     },
     {
       "sport": "football",
+      "player_key": "george burns",
+      "player_name": "George Burns",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "george clinton",
       "player_name": "George Clinton",
       "checklist_years": [
@@ -215542,6 +216497,17 @@
       "player_key": "george connor",
       "player_name": "George Connor",
       "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "george halas",
+      "player_name": "George Halas",
+      "checklist_years": [
+        2025,
         2023
       ],
       "rc_year": null,
@@ -216629,6 +217595,16 @@
     },
     {
       "sport": "football",
+      "player_key": "ian rapoport",
+      "player_name": "Ian Rapoport",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "ian strong",
       "player_name": "Ian Strong",
       "checklist_years": [
@@ -217144,6 +218120,18 @@
     },
     {
       "sport": "football",
+      "player_key": "j k dobbins",
+      "player_name": "J.K. Dobbins",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "j michael sturdivant",
       "player_name": "J.Michael Sturdivant",
       "checklist_years": [
@@ -217498,6 +218486,16 @@
     },
     {
       "sport": "football",
+      "player_key": "jack lemmon",
+      "player_name": "Jack Lemmon",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "jack sawyer",
       "player_name": "Jack Sawyer",
       "checklist_years": [
@@ -217721,6 +218719,16 @@
       ],
       "rc_year": 2025,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "football",
+      "player_key": "jacques cousteau",
+      "player_name": "Jacques Cousteau",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "football",
@@ -218081,6 +219089,18 @@
       "checklist_years": [
         2026,
         2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "jake ferguson",
+      "player_name": "Jake Ferguson",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -218530,6 +219550,16 @@
       ],
       "rc_year": 2025,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "football",
+      "player_key": "jalen smith",
+      "player_name": "Jalen Smith",
+      "checklist_years": [
+        2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "football",
@@ -219341,6 +220371,17 @@
     },
     {
       "sport": "football",
+      "player_key": "jason kelce",
+      "player_name": "Jason Kelce",
+      "checklist_years": [
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "jason marshall",
       "player_name": "Jason Marshall",
       "checklist_years": [
@@ -219733,6 +220774,18 @@
     },
     {
       "sport": "football",
+      "player_key": "jayden daniels",
+      "player_name": "Jayden Daniels",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "jayden daniels joe burrow",
       "player_name": "Jayden Daniels/Joe Burrow",
       "checklist_years": [
@@ -219944,6 +220997,18 @@
       ],
       "rc_year": 2025,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "football",
+      "player_key": "jaylen waddle",
+      "player_name": "Jaylen Waddle",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "football",
@@ -220565,6 +221630,16 @@
     },
     {
       "sport": "football",
+      "player_key": "jerry seinfeld",
+      "player_name": "Jerry Seinfeld",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "jeshrun antwi",
       "player_name": "Jeshrun Antwi",
       "checklist_years": [
@@ -220681,6 +221756,17 @@
     },
     {
       "sport": "football",
+      "player_key": "jim brown",
+      "player_name": "Jim Brown",
+      "checklist_years": [
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "jim burt",
       "player_name": "Jim Burt",
       "checklist_years": [
@@ -220693,6 +221779,17 @@
       "sport": "football",
       "player_key": "jim everett",
       "player_name": "Jim Everett",
+      "checklist_years": [
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "jim harbaugh",
+      "player_name": "Jim Harbaugh",
       "checklist_years": [
         2025,
         2023
@@ -220809,6 +221906,16 @@
       "sport": "football",
       "player_key": "jim mcmahon william perry",
       "player_name": "Jim McMahon/William Perry",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "jim thorpe",
+      "player_name": "Jim Thorpe",
       "checklist_years": [
         2025
       ],
@@ -220952,6 +222059,16 @@
     },
     {
       "sport": "football",
+      "player_key": "jimmy stewart",
+      "player_name": "Jimmy Stewart",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "jj buchanan",
       "player_name": "JJ Buchanan",
       "checklist_years": [
@@ -221048,6 +222165,18 @@
       "player_name": "Joe Bruin",
       "checklist_years": [
         2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "joe burrow",
+      "player_name": "Joe Burrow",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -221162,6 +222291,16 @@
       "checklist_years": [
         2025,
         2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "joe jackson",
+      "player_name": "Joe Jackson",
+      "checklist_years": [
+        2026
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -221503,6 +222642,18 @@
     },
     {
       "sport": "football",
+      "player_key": "john elway",
+      "player_name": "John Elway",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "john elway dan marino jim kelly",
       "player_name": "John Elway/Dan Marino/Jim Kelly",
       "checklist_years": [
@@ -221535,6 +222686,16 @@
       "sport": "football",
       "player_key": "john elway terrell davis",
       "player_name": "John Elway/Terrell Davis",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "john f kennedy",
+      "player_name": "John F. Kennedy",
       "checklist_years": [
         2025
       ],
@@ -221751,6 +222912,16 @@
     },
     {
       "sport": "football",
+      "player_key": "johnny unitas",
+      "player_name": "Johnny Unitas",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "johnny wilson",
       "player_name": "Johnny Wilson",
       "checklist_years": [
@@ -221923,6 +223094,18 @@
       "player_key": "jonathan stewart",
       "player_name": "Jonathan Stewart",
       "checklist_years": [
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "jonathan taylor",
+      "player_name": "Jonathan Taylor",
+      "checklist_years": [
+        2026,
         2025,
         2023
       ],
@@ -222651,6 +223834,16 @@
     },
     {
       "sport": "football",
+      "player_key": "joshua williams",
+      "player_name": "Joshua Williams",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "josiah trotter",
       "player_name": "Josiah Trotter",
       "checklist_years": [
@@ -223071,6 +224264,17 @@
     },
     {
       "sport": "football",
+      "player_key": "justin lawrence",
+      "player_name": "Justin Lawrence",
+      "checklist_years": [
+        2026,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "justin marshall",
       "player_name": "Justin Marshall",
       "checklist_years": [
@@ -223445,6 +224649,18 @@
       "player_name": "Kale! Mullings",
       "checklist_years": [
         2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "football",
+      "player_key": "kaleb johnson",
+      "player_name": "Kaleb Johnson",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
       ],
       "rc_year": 2025,
       "rc_year_confidence": "high"
@@ -224379,6 +225595,16 @@
     },
     {
       "sport": "football",
+      "player_key": "kevin durant",
+      "player_name": "Kevin Durant",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "kevin dyson",
       "player_name": "Kevin Dyson",
       "checklist_years": [
@@ -224434,6 +225660,16 @@
       "player_name": "Kevin Riley",
       "checklist_years": [
         2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "kevin smith",
+      "player_name": "Kevin Smith",
+      "checklist_years": [
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -225735,6 +226971,16 @@
     },
     {
       "sport": "football",
+      "player_key": "larry johnson",
+      "player_name": "Larry Johnson",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "larry little",
       "player_name": "Larry Little",
       "checklist_years": [
@@ -226449,6 +227695,17 @@
       "player_key": "lucas havrisik",
       "player_name": "Lucas Havrisik",
       "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "lucille ball",
+      "player_name": "Lucille Ball",
+      "checklist_years": [
+        2025,
         2023
       ],
       "rc_year": null,
@@ -227886,6 +229143,17 @@
     },
     {
       "sport": "football",
+      "player_key": "matt ryan",
+      "player_name": "Matt Ryan",
+      "checklist_years": [
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "matt schaub",
       "player_name": "Matt Schaub",
       "checklist_years": [
@@ -228355,6 +229623,17 @@
       "player_name": "Micah Hyde",
       "checklist_years": [
         2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "micah johnson",
+      "player_name": "Micah Johnson",
+      "checklist_years": [
+        2026,
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -228878,6 +230157,16 @@
     },
     {
       "sport": "football",
+      "player_key": "mike miller",
+      "player_name": "Mike Miller",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "mike morris",
       "player_name": "Mike Morris",
       "checklist_years": [
@@ -228968,6 +230257,16 @@
       "player_name": "Mike Tomczak",
       "checklist_years": [
         2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "mike trout",
+      "player_name": "Mike Trout",
+      "checklist_years": [
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -229252,6 +230551,16 @@
       "checklist_years": [
         2025,
         2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "mother teresa",
+      "player_name": "Mother Teresa",
+      "checklist_years": [
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -229593,6 +230902,16 @@
     },
     {
       "sport": "football",
+      "player_key": "neil armstrong",
+      "player_name": "Neil Armstrong",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "neil smith",
       "player_name": "Neil Smith",
       "checklist_years": [
@@ -229627,6 +230946,17 @@
       "sport": "football",
       "player_key": "new orleans saints",
       "player_name": "New Orleans Saints",
+      "checklist_years": [
+        2026,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "new york giants",
+      "player_name": "New York Giants",
       "checklist_years": [
         2026,
         2023
@@ -229701,6 +231031,16 @@
       "sport": "football",
       "player_key": "nicco marchiol",
       "player_name": "Nicco Marchiol",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "nick anderson",
+      "player_name": "Nick Anderson",
       "checklist_years": [
         2025
       ],
@@ -230656,6 +231996,16 @@
     },
     {
       "sport": "football",
+      "player_key": "panini one",
+      "player_name": "Panini One",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "paris johnson jr",
       "player_name": "Paris Johnson Jr.",
       "checklist_years": [
@@ -231190,6 +232540,16 @@
       "sport": "football",
       "player_key": "paul krause fred biletnikoff",
       "player_name": "Paul Krause/Fred Biletnikoff",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "paul newman",
+      "player_name": "Paul Newman",
       "checklist_years": [
         2025
       ],
@@ -232239,6 +233599,18 @@
     },
     {
       "sport": "football",
+      "player_key": "randall cunningham",
+      "player_name": "Randall Cunningham",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "randall cunningham donovan mcnabb jalen hurts",
       "player_name": "Randall Cunningham/Donovan McNabb/Jalen Hurts",
       "checklist_years": [
@@ -232554,6 +233926,26 @@
     },
     {
       "sport": "football",
+      "player_key": "red auerbach",
+      "player_name": "Red Auerbach",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "red skelton",
+      "player_name": "Red Skelton",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "redha kramdi",
       "player_name": "Redha Kramdi",
       "checklist_years": [
@@ -232622,6 +234014,17 @@
       "player_name": "Reggie Wayne",
       "checklist_years": [
         2026,
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "reggie white",
+      "player_name": "Reggie White",
+      "checklist_years": [
         2025,
         2023
       ],
@@ -233196,6 +234599,16 @@
     },
     {
       "sport": "football",
+      "player_key": "robin williams",
+      "player_name": "Robin Williams",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "roc taylor",
       "player_name": "Roc Taylor",
       "checklist_years": [
@@ -233218,6 +234631,16 @@
       "sport": "football",
       "player_key": "rocco becht",
       "player_name": "Rocco Becht",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "rocky bleier",
+      "player_name": "Rocky Bleier",
       "checklist_years": [
         2025
       ],
@@ -233325,6 +234748,18 @@
       "player_name": "Rodney Tisdale Jr.",
       "checklist_years": [
         2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "roger craig",
+      "player_name": "Roger Craig",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -233574,6 +235009,16 @@
     },
     {
       "sport": "football",
+      "player_key": "ronald reagan",
+      "player_name": "Ronald Reagan",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "rondale moore",
       "player_name": "Rondale Moore",
       "checklist_years": [
@@ -233651,6 +235096,17 @@
       "sport": "football",
       "player_key": "roschon johnson",
       "player_name": "Roschon Johnson",
+      "checklist_years": [
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "roy williams",
+      "player_name": "Roy Williams",
       "checklist_years": [
         2025,
         2023
@@ -233740,6 +235196,18 @@
     },
     {
       "sport": "football",
+      "player_key": "russell wilson",
+      "player_name": "Russell Wilson",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "russell wilson malik nabers",
       "player_name": "Russell Wilson/Malik Nabers",
       "checklist_years": [
@@ -233767,6 +235235,17 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "ryan fitzgerald",
+      "player_name": "Ryan Fitzgerald",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "football",
@@ -233826,6 +235305,16 @@
       "checklist_years": [
         2025,
         2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "ryan williams",
+      "player_name": "Ryan Williams",
+      "checklist_years": [
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -234052,11 +235541,10 @@
       "player_key": "sam williams",
       "player_name": "Sam Williams",
       "checklist_years": [
-        2025,
         2023
       ],
-      "rc_year": 2025,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "football",
@@ -234392,6 +235880,17 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "sebastian castro",
+      "player_name": "Sebastian Castro",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "football",
@@ -234939,6 +236438,16 @@
     },
     {
       "sport": "football",
+      "player_key": "stan lee",
+      "player_name": "Stan Lee",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "stanford tree",
       "player_name": "Stanford Tree",
       "checklist_years": [
@@ -235036,6 +236545,16 @@
       "sport": "football",
       "player_key": "stephen baker",
       "player_name": "Stephen Baker",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "stephen curry",
+      "player_name": "Stephen Curry",
       "checklist_years": [
         2025
       ],
@@ -236473,6 +237992,16 @@
     },
     {
       "sport": "football",
+      "player_key": "tiger stadium",
+      "player_name": "Tiger Stadium",
+      "checklist_years": [
+        2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "tiki barber",
       "player_name": "Tiki Barber",
       "checklist_years": [
@@ -236558,6 +238087,17 @@
     },
     {
       "sport": "football",
+      "player_key": "tim tebow",
+      "player_name": "Tim Tebow",
+      "checklist_years": [
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "tim white",
       "player_name": "Tim White",
       "checklist_years": [
@@ -236602,6 +238142,18 @@
       "player_key": "todd heap",
       "player_name": "Todd Heap",
       "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "tom brady",
+      "player_name": "Tom Brady",
+      "checklist_years": [
+        2026,
+        2025,
         2023
       ],
       "rc_year": null,
@@ -237544,6 +239096,18 @@
     },
     {
       "sport": "football",
+      "player_key": "trevor lawrence",
+      "player_name": "Trevor Lawrence",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "trevor lawrence brian thomas jr",
       "player_name": "Trevor Lawrence/Brian Thomas Jr.",
       "checklist_years": [
@@ -237937,6 +239501,16 @@
     },
     {
       "sport": "football",
+      "player_key": "ty hamilton",
+      "player_name": "Ty Hamilton",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "ty johnson",
       "player_name": "Ty Johnson",
       "checklist_years": [
@@ -238273,6 +239847,16 @@
       ],
       "rc_year": 2025,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "football",
+      "player_key": "tyler smith",
+      "player_name": "Tyler Smith",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "football",
@@ -238743,6 +240327,16 @@
     },
     {
       "sport": "football",
+      "player_key": "vic janowicz",
+      "player_name": "Vic Janowicz",
+      "checklist_years": [
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "vicari swain",
       "player_name": "Vicari Swain",
       "checklist_years": [
@@ -238796,6 +240390,17 @@
       "sport": "football",
       "player_key": "vince ferragamo",
       "player_name": "Vince Ferragamo",
+      "checklist_years": [
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "vince lombardi",
+      "player_name": "Vince Lombardi",
       "checklist_years": [
         2025,
         2023
@@ -238940,6 +240545,18 @@
       ],
       "rc_year": 2025,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "football",
+      "player_key": "walter payton",
+      "player_name": "Walter Payton",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "football",
@@ -239353,6 +240970,18 @@
     },
     {
       "sport": "football",
+      "player_key": "will levis",
+      "player_name": "Will Levis",
+      "checklist_years": [
+        2026,
+        2025,
+        2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
       "player_key": "will mallory",
       "player_name": "Will Mallory",
       "checklist_years": [
@@ -239379,6 +241008,16 @@
       "player_name": "Will Reichard",
       "checklist_years": [
         2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "will rogers",
+      "player_name": "Will Rogers",
+      "checklist_years": [
+        2023
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -239546,6 +241185,16 @@
       "sport": "football",
       "player_key": "willis mcgahee thurman thomas",
       "player_name": "Willis McGahee/Thurman Thomas",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "football",
+      "player_key": "wilt chamberlain",
+      "player_name": "Wilt Chamberlain",
       "checklist_years": [
         2025
       ],
@@ -242198,6 +243847,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "blake burke",
+      "player_name": "Blake Burke",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "blake chorney",
       "player_name": "Blake Chorney",
       "checklist_years": [
@@ -242310,6 +243969,16 @@
       "sport": "hockey",
       "player_key": "bobby clarke",
       "player_name": "Bobby Clarke",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "bobby hull",
+      "player_name": "Bobby Hull",
       "checklist_years": [
         2025
       ],
@@ -242855,6 +244524,16 @@
       "sport": "hockey",
       "player_key": "brett howden",
       "player_name": "Brett Howden",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "brett hull",
+      "player_name": "Brett Hull",
       "checklist_years": [
         2025
       ],
@@ -244414,6 +246093,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "cole smith",
+      "player_name": "Cole Smith",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "cole zurawski",
       "player_name": "Cole Zurawski",
       "checklist_years": [
@@ -244476,6 +246165,16 @@
       "sport": "hockey",
       "player_key": "colorado avalanche",
       "player_name": "Colorado Avalanche",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "colt carter",
+      "player_name": "Colt Carter",
       "checklist_years": [
         2025
       ],
@@ -245873,6 +247572,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "dylan cozens",
+      "player_name": "Dylan Cozens",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "dylan dean",
       "player_name": "Dylan Dean",
       "checklist_years": [
@@ -247151,6 +248860,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "garrett wilson",
+      "player_name": "Garrett Wilson",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "gary suter",
       "player_name": "Gary Suter",
       "checklist_years": [
@@ -247209,6 +248928,16 @@
       ],
       "rc_year": 2025,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "gavin mckenna",
+      "player_name": "Gavin McKenna",
+      "checklist_years": [
+        2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "hockey",
@@ -247289,6 +249018,16 @@
       ],
       "rc_year": 2025,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "gordie howe",
+      "player_name": "Gordie Howe",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "hockey",
@@ -247508,11 +249247,10 @@
       "player_key": "harry howell",
       "player_name": "Harry Howell",
       "checklist_years": [
-        2026,
         2025
       ],
-      "rc_year": 2025,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "hockey",
@@ -247596,6 +249334,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "henri richard",
+      "player_name": "Henri Richard",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "henrik lundqvist",
       "player_name": "Henrik Lundqvist",
       "checklist_years": [
@@ -247639,6 +249387,16 @@
       "sport": "hockey",
       "player_key": "henry thrun",
       "player_name": "Henry Thrun",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "hilary knight",
+      "player_name": "Hilary Knight",
       "checklist_years": [
         2025
       ],
@@ -248188,6 +249946,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "jack campbell",
+      "player_name": "Jack Campbell",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "jack devine",
       "player_name": "Jack Devine",
       "checklist_years": [
@@ -248643,6 +250411,16 @@
       "player_name": "Jake DeBrusk",
       "checklist_years": [
         2026,
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "jake evans",
+      "player_name": "Jake Evans",
+      "checklist_years": [
         2025
       ],
       "rc_year": null,
@@ -250169,6 +251947,16 @@
       "sport": "hockey",
       "player_key": "jordan kyrou",
       "player_name": "Jordan Kyrou",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "jordan martin",
+      "player_name": "Jordan Martin",
       "checklist_years": [
         2025
       ],
@@ -251748,6 +253536,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "logan morrison",
+      "player_name": "Logan Morrison",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "logan o'connor",
       "player_name": "Logan O'Connor",
       "checklist_years": [
@@ -253200,6 +254998,17 @@
     },
     {
       "sport": "hockey",
+      "player_key": "matthew wood",
+      "player_name": "Matthew Wood",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "matthew wood 4 6 2025",
       "player_name": "Matthew Wood \" 4/6/2025",
       "checklist_years": [
@@ -253786,6 +255595,16 @@
       "sport": "hockey",
       "player_key": "mikael granlund",
       "player_name": "Mikael Granlund",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "mike bossy",
+      "player_name": "Mike Bossy",
       "checklist_years": [
         2025
       ],
@@ -254462,6 +256281,16 @@
       "sport": "hockey",
       "player_key": "nick perbix",
       "player_name": "Nick Perbix",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "nick robertson",
+      "player_name": "Nick Robertson",
       "checklist_years": [
         2025
       ],
@@ -258077,6 +259906,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "quinn mckenzie",
+      "player_name": "Quinn McKenzie",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "quinton byfield",
       "player_name": "Quinton Byfield",
       "checklist_years": [
@@ -258933,6 +260772,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "ryan miller",
+      "player_name": "Ryan Miller",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "ryan nugent-hopkins",
       "player_name": "Ryan Nugent-Hopkins",
       "checklist_years": [
@@ -259537,6 +261386,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "sean burke",
+      "player_name": "Sean Burke",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "sean couturier",
       "player_name": "Sean Couturier",
       "checklist_years": [
@@ -259774,6 +261633,16 @@
       ],
       "rc_year": 2025,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "shane smith",
+      "player_name": "Shane Smith",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "hockey",
@@ -260486,6 +262355,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "taylor ward",
+      "player_name": "Taylor Ward",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -262239,6 +264118,17 @@
       "player_key": "will cuylle",
       "player_name": "Will Cuylle",
       "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "will smith",
+      "player_name": "Will Smith",
+      "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -265049,6 +266939,16 @@
     },
     {
       "sport": "soccer",
+      "player_key": "alyssa naeher",
+      "player_name": "Alyssa Naeher",
+      "checklist_years": [
+        2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "alyssa thompson",
       "player_name": "Alyssa Thompson",
       "checklist_years": [
@@ -266162,6 +268062,17 @@
       "player_key": "annaleen bohler",
       "player_name": "Annaleen Bohler",
       "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "anne hathaway",
+      "player_name": "Anne Hathaway",
+      "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -268217,6 +270128,16 @@
     },
     {
       "sport": "soccer",
+      "player_key": "bob wilson",
+      "player_name": "Bob Wilson",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "bobby clark",
       "player_name": "Bobby Clark",
       "checklist_years": [
@@ -268433,6 +270354,16 @@
       "sport": "soccer",
       "player_key": "boubacar kamara",
       "player_name": "Boubacar Kamara",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "boubacar traore",
+      "player_name": "Boubacar Traore",
       "checklist_years": [
         2025
       ],
@@ -269718,6 +271649,16 @@
       "player_name": "Carlos Palacios",
       "checklist_years": [
         2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "carlos rodriguez",
+      "player_name": "Carlos Rodriguez",
+      "checklist_years": [
+        2026
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -271871,6 +273812,17 @@
     },
     {
       "sport": "soccer",
+      "player_key": "curtis jones",
+      "player_name": "Curtis Jones",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "cyle larin",
       "player_name": "Cyle Larin",
       "checklist_years": [
@@ -272512,6 +274464,16 @@
       "player_name": "Danley Jean Jacques",
       "checklist_years": [
         2026,
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "danny murphy",
+      "player_name": "Danny Murphy",
+      "checklist_years": [
         2025
       ],
       "rc_year": null,
@@ -276593,6 +278555,16 @@
     },
     {
       "sport": "soccer",
+      "player_key": "fc barcelona",
+      "player_name": "FC Barcelona",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "fc pohang steelers",
       "player_name": "FC Pohang Steelers",
       "checklist_years": [
@@ -279740,6 +281712,16 @@
     },
     {
       "sport": "soccer",
+      "player_key": "harry anderson",
+      "player_name": "Harry Anderson",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "harry darling",
       "player_name": "Harry Darling",
       "checklist_years": [
@@ -279762,6 +281744,17 @@
       "sport": "soccer",
       "player_key": "harry gray",
       "player_name": "Harry Gray",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "harry howell",
+      "player_name": "Harry Howell",
       "checklist_years": [
         2026,
         2025
@@ -282735,6 +284728,16 @@
     },
     {
       "sport": "soccer",
+      "player_key": "jake o'brien",
+      "player_name": "Jake O'Brien",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "jake o brien",
       "player_name": "Jake O’Brien",
       "checklist_years": [
@@ -284408,6 +286411,17 @@
     },
     {
       "sport": "soccer",
+      "player_key": "jesus rodriguez",
+      "player_name": "Jesus Rodriguez",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "jesus rodriguez nico paz",
       "player_name": "Jesus Rodriguez/Nico Paz",
       "checklist_years": [
@@ -285249,6 +287263,16 @@
     },
     {
       "sport": "soccer",
+      "player_key": "joe johnson",
+      "player_name": "Joe Johnson",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "joe marler",
       "player_name": "Joe Marler",
       "checklist_years": [
@@ -285307,6 +287331,16 @@
       ],
       "rc_year": 2025,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "joe taylor",
+      "player_name": "Joe Taylor",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "soccer",
@@ -286105,6 +288139,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "jordan james",
+      "player_name": "Jordan James",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "soccer",
@@ -286949,6 +288993,16 @@
       "sport": "soccer",
       "player_key": "juan camilo zuniga",
       "player_name": "Juan Camilo Zuniga",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "juan cruz",
+      "player_name": "Juan Cruz",
       "checklist_years": [
         2025
       ],
@@ -289671,6 +291725,17 @@
     },
     {
       "sport": "soccer",
+      "player_key": "landon donovan",
+      "player_name": "Landon Donovan",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "laney rouse",
       "player_name": "Laney Rouse",
       "checklist_years": [
@@ -290089,6 +292154,17 @@
       "sport": "soccer",
       "player_key": "leandro trossard",
       "player_name": "Leandro Trossard",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "lebron james",
+      "player_name": "LeBron James",
       "checklist_years": [
         2026,
         2025
@@ -291814,6 +293890,17 @@
     },
     {
       "sport": "soccer",
+      "player_key": "luis hernandez",
+      "player_name": "Luis Hernandez",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "luis malagon",
       "player_name": "Luis Malagon",
       "checklist_years": [
@@ -292591,6 +294678,16 @@
       "sport": "soccer",
       "player_key": "mallie mckenzie",
       "player_name": "Mallie McKenzie",
+      "checklist_years": [
+        2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "mallory swanson",
+      "player_name": "Mallory Swanson",
       "checklist_years": [
         2026
       ],
@@ -294837,6 +296934,16 @@
     },
     {
       "sport": "soccer",
+      "player_key": "max clark",
+      "player_name": "Max Clark",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "max cleworth",
       "player_name": "Max Cleworth",
       "checklist_years": [
@@ -295423,6 +297530,16 @@
       "player_name": "Michael Collodi",
       "checklist_years": [
         2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "michael cooper",
+      "player_name": "Michael Cooper",
+      "checklist_years": [
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -298800,6 +300917,16 @@
     },
     {
       "sport": "soccer",
+      "player_key": "ollie palmer",
+      "player_name": "Ollie Palmer",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "ollie scarles",
       "player_name": "Ollie Scarles",
       "checklist_years": [
@@ -301003,6 +303130,16 @@
     },
     {
       "sport": "soccer",
+      "player_key": "quinn sullivan",
+      "player_name": "Quinn Sullivan",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "quinten timber",
       "player_name": "Quinten Timber",
       "checklist_years": [
@@ -301547,6 +303684,16 @@
       "sport": "soccer",
       "player_key": "real betis",
       "player_name": "Real Betis",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "real madrid",
+      "player_name": "Real Madrid",
       "checklist_years": [
         2025
       ],
@@ -302938,6 +305085,16 @@
     },
     {
       "sport": "soccer",
+      "player_key": "rose lavelle",
+      "player_name": "Rose Lavelle",
+      "checklist_years": [
+        2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "ross fitzsimons",
       "player_name": "Ross Fitzsimons",
       "checklist_years": [
@@ -303307,6 +305464,16 @@
     },
     {
       "sport": "soccer",
+      "player_key": "ryan johnson",
+      "player_name": "Ryan Johnson",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "ryan kent",
       "player_name": "Ryan Kent",
       "checklist_years": [
@@ -303381,6 +305548,16 @@
       "player_name": "Ryan Sweeney",
       "checklist_years": [
         2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "ryan williams",
+      "player_name": "Ryan Williams",
+      "checklist_years": [
+        2026
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -303728,6 +305905,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "sam williams",
+      "player_name": "Sam Williams",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "soccer",
@@ -306242,6 +308429,17 @@
     },
     {
       "sport": "soccer",
+      "player_key": "steve stone",
+      "player_name": "Steve Stone",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "soccer",
       "player_key": "steven alzate",
       "player_name": "Steven Alzate",
       "checklist_years": [
@@ -308037,6 +310235,17 @@
     },
     {
       "sport": "soccer",
+      "player_key": "tom watson",
+      "player_name": "Tom Watson",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "soccer",
       "player_key": "toma ihlenburg",
       "player_name": "Toma Ihlenburg",
       "checklist_years": [
@@ -308216,6 +310425,16 @@
       ],
       "rc_year": 2025,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "soccer",
+      "player_key": "tommy doyle",
+      "player_name": "Tommy Doyle",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "soccer",
