@@ -1,5 +1,5 @@
 {
-  "review_id": "spx-parallel-identity-2026-10-18",
+  "review_id": "spx-verified-import-2026-10-18-r3",
   "sport": "hockey",
   "code": "2025_26_upper_deck_spx_hockey_card",
   "source_url": "https://upperdeck.com/checklist/2025-2026-spx-checklist/",
@@ -8,6 +8,7 @@
   "parallels": [
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base",
       "parallel_name": "Silver",
@@ -15,6 +16,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base",
       "parallel_name": "Gold",
@@ -22,6 +24,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base",
       "parallel_name": "Resonance",
@@ -29,6 +32,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base",
       "parallel_name": "Radiance",
@@ -36,6 +40,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base",
       "parallel_name": "Grand Finale",
@@ -43,6 +48,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base",
       "parallel_name": "Silver Spectrum",
@@ -50,6 +56,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base",
       "parallel_name": "Gold Spectrum",
@@ -57,6 +64,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base Rookies",
       "parallel_name": "Silver",
@@ -64,6 +72,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base Rookies",
       "parallel_name": "Gold",
@@ -71,6 +80,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base Rookies",
       "parallel_name": "Resonance",
@@ -78,6 +88,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base Rookies",
       "parallel_name": "Radiance",
@@ -85,6 +96,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base Rookies",
       "parallel_name": "Grand Finale",
@@ -92,6 +104,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base Rookies",
       "parallel_name": "Silver Spectrum",
@@ -99,6 +112,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base Rookies",
       "parallel_name": "Gold Spectrum",
@@ -106,6 +120,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base Hologram Rookies",
       "parallel_name": "Blue",
@@ -113,6 +128,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base Hologram Rookies",
       "parallel_name": "Red",
@@ -120,6 +136,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Base",
       "applies_to_subset": "Base Hologram Rookies",
       "parallel_name": "Gold",
@@ -127,6 +144,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Autograph",
       "applies_to_subset": "Base Rookie Auto Blue",
       "parallel_name": "Red",
@@ -134,6 +152,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Autograph",
       "applies_to_subset": "Base Rookie Auto Blue",
       "parallel_name": "Gold",
@@ -141,6 +160,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Autograph",
       "applies_to_subset": "Base Rookie Auto Blue",
       "parallel_name": "Black",
@@ -148,6 +168,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Autograph",
       "applies_to_subset": "Cold Steel Auto",
       "parallel_name": "Gold",
@@ -155,6 +176,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Autograph",
       "applies_to_subset": "Finite Auto",
       "parallel_name": "Spectrum",
@@ -162,6 +184,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Autograph",
       "applies_to_subset": "Finite Rookie Auto",
       "parallel_name": "Spectrum",
@@ -169,27 +192,31 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
-      "applies_to_section": "Insert",
+      "sport": "hockey",
+      "applies_to_section": "Autograph",
       "applies_to_subset": "SuperScripts",
-      "parallel_name": "Gold or Less",
+      "parallel_name": "Gold #/99 or Less",
       "serial_no": "/99"
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
-      "applies_to_section": "Insert",
+      "sport": "hockey",
+      "applies_to_section": "Autograph",
       "applies_to_subset": "SuperScripts Rookie",
       "parallel_name": "Gold",
       "serial_no": "/99"
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Autograph",
       "applies_to_subset": "Typography Auto",
-      "parallel_name": "Gold or Less",
+      "parallel_name": "Gold #/99 or Less",
       "serial_no": "/99"
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "34.5 LBs",
       "parallel_name": "Blue",
@@ -197,6 +224,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "34.5 LBs",
       "parallel_name": "Gold",
@@ -204,6 +232,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Debut Game Film",
       "parallel_name": "Blue",
@@ -211,6 +240,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Debut Game Film",
       "parallel_name": "Gold",
@@ -218,6 +248,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Excellence Redefined",
       "parallel_name": "Blue",
@@ -225,6 +256,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Excellence Redefined",
       "parallel_name": "Gold",
@@ -232,6 +264,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite",
       "parallel_name": "Bronze",
@@ -239,6 +272,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite",
       "parallel_name": "Silver",
@@ -246,6 +280,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite",
       "parallel_name": "Gold",
@@ -253,6 +288,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite",
       "parallel_name": "Emerald Green",
@@ -260,6 +296,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite",
       "parallel_name": "Purple",
@@ -267,6 +304,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite",
       "parallel_name": "Amber",
@@ -274,6 +312,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite",
       "parallel_name": "Tuxedo",
@@ -281,6 +320,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite",
       "parallel_name": "Magenta",
@@ -288,6 +328,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite",
       "parallel_name": "Silver Spectrum",
@@ -295,6 +336,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite",
       "parallel_name": "Platinum Blue",
@@ -302,6 +344,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite",
       "parallel_name": "Gold Spectrum",
@@ -309,6 +352,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite Rookies",
       "parallel_name": "Bronze",
@@ -316,6 +360,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite Rookies",
       "parallel_name": "Silver",
@@ -323,6 +368,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite Rookies",
       "parallel_name": "Gold",
@@ -330,6 +376,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite Rookies",
       "parallel_name": "Emerald Green",
@@ -337,6 +384,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite Rookies",
       "parallel_name": "Purple",
@@ -344,6 +392,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite Rookies",
       "parallel_name": "Amber",
@@ -351,6 +400,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite Rookies",
       "parallel_name": "Tuxedo",
@@ -358,6 +408,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite Rookies",
       "parallel_name": "Magenta",
@@ -365,6 +416,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite Rookies",
       "parallel_name": "Silver Spectrum",
@@ -372,6 +424,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite Rookies",
       "parallel_name": "Platinum Blue",
@@ -379,6 +432,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Finite Rookies",
       "parallel_name": "Gold Spectrum",
@@ -386,6 +440,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Game Film",
       "parallel_name": "Blue",
@@ -393,6 +448,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Game Film",
       "parallel_name": "Gold",
@@ -400,6 +456,7 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Holoview F/X",
       "parallel_name": "Blue",
@@ -407,10 +464,13 @@
     },
     {
       "code": "2025_26_upper_deck_spx_hockey_card",
+      "sport": "hockey",
       "applies_to_section": "Insert",
       "applies_to_subset": "Holoview F/X",
       "parallel_name": "Gold",
       "serial_no": "/25"
     }
-  ]
+  ],
+  "source_fingerprint": "bca802030d5867c5f0ba20e2f0a20aacd0158a13df4423043dda54c807c17f37",
+  "evidence": "All 965 source card-number/player pairs match the official Upper Deck checklist. The live recoverable import retains all 58 source parallels; scopes use the reviewed v7-r3 subset labels. Supersedes the initial 718-row alignment patch after the complete source import."
 }

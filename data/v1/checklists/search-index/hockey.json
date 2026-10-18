@@ -3,7 +3,7 @@
   "sport": "hockey",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-10-18T20:38:37.258Z",
+  "generated_at": "2026-10-18T20:40:59.619Z",
   "sharded": true,
   "shards": [
     "hockey-001.json",
@@ -15,7 +15,8 @@
     "hockey-007.json",
     "hockey-product-2026-upper-deck-team-canada-juniors-hockey-cards-checklist-1792092943974-001.json",
     "hockey-reviewed-2025-26-spx-hockey.json",
-    "hockey-product-2025-26-upper-deck-spx-hockey-card-1792355923499-001.json"
+    "hockey-product-2025-26-upper-deck-spx-hockey-card-1792355923499-001.json",
+    "hockey-reviewed-2025-26-upper-deck-spx-hockey-card.json"
   ],
   "product_shards": {
     "2026_upper_deck_team_canada_juniors_hockey_cards_checklist": [
@@ -25,7 +26,7 @@
       "hockey-reviewed-2025-26-spx-hockey.json"
     ],
     "2025_26_upper_deck_spx_hockey_card": [
-      "hockey-product-2025-26-upper-deck-spx-hockey-card-1792355923499-001.json"
+      "hockey-reviewed-2025-26-upper-deck-spx-hockey-card.json"
     ]
   }
 }

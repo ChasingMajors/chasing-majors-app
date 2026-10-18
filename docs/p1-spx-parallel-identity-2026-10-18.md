@@ -7,3 +7,11 @@ Read-only capture verified every parallel section/subset exists in the 718-row s
 A checksum-pinned reviewed parallel patch gives exported payloads the same 58 scoped parallel records and survives future source refreshes without overwriting conflicting source values. The older 865-row, 48-parallel legacy payload remains preserved under its existing code. It has unique material and is not blindly merged or redirected. The discoverable indexed checklist retains its existing URL/code.
 
 The repair uses the user's authoring data; the [Upper Deck checklist](https://upperdeck.com/checklist/2025-2026-spx-checklist/) identifies the product. This code alignment does not claim a new manufacturer verification of every serial limit. All 72 app tests pass, and a local owner-helper fixture checks preflight, backup, exact-value preservation, repeated execution, changed-source rejection and rollback.
+
+## Full source import and publishing verification
+
+The v7-r3 read-only preview contains 965 real card records and 58 parallels. Every card-number/player pair matches Upper Deck's published checklist (`https://upperdeck.com/checklist/2025-2026-spx-checklist/`). The previous 718-row payload omitted 247 real update cards. Nested headings are now preserved as distinct year/subset scopes; odds and serial headings are excluded as cards. The source's stated seven 2022-23 UD Black update cards resolve to six listed cards, matching Upper Deck; no seventh card was invented.
+
+Owner execution validated exactly one Products record, 965 ChecklistRows and 58 Parallels, with recoverable snapshot `1pDa2RoEMWaVmS08pLkkn5djKWmJhikjfXcS4YuH7f18`. Job `owner-spx-alignment-20261018-a` committed on attempt one as `58f53c7a2c4375e540476e7974ebd33620714969`. GitHub exact release/content verification succeeded. Expected product SHA-256: `53ea6226bf140d9c17c31ac7164e4cb933510f8b8c5e9a0adac466f7b794ced2`.
+
+The original parallel alignment patch was refreshed to the same verified 58 parallels after the full import changed the subset display labels. This keeps the direct product and search copies synchronized with the authoritative mapped source and prevents the older review snapshot from blocking derived builds. Legacy SPx data and links remain available.
