@@ -1,0 +1,13 @@
+{
+  "review_id": "cv-prv-display-consistency-2026-10-18",
+  "code": "2023_topps_pristine_baseball",
+  "sport": "baseball",
+  "source_url": "https://app.chasingmajors.com/checklists/?code=2023_topps_pristine_baseball&sport=baseball&type=product",
+  "evidence": "Display-only capitalization repair. Current product keywords and the matching PRV display name already use Baseball. Stable product code, year, edition, cards and parallels remain identical.",
+  "before": {
+    "displayName": "2023 Topps Pristine baseball"
+  },
+  "after": {
+    "displayName": "2023 Topps Pristine Baseball"
+  }
+}

@@ -70,6 +70,17 @@ function review(records,catalog){
    report.applied.push({code:entry.Code,split_into:aliases[entry.Code].products});
   }else output.push(record);
  }
+ for(const rule of catalog.product_name_reviews||[]){
+  const matches=output.filter(r=>r.entry.Code===rule.code);
+  if(matches.length!==1||!rule.before||!rule.after||!rule.source_url){report.stale_reviews.push({code:rule.code,reason:'Display-name review target is missing or ambiguous.'});continue;}
+  const {entry,product}=matches[0];
+  if(entry.DisplayName===rule.after&&product.meta.displayName===rule.after)continue;
+  if(entry.DisplayName!==rule.before||product.meta.displayName!==rule.before){report.stale_reviews.push({code:rule.code,reason:'Source display name changed; reviewed name was not applied.'});continue;}
+  entry.DisplayName=rule.after; product.meta={...product.meta,displayName:rule.after};
+  entry.Keywords=[entry.Keywords,rule.before].filter(Boolean).join(' ');
+  product.display_name_review={source_name:rule.before,basis:rule.basis,source_url:rule.source_url};
+  report.applied.push({code:rule.code,display_name:rule.after,source_name:rule.before});
+ }
  for(const {entry,product} of output){
   quality(product,entry.Code);
   for(const r of product.rows){

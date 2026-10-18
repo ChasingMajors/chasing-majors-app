@@ -1075,5 +1075,39 @@
       "superseded_at": "2026-10-18",
       "reason": "User-confirmed source replacement; historical positional actions cannot be reused."
     }
+  ],
+  "product_name_reviews": [
+    {
+      "code": "2025_Bowman_Draft_Sapphire",
+      "cv_code": "2025_Bowman_Draft_Sapphire",
+      "before": "2025 Bowman Draft Sapphire",
+      "after": "2025 Bowman Draft Sapphire Baseball",
+      "source_url": "https://app.chasingmajors.com/checklists/?code=2025_Bowman_Draft_Sapphire&type=product",
+      "basis": "Exact product-code match across CV and PRV. Standardize only the sport suffix or apostrophe; preserve all source measurements and identifiers."
+    },
+    {
+      "code": "2025_26_topps_chrome_uefa_women_s_champions_league_soccer",
+      "cv_code": "2025_26_topps_chrome_uefa_women_s_champions_league_soccer",
+      "before": "2025-26 Topps Chrome UEFA Women’s Champions League Soccer",
+      "after": "2025-26 Topps Chrome UEFA Women's Champions League Soccer",
+      "source_url": "https://app.chasingmajors.com/checklists/?code=2025_26_topps_chrome_uefa_women_s_champions_league_soccer&type=product",
+      "basis": "Exact product-code match across CV and PRV. Standardize only the sport suffix or apostrophe; preserve all source measurements and identifiers."
+    },
+    {
+      "code": "2026_topps_chrome_mls_soccer",
+      "cv_code": "2026_topps_chrome_mls_soccer",
+      "before": "2026 Topps Chrome MLS",
+      "after": "2026 Topps Chrome MLS Soccer",
+      "source_url": "https://app.chasingmajors.com/checklists/?code=2026_topps_chrome_mls_soccer&type=product",
+      "basis": "Exact product-code match across CV and PRV. Standardize only the sport suffix or apostrophe; preserve all source measurements and identifiers."
+    },
+    {
+      "code": "2026_bowman_chrome_sapphire_baseball",
+      "cv_code": "2026_bowman_chrome_sapphire_baseball",
+      "before": "2026 Bowman Chrome Sapphire",
+      "after": "2026 Bowman Chrome Sapphire Baseball",
+      "source_url": "https://app.chasingmajors.com/checklists/?code=2026_bowman_chrome_sapphire_baseball&type=product",
+      "basis": "Exact product-code match across CV and PRV. Standardize only the sport suffix or apostrophe; preserve all source measurements and identifiers."
+    }
   ]
 }
