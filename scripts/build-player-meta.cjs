@@ -118,6 +118,7 @@ function extractPrimaryPlayerName_(playerText) {
 
   firstPiece = firstPiece
     .replace(/^#?\d+\s+/, '')
+    .replace(/^-[A-Z]{2,3}\s+/, '')
     .replace(/\s+card\s*#?.*$/i, '')
     .replace(/\s+graded.*$/i, '')
     .replace(/\s+/g, ' ')

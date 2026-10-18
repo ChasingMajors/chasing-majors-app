@@ -1,198 +1,8 @@
 {
   "ok": true,
   "source": "player-meta-export",
-  "generated_at": "2026-10-18T22:00:26.006Z",
+  "generated_at": "2026-10-18T22:40:31.916Z",
   "players": [
-    {
-      "sport": "baseball",
-      "player_key": "-ap a j puk",
-      "player_name": "-AP A.J. Puk",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-bb bo bichette",
-      "player_name": "-BB Bo Bichette",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-ca chance adams",
-      "player_name": "-CA Chance Adams",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-cq cal quantrill",
-      "player_name": "-CQ Cal Quantrill",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-fp franklin perez",
-      "player_name": "-FP Franklin Perez",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-fr fernando romero",
-      "player_name": "-FR Fernando Romero",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-ft fernando tatis jr",
-      "player_name": "-FT Fernando Tatis Jr.",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-js jesus sanchez",
-      "player_name": "-JS Jesus Sanchez",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-lt leody taveras",
-      "player_name": "-LT Leody Taveras",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-lu luis urias",
-      "player_name": "-LU Luis Urias",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-mc michael chavis",
-      "player_name": "-MC Michael Chavis",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-ng nick gordon",
-      "player_name": "-NG Nick Gordon",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-sg stephen gonsalves",
-      "player_name": "-SG Stephen Gonsalves",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-sk scott kingery",
-      "player_name": "-SK Scott Kingery",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-ss sixto sanchez",
-      "player_name": "-SS Sixto Sanchez",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-tm triston mckenzie",
-      "player_name": "-TM Triston McKenzie",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-tt taylor trammell",
-      "player_name": "-TT Taylor Trammell",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-vg vladimir guerrero jr",
-      "player_name": "-VG Vladimir Guerrero Jr.",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
-    {
-      "sport": "baseball",
-      "player_key": "-yd yusniel diaz",
-      "player_name": "-YD Yusniel Diaz",
-      "checklist_years": [
-        2018
-      ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
-    },
     {
       "sport": "baseball",
       "player_key": "black",
@@ -1929,6 +1739,16 @@
       "player_name": "Acadia National Park",
       "checklist_years": [
         2022
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "ace hurlers",
+      "player_name": "Ace Hurlers",
+      "checklist_years": [
+        1959
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -3912,6 +3732,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -4045,6 +3866,16 @@
         1954,
         1953,
         1952
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "al schroll",
+      "player_name": "Al Schroll",
+      "checklist_years": [
+        1959
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -6712,6 +6543,7 @@
         2019,
         2018,
         2017,
+        1959,
         1958,
         1957,
         1956,
@@ -7343,6 +7175,7 @@
       "player_name": "Andre Rodgers",
       "checklist_years": [
         2016,
+        1959,
         1957
       ],
       "rc_year": 1957,
@@ -10691,6 +10524,7 @@
       "player_key": "art ceccarelli",
       "player_name": "Art Ceccarelli",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -10701,6 +10535,7 @@
       "player_key": "art ditmar",
       "player_name": "Art Ditmar",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -10713,6 +10548,7 @@
       "player_key": "art fowler",
       "player_name": "Art Fowler",
       "checklist_years": [
+        1959,
         1957,
         1956,
         1955
@@ -12547,10 +12383,11 @@
       "player_key": "barry latman",
       "player_name": "Barry Latman",
       "checklist_years": [
-        2016
+        2016,
+        1959
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -12905,6 +12742,16 @@
       "player_name": "Bat Knobs",
       "checklist_years": [
         2020
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "batter bafflers",
+      "player_name": "Batter Bafflers",
+      "checklist_years": [
+        1959
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -13880,6 +13727,7 @@
       "player_key": "bennie daniels",
       "player_name": "Bennie Daniels",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -14319,6 +14167,7 @@
       "player_key": "bill bruton",
       "player_name": "Bill Bruton",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -14442,6 +14291,7 @@
       "player_key": "bill fischer",
       "player_name": "Bill Fischer",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -14621,6 +14471,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957
       ],
@@ -14636,6 +14487,16 @@
         1952
       ],
       "rc_year": 1952,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "bill monbouquette",
+      "player_name": "Bill Monbouquette",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
       "rc_year_confidence": "high"
     },
     {
@@ -14841,6 +14702,7 @@
       "player_key": "bill tuttle",
       "player_name": "Bill Tuttle",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -14870,6 +14732,7 @@
       "player_key": "bill virdon",
       "player_name": "Bill Virdon",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -14898,6 +14761,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "bill white",
+      "player_name": "Bill White",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -15033,6 +14906,7 @@
       "player_key": "billy consolo",
       "player_name": "Billy Consolo",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1955,
@@ -15108,6 +14982,7 @@
       "player_key": "billy harrell",
       "player_name": "Billy Harrell",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -15151,6 +15026,7 @@
       "player_key": "billy hoeft",
       "player_name": "Billy Hoeft",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -15200,6 +15076,7 @@
       "player_key": "billy klaus",
       "player_name": "Billy Klaus",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -15212,6 +15089,7 @@
       "player_key": "billy loes",
       "player_name": "Billy Loes",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -15236,6 +15114,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -15275,6 +15154,7 @@
       "player_key": "billy moran",
       "player_name": "Billy Moran",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -15285,6 +15165,7 @@
       "player_key": "billy muffett",
       "player_name": "Billy Muffett",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -15305,6 +15186,7 @@
       "player_key": "billy o dell",
       "player_name": "Billy O’Dell",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1955
@@ -15318,6 +15200,7 @@
       "player_name": "Billy Pierce",
       "checklist_years": [
         2017,
+        1959,
         1958,
         1956,
         1953
@@ -16455,12 +16338,33 @@
     },
     {
       "sport": "baseball",
+      "player_key": "bob allison",
+      "player_name": "Bob Allison",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "bob anderson",
       "player_name": "Bob Anderson",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "bob blaylock",
+      "player_name": "Bob Blaylock",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
       "rc_year_confidence": "high"
     },
     {
@@ -16491,6 +16395,7 @@
       "player_key": "bob bowman",
       "player_name": "Bob Bowman",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -16526,6 +16431,7 @@
       "player_key": "bob buhl",
       "player_name": "Bob Buhl",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -16590,6 +16496,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "bob conley",
+      "player_name": "Bob Conley",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -16685,12 +16601,23 @@
         2020,
         2019,
         2018,
+        1959,
         1958,
         1957,
         1956,
         1952
       ],
       "rc_year": 1952,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "bob giallombardo",
+      "player_name": "Bob Giallombardo",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
       "rc_year_confidence": "high"
     },
     {
@@ -16708,16 +16635,18 @@
         2019,
         2018,
         2017,
-        2016
+        2016,
+        1959
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
       "player_key": "bob grim",
       "player_name": "Bob Grim",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -16731,10 +16660,21 @@
       "player_key": "bob hale",
       "player_name": "Bob Hale",
       "checklist_years": [
+        1959,
         1957,
         1956
       ],
       "rc_year": 1956,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "bob hartman",
+      "player_name": "Bob Hartman",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
       "rc_year_confidence": "high"
     },
     {
@@ -16909,6 +16849,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "bob lillis",
+      "player_name": "Bob Lillis",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "bob locker",
       "player_name": "Bob Locker",
       "checklist_years": [
@@ -16916,6 +16866,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "bob mabe",
+      "player_name": "Bob Mabe",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -16971,6 +16931,7 @@
       "player_key": "bob miller",
       "player_name": "Bob Miller",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -17008,6 +16969,7 @@
       "player_key": "bob nieman",
       "player_name": "Bob Nieman",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -17053,6 +17015,7 @@
       "player_key": "bob porterfield",
       "player_name": "Bob Porterfield",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -17077,6 +17040,7 @@
       "player_key": "bob purkey",
       "player_name": "Bob Purkey",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1955,
@@ -17153,6 +17117,7 @@
       "player_name": "Bob Rush",
       "checklist_years": [
         2023,
+        1959,
         1958,
         1957,
         1956,
@@ -17218,6 +17183,7 @@
       "player_key": "bob shaw",
       "player_name": "Bob Shaw",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -17249,6 +17215,7 @@
       "player_key": "bob skinner",
       "player_name": "Bob Skinner",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -17273,6 +17240,7 @@
       "player_key": "bob speake",
       "player_name": "Bob Speake",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -17336,6 +17304,7 @@
       "player_key": "bob thurman",
       "player_name": "Bob Thurman",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -17358,6 +17327,7 @@
       "player_key": "bob trowbridge",
       "player_name": "Bob Trowbridge",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -17440,6 +17410,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "bob will",
+      "player_name": "Bob Will",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "bob wilson",
       "player_name": "Bob Wilson",
       "checklist_years": [
@@ -17496,6 +17476,7 @@
       "player_key": "bobby adams",
       "player_name": "Bobby Adams",
       "checklist_years": [
+        1959,
         1958,
         1956,
         1955,
@@ -17512,6 +17493,7 @@
       "player_name": "Bobby Avila",
       "checklist_years": [
         2023,
+        1959,
         1958,
         1957,
         1956,
@@ -17633,6 +17615,7 @@
       "player_key": "bobby gene smith",
       "player_name": "Bobby Gene Smith",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -17721,6 +17704,7 @@
       "player_key": "bobby malkmus",
       "player_name": "Bobby Malkmus",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -17839,6 +17823,7 @@
       "player_name": "Bobby Shantz",
       "checklist_years": [
         2023,
+        1959,
         1958,
         1957,
         1956,
@@ -17874,6 +17859,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -17881,6 +17867,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "bobby tiefenauer",
+      "player_name": "Bobby Tiefenauer",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -18251,6 +18247,7 @@
       "checklist_years": [
         2018,
         2017,
+        1959,
         1958,
         1957,
         1956
@@ -22106,6 +22103,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957
       ],
@@ -23020,6 +23018,7 @@
       "player_key": "bubba phillips",
       "player_name": "Bubba Phillips",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -23049,6 +23048,16 @@
       ],
       "rc_year": 2023,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "buc hill aces",
+      "player_name": "Buc Hill Aces",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -23226,6 +23235,7 @@
       "player_key": "bud daley",
       "player_name": "Bud Daley",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -24404,6 +24414,7 @@
       "player_key": "cal mclish",
       "player_name": "Cal McLish",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -24439,6 +24450,7 @@
       "player_key": "cal neeman",
       "player_name": "Cal Neeman",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -25610,6 +25622,7 @@
       "player_key": "camilo pascual",
       "player_name": "Camilo Pascual",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -25882,6 +25895,7 @@
         2019,
         2018,
         2017,
+        1959,
         1958,
         1957,
         1956,
@@ -25913,6 +25927,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956
@@ -26860,6 +26875,7 @@
       "player_key": "carroll hardy",
       "player_name": "Carroll Hardy",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -27623,7 +27639,8 @@
         2020,
         2019,
         2018,
-        2017
+        2017,
+        1959
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -27653,6 +27670,7 @@
       "player_key": "casey wise",
       "player_name": "Casey Wise",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -28649,6 +28667,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "charley beamon",
+      "player_name": "Charley Beamon",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "charley lau",
       "player_name": "Charley Lau",
       "checklist_years": [
@@ -28911,6 +28939,7 @@
       "player_key": "charlie maxwell",
       "player_name": "Charlie Maxwell",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -28951,6 +28980,7 @@
       "player_key": "charlie neal",
       "player_name": "Charlie Neal",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -29009,6 +29039,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "charlie secrest",
+      "player_name": "Charlie Secrest",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -30033,6 +30073,7 @@
       "player_key": "chicago cubs team",
       "player_name": "Chicago Cubs Team",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -30141,6 +30182,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "chick king",
+      "player_name": "Chick King",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
       "player_key": "chicken tenders",
       "player_name": "Chicken Tenders",
       "checklist_years": [
@@ -30154,6 +30205,7 @@
       "player_key": "chico carrasquel",
       "player_name": "Chico Carrasquel",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -30167,6 +30219,7 @@
       "player_key": "chico fernandez",
       "player_name": "Chico Fernandez",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -32277,6 +32330,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "chuck coles",
+      "player_name": "Chuck Coles",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "chuck diering",
       "player_name": "Chuck Diering",
       "checklist_years": [
@@ -32303,6 +32366,7 @@
       "player_key": "chuck essegian",
       "player_name": "Chuck Essegian",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -32404,6 +32468,7 @@
       "player_key": "chuck tanner",
       "player_name": "Chuck Tanner",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -32610,6 +32675,7 @@
       "player_key": "cincinnati redlegs team",
       "player_name": "Cincinnati Redlegs Team",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -33072,6 +33138,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "claude osteen",
+      "player_name": "Claude Osteen",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "claude raymond",
       "player_name": "Claude Raymond",
       "checklist_years": [
@@ -33301,6 +33377,7 @@
       "player_key": "clem labine",
       "player_name": "Clem Labine",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -33330,6 +33407,7 @@
       "checklist_years": [
         2017,
         2016,
+        1959,
         1957
       ],
       "rc_year": 1957,
@@ -33379,6 +33457,7 @@
       "checklist_years": [
         2018,
         2017,
+        1959,
         1958,
         1957,
         1956
@@ -33470,6 +33549,7 @@
       "player_key": "clint courtney",
       "player_name": "Clint Courtney",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -36508,6 +36588,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "corsair outfield trio",
+      "player_name": "Corsair Outfield Trio",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
       "player_key": "cory abbott",
       "player_name": "Cory Abbott",
       "checklist_years": [
@@ -37282,6 +37372,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "cubs clubbers",
+      "player_name": "Cubs’ Clubbers",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
       "player_key": "cuddles marshall",
       "player_name": "Cuddles Marshall",
       "checklist_years": [
@@ -37355,6 +37455,7 @@
       "player_key": "curt barclay",
       "player_name": "Curt Barclay",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -37390,9 +37491,20 @@
         2018,
         2017,
         2016,
+        1959,
         1958
       ],
       "rc_year": 1958,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "curt raydon",
+      "player_name": "Curt Raydon",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
       "rc_year_confidence": "high"
     },
     {
@@ -37428,6 +37540,7 @@
       "checklist_years": [
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -38056,6 +38169,7 @@
       "player_key": "dale long",
       "player_name": "Dale Long",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -38250,6 +38364,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "dan dobbek",
+      "player_name": "Dan Dobbek",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -39284,6 +39408,7 @@
       "player_key": "danny kravitz",
       "player_name": "Danny Kravitz",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -39315,6 +39440,7 @@
       "player_key": "danny mcdevitt",
       "player_name": "Danny McDevitt",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -39821,6 +39947,7 @@
       "player_key": "darrell johnson",
       "player_name": "Darrell Johnson",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -39982,6 +40109,7 @@
       "player_key": "daryl spencer",
       "player_name": "Daryl Spencer",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -40247,6 +40375,7 @@
       "player_key": "dave hillman",
       "player_name": "Dave Hillman",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -40440,6 +40569,7 @@
       "player_key": "dave sisler",
       "player_name": "Dave Sisler",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -41813,6 +41943,7 @@
       "player_key": "dean stone",
       "player_name": "Dean Stone",
       "checklist_years": [
+        1959,
         1957,
         1956,
         1955,
@@ -42019,6 +42150,7 @@
       "player_key": "del crandall",
       "player_name": "Del Crandall",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -42034,6 +42166,7 @@
       "player_key": "del ennis",
       "player_name": "Del Ennis",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -42610,6 +42743,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "deron johnson",
+      "player_name": "Deron Johnson",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "derrek lee",
       "player_name": "Derrek Lee",
       "checklist_years": [
@@ -42769,6 +42912,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "destruction crew",
+      "player_name": "Destruction Crew",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
       "player_key": "desus nice",
       "player_name": "Desus Nice",
       "checklist_years": [
@@ -42804,6 +42957,7 @@
         2020,
         2018,
         2017,
+        1959,
         1958,
         1957,
         1956
@@ -43239,6 +43393,7 @@
       "player_key": "dick brodowski",
       "player_name": "Dick Brodowski",
       "checklist_years": [
+        1959,
         1956,
         1955,
         1954,
@@ -43321,6 +43476,7 @@
       "player_key": "dick farrell",
       "player_name": "Dick Farrell",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -43354,6 +43510,7 @@
       "player_key": "dick gray",
       "player_name": "Dick Gray",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -43380,6 +43537,7 @@
         2019,
         2018,
         2017,
+        1959,
         1958,
         1957,
         1956,
@@ -43429,6 +43587,7 @@
       "player_key": "dick hyde",
       "player_name": "Dick Hyde",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -43500,6 +43659,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "dick ricketts",
+      "player_name": "Dick Ricketts",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "dick rozek",
       "player_name": "Dick Rozek",
       "checklist_years": [
@@ -43533,9 +43702,30 @@
     },
     {
       "sport": "baseball",
+      "player_key": "dick stigman",
+      "player_name": "Dick Stigman",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "dick stuart",
+      "player_name": "Dick Stuart",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "dick tomanek",
       "player_name": "Dick Tomanek",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -43576,6 +43766,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1953,
@@ -44444,6 +44635,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "dolan nichols",
+      "player_name": "Dolan Nichols",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "dom deluise",
       "player_name": "Dom DeLuise",
       "checklist_years": [
@@ -44512,6 +44713,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "dom zanni",
+      "player_name": "Dom Zanni",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -44753,6 +44964,7 @@
       "player_key": "don blasingame",
       "player_name": "Don Blasingame",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -44796,9 +45008,20 @@
       "player_key": "don demeter",
       "player_name": "Don Demeter",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "don dillard",
+      "player_name": "Don Dillard",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
       "rc_year_confidence": "high"
     },
     {
@@ -44817,6 +45040,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957
       ],
@@ -44828,6 +45052,7 @@
       "player_key": "don elston",
       "player_name": "Don Elston",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -44839,6 +45064,7 @@
       "player_key": "don ferrarese",
       "player_name": "Don Ferrarese",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -44852,6 +45078,7 @@
       "player_key": "don gross",
       "player_name": "Don Gross",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -44970,6 +45197,7 @@
         2019,
         2018,
         2017,
+        1959,
         1958,
         1957,
         1956
@@ -44982,6 +45210,7 @@
       "player_key": "don lee",
       "player_name": "Don Lee",
       "checklist_years": [
+        1959,
         1957
       ],
       "rc_year": 1957,
@@ -45056,6 +45285,7 @@
       "player_name": "Don Mossi",
       "checklist_years": [
         2023,
+        1959,
         1958,
         1957,
         1956,
@@ -45070,6 +45300,7 @@
       "player_name": "Don Mueller",
       "checklist_years": [
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -45086,6 +45317,7 @@
       "checklist_years": [
         2024,
         2016,
+        1959,
         1958,
         1957,
         1956
@@ -45106,6 +45338,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "don pavletich",
+      "player_name": "Don Pavletich",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "don quixote's lance",
       "player_name": "Don Quixote's Lance",
       "checklist_years": [
@@ -45119,6 +45361,7 @@
       "player_key": "don rudolph",
       "player_name": "Don Rudolph",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -45186,6 +45429,7 @@
         2021,
         2020,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -46361,6 +46605,7 @@
       "player_key": "duke maas",
       "player_name": "Duke Maas",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -46650,6 +46895,7 @@
       "player_key": "dutch dotterer",
       "player_name": "Dutch Dotterer",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -47259,6 +47505,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "earl averill jr",
+      "player_name": "Earl Averill Jr.",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "earl battey",
       "player_name": "Earl Battey",
       "checklist_years": [
@@ -47268,6 +47524,7 @@
         2019,
         2018,
         2017,
+        1959,
         1958,
         1957
       ],
@@ -47290,6 +47547,7 @@
       "player_key": "earl torgeson",
       "player_name": "Earl Torgeson",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -47391,6 +47649,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -47609,6 +47868,7 @@
       "player_key": "ed bailey",
       "player_name": "Ed Bailey",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1955,
@@ -47800,6 +48060,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "ed sadowski",
+      "player_name": "Ed Sadowski",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "ed walsh",
       "player_name": "Ed Walsh",
       "checklist_years": [
@@ -47940,6 +48210,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "eddie haas",
+      "player_name": "Eddie Haas",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "eddie joost",
       "player_name": "Eddie Joost",
       "checklist_years": [
@@ -47961,6 +48241,7 @@
       "player_key": "eddie kasko",
       "player_name": "Eddie Kasko",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -48014,6 +48295,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -49739,6 +50021,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "ellis burton",
+      "player_name": "Ellis Burton",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "ellis kinder",
       "player_name": "Ellis Kinder",
       "checklist_years": [
@@ -49821,6 +50113,7 @@
       "player_key": "elmer singleton",
       "player_name": "Elmer Singleton",
       "checklist_years": [
+        1959,
         1957
       ],
       "rc_year": null,
@@ -49928,6 +50221,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956
@@ -50572,6 +50866,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -51571,6 +51866,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -51599,6 +51895,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "ernie broglio",
+      "player_name": "Ernie Broglio",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -51635,6 +51941,7 @@
       "player_key": "ernie johnson",
       "player_name": "Ernie Johnson",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -52947,6 +53254,7 @@
       "player_key": "faye throneberry",
       "player_name": "Faye Throneberry",
       "checklist_years": [
+        1959,
         1957,
         1955,
         1953,
@@ -53152,6 +53460,7 @@
       "player_key": "felix mantilla",
       "player_name": "Felix Mantilla",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -53261,6 +53570,16 @@
       "player_name": "Felsi Severiano",
       "checklist_years": [
         2023
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "fence busters",
+      "player_name": "Fence Busters",
+      "checklist_years": [
+        1959
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -54673,6 +54992,7 @@
       "player_key": "frank baumann",
       "player_name": "Frank Baumann",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -54696,6 +55016,7 @@
       "player_key": "frank bolling",
       "player_name": "Frank Bolling",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -54801,6 +55122,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "frank herrera",
+      "player_name": "Frank Herrera",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "frank hiller",
       "player_name": "Frank Hiller",
       "checklist_years": [
@@ -54814,6 +55145,7 @@
       "player_key": "frank house",
       "player_name": "Frank House",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -54877,6 +55209,7 @@
       "player_key": "frank lary",
       "player_name": "Frank Lary",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -54900,6 +55233,7 @@
       "player_key": "frank malzone",
       "player_name": "Frank Malzone",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -54955,6 +55289,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957
       ],
@@ -55024,6 +55359,7 @@
       "player_key": "frank sullivan",
       "player_name": "Frank Sullivan",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -55058,6 +55394,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956
@@ -55502,6 +55839,7 @@
       "player_key": "fred haney",
       "player_name": "Fred Haney",
       "checklist_years": [
+        1959,
         1954
       ],
       "rc_year": null,
@@ -55541,6 +55879,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "fred kipp",
+      "player_name": "Fred Kipp",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -56562,6 +56910,7 @@
       "player_key": "gail harris",
       "player_name": "Gail Harris",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -57027,6 +57376,26 @@
     },
     {
       "sport": "baseball",
+      "player_key": "gary bell",
+      "player_name": "Gary Bell",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "gary blaylock",
+      "player_name": "Gary Blaylock",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "gary brown",
       "player_name": "Gary Brown",
       "checklist_years": [
@@ -57091,6 +57460,7 @@
       "player_key": "gary geiger",
       "player_name": "Gary Geiger",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -57611,6 +57981,7 @@
       "player_key": "gene baker",
       "player_name": "Gene Baker",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -57643,6 +58014,7 @@
       "player_key": "gene conley",
       "player_name": "Gene Conley",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -57668,6 +58040,7 @@
       "player_key": "gene freese",
       "player_name": "Gene Freese",
       "checklist_years": [
+        1959,
         1958,
         1956,
         1955
@@ -57731,9 +58104,30 @@
     },
     {
       "sport": "baseball",
+      "player_key": "gene oliver",
+      "player_name": "Gene Oliver",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "gene snyder",
+      "player_name": "Gene Snyder",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "gene stephens",
       "player_name": "Gene Stephens",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -57783,6 +58177,7 @@
       "player_key": "gene woodling",
       "player_name": "Gene Woodling",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -57879,10 +58274,11 @@
       "player_key": "george altman",
       "player_name": "George Altman",
       "checklist_years": [
-        2016
+        2016,
+        1959
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -57893,6 +58289,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "george bamberger",
+      "player_name": "George Bamberger",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -58023,6 +58429,7 @@
       "player_key": "george crowe",
       "player_name": "George Crowe",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -58501,6 +58908,7 @@
       "player_key": "george strickland",
       "player_name": "George Strickland",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1952
@@ -58513,6 +58921,7 @@
       "player_key": "george susce",
       "player_name": "George Susce",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -58637,6 +59046,7 @@
       "player_key": "george zuverink",
       "player_name": "George Zuverink",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -59163,6 +59573,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -59187,6 +59598,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -59297,6 +59709,7 @@
       "player_key": "gino cimoli",
       "player_name": "Gino Cimoli",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -59490,6 +59903,7 @@
       "player_key": "glen hobbie",
       "player_name": "Glen Hobbie",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -59815,6 +60229,7 @@
       "player_key": "gordon jones",
       "player_name": "Gordon Jones",
       "checklist_years": [
+        1959,
         1955
       ],
       "rc_year": 1955,
@@ -60063,6 +60478,7 @@
       "player_key": "granny hamner",
       "player_name": "Granny Hamner",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -61379,6 +61795,7 @@
       "player_key": "gus bell",
       "player_name": "Gus Bell",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -61414,6 +61831,7 @@
       "player_key": "gus triandos",
       "player_name": "Gus Triandos",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -61439,6 +61857,7 @@
       "player_key": "gus zernial",
       "player_name": "Gus Zernial",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -61631,6 +62050,7 @@
       "player_key": "hal brown",
       "player_name": "Hal Brown",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1955,
@@ -61655,6 +62075,7 @@
       "player_key": "hal griggs",
       "player_name": "Hal Griggs",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -61680,6 +62101,7 @@
       "player_key": "hal naragon",
       "player_name": "Hal Naragon",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -61714,6 +62136,7 @@
       "player_key": "hal r smith",
       "player_name": "Hal R. Smith",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -61748,6 +62171,7 @@
       "player_key": "hal w smith",
       "player_name": "Hal W. Smith",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -61842,6 +62266,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -61901,6 +62326,7 @@
         2024,
         2023,
         2022,
+        1959,
         1958,
         1957,
         1956,
@@ -61947,6 +62373,7 @@
       "player_key": "hank foiles",
       "player_name": "Hank Foiles",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -61990,6 +62417,7 @@
       "checklist_years": [
         2023,
         2022,
+        1959,
         1958,
         1957,
         1956,
@@ -62274,6 +62702,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1956,
         1955
@@ -62482,6 +62911,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "harry bright",
+      "player_name": "Harry Bright",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "harry byrd",
       "player_name": "Harry Byrd",
       "checklist_years": [
@@ -62562,6 +63001,7 @@
       "player_key": "harry hanebrink",
       "player_name": "Harry Hanebrink",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -62671,6 +63111,7 @@
       "player_key": "harry simpson",
       "player_name": "Harry Simpson",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -62777,6 +63218,7 @@
       "player_name": "Harvey Haddix",
       "checklist_years": [
         2023,
+        1959,
         1958,
         1957,
         1956,
@@ -63079,6 +63521,7 @@
       "player_key": "haywood sullivan",
       "player_name": "Haywood Sullivan",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -63176,6 +63619,7 @@
       "player_name": "Hector Lopez",
       "checklist_years": [
         2018,
+        1959,
         1958,
         1957,
         1956
@@ -63816,6 +64260,7 @@
       "player_key": "herb plews",
       "player_name": "Herb Plews",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -63929,6 +64374,7 @@
       "player_key": "herm wehmeier",
       "player_name": "Herm Wehmeier",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -64515,6 +64961,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "hitters foes",
+      "player_name": "Hitters’ Foes",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
       "player_key": "hiverson l pez",
       "player_name": "Hiverson López",
       "checklist_years": [
@@ -64552,6 +65008,7 @@
       "player_key": "hobie landrith",
       "player_name": "Hobie Landrith",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -65075,6 +65532,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "howie nunn",
+      "player_name": "Howie Nunn",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "howie pollet",
       "player_name": "Howie Pollet",
       "checklist_years": [
@@ -65133,6 +65600,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -65392,6 +65860,7 @@
       "player_key": "humberto robinson",
       "player_name": "Humberto Robinson",
       "checklist_years": [
+        1959,
         1955
       ],
       "rc_year": 1955,
@@ -66427,6 +66896,7 @@
       "player_key": "ike delock",
       "player_name": "Ike Delock",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -66506,6 +66976,16 @@
       "player_name": "Infield Crew",
       "checklist_years": [
         2022
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "infield power",
+      "player_name": "Infield Power",
+      "checklist_years": [
+        1959
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -67770,6 +68250,7 @@
       "player_key": "j w porter",
       "player_name": "J.W. Porter",
       "checklist_years": [
+        1959,
         1958,
         1955,
         1953
@@ -68142,6 +68623,7 @@
       "player_key": "jack harshman",
       "player_name": "Jack Harshman",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -68393,6 +68875,7 @@
       "player_key": "jack meyer",
       "player_name": "Jack Meyer",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -68582,6 +69065,7 @@
       "player_key": "jack sanford",
       "player_name": "Jack Sanford",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -68778,10 +69262,11 @@
       "player_key": "jackie brandt",
       "player_name": "Jackie Brandt",
       "checklist_years": [
-        2016
+        2016,
+        1959
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -68819,6 +69304,7 @@
       "player_name": "Jackie Jensen",
       "checklist_years": [
         2023,
+        1959,
         1958,
         1957,
         1956,
@@ -75174,6 +75660,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "jerry casale",
+      "player_name": "Jerry Casale",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "jerry coleman",
       "player_name": "Jerry Coleman",
       "checklist_years": [
@@ -75183,6 +75679,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "jerry davie",
+      "player_name": "Jerry Davie",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -75209,6 +75715,7 @@
       "player_key": "jerry kindall",
       "player_name": "Jerry Kindall",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -75250,6 +75757,7 @@
       "player_key": "jerry lumpe",
       "player_name": "Jerry Lumpe",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -75338,6 +75846,7 @@
       "player_key": "jerry staley",
       "player_name": "Jerry Staley",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1953,
@@ -75351,9 +75860,20 @@
       "player_key": "jerry walker",
       "player_name": "Jerry Walker",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "jerry zimmerman",
+      "player_name": "Jerry Zimmerman",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
       "rc_year_confidence": "high"
     },
     {
@@ -76339,6 +76859,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "jim baxes",
+      "player_name": "Jim Baxes",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "jim bintliff",
       "player_name": "Jim Bintliff",
       "checklist_years": [
@@ -76431,6 +76961,7 @@
       "player_key": "jim brosnan",
       "player_name": "Jim Brosnan",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -76463,6 +76994,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957
       ],
@@ -76474,6 +77006,7 @@
       "player_key": "jim busby",
       "player_name": "Jim Busby",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -76497,10 +77030,21 @@
       "player_key": "jim coates",
       "player_name": "Jim Coates",
       "checklist_years": [
-        2016
+        2016,
+        1959
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "jim constable",
+      "player_name": "Jim Constable",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -76508,6 +77052,7 @@
       "player_name": "Jim Davenport",
       "checklist_years": [
         2017,
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -76530,6 +77075,7 @@
       "player_key": "jim delsing",
       "player_name": "Jim Delsing",
       "checklist_years": [
+        1959,
         1956,
         1955,
         1954,
@@ -76622,6 +77168,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -76675,6 +77222,7 @@
       "player_key": "jim hegan",
       "player_name": "Jim Hegan",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -76828,6 +77376,7 @@
       "player_name": "Jim Landis",
       "checklist_years": [
         2016,
+        1959,
         1958,
         1957
       ],
@@ -76839,6 +77388,7 @@
       "player_key": "jim lemon",
       "player_name": "Jim Lemon",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1954
@@ -76875,9 +77425,20 @@
       "player_key": "jim marshall",
       "player_name": "Jim Marshall",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "jim mcdaniel",
+      "player_name": "Jim McDaniel",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
       "rc_year_confidence": "high"
     },
     {
@@ -76892,10 +77453,21 @@
     },
     {
       "sport": "baseball",
+      "player_key": "jim o toole",
+      "player_name": "Jim O’Toole",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "jim owens",
       "player_name": "Jim Owens",
       "checklist_years": [
         2016,
+        1959,
         1956,
         1955
       ],
@@ -76937,6 +77509,7 @@
       "player_key": "jim pendleton",
       "player_name": "Jim Pendleton",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1955,
@@ -76952,16 +77525,18 @@
       "player_name": "Jim Perry",
       "checklist_years": [
         2019,
-        2018
+        2018,
+        1959
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
       "player_key": "jim piersall",
       "player_name": "Jim Piersall",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -76974,6 +77549,7 @@
       "player_key": "jim pisoni",
       "player_name": "Jim Pisoni",
       "checklist_years": [
+        1959,
         1957
       ],
       "rc_year": 1957,
@@ -77024,6 +77600,7 @@
       "player_key": "jim rivera",
       "player_name": "Jim Rivera",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -77822,6 +78399,7 @@
       "player_name": "Joe Adcock",
       "checklist_years": [
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -78071,6 +78649,7 @@
       "player_key": "joe cunningham",
       "player_name": "Joe Cunningham",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1955
@@ -78357,6 +78936,7 @@
       "player_key": "joe jay",
       "player_name": "Joe Jay",
       "checklist_years": [
+        1959,
         1958,
         1955,
         1954
@@ -78397,6 +78977,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "joe koppe",
+      "player_name": "Joe Koppe",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -78737,6 +79327,7 @@
       "player_key": "joe nuxhall",
       "player_name": "Joe Nuxhall",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -78974,6 +79565,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "joe shipley",
+      "player_name": "Joe Shipley",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -79666,6 +80267,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "john blanchard",
+      "player_name": "John Blanchard",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "john boyega 2017",
       "player_name": "John Boyega (2017)",
       "checklist_years": [
@@ -79685,6 +80296,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "john buzhardt",
+      "player_name": "John Buzhardt",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -80366,6 +80987,7 @@
       "player_key": "john powers",
       "player_name": "John Powers",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -80421,6 +81043,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "john romonosky",
+      "player_name": "John Romonosky",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "john rooney",
       "player_name": "John Rooney",
       "checklist_years": [
@@ -80435,6 +81067,7 @@
       "player_key": "john roseboro",
       "player_name": "John Roseboro",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -80736,6 +81369,7 @@
       "player_key": "johnny antonelli",
       "player_name": "Johnny Antonelli",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -80816,6 +81450,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "johnny briggs",
+      "player_name": "Johnny Briggs",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "johnny bucha",
       "player_name": "Johnny Bucha",
       "checklist_years": [
@@ -80829,10 +81473,11 @@
       "player_key": "johnny callison",
       "player_name": "Johnny Callison",
       "checklist_years": [
-        2016
+        2016,
+        1959
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -80978,6 +81623,7 @@
       "player_key": "johnny groth",
       "player_name": "Johnny Groth",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -81034,6 +81680,7 @@
       "player_key": "johnny klippstein",
       "player_name": "Johnny Klippstein",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -81059,6 +81706,7 @@
       "player_key": "johnny kucks",
       "player_name": "Johnny Kucks",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -81101,6 +81749,7 @@
         2019,
         2018,
         2017,
+        1959,
         1958,
         1957,
         1956,
@@ -81137,6 +81786,7 @@
       "player_key": "johnny o brien",
       "player_name": "Johnny O’Brien",
       "checklist_years": [
+        1959,
         1958,
         1956,
         1955,
@@ -81172,6 +81822,7 @@
         2025,
         2024,
         2017,
+        1959,
         1958,
         1957,
         1956,
@@ -81203,6 +81854,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "johnny romano",
+      "player_name": "Johnny Romano",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -81256,6 +81917,7 @@
       "player_key": "johnny temple",
       "player_name": "Johnny Temple",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -86431,6 +87093,7 @@
       "player_key": "juan pizarro",
       "player_name": "Juan Pizarro",
       "checklist_years": [
+        1959,
         1957
       ],
       "rc_year": 1957,
@@ -88782,6 +89445,7 @@
       "player_key": "kansas city athletics team",
       "player_name": "Kansas City Athletics Team",
       "checklist_years": [
+        1959,
         1958,
         1956
       ],
@@ -89893,6 +90557,7 @@
       "player_key": "ken aspromonte",
       "player_name": "Ken Aspromonte",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -89912,6 +90577,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -90557,6 +91223,16 @@
         2021
       ],
       "rc_year": 2021,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "kent hadley",
+      "player_name": "Kent Hadley",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
       "rc_year_confidence": "high"
     },
     {
@@ -94715,6 +95391,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -94775,6 +95452,7 @@
       "player_key": "larry jackson",
       "player_name": "Larry Jackson",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -94802,6 +95480,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "larry osborne",
+      "player_name": "Larry Osborne",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -95177,6 +95865,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "lee tate",
+      "player_name": "Lee Tate",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "lee thomas",
       "player_name": "Lee Thomas",
       "checklist_years": [
@@ -95363,6 +96061,7 @@
       "player_key": "lenny green",
       "player_name": "Lenny Green",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -95533,6 +96232,7 @@
       "player_key": "leo kiely",
       "player_name": "Leo Kiely",
       "checklist_years": [
+        1959,
         1958,
         1955,
         1954,
@@ -95611,10 +96311,11 @@
       "player_key": "leon wagner",
       "player_name": "Leon Wagner",
       "checklist_years": [
-        2016
+        2016,
+        1959
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -95803,6 +96504,7 @@
       "player_name": "Les Moss",
       "checklist_years": [
         2023,
+        1959,
         1958,
         1957,
         1952
@@ -96452,6 +97154,7 @@
       "player_key": "lindy mcdaniel",
       "player_name": "Lindy McDaniel",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -96848,6 +97551,7 @@
       "player_key": "logan morrison",
       "player_name": "Logan Morrison",
       "checklist_years": [
+        2025,
         2020,
         2019,
         2018,
@@ -97298,6 +98002,7 @@
       "player_name": "Los Angeles Dodgers Team",
       "checklist_years": [
         2017,
+        1959,
         1958
       ],
       "rc_year": null,
@@ -97391,7 +98096,8 @@
       "player_key": "lou burdette",
       "player_name": "Lou Burdette",
       "checklist_years": [
-        2016
+        2016,
+        1959
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -97448,6 +98154,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "lou jackson",
+      "player_name": "Lou Jackson",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -97511,6 +98227,7 @@
       "player_key": "lou skizas",
       "player_name": "Lou Skizas",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -98074,6 +98791,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956
@@ -100878,6 +101596,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "marcelino solis",
+      "player_name": "Marcelino Solis",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "marcell ozuna",
       "player_name": "Marcell Ozuna",
       "checklist_years": [
@@ -101660,6 +102388,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "mark freeman",
+      "player_name": "Mark Freeman",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "mark grace",
       "player_name": "Mark Grace",
       "checklist_years": [
@@ -102322,6 +103060,7 @@
       "player_key": "marty keough",
       "player_name": "Marty Keough",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -102359,6 +103098,7 @@
       "player_key": "marv grissom",
       "player_name": "Marv Grissom",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -102381,6 +103121,7 @@
       "player_key": "marv throneberry",
       "player_name": "Marv Throneberry",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -104499,6 +105240,7 @@
       "player_key": "matthew wood",
       "player_name": "Matthew Wood",
       "checklist_years": [
+        2026,
         2025,
         2023,
         2022
@@ -107288,6 +108030,7 @@
       "player_name": "Mickey Vernon",
       "checklist_years": [
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -107755,6 +108498,7 @@
       "player_key": "mike baxes",
       "player_name": "Mike Baxes",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -107902,10 +108646,11 @@
       "player_name": "Mike Cuellar",
       "checklist_years": [
         2019,
-        2017
+        2017,
+        1959
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -107985,6 +108730,7 @@
       "player_key": "mike fornieles",
       "player_name": "Mike Fornieles",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1954
@@ -108008,6 +108754,7 @@
       "player_name": "Mike Garcia",
       "checklist_years": [
         2023,
+        1959,
         1958,
         1957,
         1956,
@@ -108200,6 +108947,7 @@
       "player_key": "mike mccormick",
       "player_name": "Mike McCormick",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -108968,6 +109716,7 @@
       "player_key": "milt graff",
       "player_name": "Milt Graff",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -108988,6 +109737,7 @@
         2019,
         2018,
         2017,
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -109028,6 +109778,7 @@
       "player_key": "milwaukee braves team",
       "player_name": "Milwaukee Braves Team",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -109772,10 +110523,21 @@
       "player_key": "moe drabowsky",
       "player_name": "Moe Drabowsky",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
       "rc_year": 1957,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "moe thacker",
+      "player_name": "Moe Thacker",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
       "rc_year_confidence": "high"
     },
     {
@@ -110483,6 +111245,7 @@
       "player_key": "mudcat grant",
       "player_name": "Mudcat Grant",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -110877,6 +111640,16 @@
       "player_name": "Mystery Redemption #9",
       "checklist_years": [
         2017
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "n l hitting kings",
+      "player_name": "N.L. Hitting Kings",
+      "checklist_years": [
+        1959
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -112022,6 +112795,7 @@
       "player_key": "ned garver",
       "player_name": "Ned Garver",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -112110,6 +112884,7 @@
       "player_key": "neil chrisley",
       "player_name": "Neil Chrisley",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -112621,6 +113396,7 @@
       "checklist_years": [
         2018,
         2017,
+        1959,
         1958,
         1957,
         1956
@@ -115119,6 +115895,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "norm cash",
+      "player_name": "Norm Cash",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "norm larker",
       "player_name": "Norm Larker",
       "checklist_years": [
@@ -115142,6 +115928,7 @@
       "player_key": "norm siebern",
       "player_name": "Norm Siebern",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -115152,6 +115939,7 @@
       "player_key": "norm zauchin",
       "player_name": "Norm Zauchin",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -116140,6 +116928,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -116208,6 +116997,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "orlando pena",
+      "player_name": "Orlando Pena",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -116408,6 +117207,16 @@
         2019
       ],
       "rc_year": 2024,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "ossie alvarez",
+      "player_name": "Ossie Alvarez",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
       "rc_year_confidence": "high"
     },
     {
@@ -116958,6 +117767,7 @@
       "player_key": "ozzie virgil sr",
       "player_name": "Ozzie Virgil Sr.",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -118135,6 +118945,7 @@
       "player_key": "paul foytack",
       "player_name": "Paul Foytack",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -119236,6 +120047,7 @@
       "player_key": "pete burnside",
       "player_name": "Pete Burnside",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -119315,6 +120127,7 @@
       "player_key": "pete daley",
       "player_name": "Pete Daley",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1955
@@ -119412,6 +120225,7 @@
       "player_key": "pete runnels",
       "player_name": "Pete Runnels",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -119821,6 +120635,7 @@
       "player_key": "phil clark",
       "player_name": "Phil Clark",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -120439,6 +121254,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "pitching partners",
+      "player_name": "Pitching Partners",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
       "player_key": "pittsburgh pirates",
       "player_name": "Pittsburgh Pirates",
       "checklist_years": [
@@ -120463,6 +121288,7 @@
       "checklist_years": [
         2020,
         2017,
+        1959,
         1958,
         1957,
         1956
@@ -120997,6 +121823,7 @@
       "player_key": "preston ward",
       "player_name": "Preston Ward",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -121363,6 +122190,7 @@
       "player_key": "r c stevens",
       "player_name": "R.C. Stevens",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -121933,6 +122761,7 @@
       "player_key": "ralph lumenti",
       "player_name": "Ralph Lumenti",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -121943,6 +122772,7 @@
       "player_key": "ralph terry",
       "player_name": "Ralph Terry",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -122239,6 +123069,7 @@
       "player_key": "randy jackson",
       "player_name": "Randy Jackson",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -122625,6 +123456,7 @@
       "player_key": "ray boone",
       "player_name": "Ray Boone",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -122741,6 +123573,7 @@
       "player_key": "ray herbert",
       "player_name": "Ray Herbert",
       "checklist_years": [
+        1959,
         1958,
         1955,
         1954
@@ -122753,6 +123586,7 @@
       "player_key": "ray jablonski",
       "player_name": "Ray Jablonski",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -122851,6 +123685,7 @@
       "player_key": "ray monzant",
       "player_name": "Ray Monzant",
       "checklist_years": [
+        1959,
         1958,
         1956
       ],
@@ -122862,6 +123697,7 @@
       "player_key": "ray moore",
       "player_name": "Ray Moore",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -122887,6 +123723,7 @@
       "player_key": "ray narleski",
       "player_name": "Ray Narleski",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -122940,6 +123777,7 @@
       "player_key": "ray semproch",
       "player_name": "Ray Semproch",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -122964,6 +123802,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "ray webster",
+      "player_name": "Ray Webster",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -123323,6 +124171,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -124561,6 +125410,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -125277,6 +126127,7 @@
       "player_key": "rip repulski",
       "player_name": "Rip Repulski",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -126145,6 +126996,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -126252,6 +127104,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -126485,6 +127338,7 @@
       "player_key": "rocky bridges",
       "player_name": "Rocky Bridges",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -126499,6 +127353,7 @@
       "player_name": "Rocky Colavito",
       "checklist_years": [
         2016,
+        1959,
         1958,
         1957
       ],
@@ -126551,6 +127406,7 @@
       "player_key": "rocky nelson",
       "player_name": "Rocky Nelson",
       "checklist_years": [
+        1959,
         1954
       ],
       "rc_year": null,
@@ -126689,6 +127545,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "rodolfo arias",
+      "player_name": "Rodolfo Arias",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -126860,6 +127726,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -127148,6 +128015,7 @@
       "player_key": "roman mejias",
       "player_name": "Roman Mejias",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -127220,6 +128088,7 @@
       "player_key": "ron blackburn",
       "player_name": "Ron Blackburn",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -127263,6 +128132,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "ron fairly",
+      "player_name": "Ron Fairly",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "ron guidry",
       "player_name": "Ron Guidry",
       "checklist_years": [
@@ -127296,16 +128175,18 @@
       "player_key": "ron hansen",
       "player_name": "Ron Hansen",
       "checklist_years": [
-        2021
+        2021,
+        1959
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
       "player_key": "ron kline",
       "player_name": "Ron Kline",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -127355,6 +128236,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "ron samford",
+      "player_name": "Ron Samford",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -128113,6 +129004,7 @@
         2018,
         2017,
         2016,
+        1959,
         1957,
         1956,
         1953,
@@ -128137,6 +129029,7 @@
       "player_name": "Roy Face",
       "checklist_years": [
         2018,
+        1959,
         1958,
         1956,
         1954,
@@ -128186,6 +129079,7 @@
       "player_key": "roy mcmillan",
       "player_name": "Roy McMillan",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -128253,6 +129147,7 @@
         2023,
         2018,
         2017,
+        1959,
         1958,
         1957,
         1956,
@@ -128437,9 +129332,20 @@
     },
     {
       "sport": "baseball",
+      "player_key": "ruben amaro",
+      "player_name": "Ruben Amaro",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "ruben gomez",
       "player_name": "Ruben Gomez",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -128566,6 +129472,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "run preventers",
+      "player_name": "Run Preventers",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
       "player_key": "rusney castillo",
       "player_name": "Rusney Castillo",
       "checklist_years": [
@@ -128576,9 +129492,20 @@
     },
     {
       "sport": "baseball",
+      "player_key": "russ heman",
+      "player_name": "Russ Heman",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "russ kemmerer",
       "player_name": "Russ Kemmerer",
       "checklist_years": [
+        1959,
         1958,
         1955
       ],
@@ -128590,6 +129517,7 @@
       "player_key": "russ meyer",
       "player_name": "Russ Meyer",
       "checklist_years": [
+        1959,
         1956,
         1952
       ],
@@ -128601,6 +129529,7 @@
       "player_key": "russ nixon",
       "player_name": "Russ Nixon",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -130139,6 +131068,7 @@
       "player_key": "ryne duren",
       "player_name": "Ryne Duren",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -130813,6 +131743,7 @@
       "player_name": "Sal Maglie",
       "checklist_years": [
         2023,
+        1959,
         1958,
         1957
       ],
@@ -131563,6 +132494,7 @@
       "player_key": "sammy esposito",
       "player_name": "Sammy Esposito",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -131698,6 +132630,7 @@
       "player_key": "sammy taylor",
       "player_name": "Sammy Taylor",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -131708,6 +132641,7 @@
       "player_key": "sammy white",
       "player_name": "Sammy White",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -132123,6 +133057,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -134297,6 +135232,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "seth morehead",
+      "player_name": "Seth Morehead",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "seth romero",
       "player_name": "Seth Romero",
       "checklist_years": [
@@ -135020,6 +135965,7 @@
       "player_key": "sherm lollar",
       "player_name": "Sherm Lollar",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -136538,6 +137484,7 @@
       "player_key": "smoky burgess",
       "player_name": "Smoky Burgess",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -136656,6 +137603,7 @@
       "player_key": "solly drake",
       "player_name": "Solly Drake",
       "checklist_years": [
+        1959,
         1957
       ],
       "rc_year": 1957,
@@ -136666,6 +137614,7 @@
       "player_key": "solly hemus",
       "player_name": "Solly Hemus",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1954,
@@ -136963,10 +137912,11 @@
         2020,
         2019,
         2017,
-        2016
+        2016,
+        1959
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -137481,6 +138431,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956
@@ -137566,6 +138517,7 @@
       "player_key": "stan lopata",
       "player_name": "Stan Lopata",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -137589,6 +138541,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958
       ],
       "rc_year": null,
@@ -138272,6 +139225,7 @@
       "player_key": "steve boros",
       "player_name": "Steve Boros",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -138434,6 +139388,7 @@
       "player_key": "steve korcheck",
       "player_name": "Steve Korcheck",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -138992,6 +139947,7 @@
       "player_key": "stu miller",
       "player_name": "Stu Miller",
       "checklist_years": [
+        1959,
         1958,
         1956,
         1954,
@@ -140956,6 +141912,7 @@
       "player_key": "taylor phillips",
       "player_name": "Taylor Phillips",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -141187,6 +142144,7 @@
       "player_key": "ted abernathy",
       "player_name": "Ted Abernathy",
       "checklist_years": [
+        1959,
         1957
       ],
       "rc_year": 1957,
@@ -141201,6 +142159,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "ted bowsfield",
+      "player_name": "Ted Bowsfield",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -141310,6 +142278,7 @@
       "player_key": "ted lepcio",
       "player_name": "Ted Lepcio",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1955,
@@ -141782,6 +142751,7 @@
       "player_key": "tex clevenger",
       "player_name": "Tex Clevenger",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -142641,6 +143611,106 @@
     },
     {
       "sport": "baseball",
+      "player_key": "thrills aaron ws hr",
+      "player_name": "Thrills: Aaron WS HR",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "thrills banks mvp",
+      "player_name": "Thrills: Banks MVP",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "thrills colavito catch",
+      "player_name": "Thrills: Colavito Catch",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "thrills kaline bat champ",
+      "player_name": "Thrills: Kaline Bat Champ",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "thrills mantle hr crown",
+      "player_name": "Thrills: Mantle HR Crown",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "thrills mays catch",
+      "player_name": "Thrills: Mays Catch",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "thrills musial 3000 hit",
+      "player_name": "Thrills: Musial 3000 Hit",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "thrills pierce all-star",
+      "player_name": "Thrills: Pierce All-Star",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "thrills sievers homer mark",
+      "player_name": "Thrills: Sievers Homer Mark",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "thrills snider play",
+      "player_name": "Thrills: Snider Play",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
       "player_key": "thumon munson",
       "player_name": "Thumon Munson",
       "checklist_years": [
@@ -143290,6 +144360,7 @@
       "player_name": "Tito Francona",
       "checklist_years": [
         2016,
+        1959,
         1958,
         1957
       ],
@@ -143630,6 +144701,7 @@
       "player_key": "tom acker",
       "player_name": "Tom Acker",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -143809,6 +144881,7 @@
       "player_key": "tom gorman",
       "player_name": "Tom Gorman",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956
@@ -143935,6 +145008,7 @@
       "player_key": "tom morgan",
       "player_name": "Tom Morgan",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1953,
@@ -144010,6 +145084,7 @@
       "player_key": "tom qualters",
       "player_name": "Tom Qualters",
       "checklist_years": [
+        1959,
         1958,
         1955,
         1954
@@ -144082,6 +145157,7 @@
       "player_key": "tom sturdivant",
       "player_name": "Tom Sturdivant",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -144269,6 +145345,7 @@
       "player_key": "tommy carroll",
       "player_name": "Tommy Carroll",
       "checklist_years": [
+        1959,
         1957,
         1956,
         1955
@@ -145036,6 +146113,7 @@
       "player_key": "tony kubek",
       "player_name": "Tony Kubek",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -148899,6 +149977,7 @@
       "player_key": "turk lown",
       "player_name": "Turk Lown",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1953,
@@ -150805,6 +151884,7 @@
       "player_key": "vada pinson",
       "player_name": "Vada Pinson",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -150855,6 +151935,7 @@
       "player_key": "valmy thomas",
       "player_name": "Valmy Thomas",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -151129,6 +152210,7 @@
       "player_key": "vic power",
       "player_name": "Vic Power",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -151154,6 +152236,7 @@
       "player_name": "Vic Wertz",
       "checklist_years": [
         2023,
+        1959,
         1958,
         1957,
         1956,
@@ -151953,6 +153036,7 @@
       "player_key": "virgil trucks",
       "player_name": "Virgil Trucks",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -152475,6 +153559,7 @@
         2023,
         2022,
         2017,
+        1959,
         1958,
         1957,
         1956,
@@ -152502,6 +153587,7 @@
       "player_key": "wally post",
       "player_name": "Wally Post",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -152575,6 +153661,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "walt craddock",
+      "player_name": "Walt Craddock",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "walt disney",
       "player_name": "Walt Disney",
       "checklist_years": [
@@ -152601,6 +153697,7 @@
       "player_key": "walt dropo",
       "player_name": "Walt Dropo",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -152636,6 +153733,7 @@
       "player_key": "walt moryn",
       "player_name": "Walt Moryn",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -152936,6 +154034,7 @@
         2019,
         2018,
         2017,
+        1959,
         1956
       ],
       "rc_year": null,
@@ -153050,6 +154149,7 @@
       "player_key": "washington senators team",
       "player_name": "Washington Senators Team",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -153112,6 +154212,7 @@
       "player_key": "wayne terwilliger",
       "player_name": "Wayne Terwilliger",
       "checklist_years": [
+        1959,
         1956,
         1955,
         1954,
@@ -153474,6 +154575,7 @@
       "player_key": "wes covington",
       "player_name": "Wes Covington",
       "checklist_years": [
+        1959,
         1958,
         1957
       ],
@@ -153665,6 +154767,7 @@
       "player_key": "whammy douglas",
       "player_name": "Whammy Douglas",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -153785,6 +154888,7 @@
         2018,
         2017,
         2016,
+        1959,
         1958,
         1957,
         1956,
@@ -153816,6 +154920,7 @@
         2021,
         2018,
         2017,
+        1959,
         1958,
         1957
       ],
@@ -153828,6 +154933,7 @@
       "player_name": "Whitey Lockman",
       "checklist_years": [
         2018,
+        1959,
         1958,
         1957,
         1956
@@ -154529,6 +155635,7 @@
       "player_key": "willard nixon",
       "player_name": "Willard Nixon",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -154553,6 +155660,7 @@
       "player_key": "willard schmidt",
       "player_name": "Willard Schmidt",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -154950,6 +156058,7 @@
       "player_key": "willie jones",
       "player_name": "Willie Jones",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -154995,6 +156104,7 @@
       "player_key": "willie kirkland",
       "player_name": "Willie Kirkland",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -155143,6 +156253,16 @@
     },
     {
       "sport": "baseball",
+      "player_key": "willie tasby",
+      "player_name": "Willie Tasby",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "baseball",
       "player_key": "willie wilson",
       "player_name": "Willie Wilson",
       "checklist_years": [
@@ -155270,6 +156390,7 @@
       "player_key": "willy miranda",
       "player_name": "Willy Miranda",
       "checklist_years": [
+        1959,
         1958,
         1957,
         1956,
@@ -155587,6 +156708,7 @@
       "player_key": "woodie held",
       "player_name": "Woodie Held",
       "checklist_years": [
+        1959,
         1958
       ],
       "rc_year": 1958,
@@ -155653,6 +156775,16 @@
       "player_name": "Worcestershire Sauce",
       "checklist_years": [
         2022
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "words of wisdom",
+      "player_name": "Words of Wisdom",
+      "checklist_years": [
+        1959
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -157468,6 +158600,7 @@
         2019,
         2018,
         2017,
+        1959,
         1958,
         1957,
         1956,
@@ -160101,6 +161234,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "baseball",
+      "player_key": "zeke bella",
+      "player_name": "Zeke Bella",
+      "checklist_years": [
+        1959
+      ],
+      "rc_year": 1959,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "baseball",
@@ -239094,6 +240237,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "aatu jamsen",
+      "player_name": "Aatu Jamsen",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "abbey levy",
       "player_name": "Abbey Levy",
       "checklist_years": [
@@ -239477,6 +240630,7 @@
       "player_key": "aleksander barkov",
       "player_name": "Aleksander Barkov",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -239535,6 +240689,26 @@
     },
     {
       "sport": "hockey",
+      "player_key": "alex barre-boulet",
+      "player_name": "Alex Barre-Boulet",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "alex belzile",
+      "player_name": "Alex Belzile",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "alex carpenter",
       "player_name": "Alex Carpenter",
       "checklist_years": [
@@ -239557,6 +240731,16 @@
       "sport": "hockey",
       "player_key": "alex delvecchio",
       "player_name": "Alex Delvecchio",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "alex gallant",
+      "player_name": "Alex Gallant",
       "checklist_years": [
         2025
       ],
@@ -239658,6 +240842,7 @@
       "player_key": "alex newhook",
       "player_name": "Alex Newhook",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -239668,6 +240853,7 @@
       "player_key": "alex ovechkin",
       "player_name": "Alex Ovechkin",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -239687,6 +240873,16 @@
       "sport": "hockey",
       "player_key": "alex pietrangelo",
       "player_name": "Alex Pietrangelo",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "alex steeves",
+      "player_name": "Alex Steeves",
       "checklist_years": [
         2025
       ],
@@ -239919,6 +241115,7 @@
       "player_key": "alina muller",
       "player_name": "Alina Muller",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -240033,6 +241230,16 @@
       ],
       "rc_year": 2025,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "andrew agozzino",
+      "player_name": "Andrew Agozzino",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "hockey",
@@ -240206,6 +241413,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "anthony richard",
+      "player_name": "Anthony Richard",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "anthony stolarz",
       "player_name": "Anthony Stolarz",
       "checklist_years": [
@@ -240226,8 +241443,28 @@
     },
     {
       "sport": "hockey",
+      "player_key": "anton wahlberg",
+      "player_name": "Anton Wahlberg",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "antonio martorana",
       "player_name": "Antonio Martorana",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "antonio stranges",
+      "player_name": "Antonio Stranges",
       "checklist_years": [
         2025
       ],
@@ -240239,6 +241476,7 @@
       "player_key": "anze kopitar",
       "player_name": "Anze Kopitar",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -240298,6 +241536,16 @@
       "sport": "hockey",
       "player_key": "arshdeep bains",
       "player_name": "Arshdeep Bains",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "artem duda",
+      "player_name": "Artem Duda",
       "checklist_years": [
         2025
       ],
@@ -240416,6 +241664,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "atley calvert",
+      "player_name": "Atley Calvert",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "aurora matt",
       "player_name": "Aurora Matt",
       "checklist_years": [
@@ -240439,6 +241697,7 @@
       "player_key": "auston matthews",
       "player_name": "Auston Matthews",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -240728,6 +241987,26 @@
     },
     {
       "sport": "hockey",
+      "player_key": "ben meyers",
+      "player_name": "Ben Meyers",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "ben steeves",
+      "player_name": "Ben Steeves",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "benjamin brunelle",
       "player_name": "Benjamin Brunelle",
       "checklist_years": [
@@ -240781,6 +242060,7 @@
       "player_key": "bernie nicholls",
       "player_name": "Bernie Nicholls",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -241088,6 +242368,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "boris katchouk",
+      "player_name": "Boris Katchouk",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "borje salming",
       "player_name": "Borje Salming",
       "checklist_years": [
@@ -241171,6 +242461,7 @@
       "player_key": "braden schneider",
       "player_name": "Braden Schneider",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -241222,6 +242513,7 @@
       "player_key": "brady skjei",
       "player_name": "Brady Skjei",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -241232,6 +242524,7 @@
       "player_key": "brady tkachuk",
       "player_name": "Brady Tkachuk",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -241244,8 +242537,8 @@
       "checklist_years": [
         2025
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -241302,6 +242595,16 @@
       "sport": "hockey",
       "player_key": "brandon hagel",
       "player_name": "Brandon Hagel",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "brandon halverson",
+      "player_name": "Brandon Halverson",
       "checklist_years": [
         2025
       ],
@@ -241420,6 +242723,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "brayden yager",
+      "player_name": "Brayden Yager",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "braydon mccallum",
       "player_name": "Braydon McCallum",
       "checklist_years": [
@@ -241442,6 +242755,16 @@
       "sport": "hockey",
       "player_key": "brendan gallagher",
       "player_name": "Brendan Gallagher",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "brendan gaunce",
+      "player_name": "Brendan Gaunce",
       "checklist_years": [
         2025
       ],
@@ -241560,6 +242883,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "brett seney",
+      "player_name": "Brett Seney",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "brian bellows",
       "player_name": "Brian Bellows",
       "checklist_years": [
@@ -241610,6 +242943,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "brian pinho",
+      "player_name": "Brian Pinho",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "brian propp",
       "player_name": "Brian Propp",
       "checklist_years": [
@@ -241643,6 +242986,7 @@
       "player_key": "brianne jenner",
       "player_name": "Brianne Jenner",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -241843,6 +243187,7 @@
       "player_key": "cale makar",
       "player_name": "Cale Makar",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -241944,6 +243289,7 @@
       "player_key": "calum ritchie",
       "player_name": "Calum Ritchie",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -242014,10 +243360,21 @@
       "player_key": "cam talbot",
       "player_name": "Cam Talbot",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "cam thiesing",
+      "player_name": "Cam Thiesing",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -242061,6 +243418,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "cameron hebig",
+      "player_name": "Cameron Hebig",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "cameron kuzma",
       "player_name": "Cameron Kuzma",
       "checklist_years": [
@@ -242074,7 +243441,8 @@
       "player_key": "cameron reid",
       "player_name": "Cameron Reid",
       "checklist_years": [
-        2026
+        2026,
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -242327,6 +243695,16 @@
       "sport": "hockey",
       "player_key": "carter verhaeghe",
       "player_name": "Carter Verhaeghe",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "carter yakemchuk",
+      "player_name": "Carter Yakemchuk",
       "checklist_years": [
         2025
       ],
@@ -242635,6 +244013,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "chase bradley",
+      "player_name": "Chase Bradley",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "chase coughlan",
       "player_name": "Chase Coughlan",
       "checklist_years": [
@@ -242667,6 +244055,16 @@
       "sport": "hockey",
       "player_key": "chase reid",
       "player_name": "Chase Reid",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "chase stillman",
+      "player_name": "Chase Stillman",
       "checklist_years": [
         2025
       ],
@@ -242767,6 +244165,16 @@
       "sport": "hockey",
       "player_key": "chris tanev",
       "player_name": "Chris Tanev",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "chris terry",
+      "player_name": "Chris Terry",
       "checklist_years": [
         2025
       ],
@@ -242966,6 +244374,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "cole guttman",
+      "player_name": "Cole Guttman",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "cole perfetti",
       "player_name": "Cole Perfetti",
       "checklist_years": [
@@ -243129,6 +244547,7 @@
       "player_key": "connor bedard",
       "player_name": "Connor Bedard",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -243189,6 +244608,7 @@
       "player_key": "connor hellebuyck",
       "player_name": "Connor Hellebuyck",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -243229,6 +244649,7 @@
       "player_key": "connor mcdavid",
       "player_name": "Connor McDavid",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -243476,6 +244897,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "curtis mckenzie",
+      "player_name": "Curtis McKenzie",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "cutter gauthier",
       "player_name": "Cutter Gauthier",
       "checklist_years": [
@@ -243509,6 +244940,7 @@
       "player_key": "dakota joshua",
       "player_name": "Dakota Joshua",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -243529,6 +244961,7 @@
       "player_key": "dalibor dvorsky",
       "player_name": "Dalibor Dvorsky",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -243673,6 +245106,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "dans locmelis",
+      "player_name": "Dans Locmelis",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -243849,6 +245292,7 @@
       "player_key": "david pastrnak",
       "player_name": "David Pastrnak",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -243858,6 +245302,26 @@
       "sport": "hockey",
       "player_key": "david perron",
       "player_name": "David Perron",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "david reinbacher",
+      "player_name": "David Reinbacher",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "david spacek",
+      "player_name": "David Spacek",
       "checklist_years": [
         2025
       ],
@@ -243956,9 +245420,20 @@
     },
     {
       "sport": "hockey",
+      "player_key": "dennis hildeby",
+      "player_name": "Dennis Hildeby",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "denton mateychuk",
       "player_name": "Denton Mateychuk",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -243971,8 +245446,8 @@
       "checklist_years": [
         2025
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -243988,6 +245463,16 @@
       "sport": "hockey",
       "player_key": "derek sanderson",
       "player_name": "Derek Sanderson",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "derrick pouliot",
+      "player_name": "Derrick Pouliot",
       "checklist_years": [
         2025
       ],
@@ -244089,6 +245574,7 @@
       "player_key": "dmitri simashev",
       "player_name": "Dmitri Simashev",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -244306,6 +245792,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "drew commesso",
+      "player_name": "Drew Commesso",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "drew doughty",
       "player_name": "Drew Doughty",
       "checklist_years": [
@@ -244369,6 +245865,7 @@
       "player_key": "dustin wolf",
       "player_name": "Dustin Wolf",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -244426,9 +245923,20 @@
     },
     {
       "sport": "hockey",
+      "player_key": "dylan garand",
+      "player_name": "Dylan Garand",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "dylan guenther",
       "player_name": "Dylan Guenther",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -244476,6 +245984,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "dylan roobroeck",
+      "player_name": "Dylan Roobroeck",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "dylan rozzi",
       "player_name": "Dylan Rozzi",
       "checklist_years": [
@@ -244499,6 +246017,7 @@
       "player_key": "dylan strome",
       "player_name": "Dylan Strome",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -244549,6 +246068,7 @@
       "player_key": "ed belfour",
       "player_name": "Ed Belfour",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -244593,6 +246113,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "eduard sale",
+      "player_name": "Eduard Sale",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -244759,6 +246289,7 @@
       "player_key": "elle hartje",
       "player_name": "Elle Hartje",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -244808,6 +246339,16 @@
       "sport": "hockey",
       "player_key": "emerance maschmeyer",
       "player_name": "Emerance Maschmeyer",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "emil hemming",
+      "player_name": "Emil Hemming",
       "checklist_years": [
         2025
       ],
@@ -244999,6 +246540,7 @@
       "player_key": "erin ambrose",
       "player_name": "Erin Ambrose",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -245056,6 +246598,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "ethan gauthier",
+      "player_name": "Ethan Gauthier",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "ethan mackenzie",
       "player_name": "Ethan MacKenzie",
       "checklist_years": [
@@ -245078,6 +246630,16 @@
       "sport": "hockey",
       "player_key": "ethan moore",
       "player_name": "Ethan Moore",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "ethan procyszyn",
+      "player_name": "Ethan Procyszyn",
       "checklist_years": [
         2025
       ],
@@ -245166,6 +246728,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "evan van gorp",
+      "player_name": "Evan Van Gorp",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "evander kane",
       "player_name": "Evander Kane",
       "checklist_years": [
@@ -245179,6 +246751,7 @@
       "player_key": "evgeni malkin",
       "player_name": "Evgeni Malkin",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -245266,6 +246839,26 @@
     },
     {
       "sport": "hockey",
+      "player_key": "felix unger sorum",
+      "player_name": "Felix Unger Sorum",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "filip bystedt",
+      "player_name": "Filip Bystedt",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "filip chytil",
       "player_name": "Filip Chytil",
       "checklist_years": [
@@ -245279,6 +246872,7 @@
       "player_key": "filip forsberg",
       "player_name": "Filip Forsberg",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -245359,6 +246953,7 @@
       "player_key": "frank mahovlich",
       "player_name": "Frank Mahovlich",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -245700,6 +247295,17 @@
       "player_key": "grace zumwinkle",
       "player_name": "Grace Zumwinkle",
       "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "graeme clarke",
+      "player_name": "Graeme Clarke",
+      "checklist_years": [
         2025
       ],
       "rc_year": null,
@@ -245740,6 +247346,7 @@
       "player_key": "gustav nyquist",
       "player_name": "Gustav Nyquist",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -245991,6 +247598,17 @@
       "sport": "hockey",
       "player_key": "henrik lundqvist",
       "player_name": "Henrik Lundqvist",
+      "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "henrik rybinski",
+      "player_name": "Henrik Rybinski",
       "checklist_years": [
         2025
       ],
@@ -246249,6 +247867,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "ilya protas",
+      "player_name": "Ilya Protas",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "ilya samsonov",
       "player_name": "Ilya Samsonov",
       "checklist_years": [
@@ -246312,6 +247940,7 @@
       "player_key": "isaac howard",
       "player_name": "Isaac Howard",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -246439,6 +248068,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "ivan miroshnichenko",
+      "player_name": "Ivan Miroshnichenko",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "ivan provorov",
       "player_name": "Ivan Provorov",
       "checklist_years": [
@@ -246529,6 +248168,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "jack ahcan",
+      "player_name": "Jack Ahcan",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "jack brauti",
       "player_name": "Jack Brauti",
       "checklist_years": [
@@ -246544,8 +248193,8 @@
       "checklist_years": [
         2025
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -246562,6 +248211,7 @@
       "player_key": "jack eichel",
       "player_name": "Jack Eichel",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -246656,6 +248306,26 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "jack nesbitt",
+      "player_name": "Jack Nesbitt",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "jack peart",
+      "player_name": "Jack Peart",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -246771,6 +248441,16 @@
       "sport": "hockey",
       "player_key": "jacob bryson",
       "player_name": "Jacob Bryson",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "jacob cloutier",
+      "player_name": "Jacob Cloutier",
       "checklist_years": [
         2025
       ],
@@ -246962,6 +248642,7 @@
       "player_key": "jake debrusk",
       "player_name": "Jake DeBrusk",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -246982,6 +248663,7 @@
       "player_key": "jake guentzel",
       "player_name": "Jake Guentzel",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -247189,6 +248871,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "james hamblin",
+      "player_name": "James Hamblin",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "james malatesta",
       "player_name": "James Malatesta",
       "checklist_years": [
@@ -247241,6 +248933,16 @@
       "sport": "hockey",
       "player_key": "jan larys",
       "player_name": "Jan Larys",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "jan mysak",
+      "player_name": "Jan Mysak",
       "checklist_years": [
         2025
       ],
@@ -247440,6 +249142,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "jayson megna",
+      "player_name": "Jayson Megna",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "jean beliveau",
       "player_name": "Jean Beliveau",
       "checklist_years": [
@@ -247530,6 +249242,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "jeremy davies",
+      "player_name": "Jeremy Davies",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "jeremy lauzon",
       "player_name": "Jeremy Lauzon",
       "checklist_years": [
@@ -247543,6 +249265,7 @@
       "player_key": "jeremy roenick",
       "player_name": "Jeremy Roenick",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -247871,6 +249594,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "joe hicketts",
+      "player_name": "Joe Hicketts",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "joe iginla",
       "player_name": "Joe Iginla",
       "checklist_years": [
@@ -247904,6 +249637,7 @@
       "player_key": "joe pavelski",
       "player_name": "Joe Pavelski",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -247914,6 +249648,7 @@
       "player_key": "joe sakic",
       "player_name": "Joe Sakic",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -247934,6 +249669,7 @@
       "player_key": "joe thornton",
       "player_name": "Joe Thornton",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -248113,6 +249849,16 @@
       "sport": "hockey",
       "player_key": "john leclair",
       "player_name": "John LeClair",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "john leonard",
+      "player_name": "John Leonard",
       "checklist_years": [
         2025
       ],
@@ -248371,6 +250117,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "jordan dumais",
+      "player_name": "Jordan Dumais",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "jordan eberle",
       "player_name": "Jordan Eberle",
       "checklist_years": [
@@ -248458,6 +250214,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "jorian donovan",
+      "player_name": "Jorian Donovan",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -248742,6 +250508,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "justin ertel",
+      "player_name": "Justin Ertel",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "justin faulk",
       "player_name": "Justin Faulk",
       "checklist_years": [
@@ -248825,6 +250601,7 @@
       "player_key": "k'andre miller",
       "player_name": "K'Andre Miller",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -248909,6 +250686,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "kaleb lawrence",
+      "player_name": "Kaleb Lawrence",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -249226,6 +251013,7 @@
       "player_key": "kevin hayes",
       "player_name": "Kevin Hayes",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -249366,6 +251154,7 @@
       "player_key": "kirill kaprizov",
       "player_name": "Kirill Kaprizov",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -249406,6 +251195,7 @@
       "player_key": "kirill marchenko",
       "player_name": "Kirill Marchenko",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -249616,6 +251406,7 @@
       "player_key": "lane hutson",
       "player_name": "Lane Hutson",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -249736,6 +251527,7 @@
       "player_key": "leo carlsson",
       "player_name": "Leo Carlsson",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -249766,6 +251558,7 @@
       "player_key": "leon draisaitl",
       "player_name": "Leon Draisaitl",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -249805,6 +251598,16 @@
       "sport": "hockey",
       "player_key": "liam beamish",
       "player_name": "Liam Beamish",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "liam foudy",
+      "player_name": "Liam Foudy",
       "checklist_years": [
         2025
       ],
@@ -249904,6 +251707,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "lirim amidovski",
+      "player_name": "Lirim Amidovski",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "liz schepers",
       "player_name": "Liz Schepers",
       "checklist_years": [
@@ -249917,6 +251730,7 @@
       "player_key": "logan cooley",
       "player_name": "Logan Cooley",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -249946,6 +251760,16 @@
       "sport": "hockey",
       "player_key": "logan o connor",
       "player_name": "Logan O’Connor",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "logan shaw",
+      "player_name": "Logan Shaw",
       "checklist_years": [
         2025
       ],
@@ -250067,6 +251891,7 @@
       "player_key": "luca cagnoni",
       "player_name": "Luca Cagnoni",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -250099,8 +251924,8 @@
       "checklist_years": [
         2025
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -250187,6 +252012,17 @@
       "player_key": "lukas reichel",
       "player_name": "Lukas Reichel",
       "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "lukas sawchyn",
+      "player_name": "Lukas Sawchyn",
+      "checklist_years": [
         2025
       ],
       "rc_year": null,
@@ -250217,6 +252053,7 @@
       "player_key": "luke hughes",
       "player_name": "Luke Hughes",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -250327,6 +252164,7 @@
       "player_key": "macklin celebrini",
       "player_name": "Macklin Celebrini",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -250508,6 +252346,7 @@
       "player_key": "marc-andre fleury",
       "player_name": "Marc-Andre Fleury",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -250648,6 +252487,7 @@
       "player_key": "marie-philip poulin",
       "player_name": "Marie-Philip Poulin",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -250765,6 +252605,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "maros jedlicka",
+      "player_name": "Maros Jedlicka",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "marshall rifai",
       "player_name": "Marshall Rifai",
       "checklist_years": [
@@ -250807,6 +252657,16 @@
       "sport": "hockey",
       "player_key": "martin fehervary",
       "player_name": "Martin Fehervary",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "martin frk",
+      "player_name": "Martin Frk",
       "checklist_years": [
         2025
       ],
@@ -250878,6 +252738,7 @@
       "player_key": "mason marchment",
       "player_name": "Mason Marchment",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -251039,10 +252900,21 @@
       "player_key": "matt boldy",
       "player_name": "Matt Boldy",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "matt copponi",
+      "player_name": "Matt Copponi",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -251096,6 +252968,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "matt murray",
+      "player_name": "Matt Murray",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "matt rempe",
       "player_name": "Matt Rempe",
       "checklist_years": [
@@ -251126,6 +253008,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "matthew barbolini",
+      "player_name": "Matthew Barbolini",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "matthew barnaby",
       "player_name": "Matthew Barnaby",
       "checklist_years": [
@@ -251146,8 +253038,38 @@
     },
     {
       "sport": "hockey",
+      "player_key": "matthew kessel",
+      "player_name": "Matthew Kessel",
+      "checklist_years": [
+        2026
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "matthew knies",
       "player_name": "Matthew Knies",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "matthew peca",
+      "player_name": "Matthew Peca",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "matthew phillips",
+      "player_name": "Matthew Phillips",
       "checklist_years": [
         2025
       ],
@@ -251159,6 +253081,7 @@
       "player_key": "matthew poitras",
       "player_name": "Matthew Poitras",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -251249,6 +253172,7 @@
       "player_key": "matthew tkachuk",
       "player_name": "Matthew Tkachuk",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -251299,6 +253223,7 @@
       "player_key": "mattias ekholm",
       "player_name": "Mattias Ekholm",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -251359,6 +253284,7 @@
       "player_key": "matvei gridin",
       "player_name": "Matvei Gridin",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -251379,6 +253305,7 @@
       "player_key": "matvei michkov",
       "player_name": "Matvei Michkov",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -251536,6 +253463,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "maxime coursol",
+      "player_name": "Maxime Coursol",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "maxime lafond",
       "player_name": "Maxime Lafond",
       "checklist_years": [
@@ -251648,6 +253585,16 @@
       "sport": "hockey",
       "player_key": "michael carcone",
       "player_name": "Michael Carcone",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "michael dipietro",
+      "player_name": "Michael DiPietro",
       "checklist_years": [
         2025
       ],
@@ -251857,6 +253804,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "mike hardman",
+      "player_name": "Mike Hardman",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "mike liut",
       "player_name": "Mike Liut",
       "checklist_years": [
@@ -251940,6 +253897,7 @@
       "player_key": "mikhail sergachev",
       "player_name": "Mikhail Sergachev",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -252110,6 +254068,7 @@
       "player_key": "morgan rielly",
       "player_name": "Morgan Rielly",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -252190,6 +254149,7 @@
       "player_key": "natalie spooner",
       "player_name": "Natalie Spooner",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -252300,6 +254260,7 @@
       "player_key": "nathan mackinnon",
       "player_name": "Nathan MacKinnon",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -252329,6 +254290,16 @@
       "sport": "hockey",
       "player_key": "neal pionk",
       "player_name": "Neal Pionk",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "new grooves",
+      "player_name": "New Grooves",
       "checklist_years": [
         2025
       ],
@@ -252440,6 +254411,7 @@
       "player_key": "nick foligno",
       "player_name": "Nick Foligno",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -252462,14 +254434,15 @@
       "checklist_years": [
         2025
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
       "player_key": "nick leddy",
       "player_name": "Nick Leddy",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -252520,6 +254493,7 @@
       "player_key": "nick suzuki",
       "player_name": "Nick Suzuki",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -252617,6 +254591,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "nikita alexandrov",
+      "player_name": "Nikita Alexandrov",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "nikita grebenkin",
       "player_name": "Nikita Grebenkin",
       "checklist_years": [
@@ -252640,6 +254624,7 @@
       "player_key": "nikita kucherov",
       "player_name": "Nikita Kucherov",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -255020,6 +257005,7 @@
       "player_key": "oliver moore",
       "player_name": "Oliver Moore",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -255114,6 +257100,16 @@
       ],
       "rc_year": 2025,
       "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "olle lycksell",
+      "player_name": "Olle Lycksell",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "hockey",
@@ -255410,6 +257406,17 @@
       "player_key": "patrice bergeron",
       "player_name": "Patrice Bergeron",
       "checklist_years": [
+        2026,
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "patrick brown",
+      "player_name": "Patrick Brown",
+      "checklist_years": [
         2025
       ],
       "rc_year": null,
@@ -255490,6 +257497,7 @@
       "player_key": "paul coffey",
       "player_name": "Paul Coffey",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -255540,6 +257548,7 @@
       "player_key": "pavel dorofeyev",
       "player_name": "Pavel Dorofeyev",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -256007,9 +258016,20 @@
     },
     {
       "sport": "hockey",
+      "player_key": "quentin musty",
+      "player_name": "Quentin Musty",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "quinn hughes",
       "player_name": "Quinn Hughes",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -256109,6 +258129,16 @@
       "sport": "hockey",
       "player_key": "raiden legall",
       "player_name": "Raiden LeGall",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "raphael lavoie",
+      "player_name": "Raphael Lavoie",
       "checklist_years": [
         2025
       ],
@@ -256280,6 +258310,7 @@
       "player_key": "renata fast",
       "player_name": "Renata Fast",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -256380,6 +258411,7 @@
       "player_key": "rick nash",
       "player_name": "Rick Nash",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -256410,6 +258442,7 @@
       "player_key": "ridly greig",
       "player_name": "Ridly Greig",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": 2025,
@@ -256570,6 +258603,7 @@
       "player_key": "ron hextall",
       "player_name": "Ron Hextall",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -256670,6 +258704,7 @@
       "player_key": "ross colton",
       "player_name": "Ross Colton",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -256734,6 +258769,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "ryan chesley",
+      "player_name": "Ryan Chesley",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -256948,6 +258993,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "ryan schmelzer",
+      "player_name": "Ryan Schmelzer",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "ryan shea",
       "player_name": "Ryan Shea",
       "checklist_years": [
@@ -257102,6 +259157,7 @@
       "player_key": "sam bennett",
       "player_name": "Sam Bennett",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -257305,8 +259361,8 @@
       "checklist_years": [
         2025
       ],
-      "rc_year": null,
-      "rc_year_confidence": "none"
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -257340,6 +259396,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "sandis vilmanis",
+      "player_name": "Sandis Vilmanis",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "sandra abstreiter",
       "player_name": "Sandra Abstreiter",
       "checklist_years": [
@@ -257363,6 +259429,7 @@
       "player_key": "sarah fillier",
       "player_name": "Sarah Fillier",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -257620,6 +259687,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "seth griffith",
+      "player_name": "Seth Griffith",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "seth jarvis",
       "player_name": "Seth Jarvis",
       "checklist_years": [
@@ -257647,6 +259724,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "shai buium",
+      "player_name": "Shai Buium",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -257793,6 +259880,7 @@
       "player_key": "sidney crosby",
       "player_name": "Sidney Crosby",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -258170,6 +260258,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "stian solberg",
+      "player_name": "Stian Solberg",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "stu grimson",
       "player_name": "Stu Grimson",
       "checklist_years": [
@@ -258232,6 +260330,16 @@
       "sport": "hockey",
       "player_key": "syl apps",
       "player_name": "Syl Apps",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "t j tynan",
+      "player_name": "T.J. Tynan",
       "checklist_years": [
         2025
       ],
@@ -258310,6 +260418,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "tanner molendyk",
+      "player_name": "Tanner Molendyk",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "taylor girard",
       "player_name": "Taylor Girard",
       "checklist_years": [
@@ -258333,6 +260451,7 @@
       "player_key": "taylor heise",
       "player_name": "Taylor Heise",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -258383,6 +260502,7 @@
       "player_key": "teemu selanne",
       "player_name": "Teemu Selanne",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -258460,9 +260580,20 @@
     },
     {
       "sport": "hockey",
+      "player_key": "theo lindstein",
+      "player_name": "Theo Lindstein",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
+    },
+    {
+      "sport": "hockey",
       "player_key": "theoren fleury",
       "player_name": "Theoren Fleury",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -258575,7 +260706,8 @@
       "player_key": "tij iginla",
       "player_name": "Tij Iginla",
       "checklist_years": [
-        2026
+        2026,
+        2025
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
@@ -258862,8 +260994,28 @@
     },
     {
       "sport": "hockey",
+      "player_key": "trent miner",
+      "player_name": "Trent Miner",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "trenten bennett",
       "player_name": "Trenten Bennett",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "trevor carrick",
+      "player_name": "Trevor Carrick",
       "checklist_years": [
         2025
       ],
@@ -258895,6 +261047,7 @@
       "player_key": "trevor moore",
       "player_name": "Trevor Moore",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -258914,6 +261067,16 @@
       "sport": "hockey",
       "player_key": "trevor zegras",
       "player_name": "Trevor Zegras",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "trey fix-wolansky",
+      "player_name": "Trey Fix-Wolansky",
       "checklist_years": [
         2025
       ],
@@ -259182,6 +261345,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "tyler pitlick",
+      "player_name": "Tyler Pitlick",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "tyler seguin",
       "player_name": "Tyler Seguin",
       "checklist_years": [
@@ -259229,6 +261402,16 @@
       ],
       "rc_year": null,
       "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "tyson jugnauth",
+      "player_name": "Tyson Jugnauth",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": 2025,
+      "rc_year_confidence": "high"
     },
     {
       "sport": "hockey",
@@ -259912,6 +262095,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "vinni lettieri",
+      "player_name": "Vinni Lettieri",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "vintage autos",
       "player_name": "Vintage Autos",
       "checklist_years": [
@@ -260025,6 +262218,7 @@
       "player_key": "wendel clark",
       "player_name": "Wendel Clark",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -260105,6 +262299,7 @@
       "player_key": "william nylander",
       "player_name": "William Nylander",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
@@ -260124,6 +262319,16 @@
       "sport": "hockey",
       "player_key": "william shields",
       "player_name": "William Shields",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
+      "player_key": "wilmer skoog",
+      "player_name": "Wilmer Skoog",
       "checklist_years": [
         2025
       ],
@@ -260282,6 +262487,16 @@
     },
     {
       "sport": "hockey",
+      "player_key": "yegor sidorov",
+      "player_name": "Yegor Sidorov",
+      "checklist_years": [
+        2025
+      ],
+      "rc_year": null,
+      "rc_year_confidence": "none"
+    },
+    {
+      "sport": "hockey",
       "player_key": "yvan cournoyer",
       "player_name": "Yvan Cournoyer",
       "checklist_years": [
@@ -260315,6 +262530,7 @@
       "player_key": "zach benson",
       "player_name": "Zach Benson",
       "checklist_years": [
+        2026,
         2025
       ],
       "rc_year": null,
