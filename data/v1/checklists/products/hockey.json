@@ -3,7 +3,7 @@
   "sport": "hockey",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-10-18T20:38:37.258Z",
+  "generated_at": "2026-10-18T20:58:52.604Z",
   "sharded": true,
   "shards": [
     "hockey-001.json",
@@ -17,7 +17,8 @@
     "hockey-product-2025-26-upper-deck-clear-cut-hockey.json",
     "hockey-product-2025-26-upper-deck-premier-hockey.json",
     "hockey-product-2025-26-fleer-ultra-pwhl-hockey.json",
-    "hockey-product-2026-upper-deck-team-canada-juniors-hockey-cards-checklist.json"
+    "hockey-product-2026-upper-deck-team-canada-juniors-hockey-cards-checklist.json",
+    "hockey-product-2026-upper-deck-spring-expo-hockey.json"
   ],
   "product_map": {
     "2025_26_spx_hockey": "hockey-001.json",
@@ -53,6 +54,7 @@
     "2025_26_upper_deck_clear_cut_hockey": "hockey-product-2025-26-upper-deck-clear-cut-hockey.json",
     "2025_26_upper_deck_premier_hockey": "hockey-product-2025-26-upper-deck-premier-hockey.json",
     "2025_26_fleer_ultra_pwhl_hockey": "hockey-product-2025-26-fleer-ultra-pwhl-hockey.json",
-    "2026_upper_deck_team_canada_juniors_hockey_cards_checklist": "hockey-product-2026-upper-deck-team-canada-juniors-hockey-cards-checklist.json"
+    "2026_upper_deck_team_canada_juniors_hockey_cards_checklist": "hockey-product-2026-upper-deck-team-canada-juniors-hockey-cards-checklist.json",
+    "2026_upper_deck_spring_expo_hockey": "hockey-product-2026-upper-deck-spring-expo-hockey.json"
   }
 }

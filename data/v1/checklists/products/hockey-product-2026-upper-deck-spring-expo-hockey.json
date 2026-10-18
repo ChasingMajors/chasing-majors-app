@@ -1,0 +1,1027 @@
+{
+  "ok": true,
+  "sport": "hockey",
+  "kind": "checklist_products",
+  "source": "Product-scoped approved import publish",
+  "generated_at": "2026-10-18T20:58:52.604Z",
+  "products": {
+    "2026_upper_deck_spring_expo_hockey": {
+      "ok": true,
+      "meta": {
+        "code": "2026_upper_deck_spring_expo_hockey",
+        "displayName": "2026 Upper Deck Spring Expo Hockey",
+        "keywords": "2026 Upper Deck Spring Expo Hockey, 2026 Upper Deck Spring Expo Hockey checklist, 2026 Upper Deck Spring Expo Hockey cards, 2026 Upper Deck Spring Expo Hockey parallels, 2026 Upper Deck Spring Expo Hockey autographs, Upper Deck Spring Expo hockey, Spring Expo hockey checklist",
+        "source_key": "2025",
+        "year": "2026",
+        "manufacturer": "Upper Deck",
+        "product": "Spring Expo",
+        "sport": "hockey",
+        "content_sha256": "910780f83f919b4ea42516f2918d493c66ebac3e15833cfb455da2cfdf7eb0a6",
+        "release_id": "owner-cv-catalog-20261018-2026_upper_deck_spring_expo_hockey"
+      },
+      "rows": [
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-1",
+          "player": "Auston Matthews",
+          "team": "Toronto Maple Leafs",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-2",
+          "player": "Macklin Celebrini",
+          "team": "San Jose Sharks",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-3",
+          "player": "Lane Hutson",
+          "team": "Montreal Canadiens",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-4",
+          "player": "Matthew Tkachuk",
+          "team": "Florida Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-5",
+          "player": "Connor McDavid",
+          "team": "Edmonton Oilers",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-6",
+          "player": "Anze Kopitar",
+          "team": "Los Angeles Kings",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-7",
+          "player": "Alex Ovechkin",
+          "team": "Washington Capitals",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-8",
+          "player": "Sidney Crosby",
+          "team": "Pittsburgh Penguins",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-9",
+          "player": "Nathan MacKinnon",
+          "team": "Colorado Avalanche",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-10",
+          "player": "Quinn Hughes",
+          "team": "Vancouver Canucks",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-11",
+          "player": "Nick Suzuki",
+          "team": "Montreal Canadiens",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-12",
+          "player": "William Nylander",
+          "team": "Toronto Maple Leafs",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-13",
+          "player": "Connor Bedard",
+          "team": "Chicago Blackhawks",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-14",
+          "player": "David Pastrnak",
+          "team": "Boston Bruins",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-15",
+          "player": "Jack Eichel",
+          "team": "Vegas Golden Knights",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-16",
+          "player": "Brady Tkachuk",
+          "team": "Ottawa Senators",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-17",
+          "player": "Connor Hellebuyck",
+          "team": "Winnipeg Jets",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-18",
+          "player": "Evgeni Malkin",
+          "team": "Pittsburgh Penguins",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-19",
+          "player": "Cale Makar",
+          "team": "Colorado Avalanche",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-20",
+          "player": "Kirill Kaprizov",
+          "team": "Minnesota Wild",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-21",
+          "player": "Sarah Fillier",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-22",
+          "player": "Taylor Heise",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-23",
+          "player": "Marie-Philip Poulin",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-24",
+          "player": "Renata Fast",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-25",
+          "player": "Brianne Jenner",
+          "team": "Ottawa Charge",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-26",
+          "player": "Alina Muller",
+          "team": "Boston Fleet",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-27",
+          "player": "Erin Ambrose",
+          "team": "Montreal Victoire",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-28",
+          "player": "Grace Zumwinkle",
+          "team": "Minnesota Frost",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-29",
+          "player": "Natalie Spooner",
+          "team": "Toronto Sceptres",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Distinguished Drive",
+          "card_no": "DD-30",
+          "player": "Elle Hartje",
+          "team": "New York Sirens",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-AN",
+          "player": "Alex Newhook",
+          "team": "Montreal Canadiens",
+          "tag": "/75"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-BS",
+          "player": "Brady Skjei",
+          "team": "Nashville Predators",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-CR",
+          "player": "Calum Ritchie",
+          "team": "New York Islanders",
+          "tag": "/75"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-CT",
+          "player": "Cam Talbot",
+          "team": "Detroit Red Wings",
+          "tag": "/75"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-DG",
+          "player": "Dylan Guenther",
+          "team": "Utah Mammoth",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-DJ",
+          "player": "Dakota Joshua",
+          "team": "Toronto Maple Leafs",
+          "tag": "/75"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-DM",
+          "player": "Denton Mateychuk",
+          "team": "Columbus Blue Jackets",
+          "tag": "/75"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-DS",
+          "player": "Dylan Strome",
+          "team": "Washington Capitals",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-DW",
+          "player": "Dustin Wolf",
+          "team": "Calgary Flames",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-GN",
+          "player": "Gustav Nyquist",
+          "team": "Winnipeg Jets",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-JD",
+          "player": "Jake DeBrusk",
+          "team": "Vancouver Canucks",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-JG",
+          "player": "Jake Guentzel",
+          "team": "Tampa Bay Lightning",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-KH",
+          "player": "Kevin Hayes",
+          "team": "Pittsburgh Penguins",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-KM",
+          "player": "K'Andre Miller",
+          "team": "Carolina Hurricanes",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-LC",
+          "player": "Leo Carlsson",
+          "team": "Anaheim Ducks",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-LH",
+          "player": "Luke Hughes",
+          "team": "New Jersey Devils",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-LR",
+          "player": "Lukas Reichel",
+          "team": "Vancouver Canucks",
+          "tag": "/75"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-MA",
+          "player": "Kirill Marchenko",
+          "team": "Columbus Blue Jackets",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-MB",
+          "player": "Matt Boldy",
+          "team": "Minnesota Wild",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-ME",
+          "player": "Mattias Ekholm",
+          "team": "Edmonton Oilers",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-MI",
+          "player": "Matvei Michkov",
+          "team": "Philadelphia Flyers",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-MK",
+          "player": "Matthew Kessel",
+          "team": "St. Louis Blues",
+          "tag": "/75"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-MM",
+          "player": "Mason Marchment",
+          "team": "Columbus Blue Jackets",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-MP",
+          "player": "Matthew Poitras",
+          "team": "Boston Bruins",
+          "tag": "/75"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-MR",
+          "player": "Morgan Rielly",
+          "team": "Toronto Maple Leafs",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-MS",
+          "player": "Mikhail Sergachev",
+          "team": "Utah Mammoth",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-NF",
+          "player": "Nick Foligno",
+          "team": "Chicago Blackhawks",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-NL",
+          "player": "Nick Leddy",
+          "team": "San Jose Sharks",
+          "tag": "/75"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-PD",
+          "player": "Pavel Dorofeyev",
+          "team": "Vegas Golden Knights",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-RC",
+          "player": "Ross Colton",
+          "team": "Colorado Avalanche",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-RG",
+          "player": "Ridly Greig",
+          "team": "Ottawa Senators",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-SB",
+          "player": "Sam Bennett",
+          "team": "Florida Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-SC",
+          "player": "Braden Schneider",
+          "team": "New York Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-TM",
+          "player": "Trevor Moore",
+          "team": "Los Angeles Kings",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-WS",
+          "player": "Will Smith",
+          "team": "San Jose Sharks",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings",
+          "card_no": "PS-ZB",
+          "player": "Zach Benson",
+          "team": "Buffalo Sabres",
+          "tag": "/75"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-BN",
+          "player": "Bernie Nicholls",
+          "team": "Los Angeles Kings",
+          "tag": "/3"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-CO",
+          "player": "Logan Cooley",
+          "team": "Utah Mammoth",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-FF",
+          "player": "Filip Forsberg",
+          "team": "Nashville Predators",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-FM",
+          "player": "Frank Mahovlich",
+          "team": "Toronto Maple Leafs",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-HL",
+          "player": "Henrik Lundqvist",
+          "team": "New York Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-JP",
+          "player": "Joe Pavelski",
+          "team": "San Jose Sharks",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-JR",
+          "player": "Jeremy Roenick",
+          "team": "Chicago Blackhawks",
+          "tag": "/3"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-JT",
+          "player": "Joe Thornton",
+          "team": "San Jose Sharks",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-MF",
+          "player": "Marc-Andre Fleury",
+          "team": "Pittsburgh Penguins",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-PB",
+          "player": "Patrice Bergeron",
+          "team": "Boston Bruins",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-PC",
+          "player": "Paul Coffey",
+          "team": "Edmonton Oilers",
+          "tag": "/3"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-RH",
+          "player": "Ron Hextall",
+          "team": "Philadelphia Flyers",
+          "tag": "/3"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-RN",
+          "player": "Rick Nash",
+          "team": "Columbus Blue Jackets",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-TF",
+          "player": "Theoren Fleury",
+          "team": "Calgary Flames",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-TS",
+          "player": "Teemu Selanne",
+          "team": "Anaheim Ducks",
+          "tag": "/3"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive",
+          "card_no": "PS-WC",
+          "player": "Wendel Clark",
+          "team": "Toronto Maple Leafs",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive Dual",
+          "card_no": "PS-BM",
+          "player": "Ed Belfour / Mike Modano",
+          "team": "Dallas Stars",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Parkhurst Priority Signings Exclusive Dual",
+          "card_no": "PS-SR",
+          "player": "Joe Sakic / Patrick Roy",
+          "team": "Colorado Avalanche",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hard Earned Hardware",
+          "card_no": "HH-1",
+          "player": "Nikita Kucherov",
+          "team": "Tampa Bay Lightning",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hard Earned Hardware",
+          "card_no": "HH-2",
+          "player": "Lane Hutson",
+          "team": "Montreal Canadiens",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hard Earned Hardware",
+          "card_no": "HH-3",
+          "player": "Sam Bennett",
+          "team": "Florida Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hard Earned Hardware",
+          "card_no": "HH-4",
+          "player": "Connor Hellebuyck",
+          "team": "Winnipeg Jets",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hard Earned Hardware",
+          "card_no": "HH-5",
+          "player": "Aleksander Barkov",
+          "team": "Florida Panthers",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hard Earned Hardware",
+          "card_no": "HH-6",
+          "player": "Cale Makar",
+          "team": "Colorado Avalanche",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hard Earned Hardware",
+          "card_no": "HH-7",
+          "player": "Anze Kopitar",
+          "team": "Los Angeles Kings",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Hard Earned Hardware",
+          "card_no": "HH-8",
+          "player": "Leon Draisaitl",
+          "team": "Edmonton Oilers",
+          "tag": ""
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Victory Black Rookies",
+          "card_no": "V-19",
+          "player": "Dalibor Dvorsky",
+          "team": "St. Louis Blues",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Victory Black Rookies",
+          "card_no": "V-20",
+          "player": "Matvei Gridin",
+          "team": "Calgary Flames",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Victory Black Rookies",
+          "card_no": "V-21",
+          "player": "Isaac Howard",
+          "team": "Edmonton Oilers",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Victory Black Rookies",
+          "card_no": "V-22",
+          "player": "Oliver Moore",
+          "team": "Chicago Blackhawks",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Victory Black Rookies",
+          "card_no": "V-23",
+          "player": "Matthew Wood",
+          "team": "Nashville Predators",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Victory Black Rookies",
+          "card_no": "V-24",
+          "player": "Dmitri Simashev",
+          "team": "Utah Mammoth",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Victory Black Rookies",
+          "card_no": "V-25",
+          "player": "Braeden Cootes",
+          "team": "Vancouver Canucks",
+          "tag": "RC"
+        },
+        {
+          "code": "2026_upper_deck_spring_expo_hockey",
+          "sport": "hockey",
+          "section": "Insert",
+          "subset": "Victory Black Rookies",
+          "card_no": "V-26",
+          "player": "Luca Cagnoni",
+          "team": "San Jose Sharks",
+          "tag": "RC"
+        }
+      ],
+      "parallels": []
+    }
+  }
+}
