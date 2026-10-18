@@ -141,3 +141,10 @@ test('duplicate serial correction scopes fail before writing any product files',
   assert.throws(()=>apply(f.root),/Duplicate serial correction/);assert.ok(!fs.existsSync(path.join(f.root,'data/v1/checklists/products/basketball/new.json')));
  }finally{fs.rmSync(f.root,{recursive:true,force:true});}
 });
+test('Base and bracketed Base share parallels without leaking into other base checklists',()=>{
+ const vm=require('node:vm'),s=fs.readFileSync('checklists/app.js','utf8');const c=vm.createContext({lower:v=>String(v||'').toLowerCase(),currentProductParallels:[{applies_to_section:'Base',applies_to_subset:'Base',parallel_name:'Yellow',serial_no:'/399'},{applies_to_section:'Base',applies_to_subset:'[Base]',parallel_name:'Gold',serial_no:'/50'},{applies_to_section:'Base',applies_to_subset:'Base Blackout',parallel_name:'Red',serial_no:'/25'},{applies_to_section:'Autograph',applies_to_subset:'Base',parallel_name:'Auto Green',serial_no:'/99'}]});
+ vm.runInContext(s.slice(s.indexOf('function getParallelsForSectionSubset('),s.indexOf('function renderParallelsList(')),c);
+ assert.deepEqual(Array.from(c.getParallelsForSectionSubset('Base','[Base]'),r=>r.parallel_name),['Yellow','Gold']);
+ assert.deepEqual(Array.from(c.getParallelsForSectionSubset('Base','Base'),r=>r.parallel_name),['Yellow','Gold']);
+ assert.deepEqual(Array.from(c.getParallelsForSectionSubset('Base','Base Blackout'),r=>r.parallel_name),['Red']);
+});

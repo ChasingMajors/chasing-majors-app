@@ -515,11 +515,12 @@ function getParallelsForSectionSubset(section, subset) {
   const targetSections = Array.isArray(section)
     ? section.map(lower)
     : [lower(section)];
-  const targetSubset = lower(subset);
+  const subsetKey = value => lower(value) === "[base]" ? "base" : lower(value);
+  const targetSubset = subsetKey(subset);
 
   return currentProductParallels.filter(p => {
     const sec = lower(p.applies_to_section);
-    const sub = lower(p.applies_to_subset);
+    const sub = subsetKey(p.applies_to_subset);
 
     const secMatch = !sec || targetSections.includes(sec);
     const subsetMatch = !sub || sub === targetSubset;

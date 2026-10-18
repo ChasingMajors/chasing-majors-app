@@ -30,6 +30,14 @@ Search rows for the four products were consolidated into the existing reviewed-p
 
 ## Validation
 
-All 68 tests passed. The full repeat audit reports zero date-corrupted serial fields and zero detected CV/PRV serial conflicts. CV card rows remain 762,564 and parallel rows remain 58,683. Applying the rules twice changed no files on the second run and produced no conflicts. Four product payloads match their direct CV copies. Exactly ten serial fields changed; card rows and metadata were unchanged.
+All 69 tests passed. The full repeat audit reports zero date-corrupted serial fields and zero detected CV/PRV serial conflicts. CV card rows remain 762,564 and parallel rows remain 58,683. Applying the rules twice changed no files on the second run and produced no conflicts. Four product payloads match their direct CV copies. Exactly ten serial fields changed; card rows and metadata were unchanged.
 
 The separate naming/player-alias and duplicate-product review remains pending. These changes update published JSON and durable build rules; they do not rewrite the authoring Google Sheets.
+
+## CV display matching
+
+The live check found Base parallels hidden when a source used Base and the UI requested [Base]. The CV matcher now treats those two labels as equivalent within the same section. Named checklists such as Base Blackout and autograph sections remain separate. A regression fixture verifies the corrected list and prevents cross-subset leakage.
+
+## Authoring source alignment
+
+A prepared owner-only preflight/repair can align the ten authoring Sheet cells using reviewed values, plain-text formats, a private recovery snapshot and rollback on verification failure. Local fixtures pass preflight, idempotence, changed-source rejection and rollback. It has not run against the real Sheets: the native Chrome owner connection timed out, and no connected Sheets document session was available. No authoring Sheet or Apps Script source was changed. This source alignment remains pending and matters because an exporter receipt validates the exact source content; a later build correction can differ from that receipt until the source itself is corrected.
