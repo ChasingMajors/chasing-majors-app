@@ -2,8 +2,8 @@
   "ok": true,
   "sport": "hockey",
   "kind": "checklist_products",
-  "source": "Checklist DB map current merge",
-  "generated_at": "2026-05-10T15:04:11.483Z",
+  "source": "Product-scoped approved import publish",
+  "generated_at": "2026-10-18T20:38:37.258Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -188809,13 +188809,15 @@
       "ok": true,
       "meta": {
         "code": "2025_26_upper_deck_spx_hockey_card",
-        "displayName": "2025-26 SPx Hockey",
-        "keywords": "2025-26 SPx Hockey, SPx Hockey 2025-26, 2025-26 Upper Deck SPx Hockey, Upper Deck SPx Hockey 2025-26, 2025-26 SPx cards, SPx hockey cards 2025-26, Upper Deck SPx NHL cards 2025-26, SPx hockey hobby box 2025-26, SPx hockey retail 2025-26, SPx rookies hockey 2025-26, SPx rookie cards hockey 2025-26, SPx autos hockey 2025-26, SPx autographs hockey 2025-26, SPx patch autos hockey 2025-26, SPx jersey cards hockey 2025-26, SPx parallels hockey 2025-26, SPx inserts hockey 2025-26, Upper Deck SPx Hockey checklist 2025-26, SPx checklist",
+        "displayName": "2025-26 Upper Deck SPx Hockey",
+        "keywords": "2025-26 Upper Deck SPx Hockey, 2025-26 Upper Deck SPx Hockey checklist, 2025-26 Upper Deck SPx Hockey cards, 2025-26 Upper Deck SPx Hockey parallels, 2025-26 Upper Deck SPx Hockey autographs, Upper Deck SPx hockey, SPx hockey checklist",
         "source_key": "2025",
         "year": "2025-26",
         "manufacturer": "Upper Deck",
         "product": "SPx",
-        "sport": "hockey"
+        "sport": "hockey",
+        "content_sha256": "53ea6226bf140d9c17c31ac7164e4cb933510f8b8c5e9a0adac466f7b794ced2",
+        "release_id": "owner-spx-alignment-20261018-a"
       },
       "rows": [
         {
@@ -189826,7 +189828,7 @@
           "card_no": "101",
           "player": "Ozzy Wiesblatt",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189836,7 +189838,7 @@
           "card_no": "102",
           "player": "Colton Dach",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189846,7 +189848,7 @@
           "card_no": "103",
           "player": "Ben Kindel",
           "team": "Pittsburgh Penguins",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189856,7 +189858,7 @@
           "card_no": "104",
           "player": "Dmitri Simashev",
           "team": "Utah Mammoth",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189866,7 +189868,7 @@
           "card_no": "105",
           "player": "Jack Finley",
           "team": "Tampa Bay Lightning",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189876,7 +189878,7 @@
           "card_no": "106",
           "player": "Beckett Sennecke",
           "team": "Anaheim Ducks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189886,7 +189888,7 @@
           "card_no": "107",
           "player": "Zeev Buium",
           "team": "Minnesota Wild",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189896,7 +189898,7 @@
           "card_no": "108",
           "player": "Donovan Sebrango",
           "team": "Ottawa Senators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189906,7 +189908,7 @@
           "card_no": "109",
           "player": "Matthew Schaefer",
           "team": "New York Islanders",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189916,7 +189918,7 @@
           "card_no": "110",
           "player": "Elias Pettersson (D)",
           "team": "Vancouver Canucks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189926,7 +189928,7 @@
           "card_no": "111",
           "player": "Ryan Suzuki",
           "team": "Carolina Hurricanes",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189936,7 +189938,7 @@
           "card_no": "112",
           "player": "Jakub Skarek",
           "team": "New York Islanders",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189946,7 +189948,7 @@
           "card_no": "113",
           "player": "Joakim Kemell",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189956,7 +189958,7 @@
           "card_no": "114",
           "player": "Brady Martin",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189966,7 +189968,7 @@
           "card_no": "115",
           "player": "Nikke Kokko",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189976,7 +189978,7 @@
           "card_no": "116",
           "player": "Michael Misa",
           "team": "San Jose Sharks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189986,7 +189988,7 @@
           "card_no": "117",
           "player": "Carter Mazur",
           "team": "Detroit Red Wings",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -189996,7 +189998,7 @@
           "card_no": "118",
           "player": "Artyom Levshunov",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190006,7 +190008,7 @@
           "card_no": "119",
           "player": "Jani Nyman",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190016,7 +190018,7 @@
           "card_no": "120",
           "player": "Luca Cagnoni",
           "team": "San Jose Sharks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190026,7 +190028,7 @@
           "card_no": "121",
           "player": "Dalibor Dvorsky",
           "team": "St. Louis Blues",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190036,7 +190038,7 @@
           "card_no": "122",
           "player": "Cam Lund",
           "team": "San Jose Sharks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190046,7 +190048,7 @@
           "card_no": "123",
           "player": "Olivier Rodrigue",
           "team": "Edmonton Oilers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190056,7 +190058,7 @@
           "card_no": "124",
           "player": "Sam Rinzel",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190066,7 +190068,7 @@
           "card_no": "125",
           "player": "Oliver Moore",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190076,7 +190078,7 @@
           "card_no": "126",
           "player": "Ville Koivunen",
           "team": "Pittsburgh Penguins",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190086,7 +190088,7 @@
           "card_no": "127",
           "player": "Jimmy Snuggerud",
           "team": "St. Louis Blues",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190096,7 +190098,7 @@
           "card_no": "128",
           "player": "Ryan Leonard",
           "team": "Washington Capitals",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190106,7 +190108,7 @@
           "card_no": "129",
           "player": "Gabe Perreault",
           "team": "New York Rangers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190116,7 +190118,7 @@
           "card_no": "130",
           "player": "Sam Dickinson",
           "team": "San Jose Sharks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190126,7 +190128,7 @@
           "card_no": "131",
           "player": "Noah Ostlund",
           "team": "Buffalo Sabres",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190136,7 +190138,7 @@
           "card_no": "132",
           "player": "Matthew Wood",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190146,7 +190148,7 @@
           "card_no": "133",
           "player": "Tristan Lennox",
           "team": "New York Islanders",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190156,7 +190158,7 @@
           "card_no": "134",
           "player": "Easton Cowan",
           "team": "Toronto Maple Leafs",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190166,7 +190168,7 @@
           "card_no": "135",
           "player": "Ty Mueller",
           "team": "Vancouver Canucks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190176,7 +190178,7 @@
           "card_no": "136",
           "player": "Ian Moore",
           "team": "Anaheim Ducks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190186,7 +190188,7 @@
           "card_no": "137",
           "player": "Ryan Ufko",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190196,7 +190198,7 @@
           "card_no": "138",
           "player": "Matthew Robertson",
           "team": "New York Rangers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190206,7 +190208,7 @@
           "card_no": "139",
           "player": "Ivan Demidov",
           "team": "Montreal Canadiens",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190216,7 +190218,7 @@
           "card_no": "140",
           "player": "Ryan Greene",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190226,7 +190228,7 @@
           "card_no": "141",
           "player": "Quinn Hutson",
           "team": "Edmonton Oilers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190236,7 +190238,7 @@
           "card_no": "142",
           "player": "Ville Ottavainen",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190246,7 +190248,7 @@
           "card_no": "143",
           "player": "John Farinacci",
           "team": "Boston Bruins",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190256,7 +190258,7 @@
           "card_no": "144",
           "player": "Isaac Howard",
           "team": "Edmonton Oilers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190266,7 +190268,7 @@
           "card_no": "145",
           "player": "Domenick Fensore",
           "team": "Carolina Hurricanes",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190276,7 +190278,7 @@
           "card_no": "146",
           "player": "Matvei Gridin",
           "team": "Calgary Flames",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190286,7 +190288,7 @@
           "card_no": "147",
           "player": "Alexander Nikishin",
           "team": "Carolina Hurricanes",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190296,7 +190298,7 @@
           "card_no": "148",
           "player": "Zayne Parekh",
           "team": "Calgary Flames",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190306,7 +190308,7 @@
           "card_no": "149",
           "player": "Devin Kaplan",
           "team": "Philadelphia Flyers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190316,7 +190318,7 @@
           "card_no": "150",
           "player": "Hunter Brzustewicz",
           "team": "Calgary Flames",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190326,7 +190328,7 @@
           "card_no": "151",
           "player": "Zayne Parekh",
           "team": "Calgary Flames",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190336,7 +190338,7 @@
           "card_no": "152",
           "player": "Ivan Demidov",
           "team": "Montreal Canadiens",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190346,7 +190348,7 @@
           "card_no": "153",
           "player": "Matthew Wood",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190356,7 +190358,7 @@
           "card_no": "154",
           "player": "Noah Ostlund",
           "team": "Buffalo Sabres",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190366,7 +190368,7 @@
           "card_no": "155",
           "player": "Gabe Perreault",
           "team": "New York Rangers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190376,7 +190378,7 @@
           "card_no": "156",
           "player": "Ryan Leonard",
           "team": "Washington Capitals",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190386,7 +190388,7 @@
           "card_no": "157",
           "player": "Jimmy Snuggerud",
           "team": "St. Louis Blues",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190396,7 +190398,7 @@
           "card_no": "158",
           "player": "Matthew Schaefer",
           "team": "New York Islanders",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190406,7 +190408,7 @@
           "card_no": "159",
           "player": "Alexander Nikishin",
           "team": "Carolina Hurricanes",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190416,7 +190418,7 @@
           "card_no": "160",
           "player": "Dalibor Dvorsky",
           "team": "St. Louis Blues",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190426,7 +190428,7 @@
           "card_no": "161",
           "player": "Michael Misa",
           "team": "San Jose Sharks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190436,7 +190438,7 @@
           "card_no": "162",
           "player": "Artyom Levshunov",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190446,7 +190448,7 @@
           "card_no": "163",
           "player": "Beckett Sennecke",
           "team": "Anaheim Ducks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190456,7 +190458,7 @@
           "card_no": "164",
           "player": "Brady Martin",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190466,7 +190468,7 @@
           "card_no": "165",
           "player": "Dmitri Simashev",
           "team": "Utah Mammoth",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190476,7 +190478,7 @@
           "card_no": "F-AL",
           "player": "Artyom Levshunov",
           "team": "Chicago Blackhawks",
-          "tag": "/99"
+          "tag": "RC, /99"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190486,7 +190488,7 @@
           "card_no": "F-AN",
           "player": "Alexander Nikishin",
           "team": "Carolina Hurricanes",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190496,7 +190498,7 @@
           "card_no": "F-BK",
           "player": "Ben Kindel",
           "team": "Pittsburgh Penguins",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190506,7 +190508,7 @@
           "card_no": "F-BM",
           "player": "Brady Martin",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190516,7 +190518,7 @@
           "card_no": "F-BS",
           "player": "Beckett Sennecke",
           "team": "Anaheim Ducks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190526,7 +190528,7 @@
           "card_no": "F-CD",
           "player": "Colton Dach",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190536,7 +190538,7 @@
           "card_no": "F-CL",
           "player": "Cam Lund",
           "team": "San Jose Sharks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190546,7 +190548,7 @@
           "card_no": "F-CM",
           "player": "Carter Mazur",
           "team": "Detroit Red Wings",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190556,7 +190558,7 @@
           "card_no": "F-DF",
           "player": "Domenick Fensore",
           "team": "Carolina Hurricanes",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190566,7 +190568,7 @@
           "card_no": "F-DK",
           "player": "Devin Kaplan",
           "team": "Philadelphia Flyers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190576,7 +190578,7 @@
           "card_no": "F-DM",
           "player": "Dmitri Simashev",
           "team": "Utah Mammoth",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190586,7 +190588,7 @@
           "card_no": "F-DS",
           "player": "Donovan Sebrango",
           "team": "Ottawa Senators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190596,7 +190598,7 @@
           "card_no": "F-EC",
           "player": "Easton Cowan",
           "team": "Toronto Maple Leafs",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190606,7 +190608,7 @@
           "card_no": "F-FA",
           "player": "John Farinacci",
           "team": "Boston Bruins",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190616,7 +190618,7 @@
           "card_no": "F-GP",
           "player": "Gabe Perreault",
           "team": "New York Rangers",
-          "tag": "/99"
+          "tag": "RC, /99"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190626,7 +190628,7 @@
           "card_no": "F-HB",
           "player": "Hunter Brzustewicz",
           "team": "Calgary Flames",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190636,7 +190638,7 @@
           "card_no": "F-ID",
           "player": "Ivan Demidov",
           "team": "Montreal Canadiens",
-          "tag": "/99"
+          "tag": "RC, /99"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190646,7 +190648,7 @@
           "card_no": "F-IH",
           "player": "Isaac Howard",
           "team": "Edmonton Oilers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190656,7 +190658,7 @@
           "card_no": "F-IM",
           "player": "Ian Moore",
           "team": "Anaheim Ducks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190666,7 +190668,7 @@
           "card_no": "F-JF",
           "player": "Jack Finley",
           "team": "Tampa Bay Lightning",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190676,7 +190678,7 @@
           "card_no": "F-JK",
           "player": "Joakim Kemell",
           "team": "Nashville Predators",
-          "tag": "/99"
+          "tag": "RC, /99"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190686,7 +190688,7 @@
           "card_no": "F-JN",
           "player": "Jani Nyman",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190696,7 +190698,7 @@
           "card_no": "F-JS",
           "player": "Jimmy Snuggerud",
           "team": "St. Louis Blues",
-          "tag": "/99"
+          "tag": "RC, /99"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190706,7 +190708,7 @@
           "card_no": "F-LC",
           "player": "Luca Cagnoni",
           "team": "San Jose Sharks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190716,7 +190718,7 @@
           "card_no": "F-MG",
           "player": "Matvei Gridin",
           "team": "Calgary Flames",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190726,7 +190728,7 @@
           "card_no": "F-MM",
           "player": "Michael Misa",
           "team": "San Jose Sharks",
-          "tag": "/99"
+          "tag": "RC, /99"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190736,7 +190738,7 @@
           "card_no": "F-MR",
           "player": "Matthew Robertson",
           "team": "New York Rangers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190746,7 +190748,7 @@
           "card_no": "F-MS",
           "player": "Matthew Schaefer",
           "team": "New York Islanders",
-          "tag": "/99"
+          "tag": "RC, /99"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190756,7 +190758,7 @@
           "card_no": "F-MW",
           "player": "Matthew Wood",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190766,7 +190768,7 @@
           "card_no": "F-NK",
           "player": "Nikke Kokko",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190776,7 +190778,7 @@
           "card_no": "F-NO",
           "player": "Noah Ostlund",
           "team": "Buffalo Sabres",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190786,7 +190788,7 @@
           "card_no": "F-OM",
           "player": "Oliver Moore",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190796,7 +190798,7 @@
           "card_no": "F-OR",
           "player": "Olivier Rodrigue",
           "team": "Edmonton Oilers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190806,7 +190808,7 @@
           "card_no": "F-OW",
           "player": "Ozzy Wiesblatt",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190816,7 +190818,7 @@
           "card_no": "F-QH",
           "player": "Quinn Hutson",
           "team": "Edmonton Oilers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190826,7 +190828,7 @@
           "card_no": "F-RG",
           "player": "Ryan Greene",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190836,7 +190838,7 @@
           "card_no": "F-RL",
           "player": "Ryan Leonard",
           "team": "Washington Capitals",
-          "tag": "/99"
+          "tag": "RC, /99"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190846,7 +190848,7 @@
           "card_no": "F-RS",
           "player": "Ryan Suzuki",
           "team": "Carolina Hurricanes",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190856,7 +190858,7 @@
           "card_no": "F-RU",
           "player": "Ryan Ufko",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190866,7 +190868,7 @@
           "card_no": "F-SD",
           "player": "Sam Dickinson",
           "team": "San Jose Sharks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190876,7 +190878,7 @@
           "card_no": "F-SK",
           "player": "Jakub Skarek",
           "team": "New York Islanders",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190886,7 +190888,7 @@
           "card_no": "F-TL",
           "player": "Tristan Lennox",
           "team": "New York Islanders",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190896,7 +190898,7 @@
           "card_no": "F-TM",
           "player": "Ty Mueller",
           "team": "Vancouver Canucks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190906,7 +190908,7 @@
           "card_no": "F-VK",
           "player": "Ville Koivunen",
           "team": "Pittsburgh Penguins",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190916,7 +190918,7 @@
           "card_no": "F-VO",
           "player": "Ville Ottavainen",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190926,7 +190928,7 @@
           "card_no": "F-ZB",
           "player": "Zeev Buium",
           "team": "Minnesota Wild",
-          "tag": "/99"
+          "tag": "RC, /99"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -190936,7 +190938,7 @@
           "card_no": "F-ZP",
           "player": "Zayne Parekh",
           "team": "Calgary Flames",
-          "tag": "/99"
+          "tag": "RC, /99"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191464,7 +191466,7 @@
           "section": "Autograph",
           "subset": "Bound For Glory Auto",
           "card_no": "BFG-ZL",
-          "player": "Zachary L’Heureux",
+          "player": "Zachary L'Heureux",
           "team": "Nashville Predators",
           "tag": "/99"
         },
@@ -191615,7 +191617,7 @@
           "subset": "Cold Steel Auto",
           "card_no": "CS-JR",
           "player": "Jason Robertson",
-          "team": "Dallas Stars",
+          "team": "Dallas Stars SSP",
           "tag": ""
         },
         {
@@ -191856,7 +191858,7 @@
           "card_no": "26",
           "player": "Ozzy Wiesblatt",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191866,7 +191868,7 @@
           "card_no": "27",
           "player": "Ryan Suzuki",
           "team": "Carolina Hurricanes",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191876,7 +191878,7 @@
           "card_no": "28",
           "player": "Joakim Kemell",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191886,7 +191888,7 @@
           "card_no": "29",
           "player": "Colton Dach",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191896,7 +191898,7 @@
           "card_no": "31",
           "player": "Noah Ostlund",
           "team": "Buffalo Sabres",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191906,7 +191908,7 @@
           "card_no": "32",
           "player": "Jack Finley",
           "team": "Tampa Bay Lightning",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191916,7 +191918,7 @@
           "card_no": "33",
           "player": "Cam Lund",
           "team": "San Jose Sharks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191926,7 +191928,7 @@
           "card_no": "34",
           "player": "Donovan Sebrango",
           "team": "Ottawa Senators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191935,8 +191937,8 @@
           "subset": "Finite Rookie Auto",
           "card_no": "35",
           "player": "Ville Koivunen",
-          "team": "Pittsburgh Penguins",
-          "tag": ""
+          "team": "Pittsburgh Penguins*",
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191946,7 +191948,7 @@
           "card_no": "36",
           "player": "Ivan Demidov",
           "team": "Montreal Canadiens",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191956,7 +191958,7 @@
           "card_no": "38",
           "player": "Dylan Duke",
           "team": "Tampa Bay Lightning",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191966,7 +191968,7 @@
           "card_no": "39",
           "player": "Nikke Kokko",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191976,7 +191978,7 @@
           "card_no": "40",
           "player": "Jacob Melanson",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191986,7 +191988,7 @@
           "card_no": "41",
           "player": "Carter Mazur",
           "team": "Detroit Red Wings",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -191996,7 +191998,7 @@
           "card_no": "42",
           "player": "Artyom Levshunov",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -192006,7 +192008,7 @@
           "card_no": "43",
           "player": "Jani Nyman",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -192015,8 +192017,8 @@
           "subset": "Finite Rookie Auto",
           "card_no": "44",
           "player": "Dalibor Dvorsky",
-          "team": "St. Louis Blues",
-          "tag": ""
+          "team": "St. Louis Blues*",
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -192026,7 +192028,7 @@
           "card_no": "45",
           "player": "Zayne Parekh",
           "team": "Calgary Flames",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -192036,7 +192038,7 @@
           "card_no": "47",
           "player": "Jimmy Snuggerud",
           "team": "St. Louis Blues",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -192046,7 +192048,7 @@
           "card_no": "48",
           "player": "Ryan Leonard",
           "team": "Washington Capitals",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -192056,7 +192058,7 @@
           "card_no": "49",
           "player": "Gabe Perreault",
           "team": "New York Rangers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -192066,7 +192068,7 @@
           "card_no": "50",
           "player": "Matthew Wood",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -192282,7 +192284,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Autograph",
-          "subset": "Holo’d Hardware Auto",
+          "subset": "Holo'd Hardware Auto",
           "card_no": "HHC-BO",
           "player": "Bobby Orr",
           "team": "Boston Bruins",
@@ -192292,7 +192294,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Autograph",
-          "subset": "Holo’d Hardware Auto",
+          "subset": "Holo'd Hardware Auto",
           "card_no": "HHC-CB",
           "player": "Connor Bedard",
           "team": "Chicago Blackhawks",
@@ -192302,7 +192304,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Autograph",
-          "subset": "Holo’d Hardware Auto",
+          "subset": "Holo'd Hardware Auto",
           "card_no": "HHC-CM",
           "player": "Cale Makar",
           "team": "Colorado Avalanche",
@@ -192312,7 +192314,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Autograph",
-          "subset": "Holo’d Hardware Auto",
+          "subset": "Holo'd Hardware Auto",
           "card_no": "HHC-MB",
           "player": "Matty Beniers",
           "team": "Seattle Kraken",
@@ -192326,7 +192328,7 @@
           "card_no": "SFR-DLRM",
           "player": "Artyom Levshunov",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -192336,7 +192338,7 @@
           "card_no": "SFR-KMNO",
           "player": "Jani Nyman",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -192346,7 +192348,7 @@
           "card_no": "SFR-PSLD",
           "player": "Ivan Demidov",
           "team": "Montreal Canadiens",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -192356,7 +192358,7 @@
           "card_no": "SFR-WOKS",
           "player": "Jimmy Snuggerud",
           "team": "St. Louis Blues",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -192391,7 +192393,7 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-AC",
           "player": "Andrew Copp",
@@ -192401,7 +192403,7 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-AV",
           "player": "Andrei Vasilevskiy",
@@ -192411,7 +192413,7 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-CH",
           "player": "Connor Hellebuyck",
@@ -192421,17 +192423,17 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-CM",
           "player": "Connor McDavid",
-          "team": "Edmonton Oilers",
-          "tag": "SSP"
+          "team": "Edmonton Oilers SSP",
+          "tag": ""
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-DB",
           "player": "Drake Batherson",
@@ -192441,7 +192443,7 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-JK",
           "player": "Jordan Kyrou",
@@ -192451,7 +192453,7 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-JM",
           "player": "Jonathan Marchessault",
@@ -192461,7 +192463,7 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-KF",
           "player": "Kevin Fiala",
@@ -192471,7 +192473,7 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-LS",
           "player": "Logan Stankoven",
@@ -192481,17 +192483,17 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-MR",
           "player": "Morgan Rielly",
-          "team": "Toronto Maple Leafs",
+          "team": "Toronto Maple Leafs*",
           "tag": ""
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-MZ",
           "player": "Mats Zuccarello",
@@ -192501,7 +192503,7 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-NS",
           "player": "Nick Schmaltz",
@@ -192511,7 +192513,7 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-SU",
           "player": "Nick Suzuki",
@@ -192521,17 +192523,17 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-TK",
           "player": "Travis Konecny",
-          "team": "Philadelphia Flyers",
+          "team": "Philadelphia Flyers*",
           "tag": ""
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-VN",
           "player": "Valeri Nichushkin",
@@ -192541,7 +192543,7 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-WJ",
           "player": "Wyatt Johnston",
@@ -192551,7 +192553,7 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts",
           "card_no": "SS-WS",
           "player": "Will Smith",
@@ -192561,192 +192563,192 @@
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-AL",
           "player": "Artyom Levshunov",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-AN",
           "player": "Alexander Nikishin",
           "team": "Carolina Hurricanes",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-CD",
           "player": "Colton Dach",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-CM",
           "player": "Carter Mazur",
           "team": "Detroit Red Wings",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-GP",
           "player": "Gabe Perreault",
           "team": "New York Rangers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-ID",
           "player": "Ivan Demidov",
           "team": "Montreal Canadiens",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-JK",
           "player": "Joakim Kemell",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-JN",
           "player": "Jani Nyman",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-MM",
           "player": "Michael Misa",
           "team": "San Jose Sharks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-MS",
           "player": "Matthew Schaefer",
           "team": "New York Islanders",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-MW",
           "player": "Matthew Wood",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-NO",
           "player": "Noah Ostlund",
           "team": "Buffalo Sabres",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-OM",
           "player": "Oliver Moore",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-OW",
           "player": "Ozzy Wiesblatt",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-RL",
           "player": "Ryan Leonard",
           "team": "Washington Capitals",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-RS",
           "player": "Ryan Suzuki",
           "team": "Carolina Hurricanes",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-SN",
           "player": "Jimmy Snuggerud",
           "team": "St. Louis Blues",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-ZB",
           "player": "Zeev Buium",
           "team": "Minnesota Wild",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
-          "section": "Insert",
+          "section": "Autograph",
           "subset": "SuperScripts Rookie",
           "card_no": "SSR-ZP",
           "player": "Zayne Parekh",
           "team": "Calgary Flames",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -192905,7 +192907,7 @@
           "subset": "Typography Auto",
           "card_no": "TYPE-MM",
           "player": "Matvei Michkov",
-          "team": "Philadelphia Flyers",
+          "team": "Philadelphia Flyers SP",
           "tag": ""
         },
         {
@@ -192915,7 +192917,7 @@
           "subset": "Typography Auto",
           "card_no": "TYPE-MR",
           "player": "Mikko Rantanen",
-          "team": "Dallas Stars",
+          "team": "Dallas Stars SP",
           "tag": ""
         },
         {
@@ -192965,7 +192967,7 @@
           "subset": "Typography Auto",
           "card_no": "TYPE-SW",
           "player": "Shane Wright",
-          "team": "Seattle Kraken",
+          "team": "Seattle Kraken SP",
           "tag": ""
         },
         {
@@ -192975,8 +192977,8 @@
           "subset": "Typography Auto",
           "card_no": "TYPE-TE",
           "player": "Troy Terry",
-          "team": "Anaheim Ducks",
-          "tag": "SSP"
+          "team": "Anaheim Ducks SSP *",
+          "tag": ""
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -193084,7 +193086,7 @@
           "section": "Insert",
           "subset": "34.5 LBs",
           "card_no": "SC-9",
-          "player": "Ryan O’Reilly",
+          "player": "Ryan O'Reilly",
           "team": "St. Louis Blues",
           "tag": ""
         },
@@ -193894,7 +193896,7 @@
           "section": "Insert",
           "subset": "Bound For Glory",
           "card_no": "BFG-ZL",
-          "player": "Zachary L’Heureux",
+          "player": "Zachary L'Heureux",
           "team": "Nashville Predators",
           "tag": ""
         },
@@ -194506,7 +194508,7 @@
           "card_no": "26",
           "player": "Ozzy Wiesblatt",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194516,7 +194518,7 @@
           "card_no": "27",
           "player": "Ryan Suzuki",
           "team": "Carolina Hurricanes",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194526,7 +194528,7 @@
           "card_no": "28",
           "player": "Joakim Kemell",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194536,7 +194538,7 @@
           "card_no": "29",
           "player": "Colton Dach",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194546,7 +194548,7 @@
           "card_no": "30",
           "player": "Sam Rinzel",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194556,7 +194558,7 @@
           "card_no": "31",
           "player": "Noah Ostlund",
           "team": "Buffalo Sabres",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194566,7 +194568,7 @@
           "card_no": "32",
           "player": "Jack Finley",
           "team": "Tampa Bay Lightning",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194576,7 +194578,7 @@
           "card_no": "33",
           "player": "Cam Lund",
           "team": "San Jose Sharks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194586,7 +194588,7 @@
           "card_no": "34",
           "player": "Donovan Sebrango",
           "team": "Ottawa Senators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194596,7 +194598,7 @@
           "card_no": "35",
           "player": "Ville Koivunen",
           "team": "Pittsburgh Penguins",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194606,7 +194608,7 @@
           "card_no": "36",
           "player": "Ivan Demidov",
           "team": "Montreal Canadiens",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194616,7 +194618,7 @@
           "card_no": "37",
           "player": "Zeev Buium",
           "team": "Minnesota Wild",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194626,7 +194628,7 @@
           "card_no": "38",
           "player": "Dylan Duke",
           "team": "Tampa Bay Lightning",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194636,7 +194638,7 @@
           "card_no": "39",
           "player": "Nikke Kokko",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194646,7 +194648,7 @@
           "card_no": "40",
           "player": "Jacob Melanson",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194656,7 +194658,7 @@
           "card_no": "41",
           "player": "Carter Mazur",
           "team": "Detroit Red Wings",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194666,7 +194668,7 @@
           "card_no": "42",
           "player": "Artyom Levshunov",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194676,7 +194678,7 @@
           "card_no": "43",
           "player": "Jani Nyman",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194686,7 +194688,7 @@
           "card_no": "44",
           "player": "Dalibor Dvorsky",
           "team": "St. Louis Blues",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194696,7 +194698,7 @@
           "card_no": "45",
           "player": "Zayne Parekh",
           "team": "Calgary Flames",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194706,7 +194708,7 @@
           "card_no": "46",
           "player": "Oliver Moore",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194716,7 +194718,7 @@
           "card_no": "47",
           "player": "Jimmy Snuggerud",
           "team": "St. Louis Blues",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194726,7 +194728,7 @@
           "card_no": "48",
           "player": "Ryan Leonard",
           "team": "Washington Capitals",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194736,7 +194738,7 @@
           "card_no": "49",
           "player": "Gabe Perreault",
           "team": "New York Rangers",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194746,7 +194748,7 @@
           "card_no": "50",
           "player": "Matthew Wood",
           "team": "Nashville Predators",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194906,7 +194908,7 @@
           "card_no": "SFR-DLRM",
           "player": "Artyom Levshunov / Oliver Moore / Sam Rinzel / Colton Dach",
           "team": "Chicago Blackhawks",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194916,7 +194918,7 @@
           "card_no": "SFR-KMNO",
           "player": "Victor Ostman / Jacob Melanson / Niklas Kokko / Jani Nyman",
           "team": "Seattle Kraken",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194926,7 +194928,7 @@
           "card_no": "SFR-PSLD",
           "player": "Ryan Leonard / Ivan Demidov / Gabe Perreault / Ryan Suzuki",
           "team": "Washington Capitals / Montreal Canadiens / New York Rangers / Carolina Hurricanes",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194936,7 +194938,7 @@
           "card_no": "SFR-WDPB",
           "player": "Zayne Parekh / Ozzy Wiesblatt / Dalibor Dvorsky / Zeev Buium",
           "team": "Calgary Flames / Nashville Predators / St. Louis Blues / Minnesota Wild",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -194946,7 +194948,7 @@
           "card_no": "SFR-WOKS",
           "player": "Noah Ostlund / Joakim Kemell / Matthew Wood / Jimmy Snuggerud",
           "team": "Bufflo Sabres / Nashville Predators / Nashville Predators / St. Louis Blues",
-          "tag": ""
+          "tag": "RC"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
@@ -195302,7 +195304,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-AM",
           "player": "Auston Matthews",
           "team": "Toronto Maple Leafs",
@@ -195312,7 +195314,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-AO",
           "player": "Alex Ovechkin",
           "team": "Washington Capitals",
@@ -195322,7 +195324,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-AP",
           "player": "Artemi Panarin",
           "team": "Chicago Blackhawks",
@@ -195332,7 +195334,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-BA",
           "player": "Mathew Barzal",
           "team": "New York Islanders",
@@ -195342,7 +195344,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-BO",
           "player": "Bobby Orr",
           "team": "Boston Bruins",
@@ -195352,7 +195354,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-BR",
           "player": "Martin Brodeur",
           "team": "New Jersey Devils",
@@ -195362,7 +195364,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-CB",
           "player": "Connor Bedard",
           "team": "Chicago Blackhawks",
@@ -195372,7 +195374,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-CM",
           "player": "Cale Makar",
           "team": "Colorado Avalanche",
@@ -195382,7 +195384,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-DH",
           "player": "Dany Heatley",
           "team": "Atlanta Thrashers",
@@ -195392,7 +195394,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-EP",
           "player": "Elias Pettersson",
           "team": "Vancouver Canucks",
@@ -195402,7 +195404,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-JH",
           "player": "Jonathan Huberdeau",
           "team": "Florida Panthers",
@@ -195412,7 +195414,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-KK",
           "player": "Kirill Kaprizov",
           "team": "Minnesota Wild",
@@ -195422,7 +195424,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-MB",
           "player": "Matty Beniers",
           "team": "Seattle Kraken",
@@ -195432,7 +195434,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-NM",
           "player": "Nathan MacKinnon",
           "team": "Colorado Avalanche",
@@ -195442,7 +195444,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "sport": "hockey",
           "section": "Insert",
-          "subset": "Holo’d Hardware",
+          "subset": "Holo'd Hardware",
           "card_no": "HHC-PK",
           "player": "Patrick Kane",
           "team": "Chicago Blackhawks",
@@ -195997,6 +195999,2476 @@
           "player": "Steve Yzerman",
           "team": "Detroit Red Wings",
           "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2022-23 UD Black Update — UD Black Lustrous Rookie Patch Auto Spectrum",
+          "card_no": "LRAP-BE",
+          "player": "Matty Beniers",
+          "team": "Seattle Kraken",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2022-23 UD Black Update — UD Black Lustrous Rookie Patch Auto Spectrum",
+          "card_no": "LRAP-SW",
+          "player": "Shane Wright",
+          "team": "Seattle Kraken",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2022-23 UD Black Update — UD Black Obsidian Scripts Green",
+          "card_no": "OS-DM",
+          "player": "Dawson Mercer",
+          "team": "New Jersey Devils",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2022-23 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-TH",
+          "player": "Tomas Hertl",
+          "team": "San Jose Sharks",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2022-23 UD Black Update — UD Black Pride of a Nation Patch Auto Spectrum",
+          "card_no": "PON-TH",
+          "player": "Tomas Hertl",
+          "team": "San Jose Sharks",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2022-23 UD Black Update — UD Black Pride of a Nation Auto Patch Spectrum - Rookies",
+          "card_no": "PON-BE",
+          "player": "Matty Beniers",
+          "team": "Seattle Kraken",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — 2003-04 Retro Rookie Auto Jersey",
+          "card_no": "20-CA",
+          "player": "Leo Carlsson",
+          "team": "Anaheim Ducks",
+          "tag": "RC, /99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures",
+          "card_no": "ST-AS",
+          "player": "Andrei Svechnikov",
+          "team": "Carolina Hurricanes",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures",
+          "card_no": "ST-BM",
+          "player": "Brad Marchand",
+          "team": "Boston Bruins",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures",
+          "card_no": "ST-DC",
+          "player": "Dylan Cozens",
+          "team": "Buffalo Sabres",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures",
+          "card_no": "ST-DP",
+          "player": "David Perron",
+          "team": "Detroit Red Wings",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures",
+          "card_no": "ST-JS",
+          "player": "Juraj Slafkovsky",
+          "team": "Montreal Canadiens",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures Gold",
+          "card_no": "ST-AS",
+          "player": "Andrei Svechnikov",
+          "team": "Carolina Hurricanes",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures Gold",
+          "card_no": "ST-BM",
+          "player": "Brad Marchand",
+          "team": "Boston Bruins",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures Gold",
+          "card_no": "ST-DC",
+          "player": "Dylan Cozens",
+          "team": "Buffalo Sabres",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures Gold",
+          "card_no": "ST-DP",
+          "player": "David Perron",
+          "team": "Detroit Red Wings",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures Gold",
+          "card_no": "ST-JS",
+          "player": "Juraj Slafkovsky",
+          "team": "Montreal Canadiens",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures Emerald",
+          "card_no": "ST-AS",
+          "player": "Andrei Svechnikov",
+          "team": "Carolina Hurricanes",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures Emerald",
+          "card_no": "ST-BM",
+          "player": "Brad Marchand",
+          "team": "Boston Bruins",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures Emerald",
+          "card_no": "ST-DC",
+          "player": "Dylan Cozens",
+          "team": "Buffalo Sabres",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures Emerald",
+          "card_no": "ST-DP",
+          "player": "David Perron",
+          "team": "Detroit Red Wings",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Black Steel Signatures Emerald",
+          "card_no": "ST-JS",
+          "player": "Juraj Slafkovsky",
+          "team": "Montreal Canadiens",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Rookie Auto Jersey",
+          "card_no": "DL",
+          "player": "Devon Levi",
+          "team": "Buffalo Sabres",
+          "tag": "RC, /375"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Rookie Auto Jersey",
+          "card_no": "MP",
+          "player": "Matthew Poitras",
+          "team": "Boston Bruins",
+          "tag": "RC, /375"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Rookie Auto Jersey Spectrum",
+          "card_no": "DL",
+          "player": "Devon Levi",
+          "team": "Buffalo Sabres",
+          "tag": "RC, /65"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Rookie Auto Jersey Spectrum",
+          "card_no": "MP",
+          "player": "Matthew Poitras",
+          "team": "Boston Bruins",
+          "tag": "RC, /65"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Rookie Auto Patch Spectrum",
+          "card_no": "DL",
+          "player": "Devon Levi",
+          "team": "Buffalo Sabres",
+          "tag": "RC, /35"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Rookie Auto Patch Gold Spectrum",
+          "card_no": "DL",
+          "player": "Devon Levi",
+          "team": "Buffalo Sabres",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Signature Fabrics",
+          "card_no": "SF-BE",
+          "player": "Matty Beniers",
+          "team": "Seattle Kraken",
+          "tag": "/35"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Signature Fabrics",
+          "card_no": "SF-JD",
+          "player": "Jamie Drysdale",
+          "team": "Anaheim Ducks",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Signature Fabrics",
+          "card_no": "SF-SW",
+          "player": "Jeremy Swayman",
+          "team": "Boston Bruins",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Signature Fabrics Spectrum",
+          "card_no": "SF-BE",
+          "player": "Matty Beniers",
+          "team": "Seattle Kraken",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Signature Fabrics Spectrum",
+          "card_no": "SF-JD",
+          "player": "Jamie Drysdale",
+          "team": "Anaheim Ducks",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Signature Fabrics Spectrum",
+          "card_no": "SF-SW",
+          "player": "Jeremy Swayman",
+          "team": "Boston Bruins",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Signature Fabrics Patch Spectrum",
+          "card_no": "SF-BE",
+          "player": "Matty Beniers",
+          "team": "Seattle Kraken",
+          "tag": "/5"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Signature Fabrics Patch Spectrum",
+          "card_no": "SF-JD",
+          "player": "Jamie Drysdale",
+          "team": "Anaheim Ducks",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Signature Fabrics Patch Gold Spectrum",
+          "card_no": "SF-BE",
+          "player": "Matty Beniers",
+          "team": "Seattle Kraken",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 SPx Update — Signature Fabrics Patch Gold Spectrum",
+          "card_no": "SF-SW",
+          "player": "Jeremy Swayman",
+          "team": "Boston Bruins",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch",
+          "card_no": "LRAP-MK",
+          "player": "Marco Kasper",
+          "team": "Detroit Red Wings",
+          "tag": "RC, /125"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch",
+          "card_no": "LRAP-OB",
+          "player": "Owen Beck",
+          "team": "Montreal Canadiens",
+          "tag": "RC, /75"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch",
+          "card_no": "LRAP-RG",
+          "player": "Ridly Greig",
+          "team": "Ottawa Senators",
+          "tag": "RC, /75"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch",
+          "card_no": "LRAP-SE",
+          "player": "Simon Edvinsson",
+          "team": "Detroit Red Wings",
+          "tag": "RC, /75"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch",
+          "card_no": "LRAP-TF",
+          "player": "Tyson Foerster",
+          "team": "Philadelphia Flyers",
+          "tag": "RC, /125"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch Spectrum",
+          "card_no": "LRAP-JP",
+          "player": "Jakob Pelletier",
+          "team": "Calgary Flames",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch Spectrum",
+          "card_no": "LRAP-MK",
+          "player": "Marco Kasper",
+          "team": "Detroit Red Wings",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch Spectrum",
+          "card_no": "LRAP-OB",
+          "player": "Owen Beck",
+          "team": "Montreal Canadiens",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch Spectrum",
+          "card_no": "LRAP-RG",
+          "player": "Ridly Greig",
+          "team": "Ottawa Senators",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch Spectrum",
+          "card_no": "LRAP-SE",
+          "player": "Simon Edvinsson",
+          "team": "Detroit Red Wings",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch Spectrum",
+          "card_no": "LRAP-TF",
+          "player": "Tyson Foerster",
+          "team": "Philadelphia Flyers",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch Clarity",
+          "card_no": "LRAP-OB",
+          "player": "Owen Beck",
+          "team": "Montreal Canadiens",
+          "tag": "RC, /15"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch Clarity",
+          "card_no": "LRAP-SE",
+          "player": "Simon Edvinsson",
+          "team": "Detroit Red Wings",
+          "tag": "RC, /15"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch Clarity Spectrum",
+          "card_no": "LRAP-OB",
+          "player": "Owen Beck",
+          "team": "Montreal Canadiens",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch Clarity Spectrum",
+          "card_no": "LRAP-RG",
+          "player": "Ridly Greig",
+          "team": "Ottawa Senators",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Auto Patch Clarity Spectrum",
+          "card_no": "LRAP-SE",
+          "player": "Simon Edvinsson",
+          "team": "Detroit Red Wings",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures",
+          "card_no": "LRA-GR",
+          "player": "Jet Greaves",
+          "team": "Columbus Blue Jackets",
+          "tag": "RC, /299"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures",
+          "card_no": "LRA-OB",
+          "player": "Owen Beck",
+          "team": "Montreal Canadiens",
+          "tag": "RC, /199"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures",
+          "card_no": "LRA-RG",
+          "player": "Ridly Greig",
+          "team": "Ottawa Senators",
+          "tag": "RC, /199"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures",
+          "card_no": "LRA-SE",
+          "player": "Simon Edvinsson",
+          "team": "Detroit Red Wings",
+          "tag": "RC, /99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures",
+          "card_no": "LRA-TF",
+          "player": "Tyson Foerster",
+          "team": "Philadelphia Flyers",
+          "tag": "RC, /99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures Gold",
+          "card_no": "LRA-GR",
+          "player": "Jet Greaves",
+          "team": "Columbus Blue Jackets",
+          "tag": "RC, /25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures Gold",
+          "card_no": "LRA-OB",
+          "player": "Owen Beck",
+          "team": "Montreal Canadiens",
+          "tag": "RC, /25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures Gold",
+          "card_no": "LRA-RG",
+          "player": "Ridly Greig",
+          "team": "Ottawa Senators",
+          "tag": "RC, /25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures Gold",
+          "card_no": "LRA-SE",
+          "player": "Simon Edvinsson",
+          "team": "Detroit Red Wings",
+          "tag": "RC, /25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures Gold",
+          "card_no": "LRA-TF",
+          "player": "Tyson Foerster",
+          "team": "Philadelphia Flyers",
+          "tag": "RC, /25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures Emerald",
+          "card_no": "LRA-GR",
+          "player": "Jet Greaves",
+          "team": "Columbus Blue Jackets",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures Emerald",
+          "card_no": "LRA-LE",
+          "player": "Luke Evangelista",
+          "team": "Nashville Predators",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures Emerald",
+          "card_no": "LRA-OB",
+          "player": "Owen Beck",
+          "team": "Montreal Canadiens",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures Emerald",
+          "card_no": "LRA-RG",
+          "player": "Ridly Greig",
+          "team": "Ottawa Senators",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures Emerald",
+          "card_no": "LRA-SE",
+          "player": "Simon Edvinsson",
+          "team": "Detroit Red Wings",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Lustrous Rookie Signatures Emerald",
+          "card_no": "LRA-TF",
+          "player": "Tyson Foerster",
+          "team": "Philadelphia Flyers",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Rookie Scripts",
+          "card_no": "ORS-OB",
+          "player": "Owen Beck",
+          "team": "Montreal Canadiens",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Rookie Scripts",
+          "card_no": "ORS-RG",
+          "player": "Ridly Greig",
+          "team": "Ottawa Senators",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Rookie Scripts",
+          "card_no": "ORS-TF",
+          "player": "Tyson Foerster",
+          "team": "Philadelphia Flyers",
+          "tag": "RC"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Rookie Scripts Gold",
+          "card_no": "ORS-OB",
+          "player": "Owen Beck",
+          "team": "Montreal Canadiens",
+          "tag": "RC, /10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Rookie Scripts Gold",
+          "card_no": "ORS-RG",
+          "player": "Ridly Greig",
+          "team": "Ottawa Senators",
+          "tag": "RC, /25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Rookie Scripts Gold",
+          "card_no": "ORS-TF",
+          "player": "Tyson Foerster",
+          "team": "Philadelphia Flyers",
+          "tag": "RC, /25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Rookie Scripts Emerald",
+          "card_no": "ORS-OB",
+          "player": "Owen Beck",
+          "team": "Montreal Canadiens",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Rookie Scripts Emerald",
+          "card_no": "ORS-TF",
+          "player": "Tyson Foerster",
+          "team": "Philadelphia Flyers",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Scripts",
+          "card_no": "OS-AM",
+          "player": "Auston Matthews",
+          "team": "Toronto Maple Leafs",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Scripts",
+          "card_no": "OS-FG",
+          "player": "Filip Gustavsson",
+          "team": "Minnesota Wild",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Scripts",
+          "card_no": "OS-JR",
+          "player": "Jason Robertson",
+          "team": "Dallas Stars",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Scripts",
+          "card_no": "OS-RH",
+          "player": "Roope Hintz",
+          "team": "Dallas Stars",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Scripts Gold",
+          "card_no": "OS-AM",
+          "player": "Auston Matthews",
+          "team": "Toronto Maple Leafs",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Scripts Gold",
+          "card_no": "OS-FG",
+          "player": "Filip Gustavsson",
+          "team": "Minnesota Wild",
+          "tag": "/49"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Scripts Gold",
+          "card_no": "OS-JC",
+          "player": "Jack Campbell",
+          "team": "Edmonton Oilers",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Scripts Gold",
+          "card_no": "OS-JR",
+          "player": "Jason Robertson",
+          "team": "Dallas Stars",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Scripts Gold",
+          "card_no": "OS-RH",
+          "player": "Roope Hintz",
+          "team": "Dallas Stars",
+          "tag": "/49"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Scripts Emerald",
+          "card_no": "OS-AM",
+          "player": "Auston Matthews",
+          "team": "Toronto Maple Leafs",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Scripts Emerald",
+          "card_no": "OS-FG",
+          "player": "Filip Gustavsson",
+          "team": "Minnesota Wild",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Scripts Emerald",
+          "card_no": "OS-JC",
+          "player": "Jack Campbell",
+          "team": "Edmonton Oilers",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Scripts Emerald",
+          "card_no": "OS-JR",
+          "player": "Jason Robertson",
+          "team": "Dallas Stars",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Obsidian Scripts Emerald",
+          "card_no": "OS-RH",
+          "player": "Roope Hintz",
+          "team": "Dallas Stars",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-BM",
+          "player": "Brad Marchand",
+          "team": "Boston Bruins",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-DC",
+          "player": "Dylan Cozens",
+          "team": "Buffalo Sabres",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-JE",
+          "player": "Jack Eichel",
+          "team": "Vegas Golden Knights",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-LD",
+          "player": "Leon Draisaitl",
+          "team": "Edmonton Oilers",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-LR",
+          "player": "Lukas Reichel",
+          "team": "Chicago Blackhawks",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-MA",
+          "player": "Jacob Markstrom",
+          "team": "Calgary Flames",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-MT",
+          "player": "Matthew Tkachuk",
+          "team": "Florida Panthers",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-OB",
+          "player": "Owen Beck",
+          "team": "Montreal Canadiens",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-RG",
+          "player": "Ridly Greig",
+          "team": "Ottawa Senators",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-RH",
+          "player": "Roope Hintz",
+          "team": "Dallas Stars",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-RN",
+          "player": "Ryan Nugent-Hopkins",
+          "team": "Edmonton Oilers",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-SE",
+          "player": "Simon Edvinsson",
+          "team": "Detroit Red Wings",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-TF",
+          "player": "Tyson Foerster",
+          "team": "Philadelphia Flyers",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch",
+          "card_no": "PON-TS",
+          "player": "Tim Stutzle",
+          "team": "Ottawa Senators",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch Spectrum",
+          "card_no": "PON-BM",
+          "player": "Brad Marchand",
+          "team": "Boston Bruins",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch Spectrum",
+          "card_no": "PON-DC",
+          "player": "Dylan Cozens",
+          "team": "Buffalo Sabres",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch Spectrum",
+          "card_no": "PON-JE",
+          "player": "Jack Eichel",
+          "team": "Vegas Golden Knights",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch Spectrum",
+          "card_no": "PON-LD",
+          "player": "Leon Draisaitl",
+          "team": "Edmonton Oilers",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch Spectrum",
+          "card_no": "PON-MA",
+          "player": "Jacob Markstrom",
+          "team": "Calgary Flames",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch Spectrum",
+          "card_no": "PON-MT",
+          "player": "Matthew Tkachuk",
+          "team": "Florida Panthers",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch Spectrum",
+          "card_no": "PON-OB",
+          "player": "Owen Beck",
+          "team": "Montreal Canadiens",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch Spectrum",
+          "card_no": "PON-RG",
+          "player": "Ridly Greig",
+          "team": "Ottawa Senators",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch Spectrum",
+          "card_no": "PON-RH",
+          "player": "Roope Hintz",
+          "team": "Dallas Stars",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch Spectrum",
+          "card_no": "PON-RN",
+          "player": "Ryan Nugent-Hopkins",
+          "team": "Edmonton Oilers",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch Spectrum",
+          "card_no": "PON-SE",
+          "player": "Simon Edvinsson",
+          "team": "Detroit Red Wings",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2023-24 UD Black Update — UD Black Pride of a Nation Auto Patch Spectrum",
+          "card_no": "PON-TF",
+          "player": "Tyson Foerster",
+          "team": "Philadelphia Flyers",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Blue Auto - Rookies",
+          "card_no": "105",
+          "player": "Josh Doan",
+          "team": "Utah Hockey Club",
+          "tag": "RC, /9"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Blue Auto - Rookies",
+          "card_no": "118",
+          "player": "Matt Rempe",
+          "team": "New York Rangers",
+          "tag": "RC, /199"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Blue Auto - Rookies",
+          "card_no": "144",
+          "player": "Gavin Brindley",
+          "team": "Columbus Blue Jackets",
+          "tag": "RC, /199"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Blue Auto - Rookies",
+          "card_no": "149",
+          "player": "Cutter Gauthier",
+          "team": "Anaheim Ducks",
+          "tag": "RC, /199"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Red Auto - Rookies",
+          "card_no": "105",
+          "player": "Josh Doan",
+          "team": "Utah Hockey Club",
+          "tag": "RC, /25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Red Auto - Rookies",
+          "card_no": "118",
+          "player": "Matt Rempe",
+          "team": "New York Rangers",
+          "tag": "RC, /25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Red Auto - Rookies",
+          "card_no": "144",
+          "player": "Gavin Brindley",
+          "team": "Columbus Blue Jackets",
+          "tag": "RC, /25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Red Auto - Rookies",
+          "card_no": "149",
+          "player": "Cutter Gauthier",
+          "team": "Anaheim Ducks",
+          "tag": "RC, /25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Silver Spectrum Auto - Rookies",
+          "card_no": "105",
+          "player": "Josh Doan",
+          "team": "Utah Hockey Club",
+          "tag": "RC, /10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Silver Spectrum Auto - Rookies",
+          "card_no": "118",
+          "player": "Matt Rempe",
+          "team": "New York Rangers",
+          "tag": "RC, /10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Silver Spectrum Auto - Rookies",
+          "card_no": "139",
+          "player": "Lane Hutson",
+          "team": "Montreal Canadiens",
+          "tag": "RC, /10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Silver Spectrum Auto - Rookies",
+          "card_no": "144",
+          "player": "Gavin Brindley",
+          "team": "Columbus Blue Jackets",
+          "tag": "RC, /10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Silver Spectrum Auto - Rookies",
+          "card_no": "149",
+          "player": "Cutter Gauthier",
+          "team": "Anaheim Ducks",
+          "tag": "RC, /10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Gold Spectrum Auto - Rookies",
+          "card_no": "105",
+          "player": "Josh Doan",
+          "team": "Utah Hockey Club",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Gold Spectrum Auto - Rookies",
+          "card_no": "118",
+          "player": "Matt Rempe",
+          "team": "New York Rangers",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Gold Spectrum Auto - Rookies",
+          "card_no": "139",
+          "player": "Lane Hutson",
+          "team": "Montreal Canadiens",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Gold Spectrum Auto - Rookies",
+          "card_no": "144",
+          "player": "Gavin Brindley",
+          "team": "Columbus Blue Jackets",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Gold Spectrum Auto - Rookies",
+          "card_no": "149",
+          "player": "Cutter Gauthier",
+          "team": "Anaheim Ducks",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — 1996-97 SPx Buyback Autos",
+          "card_no": "2",
+          "player": "Teemu Selanne",
+          "team": "Anaheim Mighty Ducks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — 1996-97 SPx Buyback Autos",
+          "card_no": "3",
+          "player": "Ray Bourque",
+          "team": "Boston Bruins",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — 1996-97 SPx Buyback Autos",
+          "card_no": "7",
+          "player": "Jeremy Roenick",
+          "team": "Chicago Blackhawks",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — 1996-97 SPx Buyback Autos",
+          "card_no": "9",
+          "player": "Joe Sakic",
+          "team": "Colorado Avalanche",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — 1996-97 SPx Buyback Autos",
+          "card_no": "14",
+          "player": "Steve Yzerman",
+          "team": "Detroit Red Wings",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — 1996-97 SPx Buyback Autos",
+          "card_no": "15",
+          "player": "Paul Coffey",
+          "team": "Detroit Red Wings",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — 1996-97 SPx Buyback Autos",
+          "card_no": "16",
+          "player": "Chris Osgood",
+          "team": "Detroit Red Wings",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — 1996-97 SPx Buyback Autos",
+          "card_no": "27",
+          "player": "Mark Messier",
+          "team": "New York Rangers",
+          "tag": ""
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — All-Time Holoview Auto",
+          "card_no": "ATG-CC",
+          "player": "Chris Chelios",
+          "team": "Detroit Red Wings",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — All-Time Holoview Auto",
+          "card_no": "ATG-DP",
+          "player": "Denis Potvin",
+          "team": "New York Islanders",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — All-Time Holoview Auto",
+          "card_no": "ATG-EB",
+          "player": "Ed Belfour",
+          "team": "Chicago Blackhawks",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — All-Time Holoview Auto",
+          "card_no": "ATG-HZ",
+          "player": "Henrik Zetterberg",
+          "team": "Detroit Red Wings",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — All-Time Holoview Auto",
+          "card_no": "ATG-JS",
+          "player": "Joe Sakic",
+          "team": "Colorado Avalanche",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — All-Time Holoview Auto",
+          "card_no": "ATG-ME",
+          "player": "Mark Messier",
+          "team": "New York Rangers",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — All-Time Holoview Auto",
+          "card_no": "ATG-ML",
+          "player": "Mario Lemieux",
+          "team": "Pittsburgh Penguins",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — All-Time Holoview Auto",
+          "card_no": "ATG-MS",
+          "player": "Martin St. Louis",
+          "team": "Tampa Bay Lightning",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — All-Time Holoview Auto",
+          "card_no": "ATG-PC",
+          "player": "Paul Coffey",
+          "team": "Edmonton Oilers",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — All-Time Holoview Auto",
+          "card_no": "ATG-SD",
+          "player": "Shane Doan",
+          "team": "Arizona Coyotes",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — All-Time Holoview Auto",
+          "card_no": "ATG-SE",
+          "player": "Teemu Selanne",
+          "team": "Anaheim Ducks",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — All-Time Holoview Auto",
+          "card_no": "ATG-SY",
+          "player": "Steve Yzerman",
+          "team": "Detroit Red Wings",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto",
+          "card_no": "F-3",
+          "player": "Jordan Kyrou",
+          "team": "St. Louis Blues",
+          "tag": "/49"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto",
+          "card_no": "F-7",
+          "player": "Connor Bedard",
+          "team": "Chicago Blackhawks",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto",
+          "card_no": "F-10",
+          "player": "Travis Konecny",
+          "team": "Philadelphia Flyers",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto",
+          "card_no": "F-11",
+          "player": "Kirill Kaprizov",
+          "team": "Minnesota Wild",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto",
+          "card_no": "F-12",
+          "player": "Jeremy Swayman",
+          "team": "Boston Bruins",
+          "tag": "/49"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto",
+          "card_no": "F-13",
+          "player": "Auston Matthews",
+          "team": "Toronto Maple Leafs",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto",
+          "card_no": "F-15",
+          "player": "Matty Beniers",
+          "team": "Seattle Kraken",
+          "tag": "/49"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto",
+          "card_no": "F-16",
+          "player": "Leon Draisaitl",
+          "team": "Edmonton Oilers",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto",
+          "card_no": "F-18",
+          "player": "Jason Robertson",
+          "team": "Dallas Stars",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto",
+          "card_no": "F-19",
+          "player": "Jack Hughes",
+          "team": "New Jersey Devils",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto",
+          "card_no": "F-21",
+          "player": "Nick Suzuki",
+          "team": "Montreal Canadiens",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto",
+          "card_no": "F-22",
+          "player": "Anze Kopitar",
+          "team": "Los Angeles Kings",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto",
+          "card_no": "F-24",
+          "player": "Connor McDavid",
+          "team": "Edmonton Oilers",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto - Rookies",
+          "card_no": "F-26",
+          "player": "Zachary Bolduc",
+          "team": "St. Louis Blues",
+          "tag": "RC, /99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto - Rookies",
+          "card_no": "F-27",
+          "player": "Joshua Roy",
+          "team": "Montreal Canadiens",
+          "tag": "RC, /99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto - Rookies",
+          "card_no": "F-30",
+          "player": "Olen Zellweger",
+          "team": "Anaheim Ducks",
+          "tag": "RC, /99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto - Rookies",
+          "card_no": "F-36",
+          "player": "Matt Rempe",
+          "team": "New York Rangers",
+          "tag": "RC, /99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto - Rookies",
+          "card_no": "F-44",
+          "player": "Josh Doan",
+          "team": "Arizona Coyotes",
+          "tag": "RC, /99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Silver Spectrum Auto - Rookies",
+          "card_no": "F-47",
+          "player": "Brennan Othmann",
+          "team": "New York Rangers",
+          "tag": "RC, /99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-3",
+          "player": "Jordan Kyrou",
+          "team": "St. Louis Blues",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-6",
+          "player": "Sidney Crosby",
+          "team": "Pittsburgh Penguins",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-7",
+          "player": "Connor Bedard",
+          "team": "Chicago Blackhawks",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-8",
+          "player": "Tomas Hertl",
+          "team": "Vegas Golden Knights",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-10",
+          "player": "Travis Konecny",
+          "team": "Philadelphia Flyers",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-11",
+          "player": "Kirill Kaprizov",
+          "team": "Minnesota Wild",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-12",
+          "player": "Jeremy Swayman",
+          "team": "Boston Bruins",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-13",
+          "player": "Auston Matthews",
+          "team": "Toronto Maple Leafs",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-15",
+          "player": "Matty Beniers",
+          "team": "Seattle Kraken",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-16",
+          "player": "Leon Draisaitl",
+          "team": "Edmonton Oilers",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-18",
+          "player": "Jason Robertson",
+          "team": "Dallas Stars",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-19",
+          "player": "Jack Hughes",
+          "team": "New Jersey Devils",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-21",
+          "player": "Nick Suzuki",
+          "team": "Montreal Canadiens",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-22",
+          "player": "Anze Kopitar",
+          "team": "Los Angeles Kings",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto",
+          "card_no": "F-24",
+          "player": "Connor McDavid",
+          "team": "Edmonton Oilers",
+          "tag": "/1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto - Rookies",
+          "card_no": "F-26",
+          "player": "Zachary Bolduc",
+          "team": "St. Louis Blues",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto - Rookies",
+          "card_no": "F-27",
+          "player": "Joshua Roy",
+          "team": "Montreal Canadiens",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto - Rookies",
+          "card_no": "F-30",
+          "player": "Olen Zellweger",
+          "team": "Anaheim Ducks",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto - Rookies",
+          "card_no": "F-36",
+          "player": "Matt Rempe",
+          "team": "New York Rangers",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto - Rookies",
+          "card_no": "F-44",
+          "player": "Josh Doan",
+          "team": "Arizona Coyotes",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Finite Gold Spectrum Auto - Rookies",
+          "card_no": "F-47",
+          "player": "Brennan Othmann",
+          "team": "New York Rangers",
+          "tag": "RC, /1"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-ASNJ",
+          "player": "Seth Jarvis",
+          "team": "Carolina Hurricanes",
+          "tag": "/49"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-BDNH",
+          "player": "Bo Horvat",
+          "team": "New York Islanders",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-BERK",
+          "player": "Kirill Kaprizov",
+          "team": "Minnesota Wild",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-DPTS",
+          "player": "Nick Suzuki",
+          "team": "All Star Team",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-EBCO",
+          "player": "Bobby Orr",
+          "team": "Boston Bruins",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-HHBM",
+          "player": "Dawson Mercer",
+          "team": "New Jersey Devils",
+          "tag": "/49"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-KDJB",
+          "player": "Connor Bedard",
+          "team": "Chicago Blackhawks",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-KFBM",
+          "player": "Trevor Moore",
+          "team": "Los Angeles Kings",
+          "tag": "/49"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-KPZL",
+          "player": "Alexis Lafreniere",
+          "team": "New York Rangers",
+          "tag": "/49"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-LRSD",
+          "player": "Alex DeBrincat",
+          "team": "Detroit Red Wings",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-MCZT",
+          "player": "Troy Terry",
+          "team": "Anaheim Ducks",
+          "tag": "/49"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-MKCG",
+          "player": "Wayne Gretzky",
+          "team": "Edmonton Oilers",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-MMKA",
+          "player": "Sebastian Aho",
+          "team": "All Star Team",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-MNRM",
+          "player": "Mitch Marner",
+          "team": "Toronto Maple Leafs",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-OBMM",
+          "player": "Auston Matthews",
+          "team": "All Star Team",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-PMBH",
+          "player": "Quinn Hughes",
+          "team": "Vancouver Canucks",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-PMLM",
+          "player": "Brad Marchand",
+          "team": "Boston Bruins",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-SHKE",
+          "player": "Jack Eichel",
+          "team": "Vegas Golden Knights",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Auto",
+          "card_no": "SF-TBSN",
+          "player": "Josh Norris",
+          "team": "Ottawa Senators",
+          "tag": "/49"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Force Rookie Auto",
+          "card_no": "SFR-BWCO",
+          "player": "Brennan Othmann",
+          "team": "New York Rangers",
+          "tag": "RC, /99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Holo'd Hardware Autos",
+          "card_no": "HH-AM",
+          "player": "Auston Matthews",
+          "team": "Toronto Maple Leafs",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Holo'd Hardware Autos",
+          "card_no": "HH-BC",
+          "player": "Bobby Clarke",
+          "team": "Philadelphia Flyers",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Holo'd Hardware Autos",
+          "card_no": "HH-CM",
+          "player": "Connor McDavid",
+          "team": "Edmonton Oilers",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Holo'd Hardware Autos",
+          "card_no": "HH-LD",
+          "player": "Leon Draisaitl",
+          "team": "Edmonton Oilers",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Holo'd Hardware Autos",
+          "card_no": "HH-ML",
+          "player": "Mario Lemieux",
+          "team": "Pittsburgh Penguins",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Holo'd Hardware Autos",
+          "card_no": "HH-MM",
+          "player": "Mark Messier",
+          "team": "New York Rangers",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Holo'd Hardware Autos",
+          "card_no": "HH-SC",
+          "player": "Sidney Crosby",
+          "team": "Pittsburgh Penguins",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Holo'd Hardware Autos",
+          "card_no": "HH-WG",
+          "player": "Wayne Gretzky",
+          "team": "Los Angeles Kings",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Salute Autos",
+          "card_no": "S-BO",
+          "player": "Bobby Orr",
+          "team": "Boston Bruins",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Salute Autos",
+          "card_no": "S-CM",
+          "player": "Connor McDavid",
+          "team": "Edmonton Oilers",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Salute Autos",
+          "card_no": "S-SC",
+          "player": "Sidney Crosby",
+          "team": "Pittsburgh Penguins",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — Salute Autos",
+          "card_no": "S-WG",
+          "player": "Wayne Gretzky",
+          "team": "Edmonton Oilers",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-AM",
+          "player": "Auston Matthews",
+          "team": "Toronto Maple Leafs",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-AP",
+          "player": "Artemi Panarin",
+          "team": "New York Rangers",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-BB",
+          "player": "Brock Boeser",
+          "team": "Vancouver Canucks",
+          "tag": "/49"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-BH",
+          "player": "Bo Horvat",
+          "team": "New York Islanders",
+          "tag": "/49"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-CB",
+          "player": "Connor Bedard",
+          "team": "Chicago Blackhawks",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-CM",
+          "player": "Cale Makar",
+          "team": "Colorado Avalanche",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-JD",
+          "player": "Josh Doan",
+          "team": "Arizona Coyotes",
+          "tag": "/99"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-JE",
+          "player": "Jack Eichel",
+          "team": "Vegas Golden Knights",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-JH",
+          "player": "Jack Hughes",
+          "team": "New Jersey Devils",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-JT",
+          "player": "John Tavares",
+          "team": "Toronto Maple Leafs",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-KC",
+          "player": "Kyle Connor",
+          "team": "Winnipeg Jets",
+          "tag": "/49"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-KK",
+          "player": "Kirill Kaprizov",
+          "team": "Minnesota Wild",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-LD",
+          "player": "Leon Draisaitl",
+          "team": "Edmonton Oilers",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-MA",
+          "player": "Mitch Marner",
+          "team": "Toronto Maple Leafs",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-MC",
+          "player": "Connor McDavid",
+          "team": "Edmonton Oilers",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-NS",
+          "player": "Nick Suzuki",
+          "team": "Montreal Canadiens",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-SA",
+          "player": "Sebastian Aho",
+          "team": "Carolina Hurricanes",
+          "tag": "/25"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-SC",
+          "player": "Sidney Crosby",
+          "team": "Pittsburgh Penguins",
+          "tag": "/10"
+        },
+        {
+          "code": "2025_26_upper_deck_spx_hockey_card",
+          "sport": "hockey",
+          "section": "Autograph",
+          "subset": "2024-25 SPx Update — SPxCellence Autos",
+          "card_no": "XC-TM",
+          "player": "Trevor Moore",
+          "team": "Los Angeles Kings",
+          "tag": "/99"
         }
       ],
       "parallels": [
@@ -196163,14 +198635,14 @@
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
-          "applies_to_section": "Insert",
+          "applies_to_section": "Autograph",
           "applies_to_subset": "SuperScripts",
-          "parallel_name": "Gold or Less",
+          "parallel_name": "Gold #/99 or Less",
           "serial_no": "/99"
         },
         {
           "code": "2025_26_upper_deck_spx_hockey_card",
-          "applies_to_section": "Insert",
+          "applies_to_section": "Autograph",
           "applies_to_subset": "SuperScripts Rookie",
           "parallel_name": "Gold",
           "serial_no": "/99"
@@ -196179,7 +198651,7 @@
           "code": "2025_26_upper_deck_spx_hockey_card",
           "applies_to_section": "Autograph",
           "applies_to_subset": "Typography Auto",
-          "parallel_name": "Gold or Less",
+          "parallel_name": "Gold #/99 or Less",
           "serial_no": "/99"
         },
         {
@@ -196405,420 +198877,6 @@
           "applies_to_subset": "Holoview F/X",
           "parallel_name": "Gold",
           "serial_no": "/25"
-        }
-      ],
-      "reviewed_parallel_additions": [
-        {
-          "review_id": "spx-parallel-identity-2026-10-18",
-          "source_url": "https://upperdeck.com/checklist/2025-2026-spx-checklist/",
-          "parallels": [
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base",
-              "parallel_name": "Silver",
-              "serial_no": ""
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base",
-              "parallel_name": "Gold",
-              "serial_no": ""
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base",
-              "parallel_name": "Resonance",
-              "serial_no": "/150"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base",
-              "parallel_name": "Radiance",
-              "serial_no": "/100"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base",
-              "parallel_name": "Grand Finale",
-              "serial_no": "/50"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base",
-              "parallel_name": "Silver Spectrum",
-              "serial_no": "/25"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base",
-              "parallel_name": "Gold Spectrum",
-              "serial_no": "/1"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base Rookies",
-              "parallel_name": "Silver",
-              "serial_no": ""
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base Rookies",
-              "parallel_name": "Gold",
-              "serial_no": ""
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base Rookies",
-              "parallel_name": "Resonance",
-              "serial_no": "/150"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base Rookies",
-              "parallel_name": "Radiance",
-              "serial_no": "/100"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base Rookies",
-              "parallel_name": "Grand Finale",
-              "serial_no": "/50"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base Rookies",
-              "parallel_name": "Silver Spectrum",
-              "serial_no": "/25"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base Rookies",
-              "parallel_name": "Gold Spectrum",
-              "serial_no": "/1"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base Hologram Rookies",
-              "parallel_name": "Blue",
-              "serial_no": "/25"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base Hologram Rookies",
-              "parallel_name": "Red",
-              "serial_no": "/10"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Base",
-              "applies_to_subset": "Base Hologram Rookies",
-              "parallel_name": "Gold",
-              "serial_no": "/1"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Autograph",
-              "applies_to_subset": "Base Rookie Auto Blue",
-              "parallel_name": "Red",
-              "serial_no": "/25"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Autograph",
-              "applies_to_subset": "Base Rookie Auto Blue",
-              "parallel_name": "Gold",
-              "serial_no": "/10"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Autograph",
-              "applies_to_subset": "Base Rookie Auto Blue",
-              "parallel_name": "Black",
-              "serial_no": "/1"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Autograph",
-              "applies_to_subset": "Cold Steel Auto",
-              "parallel_name": "Gold",
-              "serial_no": "/10"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Autograph",
-              "applies_to_subset": "Finite Auto",
-              "parallel_name": "Spectrum",
-              "serial_no": "/1"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Autograph",
-              "applies_to_subset": "Finite Rookie Auto",
-              "parallel_name": "Spectrum",
-              "serial_no": "/1"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "SuperScripts",
-              "parallel_name": "Gold or Less",
-              "serial_no": "/99"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "SuperScripts Rookie",
-              "parallel_name": "Gold",
-              "serial_no": "/99"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Autograph",
-              "applies_to_subset": "Typography Auto",
-              "parallel_name": "Gold or Less",
-              "serial_no": "/99"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "34.5 LBs",
-              "parallel_name": "Blue",
-              "serial_no": "/49"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "34.5 LBs",
-              "parallel_name": "Gold",
-              "serial_no": "/10"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Debut Game Film",
-              "parallel_name": "Blue",
-              "serial_no": "/99"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Debut Game Film",
-              "parallel_name": "Gold",
-              "serial_no": "/10"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Excellence Redefined",
-              "parallel_name": "Blue",
-              "serial_no": "/49"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Excellence Redefined",
-              "parallel_name": "Gold",
-              "serial_no": "/10"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite",
-              "parallel_name": "Bronze",
-              "serial_no": "/599"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite",
-              "parallel_name": "Silver",
-              "serial_no": "/399"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite",
-              "parallel_name": "Gold",
-              "serial_no": "/299"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite",
-              "parallel_name": "Emerald Green",
-              "serial_no": "/199"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite",
-              "parallel_name": "Purple",
-              "serial_no": "/99"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite",
-              "parallel_name": "Amber",
-              "serial_no": "/49"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite",
-              "parallel_name": "Tuxedo",
-              "serial_no": "/25"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite",
-              "parallel_name": "Magenta",
-              "serial_no": "/15"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite",
-              "parallel_name": "Silver Spectrum",
-              "serial_no": "/10"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite",
-              "parallel_name": "Platinum Blue",
-              "serial_no": "/5"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite",
-              "parallel_name": "Gold Spectrum",
-              "serial_no": "/1"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite Rookies",
-              "parallel_name": "Bronze",
-              "serial_no": "/599"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite Rookies",
-              "parallel_name": "Silver",
-              "serial_no": "/399"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite Rookies",
-              "parallel_name": "Gold",
-              "serial_no": "/299"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite Rookies",
-              "parallel_name": "Emerald Green",
-              "serial_no": "/199"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite Rookies",
-              "parallel_name": "Purple",
-              "serial_no": "/99"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite Rookies",
-              "parallel_name": "Amber",
-              "serial_no": "/49"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite Rookies",
-              "parallel_name": "Tuxedo",
-              "serial_no": "/25"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite Rookies",
-              "parallel_name": "Magenta",
-              "serial_no": "/15"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite Rookies",
-              "parallel_name": "Silver Spectrum",
-              "serial_no": "/10"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite Rookies",
-              "parallel_name": "Platinum Blue",
-              "serial_no": "/5"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Finite Rookies",
-              "parallel_name": "Gold Spectrum",
-              "serial_no": "/1"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Game Film",
-              "parallel_name": "Blue",
-              "serial_no": "/99"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Game Film",
-              "parallel_name": "Gold",
-              "serial_no": "/10"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Holoview F/X",
-              "parallel_name": "Blue",
-              "serial_no": "/399"
-            },
-            {
-              "code": "2025_26_upper_deck_spx_hockey_card",
-              "applies_to_section": "Insert",
-              "applies_to_subset": "Holoview F/X",
-              "parallel_name": "Gold",
-              "serial_no": "/25"
-            }
-          ]
         }
       ]
     },
