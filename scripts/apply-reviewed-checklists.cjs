@@ -124,6 +124,29 @@ function apply(root,options={}){
   write(`data/v1/checklists/products/${patch.sport}/${patch.code}.json`,current.product);
   active.set(patch.code,{sport:patch.sport,product:current.product});report.patches.push({code:patch.code,kind:'serial_corrections',corrected});
  }
+ for(const entry of catalog.metadata_corrections||[]){
+  const patch=input(entry),current=getProduct(patch.sport,patch.code);
+  const allowed=new Set(['displayName','product','keywords']);
+  if(!current.product?.rows?.length||current.product.meta.code!==patch.code||current.product.meta.sport!==patch.sport||!patch.source_url||!patch.review_id||!patch.before||!patch.after)throw Error('Missing metadata correction target/evidence');
+  const fields=Object.keys(patch.before);
+  if(!fields.length||fields.length!==Object.keys(patch.after).length||fields.some(k=>!allowed.has(k)||typeof patch.before[k]!=='string'||typeof patch.after[k]!=='string'||!patch.after[k].trim()))throw Error('Metadata correction cannot change product identity');
+  const matches=values=>fields.every(k=>current.product.meta[k]===values[k]);
+  let status='already_correct';
+  if(matches(patch.before)){
+   Object.assign(current.product.meta,patch.after);status='corrected';
+   current.product.reviewed_metadata_corrections=[...(current.product.reviewed_metadata_corrections||[]).filter(p=>p.review_id!==patch.review_id),patch];
+   if(current.file)write(current.file,read(current.file));else write(productPath(patch.sport),current.bundle);
+  }else if(!matches(patch.after)){
+   report.conflicts.push({code:patch.code,reason:'Changed source metadata preserved'});status='source_preserved';
+  }
+  const entries=index.index.filter(e=>e.Code===patch.code&&e.sport===patch.sport);
+  if(entries.length!==1)throw Error('Ambiguous metadata index target');
+  // The selected payload remains authoritative, including a later source edit.
+  Object.assign(entries[0],{DisplayName:current.product.meta.displayName,product:current.product.meta.product,Keywords:current.product.meta.keywords});
+  write(`data/v1/checklists/products/${patch.sport}/${patch.code}.json`,current.product);
+  active.set(patch.code,{sport:patch.sport,product:current.product});
+  report.patches.push({code:patch.code,kind:'metadata',status});
+ }
  const searchBase='data/v1/checklists/search-index/';
  const managed=new Set([...active].map(([code,{sport}])=>sport+'-reviewed-'+slug(code)+'.json'));
  const prune=file=>{

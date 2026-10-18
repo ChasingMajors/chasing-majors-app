@@ -148,3 +148,16 @@ test('Base and bracketed Base share parallels without leaking into other base ch
  assert.deepEqual(Array.from(c.getParallelsForSectionSubset('Base','Base'),r=>r.parallel_name),['Yellow','Gold']);
  assert.deepEqual(Array.from(c.getParallelsForSectionSubset('Base','Base Blackout'),r=>r.parallel_name),['Red']);
 });
+function metadataPatch(f,override={}){
+ const patch={review_id:'product-name-review',code:'new',sport:'basketball',source_url:'https://example.com/checklist',before:{displayName:'2026-27 New Basketball',product:'New'},after:{displayName:'2026-27 Distinct Basketball',product:'Distinct'},...override};
+ f.write('data/cv-reviewed-imports/metadata.json',patch);
+ const c=f.read('data/cv-reviewed-imports/catalog.json');c.metadata_corrections=[{file:'metadata.json',content_sha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(f.root,'data/cv-reviewed-imports/metadata.json'))).digest('hex')}];f.write('data/cv-reviewed-imports/catalog.json',c);
+}
+test('reviewed product names preserve card identities, update index/search/direct copies and are idempotent',()=>{
+ const f=fixture();try{apply(f.root);const before=f.read('data/v1/checklists/products/basketball/new.json');metadataPatch(f);apply(f.root);const after=f.read('data/v1/checklists/products/basketball/new.json');assert.deepEqual(after.rows,before.rows);assert.deepEqual(after.parallels,before.parallels);assert.equal(after.meta.code,'new');assert.equal(after.meta.displayName,'2026-27 Distinct Basketball');assert.equal(f.read('data/v1/checklists/index.json').index.find(e=>e.Code==='new').DisplayName,after.meta.displayName);assert.equal(f.read('data/v1/checklists/search-index/basketball-reviewed-new.json').rows[0].term,after.meta.displayName);assert.deepEqual(apply(f.root).changed_files,[]);
+ const file='data/v1/checklists/products/basketball-reviewed-new.json',source=f.read(file);source.products.new.meta.displayName='Later source title';f.write(file,source);const report=apply(f.root);assert(report.conflicts.some(x=>/metadata preserved/.test(x.reason)));assert.equal(f.read('data/v1/checklists/products/basketball/new.json').meta.displayName,'Later source title');
+ }finally{fs.rmSync(f.root,{recursive:true,force:true});}
+});
+test('metadata corrections cannot change codes or seasons and fail before writing',()=>{
+ const f=fixture();try{apply(f.root);const before=fs.readFileSync(path.join(f.root,'data/v1/checklists/index.json'),'utf8');metadataPatch(f,{before:{year:'2026-27'},after:{year:'2027-28'}});assert.throws(()=>apply(f.root),/cannot change product identity/);assert.equal(fs.readFileSync(path.join(f.root,'data/v1/checklists/index.json'),'utf8'),before);}finally{fs.rmSync(f.root,{recursive:true,force:true});}
+});

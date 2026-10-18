@@ -133528,12 +133528,12 @@
       "ok": true,
       "meta": {
         "code": "2025_Panini_Prizm_Black_Football",
-        "displayName": "2025 Panini Black Football",
-        "keywords": "panini black football 2025 black football black football",
+        "displayName": "2025 Panini Prizm Black Football",
+        "keywords": "2025 Panini Prizm Black Football, panini black football 2025 black football black football",
         "source_key": "2025",
         "year": "2025",
         "manufacturer": "Panini",
-        "product": "Black",
+        "product": "Prizm Black",
         "sport": "football"
       },
       "rows": [
@@ -141263,6 +141263,25 @@
           "applies_to_subset": "Talismen",
           "parallel_name": "Black Prizms",
           "serial_no": "/1"
+        }
+      ],
+      "reviewed_metadata_corrections": [
+        {
+          "review_id": "distinct-product-names-2026-10-18",
+          "code": "2025_Panini_Prizm_Black_Football",
+          "sport": "football",
+          "source_url": "https://www.checklistinsider.com/2025-panini-prizm-black-football",
+          "evidence": "Prizm Black: Kurt Warner Base Autograph Prizm Silver, Base Prospects/Extended, Prizmatrix, Manga and Color Blast. Separate from Black with Smokescreen, Vanta and Capstones.",
+          "before": {
+            "displayName": "2025 Panini Black Football",
+            "product": "Black",
+            "keywords": "panini black football 2025 black football black football"
+          },
+          "after": {
+            "displayName": "2025 Panini Prizm Black Football",
+            "product": "Prizm Black",
+            "keywords": "2025 Panini Prizm Black Football, panini black football 2025 black football black football"
+          }
         }
       ]
     },

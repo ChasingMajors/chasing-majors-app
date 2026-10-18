@@ -790,5 +790,15 @@
       "file": "finest-serial-corrections-2026-10-18.json",
       "content_sha256": "18031908d6594565784f080b6a548f129631e4ce13619779fb38c10e01095c5c"
     }
+  ],
+  "metadata_corrections": [
+    {
+      "file": "baseball-product-name-2026-10-18.json",
+      "content_sha256": "f76b0678a523df1631f2a9e9d949cac540977c65df900754d8c270e9f3dff637"
+    },
+    {
+      "file": "football-product-name-2026-10-18.json",
+      "content_sha256": "9bf009665daf9b0d3f4f171a2f8aad4ce55c370df686ef81aa5e7772f4589d3f"
+    }
   ]
 }

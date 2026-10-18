@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-10-18T14:22:09.811Z",
+  "generated_at": "2026-10-18T15:12:10.180Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -78,7 +78,8 @@
     "baseball-reviewed-2026-topps-holiday-baseball.json",
     "baseball-reviewed-2026-topps-mlb-x-kaws-baseball.json",
     "baseball-reviewed-2026-topps-museum-collection-baseball.json",
-    "baseball-reviewed-2023-topps-chrome-platinum-anniversary-baseball.json"
+    "baseball-reviewed-2023-topps-chrome-platinum-anniversary-baseball.json",
+    "baseball-reviewed-2021-bowman-mega-box-chrome-baseball.json"
   ],
   "product_shards": {
     "2026_bowman_chrome_mega_box_baseball": [
@@ -107,6 +108,9 @@
     ],
     "2023_topps_chrome_platinum_anniversary_baseball": [
       "baseball-reviewed-2023-topps-chrome-platinum-anniversary-baseball.json"
+    ],
+    "2021_bowman_mega_box_chrome_baseball": [
+      "baseball-reviewed-2021-bowman-mega-box-chrome-baseball.json"
     ]
   }
 }

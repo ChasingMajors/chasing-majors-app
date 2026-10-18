@@ -3,7 +3,7 @@
   "sport": "football",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-10-17T14:43:09.847Z",
+  "generated_at": "2026-10-18T15:12:10.180Z",
   "sharded": true,
   "shards": [
     "football-001.json",
@@ -38,7 +38,8 @@
     "football-reviewed-2024-topps-midnight-football.json",
     "football-reviewed-2024-topps-resurgence-football.json",
     "football-reviewed-2024-topps-signature-class-football.json",
-    "football-reviewed-2026-topps-flagship-football.json"
+    "football-reviewed-2026-topps-flagship-football.json",
+    "football-reviewed-2025-panini-prizm-black-football.json"
   ],
   "product_shards": {
     "2026_bowman_university_best_football": [
@@ -88,6 +89,9 @@
     ],
     "2026_topps_flagship_football": [
       "football-reviewed-2026-topps-flagship-football.json"
+    ],
+    "2025_Panini_Prizm_Black_Football": [
+      "football-reviewed-2025-panini-prizm-black-football.json"
     ]
   }
 }

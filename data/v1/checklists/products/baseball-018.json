@@ -72578,12 +72578,12 @@
       "ok": true,
       "meta": {
         "code": "2021_bowman_mega_box_chrome_baseball",
-        "displayName": "2021 Bowman Chrome Mega Box Baseball",
-        "keywords": "2021 Bowman Chrome Mega Box Baseball, Bowman Chrome Mega Box Baseball 2021, 2021 Bowman Chrome Mega Box cards, Bowman Chrome Mega Box baseball cards 2021, 2021 Bowman Chrome Mega Box MLB cards, mojo refractor baseball cards 2021, Bowman Mega Box prospect cards 2021, chromium prospect baseball cards 2021, Bowman Chrome Mega Box rookie cards 2021, Wander Franco Bowman Mega Box cards 2021, Julio Rodriguez Bowman Mega Box cards 2021, Marcelo Mayer Bowman Mega Box cards 2021, 1st Bowman Mega Box cards 2021, Bowman Chrome Mega Box autos 2021, Bowman Mega Box autographs 2021, mojo refractor prospect cards 2021, collectible prospect baseball cards 2021, Bowman Chrome Mega Box parallels 2021, Bowman Chrome Mega Box Baseball checklist 2021, Bowman Mega Box checklist",
+        "displayName": "2021 Bowman Mega Box Chrome Baseball",
+        "keywords": "2021 Bowman Mega Box Chrome Baseball, 2021 Bowman Chrome Mega Box Baseball, Bowman Chrome Mega Box Baseball 2021, 2021 Bowman Chrome Mega Box cards, Bowman Chrome Mega Box baseball cards 2021, 2021 Bowman Chrome Mega Box MLB cards, mojo refractor baseball cards 2021, Bowman Mega Box prospect cards 2021, chromium prospect baseball cards 2021, Bowman Chrome Mega Box rookie cards 2021, Wander Franco Bowman Mega Box cards 2021, Julio Rodriguez Bowman Mega Box cards 2021, Marcelo Mayer Bowman Mega Box cards 2021, 1st Bowman Mega Box cards 2021, Bowman Chrome Mega Box autos 2021, Bowman Mega Box autographs 2021, mojo refractor prospect cards 2021, collectible prospect baseball cards 2021, Bowman Chrome Mega Box parallels 2021, Bowman Chrome Mega Box Baseball checklist 2021, Bowman Mega Box checklist",
         "source_key": "2021",
         "year": "2021",
         "manufacturer": "Bowman",
-        "product": "Chrome Mega Box",
+        "product": "Mega Box Chrome",
         "sport": "baseball"
       },
       "rows": [
@@ -74782,6 +74782,25 @@
           "applies_to_subset": "Rookie of the Year Favorites",
           "parallel_name": "Black",
           "serial_no": "/1"
+        }
+      ],
+      "reviewed_metadata_corrections": [
+        {
+          "review_id": "distinct-product-names-2026-10-18",
+          "code": "2021_bowman_mega_box_chrome_baseball",
+          "sport": "baseball",
+          "source_url": "https://www.checklistcenter.com/2021-bowman-mega-box-chrome-baseball-card-checklist/",
+          "evidence": "Distinct spring release: BCP-1 Bobby Witt Jr., Futurist and Rookie of the Year Favorites. Fall Chrome release starts BCP-151 Victor Acosta and contains Dawn of Glory.",
+          "before": {
+            "displayName": "2021 Bowman Chrome Mega Box Baseball",
+            "product": "Chrome Mega Box",
+            "keywords": "2021 Bowman Chrome Mega Box Baseball, Bowman Chrome Mega Box Baseball 2021, 2021 Bowman Chrome Mega Box cards, Bowman Chrome Mega Box baseball cards 2021, 2021 Bowman Chrome Mega Box MLB cards, mojo refractor baseball cards 2021, Bowman Mega Box prospect cards 2021, chromium prospect baseball cards 2021, Bowman Chrome Mega Box rookie cards 2021, Wander Franco Bowman Mega Box cards 2021, Julio Rodriguez Bowman Mega Box cards 2021, Marcelo Mayer Bowman Mega Box cards 2021, 1st Bowman Mega Box cards 2021, Bowman Chrome Mega Box autos 2021, Bowman Mega Box autographs 2021, mojo refractor prospect cards 2021, collectible prospect baseball cards 2021, Bowman Chrome Mega Box parallels 2021, Bowman Chrome Mega Box Baseball checklist 2021, Bowman Mega Box checklist"
+          },
+          "after": {
+            "displayName": "2021 Bowman Mega Box Chrome Baseball",
+            "product": "Mega Box Chrome",
+            "keywords": "2021 Bowman Mega Box Chrome Baseball, 2021 Bowman Chrome Mega Box Baseball, Bowman Chrome Mega Box Baseball 2021, 2021 Bowman Chrome Mega Box cards, Bowman Chrome Mega Box baseball cards 2021, 2021 Bowman Chrome Mega Box MLB cards, mojo refractor baseball cards 2021, Bowman Mega Box prospect cards 2021, chromium prospect baseball cards 2021, Bowman Chrome Mega Box rookie cards 2021, Wander Franco Bowman Mega Box cards 2021, Julio Rodriguez Bowman Mega Box cards 2021, Marcelo Mayer Bowman Mega Box cards 2021, 1st Bowman Mega Box cards 2021, Bowman Chrome Mega Box autos 2021, Bowman Mega Box autographs 2021, mojo refractor prospect cards 2021, collectible prospect baseball cards 2021, Bowman Chrome Mega Box parallels 2021, Bowman Chrome Mega Box Baseball checklist 2021, Bowman Mega Box checklist"
+          }
         }
       ]
     },
