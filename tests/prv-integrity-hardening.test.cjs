@@ -146,6 +146,41 @@ test('multiple corrupted products still let every healthy product publish',()=>{
  assert.equal(publishedRows+result.report.quarantined.length,inputRows);
 });
 
+test('a null reviewed field VALUE is recorded as a failure, not thrown (line ~109 .length-on-null path)',()=>{
+ const cat=catalog();
+ const target='2025_26_topps_chrome_update_sapphire_basketball';
+ // A reviewed set_name of null passes the field-NAME allowlist but would, before the
+ // value guard, be written onto the row and later blow up at `r.set_name.length` in the
+ // post-review quality/unresolved loop — which sits OUTSIDE the per-product try/catch.
+ const setAction=rule(cat,target).actions.find(a=>a.set);
+ setAction.set={...setAction.set,set_name:null};
+ const records=sources();
+ const before=snapshot(records,target);
+ let result;
+ assert.doesNotThrow(()=>{result=review(records,cat);});
+ assertFailureIsolated(result,target);
+ assert.match(result.report.failed.find(f=>f.code===target).reason,/must be a string/);
+ assertOriginalPreserved(result,target,before);
+ // Every published product still has a string set_name (no null leaked to the length check).
+ for(const rec of result.records){
+  for(const row of rec.product.rows)assert.equal(typeof row.set_name,'string',`set_name must stay a string for ${row.id}`);
+ }
+});
+
+test('a non-string (numeric) reviewed field VALUE is also isolated per-product',()=>{
+ const cat=catalog();
+ const target='2025_26_topps_chrome_update_sapphire_basketball';
+ const setAction=rule(cat,target).actions.find(a=>a.set);
+ setAction.set={...setAction.set,section:42};
+ const records=sources();
+ const before=snapshot(records,target);
+ let result;
+ assert.doesNotThrow(()=>{result=review(records,cat);});
+ assertFailureIsolated(result,target);
+ assert.match(result.report.failed.find(f=>f.code===target).reason,/must be a string/);
+ assertOriginalPreserved(result,target,before);
+});
+
 test('the fingerprint stale_review path is unchanged by hardening',()=>{
  const cat=catalog();
  const records=sources();

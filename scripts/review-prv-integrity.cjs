@@ -54,6 +54,7 @@ function review(records,catalog){
     if(action.quarantine){removed.add(row);localQuarantined.push({source_code:entry.Code,source_row_id:row.id,reason:action.quarantine,row});continue;}
     for(const [key,value] of Object.entries(action.set||{})){
      if(!['set_name','section','category'].includes(key))throw Error('Integrity review cannot change counts or raw evidence');
+     if(typeof value!=='string')throw Error('Integrity review field '+key+' must be a string: '+entry.Code);
      row[key]=value;
     }
     row.identity_review={basis:action.basis,source_url:action.source_url};
