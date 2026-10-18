@@ -1,6 +1,14 @@
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const digest=s=>crypto.createHash('sha256').update(s).digest('hex');
 const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+// Match the publisher's complete search representation so reviewed refreshes retain
+// exact release verification and the same searchable metadata.
+function buildSearchRows(product){
+ const m=product.meta;
+ const common={sport:m.sport,code:m.code,displayName:m.displayName,year:m.year,manufacturer:m.manufacturer,product:m.product};
+ const prefix=[m.displayName,m.keywords,m.year,m.sport,m.manufacturer,m.product];
+ return [{term:m.displayName,type:'product',...common,section:'',subset:'',card_no:'',player:'',team:'',tag:'',search_blob:[...prefix,m.code].filter(Boolean).join(' ')},...product.rows.map(r=>({term:r.player||m.displayName,type:'card',...common,sport:r.sport||m.sport,code:r.code,section:r.section,subset:r.subset,card_no:r.card_no,player:r.player,team:r.team,tag:r.tag,search_blob:[...prefix,r.section,r.subset,r.card_no,r.player,r.team,r.tag,r.code].filter(Boolean).join(' ')}))];
+}
 function apply(root,options={}){
  const stamp=options.stamp||new Date().toISOString(),cache=new Map(),changes=new Map();
  const read=file=>{if(changes.has(file))return changes.get(file);if(!cache.has(file))cache.set(file,JSON.parse(fs.readFileSync(path.join(root,file),'utf8')));return cache.get(file);};
@@ -167,7 +175,7 @@ function apply(root,options={}){
    if(productSport!==sport)continue;
    const meta=product.meta,name=sport+'-reviewed-'+slug(code)+'.json';
    const common={sport,code,displayName:meta.displayName,year:meta.year,manufacturer:meta.manufacturer,product:meta.product};
-   const searchRows=[{...common,term:meta.displayName,type:'product',search_blob:[meta.displayName,meta.keywords].filter(Boolean).join(' ')},...product.rows.map(r=>({...common,...r,term:r.player||r.subset+' '+r.card_no,type:'card',search_blob:[meta.displayName,r.section,r.subset,r.card_no,r.player,r.team,r.tag].filter(Boolean).join(' ')}))];
+   const searchRows=buildSearchRows(product);
    write(searchBase+name,{ok:true,sport,kind:'checklist_search',source:'Reviewed official Topps checklist import',rows:searchRows});
    if(!search.shards.includes(name))search.shards.push(name);
    search.product_shards=search.product_shards||{};search.product_shards[code]=[name];
@@ -189,4 +197,4 @@ function apply(root,options={}){
  report.changed_files=[...changes.keys()];return report;
 }
 if(require.main===module){const report=apply(path.resolve(__dirname,'..'));console.log(JSON.stringify(report));}
-module.exports={apply};
+module.exports={apply,buildSearchRows};
