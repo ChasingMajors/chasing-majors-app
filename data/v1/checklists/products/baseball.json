@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-10-18T20:48:45.206Z",
+  "generated_at": "2026-10-18T20:49:52.609Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -39,7 +39,8 @@
     "baseball-reviewed-2026-topps-holiday-baseball.json",
     "baseball-reviewed-2026-topps-mlb-x-kaws-baseball.json",
     "baseball-reviewed-2026-topps-museum-collection-baseball.json",
-    "baseball-product-1959-topps-series-1-baseball.json"
+    "baseball-product-1959-topps-series-1-baseball.json",
+    "baseball-product-1959-topps-series-2-baseball.json"
   ],
   "product_map": {
     "2021_Topps_Baseball_Series_1": "baseball-001.json",
@@ -731,6 +732,7 @@
     "2026_topps_holiday_baseball": "baseball-reviewed-2026-topps-holiday-baseball.json",
     "2026_topps_mlb_x_kaws_baseball": "baseball-reviewed-2026-topps-mlb-x-kaws-baseball.json",
     "2026_topps_museum_collection_baseball": "baseball-reviewed-2026-topps-museum-collection-baseball.json",
-    "1959_Topps_Series_1_Baseball": "baseball-product-1959-topps-series-1-baseball.json"
+    "1959_Topps_Series_1_Baseball": "baseball-product-1959-topps-series-1-baseball.json",
+    "1959_Topps_Series_2_Baseball": "baseball-product-1959-topps-series-2-baseball.json"
   }
 }
