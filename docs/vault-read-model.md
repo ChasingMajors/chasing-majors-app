@@ -67,3 +67,9 @@ The Hobby-only odds sheet is calibrated using four verified Hobby-exclusive 100-
 ## Reviewed checklist sizes
 
 `data/prv-checklist-sizes.json` stores reviewed subset mappings and official source hashes, separately from print-run calculations. `enrich-prv-checklist-sizes.cjs` applies them during each build. Fill rules affect missing checklist sizes only; an explicit correction must match the expected old value. Original raw rows, measurements and serial stamps remain intact. Missing subsets can be added as checklist-only entries with null print run and null serial, categorized as Checklist sizes. Distinct IDs count multi-signer cards once; source identifier collisions in single-signer lists require separate design review. The displayed Checklist cards value is the parent checklist size, not proof of full parallel participation.
+
+## Identity and serial audit
+
+Run `node scripts/audit-card-identities.cjs <report.json>` for a read-only audit of active CV sport-manifest targets and the structured PRV index. Historical orphan files are excluded. The report records its source revisions and separates exact serials, footnotes, decorations, maximums, reported print runs and corrupted date strings. Candidate product/player/group aliases do not merge identities or change source names. The data workflow publishes the report as a review artifact.
+
+Exact serial normalization accepts positive integer limits, `/N`, `#/N`, and explicit one-of-one forms such as `1/1`. It rejects specimen numbers such as `23/99`, odds such as `1:99`, nonpositive/fractional limits, ambiguous maximums and unknown values. Measurement kind/value and all raw evidence remain unchanged. Conflicting exact serial fields and parenthesized labels are flagged. Product codes, card IDs and player suffixes remain authoritative identifiers until a reviewed mapping establishes otherwise.

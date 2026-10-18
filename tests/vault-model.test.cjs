@@ -43,3 +43,14 @@ test('conflicting legacy counts remain separate and are flagged for review',()=>
  const p=model.product({rows:[{setType:'Base',setLine:'Base',printRun:500},{setType:'Base',setLine:'Base',printRun:600}]},'p');
  assert.equal(p.rows.length,2); assert.ok(p.rows.every(r=>r.issues.includes('Conflicting counts for matching labels')));
 });
+
+test('catalog serial limits normalize exact forms and preserve ambiguous ceilings',()=>{
+ for(const [value,expected] of [['/99',99],['99',99],['#/99',99],['/1,999',1999],['1/1',1],['1 of 1',1],['one-of-one',1],[' / 25 ',25]]) assert.equal(model.serialNumber(value),expected,value);
+ for(const value of ['',0,'/0','/2.5','/199 or less','/Various','23/99','1:99','-1','9999999999999999999999'])assert.equal(model.serialNumber(value),null,String(value));
+ const raw={setType:'Auto',setLine:'Padparadscha',serial:'1/1',printRun:0.7,notes:'Estimated average'};
+ const row=model.row(raw,'p',1);assert.equal(row.serial_limit,1);assert.equal(row.measurement.value,0.7);assert.equal(row.measurement.kind,'average');assert.deepEqual(row.raw,raw);
+});
+test('conflicting explicit serial labels are flagged without rewriting source data',()=>{
+ const r=model.row({serial:'/50',setLine:'Gold (/25)'},'p',1);
+ assert.equal(r.serial_limit,50);assert(r.issues.includes('Serial field and label disagree'));
+});
