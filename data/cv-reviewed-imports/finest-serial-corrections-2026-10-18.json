@@ -1,0 +1,63 @@
+{
+  "review_id": "serial-review-2026-10-18",
+  "code": "2026_Topps_Finest_Premier_League_Soccer",
+  "sport": "soccer",
+  "source_url": "https://www.checklistinsider.com/topps-finest-premier-league",
+  "evidence": {
+    "url": "https://www.checklistinsider.com/topps-finest-premier-league",
+    "type": "checklist_serial_reference",
+    "source_sha256": "e1e4f861b436ce4e6203daea19267942ef7346721ac2ee23b500d50037a30858",
+    "corroborating_url": "https://degreegrading.com/checklists/2025-26-topps-finest-premier-league-soccer/",
+    "basis": "Finest Autographs Blue /99 and Green /75; Finest Moments Autographs Green /75. Official odds/checklist review in data/prv-calculations/finest-premier-league-2026.json establishes the product/subset identity; odds are not used as serial ceilings."
+  },
+  "corrections": [
+    {
+      "before": {
+        "code": "2026_Topps_Finest_Premier_League_Soccer",
+        "applies_to_section": "Autograph",
+        "applies_to_subset": "Finest Autographs",
+        "parallel_name": "Blue Refractor",
+        "serial_no": "/150"
+      },
+      "after": {
+        "code": "2026_Topps_Finest_Premier_League_Soccer",
+        "applies_to_section": "Autograph",
+        "applies_to_subset": "Finest Autographs",
+        "parallel_name": "Blue Refractor",
+        "serial_no": "/99"
+      }
+    },
+    {
+      "before": {
+        "code": "2026_Topps_Finest_Premier_League_Soccer",
+        "applies_to_section": "Autograph",
+        "applies_to_subset": "Finest Autographs",
+        "parallel_name": "Green Refractor",
+        "serial_no": "/99"
+      },
+      "after": {
+        "code": "2026_Topps_Finest_Premier_League_Soccer",
+        "applies_to_section": "Autograph",
+        "applies_to_subset": "Finest Autographs",
+        "parallel_name": "Green Refractor",
+        "serial_no": "/75"
+      }
+    },
+    {
+      "before": {
+        "code": "2026_Topps_Finest_Premier_League_Soccer",
+        "applies_to_section": "Autograph",
+        "applies_to_subset": "Finest Moments Autographs",
+        "parallel_name": "Green Refractor",
+        "serial_no": "/99"
+      },
+      "after": {
+        "code": "2026_Topps_Finest_Premier_League_Soccer",
+        "applies_to_section": "Autograph",
+        "applies_to_subset": "Finest Moments Autographs",
+        "parallel_name": "Green Refractor",
+        "serial_no": "/75"
+      }
+    }
+  ]
+}

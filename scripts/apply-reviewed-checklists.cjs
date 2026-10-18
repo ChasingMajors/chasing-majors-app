@@ -100,6 +100,30 @@ function apply(root,options={}){
   write(`data/v1/checklists/products/${patch.sport}/${patch.code}.json`,current.product);
   active.set(patch.code,{sport:patch.sport,product:current.product});report.patches.push({code:patch.code,kind:'row_corrections',corrected});
  }
+ for(const entry of catalog.serial_corrections||[]){
+  const patch=input(entry),current=getProduct(patch.sport,patch.code);let corrected=0;
+  if(!current.product?.rows?.length||current.product.meta.code!==patch.code||current.product.meta.sport!==patch.sport||!patch.source_url||!patch.review_id||!Array.isArray(patch.corrections))throw Error('Missing serial correction target/evidence');
+  const seen=new Set(),same=(a,b)=>a&&b&&Object.keys(a).length===Object.keys(b).length&&Object.keys(a).every(k=>JSON.stringify(a[k])===JSON.stringify(b[k]));
+  for(const {before,after} of patch.corrections){
+   if(!before||!after||before.code!==patch.code||!before.applies_to_section||!before.applies_to_subset||!before.parallel_name||!/^\/[1-9]\d*$/.test(after.serial_no))throw Error('Invalid reviewed serial correction');
+   const fields=new Set([...Object.keys(before),...Object.keys(after)]);
+   if([...fields].some(k=>k!=='serial_no'&&JSON.stringify(before[k])!==JSON.stringify(after[k])))throw Error('Serial correction cannot change parallel identity');
+   const identity=r=>[r.code,r.applies_to_section,r.applies_to_subset,r.parallel_name].join('\0');
+   const key=identity(before);if(seen.has(key))throw Error('Duplicate serial correction target');seen.add(key);
+   const matches=(current.product.parallels||[]).filter(r=>identity(r)===key);
+   if(matches.length>1)throw Error('Ambiguous serial correction target');
+   const row=matches[0];
+   if(same(row,after))continue;
+   if(!same(row,before)){report.conflicts.push({code:patch.code,subset:before.applies_to_subset,parallel:before.parallel_name,reason:'Changed or missing source parallel preserved'});continue;}
+   Object.assign(row,after);corrected++;
+  }
+  if(corrected){
+   current.product.reviewed_serial_corrections=[...(current.product.reviewed_serial_corrections||[]).filter(p=>p.review_id!==patch.review_id),patch];
+   if(current.file)write(current.file,read(current.file));else write(productPath(patch.sport),current.bundle);
+  }
+  write(`data/v1/checklists/products/${patch.sport}/${patch.code}.json`,current.product);
+  active.set(patch.code,{sport:patch.sport,product:current.product});report.patches.push({code:patch.code,kind:'serial_corrections',corrected});
+ }
  const searchBase='data/v1/checklists/search-index/';
  const managed=new Set([...active].map(([code,{sport}])=>sport+'-reviewed-'+slug(code)+'.json'));
  const prune=file=>{

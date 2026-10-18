@@ -73,3 +73,7 @@ The Hobby-only odds sheet is calibrated using four verified Hobby-exclusive 100-
 Run `node scripts/audit-card-identities.cjs <report.json>` for a read-only audit of active CV sport-manifest targets and the structured PRV index. Historical orphan files are excluded. The report records its source revisions and separates exact serials, footnotes, decorations, maximums, reported print runs and corrupted date strings. Candidate product/player/group aliases do not merge identities or change source names. The data workflow publishes the report as a review artifact.
 
 Exact serial normalization accepts positive integer limits, `/N`, `#/N`, and explicit one-of-one forms such as `1/1`. It rejects specimen numbers such as `23/99`, odds such as `1:99`, nonpositive/fractional limits, ambiguous maximums and unknown values. Measurement kind/value and all raw evidence remain unchanged. Conflicting exact serial fields and parenthesized labels are flagged. Product codes, card IDs and player suffixes remain authoritative identifiers until a reviewed mapping establishes otherwise.
+
+## Reviewed CV serial corrections
+
+The CV import catalog can contain checksum-pinned serial_corrections. Each rule carries source evidence and exact before/after parallel rows. Only serial_no may change; parallel identity and all card data remain intact. The build updates shard/direct payloads and reviewed search entries. Later changed or missing targets are preserved and reported for review. Already corrected exports and repeated builds are no-ops.

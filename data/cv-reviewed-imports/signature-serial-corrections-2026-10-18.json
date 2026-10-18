@@ -1,0 +1,31 @@
+{
+  "review_id": "serial-review-2026-10-18",
+  "code": "2025_26_topps_signature_class_basketball",
+  "sport": "basketball",
+  "source_url": "https://www.blowoutcards.net/images/ss/25tpsignatureclassBK.pdf",
+  "evidence": {
+    "url": "https://www.blowoutcards.net/images/ss/25tpsignatureclassBK.pdf",
+    "type": "manufacturer_sales_sheet_distributor_copy",
+    "source_sha256": "114ae303d21ad935b4a2e03be8eef597665e0ae7406caa4090bb57f39f628200",
+    "page": 7,
+    "basis": "Paper Veteran Class retail Yellow and paper Rookie Class Yellow are /399. Chrome Yellow /275 is a different parallel scope."
+  },
+  "corrections": [
+    {
+      "before": {
+        "code": "2025_26_topps_signature_class_basketball",
+        "applies_to_section": "Base",
+        "applies_to_subset": "Base",
+        "parallel_name": "Yellow",
+        "serial_no": "/199"
+      },
+      "after": {
+        "code": "2025_26_topps_signature_class_basketball",
+        "applies_to_section": "Base",
+        "applies_to_subset": "Base",
+        "parallel_name": "Yellow",
+        "serial_no": "/399"
+      }
+    }
+  ]
+}

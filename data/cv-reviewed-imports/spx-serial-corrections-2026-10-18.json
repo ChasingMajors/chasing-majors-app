@@ -1,0 +1,94 @@
+{
+  "review_id": "serial-review-2026-10-18",
+  "code": "2025_26_spx_hockey",
+  "sport": "hockey",
+  "source_url": "https://upperdeck.com/checklist/2025-2026-spx-checklist/",
+  "evidence": {
+    "url": "https://upperdeck.com/checklist/2025-2026-spx-checklist/",
+    "type": "manufacturer_checklist",
+    "source_sha256": "4b2a9e5f473b4b7ef0434adb4b507666c2ecc81b0f0f9f6b5a4c37036ff4ffb8",
+    "basis": "The numbered column is 1 throughout the corresponding Gold Spectrum, Gold Hologram Rookies and Finite Spectrum Auto groups."
+  },
+  "corrections": [
+    {
+      "before": {
+        "code": "2025_26_spx_hockey",
+        "applies_to_section": "Base",
+        "applies_to_subset": "Base",
+        "parallel_name": "Gold Spectrum",
+        "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+      },
+      "after": {
+        "code": "2025_26_spx_hockey",
+        "applies_to_section": "Base",
+        "applies_to_subset": "Base",
+        "parallel_name": "Gold Spectrum",
+        "serial_no": "/1"
+      }
+    },
+    {
+      "before": {
+        "code": "2025_26_spx_hockey",
+        "applies_to_section": "Base",
+        "applies_to_subset": "Base Rookies",
+        "parallel_name": "Gold Spectrum",
+        "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+      },
+      "after": {
+        "code": "2025_26_spx_hockey",
+        "applies_to_section": "Base",
+        "applies_to_subset": "Base Rookies",
+        "parallel_name": "Gold Spectrum",
+        "serial_no": "/1"
+      }
+    },
+    {
+      "before": {
+        "code": "2025_26_spx_hockey",
+        "applies_to_section": "Base",
+        "applies_to_subset": "Base Hologram Rookies",
+        "parallel_name": "Gold",
+        "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+      },
+      "after": {
+        "code": "2025_26_spx_hockey",
+        "applies_to_section": "Base",
+        "applies_to_subset": "Base Hologram Rookies",
+        "parallel_name": "Gold",
+        "serial_no": "/1"
+      }
+    },
+    {
+      "before": {
+        "code": "2025_26_spx_hockey",
+        "applies_to_section": "Autograph",
+        "applies_to_subset": "Finite Auto",
+        "parallel_name": "Spectrum",
+        "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+      },
+      "after": {
+        "code": "2025_26_spx_hockey",
+        "applies_to_section": "Autograph",
+        "applies_to_subset": "Finite Auto",
+        "parallel_name": "Spectrum",
+        "serial_no": "/1"
+      }
+    },
+    {
+      "before": {
+        "code": "2025_26_spx_hockey",
+        "applies_to_section": "Insert",
+        "applies_to_subset": "Finite",
+        "parallel_name": "Gold Spectrum",
+        "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+      },
+      "after": {
+        "code": "2025_26_spx_hockey",
+        "applies_to_section": "Insert",
+        "applies_to_subset": "Finite",
+        "parallel_name": "Gold Spectrum",
+        "serial_no": "/1"
+      }
+    }
+  ]
+}

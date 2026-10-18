@@ -80263,7 +80263,39 @@
           "applies_to_section": "Autograph",
           "applies_to_subset": "Auto",
           "parallel_name": "SuperFractor",
-          "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+          "serial_no": "/1"
+        }
+      ],
+      "reviewed_serial_corrections": [
+        {
+          "review_id": "serial-review-2026-10-18",
+          "code": "2023_topps_chrome_platinum_anniversary_baseball",
+          "sport": "baseball",
+          "source_url": "https://www.comc.com/Cards/Baseball/2023/Topps_Chrome_Platinum_Anniversary_-_Autographs_-_Green_Refractor/CPA-WBR/Will_Brennan/25825940",
+          "evidence": {
+            "url": "https://www.comc.com/Cards/Baseball/2023/Topps_Chrome_Platinum_Anniversary_-_Autographs_-_Green_Refractor/CPA-WBR/Will_Brennan/25825940",
+            "type": "catalog_cross_reference",
+            "corroborating_url": "https://www.tcdb.com/Checklist.cfm/sid/433620/2023-Topps-Chrome-Platinum-Anniversary---Autographs-SuperFractors",
+            "basis": "COMC autograph parallel matrix lists Superfractor /1; TCDB identifies the autograph SuperFractors as serial numbered 1/1."
+          },
+          "corrections": [
+            {
+              "before": {
+                "code": "2023_topps_chrome_platinum_anniversary_baseball",
+                "applies_to_section": "Autograph",
+                "applies_to_subset": "Auto",
+                "parallel_name": "SuperFractor",
+                "serial_no": "Thu Jan 01 2026 00:00:00 GMT-0700 (Mountain Standard Time)"
+              },
+              "after": {
+                "code": "2023_topps_chrome_platinum_anniversary_baseball",
+                "applies_to_section": "Autograph",
+                "applies_to_subset": "Auto",
+                "parallel_name": "SuperFractor",
+                "serial_no": "/1"
+              }
+            }
+          ]
         }
       ]
     },

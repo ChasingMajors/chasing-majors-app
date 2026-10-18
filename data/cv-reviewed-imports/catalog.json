@@ -772,5 +772,23 @@
       "file": "2026-kaws-name-corrections.json",
       "content_sha256": "f4057caecb536822e7d2992baeccfb01affeda34a966ea101cda8e8bea4e0e5f"
     }
+  ],
+  "serial_corrections": [
+    {
+      "file": "platinum-serial-corrections-2026-10-18.json",
+      "content_sha256": "cb7f541ca65da6b6416053fc751f7e9ad0fa4ee958fd2933de49af52d17095e6"
+    },
+    {
+      "file": "spx-serial-corrections-2026-10-18.json",
+      "content_sha256": "da513c4a2a2be8ae58be78327c647697a574db76573192ecba4d765a70829f71"
+    },
+    {
+      "file": "signature-serial-corrections-2026-10-18.json",
+      "content_sha256": "863cdcfc53d93ef8d2f67882f667d06f6e8fc423628bea259613a7f8b45e6149"
+    },
+    {
+      "file": "finest-serial-corrections-2026-10-18.json",
+      "content_sha256": "18031908d6594565784f080b6a548f129631e4ce13619779fb38c10e01095c5c"
+    }
   ]
 }

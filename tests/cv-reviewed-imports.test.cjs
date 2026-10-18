@@ -107,3 +107,37 @@ test('Base UI keeps overlapping card numbers in their own named checklist',()=>{
  chosen=c.selectBaseChecklist(rows,'The Flagship Collection Chrome Base Cards');assert.equal(chosen.rows.length,90);assert.ok(chosen.rows.every(r=>r.subset==='The Flagship Collection Chrome Base Cards'));
  assert.equal(c.selectBaseChecklist(rows,'Previous product scope').selected.subset,'Base');
 });
+function serialPatch(f,change={}){
+ const before={code:'new',applies_to_section:'Base',applies_to_subset:'Base',parallel_name:'Gold',serial_no:'corrupted date'};
+ const bundle=f.read('data/v1/checklists/products/original.json');bundle.products.new.parallels=[before];f.write('data/v1/checklists/products/original.json',bundle);
+ const after={...before,serial_no:'/1',...change};
+ f.write('data/cv-reviewed-imports/serials.json',{review_id:'serial-review',code:'new',sport:'basketball',source_url:'https://example.com/verified-checklist',corrections:[{before,after}]});
+ const catalog=f.read('data/cv-reviewed-imports/catalog.json');catalog.serial_corrections=[{file:'serials.json',content_sha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(f.root,'data/cv-reviewed-imports/serials.json'))).digest('hex')}];f.write('data/cv-reviewed-imports/catalog.json',catalog);
+}
+test('reviewed serial corrections update shard and direct payload, retain evidence, and repeat safely',()=>{
+ const f=fixture();try{
+  serialPatch(f);const result=apply(f.root);assert.equal(result.patches.find(p=>p.kind==='serial_corrections').corrected,1);
+  const p=f.read('data/v1/checklists/products/basketball/new.json');assert.equal(p.parallels[0].serial_no,'/1');assert.equal(p.reviewed_serial_corrections[0].corrections[0].before.serial_no,'corrupted date');
+  assert.deepEqual(f.read('data/v1/checklists/products/basketball-reviewed-new.json').products.new,p);assert.deepEqual(apply(f.root).changed_files,[]);
+  const file='data/v1/checklists/products/basketball-reviewed-new.json',fresh=f.read(file);fresh.products.new.parallels[0]=Object.fromEntries(Object.entries(p.reviewed_serial_corrections[0].corrections[0].before).reverse());f.write(file,fresh);assert.equal(apply(f.root).patches.find(x=>x.kind==='serial_corrections').corrected,1,'object key order must not invalidate the reviewed row');
+ }finally{fs.rmSync(f.root,{recursive:true,force:true});}
+});
+test('changed or removed serial targets are preserved and reported instead of guessed',()=>{
+ const f=fixture();try{
+  serialPatch(f);apply(f.root);const file='data/v1/checklists/products/basketball-reviewed-new.json',p=f.read(file);p.products.new.parallels[0].serial_no='/10';f.write(file,p);
+  let result=apply(f.root);assert(result.conflicts.some(c=>/Changed or missing/.test(c.reason)));assert.equal(f.read('data/v1/checklists/products/basketball/new.json').parallels[0].serial_no,'/10');
+  p.products.new.parallels=[];f.write(file,p);result=apply(f.root);assert(result.conflicts.some(c=>/Changed or missing/.test(c.reason)));assert.equal(f.read('data/v1/checklists/products/basketball/new.json').parallels.length,0);
+ }finally{fs.rmSync(f.root,{recursive:true,force:true});}
+});
+test('serial correction cannot change a parallel identity or invent a noninteger limit',()=>{
+ for(const change of [{parallel_name:'Other'},{serial_no:'/0'},{serial_no:'/2.5'}]){
+  const f=fixture();try{serialPatch(f,change);const before=f.read('data/v1/manifest.json');assert.throws(()=>apply(f.root),/Serial correction cannot change|Invalid reviewed serial/);assert.deepEqual(f.read('data/v1/manifest.json'),before);}finally{fs.rmSync(f.root,{recursive:true,force:true});}
+ }
+});
+test('duplicate serial correction scopes fail before writing any product files',()=>{
+ const f=fixture();try{
+  serialPatch(f);const file='data/cv-reviewed-imports/serials.json',patch=f.read(file);patch.corrections.push(patch.corrections[0]);f.write(file,patch);
+  const c=f.read('data/cv-reviewed-imports/catalog.json');c.serial_corrections[0].content_sha256=crypto.createHash('sha256').update(fs.readFileSync(path.join(f.root,file))).digest('hex');f.write('data/cv-reviewed-imports/catalog.json',c);
+  assert.throws(()=>apply(f.root),/Duplicate serial correction/);assert.ok(!fs.existsSync(path.join(f.root,'data/v1/checklists/products/basketball/new.json')));
+ }finally{fs.rmSync(f.root,{recursive:true,force:true});}
+});

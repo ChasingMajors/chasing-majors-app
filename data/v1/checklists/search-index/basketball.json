@@ -3,7 +3,7 @@
   "sport": "basketball",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-10-17T14:43:09.847Z",
+  "generated_at": "2026-10-18T14:22:09.811Z",
   "sharded": true,
   "shards": [
     "basketball-001.json",
@@ -32,7 +32,8 @@
     "basketball-product-2025-26-panini-select-basketball-1792089689276-001.json",
     "basketball-product-2026-panini-prizm-wnba-basketball-1792090411294-001.json",
     "basketball-product-2026-donruss-wnba-basketball-1792092270369-001.json",
-    "basketball-reviewed-2026-27-topps-flagship-basketball.json"
+    "basketball-reviewed-2026-27-topps-flagship-basketball.json",
+    "basketball-reviewed-2025-26-topps-signature-class-basketball.json"
   ],
   "product_shards": {
     "2025_26_panini_noir_basketball": [
@@ -49,6 +50,9 @@
     ],
     "2026_27_topps_flagship_basketball": [
       "basketball-reviewed-2026-27-topps-flagship-basketball.json"
+    ],
+    "2025_26_topps_signature_class_basketball": [
+      "basketball-reviewed-2025-26-topps-signature-class-basketball.json"
     ]
   }
 }
