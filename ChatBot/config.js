@@ -10,7 +10,7 @@ window.CMChat.config = {
   RELEASE_SCHEDULE_JSON_URL: "/data/v2/releases/schedule.json",
 
   get PLAYER_META_URL() {
-    return `${this.CHECKLIST_EXEC_URL}?action=playerMetaIndex`;
+    return "https://app.chasingmajors.com/data/v1/players/player-meta.json";
   },
 
   PLAYER_STATS_JSON_URL: "/data/v1/players/mlb-stats.json",
