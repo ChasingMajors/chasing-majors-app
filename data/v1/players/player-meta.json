@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "player-meta-export",
-  "generated_at": "2026-10-18T23:13:11.361Z",
+  "generated_at": "2026-10-18T23:57:07.364Z",
   "players": [
     {
       "sport": "baseball",
@@ -2037,8 +2037,8 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -2404,7 +2404,7 @@
         2019,
         2018
       ],
-      "rc_year": 2018,
+      "rc_year": 2020,
       "rc_year_confidence": "high"
     },
     {
@@ -4452,7 +4452,7 @@
         2019,
         2018
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -4745,7 +4745,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2022,
       "rc_year_confidence": "high"
     },
     {
@@ -5070,7 +5070,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2022,
       "rc_year_confidence": "high"
     },
     {
@@ -7327,7 +7327,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -11028,8 +11028,8 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -11358,7 +11358,7 @@
         2017,
         2016
       ],
-      "rc_year": 2018,
+      "rc_year": 2019,
       "rc_year_confidence": "high"
     },
     {
@@ -20416,7 +20416,7 @@
         2017,
         2016
       ],
-      "rc_year": 2018,
+      "rc_year": 2020,
       "rc_year_confidence": "high"
     },
     {
@@ -20445,7 +20445,7 @@
         2017,
         2016
       ],
-      "rc_year": 2018,
+      "rc_year": 2019,
       "rc_year_confidence": "high"
     },
     {
@@ -20703,7 +20703,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -27516,7 +27516,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -35212,7 +35212,7 @@
         2017,
         2016
       ],
-      "rc_year": 2018,
+      "rc_year": 2022,
       "rc_year_confidence": "high"
     },
     {
@@ -35728,8 +35728,8 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -36182,7 +36182,7 @@
         2017,
         2016
       ],
-      "rc_year": 2018,
+      "rc_year": 2019,
       "rc_year_confidence": "high"
     },
     {
@@ -37097,7 +37097,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -37667,8 +37667,8 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -38782,7 +38782,7 @@
         2018,
         2016
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -50081,7 +50081,7 @@
         2017,
         2016
       ],
-      "rc_year": 2018,
+      "rc_year": 2019,
       "rc_year_confidence": "high"
     },
     {
@@ -52824,7 +52824,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -53685,7 +53685,7 @@
         2017,
         2016
       ],
-      "rc_year": 2018,
+      "rc_year": 2019,
       "rc_year_confidence": "high"
     },
     {
@@ -55541,8 +55541,8 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -60741,7 +60741,7 @@
         2019,
         2018
       ],
-      "rc_year": 2018,
+      "rc_year": 2023,
       "rc_year_confidence": "high"
     },
     {
@@ -63787,7 +63787,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2022,
       "rc_year_confidence": "high"
     },
     {
@@ -65994,7 +65994,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2022,
       "rc_year_confidence": "high"
     },
     {
@@ -66644,8 +66644,8 @@
         2019,
         2018
       ],
-      "rc_year": 2018,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -70955,7 +70955,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2022,
       "rc_year_confidence": "high"
     },
     {
@@ -73034,7 +73034,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -75484,8 +75484,8 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -76215,7 +76215,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -76275,7 +76275,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2023,
       "rc_year_confidence": "high"
     },
     {
@@ -78078,7 +78078,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -82391,7 +82391,7 @@
         2019,
         2018
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -82783,7 +82783,7 @@
         2019,
         2018
       ],
-      "rc_year": 2018,
+      "rc_year": 2023,
       "rc_year_confidence": "high"
     },
     {
@@ -83253,7 +83253,7 @@
         2019,
         2018
       ],
-      "rc_year": 2018,
+      "rc_year": 2024,
       "rc_year_confidence": "high"
     },
     {
@@ -83352,7 +83352,7 @@
         2021,
         2018
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -83409,7 +83409,7 @@
         2017,
         2016
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -88673,7 +88673,7 @@
         2017,
         2016
       ],
-      "rc_year": 2018,
+      "rc_year": 2019,
       "rc_year_confidence": "high"
     },
     {
@@ -89881,7 +89881,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -91373,7 +91373,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2019,
       "rc_year_confidence": "high"
     },
     {
@@ -94482,7 +94482,7 @@
         2017,
         2016
       ],
-      "rc_year": 2018,
+      "rc_year": 2019,
       "rc_year_confidence": "high"
     },
     {
@@ -94520,7 +94520,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2019,
       "rc_year_confidence": "high"
     },
     {
@@ -97332,7 +97332,7 @@
         2019,
         2018
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -99395,7 +99395,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2020,
       "rc_year_confidence": "high"
     },
     {
@@ -100462,7 +100462,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2022,
       "rc_year_confidence": "high"
     },
     {
@@ -104964,7 +104964,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2023,
       "rc_year_confidence": "high"
     },
     {
@@ -106984,7 +106984,7 @@
         2017,
         2016
       ],
-      "rc_year": 2018,
+      "rc_year": 2019,
       "rc_year_confidence": "high"
     },
     {
@@ -107558,7 +107558,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2020,
       "rc_year_confidence": "high"
     },
     {
@@ -109976,8 +109976,8 @@
         2017,
         2016
       ],
-      "rc_year": 2018,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -110102,8 +110102,8 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -114012,7 +114012,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -114251,7 +114251,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2023,
       "rc_year_confidence": "high"
     },
     {
@@ -119240,7 +119240,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -128407,7 +128407,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2024,
       "rc_year_confidence": "high"
     },
     {
@@ -129016,7 +129016,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2022,
       "rc_year_confidence": "high"
     },
     {
@@ -130541,7 +130541,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2022,
       "rc_year_confidence": "high"
     },
     {
@@ -130615,7 +130615,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -134096,7 +134096,7 @@
         2019,
         2018
       ],
-      "rc_year": 2018,
+      "rc_year": 2020,
       "rc_year_confidence": "high"
     },
     {
@@ -135147,7 +135147,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2022,
       "rc_year_confidence": "high"
     },
     {
@@ -135610,7 +135610,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2020,
       "rc_year_confidence": "high"
     },
     {
@@ -137011,7 +137011,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -141719,7 +141719,7 @@
         2017,
         2016
       ],
-      "rc_year": 2018,
+      "rc_year": 2021,
       "rc_year_confidence": "high"
     },
     {
@@ -148105,7 +148105,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2023,
       "rc_year_confidence": "high"
     },
     {
@@ -149219,8 +149219,8 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
-      "rc_year_confidence": "high"
+      "rc_year": null,
+      "rc_year_confidence": "none"
     },
     {
       "sport": "baseball",
@@ -149259,7 +149259,7 @@
         2018,
         2017
       ],
-      "rc_year": 2018,
+      "rc_year": 2023,
       "rc_year_confidence": "high"
     },
     {
@@ -152872,7 +152872,7 @@
         2017,
         2016
       ],
-      "rc_year": 2018,
+      "rc_year": 2019,
       "rc_year_confidence": "high"
     },
     {

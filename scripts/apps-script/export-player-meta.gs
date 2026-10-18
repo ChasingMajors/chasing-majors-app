@@ -139,6 +139,27 @@ function buildPlayerMetaIndex_() {
       .filter(function (y) { return y !== null; })
       .sort(function (a, b) { return a - b; });
 
+    // rc_year + confidence rule. rcYear is the earliest genuine base-RC-token
+    // candidate year (the product year, as before). The accuracy work for B1
+    // lives entirely in the base-RC TOKEN gate (isSafeSoloRcRow_): only a real
+    // whole-token `rc` tag can produce a candidate, which removes the old
+    // `PRC`/`Rookie …` insert false positives. Given a candidate, confidence is
+    // 'high'; with no candidate it is 'none' and rc_year is null.
+    //
+    // We deliberately do NOT demote a base-RC token when a player first appears
+    // in checklists earlier than that token year. Such a "first-appearance gap"
+    // cannot distinguish a late/insert RC (where the true rookie year precedes
+    // the tag) from a PROSPECT who legitimately appears in Bowman/prospect sets
+    // before a correct base-RC tag at his true rookie year (e.g. Gunnar
+    // Henderson: prospect 2019, genuine `RC` at 2023; Julio Rodríguez: prospect
+    // 2017, genuine `RC` at 2022). A gap rule erased ~1000 correctly base-RC-
+    // tagged rookie years, so it is intentionally omitted. The known residual
+    // limitation is a source-tagging gap: a player whose ONLY base-RC token is a
+    // late insert still tagged bare `RC` (e.g. Aaron Judge — his sole solo `RC`
+    // token is 2018 Topps Chrome, while his untagged 2016/2017 rows carry no RC
+    // signal) will report that later year. Fixing that requires correcting the
+    // source tags, not a heuristic that discards correct data.
+    // MIRRORS scripts/build-player-meta.cjs buildPlayers() exactly.
     var rcYear = rcCandidates.length ? rcCandidates[0] : null;
     var rcConfidence = rcYear !== null ? 'high' : 'none';
 
@@ -284,11 +305,32 @@ function extractPrimaryPlayerName_(playerText) {
   return isLikelySoloPlayerName_(firstPiece) ? firstPiece : '';
 }
 
+// RC-candidate gate. A row contributes its PRODUCT year as an rc_year candidate
+// ONLY when the tag denotes a genuine base/true Rookie Card.
+//
+// Rule (grounded in the real tag vocabulary of data/v1/checklists/products,
+// 801 distinct tags): require the standalone, whitespace-delimited token `rc`
+// in the normalized tag — NOT the `rc` substring. normalize_ turns the real
+// delimiters (`|`, `,`, `/`, `-`) into spaces, so every true base-RC tag keeps
+// `rc` as its own token: "RC", "RC /99"->"rc 99", "RC | SP"->"rc sp",
+// "DP, RC"->"dp rc", "YG - RC"->"yg - rc", "Rookie Short Print RC"->
+// "rookie short print rc". The whole-token test REJECTS the tags that merely
+// CONTAIN the letters r-c but are not a base RC:
+//   - "PRC" / "PRC /40" -> "prc" / "prc 40" (promo/parallel code, not a base RC)
+//   - "Rookie", "RY" ("Rookie Year" subset), "Rookie Patch Autographs"
+//     (+ Emerald/Platinum/Black/... variants), "Rookie Dual Patch Autographs",
+//     "Rookie Stars", "Rookie of the Year Award" (inserts / autos / relics /
+//     awards — none carry the `rc` token).
+// `Rookie`/`RY` are deliberately NOT in the allow-set: they are broad, ambiguous
+// labels attached to inserts, parallels, and subsets, so admitting them would
+// re-introduce the over-claiming this fix removes. Prefer NOT-WRONG over coverage.
+// MIRRORS scripts/build-player-meta.cjs isSafeSoloRcRow_ exactly.
 function isSafeSoloRcRow_(row) {
   var tag = normalize_(row.tag || '');
   var rawPlayer = String(row.player == null ? '' : row.player).trim();
   var player = extractPrimaryPlayerName_(rawPlayer);
-  if (tag.indexOf('rc') === -1) return false;
+  var tagTokens = tag.split(' ');
+  if (tagTokens.indexOf('rc') === -1) return false;
   if (!player) return false;
 
   var rawLower = rawPlayer.toLowerCase();
