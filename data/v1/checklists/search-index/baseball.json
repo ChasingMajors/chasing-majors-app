@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-10-18T20:49:52.609Z",
+  "generated_at": "2026-10-18T20:51:44.665Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -81,7 +81,8 @@
     "baseball-reviewed-2023-topps-chrome-platinum-anniversary-baseball.json",
     "baseball-reviewed-2021-bowman-mega-box-chrome-baseball.json",
     "baseball-product-1959-topps-series-1-baseball-1792356527577-001.json",
-    "baseball-product-1959-topps-series-2-baseball-1792356599089-001.json"
+    "baseball-product-1959-topps-series-2-baseball-1792356599089-001.json",
+    "baseball-product-1959-topps-series-3-baseball-1792356707672-001.json"
   ],
   "product_shards": {
     "2026_bowman_chrome_mega_box_baseball": [
@@ -119,6 +120,9 @@
     ],
     "1959_Topps_Series_2_Baseball": [
       "baseball-product-1959-topps-series-2-baseball-1792356599089-001.json"
+    ],
+    "1959_Topps_Series_3_Baseball": [
+      "baseball-product-1959-topps-series-3-baseball-1792356707672-001.json"
     ]
   }
 }
