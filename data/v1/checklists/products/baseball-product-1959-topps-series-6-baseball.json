@@ -1,0 +1,687 @@
+{
+  "ok": true,
+  "sport": "baseball",
+  "kind": "checklist_products",
+  "source": "Product-scoped approved import publish",
+  "generated_at": "2026-10-18T20:56:48.214Z",
+  "products": {
+    "1959_Topps_Series_6_Baseball": {
+      "ok": true,
+      "meta": {
+        "code": "1959_Topps_Series_6_Baseball",
+        "displayName": "1959 Topps Series 6 Baseball",
+        "keywords": "",
+        "source_key": "1950s",
+        "year": "1959",
+        "manufacturer": "Topps",
+        "product": "Series 6",
+        "sport": "baseball",
+        "content_sha256": "7991a9d749fbda93aa209e6d99873908742d631488469c3d33810e17f032880b",
+        "release_id": "owner-cv-catalog-20261018-1959_Topps_Series_6_Baseball"
+      },
+      "rows": [
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "441",
+          "player": "John Roseboro",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "442",
+          "player": "Ray Narleski",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "443",
+          "player": "Daryl Spencer",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "444",
+          "player": "Ron Hansen",
+          "team": "Baltimore Orioles",
+          "tag": "RC"
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "445",
+          "player": "Cal McLish",
+          "team": "Cleveland Indians",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "446",
+          "player": "Rocky Nelson",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "447",
+          "player": "Bob Anderson",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "448",
+          "player": "Vada Pinson",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "449",
+          "player": "Tom Gorman",
+          "team": "Kansas City Athletics",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "450",
+          "player": "Eddie Mathews",
+          "team": "Milwaukee Braves",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "451",
+          "player": "Jim Constable",
+          "team": "Washington Senators",
+          "tag": "RC"
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "452",
+          "player": "Chico Fernandez",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "453",
+          "player": "Les Moss",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "454",
+          "player": "Phil Clark",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "455",
+          "player": "Larry Doby",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "456",
+          "player": "Jerry Casale",
+          "team": "Boston Red Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "457",
+          "player": "Los Angeles Dodgers Team",
+          "team": "Team",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "458",
+          "player": "Gordon Jones",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "459",
+          "player": "Bill Tuttle",
+          "team": "Kansas City Athletics",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "460",
+          "player": "Bob Friend",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "461",
+          "player": "Thrills: Mantle HR Crown",
+          "team": "Insert",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "462",
+          "player": "Thrills: Colavito Catch",
+          "team": "Insert",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "463",
+          "player": "Thrills: Kaline Bat Champ",
+          "team": "Insert",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "464",
+          "player": "Thrills: Mays Catch",
+          "team": "Insert",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "465",
+          "player": "Thrills: Sievers Homer Mark",
+          "team": "Insert",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "466",
+          "player": "Thrills: Pierce All-Star",
+          "team": "Insert",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "467",
+          "player": "Thrills: Aaron WS HR",
+          "team": "Insert",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "468",
+          "player": "Thrills: Snider Play",
+          "team": "Insert",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "469",
+          "player": "Thrills: Banks MVP",
+          "team": "Insert",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "470",
+          "player": "Thrills: Musial 3000 Hit",
+          "team": "Insert",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "471",
+          "player": "Tom Sturdivant",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "472",
+          "player": "Gene Freese",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "473",
+          "player": "Mike Fornieles",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "474",
+          "player": "Moe Thacker",
+          "team": "Chicago Cubs",
+          "tag": "RC"
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "475",
+          "player": "Jack Harshman",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "476",
+          "player": "Cleveland Indians Team",
+          "team": "Team",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "477",
+          "player": "Barry Latman",
+          "team": "Chicago White Sox",
+          "tag": "RC"
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "478",
+          "player": "Roberto Clemente",
+          "team": "Pittsburgh Pirates",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "479",
+          "player": "Lindy McDaniel",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "480",
+          "player": "Red Schoendienst",
+          "team": "Milwaukee Braves",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "481",
+          "player": "Charlie Maxwell",
+          "team": "Detroit Tigers",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "482",
+          "player": "Russ Meyer",
+          "team": "Kansas City Athletics",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "483",
+          "player": "Clint Courtney",
+          "team": "Washington Senators",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "484",
+          "player": "Willie Kirkland",
+          "team": "San Francisco Giants",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "485",
+          "player": "Ryne Duren",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "486",
+          "player": "Sammy White",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "487",
+          "player": "Hal Brown",
+          "team": "Baltimore Orioles",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "488",
+          "player": "Walt Moryn",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "489",
+          "player": "John Powers",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "490",
+          "player": "Frank Thomas",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "491",
+          "player": "Don Blasingame",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "492",
+          "player": "Gene Conley",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "493",
+          "player": "Jim Landis",
+          "team": "Chicago White Sox",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "494",
+          "player": "Don Pavletich",
+          "team": "Cincinnati Reds",
+          "tag": "RC"
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "495",
+          "player": "Johnny Podres",
+          "team": "Los Angeles Dodgers",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "496",
+          "player": "Wayne Terwilliger",
+          "team": "Kansas City Athletics",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "497",
+          "player": "Hal R. Smith",
+          "team": "St. Louis Cardinals",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "498",
+          "player": "Dick Hyde",
+          "team": "Washington Senators",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "499",
+          "player": "Johnny O’Brien",
+          "team": "Milwaukee Braves",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "500",
+          "player": "Vic Wertz",
+          "team": "Boston Red Sox",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "501",
+          "player": "Bobby Tiefenauer",
+          "team": "Cleveland Indians",
+          "tag": "RC"
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "502",
+          "player": "Alvin Dark",
+          "team": "Chicago Cubs",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "503",
+          "player": "Jim Owens",
+          "team": "Philadelphia Phillies",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "504",
+          "player": "Ossie Alvarez",
+          "team": "Detroit Tigers",
+          "tag": "RC"
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "505",
+          "player": "Tony Kubek",
+          "team": "New York Yankees",
+          "tag": ""
+        },
+        {
+          "code": "1959_Topps_Series_6_Baseball",
+          "sport": "baseball",
+          "section": "Base",
+          "subset": "Base",
+          "card_no": "506",
+          "player": "Bob Purkey",
+          "team": "Cincinnati Reds",
+          "tag": ""
+        }
+      ],
+      "parallels": []
+    }
+  }
+}
