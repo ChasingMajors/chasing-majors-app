@@ -834,6 +834,12 @@ function runHomepageHandoffIfPresent() {
   closeDropdown();
 
   const sport = getSportValue() || directSport;
+
+  if (elSport && !getSportValue() && isSportChosen_(sport)) {
+    elSport.value = sport;
+    showAllSportsWarning_(lower(sport) === "all");
+  }
+
   const best = findBestLocalProductMatch(incomingQuery, sport);
 
   if (best) {
@@ -854,6 +860,18 @@ function runHomepageHandoffIfPresent() {
     return;
   }
 
+  if (!isSportChosen_(sport)) {
+    showSportHint_(true);
+    if (elSport && typeof elSport.focus === "function") {
+      elSport.focus();
+    }
+    clearHomepageHandoff();
+    setLoadingState(false);
+    hideBootOverlay(true);
+    return;
+  }
+
+  showSportHint_(false);
   runBroadSearch(incomingQuery, sport, 1).finally(clearHomepageHandoff);
 }
 
