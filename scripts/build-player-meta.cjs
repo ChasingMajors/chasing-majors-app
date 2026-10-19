@@ -279,7 +279,13 @@ function buildPlayers(productsOverride) {
           player_key: playerKey,
           player_name: playerName,
           checklist_years: new Set(),
-          rc_year_candidates: new Set()
+          rc_year_candidates: new Set(),
+          // Count of base-RC-token rows per product year. The COUNT (not just
+          // the presence of a year) is what lets the confidence rule tell a
+          // genuine rookie year (dozens of RC-tagged products) from a stray
+          // late insert still tagged bare `RC` (one or two rows years after the
+          // player debuted). See the confidence rule below.
+          rc_year_counts: Object.create(null)
         };
       }
 
@@ -287,6 +293,10 @@ function buildPlayers(productsOverride) {
 
       if (isSafeSoloRcRow_(row)) {
         agg[aggKey].rc_year_candidates.add(year);
+        const yr = toYearNumber_(year);
+        if (yr !== null) {
+          agg[aggKey].rc_year_counts[yr] = (agg[aggKey].rc_year_counts[yr] || 0) + 1;
+        }
       }
     });
   });
@@ -305,28 +315,55 @@ function buildPlayers(productsOverride) {
       .filter(function (y) { return y !== null; })
       .sort(function (a, b) { return a - b; });
 
-    // rc_year + confidence rule. rcYear is the earliest genuine base-RC-token
-    // candidate year (the product year, as before). The accuracy work for B1
-    // lives entirely in the base-RC TOKEN gate (isSafeSoloRcRow_): only a real
-    // whole-token `rc` tag can produce a candidate, which removes the old
-    // `PRC`/`Rookie …` insert false positives. Given a candidate, confidence is
-    // 'high'; with no candidate it is 'none' and rc_year is null.
+    // rc_year + confidence rule. The candidate year is the earliest product
+    // year that carries a genuine base-RC TOKEN (the token gate in
+    // isSafeSoloRcRow_ already removes the old `PRC`/`Rookie …` insert false
+    // positives). But a whole-token `RC` tag alone is not proof of the true
+    // rookie year: a star's rookie card is frequently reprinted as a bare `RC`
+    // insert years after he debuted. The confidence rule must therefore mark
+    // 'high' ONLY for a clear base-RC signal and otherwise drop the datum,
+    // preferring NOT-WRONG over coverage (the ChatBot consumer prints rc_year
+    // verbatim — ChatBot/app.js:4975 — and ignores confidence, so a non-null
+    // low-confidence year would still surface the wrong claim; the only way to
+    // suppress a wrong year is to null it).
     //
-    // We deliberately do NOT demote a base-RC token when a player first appears
-    // in checklists earlier than that token year. Such a "first-appearance gap"
-    // cannot distinguish a late/insert RC (where the true rookie year precedes
-    // the tag) from a PROSPECT who legitimately appears in Bowman/prospect sets
-    // before a correct base-RC tag at his true rookie year (e.g. Gunnar
-    // Henderson: prospect 2019, genuine `RC` at 2023; Julio Rodríguez: prospect
-    // 2017, genuine `RC` at 2022). A gap rule erased ~1000 correctly base-RC-
-    // tagged rookie years, so it is intentionally omitted. The known residual
-    // limitation is a source-tagging gap: a player whose ONLY base-RC token is a
-    // late insert still tagged bare `RC` (e.g. Aaron Judge — his sole solo `RC`
-    // token is 2018 Topps Chrome, while his untagged 2016/2017 rows carry no RC
-    // signal) will report that later year. Fixing that requires correcting the
-    // source tags, not a heuristic that discards correct data.
-    const rcYear = rcCandidates.length ? rcCandidates[0] : null;
-    const rcConfidence = rcYear !== null ? 'high' : 'none';
+    // A candidate is a CLEAR base-RC signal UNLESS it is both:
+    //   (a) THIN — the RC year has at most RC_TOKEN_THIN_MAX base-RC-token rows
+    //       (a true rookie year is tagged across dozens of products: Ohtani
+    //       2018 = 303 rows, Julio Rodríguez 2022 = 69, Gunnar Henderson 2023 =
+    //       61, Paul Skenes 2024 = 46, Alek Manoah 2021 = 11), AND
+    //   (b) LATE — it trails the player's first checklist appearance by at least
+    //       RC_GAP_MIN years (a genuine rookie year is at/near first appearance).
+    // Only the intersection is demoted: a thin-but-early RC (small/niche set at
+    // the true rookie year) stays 'high', and a late-but-thick RC (a real
+    // prospect's first base RC, e.g. Henderson's 61-row 2023 four years after a
+    // 2019 Bowman prospect appearance) stays 'high'. This is why the rule does
+    // NOT over-prune legitimate prospect RCs the way a bare first-appearance gap
+    // heuristic would.
+    //
+    // When a candidate is both thin and late it is a stray late insert, not the
+    // rookie year, so rc_year is nulled and confidence is 'none' (e.g. Aaron
+    // Judge: his only solo base-RC token is 2 bare `RC` rows on 2018 Topps
+    // Chrome, two years after his 2016 first appearance, while his true 2017 RC
+    // rows are untagged in local data — so the correct outcome is to DROP the
+    // wrong 2018 claim, not to assert it at 'high' and not to fabricate 2017).
+    var RC_TOKEN_THIN_MAX = 2;
+    var RC_GAP_MIN = 2;
+
+    let rcYear = rcCandidates.length ? rcCandidates[0] : null;
+    let rcConfidence = rcYear !== null ? 'high' : 'none';
+
+    if (rcYear !== null) {
+      const rcRowCount = p.rc_year_counts[rcYear] || 0;
+      const earliestChecklistYear = checklistYears.length
+        ? checklistYears[checklistYears.length - 1]
+        : rcYear;
+      const gap = rcYear - earliestChecklistYear;
+      if (rcRowCount <= RC_TOKEN_THIN_MAX && gap >= RC_GAP_MIN) {
+        rcYear = null;
+        rcConfidence = 'none';
+      }
+    }
 
     return {
       sport: p.sport,

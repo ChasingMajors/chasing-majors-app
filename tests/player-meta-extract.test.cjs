@@ -62,21 +62,59 @@ test('tags that merely contain `rc`/`rookie` but are inserts/promos do NOT yield
  }
 });
 
-test('a genuine base-RC token at the true rookie year is KEPT even when the player appears earlier as a prospect',()=>{
- // Prospect-shaped (Gunnar Henderson / Julio Rodríguez): the player appears in
- // Bowman/prospect checklists for several years with no RC tag, then gets a
- // genuine base `RC` at his true rookie year. The earliest base-RC token is the
- // correct rookie year and MUST be retained at high confidence — we do NOT
- // demote it for the earlier prospect appearances. A "first-appearance gap"
- // heuristic would erase ~1000 correctly base-RC-tagged rookie years, so it is
- // intentionally absent.
+test('a THICK base-RC signal at the true rookie year is KEPT even when the player appears earlier as a prospect',()=>{
+ // Prospect-shaped (Gunnar Henderson 2023 = 61 RC rows / Julio Rodríguez 2022 =
+ // 69): the player appears in Bowman/prospect checklists for several years with
+ // no RC tag, then gets a genuine base `RC` across MANY products at his true
+ // rookie year. The earliest base-RC token year is the correct rookie year and
+ // MUST be retained at high confidence. The confidence rule only demotes a
+ // candidate that is BOTH thin AND late; a late-but-thick signal (>2 RC rows)
+ // stays high, so legitimate prospect RCs are NOT over-pruned.
  const prospect=only([
   {meta:{sport:'Baseball',year:'2019'},rows:[{player:'Prospect Rookie',tag:''}]},
   {meta:{sport:'Baseball',year:'2020'},rows:[{player:'Prospect Rookie',tag:''}]},
-  {meta:{sport:'Baseball',year:'2023'},rows:[{player:'Prospect Rookie',tag:'RC'}]}
+  {meta:{sport:'Baseball',year:'2023'},rows:[
+   {player:'Prospect Rookie',tag:'RC'},
+   {player:'Prospect Rookie',tag:'RC /99'},
+   {player:'Prospect Rookie',tag:'RC | SP'}
+  ]}
  ],'Prospect Rookie');
  assert.equal(prospect.rc_year,2023);
  assert.equal(prospect.rc_year_confidence,'high');
+});
+
+test('a THIN, LATE base-RC token (Judge-shaped stray insert) is DROPPED, not asserted as high',()=>{
+ // Judge-shaped: first checklist appearance precedes the only base-RC token by
+ // >=2 years, and that token year is thin (<=2 RC rows). This is a stray late
+ // insert (a reprinted bare `RC` years after the player debuted), not the true
+ // rookie year. Because the ChatBot consumer prints rc_year verbatim and
+ // ignores confidence, the only not-wrong outcome is to DROP it: rc_year null,
+ // confidence none. It must NOT be {rc_year:2018, confidence:'high'}.
+ const judge=only([
+  {meta:{sport:'Baseball',year:'2016'},rows:[{player:'Late Insert Vet',tag:''}]},
+  {meta:{sport:'Baseball',year:'2017'},rows:[{player:'Late Insert Vet',tag:''}]},
+  {meta:{sport:'Baseball',year:'2018'},rows:[
+   {player:'Late Insert Vet',tag:'RC'},
+   {player:'Late Insert Vet',tag:'RC'}
+  ]}
+ ],'Late Insert Vet');
+ assert.notEqual(judge.rc_year_confidence,'high');
+ assert.equal(judge.rc_year,null);
+ assert.equal(judge.rc_year_confidence,'none');
+ assert.ok(!(judge.rc_year===2018&&judge.rc_year_confidence==='high'),
+  'Judge-shaped stray insert must not ship as 2018/high');
+});
+
+test('a THIN but EARLY base-RC token (true rookie year in a small set) stays high',()=>{
+ // Not every thin RC signal is a late insert: a genuine rookie in a niche set
+ // may have only 1-2 RC rows AT his first appearance year. The rule only
+ // demotes thin signals that are ALSO late (>=2y gap), so a thin-but-early RC
+ // (gap 0) is retained at high confidence.
+ const nicheRookie=only([
+  {meta:{sport:'Baseball',year:'2021'},rows:[{player:'Niche Rookie',tag:'RC'}]}
+ ],'Niche Rookie');
+ assert.equal(nicheRookie.rc_year,2021);
+ assert.equal(nicheRookie.rc_year_confidence,'high');
 });
 
 test('earliest base-RC token wins when several RC-tagged years exist',()=>{
