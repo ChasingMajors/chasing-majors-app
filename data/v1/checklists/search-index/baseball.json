@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-10-18T22:16:37.252Z",
+  "generated_at": "2026-10-19T17:00:34.271Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -90,7 +90,99 @@
     "baseball-product-2026-panini-prizm-baseball-1792357357312-001.json",
     "baseball-reviewed-2023-topps-finest-baseball.json",
     "baseball-reviewed-2023-bowman-sapphire-edition-baseball.json",
-    "baseball-reviewed-2023-topps-pristine-baseball.json"
+    "baseball-reviewed-2023-topps-pristine-baseball.json",
+    "baseball-reviewed-1948-bowman-baseball.json",
+    "baseball-reviewed-1948-leaf-baseball.json",
+    "baseball-reviewed-1949-bowman-baseball.json",
+    "baseball-reviewed-1950-bowman-baseball.json",
+    "baseball-reviewed-1951-bowman-baseball.json",
+    "baseball-reviewed-1960-topps-baseball.json",
+    "baseball-reviewed-1961-topps-baseball.json",
+    "baseball-reviewed-1962-topps-baseball.json",
+    "baseball-reviewed-1963-topps-baseball.json",
+    "baseball-reviewed-1964-topps-baseball.json",
+    "baseball-reviewed-1965-topps-baseball.json",
+    "baseball-reviewed-1966-topps-baseball.json",
+    "baseball-reviewed-1967-topps-baseball.json",
+    "baseball-reviewed-1968-topps-baseball.json",
+    "baseball-reviewed-1969-topps-baseball.json",
+    "baseball-reviewed-1970-topps-baseball.json",
+    "baseball-reviewed-1971-topps-baseball.json",
+    "baseball-reviewed-1972-topps-baseball.json",
+    "baseball-reviewed-1973-topps-baseball.json",
+    "baseball-reviewed-1974-topps-baseball.json",
+    "baseball-reviewed-1975-topps-baseball.json",
+    "baseball-reviewed-1976-topps-baseball.json",
+    "baseball-reviewed-1977-topps-baseball.json",
+    "baseball-reviewed-1978-topps-baseball.json",
+    "baseball-reviewed-1979-topps-baseball.json",
+    "baseball-reviewed-1980-topps-baseball.json",
+    "baseball-reviewed-1981-donruss-baseball.json",
+    "baseball-reviewed-1981-fleer-baseball.json",
+    "baseball-reviewed-1981-topps-baseball.json",
+    "baseball-reviewed-1982-donruss-baseball.json",
+    "baseball-reviewed-1982-fleer-baseball.json",
+    "baseball-reviewed-1982-topps-baseball.json",
+    "baseball-reviewed-1983-donruss-baseball.json",
+    "baseball-reviewed-1983-fleer-baseball.json",
+    "baseball-reviewed-1983-topps-baseball.json",
+    "baseball-reviewed-1984-donruss-baseball.json",
+    "baseball-reviewed-1984-fleer-baseball.json",
+    "baseball-reviewed-1984-topps-baseball.json",
+    "baseball-reviewed-1985-donruss-baseball.json",
+    "baseball-reviewed-1985-fleer-baseball.json",
+    "baseball-reviewed-1985-topps-baseball.json",
+    "baseball-reviewed-1986-donruss-baseball.json",
+    "baseball-reviewed-1986-fleer-baseball.json",
+    "baseball-reviewed-1986-sportflics-baseball.json",
+    "baseball-reviewed-1986-topps-baseball.json",
+    "baseball-reviewed-1987-donruss-baseball.json",
+    "baseball-reviewed-1987-fleer-baseball.json",
+    "baseball-reviewed-1987-sportflics-baseball.json",
+    "baseball-reviewed-1987-topps-baseball.json",
+    "baseball-reviewed-1988-donruss-baseball.json",
+    "baseball-reviewed-1988-fleer-baseball.json",
+    "baseball-reviewed-1988-score-baseball.json",
+    "baseball-reviewed-1988-sportflics-baseball.json",
+    "baseball-reviewed-1988-topps-baseball.json",
+    "baseball-reviewed-1989-bowman-baseball.json",
+    "baseball-reviewed-1989-donruss-baseball.json",
+    "baseball-reviewed-1989-fleer-baseball.json",
+    "baseball-reviewed-1989-score-baseball.json",
+    "baseball-reviewed-1989-sportflics-baseball.json",
+    "baseball-reviewed-1989-topps-baseball.json",
+    "baseball-reviewed-1989-upper-deck-baseball.json",
+    "baseball-reviewed-1990-bowman-baseball.json",
+    "baseball-reviewed-1990-donruss-baseball.json",
+    "baseball-reviewed-1990-fleer-baseball.json",
+    "baseball-reviewed-1990-leaf-baseball.json",
+    "baseball-reviewed-1990-score-baseball.json",
+    "baseball-reviewed-1990-topps-baseball.json",
+    "baseball-reviewed-1990-upper-deck-baseball.json",
+    "baseball-reviewed-1991-bowman-baseball.json",
+    "baseball-reviewed-1991-donruss-baseball.json",
+    "baseball-reviewed-1991-fleer-baseball.json",
+    "baseball-reviewed-1991-leaf-baseball.json",
+    "baseball-reviewed-1991-score-baseball.json",
+    "baseball-reviewed-1991-stadium-club-baseball.json",
+    "baseball-reviewed-1991-studio-baseball.json",
+    "baseball-reviewed-1991-topps-baseball.json",
+    "baseball-reviewed-1991-ultra-baseball.json",
+    "baseball-reviewed-1991-upper-deck-baseball.json",
+    "baseball-reviewed-1992-bowman-baseball.json",
+    "baseball-reviewed-1992-donruss-baseball.json",
+    "baseball-reviewed-1992-fleer-baseball.json",
+    "baseball-reviewed-1992-leaf-baseball.json",
+    "baseball-reviewed-1992-o-pee-chee-baseball.json",
+    "baseball-reviewed-1992-o-pee-chee-premier-baseball.json",
+    "baseball-reviewed-1992-pinnacle-baseball.json",
+    "baseball-reviewed-1992-score-baseball.json",
+    "baseball-reviewed-1992-stadium-club-baseball.json",
+    "baseball-reviewed-1992-studio-baseball.json",
+    "baseball-reviewed-1992-topps-baseball.json",
+    "baseball-reviewed-1992-triple-play-baseball.json",
+    "baseball-reviewed-1992-ultra-baseball.json",
+    "baseball-reviewed-1992-upper-deck-baseball.json"
   ],
   "product_shards": {
     "2026_bowman_chrome_mega_box_baseball": [
@@ -155,6 +247,282 @@
     ],
     "2023_topps_pristine_baseball": [
       "baseball-reviewed-2023-topps-pristine-baseball.json"
+    ],
+    "1948_Bowman_Baseball": [
+      "baseball-reviewed-1948-bowman-baseball.json"
+    ],
+    "1948_Leaf_Baseball": [
+      "baseball-reviewed-1948-leaf-baseball.json"
+    ],
+    "1949_Bowman_Baseball": [
+      "baseball-reviewed-1949-bowman-baseball.json"
+    ],
+    "1950_Bowman_Baseball": [
+      "baseball-reviewed-1950-bowman-baseball.json"
+    ],
+    "1951_Bowman_Baseball": [
+      "baseball-reviewed-1951-bowman-baseball.json"
+    ],
+    "1960_Topps_Baseball": [
+      "baseball-reviewed-1960-topps-baseball.json"
+    ],
+    "1961_Topps_Baseball": [
+      "baseball-reviewed-1961-topps-baseball.json"
+    ],
+    "1962_Topps_Baseball": [
+      "baseball-reviewed-1962-topps-baseball.json"
+    ],
+    "1963_Topps_Baseball": [
+      "baseball-reviewed-1963-topps-baseball.json"
+    ],
+    "1964_Topps_Baseball": [
+      "baseball-reviewed-1964-topps-baseball.json"
+    ],
+    "1965_Topps_Baseball": [
+      "baseball-reviewed-1965-topps-baseball.json"
+    ],
+    "1966_Topps_Baseball": [
+      "baseball-reviewed-1966-topps-baseball.json"
+    ],
+    "1967_Topps_Baseball": [
+      "baseball-reviewed-1967-topps-baseball.json"
+    ],
+    "1968_Topps_Baseball": [
+      "baseball-reviewed-1968-topps-baseball.json"
+    ],
+    "1969_Topps_Baseball": [
+      "baseball-reviewed-1969-topps-baseball.json"
+    ],
+    "1970_Topps_Baseball": [
+      "baseball-reviewed-1970-topps-baseball.json"
+    ],
+    "1971_Topps_Baseball": [
+      "baseball-reviewed-1971-topps-baseball.json"
+    ],
+    "1972_Topps_Baseball": [
+      "baseball-reviewed-1972-topps-baseball.json"
+    ],
+    "1973_Topps_Baseball": [
+      "baseball-reviewed-1973-topps-baseball.json"
+    ],
+    "1974_Topps_Baseball": [
+      "baseball-reviewed-1974-topps-baseball.json"
+    ],
+    "1975_Topps_Baseball": [
+      "baseball-reviewed-1975-topps-baseball.json"
+    ],
+    "1976_Topps_Baseball": [
+      "baseball-reviewed-1976-topps-baseball.json"
+    ],
+    "1977_Topps_Baseball": [
+      "baseball-reviewed-1977-topps-baseball.json"
+    ],
+    "1978_Topps_Baseball": [
+      "baseball-reviewed-1978-topps-baseball.json"
+    ],
+    "1979_Topps_Baseball": [
+      "baseball-reviewed-1979-topps-baseball.json"
+    ],
+    "1980_Topps_Baseball": [
+      "baseball-reviewed-1980-topps-baseball.json"
+    ],
+    "1981_Donruss_Baseball": [
+      "baseball-reviewed-1981-donruss-baseball.json"
+    ],
+    "1981_Fleer_Baseball": [
+      "baseball-reviewed-1981-fleer-baseball.json"
+    ],
+    "1981_Topps_Baseball": [
+      "baseball-reviewed-1981-topps-baseball.json"
+    ],
+    "1982_Donruss_Baseball": [
+      "baseball-reviewed-1982-donruss-baseball.json"
+    ],
+    "1982_Fleer_Baseball": [
+      "baseball-reviewed-1982-fleer-baseball.json"
+    ],
+    "1982_Topps_Baseball": [
+      "baseball-reviewed-1982-topps-baseball.json"
+    ],
+    "1983_Donruss_Baseball": [
+      "baseball-reviewed-1983-donruss-baseball.json"
+    ],
+    "1983_Fleer_Baseball": [
+      "baseball-reviewed-1983-fleer-baseball.json"
+    ],
+    "1983_Topps_Baseball": [
+      "baseball-reviewed-1983-topps-baseball.json"
+    ],
+    "1984_Donruss_Baseball": [
+      "baseball-reviewed-1984-donruss-baseball.json"
+    ],
+    "1984_Fleer_Baseball": [
+      "baseball-reviewed-1984-fleer-baseball.json"
+    ],
+    "1984_Topps_Baseball": [
+      "baseball-reviewed-1984-topps-baseball.json"
+    ],
+    "1985_Donruss_Baseball": [
+      "baseball-reviewed-1985-donruss-baseball.json"
+    ],
+    "1985_Fleer_Baseball": [
+      "baseball-reviewed-1985-fleer-baseball.json"
+    ],
+    "1985_Topps_Baseball": [
+      "baseball-reviewed-1985-topps-baseball.json"
+    ],
+    "1986_Donruss_Baseball": [
+      "baseball-reviewed-1986-donruss-baseball.json"
+    ],
+    "1986_Fleer_Baseball": [
+      "baseball-reviewed-1986-fleer-baseball.json"
+    ],
+    "1986_Sportflics_Baseball": [
+      "baseball-reviewed-1986-sportflics-baseball.json"
+    ],
+    "1986_Topps_Baseball": [
+      "baseball-reviewed-1986-topps-baseball.json"
+    ],
+    "1987_Donruss_Baseball": [
+      "baseball-reviewed-1987-donruss-baseball.json"
+    ],
+    "1987_Fleer_Baseball": [
+      "baseball-reviewed-1987-fleer-baseball.json"
+    ],
+    "1987_Sportflics_Baseball": [
+      "baseball-reviewed-1987-sportflics-baseball.json"
+    ],
+    "1987_Topps_Baseball": [
+      "baseball-reviewed-1987-topps-baseball.json"
+    ],
+    "1988_Donruss_Baseball": [
+      "baseball-reviewed-1988-donruss-baseball.json"
+    ],
+    "1988_Fleer_Baseball": [
+      "baseball-reviewed-1988-fleer-baseball.json"
+    ],
+    "1988_Score_Baseball": [
+      "baseball-reviewed-1988-score-baseball.json"
+    ],
+    "1988_Sportflics_Baseball": [
+      "baseball-reviewed-1988-sportflics-baseball.json"
+    ],
+    "1988_Topps_Baseball": [
+      "baseball-reviewed-1988-topps-baseball.json"
+    ],
+    "1989_Bowman_Baseball": [
+      "baseball-reviewed-1989-bowman-baseball.json"
+    ],
+    "1989_Donruss_Baseball": [
+      "baseball-reviewed-1989-donruss-baseball.json"
+    ],
+    "1989_Fleer_Baseball": [
+      "baseball-reviewed-1989-fleer-baseball.json"
+    ],
+    "1989_Score_Baseball": [
+      "baseball-reviewed-1989-score-baseball.json"
+    ],
+    "1989_Sportflics_Baseball": [
+      "baseball-reviewed-1989-sportflics-baseball.json"
+    ],
+    "1989_Topps_Baseball": [
+      "baseball-reviewed-1989-topps-baseball.json"
+    ],
+    "1989_Upper_Deck_Baseball": [
+      "baseball-reviewed-1989-upper-deck-baseball.json"
+    ],
+    "1990_Bowman_Baseball": [
+      "baseball-reviewed-1990-bowman-baseball.json"
+    ],
+    "1990_Donruss_Baseball": [
+      "baseball-reviewed-1990-donruss-baseball.json"
+    ],
+    "1990_Fleer_Baseball": [
+      "baseball-reviewed-1990-fleer-baseball.json"
+    ],
+    "1990_Leaf_Baseball": [
+      "baseball-reviewed-1990-leaf-baseball.json"
+    ],
+    "1990_Score_Baseball": [
+      "baseball-reviewed-1990-score-baseball.json"
+    ],
+    "1990_Topps_Baseball": [
+      "baseball-reviewed-1990-topps-baseball.json"
+    ],
+    "1990_Upper_Deck_Baseball": [
+      "baseball-reviewed-1990-upper-deck-baseball.json"
+    ],
+    "1991_Bowman_Baseball": [
+      "baseball-reviewed-1991-bowman-baseball.json"
+    ],
+    "1991_Donruss_Baseball": [
+      "baseball-reviewed-1991-donruss-baseball.json"
+    ],
+    "1991_Fleer_Baseball": [
+      "baseball-reviewed-1991-fleer-baseball.json"
+    ],
+    "1991_Leaf_Baseball": [
+      "baseball-reviewed-1991-leaf-baseball.json"
+    ],
+    "1991_Score_Baseball": [
+      "baseball-reviewed-1991-score-baseball.json"
+    ],
+    "1991_Stadium_Club_Baseball": [
+      "baseball-reviewed-1991-stadium-club-baseball.json"
+    ],
+    "1991_Studio_Baseball": [
+      "baseball-reviewed-1991-studio-baseball.json"
+    ],
+    "1991_Topps_Baseball": [
+      "baseball-reviewed-1991-topps-baseball.json"
+    ],
+    "1991_Ultra_Baseball": [
+      "baseball-reviewed-1991-ultra-baseball.json"
+    ],
+    "1991_Upper_Deck_Baseball": [
+      "baseball-reviewed-1991-upper-deck-baseball.json"
+    ],
+    "1992_Bowman_Baseball": [
+      "baseball-reviewed-1992-bowman-baseball.json"
+    ],
+    "1992_Donruss_Baseball": [
+      "baseball-reviewed-1992-donruss-baseball.json"
+    ],
+    "1992_Fleer_Baseball": [
+      "baseball-reviewed-1992-fleer-baseball.json"
+    ],
+    "1992_Leaf_Baseball": [
+      "baseball-reviewed-1992-leaf-baseball.json"
+    ],
+    "1992_O_Pee_Chee_Baseball": [
+      "baseball-reviewed-1992-o-pee-chee-baseball.json"
+    ],
+    "1992_O_Pee_Chee_Premier_Baseball": [
+      "baseball-reviewed-1992-o-pee-chee-premier-baseball.json"
+    ],
+    "1992_Pinnacle_Baseball": [
+      "baseball-reviewed-1992-pinnacle-baseball.json"
+    ],
+    "1992_Score_Baseball": [
+      "baseball-reviewed-1992-score-baseball.json"
+    ],
+    "1992_Stadium_Club_Baseball": [
+      "baseball-reviewed-1992-stadium-club-baseball.json"
+    ],
+    "1992_Studio_Baseball": [
+      "baseball-reviewed-1992-studio-baseball.json"
+    ],
+    "1992_Topps_Baseball": [
+      "baseball-reviewed-1992-topps-baseball.json"
+    ],
+    "1992_Triple_Play_Baseball": [
+      "baseball-reviewed-1992-triple-play-baseball.json"
+    ],
+    "1992_Ultra_Baseball": [
+      "baseball-reviewed-1992-ultra-baseball.json"
+    ],
+    "1992_Upper_Deck_Baseball": [
+      "baseball-reviewed-1992-upper-deck-baseball.json"
     ]
   }
 }
