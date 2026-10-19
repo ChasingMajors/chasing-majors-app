@@ -1227,6 +1227,36 @@ async function loadStaticChecklistSearchRows_(sport) {
   return primaryRows.concat(sourceRows);
 }
 
+// No-network variant used by the no-sport typeahead hot path: concatenate rows
+// ONLY from search shards already present in STATIC_CACHE. Issues zero fetches,
+// so it never triggers the multi-hundred-MB all-sports eager download. Returns
+// [] when nothing relevant has been cached yet this session.
+function loadCachedChecklistSearchRows_() {
+  const out = [];
+
+  for (const key of Object.keys(STATIC_CACHE)) {
+    if (!key.startsWith("checklist_search_")) continue;
+
+    const data = STATIC_CACHE[key];
+    if (!data) continue;
+
+    // Skip entries that are shard manifests (they only point at shard files);
+    // their rows arrive via the per-shard cache keys handled below.
+    if (data.sharded && Array.isArray(data.shards) && !data.rows) continue;
+
+    const rawRows = Array.isArray(data)
+      ? data
+      : (data.rows || data.results || data.index || []);
+
+    if (!Array.isArray(rawRows) || !rawRows.length) continue;
+
+    const rows = normalizeSearchRows_(rawRows);
+    for (let i = 0; i < rows.length; i++) out.push(rows[i]);
+  }
+
+  return out;
+}
+
 async function loadStaticChecklistSourceSearchRows_(sportKey) {
   const registry = await loadStaticJsonCached_(
     "checklist_search_source_registry",
@@ -1283,7 +1313,14 @@ async function makeChecklistPlayerTypeaheadHits_(q, sport, limit = 5) {
   const needle = normalizeQuery_(q);
   if (!needle || needle.length < 3) return [];
 
-  const rows = await loadStaticChecklistSearchRows_(sport || "all");
+  // When a sport is selected, load only that sport's shards (unchanged).
+  // When NO sport is selected, do NOT force the all-sports eager download on
+  // every keystroke: enrich only against sport shards already in STATIC_CACHE
+  // (zero new network cost). The instant local product + MLB player hits in
+  // runTypeahead are unaffected and still appear immediately.
+  const rows = sport
+    ? await loadStaticChecklistSearchRows_(sport)
+    : loadCachedChecklistSearchRows_();
   const seen = {};
   const hits = [];
 
