@@ -200,6 +200,27 @@
       outline:none;
     }
 
+    .searchNotice{
+      margin: 0 0 12px;
+      padding: 8px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--cardBorder);
+      background: var(--cardBg);
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    .searchNotice--warn{
+      border-left: 4px solid #e0a106;
+      background: rgba(224,161,6,0.14);
+    }
+
+    .searchNotice[hidden]{
+      display:none;
+    }
+
     .searchWrap{
       position: relative;
       width:100%;
@@ -547,15 +568,19 @@
           <div class="sportWrap">
             <span>Sport</span>
             <select id="sport">
-              <option value="">All Sports</option>
+              <option value="" disabled selected>Select a sport…</option>
               <option value="baseball">Baseball</option>
               <option value="basketball">Basketball</option>
               <option value="football">Football</option>
               <option value="hockey">Hockey</option>
               <option value="soccer">Soccer</option>
+              <option value="all">All sports (slower)</option>
             </select>
           </div>
         </div>
+
+        <div id="sportHint" class="searchNotice" role="status" aria-live="polite" hidden></div>
+        <div id="allSportsWarning" class="searchNotice searchNotice--warn" role="status" aria-live="polite" hidden></div>
 
         <div class="searchWrap">
           <svg class="searchIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -600,6 +625,6 @@
     })();
   </script>
 
-  <script src="/checklists/app.js?v=38"></script>
+  <script src="/checklists/app.js?v=39"></script>
 </body>
 </html>

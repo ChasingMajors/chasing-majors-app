@@ -194,6 +194,33 @@ function getSportValue() {
   return elSport ? elSport.value : "";
 }
 
+function isSportChosen_(value) {
+  const v = lower(value || "");
+  return v === "all" || STATIC_SPORTS.indexOf(v) !== -1;
+}
+
+function showSportHint_(show) {
+  const el = document.getElementById("sportHint");
+  if (!el) return;
+  if (show) {
+    el.textContent = "Select a sport to search";
+    el.hidden = false;
+  } else {
+    el.hidden = true;
+  }
+}
+
+function showAllSportsWarning_(show) {
+  const el = document.getElementById("allSportsWarning");
+  if (!el) return;
+  if (show) {
+    el.textContent = "⚠ Searching all sports is slower and may use more data.";
+    el.hidden = false;
+  } else {
+    el.hidden = true;
+  }
+}
+
 function debounce(fn, wait = 80) {
   clearTimeout(searchTimer);
   searchTimer = setTimeout(fn, wait);
@@ -1790,10 +1817,18 @@ async function runTypeahead() {
   const sport = getSportValue();
   selected = null;
 
+  if (!isSportChosen_(sport)) {
+    closeDropdown();
+    showSportHint_(true);
+    return;
+  }
+
   if (q.length < 2) {
     closeDropdown();
     return;
   }
+
+  showSportHint_(false);
 
   const exactHit = makeExactSearchSuggestion_(q, sport);
   const localHits = [
@@ -1870,6 +1905,11 @@ if (elSport) {
   elSport.addEventListener("change", () => {
     selected = null;
     closeDropdown();
+    const sport = getSportValue();
+    showAllSportsWarning_(lower(sport) === "all");
+    if (isSportChosen_(sport)) {
+      showSportHint_(false);
+    }
     if (norm(elQ.value).length >= 2) {
       runTypeahead();
     }
@@ -1886,11 +1926,23 @@ async function runSearch() {
   const q = norm(elQ.value);
   const sport = getSportValue();
 
+  if (!isSportChosen_(sport)) {
+    showSportHint_(true);
+    if (elSport && typeof elSport.focus === "function") {
+      elSport.focus();
+    }
+    setLoadingState(false);
+    hideBootOverlay(true);
+    return;
+  }
+
   if (!q) {
     setLoadingState(false);
     hideBootOverlay(true);
     return;
   }
+
+  showSportHint_(false);
 
   logEventFireAndForget_({
     event_type: "search_submit",
