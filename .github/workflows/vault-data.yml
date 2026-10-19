@@ -47,7 +47,12 @@ jobs:
             node scripts/apply-reviewed-checklists.cjs
             node scripts/build-vault-data.cjs
             git add data/v1/checklists data/v1/manifest.json data/v2/vault
-            if git diff --cached --quiet; then exit 0; fi
+            if git diff --cached --quiet; then
+              # No derived-data change (e.g. a frontend-only push to checklists/ or vault/).
+              # The new static assets are already on main; Pages still needs a build to serve them.
+              gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
+              exit 0
+            fi
             git commit -m 'Refresh structured Vault data'
             if git push origin HEAD:main; then
               gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
