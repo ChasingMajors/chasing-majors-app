@@ -19,7 +19,17 @@ a{color:inherit;text-underline-offset:3px}
 
 
 .entry small{display:block;color:var(--muted);font-size:12px;margin-top:5px;line-height:1.35}
-.entryNumber strong{font-size:17px;font-variant-numeric:tabular-nums}
+.entryNumber strong{display:block;font-size:17px;font-variant-numeric:tabular-nums}
+.entryQualifier{display:inline-block;margin-top:5px;padding:2px 8px;border:1px solid var(--kvBorder);border-radius:999px;background:var(--inputBg);color:var(--text);font-size:13px;line-height:1.4;overflow-wrap:anywhere}
+
+.entryLegend{margin:4px 0 12px;font-size:13px}
+.entryLegend>summary{cursor:pointer;font-weight:700;color:var(--text);padding:6px 0;list-style:none}
+.entryLegend>summary::-webkit-details-marker{display:none}
+.entryLegend>summary::before{content:"ⓘ ";color:var(--muted)}
+.entryLegend dl{margin:6px 0 0;padding:12px;border:1px solid var(--cardBorder);border-radius:10px;background:var(--inputBg)}
+.entryLegend dt{font-weight:700;margin-top:8px}
+.entryLegend dt:first-child{margin-top:0}
+.entryLegend dd{margin:2px 0 0;color:var(--muted);line-height:1.5}
 .entrySerial,.entrySize{font-size:13px;font-variant-numeric:tabular-nums}
 .entryDetails{padding:0 18px 16px 30px;font-size:13px;line-height:1.6;max-width:760px}
 .mobileLabel{display:none}
@@ -38,6 +48,7 @@ a{color:inherit;text-underline-offset:3px}
  .entryColumns{display:none}
  .entryRow{grid-template-columns:minmax(0,1fr) 100px;gap:10px;padding:16px 4px}
  .entryNumber{text-align:right}
+ .entryQualifier{font-size:12px}
  .entrySerial,.entrySize{font-size:12px;color:var(--muted)}
  .entrySize{text-align:right}
  .mobileLabel{display:inline}

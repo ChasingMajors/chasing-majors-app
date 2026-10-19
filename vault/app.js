@@ -941,7 +941,15 @@ function renderResults(meta, rows) {
         <label>Sort<select id="entrySort"><option value="source">Default order</option><option value="low">Count: low to high</option><option value="name">Name: A–Z</option></select></label>
       </div>
       <div id="entryCount" class="muted" role="status"></div>
-      <div class="entryColumns" aria-hidden="true"><span>Set / parallel</span><span>Print run</span><span>Numbered</span><span>Checklist cards</span></div>
+      <details class="entryLegend">
+        <summary>What do these numbers mean?</summary>
+        <dl>
+          <dt>Print run</dt><dd>The estimated or reported number of copies produced. A qualifier (Reported, Estimated, At least, Up to, Average) says how firm that figure is. "No print-run estimate" means none is known.</dd>
+          <dt>Numbered</dt><dd>The serial limit stamped on each card (e.g. /25) — a per-card ceiling, not a total of how many were made.</dd>
+          <dt>Checklist cards</dt><dd>How many distinct cards make up this subset.</dd>
+        </dl>
+      </details>
+      <div class="entryColumns" aria-hidden="true"><span title="Estimated or reported copies produced">Set / parallel</span><span title="Estimated or reported copies produced">Print run</span><span title="Serial limit stamped per card (e.g. /25) — a ceiling, not a total made">Numbered</span><span title="Distinct cards in this subset">Checklist cards</span></div>
       <div id="entryList"></div>
       <button id="showMore" class="clearBtn" type="button" hidden>Show more entries</button>
     </section>
@@ -975,9 +983,14 @@ function renderEntries() {
   document.getElementById('entryCount').textContent=`${rows.length ? Math.min(rows.length,visibleLimit) : 0} of ${rows.length} entries${category || query ? ' matching filters' : ''}`;
   document.getElementById('entryList').innerHTML=rows.slice(0,visibleLimit).map(r=>{
     const m=r.measurement;
+    const numberedOnly=m.value===null&&r.serial_limit!==null;
+    const qualifier=(numberedOnly?'No print-run estimate':labels[m.kind])+(m.scope==='per_card'?' · per card':'');
+    const srNumber=m.value===null
+      ? (numberedOnly?`No known print run; serial limit /${esc(r.serial_limit)}`:'Print run unknown')
+      : `${qualifier} print run ${fmtNum(m.value)}`;
     return `<div class="entry"><div class="entryRow">
       <span class="entryName"><strong>${esc(r.set_name)}</strong><small>${esc(r.section || r.category)}</small></span>
-      <span class="entryNumber"><strong>${m.value===null?'—':fmtNum(m.value)}</strong><small>${esc(m.value===null&&r.serial_limit!==null?'Numbered only':labels[m.kind])}${m.scope==='per_card'?' · per card':''}</small></span>
+      <span class="entryNumber"><span class="srOnly">${esc(srNumber)}</span><strong aria-hidden="true">${m.value===null?'—':fmtNum(m.value)}</strong><span class="entryQualifier" aria-hidden="true">${esc(qualifier)}</span></span>
       <span class="entrySerial"><span class="mobileLabel">Numbered </span>${r.serial_limit===null?'—':'/'+esc(r.serial_limit)}</span>
       <span class="entrySize"><span class="srOnly">Checklist cards: </span><span class="mobileLabel" aria-hidden="true">Checklist cards </span>${r.checklist_size===null?'—':fmtNum(r.checklist_size)}</span>
       </div></div>`;
