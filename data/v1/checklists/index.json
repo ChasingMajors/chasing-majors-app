@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-10-19T17:00:34.271Z",
+  "generated_at": "2026-10-19T19:07:23.105Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -13772,6 +13772,15 @@
       "sport": "basketball",
       "manufacturer": "Upper",
       "product": "Deck Victory"
+    },
+    {
+      "Code": "2024-panini-luminance-football",
+      "DisplayName": "2024 Panini Luminance Football",
+      "Keywords": "2024 Panini Luminance Football, 2024 Panini Luminance Football checklist, 2024 Panini Luminance Football cards, 2024 Panini Luminance Football autographs",
+      "year": "2024",
+      "sport": "football",
+      "manufacturer": "Panini",
+      "product": "Luminance"
     }
   ]
 }
