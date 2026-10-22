@@ -33,6 +33,8 @@ const HANDOFF_FLAG_KEY = "cm_handoff_active";
 const OVERLAY_MIN_MS = 1200;
 const STATIC_FETCH_TIMEOUT_MS = 3500;
 const STATIC_SPORTS = ["baseball", "basketball", "football", "hockey", "soccer"];
+const CV_SEARCH_ENDPOINT = "https://api.chasingmajors.com/cv-search";
+const CV_SEARCH_TIMEOUT_MS = 4500;
 
 // ---------------- DOM ----------------
 const elQ = document.getElementById("q");
@@ -1411,6 +1413,77 @@ async function searchStaticTypeahead_(q, sport, limit = 10) {
   ).slice(0, limit);
 }
 
+// ---------------- LIVE SEARCH ENDPOINT ----------------
+// Pure URL builder for the /cv-search endpoint. Always encodes q. Includes the
+// sport param only when it is a real chosen sport or the literal "all"; omits
+// it when sport is "" / falsy (contract: sport=<sport|all|omitted>). page is
+// coerced to a positive integer defaulting to 1.
+function buildCvSearchUrl_(endpoint, q, sport, page) {
+  const base = String(endpoint || "");
+  const params = [];
+  params.push("q=" + encodeURIComponent(String(q == null ? "" : q)));
+  const sportVal = String(sport == null ? "" : sport).trim();
+  if (sportVal) {
+    params.push("sport=" + encodeURIComponent(sportVal));
+  }
+  let pageNum = parseInt(page, 10);
+  if (!Number.isFinite(pageNum) || pageNum < 1) pageNum = 1;
+  params.push("page=" + pageNum);
+  const separator = base.includes("?") ? "&" : "?";
+  return base + separator + params.join("&");
+}
+
+// Pure fallback-decision logic: returns true when the caller must fall back to
+// the static search path (bad/empty/non-ok response), false when the endpoint
+// result is usable.
+function shouldFallbackFromEndpointResult_(resp) {
+  if (!resp || typeof resp !== "object") return true;
+  if (resp.ok === false) return true;
+  if (!Array.isArray(resp.results)) return true;
+  return false;
+}
+
+// Query the live /cv-search endpoint, mirroring the fetchJsonWithTimeout_
+// AbortController + timeout pattern. Returns the SAME shape as
+// searchStaticCards_ on success, or null on any failure (HTTP error, bad
+// payload, timeout/abort, network error) so the caller falls back uniformly.
+async function searchViaEndpoint_(q, sport, page = 1) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), CV_SEARCH_TIMEOUT_MS);
+
+  try {
+    const res = await fetch(buildCvSearchUrl_(CV_SEARCH_ENDPOINT, q, sport, page), {
+      method: "GET",
+      cache: "no-store",
+      signal: controller.signal
+    });
+
+    if (!res.ok) throw new Error(`CV search endpoint unavailable: ${res.status}`);
+
+    const json = await res.json();
+    if (shouldFallbackFromEndpointResult_(json)) return null;
+
+    const results = normalizeSearchRows_(json.results);
+    const total = Number(json.total) || results.length;
+    const pageSize = Number(json.pageSize) || BROAD_PAGE_SIZE;
+    const totalPages = Number(json.totalPages) ||
+      (total ? Math.ceil(total / pageSize) : 0);
+
+    return {
+      ok: true,
+      results,
+      total,
+      page: Number(json.page) || page,
+      pageSize,
+      totalPages
+    };
+  } catch (e) {
+    return null;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function searchStaticCards_(q, sport, page = 1, pageSize = BROAD_PAGE_SIZE) {
   const tokens = normalizeQuery_(q).split(/\s+/).filter(Boolean);
   if (!tokens.length) {
@@ -1824,6 +1897,23 @@ function makeProductHitsFromLocalIndex(q, sport, limit = 8) {
   ).slice(0, limit);
 }
 
+// Enrich typeahead with live endpoint results. Runs as part of the existing
+// async enrichment stage (never before the instant local layer), and yields []
+// on any failure so the pre-existing behavior is preserved.
+async function makeEndpointTypeaheadHits_(q, sport, limit = 5) {
+  const data = await searchViaEndpoint_(q, sport, 1);
+  if (!data || !Array.isArray(data.results)) return [];
+  return data.results.slice(0, limit).map(r => ({
+    term: r.term || r.displayName || r.player || "",
+    type: r.type || "product",
+    sport: r.sport || sport || "",
+    code: r.code || "",
+    displayName: r.displayName || r.term || r.player || "",
+    year: r.year || "",
+    player: r.player || ""
+  }));
+}
+
 function mergeTypeaheadResults(localHits, remoteHits, limit = 10) {
   return prioritizeTypeaheadResults_([...(localHits || []), ...(remoteHits || [])], limit);
 }
@@ -1856,14 +1946,19 @@ async function runTypeahead() {
   renderDropdownItems(prioritizeTypeaheadResults_(localHits, 10));
 
   try {
-    const [mlbPlayerHits, checklistPlayerHits] = await Promise.all([
+    const [mlbPlayerHits, checklistPlayerHits, endpointHits] = await Promise.all([
       makeMlbPlayerTypeaheadHits_(q, sport, 4).catch(() => []),
-      makeChecklistPlayerTypeaheadHits_(q, sport, 5).catch(() => [])
+      makeChecklistPlayerTypeaheadHits_(q, sport, 5).catch(() => []),
+      makeEndpointTypeaheadHits_(q, sport, 5).catch(() => [])
     ]);
 
     if (token !== activeTypeaheadToken) return;
 
-    const merged = mergeTypeaheadResults(localHits, [...mlbPlayerHits, ...checklistPlayerHits], 10);
+    const merged = mergeTypeaheadResults(
+      localHits,
+      [...mlbPlayerHits, ...checklistPlayerHits, ...endpointHits],
+      10
+    );
 
     renderDropdownItems(merged);
   } catch (e) {
@@ -2132,7 +2227,15 @@ async function runBroadSearch(q, sport, page = 1) {
   elResults.innerHTML = `<div class="card" style="opacity:.8;">Searching for "${esc(q)}"…</div>`;
 
   try {
-    const cardsPromise = searchStaticCards_(q, sport, page, BROAD_PAGE_SIZE)
+    // Search chain: live endpoint → static shards → Apps Script. The endpoint
+    // is tried first; any failure (null / non-ok shape / timeout) falls back to
+    // the static shard search, and a static failure falls back to Apps Script.
+    const cardsPromise = Promise.resolve()
+      .then(() => searchViaEndpoint_(q, sport, page))
+      .then(r => (r && !shouldFallbackFromEndpointResult_(r))
+        ? r
+        : searchStaticCards_(q, sport, page, BROAD_PAGE_SIZE))
+      .catch(() => searchStaticCards_(q, sport, page, BROAD_PAGE_SIZE))
       .catch(() => api("searchCards", {
         q,
         sport,
