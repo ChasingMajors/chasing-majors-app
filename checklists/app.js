@@ -212,15 +212,13 @@ function showSportHint_(show) {
   }
 }
 
+// Sport-gate relaxed: fast all-sports search exists, so the "(slower)" warning
+// is no longer shown. Kept as a no-op (callers still reference it) that ensures
+// the warning banner stays hidden.
 function showAllSportsWarning_(show) {
   const el = document.getElementById("allSportsWarning");
   if (!el) return;
-  if (show) {
-    el.textContent = "⚠ Searching all sports is slower and may use more data.";
-    el.hidden = false;
-  } else {
-    el.hidden = true;
-  }
+  el.hidden = true;
 }
 
 function debounce(fn, wait = 80) {
@@ -862,17 +860,7 @@ function runHomepageHandoffIfPresent() {
     return;
   }
 
-  if (!isSportChosen_(sport)) {
-    showSportHint_(true);
-    if (elSport && typeof elSport.focus === "function") {
-      elSport.focus();
-    }
-    clearHomepageHandoff();
-    setLoadingState(false);
-    hideBootOverlay(true);
-    return;
-  }
-
+  // Sport-gate relaxed: proceed as an all-sports search when no sport is set.
   showSportHint_(false);
   runBroadSearch(incomingQuery, sport, 1).finally(clearHomepageHandoff);
 }
@@ -1925,12 +1913,9 @@ async function runTypeahead() {
   const sport = getSportValue();
   selected = null;
 
-  if (!isSportChosen_(sport)) {
-    closeDropdown();
-    showSportHint_(true);
-    return;
-  }
-
+  // Sport-gate relaxed: an unset sport is treated as an all-sports search and
+  // proceeds immediately. Fast all-sports search exists via the live endpoint
+  // (with static fallback), so we no longer block typeahead on sport choice.
   if (q.length < 2) {
     closeDropdown();
     return;
@@ -2039,16 +2024,8 @@ async function runSearch() {
   const q = norm(elQ.value);
   const sport = getSportValue();
 
-  if (!isSportChosen_(sport)) {
-    showSportHint_(true);
-    if (elSport && typeof elSport.focus === "function") {
-      elSport.focus();
-    }
-    setLoadingState(false);
-    hideBootOverlay(true);
-    return;
-  }
-
+  // Sport-gate relaxed: an unset sport runs as an all-sports search; no forced
+  // sport selection before searching.
   if (!q) {
     setLoadingState(false);
     hideBootOverlay(true);
