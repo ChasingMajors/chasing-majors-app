@@ -1,0 +1,442 @@
+{
+  "ok": true,
+  "products": {
+    "2026_topps_holiday_baseball": {
+      "ok": true,
+      "meta": {
+        "code": "2026_topps_holiday_baseball",
+        "displayName": "2026 Topps Holiday Baseball",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Holiday",
+        "cmURL": "",
+        "content_sha256": "11aa93dcacdfae98069cb724af224cad367336fafd36f52166033e080877dbd5",
+        "release_id": "f2c80f00-cf62-4006-9034-00a3c3989876"
+      },
+      "rows": [
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Purple Glitter",
+          "printRun": 99,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Metallic Gingerbread Man",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "25th",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Metallic Candy Cane",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Red Metallic",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Metallic Stocking",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Tins",
+          "setLine": "Purple Holiday Lights",
+          "printRun": 99,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Tins",
+          "setLine": "Red Metallic Holiday Lights",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Base",
+          "setLine": "Base Card Production",
+          "printRun": 298870,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Base",
+          "setLine": "Chrome Base",
+          "printRun": 1910,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Glitter Holiday (Mega only)",
+          "printRun": 14295,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Red Foil Holiday (Mega only)- ~86,630",
+          "printRun": 86630,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Green Foil Holiday (Mega only)- ~86,630",
+          "printRun": 86630,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Blue Glitter Holiday (Mega only)",
+          "printRun": 2860,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Light Blue & White Glitter Holiday (Mega & Tin only)",
+          "printRun": 4515,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Snow Days",
+          "printRun": 330,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Base Holiday Lights (Tins only)",
+          "printRun": 13250,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Blue Metallic Holiday Lights (Tins only)",
+          "printRun": 6625,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Base Plaid (Advent only)",
+          "printRun": 17455,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Base Stickers (Advent only)",
+          "printRun": 1455,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Holiday Variation SP",
+          "printRun": 51740,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Holiday Variation Backs SP",
+          "printRun": 51740,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Holiday Variation SSP (25 card CL, Mega & Tins only)",
+          "printRun": 666,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Holiday Variation Backs SSP (25 card CL, Mega & Tins only)",
+          "printRun": 666,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Hidden Elf (25 card CL, Mega & Tins only)",
+          "printRun": 2620,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Chrome Plaid Refractor (Advent only)",
+          "printRun": 1250,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Base Chrome Refractors (Mega only)",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Base Sparkle Refractors (Mega only)",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Insert",
+          "setLine": "Oversized Die Cut Ornament (20 card CL, Mega only)",
+          "printRun": 28590,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Insert",
+          "setLine": "Die Cut Ornament (20 card CL, Tins only)",
+          "printRun": 11040,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Insert",
+          "setLine": "Making the Nice List (25 card CL, Advent only)",
+          "printRun": 107415,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Auto",
+          "setLine": "Base Autos (no checklist out, but based on odds looks to be about 104 subjects deep)",
+          "printRun": 55,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Auto",
+          "setLine": "Holiday Faux Relics Autos - should be numbered.",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Unnumbered Relics",
+          "setLine": "Base Holiday Relics",
+          "printRun": 35,
+          "serial": "",
+          "subSetSize": 45,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Unnumbered Relics",
+          "setLine": "Faux Relics",
+          "printRun": 12,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Unnumbered Relics",
+          "setLine": "Glitter Holiday Relics",
+          "printRun": 12,
+          "serial": "",
+          "subSetSize": 45,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Purple Holiday Lights",
+          "printRun": 99,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Parallel",
+          "setLine": "Red Metallic Holiday Lights",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Auto",
+          "setLine": "Base Holiday Relics",
+          "printRun": 35,
+          "serial": "",
+          "subSetSize": 45,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Auto",
+          "setLine": "Faux Relics",
+          "printRun": 12,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Auto",
+          "setLine": "Glitter Holiday Relics",
+          "printRun": 12,
+          "serial": "",
+          "subSetSize": 45,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        },
+        {
+          "code": "2026_topps_holiday_baseball",
+          "setType": "Auto",
+          "setLine": "<svg xmlns=\"http://www.w3.org/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\"",
+          "printRun": 2000,
+          "serial": "",
+          "subSetSize": 45,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-mlb-deep-dive"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-10-23T21:29:44.720Z"
+}

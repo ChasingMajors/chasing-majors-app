@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-23T21:26:43.899Z",
+  "generated_at": "2026-10-23T21:29:44.720Z",
   "index": [
     {
       "Code": "19TFmbl",
@@ -1111,6 +1111,16 @@
       "sport": "football",
       "manufacturer": "",
       "product": "Heritage",
+      "cmURL": ""
+    },
+    {
+      "Code": "2026_topps_holiday_baseball",
+      "DisplayName": "2026 Topps Holiday Baseball",
+      "Keywords": "2026 Topps Holiday Baseball 2026 Topps Holiday Baseball 2026 Topps Holiday MLB 2026 Holiday Baseball 2026 Holiday MLB 26 Topps Holiday Baseball 26 Topps Holiday MLB Topps Holiday Baseball Topps Holiday MLB Holiday Baseball Holiday MLB 2026 Topps Holiday Baseball print run 2026 Topps Holiday Baseball production 2026 Topps Holiday Baseball odds 2026 Topps Holiday Baseball PRV 2026 Topps Holiday Baseball checklist Topps Holiday checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Holiday",
       "cmURL": ""
     }
   ]
