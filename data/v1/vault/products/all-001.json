@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-23T21:25:29.913Z",
+  "generated_at": "2026-10-23T21:26:43.899Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -24928,19 +24928,6 @@
           "cmURL": "https://slabsquatch.substack.com/p/2026-topps-holiday-football-deep"
         }
       ]
-    },
-    "2026_heritage_football": {
-      "ok": true,
-      "meta": {
-        "code": "2026_heritage_football",
-        "displayName": "2026 Heritage Football",
-        "year": "2026",
-        "sport": "football",
-        "manufacturer": "",
-        "product": "Heritage",
-        "cmURL": ""
-      },
-      "rows": []
     }
   }
 }
