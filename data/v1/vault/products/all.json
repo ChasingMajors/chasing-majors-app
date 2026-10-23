@@ -2,11 +2,10 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-23T21:22:39.048Z",
+  "generated_at": "2026-10-23T21:25:29.913Z",
   "sharded": true,
   "shards": [
-    "all-001.json",
-    "product-2026-topps-holiday-football-8b9a133f-e6de-4894-964e-111abb7516ae.json"
+    "all-001.json"
   ],
   "product_map": {
     "19TFmbl": "all-001.json",
@@ -118,6 +117,7 @@
     "2026_topps_dynamic_duals_baseball": "all-001.json",
     "2026_topps_museum_collection_baseball": "all-001.json",
     "2026_topps_flagship_football": "all-001.json",
-    "2026_topps_holiday_football": "product-2026-topps-holiday-football-8b9a133f-e6de-4894-964e-111abb7516ae.json"
+    "2026_topps_holiday_football": "all-001.json",
+    "2026_heritage_football": "all-001.json"
   }
 }

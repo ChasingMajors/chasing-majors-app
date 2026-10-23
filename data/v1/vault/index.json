@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-23T21:22:39.048Z",
+  "generated_at": "2026-10-23T21:25:29.913Z",
   "index": [
     {
       "Code": "19TFmbl",
@@ -1101,6 +1101,16 @@
       "sport": "football",
       "manufacturer": "Topps",
       "product": "Holiday",
+      "cmURL": ""
+    },
+    {
+      "Code": "2026_heritage_football",
+      "DisplayName": "2026 Heritage Football",
+      "Keywords": "2026 Heritage Football 2026 Heritage Football 2026 Heritage NFL 2026 Heritage Football 2026 Heritage NFL 26 Heritage Football 26 Heritage NFL Heritage Football Heritage NFL Heritage Football Heritage NFL 2026 Heritage Football print run 2026 Heritage Football production 2026 Heritage Football odds 2026 Heritage Football PRV 2026 Heritage Football checklist Heritage checklist",
+      "year": "2026",
+      "sport": "football",
+      "manufacturer": "",
+      "product": "Heritage",
       "cmURL": ""
     }
   ]
