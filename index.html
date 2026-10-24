@@ -1,773 +1,627 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <meta name="theme-color" content="#0b0b0b" />
-  <title>Chasing Majors App</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#ffffff"/>
+<title>Chasing Majors — Every checklist. Every print run. Every chase.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Archivo:wght@600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1d1d1f; --sub:#6e6e73; --faint:#86868b; --line:#d2d2d7;
+    --bg:#ffffff; --bg2:#f5f5f7; --accent:#0071e3; --accent2:#0077ed; --rare:#bf4800; --cmgold:#f7bf4f;
+    --sys:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Helvetica,Arial,sans-serif;
+    --disp:"Archivo",var(--sys);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sys);-webkit-font-smoothing:antialiased;letter-spacing:-.01em}
+  nav{position:sticky;top:0;z-index:50;height:48px;display:flex;align-items:center;justify-content:center;gap:34px;background:rgba(255,255,255,.72);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.06);font-size:12.5px;color:var(--sub)}
+  nav .brand{font-family:"Bangers",cursive;font-size:20px;letter-spacing:.5px;color:var(--ink);text-decoration:none}
+  nav a{color:var(--sub);text-decoration:none}
+  nav a:hover{color:var(--ink)}
+  nav a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  .hero{display:grid;grid-template-columns:1fr 300px;gap:44px;align-items:center;max-width:1000px;margin:0 auto;padding:60px 22px 30px}
+  .hero h1{font-size:52px;line-height:1.04;font-weight:800;margin:0 0 14px;letter-spacing:-.03em;font-family:var(--disp)}
+  .hero p{font-size:20px;line-height:1.4;color:var(--sub);margin:0;max-width:520px}
 
-  <style>
-    :root{
-      --bg:#090909;
-      --panel:#171717;
-      --panel2:#101010;
-      --line:rgba(255,255,255,0.14);
-      --line2:rgba(255,255,255,0.20);
-      --text:#ffffff;
-      --muted:rgba(255,255,255,0.72);
-      --soft:rgba(255,255,255,0.08);
-      --blue:#1e90ff;
-      --blue2:#1577d4;
-      --green:#2fbf71;
-      --gold:#f7bf4f;
-      --red:#f06161;
-      --navH:62px;
-      --max:1120px;
-      --shadow:0 16px 36px rgba(0,0,0,0.34);
-    }
+  .heroCardWrap{display:flex;justify-content:center;perspective:1200px}
+  .heroCard{width:240px;height:336px;border-radius:16px;position:relative;overflow:hidden;
+    transform:rotateY(-15deg) rotateX(6deg);transition:transform .5s ease, background .5s ease;
+    box-shadow:0 34px 64px rgba(0,0,0,.30),0 12px 22px rgba(0,0,0,.16);
+    background:radial-gradient(120% 90% at 30% 10%, #27405f 0%, #0b0b0b 62%);}
+  .heroCardWrap:hover .heroCard{transform:rotateY(-7deg) rotateX(3deg)}
+  .shimmer{position:absolute;inset:0;background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.16) 48%,transparent 62%);mix-blend-mode:screen;animation:sweep 6s ease-in-out infinite;pointer-events:none}
+  @keyframes sweep{0%,100%{transform:translateX(-30%)}50%{transform:translateX(30%)}}
+  .inner{position:absolute;inset:12px;border:1.5px solid rgba(247,191,79,.5);border-radius:11px;display:flex;flex-direction:column;z-index:2;padding:16px}
+  .hc-top{display:flex;align-items:flex-start;justify-content:space-between;height:24px}
+  .hc-mfr{font-family:var(--disp);font-weight:900;font-size:22px;color:#fff;line-height:.95;opacity:0;transition:opacity .4s}
+  .hc-year{font-family:var(--disp);font-weight:800;font-size:12px;color:rgba(255,255,255,.72);letter-spacing:.1em;opacity:0;transition:opacity .4s}
 
-    *{ box-sizing:border-box; }
-    html,body{ min-height:100%; }
+  .art{flex:1;position:relative;display:flex;align-items:center;justify-content:center;margin:10px 0}
+  .artBox{position:relative;width:174px;height:174px}
+  .quad{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;place-items:center;transition:opacity .45s ease, transform .45s ease}
+  .quad .cell{width:66px;height:66px;display:flex;align-items:center;justify-content:center}
+  .quad .cell svg{width:54px;height:54px}
+  .single{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;transform:scale(.55);transition:opacity .45s ease, transform .45s ease}
+  .single svg{width:128px;height:128px}
 
-    body{
-      margin:0;
-      font-family:Arial, sans-serif;
-      background:
-        linear-gradient(180deg, rgba(30,144,255,0.12), transparent 300px),
-        var(--bg);
-      color:var(--text);
-    }
+  /* FILLED silhouettes: solid white fill, seams/lines as negative-space cutouts (card color) */
+  .sil{fill:#fff}
+  .sil-dim{fill:rgba(255,255,255,.5)}
 
-    a{ color:inherit; }
+  .heroCard.searched .quad{opacity:0;transform:scale(.8)}
+  .heroCard.searched .single{opacity:1;transform:scale(1)}
+  .heroCard.searched .hc-mfr,.heroCard.searched .hc-year,.heroCard.searched .hc-set,.heroCard.searched .hc-sport{opacity:1}
 
-    .shell{
-      width:min(var(--max), calc(100% - 32px));
-      margin:0 auto;
-      padding:18px 0 calc(var(--navH) + 34px);
-    }
+  .hc-bottom{text-align:center;height:46px}
+  .hc-set{font-family:var(--disp);font-weight:900;font-size:19px;color:#fff;line-height:1.05;opacity:0;transition:opacity .4s}
+  .hc-sport{font-family:var(--disp);font-weight:700;font-size:10px;color:var(--cmgold);letter-spacing:.16em;text-transform:uppercase;margin-top:6px;opacity:0;transition:opacity .4s}
+  .hc-hint{position:absolute;left:0;right:0;bottom:17px;text-align:center;font-family:var(--disp);font-weight:700;font-size:10px;color:rgba(255,255,255,.5);letter-spacing:.18em;text-transform:uppercase;transition:opacity .4s;z-index:3}
+  .heroCard.searched .hc-hint{opacity:0}
 
-    .topbar{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:16px;
-      margin-bottom:18px;
-    }
+  .searchWrap{max-width:680px;margin:26px auto 0;padding:0 22px}
+  .search{display:flex;align-items:center;gap:12px;background:var(--bg2);border:1px solid transparent;border-radius:980px;padding:0 10px 0 22px;height:58px;transition:border-color .2s,box-shadow .2s}
+  .search:focus-within{border-color:var(--accent);box-shadow:0 0 0 4px rgba(0,113,227,.12);background:#fff}
+  .search svg{flex:0 0 auto;opacity:.5}
+  .search input{flex:1;border:0;background:transparent;outline:none;font-size:18px;color:var(--ink);font-family:var(--sys);min-width:0}
+  .search input::placeholder{color:var(--faint)}
+  .goBtn{flex:0 0 auto;height:42px;padding:0 22px;border:0;border-radius:980px;background:var(--accent);color:#fff;font-size:15px;font-weight:500;cursor:pointer}
+  .goBtn:hover{background:var(--accent2)}
+  .goBtn:focus-visible,.search input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .scopes{display:flex;justify-content:center;gap:8px;margin:16px auto 0;flex-wrap:wrap;max-width:680px;padding:0 22px}
+  .scope{font-size:13px;color:var(--sub);background:transparent;border:1px solid var(--line);cursor:pointer;padding:7px 14px;border-radius:980px;font-weight:600;transition:background .15s,color .15s,border-color .15s}
+  .scope:hover{color:var(--ink);border-color:var(--sub)}
+  .scope.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .scope:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 
-    .brand{
-      display:flex;
-      align-items:baseline;
-      gap:10px;
-      min-width:0;
-    }
+  /* recently-updated ticker — modern marquee, slow, pauses on hover */
+  .ticker{max-width:1000px;margin:34px auto 0;padding:0 22px}
+  .tickerInner{position:relative;overflow:hidden;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    padding:12px 0;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);
+    mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+  .tickerLabel{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);
+    text-align:center;margin-bottom:12px}
+  .tickerTrack{display:inline-flex;gap:14px;white-space:nowrap;will-change:transform;
+    animation:scroll 40s linear infinite}
+  .tickerInner:hover .tickerTrack{animation-play-state:paused}
+  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .tItem{display:inline-flex;align-items:center;gap:9px;padding:7px 15px;border:1px solid var(--line);
+    border-radius:980px;font-size:13.5px;color:var(--ink);text-decoration:none;background:#fff}
+  .tItem:hover{border-color:var(--sub)}
+  .tItem:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .tItem .tag{font-size:9px;font-weight:800;letter-spacing:.05em;padding:2px 6px;border-radius:980px}
+  .tItem .tag.cv{background:rgba(0,113,227,.12);color:#0062c4}
+  .tItem .tag.prv{background:rgba(191,72,0,.12);color:var(--rare)}
+  @media(prefers-reduced-motion:reduce){.tickerTrack{animation:none}}
 
-    .logo{
-      font-family:"Bangers", cursive;
-      font-size:36px;
-      line-height:1;
-      letter-spacing:1px;
-      white-space:nowrap;
-    }
+  /* Results */
+  .results{max-width:820px;margin:34px auto 0;padding:0 22px 80px}
+  .resultsHead{font-size:13px;color:var(--faint);letter-spacing:.02em;margin:0 0 14px;font-weight:600}
+  .resultCard{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin-bottom:16px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+  .resultKicker{font-family:var(--disp);font-weight:700;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin:0 0 6px}
+  .resultTitle{font-family:var(--disp);font-weight:800;font-size:26px;line-height:1.08;margin:0 0 4px;letter-spacing:-.02em}
+  .resultTitle a{color:var(--ink);text-decoration:none}
+  .resultTitle a:hover{color:var(--accent)}
+  .prodCols{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:18px}
+  .prodCol h3{font-family:var(--disp);font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--sub);margin:0 0 10px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  .prodCol p{margin:0;color:var(--sub);font-size:14px;line-height:1.5}
+  .prodCol a.colLink{color:var(--accent);text-decoration:none;font-size:14px;font-weight:600}
+  .prodCol a.colLink:hover{text-decoration:underline}
+  .ladder{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+  .ladder li{display:flex;align-items:baseline;justify-content:space-between;gap:12px;font-size:14px;line-height:1.35;border-bottom:1px dashed rgba(0,0,0,.08);padding-bottom:7px}
+  .ladder li:last-child{border-bottom:0;padding-bottom:0}
+  .ladder .lName{color:var(--ink);min-width:0}
+  .ladder .lName small{display:block;color:var(--faint);font-size:12px;font-weight:400}
+  .ladder .lVal{flex:0 0 auto;font-family:var(--disp);font-weight:800;font-size:14px;color:var(--rare);white-space:nowrap}
+  .ladder .lVal.plain{color:var(--sub)}
+  .prvEmpty{margin:0;color:var(--faint);font-size:14px;line-height:1.5;font-style:italic}
 
-    .status{
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      color:var(--muted);
-      font-size:12px;
-      font-weight:800;
-      white-space:nowrap;
-    }
+  .cardRow{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;background:#fff;border:1px solid var(--line);border-radius:14px;padding:13px 18px;margin-bottom:10px;font-size:14px}
+  .cardRow .cardNo{font-family:var(--disp);font-weight:800;color:var(--faint);min-width:30px}
+  .cardRow .cardPlayer{font-weight:700;color:var(--ink)}
+  .cardRow .cardPlayer a{color:inherit;text-decoration:none}
+  .cardRow .cardPlayer a:hover{color:var(--accent)}
+  .cardRow .cardMeta{color:var(--sub)}
+  .cardRow .cardTag{margin-left:auto;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);background:rgba(0,113,227,.08);border-radius:980px;padding:3px 10px}
 
-    .statusDot{
-      width:8px;
-      height:8px;
-      border-radius:999px;
-      background:var(--green);
-      box-shadow:0 0 14px rgba(47,191,113,0.8);
-    }
+  .noResults{text-align:center;color:var(--sub);padding:40px 0;font-size:16px}
+  .noResults b{color:var(--ink)}
+  .loading{text-align:center;color:var(--faint);padding:30px 0;font-size:14px}
 
-    .hero{
-      display:grid;
-      grid-template-columns:minmax(0, 1.18fr) minmax(320px, 0.82fr);
-      gap:14px;
-      align-items:stretch;
-      margin-bottom:14px;
-    }
+  svg{display:block}
 
-    .heroMain,
-    .assistantPanel,
-    .toolPanel,
-    .searchPanel{
-      border:1px solid var(--line);
-      border-radius:8px;
-      background:rgba(255,255,255,0.07);
-      box-shadow:var(--shadow);
-    }
-
-    .heroMain{
-      padding:22px;
-      display:flex;
-      flex-direction:column;
-      min-width:0;
-    }
-
-    .eyebrow{
-      display:inline-flex;
-      width:max-content;
-      padding:6px 9px;
-      border:1px solid rgba(30,144,255,0.36);
-      border-radius:999px;
-      background:rgba(30,144,255,0.16);
-      font-size:11px;
-      text-transform:uppercase;
-      letter-spacing:0.4px;
-      font-weight:900;
-      margin-bottom:13px;
-    }
-
-    .headline{
-      margin:0 0 12px;
-      font-size:42px;
-      line-height:1.02;
-      font-weight:900;
-      max-width:760px;
-    }
-
-    .copy{
-      color:var(--muted);
-      font-size:16px;
-      line-height:1.5;
-      max-width:760px;
-      margin:0 0 18px;
-    }
-
-    .searchPanel{
-      background:var(--panel2);
-      padding:12px;
-      margin-top:auto;
-      box-shadow:none;
-    }
-
-    .searchTabs{
-      display:flex;
-      gap:8px;
-      margin-bottom:10px;
-    }
-
-    .tabBtn,
-    .iconBtn,
-    .primaryBtn,
-    .ghostBtn{
-      border:1px solid var(--line);
-      border-radius:8px;
-      color:var(--text);
-      font-weight:900;
-      cursor:pointer;
-      -webkit-appearance:none;
-      appearance:none;
-    }
-
-    .tabBtn{
-      height:34px;
-      padding:0 12px;
-      background:var(--soft);
-      font-size:13px;
-    }
-
-    .tabBtn.active{
-      background:var(--blue);
-      border-color:rgba(255,255,255,0.20);
-    }
-
-    .searchRow{
-      display:grid;
-      grid-template-columns:minmax(0, 1fr) 118px;
-      gap:10px;
-      position:relative;
-    }
-
-    .searchInput{
-      width:100%;
-      height:48px;
-      border:1px solid var(--line);
-      border-radius:8px;
-      background:#070707;
-      color:var(--text);
-      padding:0 13px;
-      outline:none;
-      font-size:15px;
-      min-width:0;
-    }
-
-    .searchInput::placeholder{ color:rgba(255,255,255,0.54); }
-
-    .primaryBtn{
-      height:48px;
-      background:var(--blue);
-      border-color:rgba(30,144,255,0.42);
-      font-size:14px;
-    }
-
-    .primaryBtn:hover{ background:var(--blue2); }
-
-    .suggestions{
-      position:absolute;
-      left:0;
-      right:128px;
-      top:58px;
-      z-index:20;
-      display:none;
-      overflow:hidden;
-      border:1px solid var(--line2);
-      border-radius:8px;
-      background:#111;
-      box-shadow:0 18px 34px rgba(0,0,0,0.42);
-    }
-
-    .suggestion{
-      width:100%;
-      border:0;
-      border-bottom:1px solid rgba(255,255,255,0.08);
-      background:transparent;
-      color:var(--text);
-      text-align:left;
-      cursor:pointer;
-      padding:11px 12px;
-    }
-
-    .suggestion:last-child{ border-bottom:0; }
-    .suggestion:hover{ background:rgba(255,255,255,0.08); }
-
-    .suggestionTitle{
-      font-size:14px;
-      font-weight:900;
-      line-height:1.25;
-    }
-
-    .suggestionMeta{
-      margin-top:4px;
-      color:var(--muted);
-      font-size:12px;
-      line-height:1.25;
-    }
-
-    .assistantPanel{
-      padding:18px;
-      display:flex;
-      flex-direction:column;
-      background:
-        linear-gradient(135deg, rgba(30,144,255,0.20), transparent 52%),
-        rgba(255,255,255,0.08);
-      min-width:0;
-    }
-
-    .assistantLabel{
-      color:rgba(255,255,255,0.78);
-      font-size:12px;
-      font-weight:900;
-      letter-spacing:0.4px;
-      text-transform:uppercase;
-      margin-bottom:10px;
-    }
-
-    .assistantTitle{
-      font-size:29px;
-      line-height:1.06;
-      font-weight:900;
-      margin:0 0 10px;
-    }
-
-    .assistantCopy{
-      margin:0 0 16px;
-      color:var(--muted);
-      line-height:1.45;
-      font-size:14px;
-    }
-
-    .chatPrompt{
-      background:#070707;
-      border:1px solid var(--line);
-      border-radius:8px;
-      padding:12px;
-      margin:0 0 12px;
-      color:rgba(255,255,255,0.82);
-      font-size:14px;
-      line-height:1.4;
-    }
-
-    .assistantActions{
-      display:grid;
-      gap:10px;
-      margin-top:auto;
-    }
-
-    .ghostBtn,
-    .assistantLink{
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      height:46px;
-      text-decoration:none;
-      border-radius:8px;
-      font-weight:900;
-      font-size:14px;
-    }
-
-    .assistantLink{
-      background:#fff;
-      color:#060606;
-    }
-
-    .ghostBtn{
-      background:rgba(255,255,255,0.08);
-    }
-
-    .toolGrid{
-      display:grid;
-      grid-template-columns:repeat(4, minmax(0, 1fr));
-      gap:14px;
-      margin-bottom:14px;
-    }
-
-    .toolPanel{
-      min-height:154px;
-      padding:15px;
-      text-decoration:none;
-      display:flex;
-      flex-direction:column;
-      transition:transform 120ms ease, border-color 120ms ease, background 120ms ease;
-    }
-
-    .toolPanel:hover{
-      transform:translateY(-1px);
-      border-color:rgba(255,255,255,0.25);
-      background:rgba(255,255,255,0.09);
-    }
-
-    .toolBadge{
-      width:38px;
-      height:38px;
-      border-radius:8px;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      font-weight:900;
-      margin-bottom:13px;
-      border:1px solid var(--line);
-      background:rgba(30,144,255,0.18);
-      color:#fff;
-    }
-
-    .toolPanel:nth-child(2) .toolBadge{ background:rgba(247,191,79,0.18); }
-    .toolPanel:nth-child(3) .toolBadge{ background:rgba(47,191,113,0.16); }
-    .toolPanel:nth-child(4) .toolBadge{ background:rgba(240,97,97,0.16); }
-
-    .toolTitle{
-      font-size:18px;
-      font-weight:900;
-      margin-bottom:6px;
-    }
-
-    .toolCopy{
-      color:var(--muted);
-      font-size:13px;
-      line-height:1.38;
-    }
-
-    .details{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:14px;
-    }
-
-    .detailPanel{
-      border:1px solid var(--line);
-      border-radius:8px;
-      padding:16px;
-      background:rgba(255,255,255,0.05);
-    }
-
-    .detailTitle{
-      font-size:18px;
-      font-weight:900;
-      margin:0 0 10px;
-    }
-
-    .detailList{
-      display:grid;
-      gap:8px;
-      margin:0;
-      padding:0;
-      list-style:none;
-    }
-
-    .detailList li{
-      color:var(--muted);
-      line-height:1.4;
-      font-size:14px;
-    }
-
-    .bottomNav{
-      position:fixed;
-      left:0;
-      right:0;
-      bottom:0;
-      height:var(--navH);
-      z-index:40;
-      background:#070707;
-      border-top:1px solid var(--line);
-      display:flex;
-      justify-content:center;
-    }
-
-    .bottomNavInner{
-      width:min(var(--max), 100%);
-      padding:10px 16px max(10px, env(safe-area-inset-bottom));
-    }
-
-    .navRow{
-      display:grid;
-      grid-template-columns:repeat(4, minmax(0, 1fr));
-      gap:10px;
-    }
-
-    .navBtn{
-      height:42px;
-      border:1px solid var(--line);
-      border-radius:8px;
-      background:rgba(255,255,255,0.08);
-      color:#fff;
-      cursor:pointer;
-      font-weight:900;
-      font-size:13px;
-    }
-
-    .navBtn.active{
-      background:rgba(30,144,255,0.22);
-      border-color:rgba(30,144,255,0.42);
-    }
-
-    @media (max-width:900px){
-      .hero{ grid-template-columns:1fr; }
-      .toolGrid{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
-      .details{ grid-template-columns:1fr; }
-      .headline{ font-size:36px; }
-    }
-
-    @media (max-width:560px){
-      .shell{ width:calc(100% - 24px); padding-top:14px; }
-      .topbar{ align-items:flex-start; }
-      .logo{ font-size:31px; }
-      .status{ display:none; }
-      .heroMain,.assistantPanel{ padding:16px; }
-      .headline{ font-size:30px; }
-      .copy{ font-size:14px; }
-      .searchTabs{ display:grid; grid-template-columns:1fr 1fr; }
-      .searchRow{ grid-template-columns:1fr; }
-      .suggestions{ right:0; top:106px; }
-      .toolGrid{ grid-template-columns:1fr; }
-      .toolPanel{ min-height:126px; }
-      .navRow{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
-      .bottomNav{ height:106px; }
-      .shell{ padding-bottom:132px; }
-    }
-  </style>
+  @media(max-width:820px){
+    .hero{grid-template-columns:1fr;text-align:center;padding-top:48px}
+    .hero p{margin-left:auto;margin-right:auto}
+    .heroCardWrap{justify-self:center}
+    .hero h1{font-size:40px}
+    .searchWrap{margin-top:30px}
+    .prodCols{grid-template-columns:1fr;gap:20px}
+    .cardRow .cardTag{margin-left:0}
+  }
+  @media(max-width:560px){
+    .hero h1{font-size:32px}
+    .hero p{font-size:17px}
+  }
+</style>
 </head>
-
 <body>
-  <main class="shell">
-    <header class="topbar">
-      <div class="brand">
-        <div class="logo">Chasing Majors</div>
-      </div>
-    </header>
+<nav>
+  <a class="brand" href="/">Chasing Majors</a>
+  <a href="/">Search</a>
+  <a href="/checklists/">Checklists</a>
+  <a href="/vault/">Print Runs</a>
+  <a href="/schedule/">Releases</a>
+  <a href="/ChatBot/">Assistant</a>
+  <a href="https://chasingmajors.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
+</nav>
 
-    <section class="hero">
-      <div class="heroMain">
-        <div class="eyebrow">Collector tools</div>
-        <h1 class="headline">Search the hobby faster, or ask the Chasing Majors assistant.</h1>
-        <p class="copy">
-          Jump straight into Checklist Vault, Print Run Vault, Release Schedule, or use the chat assistant to ask product, player, print-run, and release questions in plain English.
-        </p>
-
-        <div class="searchPanel" aria-label="Homepage search">
-          <div class="searchTabs" role="tablist" aria-label="Search destination">
-            <button class="tabBtn active" id="tabChecklist" type="button">Checklist Vault</button>
-            <button class="tabBtn" id="tabVault" type="button">Print Run Vault</button>
-          </div>
-
-          <div class="searchRow">
-            <input id="homeSearch" class="searchInput" type="text" placeholder="Search a set or player..." autocomplete="off" enterkeyhint="search" />
-            <button id="searchBtn" class="primaryBtn" type="button">Search</button>
-            <div id="suggestions" class="suggestions"></div>
+<main>
+<section class="hero">
+  <div>
+    <h1>Every checklist.<br>Every print run.<br>Every chase.</h1>
+    <p>The hobby's source for new-release checklists and the print-run data.</p>
+  </div>
+  <div class="heroCardWrap">
+    <div class="heroCard" id="heroCard" aria-hidden="true">
+      <div class="inner">
+        <div class="hc-top"><span class="hc-mfr" id="hcMfr">Topps</span><span class="hc-year" id="hcYear">2026</span></div>
+        <div class="art">
+          <div class="artBox">
+            <div class="quad" id="quad">
+              <div class="cell" id="qBaseball"></div>
+              <div class="cell" id="qBasketball"></div>
+              <div class="cell" id="qFootball"></div>
+              <div class="cell" id="qHockey"></div>
+            </div>
+            <div class="single" id="single"></div>
           </div>
         </div>
+        <div class="hc-bottom"><div class="hc-set" id="hcSet">Heritage</div><div class="hc-sport" id="hcSport">Football</div></div>
       </div>
-
-      <aside class="assistantPanel">
-        <div class="assistantLabel">New</div>
-        <h2 class="assistantTitle">Use the Chasing Majors chat assistant.</h2>
-        <p class="assistantCopy">
-          Ask for a checklist, player cards, print run data, release schedule items, or numbered-card filters without choosing the tool first.
-        </p>
-        <div class="chatPrompt">Try: "Show Victor Wembanyama cards" or "2025 Topps Chrome Football print run"</div>
-        <div class="assistantActions">
-          <a class="assistantLink" href="/ChatBot/">Open Chat Assistant</a>
-        </div>
-      </aside>
-    </section>
-
-    <section class="toolGrid" aria-label="Primary tools">
-      <a class="toolPanel" href="/checklists/">
-        <div class="toolBadge">CV</div>
-        <div class="toolTitle">Checklist Vault</div>
-        <div class="toolCopy">Search products, players, sections, parallels, and full checklists.</div>
-      </a>
-
-      <a class="toolPanel" href="/vault/">
-        <div class="toolBadge">PRV</div>
-        <div class="toolTitle">Print Run Vault</div>
-        <div class="toolCopy">Open product-level print run estimates and production data.</div>
-      </a>
-
-      <a class="toolPanel" href="/schedule/">
-        <div class="toolBadge">RS</div>
-        <div class="toolTitle">Release Schedule</div>
-        <div class="toolCopy">See upcoming and recently released products by sport.</div>
-      </a>
-
-      <a class="toolPanel" href="https://chasingmajors.substack.com/" target="_blank" rel="noopener noreferrer">
-        <div class="toolBadge">CM</div>
-        <div class="toolTitle">Substack</div>
-        <div class="toolCopy">Read deeper analysis, print run breakdowns, and hobby notes.</div>
-      </a>
-    </section>
-
-    <section class="details">
-      <div class="detailPanel">
-        <h2 class="detailTitle">Best Search Paths</h2>
-        <ul class="detailList">
-          <li>Use Checklist Vault for exact product and player-card searches.</li>
-          <li>Use Print Run Vault when you need product production data.</li>
-          <li>Use Chat Assistant when you are not sure which tool to start with.</li>
-        </ul>
-      </div>
-    </section>
-  </main>
-
-  <nav class="bottomNav" aria-label="Primary">
-    <div class="bottomNavInner">
-      <div class="navRow">
-        <button class="navBtn active" type="button" onclick="location.href='/'">Home</button>
-        <button class="navBtn" type="button" onclick="location.href='/ChatBot/'">Chat</button>
-        <button class="navBtn" type="button" onclick="location.href='/checklists/'">Checklist Vault</button>
-        <button class="navBtn" type="button" onclick="location.href='/vault/'">Print Run Vault</button>
-      </div>
+      <div class="hc-hint" id="hcHint">Search to begin</div>
+      <div class="shimmer"></div>
     </div>
-  </nav>
+  </div>
+</section>
 
-  <script>
-    (function(){
-      const STATIC_DATA_BASE = "/data/v1";
-      const CHECKLIST_INDEX_URL = STATIC_DATA_BASE + "/checklists/index.json";
-      const VAULT_INDEX_URL = STATIC_DATA_BASE + "/vault/index.json";
+<form class="searchWrap" id="searchForm" role="search" aria-label="Search checklists and print runs">
+  <div class="search">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <label for="searchInput" class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Search a set or player</label>
+    <input id="searchInput" type="search" placeholder="Search a set or player…" autocomplete="off" enterkeyhint="search" />
+    <button class="goBtn" type="submit">Search</button>
+  </div>
+</form>
+<div class="scopes" id="scopes" role="group" aria-label="Filter by sport">
+  <button class="scope" type="button" data-sport="baseball">Baseball</button>
+  <button class="scope" type="button" data-sport="basketball">Basketball</button>
+  <button class="scope" type="button" data-sport="football">Football</button>
+  <button class="scope" type="button" data-sport="hockey">Hockey</button>
+  <button class="scope" type="button" data-sport="soccer">Soccer</button>
+  <button class="scope on" type="button" data-sport="" aria-pressed="true">All Sports</button>
+</div>
 
-      let activeTarget = "checklists";
-      let checklistIndex = [];
-      let vaultIndex = [];
-      let activeSuggestions = [];
+<!-- Recently updated ticker — hidden until /data/recent.json loads (graceful) -->
+<div class="ticker" id="ticker" style="display:none" aria-label="Recently updated">
+  <div class="tickerLabel">Recently updated</div>
+  <div class="tickerInner"><div class="tickerTrack" id="tickerTrack"></div></div>
+</div>
 
-      function clean(value) {
-        return String(value || "").replace(/\s+/g, " ").trim();
-      }
+<section class="results" id="results" aria-live="polite"></section>
+</main>
 
-      function normalize(value) {
-        return clean(value)
-          .toLowerCase()
-          .replace(/&/g, " and ")
-          .replace(/[^\w\s'-]/g, " ")
-          .replace(/\s+/g, " ")
-          .trim();
-      }
+<script>
+(function(){
+  "use strict";
 
-      function escapeHtml(value) {
-        return String(value || "")
-          .replace(/&/g, "&amp;")
-          .replace(/</g, "&lt;")
-          .replace(/>/g, "&gt;")
-          .replace(/"/g, "&quot;")
-          .replace(/'/g, "&#39;");
-      }
+  // ----------------------------------------------------------------------
+  // Original FILLED silhouettes (copied verbatim from the approved mockup).
+  // Solid white fill; seams/laces are negative-space cutouts drawn in CARDCOL.
+  // ----------------------------------------------------------------------
+  const SIL = {
+    baseball: `<svg viewBox="0 0 100 100">
+      <circle class="SILCLASS" cx="50" cy="50" r="45"/>
+      <g fill="none" stroke="CARDCOL" stroke-width="3.2" stroke-linecap="round">
+        <path d="M22 13 C33 32 33 68 22 87"/>
+        <path d="M78 13 C67 32 67 68 78 87"/>
+        <path d="M26 22l5 2.5 M24 32l5.5 1.6 M23 42l5.6 .7 M23 52l5.6 -.7 M24 62l5.5 -1.6 M26 72l5 -2.5"/>
+        <path d="M74 22l-5 2.5 M76 32l-5.5 1.6 M77 42l-5.6 .7 M77 52l-5.6 -.7 M76 62l-5.5 -1.6 M74 72l-5 -2.5"/>
+      </g></svg>`,
+    basketball: `<svg viewBox="0 0 100 100">
+      <circle class="SILCLASS" cx="50" cy="50" r="45"/>
+      <g fill="none" stroke="CARDCOL" stroke-width="3.6" stroke-linecap="round">
+        <path d="M50 5 L50 95"/>
+        <path d="M5 50 L95 50"/>
+        <path d="M14 18 C34 36 66 36 86 18"/>
+        <path d="M14 82 C34 64 66 64 86 82"/>
+      </g></svg>`,
+    football: `<svg viewBox="0 0 100 100">
+      <g transform="rotate(-30 50 50)">
+        <path class="SILCLASS" d="
+          M9 50
+          C20 29 33 22 50 22
+          C67 22 80 29 91 50
+          C80 71 67 78 50 78
+          C33 78 20 71 9 50 Z"/>
+        <g fill="none" stroke="CARDCOL" stroke-linecap="round">
+          <path d="M25 30 L25 70" stroke-width="5"/>
+          <path d="M75 30 L75 70" stroke-width="5"/>
+          <path d="M40 50 H60" stroke-width="4.2"/>
+          <path d="M43 45.5 V54.5 M49 45 V55 M55 45 V55 M60 45.5 V54.5" stroke-width="4.2"/>
+        </g>
+      </g></svg>`,
+    hockey: `<svg viewBox="0 0 100 100">
+      <g>
+        <path class="SILCLASS" d="
+          M24 12 L31 14
+          L63 66
+          C66 71 72 74 80 74
+          L88 74 L88 82 L76 82
+          C66 82 58 78 53 70
+          L17 16 Z"/>
+        <path class="SILCLASS" transform="scale(-1,1) translate(-100,0)" d="
+          M24 12 L31 14
+          L63 66
+          C66 71 72 74 80 74
+          L88 74 L88 82 L76 82
+          C66 82 58 78 53 70
+          L17 16 Z"/>
+        <ellipse class="SILCLASS" cx="50" cy="85" rx="12" ry="5"/>
+      </g></svg>`,
+    soccer: `<svg viewBox="0 0 100 100">
+      <circle class="SILCLASS" cx="50" cy="50" r="45"/>
+      <g fill="none" stroke="CARDCOL" stroke-width="3.6" stroke-linejoin="round">
+        <path d="M50 30 l16 11.6 -6.1 19.4 h-19.8 l-6.1 -19.4 z"/>
+        <path d="M50 30 v-22 M66 41.6 l18 -8 M59.9 60.4 l12 17 M40.1 60.4 l-12 17 M34 41.6 l-18 -8"/>
+      </g></svg>`
+  };
+  function build(key, dim, cardCol){
+    return (SIL[key]||SIL.football)
+      .replace(/SILCLASS/g, dim ? 'sil-dim' : 'sil')
+      .replace(/CARDCOL/g, cardCol);
+  }
+  const TINT={baseball:'#2f5e3a',basketball:'#7a3d12',football:'#274063',hockey:'#1c3a52',soccer:'#123b2e'};
+  const BASECOL='#16263a';
 
-      function normalizeIndexRows(rows) {
-        return (Array.isArray(rows) ? rows : []).map(function(row) {
-          return {
-            code: clean(row.Code || row.code),
-            name: clean(row.DisplayName || row.displayName || row.display_name || row.name),
-            keywords: clean(row.Keywords || row.keywords),
-            year: clean(row.year),
-            sport: clean(row.sport).toLowerCase(),
-            manufacturer: clean(row.manufacturer),
-            product: clean(row.product)
-          };
-        }).filter(function(row) {
-          return row.code && row.name;
-        });
-      }
+  const $ = (id)=>document.getElementById(id);
+  const qBaseball=$('qBaseball'), qBasketball=$('qBasketball'), qFootball=$('qFootball'), qHockey=$('qHockey');
 
-      async function fetchIndex(url) {
-        const res = await fetch(url, { cache: "force-cache" });
-        if (!res.ok) throw new Error("Index unavailable");
-        const data = await res.json();
-        return normalizeIndexRows(data.index || data.rows || []);
-      }
+  function paintQuad(){
+    qBaseball.innerHTML   = build('baseball', true, BASECOL);
+    qBasketball.innerHTML = build('basketball', true, BASECOL);
+    qFootball.innerHTML   = build('football', true, BASECOL);
+    qHockey.innerHTML     = build('hockey', true, BASECOL);
+  }
+  paintQuad();
 
-      async function loadIndexes() {
-        try {
-          const results = await Promise.allSettled([
-            fetchIndex(CHECKLIST_INDEX_URL),
-            fetchIndex(VAULT_INDEX_URL)
-          ]);
+  const el={card:$('heroCard'),mfr:$('hcMfr'),year:$('hcYear'),set:$('hcSet'),sport:$('hcSport'),single:$('single'),input:$('searchInput')};
 
-          if (results[0].status === "fulfilled") checklistIndex = results[0].value;
-          if (results[1].status === "fulfilled") vaultIndex = results[1].value;
-        } catch (err) {
-          console.warn("Homepage index preload failed", err);
-        }
-      }
+  function driveHero(s,m,set,y){
+    const col = (TINT[s]||'#27405f');
+    el.single.innerHTML=build(s,false,col);
+    el.mfr.textContent=m; el.set.textContent=set; el.year.textContent=y;
+    el.sport.textContent=s.charAt(0).toUpperCase()+s.slice(1);
+    el.card.style.background=`radial-gradient(120% 90% at 30% 10%, ${col} 0%, #0b0b0b 62%)`;
+    el.card.classList.add('searched');
+  }
+  function resetHero(){
+    el.card.classList.remove('searched');
+    el.card.style.background='radial-gradient(120% 90% at 30% 10%, #27405f 0%, #0b0b0b 62%)';
+    paintQuad();
+  }
 
-      function setTarget(target) {
-        activeTarget = target === "vault" ? "vault" : "checklists";
-        document.getElementById("tabChecklist").classList.toggle("active", activeTarget === "checklists");
-        document.getElementById("tabVault").classList.toggle("active", activeTarget === "vault");
-        renderSuggestions();
-      }
+  // Demo-grade query parser (ported from the mockup) — drives the hero card.
+  const MFRS=['Topps','Bowman','Panini','Donruss','Leaf','Upper Deck','Fleer','Score'];
+  const SPORTS=['baseball','basketball','football','hockey','soccer'];
+  let scopeSport = ''; // '' = All Sports (sport param omitted). Set by the chips.
+  function parseAndSearch(q){
+    q=(q||'').trim();
+    if(!q){resetHero();return null;}
+    const lower=q.toLowerCase();
+    // the selected sport chip wins; otherwise infer from the query
+    const sport=scopeSport||SPORTS.find(s=>lower.includes(s))||'football';
+    const year=(q.match(/\b(19|20)\d{2}(-\d{2})?\b/)||[''])[0];
+    const mfr=MFRS.find(m=>lower.includes(m.toLowerCase()))||'';
+    let set=q;
+    [year,mfr].forEach(t=>{if(t)set=set.replace(new RegExp(t,'i'),'');});
+    SPORTS.forEach(s=>set=set.replace(new RegExp(s,'i'),''));
+    set=set.replace(/\s+/g,' ').trim()||'—';
+    driveHero(sport,mfr||'—',set,year||'');
+    return {sport,mfr,set,year};
+  }
 
-      function getActiveIndex() {
-        return activeTarget === "vault" ? vaultIndex : checklistIndex;
-      }
+  // ----------------------------------------------------------------------
+  // Live search plumbing
+  // ----------------------------------------------------------------------
+  const CV_SEARCH_ENDPOINT = "https://api.chasingmajors.com/cv-search";
+  const PRV_INDEX_URL = "/data/v2/vault/index.json";
+  const PRV_PRODUCTS_BASE = "/data/v2/vault/products/";
 
-      function getSuggestionMatches(query) {
-        const q = normalize(query);
-        if (q.length < 2) return [];
+  function esc(v){
+    return String(v==null?'':v)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  }
+  function normKey(v){
+    return String(v==null?'':v).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+  }
 
-        const exact = [];
-        const starts = [];
-        const contains = [];
+  function buildSearchUrl(q, sport){
+    const params = new URLSearchParams();
+    params.set('q', q);
+    if(sport && sport !== 'all') params.set('sport', sport);
+    params.set('page', '1');
+    return CV_SEARCH_ENDPOINT + '?' + params.toString();
+  }
 
-        getActiveIndex().forEach(function(item) {
-          const name = normalize(item.name);
-          const code = normalize(item.code);
-          const keywords = normalize(item.keywords);
-          const hay = [name, code, keywords, normalize(item.sport), normalize(item.year)].join(" ");
+  let searchToken = 0;
 
-          if (!hay.includes(q)) return;
-          if (name === q || code === q) exact.push(item);
-          else if (name.startsWith(q) || code.startsWith(q) || keywords.startsWith(q)) starts.push(item);
-          else contains.push(item);
-        });
+  async function fetchSearch(q, sport){
+    try{
+      const res = await fetch(buildSearchUrl(q, sport), { cache:'no-store' });
+      if(!res.ok) return null;
+      const json = await res.json();
+      if(!json || json.ok !== true || !Array.isArray(json.results)) return null;
+      return json;
+    }catch(err){
+      return null;
+    }
+  }
 
-        const seen = {};
-        return exact.concat(starts, contains).filter(function(item) {
-          const key = item.code + "|" + item.name;
-          if (seen[key]) return false;
-          seen[key] = true;
-          return true;
-        }).slice(0, 8);
-      }
+  // --- PRV join (best-effort, product-level, graceful) -------------------
+  let prvIndexPromise = null;
+  function loadPrvIndex(){
+    if(!prvIndexPromise){
+      prvIndexPromise = fetch(PRV_INDEX_URL, { cache:'force-cache' })
+        .then(r=> r.ok ? r.json() : null)
+        .then(d=>{
+          const rows = d && Array.isArray(d.index) ? d.index : (Array.isArray(d) ? d : []);
+          return rows;
+        })
+        .catch(()=>[]);
+    }
+    return prvIndexPromise;
+  }
 
-      function buildToolUrl(item) {
-        const base = activeTarget === "vault" ? "/vault/" : "/checklists/";
-        if (!item) return base;
-
-        return base
-          + "?code=" + encodeURIComponent(item.code)
-          + "&sport=" + encodeURIComponent(item.sport)
-          + "&type=product"
-          + "&q=" + encodeURIComponent(item.name || item.code);
-      }
-
-      function closeSuggestions() {
-        activeSuggestions = [];
-        const el = document.getElementById("suggestions");
-        el.style.display = "none";
-        el.innerHTML = "";
-      }
-
-      function renderSuggestions() {
-        const input = document.getElementById("homeSearch");
-        const el = document.getElementById("suggestions");
-        const q = clean(input.value);
-        activeSuggestions = getSuggestionMatches(q);
-
-        if (!activeSuggestions.length) {
-          closeSuggestions();
-          return;
-        }
-
-        el.innerHTML = activeSuggestions.map(function(item, idx) {
-          const meta = [item.year, item.sport, item.manufacturer].filter(Boolean).join(" / ");
-          return ""
-            + "<button class=\"suggestion\" type=\"button\" data-idx=\"" + idx + "\">"
-            + "<div class=\"suggestionTitle\">" + escapeHtml(item.name) + "</div>"
-            + "<div class=\"suggestionMeta\">" + escapeHtml(meta || item.code) + "</div>"
-            + "</button>";
-        }).join("");
-
-        Array.prototype.forEach.call(el.querySelectorAll(".suggestion"), function(btn) {
-          btn.addEventListener("click", function() {
-            const item = activeSuggestions[Number(btn.getAttribute("data-idx")) || 0];
-            if (!item) return;
-            location.href = buildToolUrl(item);
-          });
-        });
-
-        el.style.display = "block";
-      }
-
-      function runSearch() {
-        const q = clean(document.getElementById("homeSearch").value);
-        if (!q) {
-          location.href = activeTarget === "vault" ? "/vault/" : "/checklists/";
-          return;
-        }
-
-        if (activeSuggestions.length) {
-          location.href = buildToolUrl(activeSuggestions[0]);
-          return;
-        }
-
-        const base = activeTarget === "vault" ? "/vault/" : "/checklists/";
-        location.href = base + "?q=" + encodeURIComponent(q);
-      }
-
-      document.addEventListener("DOMContentLoaded", function() {
-        loadIndexes();
-
-        document.getElementById("tabChecklist").addEventListener("click", function(){ setTarget("checklists"); });
-        document.getElementById("tabVault").addEventListener("click", function(){ setTarget("vault"); });
-        document.getElementById("searchBtn").addEventListener("click", runSearch);
-
-        const input = document.getElementById("homeSearch");
-        input.addEventListener("input", renderSuggestions);
-        input.addEventListener("focus", renderSuggestions);
-        input.addEventListener("keydown", function(e) {
-          if (e.key === "Enter") {
-            e.preventDefault();
-            runSearch();
-          }
-        });
-
-        document.addEventListener("click", function(e) {
-          if (!e.target.closest(".searchPanel")) closeSuggestions();
-        });
+  // Match a CV product to a UNIQUE non-empty PRV entry by DisplayName+sport key.
+  async function findPrvEntry(displayName, sport){
+    try{
+      const rows = await loadPrvIndex();
+      if(!rows || !rows.length) return null;
+      const key = normKey(displayName) + '|' + normKey(sport);
+      const matches = rows.filter(function(e){
+        return (normKey(e.DisplayName) + '|' + normKey(e.sport)) === key;
       });
-    })();
-  </script>
+      if(matches.length !== 1) return null;           // must be unique
+      const entry = matches[0];
+      if(!entry.file || !(Number(entry.row_count) > 0)) return null; // non-empty only
+      return entry;
+    }catch(err){ return null; }
+  }
+
+  async function loadPrvRows(entry){
+    try{
+      const res = await fetch(PRV_PRODUCTS_BASE + encodeURIComponent(entry.file), { cache:'force-cache' });
+      if(!res.ok) return [];
+      const data = await res.json();
+      const rows = data && Array.isArray(data.rows) ? data.rows : [];
+      return rows;
+    }catch(err){ return []; }
+  }
+
+  // Rarest-first: serial_limit ascending is rarest; else by measurement.value ascending.
+  function sortByScarcity(rows){
+    return rows.slice().sort(function(a,b){
+      const sa = a.serial_limit, sb = b.serial_limit;
+      const aHas = typeof sa === 'number' && sa > 0;
+      const bHas = typeof sb === 'number' && sb > 0;
+      if(aHas && bHas) return sa - sb;
+      if(aHas) return -1;
+      if(bHas) return 1;
+      const va = (a.measurement && typeof a.measurement.value === 'number') ? a.measurement.value : Infinity;
+      const vb = (b.measurement && typeof b.measurement.value === 'number') ? b.measurement.value : Infinity;
+      return va - vb;
+    });
+  }
+
+  function renderRarityLadder(rows){
+    const top = sortByScarcity(rows).slice(0, 8);
+    const items = top.map(function(r){
+      const name = esc(r.set_name || r.category || 'Parallel');
+      const cat = r.category && r.set_name ? '<small>'+esc(r.category)+'</small>' : '';
+      let valHtml;
+      if(typeof r.serial_limit === 'number' && r.serial_limit > 0){
+        valHtml = '<span class="lVal">/'+esc(r.serial_limit)+'</span>';
+      }else if(r.measurement && typeof r.measurement.value === 'number'){
+        const kind = r.measurement.kind ? ' '+esc(r.measurement.kind) : '';
+        valHtml = '<span class="lVal plain">'+esc(r.measurement.value)+kind+'</span>';
+      }else{
+        valHtml = '<span class="lVal plain">—</span>';
+      }
+      return '<li><span class="lName">'+name+cat+'</span>'+valHtml+'</li>';
+    }).join('');
+    return '<ul class="ladder">'+items+'</ul>';
+  }
+
+  // Render print-run area for a product result (async, never blocks the page).
+  async function renderPrvInto(container, displayName, sport){
+    try{
+      const entry = await findPrvEntry(displayName, sport);
+      if(!entry){
+        container.innerHTML = '<p class="prvEmpty">Print-run data isn\u2019t available for this product yet.</p>';
+        return;
+      }
+      const rows = await loadPrvRows(entry);
+      if(!rows.length){
+        container.innerHTML = '<p class="prvEmpty">Print-run data isn\u2019t available for this product yet.</p>';
+        return;
+      }
+      container.innerHTML = renderRarityLadder(rows);
+    }catch(err){
+      container.innerHTML = '<p class="prvEmpty">Print-run data isn\u2019t available for this product yet.</p>';
+    }
+  }
+
+  // --- Results rendering --------------------------------------------------
+  const resultsEl = $('results');
+
+  function checklistHref(r){
+    return '/checklists/?code=' + encodeURIComponent(r.code || '') +
+           '&sport=' + encodeURIComponent(r.sport || '') +
+           '&q=' + encodeURIComponent(r.displayName || r.term || '');
+  }
+  function vaultHref(r){
+    return '/vault/?code=' + encodeURIComponent(r.code || '') +
+           '&sport=' + encodeURIComponent(r.sport || '') +
+           '&q=' + encodeURIComponent(r.displayName || r.term || '');
+  }
+  function titleCase(v){ v=String(v||''); return v ? v.charAt(0).toUpperCase()+v.slice(1) : ''; }
+
+  function renderProduct(r){
+    const kicker = [r.year, titleCase(r.sport), r.manufacturer].filter(Boolean).map(esc).join(' · ');
+    const name = esc(r.displayName || r.term || r.code || 'Product');
+    const prvId = 'prv-' + normKey(r.code || name) + '-' + Math.random().toString(36).slice(2,8);
+    const html =
+      '<article class="resultCard">' +
+        (kicker ? '<p class="resultKicker">'+kicker+'</p>' : '') +
+        '<h2 class="resultTitle"><a href="'+esc(checklistHref(r))+'">'+name+'</a></h2>' +
+        '<div class="prodCols">' +
+          '<div class="prodCol">' +
+            '<h3>Checklist</h3>' +
+            '<p>Full set checklist with sections, parallels, and player cards.</p>' +
+            '<p style="margin-top:8px"><a class="colLink" href="'+esc(checklistHref(r))+'">Open checklist \u2192</a></p>' +
+          '</div>' +
+          '<div class="prodCol">' +
+            '<h3>Print run</h3>' +
+            '<div id="'+prvId+'"><p class="loading">Checking print-run data\u2026</p></div>' +
+            '<p style="margin-top:10px"><a class="colLink" href="'+esc(vaultHref(r))+'">Open in Print Run Vault \u2192</a></p>' +
+          '</div>' +
+        '</div>' +
+      '</article>';
+    return { html, prvId, displayName: r.displayName || r.term || '', sport: r.sport || '' };
+  }
+
+  function renderCardRow(r){
+    const player = esc(r.player || r.term || '');
+    const no = r.card_no ? '#'+esc(r.card_no) : '';
+    const meta = [esc(r.displayName || r.product), esc(r.team), esc(r.section)].filter(Boolean).join(' · ');
+    const tag = r.tag ? '<span class="cardTag">'+esc(r.tag)+'</span>' : '';
+    const href = checklistHref(r);
+    return '<div class="cardRow">' +
+      (no ? '<span class="cardNo">'+no+'</span>' : '') +
+      '<span class="cardPlayer"><a href="'+esc(href)+'">'+player+'</a></span>' +
+      (meta ? '<span class="cardMeta">'+meta+'</span>' : '') +
+      tag +
+    '</div>';
+  }
+
+  function renderNoResults(q){
+    resultsEl.innerHTML = '<div class="noResults">No results for <b>'+esc(q)+'</b>. Try a product like “2026 Topps Heritage Football” or a player name.</div>';
+  }
+
+  function renderResults(q, json){
+    const results = (json && Array.isArray(json.results)) ? json.results : [];
+    if(!results.length){ renderNoResults(q); return; }
+
+    const products = results.filter(function(r){ return r.type === 'product'; });
+    const cards = results.filter(function(r){ return r.type === 'card'; });
+
+    let html = '';
+    const total = (json && typeof json.total === 'number') ? json.total : results.length;
+    html += '<p class="resultsHead">'+esc(total)+' result'+(total===1?'':'s')+' for \u201C'+esc(q)+'\u201D</p>';
+
+    const prvTargets = [];
+    products.forEach(function(r){
+      const built = renderProduct(r);
+      html += built.html;
+      prvTargets.push(built);
+    });
+
+    if(cards.length){
+      html += '<h2 class="resultsHead" style="margin-top:24px">Cards</h2>';
+      cards.forEach(function(r){ html += renderCardRow(r); });
+    }
+
+    resultsEl.innerHTML = html;
+
+    // Lazily hydrate PRV sections per product (best-effort, never blocks).
+    prvTargets.forEach(function(t){
+      const container = document.getElementById(t.prvId);
+      if(container) renderPrvInto(container, t.displayName, t.sport);
+    });
+  }
+
+  // --- Submit flow --------------------------------------------------------
+  async function runSearch(){
+    const q = (el.input.value || '').trim();
+
+    if(!q){
+      resetHero();
+      resultsEl.innerHTML = '';
+      return;
+    }
+
+    parseAndSearch(q);                     // drive the hero card (chip scope overrides inferred sport)
+    resultsEl.innerHTML = '<div class="loading">Searching\u2026</div>';
+
+    const token = ++searchToken;
+    const json = await fetchSearch(q, scopeSport); // '' => sport param omitted (All Sports)
+    if(token !== searchToken) return;      // a newer search superseded this one
+
+    if(!json){ renderNoResults(q); return; }
+    renderResults(q, json);
+  }
+
+  const form = $('searchForm');
+  form.addEventListener('submit', function(e){ e.preventDefault(); runSearch(); });
+  el.input.addEventListener('input', function(){
+    if(!(el.input.value || '').trim()){ resetHero(); resultsEl.innerHTML=''; }
+  });
+
+  // Sport scope chips: selected chip is the filter; it overrides the inferred
+  // sport and, when a query is present, re-runs the search with the new scope.
+  Array.prototype.forEach.call(document.querySelectorAll('.scope'), function(c){
+    c.addEventListener('click', function(){
+      Array.prototype.forEach.call(document.querySelectorAll('.scope'), function(x){
+        x.classList.remove('on');
+        x.removeAttribute('aria-pressed');
+      });
+      c.classList.add('on');
+      c.setAttribute('aria-pressed', 'true');
+      scopeSport = c.getAttribute('data-sport') || '';
+      if((el.input.value || '').trim()) runSearch(); // re-run with the new scope
+    });
+  });
+
+  // Recently-updated ticker: reads /data/recent.json; hides itself if unavailable/empty.
+  // recent.json shape: { items:[ {displayName, code, sport, vault:"CV"|"PRV", updated_at}, ... ] }
+  (function loadTicker(){
+    try{
+      fetch('/data/recent.json',{cache:'no-store'}).then(function(r){ return r.ok ? r.json() : null; }).then(function(data){
+        const items=(data && Array.isArray(data.items) ? data.items : []).slice(0,5);
+        if(!items.length) return; // stay hidden — never fake entries
+        const track=$('tickerTrack');
+        const chip=function(it){
+          const href = it.vault==='PRV' ? '/vault/?q='+encodeURIComponent(it.displayName||'')
+                                        : '/checklists/?q='+encodeURIComponent(it.displayName||'');
+          const tag = it.vault==='PRV' ? 'prv' : 'cv';
+          return '<a class="tItem" href="'+href+'"><span class="tag '+tag+'">'+(it.vault||'CV')+'</span>'+esc(it.displayName||it.code||'')+'</a>';
+        };
+        // duplicate the sequence so the loop scroll is seamless (-50% keyframe)
+        track.innerHTML = items.map(chip).join('') + items.map(chip).join('');
+        $('ticker').style.display='block';
+      }).catch(function(){/* stay hidden */});
+    }catch(err){/* stay hidden */}
+  })();
+
+  // On load: default quad state, no search yet.
+  el.input.value = '';
+  resetHero();
+})();
+</script>
 </body>
 </html>
