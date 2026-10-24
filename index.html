@@ -317,20 +317,22 @@
   // Demo-grade query parser (ported from the mockup) — drives the hero card.
   const MFRS=['Topps','Bowman','Panini','Donruss','Leaf','Upper Deck','Fleer','Score'];
   const SPORTS=['baseball','basketball','football','hockey','soccer'];
-  let scopeSport = ''; // '' = All Sports (sport param omitted). Set by the chips.
+  let scopeSport = ''; // '' = All Sports (sport param omitted).
+  let manualSportSelected = false;
   function parseAndSearch(q){
     q=(q||'').trim();
     if(!q){resetHero();return null;}
     const lower=q.toLowerCase();
     // the selected sport chip wins; otherwise infer from the query
-    const sport=scopeSport||SPORTS.find(s=>lower.includes(s))||'football';
+    const sport=manualSportSelected ? scopeSport : (SPORTS.find(s=>new RegExp('\\b'+s+'\\b').test(lower))||'');
     const year=(q.match(/\b(19|20)\d{2}(-\d{2})?\b/)||[''])[0];
     const mfr=MFRS.find(m=>lower.includes(m.toLowerCase()))||'';
     let set=q;
     [year,mfr].forEach(t=>{if(t)set=set.replace(new RegExp(t,'i'),'');});
     SPORTS.forEach(s=>set=set.replace(new RegExp(s,'i'),''));
     set=set.replace(/\s+/g,' ').trim()||'—';
-    driveHero(sport,mfr||'—',set,year||'');
+    if(sport) driveHero(sport,mfr||'—',set,year||'');
+    else resetHero();
     return {sport,mfr,set,year};
   }
 
@@ -565,7 +567,9 @@
       return;
     }
 
-    parseAndSearch(q);                     // drive the hero card (chip scope overrides inferred sport)
+    const parsed = parseAndSearch(q);
+    scopeSport = parsed.sport;
+    updateSportChips();
     resultsEl.innerHTML = '<div class="loading">Searching\u2026</div>';
 
     const token = ++searchToken;
@@ -582,17 +586,21 @@
     if(!(el.input.value || '').trim()){ resetHero(); resultsEl.innerHTML=''; }
   });
 
+  function updateSportChips(){
+    Array.prototype.forEach.call(document.querySelectorAll('.scope'), function(c){
+      const active = (c.getAttribute('data-sport') || '') === scopeSport;
+      c.classList.toggle('on', active);
+      c.setAttribute('aria-pressed', String(active));
+    });
+  }
+
   // Sport scope chips: selected chip is the filter; it overrides the inferred
   // sport and, when a query is present, re-runs the search with the new scope.
   Array.prototype.forEach.call(document.querySelectorAll('.scope'), function(c){
     c.addEventListener('click', function(){
-      Array.prototype.forEach.call(document.querySelectorAll('.scope'), function(x){
-        x.classList.remove('on');
-        x.removeAttribute('aria-pressed');
-      });
-      c.classList.add('on');
-      c.setAttribute('aria-pressed', 'true');
+      manualSportSelected = true;
       scopeSport = c.getAttribute('data-sport') || '';
+      updateSportChips();
       if((el.input.value || '').trim()) runSearch(); // re-run with the new scope
     });
   });

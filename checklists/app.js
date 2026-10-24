@@ -59,6 +59,8 @@ const URL_Q = URL_PARAMS.get("q") || "";
 const URL_CODE = URL_PARAMS.get("code") || "";
 const URL_SPORT = URL_PARAMS.get("sport") || "";
 const URL_TYPE = URL_PARAMS.get("type") || "";
+// null means automatic; an explicit filter (including All Sports) always wins.
+let manualSearchSport = isSportChosen_(URL_SPORT) ? lower(URL_SPORT) : null;
 
 let currentProductMeta = null;
 let currentProductRows = [];
@@ -194,6 +196,15 @@ function fmtType(type) {
 
 function getSportValue() {
   return elSport ? elSport.value : "";
+}
+
+function resolveSearchSport_(query) {
+  const text = lower(query);
+  const sport = manualSearchSport !== null
+    ? manualSearchSport
+    : (STATIC_SPORTS.find(s => new RegExp("\\b" + s + "\\b").test(text)) || "");
+  if (elSport) elSport.value = sport || "all";
+  return sport === "all" ? "" : sport;
 }
 
 function isSportChosen_(value) {
@@ -831,7 +842,7 @@ function runHomepageHandoffIfPresent() {
   elQ.value = incomingQuery;
   closeDropdown();
 
-  const sport = getSportValue() || directSport;
+  const sport = resolveSearchSport_(incomingQuery);
 
   if (elSport && !getSportValue() && isSportChosen_(sport)) {
     elSport.value = sport;
@@ -1994,6 +2005,7 @@ if (elBtnClear) {
 
 if (elSport) {
   elSport.addEventListener("change", () => {
+    manualSearchSport = lower(getSportValue());
     selected = null;
     closeDropdown();
     const sport = getSportValue();
@@ -2015,7 +2027,7 @@ async function runSearch() {
   }
 
   const q = norm(elQ.value);
-  const sport = getSportValue();
+  const sport = resolveSearchSport_(q);
 
   // Sport-gate relaxed: an unset sport runs as an all-sports search; no forced
   // sport selection before searching.
@@ -2182,6 +2194,8 @@ async function runProductSearch(code, sport) {
 
 // ---------------- BROADER SEARCH ----------------
 async function runBroadSearch(q, sport, page = 1) {
+  // Resolve only on explicit searches; pagination keeps the original scope.
+  if (page === 1) sport = resolveSearchSport_(q);
   currentProductMeta = null;
   currentProductRows = [];
   currentProductParallels = [];
