@@ -1885,22 +1885,10 @@ function makeProductHitsFromLocalIndex(q, sport, limit = 8) {
   ).slice(0, limit);
 }
 
-// Enrich typeahead with live endpoint results. Runs as part of the existing
-// async enrichment stage (never before the instant local layer), and yields []
-// on any failure so the pre-existing behavior is preserved.
-async function makeEndpointTypeaheadHits_(q, sport, limit = 5) {
-  const data = await searchViaEndpoint_(q, sport, 1);
-  if (!data || !Array.isArray(data.results)) return [];
-  return data.results.slice(0, limit).map(r => ({
-    term: r.term || r.displayName || r.player || "",
-    type: r.type || "product",
-    sport: r.sport || sport || "",
-    code: r.code || "",
-    displayName: r.displayName || r.term || r.player || "",
-    year: r.year || "",
-    player: r.player || ""
-  }));
-}
+// NOTE: makeEndpointTypeaheadHits_ was removed as part of the D1 read-budget
+// fix. Typeahead no longer calls the live /cv-search (D1) endpoint on keystroke;
+// it is served entirely from the local static index. The endpoint is reached
+// only from runBroadSearch (explicit search) via searchViaEndpoint_.
 
 function mergeTypeaheadResults(localHits, remoteHits, limit = 10) {
   return prioritizeTypeaheadResults_([...(localHits || []), ...(remoteHits || [])], limit);
@@ -1916,7 +1904,12 @@ async function runTypeahead() {
   // Sport-gate relaxed: an unset sport is treated as an all-sports search and
   // proceeds immediately. Fast all-sports search exists via the live endpoint
   // (with static fallback), so we no longer block typeahead on sport choice.
-  if (q.length < 2) {
+  //
+  // D1 read-budget fix: typeahead is now served ENTIRELY from the local static
+  // index and never touches the live /cv-search (D1) endpoint. The endpoint is
+  // only hit on an explicit search (Enter / Search button / sport-chip re-run)
+  // via runBroadSearch. Min length raised to 3 to further reduce churn.
+  if (q.length < 3) {
     closeDropdown();
     return;
   }
@@ -1931,17 +1924,18 @@ async function runTypeahead() {
   renderDropdownItems(prioritizeTypeaheadResults_(localHits, 10));
 
   try {
-    const [mlbPlayerHits, checklistPlayerHits, endpointHits] = await Promise.all([
+    // Local-only enrichment. No endpoint/D1 call here — makeEndpointTypeaheadHits_
+    // was removed from this path to stop per-keystroke D1 reads.
+    const [mlbPlayerHits, checklistPlayerHits] = await Promise.all([
       makeMlbPlayerTypeaheadHits_(q, sport, 4).catch(() => []),
-      makeChecklistPlayerTypeaheadHits_(q, sport, 5).catch(() => []),
-      makeEndpointTypeaheadHits_(q, sport, 5).catch(() => [])
+      makeChecklistPlayerTypeaheadHits_(q, sport, 5).catch(() => [])
     ]);
 
     if (token !== activeTypeaheadToken) return;
 
     const merged = mergeTypeaheadResults(
       localHits,
-      [...mlbPlayerHits, ...checklistPlayerHits, ...endpointHits],
+      [...mlbPlayerHits, ...checklistPlayerHits],
       10
     );
 
@@ -1952,9 +1946,10 @@ async function runTypeahead() {
 }
 
 elQ.addEventListener("input", () => {
+  // Local-only typeahead; debounce raised 140ms -> 250ms to reduce churn.
   debounce(() => {
     runTypeahead();
-  }, 140);
+  }, 250);
 });
 
 document.addEventListener("click", (e) => {
@@ -2008,7 +2003,7 @@ if (elSport) {
     if (isSportChosen_(sport)) {
       showSportHint_(false);
     }
-    if (norm(elQ.value).length >= 2) {
+    if (norm(elQ.value).length >= 3) {
       runTypeahead();
     }
   });
