@@ -1,3 +1,4 @@
+const {updateRecentProducts}=require('./update-recent-products.cjs');
 const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
@@ -51,4 +52,5 @@ const entries = reviewed.records.map(({entry,product}) => {
 for(const file of fs.readdirSync(path.join(root,out,'products'))) if(!files.has(file)) fs.unlinkSync(path.join(root,out,'products',file));
 fs.writeFileSync(path.join(root,out,'index.json'),JSON.stringify({schema_version:2,source_revision:source.vault_version,index:entries,aliases:reviewed.aliases})+'\n');
 fs.writeFileSync(path.join(root,out,'integrity-review.json'),JSON.stringify({...reviewed.report,source_revision:source.vault_version})+'\n');
+updateRecentProducts(root,'PRV',reviewed.records.map(r=>r.product));
 console.log(JSON.stringify({products:entries.length,rows:total,bytes:entries.reduce((n,e)=>n+fs.statSync(path.join(root,out,'products',e.file)).size,0)}));

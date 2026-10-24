@@ -32,7 +32,7 @@ function functionSource(source, signature) {
   }
   throw new Error('Unbalanced function ' + signature);
 }
-function homeHarness() {
+function homeHarness(recentItems = []) {
   const nodes = new Map();
   const chips = [...sports, ''].map(s => element({'data-sport': s}));
   const get = id => {
@@ -45,12 +45,13 @@ function homeHarness() {
     URLSearchParams,
     fetch: async url => {
       if (url.includes('/cv-search')) calls.push(new URL(url));
-      return {ok: true, json: async () => ({ok: true, results: [], items: []})};
+      return {ok: true, json: async () => ({ok: true, results: [], items: recentItems})};
     }
   });
+  get('ticker').style.display = 'none';
   vm.runInContext(homepage.match(/<script>([\s\S]*?)<\/script>/)[1], ctx);
   return {
-    calls, chips,
+    calls, chips, get,
     async type(q) { get('searchInput').value = q; get('searchInput').handlers.input(); await tick(); },
     async submit() { get('searchForm').handlers.submit({preventDefault(){}}); await tick(); },
     async choose(sport) { chips.find(c => c.getAttribute('data-sport') === sport).handlers.click(); await tick(); }
@@ -151,4 +152,17 @@ test('checklists: endpoint failure keeps the inferred scope in the static fallba
   assert.equal(h.calls[0].searchParams.get('sport'), 'football');
   assert.deepEqual(h.staticCalls, [{q: '2026 topps football', sport: 'football'}]);
   assert.equal(h.renders[0].sport, 'football');
+});
+
+
+test('homepage ticker stays hidden for empty data and links populated CV/PRV updates', async () => {
+  const empty = homeHarness(); await tick();
+  assert.equal(empty.get('ticker').style.display, 'none');
+  const filled = homeHarness([
+    {displayName:'2026 Heritage Football', vault:'CV'},
+    {displayName:'2026 Holiday Baseball', vault:'PRV'}
+  ]); await tick();
+  assert.equal(filled.get('ticker').style.display, 'block');
+  assert.ok(filled.get('tickerTrack').innerHTML.includes('/checklists/?q=2026%20Heritage%20Football'));
+  assert.ok(filled.get('tickerTrack').innerHTML.includes('/vault/?q=2026%20Holiday%20Baseball'));
 });

@@ -1,3 +1,4 @@
+const {updateRecentProducts,checklistProducts}=require('./update-recent-products.cjs');
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const digest=s=>crypto.createHash('sha256').update(s).digest('hex');
 const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -194,7 +195,8 @@ function apply(root,options={}){
   fs.mkdirSync(path.dirname(target),{recursive:true});
   fs.writeFileSync(target,JSON.stringify(value,null,/^[\[{]\r?\n/.test(old)?2:undefined)+'\n');
  }
- report.changed_files=[...changes.keys()];return report;
+ const recentChanges=updateRecentProducts(root,'CV',checklistProducts(root),stamp);
+ report.changed_files=[...changes.keys(),...recentChanges];return report;
 }
 if(require.main===module){const report=apply(path.resolve(__dirname,'..'));console.log(JSON.stringify(report));}
 module.exports={apply,buildSearchRows};

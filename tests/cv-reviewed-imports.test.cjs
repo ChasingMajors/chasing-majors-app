@@ -33,7 +33,7 @@ test('reviewed imports add season-scoped products, preserve unrelated data, and 
 test('a later populated export wins over the reviewed fallback and updates direct/search payloads',()=>{
  const f=fixture();try{
   apply(f.root);const bundle='data/v1/checklists/products/basketball-reviewed-new.json';let d=f.read(bundle);d.products.new.rows[0].player='Newer source';d.products.new.parallels=[{parallel_name:'Source parallel'}];f.write(bundle,d);
-  const report=apply(f.root);assert.equal(report.products[0].status,'source_preserved');assert.equal(f.read(bundle).products.new.rows[0].player,'Newer source');
+  const report=apply(f.root);assert.equal(f.read('data/recent.json').items[0].code,'new');assert.equal(f.read('data/recent.json').items[0].vault,'CV');assert.equal(report.products[0].status,'source_preserved');assert.equal(f.read(bundle).products.new.rows[0].player,'Newer source');
   assert.equal(f.read('data/v1/checklists/products/basketball/new.json').rows[0].player,'Newer source');
   assert.equal(f.read('data/v1/checklists/search-index/basketball-reviewed-new.json').rows.find(r=>r.type==='card').player,'Newer source');
  }finally{fs.rmSync(f.root,{recursive:true,force:true});}
