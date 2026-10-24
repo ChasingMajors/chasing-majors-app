@@ -1,503 +1,16 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <meta name="theme-color" content="#0b0b0b" />
+  <meta name="theme-color" content="#ffffff" />
   <title>Checklist Vault • Chasing Majors</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Archivo:wght@600;700;800;900&display=swap" rel="stylesheet">
 
-  <style>
-    :root{
-      --navH: 62px;
-      --contentMax: 900px;
-
-      --bg:#0b0b0b;
-      --text:#ffffff;
-      --muted:rgba(255,255,255,0.78);
-
-      --cardBg:rgba(255,255,255,0.08);
-      --cardBorder:rgba(255,255,255,0.12);
-
-      --inputBg:#111;
-      --inputBorder:rgba(255,255,255,0.16);
-
-      --btnPrimaryBg:#ffffff;
-      --btnPrimaryText:#000000;
-
-      --btnClearBg:transparent;
-      --btnClearText:#ffffff;
-      --btnClearBorder:rgba(255,255,255,0.22);
-
-      --navBg:#0b0b0b;
-      --navBorder:rgba(255,255,255,0.12);
-
-      --navBtnBg:rgba(255,255,255,0.12);
-      --navBtnIcon:#ffffff;
-
-      --kvBorder:rgba(255,255,255,0.10);
-
-      --ddBg:#111;
-      --ddBorder:rgba(255,255,255,0.18);
-      --ddHover:rgba(255,255,255,0.10);
-      --ddActive:rgba(255,255,255,0.16);
-    }
-
-    html[data-theme="light"]{
-      --bg:#ffffff;
-      --text:#0b0b0b;
-      --muted:rgba(0,0,0,0.70);
-
-      --cardBg:rgba(0,0,0,0.05);
-      --cardBorder:rgba(0,0,0,0.10);
-
-      --inputBg:#ffffff;
-      --inputBorder:rgba(0,0,0,0.18);
-
-      --btnPrimaryBg:#111111;
-      --btnPrimaryText:#ffffff;
-
-      --btnClearBg:#E0E0E0;
-      --btnClearText:#000000;
-      --btnClearBorder:#E0E0E0;
-
-      --navBg:#ffffff;
-      --navBorder:rgba(0,0,0,0.10);
-
-      --navBtnBg:rgba(0,0,0,0.08);
-      --navBtnIcon:#0b0b0b;
-
-      --kvBorder:rgba(0,0,0,0.10);
-
-      --ddBg:#ffffff;
-      --ddBorder:rgba(0,0,0,0.16);
-      --ddHover:rgba(0,0,0,0.06);
-      --ddActive:rgba(0,0,0,0.10);
-    }
-
-    *{ box-sizing:border-box; }
-    html, body { height:100%; }
-
-    body{
-      margin:0;
-      font-family: Arial, sans-serif;
-      background:var(--bg);
-      color:var(--text);
-      transition: background 160ms ease, color 160ms ease;
-    }
-
-    .content{
-      padding: 16px 16px calc(var(--navH) + 24px);
-      max-width: var(--contentMax);
-      margin: 0 auto;
-      box-sizing: border-box;
-    }
-
-    .headerRow{
-      position: relative;
-      max-width: var(--contentMax);
-      margin: 6px auto 12px;
-      text-align: center;
-    }
-
-    .appTitle{
-      font-family: "Bangers", cursive;
-      font-size: 34px;
-      letter-spacing: 1px;
-      line-height: 1;
-      margin: 0;
-    }
-    .appTitle .big{ font-size: 42px; }
-
-    .topRight{
-      position:absolute;
-      right:0;
-      top:0;
-      display:flex;
-      gap:10px;
-      align-items:center;
-    }
-
-    .iconBtn{
-      width:44px;
-      height:44px;
-      border-radius: 14px;
-      border:1px solid var(--cardBorder);
-      background: var(--cardBg);
-      color: var(--text);
-      cursor:pointer;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
-      z-index: 5;
-    }
-
-    .icon{
-      width:22px;
-      height:22px;
-      display:block;
-      fill:none;
-      stroke: currentColor;
-      stroke-width:2;
-      stroke-linecap:round;
-      stroke-linejoin:round;
-    }
-
-    .card{
-      background: var(--cardBg);
-      border: 1px solid var(--cardBorder);
-      border-radius: 16px;
-      padding: 16px;
-      transition: background 160ms ease, border-color 160ms ease;
-      width:100%;
-      max-width:100%;
-    }
-
-    .searchCard{
-      max-width: var(--contentMax);
-      margin: 0 auto 14px;
-      width:100%;
-    }
-
-    .heroText{
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 1.35;
-      margin-bottom: 12px;
-    }
-
-    .sportRow{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      gap:12px;
-      flex-wrap:wrap;
-      margin-bottom:12px;
-    }
-
-    .sportWrap{
-      display:flex;
-      align-items:center;
-      gap:8px;
-      padding:8px 12px;
-      border-radius: 999px;
-      border: 1px solid var(--cardBorder);
-      background: var(--cardBg);
-      font-size: 13px;
-      font-weight:700;
-    }
-
-    .sportWrap select{
-      background: transparent;
-      border: none;
-      color: var(--text);
-      font-size: 13px;
-      font-weight:700;
-      outline:none;
-    }
-
-    .searchNotice{
-      margin: 0 0 12px;
-      padding: 8px 12px;
-      border-radius: 10px;
-      border: 1px solid var(--cardBorder);
-      background: var(--cardBg);
-      color: var(--text);
-      font-size: 13px;
-      font-weight: 600;
-      line-height: 1.4;
-    }
-
-    .searchNotice--warn{
-      border-left: 4px solid #e0a106;
-      background: rgba(224,161,6,0.14);
-    }
-
-    .searchNotice[hidden]{
-      display:none;
-    }
-
-    .searchWrap{
-      position: relative;
-      width:100%;
-    }
-
-    .searchIcon{
-      position:absolute;
-      left:12px;
-      top:50%;
-      transform: translateY(-50%);
-      width:18px;
-      height:18px;
-      opacity: 0.75;
-      pointer-events:none;
-      color: var(--text);
-      z-index: 3;
-    }
-
-    input{
-      width:100%;
-      box-sizing:border-box;
-      padding: 12px 12px 12px 40px;
-      border-radius: 12px;
-      border: 1px solid var(--inputBorder);
-      background: var(--inputBg);
-      color: var(--text);
-      font-size: 16px;
-      outline:none;
-      transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
-    }
-
-    .dropdown{
-      position:absolute;
-      left:0;
-      right:0;
-      top: calc(100% + 8px);
-      background: var(--ddBg);
-      border: 1px solid var(--ddBorder);
-      border-radius: 12px;
-      overflow: auto;
-      max-height: 280px;
-      display:none;
-      z-index: 50;
-      box-shadow: 0 16px 40px rgba(0,0,0,0.55);
-    }
-
-    .ddItem{
-      padding: 12px 12px;
-      border-bottom: 1px solid var(--kvBorder);
-      cursor: pointer;
-      background: transparent;
-    }
-    .ddItem:last-child{ border-bottom: 0; }
-
-    .ddItem:hover{ background: var(--ddHover); }
-    .ddItem:active{ background: var(--ddActive); }
-
-    .ddTitle{
-      font-weight: 800;
-      color: var(--text);
-    }
-    .ddMeta{
-      font-size: 12px;
-      color: var(--muted);
-      margin-top: 4px;
-    }
-
-    button.primary{
-      width:100%;
-      margin-top:10px;
-      padding: 12px;
-      border:0;
-      border-radius: 12px;
-      background: var(--btnPrimaryBg);
-      color: var(--btnPrimaryText);
-      font-weight:700;
-      cursor:pointer;
-      transition: background 160ms ease, color 160ms ease;
-    }
-
-    button.clearBtn{
-      width:100%;
-      margin-top:10px;
-      padding: 12px;
-      border-radius: 12px;
-      background: var(--btnClearBg);
-      color: var(--btnClearText);
-      border: 1px solid var(--btnClearBorder);
-      font-weight:700;
-      cursor:pointer;
-      transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
-    }
-
-    .resultsWrap{
-      max-width: var(--contentMax);
-      margin: 0 auto;
-      width:100%;
-    }
-
-    .list{ margin-top: 12px; display:grid; gap: 10px; }
-
-    table{
-      width:100%;
-      border-collapse: collapse;
-      margin-top: 0;
-      font-size: 14px;
-    }
-    th, td{
-      padding: 10px 8px;
-      border-bottom: 1px solid var(--kvBorder);
-      text-align: left;
-      vertical-align: top;
-    }
-    th{
-      opacity: 0.8;
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: .4px;
-    }
-
-    .tableScroller{
-      width:100%;
-      max-width:100%;
-      overflow-x:auto;
-      -webkit-overflow-scrolling:touch;
-    }
-
-    .playerStatsGrid{
-      display:grid;
-      grid-template-columns:repeat(5,minmax(0,1fr));
-      gap:10px;
-    }
-
-    .playerUpdated{
-      display:inline-flex;
-    }
-
-    .mobileHide{
-      display:table-cell;
-    }
-
-    .desktopOnly{
-      display:block;
-    }
-
-    .bottomNav{
-      position: fixed;
-      left:0; right:0; bottom:0;
-      height: var(--navH);
-      background: var(--navBg);
-      border-top: 1px solid var(--navBorder);
-      z-index: 9999;
-      display:flex;
-      justify-content:center;
-      transition: background 160ms ease, border-color 160ms ease;
-    }
-    .bottomNavInner{
-      width:100%;
-      max-width: var(--contentMax);
-      padding: 10px 16px max(10px, env(safe-area-inset-bottom));
-      box-sizing:border-box;
-    }
-    .navRow{
-      display:flex;
-      gap:10px;
-    }
-    .navBtn{
-      flex:1;
-      height: 42px;
-      border:0;
-      border-radius: 14px;
-      background: var(--navBtnBg);
-      color: var(--navBtnIcon);
-      cursor:pointer;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      font-weight:800;
-      transition: background 160ms ease, color 160ms ease;
-    }
-    .navBtn.active{
-      outline: 2px solid rgba(255,255,255,0.18);
-    }
-
-    .cmBootOverlay{
-      position:fixed;
-      inset:0;
-      background:var(--bg);
-      color:var(--text);
-      display:none;
-      place-items:center;
-      z-index:10050;
-      opacity:0;
-      transition:opacity 220ms ease;
-    }
-
-    .cmBootOverlay.show{
-      display:grid;
-      opacity:1;
-    }
-
-    .cmBootOverlayInner{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      gap:14px;
-      text-align:center;
-      width:min(520px, 92vw);
-      padding:34px 18px 18px;
-    }
-
-    .cmBootOverlayTitle{
-      font-family:"Bangers", cursive;
-      font-size:44px;
-      line-height:1.05;
-      letter-spacing:1px;
-      margin:0;
-    }
-
-    .cmBootOverlaySub{
-      opacity:.78;
-      font-size:14px;
-      margin-top:-8px;
-    }
-
-    .cmBootOverlaySpinner{
-      width:44px;
-      height:44px;
-      border-radius:50%;
-      border:4px solid rgba(255,255,255,0.14);
-      border-top-color:currentColor;
-      animation:cmBootSpin 1s linear infinite;
-    }
-
-    html[data-theme="light"] .cmBootOverlaySpinner{
-      border-color:rgba(0,0,0,0.14);
-      border-top-color:currentColor;
-    }
-
-    @keyframes cmBootSpin{
-      to{ transform:rotate(360deg); }
-    }
-
-    body.cm-handoff-loading .content,
-    body.cm-handoff-loading .bottomNav{
-      visibility:hidden;
-    }
-
-    @media (max-width: 640px){
-      .playerUpdated{
-        display:none !important;
-      }
-
-      .playerStatsGrid{
-        grid-template-columns:repeat(4,minmax(0,1fr));
-      }
-
-      .desktopOnly{
-        display:none !important;
-      }
-
-      .mobileHide{
-        display:none !important;
-      }
-
-      .content{
-        padding-left:12px;
-        padding-right:12px;
-      }
-
-      th, td{
-        padding:8px 6px;
-        font-size:13px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="/shared/reference.css?v=1">
 
   <script>
     (function () {
@@ -536,6 +49,16 @@
 </head>
 
 <body>
+  <nav class="siteNav" aria-label="Primary">
+    <a class="brand" href="/">Chasing Majors</a>
+    <a href="/">Search</a>
+    <a href="/checklists/" aria-current="page">Checklists</a>
+    <a href="/vault/">Print Runs</a>
+    <a href="/schedule/">Releases</a>
+    <a href="/ChatBot/">Assistant</a>
+    <a href="https://chasingmajors.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
+  </nav>
+
   <div id="cmBootOverlay" class="cmBootOverlay" aria-hidden="true">
     <div class="cmBootOverlayInner">
       <h1 class="cmBootOverlayTitle">Chasing Majors</h1>
@@ -547,10 +70,7 @@
   <main class="content">
     <section>
       <div class="headerRow">
-        <h1 class="appTitle">
-          <span class="big">C</span>hecklist
-          <span class="big">V</span>ault
-        </h1>
+        <h1 class="appTitle">Checklist Vault</h1>
 
         <div class="topRight">
           <button class="iconBtn" id="themeToggle" aria-label="Toggle theme">
@@ -566,7 +86,7 @@
 
         <div class="sportRow">
           <div class="sportWrap">
-            <span>Sport</span>
+            <label for="sport">Sport</label>
             <select id="sport">
               <option value="all" selected>All Sports</option>
               <option value="baseball">Baseball</option>
@@ -589,12 +109,14 @@
               stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
 
-          <input id="q" placeholder="Let's search something" autocomplete="off" />
+          <input aria-label="Search checklists and players" id="q" placeholder="Let's search something" autocomplete="off" />
           <div id="dropdown" class="dropdown"></div>
         </div>
 
+        <div class="searchActions">
         <button class="primary" id="btnSearch" type="button">Search</button>
         <button class="clearBtn" id="btnClear" type="button">Clear</button>
+        </div>
       </div>
 
       <div class="resultsWrap">
@@ -605,15 +127,6 @@
     </section>
   </main>
 
-  <div class="bottomNav" aria-label="Primary">
-    <div class="bottomNavInner">
-      <div class="navRow">
-        <button class="navBtn" type="button" onclick="location.href='/'">Home</button>
-        <button class="navBtn active" type="button" onclick="location.href='/checklists/'">Checklist Vault</button>
-        <button class="navBtn" type="button" onclick="location.href='/vault/'">Print Run Vault</button>
-      </div>
-    </div>
-  </div>
 
   <script>
     (function () {
@@ -624,6 +137,6 @@
     })();
   </script>
 
-  <script src="/checklists/app.js?v=40"></script>
+  <script src="/checklists/app.js?v=41"></script>
 </body>
 </html>

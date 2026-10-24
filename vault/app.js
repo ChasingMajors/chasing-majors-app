@@ -87,7 +87,7 @@ function setTheme(theme) {
 function loadTheme() {
   const saved = localStorage.getItem(THEME_KEY);
   if (saved === "light" || saved === "dark") setTheme(saved);
-  else setTheme("dark");
+  else setTheme("light");
 }
 
 if (elThemeBtn) {
@@ -155,15 +155,13 @@ function hideBootOverlay(force) {
 }
 
 function getThemeVars() {
-  const isLight = document.documentElement.getAttribute("data-theme") === "light";
-
   return {
-    subText: isLight ? "rgba(0,0,0,0.70)" : "rgba(255,255,255,0.78)",
-    divider: isLight ? "rgba(0,0,0,0.10)" : "rgba(255,255,255,0.10)",
-    badgeBg: isLight ? "rgba(0,0,0,0.04)" : "rgba(255,255,255,0.08)",
-    badgeBorder: isLight ? "rgba(0,0,0,0.12)" : "rgba(255,255,255,0.14)",
-    badgeText: isLight ? "rgba(0,0,0,0.78)" : "rgba(255,255,255,0.86)",
-    softBg: isLight ? "rgba(0,0,0,0.03)" : "rgba(255,255,255,0.04)"
+    softBg: "var(--bg2)",
+    badgeBg: "var(--badgeBg)",
+    badgeBorder: "var(--badgeBorder)",
+    badgeText: "var(--badgeText)",
+    subText: "var(--sub)",
+    divider: "var(--line)"
   };
 }
 

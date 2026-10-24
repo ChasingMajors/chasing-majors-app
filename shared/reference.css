@@ -1,0 +1,104 @@
+/* Reference apps share the homepage's palette, typography and component shapes. */
+:root{
+  color-scheme:light;
+  --ink:#1d1d1f;--sub:#6e6e73;--faint:#86868b;--line:#d2d2d7;
+  --bg:#fff;--bg2:#f5f5f7;--accent:#0071e3;--accent2:#0077ed;--rare:#bf4800;--cmgold:#f7bf4f;
+  --sys:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Helvetica,Arial,sans-serif;
+  --disp:"Archivo",var(--sys);
+  --text:var(--ink);--muted:var(--sub);--cardBg:var(--bg);--cardBorder:var(--line);
+  --inputBg:var(--bg2);--inputBorder:var(--line);--kvBorder:var(--line);
+  --badgeBg:rgba(0,113,227,.08);--badgeBorder:rgba(0,113,227,.18);--badgeText:#0062c4;
+  --navBg:rgba(255,255,255,.72);--ddBg:var(--bg);--ddBorder:var(--line);
+  --ddHover:var(--bg2);--ddActive:rgba(0,113,227,.08);--contentMax:1000px;
+}
+/* Retain the existing optional theme control; light is the default. */
+html[data-theme="dark"]{
+  color-scheme:dark;--ink:#f5f5f7;--sub:#a1a1a6;--faint:#a1a1a6;--line:#424245;
+  --bg:#1d1d1f;--bg2:#2c2c2e;--accent:#0071e3;--rare:#f7bf4f;
+  --badgeBg:rgba(77,159,255,.12);--badgeBorder:rgba(77,159,255,.3);--badgeText:#8ac1ff;
+  --navBg:rgba(29,29,31,.8);--ddActive:rgba(77,159,255,.15);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sys);-webkit-font-smoothing:antialiased;letter-spacing:-.01em}
+button,input,select{font-family:inherit}
+button{cursor:pointer}
+a{color:var(--accent);text-underline-offset:3px}
+.siteNav{position:sticky;top:0;z-index:100;height:48px;display:flex;align-items:center;justify-content:center;gap:34px;background:var(--navBg);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.06);font-size:12.5px;color:var(--sub)}
+.siteNav a{color:var(--sub);text-decoration:none;white-space:nowrap}
+.siteNav .brand{font-family:"Bangers",cursive;font-size:20px;letter-spacing:.5px;color:var(--ink)}
+.siteNav a:hover,.siteNav a[aria-current="page"]{color:var(--ink)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.content{max-width:var(--contentMax);margin:0 auto;padding:60px 22px 80px}
+.headerRow{position:relative;margin:0 0 14px;padding-right:58px}
+.appTitle{font-family:var(--disp);font-size:52px;line-height:1.04;font-weight:800;letter-spacing:-.03em;margin:0}
+.topRight{position:absolute;right:0;top:0}
+.iconBtn{width:40px;height:40px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:980px;background:var(--bg);color:var(--sub)}
+.iconBtn:hover{background:var(--bg2);color:var(--ink)}
+.icon{width:20px;height:20px;display:block;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.card{min-width:0;background:var(--cardBg);border:1px solid var(--line);border-radius:18px;padding:22px 24px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.searchCard{padding:0 0 30px;margin:0 0 30px;border:0;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none}
+.heroText{font-size:20px;line-height:1.4;color:var(--sub);font-weight:400;margin-bottom:26px}
+.sportRow{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.sportWrap{display:flex;align-items:center;gap:8px;padding:7px 14px;border:1px solid var(--line);border-radius:980px;font-size:13px;color:var(--sub)}
+.sportWrap select{min-height:28px;background:transparent;border:0;color:var(--ink);font-size:13px;font-weight:600;max-width:100%}
+.searchNotice{margin:0 0 16px;padding:12px 16px;border:1px solid var(--line);border-radius:14px;background:var(--bg2);font-size:13px;line-height:1.5}
+.searchNotice--warn{border-left:4px solid var(--cmgold)}
+[hidden]{display:none!important}
+.searchWrap{position:relative;width:100%}
+.searchIcon{position:absolute;left:22px;top:50%;transform:translateY(-50%);width:20px;height:20px;pointer-events:none;color:var(--sub)}
+input{width:100%;min-width:0;min-height:58px;padding:16px 22px 16px 54px;border:1px solid transparent;border-radius:980px;background:var(--inputBg);color:var(--ink);font-size:18px;transition:border-color .2s,box-shadow .2s}
+input::placeholder{color:var(--sub)}
+input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 4px rgba(0,113,227,.12);background:var(--bg)}
+.searchActions{display:flex;gap:10px;margin-top:12px}
+button.primary,button.clearBtn{min-height:42px;padding:10px 22px;border-radius:980px;font-size:15px;font-weight:500}
+button.primary{background:var(--accent);color:#fff;border:1px solid transparent}
+button.primary:hover{background:var(--accent2)}
+button.clearBtn{background:transparent;border:1px solid var(--line);color:var(--sub)}
+button.clearBtn:hover{color:var(--ink);border-color:var(--sub)}
+.dropdown{position:absolute;left:0;right:0;top:calc(100% + 8px);display:none;overflow:auto;max-height:280px;z-index:50;background:var(--ddBg);border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 32px rgba(0,0,0,.12)}
+.ddItem{padding:14px 18px;border-bottom:1px solid var(--line);cursor:pointer}
+.ddItem:last-child{border-bottom:0}
+.ddItem:hover{background:var(--ddHover)}
+.ddItem:active,.ddItem.keyboardActive{background:var(--ddActive)}
+.ddTitle{font-weight:600;color:var(--ink)}
+.ddMeta{font-size:12px;color:var(--sub);margin-top:4px}
+.resultsWrap{width:100%}
+.list{display:grid;gap:16px}
+h2{font-family:var(--disp);letter-spacing:-.02em}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:13px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;line-height:1.4}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:var(--sub);background:var(--bg2)}
+tbody tr:last-child td{border-bottom:0}
+.tableScroller{width:100%;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.playerStatsGrid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.playerUpdated{display:inline-flex}
+.mobileHide{display:table-cell}
+.desktopOnly{display:block}
+.cv-tab-btn,.cv-page-btn{font-family:var(--sys)}
+.cv-page-btn:disabled{cursor:default}
+#cvTopButton,#cmScrollTopBtn{bottom:max(22px,env(safe-area-inset-bottom))!important;background:var(--accent)!important;color:#fff!important;border:1px solid transparent!important;box-shadow:0 4px 14px rgba(0,0,0,.12)!important}
+.cmBootOverlay{position:fixed;inset:0;background:var(--bg);color:var(--ink);display:none;place-items:center;z-index:10050;opacity:0;transition:opacity 220ms ease}
+.cmBootOverlay.show{display:grid;opacity:1}
+.cmBootOverlayInner{display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center;width:min(520px,92vw);padding:34px 18px 18px}
+.cmBootOverlayTitle{font-family:"Bangers",cursive;font-size:44px;line-height:1.05;letter-spacing:1px;margin:0}
+.cmBootOverlaySub{color:var(--sub);font-size:14px}
+.cmBootOverlaySpinner{width:44px;height:44px;border-radius:50%;border:4px solid var(--line);border-top-color:var(--accent);animation:cmBootSpin 1s linear infinite}
+@keyframes cmBootSpin{to{transform:rotate(360deg)}}
+body.cm-handoff-loading .content{visibility:hidden}
+@media(max-width:820px){
+  .content{padding-top:48px}
+  .appTitle{font-size:40px}
+  .siteNav{gap:20px;padding:0 16px;justify-content:flex-start;overflow-x:auto}
+  .playerStatsGrid{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .playerUpdated{display:none!important}
+}
+@media(max-width:560px){
+  .content{padding-left:22px;padding-right:22px}
+  .appTitle{font-size:32px}
+  .heroText{font-size:17px}
+  .card{padding:18px 16px}
+  .searchCard{padding:0 0 26px}
+  .desktopOnly,.mobileHide{display:none!important}
+  th,td{padding:10px 8px;font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}.cmBootOverlaySpinner{animation:none}}

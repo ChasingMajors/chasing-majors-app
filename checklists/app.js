@@ -105,7 +105,7 @@ function setTheme(theme) {
 function loadTheme() {
   const saved = localStorage.getItem(THEME_KEY);
   if (saved === "light" || saved === "dark") setTheme(saved);
-  else setTheme("dark");
+  else setTheme("light");
 }
 
 if (elThemeBtn) {
@@ -259,19 +259,17 @@ function sortByDisplayPriority(items) {
 }
 
 function getThemeVars() {
-  const isLight = document.documentElement.getAttribute("data-theme") === "light";
-
   return {
-    pillBg: isLight ? "rgba(0,0,0,0.04)" : "rgba(255,255,255,0.04)",
-    pillBorder: isLight ? "rgba(0,0,0,0.12)" : "rgba(255,255,255,0.12)",
-    pillText: isLight ? "#0b0b0b" : "#ffffff",
-    pillActiveBg: isLight ? "#111111" : "rgba(255,255,255,0.96)",
-    pillActiveText: isLight ? "#ffffff" : "#000000",
-    badgeBg: isLight ? "rgba(0,0,0,0.04)" : "rgba(255,255,255,0.08)",
-    badgeBorder: isLight ? "rgba(0,0,0,0.12)" : "rgba(255,255,255,0.14)",
-    badgeText: isLight ? "rgba(0,0,0,0.78)" : "rgba(255,255,255,0.86)",
-    subText: isLight ? "rgba(0,0,0,0.70)" : "rgba(255,255,255,0.78)",
-    divider: isLight ? "rgba(0,0,0,0.10)" : "rgba(255,255,255,0.10)"
+    pillBg: "var(--bg2)",
+    pillBorder: "var(--line)",
+    pillText: "var(--ink)",
+    pillActiveBg: "var(--ink)",
+    pillActiveText: "var(--bg)",
+    badgeBg: "var(--badgeBg)",
+    badgeBorder: "var(--badgeBorder)",
+    badgeText: "var(--badgeText)",
+    subText: "var(--sub)",
+    divider: "var(--line)"
   };
 }
 
