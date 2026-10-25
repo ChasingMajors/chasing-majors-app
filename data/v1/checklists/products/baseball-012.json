@@ -180578,7 +180578,7 @@
         "keywords": "2024 Bowman's Best Baseball, 2024 Bowmans Best Baseball, 2024 Bowman's Best, 2024 Bowmans Best, 2024 Topps Bowman's Best Baseball, 2024 Topps Bowmans Best Baseball, 2024 Topps Bowman's Best, 2024 Topps Bowmans Best, 24 Bowman's Best Baseball, 24 Bowmans Best Baseball, 24 Bowman's Best, 24 Bowmans Best, Bowman's Best Baseball, Bowmans Best Baseball, Bowman's Best, Bowmans Best, Topps Bowman's Best Baseball, Topps Bowmans Best Baseball, Bowman's Best checklist, Bowmans Best checklist, 2024 Bowman's Best checklist, 2024 Bowmans Best checklist, Bowman's Best 2024 checklist, Bowmans Best 2024 checklist",
         "source_key": "2024",
         "year": "2024",
-        "manufacturer": "Bomwan's",
+        "manufacturer": "Bowman",
         "product": "Best",
         "sport": "baseball"
       },
@@ -186213,6 +186213,21 @@
           "applies_to_subset": "Impact Players",
           "parallel_name": "SuperFractor",
           "serial_no": "/1"
+        }
+      ],
+      "reviewed_metadata_corrections": [
+        {
+          "review_id": "cv-prv-registry-compliance-2026-10-25",
+          "code": "2024_Bowmans_Best_Baseball",
+          "sport": "baseball",
+          "source_url": "https://www.topps.com/media/pdf/MLB2470-2024BowmansBestBaseballChecklist.pdf",
+          "evidence": "Reviewed identity metadata repair; codes, release seasons, checklist cards and parallels are unchanged.",
+          "before": {
+            "manufacturer": "Bomwan's"
+          },
+          "after": {
+            "manufacturer": "Bowman"
+          }
         }
       ]
     },

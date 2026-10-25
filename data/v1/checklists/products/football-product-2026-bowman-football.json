@@ -14,7 +14,7 @@
         "source_key": "2026",
         "year": "2026",
         "manufacturer": "Bowman",
-        "product": "",
+        "product": "Football",
         "sport": "football"
       },
       "rows": [
@@ -24494,6 +24494,21 @@
           "applies_to_subset": "Football Very Important Prospects NIL",
           "parallel_name": "Red Geometric",
           "serial_no": "/5"
+        }
+      ],
+      "reviewed_metadata_corrections": [
+        {
+          "review_id": "cv-prv-registry-compliance-2026-10-25",
+          "code": "2026_bowman_football",
+          "sport": "football",
+          "source_url": "https://www.topps.com/pages/checklists",
+          "evidence": "Reviewed identity metadata repair; codes, release seasons, checklist cards and parallels are unchanged.",
+          "before": {
+            "product": ""
+          },
+          "after": {
+            "product": "Football"
+          }
         }
       ]
     }

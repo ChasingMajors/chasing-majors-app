@@ -3,7 +3,7 @@
   "sport": "football",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-10-20T22:47:36.535Z",
+  "generated_at": "2026-10-25T17:25:14.894Z",
   "sharded": true,
   "shards": [
     "football-001.json",
@@ -64,7 +64,8 @@
     "football-reviewed-2024-score-a-treat-football.json",
     "football-reviewed-2024-score-football.json",
     "football-reviewed-2024-topps-now-rookie-campaign-quarterbacks-football.json",
-    "football-product-2026-panini-obsidian-football-1792536461974-001.json"
+    "football-product-2026-panini-obsidian-football-1792536461974-001.json",
+    "football-reviewed-2026-bowman-football.json"
   ],
   "product_shards": {
     "2026_bowman_university_best_football": [
@@ -192,6 +193,9 @@
     ],
     "2026_panini_obsidian_football": [
       "football-product-2026-panini-obsidian-football-1792536461974-001.json"
+    ],
+    "2026_bowman_football": [
+      "football-reviewed-2026-bowman-football.json"
     ]
   }
 }
