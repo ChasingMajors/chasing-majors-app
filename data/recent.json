@@ -1,74 +1,74 @@
 {
   "items": [
     {
-      "displayName": "2019 Topps Finest Baseball",
-      "code": "19TFmbl",
-      "sport": "baseball",
-      "vault": "PRV",
-      "updated_at": "2026-10-25T14:52:42.692Z"
-    },
-    {
       "displayName": "2020 Topps Finest Baseball",
-      "code": "20TFmbl",
+      "code": "2020_topps_finest_baseball",
       "sport": "baseball",
       "vault": "PRV",
-      "updated_at": "2026-10-25T14:52:42.692Z"
+      "updated_at": "2026-10-25T16:26:23.578Z"
     },
     {
       "displayName": "2021 Topps Finest Baseball",
-      "code": "21TFmbl",
+      "code": "2021_topps_finest_baseball",
       "sport": "baseball",
       "vault": "PRV",
-      "updated_at": "2026-10-25T14:52:42.692Z"
+      "updated_at": "2026-10-25T16:26:23.578Z"
     },
     {
       "displayName": "2022 Topps Finest Baseball",
-      "code": "22TFmbl",
+      "code": "2022_topps_finest_baseball",
       "sport": "baseball",
       "vault": "PRV",
-      "updated_at": "2026-10-25T14:52:42.692Z"
+      "updated_at": "2026-10-25T16:26:23.578Z"
     },
     {
       "displayName": "2023 Topps Finest Baseball",
-      "code": "23TFmbl",
+      "code": "2023_topps_finest_baseball",
       "sport": "baseball",
       "vault": "PRV",
-      "updated_at": "2026-10-25T14:52:42.692Z"
-    },
-    {
-      "displayName": "2024 Bowman's Best Baseball",
-      "code": "2024_Bowmans_Best_Baseball",
-      "sport": "baseball",
-      "vault": "PRV",
-      "updated_at": "2026-10-25T14:52:42.692Z"
+      "updated_at": "2026-10-25T16:26:23.578Z"
     },
     {
       "displayName": "2024 Topps Museum Collection Baseball",
       "code": "2024_Topps_Museum_Collection_Baseball",
       "sport": "baseball",
       "vault": "PRV",
-      "updated_at": "2026-10-25T14:52:42.692Z"
+      "updated_at": "2026-10-25T16:26:23.578Z"
     },
     {
       "displayName": "2024 Topps Pristine Baseball",
       "code": "2024_Topps_Pristine_Baseball",
       "sport": "baseball",
       "vault": "PRV",
-      "updated_at": "2026-10-25T14:52:42.692Z"
+      "updated_at": "2026-10-25T16:26:23.578Z"
     },
     {
       "displayName": "2024 Topps Series 1 Baseball",
-      "code": "2024_Topps_Baseball_Series_1",
+      "code": "2024_topps_series_1_baseball",
       "sport": "baseball",
       "vault": "PRV",
-      "updated_at": "2026-10-25T14:52:42.692Z"
+      "updated_at": "2026-10-25T16:26:23.578Z"
     },
     {
       "displayName": "2024 Topps Series 2 Baseball",
-      "code": "2024_Topps_Baseball_Series_2",
+      "code": "2024_topps_series_2_baseball",
       "sport": "baseball",
       "vault": "PRV",
-      "updated_at": "2026-10-25T14:52:42.692Z"
+      "updated_at": "2026-10-25T16:26:23.578Z"
+    },
+    {
+      "displayName": "2024 Topps Stadium Club Baseball",
+      "code": "2024_Topps_Stadium_Club_Baseball",
+      "sport": "baseball",
+      "vault": "PRV",
+      "updated_at": "2026-10-25T16:26:23.578Z"
+    },
+    {
+      "displayName": "2024 Topps Update Series Baseball",
+      "code": "2024_Topps_Update_Series_Baseball",
+      "sport": "baseball",
+      "vault": "PRV",
+      "updated_at": "2026-10-25T16:26:23.578Z"
     }
   ]
 }
