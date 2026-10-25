@@ -2,7 +2,7 @@ name: Refresh reviewed checklists and Vault data
 on:
   push:
     branches: [main]
-    paths: ['data/v1/manifest.json', 'data/v1/vault/**', 'data/v1/checklists/**', 'data/cv-reviewed-imports/**', 'shared/vault-model.js', 'scripts/**', 'data/prv-calculations/**', 'data/prv-checklist-sizes.json', 'data/prv-integrity-reviews.json', 'tests/**', 'vault/**', 'checklists/**', '.github/workflows/vault-data.yml']
+    paths: ['data/v1/manifest.json', 'data/v1/vault/**', 'data/v1/checklists/**', 'data/cv-reviewed-imports/**', 'shared/**', 'scripts/**', 'data/prv-calculations/**', 'data/prv-checklist-sizes.json', 'data/prv-integrity-reviews.json', 'data/prv-cv-identity-policy.json', 'tests/**', 'vault/**', 'checklists/**', '.github/workflows/vault-data.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -28,6 +28,7 @@ jobs:
             data/prv-calculations
             data/prv-checklist-sizes.json
             data/prv-integrity-reviews.json
+            data/prv-cv-identity-policy.json
             shared
             scripts
             tests

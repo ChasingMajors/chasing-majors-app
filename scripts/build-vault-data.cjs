@@ -6,6 +6,7 @@ const model = require('../shared/vault-model.js');
 const {calculate} = require('./calculate-prv-odds.cjs');
 const {enrich} = require('./enrich-prv-checklist-sizes.cjs');
 const {review} = require('./review-prv-integrity.cjs');
+const {standardize} = require('../shared/prv-cv-identity.cjs');
 const root = path.resolve(__dirname, '..');
 const read = file => JSON.parse(fs.readFileSync(path.join(root,file),'utf8'));
 const source = read('data/v1/manifest.json');
@@ -37,7 +38,10 @@ for (const file of fs.readdirSync(path.join(root,'data/prv-calculations')).filte
 }
 for(const {entry,product} of records) enrich(product,sizeReviews.get(entry.Code));
 const reviewed=review(records,read('data/prv-integrity-reviews.json'));
-const entries = reviewed.records.map(({entry,product}) => {
+const identities=standardize(reviewed.records,cv,read('data/prv-cv-identity-policy.json'));
+const aliases={...reviewed.aliases,...identities.aliases};
+for(const alias of Object.values(aliases))alias.products=alias.products.map(code=>identities.aliases[code]?.products[0]||code);
+const entries = identities.records.map(({entry,product}) => {
   const code=entry.Code;
   // Link only unique, exact normalized names and sports. No fuzzy identity guesses.
   const matches = cv.filter(c => (c.Code===code || model.key(c.DisplayName) === model.key(entry.DisplayName)) && model.key(c.sport) === model.key(entry.sport));
@@ -50,7 +54,8 @@ const entries = reviewed.records.map(({entry,product}) => {
   return {...entry,file,row_count:product.rows.length,status:product.rows.length ? 'ok' : 'empty'};
 });
 for(const file of fs.readdirSync(path.join(root,out,'products'))) if(!files.has(file)) fs.unlinkSync(path.join(root,out,'products',file));
-fs.writeFileSync(path.join(root,out,'index.json'),JSON.stringify({schema_version:2,source_revision:source.vault_version,index:entries,aliases:reviewed.aliases})+'\n');
+fs.writeFileSync(path.join(root,out,'index.json'),JSON.stringify({schema_version:2,source_revision:source.vault_version,index:entries,aliases})+'\n');
+fs.writeFileSync(path.join(root,out,'identity-review.json'),JSON.stringify({...identities.report,cv_revision:read('data/v1/checklists/index.json').generated_at,source_revision:source.vault_version})+'\n');
 fs.writeFileSync(path.join(root,out,'integrity-review.json'),JSON.stringify({...reviewed.report,source_revision:source.vault_version})+'\n');
-updateRecentProducts(root,'PRV',reviewed.records.map(r=>r.product));
+updateRecentProducts(root,'PRV',identities.records.map(r=>r.product));
 console.log(JSON.stringify({products:entries.length,rows:total,bytes:entries.reduce((n,e)=>n+fs.statSync(path.join(root,out,'products',e.file)).size,0)}));

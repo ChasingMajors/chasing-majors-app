@@ -489,7 +489,8 @@ function findBestMatch(query) {
 }
 
 function resolveByCode_(code) {
-  const target = normalizeQuery_(code || "");
+  const alias=typeof STRUCTURED_INDEX!=='undefined' ? STRUCTURED_INDEX?.aliases?.[code] : null;
+  const target = normalizeQuery_(alias?.kind==='canonical_identity' && alias.products.length===1 ? alias.products[0] : code || "");
   if (!target || !INDEX.length) return null;
   return INDEX.find(i => normalizeQuery_(i.Code || "") === target) || null;
 }
@@ -497,6 +498,7 @@ function resolveByCode_(code) {
 function renderSplitChoice_(query) {
   const split=STRUCTURED_INDEX?.aliases?.[query];
   if(!split)return false;
+  if(split.kind==='canonical_identity' && split.products.length===1)return false;
   const choices=split.products.map(code=>STRUCTURED_INDEX.index.find(p=>p.Code===code)).filter(Boolean);
   elResults.innerHTML=`<section class="card"><h2>Choose a product</h2>${choices.map(p=>`<p><a href="?code=${encodeURIComponent(p.Code)}">${esc(p.DisplayName)}</a></p>`).join('')}</section>`;
   hideBootOverlay(true);

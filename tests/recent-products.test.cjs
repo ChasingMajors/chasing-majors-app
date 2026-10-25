@@ -47,6 +47,7 @@ test('PRV publisher records content updates but ignores routine source-version r
   write('data/v1/checklists/index.json',{index:[]});
   write('data/prv-checklist-sizes.json',{products:[]});
   write('data/prv-integrity-reviews.json',{products:[]});
+  write('data/prv-cv-identity-policy.json',{hold:[]});
   const source={products:{p:{meta:{code:'p',displayName:'Test Football',sport:'football'},rows:[{setType:'Base',setLine:'Gold',printRun:'25'}]}}};
   write('data/v1/vault/products/all.json',source);
   const builder=path.resolve('scripts/build-vault-data.cjs');

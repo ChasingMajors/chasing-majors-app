@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "hold": [
+    {"cv_code":"2024_bowmans_best_baseball","reason":"Review CV manufacturer spelling before adopting metadata"},
+    {"cv_code":"2025_topps_heritage_high_number_baseball","reason":"Review CV product-family spelling before adopting metadata"},
+    {"cv_code":"2024_topps_chrome_sapphire_baseball","reason":"Review CV Sapphire product classified as Chrome Logofractor"}
+  ]
+}
