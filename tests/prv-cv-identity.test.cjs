@@ -30,5 +30,5 @@ test('legacy deep links resolve directly, including empty canonical products',()
  const source=fs.readFileSync('vault/app.js','utf8');
  const fn=source.slice(source.indexOf('function resolveByCode_('),source.indexOf('function renderSplitChoice_('));
  const c=vm.createContext({STRUCTURED_INDEX:{aliases:{old:{kind:'canonical_identity',products:['canonical']}}},INDEX:[{Code:'canonical',status:'empty'}],normalizeQuery_:s=>s.toLowerCase()});
- vm.runInContext(fn,c);assert.equal(c.resolveByCode_('old').Code,'canonical');
+ vm.runInContext(fn,c);assert.equal(c.resolveByCode_('old').Code,'canonical');assert.equal(c.resolveByCode_('OLD').Code,'canonical');
 });

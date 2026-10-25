@@ -489,7 +489,8 @@ function findBestMatch(query) {
 }
 
 function resolveByCode_(code) {
-  const alias=typeof STRUCTURED_INDEX!=='undefined' ? STRUCTURED_INDEX?.aliases?.[code] : null;
+  const aliases=typeof STRUCTURED_INDEX!=='undefined' ? STRUCTURED_INDEX?.aliases || {} : {};
+  const alias=aliases[code] || Object.entries(aliases).find(([legacy])=>normalizeQuery_(legacy)===normalizeQuery_(code || ''))?.[1];
   const target = normalizeQuery_(alias?.kind==='canonical_identity' && alias.products.length===1 ? alias.products[0] : code || "");
   if (!target || !INDEX.length) return null;
   return INDEX.find(i => normalizeQuery_(i.Code || "") === target) || null;
