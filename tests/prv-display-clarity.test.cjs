@@ -94,6 +94,6 @@ test('fully-unknown row (value null, serial null) shows "Print run unknown"',()=
 test('serial and checklist cells keep srOnly / mobileLabel accessibility hooks',()=>{
   const html=renderRow({...base,measurement:{value:100,kind:'reported',scope:'set'},serial_limit:25,checklist_size:200});
   assert.match(html,/class="entrySerial"><span class="mobileLabel">Numbered <\/span>\/25/);
-  assert.match(html,/<span class="srOnly">Checklist cards: <\/span>/);
-  assert.match(html,/<span class="mobileLabel" aria-hidden="true">Checklist cards <\/span>/);
+  assert.match(html,/<span class="srOnly">Checklist size: <\/span>/);
+  assert.match(html,/<span class="mobileLabel" aria-hidden="true">Checklist size <\/span>/);
 });

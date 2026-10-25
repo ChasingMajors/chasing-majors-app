@@ -944,10 +944,10 @@ function renderResults(meta, rows) {
         <dl>
           <dt>Print run</dt><dd>The estimated or reported number of copies produced. A qualifier (Reported, Estimated, At least, Up to, Average) says how firm that figure is. "No print-run estimate" means none is known.</dd>
           <dt>Numbered</dt><dd>The serial limit stamped on each card (e.g. /25) — a per-card ceiling, not a total of how many were made.</dd>
-          <dt>Checklist cards</dt><dd>How many distinct cards make up this subset.</dd>
+          <dt>Checklist size</dt><dd>How many distinct cards make up this subset.</dd>
         </dl>
       </details>
-      <div class="entryColumns" aria-hidden="true"><span title="Estimated or reported copies produced">Set / parallel</span><span title="Estimated or reported copies produced">Print run</span><span title="Serial limit stamped per card (e.g. /25) — a ceiling, not a total made">Numbered</span><span title="Distinct cards in this subset">Checklist cards</span></div>
+      <div class="entryColumns" aria-hidden="true"><span title="Estimated or reported copies produced">Set / parallel</span><span title="Estimated or reported copies produced">Print run</span><span title="Serial limit stamped per card (e.g. /25) — a ceiling, not a total made">Numbered</span><span title="Distinct cards in this subset">Checklist size</span></div>
       <div id="entryList"></div>
       <button id="showMore" class="clearBtn" type="button" hidden>Show more entries</button>
     </section>
@@ -990,7 +990,7 @@ function renderEntries() {
       <span class="entryName"><strong>${esc(r.set_name)}</strong><small>${esc(r.section || r.category)}</small></span>
       <span class="entryNumber"><span class="srOnly">${esc(srNumber)}</span><strong aria-hidden="true">${m.value===null?'—':fmtNum(m.value)}</strong><span class="entryQualifier" aria-hidden="true">${esc(qualifier)}</span></span>
       <span class="entrySerial"><span class="mobileLabel">Numbered </span>${r.serial_limit===null?'—':'/'+esc(r.serial_limit)}</span>
-      <span class="entrySize"><span class="srOnly">Checklist cards: </span><span class="mobileLabel" aria-hidden="true">Checklist cards </span>${r.checklist_size===null?'—':fmtNum(r.checklist_size)}</span>
+      <span class="entrySize"><span class="srOnly">Checklist size: </span><span class="mobileLabel" aria-hidden="true">Checklist size </span>${r.checklist_size===null?'—':fmtNum(r.checklist_size)}</span>
       </div></div>`;
   }).join('') || '<p class="emptyEntries">No entries match these filters.</p>';
   document.getElementById('showMore').hidden=rows.length<=visibleLimit;
