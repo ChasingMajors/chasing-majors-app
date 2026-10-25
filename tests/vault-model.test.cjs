@@ -54,3 +54,12 @@ test('conflicting explicit serial labels are flagged without rewriting source da
  const r=model.row({serial:'/50',setLine:'Gold (/25)'},'p',1);
  assert.equal(r.serial_limit,50);assert(r.issues.includes('Serial field and label disagree'));
 });
+
+test('separate source parallel descriptors distinguish labels without changing measurements',()=>{
+ const raw={setType:'Base',setLine:'Base',parallel:'Aqua Holo Foil',printRun:200,serial:'',subSetSize:300};
+ const r=model.row(raw,'p',1);
+ assert.equal(r.set_name,'Base — Aqua Holo Foil');assert.equal(r.measurement.value,200);assert.equal(r.serial_limit,null);assert.equal(r.checklist_size,300);assert.deepEqual(r.raw,raw);
+ assert.equal(model.row({...raw,setLine:'Base — Aqua Holo Foil'},'p',2).set_name,'Base — Aqua Holo Foil');
+ const p=model.product({rows:[raw,{...raw,parallel:'Blackout',printRun:6340}]},'p');
+ assert.ok(p.rows.every(r=>!r.issues.includes('Conflicting counts for matching labels')));
+});

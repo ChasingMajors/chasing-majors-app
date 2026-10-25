@@ -53,7 +53,21 @@ test('current source replacement has valid reviews without restoring cleared pro
  assert.equal(result.report.stale_reviews.length,0);
  assert.equal(result.records.reduce((n,r)=>n+r.product.rows.length,0)+result.report.quarantined.length,count);
  const rule=active.products.find(r=>r.code==='2025_26_topps_nba_hoops_basketball');
- assert.equal(rule.pending_identity_reviews.length,20);
+ assert.equal(rule.pending_identity_reviews.length,0); // Separate source parallel column resolves the formerly ambiguous rows.
  for(const pending of rule.pending_identity_reviews)assert(!rule.actions.some(a=>pending.candidate_positions.includes(a.position)));
  for(const code of ['2025_26_topps_nbl_basketball','2025_26_topps_finest_uefa_club_competitions_soccer'])assert.equal(result.records.find(r=>r.entry.Code===code).product.rows.length,0);
+});
+
+test('recovered source parallel labels preserve all current raw rows and measurement values',()=>{
+ const active=require('../data/prv-integrity-reviews.json'),idx=JSON.parse(fs.readFileSync('data/v1/vault/index.json')).index,bundle=require('../data/v1/vault/products/all.json'),cache={};
+ const records=idx.map(entry=>{const raw=(cache[bundle.product_map[entry.Code]]||=require('../data/v1/vault/products/'+bundle.product_map[entry.Code])).products[entry.Code];return {entry,product:model.product(structuredClone(raw),entry.Code)};});
+ const before=new Map(records.flatMap(r=>r.product.rows.map(row=>[row.id,structuredClone(row)])));
+ const result=review(records,active);assert.equal(result.report.failed.length,0);assert.equal(result.report.stale_reviews.length,0);
+ for(const {product} of result.records)for(const row of product.rows){const old=before.get(row.id);if(!old)continue;assert.deepEqual(row.raw,old.raw);assert.deepEqual(row.measurement,old.measurement);assert.equal(row.serial_limit,old.serial_limit);assert.equal(row.checklist_size,old.checklist_size);}
+ const product=result.records.find(r=>r.entry.Code==='2025_26_topps_basketball').product;
+ assert.deepEqual(product.rows.slice(0,6).map(r=>[r.set_name,r.measurement.value]),[
+  ['Base',1265000],['Base — Aqua Holo Foil',200],['Base — Blackout',6340],['Base — Blue Sandglitter',350],['Base — Crackleboard Foil',5040],['Base — Diamante',2825]
+ ]);
+ const restored=result.report.applied.filter(a=>a.set?.set_name && active.products.find(p=>p.code===a.code)?.actions.find(x=>x.position===Number(a.id.split(':').at(-1)))?.basis.startsWith('Restored omitted parallel'));
+ assert.equal(restored.length,1332);
 });

@@ -22,7 +22,10 @@
     catch { return ''; }
   }
   function row(raw, productCode, position) {
-    const notes = text(raw.notes), type = text(raw.setType), name = text(raw.setLine);
+    const notes = text(raw.notes), type = text(raw.setType), baseName = text(raw.setLine);
+    const parallel = text(raw.parallel);
+    const name = parallel && !baseName.toLowerCase().includes(parallel.toLowerCase())
+      ? [baseName, parallel].filter(Boolean).join(' — ') : baseName || parallel;
     const value = number(raw.printRun);
     const labelSerial = name.match(/\(\s*\/\s*(\d[\d,]*)\s*\)/);
     const fieldSerial = serialNumber(raw.serial), namedSerial = labelSerial ? serialNumber(labelSerial[1]) : null;
