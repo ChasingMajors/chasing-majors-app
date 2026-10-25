@@ -1,7 +1,7 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const {enrich}=require('../scripts/enrich-prv-checklist-sizes.cjs'),model=require('../shared/vault-model.js');
 const reviews=require('../data/prv-checklist-sizes.json');
-const bundle=require('../data/v1/vault/products/all.json');
+const bundle=require('./fixtures/prv-checklist-size-source.json');
 function original(code){return model.product(bundle.products?.[code]||require('../data/v1/vault/products/'+bundle.product_map[code]).products[code],code);}
 test('checklist enrichment preserves every original production value, stamp, and raw source',()=>{
  let changes=0;

@@ -1,7 +1,7 @@
 const {test}=require('node:test'),assert=require('node:assert/strict');
 const {enrich}=require('../scripts/enrich-prv-checklist-sizes.cjs'),model=require('../shared/vault-model.js');
 const review=require('../data/prv-checklist-sizes.json').products.find(p=>p.code==='2026_topps_flagship_football');
-const bundle=require('../data/v1/vault/products/all.json');
+const bundle=require('./fixtures/prv-checklist-size-source.json');
 function product(){return model.product(bundle.products?.[review.code]||require('../data/v1/vault/products/'+bundle.product_map[review.code]).products[review.code],review.code);}
 test('Flagship Football fills 58 reviewed parent counts without treating signers as cards',()=>{
  const p=enrich(product(),review),row=n=>p.rows.find(r=>r.set_name===n);

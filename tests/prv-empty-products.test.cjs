@@ -172,3 +172,23 @@ test('renderResults with rows renders the entries card (populated path)',()=>{
   assert.match(el.innerHTML,/<strong>1<\/strong> entries/);
   assert.doesNotMatch(el.innerHTML,/Data unavailable/);
 });
+
+test('legacy indices without row counts remain searchable while structured data rebuilds',()=>{
+ const c=baseContext({INDEX:[]});
+ vm.runInContext(NORMALIZE_INDEX+'\n'+NORMALIZE_QUERY+'\n'+CLEAN_QUERY+'\n'+IS_EMPTY+'\n'+FIND_BEST,c);
+ c.INDEX=c.normalizeIndexRows_([{Code:'legacy',DisplayName:'2025-26 Topps Basketball'},{Code:'empty',DisplayName:'Empty',row_count:0}]);
+ assert.equal(c.INDEX[0].row_count,null);assert.equal(c.INDEX[0].status,'unknown');
+ assert.equal(c.isEmptyProduct_(c.INDEX[0]),false);
+ assert.equal(c.isEmptyProduct_({Code:'raw-legacy'}),false);
+ assert.equal(c.findBestMatch('2025-26 Topps Basketball').Code,'legacy');
+ assert.equal(c.findBestMatch('Empty'),null);
+});
+
+test('static JSON requests use the source revision and share the in-page cache',async()=>{
+ const urls=[];
+ const c=baseContext({STATIC_CACHE:{},STATIC_MANIFEST:{vault_version:'sheet update 2'},fetchJsonWithTimeout_:async url=>{urls.push(url);return {ok:true};}});
+ vm.runInContext(sliceFn('staticVersion_')+'\n'+sliceFn('loadStaticJsonCached_'),c);
+ await c.loadStaticJsonCached_('index','/data/v2/vault/index.json');
+ await c.loadStaticJsonCached_('index','/data/v2/vault/index.json');
+ assert.deepEqual(urls,['/data/v2/vault/index.json?v=sheet%20update%202']);
+});

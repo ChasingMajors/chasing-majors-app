@@ -302,7 +302,7 @@ async function loadStaticManifest_() {
   if (STATIC_MANIFEST) return STATIC_MANIFEST;
 
   try {
-    STATIC_MANIFEST = await fetchJsonWithTimeout_(`${STATIC_DATA_BASE}/manifest.json`);
+    STATIC_MANIFEST = await fetchJsonWithTimeout_(`${STATIC_DATA_BASE}/manifest.json?refresh=${Date.now()}`);
   } catch (e) {
     STATIC_MANIFEST = { ok: false };
   }
@@ -317,7 +317,9 @@ function staticVersion_(key, fallback = "") {
 
 async function loadStaticJsonCached_(cacheKey, url) {
   if (!STATIC_CACHE[cacheKey]) {
-    STATIC_CACHE[cacheKey] = fetchJsonWithTimeout_(url).catch(error => {
+    const revision = staticVersion_("vault_version");
+    const requestUrl = revision ? `${url}${url.includes("?") ? "&" : "?"}v=${encodeURIComponent(revision)}` : url;
+    STATIC_CACHE[cacheKey] = fetchJsonWithTimeout_(requestUrl).catch(error => {
       delete STATIC_CACHE[cacheKey];
       throw error;
     });
@@ -342,13 +344,13 @@ function normalizeIndexRows_(rows) {
     manufacturer: r.manufacturer || "",
     product: r.product || "",
     cmURL: r.cmURL || r.cm_url || "",
-    row_count: Number(r.row_count || 0),
-    status: r.status || (Number(r.row_count || 0) ? 'ok' : 'empty')
+    row_count: r.row_count == null || r.row_count === '' ? null : Number(r.row_count),
+    status: r.status || (r.row_count == null || r.row_count === '' ? 'unknown' : Number(r.row_count) ? 'ok' : 'empty')
   })).filter(r => r.Code && r.DisplayName);
 }
 
 function isEmptyProduct_(entry) {
-  return !!entry && (entry.status === 'empty' || Number(entry.row_count || 0) === 0);
+  return !!entry && (entry.status === 'empty' || (entry.row_count != null && entry.row_count !== '' && Number(entry.row_count) === 0));
 }
 
 async function loadStaticVaultIndex_() {
