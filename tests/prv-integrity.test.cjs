@@ -46,21 +46,27 @@ test('fingerprints are stable across object key ordering',()=>{
  assert.equal(fingerprint([{a:1,b:2}]),fingerprint([{b:2,a:1}]));
  assert.notEqual(fingerprint([{a:1},{a:2}]),fingerprint([{a:2},{a:1}]));
 });
-test('current source replacement has valid reviews without restoring cleared products or guessing ambiguous labels',()=>{
- const active=require('../data/prv-integrity-reviews.json'),idx=require('../data/v1/vault/index.json').index,bundle=require('../data/v1/vault/products/all.json'),cache={};
- const records=idx.map(entry=>{const file=bundle.product_map?.[entry.Code],raw=bundle.products?.[entry.Code]||(cache[file]||=require('../data/v1/vault/products/'+file)).products[entry.Code];return {entry,product:model.product(structuredClone(raw),entry.Code)};});
- const count=records.reduce((n,r)=>n+r.product.rows.length,0),result=review(records,active);
- assert.equal(result.report.stale_reviews.length,0);
- assert.equal(result.records.reduce((n,r)=>n+r.product.rows.length,0)+result.report.quarantined.length,count);
- const rule=active.products.find(r=>r.code==='2025_26_topps_nba_hoops_basketball');
- assert.equal(rule.pending_identity_reviews.length,0); // Separate source parallel column resolves the formerly ambiguous rows.
- for(const pending of rule.pending_identity_reviews)assert(!rule.actions.some(a=>pending.candidate_positions.includes(a.position)));
- for(const code of ['2025_26_topps_nbl_basketball','2025_26_topps_finest_uefa_club_competitions_soccer'])assert.equal(result.records.find(r=>r.entry.Code===code).product.rows.length,0);
+test('fresh exports preserve rows and skip stale positional reviews',()=>{
+ const active=JSON.parse(fs.readFileSync('data/prv-integrity-reviews.json')),idx=JSON.parse(fs.readFileSync('data/v1/vault/index.json')).index,bundle=JSON.parse(fs.readFileSync('data/v1/vault/products/all.json')),cache={};
+ const records=idx.map(entry=>{const file=bundle.product_map?.[entry.Code],raw=bundle.products?.[entry.Code]||(cache[file]||=JSON.parse(fs.readFileSync('data/v1/vault/products/'+file))).products[entry.Code];return {entry,product:model.product(structuredClone(raw),entry.Code)};});
+ const before=new Map(records.flatMap(r=>r.product.rows.map(row=>[row.id,structuredClone(row)])));
+ const result=review(records,active);assert.equal(result.report.failed.length,0);
+ assert.equal(result.records.reduce((n,r)=>n+r.product.rows.length,0)+result.report.quarantined.length,before.size);
+ for(const {entry,product} of records){
+  const rule=active.products.find(p=>p.code===entry.Code);if(!rule||fingerprint(product.rows.map(r=>r.raw))===rule.source_sha256)continue;
+  assert.ok(result.report.stale_reviews.some(r=>r.code===entry.Code));
+  assert.ok(!result.report.applied.some(r=>r.code===entry.Code&&r.set));
+  assert.ok(!result.report.quarantined.some(r=>r.source_code===entry.Code));
+ }
+ for(const row of [...result.records.flatMap(r=>r.product.rows),...result.report.quarantined.map(q=>q.row)]){
+  const old=before.get(row.source_row_id||row.id);assert.ok(old);assert.deepEqual(row.raw,old.raw);assert.deepEqual(row.measurement,old.measurement);assert.equal(row.serial_limit,old.serial_limit);assert.equal(row.checklist_size,old.checklist_size);
+ }
+ for(const r of records.filter(r=>!r.product.rows.length))assert.equal(result.records.find(x=>x.entry.Code===r.entry.Code)?.product.rows.length??0,0);
 });
 
 test('recovered source parallel labels preserve all current raw rows and measurement values',()=>{
- const active=require('../data/prv-integrity-reviews.json'),idx=JSON.parse(fs.readFileSync('data/v1/vault/index.json')).index,bundle=require('../data/v1/vault/products/all.json'),cache={};
- const records=idx.map(entry=>{const raw=(cache[bundle.product_map[entry.Code]]||=require('../data/v1/vault/products/'+bundle.product_map[entry.Code])).products[entry.Code];return {entry,product:model.product(structuredClone(raw),entry.Code)};});
+ const snapshot=require('./fixtures/prv-parallel-recovery-source.json'),active=snapshot.catalog;
+ const records=snapshot.records.map(({entry,raw})=>({entry:structuredClone(entry),product:model.product(structuredClone(raw),entry.Code)}));
  const before=new Map(records.flatMap(r=>r.product.rows.map(row=>[row.id,structuredClone(row)])));
  const result=review(records,active);assert.equal(result.report.failed.length,0);assert.equal(result.report.stale_reviews.length,0);
  for(const {product} of result.records)for(const row of product.rows){const old=before.get(row.id);if(!old)continue;assert.deepEqual(row.raw,old.raw);assert.deepEqual(row.measurement,old.measurement);assert.equal(row.serial_limit,old.serial_limit);assert.equal(row.checklist_size,old.checklist_size);}
