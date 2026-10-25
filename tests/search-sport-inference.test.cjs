@@ -166,3 +166,18 @@ test('homepage ticker stays hidden for empty data and links populated CV/PRV upd
   assert.ok(filled.get('tickerTrack').innerHTML.includes('/checklists/?q=2026%20Heritage%20Football'));
   assert.ok(filled.get('tickerTrack').innerHTML.includes('/vault/?q=2026%20Holiday%20Baseball'));
 });
+
+test('exact-search typeahead selection retains the raw query instead of the display label', async () => {
+  const node = {}, elQ = {value:''}, calls = [];
+  const ctx = vm.createContext({
+    elDD:{children:[node]}, elQ, elSport:{value:'all'}, selected:null,
+    lower:s=>String(s||'').toLowerCase(), normalizeQuery_:s=>s,
+    closeDropdown(){}, logEventFireAndForget_(){}, getSportValue:()=> 'all',
+    runBroadSearch:async (...args)=>calls.push(args)
+  });
+  vm.runInContext(functionSource(checklist,'function bindDropdownItems('),ctx);
+  ctx.bindDropdownItems([{term:'Search for "2026 topps football"',searchTerm:'2026 topps football',type:'search',sport:'all'}]);
+  await node.onclick();
+  assert.equal(elQ.value,'2026 topps football');
+  assert.equal(calls.length,1);assert.equal(calls[0][0],'2026 topps football');
+});

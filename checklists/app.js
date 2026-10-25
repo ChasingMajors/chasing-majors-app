@@ -1759,7 +1759,7 @@ function bindDropdownItems(items) {
       if (!item) return;
 
       selected = item;
-      elQ.value = item.term || item.displayName || "";
+      elQ.value = item.searchTerm || item.term || item.displayName || "";
       closeDropdown();
 
       if (lower(item.type) === "product" && item.code) {
