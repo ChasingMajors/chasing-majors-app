@@ -1,0 +1,13 @@
+{
+  "review_id": "cv-prv-registry-compliance-2026-10-25",
+  "code": "2025_topps_heritage_high_number_baseball",
+  "sport": "baseball",
+  "source_url": "https://www.topps.com/pages/topps-heritage-high-number-baseball",
+  "evidence": "Reviewed identity metadata repair; codes, release seasons, checklist cards and parallels are unchanged.",
+  "before": {
+    "product": "Hertitage High Number"
+  },
+  "after": {
+    "product": "Heritage High Number"
+  }
+}

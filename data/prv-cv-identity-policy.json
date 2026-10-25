@@ -1,8 +1,417 @@
 {
   "schema_version": 1,
-  "hold": [
-    {"cv_code":"2024_bowmans_best_baseball","reason":"Review CV manufacturer spelling before adopting metadata"},
-    {"cv_code":"2025_topps_heritage_high_number_baseball","reason":"Review CV product-family spelling before adopting metadata"},
-    {"cv_code":"2024_topps_chrome_sapphire_baseball","reason":"Review CV Sapphire product classified as Chrome Logofractor"}
+  "hold": [],
+  "catalog_products": [
+    {
+      "Code": "2019_topps_finest_baseball",
+      "DisplayName": "2019 Topps Finest Baseball",
+      "year": "2019",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Finest",
+      "source_url": "https://www.topps.com/pages/checklists",
+      "identity_only": true
+    },
+    {
+      "Code": "2023_topps_chrome_sapphire_baseball",
+      "DisplayName": "2023 Topps Chrome Sapphire Baseball",
+      "year": "2023",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Chrome Sapphire",
+      "source_url": "https://www.topps.com/pages/checklists",
+      "identity_only": true
+    },
+    {
+      "Code": "2026_topps_chrome_premier_league_soccer",
+      "DisplayName": "2026 Topps Chrome Premier League Soccer",
+      "year": "2026",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Chrome Premier League",
+      "source_url": "https://www.topps.com/pages/topps-chrome-premier-league",
+      "identity_only": true
+    },
+    {
+      "Code": "2025_26_topps_uefa_club_competitions_soccer",
+      "DisplayName": "2025-26 Topps UEFA Club Competitions Soccer",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "UEFA Club Competitions",
+      "source_url": "https://www.topps.com/pages/uefa-club-competitions",
+      "identity_only": true
+    },
+    {
+      "Code": "2025_26_topps_chrome_bundesliga_soccer",
+      "DisplayName": "2025-26 Topps Chrome Bundesliga Soccer",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Chrome Bundesliga",
+      "source_url": "https://de.topps.com/pages/topps-chrome-bundesliga",
+      "identity_only": true
+    },
+    {
+      "Code": "2025_26_topps_chrome_sapphire_bundesliga_soccer",
+      "DisplayName": "2025-26 Topps Chrome Sapphire Bundesliga Soccer",
+      "year": "2025-26",
+      "sport": "soccer",
+      "manufacturer": "Topps",
+      "product": "Chrome Sapphire Bundesliga",
+      "source_url": "https://de.topps.com/pages/topps-chrome-sapphire-bundesliga",
+      "identity_only": true
+    },
+    {
+      "Code": "2025_26_topps_chrome_cactus_jack_basketball",
+      "DisplayName": "2025-26 Topps Chrome Cactus Jack Basketball",
+      "year": "2025-26",
+      "sport": "basketball",
+      "manufacturer": "Topps",
+      "product": "Chrome Cactus Jack",
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Cactus_Jack_Basketball_Checklist.pdf?v=1777925174",
+      "identity_only": true
+    },
+    {
+      "Code": "1994_score_series_1_baseball",
+      "DisplayName": "1994 Score Series 1 Baseball",
+      "year": "1994",
+      "sport": "baseball",
+      "manufacturer": "Score",
+      "product": "Series 1",
+      "source_url": "https://www.tcdb.com/ViewSet.cfm/sid/389/1994-Score",
+      "identity_only": true
+    },
+    {
+      "Code": "1994_score_series_2_baseball",
+      "DisplayName": "1994 Score Series 2 Baseball",
+      "year": "1994",
+      "sport": "baseball",
+      "manufacturer": "Score",
+      "product": "Series 2",
+      "source_url": "https://www.tcdb.com/ViewSet.cfm/sid/389/1994-Score",
+      "identity_only": true
+    },
+    {
+      "Code": "2026_topps_mars_attacks_christmas",
+      "DisplayName": "2026 Topps Mars Attacks Christmas",
+      "year": "2026",
+      "sport": "non-sport",
+      "manufacturer": "Topps",
+      "product": "Mars Attacks Christmas",
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Mars_Attacks_Xmas_24MARS_CHECKLIST_FINAL.pdf?v=1788874979",
+      "identity_only": true
+    },
+    {
+      "Code": "2026_topps_holiday_football",
+      "DisplayName": "2026 Topps Holiday Football",
+      "year": "2026",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Holiday",
+      "source_url": "https://www.topps.com/pages/topps-holiday-football",
+      "identity_only": true
+    }
+  ],
+  "reviewed_mappings": [
+    {
+      "source": {
+        "Code": "25TCUmlb",
+        "DisplayName": "2025 Topps Chrome Update Baseball",
+        "year": "2025",
+        "sport": "Baseball",
+        "manufacturer": "Topps",
+        "product": "Chrome Update"
+      },
+      "canonical_code": "2025_topps_chrome_update_series_baseball",
+      "source_url": "https://www.topps.com/pages/checklists",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "22TCSmlb",
+        "DisplayName": "2022 Topps Chrome Sapphire Baseball",
+        "year": "2023",
+        "sport": "Baseball",
+        "manufacturer": "Topps",
+        "product": "Chrome Sapphire"
+      },
+      "canonical_code": "2022_topps_chrome_sapphire_edition_baseball",
+      "source_url": "https://www.topps.com/pages/checklists",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "21TCSmlb",
+        "DisplayName": "2021 Topps Chrome Sapphire Baseball",
+        "year": "2023",
+        "sport": "Baseball",
+        "manufacturer": "Topps",
+        "product": "Chrome Sapphire"
+      },
+      "canonical_code": "2021_topps_chrome_sapphire_edition_baseball",
+      "source_url": "https://www.topps.com/pages/checklists",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "20TCSmlb",
+        "DisplayName": "2020 Topps Chrome Sapphire Baseball",
+        "year": "2023",
+        "sport": "Baseball",
+        "manufacturer": "Topps",
+        "product": "Chrome Sapphire"
+      },
+      "canonical_code": "2020_topps_chrome_sapphire_baseball",
+      "source_url": "https://www.topps.com/pages/checklists",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "19TCSmlb",
+        "DisplayName": "2019 Topps Chrome Sapphire Baseball",
+        "year": "2023",
+        "sport": "Baseball",
+        "manufacturer": "Topps",
+        "product": "Chrome Sapphire"
+      },
+      "canonical_code": "2019_Topps_Chrome_Sapphire_Edition_Baseball",
+      "source_url": "https://www.topps.com/pages/checklists",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "2025_26_bowman_s_best_university_basketball",
+        "DisplayName": "2025/26 Bowman’s Best University Basketball",
+        "year": "2025/26",
+        "sport": "basketball",
+        "manufacturer": "Bowman",
+        "product": "’s Best University"
+      },
+      "canonical_code": "2025_26_bowman_best_u_basketball",
+      "source_url": "https://www.topps.com/pages/checklists",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "2026_topps_pristine_premier_league_soccer",
+        "DisplayName": "2026 Topps Pristine Premier League Soccer",
+        "year": "2026",
+        "sport": "soccer",
+        "manufacturer": "Topps",
+        "product": "Pristine Premier League"
+      },
+      "canonical_code": "2025_26_topps_pristine_premier_league_soccer",
+      "source_url": "https://www.topps.com/pages/topps-pristine-premier-league",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "2026_merlin_premier_league_soccer",
+        "DisplayName": "2026 Merlin Premier League Soccer",
+        "year": "2026",
+        "sport": "soccer",
+        "manufacturer": "Topps",
+        "product": "Merlin Premier League"
+      },
+      "canonical_code": "2025_26_topps_merlin_premier_league",
+      "source_url": "https://www.midwestcards.com/content/Checklists/Topps/Soccer/2025-26/2025-26%20Merlin%20Premier%20League%20Soccer%20-%20Checklist.pdf",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "2025_26_topps_chrome_update_basketball",
+        "DisplayName": "2025-26 Topps Chrome Update Basketball",
+        "year": "2025-26",
+        "sport": "basketball",
+        "manufacturer": "Topps",
+        "product": "Chrome Update"
+      },
+      "canonical_code": "2025_26_topps_chrome_update_series_basketball",
+      "source_url": "https://www.topps.com/pages/checklists",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "2025_26_finest_uefa_club_competitions_soccer",
+        "DisplayName": "2025-26 Finest UEFA Club Competitions Soccer",
+        "year": "2025-26",
+        "sport": "soccer",
+        "manufacturer": "Topps",
+        "product": "Finest UEFA Club Competitions"
+      },
+      "canonical_code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+      "source_url": "https://www.topps.com/pages/checklists",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "2026_topps_team_samurai_japan_round_2_baseball",
+        "DisplayName": "2026 Topps Team Samurai Japan- Round 2",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Team Samurai Japan- Round 2"
+      },
+      "canonical_code": "2026_topps_chrome_samurai_japan_baseball",
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Chrome_Samurai_Japan_Checklist_update_8.26_1.pdf?v=1787762012",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "2026_heritage_football",
+        "DisplayName": "2026 Heritage Football",
+        "year": "2026",
+        "sport": "football",
+        "manufacturer": "",
+        "product": "Heritage"
+      },
+      "canonical_code": "2026_topps_heritage_football",
+      "source_url": "https://www.topps.com/pages/checklists",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "19TFmbl",
+        "DisplayName": "2019 Topps Finest Baseball",
+        "year": "2019",
+        "sport": "Baseball",
+        "manufacturer": "Topps",
+        "product": "Finest"
+      },
+      "canonical_code": "2019_topps_finest_baseball",
+      "source_url": "https://www.topps.com/pages/checklists",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "23TCSmlb",
+        "DisplayName": "2023 Topps Chrome Sapphire Baseball",
+        "year": "2023",
+        "sport": "Baseball",
+        "manufacturer": "Topps",
+        "product": "Chrome Sapphire"
+      },
+      "canonical_code": "2023_topps_chrome_sapphire_baseball",
+      "source_url": "https://www.topps.com/pages/checklists",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "26TCplsoccer",
+        "DisplayName": "2026 Topps Chrome Premier League Soccer",
+        "year": "2026",
+        "sport": "Soccer",
+        "manufacturer": "Topps",
+        "product": "Chrome Premier League"
+      },
+      "canonical_code": "2026_topps_chrome_premier_league_soccer",
+      "source_url": "https://www.topps.com/pages/topps-chrome-premier-league",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "2526TUefaSoccer",
+        "DisplayName": "2025-26 Topps UEFA Club Competitions Soccer",
+        "year": "2025-26",
+        "sport": "Soccer",
+        "manufacturer": "Topps",
+        "product": "UEFA Club Competitions"
+      },
+      "canonical_code": "2025_26_topps_uefa_club_competitions_soccer",
+      "source_url": "https://www.topps.com/pages/uefa-club-competitions",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "26TCbundsoccer",
+        "DisplayName": "2026 Topps Chrome Bundesliga Soccer",
+        "year": "2026",
+        "sport": "Soccer",
+        "manufacturer": "Topps",
+        "product": "Chrome Bundesliga"
+      },
+      "canonical_code": "2025_26_topps_chrome_bundesliga_soccer",
+      "source_url": "https://de.topps.com/pages/topps-chrome-bundesliga",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "26TCSbundsoccer",
+        "DisplayName": "2026 Topps Chrome Bundesliga Soccer Sapphire",
+        "year": "2026",
+        "sport": "Soccer",
+        "manufacturer": "Topps",
+        "product": "Chrome Sapphire Bundesliga"
+      },
+      "canonical_code": "2025_26_topps_chrome_sapphire_bundesliga_soccer",
+      "source_url": "https://de.topps.com/pages/topps-chrome-sapphire-bundesliga",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "2025_26_topps_chrome_cactus_jack_basketball_basketball",
+        "DisplayName": "2025/26 Topps Chrome Cactus Jack Basketball Basketball",
+        "year": "2025/26",
+        "sport": "basketball",
+        "manufacturer": "Topps",
+        "product": "Chrome Cactus Jack Basketball"
+      },
+      "canonical_code": "2025_26_topps_chrome_cactus_jack_basketball",
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025-26_Topps_Chrome_Cactus_Jack_Basketball_Checklist.pdf?v=1777925174",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "1994_score_series1_baseball",
+        "DisplayName": "1994 Score Series 1 Baseball",
+        "year": "1994",
+        "sport": "Baseball",
+        "manufacturer": "Score",
+        "product": "Series 1"
+      },
+      "canonical_code": "1994_score_series_1_baseball",
+      "source_url": "https://www.tcdb.com/ViewSet.cfm/sid/389/1994-Score",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "1994_score_series2_baseball",
+        "DisplayName": "1994 Score Series 2 Baseball",
+        "year": "1994",
+        "sport": "Baseball",
+        "manufacturer": "Score",
+        "product": "Series 2"
+      },
+      "canonical_code": "1994_score_series_2_baseball",
+      "source_url": "https://www.tcdb.com/ViewSet.cfm/sid/389/1994-Score",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "2026_topps_mars_attacks_christmas_baseball",
+        "DisplayName": "2026 Topps Mars Attacks Christmas",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Topps",
+        "product": "Mars Attacks Christmas"
+      },
+      "canonical_code": "2026_topps_mars_attacks_christmas",
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Mars_Attacks_Xmas_24MARS_CHECKLIST_FINAL.pdf?v=1788874979",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    },
+    {
+      "source": {
+        "Code": "2026_topps_holiday_football",
+        "DisplayName": "2026 Topps Holiday Football",
+        "year": "2026",
+        "sport": "football",
+        "manufacturer": "Topps",
+        "product": "Holiday"
+      },
+      "canonical_code": "2026_topps_holiday_football",
+      "source_url": "https://www.topps.com/pages/topps-holiday-football",
+      "review_id": "remaining-prv-identity-2026-10-25"
+    }
   ]
 }

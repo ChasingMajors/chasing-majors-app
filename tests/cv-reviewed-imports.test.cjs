@@ -161,3 +161,9 @@ test('reviewed product names preserve card identities, update index/search/direc
 test('metadata corrections cannot change codes or seasons and fail before writing',()=>{
  const f=fixture();try{apply(f.root);const before=fs.readFileSync(path.join(f.root,'data/v1/checklists/index.json'),'utf8');metadataPatch(f,{before:{year:'2026-27'},after:{year:'2027-28'}});assert.throws(()=>apply(f.root),/cannot change product identity/);assert.equal(fs.readFileSync(path.join(f.root,'data/v1/checklists/index.json'),'utf8'),before);}finally{fs.rmSync(f.root,{recursive:true,force:true});}
 });
+test('reviewed manufacturer corrections reach index, payload and search without changing cards',()=>{
+ const f=fixture();try{apply(f.root);const before=f.read('data/v1/checklists/products/basketball/new.json');metadataPatch(f,{before:{manufacturer:'Topps'},after:{manufacturer:'Bowman'}});apply(f.root);
+ const after=f.read('data/v1/checklists/products/basketball/new.json');assert.deepEqual(after.rows,before.rows);assert.deepEqual(after.parallels,before.parallels);
+ assert.equal(after.meta.manufacturer,'Bowman');assert.equal(f.read('data/v1/checklists/index.json').index.find(e=>e.Code==='new').manufacturer,'Bowman');assert.equal(f.read('data/v1/checklists/search-index/basketball-reviewed-new.json').rows[0].manufacturer,'Bowman');
+ }finally{fs.rmSync(f.root,{recursive:true,force:true});}
+});

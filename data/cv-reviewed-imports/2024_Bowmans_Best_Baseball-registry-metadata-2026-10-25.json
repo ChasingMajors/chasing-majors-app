@@ -1,0 +1,13 @@
+{
+  "review_id": "cv-prv-registry-compliance-2026-10-25",
+  "code": "2024_Bowmans_Best_Baseball",
+  "sport": "baseball",
+  "source_url": "https://www.topps.com/media/pdf/MLB2470-2024BowmansBestBaseballChecklist.pdf",
+  "evidence": "Reviewed identity metadata repair; codes, release seasons, checklist cards and parallels are unchanged.",
+  "before": {
+    "manufacturer": "Bomwan's"
+  },
+  "after": {
+    "manufacturer": "Bowman"
+  }
+}

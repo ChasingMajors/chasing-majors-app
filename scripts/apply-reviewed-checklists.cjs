@@ -135,7 +135,7 @@ function apply(root,options={}){
  }
  for(const entry of catalog.metadata_corrections||[]){
   const patch=input(entry),current=getProduct(patch.sport,patch.code);
-  const allowed=new Set(['displayName','product','keywords']);
+  const allowed=new Set(['displayName','product','keywords','manufacturer']);
   if(!current.product?.rows?.length||current.product.meta.code!==patch.code||current.product.meta.sport!==patch.sport||!patch.source_url||!patch.review_id||!patch.before||!patch.after)throw Error('Missing metadata correction target/evidence');
   const fields=Object.keys(patch.before);
   if(!fields.length||fields.length!==Object.keys(patch.after).length||fields.some(k=>!allowed.has(k)||typeof patch.before[k]!=='string'||typeof patch.after[k]!=='string'||!patch.after[k].trim()))throw Error('Metadata correction cannot change product identity');
@@ -151,7 +151,7 @@ function apply(root,options={}){
   const entries=index.index.filter(e=>e.Code===patch.code&&e.sport===patch.sport);
   if(entries.length!==1)throw Error('Ambiguous metadata index target');
   // The selected payload remains authoritative, including a later source edit.
-  Object.assign(entries[0],{DisplayName:current.product.meta.displayName,product:current.product.meta.product,Keywords:current.product.meta.keywords});
+  Object.assign(entries[0],{DisplayName:current.product.meta.displayName,product:current.product.meta.product,manufacturer:current.product.meta.manufacturer,Keywords:current.product.meta.keywords});
   write(`data/v1/checklists/products/${patch.sport}/${patch.code}.json`,current.product);
   active.set(patch.code,{sport:patch.sport,product:current.product});
   report.patches.push({code:patch.code,kind:'metadata',status});

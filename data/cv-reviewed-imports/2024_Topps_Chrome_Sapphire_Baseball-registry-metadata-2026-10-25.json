@@ -1,0 +1,13 @@
+{
+  "review_id": "cv-prv-registry-compliance-2026-10-25",
+  "code": "2024_Topps_Chrome_Sapphire_Baseball",
+  "sport": "baseball",
+  "source_url": "https://www.topps.com/pages/checklists",
+  "evidence": "Reviewed identity metadata repair; codes, release seasons, checklist cards and parallels are unchanged.",
+  "before": {
+    "product": "Chrome Logofractor"
+  },
+  "after": {
+    "product": "Chrome Sapphire"
+  }
+}

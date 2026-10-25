@@ -56,6 +56,7 @@ const entries = identities.records.map(({entry,product}) => {
 for(const file of fs.readdirSync(path.join(root,out,'products'))) if(!files.has(file)) fs.unlinkSync(path.join(root,out,'products',file));
 fs.writeFileSync(path.join(root,out,'index.json'),JSON.stringify({schema_version:2,source_revision:source.vault_version,index:entries,aliases})+'\n');
 fs.writeFileSync(path.join(root,out,'identity-review.json'),JSON.stringify({...identities.report,cv_revision:read('data/v1/checklists/index.json').generated_at,source_revision:source.vault_version})+'\n');
+fs.writeFileSync(path.join(root,out,'product-registry.json'),JSON.stringify({schema_version:1,scope:identities.report.scope,products:identities.registry.map(c=>Object.fromEntries(['Code','DisplayName','year','sport','manufacturer','product','cv_indexed','identity_only','source_url'].filter(k=>c[k]!==undefined).map(k=>[k,c[k]])))})+'\n');
 fs.writeFileSync(path.join(root,out,'integrity-review.json'),JSON.stringify({...reviewed.report,source_revision:source.vault_version})+'\n');
 updateRecentProducts(root,'PRV',identities.records.map(r=>r.product));
 console.log(JSON.stringify({products:entries.length,rows:total,bytes:entries.reduce((n,e)=>n+fs.statSync(path.join(root,out,'products',e.file)).size,0)}));
