@@ -48,9 +48,10 @@ function renderRow(row){
 
 const base={category:'Base',set_name:'Gold Refractor',section:'Base'};
 
-test('reported row binds the qualifier word to the number in .entryQualifier (not a bare <small>)',()=>{
+test('reported row shows a clean name and count without redundant section or Reported badge',()=>{
   const html=renderRow({...base,measurement:{value:100,kind:'reported',scope:'set'},serial_limit:null,checklist_size:200});
-  assert.match(html,/class="entryQualifier"[^>]*>Reported</);
+  assert.doesNotMatch(html,/class="entryQualifier"/);
+  assert.doesNotMatch(html,/<small>/);
   assert.match(html,/<strong[^>]*>100<\/strong>/);
   // The qualifier is no longer carried only inside a muted <small>.
   assert.doesNotMatch(html,/<small>Reported<\/small>/);
