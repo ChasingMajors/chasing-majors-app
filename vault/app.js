@@ -983,7 +983,7 @@ function renderEntries() {
     const m=r.measurement;
     const numberedOnly=m.value===null&&r.serial_limit!==null;
     const qualifier=(numberedOnly?'No print-run estimate':labels[m.kind])+(m.scope==='per_card'?' · per card':'');
-    const visibleQualifier=m.kind==='reported'&&m.value!==null ? (m.scope==='per_card'?'Per card':'') : qualifier;
+    const visibleQualifier=numberedOnly ? '' : m.kind==='reported'&&m.value!==null ? (m.scope==='per_card'?'Per card':'') : qualifier;
     const srNumber=m.value===null
       ? (numberedOnly?`No known print run; serial limit /${esc(r.serial_limit)}`:'Print run unknown')
       : `${qualifier} print run ${fmtNum(m.value)}`;

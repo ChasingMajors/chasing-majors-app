@@ -77,7 +77,8 @@ test('per_card scope is appended to the qualifier',()=>{
 
 test('numbered-only row (value null, serial present) is unmistakable: no print-run estimate, /25, no bare 0',()=>{
   const html=renderRow({...base,measurement:{value:null,kind:'unknown',scope:'set'},serial_limit:25,checklist_size:30});
-  assert.match(html,/class="entryQualifier"[^>]*>No print-run estimate</);
+  assert.doesNotMatch(html,/No print-run estimate/);
+  assert.doesNotMatch(html,/class="entryQualifier"/);
   assert.match(html,/No known print run; serial limit \/25/);
   assert.match(html,/\/25/);
   // The big number is a dash placeholder, never a count of 0.
