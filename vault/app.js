@@ -983,13 +983,13 @@ function renderEntries() {
     const m=r.measurement;
     const numberedOnly=m.value===null&&r.serial_limit!==null;
     const qualifier=(numberedOnly?'No print-run estimate':labels[m.kind])+(m.scope==='per_card'?' · per card':'');
-    const visibleQualifier=numberedOnly ? '' : m.kind==='reported'&&m.value!==null ? (m.scope==='per_card'?'Per card':'') : qualifier;
+    const prefix={estimate:'≈',average:'≈',lower_bound:'≥',upper_bound:'≤'}[m.kind] || '';
     const srNumber=m.value===null
       ? (numberedOnly?`No known print run; serial limit /${esc(r.serial_limit)}`:'Print run unknown')
       : `${qualifier} print run ${fmtNum(m.value)}`;
     return `<div class="entry"><div class="entryRow">
       <span class="entryName"><strong>${esc(r.set_name)}</strong></span>
-      <span class="entryNumber"><span class="srOnly">${esc(srNumber)}</span><strong aria-hidden="true">${m.value===null?'—':fmtNum(m.value)}</strong>${visibleQualifier?`<span class="entryQualifier" aria-hidden="true">${esc(visibleQualifier)}</span>`:''}</span>
+      <span class="entryNumber"><span class="srOnly">${esc(srNumber)}</span><strong aria-hidden="true">${m.value===null?'—':prefix+fmtNum(m.value)}</strong></span>
       <span class="entrySerial"><span class="mobileLabel">Numbered </span>${r.serial_limit===null?'—':'/'+esc(r.serial_limit)}</span>
       <span class="entrySize"><span class="srOnly">Checklist size: </span><span class="mobileLabel" aria-hidden="true">Checklist size </span>${r.checklist_size===null?'—':fmtNum(r.checklist_size)}</span>
       </div></div>`;

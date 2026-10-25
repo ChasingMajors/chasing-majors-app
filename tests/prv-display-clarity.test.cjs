@@ -59,20 +59,24 @@ test('reported row shows a clean name and count without redundant section or Rep
   assert.match(html,/Reported print run 100/);
 });
 
-test('upper_bound row shows the "Up to" qualifier',()=>{
+test('upper_bound row shows an inline ceiling without a bubble',()=>{
   const html=renderRow({...base,measurement:{value:500,kind:'upper_bound',scope:'set'},serial_limit:null,checklist_size:50});
-  assert.match(html,/class="entryQualifier"[^>]*>Up to</);
+  assert.doesNotMatch(html,/class="entryQualifier"/);
+  assert.match(html,/>≤500<\/strong>/);
   assert.match(html,/Up to print run 500/);
 });
 
-test('lower_bound row shows the "At least" qualifier',()=>{
+test('lower_bound row shows an inline floor without a bubble',()=>{
   const html=renderRow({...base,measurement:{value:250,kind:'lower_bound',scope:'set'},serial_limit:null,checklist_size:50});
-  assert.match(html,/class="entryQualifier"[^>]*>At least</);
+  assert.doesNotMatch(html,/class="entryQualifier"/);
+  assert.match(html,/>≥250<\/strong>/);
 });
 
-test('per_card scope is appended to the qualifier',()=>{
+test('estimate uses an inline approximation and retains accessible per-card scope',()=>{
   const html=renderRow({...base,measurement:{value:12,kind:'estimate',scope:'per_card'},serial_limit:null,checklist_size:50});
-  assert.match(html,/class="entryQualifier"[^>]*>Estimated · per card</);
+  assert.doesNotMatch(html,/class="entryQualifier"/);
+  assert.match(html,/>≈12<\/strong>/);
+  assert.match(html,/Estimated · per card print run 12/);
 });
 
 test('numbered-only row (value null, serial present) is unmistakable: no print-run estimate, /25, no bare 0',()=>{
@@ -86,9 +90,9 @@ test('numbered-only row (value null, serial present) is unmistakable: no print-r
   assert.doesNotMatch(html,/<strong[^>]*>0<\/strong>/);
 });
 
-test('fully-unknown row (value null, serial null) shows "Print run unknown"',()=>{
+test('fully-unknown row uses a dash without a bubble and retains accessible meaning',()=>{
   const html=renderRow({...base,measurement:{value:null,kind:'unknown',scope:'set'},serial_limit:null,checklist_size:null});
-  assert.match(html,/class="entryQualifier"[^>]*>Print run unknown</);
+  assert.doesNotMatch(html,/class="entryQualifier"/);
   assert.match(html,/<span class="srOnly">Print run unknown<\/span>/);
   assert.doesNotMatch(html,/No print-run estimate/);
 });
