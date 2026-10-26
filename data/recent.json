@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "displayName": "2026 Topps Holiday Football",
+      "code": "2026_topps_holiday_football",
+      "sport": "football",
+      "vault": "PRV",
+      "updated_at": "2026-10-26T23:59:08.749Z"
+    },
+    {
+      "displayName": "2026 Topps Holiday Football",
+      "code": "2026_topps_holiday_football",
+      "sport": "football",
+      "vault": "CV",
+      "updated_at": "2026-10-26T23:58:59.016Z"
+    },
+    {
       "displayName": "2022 Topps Chrome Update Baseball",
       "code": "2022_topps_chrome_update_baseball",
       "sport": "baseball",
@@ -52,20 +66,6 @@
     {
       "displayName": "2021 Bowman Heritage Baseball",
       "code": "2021_bowman_heritage_baseball",
-      "sport": "baseball",
-      "vault": "PRV",
-      "updated_at": "2026-10-26T18:06:23.680Z"
-    },
-    {
-      "displayName": "2022 Topps UK Edition Baseball",
-      "code": "2022_topps_baseball_uk_edition_baseball",
-      "sport": "baseball",
-      "vault": "PRV",
-      "updated_at": "2026-10-26T18:06:23.680Z"
-    },
-    {
-      "displayName": "2022 Topps Mini Baseball",
-      "code": "2022_topps_mini_baseball",
       "sport": "baseball",
       "vault": "PRV",
       "updated_at": "2026-10-26T18:06:23.680Z"
