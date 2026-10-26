@@ -1,6 +1,41 @@
 {
   "items": [
     {
+      "displayName": "2023 Topps Chrome Sapphire Baseball",
+      "code": "2023_topps_chrome_sapphire_baseball",
+      "sport": "baseball",
+      "vault": "PRV",
+      "updated_at": "2026-10-26T13:15:16.041Z"
+    },
+    {
+      "displayName": "2021 Topps Chrome Sapphire Baseball",
+      "code": "2021_topps_chrome_sapphire_edition_baseball",
+      "sport": "baseball",
+      "vault": "PRV",
+      "updated_at": "2026-10-26T13:15:16.041Z"
+    },
+    {
+      "displayName": "2020 Topps Chrome Sapphire Baseball",
+      "code": "2020_topps_chrome_sapphire_baseball",
+      "sport": "baseball",
+      "vault": "PRV",
+      "updated_at": "2026-10-26T13:15:16.041Z"
+    },
+    {
+      "displayName": "2019 Topps Chrome Sapphire Edition Baseball",
+      "code": "2019_Topps_Chrome_Sapphire_Edition_Baseball",
+      "sport": "baseball",
+      "vault": "PRV",
+      "updated_at": "2026-10-26T13:15:16.041Z"
+    },
+    {
+      "displayName": "2025-26 Topps Finest UEFA Club Competitions Soccer",
+      "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+      "sport": "soccer",
+      "vault": "PRV",
+      "updated_at": "2026-10-26T13:15:16.041Z"
+    },
+    {
       "displayName": "2025 Bowman Draft Sapphire Baseball",
       "code": "2025_Bowman_Draft_Sapphire",
       "sport": "baseball",
@@ -32,41 +67,6 @@
       "displayName": "2024 Bowman's Best Baseball",
       "code": "2024_Bowmans_Best_Baseball",
       "sport": "baseball",
-      "vault": "PRV",
-      "updated_at": "2026-10-25T17:25:30.905Z"
-    },
-    {
-      "displayName": "2025 Topps Chrome Update Series Baseball",
-      "code": "2025_topps_chrome_update_series_baseball",
-      "sport": "baseball",
-      "vault": "PRV",
-      "updated_at": "2026-10-25T17:25:30.905Z"
-    },
-    {
-      "displayName": "2026 Topps Chrome Premier League Soccer",
-      "code": "2026_topps_chrome_premier_league_soccer",
-      "sport": "soccer",
-      "vault": "PRV",
-      "updated_at": "2026-10-25T17:25:30.905Z"
-    },
-    {
-      "displayName": "2025-26 Topps UEFA Club Competitions Soccer",
-      "code": "2025_26_topps_uefa_club_competitions_soccer",
-      "sport": "soccer",
-      "vault": "PRV",
-      "updated_at": "2026-10-25T17:25:30.905Z"
-    },
-    {
-      "displayName": "2024 Topps Chrome Sapphire Baseball",
-      "code": "2024_Topps_Chrome_Sapphire_Baseball",
-      "sport": "baseball",
-      "vault": "PRV",
-      "updated_at": "2026-10-25T17:25:30.905Z"
-    },
-    {
-      "displayName": "2025-26 Topps Chrome Bundesliga Soccer",
-      "code": "2025_26_topps_chrome_bundesliga_soccer",
-      "sport": "soccer",
       "vault": "PRV",
       "updated_at": "2026-10-25T17:25:30.905Z"
     }
