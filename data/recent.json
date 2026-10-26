@@ -1,6 +1,27 @@
 {
   "items": [
     {
+      "displayName": "2025 Bowman Draft Sapphire Baseball",
+      "code": "2025_Bowman_Draft_Sapphire",
+      "sport": "baseball",
+      "vault": "PRV",
+      "updated_at": "2026-10-26T00:24:01.835Z"
+    },
+    {
+      "displayName": "2025-26 Topps Chrome UEFA Women's Champions League Soccer",
+      "code": "2025_26_topps_chrome_uefa_women_s_champions_league_soccer",
+      "sport": "soccer",
+      "vault": "PRV",
+      "updated_at": "2026-10-26T00:24:01.835Z"
+    },
+    {
+      "displayName": "2026 Bowman Chrome Sapphire Baseball",
+      "code": "2026_bowman_chrome_sapphire_baseball",
+      "sport": "baseball",
+      "vault": "PRV",
+      "updated_at": "2026-10-26T00:24:01.835Z"
+    },
+    {
       "displayName": "2019 Topps Finest Baseball",
       "code": "2019_topps_finest_baseball",
       "sport": "baseball",
@@ -46,27 +67,6 @@
       "displayName": "2025-26 Topps Chrome Bundesliga Soccer",
       "code": "2025_26_topps_chrome_bundesliga_soccer",
       "sport": "soccer",
-      "vault": "PRV",
-      "updated_at": "2026-10-25T17:25:30.905Z"
-    },
-    {
-      "displayName": "2025-26 Topps Chrome Sapphire Bundesliga Soccer",
-      "code": "2025_26_topps_chrome_sapphire_bundesliga_soccer",
-      "sport": "soccer",
-      "vault": "PRV",
-      "updated_at": "2026-10-25T17:25:30.905Z"
-    },
-    {
-      "displayName": "1994 Score Series 1 Baseball",
-      "code": "1994_score_series_1_baseball",
-      "sport": "baseball",
-      "vault": "PRV",
-      "updated_at": "2026-10-25T17:25:30.905Z"
-    },
-    {
-      "displayName": "1994 Score Series 2 Baseball",
-      "code": "1994_score_series_2_baseball",
-      "sport": "baseball",
       "vault": "PRV",
       "updated_at": "2026-10-25T17:25:30.905Z"
     }
