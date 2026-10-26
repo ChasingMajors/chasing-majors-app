@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-25T21:25:35.773Z",
+  "generated_at": "2026-10-26T00:21:50.211Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -12,7 +12,7 @@
         "code": "19TFmbl",
         "displayName": "2019 Topps Finest Baseball",
         "year": "2019",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Finest",
         "cmURL": ""
@@ -46,7 +46,7 @@
         "code": "20TFmbl",
         "displayName": "2020 Topps Finest Baseball",
         "year": "2020",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Finest",
         "cmURL": ""
@@ -80,7 +80,7 @@
         "code": "21TFmbl",
         "displayName": "2021 Topps Finest Baseball",
         "year": "2021",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Finest",
         "cmURL": ""
@@ -114,7 +114,7 @@
         "code": "22TFmbl",
         "displayName": "2022 Topps Finest Baseball",
         "year": "2022",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Finest",
         "cmURL": ""
@@ -178,7 +178,7 @@
         "code": "23TFmbl",
         "displayName": "2023 Topps Finest Baseball",
         "year": "2023",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Finest",
         "cmURL": ""
@@ -382,9 +382,9 @@
         "code": "2024_Bowmans_Best_Baseball",
         "displayName": "2024 Bowman's Best Baseball",
         "year": "2024",
-        "sport": "Baseball",
-        "manufacturer": "Topps",
-        "product": "Bowman's Best",
+        "sport": "baseball",
+        "manufacturer": "Bowman",
+        "product": "Best",
         "cmURL": ""
       },
       "rows": [
@@ -576,7 +576,7 @@
         "code": "2024_Topps_Museum_Collection_Baseball",
         "displayName": "2024 Topps Museum Collection Baseball",
         "year": "2024",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Museum Collection",
         "cmURL": ""
@@ -610,7 +610,7 @@
         "code": "2024_Topps_Pristine_Baseball",
         "displayName": "2024 Topps Pristine Baseball",
         "year": "2024",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Pristine",
         "cmURL": ""
@@ -784,7 +784,7 @@
         "code": "2024_Topps_Baseball_Series_1",
         "displayName": "2024 Topps Series 1 Baseball",
         "year": "2024",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Series 1",
         "cmURL": ""
@@ -908,7 +908,7 @@
         "code": "2024_Topps_Baseball_Series_2",
         "displayName": "2024 Topps Series 2 Baseball",
         "year": "2024",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Series 2",
         "cmURL": ""
@@ -1122,7 +1122,7 @@
         "code": "2024_Topps_Stadium_Club_Baseball",
         "displayName": "2024 Topps Stadium Club Baseball",
         "year": "2024",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Stadium Club",
         "cmURL": ""
@@ -1456,7 +1456,7 @@
         "code": "2024_Topps_Update_Series_Baseball",
         "displayName": "2024 Topps Update Series Baseball",
         "year": "2024",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Update Series",
         "cmURL": ""
@@ -1740,7 +1740,7 @@
         "code": "2025_Topps_Baseball_Allen_&_Ginter",
         "displayName": "2025 Topps Allen & Ginter Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Allen & Ginter",
         "cmURL": ""
@@ -2254,7 +2254,7 @@
         "code": "2025_Allen_&_Ginter_X",
         "displayName": "2025 Topps Allen & Ginter X Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Allen & Ginter X",
         "cmURL": ""
@@ -2348,7 +2348,7 @@
         "code": "2025_Topps_Baseball_Chrome",
         "displayName": "2025 Topps Chrome Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Chrome",
         "cmURL": ""
@@ -2802,7 +2802,7 @@
         "code": "2025_Topps_Chrome_Black",
         "displayName": "2025 Topps Chrome Black Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Chrome Black",
         "cmURL": ""
@@ -2896,7 +2896,7 @@
         "code": "2025_Topps_Chrome_Baseball_Sapphire",
         "displayName": "2025 Topps Chrome Sapphire Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Chrome Sapphire",
         "cmURL": ""
@@ -2948,11 +2948,11 @@
       "ok": true,
       "meta": {
         "code": "25TCUmlb",
-        "displayName": "2025 Topps Chrome Update Baseball",
+        "displayName": "2025 Topps Chrome Update Series Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
-        "product": "Chrome Update",
+        "product": "Chrome Update Series",
         "cmURL": ""
       },
       "rows": [
@@ -3324,7 +3324,7 @@
         "code": "2025_Topps_Chrome_Update_Series_Sapphire",
         "displayName": "2025 Topps Chrome Update Sapphire Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Chrome Update Sapphire",
         "cmURL": ""
@@ -3378,7 +3378,7 @@
         "code": "2025_Topps_Baseball_Cosmic_Chrome",
         "displayName": "2025 Topps Cosmic Chrome Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Cosmic Chrome",
         "cmURL": ""
@@ -3712,7 +3712,7 @@
         "code": "2025_Diamond_Baseball_Icons",
         "displayName": "2025 Topps Diamond Icons Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Diamond Icons",
         "cmURL": ""
@@ -3746,7 +3746,7 @@
         "code": "2025_Bowman_Draft",
         "displayName": "2025 Bowman Draft Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Bowman",
         "product": "Draft",
         "cmURL": ""
@@ -4100,7 +4100,7 @@
         "code": "2025_Topps_Baseball_Finest",
         "displayName": "2025 Topps Finest Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Finest",
         "cmURL": ""
@@ -4434,7 +4434,7 @@
         "code": "2025_Topps_Gilded_Collection",
         "displayName": "2025 Topps Gilded Collection Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Gilded Collection",
         "cmURL": ""
@@ -4478,9 +4478,9 @@
         "code": "2025_Topps_Baseball_Heritage_HIGH_Number",
         "displayName": "2025 Topps Heritage High Number Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
-        "product": "Heritage",
+        "product": "Heritage High Number",
         "cmURL": ""
       },
       "rows": []
@@ -4491,7 +4491,7 @@
         "code": "2025_Topps_Baseball_Heritage",
         "displayName": "2025 Topps Heritage Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Heritage",
         "cmURL": ""
@@ -4504,9 +4504,9 @@
         "code": "2025_Topps_Chrome_Baseball_Logofractor",
         "displayName": "2025 Topps Chrome Logofractor Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
-        "product": "Logofractor",
+        "product": "Chrome Logofractor",
         "cmURL": ""
       },
       "rows": [
@@ -4598,7 +4598,7 @@
         "code": "2025_Topps_Museum_Collection",
         "displayName": "2025 Topps Museum Collection Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Museum Collection",
         "cmURL": ""
@@ -6022,7 +6022,7 @@
         "code": "2025_topps_pristine",
         "displayName": "2025 Topps Pristine Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Pristine",
         "cmURL": ""
@@ -7056,7 +7056,7 @@
         "code": "2025_Topps_Baseball_Series_1",
         "displayName": "2025 Topps Series 1 Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Series 1",
         "cmURL": ""
@@ -7650,7 +7650,7 @@
         "code": "2025_Topps_Baseball_Series_2",
         "displayName": "2025 Topps Series 2 Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Series 2",
         "cmURL": ""
@@ -8254,7 +8254,7 @@
         "code": "2025_topps_stadium_club",
         "displayName": "2025 Topps Stadium Club Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Stadium Club",
         "cmURL": ""
@@ -9068,7 +9068,7 @@
         "code": "2025_Topps_Baseball_Update_Series",
         "displayName": "2025 Topps Update Series Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Update Series",
         "cmURL": ""
@@ -9552,9 +9552,9 @@
         "code": "2026_topps_series1",
         "displayName": "2026 Topps Series 1 Baseball",
         "year": "2026",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
-        "product": "Sereies 1",
+        "product": "Series 1",
         "cmURL": ""
       },
       "rows": [
@@ -10216,7 +10216,7 @@
         "code": "26TCplsoccer",
         "displayName": "2026 Topps Chrome Premier League Soccer",
         "year": "2026",
-        "sport": "Soccer",
+        "sport": "soccer",
         "manufacturer": "Topps",
         "product": "Chrome Premier League",
         "cmURL": ""
@@ -10520,7 +10520,7 @@
         "code": "25TCSBask",
         "displayName": "2025-26 Topps Chrome Sapphire Basketball",
         "year": "2025-26",
-        "sport": "Basketball",
+        "sport": "basketball",
         "manufacturer": "Topps",
         "product": "Chrome Sapphire",
         "cmURL": ""
@@ -10533,7 +10533,7 @@
         "code": "25TMIDnba",
         "displayName": "2025-26 Topps Midnight Basketball",
         "year": "2025-26",
-        "sport": "Basketball",
+        "sport": "basketball",
         "manufacturer": "Topps",
         "product": "Midnight",
         "cmURL": ""
@@ -13336,9 +13336,9 @@
         "code": "2025_Bowman",
         "displayName": "2025 Bowman Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Bowman",
-        "product": "Bowman",
+        "product": "Baseball",
         "cmURL": ""
       },
       "rows": [
@@ -13680,9 +13680,9 @@
         "code": "25BowMlbMega",
         "displayName": "2025 Bowman Mega Box Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Bowman",
-        "product": "Bowman Mega",
+        "product": "Mega Box",
         "cmURL": ""
       },
       "rows": [
@@ -13794,9 +13794,9 @@
         "code": "2025_Bowman_Baseball_Sapphire_Edition",
         "displayName": "2025 Bowman Sapphire Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Bowman",
-        "product": "Bowman Sapphire",
+        "product": "Sapphire",
         "cmURL": ""
       },
       "rows": [
@@ -13868,9 +13868,9 @@
         "code": "2025_Bowman_Chrome",
         "displayName": "2025 Bowman Chrome Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Bowman",
-        "product": "Bowman Chrome",
+        "product": "Chrome",
         "cmURL": ""
       },
       "rows": []
@@ -13881,9 +13881,9 @@
         "code": "2025_Bowman_Chrome_Mega_Box",
         "displayName": "2025 Bowman Chrome Mega Box Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Bowman",
-        "product": "Bowman Chrome Mega",
+        "product": "Chrome Mega Box",
         "cmURL": ""
       },
       "rows": [
@@ -14005,9 +14005,9 @@
         "code": "2025_Bowman_Chrome_Sapphire",
         "displayName": "2025 Bowman Chrome Sapphire Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Bowman",
-        "product": "Bowman Chrome Sapphire",
+        "product": "Chrome Sapphire",
         "cmURL": ""
       },
       "rows": [
@@ -14079,9 +14079,9 @@
         "code": "2025_Bowman_Draft_Mega_Box",
         "displayName": "2025 Bowman Draft Mega Box Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Bowman",
-        "product": "Draft Mega",
+        "product": "Draft Mega Box",
         "cmURL": ""
       },
       "rows": []
@@ -14092,7 +14092,7 @@
         "code": "2526TUefaSoccer",
         "displayName": "2025-26 Topps UEFA Club Competitions Soccer",
         "year": "2025-26",
-        "sport": "Soccer",
+        "sport": "soccer",
         "manufacturer": "Topps",
         "product": "UEFA Club Competitions",
         "cmURL": ""
@@ -14506,7 +14506,7 @@
         "code": "2526TCnba",
         "displayName": "2025-26 Topps Chrome Basketball",
         "year": "2025-26",
-        "sport": "Basketball",
+        "sport": "basketball",
         "manufacturer": "Topps",
         "product": "Chrome",
         "cmURL": ""
@@ -20055,9 +20055,9 @@
       "ok": true,
       "meta": {
         "code": "2025_Bowman_Draft_Sapphire",
-        "displayName": "2025 Bowman Draft Sapphire",
+        "displayName": "2025 Bowman Draft Sapphire Baseball",
         "year": "2025",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Bowman",
         "product": "Draft Sapphire",
         "cmURL": ""
@@ -20111,7 +20111,7 @@
         "code": "2024_Topps_Finest_Baseball",
         "displayName": "2024 Topps Finest Baseball",
         "year": "2024",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Finest",
         "cmURL": ""
@@ -20485,7 +20485,7 @@
         "code": "2023_Bowman_Sapphire_Baseball",
         "displayName": "2023 Bowman Sapphire Baseball",
         "year": "2023",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Bowman",
         "product": "Sapphire",
         "cmURL": ""
@@ -20519,7 +20519,7 @@
         "code": "22BSmlb",
         "displayName": "2022 Bowman Sapphire Baseball",
         "year": "2022",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Bowman",
         "product": "Sapphire",
         "cmURL": ""
@@ -20553,7 +20553,7 @@
         "code": "23TPistmlb",
         "displayName": "2023 Topps Pristine Baseball",
         "year": "2023",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Pristine",
         "cmURL": ""
@@ -20697,7 +20697,7 @@
         "code": "2024_Bowman_Sapphire_Baseball",
         "displayName": "2024 Bowman Sapphire Baseball",
         "year": "2024",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Bowman",
         "product": "Sapphire",
         "cmURL": ""
@@ -20751,7 +20751,7 @@
         "code": "2024_Topps_Chrome_Sapphire_Baseball",
         "displayName": "2024 Topps Chrome Sapphire Baseball",
         "year": "2024",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Chrome Sapphire",
         "cmURL": ""
@@ -20815,7 +20815,7 @@
         "code": "23TCSmlb",
         "displayName": "2023 Topps Chrome Sapphire Baseball",
         "year": "2023",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Chrome Sapphire",
         "cmURL": ""
@@ -20827,8 +20827,8 @@
       "meta": {
         "code": "22TCSmlb",
         "displayName": "2022 Topps Chrome Sapphire Baseball",
-        "year": "2023",
-        "sport": "Baseball",
+        "year": "2022",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Chrome Sapphire",
         "cmURL": ""
@@ -20840,8 +20840,8 @@
       "meta": {
         "code": "21TCSmlb",
         "displayName": "2021 Topps Chrome Sapphire Baseball",
-        "year": "2023",
-        "sport": "Baseball",
+        "year": "2021",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Chrome Sapphire",
         "cmURL": ""
@@ -20853,8 +20853,8 @@
       "meta": {
         "code": "20TCSmlb",
         "displayName": "2020 Topps Chrome Sapphire Baseball",
-        "year": "2023",
-        "sport": "Baseball",
+        "year": "2020",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Chrome Sapphire",
         "cmURL": ""
@@ -20865,9 +20865,9 @@
       "ok": true,
       "meta": {
         "code": "19TCSmlb",
-        "displayName": "2019 Topps Chrome Sapphire Baseball",
-        "year": "2023",
-        "sport": "Baseball",
+        "displayName": "2019 Topps Chrome Sapphire Edition Baseball",
+        "year": "2019",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Chrome Sapphire",
         "cmURL": ""
@@ -20878,9 +20878,9 @@
       "ok": true,
       "meta": {
         "code": "26TCbundsoccer",
-        "displayName": "2026 Topps Chrome Bundesliga Soccer",
-        "year": "2026",
-        "sport": "Soccer",
+        "displayName": "2025-26 Topps Chrome Bundesliga Soccer",
+        "year": "2025-26",
+        "sport": "soccer",
         "manufacturer": "Topps",
         "product": "Chrome Bundesliga",
         "cmURL": ""
@@ -21164,9 +21164,9 @@
         "code": "2025_26_topps_finest_basketball",
         "displayName": "2025-26 Topps Finest Basketball",
         "year": "2025-26",
-        "sport": "Basketball",
+        "sport": "basketball",
         "manufacturer": "Topps",
-        "product": "Finest",
+        "product": "FInest",
         "cmURL": ""
       },
       "rows": [
@@ -23528,9 +23528,9 @@
         "code": "2026_topps_series_1_celebration",
         "displayName": "2026 Topps Series 1 Celebration Baseball",
         "year": "2026",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
-        "product": "Sereies 1 Celebration",
+        "product": "Series 1 Celebration",
         "cmURL": ""
       },
       "rows": [
@@ -23670,9 +23670,9 @@
       "ok": true,
       "meta": {
         "code": "26TCSbundsoccer",
-        "displayName": "2026 Topps Chrome Bundesliga Soccer Sapphire",
-        "year": "2026",
-        "sport": "Soccer",
+        "displayName": "2025-26 Topps Chrome Sapphire Bundesliga Soccer",
+        "year": "2025-26",
+        "sport": "soccer",
         "manufacturer": "Topps",
         "product": "Chrome Sapphire Bundesliga",
         "cmURL": ""
@@ -23716,8 +23716,8 @@
         "code": "2025_bowmans_best",
         "displayName": "2025 Bowmans Best Baseball",
         "year": "2025",
-        "sport": "Baseball",
-        "manufacturer": "Bowmans",
+        "sport": "baseball",
+        "manufacturer": "Bowman's",
         "product": "Best",
         "cmURL": ""
       },
@@ -23940,7 +23940,7 @@
         "code": "2026_Topps_Heritage",
         "displayName": "2026 Topps Heritage Baseball",
         "year": "2026",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Heritage",
         "cmURL": ""
@@ -24284,7 +24284,7 @@
         "code": "2025_26_Topps_Cosmic_Chrome_Basketball",
         "displayName": "2025-26 Topps Cosmic Chrome Basketball",
         "year": "2025-26",
-        "sport": "Basketball",
+        "sport": "basketball",
         "manufacturer": "Topps",
         "product": "Cosmic Chrome",
         "cmURL": ""
@@ -25947,7 +25947,7 @@
         "code": "2025_topps_chrome_football",
         "displayName": "2025 Topps Chrome Football",
         "year": "2025",
-        "sport": "Football",
+        "sport": "football",
         "manufacturer": "Topps",
         "product": "Chrome",
         "cmURL": ""
@@ -26781,7 +26781,7 @@
         "code": "2026_Topps_Chrome_Black",
         "displayName": "2026 Topps Chrome Black Baseball",
         "year": "2026",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Chrome Black",
         "cmURL": ""
@@ -26865,7 +26865,7 @@
         "code": "2025_26_topps_nba_hoops_basketball",
         "displayName": "2025-26 Topps NBA Hoops Basketball",
         "year": "2025-26",
-        "sport": "Basketball",
+        "sport": "basketball",
         "manufacturer": "Topps",
         "product": "NBA Hoops",
         "cmURL": ""
@@ -28672,7 +28672,7 @@
         "code": "2025_26_bowman_basketball",
         "displayName": "2025-26 Bowman Basketball",
         "year": "2025-26",
-        "sport": "Basketball",
+        "sport": "basketball",
         "manufacturer": "Topps",
         "product": "Bowman",
         "cmURL": ""
@@ -33604,7 +33604,7 @@
         "code": "2025_26_topps_signature_class_basketball",
         "displayName": "2025-26 Topps Signature Class Basketball",
         "year": "2025-26",
-        "sport": "Basketball",
+        "sport": "basketball",
         "manufacturer": "Topps",
         "product": "Signature Class",
         "cmURL": ""
@@ -35889,7 +35889,7 @@
         "code": "2025_26_topps_three_basketball",
         "displayName": "2025-26 Topps Three Basketball",
         "year": "2025-26",
-        "sport": "Basketball",
+        "sport": "basketball",
         "manufacturer": "Topps",
         "product": "Three",
         "cmURL": ""
@@ -37328,10 +37328,10 @@
       "meta": {
         "code": "2026-bowman-baseball",
         "displayName": "2026 Bowman Baseball",
-        "year": "",
-        "sport": "Baseball",
-        "manufacturer": "Topps",
-        "product": "Bowman",
+        "year": "2026",
+        "sport": "baseball",
+        "manufacturer": "Bowman",
+        "product": "Baseball",
         "cmURL": ""
       },
       "rows": [
@@ -37613,7 +37613,7 @@
         "code": "2025_26_topps_basketball",
         "displayName": "2025-26 Topps Basketball",
         "year": "2025-26",
-        "sport": "Basketball",
+        "sport": "basketball",
         "manufacturer": "Topps",
         "product": "Topps",
         "cmURL": ""
@@ -41379,9 +41379,9 @@
         "code": "2026-bowman-mega-box-baseball",
         "displayName": "2026 Bowman Mega Box Baseball",
         "year": "2026",
-        "sport": "Baseball",
-        "manufacturer": "Topps",
-        "product": "Bowman Mega Box",
+        "sport": "baseball",
+        "manufacturer": "Bowman",
+        "product": "Mega Box",
         "cmURL": ""
       },
       "rows": [
@@ -41503,7 +41503,7 @@
         "code": "2023_Topps_Chrome_Baseball",
         "displayName": "2023 Topps Chrome Baseball",
         "year": "2023",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Chrome",
         "cmURL": ""
@@ -41799,11 +41799,11 @@
       "ok": true,
       "meta": {
         "code": "2025_26_bowman_s_best_university_basketball",
-        "displayName": "2025/26 Bowman’s Best University Basketball",
-        "year": "2025/26",
+        "displayName": "2025-26 Bowman Best U Basketball",
+        "year": "2025-26",
         "sport": "basketball",
-        "manufacturer": "Bowman",
-        "product": "’s Best University",
+        "manufacturer": "Topps",
+        "product": "Bowman Best U",
         "cmURL": ""
       },
       "rows": []
@@ -41812,11 +41812,11 @@
       "ok": true,
       "meta": {
         "code": "2025_26_topps_chrome_cactus_jack_basketball_basketball",
-        "displayName": "2025/26 Topps Chrome Cactus Jack Basketball Basketball",
-        "year": "2025/26",
+        "displayName": "2025-26 Topps Chrome Cactus Jack Basketball",
+        "year": "2025-26",
         "sport": "basketball",
         "manufacturer": "Topps",
-        "product": "Chrome Cactus Jack Basketball",
+        "product": "Chrome Cactus Jack",
         "cmURL": ""
       },
       "rows": []
@@ -41827,7 +41827,7 @@
         "code": "1994_score_series1_baseball",
         "displayName": "1994 Score Series 1 Baseball",
         "year": "1994",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Score",
         "product": "Series 1",
         "cmURL": ""
@@ -41891,7 +41891,7 @@
         "code": "1994_score_series2_baseball",
         "displayName": "1994 Score Series 2 Baseball",
         "year": "1994",
-        "sport": "Baseball",
+        "sport": "baseball",
         "manufacturer": "Score",
         "product": "Series 2",
         "cmURL": ""
@@ -42297,8 +42297,8 @@
       "ok": true,
       "meta": {
         "code": "2026_topps_pristine_premier_league_soccer",
-        "displayName": "2026 Topps Pristine Premier League Soccer",
-        "year": "2026",
+        "displayName": "2025-26 Topps Pristine Premier League Soccer",
+        "year": "2025-26",
         "sport": "soccer",
         "manufacturer": "Topps",
         "product": "Pristine Premier League",
@@ -42310,8 +42310,8 @@
       "ok": true,
       "meta": {
         "code": "2026_merlin_premier_league_soccer",
-        "displayName": "2026 Merlin Premier League Soccer",
-        "year": "2026",
+        "displayName": "2025-26 Topps Merlin Premier League Soccer",
+        "year": "2025-26",
         "sport": "soccer",
         "manufacturer": "Topps",
         "product": "Merlin Premier League",
@@ -43825,11 +43825,11 @@
       "ok": true,
       "meta": {
         "code": "2025_26_topps_chrome_uefa_women_s_champions_league_soccer",
-        "displayName": "2025-26 Topps Chrome UEFA Women’s Champions League Soccer",
+        "displayName": "2025-26 Topps Chrome UEFA Women's Champions League Soccer",
         "year": "2025-26",
         "sport": "soccer",
         "manufacturer": "Topps",
-        "product": "Chrome UEFA Women’s Champions League",
+        "product": "Chrome UEFA Women's Champions League",
         "cmURL": ""
       },
       "rows": [
@@ -44134,7 +44134,7 @@
       "meta": {
         "code": "2025_topps_inception_baseball",
         "displayName": "2025 Topps Inception Baseball",
-        "year": "2025-26",
+        "year": "2025",
         "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Inception",
@@ -44336,7 +44336,7 @@
       "meta": {
         "code": "2025_topps_dynasty_baseball",
         "displayName": "2025 Topps Dynasty Baseball",
-        "year": "2026",
+        "year": "2025",
         "sport": "baseball",
         "manufacturer": "Topps",
         "product": "Dynasty",
@@ -44348,11 +44348,11 @@
       "ok": true,
       "meta": {
         "code": "2025_26_topps_chrome_update_basketball",
-        "displayName": "2025-26 Topps Chrome Update Basketball",
+        "displayName": "2025-26 Topps Chrome Update Series Basketball",
         "year": "2025-26",
         "sport": "basketball",
         "manufacturer": "Topps",
-        "product": "Chrome Update",
+        "product": "Chrome Update Series",
         "cmURL": ""
       },
       "rows": [
@@ -45922,7 +45922,7 @@
       "ok": true,
       "meta": {
         "code": "2025_26_finest_uefa_club_competitions_soccer",
-        "displayName": "2025-26 Finest UEFA Club Competitions Soccer",
+        "displayName": "2025-26 Topps Finest UEFA Club Competitions Soccer",
         "year": "2025-26",
         "sport": "soccer",
         "manufacturer": "Topps",
@@ -45939,7 +45939,7 @@
         "year": "2026",
         "sport": "baseball",
         "manufacturer": "Topps",
-        "product": "Cosmic Chrome Early",
+        "product": "Cosmic Chrome",
         "cmURL": ""
       },
       "rows": [
@@ -46675,7 +46675,7 @@
         "code": "2026_topps_mars_attacks_christmas_baseball",
         "displayName": "2026 Topps Mars Attacks Christmas",
         "year": "2026",
-        "sport": "baseball",
+        "sport": "non-sport",
         "manufacturer": "Topps",
         "product": "Mars Attacks Christmas",
         "cmURL": ""
@@ -46917,7 +46917,7 @@
       "ok": true,
       "meta": {
         "code": "2026_bowman_chrome_sapphire_baseball",
-        "displayName": "2026 Bowman Chrome Sapphire",
+        "displayName": "2026 Bowman Chrome Sapphire Baseball",
         "year": "2026",
         "sport": "baseball",
         "manufacturer": "Bowman",
@@ -46981,11 +46981,11 @@
       "ok": true,
       "meta": {
         "code": "2026_topps_team_samurai_japan_round_2_baseball",
-        "displayName": "2026 Topps Team Samurai Japan- Round 2",
+        "displayName": "2026 Topps Chrome Team Samurai Japan Collection Baseball",
         "year": "2026",
         "sport": "baseball",
         "manufacturer": "Topps",
-        "product": "Team Samurai Japan- Round 2",
+        "product": "Chrome Team Samurai Japan Collection",
         "cmURL": ""
       },
       "rows": [
@@ -47353,7 +47353,7 @@
         "year": "2026",
         "sport": "football",
         "manufacturer": "Bowman",
-        "product": "Bowman",
+        "product": "Football",
         "cmURL": ""
       },
       "rows": [
@@ -50429,10 +50429,10 @@
       "ok": true,
       "meta": {
         "code": "2026_heritage_football",
-        "displayName": "2026 Heritage Football",
+        "displayName": "2026 Topps Heritage Football",
         "year": "2026",
         "sport": "football",
-        "manufacturer": "",
+        "manufacturer": "Topps",
         "product": "Heritage",
         "cmURL": ""
       },

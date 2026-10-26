@@ -1,14 +1,14 @@
 {
   "ok": true,
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-25T21:25:35.773Z",
+  "generated_at": "2026-10-26T00:21:50.211Z",
   "index": [
     {
       "Code": "19TFmbl",
       "DisplayName": "2019 Topps Finest Baseball",
       "Keywords": "topps finest baseball, finest baseball, refractor, baseball topps finest, baseball finest",
       "year": "2019",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Finest",
       "cmURL": ""
@@ -18,7 +18,7 @@
       "DisplayName": "2020 Topps Finest Baseball",
       "Keywords": "topps finest baseball, finest baseball, refractor, baseball topps finest, baseball finest",
       "year": "2020",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Finest",
       "cmURL": ""
@@ -28,7 +28,7 @@
       "DisplayName": "2021 Topps Finest Baseball",
       "Keywords": "topps finest baseball, finest baseball, refractor, baseball topps finest, baseball finest",
       "year": "2021",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Finest",
       "cmURL": ""
@@ -38,7 +38,7 @@
       "DisplayName": "2022 Topps Finest Baseball",
       "Keywords": "topps finest baseball, finest baseball, refractor, baseball topps finest, baseball finest",
       "year": "2022",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Finest",
       "cmURL": ""
@@ -48,7 +48,7 @@
       "DisplayName": "2023 Topps Finest Baseball",
       "Keywords": "topps finest baseball, finest baseball, refractor, baseball topps finest, baseball finest",
       "year": "2023",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Finest",
       "cmURL": ""
@@ -58,9 +58,9 @@
       "DisplayName": "2024 Bowman's Best Baseball",
       "Keywords": "bowman best, bowmans best, bowman's best, baseball bomwans best, mlb bowmans best",
       "year": "2024",
-      "sport": "Baseball",
-      "manufacturer": "Topps",
-      "product": "Bowman's Best",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Best",
       "cmURL": ""
     },
     {
@@ -68,7 +68,7 @@
       "DisplayName": "2024 Topps Museum Collection Baseball",
       "Keywords": "topps museum collection, museum collection, baseball museum, mlb musuem",
       "year": "2024",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Museum Collection",
       "cmURL": ""
@@ -78,7 +78,7 @@
       "DisplayName": "2024 Topps Pristine Baseball",
       "Keywords": "topps pristine baseball, pristine baseball, baseball topps pristine, baseball pristine",
       "year": "2024",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Pristine",
       "cmURL": ""
@@ -88,7 +88,7 @@
       "DisplayName": "2024 Topps Series 1 Baseball",
       "Keywords": "topps series 1, topps , series 1, , baseball topps series baseball topps series, mlb topps series, mlb series",
       "year": "2024",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Series 1",
       "cmURL": ""
@@ -98,7 +98,7 @@
       "DisplayName": "2024 Topps Series 2 Baseball",
       "Keywords": "topps series 2, topps series two, series 2, series two, baseball topps series 2, mlb topps series, mlb series 2",
       "year": "2024",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Series 2",
       "cmURL": ""
@@ -108,7 +108,7 @@
       "DisplayName": "2024 Topps Stadium Club Baseball",
       "Keywords": "stadium club, topps stadium club, baseball stadium, mlb stadium, baseball topps stadium, mlb topps stadium, 2025 stadium club",
       "year": "2024",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Stadium Club",
       "cmURL": ""
@@ -118,7 +118,7 @@
       "DisplayName": "2024 Topps Update Series Baseball",
       "Keywords": "topps update series, update series , topps series update, baseball topps update, baseball update, mlb topps update, mlb update",
       "year": "2024",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Update Series",
       "cmURL": ""
@@ -128,7 +128,7 @@
       "DisplayName": "2025 Topps Allen & Ginter Baseball",
       "Keywords": "ginter, allen ginter, baseball ginter, baseball allen, allen and ginter",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Allen & Ginter",
       "cmURL": ""
@@ -138,7 +138,7 @@
       "DisplayName": "2025 Topps Allen & Ginter X Baseball",
       "Keywords": "ginter x, allen ginter x, baseball ginter, baseball allen, allen and ginter x",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Allen & Ginter X",
       "cmURL": ""
@@ -148,7 +148,7 @@
       "DisplayName": "2025 Topps Chrome Baseball",
       "Keywords": "topps, chrome, baseball, mlb topps, mlb chrome, basball topps chrome, baseball chrome",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome",
       "cmURL": ""
@@ -158,7 +158,7 @@
       "DisplayName": "2025 Topps Chrome Black Baseball",
       "Keywords": "topps, chrome black, baseball, mlb topps, mlb chrome black, basball topps chrome black, baseball chrome black",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome Black",
       "cmURL": ""
@@ -168,19 +168,19 @@
       "DisplayName": "2025 Topps Chrome Sapphire Baseball",
       "Keywords": "topps chrome sapphire, chrome sapphire, sapphire, baseball, mlb topps, mlb chrome sapphire, basball topps chrome sapphire, baseball chrome sapphire",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome Sapphire",
       "cmURL": ""
     },
     {
       "Code": "25TCUmlb",
-      "DisplayName": "2025 Topps Chrome Update Baseball",
+      "DisplayName": "2025 Topps Chrome Update Series Baseball",
       "Keywords": "topps chrome update, chrome update, update, baseball, mlb topps, mlb chrome update, basball topps chrome update, baseball chrome update",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
-      "product": "Chrome Update",
+      "product": "Chrome Update Series",
       "cmURL": ""
     },
     {
@@ -188,7 +188,7 @@
       "DisplayName": "2025 Topps Chrome Update Sapphire Baseball",
       "Keywords": "topps chrome update sapphire, chrome update sapphire, update sapphire, sapphire, baseball, mlb topps, mlb chrome update sapphire, basball topps chrome sapphire update, baseball chrome sapphire update",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome Update Sapphire",
       "cmURL": ""
@@ -198,7 +198,7 @@
       "DisplayName": "2025 Topps Cosmic Chrome Baseball",
       "Keywords": "topps cosmic, cosmic chrome, baseball cosmic, mlb cosmic",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Cosmic Chrome",
       "cmURL": ""
@@ -208,7 +208,7 @@
       "DisplayName": "2025 Topps Diamond Icons Baseball",
       "Keywords": "dimond icons, icons, baseball diamond icons, baseball icons, mlb diamond icons, mlb icons",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Diamond Icons",
       "cmURL": ""
@@ -218,7 +218,7 @@
       "DisplayName": "2025 Bowman Draft Baseball",
       "Keywords": "bowman draft, draft, baseball bowman, mlb bowman, 2025 draft",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Bowman",
       "product": "Draft",
       "cmURL": ""
@@ -228,7 +228,7 @@
       "DisplayName": "2025 Topps Finest Baseball",
       "Keywords": "topps finest, finest baseball, baseball finest, baseball topps finest, mlb finest",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Finest",
       "cmURL": ""
@@ -238,7 +238,7 @@
       "DisplayName": "2025 Topps Gilded Collection Baseball",
       "Keywords": "gilded collection, topps gilded, topps chrome gilded, baseball gilded",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Gilded Collection",
       "cmURL": ""
@@ -248,9 +248,9 @@
       "DisplayName": "2025 Topps Heritage High Number Baseball",
       "Keywords": "topps heritage high, heritage high number, baseball heritage high, baseball topps heritage high, mlb heritage high, high number",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
-      "product": "Heritage",
+      "product": "Heritage High Number",
       "cmURL": ""
     },
     {
@@ -258,7 +258,7 @@
       "DisplayName": "2025 Topps Heritage Baseball",
       "Keywords": "topps heritage, heritage baseball, baseball heritage, baseball topps heritage, mlb heritage",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Heritage",
       "cmURL": ""
@@ -268,9 +268,9 @@
       "DisplayName": "2025 Topps Chrome Logofractor Baseball",
       "Keywords": "topps chrome logofractor, chrome logofractor, logofractor, baseball, mlb topps, mlb chrome logofractor, basball topps chrome logofractor, baseball chrome logofractor",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
-      "product": "Logofractor",
+      "product": "Chrome Logofractor",
       "cmURL": ""
     },
     {
@@ -278,7 +278,7 @@
       "DisplayName": "2025 Topps Museum Collection Baseball",
       "Keywords": "topps museum collection, museum collection, baseball museum, mlb musuem, 2025 museum collection",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Museum Collection",
       "cmURL": ""
@@ -288,7 +288,7 @@
       "DisplayName": "2025 Topps Pristine Baseball",
       "Keywords": "2025 pristine baseball, topps pristine baseball, pristine baseball, baseball topps pristine, baseball pristine, mlb topps pristine, mlb pristine",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Pristine",
       "cmURL": ""
@@ -298,7 +298,7 @@
       "DisplayName": "2025 Topps Series 1 Baseball",
       "Keywords": "topps series 1, topps , series 1, , baseball topps series baseball topps series, mlb topps series, mlb series",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Series 1",
       "cmURL": ""
@@ -308,7 +308,7 @@
       "DisplayName": "2025 Topps Series 2 Baseball",
       "Keywords": "topps series 2, topps series two, series 2, series two, baseball topps series 2, mlb topps series, mlb series 2",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Series 2",
       "cmURL": ""
@@ -318,7 +318,7 @@
       "DisplayName": "2025 Topps Stadium Club Baseball",
       "Keywords": "stadium club, topps stadium club, baseball stadium, mlb stadium, baseball topps stadium, mlb topps stadium, 2025 stadium club",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Stadium Club",
       "cmURL": ""
@@ -328,7 +328,7 @@
       "DisplayName": "2025 Topps Update Series Baseball",
       "Keywords": "topps update series, update series , topps series update, baseball topps update, baseball update, mlb topps update, mlb update",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Update Series",
       "cmURL": ""
@@ -338,9 +338,9 @@
       "DisplayName": "2026 Topps Series 1 Baseball",
       "Keywords": "2026 series 1, 2026 , series 1, , baseball topps series, baseball series, mlb topps series, mlb series",
       "year": "2026",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
-      "product": "Sereies 1",
+      "product": "Series 1",
       "cmURL": ""
     },
     {
@@ -348,7 +348,7 @@
       "DisplayName": "2026 Topps Chrome Premier League Soccer",
       "Keywords": "2026 chrome premier, topps chrome premier, chrome premier, premeir, soccer, premier league",
       "year": "2026",
-      "sport": "Soccer",
+      "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Chrome Premier League",
       "cmURL": ""
@@ -358,7 +358,7 @@
       "DisplayName": "2025-26 Topps Chrome Sapphire Basketball",
       "Keywords": "chrome sapphire, sapphire basketball, basketball, nba, nba topps, nba chrome, nba sapphire, 2025 topps, 2025 sapphire",
       "year": "2025-26",
-      "sport": "Basketball",
+      "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Chrome Sapphire",
       "cmURL": ""
@@ -368,7 +368,7 @@
       "DisplayName": "2025-26 Topps Midnight Basketball",
       "Keywords": "midnight basketball, topps midnight basketball, basketball topps midnight, basketball midnight",
       "year": "2025-26",
-      "sport": "Basketball",
+      "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Midnight",
       "cmURL": ""
@@ -378,9 +378,9 @@
       "DisplayName": "2025 Bowman Baseball",
       "Keywords": "2025 Bowman Baseball, 2025 Bowman, 2025 Bowman cards, 2025 Bowman MLB, 25 Bowman Baseball, 25 Bowman, Bowman Baseball 2025, Bowman 2025, Bowman Baseball cards, Bowman Baseball, Bowman MLB, Bowman prospects 2025, Bowman rookies 2025, Topps Bowman Baseball 2025, Topps Bowman 2025, Bowman Baseball checklist, Bowman checklist, 2025 Bowman checklist",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Bowman",
-      "product": "Bowman",
+      "product": "Baseball",
       "cmURL": ""
     },
     {
@@ -388,9 +388,9 @@
       "DisplayName": "2025 Bowman Mega Box Baseball",
       "Keywords": "bowman baseball mega, baseball bowman mega, mlb bowman mega",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Bowman",
-      "product": "Bowman Mega",
+      "product": "Mega Box",
       "cmURL": ""
     },
     {
@@ -398,9 +398,9 @@
       "DisplayName": "2025 Bowman Sapphire Baseball",
       "Keywords": "bowman sapphire baseball, baseball bowman sapphire, mlb bowman sapphire",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Bowman",
-      "product": "Bowman Sapphire",
+      "product": "Sapphire",
       "cmURL": ""
     },
     {
@@ -408,9 +408,9 @@
       "DisplayName": "2025 Bowman Chrome Baseball",
       "Keywords": "bowman chrome baseball, baseball bowman chrome, mlb bowman chrome",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Bowman",
-      "product": "Bowman Chrome",
+      "product": "Chrome",
       "cmURL": ""
     },
     {
@@ -418,9 +418,9 @@
       "DisplayName": "2025 Bowman Chrome Mega Box Baseball",
       "Keywords": "bowman chrome baseball mega, baseball bowman chrome mega, mlb bowman chrome mega",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Bowman",
-      "product": "Bowman Chrome Mega",
+      "product": "Chrome Mega Box",
       "cmURL": ""
     },
     {
@@ -428,9 +428,9 @@
       "DisplayName": "2025 Bowman Chrome Sapphire Baseball",
       "Keywords": "2025 Bowman Chrome Sapphire Baseball, 2025 Bowman Chrome Sapphire, 2025 Topps Bowman Chrome Sapphire Baseball, 2025 Topps Bowman Chrome Sapphire, 25 Bowman Chrome Sapphire Baseball, 25 Bowman Chrome Sapphire, Bowman Chrome Sapphire 2025, Bowman Chrome Sapphire Baseball 2025, Bowman Chrome Sapphire Baseball, Bowman Chrome Sapphire, Topps Bowman Chrome Sapphire Baseball, Topps Bowman Chrome Sapphire, Bowman Chrome Sapphire checklist, Bowman Chrome Sapphire baseball checklist, 2025 Bowman Chrome Sapphire checklist, Bowman Chrome Sapphire 2025 checklist, 25 Bowman Chrome Sapphire checklist",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Bowman",
-      "product": "Bowman Chrome Sapphire",
+      "product": "Chrome Sapphire",
       "cmURL": ""
     },
     {
@@ -438,9 +438,9 @@
       "DisplayName": "2025 Bowman Draft Mega Box Baseball",
       "Keywords": "2025 Bowman Draft Mega Box Baseball, 2025 Bowman Draft Mega Box, 2025 Bowman Draft Mega, 2025 Topps Bowman Draft Mega Box Baseball, 2025 Topps Bowman Draft Mega Box, 25 Bowman Draft Mega Box Baseball, 25 Bowman Draft Mega Box, 25 Bowman Draft Mega, Bowman Draft Mega Box 2025, Bowman Draft Mega Box Baseball, Bowman Draft Mega Box, Bowman Draft Mega Baseball, Topps Bowman Draft Mega Box, Topps Bowman Draft Mega Box Baseball, Bowman Draft Mega Box checklist, Bowman Draft Mega checklist, 2025 Bowman Draft Mega Box checklist, Bowman Draft Mega 2025, 25 Bowman Draft Mega Box checklist",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Bowman",
-      "product": "Draft Mega",
+      "product": "Draft Mega Box",
       "cmURL": ""
     },
     {
@@ -448,7 +448,7 @@
       "DisplayName": "2025-26 Topps UEFA Club Competitions Soccer",
       "Keywords": "topps uefa club competitions, topps soccer, uefa club competitions, club competitions, socccer uefa,",
       "year": "2025-26",
-      "sport": "Soccer",
+      "sport": "soccer",
       "manufacturer": "Topps",
       "product": "UEFA Club Competitions",
       "cmURL": ""
@@ -458,17 +458,17 @@
       "DisplayName": "2025-26 Topps Chrome Basketball",
       "Keywords": "topps chrome basketball, chrome basketball, basketball topps chrome, basketball chrome, nba topps chrome, nba chrome, 2025 topps chrome, 2025 chrome",
       "year": "2025-26",
-      "sport": "Basketball",
+      "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Chrome",
       "cmURL": ""
     },
     {
       "Code": "2025_Bowman_Draft_Sapphire",
-      "DisplayName": "2025 Bowman Draft Sapphire",
+      "DisplayName": "2025 Bowman Draft Sapphire Baseball",
       "Keywords": "2025 Bowman Draft Sapphire Baseball, 2025 Bowman Draft Sapphire, 2025 Topps Bowman Draft Sapphire Baseball, 2025 Topps Bowman Draft Sapphire, 25 Bowman Draft Sapphire Baseball, 25 Bowman Draft Sapphire, Bowman Draft Sapphire 2025, Bowman Draft Sapphire Baseball 2025, Bowman Draft Sapphire Baseball, Bowman Draft Sapphire, Topps Bowman Draft Sapphire Baseball, Topps Bowman Draft Sapphire, Bowman Draft Sapphire checklist, Bowman Draft Sapphire baseball checklist, 2025 Bowman Draft Sapphire checklist, Bowman Draft Sapphire 2025 checklist, 25 Bowman Draft Sapphire checklist",
       "year": "2025",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Bowman",
       "product": "Draft Sapphire",
       "cmURL": ""
@@ -478,7 +478,7 @@
       "DisplayName": "2024 Topps Finest Baseball",
       "Keywords": "24 finest, 2024 finest, 24 topps finest, topps finest, finest baseball, baseball finest, mlb finest, baseball topps finest, mlb topps finest,",
       "year": "2024",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Finest",
       "cmURL": ""
@@ -488,7 +488,7 @@
       "DisplayName": "2023 Bowman Sapphire Baseball",
       "Keywords": "2023 Bowman Sapphire Baseball, Bowman Sapphire Baseball 2023, 2023 Bowman Sapphire cards, Bowman Sapphire baseball cards 2023, 2023 Bowman Sapphire prospects, Bowman Sapphire prospects 2023, Bowman Sapphire 1st Bowman cards 2023, 1st Bowman Sapphire 2023, Bowman Sapphire hobby box 2023, Bowman Sapphire box 2023, Bowman Sapphire rookies 2023, Bowman Sapphire rookie cards 2023, Bowman Sapphire autos 2023, Bowman Sapphire autographs 2023, Bowman Sapphire parallels 2023, Bowman Sapphire orange parallels 2023, Bowman Sapphire superfractor 2023, Bowman Sapphire inserts 2023, Bowman Sapphire Baseball checklist 2023, Bowman Sapphire checklist",
       "year": "2023",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Bowman",
       "product": "Sapphire",
       "cmURL": ""
@@ -498,7 +498,7 @@
       "DisplayName": "2022 Bowman Sapphire Baseball",
       "Keywords": "2022 sapphire, bowman sapphire, 22 sappire, 22 bowman sapphire, sapphire bowman, sapphire baseball, baseball bowman sapphire, baseball sapphire, mlb bowman sapphire, mlb sapphire",
       "year": "2022",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Bowman",
       "product": "Sapphire",
       "cmURL": ""
@@ -508,7 +508,7 @@
       "DisplayName": "2023 Topps Pristine Baseball",
       "Keywords": "2023 pristine, 23 topps pristine, 23 pristine, topps pristine, pristine baseball, baseball topps pristine, baseball pristine, mlb topps pristine, mlb pristine",
       "year": "2023",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Pristine",
       "cmURL": ""
@@ -518,7 +518,7 @@
       "DisplayName": "2024 Bowman Sapphire Baseball",
       "Keywords": "2024 Bowman Sapphire Baseball, 2024 Bowman Sapphire, 2024 Topps Bowman Sapphire Baseball, 2024 Topps Bowman Sapphire, 24 Bowman Sapphire Baseball, 24 Bowman Sapphire, Bowman Sapphire 2024, Bowman Sapphire Baseball 2024, Bowman Sapphire Baseball, Bowman Sapphire, Topps Bowman Sapphire Baseball, Topps Bowman Sapphire, Bowman Sapphire checklist, Bowman Sapphire baseball checklist, 2024 Bowman Sapphire checklist, Bowman Sapphire 2024 checklist, 24 Bowman Sapphire checklist",
       "year": "2024",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Bowman",
       "product": "Sapphire",
       "cmURL": ""
@@ -528,7 +528,7 @@
       "DisplayName": "2024 Topps Chrome Sapphire Baseball",
       "Keywords": "2024 chrome sapphire, topps chrome sapphire,  chrome sapphire, 24 sapphire, 24 topps chrome sapphire, sapphire topps chrome, sapphire baseball, baseball topps chrome sapphire, baseball sapphire, mlb topps chrome sapphire, mlb sapphire",
       "year": "2024",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome Sapphire",
       "cmURL": ""
@@ -538,7 +538,7 @@
       "DisplayName": "2023 Topps Chrome Sapphire Baseball",
       "Keywords": "2023 chrome sapphire, topps chrome sapphire,  chrome sapphire, 23 sapphire, 23 topps chrome sapphire, sapphire topps chrome, sapphire baseball, baseball topps chrome sapphire, baseball sapphire, mlb topps chrome sapphire, mlb sapphire",
       "year": "2023",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome Sapphire",
       "cmURL": ""
@@ -547,8 +547,8 @@
       "Code": "22TCSmlb",
       "DisplayName": "2022 Topps Chrome Sapphire Baseball",
       "Keywords": "2023 chrome sapphire, topps chrome sapphire,  chrome sapphire, 23 sapphire, 23 topps chrome sapphire, sapphire topps chrome, sapphire baseball, baseball topps chrome sapphire, baseball sapphire, mlb topps chrome sapphire, mlb sapphire",
-      "year": "2023",
-      "sport": "Baseball",
+      "year": "2022",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome Sapphire",
       "cmURL": ""
@@ -557,8 +557,8 @@
       "Code": "21TCSmlb",
       "DisplayName": "2021 Topps Chrome Sapphire Baseball",
       "Keywords": "2023 chrome sapphire, topps chrome sapphire,  chrome sapphire, 23 sapphire, 23 topps chrome sapphire, sapphire topps chrome, sapphire baseball, baseball topps chrome sapphire, baseball sapphire, mlb topps chrome sapphire, mlb sapphire",
-      "year": "2023",
-      "sport": "Baseball",
+      "year": "2021",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome Sapphire",
       "cmURL": ""
@@ -567,28 +567,28 @@
       "Code": "20TCSmlb",
       "DisplayName": "2020 Topps Chrome Sapphire Baseball",
       "Keywords": "2023 chrome sapphire, topps chrome sapphire,  chrome sapphire, 23 sapphire, 23 topps chrome sapphire, sapphire topps chrome, sapphire baseball, baseball topps chrome sapphire, baseball sapphire, mlb topps chrome sapphire, mlb sapphire",
-      "year": "2023",
-      "sport": "Baseball",
+      "year": "2020",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome Sapphire",
       "cmURL": ""
     },
     {
       "Code": "19TCSmlb",
-      "DisplayName": "2019 Topps Chrome Sapphire Baseball",
+      "DisplayName": "2019 Topps Chrome Sapphire Edition Baseball",
       "Keywords": "2023 chrome sapphire, topps chrome sapphire,  chrome sapphire, 23 sapphire, 23 topps chrome sapphire, sapphire topps chrome, sapphire baseball, baseball topps chrome sapphire, baseball sapphire, mlb topps chrome sapphire, mlb sapphire",
-      "year": "2023",
-      "sport": "Baseball",
+      "year": "2019",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome Sapphire",
       "cmURL": ""
     },
     {
       "Code": "26TCbundsoccer",
-      "DisplayName": "2026 Topps Chrome Bundesliga Soccer",
+      "DisplayName": "2025-26 Topps Chrome Bundesliga Soccer",
       "Keywords": "2026 chrome bundesliga, topps chrome bundesliga, chrome bundesliga, bundesliga, soccer, bundesliga league",
-      "year": "2026",
-      "sport": "Soccer",
+      "year": "2025-26",
+      "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Chrome Bundesliga",
       "cmURL": ""
@@ -598,9 +598,9 @@
       "DisplayName": "2025-26 Topps Finest Basketball",
       "Keywords": "topps finest basketball, finest basketball, basketball topps finest, basketball finest, nba topps finest, nba finest, 2025 topps finest, 2025 finest",
       "year": "2025-26",
-      "sport": "Basketball",
+      "sport": "basketball",
       "manufacturer": "Topps",
-      "product": "Finest",
+      "product": "FInest",
       "cmURL": ""
     },
     {
@@ -608,17 +608,17 @@
       "DisplayName": "2026 Topps Series 1 Celebration Baseball",
       "Keywords": "2026 Topps Series 1 Celebration, 2026 Topps Celebration, 2026 Celebration, 26 Topps Series 1 Celebration, 26 Topps Celebration, 26 Celebration, Topps Series 1 Celebration, Topps Celebration, Series 1 Celebration, Celebration, Topps Series 1 Celebration checklist, Topps Celebration checklist, Celebration checklist, 2026 Topps Series 1 Celebration checklist, 2026 Celebration checklist",
       "year": "2026",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
-      "product": "Sereies 1 Celebration",
+      "product": "Series 1 Celebration",
       "cmURL": ""
     },
     {
       "Code": "26TCSbundsoccer",
-      "DisplayName": "2026 Topps Chrome Bundesliga Soccer Sapphire",
+      "DisplayName": "2025-26 Topps Chrome Sapphire Bundesliga Soccer",
       "Keywords": "2026 chrome sapphire bundesliga, topps chrome sapphire bundesliga, chrome sapphire bundesliga, bundesliga, soccer, bundesliga league, sapphire bundesliga, bundesliga sapphire",
-      "year": "2026",
-      "sport": "Soccer",
+      "year": "2025-26",
+      "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Chrome Sapphire Bundesliga",
       "cmURL": ""
@@ -628,8 +628,8 @@
       "DisplayName": "2025 Bowmans Best Baseball",
       "Keywords": "2025 bowman's best, 2025 bowman best, 25 bowmans best, 25 bowman's best, 25 bowman best, bowmans best, bowman's best, bowman best, best",
       "year": "2025",
-      "sport": "Baseball",
-      "manufacturer": "Bowmans",
+      "sport": "baseball",
+      "manufacturer": "Bowman's",
       "product": "Best",
       "cmURL": ""
     },
@@ -638,7 +638,7 @@
       "DisplayName": "2026 Topps Heritage Baseball",
       "Keywords": "2026 Topps Heritage Baseball, 2026 Topps Heritage, 2026 Heritage Baseball, 2026 Heritage, 26 Topps Heritage Baseball, 26 Topps Heritage, 26 Heritage Baseball, 26 Heritage, Topps Heritage Baseball, Topps Heritage, Heritage Baseball, Heritage, Topps Heritage checklist, Heritage checklist, 2026 Topps Heritage checklist, 2026 Heritage checklist, Topps Heritage 2026 checklist",
       "year": "2026",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Heritage",
       "cmURL": ""
@@ -648,7 +648,7 @@
       "DisplayName": "2025-26 Topps Cosmic Chrome Basketball",
       "Keywords": "2025-26 Topps Cosmic Chrome Basketball, 2025 26 Topps Cosmic Chrome Basketball, 2025-26 Topps Cosmic Chrome, 2025 26 Topps Cosmic Chrome, 2025 Topps Cosmic Chrome Basketball, 2026 Topps Cosmic Chrome Basketball, 25-26 Topps Cosmic Chrome Basketball, 25 26 Topps Cosmic Chrome Basketball, Topps Cosmic Chrome Basketball, Topps Cosmic Chrome, Cosmic Chrome Basketball, Cosmic Chrome, Topps Cosmic Chrome checklist, Cosmic Chrome checklist, Topps Cosmic Chrome basketball checklist, 2025-26 Topps Cosmic Chrome checklist, 2025 Topps Cosmic Chrome checklist, 2026 Topps Cosmic Chrome checklist",
       "year": "2025-26",
-      "sport": "Basketball",
+      "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Cosmic Chrome",
       "cmURL": ""
@@ -658,7 +658,7 @@
       "DisplayName": "2025 Topps Chrome Football",
       "Keywords": "2025 Topps Chrome Football 2025 Topps Chrome NFL 2025 Topps Chrome 2025 Chrome Football 2025 Chrome NFL 25 Topps Chrome Football 25 Topps Chrome NFL 25 Topps Chrome 25 Chrome Football Topps Chrome Football Topps Chrome NFL Topps Chrome Chrome Football Chrome NFL Chrome Topps Chrome Football checklist Topps Chrome checklist Chrome football checklist 2025 Topps Chrome checklist 2025 Chrome checklist",
       "year": "2025",
-      "sport": "Football",
+      "sport": "football",
       "manufacturer": "Topps",
       "product": "Chrome",
       "cmURL": ""
@@ -668,7 +668,7 @@
       "DisplayName": "2026 Topps Chrome Black Baseball",
       "Keywords": "2026 Topps Chrome Black Baseball, 2026 Topps Chrome Black, 26 Topps Chrome Black, Topps Chrome Black Baseball, Topps Chrome Black",
       "year": "2026",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome Black",
       "cmURL": ""
@@ -678,7 +678,7 @@
       "DisplayName": "2025-26 Topps NBA Hoops Basketball",
       "Keywords": "2025-26 Topps NBA Hoops Basketball, 2025 Topps NBA Hoops Basketball, 2026 Topps NBA Hoops Basketball, Topps NBA Hoops Basketball 2025-26, Topps NBA Hoops Basketball 2025, Topps NBA Hoops Basketball 2026, 2025-26 NBA Hoops basketball cards, NBA Hoops basketball cards 2025, NBA Hoops basketball cards 2026, Topps NBA Hoops cards, NBA Hoops rookies 2025-26, NBA Hoops rookie cards 2025, NBA Hoops autos 2025-26, NBA Hoops inserts 2025-26, NBA Hoops parallels 2025-26, Topps NBA Hoops Basketball checklist, NBA Hoops checklist 2025-26",
       "year": "2025-26",
-      "sport": "Basketball",
+      "sport": "basketball",
       "manufacturer": "Topps",
       "product": "NBA Hoops",
       "cmURL": ""
@@ -688,7 +688,7 @@
       "DisplayName": "2025-26 Bowman Basketball",
       "Keywords": "2025-26 Bowman Basketball, 2025 Bowman Basketball, 2026 Bowman Basketball, Bowman Basketball 2025-26, Bowman Basketball 2025, Bowman Basketball 2026, 2025-26 Bowman cards, Bowman basketball cards 2025, Bowman basketball cards 2026, Bowman basketball rookies 2025, Bowman rookie cards basketball 2025-26, Bowman chrome basketball 2025-26, Bowman prospects basketball 2025-26, Bowman parallels basketball 2025-26, Bowman autos basketball 2025-26, Bowman Basketball checklist 2025-26, Bowman basketball checklist",
       "year": "2025-26",
-      "sport": "Basketball",
+      "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Bowman",
       "cmURL": ""
@@ -698,7 +698,7 @@
       "DisplayName": "2025-26 Topps Signature Class Basketball",
       "Keywords": "2025-26 Topps Signature Class Basketball, 2025 Topps Signature Class Basketball, 2026 Topps Signature Class Basketball, Topps Signature Class Basketball 2025-26, Topps Signature Class Basketball 2025, Topps Signature Class Basketball 2026, 2025-26 Topps Signature Class cards, Topps Signature Class basketball cards 2025, Topps Signature Class basketball cards 2026, Signature Class basketball cards 2025-26, Topps Signature Class rookies basketball 2025-26, Topps Signature Class rookie cards basketball 2025, Topps Signature Class autos basketball 2025-26, Topps Signature Class autographs basketball 2025-26, Topps Signature Class parallels basketball 2025-26, Topps Signature Class Basketball checklist 2025-26, Topps Signature Class checklist",
       "year": "2025-26",
-      "sport": "Basketball",
+      "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Signature Class",
       "cmURL": ""
@@ -708,7 +708,7 @@
       "DisplayName": "2025-26 Topps Three Basketball",
       "Keywords": "2025-26 Topps Three Basketball, 2025 Topps Three Basketball, 2026 Topps Three Basketball, Topps Three Basketball 2025-26, Topps Three Basketball 2025, Topps Three Basketball 2026, 2025-26 Topps Three cards, Topps Three basketball cards 2025, Topps Three basketball cards 2026, Topps Three basketball set 2025-26, Topps Three rookies basketball 2025-26, Topps Three rookie cards basketball 2025, Topps Three autos basketball 2025-26, Topps Three parallels basketball 2025-26, Topps Three inserts basketball 2025-26, Topps Three Basketball checklist 2025-26, Topps Three checklist",
       "year": "2025-26",
-      "sport": "Basketball",
+      "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Three",
       "cmURL": ""
@@ -717,10 +717,10 @@
       "Code": "2026-bowman-baseball",
       "DisplayName": "2026 Bowman Baseball",
       "Keywords": "2026 Bowman Baseball, 2026 Bowman, 2026 Bowman Baseball cards, 2026 Topps Bowman Baseball, 2026 Bowman MLB, 26 Bowman Baseball, 26 Bowman, Bowman Baseball 2026, Topps Bowman Baseball 2026, Bowman Baseball cards, Bowman Baseball, Topps Bowman Baseball, Bowman prospects baseball cards, Bowman 1st cards 2026, Bowman Chrome prospects 2026, Bowman Baseball checklist, Bowman checklist, 2026 Bowman checklist",
-      "year": "",
-      "sport": "Baseball",
-      "manufacturer": "Topps",
-      "product": "Bowman",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Baseball",
       "cmURL": ""
     },
     {
@@ -728,7 +728,7 @@
       "DisplayName": "2025-26 Topps Basketball",
       "Keywords": "2025-26 Topps Basketball, 2025 Topps Basketball, 2026 Topps Basketball, Topps Basketball 2025-26, Topps Basketball 2025, Topps Basketball 2026, 2025-26 Topps basketball cards, Topps basketball cards 2025, Topps basketball cards 2026, Topps NBA basketball cards 2025-26, Topps rookies basketball 2025-26, Topps rookie cards basketball 2025, Topps autos basketball 2025-26, Topps inserts basketball 2025-26, Topps parallels basketball 2025-26, Topps Basketball checklist 2025-26, Topps basketball checklist",
       "year": "2025-26",
-      "sport": "Basketball",
+      "sport": "basketball",
       "manufacturer": "Topps",
       "product": "Topps",
       "cmURL": ""
@@ -738,9 +738,9 @@
       "DisplayName": "2026 Bowman Mega Box Baseball",
       "Keywords": "2026 Bowman Mega Box Baseball, 2026 Bowman Mega Baseball, 2026 Bowman Mega Box, 2026 Bowman Mega Box cards, 2026 Bowman Mega Chrome Baseball, 2026 Bowman Mega Box prospects, Bowman Mega Box Baseball 2026, Bowman Mega Baseball 2026, Bowman Mega Box cards, Bowman Mega Box, Bowman Mega Chrome Baseball, Bowman Mega prospects, 2026 Bowman Baseball Mega Box, Bowman Mega Box checklist, 2026 Bowman Mega Box checklist, Bowman Mega Baseball checklist",
       "year": "2026",
-      "sport": "Baseball",
-      "manufacturer": "Topps",
-      "product": "Bowman Mega Box",
+      "sport": "baseball",
+      "manufacturer": "Bowman",
+      "product": "Mega Box",
       "cmURL": ""
     },
     {
@@ -748,7 +748,7 @@
       "DisplayName": "2023 Topps Chrome Baseball",
       "Keywords": "",
       "year": "2023",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Chrome",
       "cmURL": ""
@@ -765,22 +765,22 @@
     },
     {
       "Code": "2025_26_bowman_s_best_university_basketball",
-      "DisplayName": "2025/26 Bowman’s Best University Basketball",
+      "DisplayName": "2025-26 Bowman Best U Basketball",
       "Keywords": "2025/26 Bowman’s Best University Basketball 2025/26 Bowman ’s Best University Basketball 2025/26 Bowman ’s Best University NBA 2025/26 ’s Best University Basketball 2025/26 ’s Best University NBA Bowman ’s Best University Basketball Bowman ’s Best University NBA Bowman ’s Best University Basketball Bowman ’s Best University NBA ’s Best University Basketball ’s Best University NBA 2025/26 Bowman’s Best University Basketball print run 2025/26 Bowman’s Best University Basketball production 2025/26 Bowman’s Best University Basketball odds 2025/26 Bowman’s Best University Basketball PRV 2025/26 Bowman’s Best University Basketball checklist Bowman ’s Best University checklist",
-      "year": "2025/26",
+      "year": "2025-26",
       "sport": "basketball",
-      "manufacturer": "Bowman",
-      "product": "’s Best University",
+      "manufacturer": "Topps",
+      "product": "Bowman Best U",
       "cmURL": ""
     },
     {
       "Code": "2025_26_topps_chrome_cactus_jack_basketball_basketball",
-      "DisplayName": "2025/26 Topps Chrome Cactus Jack Basketball Basketball",
+      "DisplayName": "2025-26 Topps Chrome Cactus Jack Basketball",
       "Keywords": "2025/26 Topps Chrome Cactus Jack Basketball Basketball 2025/26 Topps Chrome Cactus Jack Basketball Basketball 2025/26 Topps Chrome Cactus Jack Basketball NBA 2025/26 Chrome Cactus Jack Basketball Basketball 2025/26 Chrome Cactus Jack Basketball NBA Topps Chrome Cactus Jack Basketball Basketball Topps Chrome Cactus Jack Basketball NBA Topps Chrome Cactus Jack Basketball Basketball Topps Chrome Cactus Jack Basketball NBA Chrome Cactus Jack Basketball Basketball Chrome Cactus Jack Basketball NBA 2025/26 Topps Chrome Cactus Jack Basketball Basketball print run 2025/26 Topps Chrome Cactus Jack Basketball Basketball production 2025/26 Topps Chrome Cactus Jack Basketball Basketball odds 2025/26 Topps Chrome Cactus Jack Basketball Basketball PRV 2025/26 Topps Chrome Cactus Jack Basketball Basketball checklist Topps Chrome Cactus Jack Basketball checklist",
-      "year": "2025/26",
+      "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
-      "product": "Chrome Cactus Jack Basketball",
+      "product": "Chrome Cactus Jack",
       "cmURL": ""
     },
     {
@@ -788,7 +788,7 @@
       "DisplayName": "1994 Score Series 1 Baseball",
       "Keywords": "",
       "year": "1994",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Score",
       "product": "Series 1",
       "cmURL": ""
@@ -798,7 +798,7 @@
       "DisplayName": "1994 Score Series 2 Baseball",
       "Keywords": "",
       "year": "1994",
-      "sport": "Baseball",
+      "sport": "baseball",
       "manufacturer": "Score",
       "product": "Series 2",
       "cmURL": ""
@@ -815,9 +815,9 @@
     },
     {
       "Code": "2026_topps_pristine_premier_league_soccer",
-      "DisplayName": "2026 Topps Pristine Premier League Soccer",
+      "DisplayName": "2025-26 Topps Pristine Premier League Soccer",
       "Keywords": "2026 Topps Pristine Premier League & 2026 Merlin Premier League 2026 Topps Pristine Premier League & 2026 Merlin Premier League Soccer 2026 Topps Pristine Premier League & 2026 Merlin Premier League Soccer 2026 Pristine Premier League & 2026 Merlin Premier League Soccer 2026 Pristine Premier League & 2026 Merlin Premier League Soccer 26 Topps Pristine Premier League & 2026 Merlin Premier League Soccer 26 Topps Pristine Premier League & 2026 Merlin Premier League Soccer Topps Pristine Premier League & 2026 Merlin Premier League Soccer Topps Pristine Premier League & 2026 Merlin Premier League Soccer Pristine Premier League & 2026 Merlin Premier League Soccer Pristine Premier League & 2026 Merlin Premier League Soccer 2026 Topps Pristine Premier League & 2026 Merlin Premier League print run 2026 Topps Pristine Premier League & 2026 Merlin Premier League production 2026 Topps Pristine Premier League & 2026 Merlin Premier League odds 2026 Topps Pristine Premier League & 2026 Merlin Premier League PRV 2026 Topps Pristine Premier League & 2026 Merlin Premier League checklist Topps Pristine Premier League & 2026 Merlin Premier League checklist",
-      "year": "2026",
+      "year": "2025-26",
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Pristine Premier League",
@@ -825,9 +825,9 @@
     },
     {
       "Code": "2026_merlin_premier_league_soccer",
-      "DisplayName": "2026 Merlin Premier League Soccer",
+      "DisplayName": "2025-26 Topps Merlin Premier League Soccer",
       "Keywords": "2026 Topps Pristine Premier League & 2026 Merlin Premier League 2026 Topps Pristine Premier League & 2026 Merlin Premier League Soccer 2026 Topps Pristine Premier League & 2026 Merlin Premier League Soccer 2026 Pristine Premier League & 2026 Merlin Premier League Soccer 2026 Pristine Premier League & 2026 Merlin Premier League Soccer 26 Topps Pristine Premier League & 2026 Merlin Premier League Soccer 26 Topps Pristine Premier League & 2026 Merlin Premier League Soccer Topps Pristine Premier League & 2026 Merlin Premier League Soccer Topps Pristine Premier League & 2026 Merlin Premier League Soccer Pristine Premier League & 2026 Merlin Premier League Soccer Pristine Premier League & 2026 Merlin Premier League Soccer 2026 Topps Pristine Premier League & 2026 Merlin Premier League print run 2026 Topps Pristine Premier League & 2026 Merlin Premier League production 2026 Topps Pristine Premier League & 2026 Merlin Premier League odds 2026 Topps Pristine Premier League & 2026 Merlin Premier League PRV 2026 Topps Pristine Premier League & 2026 Merlin Premier League checklist Topps Pristine Premier League & 2026 Merlin Premier League checklist",
-      "year": "2026",
+      "year": "2025-26",
       "sport": "soccer",
       "manufacturer": "Topps",
       "product": "Merlin Premier League",
@@ -865,12 +865,12 @@
     },
     {
       "Code": "2025_26_topps_chrome_uefa_women_s_champions_league_soccer",
-      "DisplayName": "2025-26 Topps Chrome UEFA Women’s Champions League Soccer",
+      "DisplayName": "2025-26 Topps Chrome UEFA Women's Champions League Soccer",
       "Keywords": "2025-26 Topps Chrome UEFA Women’s Champions League Soccer 2025-26 Topps Chrome UEFA Women’s Champions League Soccer 2025-26 Topps Chrome UEFA Women’s Champions League Soccer 2025-26 Chrome UEFA Women’s Champions League Soccer 2025-26 Chrome UEFA Women’s Champions League Soccer Topps Chrome UEFA Women’s Champions League Soccer Topps Chrome UEFA Women’s Champions League Soccer Topps Chrome UEFA Women’s Champions League Soccer Topps Chrome UEFA Women’s Champions League Soccer Chrome UEFA Women’s Champions League Soccer Chrome UEFA Women’s Champions League Soccer 2025-26 Topps Chrome UEFA Women’s Champions League Soccer print run 2025-26 Topps Chrome UEFA Women’s Champions League Soccer production 2025-26 Topps Chrome UEFA Women’s Champions League Soccer odds 2025-26 Topps Chrome UEFA Women’s Champions League Soccer PRV 2025-26 Topps Chrome UEFA Women’s Champions League Soccer checklist Topps Chrome UEFA Women’s Champions League checklist",
       "year": "2025-26",
       "sport": "soccer",
       "manufacturer": "Topps",
-      "product": "Chrome UEFA Women’s Champions League",
+      "product": "Chrome UEFA Women's Champions League",
       "cmURL": ""
     },
     {
@@ -887,7 +887,7 @@
       "Code": "2025_topps_inception_baseball",
       "DisplayName": "2025 Topps Inception Baseball",
       "Keywords": "2025 Topps Inception Baseball & 2025-26 Topps Inception Basketball 2025-26 Topps 2025 Inception Baseball & Topps Inception Basketball 2025-26 Topps 2025 Inception Baseball & Topps Inception NBA 2025-26 2025 Inception Baseball & Topps Inception Basketball 2025-26 2025 Inception Baseball & Topps Inception NBA Topps 2025 Inception Baseball & Topps Inception Basketball Topps 2025 Inception Baseball & Topps Inception NBA Topps 2025 Inception Baseball & Topps Inception Basketball Topps 2025 Inception Baseball & Topps Inception NBA 2025 Inception Baseball & Topps Inception Basketball 2025 Inception Baseball & Topps Inception NBA 2025 Topps Inception Baseball & 2025-26 Topps Inception Basketball print run 2025 Topps Inception Baseball & 2025-26 Topps Inception Basketball production 2025 Topps Inception Baseball & 2025-26 Topps Inception Basketball odds 2025 Topps Inception Baseball & 2025-26 Topps Inception Basketball PRV 2025 Topps Inception Baseball & 2025-26 Topps Inception Basketball checklist Topps 2025 Inception Baseball & Topps Inception checklist",
-      "year": "2025-26",
+      "year": "2025",
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Inception",
@@ -917,7 +917,7 @@
       "Code": "2025_topps_dynasty_baseball",
       "DisplayName": "2025 Topps Dynasty Baseball",
       "Keywords": "2026 Topps Tier One & 2025 Topps Dynasty Baseball 2026 Topps Tier One & 2025 Topps Dynasty Baseball 2026 Topps Tier One & 2025 Topps Dynasty MLB 2026 Tier One & 2025 Topps Dynasty Baseball 2026 Tier One & 2025 Topps Dynasty MLB 26 Topps Tier One & 2025 Topps Dynasty Baseball 26 Topps Tier One & 2025 Topps Dynasty MLB Topps Tier One & 2025 Topps Dynasty Baseball Topps Tier One & 2025 Topps Dynasty MLB Tier One & 2025 Topps Dynasty Baseball Tier One & 2025 Topps Dynasty MLB 2026 Topps Tier One & 2025 Topps Dynasty Baseball print run 2026 Topps Tier One & 2025 Topps Dynasty Baseball production 2026 Topps Tier One & 2025 Topps Dynasty Baseball odds 2026 Topps Tier One & 2025 Topps Dynasty Baseball PRV 2026 Topps Tier One & 2025 Topps Dynasty Baseball checklist Topps Tier One & 2025 Topps Dynasty checklist",
-      "year": "2026",
+      "year": "2025",
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Dynasty",
@@ -925,12 +925,12 @@
     },
     {
       "Code": "2025_26_topps_chrome_update_basketball",
-      "DisplayName": "2025-26 Topps Chrome Update Basketball",
+      "DisplayName": "2025-26 Topps Chrome Update Series Basketball",
       "Keywords": "2025-26 Topps Chrome Update Basketball 2025-26 Topps Chrome Update Basketball 2025-26 Topps Chrome Update NBA 2025-26 Chrome Update Basketball 2025-26 Chrome Update NBA Topps Chrome Update Basketball Topps Chrome Update NBA Topps Chrome Update Basketball Topps Chrome Update NBA Chrome Update Basketball Chrome Update NBA 2025-26 Topps Chrome Update Basketball print run 2025-26 Topps Chrome Update Basketball production 2025-26 Topps Chrome Update Basketball odds 2025-26 Topps Chrome Update Basketball PRV 2025-26 Topps Chrome Update Basketball checklist Topps Chrome Update checklist",
       "year": "2025-26",
       "sport": "basketball",
       "manufacturer": "Topps",
-      "product": "Chrome Update",
+      "product": "Chrome Update Series",
       "cmURL": ""
     },
     {
@@ -985,7 +985,7 @@
     },
     {
       "Code": "2025_26_finest_uefa_club_competitions_soccer",
-      "DisplayName": "2025-26 Finest UEFA Club Competitions Soccer",
+      "DisplayName": "2025-26 Topps Finest UEFA Club Competitions Soccer",
       "Keywords": "Clean Up Analysis: 2025-26 Topps NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions 2025-26 Topps Clean Up Analysis: NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions Soccer 2025-26 Topps Clean Up Analysis: NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions Soccer 2025-26 Clean Up Analysis: NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions Soccer 2025-26 Clean Up Analysis: NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions Soccer Topps Clean Up Analysis: NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions Soccer Topps Clean Up Analysis: NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions Soccer Topps Clean Up Analysis: NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions Soccer Topps Clean Up Analysis: NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions Soccer Clean Up Analysis: NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions Soccer Clean Up Analysis: NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions Soccer Clean Up Analysis: 2025-26 Topps NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions print run Clean Up Analysis: 2025-26 Topps NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions production Clean Up Analysis: 2025-26 Topps NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions odds Clean Up Analysis: 2025-26 Topps NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions PRV Clean Up Analysis: 2025-26 Topps NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions checklist Topps Clean Up Analysis: NBL (Australian Basketball League) & 2025-26 Finest UEFA Club Competitions checklist",
       "year": "2025-26",
       "sport": "soccer",
@@ -1000,7 +1000,7 @@
       "year": "2026",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": "Cosmic Chrome Early",
+      "product": "Cosmic Chrome",
       "cmURL": ""
     },
     {
@@ -1018,14 +1018,14 @@
       "DisplayName": "2026 Topps Mars Attacks Christmas",
       "Keywords": "2026 Topps Mars Attacks Christmas 2026 Topps Mars Attacks Christmas Baseball 2026 Topps Mars Attacks Christmas MLB 2026 Mars Attacks Christmas Baseball 2026 Mars Attacks Christmas MLB 26 Topps Mars Attacks Christmas Baseball 26 Topps Mars Attacks Christmas MLB Topps Mars Attacks Christmas Baseball Topps Mars Attacks Christmas MLB Mars Attacks Christmas Baseball Mars Attacks Christmas MLB 2026 Topps Mars Attacks Christmas print run 2026 Topps Mars Attacks Christmas production 2026 Topps Mars Attacks Christmas odds 2026 Topps Mars Attacks Christmas PRV 2026 Topps Mars Attacks Christmas checklist Topps Mars Attacks Christmas checklist",
       "year": "2026",
-      "sport": "baseball",
+      "sport": "non-sport",
       "manufacturer": "Topps",
       "product": "Mars Attacks Christmas",
       "cmURL": ""
     },
     {
       "Code": "2026_bowman_chrome_sapphire_baseball",
-      "DisplayName": "2026 Bowman Chrome Sapphire",
+      "DisplayName": "2026 Bowman Chrome Sapphire Baseball",
       "Keywords": "2026 Bowman Chrome Sapphire 2026 Bowman Chrome Sapphire Baseball 2026 Bowman Chrome Sapphire MLB 2026 Chrome Sapphire Baseball 2026 Chrome Sapphire MLB 26 Bowman Chrome Sapphire Baseball 26 Bowman Chrome Sapphire MLB Bowman Chrome Sapphire Baseball Bowman Chrome Sapphire MLB Chrome Sapphire Baseball Chrome Sapphire MLB 2026 Bowman Chrome Sapphire print run 2026 Bowman Chrome Sapphire production 2026 Bowman Chrome Sapphire odds 2026 Bowman Chrome Sapphire PRV 2026 Bowman Chrome Sapphire checklist Bowman Chrome Sapphire checklist",
       "year": "2026",
       "sport": "baseball",
@@ -1035,12 +1035,12 @@
     },
     {
       "Code": "2026_topps_team_samurai_japan_round_2_baseball",
-      "DisplayName": "2026 Topps Team Samurai Japan- Round 2",
+      "DisplayName": "2026 Topps Chrome Team Samurai Japan Collection Baseball",
       "Keywords": "2026 Topps Team Samurai Japan- Round 2 2026 Topps Team Samurai Japan- Round 2 Baseball 2026 Topps Team Samurai Japan- Round 2 MLB 2026 Team Samurai Japan- Round 2 Baseball 2026 Team Samurai Japan- Round 2 MLB 26 Topps Team Samurai Japan- Round 2 Baseball 26 Topps Team Samurai Japan- Round 2 MLB Topps Team Samurai Japan- Round 2 Baseball Topps Team Samurai Japan- Round 2 MLB Team Samurai Japan- Round 2 Baseball Team Samurai Japan- Round 2 MLB 2026 Topps Team Samurai Japan- Round 2 print run 2026 Topps Team Samurai Japan- Round 2 production 2026 Topps Team Samurai Japan- Round 2 odds 2026 Topps Team Samurai Japan- Round 2 PRV 2026 Topps Team Samurai Japan- Round 2 checklist Topps Team Samurai Japan- Round 2 checklist",
       "year": "2026",
       "sport": "baseball",
       "manufacturer": "Topps",
-      "product": "Team Samurai Japan- Round 2",
+      "product": "Chrome Team Samurai Japan Collection",
       "cmURL": ""
     },
     {
@@ -1060,7 +1060,7 @@
       "year": "2026",
       "sport": "football",
       "manufacturer": "Bowman",
-      "product": "Bowman",
+      "product": "Football",
       "cmURL": ""
     },
     {
@@ -1145,11 +1145,11 @@
     },
     {
       "Code": "2026_heritage_football",
-      "DisplayName": "2026 Heritage Football",
+      "DisplayName": "2026 Topps Heritage Football",
       "Keywords": "2026 Heritage Football 2026 Heritage Football 2026 Heritage NFL 2026 Heritage Football 2026 Heritage NFL 26 Heritage Football 26 Heritage NFL Heritage Football Heritage NFL Heritage Football Heritage NFL 2026 Heritage Football print run 2026 Heritage Football production 2026 Heritage Football odds 2026 Heritage Football PRV 2026 Heritage Football checklist Heritage checklist",
       "year": "2026",
       "sport": "football",
-      "manufacturer": "",
+      "manufacturer": "Topps",
       "product": "Heritage",
       "cmURL": ""
     },
