@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-26T05:07:38.783Z",
+  "generated_at": "2026-10-26T13:12:42.327Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -20809,10 +20809,10 @@
         }
       ]
     },
-    "23TCSmlb": {
+    "2023_topps_chrome_sapphire_baseball": {
       "ok": true,
       "meta": {
-        "code": "23TCSmlb",
+        "code": "2023_topps_chrome_sapphire_baseball",
         "displayName": "2023 Topps Chrome Sapphire Baseball",
         "year": "2023",
         "sport": "baseball",
@@ -20820,7 +20820,28 @@
         "product": "Chrome Sapphire",
         "cmURL": ""
       },
-      "rows": []
+      "rows": [
+        {
+          "code": "2023_topps_chrome_sapphire_baseball",
+          "setType": "Base",
+          "setLine": "[Base]",
+          "printRun": 1200,
+          "serial": "",
+          "subSetSize": 660,
+          "notes": "Unverified estimate; original source URL not recorded.",
+          "cmURL": ""
+        },
+        {
+          "code": "2023_topps_chrome_sapphire_baseball",
+          "setType": "Insert",
+          "setLine": "Sapphire Selections",
+          "printRun": 150,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "Unverified estimate; original source URL not recorded.",
+          "cmURL": ""
+        }
+      ]
     },
     "22TCSmlb": {
       "ok": true,
@@ -20835,10 +20856,10 @@
       },
       "rows": []
     },
-    "21TCSmlb": {
+    "2021_topps_chrome_sapphire_edition_baseball": {
       "ok": true,
       "meta": {
-        "code": "21TCSmlb",
+        "code": "2021_topps_chrome_sapphire_edition_baseball",
         "displayName": "2021 Topps Chrome Sapphire Baseball",
         "year": "2021",
         "sport": "baseball",
@@ -20846,12 +20867,23 @@
         "product": "Chrome Sapphire",
         "cmURL": ""
       },
-      "rows": []
+      "rows": [
+        {
+          "code": "2021_topps_chrome_sapphire_edition_baseball",
+          "setType": "Base",
+          "setLine": "[Base]",
+          "printRun": 1100,
+          "serial": "",
+          "subSetSize": 660,
+          "notes": "Unverified estimate; original source URL not recorded.",
+          "cmURL": ""
+        }
+      ]
     },
-    "20TCSmlb": {
+    "2020_topps_chrome_sapphire_baseball": {
       "ok": true,
       "meta": {
-        "code": "20TCSmlb",
+        "code": "2020_topps_chrome_sapphire_baseball",
         "displayName": "2020 Topps Chrome Sapphire Baseball",
         "year": "2020",
         "sport": "baseball",
@@ -20859,12 +20891,23 @@
         "product": "Chrome Sapphire",
         "cmURL": ""
       },
-      "rows": []
+      "rows": [
+        {
+          "code": "2020_topps_chrome_sapphire_baseball",
+          "setType": "Base",
+          "setLine": "[Base]",
+          "printRun": 1030,
+          "serial": "",
+          "subSetSize": 700,
+          "notes": "Unverified estimate; original source URL not recorded.",
+          "cmURL": ""
+        }
+      ]
     },
-    "19TCSmlb": {
+    "2019_Topps_Chrome_Sapphire_Edition_Baseball": {
       "ok": true,
       "meta": {
-        "code": "19TCSmlb",
+        "code": "2019_Topps_Chrome_Sapphire_Edition_Baseball",
         "displayName": "2019 Topps Chrome Sapphire Edition Baseball",
         "year": "2019",
         "sport": "baseball",
@@ -20872,7 +20915,18 @@
         "product": "Chrome Sapphire",
         "cmURL": ""
       },
-      "rows": []
+      "rows": [
+        {
+          "code": "2019_Topps_Chrome_Sapphire_Edition_Baseball",
+          "setType": "Base",
+          "setLine": "[Base]",
+          "printRun": 1030,
+          "serial": "",
+          "subSetSize": 700,
+          "notes": "Unverified estimate; original source URL not recorded.",
+          "cmURL": ""
+        }
+      ]
     },
     "26TCbundsoccer": {
       "ok": true,
@@ -42293,10 +42347,10 @@
         }
       ]
     },
-    "2026_topps_pristine_premier_league_soccer": {
+    "2025_26_topps_pristine_premier_league_soccer": {
       "ok": true,
       "meta": {
-        "code": "2026_topps_pristine_premier_league_soccer",
+        "code": "2025_26_topps_pristine_premier_league_soccer",
         "displayName": "2025-26 Topps Pristine Premier League Soccer",
         "year": "2025-26",
         "sport": "soccer",
@@ -42306,10 +42360,10 @@
       },
       "rows": []
     },
-    "2026_merlin_premier_league_soccer": {
+    "2025_26_topps_merlin_premier_league": {
       "ok": true,
       "meta": {
-        "code": "2026_merlin_premier_league_soccer",
+        "code": "2025_26_topps_merlin_premier_league",
         "displayName": "2025-26 Topps Merlin Premier League Soccer",
         "year": "2025-26",
         "sport": "soccer",
@@ -45918,10 +45972,10 @@
         }
       ]
     },
-    "2025_26_finest_uefa_club_competitions_soccer": {
+    "2025_26_topps_finest_uefa_club_competitions_soccer": {
       "ok": true,
       "meta": {
-        "code": "2025_26_finest_uefa_club_competitions_soccer",
+        "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
         "displayName": "2025-26 Topps Finest UEFA Club Competitions Soccer",
         "year": "2025-26",
         "sport": "soccer",
@@ -45929,7 +45983,328 @@
         "product": "Finest UEFA Club Competitions",
         "cmURL": ""
       },
-      "rows": []
+      "rows": [
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Base",
+          "setLine": "Base Uncommon",
+          "printRun": 2305,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Base",
+          "setLine": "Base Rare",
+          "printRun": 770,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Parallel",
+          "setLine": "Common Refractor",
+          "printRun": 260,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Parallel",
+          "setLine": "Common Checkerboard",
+          "printRun": 770,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Parallel",
+          "setLine": "Common Oil Spill",
+          "printRun": 15,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Parallel",
+          "setLine": "Uncommon Refractor",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Parallel",
+          "setLine": "Uncommon Checkerboard",
+          "printRun": 290,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Parallel",
+          "setLine": "Uncommon Oil Spill",
+          "printRun": 7,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Parallel",
+          "setLine": "Rare Refractor",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Parallel",
+          "setLine": "Rare Checkerboard",
+          "printRun": 145,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Parallel",
+          "setLine": "Rare Oil Spill",
+          "printRun": 3,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Parallel",
+          "setLine": "Base HoloGlow Variation",
+          "printRun": 130,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "90’s Madness",
+          "printRun": 11520,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "Finest Showmen",
+          "printRun": 9215,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "Finest of the Millennium",
+          "printRun": 11520,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "Prized Footballers",
+          "printRun": 9215,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "Prized Footballer Fusion Variation",
+          "printRun": 385,
+          "serial": "",
+          "subSetSize": "",
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "Finest Shadow Play",
+          "printRun": 11520,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "Finest UCL Debut Goals",
+          "printRun": 27,
+          "serial": "",
+          "subSetSize": 5,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "The Man",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "Aura",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "Headliners",
+          "printRun": 50,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "Total Football’s Finest",
+          "printRun": 130,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "Finest Idols Bronze",
+          "printRun": 40,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "Finest Idols Silver",
+          "printRun": 20,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "Finest Idols Gold",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Insert",
+          "setLine": "The Grail",
+          "printRun": 35,
+          "serial": "",
+          "subSetSize": 1,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Auto",
+          "setLine": "Base Autos",
+          "printRun": 325,
+          "serial": "",
+          "subSetSize": 157,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Auto",
+          "setLine": "Prized Footballers Base Autos",
+          "printRun": 7,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Auto",
+          "setLine": "Arrivals Autos",
+          "printRun": 300,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Auto",
+          "setLine": "Century’s Finest Autos",
+          "printRun": 10,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        },
+        {
+          "code": "2025_26_topps_finest_uefa_club_competitions_soccer",
+          "setType": "Auto",
+          "setLine": "Bloodline Dual Autos",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": 7,
+          "notes": "",
+          "cmURL": "https://slabsquatch.substack.com/p/clean-up-analysis-202526-topps-nbl"
+        }
+      ]
     },
     "2026_topps_cosmic_chrome_baseball_early": {
       "ok": true,
