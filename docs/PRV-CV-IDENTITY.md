@@ -6,8 +6,9 @@ serial, checklist-size and provenance records. Those values are not copied from 
 
 `shared/prv-cv-identity.cjs` runs after PRV source conversion, calculations,
 checklist-size enrichment and integrity review. Keeping that order preserves
-existing source-code/hash-scoped review rules. The raw v1 export and authoring
-Sheets remain intact; canonical identities are applied to the public v2 view.
+existing source-code/hash-scoped review rules. Canonical identities are applied to the public v2 view. Owner-only source
+maintenance aligns authoring metadata while retaining raw identifiers and
+print-run evidence.
 Do not bulk-rename source Sheet codes until source-scoped reviews and enrichment
 lookups have been migrated and legacy aliases persisted independently.
 
@@ -39,3 +40,15 @@ the Chrome collection after matching the official 74-card base, six short prints
 and named inserts. Source maintenance may replace metadata with the complete
 canonical metadata while retaining legacy source codes as aliases; partial changes
 to reviewed identities are held for another review.
+
+The October 25 source cleanup aligned 116 Index rows and 4,969 Products rows
+covering 117 active products, plus the four guarded CV metadata corrections.
+The repeat preflight reported zero remaining planned changes. Ten active products
+come from repository calculation/review inputs rather than matched Sheet rows and
+remain standardized by the same public registry contract.
+
+Some source Code cells are formulas over metadata. Source maintenance retains their
+legacy values with an exact metadata guard and preserves the original expressions
+as fallback and in a private Drive backup. The cleanup verified unchanged PRV row
+routing and non-metadata values. Historical unmapped source groups outside the
+active 127-product catalog are not covered by this identity-compliance claim.
