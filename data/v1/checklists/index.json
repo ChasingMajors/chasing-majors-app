@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-10-25T17:25:14.894Z",
+  "generated_at": "2026-10-26T23:31:37.477Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -11783,6 +11783,15 @@
       "sport": "football",
       "manufacturer": "Topps",
       "product": "Heritage"
+    },
+    {
+      "Code": "2026_topps_holiday_football",
+      "DisplayName": "2026 Topps Holiday Football",
+      "Keywords": "2026 Topps Holiday Football, 2026 Topps Holiday Football checklist, 2026 Topps Holiday Football cards, 2026 Topps Holiday Football parallels, 2026 Topps Holiday Football autographs, Topps Holiday football, Holiday football checklist",
+      "year": "2026",
+      "sport": "football",
+      "manufacturer": "Topps",
+      "product": "Holiday"
     },
     {
       "Code": "2026_topps_inception_football",
