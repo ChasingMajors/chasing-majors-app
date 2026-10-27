@@ -2,7 +2,7 @@ name: Refresh reviewed checklists and Vault data
 on:
   push:
     branches: [main]
-    paths: ['data/v1/manifest.json', 'data/v1/vault/**', 'data/v1/checklists/**', 'data/cv-reviewed-imports/**', 'shared/**', 'scripts/**', 'data/prv-calculations/**', 'data/prv-checklist-sizes.json', 'data/prv-integrity-reviews.json', 'data/prv-cv-identity-policy.json', 'tests/**', 'vault/**', 'checklists/**', '.github/workflows/vault-data.yml']
+    paths: ['index.html', 'assets/guided-home.js', 'data/v1/manifest.json', 'data/v1/vault/**', 'data/v1/checklists/**', 'data/cv-reviewed-imports/**', 'shared/**', 'scripts/**', 'data/prv-calculations/**', 'data/prv-checklist-sizes.json', 'data/prv-integrity-reviews.json', 'data/prv-cv-identity-policy.json', 'tests/**', 'vault/**', 'checklists/**', '.github/workflows/vault-data.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -18,6 +18,7 @@ jobs:
         with:
           sparse-checkout: |
             index.html
+            assets/guided-home.js
             data/recent.json
             data/recent-state.json
             data/v1/manifest.json

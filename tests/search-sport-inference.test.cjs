@@ -42,7 +42,7 @@ function homeHarness(recentItems = []) {
   const calls = [];
   const ctx = vm.createContext({
     document: {getElementById: get, querySelectorAll: () => chips},
-    URLSearchParams,
+    URLSearchParams, AbortController, setTimeout, clearTimeout,
     fetch: async url => {
       if (url.includes('/cv-search')) calls.push(new URL(url));
       return {ok: true, json: async () => ({ok: true, results: [], items: recentItems})};
@@ -155,16 +155,15 @@ test('checklists: endpoint failure keeps the inferred scope in the static fallba
 });
 
 
-test('homepage ticker stays hidden for empty data and links populated CV/PRV updates', async () => {
-  const empty = homeHarness(); await tick();
-  assert.equal(empty.get('ticker').style.display, 'none');
-  const filled = homeHarness([
-    {displayName:'2026 Heritage Football', vault:'CV'},
-    {displayName:'2026 Holiday Baseball', vault:'PRV'}
-  ]); await tick();
-  assert.equal(filled.get('ticker').style.display, 'block');
-  assert.ok(filled.get('tickerTrack').innerHTML.includes('/checklists/?q=2026%20Heritage%20Football'));
-  assert.ok(filled.get('tickerTrack').innerHTML.includes('/vault/?q=2026%20Holiday%20Baseball'));
+test('homepage recent updates stay separate, exclude empty PRV, and use exact codes', () => {
+  const g=require('../shared/guided-search.js');
+  const cv=g.catalog({index:[{Code:'cv-identity',DisplayName:'2026 Heritage Football',sport:'football'}]},'cv');
+  const prv=g.catalog({index:[{Code:'prv-identity',DisplayName:'2026 Holiday Baseball',sport:'baseball',manufacturer:'Topps',row_count:1},{Code:'empty',DisplayName:'Empty',sport:'baseball',manufacturer:'Topps',row_count:0}]},'prv-all');
+  assert.deepEqual(g.recent({items:[]},cv,prv),{cv:[],prv:[]});
+  const updates=g.recent({items:[{code:'cv-identity',sport:'football',vault:'CV'},{code:'prv-identity',sport:'baseball',vault:'PRV'},{code:'empty',sport:'baseball',vault:'PRV'}]},cv,prv);
+  assert.equal(updates.cv.length,1);assert.equal(updates.prv.length,1);
+  assert.equal(new URL(updates.cv[0].href,'https://example.test').searchParams.get('code'),'cv-identity');
+  assert.equal(new URL(updates.prv[0].href,'https://example.test').searchParams.get('code'),'prv-identity');
 });
 
 test('exact-search typeahead selection retains the raw query instead of the display label', async () => {
