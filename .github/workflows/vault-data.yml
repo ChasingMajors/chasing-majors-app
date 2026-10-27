@@ -32,6 +32,7 @@ jobs:
             shared
             scripts
             tests
+            ChatBot
             vault
             checklists
           sparse-checkout-cone-mode: false
