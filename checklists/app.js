@@ -1244,15 +1244,17 @@ async function loadStaticChecklistSearchRows_(sport) {
   const sportKey = lower(sport || "all") || "all";
 
   if (sportKey === "all") {
-    const rowGroups = await Promise.all(STATIC_SPORTS.map(s => loadStaticChecklistSearchRows_(s).catch(() => [])));
+    const rowGroups = await Promise.all(STATIC_SPORTS.map(s => loadStaticChecklistSearchRows_(s)));
     return rowGroups.reduce((out, rows) => out.concat(rows), []);
   }
 
   const data = await loadStaticJsonCached_(
     `checklist_search_${sportKey}`,
     `${STATIC_DATA_BASE}/checklists/search-index/${encodeURIComponent(sportKey)}.json`
-  ).catch(() => null);
+  );
 
+  if (!data || typeof data !== "object") throw new Error("Invalid sport search manifest");
+  if (data.sharded && !Array.isArray(data.shards)) throw new Error("Invalid sport search shards");
   let primaryRows = [];
 
   if (data && data.sharded && Array.isArray(data.shards)) {
@@ -1260,14 +1262,16 @@ async function loadStaticChecklistSearchRows_(sport) {
       return loadStaticJsonCached_(
         `checklist_search_shard_${fileName}`,
         `${STATIC_DATA_BASE}/checklists/search-index/${encodeURIComponent(fileName)}`
-      ).then(shard => normalizeSearchRows_(shard.rows || []));
+      ).then(shard => { if (!Array.isArray(shard.rows)) throw new Error("Invalid search shard rows"); return normalizeSearchRows_(shard.rows); });
     }));
     primaryRows = rowGroups.reduce((out, rows) => out.concat(rows), []);
   } else {
-    primaryRows = normalizeSearchRows_(data ? (Array.isArray(data) ? data : (data.results || data.rows || data.index || [])) : []);
+    const rows = Array.isArray(data) ? data : (data.results || data.rows || data.index);
+    if (!Array.isArray(rows)) throw new Error("Invalid sport search rows");
+    primaryRows = normalizeSearchRows_(rows);
   }
 
-  const sourceRows = await loadStaticChecklistSourceSearchRows_(sportKey).catch(() => []);
+  const sourceRows = await loadStaticChecklistSourceSearchRows_(sportKey);
   return primaryRows.concat(sourceRows);
 }
 
@@ -1305,8 +1309,10 @@ async function loadStaticChecklistSourceSearchRows_(sportKey) {
   const registry = await loadStaticJsonCached_(
     "checklist_search_source_registry",
     `${STATIC_DATA_BASE}/checklists/search-index/sources.json`
-  ).catch(() => null);
+  );
 
+  if (!registry || !registry.sources || typeof registry.sources !== "object") throw new Error("Invalid search source registry");
+  if (registry.sources[sportKey] !== undefined && !Array.isArray(registry.sources[sportKey])) throw new Error("Invalid source search entries");
   const entries = registry && registry.sources && Array.isArray(registry.sources[sportKey])
     ? registry.sources[sportKey]
     : [];
@@ -1315,24 +1321,26 @@ async function loadStaticChecklistSourceSearchRows_(sportKey) {
 
   const rowGroups = await Promise.all(entries.map(entry => {
     const manifestPath = norm(entry.path || "");
-    if (!manifestPath) return Promise.resolve([]);
+    if (!manifestPath) throw new Error("Missing search source path");
 
     return loadStaticJsonCached_(
       `checklist_search_source_${sportKey}_${manifestPath}`,
       `${STATIC_DATA_BASE}/checklists/search-index/${staticDataPathUrl_(manifestPath)}`
     ).then(manifest => {
+      if (manifest?.sharded && !Array.isArray(manifest.shards)) throw new Error("Invalid source search shards");
       if (manifest && manifest.sharded && Array.isArray(manifest.shards)) {
         return Promise.all(manifest.shards.map(fileName => {
           const shardPath = "sources/" + fileName;
           return loadStaticJsonCached_(
             `checklist_search_source_shard_${sportKey}_${fileName}`,
             `${STATIC_DATA_BASE}/checklists/search-index/${staticDataPathUrl_(shardPath)}`
-          ).then(shard => normalizeSearchRows_(shard.rows || []));
+          ).then(shard => { if (!Array.isArray(shard.rows)) throw new Error("Invalid search shard rows"); return normalizeSearchRows_(shard.rows); });
         })).then(groups => groups.reduce((out, rows) => out.concat(rows), []));
       }
 
-      return normalizeSearchRows_(manifest ? (manifest.rows || []) : []);
-    }).catch(() => []);
+      if (!Array.isArray(manifest?.rows)) throw new Error("Invalid source search rows");
+      return normalizeSearchRows_(manifest.rows);
+    });
   }));
 
   return rowGroups.reduce((out, rows) => out.concat(rows), []);
@@ -2219,7 +2227,6 @@ async function runBroadSearch(q, sport, page = 1) {
       .then(r => (r && !shouldFallbackFromEndpointResult_(r))
         ? r
         : searchStaticCards_(q, sport, page, BROAD_PAGE_SIZE))
-      .catch(() => searchStaticCards_(q, sport, page, BROAD_PAGE_SIZE))
       .catch(() => api("searchCards", {
         q,
         sport,

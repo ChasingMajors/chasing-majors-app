@@ -307,35 +307,40 @@ window.CMChat.api = window.CMChat.api || {};
 
     const out = [];
 
-    try {
-      const sourceRegistry = await fetchStaticJson(staticPath("/checklists/search-index/sources.json"));
-      const entries = Array.isArray(sourceRegistry?.sources?.[s]) ? sourceRegistry.sources[s] : [];
-
-      for (const entry of entries) {
-        try {
-          const sourceManifest = await fetchStaticJson(staticPath(`/checklists/search-index/sources/${entry.file}`));
-          const shards = Array.isArray(sourceManifest.shards) ? sourceManifest.shards : [];
-          for (const shard of shards) {
-            const shardData = await fetchStaticJson(staticPath(`/checklists/search-index/sources/${shard}`));
-            out.push(...normalizeSearchRows(shardData.rows || []));
-          }
-        } catch (err) {
-          console.warn("Source search index skipped", entry, err);
+    // Failures must reach getPlayerCards/getPlayerYears so Apps Script can
+    // answer instead of caching an incomplete or falsely empty search result.
+    const sourceRegistry = await fetchStaticJson(staticPath("/checklists/search-index/sources.json"));
+    const entries = sourceRegistry?.sources?.[s] || [];
+    if (!sourceRegistry?.sources || !Array.isArray(entries)) throw new Error("Invalid search source registry");
+    for (const entry of entries) {
+      const sourcePath = clean(entry.path || entry.file);
+      if (!sourcePath) throw new Error("Missing search source path");
+      const relativePath = sourcePath.startsWith("sources/") ? sourcePath : `sources/${sourcePath}`;
+      const sourceManifest = await fetchStaticJson(staticPath(`/checklists/search-index/${relativePath}`));
+      if (sourceManifest.sharded) {
+        if (!Array.isArray(sourceManifest.shards)) throw new Error("Invalid source search shards");
+        for (const shard of sourceManifest.shards) {
+          const shardData = await fetchStaticJson(staticPath(`/checklists/search-index/sources/${shard}`));
+          if (!Array.isArray(shardData.rows)) throw new Error("Invalid source search rows");
+          out.push(...normalizeSearchRows(shardData.rows));
         }
+      } else {
+        if (!Array.isArray(sourceManifest.rows)) throw new Error("Invalid source search rows");
+        out.push(...normalizeSearchRows(sourceManifest.rows));
       }
-    } catch (err) {
-      // Older exports did not include source-level search files. Fall through to sport shards.
     }
 
-    try {
-      const manifest = await fetchStaticJson(staticPath(`/checklists/search-index/${s}.json`));
-      const shards = Array.isArray(manifest.shards) ? manifest.shards : [];
-      for (const shard of shards) {
+    const manifest = await fetchStaticJson(staticPath(`/checklists/search-index/${s}.json`));
+    if (manifest.sharded) {
+      if (!Array.isArray(manifest.shards)) throw new Error("Invalid sport search shards");
+      for (const shard of manifest.shards) {
         const shardData = await fetchStaticJson(staticPath(`/checklists/search-index/${shard}`));
-        out.push(...normalizeSearchRows(shardData.rows || []));
+        if (!Array.isArray(shardData.rows)) throw new Error("Invalid sport search rows");
+        out.push(...normalizeSearchRows(shardData.rows));
       }
-    } catch (err) {
-      console.warn("Sport search index failed", s, err);
+    } else {
+      if (!Array.isArray(manifest.rows)) throw new Error("Invalid sport search rows");
+      out.push(...normalizeSearchRows(manifest.rows));
     }
 
     const rows = dedupeRows(out);
