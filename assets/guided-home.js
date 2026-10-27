@@ -7,7 +7,7 @@
  let path=[],direct=false,revision=0,flashIndex=0,flashTimer,flashDone,yearsState=null,playerState=null;
  const catalogs={cv:null,prv:null},pending={},errors={},cache=new Map();let publishedPrvCount=null,recentPrv=[];let playerRequest=0;
  const value=key=>path.find(p=>p.key===key)?.val;
- async function json(url,timeout=8000){if(cache.has(url))return cache.get(url);const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),timeout);try{const r=await fetch(url,{cache:'force-cache',signal:controller.signal});if(!r.ok)throw Error('HTTP '+r.status);const j=await r.json();cache.set(url,j);return j;}finally{clearTimeout(timer);}}
+ async function json(url,timeout=8000){if(cache.has(url))return cache.get(url);const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),timeout);try{const r=await fetch(url,{cache:'no-cache',signal:controller.signal});if(!r.ok)throw Error('HTTP '+r.status);const j=await r.json();cache.set(url,j);return j;}finally{clearTimeout(timer);}}
  function loadCatalog(mode){if(catalogs[mode])return Promise.resolve(catalogs[mode]);if(pending[mode])return pending[mode];const url=mode==='cv'?'/data/v1/checklists/index.json':'/data/v2/vault/index.json';return pending[mode]=json(url).then(j=>{catalogs[mode]=G.catalog(j,mode);if(mode==='prv'){publishedPrvCount=j.index.filter(G.populated).length;recentPrv=G.catalog(j,'prv-all');}errors[mode]=null;return catalogs[mode];}).catch(e=>{errors[mode]=e;throw e;}).finally(()=>{pending[mode]=null;});}
  function invalidate(cancelDirect=true){if(cancelDirect)Q.cancel();revision++;yearsState=null;playerState=null;}
  function reset(){invalidate();path=[];direct=false;$('searchInput').value='';$('results').replaceChildren();route(true);}
