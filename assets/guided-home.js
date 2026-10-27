@@ -9,7 +9,7 @@
  const value=key=>path.find(p=>p.key===key)?.val;
  async function json(url,timeout=8000){if(cache.has(url))return cache.get(url);const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),timeout);try{const r=await fetch(url,{cache:'force-cache',signal:controller.signal});if(!r.ok)throw Error('HTTP '+r.status);const j=await r.json();cache.set(url,j);return j;}finally{clearTimeout(timer);}}
  function loadCatalog(mode){if(catalogs[mode])return Promise.resolve(catalogs[mode]);if(pending[mode])return pending[mode];const url=mode==='cv'?'/data/v1/checklists/index.json':'/data/v2/vault/index.json';return pending[mode]=json(url).then(j=>{catalogs[mode]=G.catalog(j,mode);if(mode==='prv'){publishedPrvCount=j.index.filter(G.populated).length;recentPrv=G.catalog(j,'prv-all');}errors[mode]=null;return catalogs[mode];}).catch(e=>{errors[mode]=e;throw e;}).finally(()=>{pending[mode]=null;});}
- function invalidate(){revision++;yearsState=null;playerState=null;}
+ function invalidate(cancelDirect=true){if(cancelDirect)Q.cancel();revision++;yearsState=null;playerState=null;}
  function reset(){invalidate();path=[];direct=false;$('searchInput').value='';$('results').replaceChildren();route(true);}
  function choose(key,val,label){invalidate();path.push({key,val,label:label||val});direct=false;$('results').replaceChildren();route(true);}
  function shell(title,hint){stage.innerHTML='<h2 id="stepTitle" tabindex="-1">'+title+'</h2><p class="hint">'+hint+'</p>';}
@@ -63,7 +63,7 @@
  function ticker(id,items,mode){const target=$(id),section=target.closest('.recentSection');target.replaceChildren();section.hidden=!items.length;if(!items.length)return;const track=document.createElement('div'),group=document.createElement('div');track.className='tickerTrack';group.className='tickerGroup';items.forEach(e=>{const link=document.createElement('a');link.className='recentCard '+mode;link.href=e.href;link.innerHTML='<span class="tickerTag">'+(mode==='cv'?'CV':'PRV')+'</span><span>'+esc(e.displayName)+'</span>';group.append(link);});track.append(group);const clone=group.cloneNode(true);clone.classList.add('tickerClone');clone.setAttribute('aria-hidden','true');clone.querySelectorAll('a').forEach(a=>a.tabIndex=-1);track.append(clone);target.append(track);const pause=section.querySelector('.tickerPause');pause.onclick=()=>{const paused=target.classList.toggle('is-paused');pause.textContent=paused?'Resume':'Pause';pause.setAttribute('aria-pressed',String(paused));};const size=()=>{const moving=group.scrollWidth>target.clientWidth;target.classList.toggle('tickerStatic',!moving);pause.hidden=!moving;};requestAnimationFrame(size);window.addEventListener('resize',size);}
  async function recent(){try{const [data,cv,prv]=await Promise.all([json('/data/recent.json'),loadCatalog('cv').catch(()=>[]),loadCatalog('prv').catch(()=>[])]);const grouped=G.recent(data,cv,recentPrv);ticker('recCV',grouped.cv,'cv');ticker('recPRV',grouped.prv,'prv');}catch{/* No fabricated recent additions on failure. */}}
  $('restart').onclick=reset;
- $('searchForm').addEventListener('submit',()=>{invalidate();path=[];direct=true;route(true);});
+ $('searchForm').addEventListener('submit',()=>{invalidate(false);path=[];direct=true;route(true);});
  document.querySelectorAll('[data-nav-mode]').forEach(link=>link.addEventListener('click',()=>{invalidate();path=[{key:'mode',val:link.dataset.navMode,label:link.dataset.navMode==='cv'?'Checklist search':'Print run data'}];direct=false;$('results').replaceChildren();route(true);}));
  route();recent();
 })();
