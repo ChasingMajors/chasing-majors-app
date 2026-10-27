@@ -1,0 +1,27 @@
+name: Publish monitor notification probe (no deployment)
+run-name: Publish monitor probe — ${{ inputs.outcome }}
+on:
+  workflow_dispatch:
+    inputs:
+      outcome:
+        description: Deliberate isolated notification test; never publishes content
+        type: choice
+        options: [failure, success]
+        default: failure
+        required: true
+permissions:
+  contents: read
+jobs:
+  notification-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Isolated outcome — no checkout, secrets, data or deployment
+        env:
+          PROBE_OUTCOME: ${{ inputs.outcome }}
+        run: |
+          if [ "$PROBE_OUTCOME" = failure ]; then
+            echo 'Deliberate non-production publish-monitor alert test.'
+            exit 1
+          fi
+          echo 'Non-production monitor probe succeeded; this is not a live content publish.'

@@ -50,7 +50,8 @@ jobs:
             git reset --hard origin/main
             node scripts/apply-reviewed-checklists.cjs
             node scripts/build-vault-data.cjs
-            git add data/v1/checklists data/v1/manifest.json data/v2/vault data/recent.json data/recent-state.json
+            node scripts/stamp-publish-release.cjs "$(git rev-parse HEAD)"
+            git add data/v1/checklists data/v1/manifest.json data/v1/vault/index.json data/v2/vault data/recent.json data/recent-state.json
             if git diff --cached --quiet; then
               # No derived-data change (e.g. a frontend-only push to checklists/ or vault/).
               # The new static assets are already on main; Pages still needs a build to serve them.
