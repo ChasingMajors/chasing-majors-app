@@ -1084,6 +1084,9 @@ async function api(action, payload = {}) {
 // Static JSON is the fast path. Apps Script remains the fallback so live users
 // are protected while data files are rolled out sport by sport.
 async function fetchJsonWithTimeout_(url, timeoutMs = STATIC_FETCH_TIMEOUT_MS) {
+  if (url.includes("/checklists/search-index/") && globalThis.CMSearchJson) {
+    return globalThis.CMSearchJson.load(url, {timeoutMs, cache: "no-cache"});
+  }
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
 

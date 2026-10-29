@@ -22,6 +22,13 @@ window.CMChat.api = window.CMChat.api || {};
     const url = path.startsWith("http") ? path : path;
     if (staticJsonCache.has(url)) return staticJsonCache.get(url);
 
+    if (url.includes("/checklists/search-index/") && globalThis.CMSearchJson) {
+      const data = await globalThis.CMSearchJson.load(url, {timeoutMs, cache: "force-cache"});
+      // Do not retain a second raw copy after normalization into searchRowsCache.
+      if (!Array.isArray(data?.rows)) staticJsonCache.set(url, data);
+      return data;
+    }
+
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), timeoutMs);
 
