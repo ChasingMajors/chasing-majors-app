@@ -107,6 +107,17 @@ async function verifyLive(base,expected,{fetchImpl=fetch}={}){
  }
  const delivery=await get('data/search-delivery.json',true);
  if(delivery.release_sha!==expected.release_sha||delivery.codec!=='gzip-json-v1')throw Error('Live search release mismatch');
+ if(expected.search_delivery?.bounded_search){
+  const directory=await get('data/search-query/index.json',true);
+  if(directory.release_sha!==expected.release_sha||directory.canonical_sha256!==expected.search_delivery.bounded_search.canonical_sha256||directory.format!=='bounded-search-v1')throw Error('Live bounded directory release mismatch');
+  for(const entry of [directory.streams[0],Object.values(directory.names).flat()[0],Object.values(directory.players).flat()[0]]){
+   if(!entry||!/^\/data\/search-query\/[a-f0-9]{64}\.json\.gz$/.test(entry.url))throw Error('Missing bounded-search sample');
+   const r=await fetchImpl(new URL(entry.url,base),{signal:AbortSignal.timeout(20000),cache:'no-store'});if(!r.ok)throw Error('Live bounded shard HTTP '+r.status);
+   const body=Buffer.from(await r.arrayBuffer()),decoded=body[0]===31&&body[1]===139?require('node:zlib').gunzipSync(body,{maxOutputLength:entry.decoded_bytes}):body;
+   if(body[0]===31&&body[1]===139&&hash(body)!==entry.compressed_sha256)throw Error('Live bounded compressed hash mismatch');
+   if(decoded.length!==entry.decoded_bytes||hash(decoded)!==entry.decoded_sha256)throw Error('Live bounded decoded hash mismatch');JSON.parse(decoded);
+  }
+ }
  const samplePaths=['/data/v1/checklists/search-index/baseball-001.json','/data/v1/checklists/search-index/sources/baseball-2018-001.json','/data/v1/checklists/search-index/sources.json'];
  for(const p of samplePaths){
   const entry=delivery.files[p];if(!entry)throw Error('Historical/active search sample absent: '+p);
@@ -125,7 +136,7 @@ if(require.main===module)(async()=>{
  else if(mode==='expected'){
   const before=process.env.CM_BEFORE_SHA;const changed=before&&/^[a-f0-9]{40}$/.test(before)&&!/^0+$/.test(before)?cp.execFileSync('git',['diff','--name-only',before,process.env.GITHUB_SHA],{encoding:'utf8'}).trim().split('\n'):[];
   fs.writeFileSync(args[0],JSON.stringify(expectedProducts(root,changed,process.env.CM_EXPECTED_CODES||'')));
- }else if(mode==='assemble'){const m=assemble(root,path.resolve(args[0]),process.env.GITHUB_SHA,{required:JSON.parse(fs.readFileSync(args[1])),buildTime:process.env.CM_RELEASE_BUILD_TIME});console.log(JSON.stringify({sha:m.release_sha,bytes:m.total_bytes,products:m.counts}));}
+ }else if(mode==='assemble'){const m=assemble(root,path.resolve(args[0]),process.env.GITHUB_SHA,{required:JSON.parse(fs.readFileSync(args[1])),buildTime:process.env.CM_RELEASE_BUILD_TIME,queryDirectory:process.env.CM_QUERY_DIRECTORY});console.log(JSON.stringify({sha:m.release_sha,bytes:m.total_bytes,products:m.counts}));}
  else if(mode==='verify')console.log(JSON.stringify(await verifyLive(args[0],JSON.parse(fs.readFileSync(args[1])))));
  else throw Error('Unknown release command');
 })().catch(e=>{console.error(e.message);process.exitCode=1;});

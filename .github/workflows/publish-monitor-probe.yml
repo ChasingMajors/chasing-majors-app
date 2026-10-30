@@ -6,7 +6,7 @@ on:
       outcome:
         description: Deliberate isolated notification test; never publishes content
         type: choice
-        options: [failure, success]
+        options: [failure, success, sha-mismatch]
         default: failure
         required: true
 permissions:
@@ -25,3 +25,19 @@ jobs:
             exit 1
           fi
           echo 'Non-production monitor probe succeeded; this is not a live content publish.'
+      - name: Prove a submitted SHA is not a deployed release (read-only hosted probe)
+        if: inputs.outcome == 'sha-mismatch'
+        env:
+          SUBMITTED_SHA: ${{ github.sha }}
+        run: |
+          node <<'NODE'
+          const assert = require('node:assert/strict');
+          (async () => {
+            const response = await fetch('https://app.chasingmajors.com/data/v1/checklists/index.json?probe=' + process.env.GITHUB_RUN_ID, {signal: AbortSignal.timeout(20000), cache: 'no-store'});
+            assert(response.ok, 'Live index is unavailable; cannot infer deployment');
+            const live = await response.json();
+            assert.match(live.release_sha || '', /^[a-f0-9]{40}$/, 'Live source-SHA evidence missing');
+            assert.notEqual(live.release_sha, process.env.SUBMITTED_SHA, 'Use an unpublished probe branch to test mismatched SHA');
+            console.log(JSON.stringify({probe_only:true, submitted_sha:process.env.SUBMITTED_SHA, observed_live_source_sha:live.release_sha, release_verified:false, result:'correctly_unverified', http:response.status}));
+          })().catch(error => {console.error(error.message); process.exitCode = 1;});
+          NODE

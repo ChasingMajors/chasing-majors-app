@@ -2,75 +2,132 @@ name: Refresh reviewed checklists and Vault data
 on:
   push:
     branches: [main]
-    paths: ['index.html', 'assets/guided-home.js', 'data/v1/manifest.json', 'data/v1/vault/**', 'data/v1/checklists/**', 'data/cv-reviewed-imports/**', 'shared/**', 'scripts/**', 'data/prv-calculations/**', 'data/prv-checklist-sizes.json', 'data/prv-integrity-reviews.json', 'data/prv-cv-identity-policy.json', 'tests/**', 'vault/**', 'checklists/**', '.github/workflows/vault-data.yml']
   workflow_dispatch:
+    inputs:
+      expected_codes:
+        description: Comma-separated submitted product codes; asserted before and after deploy
+        type: string
+        default: ''
+      mode:
+        description: Probes are non-production only
+        type: choice
+        options: [normal, validation-failure-probe]
+        default: normal
 permissions:
-  contents: write
-  pages: write
+  contents: read
 concurrency:
-  group: vault-data
+  group: cm-content-release
   cancel-in-progress: false
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:
-          sparse-checkout: |
-            index.html
-            assets/guided-home.js
-            data/recent.json
-            data/recent-state.json
-            data/v1/manifest.json
-            data/v1/vault
-            data/v1/checklists
-            data/cv-reviewed-imports
-            data/v2/vault
-            data/prv-calculations
-            data/prv-checklist-sizes.json
-            data/prv-integrity-reviews.json
-            data/prv-cv-identity-policy.json
-            shared
-            scripts
-            tests
-            ChatBot
-            vault
-            checklists
-          sparse-checkout-cone-mode: false
+          fetch-depth: 0
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
-      - run: node --test tests/*.test.cjs
-      - name: Build and publish derived data
+          node-version: '24'
+      - name: Pin source and expected product codes
+        env:
+          CM_EXPECTED_CODES: ${{ inputs.expected_codes }}
+          CM_BEFORE_SHA: ${{ github.event.before }}
+          PROBE_MODE: ${{ inputs.mode }}
+        run: |
+          if [ "$GITHUB_REF" = refs/heads/main ] && [ "${PROBE_MODE:-normal}" != normal ]; then
+            echo 'Failure probes cannot run on the production branch.'
+            exit 1
+          fi
+          echo "CM_RELEASE_BUILD_TIME=$(git show -s --format=%cI "$GITHUB_SHA")" >> "$GITHUB_ENV"
+          node scripts/content-release.cjs expected "$RUNNER_TEMP/required-products.json"
+      - name: Validate source, exact identities and payload references
+        env:
+          PROBE_MODE: ${{ inputs.mode }}
+        run: |
+          if [ "$PROBE_MODE" = validation-failure-probe ]; then
+            node scripts/content-release.cjs validate --probe-invalid
+          else
+            node scripts/content-release.cjs validate
+          fi
+      - name: Deterministically rebuild complete indexes and v2
+        run: node scripts/build-content-release.cjs
+      - name: Build complete memory-bounded search directory (offline SQLite, never D1)
+        env:
+          CM_QUERY_WORK: ${{ runner.temp }}/cm-query
+          TMPDIR: ${{ runner.temp }}
+          SQLITE_TMPDIR: ${{ runner.temp }}
+        run: |
+          node scripts/search-query/build.cjs
+          node scripts/search-query/grams.cjs
+          node scripts/search-query/artifact.cjs stamp . "$CM_QUERY_WORK/derived"
+      - name: Content regression tests (blocking)
+        run: node --test tests/*.test.cjs
+      - name: Validate rebuilt release
+        run: node scripts/content-release.cjs validate
+      - name: Assemble one immutable Pages artifact (size guarded)
+        env:
+          CM_QUERY_DIRECTORY: ${{ runner.temp }}/cm-query/derived
+        run: node scripts/content-release.cjs assemble "$RUNNER_TEMP/cm-site" "$RUNNER_TEMP/required-products.json"
+      - name: Upload small SHA-bound manifest for the operator monitor
+        uses: actions/upload-artifact@v4
+        with:
+          name: content-release-manifest
+          path: ${{ runner.temp }}/cm-site/data/publish-release.json
+          retention-days: 7
+      - name: Upload exact validated artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/cm-site
+          retention-days: 1
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: refresh
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.pages.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.pages.outputs.page_url }}
+    steps:
+      - name: Reject an obsolete source before deployment
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          for attempt in 1 2 3 4; do
-            git fetch origin main
-            git reset --hard origin/main
-            node scripts/apply-reviewed-checklists.cjs
-            node scripts/build-vault-data.cjs
-            node scripts/stamp-publish-release.cjs "$(git rev-parse HEAD)"
-            git add data/v1/checklists data/v1/manifest.json data/v1/vault/index.json data/v2/vault data/recent.json data/recent-state.json
-            if git diff --cached --quiet; then
-              # No derived-data change (e.g. a frontend-only push to checklists/ or vault/).
-              # The new static assets are already on main; Pages still needs a build to serve them.
-              gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
-              exit 0
-            fi
-            git commit -m 'Refresh structured Vault data'
-            if git push origin HEAD:main; then
-              gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
-              exit 0
-            fi
+          latest=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq .object.sha)
+          test "$latest" = "$GITHUB_SHA" || { echo 'Superseded release rejected; no deployment requested.'; exit 1; }
+      - name: Deploy the immutable artifact
+        id: pages
+        uses: actions/deploy-pages@v4
+  verify:
+    needs: [refresh, deploy]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/pages-artifact
+      - name: Verify live SHA, new codes, counts, parallels and hashes
+        env:
+          PAGE_URL: ${{ needs.deploy.outputs.page_url }}
+        run: |
+          mkdir "$RUNNER_TEMP/cm-verify"
+          tar -xf "$RUNNER_TEMP/pages-artifact/artifact.tar" -C "$RUNNER_TEMP/cm-verify" ./data/publish-release.json
+          for attempt in 1 2 3 4 5; do
+            if node scripts/content-release.cjs verify "$PAGE_URL" "$RUNNER_TEMP/cm-verify/data/publish-release.json"; then exit 0; fi
+            sleep 20
           done
           exit 1
-      - name: Audit CV and PRV identity review candidates
-        run: node scripts/audit-card-identities.cjs /tmp/card-identity-audit.json
-      - uses: actions/upload-artifact@v4
-        with:
-          name: card-identity-audit
-          path: /tmp/card-identity-audit.json
-          retention-days: 14

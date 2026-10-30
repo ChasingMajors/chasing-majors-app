@@ -1,0 +1,29 @@
+name: Optional release exports (independent)
+on:
+  workflow_run:
+    workflows: [Refresh reviewed checklists and Vault data]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      simulate_failure:
+        description: Isolated failure test; does not connect to D1 or Sheets
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  downstream-status:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Report downstream state without modifying content
+        env:
+          SIMULATE_FAILURE: ${{ inputs.simulate_failure }}
+        run: |
+          echo 'D1 sync: deferred; guarded existing process remains separate.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Sheets export: not configured; no source Sheet writes.' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$SIMULATE_FAILURE" = true ]; then
+            echo 'Simulated optional export failure. No D1/Sheets operation ran.'
+            exit 1
+          fi
