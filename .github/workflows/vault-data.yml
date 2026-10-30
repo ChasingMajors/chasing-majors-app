@@ -128,8 +128,9 @@ jobs:
         run: |
           mkdir "$RUNNER_TEMP/cm-verify"
           tar -xf "$RUNNER_TEMP/pages-artifact/artifact.tar" -C "$RUNNER_TEMP/cm-verify" ./data/publish-release.json
+          verified_url=$(node scripts/production-verification-url.cjs "$PAGE_URL")
           for attempt in 1 2 3 4 5; do
-            if node scripts/content-release.cjs verify "$PAGE_URL" "$RUNNER_TEMP/cm-verify/data/publish-release.json"; then exit 0; fi
+            if node scripts/content-release.cjs verify "$verified_url" "$RUNNER_TEMP/cm-verify/data/publish-release.json"; then exit 0; fi
             sleep 20
           done
           exit 1

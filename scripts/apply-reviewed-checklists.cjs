@@ -184,6 +184,9 @@ function apply(root,options={}){
   write(searchBase+sport+'.json',search);
   write(productPath(sport),read(productPath(sport)));
  }
+ // Include any newly reviewed entries in the same deterministic order before
+ // recent-state snapshots and downstream registry metadata consume this index.
+ if(options.sortIndex)index.index.sort((a,b)=>String(a.Code).localeCompare(String(b.Code),'en'));
  write('data/v1/checklists/index.json',index);
  if(changes.size){
   const manifest=read('data/v1/manifest.json');manifest.checklists_version=stamp;manifest.version=stamp;manifest.generated_at=stamp;write('data/v1/manifest.json',manifest);
