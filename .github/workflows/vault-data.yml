@@ -29,7 +29,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: '24.22.1'
       - name: Pin source and expected product codes
         env:
           CM_EXPECTED_CODES: ${{ inputs.expected_codes }}
@@ -58,6 +58,7 @@ jobs:
           CM_QUERY_WORK: ${{ runner.temp }}/cm-query
           TMPDIR: ${{ runner.temp }}
           SQLITE_TMPDIR: ${{ runner.temp }}
+          NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
         run: |
           node scripts/search-query/build.cjs
           node scripts/search-query/grams.cjs
@@ -69,6 +70,7 @@ jobs:
       - name: Assemble one immutable Pages artifact (size guarded)
         env:
           CM_QUERY_DIRECTORY: ${{ runner.temp }}/cm-query/derived
+          NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
         run: node scripts/content-release.cjs assemble "$RUNNER_TEMP/cm-site" "$RUNNER_TEMP/required-products.json"
       - name: Upload small SHA-bound manifest for the operator monitor
         uses: actions/upload-artifact@v4
@@ -115,7 +117,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: '24.22.1'
       - uses: actions/download-artifact@v4
         with:
           name: github-pages

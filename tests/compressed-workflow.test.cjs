@@ -1,7 +1,7 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs');
 test('compressed publish retains blocking validation and exact immutable artifact dependencies',()=>{
  const s=fs.readFileSync('.github/workflows/vault-data.yml','utf8');
- for(const v of ['Validate source','Deterministically rebuild','Content regression tests (blocking)','Validate rebuilt release','Assemble one immutable','needs: refresh','needs: [refresh, deploy]','actions/deploy-pages@','node-version: \'24\'','CM_QUERY_DIRECTORY','content-release-manifest'])assert(s.includes(v),v);
+ for(const v of ['Validate source','Deterministically rebuild','Content regression tests (blocking)','Validate rebuilt release','Assemble one immutable','needs: refresh','needs: [refresh, deploy]','actions/deploy-pages@','node-version: \'24.22.1\'','CM_QUERY_DIRECTORY','content-release-manifest','canonical-runtime.cjs'])assert(s.includes(v),v);
  assert(!/continue-on-error|git reset|git push|git commit|pages\/builds/.test(s));assert(s.includes('test "$latest" = "$GITHUB_SHA"'));assert(s.includes("if: github.ref == 'refs/heads/main'"));
  assert(s.indexOf('Content regression tests (blocking)')<s.indexOf('Upload exact validated artifact'));
 });

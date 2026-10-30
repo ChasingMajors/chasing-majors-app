@@ -6,7 +6,7 @@ on:
       outcome:
         description: Deliberate isolated notification test; never publishes content
         type: choice
-        options: [failure, success, sha-mismatch, artifact-mode]
+        options: [failure, success, sha-mismatch, artifact-mode, recovery]
         default: failure
         required: true
 permissions:
@@ -21,7 +21,7 @@ jobs:
         env:
           PROBE_OUTCOME: ${{ inputs.outcome }}
         run: |
-          if [ "$PROBE_OUTCOME" = artifact-mode ] || [ "$PROBE_OUTCOME" = sha-mismatch ]; then
+          if [ "$PROBE_OUTCOME" != failure ] && [ "$PROBE_OUTCOME" != success ]; then
             test "$GITHUB_REF" = refs/heads/probe/compressed-release-2026-10-30 || { echo 'Probe branch required'; exit 1; }
           fi
           if [ "$PROBE_OUTCOME" = failure ]; then
@@ -46,13 +46,13 @@ jobs:
           })().catch(error => {console.error(error.message); process.exitCode = 1;});
           NODE
       - uses: actions/checkout@v4
-        if: inputs.outcome == 'artifact-mode'
+        if: inputs.outcome == 'artifact-mode' || inputs.outcome == 'recovery'
         with:
           persist-credentials: false
       - uses: actions/setup-node@v4
-        if: inputs.outcome == 'artifact-mode'
+        if: inputs.outcome == 'artifact-mode' || inputs.outcome == 'recovery'
         with:
-          node-version: '24'
+          node-version: '24.22.1'
       - name: Build actual compressed artifact locally on runner (no Pages upload/deploy)
         if: inputs.outcome == 'artifact-mode'
         env:
@@ -60,6 +60,7 @@ jobs:
           CM_QUERY_DIRECTORY: ${{ runner.temp }}/cm-query/derived
           TMPDIR: ${{ runner.temp }}
           SQLITE_TMPDIR: ${{ runner.temp }}
+          NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
         run: |
           node scripts/content-release.cjs validate
           node scripts/search-query/build.cjs
@@ -80,3 +81,15 @@ jobs:
         env:
           GH_READ_TOKEN: ${{ github.token }}
         run: node .github/probes/artifact-monitor.cjs
+      - name: Fresh Git recovery with unchanged accepted hash and parity checks
+        if: inputs.outcome == 'recovery'
+        run: node .github/recovery/rebuild.cjs "$RUNNER_TEMP/cm-recovery"
+      - name: Upload only recovery receipts (no Pages upload/deployment)
+        if: always() && inputs.outcome == 'recovery'
+        uses: actions/upload-artifact@v4
+        with:
+          name: recovery-proof
+          path: |
+            ${{ runner.temp }}/cm-recovery/recovery-proof.json
+            ${{ runner.temp }}/cm-recovery/parity.json
+          retention-days: 7

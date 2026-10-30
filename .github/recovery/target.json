@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "source_sha": "2666602fc16375bec018e0dcb30579859a8adf51",
+  "canonical_base_sha": "dbcd7736ea5359ebdb1088361f89daa52cf189a5",
+  "canonical_search_sha256": "8b39803eb2a40e516f6f0566ceaea82d37e9fb8058b2ce779a541a9320add534",
+  "build_time": "2026-10-30T13:52:08.432Z",
+  "node": "24.22.1",
+  "gzip_os": 19,
+  "tree_sha256": "6a4bbf51e5e9f596096d92354ca09f0bda32e357002d64ee2903333de1238495",
+  "manifest_sha256": "e95e3972b55ce2b9fce7b9b7ecde5fc4ed9faa1da277672cf44df2090ab0c5cd",
+  "bytes": 544097991,
+  "files": 5570,
+  "directory_keys": ["schema_version", "format", "groupCount", "sourceFiles", "streams", "names", "rawIdentity", "players", "grams", "canonical_sha256"]
+}
