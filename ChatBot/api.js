@@ -596,7 +596,7 @@ window.CMChat.api = window.CMChat.api || {};
       } else {
         const bounded = globalThis.CMBoundedSearch;
         rows = bounded && await bounded.available()
-          ? await bounded.chatRows(sport || "baseball", playerQuery, clean(year), rowSearchMatchesPlayer)
+          ? await bounded.chatRows(normalizeSport(sport || "baseball"), playerQuery, clean(year), rowSearchMatchesPlayer)
           : await loadSportSearchRows(sport || "baseball");
       }
 
@@ -656,7 +656,7 @@ window.CMChat.api = window.CMChat.api || {};
     try {
       const bounded = globalThis.CMBoundedSearch;
       const discovered = bounded && await bounded.available()
-        ? await bounded.chatYears(sport, playerQuery, rowSearchMatchesPlayer)
+        ? await bounded.chatYears(normalizeSport(sport || "baseball"), playerQuery, rowSearchMatchesPlayer)
         : (await loadSportSearchRows(sport))
           .filter(row => rowSearchMatchesPlayer(row, playerQuery))
           .map(row => clean(row.year));

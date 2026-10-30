@@ -35,3 +35,7 @@ test('missing chunk propagates as failure; valid empty result remains empty',asy
 test('weighted result cache evicts instead of retaining an unbounded history',()=>{
  const e=create(),m=new Map();for(let i=0;i<30;i++)e.put(m,i,'x'.repeat(100000));assert(e.stats().result_weight<=e.stats().result_budget);assert(m.size<30);assert.equal(m.get(29).length,100000);
 });
+test('unknown sports fail rather than masquerading as an empty catalog',async()=>{
+ const f=fixture([]);await assert.rejects(f.engine.chatYears('all','Mike',()=>true),/Unknown/);
+ await assert.rejects(f.engine.cvPage({sport:'unknown',tokens:['x'],match:()=>true,compare:cmp}),/Unknown/);
+});
