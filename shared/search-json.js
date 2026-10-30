@@ -71,7 +71,8 @@
    if(options.signal)return work;
    pending.set(key,work);try{return await work;}finally{pending.delete(key);}
   }
-  return {load};
+  async function read(entry,options={}){if(!entry||!/^\/data\/search-query\/[a-f0-9]{64}\.json\.gz$/.test(entry.url)||!Number.isSafeInteger(entry.decoded_bytes)||entry.decoded_bytes<0||entry.decoded_bytes>16*1024*1024||!Number.isSafeInteger(entry.compressed_bytes)||entry.compressed_bytes<0||entry.compressed_bytes>16*1024*1024||!/^[a-f0-9]{64}$/.test(entry.decoded_sha256)||!/^[a-f0-9]{64}$/.test(entry.compressed_sha256))throw Error('Invalid bounded-search shard');return schedule(()=>request(new URL(entry.url,baseUrl).href,options,entry),options.signal); }
+  return {load,read};
  }
  return {create};
 });

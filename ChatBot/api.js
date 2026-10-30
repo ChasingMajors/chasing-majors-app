@@ -6,6 +6,14 @@ window.CMChat.api = window.CMChat.api || {};
   const productCache = new Map();
   const searchRowsCache = new Map();
 
+  // One shared, weighted budget for result/product caches. The legacy reader
+  // remains available during a reader-first bridge (derived directory 404).
+  function cacheResult(map, key, value) {
+    if (globalThis.CMBoundedSearch) return globalThis.CMBoundedSearch.put(map, key, value);
+    map.set(key, value);
+    return value;
+  }
+
   async function postJson(url, body) {
     const res = await fetch(url, {
       method: "POST",
@@ -25,7 +33,7 @@ window.CMChat.api = window.CMChat.api || {};
     if (url.includes("/checklists/search-index/") && globalThis.CMSearchJson) {
       const data = await globalThis.CMSearchJson.load(url, {timeoutMs, cache: "force-cache"});
       // Do not retain a second raw copy after normalization into searchRowsCache.
-      if (!Array.isArray(data?.rows)) staticJsonCache.set(url, data);
+      if (!Array.isArray(data?.rows)) cacheResult(staticJsonCache, url, data);
       return data;
     }
 
@@ -40,7 +48,7 @@ window.CMChat.api = window.CMChat.api || {};
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
-      staticJsonCache.set(url, data);
+      cacheResult(staticJsonCache, url, data);
       return data;
     } finally {
       clearTimeout(timer);
@@ -169,7 +177,7 @@ window.CMChat.api = window.CMChat.api || {};
           const shardData = await fetchStaticJson(staticPath(`/checklists/products/${shard}`));
           const product = shardData.products?.[target];
           if (product) {
-            productCache.set(cacheKey, product);
+            cacheResult(productCache, cacheKey, product);
             return product;
           }
         }
@@ -196,7 +204,7 @@ window.CMChat.api = window.CMChat.api || {};
       const shardData = await fetchStaticJson(staticPath(`/vault/products/${shard}`));
       const product = shardData.products?.[target];
       if (product) {
-        productCache.set(cacheKey, product);
+        cacheResult(productCache, cacheKey, product);
         return product;
       }
     }
@@ -586,7 +594,10 @@ window.CMChat.api = window.CMChat.api || {};
             sport: row.sport || product?.meta?.sport || sport || "baseball"
           }));
       } else {
-        rows = await loadSportSearchRows(sport || "baseball");
+        const bounded = globalThis.CMBoundedSearch;
+        rows = bounded && await bounded.available()
+          ? await bounded.chatRows(sport || "baseball", playerQuery, clean(year), rowSearchMatchesPlayer)
+          : await loadSportSearchRows(sport || "baseball");
       }
 
       rows = rows.filter(row => rowSearchMatchesPlayer(row, playerQuery));
@@ -594,7 +605,7 @@ window.CMChat.api = window.CMChat.api || {};
       if (code) rows = rows.filter(row => clean(row.code) === clean(code));
 
       const out = makePlayerCardsResponse(playerQuery, sport || "baseball", year, code, rows);
-      cache.memCache.playerCards.set(key, out);
+      cacheResult(cache.memCache.playerCards, key, out);
       return out;
     } catch (err) {
       console.warn("Static getPlayerCards failed; falling back", err);
@@ -609,7 +620,7 @@ window.CMChat.api = window.CMChat.api || {};
     });
 
     const out = data || {};
-    cache.memCache.playerCards.set(key, out);
+    cacheResult(cache.memCache.playerCards, key, out);
     return out;
   }
 
@@ -643,13 +654,15 @@ window.CMChat.api = window.CMChat.api || {};
     if (cache.memCache.playerYears.has(key)) return cache.memCache.playerYears.get(key);
 
     try {
-      const rows = await loadSportSearchRows(sport);
-      const years = utils.uniq(rows
-        .filter(row => rowSearchMatchesPlayer(row, playerQuery))
-        .map(row => clean(row.year))
-        .filter(Boolean))
+      const bounded = globalThis.CMBoundedSearch;
+      const discovered = bounded && await bounded.available()
+        ? await bounded.chatYears(sport, playerQuery, rowSearchMatchesPlayer)
+        : (await loadSportSearchRows(sport))
+          .filter(row => rowSearchMatchesPlayer(row, playerQuery))
+          .map(row => clean(row.year));
+      const years = utils.uniq(discovered.filter(Boolean))
         .sort((a, b) => comparableYear(b) - comparableYear(a));
-      cache.memCache.playerYears.set(key, years);
+      cacheResult(cache.memCache.playerYears, key, years);
       return years;
     } catch (err) {
       console.warn("Static getPlayerYears failed; falling back", err);
@@ -662,7 +675,7 @@ window.CMChat.api = window.CMChat.api || {};
     });
 
     const years = Array.isArray(data?.years) ? data.years : [];
-    cache.memCache.playerYears.set(key, years);
+    cacheResult(cache.memCache.playerYears, key, years);
     return years;
   }
 

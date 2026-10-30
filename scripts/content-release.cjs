@@ -62,7 +62,7 @@ function record(p){return {kind:p.kind,code:p.code,sport:p.sport,path:p.path,con
 function matches(p,token){const parts=token.split(':'),code=parts.at(-1),kind=parts.length>1?parts[0]:null;return p.code===code&&(!kind||p.kind===kind||kind==='PRV'&&p.kind==='PRV2');}
 function assertExpected(products,codes){for(const code of codes)if(!products.some(p=>matches(p,code)))throw Error('Submitted product absent after rebuild: '+code);}
 function filesIn(root){const out=[];function walk(d){for(const e of fs.readdirSync(path.join(root,d),{withFileTypes:true})){if(e.name==='.git'||e.name==='.github')continue;const p=path.posix.join(d,e.name);if(e.isSymbolicLink())throw Error('Release contains symbolic link: '+p);if(e.isDirectory())walk(p);else if(e.isFile())out.push(p);}}walk('');return out.sort();}
-function assemble(root,out,sha,{required=[],maxBytes=1_000_000_000,buildTime}={}){
+function assemble(root,out,sha,{required=[],maxBytes=1_000_000_000,buildTime,queryDirectory}={}){
  if(!/^[a-f0-9]{40}$/.test(sha||''))throw Error('Exact release SHA required');
  if(path.resolve(root)===path.resolve(out)||path.resolve(out).startsWith(path.resolve(root)+path.sep))throw Error('Release output must be outside source checkout');
  const products=validate(root);const structured=prvProducts(root,true);assertExpected([...products,...structured],required);
@@ -73,6 +73,9 @@ function assemble(root,out,sha,{required=[],maxBytes=1_000_000_000,buildTime}={}
  const minimum=sourceFiles.filter(p=>!p.startsWith('data/v1/checklists/search-index/')&&p!=='data/publish-release.json').reduce((n,p)=>n+fs.statSync(path.join(root,p)).size,0);
  if(minimum>maxBytes){const err=Error('Pages size guard: unchanged non-search files alone exceed '+maxBytes);err.bytes=minimum;throw err;}
  const delivery=require('./search-delivery.cjs').plan(root,sha);
+ // Optional staged bounded consumer directory. It must match this canonical
+ // source snapshot and is included in the same immutable, size-guarded artifact.
+ if(queryDirectory){const query=require('./search-query/artifact.cjs').plan(root,queryDirectory,sha);for(const [p,b] of query.bodies)delivery.bodies.set(p,b);delivery.summary.bounded_search=query.summary;}
  // Stamp derivative artifact indexes only; source JSON remains untouched.
  for(const p of ['data/v1/checklists/index.json','data/v1/vault/index.json','data/v2/vault/index.json']){const j=read(root,p);j.release_sha=sha;delivery.bodies.set(p,Buffer.from(JSON.stringify(j)+'\n'));}
  const entries=sourceFiles.filter(p=>p!=='data/publish-release.json'&&!delivery.bodies.has(p)&&!p.startsWith('data/v1/checklists/search-index/')&&p!=='data/search-delivery.json'&&!p.startsWith('data/search-delivery/')).map(p=>{const b=fs.readFileSync(path.join(root,p));return {path:p,bytes:b.length,sha256:hash(b)};});

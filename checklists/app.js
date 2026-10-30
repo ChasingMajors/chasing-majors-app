@@ -1283,6 +1283,7 @@ async function loadStaticChecklistSearchRows_(sport) {
 // so it never triggers the multi-hundred-MB all-sports eager download. Returns
 // [] when nothing relevant has been cached yet this session.
 function loadCachedChecklistSearchRows_() {
+  if (globalThis.CMBoundedSearch?.isReady()) return globalThis.CMBoundedSearch.cachedPlayers();
   const out = [];
 
   for (const key of Object.keys(STATIC_CACHE)) {
@@ -1368,6 +1369,13 @@ async function makeChecklistPlayerTypeaheadHits_(q, sport, limit = 5) {
   const needle = normalizeQuery_(q);
   if (!needle || needle.length < 3) return [];
 
+  const bounded = globalThis.CMBoundedSearch;
+  // The no-sport hot path must never discover/fetch a directory on a keystroke.
+  if (bounded && (sport ? await bounded.available() : bounded.isReady())) {
+    return bounded.playerHits({ q: needle, sport, limit,
+      helpful: looksLikeHelpfulPlayerSuggestion_, score: scoreNameLikeMatch_, normalize: normalizeQuery_ });
+  }
+
   // When a sport is selected, load only that sport's shards (unchanged).
   // When NO sport is selected, do NOT force the all-sports eager download on
   // every keystroke: enrich only against sport shards already in STATIC_CACHE
@@ -1412,6 +1420,15 @@ async function makeChecklistPlayerTypeaheadHits_(q, sport, limit = 5) {
 async function searchStaticTypeahead_(q, sport, limit = 10) {
   const needle = normalizeQuery_(q);
   if (!needle || needle.length < 2) return [];
+
+  const bounded = globalThis.CMBoundedSearch;
+  if (bounded && await bounded.available()) {
+    const rank = {search:1, query:1, player:2, product:3, team:3, subset:4, section:5, tag:6};
+    return bounded.typeahead({q:needle, sport, limit, tokens:searchTokens_(needle), score:scoreProductMatch_,
+      priority:(a,b)=>(rank[lower(a.type)]||99)-(rank[lower(b.type)]||99)
+        || (Number(b.year)||0)-(Number(a.year)||0)
+        || String(a.term||a.displayName||'').localeCompare(String(b.term||b.displayName||'')) });
+  }
 
   const rows = await loadStaticChecklistSearchRows_(sport || "all");
   return sortByDisplayPriority(rows
@@ -1496,6 +1513,15 @@ async function searchStaticCards_(q, sport, page = 1, pageSize = BROAD_PAGE_SIZE
   const tokens = normalizeQuery_(q).split(/\s+/).filter(Boolean);
   if (!tokens.length) {
     return { ok: true, results: [], total: 0, page: 1, pageSize, totalPages: 0 };
+  }
+
+  const bounded = globalThis.CMBoundedSearch;
+  if (bounded && await bounded.available()) {
+    return bounded.cvPage({q, sport, page, pageSize, tokens, compare:compareBroadSearchRows_, match:r=>{
+      if (sport && lower(r.sport) !== lower(sport)) return false;
+      const hay = lower(`${r.displayName} ${r.product} ${r.section} ${r.subset} ${r.card_no} ${r.player} ${r.team} ${r.tag} ${r.search_blob}`);
+      return tokens.every(t=>hay.includes(t));
+    }});
   }
 
   const rows = await loadStaticChecklistSearchRows_(sport || "all");

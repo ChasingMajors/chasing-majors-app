@@ -1,0 +1,10 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),zlib=require('node:zlib'),crypto=require('node:crypto');
+if(!process.env.CM_QUERY_WORK)throw Error('Set CM_QUERY_WORK to the offline build workspace');
+const dir=path.join(process.env.CM_QUERY_WORK,'derived'),meta=JSON.parse(fs.readFileSync(path.join(dir,'index.json'))),postings=new Map();
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+const bucket=s=>{let h=2166136261;for(let i=0;i<s.length;i++)h=Math.imul(h^s.charCodeAt(i),16777619);return (h>>>0)%64;};
+const fields=['term','type','sport','code','displayName','year','manufacturer','product','section','subset','card_no','player','team','tag','search_blob'];
+for(let id=0;id<meta.streams.length;id++){const e=meta.streams[id],j=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(dir,path.basename(e.url))))),words=new Set();for(const r of j.rows){const hay=fields.map(f=>r[0][f]).join(' ').trim().toLowerCase().replace(/\u2019/g, String.fromCharCode(39));for(const word of hay.match(/[a-z0-9_']+/g)||[])words.add(word);}const grams=new Set();for(const word of words)for(let n=1;n<=3;n++)for(let i=0;i+n<=word.length;i++)grams.add(word.slice(i,i+n));for(const gram of grams){if(!postings.has(gram))postings.set(gram,[]);postings.get(gram).push(id);}if(id%200===0)console.log('Gram chunk',id);}
+meta.grams=Array(64).fill(null);let count=0;for(let b=0;b<64;b++){const rows={};for(const [gram,ids]of postings)if(bucket(gram)===b){const bits=Buffer.alloc(Math.ceil(meta.streams.length/8));for(const id of ids)bits[id>>3]|=1<<(id&7);rows[gram]=bits.toString('base64');count++;}const body=Buffer.from(JSON.stringify(rows)),gzip=zlib.gzipSync(body),h=sha(gzip);fs.writeFileSync(path.join(dir,h+'.json.gz'),gzip);meta.grams[b]={url:'/data/search-query/'+h+'.json.gz',compressed_sha256:h,decoded_sha256:sha(body),decoded_bytes:body.length,compressed_bytes:gzip.length};}
+fs.writeFileSync(path.join(dir,'index.json'),JSON.stringify(meta)+'\n');fs.writeFileSync(path.join(process.env.CM_QUERY_WORK,'gram-summary.json'),JSON.stringify({grams:count,files:64,stream_chunks:meta.streams.length}));
