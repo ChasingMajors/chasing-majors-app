@@ -6,20 +6,24 @@ on:
       outcome:
         description: Deliberate isolated notification test; never publishes content
         type: choice
-        options: [failure, success, sha-mismatch]
+        options: [failure, success, sha-mismatch, artifact-mode]
         default: failure
         required: true
 permissions:
   contents: read
+  actions: read
 jobs:
   notification-probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 2
+    timeout-minutes: 45
     steps:
-      - name: Isolated outcome — no checkout, secrets, data or deployment
+      - name: Isolated outcome (never a deployment)
         env:
           PROBE_OUTCOME: ${{ inputs.outcome }}
         run: |
+          if [ "$PROBE_OUTCOME" = artifact-mode ] || [ "$PROBE_OUTCOME" = sha-mismatch ]; then
+            test "$GITHUB_REF" = refs/heads/probe/compressed-release-2026-10-30 || { echo 'Probe branch required'; exit 1; }
+          fi
           if [ "$PROBE_OUTCOME" = failure ]; then
             echo 'Deliberate non-production publish-monitor alert test.'
             exit 1
@@ -41,3 +45,38 @@ jobs:
             console.log(JSON.stringify({probe_only:true, submitted_sha:process.env.SUBMITTED_SHA, observed_live_source_sha:live.release_sha, release_verified:false, result:'correctly_unverified', http:response.status}));
           })().catch(error => {console.error(error.message); process.exitCode = 1;});
           NODE
+      - uses: actions/checkout@v4
+        if: inputs.outcome == 'artifact-mode'
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        if: inputs.outcome == 'artifact-mode'
+        with:
+          node-version: '24'
+      - name: Build actual compressed artifact locally on runner (no Pages upload/deploy)
+        if: inputs.outcome == 'artifact-mode'
+        env:
+          CM_QUERY_WORK: ${{ runner.temp }}/cm-query
+          CM_QUERY_DIRECTORY: ${{ runner.temp }}/cm-query/derived
+          TMPDIR: ${{ runner.temp }}
+          SQLITE_TMPDIR: ${{ runner.temp }}
+        run: |
+          node scripts/content-release.cjs validate
+          node scripts/search-query/build.cjs
+          node scripts/search-query/grams.cjs
+          node scripts/search-query/artifact.cjs stamp . "$CM_QUERY_DIRECTORY"
+          printf '[]' > "$RUNNER_TEMP/required-products.json"
+          export CM_RELEASE_BUILD_TIME=$(git show -s --format=%cI "$GITHUB_SHA")
+          node --max-old-space-size=4096 scripts/content-release.cjs assemble "$RUNNER_TEMP/cm-probe-site" "$RUNNER_TEMP/required-products.json"
+      - name: Upload only the real small release manifest
+        if: inputs.outcome == 'artifact-mode'
+        uses: actions/upload-artifact@v4
+        with:
+          name: content-release-manifest
+          path: ${{ runner.temp }}/cm-probe-site/data/publish-release.json
+          retention-days: 7
+      - name: Exercise staged monitor against real GitHub ZIP and live mismatched release
+        if: inputs.outcome == 'artifact-mode'
+        env:
+          GH_READ_TOKEN: ${{ github.token }}
+        run: node .github/probes/artifact-monitor.cjs
