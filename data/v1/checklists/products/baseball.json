@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-10-19T17:00:34.271Z",
+  "generated_at": "2026-10-31T01:13:42.122Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -137,7 +137,8 @@
     "baseball-reviewed-1992-topps-baseball.json",
     "baseball-reviewed-1992-triple-play-baseball.json",
     "baseball-reviewed-1992-ultra-baseball.json",
-    "baseball-reviewed-1992-upper-deck-baseball.json"
+    "baseball-reviewed-1992-upper-deck-baseball.json",
+    "baseball-product-2026-topps-five-star-baseball.json"
   ],
   "product_map": {
     "2021_Topps_Baseball_Series_1": "baseball-001.json",
@@ -927,6 +928,7 @@
     "1992_Topps_Baseball": "baseball-reviewed-1992-topps-baseball.json",
     "1992_Triple_Play_Baseball": "baseball-reviewed-1992-triple-play-baseball.json",
     "1992_Ultra_Baseball": "baseball-reviewed-1992-ultra-baseball.json",
-    "1992_Upper_Deck_Baseball": "baseball-reviewed-1992-upper-deck-baseball.json"
+    "1992_Upper_Deck_Baseball": "baseball-reviewed-1992-upper-deck-baseball.json",
+    "2026_topps_five_star_baseball": "baseball-product-2026-topps-five-star-baseball.json"
   }
 }

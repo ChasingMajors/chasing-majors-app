@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "Product-scoped approved import index update",
-  "generated_at": "2026-10-31T01:02:36.549Z",
+  "generated_at": "2026-10-31T01:13:42.122Z",
   "index": [
     {
       "Code": "2026-bowman-baseball",
@@ -182,6 +182,15 @@
       "sport": "baseball",
       "manufacturer": "Topps",
       "product": "Finest"
+    },
+    {
+      "Code": "2026_topps_five_star_baseball",
+      "DisplayName": "2026 Topps Five Star Baseball",
+      "Keywords": "2026 Topps Five Star Baseball, 2026 Topps Five Star Baseball checklist, 2026 Topps Five Star Baseball cards, 2026 Topps Five Star Baseball parallels, 2026 Topps Five Star Baseball autographs, Topps Five Star baseball, Five Star baseball checklist",
+      "year": "2026",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Five Star"
     },
     {
       "Code": "2026_Topps_Heritage",

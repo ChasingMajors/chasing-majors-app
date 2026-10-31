@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_search",
   "source": "Product-scoped approved import search update",
-  "generated_at": "2026-10-25T17:25:14.894Z",
+  "generated_at": "2026-10-31T01:13:42.122Z",
   "sharded": true,
   "shards": [
     "baseball-001.json",
@@ -185,7 +185,8 @@
     "baseball-reviewed-1992-upper-deck-baseball.json",
     "baseball-reviewed-2024-bowmans-best-baseball.json",
     "baseball-reviewed-2025-topps-heritage-high-number-baseball.json",
-    "baseball-reviewed-2024-topps-chrome-sapphire-baseball.json"
+    "baseball-reviewed-2024-topps-chrome-sapphire-baseball.json",
+    "baseball-product-2026-topps-five-star-baseball-1793409231171-001.json"
   ],
   "product_shards": {
     "2026_bowman_chrome_mega_box_baseball": [
@@ -535,6 +536,9 @@
     ],
     "2024_Topps_Chrome_Sapphire_Baseball": [
       "baseball-reviewed-2024-topps-chrome-sapphire-baseball.json"
+    ],
+    "2026_topps_five_star_baseball": [
+      "baseball-product-2026-topps-five-star-baseball-1793409231171-001.json"
     ]
   }
 }
