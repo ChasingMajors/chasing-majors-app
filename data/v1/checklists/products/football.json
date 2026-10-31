@@ -4,7 +4,7 @@
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
   "source_key": "2025",
-  "generated_at": "2026-10-26T23:31:37.477Z",
+  "generated_at": "2026-10-31T01:02:36.549Z",
   "sharded": true,
   "shards": [
     "football-001.json",
@@ -57,7 +57,8 @@
     "football-reviewed-2024-score-football.json",
     "football-reviewed-2024-topps-now-rookie-campaign-quarterbacks-football.json",
     "football-product-2026-panini-obsidian-football.json",
-    "football-product-2026-topps-holiday-football.json"
+    "football-product-2026-topps-holiday-football.json",
+    "football-product-2026-bowman-sapphire-football-football-checklist.json"
   ],
   "product_map": {
     "2024-bowman-university-best-football": "football-reviewed-2024-bowman-university-best-football.json",
@@ -203,6 +204,7 @@
     "2026_topps_inception_football": "football-reviewed-2026-topps-inception-football.json",
     "2024-panini-luminance-football": "football-reviewed-2024-panini-luminance-football.json",
     "2026_panini_obsidian_football": "football-product-2026-panini-obsidian-football.json",
-    "2026_topps_holiday_football": "football-product-2026-topps-holiday-football.json"
+    "2026_topps_holiday_football": "football-product-2026-topps-holiday-football.json",
+    "2026_bowman_sapphire_football_football_checklist": "football-product-2026-bowman-sapphire-football-football-checklist.json"
   }
 }
