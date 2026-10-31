@@ -1,0 +1,94 @@
+name: Checkout speedup proof (non-production only)
+on:
+  push:
+    branches: [stage/publish-checkout-speedup]
+permissions:
+  contents: read
+concurrency:
+  group: checkout-speedup-proof-${{ github.run_id }}
+  cancel-in-progress: false
+jobs:
+  proof:
+    if: github.ref == 'refs/heads/stage/publish-checkout-speedup'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: true
+      matrix:
+        mode: [baseline, optimized]
+    steps:
+      - name: Build checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: ${{ matrix.mode == 'baseline' && '0' || '1' }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.22.1'
+      - name: Pin source and preserve exact before-SHA derivation
+        env:
+          CM_BEFORE_SHA: 8351f7c1d78725298326c3bb011a64f4884d3f5e
+          CM_EXPECTED_CODES: CV:2026_bowman_sapphire_football_football_checklist
+          GH_TOKEN: ${{ github.token }}
+          CHECKOUT_MODE: ${{ matrix.mode }}
+        run: |
+          echo "CM_RELEASE_BUILD_TIME=$(git show -s --format=%cI "$GITHUB_SHA")" >> "$GITHUB_ENV"
+          if [ "$CHECKOUT_MODE" = optimized ]; then node scripts/ensure-release-history.cjs; fi
+          node scripts/content-release.cjs expected "$RUNNER_TEMP/required-products.json"
+      - name: Validate source and exact identities
+        run: node scripts/content-release.cjs validate
+      - name: Deterministically rebuild complete indexes and v2
+        run: node scripts/build-content-release.cjs
+      - name: Build complete bounded search (offline SQLite, never D1)
+        env:
+          CM_QUERY_WORK: ${{ runner.temp }}/cm-query
+          TMPDIR: ${{ runner.temp }}
+          SQLITE_TMPDIR: ${{ runner.temp }}
+          NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
+        run: |
+          node scripts/search-query/build.cjs
+          node scripts/search-query/grams.cjs
+          node scripts/search-query/artifact.cjs stamp . "$CM_QUERY_WORK/derived"
+      - name: All blocking regression tests (including multi-commit merge proof)
+        run: node --test tests/*.test.cjs
+      - name: Validate rebuilt release
+        run: node scripts/content-release.cjs validate
+      - name: Assemble qualified immutable artifact (size guarded)
+        env:
+          CM_QUERY_DIRECTORY: ${{ runner.temp }}/cm-query/derived
+          NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
+        run: node scripts/content-release.cjs assemble "$RUNNER_TEMP/cm-site" "$RUNNER_TEMP/required-products.json"
+      - name: Verification checkout (baseline)
+        if: matrix.mode == 'baseline'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          path: verifier
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Verification checkout (optimized)
+        if: matrix.mode == 'optimized'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          path: verifier
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/content-release.cjs
+            /scripts/production-verification-url.cjs
+            /.github/recovery/checkout-probe.cjs
+          persist-credentials: false
+      - name: Verify artifact with unchanged verifier and prove closure
+        working-directory: verifier
+        shell: bash
+        run: node .github/recovery/checkout-probe.cjs "$RUNNER_TEMP/cm-site" | tee "$RUNNER_TEMP/closure-proof.json"
+      - name: Upload proof only (no deployment)
+        uses: actions/upload-artifact@v4
+        with:
+          name: checkout-proof-${{ matrix.mode }}
+          retention-days: 7
+          path: |
+            ${{ runner.temp }}/cm-site/data/publish-release.json
+            ${{ runner.temp }}/closure-proof.json
