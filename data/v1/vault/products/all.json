@@ -2,10 +2,11 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-10-30T21:25:34.698Z",
+  "generated_at": "2026-10-31T01:32:48.615Z",
   "sharded": true,
   "shards": [
-    "all-001.json"
+    "all-001.json",
+    "product-2026-bowman-s-best-university-football-55d6e3f0-5bcc-4d20-9a6f-19ac0547a837.json"
   ],
   "product_map": {
     "19TFmbl": "all-001.json",
@@ -245,6 +246,7 @@
     "1995_96_Topps_Gallery_Basketball": "all-001.json",
     "1995_96_Ultra_Basketball": "all-001.json",
     "1995_96_Upper_Deck_Basketball": "all-001.json",
-    "2001_02_Fleer_Premium_Basketball": "all-001.json"
+    "2001_02_Fleer_Premium_Basketball": "all-001.json",
+    "2026_bowman_s_best_university_football": "product-2026-bowman-s-best-university-football-55d6e3f0-5bcc-4d20-9a6f-19ac0547a837.json"
   }
 }
