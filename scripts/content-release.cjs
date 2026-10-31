@@ -48,6 +48,9 @@ function validate(root,{probeInvalid=false}={}){
 function expectedProducts(root,changedFiles,explicit=''){
  const required=new Set(explicit.split(',').map(s=>s.trim()).filter(Boolean));
  for(const file of changedFiles){
+  if(/^data\/prv-calculations\/.*\.json$/.test(file)&&fs.existsSync(path.join(root,file))){
+   const input=read(root,file);if(input.schema_version===4)required.add('PRV:'+input.code);
+  }
   if(!/^data\/v1\/(checklists|vault)\/products\/.*\.json$/.test(file)||!fs.existsSync(path.join(root,file)))continue;
   const kind=file.startsWith('data/v1/checklists/')?'CV':'PRV';
   const j=read(root,file);for(const [code,p]of Object.entries(j.products||{}))if(p&&Array.isArray(p.rows))required.add(kind+':'+code);

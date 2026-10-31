@@ -28,6 +28,7 @@ const records = index.map(entry => {
 });
 for (const file of fs.readdirSync(path.join(root,'data/prv-calculations')).filter(f=>f.endsWith('.json')).sort()) {
   const input=read('data/prv-calculations/'+file);
+  if (input.schema_version === 4) require('./calculate-prv-reviewed-estimates.cjs').validateTarget(input,cv);
   const product=calculate(input);
   const existing=records.find(r=>r.entry.Code===input.code || (model.key(r.entry.DisplayName)===model.key(input.meta.displayName) && model.key(r.entry.sport)===model.key(input.meta.sport)));
   // A populated source export owns that product. Fill empty/missing products only.

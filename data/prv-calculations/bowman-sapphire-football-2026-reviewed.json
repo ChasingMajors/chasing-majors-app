@@ -1,0 +1,123 @@
+{
+  "schema_version": 4,
+  "code": "2026_bowman_sapphire_football_football_checklist",
+  "meta": {
+    "code": "2026_bowman_sapphire_football_football_checklist",
+    "displayName": "2026 Bowman Sapphire Football - Football Checklist",
+    "keywords": "2026 Bowman Sapphire Football, 2026 Bowman Sapphire Football checklist, 2026 Bowman Sapphire Football cards, 2026 Bowman Sapphire Football parallels, 2026 Bowman Sapphire Football autographs, Bowman Sapphire football, Sapphire football checklist",
+    "source_key": "2026",
+    "year": "2026",
+    "manufacturer": "Bowman",
+    "product": "Sapphire - Checklist",
+    "sport": "football"
+  },
+  "sources": {
+    "estimate_url": "https://slabsquatch.substack.com/p/2026-bowman-sapphire-football-mini",
+    "reviewed_date": "2026-10-31"
+  },
+  "method": {
+    "name": "reviewed_creator_estimates_v1",
+    "calibration": "Per-card estimated copies from a single creator source (SlabSquatch). Base NFL Vet/NFL Rookie/Prospects(NIL) each ~860 ea, consolidated to one Base line. Not manufacturer-confirmed; no stated serial ceilings or pack odds. Unverified, conditional."
+  },
+  "records": [
+    {
+      "id": "bsf-1",
+      "kind": "estimate",
+      "category": "Base",
+      "name": "Base",
+      "subjects": 0,
+      "estimate": 860,
+      "serial_limit": null,
+      "parallel": "",
+      "page": null
+    },
+    {
+      "id": "bsf-4",
+      "kind": "estimate",
+      "category": "Insert",
+      "name": "Hidden Gems Emerald",
+      "subjects": 5,
+      "estimate": 50,
+      "serial_limit": null,
+      "parallel": "",
+      "page": null
+    },
+    {
+      "id": "bsf-5",
+      "kind": "estimate",
+      "category": "Insert",
+      "name": "Treasured Talent NFL",
+      "subjects": 15,
+      "estimate": 32,
+      "serial_limit": null,
+      "parallel": "",
+      "page": null
+    },
+    {
+      "id": "bsf-6",
+      "kind": "estimate",
+      "category": "Insert",
+      "name": "Treasured Talent NIL",
+      "subjects": 10,
+      "estimate": 32,
+      "serial_limit": null,
+      "parallel": "",
+      "page": null
+    },
+    {
+      "id": "bsf-7",
+      "kind": "estimate",
+      "category": "Autograph",
+      "name": "Base Chrome Autos",
+      "subjects": 50,
+      "estimate": 21,
+      "serial_limit": null,
+      "parallel": "",
+      "page": null
+    },
+    {
+      "id": "bsf-8",
+      "kind": "estimate",
+      "category": "Autograph",
+      "name": "Base Chrome Rookie Autos",
+      "subjects": 36,
+      "estimate": 50,
+      "serial_limit": null,
+      "parallel": "",
+      "page": null
+    },
+    {
+      "id": "bsf-9",
+      "kind": "estimate",
+      "category": "Autograph",
+      "name": "Base Chrome Prospects Autos",
+      "subjects": 73,
+      "estimate": 30,
+      "serial_limit": null,
+      "parallel": "",
+      "page": null
+    },
+    {
+      "id": "bsf-10",
+      "kind": "estimate",
+      "category": "Autograph",
+      "name": "Sapphire Selections NFL Autos",
+      "subjects": 9,
+      "estimate": 50,
+      "serial_limit": null,
+      "parallel": "",
+      "page": null
+    },
+    {
+      "id": "bsf-11",
+      "kind": "estimate",
+      "category": "Autograph",
+      "name": "Sapphire Selections NIL Autos",
+      "subjects": 9,
+      "estimate": 50,
+      "serial_limit": null,
+      "parallel": "",
+      "page": null
+    }
+  ]
+}
