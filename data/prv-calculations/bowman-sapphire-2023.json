@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "code": "2023_bowman_sapphire_edition_baseball",
+  "meta": {
+    "code": "2023_bowman_sapphire_edition_baseball",
+    "displayName": "2023 Bowman Sapphire Baseball",
+    "keywords": "2023 Bowman Sapphire Baseball, Bowman Sapphire Baseball 2023, 2023 Bowman Sapphire cards, Bowman Sapphire baseball cards 2023, 2023 Bowman Sapphire MLB prospects, Bowman Sapphire prospects 2023, Bowman Sapphire chrome cards 2023, 2023 Bowman Sapphire rookie cards, Bowman Sapphire rookies 2023, Bowman Sapphire 1st Bowman cards 2023, Bowman Sapphire autos 2023, Bowman Sapphire autographs 2023, Bowman Sapphire parallels 2023, Bowman Sapphire refractors 2023, Sapphire edition prospect cards 2023 Bowman, Bowman Sapphire inserts 2023, Bowman Sapphire superfractor 2023, premium prospect baseball cards 2023 Bowman, Bowman Sapphire Baseball checklist 2023, Bowman Sapphire checklist",
+    "source_key": "2023",
+    "year": "2023",
+    "manufacturer": "Bowman",
+    "product": "Sapphire",
+    "sport": "baseball"
+  },
+  "sources": {
+    "odds_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2023_Bowman_Sapphire_Edition_Odds.pdf",
+    "odds_sha256": "57fb28bfadcdd6c91df69c743fb064bc27c1da6e4ebe741c5eabc7c5a6b31163",
+    "checklist_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2023BowmanSapphireBaseballChecklist.pdf",
+    "checklist_sha256": "f8b0abe788b583c79477b4337c9e5f653701d1c9b78e13e891f1554e1902bb34",
+    "serial_reference_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2023_Bowman_Sapphire_Edition_Odds.pdf",
+    "reviewed_date": "2026-11-02"
+  },
+  "method": {
+    "calibration": "Provisional Print Run Lab estimate. Median of the numbered non-autograph Base Sapphire tiers that carry official Topps NumberedTo serials. Autographs are excluded from calibration by design. Assumes stated serial ceilings are substantially represented in the Hobby format. Estimates are conditional and provisional, not manufacturer-confirmed production totals, and are not calibrated.",
+    "min_anchor_odds_denominator": 9,
+    "min_anchors": 3,
+    "max_anchor_spread": 0.05,
+    "round_estimates_to": 5,
+    "gate_override_justification": "min_anchor_odds_denominator relaxed from the default 20 to 9 so all five numbered Base Sapphire tiers (Aqua 1:10, Green 1:9, Orange 1:11, Purple 1:22, Red 1:54) qualify as anchors. The five tiers agree on implied packs within 1.8% (max_anchor_spread 0.0182 vs the 0.05 gate), and the Print Run Lab offline calibration against owner targets returned PASS at +1.86% relative error (n=1, provisional, not-yet-calibrated). The category==='Base', serial_limit>1 and max_anchor_spread gates are unchanged; Padparadscha /1 stays excluded (serial 1).",
+    "excluded_from_calibration": "One-of-ones (Padparadscha serial 1), all autograph tiers, the owner-sheet-unconfirmed ordinary autograph serial, and the unnumbered ordinary Base cards (odds not published). All non-selected numbered tiers are retained as diagnostics, not forced to agree."
+  },
+  "groups": {
+    "Chrome Prospects Sapphire": {
+      "name": "Chrome Prospects Sapphire",
+      "category": "Base",
+      "subjects": 150,
+      "serials": {
+        "AQUA": 55,
+        "GREEN": 60,
+        "ORANGE": 50,
+        "PURPLE": 25,
+        "RED": 10,
+        "PADPARADSCHA": 1
+      }
+    },
+    "Chrome Prospect Autographs": {
+      "name": "Chrome Prospect Autographs",
+      "category": "Autograph",
+      "subjects": 29,
+      "serials": {
+        "AQUA": 99,
+        "GREEN": 50,
+        "ORANGE": 25,
+        "PURPLE": 10,
+        "RED": 5,
+        "PADPARADSCHA": 1
+      }
+    }
+  },
+  "odds_rows": [
+    {
+      "id": "bs23-unnumbered-base",
+      "odds_label": "BASE CARDS",
+      "odds_denominator": 1,
+      "group": "Chrome Prospects Sapphire",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false,
+      "withheld": "Odds not published"
+    },
+    {
+      "id": "bs23-base-cards-aqua-sapphire",
+      "odds_label": "BASE CARDS AQUA SAPPHIRE",
+      "odds_denominator": 10,
+      "group": "Chrome Prospects Sapphire",
+      "serial_limit": 55,
+      "parallel": "Aqua",
+      "anchor": true
+    },
+    {
+      "id": "bs23-base-cards-green-sapphire",
+      "odds_label": "BASE CARDS GREEN SAPPHIRE",
+      "odds_denominator": 9,
+      "group": "Chrome Prospects Sapphire",
+      "serial_limit": 60,
+      "parallel": "Green",
+      "anchor": true
+    },
+    {
+      "id": "bs23-base-cards-orange-sapphire",
+      "odds_label": "BASE CARDS ORANGE SAPPHIRE",
+      "odds_denominator": 11,
+      "group": "Chrome Prospects Sapphire",
+      "serial_limit": 50,
+      "parallel": "Orange",
+      "anchor": true
+    },
+    {
+      "id": "bs23-base-cards-purple-sapphire",
+      "odds_label": "BASE CARDS PURPLE SAPPHIRE",
+      "odds_denominator": 22,
+      "group": "Chrome Prospects Sapphire",
+      "serial_limit": 25,
+      "parallel": "Purple",
+      "anchor": true
+    },
+    {
+      "id": "bs23-base-cards-red-sapphire",
+      "odds_label": "BASE CARDS RED SAPPHIRE",
+      "odds_denominator": 54,
+      "group": "Chrome Prospects Sapphire",
+      "serial_limit": 10,
+      "parallel": "Red",
+      "anchor": true
+    },
+    {
+      "id": "bs23-base-cards-padparadscha-sapphire",
+      "odds_label": "BASE CARDS PADPARADSCHA SAPPHIRE",
+      "odds_denominator": 526,
+      "group": "Chrome Prospects Sapphire",
+      "serial_limit": 1,
+      "parallel": "Padparadscha",
+      "anchor": false
+    },
+    {
+      "id": "bs23-chrome-prospects-auto",
+      "odds_label": "CHROME PROSPECTS AUTO",
+      "odds_denominator": 14,
+      "group": "Chrome Prospect Autographs",
+      "serial_limit": null,
+      "parallel": "",
+      "anchor": false
+    },
+    {
+      "id": "bs23-chrome-prospects-auto-aqua-sapphire",
+      "odds_label": "CHROME PROSPECTS AUTO AQUA SAPPHIRE",
+      "odds_denominator": 53,
+      "group": "Chrome Prospect Autographs",
+      "serial_limit": 99,
+      "parallel": "Aqua",
+      "anchor": false
+    },
+    {
+      "id": "bs23-chrome-prospects-auto-green-sapphire",
+      "odds_label": "CHROME PROSPECTS AUTO GREEN SAPPHIRE",
+      "odds_denominator": 57,
+      "group": "Chrome Prospect Autographs",
+      "serial_limit": 50,
+      "parallel": "Green",
+      "anchor": false
+    },
+    {
+      "id": "bs23-chrome-prospects-auto-orange-sapphire",
+      "odds_label": "CHROME PROSPECTS AUTO ORANGE SAPPHIRE",
+      "odds_denominator": 112,
+      "group": "Chrome Prospect Autographs",
+      "serial_limit": 25,
+      "parallel": "Orange",
+      "anchor": false
+    },
+    {
+      "id": "bs23-chrome-prospects-auto-purple-sapphire",
+      "odds_label": "CHROME PROSPECTS AUTO PURPLE SAPPHIRE",
+      "odds_denominator": 279,
+      "group": "Chrome Prospect Autographs",
+      "serial_limit": 10,
+      "parallel": "Purple",
+      "anchor": false
+    },
+    {
+      "id": "bs23-chrome-prospects-auto-red-sapphire",
+      "odds_label": "CHROME PROSPECTS AUTO RED SAPPHIRE",
+      "odds_denominator": 562,
+      "group": "Chrome Prospect Autographs",
+      "serial_limit": 5,
+      "parallel": "Red",
+      "anchor": false
+    },
+    {
+      "id": "bs23-chrome-prospects-auto-padparadscha-sapphire",
+      "odds_label": "CHROME PROSPECTS AUTO PADPARADSCHA SAPPHIRE",
+      "odds_denominator": 2830,
+      "group": "Chrome Prospect Autographs",
+      "serial_limit": 1,
+      "parallel": "Padparadscha",
+      "anchor": false
+    }
+  ],
+  "replaces_source": {
+    "source_fingerprint": "6478c7ba656097741ba7a4592ef9360efad0a20faeefadaca8ebc64108c8d14e",
+    "reason": "Owner-approved replacement of two legacy unsourced 'Reported' rows (Auto 200, Base 1900) with the reviewed Print Run Lab schema-1 calculation. The legacy rows carry no source and are not authoritative; the 1900 figure is explicitly not a source per the Lab artifact."
+  },
+  "lab_provenance": {
+    "project_id": "prl_b1926b31-f6a0-4824-a12c-21d83edc5bbb",
+    "revision_id": "354eb262-3c08-4fe0-97f7-524a5047a1e2",
+    "snapshot_sha256": "dfe5e7d9661985ac985c327f987df01d6a9de43f31422a5790d93a8c11b1d2e1",
+    "model": {
+      "version": "weighted-median-v1",
+      "engine_sha256": "302906af7c7b6140e8eb6e6ea340b2a642c8ca5077a3d2fb73869caa2366bf8d"
+    },
+    "estimate_status": "provisional",
+    "calibration_status": "not-yet-calibrated",
+    "calibration_report": {
+      "path": "data/print-run-lab/v1/calibration/reports/2023-bowman-sapphire-mlb-354eb262-3c08-4fe0-97f7-524a5047a1e2.json",
+      "sha256": "e0cf09338aaa62a99770bfc817c2bc0e4683a425ffc6c44c945fcc1fdaf32a45",
+      "fixture_path": "data/print-run-lab/v1/calibration/2023-bowman-sapphire-mlb.json",
+      "fixture_sha256": "99aaac6ccb8e883769791f3e3a7fc79ec80091356db039ad7e53b3ba73f285af",
+      "verdict": "PASS",
+      "owner_target_total_packs": 80000,
+      "lab_weighted_median_total_packs": 81490,
+      "relative_error": 0.018625,
+      "note": "Offline comparison against owner targets only; n=1; not manufacturer confirmation and not a change to publication eligibility. Data remains provisional and not-yet-calibrated."
+    },
+    "source_pdfs": {
+      "odds": {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2023_Bowman_Sapphire_Edition_Odds.pdf",
+        "sha256": "57fb28bfadcdd6c91df69c743fb064bc27c1da6e4ebe741c5eabc7c5a6b31163"
+      },
+      "checklist": {
+        "url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2023BowmanSapphireBaseballChecklist.pdf",
+        "sha256": "f8b0abe788b583c79477b4337c9e5f653701d1c9b78e13e891f1554e1902bb34"
+      }
+    },
+    "serial_sources": {
+      "bs23-base-cards-aqua-sapphire": "Official Topps odds PDF, NumberedTo column",
+      "bs23-base-cards-green-sapphire": "Official Topps odds PDF, NumberedTo column",
+      "bs23-base-cards-orange-sapphire": "Official Topps odds PDF, NumberedTo column",
+      "bs23-base-cards-purple-sapphire": "Official Topps odds PDF, NumberedTo column",
+      "bs23-base-cards-red-sapphire": "Official Topps odds PDF, NumberedTo column",
+      "bs23-base-cards-padparadscha-sapphire": "Official Topps odds PDF, NumberedTo column",
+      "bs23-chrome-prospects-auto": "Owner sheet gid=0, SN cell C12: 199 is unconfirmed; Topps NumberedTo is blank. Not Topps-confirmed numbering; published as serial_limit null.",
+      "bs23-chrome-prospects-auto-aqua-sapphire": "Official Topps odds PDF, NumberedTo column",
+      "bs23-chrome-prospects-auto-green-sapphire": "Official Topps odds PDF, NumberedTo column",
+      "bs23-chrome-prospects-auto-orange-sapphire": "Official Topps odds PDF, NumberedTo column",
+      "bs23-chrome-prospects-auto-purple-sapphire": "Official Topps odds PDF, NumberedTo column",
+      "bs23-chrome-prospects-auto-red-sapphire": "Official Topps odds PDF, NumberedTo column",
+      "bs23-chrome-prospects-auto-padparadscha-sapphire": "Official Topps odds PDF, NumberedTo column"
+    }
+  },
+  "withheld": []
+}
