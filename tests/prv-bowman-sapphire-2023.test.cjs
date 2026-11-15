@@ -73,9 +73,15 @@ test('min_anchor_odds_denominator below the hard floor is rejected',()=>{
 });
 
 test('replaces_source fingerprint pins the exact legacy rows it supersedes',()=>{
- // The recorded fingerprint must match the current v2 product's source rows' raw payloads.
- const prod=require('../data/v2/vault/products/2023-bowman-sapphire-edition-baseball-124e62d63628.json');
- const code='2023_bowman_sapphire_edition_baseball';
+ // Pin the authoritative source rows. A rebuild replaces/prunes the old v2 file.
+ const code='2023_Bowman_Sapphire_Baseball';
+ const index=require('../data/v1/vault/index.json').index;
+ assert.equal(index.filter(entry=>entry.Code===code).length,1);
+ const bundle=require('../data/v1/vault/products/all.json');
+ const file=bundle.product_map?.[code];
+ const data=bundle.products?.[code]||(file&&require('../data/v1/vault/products/'+file).products?.[code]);
+ assert.ok(data,'Exact canonical source product must exist');
+ const prod=require('../shared/vault-model.js').product(data,code);
  const sourceRows=prod.rows.filter(r=>r.id.startsWith(code+':row:'));
  assert.equal(sourceRows.length,2);
  const actual=fingerprint(sourceRows.map(r=>r.raw));
