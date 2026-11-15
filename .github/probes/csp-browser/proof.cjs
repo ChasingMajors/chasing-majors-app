@@ -90,6 +90,9 @@ async function functionalFlow(page, name) {
   }
   if (name === 'checklists/index.html') {
     assert.equal(await page.locator('html').getAttribute('data-theme'), 'dark', 'Inline bootstrap must run');
+    await page.waitForFunction(code => typeof INDEX !== 'undefined' && INDEX.some(row => row.Code === code) &&
+      typeof initDone !== 'undefined' && initDone, checklist.Code);
+    await page.locator('#sport').selectOption(checklist.sport);
     await page.locator('#q').fill(checklist.DisplayName);
     await page.locator('#dropdown [data-code="' + checklist.Code + '"]').waitFor();
     await page.locator('#dropdown [data-code="' + checklist.Code + '"]').click();
@@ -100,6 +103,8 @@ async function functionalFlow(page, name) {
   }
   if (name === 'vault/index.html') {
     assert.equal(await page.locator('html').getAttribute('data-theme'), 'dark');
+    await page.waitForFunction(code => typeof INDEX !== 'undefined' && INDEX.some(row => row.Code === code) &&
+      typeof initDone !== 'undefined' && initDone, vaultProduct.Code);
     await page.locator('#q').fill(vaultProduct.DisplayName);
     await page.locator('#dropdown [data-code="' + vaultProduct.Code + '"]').waitFor();
     await page.locator('#dropdown [data-code="' + vaultProduct.Code + '"]').click();
@@ -148,6 +153,9 @@ async function functionalFlow(page, name) {
     } catch (error) {
       result.status = 'FAIL'; result.error = error.message; result.runtime_errors = errors;
       result.events = await page.evaluate(() => window.__cspEvents).catch(() => []);
+      result.dom_diagnostics = await page.evaluate(() => ({text: document.body?.innerText.slice(0, 5000),
+        dropdown: document.querySelector('#dropdown')?.innerText,
+        input: document.querySelector('#q')?.value, sport: document.querySelector('#sport')?.value})).catch(() => null);
       result.intercepted_requests = f.requests; throw error;
     } finally { await f.context.close(); }
   }
