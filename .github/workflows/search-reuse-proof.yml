@@ -1,0 +1,106 @@
+name: Search reuse proof (non-production only)
+on:
+  push:
+    branches: [stage/search-artifact-reuse]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: search-reuse-proof-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/stage/search-artifact-reuse'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.22.1'
+      - name: Pin source and expected product codes
+        env:
+          CM_EXPECTED_CODES: ${{ inputs.expected_codes }}
+          CM_BEFORE_SHA: ${{ github.event.before }}
+          GH_TOKEN: ${{ github.token }}
+          PROBE_MODE: ${{ inputs.mode }}
+        run: |
+          if [ "$GITHUB_REF" = refs/heads/main ] && [ "${PROBE_MODE:-normal}" != normal ]; then
+            echo 'Failure probes cannot run on the production branch.'
+            exit 1
+          fi
+          echo "CM_RELEASE_BUILD_TIME=$(git show -s --format=%cI "$GITHUB_SHA")" >> "$GITHUB_ENV"
+          node scripts/ensure-release-history.cjs
+          node scripts/content-release.cjs expected "$RUNNER_TEMP/required-products.json"
+      - name: Validate source, exact identities and payload references
+        env:
+          PROBE_MODE: ${{ inputs.mode }}
+        run: |
+          if [ "$PROBE_MODE" = validation-failure-probe ]; then
+            node scripts/content-release.cjs validate --probe-invalid
+          else
+            node scripts/content-release.cjs validate
+          fi
+      - name: Deterministically rebuild complete indexes and v2
+        run: node scripts/build-content-release.cjs
+      - name: Fingerprint complete bounded-search inputs
+        id: search-inputs
+        env:
+          NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
+        run: node scripts/search-query/reuse.cjs key "$RUNNER_TEMP/search-inputs.json"
+      - name: Restore exact bounded-search candidate
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/cm-search-cache
+          key: ${{ steps.search-inputs.outputs.key }}
+      - name: Build complete memory-bounded search directory or verify exact reuse (offline SQLite, never D1)
+        env:
+          TMPDIR: ${{ runner.temp }}
+          SQLITE_TMPDIR: ${{ runner.temp }}
+          NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
+        run: node scripts/search-query/reuse.cjs run "$RUNNER_TEMP/cm-query" "$RUNNER_TEMP/cm-search-cache"
+      - name: Content regression tests (blocking)
+        run: node --test tests/*.test.cjs
+      - name: Validate rebuilt release
+        run: node scripts/content-release.cjs validate
+      - name: Assemble one immutable Pages artifact (size guarded)
+        env:
+          CM_QUERY_DIRECTORY: ${{ runner.temp }}/cm-query/derived
+          NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
+        run: node scripts/content-release.cjs assemble "$RUNNER_TEMP/cm-site" "$RUNNER_TEMP/required-products.json"
+      - name: Prepare qualified search cache after all blocking checks
+        env:
+          NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
+        run: node scripts/search-query/reuse.cjs save "$RUNNER_TEMP/cm-query" "$RUNNER_TEMP/cm-search-cache"
+      - name: Save qualified bounded-search cache
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ runner.temp }}/cm-search-cache
+          key: ${{ steps.search-inputs.outputs.key }}
+      - name: Upload search reuse evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: search-reuse-evidence
+          retention-days: 7
+          path: |
+            ${{ runner.temp }}/search-inputs.json
+            ${{ runner.temp }}/cm-query/reuse-result.json
+            ${{ runner.temp }}/cm-query/receipt.json
+      - name: Prove warm reuse versus forced full rebuild
+        env:
+          TMPDIR: ${{ runner.temp }}
+          SQLITE_TMPDIR: ${{ runner.temp }}
+          NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
+        run: node .github/probes/search-reuse.cjs
+      - name: Upload qualification and parity evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: search-reuse-proof
+          retention-days: 7
+          path: |
+            ${{ runner.temp }}/cm-site/data/publish-release.json
+            ${{ runner.temp }}/search-reuse-proof.json

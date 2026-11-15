@@ -56,16 +56,22 @@ jobs:
           fi
       - name: Deterministically rebuild complete indexes and v2
         run: node scripts/build-content-release.cjs
-      - name: Build complete memory-bounded search directory (offline SQLite, never D1)
+      - name: Fingerprint complete bounded-search inputs
+        id: search-inputs
         env:
-          CM_QUERY_WORK: ${{ runner.temp }}/cm-query
+          NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
+        run: node scripts/search-query/reuse.cjs key "$RUNNER_TEMP/search-inputs.json"
+      - name: Restore exact bounded-search candidate
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/cm-search-cache
+          key: ${{ steps.search-inputs.outputs.key }}
+      - name: Build complete memory-bounded search directory or verify exact reuse (offline SQLite, never D1)
+        env:
           TMPDIR: ${{ runner.temp }}
           SQLITE_TMPDIR: ${{ runner.temp }}
           NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
-        run: |
-          node scripts/search-query/build.cjs
-          node scripts/search-query/grams.cjs
-          node scripts/search-query/artifact.cjs stamp . "$CM_QUERY_WORK/derived"
+        run: node scripts/search-query/reuse.cjs run "$RUNNER_TEMP/cm-query" "$RUNNER_TEMP/cm-search-cache"
       - name: Content regression tests (blocking)
         run: node --test tests/*.test.cjs
       - name: Validate rebuilt release
@@ -75,6 +81,24 @@ jobs:
           CM_QUERY_DIRECTORY: ${{ runner.temp }}/cm-query/derived
           NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
         run: node scripts/content-release.cjs assemble "$RUNNER_TEMP/cm-site" "$RUNNER_TEMP/required-products.json"
+      - name: Prepare qualified search cache after all blocking checks
+        env:
+          NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
+        run: node scripts/search-query/reuse.cjs save "$RUNNER_TEMP/cm-query" "$RUNNER_TEMP/cm-search-cache"
+      - name: Save qualified bounded-search cache
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ runner.temp }}/cm-search-cache
+          key: ${{ steps.search-inputs.outputs.key }}
+      - name: Upload search reuse evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: search-reuse-evidence
+          retention-days: 7
+          path: |
+            ${{ runner.temp }}/search-inputs.json
+            ${{ runner.temp }}/cm-query/reuse-result.json
+            ${{ runner.temp }}/cm-query/receipt.json
       - name: Upload small SHA-bound manifest for the operator monitor
         uses: actions/upload-artifact@v4
         with:
