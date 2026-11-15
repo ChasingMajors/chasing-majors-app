@@ -1,1 +1,1 @@
-{"private":true,"name":"cm-csp-browser-proof","version":"1.0.0","devDependencies":{"playwright":"1.65.1"}}
+{"private": true, "name": "cm-csp-browser-proof", "version": "1.0.0", "devDependencies": {"playwright": "1.65.1", "pngjs": "7.0.0"}}

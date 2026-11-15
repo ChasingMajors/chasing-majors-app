@@ -1,5 +1,5 @@
 const test = require('node:test'), assert = require('node:assert/strict');
-const {parse, compatible, inspect} = require('../scripts/csp-policy-guard.cjs');
+const {parse, compatible, inspect} = require('../../scripts/csp-policy-guard.cjs');
 const hash = "'sha256-" + 'a'.repeat(43) + "='";
 const expected = {'default-src': ["'none'"], 'script-src': ["'self'", hash]};
 test('CSP guard requires candidate hashes; permits exact old+new transition only', () => {

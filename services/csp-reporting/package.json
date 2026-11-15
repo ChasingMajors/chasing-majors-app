@@ -1,0 +1,1 @@
+{"name":"cm-csp-reporting-local","private":true,"type":"module","scripts":{"test":"node --test test/*.test.mjs","dev":"wrangler dev --local --ip 127.0.0.1 --port 8789"},"devDependencies":{"wrangler":"4.162.0"}}

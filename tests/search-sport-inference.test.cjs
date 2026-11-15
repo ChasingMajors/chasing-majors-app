@@ -49,7 +49,7 @@ function homeHarness(recentItems = []) {
     }
   });
   get('ticker').style.display = 'none';
-  vm.runInContext(homepage.match(/<script>([\s\S]*?)<\/script>/)[1], ctx);
+  vm.runInContext(fs.readFileSync('assets/home-page.js', 'utf8'), ctx);
   return {
     calls, chips, get,
     async type(q) { get('searchInput').value = q; get('searchInput').handlers.input(); await tick(); },

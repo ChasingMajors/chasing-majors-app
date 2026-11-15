@@ -19,10 +19,13 @@ class PolicyTests(unittest.TestCase):
         self.assertNotEqual(first['inline'], second['inline'])
         self.assertNotEqual(first['value'], second['value'])
 
-    def test_jsonld_included_conservatively_and_external_body_not_hashed(self):
+    def test_non_javascript_data_blocks_are_not_required_hashes(self):
         result = csp.policy('index.html', '<script type="application/ld+json">{"x":1}</script><script src="/a.js"></script>')
-        self.assertEqual(len(result['inline']), 1)
-        self.assertEqual(result['inline'][0]['hash'], csp.digest('{"x":1}'))
+        self.assertEqual(result['inline'], [])
+        self.assertNotIn("'" + csp.digest('{"x":1}') + "'", result['value'])
+        for kind in ['application/json', 'text/plain', 'application/ld+json']:
+            self.assertEqual(csp.policy('index.html', '<script type="'+kind+'">data</script>')['inline'], [])
+        self.assertEqual(len(csp.policy('index.html', '<script type="module">void 0</script>')['inline']), 1)
         self.assertEqual(result['external'][0]['origin'], csp.ORIGIN)
 
     def test_unreviewed_and_ambiguous_constructs_fail_closed(self):
@@ -40,6 +43,10 @@ class PolicyTests(unittest.TestCase):
         self.assertNotIn('https://script.google.com', home['connect-src'])
         self.assertNotIn('https://api.chasingmajors.com', vault['connect-src'])
         self.assertIn('https://fonts.googleapis.com', vault['style-src'])
-        self.assertEqual(home['frame-ancestors'], ["'self'"])
+        self.assertNotIn('frame-ancestors', home)
+        self.assertEqual(csp.policy('index.html', '', True)['directives']['frame-ancestors'], ["'self'"])
+        self.assertIn(csp.BEACON_SCRIPT, home['script-src'])
+        self.assertIn(csp.BEACON_CONNECT, home['connect-src'])
+        self.assertEqual(home['report-uri'], [csp.REPORT_URL])
 
 if __name__ == '__main__': unittest.main()

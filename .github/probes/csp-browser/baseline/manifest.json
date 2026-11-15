@@ -1,0 +1,63 @@
+{
+  "source_sha": "a9d8df8d2e9c28e2093c11f403f848ad74fb8a63",
+  "pages": {
+    "index.html": {
+      "file": "index.html.gz",
+      "sha256": "0a6959b6def4dbef5d13c36fff664d577ffe99a3119061123ccf0578cec30981",
+      "bytes": 264809
+    },
+    "checklists/index.html": {
+      "file": "checklists-index.html.gz",
+      "sha256": "fe5da7bcf177f812ec7e7bfd738a48f7cc4f61c335380bf6a2fb4c9ca7f7b96e",
+      "bytes": 5325
+    },
+    "vault/index.html": {
+      "file": "vault-index.html.gz",
+      "sha256": "e5c5942b70205ca166dc1b2d2226692e0a95ee4901f12245fff2a7206135e0f5",
+      "bytes": 4607
+    },
+    "ChatBot/index.html": {
+      "file": "ChatBot-index.html.gz",
+      "sha256": "4f4079ee64f160fc4e6fe2e2146509149c9d3146a4386bf3a317cb90617d5077",
+      "bytes": 3815
+    }
+  },
+  "moved": [
+    {
+      "from": "index.html",
+      "to": "assets/home-page.js",
+      "bytes": 16805,
+      "sha256": "beea9e9a537cbd9a402dd75a55afa298aa7ef7cc382cdd613b71fd4bd5daaa8b"
+    },
+    {
+      "from": "index.html",
+      "to": "assets/home.css",
+      "bytes": 240571,
+      "sha256": "9623a3996fc6fb8f076c757d26403aa0a9c93afe56b23d3ee98a753fd89f3e20"
+    },
+    {
+      "from": "checklists/index.html",
+      "to": "checklists/theme-bootstrap.js",
+      "bytes": 1157,
+      "sha256": "5e736dc571d55131f1fd4996d0cda45045f30b550d11db6c8d79cb0bc57236da"
+    },
+    {
+      "from": "checklists/index.html",
+      "to": "checklists/boot-overlay.js",
+      "bytes": 186,
+      "sha256": "7553289bd16f930ba68369eda9ea44be11ff25c4cd1a86ffdb227f207d2f1be3"
+    },
+    {
+      "from": "vault/index.html",
+      "to": "vault/theme-bootstrap.js",
+      "bytes": 1153,
+      "sha256": "8b5b438ce10c88d2b8e7b32259c1c8fb9558be382ae198909935c6c090d7f2e7"
+    },
+    {
+      "from": "vault/index.html",
+      "to": "vault/boot-overlay.js",
+      "bytes": 186,
+      "sha256": "7553289bd16f930ba68369eda9ea44be11ff25c4cd1a86ffdb227f207d2f1be3"
+    }
+  ]
+}
