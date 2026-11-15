@@ -36,7 +36,7 @@ jobs:
       - name: Prove report-only versus enforcement with fully intercepted browser traffic
         env:
           PLAYWRIGHT_BROWSERS_PATH: ${{ runner.temp }}/csp-browsers
-        run: node .github/probes/csp-browser/proof.cjs "$RUNNER_TEMP/csp-policy.json" "$RUNNER_TEMP/csp-browser-evidence"
+        run: node .github/probes/csp-browser/proof.cjs "$RUNNER_TEMP/csp-policy.json" "$RUNNER_TEMP/csp-browser-evidence" "$RUNNER_TEMP/csp-preflight.json"
       - uses: actions/upload-artifact@v4
         if: always()
         with:

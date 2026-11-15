@@ -5,8 +5,15 @@ const {chromium} = require('playwright');
 const root = path.resolve(__dirname, '../../..'), origin = 'https://app.chasingmajors.com';
 const candidate = JSON.parse(fs.readFileSync(process.argv[2]));
 const out = process.argv[3];
+const observed = JSON.parse(fs.readFileSync(process.argv[4]));
 assert.equal(process.env.GITHUB_REF, 'refs/heads/stage/csp-enforcement-prep');
 assert.equal(candidate.source_sha, process.env.GITHUB_SHA);
+assert.equal(observed.source_sha, candidate.source_sha);
+for (const entry of candidate.pages) {
+  const header = observed.results.find(result => result.path === entry.paths[0]);
+  assert(header?.report_only_value && !header.enforcing, 'Observed report-only header required');
+  assert.equal(header.live_html_sha256, entry.html_sha256, 'Observed headers must correspond to unchanged current HTML');
+}
 fs.mkdirSync(out, {recursive: true});
 const cv = JSON.parse(fs.readFileSync(path.join(root, 'data/v1/checklists/index.json'))).index;
 const prv = JSON.parse(fs.readFileSync(path.join(root, 'data/v1/vault/index.json'))).index;
@@ -70,7 +77,8 @@ async function fixture(mode) {
       return route.fulfill({status: 404, contentType: 'text/plain', body: 'Absent from isolated committed snapshot'});
     }
     const entry = candidate.pages.find(p => p.page === relative);
-    const headers = entry ? {[mode === 'report' ? 'content-security-policy-report-only' : 'content-security-policy']: entry.value} : {};
+    const value = entry && (mode === 'live-report' ? observed.results.find(result => result.path === entry.paths[0]).report_only_value : entry.value);
+    const headers = entry ? {[mode === 'enforce' ? 'content-security-policy' : 'content-security-policy-report-only']: value} : {};
     return route.fulfill({headers, contentType: mime(file), body: fs.readFileSync(file)});
   });
   return {context, requests, unexpected};
@@ -125,7 +133,7 @@ async function functionalFlow(page, name) {
 }
 (async () => {
   browser = await chromium.launch({headless: true}); report.browser = browser.version();
-  for (const mode of ['report', 'enforce']) for (const entry of candidate.pages) {
+  for (const mode of ['live-report', 'report', 'enforce']) for (const entry of candidate.pages) {
     const f = await fixture(mode), page = await f.context.newPage(), errors = [];
     page.on('pageerror', error => errors.push(error.message));
     const result = {mode, page: entry.page}; report.cases.push(result);
@@ -146,8 +154,8 @@ async function functionalFlow(page, name) {
         window.__cspEvents.some(e => e.directive === 'style-src-elem'));
       result.controls = await page.evaluate(() => ({scriptRan: Boolean(window.__cspDisallowedRan),
         styleRan: getComputedStyle(document.documentElement).getPropertyValue('--cm-csp-negative').trim() === 'ran', events: window.__cspEvents}));
-      assert.equal(result.controls.scriptRan, mode === 'report'); assert.equal(result.controls.styleRan, mode === 'report');
-      assert(result.controls.events.every(e => e.disposition === mode));
+      assert.equal(result.controls.scriptRan, mode !== 'enforce'); assert.equal(result.controls.styleRan, mode !== 'enforce');
+      assert(result.controls.events.every(e => e.disposition === (mode === 'enforce' ? 'enforce' : 'report')));
       result.status = 'PASS'; result.intercepted_requests = f.requests;
       if (mode === 'enforce') await page.screenshot({path: path.join(out, entry.page.replace(/\W/g, '-') + '.png'), fullPage: true});
     } catch (error) {

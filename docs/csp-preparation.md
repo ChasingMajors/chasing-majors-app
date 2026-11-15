@@ -66,6 +66,10 @@ served under the production origin, while API envelopes, Apps Script responses
 and Google font CSS are fixtures. No browser request is continued to a remote
 endpoint. It exercises normal local-data flows, allowed self-hosted scripts,
 disallowed inline scripts/styles under report/enforce, and same/foreign framing.
+The report-only cases also mirror the freshly observed public header values;
+their HTML hashes must equal the unchanged staged entrypoints. The committed
+snapshot lacks generated bounded/compressed search assets, so these are product
+and local-data flow checks, not acceptance of broad/player-search delivery.
 It does not execute live searches or Apps Script calls, or access D1. A passing
 fixture does not establish a clean real-traffic window or that foreign embedding
 can safely be blocked. Font rendering is outside this fixture's acceptance.
