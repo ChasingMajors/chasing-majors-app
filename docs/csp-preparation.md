@@ -1,75 +1,57 @@
-# CSP preparation and release compatibility
+# Lean CSP release preparation
 
-This implementation generates proposals and checks compatibility. It does **not**
-enable enforcement, update Cloudflare, create a reporting sink, or authorize a
-production release. Those are separate owner decisions after browser evidence.
+Owner's 2026-11-15 lean decision supersedes the reporting-service/externalization plan.
+This branch changes tooling only. Customer HTML, scripts, styles and data stay at
+50edd27. Enforcement is proposed only for ChatBot, Checklists and Vault. Homepage
+stays report-only; schedule remains outside the rules.
 
-`scripts/csp-policy.py` uses Python 3's standard library. The release workflow
-generates SHA-256 script/style hashes from the **assembled immutable HTML**, not
-from manually maintained hash strings. Its separate `csp-policy` artifact includes
-source SHA, original HTML hashes, eight exact path aliases and page-specific
-directives. JSON-LD is included conservatively even though it is not executable
-JavaScript. CRLF/CR are normalized like HTML before inline hashing; entity text
-inside raw script/style blocks is preserved. External scripts remain same-origin.
+Generator excludes inert JSON-LD/data scripts and retains hashes for executable
+inline blocks. Proposed script-src adds only the path prefix
+https://static.cloudflareinsights.com/beacon.min.js/ . The pinned injected beacon
+with version 2024.11.0 sends to same-origin /cdn-cgi/rum. No external analytics
+connect source, reporting destination, or frame-ancestors is proposed. Existing
+style-src-attr 'unsafe-inline' is an explicit compromise for dynamic styling.
 
-The generator supports the reviewed static entrypoint syntax. Duplicate attributes,
-inline event handlers, JavaScript URLs, unknown script/stylesheet origins, embedded
-documents, base/meta-policy tags, templates/noscript, unclosed raw-text blocks and
-ambiguous HTML5 double-escaped scripts require explicit review. It fails rather
-than trying to interpret those constructs using an incomplete HTML5 parser.
+CSP tests, generator, predeployment compatibility check and dual-header live audit
+are advisory unless repository variable CM_CSP_ENFORCEMENT_APPROVED is exactly
+true. Failures retain receipts, emit GitHub warning annotations, and write the job
+summary. The workflow test permits continue-on-error only on the eleven reviewed
+CSP evidence steps; original content/build/deploy gates remain blocking. Turn the
+variable on only with approval for the first enforcing page. The live audit records
+whether each browser-like response contains the expected reviewed beacon and checks
+executable inline/style hashes and script allowances. Current report-only headers
+missing the beacon allowance produce an expected advisory warning, not a clean audit.
 
-The read-only Node guard runs immediately before Pages deployment, after confirming
-that main still matches the source SHA. It checks each of the eight public HTML
-aliases. Any **enforcing** header must allow the candidate's exact hashes and the
-reviewed source profile. Every comma-separated policy is checked, since browsers
-enforce their intersection. Additional sources are rejected, except exact SHA-256
-hashes for a reviewed old/new transition. Network errors, unexpected origins,
-non-HTML responses, duplicate directives or incomplete coverage block deployment.
-Report-only drift is recorded without treating it as an enforcing block.
+Branch-only proof has no deploy job. It runs all Node and Python CSP tests and
+Chromium, WebKit and Firefox. Public read-only fixture capture requires exact source
+HTML identity and only the observed beacon injection difference, redacts the analytics
+token, validates script SRI, and captures real font CSS/WOFF2. Browsers use source
+HTML/scripts/data with intercepted API/logging/analytics and a deny-all proxy. Proof
+must check real source-data flows, same-origin beacon reporting, actual Apps Script
+logging transports/302 target, font rendering, allowed self script and inline script/
+style negative controls. Homepage uses its actual observed report-only header;
+its known beacon warning is classified separately. This is not live API acceptance,
+physical-device testing, or visibility into other visitors' browsers.
 
-The guard is not a full browser CSP evaluator. It conservatively requires the
-explicit reviewed directive set rather than guessing at fallback equivalence. A
-passing header check does not establish clean browser flows, absence of unknown
-inbound embeds, or permission to enforce. It has no Cloudflare credentials/write
-capability. Its evidence is uploaded as `csp-preflight`, including failed checks.
+Approval sequence:
+1. Kiro independently reviews exact final SHA and evidence; owner supplies console
+   checks (extensions-off Incognito, reload/use each page; copy CSP warning lines).
+2. Owner approves tooling/workflow merge to main as a normal release (advisory).
+3. Owner separately approves exact ChatBot header + blocking guard variable + one
+   rollback rehearsal. Verify header and browser smoke; Kiro independently verifies.
+4. Repeat separate approval/live verification for Checklists, then Vault.
+5. Optional separate approval adds the beacon allowance to homepage report-only.
 
-## Before any enforcement
+Rollback: disable only the affected enforcing rule, retaining its report-only rule;
+verify header and page again. Keep the guard blocking while any enforcing page remains.
+Never drop a currently needed bootstrap hash: approve a header with both old and new
+hashes, publish the new HTML, then approve removing the old hash. Additional hashes
+are the guard's only tolerated transition; broader origins/wildcards remain rejected.
 
-1. Identify and fix actual report-only violations in normal customer flows. A
-   deliberately injected negative control is not a legitimate-flow failure.
-2. Confirm legitimate inbound iframe consumers. The proposed `frame-ancestors
-   'self'` mirrors report-only; it must not be enforced while external usage is
-   unknown. Searching local source cannot prove absence of external consumers.
-3. Prove allowed scripts/styles run and disallowed controls are blocked under a
-   staged enforcing HTTP header, then observe clean report-only real traffic.
-4. Obtain owner approval for the exact policy, paths, delivery and rollback.
-
-Existing Cloudflare rules are static. A generated JSON artifact is **not** a live
-header update. Before a later approved HTML change, inspect current rules and use
-an explicitly reviewed per-page union of current and candidate hashes, retaining
-current allowances while the old page is still served. Run the guard, publish and
-verify the immutable release. Keep required old hashes until cached older HTML is
-no longer served; do not blindly replace a ruleset or remove old hashes first.
-The guard prevents silent drift but does not make independently managed edge rules
-and Pages deployment atomic. Header changes remain a separate authorized operation.
-
-Rollback of a problematic enforcement is to remove/disable only the approved
-enforcing header operation while retaining existing report-only rules, then verify
-the public pages. Rollback of this build preparation restores the prior workflow;
-it does not require catalog/D1 changes.
-
-The branch-only `csp-preparation-proof.yml` has no deploy job. It runs the complete
-Node suite, Python generator tests, deterministic proposals and read-only static
-header checks. A locked test-only Playwright install runs Chromium on Linux. Its
-browser requests are all intercepted: actual local HTML/scripts/styles/JSON are
-served under the production origin, while API envelopes, Apps Script responses
-and Google font CSS are fixtures. No browser request is continued to a remote
-endpoint. It exercises normal local-data flows, allowed self-hosted scripts,
-disallowed inline scripts/styles under report/enforce, and same/foreign framing.
-The report-only cases also mirror the freshly observed public header values;
-their HTML hashes must equal the unchanged staged entrypoints. The committed
-snapshot lacks generated bounded/compressed search assets, so these are product
-and local-data flow checks, not acceptance of broad/player-search delivery.
-It does not execute live searches or Apps Script calls, or access D1. A passing
-fixture does not establish a clean real-traffic window or that foreign embedding
-can safely be blocked. Font rendering is outside this fixture's acceptance.
+Parked work: local branch parked/csp-externalization-and-reporting at d174f5f preserves
+the entire unfinished full-plan tree. Do not merge services or externalized assets.
+If revived, externalization needs content-hash cache-busting and paint/performance
+proof. Reporting needs bounded storage costs, cap/drop visibility, real per-engine
+delivery, quota analysis, pre-Worker filtering/kill switch, and owner hosting approval.
+Seven-day sink observation, hash-free policies, homepage enforcement and framing
+changes are parked. No D1, billing/auth, Sheets/Apps Script deployment or backfill.

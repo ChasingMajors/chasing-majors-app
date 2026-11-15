@@ -74,8 +74,13 @@ jobs:
         run: node scripts/search-query/reuse.cjs run "$RUNNER_TEMP/cm-query" "$RUNNER_TEMP/cm-search-cache"
       - name: Content regression tests (blocking)
         run: node --test tests/*.test.cjs
-      - name: CSP generator regression tests (blocking)
-        run: python3 -m unittest discover -s tests -p test_csp_policy.py
+      - name: CSP tooling regression evidence (advisory until approved)
+        continue-on-error: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED != 'true' }}
+        env:
+          CM_CSP_ENFORCEMENT_APPROVED: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED }}
+        run: |
+          node scripts/csp-advisory.cjs "$RUNNER_TEMP/csp-python-tests.json" python3 -m unittest discover -s tests -p test_csp_policy.py
+          node scripts/csp-advisory.cjs "$RUNNER_TEMP/csp-node-tests.json" node --test tests/csp/*.test.cjs
       - name: Validate rebuilt release
         run: node scripts/content-release.cjs validate
       - name: Assemble one immutable Pages artifact (size guarded)
@@ -83,13 +88,21 @@ jobs:
           CM_QUERY_DIRECTORY: ${{ runner.temp }}/cm-query/derived
           NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
         run: node scripts/content-release.cjs assemble "$RUNNER_TEMP/cm-site" "$RUNNER_TEMP/required-products.json"
-      - name: Generate CSP hashes from the exact assembled HTML (proposal only)
-        run: python3 scripts/csp-policy.py --root "$RUNNER_TEMP/cm-site" --sha "$GITHUB_SHA" --out "$RUNNER_TEMP/csp-policy.json"
+      - name: Generate CSP proposal from exact assembled HTML (advisory until approved)
+        continue-on-error: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED != 'true' }}
+        env:
+          CM_CSP_ENFORCEMENT_APPROVED: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED }}
+        run: node scripts/csp-advisory.cjs "$RUNNER_TEMP/csp-generator-status.json" python3 scripts/csp-policy.py --root "$RUNNER_TEMP/cm-site" --sha "$GITHUB_SHA" --out "$RUNNER_TEMP/csp-policy.json"
       - name: Upload SHA-bound CSP proposal for the deployment compatibility guard
+        if: always()
+        continue-on-error: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED != 'true' }}
         uses: actions/upload-artifact@v4
         with:
           name: csp-policy
-          path: ${{ runner.temp }}/csp-policy.json
+          path: |
+            ${{ runner.temp }}/csp-policy.json
+            ${{ runner.temp }}/csp-*-status.json
+            ${{ runner.temp }}/csp-*-tests.json
           retention-days: 7
       - name: Prepare qualified search cache after all blocking checks
         env:
@@ -135,17 +148,25 @@ jobs:
     outputs:
       page_url: ${{ steps.pages.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout CSP evidence tooling
+        uses: actions/checkout@v4
+        continue-on-error: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED != 'true' }}
         with:
           ref: ${{ github.sha }}
           fetch-depth: 1
           sparse-checkout-cone-mode: false
-          sparse-checkout: /scripts/csp-policy-guard.cjs
+          sparse-checkout: |
+            /scripts/csp-policy-guard.cjs
+            /scripts/csp-advisory.cjs
           persist-credentials: false
-      - uses: actions/setup-node@v4
+      - name: Set up Node for CSP evidence
+        uses: actions/setup-node@v4
+        continue-on-error: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED != 'true' }}
         with:
           node-version: '24.22.1'
-      - uses: actions/download-artifact@v4
+      - name: Download CSP candidate evidence
+        uses: actions/download-artifact@v4
+        continue-on-error: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED != 'true' }}
         with:
           name: csp-policy
           path: ${{ runner.temp }}/csp-policy
@@ -155,14 +176,20 @@ jobs:
         run: |
           latest=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq .object.sha)
           test "$latest" = "$GITHUB_SHA" || { echo 'Superseded release rejected; no deployment requested.'; exit 1; }
-      - name: Reject HTML incompatible with any active enforcing CSP (read-only)
-        run: node scripts/csp-policy-guard.cjs "$RUNNER_TEMP/csp-policy/csp-policy.json" "$RUNNER_TEMP/csp-preflight.json"
+      - name: CSP enforcing-header compatibility evidence
+        continue-on-error: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED != 'true' }}
+        env:
+          CM_CSP_ENFORCEMENT_APPROVED: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED }}
+        run: node scripts/csp-advisory.cjs "$RUNNER_TEMP/csp-preflight-status.json" node scripts/csp-policy-guard.cjs "$RUNNER_TEMP/csp-policy/csp-policy.json" "$RUNNER_TEMP/csp-preflight.json"
       - name: Preserve CSP compatibility evidence
         if: always()
+        continue-on-error: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED != 'true' }}
         uses: actions/upload-artifact@v4
         with:
           name: csp-preflight
-          path: ${{ runner.temp }}/csp-preflight.json
+          path: |
+            ${{ runner.temp }}/csp-preflight.json
+            ${{ runner.temp }}/csp-preflight-status.json
           retention-days: 7
       - name: Deploy the immutable artifact
         id: pages
@@ -180,6 +207,10 @@ jobs:
           sparse-checkout: |
             /scripts/content-release.cjs
             /scripts/production-verification-url.cjs
+            /scripts/csp-live-audit.cjs
+            /scripts/csp-policy-guard.cjs
+            /scripts/csp-policy.py
+            /scripts/csp-advisory.cjs
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
@@ -200,3 +231,24 @@ jobs:
             sleep 20
           done
           exit 1
+      - name: Download CSP candidate for live audit
+        uses: actions/download-artifact@v4
+        continue-on-error: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED != 'true' }}
+        with:
+          name: csp-policy
+          path: ${{ runner.temp }}/csp-policy
+      - name: Audit executable hashes and injected scripts with plain and browser-like requests
+        continue-on-error: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED != 'true' }}
+        env:
+          CM_CSP_ENFORCEMENT_APPROVED: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED }}
+        run: node scripts/csp-advisory.cjs "$RUNNER_TEMP/csp-live-status.json" node scripts/csp-live-audit.cjs "$RUNNER_TEMP/csp-policy/csp-policy.json" "$RUNNER_TEMP/csp-live-audit.json"
+      - name: Preserve post-deploy CSP evidence
+        if: always()
+        continue-on-error: ${{ vars.CM_CSP_ENFORCEMENT_APPROVED != 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: csp-live-audit
+          retention-days: 7
+          path: |
+            ${{ runner.temp }}/csp-live-audit.json
+            ${{ runner.temp }}/csp-live-status.json

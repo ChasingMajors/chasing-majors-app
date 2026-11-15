@@ -1,48 +1,78 @@
-name: CSP preparation proof (non-production only)
+name: Lean CSP proof (non-production only)
 on:
   push:
-    branches: [stage/csp-enforcement-prep]
+    branches: [stage/csp-lean-finish]
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
-  proof:
-    if: github.ref == 'refs/heads/stage/csp-enforcement-prep'
+  tooling:
+    if: github.ref == 'refs/heads/stage/csp-lean-finish'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.sha }}
-          fetch-depth: 1
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: '24.22.1'
-      - name: Python CSP regression tests
+      - name: Full Node regression including CSP tools
+        run: node --test tests/*.test.cjs tests/csp/*.test.cjs
+      - name: Python generator tests
         run: python3 -m unittest discover -s tests -p test_csp_policy.py
-      - name: Complete existing Node regression suite and CSP guard cases
-        run: node --test tests/*.test.cjs
-      - name: Generate exact per-page proposals from pinned HTML
+      - name: Generate SHA-bound lean policies
         run: python3 scripts/csp-policy.py --root . --sha "$GITHUB_SHA" --out "$RUNNER_TEMP/csp-policy.json"
-      - name: Audit public static headers without changing them
-        run: node scripts/csp-policy-guard.cjs "$RUNNER_TEMP/csp-policy.json" "$RUNNER_TEMP/csp-preflight.json"
-      - name: Install locked test-only browser tooling
+      - name: Capture production beacon and real font fixtures (read only)
+        run: node .github/probes/csp-browser/prepare.cjs "$RUNNER_TEMP/csp-resources"
+      - name: Public current-header evidence (advisory)
+        run: |
+          node scripts/csp-advisory.cjs "$RUNNER_TEMP/guard-status.json" node scripts/csp-policy-guard.cjs "$RUNNER_TEMP/csp-policy.json" "$RUNNER_TEMP/csp-preflight.json"
+          node scripts/csp-advisory.cjs "$RUNNER_TEMP/audit-status.json" node scripts/csp-live-audit.cjs "$RUNNER_TEMP/csp-policy.json" "$RUNNER_TEMP/csp-live-audit.json"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: csp-lean-tooling
+          retention-days: 7
+          path: |
+            ${{ runner.temp }}/csp-*.json
+            ${{ runner.temp }}/*-status.json
+            ${{ runner.temp }}/csp-resources/
+  browser:
+    needs: tooling
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        engine: [chromium, webkit, firefox]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.22.1'
+      - uses: actions/download-artifact@v4
+        with:
+          name: csp-lean-tooling
+          path: ${{ runner.temp }}/csp-input
+      - name: Install locked browser tooling
         env:
           PLAYWRIGHT_BROWSERS_PATH: ${{ runner.temp }}/csp-browsers
         run: |
           npm ci --prefix .github/probes/csp-browser --ignore-scripts --no-audit --no-fund
-          node .github/probes/csp-browser/node_modules/playwright/cli.js install --with-deps chromium
-      - name: Prove report-only versus enforcement with fully intercepted browser traffic
+          node .github/probes/csp-browser/node_modules/playwright/cli.js install --with-deps ${{ matrix.engine }}
+      - name: Prove lean policy with intercepted production integrations
         env:
           PLAYWRIGHT_BROWSERS_PATH: ${{ runner.temp }}/csp-browsers
-        run: node .github/probes/csp-browser/proof.cjs "$RUNNER_TEMP/csp-policy.json" "$RUNNER_TEMP/csp-browser-evidence" "$RUNNER_TEMP/csp-preflight.json"
+          BROWSER_ENGINE: ${{ matrix.engine }}
+        run: node .github/probes/csp-browser/proof.cjs "$RUNNER_TEMP/csp-input/csp-policy.json" "$RUNNER_TEMP/csp-browser-evidence" "$RUNNER_TEMP/csp-input/csp-resources"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: csp-preparation-proof
+          name: csp-lean-${{ matrix.engine }}
           retention-days: 7
-          path: |
-            ${{ runner.temp }}/csp-policy.json
-            ${{ runner.temp }}/csp-preflight.json
-            ${{ runner.temp }}/csp-browser-evidence/
+          path: ${{ runner.temp }}/csp-browser-evidence/

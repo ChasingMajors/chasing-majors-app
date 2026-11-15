@@ -12,11 +12,21 @@ function parse(value) {
   }
   return directives;
 }
+// Reviewed HTTPS host/path sources only; no wildcard/nonce inference.
+function sourceAllows(url, token, origin) {
+  const u = new URL(url);
+  if (token === "'self'") return u.origin === origin;
+  if (!token.startsWith('https://')) return false;
+  let source; try { source = new URL(token); } catch { return false; }
+  if (source.username || source.password || source.search || source.hash || u.origin !== source.origin) return false;
+  if (source.pathname === '/') return true;
+  return source.pathname.endsWith('/') ? u.pathname.startsWith(source.pathname) : u.pathname === source.pathname;
+}
 function compatible(value, expected) {
   const actual = parse(value), problems = [];
   for (const [name, required] of Object.entries(expected)) {
     const supplied = actual[name] || [];
-    if (required.some(token => !supplied.includes(token))) problems.push(name + ': missing required source');
+    if (required.some(token => !supplied.includes(token) && !(token.startsWith('https://') && supplied.some(s => sourceAllows(token, s, 'https://app.chasingmajors.com'))))) problems.push(name + ': missing required source');
     // Permit only exact additional hashes for a reviewed old+new transition.
     // No wildcard, unsafe script, nonce or additional origin permission is inferred.
     if (supplied.some(token => !required.includes(token) &&
@@ -60,7 +70,7 @@ async function inspect(candidate, {fetchImpl = fetch, expectedSha} = {}) {
   return {source_sha: candidate.source_sha, status: blocked ? 'BLOCKED' : 'PASS',
     scope: 'Read-only header compatibility; not browser-flow or inbound-embed acceptance', results};
 }
-module.exports = {parse, compatible, inspect};
+module.exports = {parse, compatible, inspect, sourceAllows};
 if (require.main === module) (async () => {
   const candidate = JSON.parse(fs.readFileSync(process.argv[2]));
   const result = await inspect(candidate, {expectedSha: process.env.GITHUB_SHA});
