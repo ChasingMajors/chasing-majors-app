@@ -1,0 +1,37 @@
+name: CSP preparation proof (non-production only)
+on:
+  push:
+    branches: [stage/csp-enforcement-prep]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  proof:
+    if: github.ref == 'refs/heads/stage/csp-enforcement-prep'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.22.1'
+      - name: Python CSP regression tests
+        run: python3 -m unittest discover -s tests -p test_csp_policy.py
+      - name: Complete existing Node regression suite and CSP guard cases
+        run: node --test tests/*.test.cjs
+      - name: Generate exact per-page proposals from pinned HTML
+        run: python3 scripts/csp-policy.py --root . --sha "$GITHUB_SHA" --out "$RUNNER_TEMP/csp-policy.json"
+      - name: Audit public static headers without changing them
+        run: node scripts/csp-policy-guard.cjs "$RUNNER_TEMP/csp-policy.json" "$RUNNER_TEMP/csp-preflight.json"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: csp-preparation-proof
+          retention-days: 7
+          path: |
+            ${{ runner.temp }}/csp-policy.json
+            ${{ runner.temp }}/csp-preflight.json
