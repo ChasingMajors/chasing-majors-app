@@ -9,7 +9,9 @@ jobs:
   proof:
     if: github.ref == 'refs/heads/stage/csp-enforcement-prep'
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: ${{ runner.temp }}/csp-browsers
     steps:
       - uses: actions/checkout@v4
         with:
@@ -27,6 +29,12 @@ jobs:
         run: python3 scripts/csp-policy.py --root . --sha "$GITHUB_SHA" --out "$RUNNER_TEMP/csp-policy.json"
       - name: Audit public static headers without changing them
         run: node scripts/csp-policy-guard.cjs "$RUNNER_TEMP/csp-policy.json" "$RUNNER_TEMP/csp-preflight.json"
+      - name: Install locked test-only browser tooling
+        run: |
+          npm ci --prefix .github/probes/csp-browser --ignore-scripts --no-audit --no-fund
+          node .github/probes/csp-browser/node_modules/playwright/cli.js install --with-deps chromium
+      - name: Prove report-only versus enforcement with fully intercepted browser traffic
+        run: node .github/probes/csp-browser/proof.cjs "$RUNNER_TEMP/csp-policy.json" "$RUNNER_TEMP/csp-browser-evidence"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -35,3 +43,4 @@ jobs:
           path: |
             ${{ runner.temp }}/csp-policy.json
             ${{ runner.temp }}/csp-preflight.json
+            ${{ runner.temp }}/csp-browser-evidence/

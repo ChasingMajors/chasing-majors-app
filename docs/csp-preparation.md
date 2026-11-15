@@ -60,4 +60,12 @@ it does not require catalog/D1 changes.
 
 The branch-only `csp-preparation-proof.yml` has no deploy job. It runs the complete
 Node suite, Python generator tests, deterministic proposals and read-only static
-header checks. It does not execute searches, Apps Script calls, or D1 operations.
+header checks. A locked test-only Playwright install runs Chromium on Linux. Its
+browser requests are all intercepted: actual local HTML/scripts/styles/JSON are
+served under the production origin, while API envelopes, Apps Script responses
+and Google font CSS are fixtures. No browser request is continued to a remote
+endpoint. It exercises normal local-data flows, allowed self-hosted scripts,
+disallowed inline scripts/styles under report/enforce, and same/foreign framing.
+It does not execute live searches or Apps Script calls, or access D1. A passing
+fixture does not establish a clean real-traffic window or that foreign embedding
+can safely be blocked. Font rendering is outside this fixture's acceptance.
