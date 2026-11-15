@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
 const cp = require('node:child_process');
-const {fingerprint, plan} = require('./artifact.cjs');
+const {fingerprint, plan, readDirectory} = require('./artifact.cjs');
 const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 
 function filesUnder(directory, prefix = '') {
@@ -51,14 +51,23 @@ function inputs(root) {
   const builders = filesUnder(path.join(root, 'scripts/search-query')).map(file => 'scripts/search-query/' + file);
   const consumers = ['ChatBot/config.js', 'ChatBot/utils.js', 'ChatBot/cache.js', 'ChatBot/api.js',
     'checklists/app.js', '.github/recovery/canonical-runtime.cjs'];
-  const files = [...sources, ...builders, ...consumers].sort().map(file => ({
-    path: file, sha256: hash(fs.readFileSync(path.join(root, file)))
-  }));
+  const files = [...sources, ...builders, ...consumers].sort().map(file => {
+    let bytes = fs.readFileSync(path.join(root, file));
+    const sourceJson = sources.includes(file);
+    if (sourceJson) {
+      const value = JSON.parse(bytes);
+      // Only this top-level delivery timestamp is unused by the offline builder.
+      // Nested row fields, all other metadata, references and array order stay covered.
+      if (value && typeof value === 'object' && !Array.isArray(value)) delete value.generated_at;
+      bytes = Buffer.from(JSON.stringify(value));
+    }
+    return {path: file, hash_kind: sourceJson ? 'json-without-top-level-generated_at' : 'bytes', sha256: hash(bytes)};
+  });
   // Include V8/SQLite/ICU/zlib versions as well as Node. Locale affects legacy sorting.
   const runtime = {versions: process.versions, platform: process.platform, arch: process.arch,
     locale: Intl.DateTimeFormat().resolvedOptions(), node_options: process.env.NODE_OPTIONS || ''};
-  const description = {schema_version: 1, runtime, files};
-  return {...description, fingerprint: hash(JSON.stringify(description))};
+  const description = {schema_version: 2, runtime, files};
+  return {...description, fingerprint: hash(JSON.stringify(description)), canonical_sha256: fingerprint(root)};
 }
 
 function inventory(directory) {
@@ -70,14 +79,16 @@ function inventory(directory) {
 
 function validate(root, cache, input) {
   const receipt = JSON.parse(fs.readFileSync(path.join(cache, 'receipt.json'), 'utf8'));
-  if (receipt.schema_version !== 1 || receipt.fingerprint !== input.fingerprint) throw Error('Fingerprint mismatch');
+  if (receipt.schema_version !== 2 || receipt.fingerprint !== input.fingerprint) throw Error('Fingerprint mismatch');
   const directory = path.join(cache, 'derived');
   const actual = inventory(directory);
   if (JSON.stringify(actual) !== JSON.stringify(receipt.files) || hash(JSON.stringify(actual)) !== receipt.content_sha256) {
     throw Error('Cached directory integrity mismatch');
   }
-  // Existing release qualification checks every referenced compressed and decoded shard.
-  plan(root, directory, 'cache-validation');
+  // Verify the original cache binding and every compressed/decoded shard before copying.
+  // Exact semantic input equality permits rebinding only delivery timestamps/formatting.
+  if (!/^[a-f0-9]{64}$/.test(receipt.canonical_sha256 || '')) throw Error('Invalid canonical cache binding');
+  readDirectory(directory, receipt.canonical_sha256);
   return directory;
 }
 
@@ -100,7 +111,14 @@ function run(root, work, cache) {
   try { source = validate(root, cache, input); }
   catch (error) { reason = error.code || error.message; }
   fs.mkdirSync(work, {recursive: true});
-  if (source) fs.cpSync(source, path.join(work, 'derived'), {recursive: true});
+  if (source) {
+    const directory = path.join(work, 'derived');
+    fs.cpSync(source, directory, {recursive: true});
+    const file = path.join(directory, 'index.json');
+    const metadata = JSON.parse(fs.readFileSync(file, 'utf8'));
+    metadata.canonical_sha256 = input.canonical_sha256;
+    fs.writeFileSync(file, JSON.stringify(metadata) + '\n');
+  }
   else {
     for (const script of ['build.cjs', 'grams.cjs']) {
       cp.execFileSync(process.execPath, [path.join(root, 'scripts/search-query', script)], {
@@ -108,12 +126,15 @@ function run(root, work, cache) {
       });
     }
   }
-  if (inputs(root).fingerprint !== input.fingerprint) throw Error('Search inputs changed during build/reuse');
+  const current = inputs(root);
+  if (current.fingerprint !== input.fingerprint || current.canonical_sha256 !== input.canonical_sha256) {
+    throw Error('Search inputs changed during build/reuse');
+  }
   const directory = path.join(work, 'derived');
   plan(root, directory, 'cache-validation');
   const files = inventory(directory);
-  const receipt = {schema_version: 1, fingerprint: input.fingerprint,
-    canonical_sha256: fingerprint(root), content_sha256: hash(JSON.stringify(files)), files};
+  const receipt = {schema_version: 2, fingerprint: input.fingerprint,
+    canonical_sha256: input.canonical_sha256, content_sha256: hash(JSON.stringify(files)), files};
   fs.writeFileSync(path.join(work, 'receipt.json'), JSON.stringify(receipt) + '\n');
   const result = {state: 'STAGED', mode: source ? 'reuse' : 'rebuild', reason: reason || 'exact fingerprint and verified bytes',
     fingerprint: input.fingerprint, content_sha256: receipt.content_sha256,
@@ -138,7 +159,7 @@ if (require.main === module) {
   if (mode === 'key') {
     const input = inputs(root);
     fs.writeFileSync(args[0], JSON.stringify(input, null, 2) + '\n');
-    if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, 'key=bounded-search-v1-' + input.fingerprint + '\n');
+    if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, 'key=bounded-search-v2-' + input.fingerprint + '\n');
     console.log(input.fingerprint);
   } else if (mode === 'run') run(root, path.resolve(args[0]), path.resolve(args[1]));
   else if (mode === 'save') save(root, path.resolve(args[0]), path.resolve(args[1]));

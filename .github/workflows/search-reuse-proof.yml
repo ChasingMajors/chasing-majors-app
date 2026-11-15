@@ -13,6 +13,8 @@ jobs:
     if: github.ref == 'refs/heads/stage/search-artifact-reuse'
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    outputs:
+      search_key: ${{ steps.search-inputs.outputs.key }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -104,3 +106,58 @@ jobs:
           path: |
             ${{ runner.temp }}/cm-site/data/publish-release.json
             ${{ runner.temp }}/search-reuse-proof.json
+  transport:
+    needs: refresh
+    if: github.ref == 'refs/heads/stage/search-artifact-reuse'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.22.1'
+      - name: Regenerate canonical release with another fixture timestamp
+        run: |
+          node <<'NODE'
+          const fs=require('node:fs'),cp=require('node:child_process');
+          const first=cp.execFileSync('git',['show','-s','--format=%cI',process.env.GITHUB_SHA],{encoding:'utf8'}).trim();
+          const stamp=new Date(Date.parse(first)+7200000).toISOString();
+          fs.appendFileSync(process.env.GITHUB_ENV,'CM_RELEASE_BUILD_TIME='+stamp+'\n');
+          cp.execFileSync(process.execPath,['scripts/build-content-release.cjs'],{stdio:'inherit',env:{...process.env,CM_RELEASE_BUILD_TIME:stamp}});
+          NODE
+      - name: Compute independent transport fingerprint
+        id: transport-inputs
+        env:
+          NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
+        run: node scripts/search-query/reuse.cjs key "$RUNNER_TEMP/transport-inputs.json"
+      - uses: actions/cache/restore@v4
+        id: restored
+        with:
+          path: ${{ runner.temp }}/cm-search-cache
+          key: ${{ needs.refresh.outputs.search_key }}
+      - name: Require remote cache hit and verify reused bytes at current binding
+        env:
+          NODE_OPTIONS: --require=${{ github.workspace }}/.github/recovery/canonical-runtime.cjs
+          CACHE_HIT: ${{ steps.restored.outputs.cache-hit }}
+          EXPECTED_KEY: ${{ needs.refresh.outputs.search_key }}
+          ACTUAL_KEY: ${{ steps.transport-inputs.outputs.key }}
+        run: |
+          node <<'NODE'
+          const assert=require('node:assert/strict'),path=require('node:path');
+          const {run}=require('./scripts/search-query/reuse.cjs');
+          assert.equal(process.env.CACHE_HIT,'true');
+          assert.equal(process.env.ACTUAL_KEY,process.env.EXPECTED_KEY);
+          const result=run(process.cwd(),path.join(process.env.RUNNER_TEMP,'cm-query-transport'),path.join(process.env.RUNNER_TEMP,'cm-search-cache'));
+          assert.equal(result.mode,'reuse');
+          NODE
+      - uses: actions/upload-artifact@v4
+        with:
+          name: search-transport-proof
+          retention-days: 7
+          path: |
+            ${{ runner.temp }}/transport-inputs.json
+            ${{ runner.temp }}/cm-query-transport/reuse-result.json

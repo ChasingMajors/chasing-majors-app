@@ -33,7 +33,11 @@ test('fingerprint covers historical shards, normalizers, builders and runtime, w
     'ChatBot/config.js', 'ChatBot/cache.js', 'ChatBot/utils.js', 'checklists/app.js',
     'scripts/search-query/grams.cjs', '.github/recovery/canonical-runtime.cjs']) {
     const target = path.join(f.root, file), bytes = fs.readFileSync(target);
-    fs.appendFileSync(target, '\n');
+    if (file.endsWith('historical.json')) {
+      const data = JSON.parse(bytes);
+      data.rows[0].player = 'Historical input change';
+      fs.writeFileSync(target, JSON.stringify(data));
+    } else fs.appendFileSync(target, '\n');
     assert.notEqual(inputs(f.root).fingerprint, baseline, file);
     fs.writeFileSync(target, bytes);
   }
@@ -109,4 +113,27 @@ test('workflow fingerprints after canonical rebuild and saves only after blockin
   assert(!workflow.includes('restore-keys:'));
   assert(workflow.includes('actions/cache/restore@v4'));
   assert(workflow.includes('actions/cache/save@v4'));
+});
+
+test('new delivery timestamp reuses verified content with current canonical binding and forced-build parity', t => {
+  const f = fixture(t), cache = f.at('cache');
+  const first = inputs(f.root);
+  run(f.root, f.at('first-release'), cache);
+  save(f.root, f.at('first-release'), cache);
+  const file = path.join(f.source, 'baseball.json'), data = JSON.parse(fs.readFileSync(file));
+  data.generated_at = '2030-01-02T00:00:00Z';
+  fs.writeFileSync(file, JSON.stringify(data, null, 2));
+  const next = inputs(f.root);
+  assert.equal(first.fingerprint, next.fingerprint);
+  assert.notEqual(first.canonical_sha256, next.canonical_sha256);
+  assert.equal(run(f.root, f.at('next-release'), cache).mode, 'reuse');
+  assert.equal(run(f.root, f.at('next-forced'), f.at('missing-cache')).mode, 'rebuild');
+  assert.deepEqual(inventory(f.at('next-release/derived')), inventory(f.at('next-forced/derived')));
+  const artifact = require('../scripts/search-query/artifact.cjs');
+  assert.throws(() => artifact.plan(f.root, f.at('first-release/derived'), 'a'.repeat(40)), /stale or unbound/);
+  const planned = artifact.plan(f.root, f.at('next-release/derived'), 'b'.repeat(40));
+  assert.equal(JSON.parse(planned.bodies.get('data/search-query/index.json')).canonical_sha256, next.canonical_sha256);
+  data.rows[0].generated_at = 'Nested row value is a search input';
+  fs.writeFileSync(file, JSON.stringify(data));
+  assert.notEqual(inputs(f.root).fingerprint, next.fingerprint);
 });
