@@ -57,7 +57,17 @@ function expectedProducts(root,changedFiles,explicit=''){
   if(j.meta?.code&&Array.isArray(j.rows))required.add(kind+':'+j.meta.code);
  }
  if(changedFiles.some(f=>f.startsWith('data/cv-reviewed-imports/'))){const catalog=read(root,'data/cv-reviewed-imports/catalog.json');for(const p of catalog.products||[])required.add('CV:'+p.code);}
- for(const code of required)if(!/^(?:(?:CV|PRV):)?[A-Za-z0-9_.-]+$/.test(code))throw Error('Invalid expected product code');
+ // Product codes are opaque canonical identities, not URL/file slugs. Existing
+ // exports contain spaces and ampersands; never rename them for a release gate.
+ const known=new Set();
+ for(const name of ['data/v1/checklists/index.json','data/v1/vault/index.json'])if(fs.existsSync(path.join(root,name)))for(const e of read(root,name).index||[])known.add(e.Code);
+ const policyFile='data/prv-cv-identity-policy.json';if(fs.existsSync(path.join(root,policyFile)))for(const e of read(root,policyFile).catalog_products||[])known.add(e.Code);
+ for(const file of changedFiles){
+  if(!safe(file)||!fs.existsSync(path.join(root,file)))continue;
+  if(/^data\/v1\/(checklists|vault)\/products\/.*\.json$/.test(file)){const j=read(root,file);for(const [code,p]of Object.entries(j.products||{}))if(p&&Array.isArray(p.rows))known.add(code);if(j.meta?.code&&Array.isArray(j.rows))known.add(j.meta.code);}
+  if(/^data\/prv-calculations\/.*\.json$/.test(file)){const j=read(root,file);if(j.schema_version===4)known.add(j.code);}
+ }
+ for(const token of required){const code=/^(CV|PRV):/.test(token)?token.slice(token.indexOf(':')+1):token;if(typeof code!=='string'||!code||code.length>200||/[\x00-\x1f\x7f]/.test(code)||!known.has(code))throw Error('Unknown or invalid expected product code');}
  return [...required].sort();
 }
 function record(p){return {kind:p.kind,code:p.code,sport:p.sport,path:p.path,container:p.container,rows:p.product.rows.length,
