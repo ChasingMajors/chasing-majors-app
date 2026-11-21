@@ -17,7 +17,23 @@
     "odds_sha256": "7d53f1fa1535a812520a3a4611e57da0661e3d2e26536c703d0cf3802ded2ef1",
     "checklist_sha256": "067c54587e3d2c21631dcb3d2178106b62acd0ae9f93c5de5da94c722468a35b",
     "serial_reference_url": "https://www.checklistinsider.com/2026-topps-kaws-x-mlb-baseball",
-    "reviewed_date": "2026-10-16"
+    "reviewed_date": "2026-10-16",
+    "official_fact_receipts": {
+      "orange_pack_odds": {
+        "kind": "official_pack_odds",
+        "value": "1:38",
+        "state": "Verified",
+        "scope": "Topps published intended configuration: Base Orange parallel, pack odds, not actual count",
+        "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/KAWS_Odds.pdf?v=1784559267",
+        "source_sha256": "7d53f1fa1535a812520a3a4611e57da0661e3d2e26536c703d0cf3802ded2ef1",
+        "page": 1,
+        "row": "26TNKB - BASE CARDS ORANGE PARALLEL",
+        "claim_sha256": "68fe3ce55876033303d1fd9f3e50684a4c801d621bb83c28c3022ff302a1978e",
+        "assessment_sha256": "805db7b53b5246e34630714078ff5ef9229c61841e46fb55ed875f0ce5d116fb",
+        "asserts_actual_packed_count": false,
+        "note": "Verifies published intended-configuration odds only. Does not verify existing calculated print runs or serial assumptions."
+      }
+    }
   },
   "method": {
     "calibration": "Median of three reviewed non-autograph base serial tiers: Orange /25, Black /10 and Red /5. Conditional on the stated serial ceilings substantially reaching packs for all 60 base cards. Odds frequency is interpreted as one eligible parallel/insert per hit. Not manufacturer-confirmed production; rounding and shared reserve/subject omissions can bias estimates.",
