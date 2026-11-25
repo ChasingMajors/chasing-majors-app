@@ -9247,6 +9247,20 @@
         "Quad Autographs": 1
       },
       "content_sha256": "c4bd74e607a297d7c76eae179cc541b964f0e91b729e94f8e6728750bc046122"
+    },
+    {
+      "code": "2018_Topps_Chrome_Update",
+      "file": "2018_Topps_Chrome_Update.json",
+      "mode": "fill_empty",
+      "sport": "baseball",
+      "expected_rows": 177,
+      "expected_subset_counts": {
+        "CHROME BASEBALL UPDATE SERIES": 100,
+        "AN INTERNATIONAL AFFAIR": 20,
+        "AN INTERNATIONAL AFFAIR AUTOGRAPH PARALLEL": 10,
+        "CHROME BASEBALL UPDATE SERIES AUTOGRAPH PARALLEL": 47
+      },
+      "content_sha256": "2aef722454f856d24d9854776714a246d353bc3c6d4ac9c4bb4c5baac89d4c88"
     }
   ],
   "patches": [
