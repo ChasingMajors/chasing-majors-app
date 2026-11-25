@@ -3,7 +3,7 @@
   "sport": "baseball",
   "kind": "checklist_products",
   "source": "Product-scoped approved import publish",
-  "generated_at": "2026-10-31T01:13:42.122Z",
+  "generated_at": "2026-11-25T13:30:43.804Z",
   "products": {
     "2026_topps_five_star_baseball": {
       "ok": true,
@@ -17,7 +17,7 @@
         "product": "Five Star",
         "sport": "baseball",
         "content_sha256": "a02ee663b3d77c7280b537f4f6d88266e057783ab2f09786bb18aad556e25054",
-        "release_id": "b886a2fc-f62f-41a9-a41b-d34df89a2466"
+        "release_id": "b8e95037-02c5-4d33-a350-9bc1d0985bdf"
       },
       "rows": [
         {
