@@ -9315,6 +9315,24 @@
         "1952 BOWMAN FOOTBALL AUTOGRAPH PARALLEL": 15
       },
       "content_sha256": "59c056e794bbd335f1ed95fe3d6965379395901f7a50a69917af0a6dd883654b"
+    },
+    {
+      "code": "2022_23_topps_overtime_elite_chrome_basketball",
+      "file": "2022_23_topps_overtime_elite_chrome_basketball.json",
+      "mode": "fill_empty",
+      "sport": "basketball",
+      "expected_rows": 305,
+      "expected_subset_counts": {
+        "BASE CARDS": 100,
+        "BASE CARD IMAGE VARIATIONS": 16,
+        "OTE CLASS OF": 30,
+        "HURRICANE": 15,
+        "1972 TOPPS BASKETBALL": 25,
+        "SUPERFLY": 15,
+        "TOPPS CHROME EXPOSE": 30,
+        "CHROME AUTOGRAPHS VARIATION": 74
+      },
+      "content_sha256": "c9e80d13c17b87fa78f5e6c73094843d1767b63b9b1f127be25ba8585face77c"
     }
   ],
   "patches": [
