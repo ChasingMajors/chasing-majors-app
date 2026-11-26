@@ -7,9 +7,16 @@ function standardize(records,cv,policy={}) {
  const catalog=(policy.catalog_products||[]).map(c=>({...c,cv_indexed:false}));
  for(const c of catalog){
   if(!c.identity_only||!/^https:\/\//.test(c.source_url||'')||['Code',...fields].some(k=>!text(c[k])))throw Error('Unreviewed catalog-only identity');
-  if(cv.some(e=>e.Code===c.Code)||catalog.filter(e=>e.Code===c.Code).length!==1)throw Error('Catalog-only identity duplicates CV or another catalog record');
+  if(catalog.filter(e=>e.Code===c.Code).length!==1)throw Error('Catalog-only identity duplicates CV or another catalog record');
  }
- const registry=cv.map(c=>({...c,cv_indexed:true})).concat(catalog);
+ const promoted=new Set();
+ for(const c of catalog){
+  const matches=cv.filter(e=>e.Code===c.Code);
+  if(!matches.length)continue;
+  if(matches.length!==1||['Code',...fields].some(k=>text(matches[0][k])!==text(c[k])))throw Error('Catalog-to-CV promotion has conflicting identity');
+  promoted.add(c.Code);
+ }
+ const registry=cv.map(c=>({...c,cv_indexed:true})).concat(catalog.filter(c=>!promoted.has(c.Code)));
  const reviews=policy.reviewed_mappings||[];
  if(new Set(reviews.map(r=>r.source.Code)).size!==reviews.length)throw Error('Duplicate reviewed identity source');
  function approved(entry){

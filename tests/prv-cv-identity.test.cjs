@@ -39,14 +39,36 @@ test('reviewed catalog identities preserve actual CV absence and can correct spo
  assert.equal(out.records[0].entry.Code,'new');assert.equal(out.records[0].entry.sport,'non-sport');assert.equal(out.records[0].entry.cv_indexed,false);
  assert.deepEqual(out.report.catalog_only,['new']);assert.equal(out.registry[0].identity_only,true);
  const changed=record();changed.entry.year='2027';assert.equal(standardize([changed],[],policy).report.held.length,1);
- assert.throws(()=>standardize([source],[target],policy),/duplicates CV/);
+ assert.equal(standardize([source],[target],policy).records[0].entry.cv_indexed,true);
 });
 test('all reviewed targets exist once and a distinct Cactus Jack edition is never merged with All-Star',()=>{
  const policy=JSON.parse(fs.readFileSync('data/prv-cv-identity-policy.json'));
  const cvIndex=JSON.parse(fs.readFileSync('data/v1/checklists/index.json')).index;
- const registry=cvIndex.concat(policy.catalog_products||[]);
+ const registry=standardize([],cvIndex,policy).registry;
  for(const review of policy.reviewed_mappings||[])assert.equal(registry.filter(c=>c.Code===review.canonical_code).length,1,review.canonical_code);
  const cactus=(policy.reviewed_mappings||[]).find(r=>r.source.Code==='2025_26_topps_chrome_cactus_jack_basketball_basketball');
  assert.ok(cactus);assert.equal(cactus.canonical_code,'2025_26_topps_chrome_cactus_jack_basketball');
  assert.ok(registry.some(c=>c.Code==='2025_26_topps_chrome_cactus_jack_basketball_x_nba_all_star_game'));
+});
+test('promotion: exact catalog identity becomes CV indexed without duplicate registry entries',()=>{
+ const target={...cv,identity_only:true,source_url:'https://www.topps.com/pages/checklists'};
+ const source=record('canonical');source.entry={...cv};source.product.meta={code:'canonical',displayName:cv.DisplayName,year:cv.year,sport:cv.sport,manufacturer:cv.manufacturer,product:cv.product};
+ const before=JSON.stringify(source),out=standardize([source],[cv],{catalog_products:[target]});
+ assert.equal(out.registry.filter(e=>e.Code===cv.Code).length,1);assert.equal(out.records[0].entry.cv_indexed,true);
+ assert.deepEqual(out.records[0].product.rows,source.product.rows);assert.equal(JSON.stringify(source),before);assert.deepEqual(out.report.catalog_only,[]);
+});
+test('promotion: differing metadata, duplicate catalog identities and duplicate CV identities remain rejected',()=>{
+ const target={...cv,identity_only:true,source_url:'https://www.topps.com/pages/checklists'};
+ for(const name of ['DisplayName','sport','year','manufacturer','product'])assert.throws(()=>standardize([], [{...cv,[name]:'conflict'}],{catalog_products:[target]}),/conflicting identity/);
+ assert.throws(()=>standardize([], [cv,cv],{catalog_products:[target]}),/conflicting identity/);
+ assert.throws(()=>standardize([], [cv],{catalog_products:[target,target]}),/duplicates/);
+});
+test('promotion: adding actual Sapphire CV identity changes no numerical rows in all existing PRV products',()=>{
+ const index=JSON.parse(fs.readFileSync('data/v2/vault/index.json')).index,policy=JSON.parse(fs.readFileSync('data/prv-cv-identity-policy.json'));
+ const records=index.map(entry=>({entry,product:JSON.parse(fs.readFileSync('data/v2/vault/products/'+entry.file))}));
+ const rows=JSON.stringify(records.map(r=>r.product.rows)),sapphire=index.find(e=>e.Code==='2023_topps_chrome_sapphire_baseball');assert.ok(sapphire);
+ const cvIndex=JSON.parse(fs.readFileSync('data/v1/checklists/index.json')).index;
+ const out=standardize(records,cvIndex.filter(e=>e.Code!==sapphire.Code).concat([sapphire]),policy);
+ assert.equal(out.records.length,records.length);assert.equal(JSON.stringify(out.records.map(r=>r.product.rows)),rows);
+ assert.equal(out.records.find(r=>r.entry.Code===sapphire.Code).entry.cv_indexed,true);
 });

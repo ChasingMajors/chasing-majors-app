@@ -32,7 +32,7 @@ function prvProducts(root,structured=false){
 function validate(root,{probeInvalid=false}={}){
  const cv=read(root,'data/v1/checklists/index.json').index,policy=read(root,'data/prv-cv-identity-policy.json');
  if(!Array.isArray(cv))throw Error('CV index is not an array');
- const registry=cv.concat(policy.catalog_products||[]),seen=new Set();
+ const registry=require('../shared/prv-cv-identity.cjs').standardize([],cv,policy).registry,seen=new Set();
  if(probeInvalid)registry.push({...cv[0]}); // in-memory negative fixture; source untouched
  for(const e of registry){if(!e.Code||seen.has(e.Code))throw Error('Duplicate/missing registry identity: '+e.Code);seen.add(e.Code);}
  // Reuse the existing exact/reviewed identity rules unchanged.
