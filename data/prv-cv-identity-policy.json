@@ -141,6 +141,16 @@
       "product": "Archives Snapshots",
       "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2018-Archives-Snapshots-BB-ChecklistL.pdf",
       "identity_only": true
+    },
+    {
+      "Code": "2022_topps_gq_baseball",
+      "DisplayName": "2022 Topps GQ Baseball",
+      "year": "2022",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "GQ",
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2022GQBaseball.pdf",
+      "identity_only": true
     }
   ],
   "reviewed_mappings": [
