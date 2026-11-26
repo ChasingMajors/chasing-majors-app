@@ -9261,6 +9261,19 @@
         "CHROME BASEBALL UPDATE SERIES AUTOGRAPH PARALLEL": 47
       },
       "content_sha256": "2aef722454f856d24d9854776714a246d353bc3c6d4ac9c4bb4c5baac89d4c88"
+    },
+    {
+      "code": "2023_topps_chrome_sapphire_baseball",
+      "file": "2023_topps_chrome_sapphire_baseball.json",
+      "mode": "fill_empty",
+      "sport": "baseball",
+      "expected_rows": 670,
+      "expected_subset_counts": {
+        "SERIES 1": 330,
+        "SERIES 2": 330,
+        "TOPPS CHROME SAPPHIRE SELECTIONS": 10
+      },
+      "content_sha256": "aef536495536b824e4bf6e582fa05f4387db01e9f91f973dd27443928b97a120"
     }
   ],
   "patches": [
