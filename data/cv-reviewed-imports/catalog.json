@@ -9347,6 +9347,18 @@
         "1984 TOPPS BASEBALL CHROME CARDS AUTOGRAPH PARALLEL": 37
       },
       "content_sha256": "8a7941efa3d5b29a3e4a30996d88cdbbb6f64d7757de4e9f3f6a2ac9bcab2fb1"
+    },
+    {
+      "code": "2018_topps_archives_snapshots_baseball",
+      "file": "2018_topps_archives_snapshots_baseball.json",
+      "mode": "fill_empty",
+      "sport": "baseball",
+      "expected_rows": 86,
+      "expected_subset_counts": {
+        "ARCHIVES SNAPSHOTS": 50,
+        "ARCHIVES SNAPSHOTS AUTOGRAPH PARALLELS": 36
+      },
+      "content_sha256": "bb66a46d0ca9da153011b066b6e6e3c3e2228a6e9cedcf75406d56079292ab9f"
     }
   ],
   "patches": [

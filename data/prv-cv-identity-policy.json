@@ -131,6 +131,16 @@
       "product": "Updates Silver Pack",
       "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2019_20Topps_20Updates_20Silver_20Pack_20Checklist.pdf",
       "identity_only": true
+    },
+    {
+      "Code": "2018_topps_archives_snapshots_baseball",
+      "DisplayName": "2018 Topps Archives Snapshots Baseball",
+      "year": "2018",
+      "sport": "baseball",
+      "manufacturer": "Topps",
+      "product": "Archives Snapshots",
+      "source_url": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2018-Archives-Snapshots-BB-ChecklistL.pdf",
+      "identity_only": true
     }
   ],
   "reviewed_mappings": [
