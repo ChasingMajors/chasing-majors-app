@@ -9274,6 +9274,24 @@
         "TOPPS CHROME SAPPHIRE SELECTIONS": 10
       },
       "content_sha256": "aef536495536b824e4bf6e582fa05f4387db01e9f91f973dd27443928b97a120"
+    },
+    {
+      "code": "2025_26_topps_chrome_cactus_jack_basketball",
+      "file": "2025_26_topps_chrome_cactus_jack_basketball.json",
+      "mode": "fill_empty",
+      "sport": "basketball",
+      "expected_rows": 338,
+      "expected_subset_counts": {
+        "BASE CARDS": 100,
+        "UTOPIA HIGHLIGHTS": 40,
+        "JACKED UP": 40,
+        "LA FLAME LEGENDS": 20,
+        "ASTROVISION": 20,
+        "CACTUS MODE": 20,
+        "BASE AUTOGRAPH VARIATION": 49,
+        "CACTUS INK": 49
+      },
+      "content_sha256": "4539a79e74a84302f6e7d95c4506aeaef80ddf282dca2af7f345ab039d5686af"
     }
   ],
   "patches": [
