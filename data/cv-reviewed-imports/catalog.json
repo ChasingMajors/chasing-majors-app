@@ -9315,6 +9315,34 @@
         "1952 BOWMAN FOOTBALL AUTOGRAPH PARALLEL": 15
       },
       "content_sha256": "59c056e794bbd335f1ed95fe3d6965379395901f7a50a69917af0a6dd883654b"
+    },
+    {
+      "code": "2022_topps_gq_baseball",
+      "file": "2022_topps_gq_baseball.json",
+      "mode": "fill_empty",
+      "sport": "baseball",
+      "expected_rows": 711,
+      "expected_subset_counts": {
+        "BASE CARDS": 300,
+        "SHORT PRINTED BASE CARDS": 20,
+        "JACKIE ROBINSON DAY IMAGE VARIATIONS": 30,
+        "CITY CONNECT": 25,
+        "FIELD OF DREAMS IMAGE VARIATIONS": 10,
+        "GQ GEM MINIS": 30,
+        "CRYSTAL GAZING DIE CUT": 22,
+        "GQ CHROME CARDS": 100,
+        "GQ AUTOGRAPHS": 89,
+        "MINI ROOKIE AUTOGRAPHS": 5,
+        "GQ GEM MINI AUTOGRAPHS": 15,
+        "IMAGE VARIATION AUTOGRAPHS": 8,
+        "ASTROLOGICAL CHROME AUTOGRAPHS": 10,
+        "GQ CHROME CARDS AUTOGRAPH VARIATION": 10,
+        "AUTOGRAPH GARMENTS": 8,
+        "AUTO PATCH BOOK CARDS": 12,
+        "PULL UP SOCK AUTO RELICS": 2,
+        "AUTOGRAPHED LINEUP CARDS": 15
+      },
+      "content_sha256": "2895fdfe5296652936dde43813f0b14964d3814f2c96cdc3413b21efec5d868d"
     }
   ],
   "patches": [
