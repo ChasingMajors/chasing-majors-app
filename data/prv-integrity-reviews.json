@@ -18401,6 +18401,22 @@
           }
         }
       ]
+    },
+    {
+      "code": "2025_26_topps_chrome_black_basketball",
+      "basis": "Owner-confirmed Chrome Black Product Manager draft, 2026-11-27",
+      "source_sha256": "35d8db59d7dfcf7b3cf743b05350203169e0b2afa54943a151935f2d2e5b1a63",
+      "actions": [
+        {
+          "record_id": "2025_26_topps_chrome_black_basketball:row:3",
+          "before": {
+            "category": "Other"
+          },
+          "set": {
+            "category": "Variations"
+          }
+        }
+      ]
     }
   ]
 }
