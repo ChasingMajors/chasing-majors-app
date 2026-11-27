@@ -2,11 +2,10 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-11-27T20:28:55.018Z",
+  "generated_at": "2026-11-27T22:25:36.066Z",
   "sharded": true,
   "shards": [
-    "all-001.json",
-    "product-2025-26-topps-pristine-basketball.json"
+    "all-001.json"
   ],
   "product_map": {
     "19TFmbl": "all-001.json",
@@ -126,6 +125,7 @@
     "2026_heritage_football": "all-001.json",
     "2026_topps_holiday_baseball": "all-001.json",
     "2026_bowman_s_best_university_football": "all-001.json",
+    "2025-26_Topps_Pristine_Basketball": "all-001.json",
     "2022_topps_chrome_update_baseball": "all-001.json",
     "2022_topps_stadium_club_baseball": "all-001.json",
     "2022_topps_heritage_baseball": "all-001.json",
@@ -247,7 +247,6 @@
     "1995_96_Topps_Gallery_Basketball": "all-001.json",
     "1995_96_Ultra_Basketball": "all-001.json",
     "1995_96_Upper_Deck_Basketball": "all-001.json",
-    "2001_02_Fleer_Premium_Basketball": "all-001.json",
-    "2025-26_Topps_Pristine_Basketball": "product-2025-26-topps-pristine-basketball.json"
+    "2001_02_Fleer_Premium_Basketball": "all-001.json"
   }
 }

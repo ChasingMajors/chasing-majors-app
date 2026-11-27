@@ -2,7 +2,7 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-11-27T19:20:14.683Z",
+  "generated_at": "2026-11-27T22:25:36.066Z",
   "shard": 1,
   "shard_count": 1,
   "products": {
@@ -52114,6 +52114,180 @@
           "subSetSize": 32,
           "notes": "",
           "cmURL": "https://slabsquatch.substack.com/p/2026-bowmans-best-university-football"
+        }
+      ]
+    },
+    "2025-26_Topps_Pristine_Basketball": {
+      "ok": true,
+      "meta": {
+        "code": "2025-26_Topps_Pristine_Basketball",
+        "displayName": "2025-26 Topps Pristine Basketball",
+        "year": "2025-26",
+        "sport": "basketball",
+        "manufacturer": "Topps",
+        "product": "Pristine",
+        "cmURL": ""
+      },
+      "rows": [
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Base",
+          "setLine": "Base",
+          "printRun": 5400,
+          "serial": "",
+          "subSetSize": 150,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Base - Parallel",
+          "setLine": "Base - Refractor",
+          "printRun": 1525,
+          "serial": "",
+          "subSetSize": 150,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Base - Parallel",
+          "setLine": "Base - Paint the Arc",
+          "printRun": 665,
+          "serial": "",
+          "subSetSize": 150,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Insert",
+          "setLine": "Forever",
+          "printRun": 1750,
+          "serial": "",
+          "subSetSize": 10,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Insert",
+          "setLine": "Stacked",
+          "printRun": 1750,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Insert",
+          "setLine": "Fresh Out the Box",
+          "printRun": 1750,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Insert",
+          "setLine": "Precisionaries",
+          "printRun": 1750,
+          "serial": "",
+          "subSetSize": 30,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Insert",
+          "setLine": "Impact Frame",
+          "printRun": 1680,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Insert",
+          "setLine": "Mixtape",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 35,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Insert",
+          "setLine": "Grandmaster",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 15,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Insert",
+          "setLine": "Monogram",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 25,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Insert",
+          "setLine": "Clean Court",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Autograph",
+          "setLine": "Base Autographs",
+          "printRun": 175,
+          "serial": "",
+          "subSetSize": 58,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Autograph",
+          "setLine": "Base Rookie Autographs",
+          "printRun": 250,
+          "serial": "",
+          "subSetSize": 40,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Autograph",
+          "setLine": "Pristine Pieces Auto Relic",
+          "printRun": 60,
+          "serial": "",
+          "subSetSize": 54,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "2025-26_Topps_Pristine_Basketball",
+          "setType": "Autograph",
+          "setLine": "Pristine Pieces Rookie Auto Relic",
+          "printRun": 100,
+          "serial": "",
+          "subSetSize": 35,
+          "notes": "",
+          "cmURL": ""
         }
       ]
     },
