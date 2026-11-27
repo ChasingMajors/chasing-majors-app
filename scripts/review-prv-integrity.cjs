@@ -104,6 +104,39 @@ function review(records,catalog){
   product.display_name_review={source_name:rule.before,basis:rule.basis,source_url:rule.source_url};
   report.applied.push({code:rule.code,display_name:rule.after,source_name:rule.before});
  }
+ // Apply owner-reviewed display corrections without rewriting the source evidence.
+ for(const rule of catalog.manual_display_reviews||[]){
+  const matches=output.filter(record=>record.entry.Code===rule.code);
+  if(!matches.length)continue;
+  if(matches.length!==1){report.failed.push({code:rule.code,kind:'manual_display_review',reason:'Product is missing or ambiguous'});continue;}
+  const record=matches[0];
+  try{
+   if(typeof rule.basis!=='string'||!rule.basis.trim())throw Error('Missing display review basis');
+   if(fingerprint(record.product.rows.map(row=>row.raw))!==rule.source_sha256){
+    report.stale_reviews.push({code:rule.code,kind:'manual_display_review',reason:'Display review source changed'});continue;
+   }
+   const byId=new Map(record.product.rows.map(row=>[row.id,row]));
+   if(byId.size!==record.product.rows.length)throw Error('Duplicate display review row identity');
+   const seen=new Set(), changes=[];
+   for(const action of rule.actions){
+    const row=byId.get(action.record_id);
+    if(!row||seen.has(row.id))throw Error('Missing or repeated display review row: '+action.record_id);
+    seen.add(row.id);
+    const keys=Object.keys(action.set);
+    if(!keys.length||keys.length!==Object.keys(action.before).length||keys.some(key=>
+      !['set_name','section','category'].includes(key)||typeof action.set[key]!=='string'||
+      !action.set[key].trim()||action.before[key]!==row[key]))
+     throw Error('Invalid or stale display review fields: '+row.id);
+    changes.push({row,action});
+   }
+   for(const {row,action} of changes){
+    Object.assign(row,action.set);
+    report.applied.push({code:rule.code,id:row.id,display_set:action.set,basis:rule.basis});
+   }
+  }catch(err){
+   report.failed.push({code:rule.code,reason:err.message,kind:'manual_display_review'});
+  }
+ }
  for(const {entry,product} of output){
   quality(product,entry.Code);
   for(const r of product.rows){

@@ -11534,5 +11534,6873 @@
       "source_url": "https://app.chasingmajors.com/checklists/?code=2026_bowman_chrome_sapphire_baseball&type=product",
       "basis": "Exact product-code match across CV and PRV. Standardize only the sport suffix or apostrophe; preserve all source measurements and identifiers."
     }
+  ],
+  "manual_display_reviews": [
+    {
+      "code": "2025_26_bowman_basketball",
+      "basis": "Owner-approved Product Manager draft, 2026-11-27",
+      "source_sha256": "426f8811d8a6c7954192161d5daa57d678780f7c4c914890cb12d5eeefa0c38c",
+      "actions": [
+        {
+          "record_id": "2025_26_bowman_basketball:row:2",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:3",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:4",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:5",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:6",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:7",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:8",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:9",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:10",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:11",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:12",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:13",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:76",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:77",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:78",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:79",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:80",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:81",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:82",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:83",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:84",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:85",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:86",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:87",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:14",
+          "before": {
+            "category": "Other"
+          },
+          "set": {
+            "category": "Variation"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:15",
+          "before": {
+            "category": "Other"
+          },
+          "set": {
+            "category": "Variation"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:16",
+          "before": {
+            "category": "Other"
+          },
+          "set": {
+            "category": "Variation"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:17",
+          "before": {
+            "category": "Other"
+          },
+          "set": {
+            "category": "Variation"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:18",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:19",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:20",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:21",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:22",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:23",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:24",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:25",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:26",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:27",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:28",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:29",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:30",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:31",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:32",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:33",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:34",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:35",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:36",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:37",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:38",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:39",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:40",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:41",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:42",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:43",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:44",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:45",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:46",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:47",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:48",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:49",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:50",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:51",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:52",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:53",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:54",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:55",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:56",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:57",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:58",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:59",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:60",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:61",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:62",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:63",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:64",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:65",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:66",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:67",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:68",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:69",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:70",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:71",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:72",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:73",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:74",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:88",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:89",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:90",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:91",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:92",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:93",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:94",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:95",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:96",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:97",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:98",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:99",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:100",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:101",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:102",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:103",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:104",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:105",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:106",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:107",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:108",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:109",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:110",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:111",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:112",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:113",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:114",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:115",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:116",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:117",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:118",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:119",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:120",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:121",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:122",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:123",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:124",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:125",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:126",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:127",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:128",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:129",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:130",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:131",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:132",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:133",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:134",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:135",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:136",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:137",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:139",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:140",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:141",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:142",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:143",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:144",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:145",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:146",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:147",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:148",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:149",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:150",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:151",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:152",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:153",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:154",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:155",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:156",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:157",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:158",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:159",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:160",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:161",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:162",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:163",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:164",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:165",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:166",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:167",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:168",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:169",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:170",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:171",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:172",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:173",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:174",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:175",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:177",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:178",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:179",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:180",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:181",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:182",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:183",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:184",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:185",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:186",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:187",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:188",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:189",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:190",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:191",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:192",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:193",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:194",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:195",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:196",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:197",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:198",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:199",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:200",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:201",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:202",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:203",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:204",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:205",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:206",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:207",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:208",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:209",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:210",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:211",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:214",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:215",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:216",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:217",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:218",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:220",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:221",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:222",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:223",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:224",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:226",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:227",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:228",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:229",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:230",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:232",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:233",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:234",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:235",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:236",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:237",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:239",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:240",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:241",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:242",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:243",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:245",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:246",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:247",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:249",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:250",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:251",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:252",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:253",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:255",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:256",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:257",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:259",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:260",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:261",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:263",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:264",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:266",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:267",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:269",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:270",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:271",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:272",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:274",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:275",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:276",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:277",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:278",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:279",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:280",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:281",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:282",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:283",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:284",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:285",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:286",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:287",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:288",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:290",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:291",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:292",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:293",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:295",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:296",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:297",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:298",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:300",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:301",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:302",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:303",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:304",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:305",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:306",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:307",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:308",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:309",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:310",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:311",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:312",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:313",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:314",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:316",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:317",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:318",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:319",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:320",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:321",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:322",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:323",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:324",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:325",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:327",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:328",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:329",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:330",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:332",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:333",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:334",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:335",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:336",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:337",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:338",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:339",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:340",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:341",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:343",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:344",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:345",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:346",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:348",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:349",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:350",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:351",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:352",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:353",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:354",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:355",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:357",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:358",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:359",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:360",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:361",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:362",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:363",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:364",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:371",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:372",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:373",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:374",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:375",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:376",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:377",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:378",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:379",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:380",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:381",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:382",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:383",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:384",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:385",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:387",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:388",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:389",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:390",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:391",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:392",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:393",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:394",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:395",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:396",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:397",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:398",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:399",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:400",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:401",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:403",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:404",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:405",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:406",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:407",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:408",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:409",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:410",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:411",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:412",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:413",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:414",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:415",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:416",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:417",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:419",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:420",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:421",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:422",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:423",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:424",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:425",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:426",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:427",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:428",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:429",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:430",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:431",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:432",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:433",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:435",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:436",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:437",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:438",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:439",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:440",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:441",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:442",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:443",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:444",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:445",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:446",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:447",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:448",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:449",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:366",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variations",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:367",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variations",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:368",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variations",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:369",
+          "before": {
+            "category": "Other",
+            "section": "Variation"
+          },
+          "set": {
+            "category": "Variations",
+            "section": "Variation -Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:254",
+          "before": {
+            "set_name": "Anime - NBA — Black Refractor"
+          },
+          "set": {
+            "set_name": "Anime - NBA"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:258",
+          "before": {
+            "set_name": "Anime - NIL — Black Refractor"
+          },
+          "set": {
+            "set_name": "Anime - NIL"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:262",
+          "before": {
+            "set_name": "Bowman GPK - NBA — Red Refractor"
+          },
+          "set": {
+            "set_name": "Bowman GPK - NBA"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:265",
+          "before": {
+            "set_name": "Bowman GPK - NIL — Red Refractor"
+          },
+          "set": {
+            "set_name": "Bowman GPK - NIL"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:268",
+          "before": {
+            "set_name": "Bowman Spotlights - NBA — Red Refractor"
+          },
+          "set": {
+            "set_name": "Bowman Spotlights - NBA"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:347",
+          "before": {
+            "set_name": "Mega Rookies — Blue Mojo"
+          },
+          "set": {
+            "set_name": "Mega Rookies"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:356",
+          "before": {
+            "set_name": "Mega Prospects — Blue Mojo"
+          },
+          "set": {
+            "set_name": "Mega Prospects"
+          }
+        },
+        {
+          "record_id": "2025_26_bowman_basketball:row:365",
+          "before": {
+            "category": "Other",
+            "set_name": "RetroFractor — Gold Refractor"
+          },
+          "set": {
+            "category": "Variations",
+            "set_name": "RetroFractor"
+          }
+        }
+      ]
+    },
+    {
+      "code": "2025_26_topps_basketball",
+      "basis": "Owner-approved Product Manager draft, 2026-11-27",
+      "source_sha256": "f304ac1b135d9a6e90de63daa1b53457a7fcde7e8d59c97c5ead113460b7fc68",
+      "actions": [
+        {
+          "record_id": "2025_26_topps_basketball:row:2",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:3",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:4",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:5",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:6",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:7",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:8",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:9",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:10",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:11",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:12",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:13",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:14",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:15",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:16",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:17",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:18",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:19",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:20",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:21",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:22",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:23",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:24",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:25",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:26",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:27",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:28",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:29",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:30",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:31",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:32",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:33",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:34",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:35",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:36",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:37",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:38",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:39",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:40",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:41",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:42",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:43",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:44",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:45",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:46",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:47",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:48",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:49",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:50",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:51",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:52",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:53",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:54",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:55",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:56",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:57",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:58",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:336",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:59",
+          "before": {
+            "category": "Base",
+            "section": "Base"
+          },
+          "set": {
+            "category": "Inserts",
+            "section": "Insert"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:60",
+          "before": {
+            "category": "Base",
+            "section": "Base"
+          },
+          "set": {
+            "category": "Inserts",
+            "section": "Insert"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:61",
+          "before": {
+            "category": "Base",
+            "section": "Base"
+          },
+          "set": {
+            "category": "Inserts",
+            "section": "Insert"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:62",
+          "before": {
+            "category": "Base",
+            "section": "Base"
+          },
+          "set": {
+            "category": "Inserts",
+            "section": "Insert"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:63",
+          "before": {
+            "category": "Base",
+            "section": "Base"
+          },
+          "set": {
+            "category": "Variation",
+            "section": "Variation"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:65",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:66",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:67",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:68",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:69",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:71",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:72",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:73",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:74",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:75",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:77",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:78",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:79",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:80",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:81",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:82",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:83",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:85",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:86",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:87",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:88",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:89",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:90",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:91",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:93",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:94",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:95",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:96",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:97",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:98",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:99",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:101",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:102",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:104",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:105",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:106",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:107",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:109",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:110",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:111",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:112",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:113",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:114",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:115",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:117",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:118",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:119",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:120",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:121",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:122",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:123",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:125",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:126",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:128",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:130",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:131",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:132",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:133",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:134",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:136",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:137",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:138",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:139",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:140",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:142",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:143",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:145",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:146",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:148",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:149",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:151",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:152",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:153",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:154",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:155",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:163",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:171",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:179",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:187",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:203",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:209",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:215",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:156",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:157",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:158",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:159",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:160",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:161",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:162",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:164",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:165",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:166",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:167",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:168",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:169",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:170",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:172",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:173",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:174",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:175",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:176",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:177",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:178",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:180",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:181",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:182",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:183",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:184",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:185",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:186",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:188",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:189",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:190",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:191",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:192",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:193",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:194",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:196",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:197",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:198",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:199",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:200",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:201",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:202",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:204",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:205",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:206",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:207",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:208",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:210",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:211",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:212",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:213",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:214",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:216",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:217",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:218",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:219",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:220",
+          "before": {
+            "section": "Memorabilia"
+          },
+          "set": {
+            "section": "Relic - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:222",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:223",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:224",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:225",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:226",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:227",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:229",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:230",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:231",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:232",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:233",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:234",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:236",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:237",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:238",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:239",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:240",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:241",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:243",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:244",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:245",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:246",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:247",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:248",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:249",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:250",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:251",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:253",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:254",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:255",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:256",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:257",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:258",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:259",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:260",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:261",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:263",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:264",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:265",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:266",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:267",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:268",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:269",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:270",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:271",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:273",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:274",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:275",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:276",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:277",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:278",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:279",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:280",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:281",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:283",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:284",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:285",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:286",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:287",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:288",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:289",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:290",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:291",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:293",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:294",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:295",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:296",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:297",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:298",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:299",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:300",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:301",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:303",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:304",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:305",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:306",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:307",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:308",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:309",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:310",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:311",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:313",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:314",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:315",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:316",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:317",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:318",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:319",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:320",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:321",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:323",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:324",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:325",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:326",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:327",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:329",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:330",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:331",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:332",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:333",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:334",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:row:335",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:checklist-size:base-player-number-variation",
+          "before": {
+            "category": "Checklist sizes",
+            "section": "Checklist"
+          },
+          "set": {
+            "category": "Base",
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:checklist-size:1980-81-topps-chrome-basketball-veteran-autographs",
+          "before": {
+            "category": "Checklist sizes",
+            "section": "Checklist"
+          },
+          "set": {
+            "category": "Autographs",
+            "section": "Autograph"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:checklist-size:1980-81-topps-chrome-rookie-autographs",
+          "before": {
+            "category": "Checklist sizes",
+            "section": "Checklist"
+          },
+          "set": {
+            "category": "Autographs",
+            "section": "Autograph"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:checklist-size:1980-81-topps-chrome-basketball",
+          "before": {
+            "category": "Checklist sizes",
+            "section": "Checklist"
+          },
+          "set": {
+            "category": "Inserts",
+            "section": "Insert"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:checklist-size:social-media-follow-back-redemptions",
+          "before": {
+            "category": "Checklist sizes",
+            "section": "Checklist"
+          },
+          "set": {
+            "category": "Other",
+            "section": "Other"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_basketball:checklist-size:fanatics-authentic-redemptions",
+          "before": {
+            "category": "Checklist sizes",
+            "section": "Checklist"
+          },
+          "set": {
+            "category": "Other",
+            "section": "Other"
+          }
+        }
+      ]
+    }
   ]
 }
