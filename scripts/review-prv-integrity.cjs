@@ -18,6 +18,11 @@ function quality(product,code){
  product.quality={...product.quality,records:product.rows.length,flagged_records:product.rows.filter(r=>r.issues.length).length};
  return product;
 }
+function isFrozenfractorLimit(row,value){
+ const signed=/^\/\s*-(\d+)$/.exec(row.raw?.serial);
+ return row.serial_limit===null && /frozenfractor/i.test(row.set_name) && signed!==null &&
+  Number.isSafeInteger(value) && value>0 && Number(signed[1])===value;
+}
 function review(records,catalog){
  const report={schema_version:1,applied:[],stale_reviews:[],quarantined:[],unresolved:[],failed:[]},aliases={};
  const output=[];
@@ -124,8 +129,9 @@ function review(records,catalog){
     seen.add(row.id);
     const keys=Object.keys(action.set);
     if(!keys.length||keys.length!==Object.keys(action.before).length||keys.some(key=>
-      !['set_name','section','category'].includes(key)||typeof action.set[key]!=='string'||
-      !action.set[key].trim()||action.before[key]!==row[key]))
+      action.before[key]!==row[key]||(key==='serial_limit'
+       ? !isFrozenfractorLimit(row,action.set[key])
+       : !['set_name','section','category'].includes(key)||typeof action.set[key]!=='string'||!action.set[key].trim())))
      throw Error('Invalid or stale display review fields: '+row.id);
     changes.push({row,action});
    }
