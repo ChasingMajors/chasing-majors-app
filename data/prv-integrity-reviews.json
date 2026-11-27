@@ -24448,6 +24448,928 @@
           }
         }
       ]
+    },
+    {
+      "code": "2025_26_topps_chrome_update_basketball",
+      "basis": "Owner-reviewed Product Manager draft, 2026-11-27",
+      "source_sha256": "e938ec50f28c98ebbab9008ff1b8f93c0091156bfdb5eb094ed905b0c0275b1c",
+      "actions": [
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:1",
+          "before": {
+            "section": "Parallel",
+            "category": "Parallels"
+          },
+          "set": {
+            "section": "Base - Parallel",
+            "category": "Base"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:2",
+          "before": {
+            "section": "Parallel",
+            "category": "Parallels"
+          },
+          "set": {
+            "section": "Base - Parallel",
+            "category": "Base"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:3",
+          "before": {
+            "section": "Parallel",
+            "category": "Parallels"
+          },
+          "set": {
+            "section": "Base - Parallel",
+            "category": "Base"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:4",
+          "before": {
+            "section": "Parallel",
+            "category": "Parallels"
+          },
+          "set": {
+            "section": "Base - Parallel",
+            "category": "Base"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:5",
+          "before": {
+            "section": "Parallel",
+            "category": "Parallels"
+          },
+          "set": {
+            "section": "Base - Parallel",
+            "category": "Base"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:6",
+          "before": {
+            "section": "Parallel",
+            "category": "Parallels"
+          },
+          "set": {
+            "section": "Base - Parallel",
+            "category": "Base"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:7",
+          "before": {
+            "section": "Parallel",
+            "category": "Parallels"
+          },
+          "set": {
+            "section": "Base - Parallel",
+            "category": "Base"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:8",
+          "before": {
+            "section": "Parallel",
+            "category": "Parallels"
+          },
+          "set": {
+            "section": "Base - Parallel",
+            "category": "Base"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:9",
+          "before": {
+            "section": "Parallel",
+            "category": "Parallels"
+          },
+          "set": {
+            "section": "Base - Parallel",
+            "category": "Base"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:10",
+          "before": {
+            "section": "Parallel",
+            "category": "Parallels"
+          },
+          "set": {
+            "section": "Base - Parallel",
+            "category": "Base"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:11",
+          "before": {
+            "section": "Parallel",
+            "category": "Parallels"
+          },
+          "set": {
+            "section": "Variation",
+            "category": "Variations"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:13",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:14",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:16",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:17",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:19",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:20",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:22",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:23",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:25",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:26",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:28",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:29",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:31",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:32",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:34",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:35",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:37",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:38",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:40",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_chrome_update_basketball:row:41",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        }
+      ]
+    },
+    {
+      "code": "2025_26_topps_nba_hoops_basketball",
+      "basis": "Owner-reviewed Product Manager draft, 2026-11-27",
+      "source_sha256": "6244ca2b5b9db16db23debcbb25f7c9dc332a8dace2306569a0e9e98d3458640",
+      "actions": [
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:1",
+          "before": {
+            "section": "Base",
+            "set_name": "Base — Rainbow"
+          },
+          "set": {
+            "section": "Base - Parallel",
+            "set_name": "Base — Rainbow Foil"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:2",
+          "before": {
+            "section": "Base",
+            "set_name": "Base — Pixel Burst"
+          },
+          "set": {
+            "section": "Base - Parallel",
+            "set_name": "Base — Light Burst"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:3",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:4",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:5",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:6",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:7",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:8",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:9",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:10",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:11",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:12",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:13",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:14",
+          "before": {
+            "set_name": "Base — Rainbow"
+          },
+          "set": {
+            "set_name": "Base — Fanatics"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:15",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:16",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:70",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:71",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:74",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:72",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:73",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:75",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:78",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:79",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:80",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:81",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:82",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:83",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:84",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:76",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:77",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:85",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:86",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:87",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:88",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:89",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:90",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:91",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:92",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:93",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:94",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:103",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:112",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:95",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:104",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:113",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:96",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:97",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:98",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:99",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:100",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:101",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:102",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:105",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:106",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:107",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:108",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:109",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:110",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:111",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:114",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:115",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:116",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:117",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:118",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:119",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_nba_hoops_basketball:row:120",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        }
+      ]
     }
   ]
 }
