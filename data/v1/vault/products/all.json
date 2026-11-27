@@ -2,10 +2,11 @@
   "ok": true,
   "kind": "vault_products",
   "source": "Print Run Vault spreadsheet",
-  "generated_at": "2026-11-27T19:20:14.683Z",
+  "generated_at": "2026-11-27T20:28:55.018Z",
   "sharded": true,
   "shards": [
-    "all-001.json"
+    "all-001.json",
+    "product-2025-26-topps-pristine-basketball.json"
   ],
   "product_map": {
     "19TFmbl": "all-001.json",
@@ -246,6 +247,7 @@
     "1995_96_Topps_Gallery_Basketball": "all-001.json",
     "1995_96_Ultra_Basketball": "all-001.json",
     "1995_96_Upper_Deck_Basketball": "all-001.json",
-    "2001_02_Fleer_Premium_Basketball": "all-001.json"
+    "2001_02_Fleer_Premium_Basketball": "all-001.json",
+    "2025-26_Topps_Pristine_Basketball": "product-2025-26-topps-pristine-basketball.json"
   }
 }
