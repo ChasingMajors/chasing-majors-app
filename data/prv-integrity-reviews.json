@@ -22659,6 +22659,1795 @@
           }
         }
       ]
+    },
+    {
+      "code": "2025_26_topps_finest_basketball",
+      "basis": "Owner-reviewed Product Manager draft, 2026-11-27",
+      "source_sha256": "2cee10fc871f8f4541a1154e713c4970252ccf8919856c432ba9271794d7387e",
+      "actions": [
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:2",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:3",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:4",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:5",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:6",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:7",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:8",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:9",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:10",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:11",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:12",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:13",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:14",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:15",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:16",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:17",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:18",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:19",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:20",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:22",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:23",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:24",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:25",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:26",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:27",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:28",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:29",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:30",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:31",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:32",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:33",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:34",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:35",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:36",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:37",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:38",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:39",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:40",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:41",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:43",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:44",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:45",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:46",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:47",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:48",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:49",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:50",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:51",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:52",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:53",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:54",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:55",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:56",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:58",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:59",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:60",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:61",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:62",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:63",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:64",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:65",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:66",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:67",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:68",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:69",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:70",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:71",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:73",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:74",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:75",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:76",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:77",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:78",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:79",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:80",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:81",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:82",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:83",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:84",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:85",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:86",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:88",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:89",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:90",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:91",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:92",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:93",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:94",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:95",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:96",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:97",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:98",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:99",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:100",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:101",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:103",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:104",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:105",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:106",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:107",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:108",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:109",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:111",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:112",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:113",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:114",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:115",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:116",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:117",
+          "before": {
+            "section": "Autograph"
+          },
+          "set": {
+            "section": "Autograph - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:119",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:120",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:121",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:122",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:123",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:124",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:125",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:126",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:127",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:128",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:129",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:130",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:131",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:132",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:133",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:134",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:136",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:137",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:138",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:139",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:140",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:141",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:142",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:143",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:144",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:145",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:146",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:147",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:148",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:149",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:150",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:151",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:153",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:154",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:155",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:156",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:157",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:158",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:159",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:160",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:161",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:162",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:163",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:164",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:165",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:166",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:167",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:168",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:170",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:171",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:172",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:173",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:174",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:175",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:176",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:177",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:178",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:179",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:180",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:181",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:182",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:183",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:184",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:185",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:187",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:188",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:189",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:190",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:191",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:192",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:193",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:194",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:195",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:196",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:197",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:198",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:199",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:200",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:201",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:202",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:203",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:204",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:205",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:206",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:207",
+          "before": {
+            "section": "Base"
+          },
+          "set": {
+            "section": "Base - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:209",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:211",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:213",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        },
+        {
+          "record_id": "2025_26_topps_finest_basketball:row:215",
+          "before": {
+            "section": "Insert"
+          },
+          "set": {
+            "section": "Insert - Parallel"
+          }
+        }
+      ]
     }
   ]
 }

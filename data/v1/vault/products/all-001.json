@@ -10525,7 +10525,38 @@
         "product": "Chrome Sapphire",
         "cmURL": ""
       },
-      "rows": []
+      "rows": [
+        {
+          "code": "25TCSBask",
+          "setType": "Base",
+          "setLine": "Base",
+          "printRun": 950,
+          "serial": "",
+          "subSetSize": 300,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "25TCSBask",
+          "setType": "Insert",
+          "setLine": "Infinity",
+          "printRun": 25,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        },
+        {
+          "code": "25TCSBask",
+          "setType": "Insert",
+          "setLine": "Sapphire Selections",
+          "printRun": 380,
+          "serial": "",
+          "subSetSize": 20,
+          "notes": "",
+          "cmURL": ""
+        }
+      ]
     },
     "25TMIDnba": {
       "ok": true,
