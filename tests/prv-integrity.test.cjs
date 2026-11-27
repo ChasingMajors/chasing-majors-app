@@ -59,7 +59,14 @@ test('fresh exports preserve rows and skip stale positional reviews',()=>{
   assert.ok(!result.report.quarantined.some(r=>r.source_code===entry.Code));
  }
  for(const row of [...result.records.flatMap(r=>r.product.rows),...result.report.quarantined.map(q=>q.row)]){
-  const old=before.get(row.source_row_id||row.id);assert.ok(old);assert.deepEqual(row.raw,old.raw);assert.deepEqual(row.measurement,old.measurement);assert.equal(row.serial_limit,old.serial_limit);assert.equal(row.checklist_size,old.checklist_size);
+  const old=before.get(row.source_row_id||row.id);assert.ok(old);assert.deepEqual(row.raw,old.raw);assert.deepEqual(row.measurement,old.measurement);
+  const serialReview=result.report.applied.find(action=>action.id===row.id&&Object.hasOwn(action.display_set??{},'serial_limit'));
+  if(serialReview){
+   const evidence=/^\/\s*-(\d+)$/.exec(old.raw.serial);
+   assert.match(old.set_name,/Frozenfractor/i);assert.ok(evidence);assert.equal(old.serial_limit,null);
+   assert.equal(row.serial_limit,Number(evidence[1]));
+  }else assert.equal(row.serial_limit,old.serial_limit);
+  assert.equal(row.checklist_size,old.checklist_size);
  }
  for(const r of records.filter(r=>!r.product.rows.length))assert.equal(result.records.find(x=>x.entry.Code===r.entry.Code)?.product.rows.length??0,0);
 });
@@ -76,4 +83,23 @@ test('recovered source parallel labels preserve all current raw rows and measure
  ]);
  const restored=result.report.applied.filter(a=>a.set?.set_name && active.products.find(p=>p.code===a.code)?.actions.find(x=>x.position===Number(a.id.split(':').at(-1)))?.basis.startsWith('Restored omitted parallel'));
  assert.equal(restored.length,1332);
+});
+
+test('only an exact signed Frozenfractor limit can be set by a manual display review',()=>{
+ const code='fixture-product';
+ const raw={code,setType:'Base',setLine:'Base',parallel:'Frozenfractors',serial:'/-5',printRun:'',subSetSize:100};
+ function run(value,override={}){
+  const product=model.product({meta:{code},rows:[{...raw,...override}]},code);
+  const rule={code,basis:'Verified numbered parallel fixture',source_sha256:fingerprint(product.rows.map(row=>row.raw)),actions:[
+   {record_id:code+':row:1',before:{section:'Base',serial_limit:null},set:{section:'Base - Parallel',serial_limit:value}}
+  ]};
+  return review([{entry:{Code:code},product}],{products:[],manual_display_reviews:[rule]});
+ }
+ const applied=run(5);assert.equal(applied.report.failed.length,0);
+ const row=applied.records[0].product.rows[0];assert.equal(row.serial_limit,5);assert.equal(row.section,'Base - Parallel');assert.deepEqual(row.raw,raw);
+ for(const rejected of [run(6),run(5,{parallel:'Other Refractor'}),run(5,{serial:''})]){
+  assert.equal(rejected.report.failed.length,1);
+  assert.equal(rejected.records[0].product.rows[0].section,'Base');
+  assert.equal(rejected.records[0].product.rows[0].serial_limit,null);
+ }
 });
