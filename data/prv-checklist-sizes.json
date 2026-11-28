@@ -14020,6 +14020,1360 @@
         }
       ],
       "count_only_subsets": []
+    },
+    {
+      "code": "25TMIDnba",
+      "subsets": [
+        {
+          "name": "Base/Base",
+          "size": 100,
+          "card_ids": [
+            "1",
+            "10",
+            "100",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "2",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "3",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "4",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "5",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "6",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "7",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "8",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "9",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99"
+          ],
+          "source_url": "https://app.chasingmajors.com/data/v1/checklists/products/basketball-005.json",
+          "source_sha256": "fe7862369aedc19468561959e54257e698597da2bc2b443164bc36b8d6e47050"
+        },
+        {
+          "name": "Autograph/Dark Marks",
+          "size": 24,
+          "card_ids": [
+            "DM-CD",
+            "DM-CJ",
+            "DM-CL",
+            "DM-DH",
+            "DM-DM",
+            "DM-DS",
+            "DM-DW",
+            "DM-EG",
+            "DM-IH",
+            "DM-IS",
+            "DM-JH",
+            "DM-JHO",
+            "DM-JS",
+            "DM-JT",
+            "DM-JV",
+            "DM-KG",
+            "DM-MS",
+            "DM-PP",
+            "DM-QG",
+            "DM-RA",
+            "DM-RH",
+            "DM-TM",
+            "DM-TP",
+            "DM-TS"
+          ],
+          "source_url": "https://app.chasingmajors.com/data/v1/checklists/products/basketball-005.json",
+          "source_sha256": "fe7862369aedc19468561959e54257e698597da2bc2b443164bc36b8d6e47050"
+        },
+        {
+          "name": "Autograph/Dark Marks Rookies",
+          "size": 10,
+          "card_ids": [
+            "DMR-BB",
+            "DMR-CF",
+            "DMR-CL",
+            "DMR-CM",
+            "DMR-DP",
+            "DMR-JW",
+            "DMR-KJ",
+            "DMR-NE",
+            "DMR-NT",
+            "DMR-TP"
+          ],
+          "source_url": "https://app.chasingmajors.com/data/v1/checklists/products/basketball-005.json",
+          "source_sha256": "fe7862369aedc19468561959e54257e698597da2bc2b443164bc36b8d6e47050"
+        },
+        {
+          "name": "Autograph/Dark Matter Autographs",
+          "size": 22,
+          "card_ids": [
+            "DMA-AI",
+            "DMA-BBO",
+            "DMA-BH",
+            "DMA-CA",
+            "DMA-CB",
+            "DMA-DB",
+            "DMA-DT",
+            "DMA-GW",
+            "DMA-JJ",
+            "DMA-JJJ",
+            "DMA-JM",
+            "DMA-JT",
+            "DMA-LS",
+            "DMA-NB",
+            "DMA-NV",
+            "DMA-OO",
+            "DMA-RP",
+            "DMA-SB",
+            "DMA-SC",
+            "DMA-SCA",
+            "DMA-SH",
+            "DMA-TS"
+          ],
+          "source_url": "https://app.chasingmajors.com/data/v1/checklists/products/basketball-005.json",
+          "source_sha256": "fe7862369aedc19468561959e54257e698597da2bc2b443164bc36b8d6e47050"
+        },
+        {
+          "name": "Autograph/Dark Matter Rookie Autographs",
+          "size": 10,
+          "card_ids": [
+            "DMAR-AB",
+            "DMAR-DQ",
+            "DMAR-JB",
+            "DMAR-JW",
+            "DMAR-LM",
+            "DMAR-NC",
+            "DMAR-TS",
+            "DMAR-WR",
+            "DMAR-YH",
+            "DMAR-YK"
+          ],
+          "source_url": "https://app.chasingmajors.com/data/v1/checklists/products/basketball-005.json",
+          "source_sha256": "fe7862369aedc19468561959e54257e698597da2bc2b443164bc36b8d6e47050"
+        },
+        {
+          "name": "Autograph/Midngiht Oil Marks",
+          "size": 5,
+          "card_ids": [
+            "MOR-JR",
+            "MOR-KJ",
+            "MOR-KK",
+            "MOR-NE",
+            "MOR-TP"
+          ],
+          "source_url": "https://app.chasingmajors.com/data/v1/checklists/products/basketball-005.json",
+          "source_sha256": "fe7862369aedc19468561959e54257e698597da2bc2b443164bc36b8d6e47050"
+        },
+        {
+          "name": "Autograph/Midnight Oil Marks Rookies",
+          "size": 5,
+          "card_ids": [
+            "MOR-JR",
+            "MOR-KJ",
+            "MOR-KK",
+            "MOR-NE",
+            "MOR-TP"
+          ],
+          "source_url": "https://app.chasingmajors.com/data/v1/checklists/products/basketball-005.json",
+          "source_sha256": "fe7862369aedc19468561959e54257e698597da2bc2b443164bc36b8d6e47050"
+        },
+        {
+          "name": "Autograph/Midnight Sun Signatures",
+          "size": 39,
+          "card_ids": [
+            "MS-AG",
+            "MS-AH",
+            "MS-AS",
+            "MS-AW",
+            "MS-BJ",
+            "MS-CA",
+            "MS-CH",
+            "MS-CM",
+            "MS-DB",
+            "MS-DF",
+            "MS-DL",
+            "MS-DR",
+            "MS-DRO",
+            "MS-DW",
+            "MS-FV",
+            "MS-GD",
+            "MS-IC",
+            "MS-JB",
+            "MS-JG",
+            "MS-JK",
+            "MS-JT",
+            "MS-KD",
+            "MS-KG",
+            "MS-KP",
+            "MS-LB",
+            "MS-LJ",
+            "MS-MB",
+            "MS-MJ",
+            "MS-MP",
+            "MS-NT",
+            "MS-OA",
+            "MS-RD",
+            "MS-RG",
+            "MS-SO",
+            "MS-TH",
+            "MS-THA",
+            "MS-VC",
+            "MS-VW",
+            "MS-ZE"
+          ],
+          "source_url": "https://app.chasingmajors.com/data/v1/checklists/products/basketball-005.json",
+          "source_sha256": "fe7862369aedc19468561959e54257e698597da2bc2b443164bc36b8d6e47050"
+        },
+        {
+          "name": "Autograph/Midnight Sun Rookie Signatures",
+          "size": 20,
+          "card_ids": [
+            "MSR-AM",
+            "MSR-BS",
+            "MSR-CC",
+            "MSR-DQ",
+            "MSR-ED",
+            "MSR-JB",
+            "MSR-JW",
+            "MSR-KB",
+            "MSR-KJ",
+            "MSR-KJO",
+            "MSR-KM",
+            "MSR-MP",
+            "MSR-MR",
+            "MSR-NE",
+            "MSR-NP",
+            "MSR-NT",
+            "MSR-RF",
+            "MSR-SJ",
+            "MSR-TS",
+            "MSR-YH"
+          ],
+          "source_url": "https://app.chasingmajors.com/data/v1/checklists/products/basketball-005.json",
+          "source_sha256": "fe7862369aedc19468561959e54257e698597da2bc2b443164bc36b8d6e47050"
+        },
+        {
+          "name": "Autograph/Rookie Horizon Signatures",
+          "size": 40,
+          "card_ids": [
+            "RHS-AB",
+            "RHS-AM",
+            "RHS-AN",
+            "RHS-AT",
+            "RHS-BB",
+            "RHS-BS",
+            "RHS-CC",
+            "RHS-CF",
+            "RHS-CL",
+            "RHS-CM",
+            "RHS-DH",
+            "RHS-DP",
+            "RHS-DQ",
+            "RHS-DW",
+            "RHS-ED",
+            "RHS-JB",
+            "RHS-JBR",
+            "RHS-JR",
+            "RHS-JW",
+            "RHS-KB",
+            "RHS-KJ",
+            "RHS-KJO",
+            "RHS-KK",
+            "RHS-KM",
+            "RHS-LM",
+            "RHS-MP",
+            "RHS-MR",
+            "RHS-NC",
+            "RHS-NE",
+            "RHS-NP",
+            "RHS-NT",
+            "RHS-RF",
+            "RHS-RK",
+            "RHS-SJ",
+            "RHS-TP",
+            "RHS-TS",
+            "RHS-WC",
+            "RHS-WR",
+            "RHS-YH",
+            "RHS-YK"
+          ],
+          "source_url": "https://app.chasingmajors.com/data/v1/checklists/products/basketball-005.json",
+          "source_sha256": "fe7862369aedc19468561959e54257e698597da2bc2b443164bc36b8d6e47050"
+        },
+        {
+          "name": "Autograph/Stroke Of Midnight Autographs",
+          "size": 41,
+          "card_ids": [
+            "SM-AB",
+            "SM-AD",
+            "SM-AE",
+            "SM-AM",
+            "SM-AN",
+            "SM-AR",
+            "SM-BM",
+            "SM-BS",
+            "SM-CC",
+            "SM-CM",
+            "SM-CS",
+            "SM-DG",
+            "SM-DH",
+            "SM-DS",
+            "SM-DW",
+            "SM-FW",
+            "SM-GG",
+            "SM-HI",
+            "SM-JH",
+            "SM-JL",
+            "SM-JOW",
+            "SM-JP",
+            "SM-JS",
+            "SM-JW",
+            "SM-JWE",
+            "SM-KH",
+            "SM-MC",
+            "SM-MS",
+            "SM-OI",
+            "SM-PL",
+            "SM-PP",
+            "SM-PS",
+            "SM-QP",
+            "SM-RJ",
+            "SM-RJE",
+            "SM-RW",
+            "SM-TH",
+            "SM-TK",
+            "SM-TN",
+            "SM-TS",
+            "SM-ZC"
+          ],
+          "source_url": "https://app.chasingmajors.com/data/v1/checklists/products/basketball-005.json",
+          "source_sha256": "fe7862369aedc19468561959e54257e698597da2bc2b443164bc36b8d6e47050"
+        },
+        {
+          "name": "Autograph/Stroke Of Midnight Rookie Autographs",
+          "size": 21,
+          "card_ids": [
+            "SMR-AN",
+            "SMR-AT",
+            "SMR-BB",
+            "SMR-BS",
+            "SMR-CC",
+            "SMR-CL",
+            "SMR-DH",
+            "SMR-DP",
+            "SMR-DW",
+            "SMR-JB",
+            "SMR-JBR",
+            "SMR-JR",
+            "SMR-KB",
+            "SMR-KJ",
+            "SMR-KM",
+            "SMR-LM",
+            "SMR-MP",
+            "SMR-RK",
+            "SMR-SJ",
+            "SMR-WC",
+            "SMR-WR"
+          ],
+          "source_url": "https://app.chasingmajors.com/data/v1/checklists/products/basketball-005.json",
+          "source_sha256": "fe7862369aedc19468561959e54257e698597da2bc2b443164bc36b8d6e47050"
+        },
+        {
+          "name": "Autograph/Rookie Jersey Autographs",
+          "size": 35,
+          "card_ids": [
+            "RJA-AB",
+            "RJA-AM",
+            "RJA-AN",
+            "RJA-AT",
+            "RJA-BB",
+            "RJA-BS",
+            "RJA-CC",
+            "RJA-CF",
+            "RJA-CM",
+            "RJA-DH",
+            "RJA-DP",
+            "RJA-DQ",
+            "RJA-DW",
+            "RJA-ED",
+            "RJA-JB",
+            "RJA-JBR",
+            "RJA-JR",
+            "RJA-KJ",
+            "RJA-KJO",
+            "RJA-KK",
+            "RJA-KM",
+            "RJA-LM",
+            "RJA-MR",
+            "RJA-NC",
+            "RJA-NE",
+            "RJA-NP",
+            "RJA-NT",
+            "RJA-RF",
+            "RJA-RK",
+            "RJA-TP",
+            "RJA-TS",
+            "RJA-WC",
+            "RJA-WR",
+            "RJA-YH",
+            "RJA-YK"
+          ],
+          "source_url": "https://app.chasingmajors.com/data/v1/checklists/products/basketball-005.json",
+          "source_sha256": "fe7862369aedc19468561959e54257e698597da2bc2b443164bc36b8d6e47050"
+        }
+      ],
+      "rules": [
+        {
+          "name": "Base — Zodiac",
+          "subset": "Base/Base",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Base — Morning",
+          "subset": "Base/Base",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Base — Twilight",
+          "subset": "Base/Base",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Base — Dusk",
+          "subset": "Base/Base",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Base — Summer Solstice",
+          "subset": "Base/Base",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Base — Winter Solstice",
+          "subset": "Base/Base",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Base — Moon Beam",
+          "subset": "Base/Base",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Base — Moonrise",
+          "subset": "Base/Base",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Base — Equinox",
+          "subset": "Base/Base",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Base — Midnight",
+          "subset": "Base/Base",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Base — Daybreak",
+          "subset": "Base/Base",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Base — Witching Hour",
+          "subset": "Base/Base",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Base — Black Light",
+          "subset": "Base/Base",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks",
+          "subset": "Autograph/Dark Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks — Dusk",
+          "subset": "Autograph/Dark Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks — Summer Solstice",
+          "subset": "Autograph/Dark Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks — Winter Solstice",
+          "subset": "Autograph/Dark Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks — Moon Beam",
+          "subset": "Autograph/Dark Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks — Moonrise",
+          "subset": "Autograph/Dark Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks — Equinox",
+          "subset": "Autograph/Dark Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks — Midnight",
+          "subset": "Autograph/Dark Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks — Daybreak",
+          "subset": "Autograph/Dark Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks — Witching Hour",
+          "subset": "Autograph/Dark Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks — Black Light",
+          "subset": "Autograph/Dark Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks Rookies",
+          "subset": "Autograph/Dark Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks Rookies — Twilight",
+          "subset": "Autograph/Dark Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks Rookies — Dusk",
+          "subset": "Autograph/Dark Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks Rookies — Summer Solstice",
+          "subset": "Autograph/Dark Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks Rookies — Winter Solstice",
+          "subset": "Autograph/Dark Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks Rookies — Moon Beam",
+          "subset": "Autograph/Dark Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks Rookies — Moonrise",
+          "subset": "Autograph/Dark Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks Rookies — Equinox",
+          "subset": "Autograph/Dark Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks Rookies — Midnight",
+          "subset": "Autograph/Dark Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks Rookies — Daybreak",
+          "subset": "Autograph/Dark Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks Rookies — Witching Hour",
+          "subset": "Autograph/Dark Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Marks Rookies — Black Light",
+          "subset": "Autograph/Dark Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Autographs",
+          "subset": "Autograph/Dark Matter Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Autographs — Dusk",
+          "subset": "Autograph/Dark Matter Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Autographs — Summer Solstice",
+          "subset": "Autograph/Dark Matter Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Autographs — Winter Solstice",
+          "subset": "Autograph/Dark Matter Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Autographs — Moon Beam",
+          "subset": "Autograph/Dark Matter Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Autographs — Moonrise",
+          "subset": "Autograph/Dark Matter Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Autographs — Equinox",
+          "subset": "Autograph/Dark Matter Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Autographs — Midnight",
+          "subset": "Autograph/Dark Matter Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Autographs — Daybreak",
+          "subset": "Autograph/Dark Matter Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Autographs — Witching Hour",
+          "subset": "Autograph/Dark Matter Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Autographs — Black Light",
+          "subset": "Autograph/Dark Matter Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Rookie Autographs",
+          "subset": "Autograph/Dark Matter Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Rookie Autographs — Twilight",
+          "subset": "Autograph/Dark Matter Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Rookie Autographs — Dusk",
+          "subset": "Autograph/Dark Matter Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Rookie Autographs — Summer Solstice",
+          "subset": "Autograph/Dark Matter Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Rookie Autographs — Winter Solstice",
+          "subset": "Autograph/Dark Matter Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Rookie Autographs — Moon Beam",
+          "subset": "Autograph/Dark Matter Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Rookie Autographs — Moonrise",
+          "subset": "Autograph/Dark Matter Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Rookie Autographs — Equinox",
+          "subset": "Autograph/Dark Matter Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Rookie Autographs — Midnight",
+          "subset": "Autograph/Dark Matter Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Rookie Autographs — Daybreak",
+          "subset": "Autograph/Dark Matter Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Rookie Autographs — Witching Hour",
+          "subset": "Autograph/Dark Matter Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Dark Matter Rookie Autographs — Black Light",
+          "subset": "Autograph/Dark Matter Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midngiht Oil Marks",
+          "subset": "Autograph/Midngiht Oil Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midngiht Oil Marks — Dusk",
+          "subset": "Autograph/Midngiht Oil Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midngiht Oil Marks — Summer Solstice",
+          "subset": "Autograph/Midngiht Oil Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midngiht Oil Marks — Winter Solstice",
+          "subset": "Autograph/Midngiht Oil Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midngiht Oil Marks — Moon Beam",
+          "subset": "Autograph/Midngiht Oil Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midngiht Oil Marks — Moonrise",
+          "subset": "Autograph/Midngiht Oil Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midngiht Oil Marks — Equinox",
+          "subset": "Autograph/Midngiht Oil Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midngiht Oil Marks — Midnight",
+          "subset": "Autograph/Midngiht Oil Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midngiht Oil Marks — Daybreak",
+          "subset": "Autograph/Midngiht Oil Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midngiht Oil Marks — Witching Hour",
+          "subset": "Autograph/Midngiht Oil Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midngiht Oil Marks — Black Light",
+          "subset": "Autograph/Midngiht Oil Marks",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Oil Marks Rookies",
+          "subset": "Autograph/Midnight Oil Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Oil Marks Rookies — Twilight",
+          "subset": "Autograph/Midnight Oil Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Oil Marks Rookies — Dusk",
+          "subset": "Autograph/Midnight Oil Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Oil Marks Rookies — Summer Solstice",
+          "subset": "Autograph/Midnight Oil Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Oil Marks Rookies — Winter Solstice",
+          "subset": "Autograph/Midnight Oil Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Oil Marks Rookies — Moon Beam",
+          "subset": "Autograph/Midnight Oil Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Oil Marks Rookies — Moonrise",
+          "subset": "Autograph/Midnight Oil Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Oil Marks Rookies — Equinox",
+          "subset": "Autograph/Midnight Oil Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Oil Marks Rookies — Daybreak",
+          "subset": "Autograph/Midnight Oil Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Oil Marks Rookies — Witching Hour",
+          "subset": "Autograph/Midnight Oil Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Oil Marks Rookies — Black Light",
+          "subset": "Autograph/Midnight Oil Marks Rookies",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Signatures",
+          "subset": "Autograph/Midnight Sun Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Signatures — Winter Solstice",
+          "subset": "Autograph/Midnight Sun Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Signatures — Moon Beam",
+          "subset": "Autograph/Midnight Sun Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Signatures — Moonrise",
+          "subset": "Autograph/Midnight Sun Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Signatures — Equinox",
+          "subset": "Autograph/Midnight Sun Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Signatures — Daybreak",
+          "subset": "Autograph/Midnight Sun Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Signatures — Witching Hour",
+          "subset": "Autograph/Midnight Sun Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Signatures — Black Light",
+          "subset": "Autograph/Midnight Sun Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Rookie Signatures",
+          "subset": "Autograph/Midnight Sun Rookie Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Rookie Signatures — Twilight",
+          "subset": "Autograph/Midnight Sun Rookie Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Rookie Signatures — Dusk",
+          "subset": "Autograph/Midnight Sun Rookie Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Rookie Signatures — Summer Solstice",
+          "subset": "Autograph/Midnight Sun Rookie Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Rookie Signatures — Winter Solstice",
+          "subset": "Autograph/Midnight Sun Rookie Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Rookie Signatures — Moon Beam",
+          "subset": "Autograph/Midnight Sun Rookie Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Rookie Signatures — Moonrise",
+          "subset": "Autograph/Midnight Sun Rookie Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Rookie Signatures — Equinox",
+          "subset": "Autograph/Midnight Sun Rookie Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Rookie Signatures — Daybreak",
+          "subset": "Autograph/Midnight Sun Rookie Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Rookie Signatures — Witching Hour",
+          "subset": "Autograph/Midnight Sun Rookie Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Midnight Sun Rookie Signatures — Black Light",
+          "subset": "Autograph/Midnight Sun Rookie Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Horizon Signatures",
+          "subset": "Autograph/Rookie Horizon Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Horizon Signatures — Dusk",
+          "subset": "Autograph/Rookie Horizon Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Horizon Signatures — Summer Solstice",
+          "subset": "Autograph/Rookie Horizon Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Horizon Signatures — Winter Solstice",
+          "subset": "Autograph/Rookie Horizon Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Horizon Signatures — Moon Beam",
+          "subset": "Autograph/Rookie Horizon Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Horizon Signatures — Moonrise",
+          "subset": "Autograph/Rookie Horizon Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Horizon Signatures — Equinox",
+          "subset": "Autograph/Rookie Horizon Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Horizon Signatures — Midnight",
+          "subset": "Autograph/Rookie Horizon Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Horizon Signatures — Daybreak",
+          "subset": "Autograph/Rookie Horizon Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Horizon Signatures — Witching Hour",
+          "subset": "Autograph/Rookie Horizon Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Horizon Signatures — Black Light",
+          "subset": "Autograph/Rookie Horizon Signatures",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Autographs",
+          "subset": "Autograph/Stroke Of Midnight Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Autographs — Twilight",
+          "subset": "Autograph/Stroke Of Midnight Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Autographs — Dusk",
+          "subset": "Autograph/Stroke Of Midnight Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Autographs — Summer Solstice",
+          "subset": "Autograph/Stroke Of Midnight Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Autographs — Winter Solstice",
+          "subset": "Autograph/Stroke Of Midnight Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Autographs — Moon Beam",
+          "subset": "Autograph/Stroke Of Midnight Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Autographs — Moonrise",
+          "subset": "Autograph/Stroke Of Midnight Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Autographs — Equinox",
+          "subset": "Autograph/Stroke Of Midnight Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Autographs — Daybreak",
+          "subset": "Autograph/Stroke Of Midnight Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Autographs — Witching Hour",
+          "subset": "Autograph/Stroke Of Midnight Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Autographs — Black Light",
+          "subset": "Autograph/Stroke Of Midnight Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Rookie Autographs",
+          "subset": "Autograph/Stroke Of Midnight Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Rookie Autographs — Twilight",
+          "subset": "Autograph/Stroke Of Midnight Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Rookie Autographs — Dusk",
+          "subset": "Autograph/Stroke Of Midnight Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Rookie Autographs — Summer Solstice",
+          "subset": "Autograph/Stroke Of Midnight Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Rookie Autographs — Winter Solstice",
+          "subset": "Autograph/Stroke Of Midnight Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Rookie Autographs — Moon Beam",
+          "subset": "Autograph/Stroke Of Midnight Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Rookie Autographs — Moonrise",
+          "subset": "Autograph/Stroke Of Midnight Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Rookie Autographs — Equinox",
+          "subset": "Autograph/Stroke Of Midnight Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Rookie Autographs — Daybreak",
+          "subset": "Autograph/Stroke Of Midnight Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Rookie Autographs — Witching Hour",
+          "subset": "Autograph/Stroke Of Midnight Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Stroke Of Midnight Rookie Autographs — Black Light",
+          "subset": "Autograph/Stroke Of Midnight Rookie Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Jersey Autographs",
+          "subset": "Autograph/Rookie Jersey Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Jersey Autographs — Twilight",
+          "subset": "Autograph/Rookie Jersey Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Jersey Autographs — Dusk",
+          "subset": "Autograph/Rookie Jersey Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Jersey Autographs — Summer Solstice",
+          "subset": "Autograph/Rookie Jersey Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Jersey Autographs — Winter Solstice",
+          "subset": "Autograph/Rookie Jersey Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Jersey Autographs — Moon Beam",
+          "subset": "Autograph/Rookie Jersey Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Jersey Autographs — Moonrise",
+          "subset": "Autograph/Rookie Jersey Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Jersey Autographs — Equinox",
+          "subset": "Autograph/Rookie Jersey Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Jersey Autographs — Midnight",
+          "subset": "Autograph/Rookie Jersey Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Jersey Autographs — Daybreak",
+          "subset": "Autograph/Rookie Jersey Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Jersey Autographs — Witching Hour",
+          "subset": "Autograph/Rookie Jersey Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        },
+        {
+          "name": "Rookie Jersey Autographs — Black Light",
+          "subset": "Autograph/Rookie Jersey Autographs",
+          "mode": "replace_expected",
+          "expected": null
+        }
+      ],
+      "count_only_subsets": []
     }
   ]
 }
